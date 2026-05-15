@@ -2,82 +2,1055 @@
   "id": "everyday_phrases",
   "name": "Everyday Phrases",
   "language": "arabic",
-  "stories": ["meet_jeff", "meet_seth"],
+  "stories": [
+    "meet_jeff",
+    "meet_seth"
+  ],
   "pictureLessons": [],
-  "cards": [
-    { "id": "ar_ep_001", "levels": [{ "front": "Hello", "back": "مرحباً / أهلاً", "romanized": "marhaban / ahlan" }, { "front": "Hello! How are you?", "back": "مرحباً! كيف حالك؟", "romanized": "Marhaban! Kayfa halak?" }] },
-    { "id": "ar_ep_002", "levels": [{ "front": "Please", "back": "من فضلك / لو سمحت", "romanized": "min fadlak / law samaht", "grammarNote": "من فضلك (min fadlak) = please (lit. 'from your grace'). لو سمحت (law samaht) = if you would permit. Both are natural — لو سمحت is slightly softer. These forms change by gender/number: فضلك (m.), فضلك (f. = min fadlik), etc." }, { "front": "A coffee, please.", "back": "قهوة من فضلك.", "romanized": "Qahwa min fadlak." }] },
-    { "id": "ar_ep_003", "levels": [{ "front": "Thank you", "back": "شكراً", "romanized": "shukran" }, { "front": "Thank you very much.", "back": "شكراً جزيلاً.", "romanized": "Shukran jazilan." }] },
-    { "id": "ar_ep_004", "levels": [{ "front": "I want", "back": "أريد", "romanized": "urid", "grammarNote": "أريد (urid) = I want, from the verb أراد (arada). To want to do something: أريد أن + verb: أريد أن أذهب (I want to go). Very direct — soften it with من فضلك at the end." }, { "front": "I want a coffee.", "back": "أريد قهوة.", "romanized": "Urid qahwa." }] },
-    { "id": "ar_ep_005", "levels": [{ "front": "I need", "back": "أحتاج إلى", "romanized": "ahtaj ila" }, { "front": "I need help.", "back": "أحتاج إلى مساعدة.", "romanized": "Ahtaj ila musa'ada." }] },
-    { "id": "ar_ep_006", "levels": [{ "front": "My name is", "back": "اسمي", "romanized": "ismi", "grammarNote": "اسمي (ismi) = my name is (lit. 'my name'). اسم (ism) = name + ي (i) = my. Arabic possessives are suffixes on the noun: اسمك (your name), اسمه (his name), اسمها (her name). No verb needed — just say اسمي + the name." }, { "front": "My name is Khalid.", "back": "اسمي خالد.", "romanized": "Ismi Khalid." }] },
-    { "id": "ar_ep_007", "levels": [{ "front": "I", "back": "أنا", "romanized": "ana" }, { "front": "I am a student.", "back": "أنا طالب.", "romanized": "Ana talib." }] },
-    { "id": "ar_ep_008", "levels": [{ "front": "You", "back": "أنتَ / أنتِ", "romanized": "anta / anti", "grammarNote": "Arabic distinguishes gender in 'you': أنتَ (anta) = you (m.), أنتِ (anti) = you (f.). This gender distinction extends to verbs and adjectives throughout the language. When in doubt speaking to a man: anta; to a woman: anti." }, { "front": "You speak Arabic well.", "back": "أنتَ تتكلم العربية جيداً.", "romanized": "Anta tatakallam al-'arabiyya jayyidan." }] },
-    { "id": "ar_ep_009", "levels": [{ "front": "He", "back": "هو", "romanized": "huwa" }, { "front": "He is my friend.", "back": "هو صديقي.", "romanized": "Huwa sadiqi." }] },
-    { "id": "ar_ep_010", "levels": [{ "front": "She", "back": "هي", "romanized": "hiya" }, { "front": "She works here.", "back": "هي تعمل هنا.", "romanized": "Hiya ta'mal huna." }] },
-    { "id": "ar_ep_011", "levels": [{ "front": "It", "back": "هو / هي", "romanized": "huwa / hiya", "grammarNote": "Arabic has no neutral 'it' — every noun is masculine or feminine, so 'it' is هو (huwa) or هي (hiya) depending on the noun's gender. الكتاب (the book) is masculine → هو. الطاولة (the table) is feminine → هي." }, { "front": "What is this?", "back": "ما هذا؟", "romanized": "Ma hatha?" }] },
-    { "id": "ar_ep_012", "levels": [{ "front": "We", "back": "نحن", "romanized": "nahnu" }, { "front": "We live here.", "back": "نحن نعيش هنا.", "romanized": "Nahnu na'ish huna." }] },
-    { "id": "ar_ep_013", "levels": [{ "front": "They", "back": "هم / هن", "romanized": "hum / hunna", "grammarNote": "هم (hum) = they (m. or mixed group). هن (hunna) = they (f. only). In practice, هم is used for mixed or unspecified groups. Arabic also has a dual form (هما, huma) for exactly two people — unique among major world languages." }, { "front": "They eat together.", "back": "هم يأكلون معاً.", "romanized": "Hum ya'kulun ma'an." }] },
-    { "id": "ar_ep_014", "levels": [{ "front": "This", "back": "هذا / هذه", "romanized": "hatha / hathihi", "grammarNote": "هذا (hatha) = this (m.). هذه (hathihi) = this (f.). Matches the gender of the noun it refers to: هذا الكتاب (this book, m.), هذه الطاولة (this table, f.). For 'that': ذلك (thalika, m.) / تلك (tilka, f.)." }, { "front": "This book is good.", "back": "هذا الكتاب جيد.", "romanized": "Hatha al-kitab jayyid." }] },
-    { "id": "ar_ep_015", "levels": [{ "front": "That", "back": "ذلك / تلك", "romanized": "thalika / tilka" }, { "front": "That person is my friend.", "back": "ذلك الشخص صديقي.", "romanized": "Thalika ash-shakhs sadiqi." }] },
-    { "id": "ar_ep_016", "levels": [{ "front": "My", "back": "ـي", "romanized": "-i", "grammarNote": "Possession in Arabic is expressed by adding a suffix directly to the noun: كتاب (kitab, book) → كتابي (kitabi, my book). The suffix ي (i) = my. Other possessives: ك (ka/ki) = your, ه (hu) = his, ها (ha) = her." }, { "front": "My name is Khalid.", "back": "اسمي خالد.", "romanized": "Ismi Khalid." }] },
-    { "id": "ar_ep_017", "levels": [{ "front": "Who", "back": "من", "romanized": "man" }, { "front": "Who is that person?", "back": "من هذا الشخص؟", "romanized": "Man hatha ash-shakhs?" }] },
-    { "id": "ar_ep_018", "levels": [{ "front": "What", "back": "ماذا / ما", "romanized": "matha / ma" }, { "front": "What do you want?", "back": "ماذا تريد؟", "romanized": "Matha turid?" }] },
-    { "id": "ar_ep_019", "levels": [{ "front": "When", "back": "متى", "romanized": "mata" }, { "front": "When are you coming?", "back": "متى ستأتي؟", "romanized": "Mata sata'ti?" }] },
-    { "id": "ar_ep_020", "levels": [{ "front": "Where", "back": "أين", "romanized": "ayna" }, { "front": "Where is the bathroom?", "back": "أين الحمام؟", "romanized": "Ayna al-hammam?" }] },
-    { "id": "ar_ep_021", "levels": [{ "front": "Why", "back": "لماذا", "romanized": "limatha" }, { "front": "Why can't you come?", "back": "لماذا لا تستطيع المجيء؟", "romanized": "Limatha la tastati'u al-maji'?" }] },
-    { "id": "ar_ep_022", "levels": [{ "front": "How", "back": "كيف", "romanized": "kayfa" }, { "front": "How are you?", "back": "كيف حالك؟", "romanized": "Kayfa halak?" }] },
-    { "id": "ar_ep_023", "levels": [{ "front": "Good morning", "back": "صباح الخير", "romanized": "sabah al-khayr", "grammarNote": "صباح الخير (sabah al-khayr) = good morning (lit. 'morning of goodness'). The standard response is صباح النور (sabah an-nur) = 'morning of light'. مساء الخير (masa' al-khayr) = good evening, responded with مساء النور." }, { "front": "Good morning! / Morning of light!", "back": "صباح الخير! / صباح النور!", "romanized": "Sabah al-khayr! / Sabah an-nur!" }] },
-    { "id": "ar_ep_024", "levels": [{ "front": "To look for", "back": "يبحث عن / يبحث", "romanized": "yabhath 'an" }, { "front": "I'm looking for the exit.", "back": "أبحث عن المخرج.", "romanized": "Abhath 'an al-makhraj." }] },
-    { "id": "ar_ep_025", "levels": [{ "front": "Excuse me", "back": "عفواً / لو سمحت", "romanized": "'afwan / law samaht", "grammarNote": "عفواً ('afwan) = excuse me (getting attention) or 'you're welcome' (responding to thanks) — the same word does both. لو سمحت (law samaht) = if you please, before a request. A very versatile pair." }, { "front": "Excuse me, where is the main street?", "back": "عفواً، أين الشارع الرئيسي؟", "romanized": "'Afwan, ayna ash-shari' ar-ra'isi?" }] },
-    { "id": "ar_ep_026", "levels": [{ "front": "To be able to / can", "back": "يستطيع / يمكن", "romanized": "yastati' / yumkin", "grammarNote": "يمكن (yumkin) + أن + verb = it is possible to: يمكنني أن أساعدك (I can help you). يستطيع (yastati') = to be able to. هل يمكنك...؟ (can you...?) is a very natural and polite way to make a request." }, { "front": "Can you help me?", "back": "هل يمكنك مساعدتي؟", "romanized": "Hal yumkinuka musa'adati?" }] },
-    { "id": "ar_ep_027", "levels": [{ "front": "I don't know", "back": "لا أعرف", "romanized": "la a'rif" }, { "front": "I don't know where it is.", "back": "لا أعرف أين هو.", "romanized": "La a'rif ayna huwa." }] },
-    { "id": "ar_ep_028", "levels": [{ "front": "To have", "back": "عندي / لديّ", "romanized": "'indi / ladayya", "grammarNote": "Arabic has no verb 'to have'. Possession is expressed with عند ('inda, lit. 'at') or لدى (lada, lit. 'with/beside') + pronoun suffix: عندي (I have), عندك (you have), عنده (he has). عندي وقت = I have time (lit. 'at me is time')." }, { "front": "I'm hungry. Do you have water?", "back": "أنا جائع. هل عندك ماء؟", "romanized": "Ana ja'i'. Hal 'indak ma'?" }] },
-    { "id": "ar_ep_029", "levels": [{ "front": "To do / make", "back": "يفعل / يعمل", "romanized": "yaf'al / ya'mal" }, { "front": "What are you doing?", "back": "ماذا تفعل؟", "romanized": "Matha taf'al?" }] },
-    { "id": "ar_ep_030", "levels": [{ "front": "To eat", "back": "يأكل", "romanized": "ya'kul" }, { "front": "Where are we eating?", "back": "أين نأكل؟", "romanized": "Ayna na'kul?" }] },
-    { "id": "ar_ep_031", "levels": [{ "front": "To like", "back": "يحب", "romanized": "yuhibb" }, { "front": "I like coffee.", "back": "أحب القهوة.", "romanized": "Uhibb al-qahwa." }] },
-    { "id": "ar_ep_032", "levels": [{ "front": "But", "back": "لكن / ولكن", "romanized": "lakin / walakin" }, { "front": "I want to go, but I can't.", "back": "أريد أن أذهب، لكن لا أستطيع.", "romanized": "Urid an adhhab, lakin la astati'." }] },
-    { "id": "ar_ep_033", "levels": [{ "front": "And", "back": "و", "romanized": "wa", "grammarNote": "و (wa) = and, written attached to the following word with no space: ماء وطعام (water and food). It can also mean 'while' in some contexts. One of the most common words in Arabic." }, { "front": "Water and food.", "back": "ماء وطعام.", "romanized": "Ma' wa ta'am." }] },
-    { "id": "ar_ep_034", "levels": [{ "front": "Or", "back": "أو", "romanized": "aw" }, { "front": "Tea or coffee?", "back": "شاي أو قهوة؟", "romanized": "Shay aw qahwa?" }] },
-    { "id": "ar_ep_035", "levels": [{ "front": "Hungry", "back": "جائع / جوعان", "romanized": "ja'i' / jow'an", "grammarNote": "جائع (ja'i') is the formal word for hungry (from جاع, ja'a). جوعان (jow'an) is the more colloquial form heard across dialects. Arabic adjectives agree with the noun's gender: جائع (m.), جائعة (f.)." }, { "front": "I'm very hungry.", "back": "أنا جائع جداً.", "romanized": "Ana ja'i' jiddan." }] },
-    { "id": "ar_ep_036", "levels": [{ "front": "Thirsty", "back": "عطشان", "romanized": "'atshan" }, { "front": "I'm very thirsty.", "back": "أنا عطشان جداً.", "romanized": "Ana 'atshan jiddan." }] },
-    { "id": "ar_ep_037", "levels": [{ "front": "Person", "back": "شخص", "romanized": "shakhs" }, { "front": "Who is that person?", "back": "من هذا الشخص؟", "romanized": "Man hatha ash-shakhs?" }] },
-    { "id": "ar_ep_038", "levels": [{ "front": "Place", "back": "مكان", "romanized": "makan" }, { "front": "Do you know a good place?", "back": "هل تعرف مكاناً جيداً؟", "romanized": "Hal ta'rif makanan jayyidan?" }] },
-    { "id": "ar_ep_039", "levels": [{ "front": "Thing", "back": "شيء", "romanized": "shay'" }, { "front": "What is this thing?", "back": "ما هذا الشيء؟", "romanized": "Ma hatha ash-shay'?" }] },
-    { "id": "ar_ep_040", "levels": [{ "front": "Here", "back": "هنا", "romanized": "huna" }, { "front": "Come here!", "back": "تعال هنا!", "romanized": "Ta'al huna!" }] },
-    { "id": "ar_ep_041", "levels": [{ "front": "There", "back": "هناك", "romanized": "hunak" }, { "front": "The bathroom is over there.", "back": "الحمام هناك.", "romanized": "Al-hammam hunak." }] },
-    { "id": "ar_ep_042", "levels": [{ "front": "Very", "back": "جداً / كثيراً", "romanized": "jiddan / kathiran" }, { "front": "It's very good.", "back": "هذا جيد جداً.", "romanized": "Hatha jayyid jiddan." }] },
-    { "id": "ar_ep_043", "levels": [{ "front": "Goodbye", "back": "مع السلامة", "romanized": "ma' as-salama", "grammarNote": "مع السلامة (ma' as-salama) = goodbye (lit. 'go with safety'). إلى اللقاء (ila al-liqa') = see you / until we meet. The common Islamic parting is في أمان الله (fi aman allah) = 'in God's protection'." }, { "front": "Goodbye! See you tomorrow.", "back": "مع السلامة! إلى اللقاء غداً.", "romanized": "Ma' as-salama! Ila al-liqa' ghadan." }] },
-    { "id": "ar_ep_044", "levels": [{ "front": "Water", "back": "ماء", "romanized": "ma'" }, { "front": "A glass of water, please.", "back": "كوب ماء من فضلك.", "romanized": "Kub ma' min fadlak." }] },
-    { "id": "ar_ep_045", "levels": [{ "front": "Food", "back": "طعام / أكل", "romanized": "ta'am / akl" }, { "front": "The food is delicious.", "back": "الطعام لذيذ.", "romanized": "At-ta'am ladhith." }] },
-    { "id": "ar_ep_046", "levels": [{ "front": "House / home", "back": "بيت / منزل", "romanized": "bayt / manzil" }, { "front": "My house is nearby.", "back": "بيتي قريب من هنا.", "romanized": "Bayti qarib min huna." }] },
-    { "id": "ar_ep_047", "levels": [{ "front": "Store / shop", "back": "متجر / دكان", "romanized": "matjar / dukkan" }, { "front": "The store is closed.", "back": "المتجر مغلق.", "romanized": "Al-matjar mughlaq." }] },
-    { "id": "ar_ep_048", "levels": [{ "front": "Cash / credit", "back": "نقداً / بطاقة", "romanized": "naqdan / bitaqa" }, { "front": "Cash or card?", "back": "نقداً أم ببطاقة؟", "romanized": "Naqdan am bi-bitaqa?" }] },
-    { "id": "ar_ep_049", "levels": [{ "front": "Help", "back": "مساعدة", "romanized": "musa'ada" }, { "front": "I need help.", "back": "أحتاج إلى مساعدة.", "romanized": "Ahtaj ila musa'ada." }] },
-    { "id": "ar_ep_050", "levels": [{ "front": "Bathroom", "back": "حمام / دورة مياه", "romanized": "hammam / dawrat miyah" }, { "front": "Where is the bathroom?", "back": "أين الحمام؟", "romanized": "Ayna al-hammam?" }] },
-    { "id": "ar_ep_051", "levels": [{ "front": "Always", "back": "دائماً", "romanized": "da'iman" }, { "front": "I always drink coffee in the morning.", "back": "أشرب القهوة دائماً في الصباح.", "romanized": "Ashrab al-qahwa da'iman fi as-sabah." }] },
-    { "id": "ar_ep_052", "levels": [{ "front": "Never", "back": "أبداً", "romanized": "abadan", "grammarNote": "أبداً (abadan) = never/ever, used with a negated verb: لا أتأخر أبداً (I never arrive late). لم + verb + قط (qatt) = never did (past): لم أذهب قط (I have never gone). أبداً alone in response to a question means 'never/absolutely not'." }, { "front": "I'm never late.", "back": "لا أتأخر أبداً.", "romanized": "La ata'akhkhar abadan." }] },
-    { "id": "ar_ep_053", "levels": [{ "front": "To go", "back": "يذهب", "romanized": "yathhab" }, { "front": "I'm going to the store.", "back": "أذهب إلى المتجر.", "romanized": "Athhab ila al-matjar." }] },
-    { "id": "ar_ep_054", "levels": [{ "front": "To come", "back": "يأتي", "romanized": "ya'ti" }, { "front": "Where did you come from?", "back": "من أين أتيت؟", "romanized": "Min ayna atayt?" }] },
-    { "id": "ar_ep_055", "levels": [{ "front": "To understand", "back": "يفهم", "romanized": "yafham" }, { "front": "I don't understand.", "back": "لا أفهم.", "romanized": "La afham." }] },
-    { "id": "ar_ep_056", "levels": [{ "front": "To speak / talk", "back": "يتكلم / يتحدث", "romanized": "yatakallam / yatahadath" }, { "front": "Do you speak Arabic?", "back": "هل تتكلم العربية؟", "romanized": "Hal tatakallam al-'arabiyya?" }] },
-    { "id": "ar_ep_057", "levels": [{ "front": "To give", "back": "يعطي", "romanized": "yu'ti" }, { "front": "Give me the menu, please.", "back": "أعطني القائمة من فضلك.", "romanized": "A'tini al-qa'ima min fadlak." }] },
-    { "id": "ar_ep_058", "levels": [{ "front": "To see", "back": "يرى", "romanized": "yara" }, { "front": "I can't see anything.", "back": "لا أستطيع رؤية أي شيء.", "romanized": "La astati'u ru'yat ayy shay'." }] },
-    { "id": "ar_ep_059", "levels": [{ "front": "With", "back": "مع", "romanized": "ma'" }, { "front": "I came with my friend.", "back": "جئت مع صديقي.", "romanized": "Ji'tu ma' sadiqi." }] },
-    { "id": "ar_ep_060", "levels": [{ "front": "Without", "back": "بدون / بلا", "romanized": "bidun / bila" }, { "front": "Coffee without sugar, please.", "back": "قهوة بدون سكر من فضلك.", "romanized": "Qahwa bidun sukkar min fadlak." }] },
-    { "id": "ar_ep_061", "levels": [{ "front": "For", "back": "لـ / من أجل", "romanized": "li / min ajl" }, { "front": "This is for you.", "back": "هذا لك.", "romanized": "Hatha lak." }] },
-    { "id": "ar_ep_062", "levels": [{ "front": "In / on / at", "back": "في / على", "romanized": "fi / 'ala", "grammarNote": "في (fi) = in/inside/at: في البيت (in the house), في الصباح (in the morning). على ('ala) = on top of: على الطاولة (on the table). تحت (tahta) = under. بجانب (bijanibi) = next to. Arabic prepositions are highly specific." }, { "front": "The book is on the table.", "back": "الكتاب على الطاولة.", "romanized": "Al-kitab 'ala at-tawila." }] },
-    { "id": "ar_ep_063", "levels": [{ "front": "From", "back": "من", "romanized": "min" }, { "front": "Where are you from?", "back": "من أين أنت؟", "romanized": "Min ayna anta?" }] },
-    { "id": "ar_ep_064", "levels": [{ "front": "Good", "back": "جيد / كويس", "romanized": "jayyid / kuwayyis" }, { "front": "That's a good idea.", "back": "هذه فكرة جيدة.", "romanized": "Hathihi fikra jayyida." }] },
-    { "id": "ar_ep_065", "levels": [{ "front": "Bad", "back": "سيئ", "romanized": "sayyi'" }, { "front": "That's bad.", "back": "هذا سيئ.", "romanized": "Hatha sayyi'." }] },
-    { "id": "ar_ep_066", "levels": [{ "front": "Big", "back": "كبير", "romanized": "kabir" }, { "front": "A large coffee, please.", "back": "قهوة كبيرة من فضلك.", "romanized": "Qahwa kabira min fadlak." }] },
-    { "id": "ar_ep_067", "levels": [{ "front": "Small", "back": "صغير", "romanized": "saghir" }, { "front": "A small table, please.", "back": "طاولة صغيرة من فضلك.", "romanized": "Tawila saghira min fadlak." }] },
-    { "id": "ar_ep_068", "levels": [{ "front": "A lot / much", "back": "كثيراً / جداً", "romanized": "kathiran / jiddan" }, { "front": "I have a lot of work.", "back": "عندي عمل كثير.", "romanized": "'Indi 'amal kathir." }] },
-    { "id": "ar_ep_069", "levels": [{ "front": "A little", "back": "قليلاً / شوية", "romanized": "qalilan / shwayya" }, { "front": "A little water, please.", "back": "ماء قليل من فضلك.", "romanized": "Ma' qalil min fadlak." }] },
-    { "id": "ar_ep_070", "levels": [{ "front": "How do you say ___?", "back": "كيف تقول ___؟", "romanized": "Kayfa taqul ___?" }, { "front": "How do you say 'thank you' in Arabic?", "back": "كيف تقول 'thank you' بالعربية؟", "romanized": "Kayfa taqul 'thank you' bil-'arabiyya?" }] },
-    { "id": "ar_ep_071", "levels": [{ "front": "Can you help me?", "back": "هل يمكنك مساعدتي؟", "romanized": "Hal yumkinuka musa'adati?" }] },
-    { "id": "ar_ep_072", "levels": [{ "front": "How much does it cost?", "back": "بكم هذا؟ / كم ثمنه؟", "romanized": "Bikam hatha? / Kam thamanahu?" }] },
-    { "id": "ar_ep_073", "levels": [{ "front": "I'm sorry", "back": "أنا آسف / عفواً", "romanized": "ana asif / 'afwan", "grammarNote": "آسف (asif) = sorry (m.), آسفة (asifa) = sorry (f.). عفواً ('afwan) = pardon/excuse me/sorry — lighter and very common. أعتذر (a'tadhir) = I apologize — more formal. آسف جداً = very sorry." }, { "front": "I'm very sorry.", "back": "أنا آسف جداً.", "romanized": "Ana asif jiddan." }] },
-    { "id": "ar_ep_074", "levels": [{ "front": "No problem", "back": "لا مشكلة / مش مشكلة", "romanized": "la mushkila" }, { "front": "No problem, don't worry.", "back": "لا مشكلة، لا تقلق.", "romanized": "La mushkila, la taqluq." }] }
-  ]
+  "cards": {
+    "hello": {
+      "levels": [
+        {
+          "front": "Hello",
+          "back": "مرحباً / أهلاً",
+          "romanized": "marhaban / ahlan"
+        },
+        {
+          "front": "Hello! How are you?",
+          "back": "مرحباً! كيف حالك؟",
+          "romanized": "Marhaban! Kayfa halak?"
+        }
+      ]
+    },
+    "please": {
+      "levels": [
+        {
+          "front": "Please",
+          "back": "من فضلك / لو سمحت",
+          "romanized": "min fadlak / law samaht",
+          "grammarNote": "من فضلك (min fadlak) = please (lit. 'from your grace'). لو سمحت (law samaht) = if you would permit. Both are natural — لو سمحت is slightly softer. These forms change by gender/number: فضلك (m.), فضلك (f. = min fadlik), etc."
+        },
+        {
+          "front": "A coffee, please.",
+          "back": "قهوة من فضلك.",
+          "romanized": "Qahwa min fadlak."
+        }
+      ]
+    },
+    "thank_you": {
+      "levels": [
+        {
+          "front": "Thank you",
+          "back": "شكراً",
+          "romanized": "shukran"
+        },
+        {
+          "front": "Thank you very much.",
+          "back": "شكراً جزيلاً.",
+          "romanized": "Shukran jazilan."
+        }
+      ]
+    },
+    "i_want": {
+      "levels": [
+        {
+          "front": "I want",
+          "back": "أريد",
+          "romanized": "urid",
+          "grammarNote": "أريد (urid) = I want, from the verb أراد (arada). To want to do something: أريد أن + verb: أريد أن أذهب (I want to go). Very direct — soften it with من فضلك at the end."
+        },
+        {
+          "front": "I want a coffee.",
+          "back": "أريد قهوة.",
+          "romanized": "Urid qahwa."
+        }
+      ]
+    },
+    "i_need": {
+      "levels": [
+        {
+          "front": "I need",
+          "back": "أحتاج إلى",
+          "romanized": "ahtaj ila"
+        },
+        {
+          "front": "I need help.",
+          "back": "أحتاج إلى مساعدة.",
+          "romanized": "Ahtaj ila musa'ada."
+        }
+      ]
+    },
+    "my_name_is": {
+      "levels": [
+        {
+          "front": "My name is",
+          "back": "اسمي",
+          "romanized": "ismi",
+          "grammarNote": "اسمي (ismi) = my name is (lit. 'my name'). اسم (ism) = name + ي (i) = my. Arabic possessives are suffixes on the noun: اسمك (your name), اسمه (his name), اسمها (her name). No verb needed — just say اسمي + the name."
+        },
+        {
+          "front": "My name is Khalid.",
+          "back": "اسمي خالد.",
+          "romanized": "Ismi Khalid."
+        }
+      ]
+    },
+    "i": {
+      "levels": [
+        {
+          "front": "I",
+          "back": "أنا",
+          "romanized": "ana"
+        },
+        {
+          "front": "I am a student.",
+          "back": "أنا طالب.",
+          "romanized": "Ana talib."
+        }
+      ]
+    },
+    "you": {
+      "levels": [
+        {
+          "front": "You",
+          "back": "أنتَ / أنتِ",
+          "romanized": "anta / anti",
+          "grammarNote": "Arabic distinguishes gender in 'you': أنتَ (anta) = you (m.), أنتِ (anti) = you (f.). This gender distinction extends to verbs and adjectives throughout the language. When in doubt speaking to a man: anta; to a woman: anti."
+        },
+        {
+          "front": "You speak Arabic well.",
+          "back": "أنتَ تتكلم العربية جيداً.",
+          "romanized": "Anta tatakallam al-'arabiyya jayyidan."
+        }
+      ]
+    },
+    "he": {
+      "levels": [
+        {
+          "front": "He",
+          "back": "هو",
+          "romanized": "huwa"
+        },
+        {
+          "front": "He is my friend.",
+          "back": "هو صديقي.",
+          "romanized": "Huwa sadiqi."
+        }
+      ]
+    },
+    "she": {
+      "levels": [
+        {
+          "front": "She",
+          "back": "هي",
+          "romanized": "hiya"
+        },
+        {
+          "front": "She works here.",
+          "back": "هي تعمل هنا.",
+          "romanized": "Hiya ta'mal huna."
+        }
+      ]
+    },
+    "it": {
+      "levels": [
+        {
+          "front": "It",
+          "back": "هو / هي",
+          "romanized": "huwa / hiya",
+          "grammarNote": "Arabic has no neutral 'it' — every noun is masculine or feminine, so 'it' is هو (huwa) or هي (hiya) depending on the noun's gender. الكتاب (the book) is masculine → هو. الطاولة (the table) is feminine → هي."
+        },
+        {
+          "front": "What is this?",
+          "back": "ما هذا؟",
+          "romanized": "Ma hatha?"
+        }
+      ]
+    },
+    "we": {
+      "levels": [
+        {
+          "front": "We",
+          "back": "نحن",
+          "romanized": "nahnu"
+        },
+        {
+          "front": "We live here.",
+          "back": "نحن نعيش هنا.",
+          "romanized": "Nahnu na'ish huna."
+        }
+      ]
+    },
+    "they": {
+      "levels": [
+        {
+          "front": "They",
+          "back": "هم / هن",
+          "romanized": "hum / hunna",
+          "grammarNote": "هم (hum) = they (m. or mixed group). هن (hunna) = they (f. only). In practice, هم is used for mixed or unspecified groups. Arabic also has a dual form (هما, huma) for exactly two people — unique among major world languages."
+        },
+        {
+          "front": "They eat together.",
+          "back": "هم يأكلون معاً.",
+          "romanized": "Hum ya'kulun ma'an."
+        }
+      ]
+    },
+    "this": {
+      "levels": [
+        {
+          "front": "This",
+          "back": "هذا / هذه",
+          "romanized": "hatha / hathihi",
+          "grammarNote": "هذا (hatha) = this (m.). هذه (hathihi) = this (f.). Matches the gender of the noun it refers to: هذا الكتاب (this book, m.), هذه الطاولة (this table, f.). For 'that': ذلك (thalika, m.) / تلك (tilka, f.)."
+        },
+        {
+          "front": "This book is good.",
+          "back": "هذا الكتاب جيد.",
+          "romanized": "Hatha al-kitab jayyid."
+        }
+      ]
+    },
+    "that": {
+      "levels": [
+        {
+          "front": "That",
+          "back": "ذلك / تلك",
+          "romanized": "thalika / tilka"
+        },
+        {
+          "front": "That person is my friend.",
+          "back": "ذلك الشخص صديقي.",
+          "romanized": "Thalika ash-shakhs sadiqi."
+        }
+      ]
+    },
+    "my": {
+      "levels": [
+        {
+          "front": "My",
+          "back": "ـي",
+          "romanized": "-i",
+          "grammarNote": "Possession in Arabic is expressed by adding a suffix directly to the noun: كتاب (kitab, book) → كتابي (kitabi, my book). The suffix ي (i) = my. Other possessives: ك (ka/ki) = your, ه (hu) = his, ها (ha) = her."
+        },
+        {
+          "front": "My name is Khalid.",
+          "back": "اسمي خالد.",
+          "romanized": "Ismi Khalid."
+        }
+      ]
+    },
+    "who": {
+      "levels": [
+        {
+          "front": "Who",
+          "back": "من",
+          "romanized": "man"
+        },
+        {
+          "front": "Who is that person?",
+          "back": "من هذا الشخص؟",
+          "romanized": "Man hatha ash-shakhs?"
+        }
+      ]
+    },
+    "what": {
+      "levels": [
+        {
+          "front": "What",
+          "back": "ماذا / ما",
+          "romanized": "matha / ma"
+        },
+        {
+          "front": "What do you want?",
+          "back": "ماذا تريد؟",
+          "romanized": "Matha turid?"
+        }
+      ]
+    },
+    "when": {
+      "levels": [
+        {
+          "front": "When",
+          "back": "متى",
+          "romanized": "mata"
+        },
+        {
+          "front": "When are you coming?",
+          "back": "متى ستأتي؟",
+          "romanized": "Mata sata'ti?"
+        }
+      ]
+    },
+    "where": {
+      "levels": [
+        {
+          "front": "Where",
+          "back": "أين",
+          "romanized": "ayna"
+        },
+        {
+          "front": "Where is the bathroom?",
+          "back": "أين الحمام؟",
+          "romanized": "Ayna al-hammam?"
+        }
+      ]
+    },
+    "why": {
+      "levels": [
+        {
+          "front": "Why",
+          "back": "لماذا",
+          "romanized": "limatha"
+        },
+        {
+          "front": "Why can't you come?",
+          "back": "لماذا لا تستطيع المجيء؟",
+          "romanized": "Limatha la tastati'u al-maji'?"
+        }
+      ]
+    },
+    "how": {
+      "levels": [
+        {
+          "front": "How",
+          "back": "كيف",
+          "romanized": "kayfa"
+        },
+        {
+          "front": "How are you?",
+          "back": "كيف حالك؟",
+          "romanized": "Kayfa halak?"
+        }
+      ]
+    },
+    "good_morning": {
+      "levels": [
+        {
+          "front": "Good morning",
+          "back": "صباح الخير",
+          "romanized": "sabah al-khayr",
+          "grammarNote": "صباح الخير (sabah al-khayr) = good morning (lit. 'morning of goodness'). The standard response is صباح النور (sabah an-nur) = 'morning of light'. مساء الخير (masa' al-khayr) = good evening, responded with مساء النور."
+        },
+        {
+          "front": "Good morning! / Morning of light!",
+          "back": "صباح الخير! / صباح النور!",
+          "romanized": "Sabah al-khayr! / Sabah an-nur!"
+        }
+      ]
+    },
+    "to_look_for": {
+      "levels": [
+        {
+          "front": "To look for",
+          "back": "يبحث عن / يبحث",
+          "romanized": "yabhath 'an"
+        },
+        {
+          "front": "I'm looking for the exit.",
+          "back": "أبحث عن المخرج.",
+          "romanized": "Abhath 'an al-makhraj."
+        }
+      ]
+    },
+    "excuse_me": {
+      "levels": [
+        {
+          "front": "Excuse me",
+          "back": "عفواً / لو سمحت",
+          "romanized": "'afwan / law samaht",
+          "grammarNote": "عفواً ('afwan) = excuse me (getting attention) or 'you're welcome' (responding to thanks) — the same word does both. لو سمحت (law samaht) = if you please, before a request. A very versatile pair."
+        },
+        {
+          "front": "Excuse me, where is the main street?",
+          "back": "عفواً، أين الشارع الرئيسي؟",
+          "romanized": "'Afwan, ayna ash-shari' ar-ra'isi?"
+        }
+      ]
+    },
+    "to_be_able_to_can": {
+      "levels": [
+        {
+          "front": "To be able to / can",
+          "back": "يستطيع / يمكن",
+          "romanized": "yastati' / yumkin",
+          "grammarNote": "يمكن (yumkin) + أن + verb = it is possible to: يمكنني أن أساعدك (I can help you). يستطيع (yastati') = to be able to. هل يمكنك...؟ (can you...?) is a very natural and polite way to make a request."
+        },
+        {
+          "front": "Can you help me?",
+          "back": "هل يمكنك مساعدتي؟",
+          "romanized": "Hal yumkinuka musa'adati?"
+        }
+      ]
+    },
+    "i_dont_know": {
+      "levels": [
+        {
+          "front": "I don't know",
+          "back": "لا أعرف",
+          "romanized": "la a'rif"
+        },
+        {
+          "front": "I don't know where it is.",
+          "back": "لا أعرف أين هو.",
+          "romanized": "La a'rif ayna huwa."
+        }
+      ]
+    },
+    "to_have": {
+      "levels": [
+        {
+          "front": "To have",
+          "back": "عندي / لديّ",
+          "romanized": "'indi / ladayya",
+          "grammarNote": "Arabic has no verb 'to have'. Possession is expressed with عند ('inda, lit. 'at') or لدى (lada, lit. 'with/beside') + pronoun suffix: عندي (I have), عندك (you have), عنده (he has). عندي وقت = I have time (lit. 'at me is time')."
+        },
+        {
+          "front": "I'm hungry. Do you have water?",
+          "back": "أنا جائع. هل عندك ماء؟",
+          "romanized": "Ana ja'i'. Hal 'indak ma'?"
+        }
+      ]
+    },
+    "to_do_make": {
+      "levels": [
+        {
+          "front": "To do / make",
+          "back": "يفعل / يعمل",
+          "romanized": "yaf'al / ya'mal"
+        },
+        {
+          "front": "What are you doing?",
+          "back": "ماذا تفعل؟",
+          "romanized": "Matha taf'al?"
+        }
+      ]
+    },
+    "to_eat": {
+      "levels": [
+        {
+          "front": "To eat",
+          "back": "يأكل",
+          "romanized": "ya'kul"
+        },
+        {
+          "front": "Where are we eating?",
+          "back": "أين نأكل؟",
+          "romanized": "Ayna na'kul?"
+        }
+      ]
+    },
+    "to_like": {
+      "levels": [
+        {
+          "front": "To like",
+          "back": "يحب",
+          "romanized": "yuhibb"
+        },
+        {
+          "front": "I like coffee.",
+          "back": "أحب القهوة.",
+          "romanized": "Uhibb al-qahwa."
+        }
+      ]
+    },
+    "but": {
+      "levels": [
+        {
+          "front": "But",
+          "back": "لكن / ولكن",
+          "romanized": "lakin / walakin"
+        },
+        {
+          "front": "I want to go, but I can't.",
+          "back": "أريد أن أذهب، لكن لا أستطيع.",
+          "romanized": "Urid an adhhab, lakin la astati'."
+        }
+      ]
+    },
+    "and": {
+      "levels": [
+        {
+          "front": "And",
+          "back": "و",
+          "romanized": "wa",
+          "grammarNote": "و (wa) = and, written attached to the following word with no space: ماء وطعام (water and food). It can also mean 'while' in some contexts. One of the most common words in Arabic."
+        },
+        {
+          "front": "Water and food.",
+          "back": "ماء وطعام.",
+          "romanized": "Ma' wa ta'am."
+        }
+      ]
+    },
+    "or": {
+      "levels": [
+        {
+          "front": "Or",
+          "back": "أو",
+          "romanized": "aw"
+        },
+        {
+          "front": "Tea or coffee?",
+          "back": "شاي أو قهوة؟",
+          "romanized": "Shay aw qahwa?"
+        }
+      ]
+    },
+    "hungry": {
+      "levels": [
+        {
+          "front": "Hungry",
+          "back": "جائع / جوعان",
+          "romanized": "ja'i' / jow'an",
+          "grammarNote": "جائع (ja'i') is the formal word for hungry (from جاع, ja'a). جوعان (jow'an) is the more colloquial form heard across dialects. Arabic adjectives agree with the noun's gender: جائع (m.), جائعة (f.)."
+        },
+        {
+          "front": "I'm very hungry.",
+          "back": "أنا جائع جداً.",
+          "romanized": "Ana ja'i' jiddan."
+        }
+      ]
+    },
+    "thirsty": {
+      "levels": [
+        {
+          "front": "Thirsty",
+          "back": "عطشان",
+          "romanized": "'atshan"
+        },
+        {
+          "front": "I'm very thirsty.",
+          "back": "أنا عطشان جداً.",
+          "romanized": "Ana 'atshan jiddan."
+        }
+      ]
+    },
+    "person": {
+      "levels": [
+        {
+          "front": "Person",
+          "back": "شخص",
+          "romanized": "shakhs"
+        },
+        {
+          "front": "Who is that person?",
+          "back": "من هذا الشخص؟",
+          "romanized": "Man hatha ash-shakhs?"
+        }
+      ]
+    },
+    "place": {
+      "levels": [
+        {
+          "front": "Place",
+          "back": "مكان",
+          "romanized": "makan"
+        },
+        {
+          "front": "Do you know a good place?",
+          "back": "هل تعرف مكاناً جيداً؟",
+          "romanized": "Hal ta'rif makanan jayyidan?"
+        }
+      ]
+    },
+    "thing": {
+      "levels": [
+        {
+          "front": "Thing",
+          "back": "شيء",
+          "romanized": "shay'"
+        },
+        {
+          "front": "What is this thing?",
+          "back": "ما هذا الشيء؟",
+          "romanized": "Ma hatha ash-shay'?"
+        }
+      ]
+    },
+    "here": {
+      "levels": [
+        {
+          "front": "Here",
+          "back": "هنا",
+          "romanized": "huna"
+        },
+        {
+          "front": "Come here!",
+          "back": "تعال هنا!",
+          "romanized": "Ta'al huna!"
+        }
+      ]
+    },
+    "there": {
+      "levels": [
+        {
+          "front": "There",
+          "back": "هناك",
+          "romanized": "hunak"
+        },
+        {
+          "front": "The bathroom is over there.",
+          "back": "الحمام هناك.",
+          "romanized": "Al-hammam hunak."
+        }
+      ]
+    },
+    "very": {
+      "levels": [
+        {
+          "front": "Very",
+          "back": "جداً / كثيراً",
+          "romanized": "jiddan / kathiran"
+        },
+        {
+          "front": "It's very good.",
+          "back": "هذا جيد جداً.",
+          "romanized": "Hatha jayyid jiddan."
+        }
+      ]
+    },
+    "goodbye": {
+      "levels": [
+        {
+          "front": "Goodbye",
+          "back": "مع السلامة",
+          "romanized": "ma' as-salama",
+          "grammarNote": "مع السلامة (ma' as-salama) = goodbye (lit. 'go with safety'). إلى اللقاء (ila al-liqa') = see you / until we meet. The common Islamic parting is في أمان الله (fi aman allah) = 'in God's protection'."
+        },
+        {
+          "front": "Goodbye! See you tomorrow.",
+          "back": "مع السلامة! إلى اللقاء غداً.",
+          "romanized": "Ma' as-salama! Ila al-liqa' ghadan."
+        }
+      ]
+    },
+    "water": {
+      "levels": [
+        {
+          "front": "Water",
+          "back": "ماء",
+          "romanized": "ma'"
+        },
+        {
+          "front": "A glass of water, please.",
+          "back": "كوب ماء من فضلك.",
+          "romanized": "Kub ma' min fadlak."
+        }
+      ]
+    },
+    "food": {
+      "levels": [
+        {
+          "front": "Food",
+          "back": "طعام / أكل",
+          "romanized": "ta'am / akl"
+        },
+        {
+          "front": "The food is delicious.",
+          "back": "الطعام لذيذ.",
+          "romanized": "At-ta'am ladhith."
+        }
+      ]
+    },
+    "house_home": {
+      "levels": [
+        {
+          "front": "House / home",
+          "back": "بيت / منزل",
+          "romanized": "bayt / manzil"
+        },
+        {
+          "front": "My house is nearby.",
+          "back": "بيتي قريب من هنا.",
+          "romanized": "Bayti qarib min huna."
+        }
+      ]
+    },
+    "store_shop": {
+      "levels": [
+        {
+          "front": "Store / shop",
+          "back": "متجر / دكان",
+          "romanized": "matjar / dukkan"
+        },
+        {
+          "front": "The store is closed.",
+          "back": "المتجر مغلق.",
+          "romanized": "Al-matjar mughlaq."
+        }
+      ]
+    },
+    "cash_credit": {
+      "levels": [
+        {
+          "front": "Cash / credit",
+          "back": "نقداً / بطاقة",
+          "romanized": "naqdan / bitaqa"
+        },
+        {
+          "front": "Cash or card?",
+          "back": "نقداً أم ببطاقة؟",
+          "romanized": "Naqdan am bi-bitaqa?"
+        }
+      ]
+    },
+    "help": {
+      "levels": [
+        {
+          "front": "Help",
+          "back": "مساعدة",
+          "romanized": "musa'ada"
+        },
+        {
+          "front": "I need help.",
+          "back": "أحتاج إلى مساعدة.",
+          "romanized": "Ahtaj ila musa'ada."
+        }
+      ]
+    },
+    "bathroom": {
+      "levels": [
+        {
+          "front": "Bathroom",
+          "back": "حمام / دورة مياه",
+          "romanized": "hammam / dawrat miyah"
+        },
+        {
+          "front": "Where is the bathroom?",
+          "back": "أين الحمام؟",
+          "romanized": "Ayna al-hammam?"
+        }
+      ]
+    },
+    "always": {
+      "levels": [
+        {
+          "front": "Always",
+          "back": "دائماً",
+          "romanized": "da'iman"
+        },
+        {
+          "front": "I always drink coffee in the morning.",
+          "back": "أشرب القهوة دائماً في الصباح.",
+          "romanized": "Ashrab al-qahwa da'iman fi as-sabah."
+        }
+      ]
+    },
+    "never": {
+      "levels": [
+        {
+          "front": "Never",
+          "back": "أبداً",
+          "romanized": "abadan",
+          "grammarNote": "أبداً (abadan) = never/ever, used with a negated verb: لا أتأخر أبداً (I never arrive late). لم + verb + قط (qatt) = never did (past): لم أذهب قط (I have never gone). أبداً alone in response to a question means 'never/absolutely not'."
+        },
+        {
+          "front": "I'm never late.",
+          "back": "لا أتأخر أبداً.",
+          "romanized": "La ata'akhkhar abadan."
+        }
+      ]
+    },
+    "to_go": {
+      "levels": [
+        {
+          "front": "To go",
+          "back": "يذهب",
+          "romanized": "yathhab"
+        },
+        {
+          "front": "I'm going to the store.",
+          "back": "أذهب إلى المتجر.",
+          "romanized": "Athhab ila al-matjar."
+        }
+      ]
+    },
+    "to_come": {
+      "levels": [
+        {
+          "front": "To come",
+          "back": "يأتي",
+          "romanized": "ya'ti"
+        },
+        {
+          "front": "Where did you come from?",
+          "back": "من أين أتيت؟",
+          "romanized": "Min ayna atayt?"
+        }
+      ]
+    },
+    "to_understand": {
+      "levels": [
+        {
+          "front": "To understand",
+          "back": "يفهم",
+          "romanized": "yafham"
+        },
+        {
+          "front": "I don't understand.",
+          "back": "لا أفهم.",
+          "romanized": "La afham."
+        }
+      ]
+    },
+    "to_speak_talk": {
+      "levels": [
+        {
+          "front": "To speak / talk",
+          "back": "يتكلم / يتحدث",
+          "romanized": "yatakallam / yatahadath"
+        },
+        {
+          "front": "Do you speak Arabic?",
+          "back": "هل تتكلم العربية؟",
+          "romanized": "Hal tatakallam al-'arabiyya?"
+        }
+      ]
+    },
+    "to_give": {
+      "levels": [
+        {
+          "front": "To give",
+          "back": "يعطي",
+          "romanized": "yu'ti"
+        },
+        {
+          "front": "Give me the menu, please.",
+          "back": "أعطني القائمة من فضلك.",
+          "romanized": "A'tini al-qa'ima min fadlak."
+        }
+      ]
+    },
+    "to_see": {
+      "levels": [
+        {
+          "front": "To see",
+          "back": "يرى",
+          "romanized": "yara"
+        },
+        {
+          "front": "I can't see anything.",
+          "back": "لا أستطيع رؤية أي شيء.",
+          "romanized": "La astati'u ru'yat ayy shay'."
+        }
+      ]
+    },
+    "with": {
+      "levels": [
+        {
+          "front": "With",
+          "back": "مع",
+          "romanized": "ma'"
+        },
+        {
+          "front": "I came with my friend.",
+          "back": "جئت مع صديقي.",
+          "romanized": "Ji'tu ma' sadiqi."
+        }
+      ]
+    },
+    "without": {
+      "levels": [
+        {
+          "front": "Without",
+          "back": "بدون / بلا",
+          "romanized": "bidun / bila"
+        },
+        {
+          "front": "Coffee without sugar, please.",
+          "back": "قهوة بدون سكر من فضلك.",
+          "romanized": "Qahwa bidun sukkar min fadlak."
+        }
+      ]
+    },
+    "for": {
+      "levels": [
+        {
+          "front": "For",
+          "back": "لـ / من أجل",
+          "romanized": "li / min ajl"
+        },
+        {
+          "front": "This is for you.",
+          "back": "هذا لك.",
+          "romanized": "Hatha lak."
+        }
+      ]
+    },
+    "in_on_at": {
+      "levels": [
+        {
+          "front": "In / on / at",
+          "back": "في / على",
+          "romanized": "fi / 'ala",
+          "grammarNote": "في (fi) = in/inside/at: في البيت (in the house), في الصباح (in the morning). على ('ala) = on top of: على الطاولة (on the table). تحت (tahta) = under. بجانب (bijanibi) = next to. Arabic prepositions are highly specific."
+        },
+        {
+          "front": "The book is on the table.",
+          "back": "الكتاب على الطاولة.",
+          "romanized": "Al-kitab 'ala at-tawila."
+        }
+      ]
+    },
+    "from": {
+      "levels": [
+        {
+          "front": "From",
+          "back": "من",
+          "romanized": "min"
+        },
+        {
+          "front": "Where are you from?",
+          "back": "من أين أنت؟",
+          "romanized": "Min ayna anta?"
+        }
+      ]
+    },
+    "good": {
+      "levels": [
+        {
+          "front": "Good",
+          "back": "جيد / كويس",
+          "romanized": "jayyid / kuwayyis"
+        },
+        {
+          "front": "That's a good idea.",
+          "back": "هذه فكرة جيدة.",
+          "romanized": "Hathihi fikra jayyida."
+        }
+      ]
+    },
+    "bad": {
+      "levels": [
+        {
+          "front": "Bad",
+          "back": "سيئ",
+          "romanized": "sayyi'"
+        },
+        {
+          "front": "That's bad.",
+          "back": "هذا سيئ.",
+          "romanized": "Hatha sayyi'."
+        }
+      ]
+    },
+    "big": {
+      "levels": [
+        {
+          "front": "Big",
+          "back": "كبير",
+          "romanized": "kabir"
+        },
+        {
+          "front": "A large coffee, please.",
+          "back": "قهوة كبيرة من فضلك.",
+          "romanized": "Qahwa kabira min fadlak."
+        }
+      ]
+    },
+    "small": {
+      "levels": [
+        {
+          "front": "Small",
+          "back": "صغير",
+          "romanized": "saghir"
+        },
+        {
+          "front": "A small table, please.",
+          "back": "طاولة صغيرة من فضلك.",
+          "romanized": "Tawila saghira min fadlak."
+        }
+      ]
+    },
+    "a_lot_much": {
+      "levels": [
+        {
+          "front": "A lot / much",
+          "back": "كثيراً / جداً",
+          "romanized": "kathiran / jiddan"
+        },
+        {
+          "front": "I have a lot of work.",
+          "back": "عندي عمل كثير.",
+          "romanized": "'Indi 'amal kathir."
+        }
+      ]
+    },
+    "a_little": {
+      "levels": [
+        {
+          "front": "A little",
+          "back": "قليلاً / شوية",
+          "romanized": "qalilan / shwayya"
+        },
+        {
+          "front": "A little water, please.",
+          "back": "ماء قليل من فضلك.",
+          "romanized": "Ma' qalil min fadlak."
+        }
+      ]
+    },
+    "how_do_you_say": {
+      "levels": [
+        {
+          "front": "How do you say ___?",
+          "back": "كيف تقول ___؟",
+          "romanized": "Kayfa taqul ___?"
+        },
+        {
+          "front": "How do you say 'thank you' in Arabic?",
+          "back": "كيف تقول 'thank you' بالعربية؟",
+          "romanized": "Kayfa taqul 'thank you' bil-'arabiyya?"
+        }
+      ]
+    },
+    "can_you_help_me": {
+      "levels": [
+        {
+          "front": "Can you help me?",
+          "back": "هل يمكنك مساعدتي؟",
+          "romanized": "Hal yumkinuka musa'adati?"
+        }
+      ]
+    },
+    "how_much_does_it_cost": {
+      "levels": [
+        {
+          "front": "How much does it cost?",
+          "back": "بكم هذا؟ / كم ثمنه؟",
+          "romanized": "Bikam hatha? / Kam thamanahu?"
+        }
+      ]
+    },
+    "im_sorry": {
+      "levels": [
+        {
+          "front": "I'm sorry",
+          "back": "أنا آسف / عفواً",
+          "romanized": "ana asif / 'afwan",
+          "grammarNote": "آسف (asif) = sorry (m.), آسفة (asifa) = sorry (f.). عفواً ('afwan) = pardon/excuse me/sorry — lighter and very common. أعتذر (a'tadhir) = I apologize — more formal. آسف جداً = very sorry."
+        },
+        {
+          "front": "I'm very sorry.",
+          "back": "أنا آسف جداً.",
+          "romanized": "Ana asif jiddan."
+        }
+      ]
+    },
+    "no_problem": {
+      "levels": [
+        {
+          "front": "No problem",
+          "back": "لا مشكلة / مش مشكلة",
+          "romanized": "la mushkila"
+        },
+        {
+          "front": "No problem, don't worry.",
+          "back": "لا مشكلة، لا تقلق.",
+          "romanized": "La mushkila, la taqluq."
+        }
+      ]
+    }
+  }
 }

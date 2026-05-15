@@ -97,3 +97,7 @@ export function getDeckSummary(
 export function resetDeck(language: string, deckId: string): void {
     localStorage.removeItem(storageKey(language, deckId));
 }
+
+export function normalizeCards<T extends object>(raw: Record<string, T>): (T & { id: string })[] {
+    return Object.entries(raw).map(([id, card]) => ({ id, ...card }));
+}

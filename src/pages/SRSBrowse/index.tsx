@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { CardState, isDue, isNew } from "../fsrs";
-import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, SRSDeckState } from "../useSRSStorage";
+import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, normalizeCards, SRSDeckState } from "../useSRSStorage";
 import "../srs.css";
 
 interface CardLevel {
@@ -14,6 +14,12 @@ interface Card {
     id: string;
     hidden?: boolean;
     levels: CardLevel[];
+}
+
+interface RawDeckData {
+    id: string;
+    name: string;
+    cards: Record<string, Omit<Card, 'id'>>;
 }
 
 interface DeckData {
@@ -80,7 +86,8 @@ const SRSBrowse = () => {
         if (!language || !deckId) return;
         fetch(`/languages/${language}/${deckId}.json`)
             .then((r) => r.json())
-            .then((data: DeckData) => {
+            .then((raw: RawDeckData) => {
+                const data: DeckData = { ...raw, cards: normalizeCards(raw.cards) };
                 setDeck(data);
                 setDeckState(loadDeckState(language, deckId));
             });

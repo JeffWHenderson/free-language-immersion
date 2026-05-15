@@ -2,65 +2,879 @@
   "id": "moods_and_emotion",
   "name": "Moods & Emotion",
   "language": "chinese",
-  "stories": ["a_bad_day", "good_news", "friendship", "sean", "yan_jiang_qian_xi"],
-  "pictureLessons": ["moodsAndEmotion", "moodsAndEmotion2"],
-  "cards": [
-    {"id": "zh_me_001", "levels": [{"front": "happy", "back": "快乐的", "romanized": "kuàilè de", "grammarNote": "Adverb form: 快乐地 (kuàilè de - happily). In Chinese, add 地 (de) after an adjective to form an adverb. E.g., '她快乐地笑着。' (She was smiling happily.)"}, {"front": "I am very happy today.", "back": "我今天很快乐。", "romanized": "wǒ jīntiān hěn kuàilè.", "literal": "I today very happy."}]},
-    {"id": "zh_me_002", "levels": [{"front": "sad", "back": "悲伤的", "romanized": "bēishāng de", "grammarNote": "Adverb form: 悲伤地 (bēishāng de - sadly). Add 地 after the adjective. E.g., '他悲伤地点头。' (He nodded sadly.)"}, {"front": "She looked sad.", "back": "她看起来很悲伤。", "romanized": "tā kàn qǐlái hěn bēishāng.", "literal": "She look-up-come very sad."}]},
-    {"id": "zh_me_003", "levels": [{"front": "love / to love", "back": "爱", "romanized": "ài"}, {"front": "I love my family.", "back": "我爱我的家人。", "romanized": "wǒ ài wǒ de jiārén.", "literal": "I love my family-members."}]},
-    {"id": "zh_me_004", "levels": [{"front": "anger", "back": "愤怒", "romanized": "fènnù"}, {"front": "His anger frightened everyone.", "back": "他的愤怒让大家都害怕。", "romanized": "tā de fènnù ràng dàjiā dōu hàipà.", "literal": "His anger make everyone all afraid."}]},
-    {"id": "zh_me_005", "levels": [{"front": "fear", "back": "恐惧", "romanized": "kǒngjù"}, {"front": "She couldn't hide her fear.", "back": "她无法隐藏她的恐惧。", "romanized": "tā wúfǎ yǐncáng tā de kǒngjù.", "literal": "She unable-to hide her fear."}]},
-    {"id": "zh_me_006", "levels": [{"front": "hope / to hope", "back": "希望", "romanized": "xīwàng"}, {"front": "I hope you feel better soon.", "back": "我希望你早日好起来。", "romanized": "wǒ xīwàng nǐ zǎorì hǎo qǐlái.", "literal": "I hope you early-day good come-up."}]},
-    {"id": "zh_me_007", "levels": [{"front": "stress", "back": "压力", "romanized": "yālì"}, {"front": "He has a lot of stress at work.", "back": "他工作压力很大。", "romanized": "tā gōngzuò yālì hěn dà.", "literal": "He work stress very big."}]},
-    {"id": "zh_me_008", "levels": [{"front": "mood", "back": "心情", "romanized": "xīnqíng"}, {"front": "I'm in a good mood today.", "back": "我今天心情很好。", "romanized": "wǒ jīntiān xīnqíng hěn hǎo.", "literal": "I today mood very good."}]},
-    {"id": "zh_me_009", "levels": [{"front": "feeling / to feel", "back": "感觉", "romanized": "gǎnjué"}, {"front": "I have a strange feeling.", "back": "我有一种奇怪的感觉。", "romanized": "wǒ yǒu yī zhǒng qíguài de gǎnjué.", "literal": "I have one kind-of strange feeling."}]},
-    {"id": "zh_me_010", "levels": [{"front": "emotion", "back": "情感", "romanized": "qínggǎn"}, {"front": "Music can stir deep emotions.", "back": "音乐能激发深深的情感。", "romanized": "yīnyuè néng jīfā shēnshēn de qínggǎn.", "literal": "Music can stir deeply-deep emotion."}]},
-    {"id": "zh_me_011", "levels": [{"front": "excitement", "back": "兴奋", "romanized": "xīngfèn"}, {"front": "His excitement was contagious.", "back": "他的兴奋感染了所有人。", "romanized": "tā de xīngfèn gǎnrǎn le suǒyǒu rén.", "literal": "His excitement infected [now] all people."}]},
-    {"id": "zh_me_012", "levels": [{"front": "calm", "back": "平静", "romanized": "píngjìng", "grammarNote": "Adverb form: 平静地 (píngjìng de - calmly). Add 地 after the adjective. E.g., '她平静地回答。' (She answered calmly.)"}, {"front": "She stayed calm in the chaos.", "back": "她在混乱中保持了平静。", "romanized": "tā zài hùnluàn zhōng bǎochí le píngjìng.", "literal": "She in chaos middle maintained [now] calm."}]},
-    {"id": "zh_me_013", "levels": [{"front": "peace", "back": "和平", "romanized": "hépíng"}, {"front": "We all want peace.", "back": "我们都渴望和平。", "romanized": "wǒmen dōu kěwàng hépíng.", "literal": "We all long-for peace."}]},
-    {"id": "zh_me_014", "levels": [{"front": "worry / to worry", "back": "担心", "romanized": "dānxīn"}, {"front": "Don't worry, everything is fine.", "back": "别担心，一切都好。", "romanized": "bié dānxīn, yīqiè dōu hǎo.", "literal": "Don't worry, everything all good."}]},
-    {"id": "zh_me_015", "levels": [{"front": "surprise", "back": "惊讶", "romanized": "jīngyà"}, {"front": "She was full of surprise.", "back": "她满心惊讶。", "romanized": "tā mǎn xīn jīngyà.", "literal": "She full-heart surprised."}]},
-    {"id": "zh_me_016", "levels": [{"front": "passion", "back": "激情", "romanized": "jīqíng"}, {"front": "He speaks with passion.", "back": "他充满激情地说话。", "romanized": "tā chōngmǎn jīqíng de shuōhuà.", "literal": "He full-of passion [manner] speak."}]},
-    {"id": "zh_me_017", "levels": [{"front": "desire", "back": "渴望", "romanized": "kěwàng"}, {"front": "She has a desire to travel.", "back": "她渴望旅行。", "romanized": "tā kěwàng lǚxíng.", "literal": "She longs-for travel."}]},
-    {"id": "zh_me_018", "levels": [{"front": "hate", "back": "仇恨", "romanized": "chóuhèn"}, {"front": "Hate only hurts yourself.", "back": "仇恨只会伤害自己。", "romanized": "chóuhèn zhǐ huì shānghài zìjǐ.", "literal": "Hate only will hurt oneself."}]},
-    {"id": "zh_me_019", "levels": [{"front": "pleasure", "back": "快乐 / 享受", "romanized": "kuàilè / xiǎngshòu"}, {"front": "It's a pleasure to meet you.", "back": "很高兴认识你。", "romanized": "hěn gāoxìng rènshi nǐ.", "literal": "Very happy meet you."}]},
-    {"id": "zh_me_020", "levels": [{"front": "pain", "back": "痛苦", "romanized": "tòngkǔ"}, {"front": "She is in a lot of pain.", "back": "她非常痛苦。", "romanized": "tā fēicháng tòngkǔ.", "literal": "She extremely painful."}]},
-    {"id": "zh_me_021", "levels": [{"front": "energy", "back": "精力", "romanized": "jīnglì"}, {"front": "I don't have much energy today.", "back": "我今天没什么精力。", "romanized": "wǒ jīntiān méi shénme jīnglì.", "literal": "I today not-have what energy."}]},
-    {"id": "zh_me_022", "levels": [{"front": "relief", "back": "宽慰", "romanized": "kuānwèi"}, {"front": "I felt great relief after the test.", "back": "考试后我感到非常宽慰。", "romanized": "kǎoshì hòu wǒ gǎndào fēicháng kuānwèi.", "literal": "Exam after I felt extremely relieved."}]},
-    {"id": "zh_me_023", "levels": [{"front": "comfort / to comfort", "back": "安慰", "romanized": "ānwèi"}, {"front": "She needed comfort after the bad news.", "back": "听到坏消息后她需要安慰。", "romanized": "tīngdào huài xiāoxi hòu tā xūyào ānwèi.", "literal": "Hear bad news after she needed comfort."}]},
-    {"id": "zh_me_024", "levels": [{"front": "hate (to hate)", "back": "恨", "romanized": "hèn"}, {"front": "I hate being lied to.", "back": "我恨被人欺骗。", "romanized": "wǒ hèn bèi rén qīpiàn.", "literal": "I hate being-by people deceived."}]},
-    {"id": "zh_me_025", "levels": [{"front": "like (to like)", "back": "喜欢", "romanized": "xǐhuān"}, {"front": "I like this place.", "back": "我喜欢这个地方。", "romanized": "wǒ xǐhuān zhège dìfāng."}]},
-    {"id": "zh_me_026", "levels": [{"front": "enjoy", "back": "享受", "romanized": "xiǎngshòu"}, {"front": "I enjoy spending time with friends.", "back": "我享受与朋友共度时光。", "romanized": "wǒ xiǎngshòu yǔ péngyou gòngdù shíguāng.", "literal": "I enjoy with friends together-spend time."}]},
-    {"id": "zh_me_027", "levels": [{"front": "fear (to fear)", "back": "害怕", "romanized": "hàipà"}, {"front": "I'm afraid of the dark.", "back": "我害怕黑暗。", "romanized": "wǒ hàipà hēi'àn.", "literal": "I afraid-of darkness."}]},
-    {"id": "zh_me_028", "levels": [{"front": "calm (to calm)", "back": "使平静", "romanized": "shǐ píngjìng"}, {"front": "Music can calm your mind.", "back": "音乐能使你心情平静。", "romanized": "yīnyuè néng shǐ nǐ xīnqíng píngjìng.", "literal": "Music can cause you mood calm."}]},
-    {"id": "zh_me_029", "levels": [{"front": "excite", "back": "使兴奋", "romanized": "shǐ xīngfèn"}, {"front": "The news excited everyone.", "back": "这个消息使大家都很兴奋。", "romanized": "zhège xiāoxi shǐ dàjiā dōu hěn xīngfèn.", "literal": "This news cause everyone all very excited."}]},
-    {"id": "zh_me_030", "levels": [{"front": "thrill", "back": "使激动", "romanized": "shǐ jīdòng"}, {"front": "The goal thrilled the crowd.", "back": "这个进球使观众非常激动。", "romanized": "zhège jìnqiú shǐ guānzhòng fēicháng jīdòng.", "literal": "This goal cause audience extremely thrilled."}]},
-    {"id": "zh_me_031", "levels": [{"front": "annoy", "back": "惹恼", "romanized": "rěnǎo"}, {"front": "That noise annoys me.", "back": "那个噪音惹恼了我。", "romanized": "nàgè zàoyīn rěnǎo le wǒ.", "literal": "That noise annoyed [now] me."}]},
-    {"id": "zh_me_032", "levels": [{"front": "irritate", "back": "激怒", "romanized": "jīnù"}, {"front": "His behavior irritated her.", "back": "他的行为激怒了她。", "romanized": "tā de xíngwéi jīnù le tā.", "literal": "His behavior infuriated [now] her."}]},
-    {"id": "zh_me_033", "levels": [{"front": "anger (to anger)", "back": "使愤怒", "romanized": "shǐ fènnù"}, {"front": "The unfair treatment angered him.", "back": "不公平的待遇使他愤怒。", "romanized": "bù gōngpíng de dàiyù shǐ tā fènnù.", "literal": "Not-fair treatment cause him angry."}]},
-    {"id": "zh_me_034", "levels": [{"front": "delight", "back": "使高兴", "romanized": "shǐ gāoxìng"}, {"front": "The gift delighted her.", "back": "这份礼物使她很高兴。", "romanized": "zhè fèn lǐwù shǐ tā hěn gāoxìng.", "literal": "This gift make her very happy."}]},
-    {"id": "zh_me_035", "levels": [{"front": "smile", "back": "微笑", "romanized": "wēixiào"}, {"front": "She smiled at me.", "back": "她对我微笑。", "romanized": "tā duì wǒ wēixiào.", "literal": "She toward me smiled."}]},
-    {"id": "zh_me_036", "levels": [{"front": "laugh", "back": "笑", "romanized": "xiào"}, {"front": "They laughed together.", "back": "他们一起笑了。", "romanized": "tāmen yīqǐ xiào le.", "literal": "They together laughed [now]."}]},
-    {"id": "zh_me_037", "levels": [{"front": "cry", "back": "哭", "romanized": "kū"}, {"front": "The child began to cry.", "back": "孩子开始哭了。", "romanized": "háizi kāishǐ kū le.", "literal": "Child began cry [now]."}]},
-    {"id": "zh_me_038", "levels": [{"front": "sigh", "back": "叹气", "romanized": "tànqì"}, {"front": "He sighed deeply.", "back": "他深深地叹了口气。", "romanized": "tā shēnshēn de tàn le kǒu qì.", "literal": "He deeply-deep [manner] sighed [now] a breath."}]},
-    {"id": "zh_me_039", "levels": [{"front": "frown", "back": "皱眉", "romanized": "zhòuméi"}, {"front": "She frowned at the question.", "back": "她对这个问题皱起了眉头。", "romanized": "tā duì zhège wèntí zhòu qǐ le méitóu.", "literal": "She toward this question wrinkled up [now] brow."}]},
-    {"id": "zh_me_040", "levels": [{"front": "scream", "back": "尖叫", "romanized": "jiānjiào"}, {"front": "She screamed when she saw the spider.", "back": "她看到蜘蛛时尖叫起来。", "romanized": "tā kàndào zhīzhū shí jiānjiào qǐlái.", "literal": "She see spider when screamed up-come."}]},
-    {"id": "zh_me_041", "levels": [{"front": "shout", "back": "大喊", "romanized": "dà hǎn"}, {"front": "Don't shout at me.", "back": "不要对我大喊。", "romanized": "bù yào duì wǒ dà hǎn.", "literal": "Don't toward me shout."}]},
-    {"id": "zh_me_042", "levels": [{"front": "relax", "back": "放松", "romanized": "fàngsōng"}, {"front": "Try to relax.", "back": "试着放松一下。", "romanized": "shìzhe fàngsōng yīxià.", "literal": "Try relax a-little."}]},
-    {"id": "zh_me_043", "levels": [{"front": "angry", "back": "生气的", "romanized": "shēngqì de", "grammarNote": "Adverb form: 生气地 / 愤怒地 (shēngqì de / fènnù de - angrily). Add 地 after the adjective. E.g., '他生气地走了。' (He left angrily.)"}, {"front": "Why are you so angry?", "back": "你为什么这么生气？", "romanized": "nǐ wèishénme zhème shēngqì?", "literal": "You why this-way angry?"}]},
-    {"id": "zh_me_044", "levels": [{"front": "mad", "back": "发怒的", "romanized": "fānù de"}, {"front": "She went mad with stress.", "back": "她因压力而发怒了。", "romanized": "tā yīn yālì ér fānù le.", "literal": "She because stress therefore went-mad [now]."}]},
-    {"id": "zh_me_045", "levels": [{"front": "afraid", "back": "害怕的", "romanized": "hàipà de"}, {"front": "Are you afraid of dogs?", "back": "你害怕狗吗？", "romanized": "nǐ hàipà gǒu ma?", "literal": "You afraid-of dogs [question]?"}]},
-    {"id": "zh_me_046", "levels": [{"front": "scared", "back": "受惊的", "romanized": "shòujīng de"}, {"front": "He looked scared.", "back": "他看起来很受惊。", "romanized": "tā kàn qǐlái hěn shòujīng.", "literal": "He look-up-come very frightened."}]},
-    {"id": "zh_me_047", "levels": [{"front": "anxious", "back": "焦虑的", "romanized": "jiāolǜ de", "grammarNote": "Adverb form: 焦虑地 (jiāolǜ de - anxiously). Add 地 after the adjective. E.g., '她焦虑地等待着。' (She waited anxiously.)"}, {"front": "She felt anxious before the exam.", "back": "考试前她感到很焦虑。", "romanized": "kǎoshì qián tā gǎndào hěn jiāolǜ.", "literal": "Exam before she felt very anxious."}]},
-    {"id": "zh_me_048", "levels": [{"front": "nervous", "back": "紧张的", "romanized": "jǐnzhāng de", "grammarNote": "Adverb form: 紧张地 (jǐnzhāng de - nervously). Add 地 after the adjective. E.g., '他紧张地说话。' (He spoke nervously.)"}, {"front": "I'm nervous about the interview.", "back": "我对面试感到紧张。", "romanized": "wǒ duì miànshì gǎndào jǐnzhāng.", "literal": "I toward interview felt nervous."}]},
-    {"id": "zh_me_049", "levels": [{"front": "excited", "back": "兴奋的", "romanized": "xīngfèn de", "grammarNote": "Adverb form: 兴奋地 (xīngfèn de - excitedly). Add 地 after the adjective. E.g., '她兴奋地叫了起来。' (She cried out excitedly.)"}, {"front": "The children are excited about the trip.", "back": "孩子们对这次旅行很兴奋。", "romanized": "háizimen duì zhè cì lǚxíng hěn xīngfèn.", "literal": "Children toward this trip very excited."}]},
-    {"id": "zh_me_050", "levels": [{"front": "joyful", "back": "欢喜的", "romanized": "huānxǐ de"}, {"front": "She felt joyful all day.", "back": "她整天都很欢喜。", "romanized": "tā zhěngtiān dōu hěn huānxǐ.", "literal": "She whole-day all very joyful."}]},
-    {"id": "zh_me_051", "levels": [{"front": "content", "back": "满足的", "romanized": "mǎnzú de"}, {"front": "He is content with his life.", "back": "他对自己的生活很满足。", "romanized": "tā duì zìjǐ de shēnghuó hěn mǎnzú.", "literal": "He toward his-own life very content."}]},
-    {"id": "zh_me_052", "levels": [{"front": "stressed", "back": "有压力的", "romanized": "yǒu yālì de"}, {"front": "I feel very stressed this week.", "back": "这周我感到压力很大。", "romanized": "zhè zhōu wǒ gǎndào yālì hěn dà.", "literal": "This week I felt stress very big."}]},
-    {"id": "zh_me_053", "levels": [{"front": "overwhelmed", "back": "不堪重负的", "romanized": "bùkān zhòngfù de"}, {"front": "She felt overwhelmed by the workload.", "back": "她被工作量压得不堪重负。", "romanized": "tā bèi gōngzuòliàng yā de bùkān zhòngfù.", "literal": "She by workload pressed to unable-to-bear heavy-burden."}]},
-    {"id": "zh_me_054", "levels": [{"front": "energetic", "back": "精力充沛的", "romanized": "jīnglì chōngpèi de"}, {"front": "He woke up feeling energetic.", "back": "他醒来感到精力充沛。", "romanized": "tā xǐng lái gǎndào jīnglì chōngpèi.", "literal": "He wake come felt energy overflowing."}]},
-    {"id": "zh_me_055", "levels": [{"front": "tired", "back": "累的", "romanized": "lèi de", "grammarNote": "Adverb form: 疲惫地 (píbèi de - wearily). Add 地 after the adjective. E.g., '他疲惫地拖着脚步。' (He dragged his feet wearily.)"}, {"front": "I'm tired today.", "back": "我今天很累。", "romanized": "wǒ jīntiān hěn lèi.", "literal": "I today very tired."}]},
-    {"id": "zh_me_056", "levels": [{"front": "exhausted", "back": "筋疲力尽的", "romanized": "jīnpí lìjìn de"}, {"front": "After the race, he was exhausted.", "back": "比赛结束后，他筋疲力尽。", "romanized": "bǐsài jiéshù hòu, tā jīnpí lìjìn.", "literal": "Race finish after, he muscles-tired strength-exhausted."}]},
-    {"id": "zh_me_057", "levels": [{"front": "curious", "back": "好奇的", "romanized": "hàoqí de"}, {"front": "She is curious about everything.", "back": "她对一切都很好奇。", "romanized": "tā duì yīqiè dōu hěn hàoqí.", "literal": "She toward everything all very curious."}]}
-  ]
+  "stories": [
+    "a_bad_day",
+    "good_news",
+    "friendship",
+    "sean",
+    "yan_jiang_qian_xi"
+  ],
+  "pictureLessons": [
+    "moodsAndEmotion",
+    "moodsAndEmotion2"
+  ],
+  "cards": {
+    "happy": {
+      "levels": [
+        {
+          "front": "happy",
+          "back": "快乐的",
+          "romanized": "kuàilè de",
+          "grammarNote": "Adverb form: 快乐地 (kuàilè de - happily). In Chinese, add 地 (de) after an adjective to form an adverb. E.g., '她快乐地笑着。' (She was smiling happily.)"
+        },
+        {
+          "front": "I am very happy today.",
+          "back": "我今天很快乐。",
+          "romanized": "wǒ jīntiān hěn kuàilè.",
+          "literal": "I today very happy."
+        }
+      ]
+    },
+    "sad": {
+      "levels": [
+        {
+          "front": "sad",
+          "back": "悲伤的",
+          "romanized": "bēishāng de",
+          "grammarNote": "Adverb form: 悲伤地 (bēishāng de - sadly). Add 地 after the adjective. E.g., '他悲伤地点头。' (He nodded sadly.)"
+        },
+        {
+          "front": "She looked sad.",
+          "back": "她看起来很悲伤。",
+          "romanized": "tā kàn qǐlái hěn bēishāng.",
+          "literal": "She look-up-come very sad."
+        }
+      ]
+    },
+    "love_to_love": {
+      "levels": [
+        {
+          "front": "love / to love",
+          "back": "爱",
+          "romanized": "ài"
+        },
+        {
+          "front": "I love my family.",
+          "back": "我爱我的家人。",
+          "romanized": "wǒ ài wǒ de jiārén.",
+          "literal": "I love my family-members."
+        }
+      ]
+    },
+    "anger": {
+      "levels": [
+        {
+          "front": "anger",
+          "back": "愤怒",
+          "romanized": "fènnù"
+        },
+        {
+          "front": "His anger frightened everyone.",
+          "back": "他的愤怒让大家都害怕。",
+          "romanized": "tā de fènnù ràng dàjiā dōu hàipà.",
+          "literal": "His anger make everyone all afraid."
+        }
+      ]
+    },
+    "fear": {
+      "levels": [
+        {
+          "front": "fear",
+          "back": "恐惧",
+          "romanized": "kǒngjù"
+        },
+        {
+          "front": "She couldn't hide her fear.",
+          "back": "她无法隐藏她的恐惧。",
+          "romanized": "tā wúfǎ yǐncáng tā de kǒngjù.",
+          "literal": "She unable-to hide her fear."
+        }
+      ]
+    },
+    "hope_to_hope": {
+      "levels": [
+        {
+          "front": "hope / to hope",
+          "back": "希望",
+          "romanized": "xīwàng"
+        },
+        {
+          "front": "I hope you feel better soon.",
+          "back": "我希望你早日好起来。",
+          "romanized": "wǒ xīwàng nǐ zǎorì hǎo qǐlái.",
+          "literal": "I hope you early-day good come-up."
+        }
+      ]
+    },
+    "stress": {
+      "levels": [
+        {
+          "front": "stress",
+          "back": "压力",
+          "romanized": "yālì"
+        },
+        {
+          "front": "He has a lot of stress at work.",
+          "back": "他工作压力很大。",
+          "romanized": "tā gōngzuò yālì hěn dà.",
+          "literal": "He work stress very big."
+        }
+      ]
+    },
+    "mood": {
+      "levels": [
+        {
+          "front": "mood",
+          "back": "心情",
+          "romanized": "xīnqíng"
+        },
+        {
+          "front": "I'm in a good mood today.",
+          "back": "我今天心情很好。",
+          "romanized": "wǒ jīntiān xīnqíng hěn hǎo.",
+          "literal": "I today mood very good."
+        }
+      ]
+    },
+    "feeling_to_feel": {
+      "levels": [
+        {
+          "front": "feeling / to feel",
+          "back": "感觉",
+          "romanized": "gǎnjué"
+        },
+        {
+          "front": "I have a strange feeling.",
+          "back": "我有一种奇怪的感觉。",
+          "romanized": "wǒ yǒu yī zhǒng qíguài de gǎnjué.",
+          "literal": "I have one kind-of strange feeling."
+        }
+      ]
+    },
+    "emotion": {
+      "levels": [
+        {
+          "front": "emotion",
+          "back": "情感",
+          "romanized": "qínggǎn"
+        },
+        {
+          "front": "Music can stir deep emotions.",
+          "back": "音乐能激发深深的情感。",
+          "romanized": "yīnyuè néng jīfā shēnshēn de qínggǎn.",
+          "literal": "Music can stir deeply-deep emotion."
+        }
+      ]
+    },
+    "excitement": {
+      "levels": [
+        {
+          "front": "excitement",
+          "back": "兴奋",
+          "romanized": "xīngfèn"
+        },
+        {
+          "front": "His excitement was contagious.",
+          "back": "他的兴奋感染了所有人。",
+          "romanized": "tā de xīngfèn gǎnrǎn le suǒyǒu rén.",
+          "literal": "His excitement infected [now] all people."
+        }
+      ]
+    },
+    "calm": {
+      "levels": [
+        {
+          "front": "calm",
+          "back": "平静",
+          "romanized": "píngjìng",
+          "grammarNote": "Adverb form: 平静地 (píngjìng de - calmly). Add 地 after the adjective. E.g., '她平静地回答。' (She answered calmly.)"
+        },
+        {
+          "front": "She stayed calm in the chaos.",
+          "back": "她在混乱中保持了平静。",
+          "romanized": "tā zài hùnluàn zhōng bǎochí le píngjìng.",
+          "literal": "She in chaos middle maintained [now] calm."
+        }
+      ]
+    },
+    "peace": {
+      "levels": [
+        {
+          "front": "peace",
+          "back": "和平",
+          "romanized": "hépíng"
+        },
+        {
+          "front": "We all want peace.",
+          "back": "我们都渴望和平。",
+          "romanized": "wǒmen dōu kěwàng hépíng.",
+          "literal": "We all long-for peace."
+        }
+      ]
+    },
+    "worry_to_worry": {
+      "levels": [
+        {
+          "front": "worry / to worry",
+          "back": "担心",
+          "romanized": "dānxīn"
+        },
+        {
+          "front": "Don't worry, everything is fine.",
+          "back": "别担心，一切都好。",
+          "romanized": "bié dānxīn, yīqiè dōu hǎo.",
+          "literal": "Don't worry, everything all good."
+        }
+      ]
+    },
+    "surprise": {
+      "levels": [
+        {
+          "front": "surprise",
+          "back": "惊讶",
+          "romanized": "jīngyà"
+        },
+        {
+          "front": "She was full of surprise.",
+          "back": "她满心惊讶。",
+          "romanized": "tā mǎn xīn jīngyà.",
+          "literal": "She full-heart surprised."
+        }
+      ]
+    },
+    "passion": {
+      "levels": [
+        {
+          "front": "passion",
+          "back": "激情",
+          "romanized": "jīqíng"
+        },
+        {
+          "front": "He speaks with passion.",
+          "back": "他充满激情地说话。",
+          "romanized": "tā chōngmǎn jīqíng de shuōhuà.",
+          "literal": "He full-of passion [manner] speak."
+        }
+      ]
+    },
+    "desire": {
+      "levels": [
+        {
+          "front": "desire",
+          "back": "渴望",
+          "romanized": "kěwàng"
+        },
+        {
+          "front": "She has a desire to travel.",
+          "back": "她渴望旅行。",
+          "romanized": "tā kěwàng lǚxíng.",
+          "literal": "She longs-for travel."
+        }
+      ]
+    },
+    "hate": {
+      "levels": [
+        {
+          "front": "hate",
+          "back": "仇恨",
+          "romanized": "chóuhèn"
+        },
+        {
+          "front": "Hate only hurts yourself.",
+          "back": "仇恨只会伤害自己。",
+          "romanized": "chóuhèn zhǐ huì shānghài zìjǐ.",
+          "literal": "Hate only will hurt oneself."
+        }
+      ]
+    },
+    "pleasure": {
+      "levels": [
+        {
+          "front": "pleasure",
+          "back": "快乐 / 享受",
+          "romanized": "kuàilè / xiǎngshòu"
+        },
+        {
+          "front": "It's a pleasure to meet you.",
+          "back": "很高兴认识你。",
+          "romanized": "hěn gāoxìng rènshi nǐ.",
+          "literal": "Very happy meet you."
+        }
+      ]
+    },
+    "pain": {
+      "levels": [
+        {
+          "front": "pain",
+          "back": "痛苦",
+          "romanized": "tòngkǔ"
+        },
+        {
+          "front": "She is in a lot of pain.",
+          "back": "她非常痛苦。",
+          "romanized": "tā fēicháng tòngkǔ.",
+          "literal": "She extremely painful."
+        }
+      ]
+    },
+    "energy": {
+      "levels": [
+        {
+          "front": "energy",
+          "back": "精力",
+          "romanized": "jīnglì"
+        },
+        {
+          "front": "I don't have much energy today.",
+          "back": "我今天没什么精力。",
+          "romanized": "wǒ jīntiān méi shénme jīnglì.",
+          "literal": "I today not-have what energy."
+        }
+      ]
+    },
+    "relief": {
+      "levels": [
+        {
+          "front": "relief",
+          "back": "宽慰",
+          "romanized": "kuānwèi"
+        },
+        {
+          "front": "I felt great relief after the test.",
+          "back": "考试后我感到非常宽慰。",
+          "romanized": "kǎoshì hòu wǒ gǎndào fēicháng kuānwèi.",
+          "literal": "Exam after I felt extremely relieved."
+        }
+      ]
+    },
+    "comfort_to_comfort": {
+      "levels": [
+        {
+          "front": "comfort / to comfort",
+          "back": "安慰",
+          "romanized": "ānwèi"
+        },
+        {
+          "front": "She needed comfort after the bad news.",
+          "back": "听到坏消息后她需要安慰。",
+          "romanized": "tīngdào huài xiāoxi hòu tā xūyào ānwèi.",
+          "literal": "Hear bad news after she needed comfort."
+        }
+      ]
+    },
+    "hate_to_hate": {
+      "levels": [
+        {
+          "front": "hate (to hate)",
+          "back": "恨",
+          "romanized": "hèn"
+        },
+        {
+          "front": "I hate being lied to.",
+          "back": "我恨被人欺骗。",
+          "romanized": "wǒ hèn bèi rén qīpiàn.",
+          "literal": "I hate being-by people deceived."
+        }
+      ]
+    },
+    "like_to_like": {
+      "levels": [
+        {
+          "front": "like (to like)",
+          "back": "喜欢",
+          "romanized": "xǐhuān"
+        },
+        {
+          "front": "I like this place.",
+          "back": "我喜欢这个地方。",
+          "romanized": "wǒ xǐhuān zhège dìfāng."
+        }
+      ]
+    },
+    "enjoy": {
+      "levels": [
+        {
+          "front": "enjoy",
+          "back": "享受",
+          "romanized": "xiǎngshòu"
+        },
+        {
+          "front": "I enjoy spending time with friends.",
+          "back": "我享受与朋友共度时光。",
+          "romanized": "wǒ xiǎngshòu yǔ péngyou gòngdù shíguāng.",
+          "literal": "I enjoy with friends together-spend time."
+        }
+      ]
+    },
+    "fear_to_fear": {
+      "levels": [
+        {
+          "front": "fear (to fear)",
+          "back": "害怕",
+          "romanized": "hàipà"
+        },
+        {
+          "front": "I'm afraid of the dark.",
+          "back": "我害怕黑暗。",
+          "romanized": "wǒ hàipà hēi'àn.",
+          "literal": "I afraid-of darkness."
+        }
+      ]
+    },
+    "calm_to_calm": {
+      "levels": [
+        {
+          "front": "calm (to calm)",
+          "back": "使平静",
+          "romanized": "shǐ píngjìng"
+        },
+        {
+          "front": "Music can calm your mind.",
+          "back": "音乐能使你心情平静。",
+          "romanized": "yīnyuè néng shǐ nǐ xīnqíng píngjìng.",
+          "literal": "Music can cause you mood calm."
+        }
+      ]
+    },
+    "excite": {
+      "levels": [
+        {
+          "front": "excite",
+          "back": "使兴奋",
+          "romanized": "shǐ xīngfèn"
+        },
+        {
+          "front": "The news excited everyone.",
+          "back": "这个消息使大家都很兴奋。",
+          "romanized": "zhège xiāoxi shǐ dàjiā dōu hěn xīngfèn.",
+          "literal": "This news cause everyone all very excited."
+        }
+      ]
+    },
+    "thrill": {
+      "levels": [
+        {
+          "front": "thrill",
+          "back": "使激动",
+          "romanized": "shǐ jīdòng"
+        },
+        {
+          "front": "The goal thrilled the crowd.",
+          "back": "这个进球使观众非常激动。",
+          "romanized": "zhège jìnqiú shǐ guānzhòng fēicháng jīdòng.",
+          "literal": "This goal cause audience extremely thrilled."
+        }
+      ]
+    },
+    "annoy": {
+      "levels": [
+        {
+          "front": "annoy",
+          "back": "惹恼",
+          "romanized": "rěnǎo"
+        },
+        {
+          "front": "That noise annoys me.",
+          "back": "那个噪音惹恼了我。",
+          "romanized": "nàgè zàoyīn rěnǎo le wǒ.",
+          "literal": "That noise annoyed [now] me."
+        }
+      ]
+    },
+    "irritate": {
+      "levels": [
+        {
+          "front": "irritate",
+          "back": "激怒",
+          "romanized": "jīnù"
+        },
+        {
+          "front": "His behavior irritated her.",
+          "back": "他的行为激怒了她。",
+          "romanized": "tā de xíngwéi jīnù le tā.",
+          "literal": "His behavior infuriated [now] her."
+        }
+      ]
+    },
+    "anger_to_anger": {
+      "levels": [
+        {
+          "front": "anger (to anger)",
+          "back": "使愤怒",
+          "romanized": "shǐ fènnù"
+        },
+        {
+          "front": "The unfair treatment angered him.",
+          "back": "不公平的待遇使他愤怒。",
+          "romanized": "bù gōngpíng de dàiyù shǐ tā fènnù.",
+          "literal": "Not-fair treatment cause him angry."
+        }
+      ]
+    },
+    "delight": {
+      "levels": [
+        {
+          "front": "delight",
+          "back": "使高兴",
+          "romanized": "shǐ gāoxìng"
+        },
+        {
+          "front": "The gift delighted her.",
+          "back": "这份礼物使她很高兴。",
+          "romanized": "zhè fèn lǐwù shǐ tā hěn gāoxìng.",
+          "literal": "This gift make her very happy."
+        }
+      ]
+    },
+    "smile": {
+      "levels": [
+        {
+          "front": "smile",
+          "back": "微笑",
+          "romanized": "wēixiào"
+        },
+        {
+          "front": "She smiled at me.",
+          "back": "她对我微笑。",
+          "romanized": "tā duì wǒ wēixiào.",
+          "literal": "She toward me smiled."
+        }
+      ]
+    },
+    "laugh": {
+      "levels": [
+        {
+          "front": "laugh",
+          "back": "笑",
+          "romanized": "xiào"
+        },
+        {
+          "front": "They laughed together.",
+          "back": "他们一起笑了。",
+          "romanized": "tāmen yīqǐ xiào le.",
+          "literal": "They together laughed [now]."
+        }
+      ]
+    },
+    "cry": {
+      "levels": [
+        {
+          "front": "cry",
+          "back": "哭",
+          "romanized": "kū"
+        },
+        {
+          "front": "The child began to cry.",
+          "back": "孩子开始哭了。",
+          "romanized": "háizi kāishǐ kū le.",
+          "literal": "Child began cry [now]."
+        }
+      ]
+    },
+    "sigh": {
+      "levels": [
+        {
+          "front": "sigh",
+          "back": "叹气",
+          "romanized": "tànqì"
+        },
+        {
+          "front": "He sighed deeply.",
+          "back": "他深深地叹了口气。",
+          "romanized": "tā shēnshēn de tàn le kǒu qì.",
+          "literal": "He deeply-deep [manner] sighed [now] a breath."
+        }
+      ]
+    },
+    "frown": {
+      "levels": [
+        {
+          "front": "frown",
+          "back": "皱眉",
+          "romanized": "zhòuméi"
+        },
+        {
+          "front": "She frowned at the question.",
+          "back": "她对这个问题皱起了眉头。",
+          "romanized": "tā duì zhège wèntí zhòu qǐ le méitóu.",
+          "literal": "She toward this question wrinkled up [now] brow."
+        }
+      ]
+    },
+    "scream": {
+      "levels": [
+        {
+          "front": "scream",
+          "back": "尖叫",
+          "romanized": "jiānjiào"
+        },
+        {
+          "front": "She screamed when she saw the spider.",
+          "back": "她看到蜘蛛时尖叫起来。",
+          "romanized": "tā kàndào zhīzhū shí jiānjiào qǐlái.",
+          "literal": "She see spider when screamed up-come."
+        }
+      ]
+    },
+    "shout": {
+      "levels": [
+        {
+          "front": "shout",
+          "back": "大喊",
+          "romanized": "dà hǎn"
+        },
+        {
+          "front": "Don't shout at me.",
+          "back": "不要对我大喊。",
+          "romanized": "bù yào duì wǒ dà hǎn.",
+          "literal": "Don't toward me shout."
+        }
+      ]
+    },
+    "relax": {
+      "levels": [
+        {
+          "front": "relax",
+          "back": "放松",
+          "romanized": "fàngsōng"
+        },
+        {
+          "front": "Try to relax.",
+          "back": "试着放松一下。",
+          "romanized": "shìzhe fàngsōng yīxià.",
+          "literal": "Try relax a-little."
+        }
+      ]
+    },
+    "angry": {
+      "levels": [
+        {
+          "front": "angry",
+          "back": "生气的",
+          "romanized": "shēngqì de",
+          "grammarNote": "Adverb form: 生气地 / 愤怒地 (shēngqì de / fènnù de - angrily). Add 地 after the adjective. E.g., '他生气地走了。' (He left angrily.)"
+        },
+        {
+          "front": "Why are you so angry?",
+          "back": "你为什么这么生气？",
+          "romanized": "nǐ wèishénme zhème shēngqì?",
+          "literal": "You why this-way angry?"
+        }
+      ]
+    },
+    "mad": {
+      "levels": [
+        {
+          "front": "mad",
+          "back": "发怒的",
+          "romanized": "fānù de"
+        },
+        {
+          "front": "She went mad with stress.",
+          "back": "她因压力而发怒了。",
+          "romanized": "tā yīn yālì ér fānù le.",
+          "literal": "She because stress therefore went-mad [now]."
+        }
+      ]
+    },
+    "afraid": {
+      "levels": [
+        {
+          "front": "afraid",
+          "back": "害怕的",
+          "romanized": "hàipà de"
+        },
+        {
+          "front": "Are you afraid of dogs?",
+          "back": "你害怕狗吗？",
+          "romanized": "nǐ hàipà gǒu ma?",
+          "literal": "You afraid-of dogs [question]?"
+        }
+      ]
+    },
+    "scared": {
+      "levels": [
+        {
+          "front": "scared",
+          "back": "受惊的",
+          "romanized": "shòujīng de"
+        },
+        {
+          "front": "He looked scared.",
+          "back": "他看起来很受惊。",
+          "romanized": "tā kàn qǐlái hěn shòujīng.",
+          "literal": "He look-up-come very frightened."
+        }
+      ]
+    },
+    "anxious": {
+      "levels": [
+        {
+          "front": "anxious",
+          "back": "焦虑的",
+          "romanized": "jiāolǜ de",
+          "grammarNote": "Adverb form: 焦虑地 (jiāolǜ de - anxiously). Add 地 after the adjective. E.g., '她焦虑地等待着。' (She waited anxiously.)"
+        },
+        {
+          "front": "She felt anxious before the exam.",
+          "back": "考试前她感到很焦虑。",
+          "romanized": "kǎoshì qián tā gǎndào hěn jiāolǜ.",
+          "literal": "Exam before she felt very anxious."
+        }
+      ]
+    },
+    "nervous": {
+      "levels": [
+        {
+          "front": "nervous",
+          "back": "紧张的",
+          "romanized": "jǐnzhāng de",
+          "grammarNote": "Adverb form: 紧张地 (jǐnzhāng de - nervously). Add 地 after the adjective. E.g., '他紧张地说话。' (He spoke nervously.)"
+        },
+        {
+          "front": "I'm nervous about the interview.",
+          "back": "我对面试感到紧张。",
+          "romanized": "wǒ duì miànshì gǎndào jǐnzhāng.",
+          "literal": "I toward interview felt nervous."
+        }
+      ]
+    },
+    "excited": {
+      "levels": [
+        {
+          "front": "excited",
+          "back": "兴奋的",
+          "romanized": "xīngfèn de",
+          "grammarNote": "Adverb form: 兴奋地 (xīngfèn de - excitedly). Add 地 after the adjective. E.g., '她兴奋地叫了起来。' (She cried out excitedly.)"
+        },
+        {
+          "front": "The children are excited about the trip.",
+          "back": "孩子们对这次旅行很兴奋。",
+          "romanized": "háizimen duì zhè cì lǚxíng hěn xīngfèn.",
+          "literal": "Children toward this trip very excited."
+        }
+      ]
+    },
+    "joyful": {
+      "levels": [
+        {
+          "front": "joyful",
+          "back": "欢喜的",
+          "romanized": "huānxǐ de"
+        },
+        {
+          "front": "She felt joyful all day.",
+          "back": "她整天都很欢喜。",
+          "romanized": "tā zhěngtiān dōu hěn huānxǐ.",
+          "literal": "She whole-day all very joyful."
+        }
+      ]
+    },
+    "content": {
+      "levels": [
+        {
+          "front": "content",
+          "back": "满足的",
+          "romanized": "mǎnzú de"
+        },
+        {
+          "front": "He is content with his life.",
+          "back": "他对自己的生活很满足。",
+          "romanized": "tā duì zìjǐ de shēnghuó hěn mǎnzú.",
+          "literal": "He toward his-own life very content."
+        }
+      ]
+    },
+    "stressed": {
+      "levels": [
+        {
+          "front": "stressed",
+          "back": "有压力的",
+          "romanized": "yǒu yālì de"
+        },
+        {
+          "front": "I feel very stressed this week.",
+          "back": "这周我感到压力很大。",
+          "romanized": "zhè zhōu wǒ gǎndào yālì hěn dà.",
+          "literal": "This week I felt stress very big."
+        }
+      ]
+    },
+    "overwhelmed": {
+      "levels": [
+        {
+          "front": "overwhelmed",
+          "back": "不堪重负的",
+          "romanized": "bùkān zhòngfù de"
+        },
+        {
+          "front": "She felt overwhelmed by the workload.",
+          "back": "她被工作量压得不堪重负。",
+          "romanized": "tā bèi gōngzuòliàng yā de bùkān zhòngfù.",
+          "literal": "She by workload pressed to unable-to-bear heavy-burden."
+        }
+      ]
+    },
+    "energetic": {
+      "levels": [
+        {
+          "front": "energetic",
+          "back": "精力充沛的",
+          "romanized": "jīnglì chōngpèi de"
+        },
+        {
+          "front": "He woke up feeling energetic.",
+          "back": "他醒来感到精力充沛。",
+          "romanized": "tā xǐng lái gǎndào jīnglì chōngpèi.",
+          "literal": "He wake come felt energy overflowing."
+        }
+      ]
+    },
+    "tired": {
+      "levels": [
+        {
+          "front": "tired",
+          "back": "累的",
+          "romanized": "lèi de",
+          "grammarNote": "Adverb form: 疲惫地 (píbèi de - wearily). Add 地 after the adjective. E.g., '他疲惫地拖着脚步。' (He dragged his feet wearily.)"
+        },
+        {
+          "front": "I'm tired today.",
+          "back": "我今天很累。",
+          "romanized": "wǒ jīntiān hěn lèi.",
+          "literal": "I today very tired."
+        }
+      ]
+    },
+    "exhausted": {
+      "levels": [
+        {
+          "front": "exhausted",
+          "back": "筋疲力尽的",
+          "romanized": "jīnpí lìjìn de"
+        },
+        {
+          "front": "After the race, he was exhausted.",
+          "back": "比赛结束后，他筋疲力尽。",
+          "romanized": "bǐsài jiéshù hòu, tā jīnpí lìjìn.",
+          "literal": "Race finish after, he muscles-tired strength-exhausted."
+        }
+      ]
+    },
+    "curious": {
+      "levels": [
+        {
+          "front": "curious",
+          "back": "好奇的",
+          "romanized": "hàoqí de"
+        },
+        {
+          "front": "She is curious about everything.",
+          "back": "她对一切都很好奇。",
+          "romanized": "tā duì yīqiè dōu hěn hàoqí.",
+          "literal": "She toward everything all very curious."
+        }
+      ]
+    }
+  }
 }

@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { loadDeckState, getDeckSummary } from "../useSRSStorage";
+import { loadDeckState, getDeckSummary, normalizeCards } from "../useSRSStorage";
 import "../srs.css";
+
+interface RawDeckMeta {
+    id: string;
+    name: string;
+    language: string;
+    stories?: string[];
+    pictureLessons?: string[];
+    cards: Record<string, { hidden?: boolean; levels: unknown[] }>;
+}
 
 interface DeckMeta {
     id: string;
@@ -31,7 +40,8 @@ const SRSHome = () => {
         Promise.all(
             AVAILABLE_DECKS.map((deckId) =>
                 fetch(`/languages/${language}/${deckId}.json`)
-                    .then((r) => r.json())
+                    .then((r) => r.json() as Promise<RawDeckMeta>)
+                    .then((raw): DeckMeta => ({ ...raw, cards: normalizeCards(raw.cards) }))
                     .catch(() => null)
             )
         ).then((results) => {

@@ -2,63 +2,842 @@
   "id": "human_body",
   "name": "Human Body",
   "language": "japanese",
-  "stories": ["after_exercise", "at_the_doctor", "getting_ready"],
-  "pictureLessons": ["humanBody"],
-  "cards": [
-    {"id": "ja_hb_001", "levels": [{"front": "head", "back": "頭", "romanized": "atama", "grammarNote": "In Japanese, pain is expressed with 'ga itai' (が痛い): 'atama ga itai' (頭が痛い) = my head hurts. Unlike French 'avoir mal à', Japanese uses the subject particle 'ga' and the adjective 'itai' (painful). The body part becomes the subject of the pain."}, {"front": "My head hurts.", "back": "頭が痛いです。", "romanized": "atama ga itai desu", "literal": "Head [subj] hurts is."}]},
-    {"id": "ja_hb_002", "levels": [{"front": "hair", "back": "髪 / 髪の毛", "romanized": "kami / kaminoke", "grammarNote": "'Kami' (髪) refers to hair on the head. 'Ke' (毛) is the general word for body hair. To describe hair, use 'kami ga nagai' (髪が長い, has long hair) or 'kami ga mijikai' (髪が短い, has short hair)."}, {"front": "She has long hair.", "back": "彼女は髪が長いです。", "romanized": "kanojo wa kami ga nagai desu", "literal": "She [topic] hair [subj] long is."}]},
-    {"id": "ja_hb_003", "levels": [{"front": "face", "back": "顔", "romanized": "kao"}, {"front": "Wash your face.", "back": "顔を洗ってください。", "romanized": "kao wo aratte kudasai", "literal": "Face [obj] please wash."}]},
-    {"id": "ja_hb_004", "levels": [{"front": "eye", "back": "目", "romanized": "me"}, {"front": "He has blue eyes.", "back": "彼は青い目をしています。", "romanized": "kare wa aoi me wo shite imasu", "literal": "He [topic] blue eyes [obj] doing is."}]},
-    {"id": "ja_hb_005", "levels": [{"front": "ear", "back": "耳", "romanized": "mimi"}, {"front": "My ear hurts.", "back": "耳が痛いです。", "romanized": "mimi ga itai desu", "literal": "Ear [subj] hurts is."}]},
-    {"id": "ja_hb_006", "levels": [{"front": "nose", "back": "鼻", "romanized": "hana"}, {"front": "My nose is cold.", "back": "鼻が冷たいです。", "romanized": "hana ga tsumetai desu", "literal": "Nose [subj] cold is."}]},
-    {"id": "ja_hb_007", "levels": [{"front": "mouth", "back": "口", "romanized": "kuchi"}, {"front": "Open your mouth.", "back": "口を開けてください。", "romanized": "kuchi wo akete kudasai", "literal": "Mouth [obj] please open."}]},
-    {"id": "ja_hb_008", "levels": [{"front": "lip", "back": "唇", "romanized": "kuchibiru"}, {"front": "She has red lips.", "back": "彼女は唇が赤いです。", "romanized": "kanojo wa kuchibiru ga akai desu", "literal": "She [topic] lips [subj] red is."}]},
-    {"id": "ja_hb_009", "levels": [{"front": "tooth (teeth)", "back": "歯", "romanized": "ha"}, {"front": "I have a toothache.", "back": "歯が痛いです。", "romanized": "ha ga itai desu", "literal": "Tooth [subj] hurts is."}]},
-    {"id": "ja_hb_010", "levels": [{"front": "tongue", "back": "舌", "romanized": "shita"}, {"front": "Stick out your tongue.", "back": "舌を出してください。", "romanized": "shita wo dashite kudasai", "literal": "Tongue [obj] please stick-out."}]},
-    {"id": "ja_hb_011", "levels": [{"front": "neck", "back": "首", "romanized": "kubi"}, {"front": "My neck is stiff.", "back": "首が凝っています。", "romanized": "kubi ga kotte imasu", "literal": "Neck [subj] stiff-is is."}]},
-    {"id": "ja_hb_012", "levels": [{"front": "arm", "back": "腕", "romanized": "ude"}, {"front": "I broke my arm.", "back": "腕を骨折しました。", "romanized": "ude wo kossetsu shimashita", "literal": "Arm [obj] fractured did."}]},
-    {"id": "ja_hb_013", "levels": [{"front": "hand", "back": "手", "romanized": "te"}, {"front": "Wash your hands.", "back": "手を洗ってください。", "romanized": "te wo aratte kudasai", "literal": "Hands [obj] please wash."}]},
-    {"id": "ja_hb_014", "levels": [{"front": "finger", "back": "指", "romanized": "yubi"}, {"front": "He cut his finger.", "back": "彼は指を切りました。", "romanized": "kare wa yubi wo kirimashita", "literal": "He [topic] finger [obj] cut [past]."}]},
-    {"id": "ja_hb_015", "levels": [{"front": "chest", "back": "胸", "romanized": "mune"}, {"front": "He has chest pain.", "back": "彼は胸が痛いです。", "romanized": "kare wa mune ga itai desu", "literal": "He [topic] chest [subj] hurts is."}]},
-    {"id": "ja_hb_016", "levels": [{"front": "back", "back": "背中 / 腰", "romanized": "senaka / koshi"}, {"front": "My back hurts.", "back": "背中が痛いです。", "romanized": "senaka ga itai desu", "literal": "Back [subj] hurts is."}]},
-    {"id": "ja_hb_017", "levels": [{"front": "heart", "back": "心臓", "romanized": "shinzō"}, {"front": "My heart is beating fast.", "back": "心臓がドキドキしています。", "romanized": "shinzō ga dokidoki shite imasu", "literal": "Heart [subj] thump-thump doing is."}]},
-    {"id": "ja_hb_018", "levels": [{"front": "stomach", "back": "お腹 / 胃", "romanized": "onaka / i"}, {"front": "My stomach hurts.", "back": "お腹が痛いです。", "romanized": "onaka ga itai desu", "literal": "Stomach [subj] hurts is."}]},
-    {"id": "ja_hb_019", "levels": [{"front": "muscle", "back": "筋肉", "romanized": "kin'niku"}, {"front": "I pulled a muscle.", "back": "筋肉を痛めました。", "romanized": "kin'niku wo itamemashita", "literal": "Muscle [obj] hurt [past]."}]},
-    {"id": "ja_hb_020", "levels": [{"front": "waist", "back": "腰 / ウエスト", "romanized": "koshi / uesuto"}, {"front": "She has a slim waist.", "back": "彼女はウエストが細いです。", "romanized": "kanojo wa uesuto ga hosoi desu", "literal": "She [topic] waist [subj] slim is."}]},
-    {"id": "ja_hb_021", "levels": [{"front": "skin", "back": "肌 / 皮膚", "romanized": "hada / hifu"}, {"front": "Her skin is soft.", "back": "彼女は肌が柔らかいです。", "romanized": "kanojo wa hada ga yawarakai desu", "literal": "She [topic] skin [subj] soft is."}]},
-    {"id": "ja_hb_022", "levels": [{"front": "blood", "back": "血 / 血液", "romanized": "chi / ketsueki"}, {"front": "He donated blood.", "back": "彼は献血しました。", "romanized": "kare wa kenketsu shimashita", "literal": "He [topic] blood-donation did [past]."}]},
-    {"id": "ja_hb_023", "levels": [{"front": "brain", "back": "脳", "romanized": "nō"}, {"front": "The brain is complex.", "back": "脳は複雑です。", "romanized": "nō wa fukuzatsu desu", "literal": "Brain [topic] complex is."}]},
-    {"id": "ja_hb_024", "levels": [{"front": "skull", "back": "頭蓋骨", "romanized": "zugaikotsu"}, {"front": "The skull protects the brain.", "back": "頭蓋骨は脳を守ります。", "romanized": "zugaikotsu wa nō wo mamorimasu", "literal": "Skull [topic] brain [obj] protects."}]},
-    {"id": "ja_hb_025", "levels": [{"front": "breast", "back": "胸 / 乳房", "romanized": "mune / chibusa"}, {"front": "She felt pain in her chest.", "back": "彼女は胸に痛みを感じました。", "romanized": "kanojo wa mune ni itami wo kanjimashita", "literal": "She [topic] chest [at] pain [obj] felt [past]."}]},
-    {"id": "ja_hb_026", "levels": [{"front": "leg", "back": "足 / 脚", "romanized": "ashi / kyaku"}, {"front": "My leg is tired.", "back": "足が疲れています。", "romanized": "ashi ga tsukarete imasu", "literal": "Leg [subj] tired is."}]},
-    {"id": "ja_hb_027", "levels": [{"front": "foot (feet)", "back": "足 / 足の裏", "romanized": "ashi / ashi no ura", "grammarNote": "In Japanese, 'ashi' (足) can mean both 'leg' and 'foot' depending on context. For the foot specifically, 'ashi no ura' (足の裏) means the sole of the foot. The toe is 'ashi no yubi' (足の指)."}, {"front": "My feet hurt.", "back": "足が痛いです。", "romanized": "ashi ga itai desu", "literal": "Feet [subj] hurts is."}]},
-    {"id": "ja_hb_028", "levels": [{"front": "toe", "back": "足の指 / 足指", "romanized": "ashi no yubi / ashiyubi"}, {"front": "He stubbed his toe.", "back": "彼は足の指をぶつけました。", "romanized": "kare wa ashi no yubi wo butsukemashita", "literal": "He [topic] foot's toe [obj] bumped [past]."}]},
-    {"id": "ja_hb_029", "levels": [{"front": "joint", "back": "関節", "romanized": "kansetsu"}, {"front": "My joints are stiff.", "back": "関節が固くなっています。", "romanized": "kansetsu ga kataku natte imasu", "literal": "Joints [subj] stiff become-ing is."}]},
-    {"id": "ja_hb_030", "levels": [{"front": "breath", "back": "息 / 呼吸", "romanized": "iki / kokyū"}, {"front": "Hold your breath.", "back": "息を止めてください。", "romanized": "iki wo tomete kudasai", "literal": "Breath [obj] please stop."}]},
-    {"id": "ja_hb_031", "levels": [{"front": "see", "back": "見る / 見える", "romanized": "miru / mieru"}, {"front": "I can see clearly.", "back": "はっきり見えます。", "romanized": "hakkiri miemasu", "literal": "Clearly can-see."}]},
-    {"id": "ja_hb_032", "levels": [{"front": "hear", "back": "聞く / 聞こえる", "romanized": "kiku / kikoeru"}, {"front": "I can't hear you.", "back": "聞こえません。", "romanized": "kikoemasen", "literal": "Cannot-hear."}]},
-    {"id": "ja_hb_033", "levels": [{"front": "smell", "back": "嗅ぐ / 匂いがする", "romanized": "kagu / nioi ga suru"}, {"front": "I can smell the flowers.", "back": "花の匂いがします。", "romanized": "hana no nioi ga shimasu", "literal": "Flower's scent [subj] does."}]},
-    {"id": "ja_hb_034", "levels": [{"front": "taste", "back": "味わう / 味見する", "romanized": "ajiwau / ajimi suru"}, {"front": "Taste this soup.", "back": "このスープを味見してください。", "romanized": "kono sūpu wo ajimi shite kudasai", "literal": "This soup [obj] please taste."}]},
-    {"id": "ja_hb_035", "levels": [{"front": "touch", "back": "触る / 触れる", "romanized": "sawaru / fureru"}, {"front": "Don't touch that!", "back": "触らないでください！", "romanized": "sawaranaide kudasai", "literal": "Please don't touch!"}]},
-    {"id": "ja_hb_036", "levels": [{"front": "breathe", "back": "呼吸する / 息をする", "romanized": "kokyū suru / iki wo suru"}, {"front": "Breathe slowly.", "back": "ゆっくり呼吸してください。", "romanized": "yukkuri kokyū shite kudasai", "literal": "Slowly please breathe."}]},
-    {"id": "ja_hb_037", "levels": [{"front": "bend", "back": "曲げる / 曲がる", "romanized": "mageru / magaru"}, {"front": "Bend your knees.", "back": "膝を曲げてください。", "romanized": "hiza wo magete kudasai", "literal": "Knees [obj] please bend."}]},
-    {"id": "ja_hb_038", "levels": [{"front": "stretch", "back": "伸ばす / ストレッチする", "romanized": "nobasu / sutoreccchi suru"}, {"front": "Stretch your arms.", "back": "腕を伸ばしてください。", "romanized": "ude wo nobashite kudasai", "literal": "Arms [obj] please stretch."}]},
-    {"id": "ja_hb_039", "levels": [{"front": "flex", "back": "筋肉を緊張させる / 力を入れる", "romanized": "kin'niku wo kinchō saseru / chikara wo ireru"}, {"front": "Flex your muscles.", "back": "筋肉に力を入れてください。", "romanized": "kin'niku ni chikara wo irete kudasai", "literal": "Muscles [into] strength [obj] please put."}]},
-    {"id": "ja_hb_040", "levels": [{"front": "blink", "back": "まばたきする / 瞬きする", "romanized": "mabataki suru / mabataki suru"}, {"front": "Don't blink.", "back": "まばたきしないでください。", "romanized": "mabataki shinaide kudasai", "literal": "Please don't blink."}]},
-    {"id": "ja_hb_041", "levels": [{"front": "sweat", "back": "汗をかく", "romanized": "ase wo kaku"}, {"front": "I sweat when I run.", "back": "走ると汗をかきます。", "romanized": "hashiru to ase wo kakimasu", "literal": "When run, sweat [obj] break."}]},
-    {"id": "ja_hb_042", "levels": [{"front": "bleed", "back": "出血する / 血が出る", "romanized": "shukketsu suru / chi ga deru"}, {"front": "The wound is bleeding.", "back": "傷口から血が出ています。", "romanized": "kizuguchi kara chi ga dete imasu", "literal": "Wound from blood [subj] coming-out is."}]},
-    {"id": "ja_hb_043", "levels": [{"front": "feel", "back": "感じる / 気分がする", "romanized": "kanjiru / kibun ga suru"}, {"front": "How do you feel?", "back": "気分はどうですか？", "romanized": "kibun wa dō desu ka", "literal": "Feeling [topic] how is?"}]},
-    {"id": "ja_hb_044", "levels": [{"front": "think", "back": "考える / 思う", "romanized": "kangaeru / omou"}, {"front": "What are you thinking about?", "back": "何を考えていますか？", "romanized": "nani wo kangaete imasu ka", "literal": "What [obj] thinking is?"}]},
-    {"id": "ja_hb_045", "levels": [{"front": "move", "back": "動く / 動かす", "romanized": "ugoku / ugokasu"}, {"front": "I can't move my arm.", "back": "腕が動かせません。", "romanized": "ude ga ugokasemasen", "literal": "Arm [subj] cannot-move."}]},
-    {"id": "ja_hb_046", "levels": [{"front": "bony", "back": "骨っぽい / 骨ばった", "romanized": "honeppoi / honebartta"}, {"front": "His hands are bony.", "back": "彼の手は骨ばっています。", "romanized": "kare no te wa honebatte imasu", "literal": "His hands [topic] bony are."}]},
-    {"id": "ja_hb_047", "levels": [{"front": "hairy", "back": "毛深い / 体毛が多い", "romanized": "kefukai / taimō ga ōi"}, {"front": "He has hairy arms.", "back": "彼は腕の毛が濃いです。", "romanized": "kare wa ude no ke ga koi desu", "literal": "He [topic] arms' hair [subj] thick is."}]},
-    {"id": "ja_hb_048", "levels": [{"front": "soft", "back": "柔らかい / 滑らかな", "romanized": "yawarakai / nameraka na"}, {"front": "The tissue is soft.", "back": "ティッシュは柔らかいです。", "romanized": "tisshu wa yawarakai desu", "literal": "Tissue [topic] soft is."}]},
-    {"id": "ja_hb_049", "levels": [{"front": "sore", "back": "痛い / 筋肉痛の", "romanized": "itai / kin'nikutsū no"}, {"front": "My muscles are sore.", "back": "筋肉痛です。", "romanized": "kin'nikutsū desu", "literal": "Muscle-ache is."}]},
-    {"id": "ja_hb_050", "levels": [{"front": "left", "back": "左", "romanized": "hidari"}, {"front": "I hurt my left knee.", "back": "左膝を痛めました。", "romanized": "hidari hiza wo itamemashita", "literal": "Left-knee [obj] hurt [past]."}]},
-    {"id": "ja_hb_051", "levels": [{"front": "right", "back": "右", "romanized": "migi"}, {"front": "I broke my right arm.", "back": "右腕を骨折しました。", "romanized": "migiude wo kossetsu shimashita", "literal": "Right-arm [obj] fractured [past]."}]},
-    {"id": "ja_hb_052", "levels": [{"front": "upper", "back": "上半身 / 上部の", "romanized": "jōhanshin / jōbu no"}, {"front": "The upper body is strong.", "back": "上半身が強いです。", "romanized": "jōhanshin ga tsuyoi desu", "literal": "Upper-body [subj] strong is."}]},
-    {"id": "ja_hb_053", "levels": [{"front": "lower", "back": "下半身 / 下部の", "romanized": "kahanshin / kabu no"}, {"front": "He has lower back pain.", "back": "彼は腰痛があります。", "romanized": "kare wa yōtsū ga arimasu", "literal": "He [topic] lower-back-pain [subj] exists."}]},
-    {"id": "ja_hb_054", "levels": [{"front": "body", "back": "体 / 身体", "romanized": "karada / shintai"}, {"front": "The human body is amazing.", "back": "人間の体は素晴らしいです。", "romanized": "ningen no karada wa subarashii desu", "literal": "Human's body [topic] amazing is."}]},
-    {"id": "ja_hb_055", "levels": [{"front": "human (adjective)", "back": "人間の / 人体の", "romanized": "ningen no / jintai no"}, {"front": "It's part of human biology.", "back": "人間の生物学の一部です。", "romanized": "ningen no seibutsugaku no ichibu desu", "literal": "Human's biology's one-part is."}]}
-  ]
+  "stories": [
+    "after_exercise",
+    "at_the_doctor",
+    "getting_ready"
+  ],
+  "pictureLessons": [
+    "humanBody"
+  ],
+  "cards": {
+    "head": {
+      "levels": [
+        {
+          "front": "head",
+          "back": "頭",
+          "romanized": "atama",
+          "grammarNote": "In Japanese, pain is expressed with 'ga itai' (が痛い): 'atama ga itai' (頭が痛い) = my head hurts. Unlike French 'avoir mal à', Japanese uses the subject particle 'ga' and the adjective 'itai' (painful). The body part becomes the subject of the pain."
+        },
+        {
+          "front": "My head hurts.",
+          "back": "頭が痛いです。",
+          "romanized": "atama ga itai desu",
+          "literal": "Head [subj] hurts is."
+        }
+      ]
+    },
+    "hair": {
+      "levels": [
+        {
+          "front": "hair",
+          "back": "髪 / 髪の毛",
+          "romanized": "kami / kaminoke",
+          "grammarNote": "'Kami' (髪) refers to hair on the head. 'Ke' (毛) is the general word for body hair. To describe hair, use 'kami ga nagai' (髪が長い, has long hair) or 'kami ga mijikai' (髪が短い, has short hair)."
+        },
+        {
+          "front": "She has long hair.",
+          "back": "彼女は髪が長いです。",
+          "romanized": "kanojo wa kami ga nagai desu",
+          "literal": "She [topic] hair [subj] long is."
+        }
+      ]
+    },
+    "face": {
+      "levels": [
+        {
+          "front": "face",
+          "back": "顔",
+          "romanized": "kao"
+        },
+        {
+          "front": "Wash your face.",
+          "back": "顔を洗ってください。",
+          "romanized": "kao wo aratte kudasai",
+          "literal": "Face [obj] please wash."
+        }
+      ]
+    },
+    "eye": {
+      "levels": [
+        {
+          "front": "eye",
+          "back": "目",
+          "romanized": "me"
+        },
+        {
+          "front": "He has blue eyes.",
+          "back": "彼は青い目をしています。",
+          "romanized": "kare wa aoi me wo shite imasu",
+          "literal": "He [topic] blue eyes [obj] doing is."
+        }
+      ]
+    },
+    "ear": {
+      "levels": [
+        {
+          "front": "ear",
+          "back": "耳",
+          "romanized": "mimi"
+        },
+        {
+          "front": "My ear hurts.",
+          "back": "耳が痛いです。",
+          "romanized": "mimi ga itai desu",
+          "literal": "Ear [subj] hurts is."
+        }
+      ]
+    },
+    "nose": {
+      "levels": [
+        {
+          "front": "nose",
+          "back": "鼻",
+          "romanized": "hana"
+        },
+        {
+          "front": "My nose is cold.",
+          "back": "鼻が冷たいです。",
+          "romanized": "hana ga tsumetai desu",
+          "literal": "Nose [subj] cold is."
+        }
+      ]
+    },
+    "mouth": {
+      "levels": [
+        {
+          "front": "mouth",
+          "back": "口",
+          "romanized": "kuchi"
+        },
+        {
+          "front": "Open your mouth.",
+          "back": "口を開けてください。",
+          "romanized": "kuchi wo akete kudasai",
+          "literal": "Mouth [obj] please open."
+        }
+      ]
+    },
+    "lip": {
+      "levels": [
+        {
+          "front": "lip",
+          "back": "唇",
+          "romanized": "kuchibiru"
+        },
+        {
+          "front": "She has red lips.",
+          "back": "彼女は唇が赤いです。",
+          "romanized": "kanojo wa kuchibiru ga akai desu",
+          "literal": "She [topic] lips [subj] red is."
+        }
+      ]
+    },
+    "tooth_teeth": {
+      "levels": [
+        {
+          "front": "tooth (teeth)",
+          "back": "歯",
+          "romanized": "ha"
+        },
+        {
+          "front": "I have a toothache.",
+          "back": "歯が痛いです。",
+          "romanized": "ha ga itai desu",
+          "literal": "Tooth [subj] hurts is."
+        }
+      ]
+    },
+    "tongue": {
+      "levels": [
+        {
+          "front": "tongue",
+          "back": "舌",
+          "romanized": "shita"
+        },
+        {
+          "front": "Stick out your tongue.",
+          "back": "舌を出してください。",
+          "romanized": "shita wo dashite kudasai",
+          "literal": "Tongue [obj] please stick-out."
+        }
+      ]
+    },
+    "neck": {
+      "levels": [
+        {
+          "front": "neck",
+          "back": "首",
+          "romanized": "kubi"
+        },
+        {
+          "front": "My neck is stiff.",
+          "back": "首が凝っています。",
+          "romanized": "kubi ga kotte imasu",
+          "literal": "Neck [subj] stiff-is is."
+        }
+      ]
+    },
+    "arm": {
+      "levels": [
+        {
+          "front": "arm",
+          "back": "腕",
+          "romanized": "ude"
+        },
+        {
+          "front": "I broke my arm.",
+          "back": "腕を骨折しました。",
+          "romanized": "ude wo kossetsu shimashita",
+          "literal": "Arm [obj] fractured did."
+        }
+      ]
+    },
+    "hand": {
+      "levels": [
+        {
+          "front": "hand",
+          "back": "手",
+          "romanized": "te"
+        },
+        {
+          "front": "Wash your hands.",
+          "back": "手を洗ってください。",
+          "romanized": "te wo aratte kudasai",
+          "literal": "Hands [obj] please wash."
+        }
+      ]
+    },
+    "finger": {
+      "levels": [
+        {
+          "front": "finger",
+          "back": "指",
+          "romanized": "yubi"
+        },
+        {
+          "front": "He cut his finger.",
+          "back": "彼は指を切りました。",
+          "romanized": "kare wa yubi wo kirimashita",
+          "literal": "He [topic] finger [obj] cut [past]."
+        }
+      ]
+    },
+    "chest": {
+      "levels": [
+        {
+          "front": "chest",
+          "back": "胸",
+          "romanized": "mune"
+        },
+        {
+          "front": "He has chest pain.",
+          "back": "彼は胸が痛いです。",
+          "romanized": "kare wa mune ga itai desu",
+          "literal": "He [topic] chest [subj] hurts is."
+        }
+      ]
+    },
+    "back": {
+      "levels": [
+        {
+          "front": "back",
+          "back": "背中 / 腰",
+          "romanized": "senaka / koshi"
+        },
+        {
+          "front": "My back hurts.",
+          "back": "背中が痛いです。",
+          "romanized": "senaka ga itai desu",
+          "literal": "Back [subj] hurts is."
+        }
+      ]
+    },
+    "heart": {
+      "levels": [
+        {
+          "front": "heart",
+          "back": "心臓",
+          "romanized": "shinzō"
+        },
+        {
+          "front": "My heart is beating fast.",
+          "back": "心臓がドキドキしています。",
+          "romanized": "shinzō ga dokidoki shite imasu",
+          "literal": "Heart [subj] thump-thump doing is."
+        }
+      ]
+    },
+    "stomach": {
+      "levels": [
+        {
+          "front": "stomach",
+          "back": "お腹 / 胃",
+          "romanized": "onaka / i"
+        },
+        {
+          "front": "My stomach hurts.",
+          "back": "お腹が痛いです。",
+          "romanized": "onaka ga itai desu",
+          "literal": "Stomach [subj] hurts is."
+        }
+      ]
+    },
+    "muscle": {
+      "levels": [
+        {
+          "front": "muscle",
+          "back": "筋肉",
+          "romanized": "kin'niku"
+        },
+        {
+          "front": "I pulled a muscle.",
+          "back": "筋肉を痛めました。",
+          "romanized": "kin'niku wo itamemashita",
+          "literal": "Muscle [obj] hurt [past]."
+        }
+      ]
+    },
+    "waist": {
+      "levels": [
+        {
+          "front": "waist",
+          "back": "腰 / ウエスト",
+          "romanized": "koshi / uesuto"
+        },
+        {
+          "front": "She has a slim waist.",
+          "back": "彼女はウエストが細いです。",
+          "romanized": "kanojo wa uesuto ga hosoi desu",
+          "literal": "She [topic] waist [subj] slim is."
+        }
+      ]
+    },
+    "skin": {
+      "levels": [
+        {
+          "front": "skin",
+          "back": "肌 / 皮膚",
+          "romanized": "hada / hifu"
+        },
+        {
+          "front": "Her skin is soft.",
+          "back": "彼女は肌が柔らかいです。",
+          "romanized": "kanojo wa hada ga yawarakai desu",
+          "literal": "She [topic] skin [subj] soft is."
+        }
+      ]
+    },
+    "blood": {
+      "levels": [
+        {
+          "front": "blood",
+          "back": "血 / 血液",
+          "romanized": "chi / ketsueki"
+        },
+        {
+          "front": "He donated blood.",
+          "back": "彼は献血しました。",
+          "romanized": "kare wa kenketsu shimashita",
+          "literal": "He [topic] blood-donation did [past]."
+        }
+      ]
+    },
+    "brain": {
+      "levels": [
+        {
+          "front": "brain",
+          "back": "脳",
+          "romanized": "nō"
+        },
+        {
+          "front": "The brain is complex.",
+          "back": "脳は複雑です。",
+          "romanized": "nō wa fukuzatsu desu",
+          "literal": "Brain [topic] complex is."
+        }
+      ]
+    },
+    "skull": {
+      "levels": [
+        {
+          "front": "skull",
+          "back": "頭蓋骨",
+          "romanized": "zugaikotsu"
+        },
+        {
+          "front": "The skull protects the brain.",
+          "back": "頭蓋骨は脳を守ります。",
+          "romanized": "zugaikotsu wa nō wo mamorimasu",
+          "literal": "Skull [topic] brain [obj] protects."
+        }
+      ]
+    },
+    "breast": {
+      "levels": [
+        {
+          "front": "breast",
+          "back": "胸 / 乳房",
+          "romanized": "mune / chibusa"
+        },
+        {
+          "front": "She felt pain in her chest.",
+          "back": "彼女は胸に痛みを感じました。",
+          "romanized": "kanojo wa mune ni itami wo kanjimashita",
+          "literal": "She [topic] chest [at] pain [obj] felt [past]."
+        }
+      ]
+    },
+    "leg": {
+      "levels": [
+        {
+          "front": "leg",
+          "back": "足 / 脚",
+          "romanized": "ashi / kyaku"
+        },
+        {
+          "front": "My leg is tired.",
+          "back": "足が疲れています。",
+          "romanized": "ashi ga tsukarete imasu",
+          "literal": "Leg [subj] tired is."
+        }
+      ]
+    },
+    "foot_feet": {
+      "levels": [
+        {
+          "front": "foot (feet)",
+          "back": "足 / 足の裏",
+          "romanized": "ashi / ashi no ura",
+          "grammarNote": "In Japanese, 'ashi' (足) can mean both 'leg' and 'foot' depending on context. For the foot specifically, 'ashi no ura' (足の裏) means the sole of the foot. The toe is 'ashi no yubi' (足の指)."
+        },
+        {
+          "front": "My feet hurt.",
+          "back": "足が痛いです。",
+          "romanized": "ashi ga itai desu",
+          "literal": "Feet [subj] hurts is."
+        }
+      ]
+    },
+    "toe": {
+      "levels": [
+        {
+          "front": "toe",
+          "back": "足の指 / 足指",
+          "romanized": "ashi no yubi / ashiyubi"
+        },
+        {
+          "front": "He stubbed his toe.",
+          "back": "彼は足の指をぶつけました。",
+          "romanized": "kare wa ashi no yubi wo butsukemashita",
+          "literal": "He [topic] foot's toe [obj] bumped [past]."
+        }
+      ]
+    },
+    "joint": {
+      "levels": [
+        {
+          "front": "joint",
+          "back": "関節",
+          "romanized": "kansetsu"
+        },
+        {
+          "front": "My joints are stiff.",
+          "back": "関節が固くなっています。",
+          "romanized": "kansetsu ga kataku natte imasu",
+          "literal": "Joints [subj] stiff become-ing is."
+        }
+      ]
+    },
+    "breath": {
+      "levels": [
+        {
+          "front": "breath",
+          "back": "息 / 呼吸",
+          "romanized": "iki / kokyū"
+        },
+        {
+          "front": "Hold your breath.",
+          "back": "息を止めてください。",
+          "romanized": "iki wo tomete kudasai",
+          "literal": "Breath [obj] please stop."
+        }
+      ]
+    },
+    "see": {
+      "levels": [
+        {
+          "front": "see",
+          "back": "見る / 見える",
+          "romanized": "miru / mieru"
+        },
+        {
+          "front": "I can see clearly.",
+          "back": "はっきり見えます。",
+          "romanized": "hakkiri miemasu",
+          "literal": "Clearly can-see."
+        }
+      ]
+    },
+    "hear": {
+      "levels": [
+        {
+          "front": "hear",
+          "back": "聞く / 聞こえる",
+          "romanized": "kiku / kikoeru"
+        },
+        {
+          "front": "I can't hear you.",
+          "back": "聞こえません。",
+          "romanized": "kikoemasen",
+          "literal": "Cannot-hear."
+        }
+      ]
+    },
+    "smell": {
+      "levels": [
+        {
+          "front": "smell",
+          "back": "嗅ぐ / 匂いがする",
+          "romanized": "kagu / nioi ga suru"
+        },
+        {
+          "front": "I can smell the flowers.",
+          "back": "花の匂いがします。",
+          "romanized": "hana no nioi ga shimasu",
+          "literal": "Flower's scent [subj] does."
+        }
+      ]
+    },
+    "taste": {
+      "levels": [
+        {
+          "front": "taste",
+          "back": "味わう / 味見する",
+          "romanized": "ajiwau / ajimi suru"
+        },
+        {
+          "front": "Taste this soup.",
+          "back": "このスープを味見してください。",
+          "romanized": "kono sūpu wo ajimi shite kudasai",
+          "literal": "This soup [obj] please taste."
+        }
+      ]
+    },
+    "touch": {
+      "levels": [
+        {
+          "front": "touch",
+          "back": "触る / 触れる",
+          "romanized": "sawaru / fureru"
+        },
+        {
+          "front": "Don't touch that!",
+          "back": "触らないでください！",
+          "romanized": "sawaranaide kudasai",
+          "literal": "Please don't touch!"
+        }
+      ]
+    },
+    "breathe": {
+      "levels": [
+        {
+          "front": "breathe",
+          "back": "呼吸する / 息をする",
+          "romanized": "kokyū suru / iki wo suru"
+        },
+        {
+          "front": "Breathe slowly.",
+          "back": "ゆっくり呼吸してください。",
+          "romanized": "yukkuri kokyū shite kudasai",
+          "literal": "Slowly please breathe."
+        }
+      ]
+    },
+    "bend": {
+      "levels": [
+        {
+          "front": "bend",
+          "back": "曲げる / 曲がる",
+          "romanized": "mageru / magaru"
+        },
+        {
+          "front": "Bend your knees.",
+          "back": "膝を曲げてください。",
+          "romanized": "hiza wo magete kudasai",
+          "literal": "Knees [obj] please bend."
+        }
+      ]
+    },
+    "stretch": {
+      "levels": [
+        {
+          "front": "stretch",
+          "back": "伸ばす / ストレッチする",
+          "romanized": "nobasu / sutoreccchi suru"
+        },
+        {
+          "front": "Stretch your arms.",
+          "back": "腕を伸ばしてください。",
+          "romanized": "ude wo nobashite kudasai",
+          "literal": "Arms [obj] please stretch."
+        }
+      ]
+    },
+    "flex": {
+      "levels": [
+        {
+          "front": "flex",
+          "back": "筋肉を緊張させる / 力を入れる",
+          "romanized": "kin'niku wo kinchō saseru / chikara wo ireru"
+        },
+        {
+          "front": "Flex your muscles.",
+          "back": "筋肉に力を入れてください。",
+          "romanized": "kin'niku ni chikara wo irete kudasai",
+          "literal": "Muscles [into] strength [obj] please put."
+        }
+      ]
+    },
+    "blink": {
+      "levels": [
+        {
+          "front": "blink",
+          "back": "まばたきする / 瞬きする",
+          "romanized": "mabataki suru / mabataki suru"
+        },
+        {
+          "front": "Don't blink.",
+          "back": "まばたきしないでください。",
+          "romanized": "mabataki shinaide kudasai",
+          "literal": "Please don't blink."
+        }
+      ]
+    },
+    "sweat": {
+      "levels": [
+        {
+          "front": "sweat",
+          "back": "汗をかく",
+          "romanized": "ase wo kaku"
+        },
+        {
+          "front": "I sweat when I run.",
+          "back": "走ると汗をかきます。",
+          "romanized": "hashiru to ase wo kakimasu",
+          "literal": "When run, sweat [obj] break."
+        }
+      ]
+    },
+    "bleed": {
+      "levels": [
+        {
+          "front": "bleed",
+          "back": "出血する / 血が出る",
+          "romanized": "shukketsu suru / chi ga deru"
+        },
+        {
+          "front": "The wound is bleeding.",
+          "back": "傷口から血が出ています。",
+          "romanized": "kizuguchi kara chi ga dete imasu",
+          "literal": "Wound from blood [subj] coming-out is."
+        }
+      ]
+    },
+    "feel": {
+      "levels": [
+        {
+          "front": "feel",
+          "back": "感じる / 気分がする",
+          "romanized": "kanjiru / kibun ga suru"
+        },
+        {
+          "front": "How do you feel?",
+          "back": "気分はどうですか？",
+          "romanized": "kibun wa dō desu ka",
+          "literal": "Feeling [topic] how is?"
+        }
+      ]
+    },
+    "think": {
+      "levels": [
+        {
+          "front": "think",
+          "back": "考える / 思う",
+          "romanized": "kangaeru / omou"
+        },
+        {
+          "front": "What are you thinking about?",
+          "back": "何を考えていますか？",
+          "romanized": "nani wo kangaete imasu ka",
+          "literal": "What [obj] thinking is?"
+        }
+      ]
+    },
+    "move": {
+      "levels": [
+        {
+          "front": "move",
+          "back": "動く / 動かす",
+          "romanized": "ugoku / ugokasu"
+        },
+        {
+          "front": "I can't move my arm.",
+          "back": "腕が動かせません。",
+          "romanized": "ude ga ugokasemasen",
+          "literal": "Arm [subj] cannot-move."
+        }
+      ]
+    },
+    "bony": {
+      "levels": [
+        {
+          "front": "bony",
+          "back": "骨っぽい / 骨ばった",
+          "romanized": "honeppoi / honebartta"
+        },
+        {
+          "front": "His hands are bony.",
+          "back": "彼の手は骨ばっています。",
+          "romanized": "kare no te wa honebatte imasu",
+          "literal": "His hands [topic] bony are."
+        }
+      ]
+    },
+    "hairy": {
+      "levels": [
+        {
+          "front": "hairy",
+          "back": "毛深い / 体毛が多い",
+          "romanized": "kefukai / taimō ga ōi"
+        },
+        {
+          "front": "He has hairy arms.",
+          "back": "彼は腕の毛が濃いです。",
+          "romanized": "kare wa ude no ke ga koi desu",
+          "literal": "He [topic] arms' hair [subj] thick is."
+        }
+      ]
+    },
+    "soft": {
+      "levels": [
+        {
+          "front": "soft",
+          "back": "柔らかい / 滑らかな",
+          "romanized": "yawarakai / nameraka na"
+        },
+        {
+          "front": "The tissue is soft.",
+          "back": "ティッシュは柔らかいです。",
+          "romanized": "tisshu wa yawarakai desu",
+          "literal": "Tissue [topic] soft is."
+        }
+      ]
+    },
+    "sore": {
+      "levels": [
+        {
+          "front": "sore",
+          "back": "痛い / 筋肉痛の",
+          "romanized": "itai / kin'nikutsū no"
+        },
+        {
+          "front": "My muscles are sore.",
+          "back": "筋肉痛です。",
+          "romanized": "kin'nikutsū desu",
+          "literal": "Muscle-ache is."
+        }
+      ]
+    },
+    "left": {
+      "levels": [
+        {
+          "front": "left",
+          "back": "左",
+          "romanized": "hidari"
+        },
+        {
+          "front": "I hurt my left knee.",
+          "back": "左膝を痛めました。",
+          "romanized": "hidari hiza wo itamemashita",
+          "literal": "Left-knee [obj] hurt [past]."
+        }
+      ]
+    },
+    "right": {
+      "levels": [
+        {
+          "front": "right",
+          "back": "右",
+          "romanized": "migi"
+        },
+        {
+          "front": "I broke my right arm.",
+          "back": "右腕を骨折しました。",
+          "romanized": "migiude wo kossetsu shimashita",
+          "literal": "Right-arm [obj] fractured [past]."
+        }
+      ]
+    },
+    "upper": {
+      "levels": [
+        {
+          "front": "upper",
+          "back": "上半身 / 上部の",
+          "romanized": "jōhanshin / jōbu no"
+        },
+        {
+          "front": "The upper body is strong.",
+          "back": "上半身が強いです。",
+          "romanized": "jōhanshin ga tsuyoi desu",
+          "literal": "Upper-body [subj] strong is."
+        }
+      ]
+    },
+    "lower": {
+      "levels": [
+        {
+          "front": "lower",
+          "back": "下半身 / 下部の",
+          "romanized": "kahanshin / kabu no"
+        },
+        {
+          "front": "He has lower back pain.",
+          "back": "彼は腰痛があります。",
+          "romanized": "kare wa yōtsū ga arimasu",
+          "literal": "He [topic] lower-back-pain [subj] exists."
+        }
+      ]
+    },
+    "body": {
+      "levels": [
+        {
+          "front": "body",
+          "back": "体 / 身体",
+          "romanized": "karada / shintai"
+        },
+        {
+          "front": "The human body is amazing.",
+          "back": "人間の体は素晴らしいです。",
+          "romanized": "ningen no karada wa subarashii desu",
+          "literal": "Human's body [topic] amazing is."
+        }
+      ]
+    },
+    "human_adjective": {
+      "levels": [
+        {
+          "front": "human (adjective)",
+          "back": "人間の / 人体の",
+          "romanized": "ningen no / jintai no"
+        },
+        {
+          "front": "It's part of human biology.",
+          "back": "人間の生物学の一部です。",
+          "romanized": "ningen no seibutsugaku no ichibu desu",
+          "literal": "Human's biology's one-part is."
+        }
+      ]
+    }
+  }
 }

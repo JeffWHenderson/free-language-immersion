@@ -8,6 +8,7 @@ import {
     getCardState,
     updateCardState,
     isCardHidden,
+    normalizeCards,
     SRSDeckState,
 } from "../useSRSStorage";
 import useLanguage from "../../hooks/useLanguage";
@@ -26,6 +27,13 @@ interface Card {
     id: string;
     hidden?: boolean;
     levels: CardLevel[];
+}
+
+interface RawDeckData {
+    id: string;
+    name: string;
+    language: string;
+    cards: Record<string, Omit<Card, 'id'>>;
 }
 
 interface DeckData {
@@ -121,7 +129,8 @@ const SRSReview = () => {
         if (!language || !deckId) return;
         fetch(`/languages/${language}/${deckId}.json`)
             .then((r) => r.json())
-            .then((data: DeckData) => {
+            .then((raw: RawDeckData) => {
+                const data: DeckData = { ...raw, cards: normalizeCards(raw.cards) };
                 setDeck(data);
                 const state = loadDeckState(language, deckId);
                 setDeckState(state);

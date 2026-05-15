@@ -2,58 +2,763 @@
   "id": "human_body",
   "name": "Human Body",
   "language": "chinese",
-  "stories": ["at_the_doctor", "after_exercise", "getting_ready"],
-  "pictureLessons": ["humanBody"],
-  "cards": [
-    {"id": "zh_hb_001", "levels": [{"front": "head", "back": "头", "romanized": "tóu"}, {"front": "My head hurts.", "back": "我头疼。", "romanized": "wǒ tóu téng.", "literal": "I head hurt."}]},
-    {"id": "zh_hb_002", "levels": [{"front": "hair", "back": "头发", "romanized": "tóufa"}, {"front": "She has long hair.", "back": "她有一头长发。", "romanized": "tā yǒu yī tóu cháng fà.", "literal": "She have one-head long hair."}]},
-    {"id": "zh_hb_003", "levels": [{"front": "face", "back": "脸", "romanized": "liǎn"}, {"front": "Wash your face.", "back": "洗脸。", "romanized": "xǐ liǎn.", "literal": "Wash face."}]},
-    {"id": "zh_hb_004", "levels": [{"front": "eye", "back": "眼睛", "romanized": "yǎnjing"}, {"front": "She has beautiful eyes.", "back": "她有一双漂亮的眼睛。", "romanized": "tā yǒu yī shuāng piàoliang de yǎnjing.", "literal": "She have one-pair beautiful eyes."}]},
-    {"id": "zh_hb_005", "levels": [{"front": "ear", "back": "耳朵", "romanized": "ěrduo"}, {"front": "He hurt his ear.", "back": "他的耳朵受伤了。", "romanized": "tā de ěrduo shòushāng le.", "literal": "His ear injured [now]."}]},
-    {"id": "zh_hb_006", "levels": [{"front": "nose", "back": "鼻子", "romanized": "bízi"}, {"front": "My nose is stuffy.", "back": "我鼻子堵了。", "romanized": "wǒ bízi dǔ le.", "literal": "I nose stuffed [now]."}]},
-    {"id": "zh_hb_007", "levels": [{"front": "mouth", "back": "嘴巴", "romanized": "zuǐba"}, {"front": "Open your mouth.", "back": "张开嘴巴。", "romanized": "zhāngkāi zuǐba.", "literal": "Open mouth."}]},
-    {"id": "zh_hb_008", "levels": [{"front": "lip", "back": "嘴唇", "romanized": "zuǐchún"}, {"front": "Her lips are dry.", "back": "她的嘴唇很干。", "romanized": "tā de zuǐchún hěn gān.", "literal": "Her lips very dry."}]},
-    {"id": "zh_hb_009", "levels": [{"front": "tooth (teeth)", "back": "牙齿", "romanized": "yáchǐ"}, {"front": "I need to brush my teeth.", "back": "我需要刷牙。", "romanized": "wǒ xūyào shuāyá.", "literal": "I need-to brush-teeth."}]},
-    {"id": "zh_hb_010", "levels": [{"front": "tongue", "back": "舌头", "romanized": "shétou"}, {"front": "The food burned my tongue.", "back": "食物烫了我的舌头。", "romanized": "shíwù tàng le wǒ de shétou.", "literal": "Food burned [completed] my tongue."}]},
-    {"id": "zh_hb_011", "levels": [{"front": "neck", "back": "脖子", "romanized": "bózi"}, {"front": "My neck is stiff.", "back": "我的脖子很僵。", "romanized": "wǒ de bózi hěn jiāng.", "literal": "My neck very stiff."}]},
-    {"id": "zh_hb_012", "levels": [{"front": "arm", "back": "手臂", "romanized": "shǒubì"}, {"front": "He broke his arm.", "back": "他摔断了手臂。", "romanized": "tā shuāi duàn le shǒubì.", "literal": "He fall-broken [completed] arm."}]},
-    {"id": "zh_hb_013", "levels": [{"front": "hand", "back": "手", "romanized": "shǒu"}, {"front": "Wash your hands.", "back": "洗手。", "romanized": "xǐ shǒu.", "literal": "Wash hands."}]},
-    {"id": "zh_hb_014", "levels": [{"front": "finger", "back": "手指", "romanized": "shǒuzhǐ"}, {"front": "She cut her finger.", "back": "她割破了手指。", "romanized": "tā gē pò le shǒuzhǐ.", "literal": "She cut-broken [completed] finger."}]},
-    {"id": "zh_hb_015", "levels": [{"front": "chest", "back": "胸部", "romanized": "xiōngbù"}, {"front": "He felt a pain in his chest.", "back": "他感到胸部疼痛。", "romanized": "tā gǎndào xiōngbù téngtòng.", "literal": "He feel-to chest pain."}]},
-    {"id": "zh_hb_016", "levels": [{"front": "back", "back": "背", "romanized": "bèi"}, {"front": "My back hurts after sitting all day.", "back": "坐了一天我的背很疼。", "romanized": "zuò le yītiān wǒ de bèi hěn téng.", "literal": "Sit [completed] one-day my back very hurt."}]},
-    {"id": "zh_hb_017", "levels": [{"front": "heart", "back": "心脏", "romanized": "xīnzàng"}, {"front": "Exercise is good for your heart.", "back": "运动对心脏有好处。", "romanized": "yùndòng duì xīnzàng yǒu hǎochù.", "literal": "Exercise toward heart have benefit."}]},
-    {"id": "zh_hb_018", "levels": [{"front": "stomach", "back": "胃 / 肚子", "romanized": "wèi / dùzi"}, {"front": "My stomach hurts.", "back": "我肚子疼。", "romanized": "wǒ dùzi téng.", "literal": "I stomach hurt."}]},
-    {"id": "zh_hb_019", "levels": [{"front": "muscle", "back": "肌肉", "romanized": "jīròu"}, {"front": "My muscles are sore after the workout.", "back": "锻炼后我的肌肉很酸。", "romanized": "duànliàn hòu wǒ de jīròu hěn suān.", "literal": "Exercise after my muscles very sore."}]},
-    {"id": "zh_hb_020", "levels": [{"front": "waist", "back": "腰", "romanized": "yāo"}, {"front": "He pulled his waist.", "back": "他扭了腰。", "romanized": "tā niǔ le yāo.", "literal": "He twisted [completed] waist."}]},
-    {"id": "zh_hb_021", "levels": [{"front": "skin", "back": "皮肤", "romanized": "pífū"}, {"front": "Drink water to keep your skin healthy.", "back": "多喝水保持皮肤健康。", "romanized": "duō hē shuǐ bǎochí pífū jiànkāng.", "literal": "More drink water maintain skin healthy."}]},
-    {"id": "zh_hb_022", "levels": [{"front": "blood", "back": "血液", "romanized": "xuèyè"}, {"front": "The doctor took some blood.", "back": "医生抽了一些血。", "romanized": "yīshēng chōu le yīxiē xuè.", "literal": "Doctor drew [completed] some blood."}]},
-    {"id": "zh_hb_023", "levels": [{"front": "brain", "back": "大脑", "romanized": "dànǎo"}, {"front": "Use your brain!", "back": "动动脑子！", "romanized": "dòng dòng nǎozi!", "literal": "Move-move brain!"}]},
-    {"id": "zh_hb_024", "levels": [{"front": "skull", "back": "头骨", "romanized": "tóugǔ"}, {"front": "The X-ray showed no skull fracture.", "back": "X光显示头骨没有骨折。", "romanized": "X guāng xiǎnshì tóugǔ méiyǒu gǔzhé.", "literal": "X-ray show skull not-have fracture."}]},
-    {"id": "zh_hb_025", "levels": [{"front": "leg", "back": "腿", "romanized": "tuǐ"}, {"front": "My legs are tired.", "back": "我的腿很累。", "romanized": "wǒ de tuǐ hěn lèi.", "literal": "My legs very tired."}]},
-    {"id": "zh_hb_026", "levels": [{"front": "foot (feet)", "back": "脚", "romanized": "jiǎo"}, {"front": "My feet hurt from walking.", "back": "走路走得我的脚疼。", "romanized": "zǒulù zǒu de wǒ de jiǎo téng.", "literal": "Walk walk-to-the-point-of my feet hurt."}]},
-    {"id": "zh_hb_027", "levels": [{"front": "toe", "back": "脚趾", "romanized": "jiǎozhǐ"}, {"front": "She stubbed her toe.", "back": "她的脚趾碰到东西了。", "romanized": "tā de jiǎozhǐ pèngdào dōngxi le.", "literal": "Her toe bumped-into thing [now]."}]},
-    {"id": "zh_hb_028", "levels": [{"front": "joint", "back": "关节", "romanized": "guānjié"}, {"front": "His knee joint is swollen.", "back": "他的膝关节肿了。", "romanized": "tā de xī guānjié zhǒng le.", "literal": "His knee-joint swollen [now]."}]},
-    {"id": "zh_hb_029", "levels": [{"front": "breath / breathe", "back": "呼吸", "romanized": "hūxī"}, {"front": "Breathe in deeply.", "back": "深吸一口气。", "romanized": "shēn xī yī kǒu qì.", "literal": "Deep breathe-in one mouthful air."}]},
-    {"id": "zh_hb_030", "levels": [{"front": "see", "back": "看见", "romanized": "kànjiàn"}, {"front": "I can't see without my glasses.", "back": "没有眼镜我看不见。", "romanized": "méiyǒu yǎnjìng wǒ kàn bú jiàn.", "literal": "Not-have glasses I see not-visible."}]},
-    {"id": "zh_hb_031", "levels": [{"front": "hear", "back": "听见", "romanized": "tīngjiàn"}, {"front": "Can you hear me?", "back": "你能听见我吗？", "romanized": "nǐ néng tīngjiàn wǒ ma?", "literal": "You can hear me?"}]},
-    {"id": "zh_hb_032", "levels": [{"front": "smell", "back": "闻", "romanized": "wén"}, {"front": "I can smell the food.", "back": "我能闻到食物的味道。", "romanized": "wǒ néng wéndào shíwù de wèidào.", "literal": "I can smell-to food's flavor."}]},
-    {"id": "zh_hb_033", "levels": [{"front": "taste", "back": "品尝", "romanized": "pǐncháng"}, {"front": "Let me taste it.", "back": "让我尝一尝。", "romanized": "ràng wǒ cháng yī cháng.", "literal": "Let me taste one-taste."}]},
-    {"id": "zh_hb_034", "levels": [{"front": "touch", "back": "触摸", "romanized": "chùmō"}, {"front": "Don't touch that.", "back": "不要碰那个。", "romanized": "bù yào pèng nàgè.", "literal": "Not want-to touch that."}]},
-    {"id": "zh_hb_035", "levels": [{"front": "blink", "back": "眨眼", "romanized": "zhǎyǎn"}, {"front": "She blinked her eyes.", "back": "她眨了眨眼。", "romanized": "tā zhǎ le zhǎ yǎn.", "literal": "She blink [completed] blink eye."}]},
-    {"id": "zh_hb_036", "levels": [{"front": "sweat", "back": "出汗", "romanized": "chūhàn"}, {"front": "I sweat a lot when I exercise.", "back": "我运动时出很多汗。", "romanized": "wǒ yùndòng shí chū hěnduō hàn.", "literal": "I exercise-when flow very-many sweat."}]},
-    {"id": "zh_hb_037", "levels": [{"front": "bleed", "back": "流血", "romanized": "liúxuè"}, {"front": "My finger is bleeding.", "back": "我的手指在流血。", "romanized": "wǒ de shǒuzhǐ zài liúxuè.", "literal": "My finger [in-progress] flow blood."}]},
-    {"id": "zh_hb_038", "levels": [{"front": "feel", "back": "感觉", "romanized": "gǎnjué"}, {"front": "I feel tired.", "back": "我感觉很累。", "romanized": "wǒ gǎnjué hěn lèi.", "literal": "I feel very tired."}]},
-    {"id": "zh_hb_039", "levels": [{"front": "think", "back": "思考", "romanized": "sīkǎo"}, {"front": "Think before you speak.", "back": "说话前先思考。", "romanized": "shuōhuà qián xiān sīkǎo.", "literal": "Speak before first think."}]},
-    {"id": "zh_hb_040", "levels": [{"front": "move", "back": "移动", "romanized": "yídòng"}, {"front": "Move your arm slowly.", "back": "慢慢移动你的手臂。", "romanized": "màn màn yídòng nǐ de shǒubì.", "literal": "Slowly move your arm."}]},
-    {"id": "zh_hb_041", "levels": [{"front": "bony", "back": "骨感的", "romanized": "gǔgǎn de"}, {"front": "He looks very bony.", "back": "他看起来很骨感。", "romanized": "tā kàn qǐlái hěn gǔgǎn.", "literal": "He look-up-come very bony."}]},
-    {"id": "zh_hb_042", "levels": [{"front": "hairy", "back": "多毛的", "romanized": "duō máo de"}, {"front": "His arms are very hairy.", "back": "他的手臂很多毛。", "romanized": "tā de shǒubì hěn duō máo.", "literal": "His arms very much-hair."}]},
-    {"id": "zh_hb_043", "levels": [{"front": "soft", "back": "软的", "romanized": "ruǎn de"}, {"front": "A baby's skin is very soft.", "back": "婴儿的皮肤很软。", "romanized": "yīng'ér de pífū hěn ruǎn.", "literal": "Baby's skin very soft."}]},
-    {"id": "zh_hb_044", "levels": [{"front": "sore", "back": "酸痛的", "romanized": "suāntòng de"}, {"front": "My throat is sore.", "back": "我嗓子很痛。", "romanized": "wǒ sǎngzi hěn tòng.", "literal": "I throat very sore."}]},
-    {"id": "zh_hb_045", "levels": [{"front": "left", "back": "左边的", "romanized": "zuǒbiān de"}, {"front": "Raise your left hand.", "back": "举起你的左手。", "romanized": "jǔqǐ nǐ de zuǒ shǒu."}]},
-    {"id": "zh_hb_046", "levels": [{"front": "right", "back": "右边的", "romanized": "yòubiān de"}, {"front": "Turn your head to the right.", "back": "把头转向右边。", "romanized": "bǎ tóu zhuǎn xiàng yòubiān.", "literal": "Take head turn toward right-side."}]},
-    {"id": "zh_hb_047", "levels": [{"front": "upper", "back": "上部的", "romanized": "shàngbù de"}, {"front": "She has pain in her upper back.", "back": "她的上背部疼痛。", "romanized": "tā de shàng bèibù téngtòng.", "literal": "Her upper back-part pain."}]},
-    {"id": "zh_hb_048", "levels": [{"front": "lower", "back": "下部的", "romanized": "xiàbù de"}, {"front": "He has lower back pain.", "back": "他腰部疼痛。", "romanized": "tā yāobù téngtòng.", "literal": "He waist-part pain."}]},
-    {"id": "zh_hb_049", "levels": [{"front": "body", "back": "身体", "romanized": "shēntǐ"}, {"front": "Take care of your body.", "back": "爱护你的身体。", "romanized": "àihù nǐ de shēntǐ.", "literal": "Love-protect your body."}]},
-    {"id": "zh_hb_050", "levels": [{"front": "human (adjective)", "back": "人类的", "romanized": "rénlèi de"}, {"front": "The human brain is amazing.", "back": "人类的大脑很神奇。", "romanized": "rénlèi de dànǎo hěn shénqí.", "literal": "Human's brain very amazing."}]}
-  ]
+  "stories": [
+    "at_the_doctor",
+    "after_exercise",
+    "getting_ready"
+  ],
+  "pictureLessons": [
+    "humanBody"
+  ],
+  "cards": {
+    "head": {
+      "levels": [
+        {
+          "front": "head",
+          "back": "头",
+          "romanized": "tóu"
+        },
+        {
+          "front": "My head hurts.",
+          "back": "我头疼。",
+          "romanized": "wǒ tóu téng.",
+          "literal": "I head hurt."
+        }
+      ]
+    },
+    "hair": {
+      "levels": [
+        {
+          "front": "hair",
+          "back": "头发",
+          "romanized": "tóufa"
+        },
+        {
+          "front": "She has long hair.",
+          "back": "她有一头长发。",
+          "romanized": "tā yǒu yī tóu cháng fà.",
+          "literal": "She have one-head long hair."
+        }
+      ]
+    },
+    "face": {
+      "levels": [
+        {
+          "front": "face",
+          "back": "脸",
+          "romanized": "liǎn"
+        },
+        {
+          "front": "Wash your face.",
+          "back": "洗脸。",
+          "romanized": "xǐ liǎn.",
+          "literal": "Wash face."
+        }
+      ]
+    },
+    "eye": {
+      "levels": [
+        {
+          "front": "eye",
+          "back": "眼睛",
+          "romanized": "yǎnjing"
+        },
+        {
+          "front": "She has beautiful eyes.",
+          "back": "她有一双漂亮的眼睛。",
+          "romanized": "tā yǒu yī shuāng piàoliang de yǎnjing.",
+          "literal": "She have one-pair beautiful eyes."
+        }
+      ]
+    },
+    "ear": {
+      "levels": [
+        {
+          "front": "ear",
+          "back": "耳朵",
+          "romanized": "ěrduo"
+        },
+        {
+          "front": "He hurt his ear.",
+          "back": "他的耳朵受伤了。",
+          "romanized": "tā de ěrduo shòushāng le.",
+          "literal": "His ear injured [now]."
+        }
+      ]
+    },
+    "nose": {
+      "levels": [
+        {
+          "front": "nose",
+          "back": "鼻子",
+          "romanized": "bízi"
+        },
+        {
+          "front": "My nose is stuffy.",
+          "back": "我鼻子堵了。",
+          "romanized": "wǒ bízi dǔ le.",
+          "literal": "I nose stuffed [now]."
+        }
+      ]
+    },
+    "mouth": {
+      "levels": [
+        {
+          "front": "mouth",
+          "back": "嘴巴",
+          "romanized": "zuǐba"
+        },
+        {
+          "front": "Open your mouth.",
+          "back": "张开嘴巴。",
+          "romanized": "zhāngkāi zuǐba.",
+          "literal": "Open mouth."
+        }
+      ]
+    },
+    "lip": {
+      "levels": [
+        {
+          "front": "lip",
+          "back": "嘴唇",
+          "romanized": "zuǐchún"
+        },
+        {
+          "front": "Her lips are dry.",
+          "back": "她的嘴唇很干。",
+          "romanized": "tā de zuǐchún hěn gān.",
+          "literal": "Her lips very dry."
+        }
+      ]
+    },
+    "tooth_teeth": {
+      "levels": [
+        {
+          "front": "tooth (teeth)",
+          "back": "牙齿",
+          "romanized": "yáchǐ"
+        },
+        {
+          "front": "I need to brush my teeth.",
+          "back": "我需要刷牙。",
+          "romanized": "wǒ xūyào shuāyá.",
+          "literal": "I need-to brush-teeth."
+        }
+      ]
+    },
+    "tongue": {
+      "levels": [
+        {
+          "front": "tongue",
+          "back": "舌头",
+          "romanized": "shétou"
+        },
+        {
+          "front": "The food burned my tongue.",
+          "back": "食物烫了我的舌头。",
+          "romanized": "shíwù tàng le wǒ de shétou.",
+          "literal": "Food burned [completed] my tongue."
+        }
+      ]
+    },
+    "neck": {
+      "levels": [
+        {
+          "front": "neck",
+          "back": "脖子",
+          "romanized": "bózi"
+        },
+        {
+          "front": "My neck is stiff.",
+          "back": "我的脖子很僵。",
+          "romanized": "wǒ de bózi hěn jiāng.",
+          "literal": "My neck very stiff."
+        }
+      ]
+    },
+    "arm": {
+      "levels": [
+        {
+          "front": "arm",
+          "back": "手臂",
+          "romanized": "shǒubì"
+        },
+        {
+          "front": "He broke his arm.",
+          "back": "他摔断了手臂。",
+          "romanized": "tā shuāi duàn le shǒubì.",
+          "literal": "He fall-broken [completed] arm."
+        }
+      ]
+    },
+    "hand": {
+      "levels": [
+        {
+          "front": "hand",
+          "back": "手",
+          "romanized": "shǒu"
+        },
+        {
+          "front": "Wash your hands.",
+          "back": "洗手。",
+          "romanized": "xǐ shǒu.",
+          "literal": "Wash hands."
+        }
+      ]
+    },
+    "finger": {
+      "levels": [
+        {
+          "front": "finger",
+          "back": "手指",
+          "romanized": "shǒuzhǐ"
+        },
+        {
+          "front": "She cut her finger.",
+          "back": "她割破了手指。",
+          "romanized": "tā gē pò le shǒuzhǐ.",
+          "literal": "She cut-broken [completed] finger."
+        }
+      ]
+    },
+    "chest": {
+      "levels": [
+        {
+          "front": "chest",
+          "back": "胸部",
+          "romanized": "xiōngbù"
+        },
+        {
+          "front": "He felt a pain in his chest.",
+          "back": "他感到胸部疼痛。",
+          "romanized": "tā gǎndào xiōngbù téngtòng.",
+          "literal": "He feel-to chest pain."
+        }
+      ]
+    },
+    "back": {
+      "levels": [
+        {
+          "front": "back",
+          "back": "背",
+          "romanized": "bèi"
+        },
+        {
+          "front": "My back hurts after sitting all day.",
+          "back": "坐了一天我的背很疼。",
+          "romanized": "zuò le yītiān wǒ de bèi hěn téng.",
+          "literal": "Sit [completed] one-day my back very hurt."
+        }
+      ]
+    },
+    "heart": {
+      "levels": [
+        {
+          "front": "heart",
+          "back": "心脏",
+          "romanized": "xīnzàng"
+        },
+        {
+          "front": "Exercise is good for your heart.",
+          "back": "运动对心脏有好处。",
+          "romanized": "yùndòng duì xīnzàng yǒu hǎochù.",
+          "literal": "Exercise toward heart have benefit."
+        }
+      ]
+    },
+    "stomach": {
+      "levels": [
+        {
+          "front": "stomach",
+          "back": "胃 / 肚子",
+          "romanized": "wèi / dùzi"
+        },
+        {
+          "front": "My stomach hurts.",
+          "back": "我肚子疼。",
+          "romanized": "wǒ dùzi téng.",
+          "literal": "I stomach hurt."
+        }
+      ]
+    },
+    "muscle": {
+      "levels": [
+        {
+          "front": "muscle",
+          "back": "肌肉",
+          "romanized": "jīròu"
+        },
+        {
+          "front": "My muscles are sore after the workout.",
+          "back": "锻炼后我的肌肉很酸。",
+          "romanized": "duànliàn hòu wǒ de jīròu hěn suān.",
+          "literal": "Exercise after my muscles very sore."
+        }
+      ]
+    },
+    "waist": {
+      "levels": [
+        {
+          "front": "waist",
+          "back": "腰",
+          "romanized": "yāo"
+        },
+        {
+          "front": "He pulled his waist.",
+          "back": "他扭了腰。",
+          "romanized": "tā niǔ le yāo.",
+          "literal": "He twisted [completed] waist."
+        }
+      ]
+    },
+    "skin": {
+      "levels": [
+        {
+          "front": "skin",
+          "back": "皮肤",
+          "romanized": "pífū"
+        },
+        {
+          "front": "Drink water to keep your skin healthy.",
+          "back": "多喝水保持皮肤健康。",
+          "romanized": "duō hē shuǐ bǎochí pífū jiànkāng.",
+          "literal": "More drink water maintain skin healthy."
+        }
+      ]
+    },
+    "blood": {
+      "levels": [
+        {
+          "front": "blood",
+          "back": "血液",
+          "romanized": "xuèyè"
+        },
+        {
+          "front": "The doctor took some blood.",
+          "back": "医生抽了一些血。",
+          "romanized": "yīshēng chōu le yīxiē xuè.",
+          "literal": "Doctor drew [completed] some blood."
+        }
+      ]
+    },
+    "brain": {
+      "levels": [
+        {
+          "front": "brain",
+          "back": "大脑",
+          "romanized": "dànǎo"
+        },
+        {
+          "front": "Use your brain!",
+          "back": "动动脑子！",
+          "romanized": "dòng dòng nǎozi!",
+          "literal": "Move-move brain!"
+        }
+      ]
+    },
+    "skull": {
+      "levels": [
+        {
+          "front": "skull",
+          "back": "头骨",
+          "romanized": "tóugǔ"
+        },
+        {
+          "front": "The X-ray showed no skull fracture.",
+          "back": "X光显示头骨没有骨折。",
+          "romanized": "X guāng xiǎnshì tóugǔ méiyǒu gǔzhé.",
+          "literal": "X-ray show skull not-have fracture."
+        }
+      ]
+    },
+    "leg": {
+      "levels": [
+        {
+          "front": "leg",
+          "back": "腿",
+          "romanized": "tuǐ"
+        },
+        {
+          "front": "My legs are tired.",
+          "back": "我的腿很累。",
+          "romanized": "wǒ de tuǐ hěn lèi.",
+          "literal": "My legs very tired."
+        }
+      ]
+    },
+    "foot_feet": {
+      "levels": [
+        {
+          "front": "foot (feet)",
+          "back": "脚",
+          "romanized": "jiǎo"
+        },
+        {
+          "front": "My feet hurt from walking.",
+          "back": "走路走得我的脚疼。",
+          "romanized": "zǒulù zǒu de wǒ de jiǎo téng.",
+          "literal": "Walk walk-to-the-point-of my feet hurt."
+        }
+      ]
+    },
+    "toe": {
+      "levels": [
+        {
+          "front": "toe",
+          "back": "脚趾",
+          "romanized": "jiǎozhǐ"
+        },
+        {
+          "front": "She stubbed her toe.",
+          "back": "她的脚趾碰到东西了。",
+          "romanized": "tā de jiǎozhǐ pèngdào dōngxi le.",
+          "literal": "Her toe bumped-into thing [now]."
+        }
+      ]
+    },
+    "joint": {
+      "levels": [
+        {
+          "front": "joint",
+          "back": "关节",
+          "romanized": "guānjié"
+        },
+        {
+          "front": "His knee joint is swollen.",
+          "back": "他的膝关节肿了。",
+          "romanized": "tā de xī guānjié zhǒng le.",
+          "literal": "His knee-joint swollen [now]."
+        }
+      ]
+    },
+    "breath_breathe": {
+      "levels": [
+        {
+          "front": "breath / breathe",
+          "back": "呼吸",
+          "romanized": "hūxī"
+        },
+        {
+          "front": "Breathe in deeply.",
+          "back": "深吸一口气。",
+          "romanized": "shēn xī yī kǒu qì.",
+          "literal": "Deep breathe-in one mouthful air."
+        }
+      ]
+    },
+    "see": {
+      "levels": [
+        {
+          "front": "see",
+          "back": "看见",
+          "romanized": "kànjiàn"
+        },
+        {
+          "front": "I can't see without my glasses.",
+          "back": "没有眼镜我看不见。",
+          "romanized": "méiyǒu yǎnjìng wǒ kàn bú jiàn.",
+          "literal": "Not-have glasses I see not-visible."
+        }
+      ]
+    },
+    "hear": {
+      "levels": [
+        {
+          "front": "hear",
+          "back": "听见",
+          "romanized": "tīngjiàn"
+        },
+        {
+          "front": "Can you hear me?",
+          "back": "你能听见我吗？",
+          "romanized": "nǐ néng tīngjiàn wǒ ma?",
+          "literal": "You can hear me?"
+        }
+      ]
+    },
+    "smell": {
+      "levels": [
+        {
+          "front": "smell",
+          "back": "闻",
+          "romanized": "wén"
+        },
+        {
+          "front": "I can smell the food.",
+          "back": "我能闻到食物的味道。",
+          "romanized": "wǒ néng wéndào shíwù de wèidào.",
+          "literal": "I can smell-to food's flavor."
+        }
+      ]
+    },
+    "taste": {
+      "levels": [
+        {
+          "front": "taste",
+          "back": "品尝",
+          "romanized": "pǐncháng"
+        },
+        {
+          "front": "Let me taste it.",
+          "back": "让我尝一尝。",
+          "romanized": "ràng wǒ cháng yī cháng.",
+          "literal": "Let me taste one-taste."
+        }
+      ]
+    },
+    "touch": {
+      "levels": [
+        {
+          "front": "touch",
+          "back": "触摸",
+          "romanized": "chùmō"
+        },
+        {
+          "front": "Don't touch that.",
+          "back": "不要碰那个。",
+          "romanized": "bù yào pèng nàgè.",
+          "literal": "Not want-to touch that."
+        }
+      ]
+    },
+    "blink": {
+      "levels": [
+        {
+          "front": "blink",
+          "back": "眨眼",
+          "romanized": "zhǎyǎn"
+        },
+        {
+          "front": "She blinked her eyes.",
+          "back": "她眨了眨眼。",
+          "romanized": "tā zhǎ le zhǎ yǎn.",
+          "literal": "She blink [completed] blink eye."
+        }
+      ]
+    },
+    "sweat": {
+      "levels": [
+        {
+          "front": "sweat",
+          "back": "出汗",
+          "romanized": "chūhàn"
+        },
+        {
+          "front": "I sweat a lot when I exercise.",
+          "back": "我运动时出很多汗。",
+          "romanized": "wǒ yùndòng shí chū hěnduō hàn.",
+          "literal": "I exercise-when flow very-many sweat."
+        }
+      ]
+    },
+    "bleed": {
+      "levels": [
+        {
+          "front": "bleed",
+          "back": "流血",
+          "romanized": "liúxuè"
+        },
+        {
+          "front": "My finger is bleeding.",
+          "back": "我的手指在流血。",
+          "romanized": "wǒ de shǒuzhǐ zài liúxuè.",
+          "literal": "My finger [in-progress] flow blood."
+        }
+      ]
+    },
+    "feel": {
+      "levels": [
+        {
+          "front": "feel",
+          "back": "感觉",
+          "romanized": "gǎnjué"
+        },
+        {
+          "front": "I feel tired.",
+          "back": "我感觉很累。",
+          "romanized": "wǒ gǎnjué hěn lèi.",
+          "literal": "I feel very tired."
+        }
+      ]
+    },
+    "think": {
+      "levels": [
+        {
+          "front": "think",
+          "back": "思考",
+          "romanized": "sīkǎo"
+        },
+        {
+          "front": "Think before you speak.",
+          "back": "说话前先思考。",
+          "romanized": "shuōhuà qián xiān sīkǎo.",
+          "literal": "Speak before first think."
+        }
+      ]
+    },
+    "move": {
+      "levels": [
+        {
+          "front": "move",
+          "back": "移动",
+          "romanized": "yídòng"
+        },
+        {
+          "front": "Move your arm slowly.",
+          "back": "慢慢移动你的手臂。",
+          "romanized": "màn màn yídòng nǐ de shǒubì.",
+          "literal": "Slowly move your arm."
+        }
+      ]
+    },
+    "bony": {
+      "levels": [
+        {
+          "front": "bony",
+          "back": "骨感的",
+          "romanized": "gǔgǎn de"
+        },
+        {
+          "front": "He looks very bony.",
+          "back": "他看起来很骨感。",
+          "romanized": "tā kàn qǐlái hěn gǔgǎn.",
+          "literal": "He look-up-come very bony."
+        }
+      ]
+    },
+    "hairy": {
+      "levels": [
+        {
+          "front": "hairy",
+          "back": "多毛的",
+          "romanized": "duō máo de"
+        },
+        {
+          "front": "His arms are very hairy.",
+          "back": "他的手臂很多毛。",
+          "romanized": "tā de shǒubì hěn duō máo.",
+          "literal": "His arms very much-hair."
+        }
+      ]
+    },
+    "soft": {
+      "levels": [
+        {
+          "front": "soft",
+          "back": "软的",
+          "romanized": "ruǎn de"
+        },
+        {
+          "front": "A baby's skin is very soft.",
+          "back": "婴儿的皮肤很软。",
+          "romanized": "yīng'ér de pífū hěn ruǎn.",
+          "literal": "Baby's skin very soft."
+        }
+      ]
+    },
+    "sore": {
+      "levels": [
+        {
+          "front": "sore",
+          "back": "酸痛的",
+          "romanized": "suāntòng de"
+        },
+        {
+          "front": "My throat is sore.",
+          "back": "我嗓子很痛。",
+          "romanized": "wǒ sǎngzi hěn tòng.",
+          "literal": "I throat very sore."
+        }
+      ]
+    },
+    "left": {
+      "levels": [
+        {
+          "front": "left",
+          "back": "左边的",
+          "romanized": "zuǒbiān de"
+        },
+        {
+          "front": "Raise your left hand.",
+          "back": "举起你的左手。",
+          "romanized": "jǔqǐ nǐ de zuǒ shǒu."
+        }
+      ]
+    },
+    "right": {
+      "levels": [
+        {
+          "front": "right",
+          "back": "右边的",
+          "romanized": "yòubiān de"
+        },
+        {
+          "front": "Turn your head to the right.",
+          "back": "把头转向右边。",
+          "romanized": "bǎ tóu zhuǎn xiàng yòubiān.",
+          "literal": "Take head turn toward right-side."
+        }
+      ]
+    },
+    "upper": {
+      "levels": [
+        {
+          "front": "upper",
+          "back": "上部的",
+          "romanized": "shàngbù de"
+        },
+        {
+          "front": "She has pain in her upper back.",
+          "back": "她的上背部疼痛。",
+          "romanized": "tā de shàng bèibù téngtòng.",
+          "literal": "Her upper back-part pain."
+        }
+      ]
+    },
+    "lower": {
+      "levels": [
+        {
+          "front": "lower",
+          "back": "下部的",
+          "romanized": "xiàbù de"
+        },
+        {
+          "front": "He has lower back pain.",
+          "back": "他腰部疼痛。",
+          "romanized": "tā yāobù téngtòng.",
+          "literal": "He waist-part pain."
+        }
+      ]
+    },
+    "body": {
+      "levels": [
+        {
+          "front": "body",
+          "back": "身体",
+          "romanized": "shēntǐ"
+        },
+        {
+          "front": "Take care of your body.",
+          "back": "爱护你的身体。",
+          "romanized": "àihù nǐ de shēntǐ.",
+          "literal": "Love-protect your body."
+        }
+      ]
+    },
+    "human_adjective": {
+      "levels": [
+        {
+          "front": "human (adjective)",
+          "back": "人类的",
+          "romanized": "rénlèi de"
+        },
+        {
+          "front": "The human brain is amazing.",
+          "back": "人类的大脑很神奇。",
+          "romanized": "rénlèi de dànǎo hěn shénqí.",
+          "literal": "Human's brain very amazing."
+        }
+      ]
+    }
+  }
 }

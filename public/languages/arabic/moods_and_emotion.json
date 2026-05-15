@@ -4,66 +4,847 @@
   "language": "arabic",
   "stories": [],
   "pictureLessons": [],
-  "cards": [
-    { "id": "ar_me_001", "levels": [{ "front": "happy", "back": "سعيد", "romanized": "sa'id", "grammarNote": "Arabic adjectives agree in gender: سعيد (sa'id, masc.) / سعيدة (sa'ida, fem.). They also agree in definiteness when modifying a noun: رجل سعيد (rajul sa'id = a happy man), الرجل السعيد (ar-rajul as-sa'id = the happy man). In predicate position ('I am happy'), the adjective is indefinite: أنا سعيد (ana sa'id)." }, { "front": "I'm very happy today.", "back": "أنا سعيد جداً اليوم.", "romanized": "ana sa'id jiddan al-yawm." }] },
-    { "id": "ar_me_002", "levels": [{ "front": "sad", "back": "حزين", "romanized": "hazin" }, { "front": "Why are you sad?", "back": "لماذا أنت حزين؟", "romanized": "limatha anta hazin?" }] },
-    { "id": "ar_me_003", "levels": [{ "front": "love", "back": "حب", "romanized": "hubb" }, { "front": "I feel a lot of love for my family.", "back": "أشعر بحب كبير لعائلتي.", "romanized": "ash'ur bi-hubb kabir li-'a'ilati." }] },
-    { "id": "ar_me_004", "levels": [{ "front": "anger", "back": "غضب", "romanized": "ghadab" }, { "front": "I felt anger when they lied to me.", "back": "شعرت بالغضب عندما كذبوا علي.", "romanized": "sha'artu bil-ghadab indama kadhabu 'alayya." }] },
-    { "id": "ar_me_005", "levels": [{ "front": "fear", "back": "خوف", "romanized": "khawf" }, { "front": "I'm afraid of the dark.", "back": "أنا خائف من الظلام.", "romanized": "ana kha'if min adh-dhalam." }] },
-    { "id": "ar_me_006", "levels": [{ "front": "hope", "back": "أمل", "romanized": "amal" }, { "front": "I have hope for the future.", "back": "لدي أمل في المستقبل.", "romanized": "ladayya amal fi al-mustaqbal." }] },
-    { "id": "ar_me_007", "levels": [{ "front": "stress", "back": "ضغط / توتر", "romanized": "daght / tawattur" }, { "front": "I have a lot of stress at work.", "back": "لدي ضغط كبير في العمل.", "romanized": "ladayya daght kabir fi al-'amal." }] },
-    { "id": "ar_me_008", "levels": [{ "front": "mood", "back": "مزاج", "romanized": "mizaj" }, { "front": "I'm in a good mood today.", "back": "مزاجي جيد اليوم.", "romanized": "mizaji jayyid al-yawm." }] },
-    { "id": "ar_me_009", "levels": [{ "front": "feeling", "back": "شعور", "romanized": "shu'ur" }, { "front": "That feeling is normal.", "back": "هذا الشعور طبيعي.", "romanized": "hadha ash-shu'ur tabi'i." }] },
-    { "id": "ar_me_010", "levels": [{ "front": "emotion / excitement", "back": "عاطفة / إثارة", "romanized": "'atifa / ithara" }, { "front": "I couldn't hide my emotion.", "back": "لم أستطع إخفاء عاطفتي.", "romanized": "lam astati' ikhfa' 'atifati." }] },
-    { "id": "ar_me_011", "levels": [{ "front": "calm", "back": "هدوء", "romanized": "hudu'" }, { "front": "Try to maintain your calm.", "back": "حاول الحفاظ على هدوئك.", "romanized": "hawil al-hifaz 'ala hudi'ik." }] },
-    { "id": "ar_me_012", "levels": [{ "front": "peace", "back": "سلام", "romanized": "salam" }, { "front": "I need peace and quiet.", "back": "أحتاج إلى السلام والهدوء.", "romanized": "ahtaj ila as-salam wal-hudu'." }] },
-    { "id": "ar_me_013", "levels": [{ "front": "worry", "back": "قلق", "romanized": "qalaq" }, { "front": "Don't let worry stop you.", "back": "لا تدع القلق يوقفك.", "romanized": "la tada' al-qalaq yawqifak." }] },
-    { "id": "ar_me_014", "levels": [{ "front": "surprise", "back": "مفاجأة", "romanized": "mufaja'a" }, { "front": "What a surprise!", "back": "يا له من مفاجأة!", "romanized": "ya lahu min mufaja'a!" }] },
-    { "id": "ar_me_015", "levels": [{ "front": "passion", "back": "شغف", "romanized": "shaghaf" }, { "front": "She teaches with passion.", "back": "هي تدرّس بشغف.", "romanized": "hiya tudarris bi-shaghaf." }] },
-    { "id": "ar_me_016", "levels": [{ "front": "desire", "back": "رغبة", "romanized": "raghba" }, { "front": "I have a strong desire to travel.", "back": "لدي رغبة قوية في السفر.", "romanized": "ladayya raghba qawiyya fi as-safar." }] },
-    { "id": "ar_me_017", "levels": [{ "front": "hate", "back": "كُره", "romanized": "kurh" }, { "front": "Hate is a strong feeling.", "back": "الكره شعور قوي.", "romanized": "al-kurh shu'ur qawi." }] },
-    { "id": "ar_me_018", "levels": [{ "front": "pleasure", "back": "متعة / لذة", "romanized": "mat'a / ladhha" }, { "front": "It's a pleasure to meet you.", "back": "يسرّني مقابلتك.", "romanized": "yasurruni muqabalatuk." }] },
-    { "id": "ar_me_019", "levels": [{ "front": "pain", "back": "ألم", "romanized": "alam" }, { "front": "I feel pain in my leg.", "back": "أشعر بألم في ساقي.", "romanized": "ash'ur bi-alam fi saqi." }] },
-    { "id": "ar_me_020", "levels": [{ "front": "energy", "back": "طاقة", "romanized": "taqa" }, { "front": "I have a lot of energy today.", "back": "لدي طاقة كثيرة اليوم.", "romanized": "ladayya taqa kathira al-yawm." }] },
-    { "id": "ar_me_021", "levels": [{ "front": "relief", "back": "ارتياح", "romanized": "irtiyah" }, { "front": "What a relief!", "back": "يا له من ارتياح!", "romanized": "ya lahu min irtiyah!" }] },
-    { "id": "ar_me_022", "levels": [{ "front": "comfort", "back": "عزاء / راحة", "romanized": "aza' / raha" }, { "front": "Her words were a comfort.", "back": "كلماتها كانت عزاءً.", "romanized": "kalimatuha kanat aza'an." }] },
-    { "id": "ar_me_023", "levels": [{ "front": "feel (to feel)", "back": "يشعر", "romanized": "yash'ur" }, { "front": "I feel good today.", "back": "أشعر بخير اليوم.", "romanized": "ash'ur bi-khayr al-yawm." }] },
-    { "id": "ar_me_024", "levels": [{ "front": "love (to love)", "back": "يحب", "romanized": "yuhibb" }, { "front": "I love you very much.", "back": "أحبك كثيراً.", "romanized": "uhibbuk kathiran." }] },
-    { "id": "ar_me_025", "levels": [{ "front": "hate (to hate)", "back": "يكره", "romanized": "yakrah" }, { "front": "I hate waiting.", "back": "أكره الانتظار.", "romanized": "akrah al-intizar." }] },
-    { "id": "ar_me_026", "levels": [{ "front": "like (to like)", "back": "يحب / يعجبه", "romanized": "yuhibb / yu'jubuh" }, { "front": "I like music.", "back": "أحب الموسيقى.", "romanized": "uhibb al-musiqa." }] },
-    { "id": "ar_me_027", "levels": [{ "front": "enjoy", "back": "يستمتع", "romanized": "yastamti'" }, { "front": "I enjoy the weekend.", "back": "أستمتع بعطلة نهاية الأسبوع.", "romanized": "astamti' bi-'utlat nihayat al-usbu'." }] },
-    { "id": "ar_me_028", "levels": [{ "front": "fear / dread (to fear)", "back": "يخشى / يخاف", "romanized": "yakhsha / yakhaf" }, { "front": "I fear the worst.", "back": "أخشى الأسوأ.", "romanized": "akhsha al-aswa'." }] },
-    { "id": "ar_me_029", "levels": [{ "front": "hope (to hope)", "back": "يأمل", "romanized": "ya'mal" }, { "front": "I hope everything goes well.", "back": "آمل أن يسير كل شيء على ما يرام.", "romanized": "amal an yasir kull shay' 'ala ma yuram." }] },
-    { "id": "ar_me_030", "levels": [{ "front": "worry (to worry)", "back": "يقلق", "romanized": "yaqalaq" }, { "front": "Don't worry about it.", "back": "لا تقلق بشأن ذلك.", "romanized": "la taqalaq bi-sha'n dhalika." }] },
-    { "id": "ar_me_031", "levels": [{ "front": "calm / soothe (to calm)", "back": "يهدّئ", "romanized": "yuhadi'" }, { "front": "Calm down, please.", "back": "هدّئ من نفسك، من فضلك.", "romanized": "haddi' min nafsak, min fadlak." }] },
-    { "id": "ar_me_032", "levels": [{ "front": "comfort (to comfort)", "back": "يواسي", "romanized": "yuwasi" }, { "front": "She comforted her friend.", "back": "هي واست صديقتها.", "romanized": "hiya wasat sadiqatuha." }] },
-    { "id": "ar_me_033", "levels": [{ "front": "excite / thrill", "back": "يُثير", "romanized": "yuthir" }, { "front": "The trip excites me.", "back": "الرحلة تُثير حماسي.", "romanized": "ar-rihla tuthir hamasi." }] },
-    { "id": "ar_me_034", "levels": [{ "front": "annoy", "back": "يُزعج", "romanized": "yuz'ij" }, { "front": "That noise annoys me.", "back": "هذا الضجيج يُزعجني.", "romanized": "hadha adh-dajij yuz'ijuni." }] },
-    { "id": "ar_me_035", "levels": [{ "front": "irritate", "back": "يُهيّج / يُغيظ", "romanized": "yuhayyij / yughiz" }, { "front": "Waiting irritates me.", "back": "الانتظار يُغيظني.", "romanized": "al-intizar yughizuni." }] },
-    { "id": "ar_me_036", "levels": [{ "front": "anger (to anger)", "back": "يُغضب", "romanized": "yughdib" }, { "front": "That comment angered me.", "back": "ذلك التعليق أغضبني.", "romanized": "dhalika at-ta'liq aghdabani." }] },
-    { "id": "ar_me_037", "levels": [{ "front": "delight", "back": "يُبهج", "romanized": "yubhij" }, { "front": "The music delighted everyone.", "back": "الموسيقى أبهجت الجميع.", "romanized": "al-musiqa abhajat al-jami'." }] },
-    { "id": "ar_me_038", "levels": [{ "front": "smile", "back": "يبتسم", "romanized": "yabtasim" }, { "front": "She always smiles.", "back": "هي دائماً تبتسم.", "romanized": "hiya da'iman tabtasim." }] },
-    { "id": "ar_me_039", "levels": [{ "front": "laugh", "back": "يضحك", "romanized": "yadhak" }, { "front": "We laughed a lot.", "back": "ضحكنا كثيراً.", "romanized": "dahhakna kathiran." }] },
-    { "id": "ar_me_040", "levels": [{ "front": "cry / weep / mourn", "back": "يبكي", "romanized": "yabki" }, { "front": "The baby is crying.", "back": "الطفل يبكي.", "romanized": "at-tifl yabki." }] },
-    { "id": "ar_me_041", "levels": [{ "front": "sigh", "back": "يتنهّد", "romanized": "yatannahhad" }, { "front": "She sighed with relief.", "back": "هي تنهّدت ارتياحاً.", "romanized": "hiya tannahhadat irtiyahan." }] },
-    { "id": "ar_me_042", "levels": [{ "front": "frown", "back": "يعبّس وجهه", "romanized": "yu'abbis wajhahu" }, { "front": "He frowned when he heard the news.", "back": "عبّس وجهه عندما سمع الخبر.", "romanized": "'abbasa wajhahu indama sami'a al-khabar." }] },
-    { "id": "ar_me_043", "levels": [{ "front": "scream / shout", "back": "يصرخ", "romanized": "yasrukh" }, { "front": "Don't shout, please.", "back": "لا تصرخ، من فضلك.", "romanized": "la tasrukh, min fadlak." }] },
-    { "id": "ar_me_044", "levels": [{ "front": "relax", "back": "يسترخي", "romanized": "yastarkhi" }, { "front": "Relax, there's no rush.", "back": "استرخِ، لا داعي للعجلة.", "romanized": "istarkhi, la da'i lil-'ajala." }] },
-    { "id": "ar_me_045", "levels": [{ "front": "angry", "back": "غاضب", "romanized": "ghadib" }, { "front": "I'm angry with you.", "back": "أنا غاضب منك.", "romanized": "ana ghadib mink." }] },
-    { "id": "ar_me_046", "levels": [{ "front": "mad", "back": "غضبان", "romanized": "ghadban" }, { "front": "Why are you so mad?", "back": "لماذا أنت غضبان هكذا؟", "romanized": "limatha anta ghadban hakadha?" }] },
-    { "id": "ar_me_047", "levels": [{ "front": "afraid / scared", "back": "خائف", "romanized": "kha'if" }, { "front": "The child was scared.", "back": "كان الطفل خائفاً.", "romanized": "kan at-tifl kha'ifan." }] },
-    { "id": "ar_me_048", "levels": [{ "front": "anxious", "back": "قلق", "romanized": "qaliq" }, { "front": "I'm anxious about the exam.", "back": "أنا قلق بشأن الامتحان.", "romanized": "ana qaliq bi-sha'n al-imtihan." }] },
-    { "id": "ar_me_049", "levels": [{ "front": "nervous", "back": "متوتر", "romanized": "mutawatir" }, { "front": "I'm nervous today.", "back": "أنا متوتر اليوم.", "romanized": "ana mutawatir al-yawm." }] },
-    { "id": "ar_me_050", "levels": [{ "front": "excited", "back": "متحمّس", "romanized": "mutahammis" }, { "front": "I'm excited about the trip.", "back": "أنا متحمّس للرحلة.", "romanized": "ana mutahammis lir-rihla." }] },
-    { "id": "ar_me_051", "levels": [{ "front": "joyful / cheerful", "back": "مبهج / مرح", "romanized": "mubhij / marih" }, { "front": "She is always cheerful.", "back": "هي دائماً مرحة.", "romanized": "hiya da'iman mariha." }] },
-    { "id": "ar_me_052", "levels": [{ "front": "proud", "back": "فخور", "romanized": "fakhur" }, { "front": "I'm proud of you.", "back": "أنا فخور بك.", "romanized": "ana fakhur bik." }] },
-    { "id": "ar_me_053", "levels": [{ "front": "content / contented", "back": "راضٍ / مرتاح", "romanized": "radin / murtah" }, { "front": "I'm content with my life.", "back": "أنا راضٍ عن حياتي.", "romanized": "ana radin 'an hayati." }] },
-    { "id": "ar_me_054", "levels": [{ "front": "calm", "back": "هادئ", "romanized": "hadi'" }, { "front": "Stay calm, everything is fine.", "back": "ابقَ هادئاً، كل شيء بخير.", "romanized": "ibqa hadi'an, kull shay' bi-khayr." }] },
-    { "id": "ar_me_055", "levels": [{ "front": "stressed", "back": "مضغوط / متوتر", "romanized": "madghut / mutawatir" }, { "front": "I'm very stressed this week.", "back": "أنا مضغوط جداً هذا الأسبوع.", "romanized": "ana madghut jiddan hadha al-usbu'." }] },
-    { "id": "ar_me_056", "levels": [{ "front": "overwhelmed", "back": "مغلوب على أمره", "romanized": "maghlub 'ala amrih" }, { "front": "I feel overwhelmed by the work.", "back": "أشعر أنني مغلوب على أمري بسبب العمل.", "romanized": "ash'ur annani maghlub 'ala amri bi-sabab al-'amal." }] },
-    { "id": "ar_me_057", "levels": [{ "front": "energetic", "back": "نشيط", "romanized": "nashit" }, { "front": "She is very energetic.", "back": "هي نشيطة جداً.", "romanized": "hiya nashita jiddan." }] },
-    { "id": "ar_me_058", "levels": [{ "front": "tired", "back": "متعب", "romanized": "muta'ab" }, { "front": "I'm very tired today.", "back": "أنا متعب جداً اليوم.", "romanized": "ana muta'ab jiddan al-yawm." }] },
-    { "id": "ar_me_059", "levels": [{ "front": "exhausted", "back": "منهك", "romanized": "munhak" }, { "front": "I'm exhausted after the run.", "back": "أنا منهك بعد الجري.", "romanized": "ana munhak ba'd al-jarri." }] },
-    { "id": "ar_me_060", "levels": [{ "front": "curious", "back": "فضولي", "romanized": "fuduli" }, { "front": "I'm curious about that.", "back": "أنا فضولي بشأن ذلك.", "romanized": "ana fuduli bi-sha'n dhalika." }] }
-  ]
+  "cards": {
+    "happy": {
+      "levels": [
+        {
+          "front": "happy",
+          "back": "سعيد",
+          "romanized": "sa'id",
+          "grammarNote": "Arabic adjectives agree in gender: سعيد (sa'id, masc.) / سعيدة (sa'ida, fem.). They also agree in definiteness when modifying a noun: رجل سعيد (rajul sa'id = a happy man), الرجل السعيد (ar-rajul as-sa'id = the happy man). In predicate position ('I am happy'), the adjective is indefinite: أنا سعيد (ana sa'id)."
+        },
+        {
+          "front": "I'm very happy today.",
+          "back": "أنا سعيد جداً اليوم.",
+          "romanized": "ana sa'id jiddan al-yawm."
+        }
+      ]
+    },
+    "sad": {
+      "levels": [
+        {
+          "front": "sad",
+          "back": "حزين",
+          "romanized": "hazin"
+        },
+        {
+          "front": "Why are you sad?",
+          "back": "لماذا أنت حزين؟",
+          "romanized": "limatha anta hazin?"
+        }
+      ]
+    },
+    "love": {
+      "levels": [
+        {
+          "front": "love",
+          "back": "حب",
+          "romanized": "hubb"
+        },
+        {
+          "front": "I feel a lot of love for my family.",
+          "back": "أشعر بحب كبير لعائلتي.",
+          "romanized": "ash'ur bi-hubb kabir li-'a'ilati."
+        }
+      ]
+    },
+    "anger": {
+      "levels": [
+        {
+          "front": "anger",
+          "back": "غضب",
+          "romanized": "ghadab"
+        },
+        {
+          "front": "I felt anger when they lied to me.",
+          "back": "شعرت بالغضب عندما كذبوا علي.",
+          "romanized": "sha'artu bil-ghadab indama kadhabu 'alayya."
+        }
+      ]
+    },
+    "fear": {
+      "levels": [
+        {
+          "front": "fear",
+          "back": "خوف",
+          "romanized": "khawf"
+        },
+        {
+          "front": "I'm afraid of the dark.",
+          "back": "أنا خائف من الظلام.",
+          "romanized": "ana kha'if min adh-dhalam."
+        }
+      ]
+    },
+    "hope": {
+      "levels": [
+        {
+          "front": "hope",
+          "back": "أمل",
+          "romanized": "amal"
+        },
+        {
+          "front": "I have hope for the future.",
+          "back": "لدي أمل في المستقبل.",
+          "romanized": "ladayya amal fi al-mustaqbal."
+        }
+      ]
+    },
+    "stress": {
+      "levels": [
+        {
+          "front": "stress",
+          "back": "ضغط / توتر",
+          "romanized": "daght / tawattur"
+        },
+        {
+          "front": "I have a lot of stress at work.",
+          "back": "لدي ضغط كبير في العمل.",
+          "romanized": "ladayya daght kabir fi al-'amal."
+        }
+      ]
+    },
+    "mood": {
+      "levels": [
+        {
+          "front": "mood",
+          "back": "مزاج",
+          "romanized": "mizaj"
+        },
+        {
+          "front": "I'm in a good mood today.",
+          "back": "مزاجي جيد اليوم.",
+          "romanized": "mizaji jayyid al-yawm."
+        }
+      ]
+    },
+    "feeling": {
+      "levels": [
+        {
+          "front": "feeling",
+          "back": "شعور",
+          "romanized": "shu'ur"
+        },
+        {
+          "front": "That feeling is normal.",
+          "back": "هذا الشعور طبيعي.",
+          "romanized": "hadha ash-shu'ur tabi'i."
+        }
+      ]
+    },
+    "emotion_excitement": {
+      "levels": [
+        {
+          "front": "emotion / excitement",
+          "back": "عاطفة / إثارة",
+          "romanized": "'atifa / ithara"
+        },
+        {
+          "front": "I couldn't hide my emotion.",
+          "back": "لم أستطع إخفاء عاطفتي.",
+          "romanized": "lam astati' ikhfa' 'atifati."
+        }
+      ]
+    },
+    "calm": {
+      "levels": [
+        {
+          "front": "calm",
+          "back": "هدوء",
+          "romanized": "hudu'"
+        },
+        {
+          "front": "Try to maintain your calm.",
+          "back": "حاول الحفاظ على هدوئك.",
+          "romanized": "hawil al-hifaz 'ala hudi'ik."
+        }
+      ]
+    },
+    "peace": {
+      "levels": [
+        {
+          "front": "peace",
+          "back": "سلام",
+          "romanized": "salam"
+        },
+        {
+          "front": "I need peace and quiet.",
+          "back": "أحتاج إلى السلام والهدوء.",
+          "romanized": "ahtaj ila as-salam wal-hudu'."
+        }
+      ]
+    },
+    "worry": {
+      "levels": [
+        {
+          "front": "worry",
+          "back": "قلق",
+          "romanized": "qalaq"
+        },
+        {
+          "front": "Don't let worry stop you.",
+          "back": "لا تدع القلق يوقفك.",
+          "romanized": "la tada' al-qalaq yawqifak."
+        }
+      ]
+    },
+    "surprise": {
+      "levels": [
+        {
+          "front": "surprise",
+          "back": "مفاجأة",
+          "romanized": "mufaja'a"
+        },
+        {
+          "front": "What a surprise!",
+          "back": "يا له من مفاجأة!",
+          "romanized": "ya lahu min mufaja'a!"
+        }
+      ]
+    },
+    "passion": {
+      "levels": [
+        {
+          "front": "passion",
+          "back": "شغف",
+          "romanized": "shaghaf"
+        },
+        {
+          "front": "She teaches with passion.",
+          "back": "هي تدرّس بشغف.",
+          "romanized": "hiya tudarris bi-shaghaf."
+        }
+      ]
+    },
+    "desire": {
+      "levels": [
+        {
+          "front": "desire",
+          "back": "رغبة",
+          "romanized": "raghba"
+        },
+        {
+          "front": "I have a strong desire to travel.",
+          "back": "لدي رغبة قوية في السفر.",
+          "romanized": "ladayya raghba qawiyya fi as-safar."
+        }
+      ]
+    },
+    "hate": {
+      "levels": [
+        {
+          "front": "hate",
+          "back": "كُره",
+          "romanized": "kurh"
+        },
+        {
+          "front": "Hate is a strong feeling.",
+          "back": "الكره شعور قوي.",
+          "romanized": "al-kurh shu'ur qawi."
+        }
+      ]
+    },
+    "pleasure": {
+      "levels": [
+        {
+          "front": "pleasure",
+          "back": "متعة / لذة",
+          "romanized": "mat'a / ladhha"
+        },
+        {
+          "front": "It's a pleasure to meet you.",
+          "back": "يسرّني مقابلتك.",
+          "romanized": "yasurruni muqabalatuk."
+        }
+      ]
+    },
+    "pain": {
+      "levels": [
+        {
+          "front": "pain",
+          "back": "ألم",
+          "romanized": "alam"
+        },
+        {
+          "front": "I feel pain in my leg.",
+          "back": "أشعر بألم في ساقي.",
+          "romanized": "ash'ur bi-alam fi saqi."
+        }
+      ]
+    },
+    "energy": {
+      "levels": [
+        {
+          "front": "energy",
+          "back": "طاقة",
+          "romanized": "taqa"
+        },
+        {
+          "front": "I have a lot of energy today.",
+          "back": "لدي طاقة كثيرة اليوم.",
+          "romanized": "ladayya taqa kathira al-yawm."
+        }
+      ]
+    },
+    "relief": {
+      "levels": [
+        {
+          "front": "relief",
+          "back": "ارتياح",
+          "romanized": "irtiyah"
+        },
+        {
+          "front": "What a relief!",
+          "back": "يا له من ارتياح!",
+          "romanized": "ya lahu min irtiyah!"
+        }
+      ]
+    },
+    "comfort": {
+      "levels": [
+        {
+          "front": "comfort",
+          "back": "عزاء / راحة",
+          "romanized": "aza' / raha"
+        },
+        {
+          "front": "Her words were a comfort.",
+          "back": "كلماتها كانت عزاءً.",
+          "romanized": "kalimatuha kanat aza'an."
+        }
+      ]
+    },
+    "feel_to_feel": {
+      "levels": [
+        {
+          "front": "feel (to feel)",
+          "back": "يشعر",
+          "romanized": "yash'ur"
+        },
+        {
+          "front": "I feel good today.",
+          "back": "أشعر بخير اليوم.",
+          "romanized": "ash'ur bi-khayr al-yawm."
+        }
+      ]
+    },
+    "love_to_love": {
+      "levels": [
+        {
+          "front": "love (to love)",
+          "back": "يحب",
+          "romanized": "yuhibb"
+        },
+        {
+          "front": "I love you very much.",
+          "back": "أحبك كثيراً.",
+          "romanized": "uhibbuk kathiran."
+        }
+      ]
+    },
+    "hate_to_hate": {
+      "levels": [
+        {
+          "front": "hate (to hate)",
+          "back": "يكره",
+          "romanized": "yakrah"
+        },
+        {
+          "front": "I hate waiting.",
+          "back": "أكره الانتظار.",
+          "romanized": "akrah al-intizar."
+        }
+      ]
+    },
+    "like_to_like": {
+      "levels": [
+        {
+          "front": "like (to like)",
+          "back": "يحب / يعجبه",
+          "romanized": "yuhibb / yu'jubuh"
+        },
+        {
+          "front": "I like music.",
+          "back": "أحب الموسيقى.",
+          "romanized": "uhibb al-musiqa."
+        }
+      ]
+    },
+    "enjoy": {
+      "levels": [
+        {
+          "front": "enjoy",
+          "back": "يستمتع",
+          "romanized": "yastamti'"
+        },
+        {
+          "front": "I enjoy the weekend.",
+          "back": "أستمتع بعطلة نهاية الأسبوع.",
+          "romanized": "astamti' bi-'utlat nihayat al-usbu'."
+        }
+      ]
+    },
+    "fear_dread_to_fear": {
+      "levels": [
+        {
+          "front": "fear / dread (to fear)",
+          "back": "يخشى / يخاف",
+          "romanized": "yakhsha / yakhaf"
+        },
+        {
+          "front": "I fear the worst.",
+          "back": "أخشى الأسوأ.",
+          "romanized": "akhsha al-aswa'."
+        }
+      ]
+    },
+    "hope_to_hope": {
+      "levels": [
+        {
+          "front": "hope (to hope)",
+          "back": "يأمل",
+          "romanized": "ya'mal"
+        },
+        {
+          "front": "I hope everything goes well.",
+          "back": "آمل أن يسير كل شيء على ما يرام.",
+          "romanized": "amal an yasir kull shay' 'ala ma yuram."
+        }
+      ]
+    },
+    "worry_to_worry": {
+      "levels": [
+        {
+          "front": "worry (to worry)",
+          "back": "يقلق",
+          "romanized": "yaqalaq"
+        },
+        {
+          "front": "Don't worry about it.",
+          "back": "لا تقلق بشأن ذلك.",
+          "romanized": "la taqalaq bi-sha'n dhalika."
+        }
+      ]
+    },
+    "calm_soothe_to_calm": {
+      "levels": [
+        {
+          "front": "calm / soothe (to calm)",
+          "back": "يهدّئ",
+          "romanized": "yuhadi'"
+        },
+        {
+          "front": "Calm down, please.",
+          "back": "هدّئ من نفسك، من فضلك.",
+          "romanized": "haddi' min nafsak, min fadlak."
+        }
+      ]
+    },
+    "comfort_to_comfort": {
+      "levels": [
+        {
+          "front": "comfort (to comfort)",
+          "back": "يواسي",
+          "romanized": "yuwasi"
+        },
+        {
+          "front": "She comforted her friend.",
+          "back": "هي واست صديقتها.",
+          "romanized": "hiya wasat sadiqatuha."
+        }
+      ]
+    },
+    "excite_thrill": {
+      "levels": [
+        {
+          "front": "excite / thrill",
+          "back": "يُثير",
+          "romanized": "yuthir"
+        },
+        {
+          "front": "The trip excites me.",
+          "back": "الرحلة تُثير حماسي.",
+          "romanized": "ar-rihla tuthir hamasi."
+        }
+      ]
+    },
+    "annoy": {
+      "levels": [
+        {
+          "front": "annoy",
+          "back": "يُزعج",
+          "romanized": "yuz'ij"
+        },
+        {
+          "front": "That noise annoys me.",
+          "back": "هذا الضجيج يُزعجني.",
+          "romanized": "hadha adh-dajij yuz'ijuni."
+        }
+      ]
+    },
+    "irritate": {
+      "levels": [
+        {
+          "front": "irritate",
+          "back": "يُهيّج / يُغيظ",
+          "romanized": "yuhayyij / yughiz"
+        },
+        {
+          "front": "Waiting irritates me.",
+          "back": "الانتظار يُغيظني.",
+          "romanized": "al-intizar yughizuni."
+        }
+      ]
+    },
+    "anger_to_anger": {
+      "levels": [
+        {
+          "front": "anger (to anger)",
+          "back": "يُغضب",
+          "romanized": "yughdib"
+        },
+        {
+          "front": "That comment angered me.",
+          "back": "ذلك التعليق أغضبني.",
+          "romanized": "dhalika at-ta'liq aghdabani."
+        }
+      ]
+    },
+    "delight": {
+      "levels": [
+        {
+          "front": "delight",
+          "back": "يُبهج",
+          "romanized": "yubhij"
+        },
+        {
+          "front": "The music delighted everyone.",
+          "back": "الموسيقى أبهجت الجميع.",
+          "romanized": "al-musiqa abhajat al-jami'."
+        }
+      ]
+    },
+    "smile": {
+      "levels": [
+        {
+          "front": "smile",
+          "back": "يبتسم",
+          "romanized": "yabtasim"
+        },
+        {
+          "front": "She always smiles.",
+          "back": "هي دائماً تبتسم.",
+          "romanized": "hiya da'iman tabtasim."
+        }
+      ]
+    },
+    "laugh": {
+      "levels": [
+        {
+          "front": "laugh",
+          "back": "يضحك",
+          "romanized": "yadhak"
+        },
+        {
+          "front": "We laughed a lot.",
+          "back": "ضحكنا كثيراً.",
+          "romanized": "dahhakna kathiran."
+        }
+      ]
+    },
+    "cry_weep_mourn": {
+      "levels": [
+        {
+          "front": "cry / weep / mourn",
+          "back": "يبكي",
+          "romanized": "yabki"
+        },
+        {
+          "front": "The baby is crying.",
+          "back": "الطفل يبكي.",
+          "romanized": "at-tifl yabki."
+        }
+      ]
+    },
+    "sigh": {
+      "levels": [
+        {
+          "front": "sigh",
+          "back": "يتنهّد",
+          "romanized": "yatannahhad"
+        },
+        {
+          "front": "She sighed with relief.",
+          "back": "هي تنهّدت ارتياحاً.",
+          "romanized": "hiya tannahhadat irtiyahan."
+        }
+      ]
+    },
+    "frown": {
+      "levels": [
+        {
+          "front": "frown",
+          "back": "يعبّس وجهه",
+          "romanized": "yu'abbis wajhahu"
+        },
+        {
+          "front": "He frowned when he heard the news.",
+          "back": "عبّس وجهه عندما سمع الخبر.",
+          "romanized": "'abbasa wajhahu indama sami'a al-khabar."
+        }
+      ]
+    },
+    "scream_shout": {
+      "levels": [
+        {
+          "front": "scream / shout",
+          "back": "يصرخ",
+          "romanized": "yasrukh"
+        },
+        {
+          "front": "Don't shout, please.",
+          "back": "لا تصرخ، من فضلك.",
+          "romanized": "la tasrukh, min fadlak."
+        }
+      ]
+    },
+    "relax": {
+      "levels": [
+        {
+          "front": "relax",
+          "back": "يسترخي",
+          "romanized": "yastarkhi"
+        },
+        {
+          "front": "Relax, there's no rush.",
+          "back": "استرخِ، لا داعي للعجلة.",
+          "romanized": "istarkhi, la da'i lil-'ajala."
+        }
+      ]
+    },
+    "angry": {
+      "levels": [
+        {
+          "front": "angry",
+          "back": "غاضب",
+          "romanized": "ghadib"
+        },
+        {
+          "front": "I'm angry with you.",
+          "back": "أنا غاضب منك.",
+          "romanized": "ana ghadib mink."
+        }
+      ]
+    },
+    "mad": {
+      "levels": [
+        {
+          "front": "mad",
+          "back": "غضبان",
+          "romanized": "ghadban"
+        },
+        {
+          "front": "Why are you so mad?",
+          "back": "لماذا أنت غضبان هكذا؟",
+          "romanized": "limatha anta ghadban hakadha?"
+        }
+      ]
+    },
+    "afraid_scared": {
+      "levels": [
+        {
+          "front": "afraid / scared",
+          "back": "خائف",
+          "romanized": "kha'if"
+        },
+        {
+          "front": "The child was scared.",
+          "back": "كان الطفل خائفاً.",
+          "romanized": "kan at-tifl kha'ifan."
+        }
+      ]
+    },
+    "anxious": {
+      "levels": [
+        {
+          "front": "anxious",
+          "back": "قلق",
+          "romanized": "qaliq"
+        },
+        {
+          "front": "I'm anxious about the exam.",
+          "back": "أنا قلق بشأن الامتحان.",
+          "romanized": "ana qaliq bi-sha'n al-imtihan."
+        }
+      ]
+    },
+    "nervous": {
+      "levels": [
+        {
+          "front": "nervous",
+          "back": "متوتر",
+          "romanized": "mutawatir"
+        },
+        {
+          "front": "I'm nervous today.",
+          "back": "أنا متوتر اليوم.",
+          "romanized": "ana mutawatir al-yawm."
+        }
+      ]
+    },
+    "excited": {
+      "levels": [
+        {
+          "front": "excited",
+          "back": "متحمّس",
+          "romanized": "mutahammis"
+        },
+        {
+          "front": "I'm excited about the trip.",
+          "back": "أنا متحمّس للرحلة.",
+          "romanized": "ana mutahammis lir-rihla."
+        }
+      ]
+    },
+    "joyful_cheerful": {
+      "levels": [
+        {
+          "front": "joyful / cheerful",
+          "back": "مبهج / مرح",
+          "romanized": "mubhij / marih"
+        },
+        {
+          "front": "She is always cheerful.",
+          "back": "هي دائماً مرحة.",
+          "romanized": "hiya da'iman mariha."
+        }
+      ]
+    },
+    "proud": {
+      "levels": [
+        {
+          "front": "proud",
+          "back": "فخور",
+          "romanized": "fakhur"
+        },
+        {
+          "front": "I'm proud of you.",
+          "back": "أنا فخور بك.",
+          "romanized": "ana fakhur bik."
+        }
+      ]
+    },
+    "content_contented": {
+      "levels": [
+        {
+          "front": "content / contented",
+          "back": "راضٍ / مرتاح",
+          "romanized": "radin / murtah"
+        },
+        {
+          "front": "I'm content with my life.",
+          "back": "أنا راضٍ عن حياتي.",
+          "romanized": "ana radin 'an hayati."
+        }
+      ]
+    },
+    "calm_2": {
+      "levels": [
+        {
+          "front": "calm",
+          "back": "هادئ",
+          "romanized": "hadi'"
+        },
+        {
+          "front": "Stay calm, everything is fine.",
+          "back": "ابقَ هادئاً، كل شيء بخير.",
+          "romanized": "ibqa hadi'an, kull shay' bi-khayr."
+        }
+      ]
+    },
+    "stressed": {
+      "levels": [
+        {
+          "front": "stressed",
+          "back": "مضغوط / متوتر",
+          "romanized": "madghut / mutawatir"
+        },
+        {
+          "front": "I'm very stressed this week.",
+          "back": "أنا مضغوط جداً هذا الأسبوع.",
+          "romanized": "ana madghut jiddan hadha al-usbu'."
+        }
+      ]
+    },
+    "overwhelmed": {
+      "levels": [
+        {
+          "front": "overwhelmed",
+          "back": "مغلوب على أمره",
+          "romanized": "maghlub 'ala amrih"
+        },
+        {
+          "front": "I feel overwhelmed by the work.",
+          "back": "أشعر أنني مغلوب على أمري بسبب العمل.",
+          "romanized": "ash'ur annani maghlub 'ala amri bi-sabab al-'amal."
+        }
+      ]
+    },
+    "energetic": {
+      "levels": [
+        {
+          "front": "energetic",
+          "back": "نشيط",
+          "romanized": "nashit"
+        },
+        {
+          "front": "She is very energetic.",
+          "back": "هي نشيطة جداً.",
+          "romanized": "hiya nashita jiddan."
+        }
+      ]
+    },
+    "tired": {
+      "levels": [
+        {
+          "front": "tired",
+          "back": "متعب",
+          "romanized": "muta'ab"
+        },
+        {
+          "front": "I'm very tired today.",
+          "back": "أنا متعب جداً اليوم.",
+          "romanized": "ana muta'ab jiddan al-yawm."
+        }
+      ]
+    },
+    "exhausted": {
+      "levels": [
+        {
+          "front": "exhausted",
+          "back": "منهك",
+          "romanized": "munhak"
+        },
+        {
+          "front": "I'm exhausted after the run.",
+          "back": "أنا منهك بعد الجري.",
+          "romanized": "ana munhak ba'd al-jarri."
+        }
+      ]
+    },
+    "curious": {
+      "levels": [
+        {
+          "front": "curious",
+          "back": "فضولي",
+          "romanized": "fuduli"
+        },
+        {
+          "front": "I'm curious about that.",
+          "back": "أنا فضولي بشأن ذلك.",
+          "romanized": "ana fuduli bi-sha'n dhalika."
+        }
+      ]
+    }
+  }
 }
