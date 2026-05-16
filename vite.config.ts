@@ -8,7 +8,25 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff,woff2}'],
+        globPatterns: ['**/*.{js,css,html,svg,ico,woff,woff2}'],
+        runtimeCaching: [
+          {
+            urlPattern: /\/languages\//,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'language-data',
+              expiration: { maxEntries: 500, maxAgeSeconds: 30 * 24 * 60 * 60 },
+            },
+          },
+          {
+            urlPattern: /\/picture-lessons\//,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'picture-lessons',
+              expiration: { maxEntries: 100, maxAgeSeconds: 30 * 24 * 60 * 60 },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Free Immersion',

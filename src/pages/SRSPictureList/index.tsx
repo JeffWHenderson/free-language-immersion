@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate, useSearchParams } from "react-router-dom";
+import { useState } from "react";
+import { useParams, useNavigate, useSearchParams, useLoaderData } from "react-router-dom";
 import "../srs.css";
 
 interface PictureMeta {
@@ -10,64 +10,13 @@ interface PictureMeta {
     deckName: string;
 }
 
-interface DeckMeta {
-    id: string;
-    name: string;
-    pictureLessons?: string[];
-}
-
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-];
-
 const SRSPictureList = () => {
     const { language } = useParams<{ language: string }>();
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
 
-    const [pictures, setPictures] = useState<PictureMeta[]>([]);
-    const [loading, setLoading] = useState(true);
+    const pictures = useLoaderData() as PictureMeta[];
     const [deckFilter, setDeckFilter] = useState(searchParams.get("deck") ?? "all");
-
-    useEffect(() => {
-        if (!language) return;
-        setLoading(true);
-
-        Promise.all(
-            AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}.json`)
-                    .then((r) => r.json())
-                    .catch(() => null)
-            )
-        ).then((decks: (DeckMeta | null)[]) => {
-            const validDecks = decks.filter(Boolean) as DeckMeta[];
-
-            const pictureFetches = validDecks.flatMap((deck) =>
-                (deck.pictureLessons ?? []).map((lessonId) =>
-                    fetch(`/languages/${language}/pictureLessons/${lessonId}.json`)
-                        .then((r) => r.json())
-                        .then((p) => ({
-                            id: lessonId,
-                            name: p.name ?? lessonId,
-                            image: p.image ?? `/${lessonId}.jpg`,
-                            deckId: deck.id,
-                            deckName: deck.name,
-                        }))
-                        .catch(() => null)
-                )
-            );
-
-            Promise.all(pictureFetches).then((results) => {
-                setPictures(results.filter(Boolean) as PictureMeta[]);
-                setLoading(false);
-            });
-        });
-    }, [language]);
 
     const filtered = pictures.filter((p) => {
         if (deckFilter !== "all" && p.deckId !== deckFilter) return false;
@@ -108,9 +57,7 @@ const SRSPictureList = () => {
                 </div>
             </div>
 
-            {loading && <p>Loading...</p>}
-
-            {!loading && filtered.length === 0 && (
+            {filtered.length === 0 && (
                 <p className="srs-empty">No picture lessons found.</p>
             )}
 

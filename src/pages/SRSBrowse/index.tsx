@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate, useSearchParams } from "react-router-dom";
+import { useState } from "react";
+import { useParams, useNavigate, useSearchParams, useLoaderData } from "react-router-dom";
 import { CardState, isDue, isNew } from "../fsrs";
-import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, normalizeCards, SRSDeckState } from "../useSRSStorage";
+import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, SRSDeckState } from "../useSRSStorage";
 import "../srs.css";
 
 interface CardLevel {
@@ -14,12 +14,6 @@ interface Card {
     id: string;
     hidden?: boolean;
     levels: CardLevel[];
-}
-
-interface RawDeckData {
-    id: string;
-    name: string;
-    cards: Record<string, Omit<Card, 'id'>>;
 }
 
 interface DeckData {
@@ -62,8 +56,8 @@ const SRSBrowse = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const filter = (searchParams.get("filter") ?? "new") as FilterType;
 
-    const [deck, setDeck] = useState<DeckData | null>(null);
-    const [deckState, setDeckState] = useState<SRSDeckState>({});
+    const deck = useLoaderData() as DeckData;
+    const [deckState, setDeckState] = useState<SRSDeckState>(() => loadDeckState(language!, deckId!));
 
     const handleReset = () => {
         if (!language || !deckId) return;
@@ -82,18 +76,6 @@ const SRSBrowse = () => {
         setDeckState(updated);
     };
 
-    useEffect(() => {
-        if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}.json`)
-            .then((r) => r.json())
-            .then((raw: RawDeckData) => {
-                const data: DeckData = { ...raw, cards: normalizeCards(raw.cards) };
-                setDeck(data);
-                setDeckState(loadDeckState(language, deckId));
-            });
-    }, [language, deckId]);
-
-    if (!deck) return <div className="srs-container"><p>Loading...</p></div>;
 
     const visibleCards = deck.cards.filter(c => !isCardHidden(c, deckState));
 

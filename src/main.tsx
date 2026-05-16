@@ -1,56 +1,159 @@
-import { StrictMode, lazy, Suspense } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, LoaderFunctionArgs } from "react-router-dom";
 import { ThemeProvider } from './common/ThemeContext';
+import LanguageAppLayout from './LanguageAppLayout';
+import { normalizeCards } from './pages/useSRSStorage';
 import './index.css'
 
-const LanguageLearningApp = lazy(() => import("./pages/LanguageApp"));
-const LanguageAppLayout = lazy(() => import('./LanguageAppLayout'));
-const LanguageAppHome = lazy(() => import('./LanguageHome'));
-const SRSPictureLesson = lazy(() => import('./pages/SRSPictureLesson'));
-const SRSHome = lazy(() => import('./pages/SRSHome'));
-const SRSReview = lazy(() => import('./pages/SRSReview'));
-const SRSStoryReader = lazy(() => import('./pages/SRSStoryReader'));
-const SRSStoryList = lazy(() => import('./pages/SRSStoryList'));
-const SRSPictureList = lazy(() => import('./pages/SRSPictureList'));
-const SRSBrowse = lazy(() => import('./pages/SRSBrowse'));
+const AVAILABLE_DECKS = [
+    "everyday_phrases",
+    "food_and_drink",
+    "common_places",
+    "jobs_and_hobbies",
+    "moods_and_emotion",
+    "human_body",
+];
+
+async function srsHomeLoader({ params }: LoaderFunctionArgs) {
+    const { language } = params;
+    const results = await Promise.all(
+        AVAILABLE_DECKS.map(deckId =>
+            fetch(`/languages/${language}/${deckId}.json`)
+                .then(r => r.json())
+                .then((raw: any) => ({ ...raw, cards: normalizeCards(raw.cards) }))
+                .catch(() => null)
+        )
+    );
+    return results.filter(Boolean);
+}
+
+async function srsStoryListLoader({ params }: LoaderFunctionArgs) {
+    const { language } = params;
+    const decks = (await Promise.all(
+        AVAILABLE_DECKS.map(deckId =>
+            fetch(`/languages/${language}/${deckId}.json`)
+                .then(r => r.json() as Promise<{ id: string; name: string; stories?: string[] }>)
+                .catch(() => null)
+        )
+    )).filter(Boolean) as { id: string; name: string; stories?: string[] }[];
+
+    const stories = (await Promise.all(
+        decks.flatMap(deck =>
+            (deck.stories ?? []).map(storyId =>
+                fetch(`/languages/${language}/${deck.id}/stories/${storyId}.json`)
+                    .then(r => r.json())
+                    .then((s: any) => ({
+                        id: storyId,
+                        name: s.name ?? storyId,
+                        difficulty: s.difficulty ?? "easy",
+                        deckId: deck.id,
+                        deckName: deck.name,
+                    }))
+                    .catch(() => null)
+            )
+        )
+    )).filter(Boolean);
+    return stories;
+}
+
+async function srsPictureListLoader({ params }: LoaderFunctionArgs) {
+    const { language } = params;
+    const decks = (await Promise.all(
+        AVAILABLE_DECKS.map(deckId =>
+            fetch(`/languages/${language}/${deckId}.json`)
+                .then(r => r.json() as Promise<{ id: string; name: string; pictureLessons?: string[] }>)
+                .catch(() => null)
+        )
+    )).filter(Boolean) as { id: string; name: string; pictureLessons?: string[] }[];
+
+    const pictures = (await Promise.all(
+        decks.flatMap(deck =>
+            (deck.pictureLessons ?? []).map(lessonId =>
+                fetch(`/languages/${language}/pictureLessons/${lessonId}.json`)
+                    .then(r => r.json())
+                    .then((p: any) => ({
+                        id: lessonId,
+                        name: p.name ?? lessonId,
+                        image: p.image ?? `/${lessonId}.jpg`,
+                        deckId: deck.id,
+                        deckName: deck.name,
+                    }))
+                    .catch(() => null)
+            )
+        )
+    )).filter(Boolean);
+    return pictures;
+}
+
+async function deckLoader({ params }: LoaderFunctionArgs) {
+    const { language, deckId } = params;
+    const raw = await fetch(`/languages/${language}/${deckId}.json`).then(r => r.json());
+    return { ...raw, cards: normalizeCards(raw.cards) };
+}
+
+async function pictureLessonLoader({ params }: LoaderFunctionArgs) {
+    const { language, section } = params;
+    return fetch(`/languages/${language}/pictureLessons/${section}.json`).then(r => r.json());
+}
+
+async function storyReaderLoader({ params }: LoaderFunctionArgs) {
+    const { language, deckId, storyId } = params;
+    return fetch(`/languages/${language}/${deckId}/stories/${storyId}.json`).then(r => r.json());
+}
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <LanguageAppLayout />,
+        children: [
+            {
+                index: true,
+                lazy: () => import('./LanguageHome').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language',
+                loader: srsHomeLoader,
+                lazy: () => import('./pages/SRSHome').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/picture-review/:section',
+                loader: pictureLessonLoader,
+                lazy: () => import('./pages/SRSPictureLesson').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/stories',
+                loader: srsStoryListLoader,
+                lazy: () => import('./pages/SRSStoryList').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/pictures',
+                loader: srsPictureListLoader,
+                lazy: () => import('./pages/SRSPictureList').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/:deckId',
+                loader: deckLoader,
+                lazy: () => import('./pages/SRSReview').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/:deckId/browse',
+                loader: deckLoader,
+                lazy: () => import('./pages/SRSBrowse').then(m => ({ Component: m.default })),
+            },
+            {
+                path: ':language/:deckId/story/:storyId',
+                loader: storyReaderLoader,
+                lazy: () => import('./pages/SRSStoryReader').then(m => ({ Component: m.default })),
+            },
+        ],
+    },
+]);
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <BrowserRouter>
-      <ThemeProvider>
-        <Suspense fallback={null}>
-          <Routes>
-            <Route path="/" element={<LanguageAppLayout />} >
-              <Route index element={<LanguageAppHome />} />
-              <Route path=":language" element={<LanguageLearningApp />} />
-              <Route path=":language/picture-review/:section" element={<SRSPictureLesson />} />
-              <Route path=":language/stories" element={<SRSStoryList />} />
-              <Route path=":language/pictures" element={<SRSPictureList />} />
-              <Route path=":language/" element={<SRSHome />} />
-              <Route path=":language/:deckId" element={<SRSReview />} />
-              <Route path=":language/:deckId/browse" element={<SRSBrowse />} />
-              <Route path=":language/:deckId/story/:storyId" element={<SRSStoryReader />} />
-            </Route>
-            {/* <Route path="*" element={<NoPage />} /> */}
-          </Routes>
-        </Suspense>
-      </ThemeProvider>
-    </BrowserRouter>
-  </StrictMode >,
-)
-
-
-// OLD VERSION OF LANGUAGE APP
-// <Route path=":language/flashcards/:section/:lessonId" element={<FlashCardsV2 />} />
-// <Route path=":language/story/:section/:lessonId" element={<StoryReader />} />
-// <Route path=":language/wordlist/:section/:lessonId" element={<WordList />} />
-// <Route path=":language/view-lesson/:lessonId" element={<ViewLesson />} />
-// <Route path=":language/my-decks" element={<MyDecks />} />
-// <Route path=":language/my-decks/:section/:lessonId" element={<FlashCardsV2 />} /> 
-
-// const FlashCardsV2 = lazy(() => import('./pages/flashcards/FlashCardsV2'));
-// const WordList = lazy(() => import('./pages/wordlist/WordList'));
-// const StoryReader = lazy(() => import('./pages/storyReader/StoryReader'));
-// const ViewLesson = lazy(() => import('./pages/viewLesson/ViewLesson'));
-// const MyDecks = lazy(() => import('./hooks/MyDecks'));
+    <StrictMode>
+        <ThemeProvider>
+            <RouterProvider router={router} />
+        </ThemeProvider>
+    </StrictMode>
+);

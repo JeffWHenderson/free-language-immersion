@@ -1,5 +1,5 @@
-import { useEffect, useState, useCallback } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useState, useCallback, useEffect } from "react";
+import { useParams, useNavigate, useLoaderData } from "react-router-dom";
 import { applyRating, CardState, isDue, isNew, levelUpState, previewIntervals, LEVEL_UP_REPS, Rating } from "../fsrs";
 import { useLanguageApp } from "../../LanguageAppContext";
 import {
@@ -8,7 +8,6 @@ import {
     getCardState,
     updateCardState,
     isCardHidden,
-    normalizeCards,
     SRSDeckState,
 } from "../useSRSStorage";
 import useLanguage from "../../hooks/useLanguage";
@@ -27,13 +26,6 @@ interface Card {
     id: string;
     hidden?: boolean;
     levels: CardLevel[];
-}
-
-interface RawDeckData {
-    id: string;
-    name: string;
-    language: string;
-    cards: Record<string, Omit<Card, 'id'>>;
 }
 
 interface DeckData {
@@ -93,14 +85,14 @@ const SRSReview = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
     const navigate = useNavigate();
 
-    const [deck, setDeck] = useState<DeckData | null>(null);
-    const [deckState, setDeckState] = useState<SRSDeckState>({});
-    const [session, setSession] = useState<SessionCard[]>([]);
+    const deck = useLoaderData() as DeckData;
+    const { readFront, readBack, fastMode, volume, showLiteral, shuffleCards } = useLanguageApp();
+    const [deckState, setDeckState] = useState<SRSDeckState>(() => loadDeckState(language!, deckId!));
+    const [session, setSession] = useState<SessionCard[]>(() => buildSession(deck.cards, loadDeckState(language!, deckId!), shuffleCards));
     const [currentIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
-    const { readFront, readBack, fastMode, volume, showLiteral, shuffleCards } = useLanguageApp();
     const [done, setDone] = useState(false);
-    const [totalCards, setTotalCards] = useState(0);
+    const [totalCards, setTotalCards] = useState(() => buildSession(deck.cards, loadDeckState(language!, deckId!), shuffleCards).length);
     const [reviewed, setReviewed] = useState(0);
     const [levelUpCard, setLevelUpCard] = useState<SessionCard | null>(null);
     const [noteOpen, setNoteOpen] = useState(true);
@@ -125,21 +117,6 @@ const SRSReview = () => {
         window.speechSynthesis.speak(buildUtt(text, isTarget));
     };
 
-    useEffect(() => {
-        if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}.json`)
-            .then((r) => r.json())
-            .then((raw: RawDeckData) => {
-                const data: DeckData = { ...raw, cards: normalizeCards(raw.cards) };
-                setDeck(data);
-                const state = loadDeckState(language, deckId);
-                setDeckState(state);
-                const s = buildSession(data.cards, state, shuffleCards);
-                setSession(s);
-                setTotalCards(s.length);
-            })
-            .catch((e) => console.error(e));
-    }, [language, deckId]);
 
     // ── Normal mode: speak front when a new card appears ──────────────────────
     const currentCardId = session[0]?.id;
@@ -253,10 +230,6 @@ const SRSReview = () => {
     };
 
     const remaining = session.length;
-
-    if (!deck) {
-        return <div className="srs-container"><p>Loading...</p></div>;
-    }
 
     // ── Fast mode view ─────────────────────────────────────────────────────────
     if (fastMode) {

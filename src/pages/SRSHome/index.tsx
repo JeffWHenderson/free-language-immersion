@@ -1,16 +1,6 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { loadDeckState, getDeckSummary, normalizeCards } from "../useSRSStorage";
+import { useParams, useNavigate, useLoaderData } from "react-router-dom";
+import { loadDeckState, getDeckSummary } from "../useSRSStorage";
 import "../srs.css";
-
-interface RawDeckMeta {
-    id: string;
-    name: string;
-    language: string;
-    stories?: string[];
-    pictureLessons?: string[];
-    cards: Record<string, { hidden?: boolean; levels: unknown[] }>;
-}
 
 interface DeckMeta {
     id: string;
@@ -21,33 +11,10 @@ interface DeckMeta {
     cards: { id: string; hidden?: boolean; levels: unknown[] }[];
 }
 
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-];
-
 const SRSHome = () => {
     const { language } = useParams<{ language: string }>();
     const navigate = useNavigate();
-    const [deckMetas, setDeckMetas] = useState<DeckMeta[]>([]);
-
-    useEffect(() => {
-        if (!language) return;
-        Promise.all(
-            AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}.json`)
-                    .then((r) => r.json() as Promise<RawDeckMeta>)
-                    .then((raw): DeckMeta => ({ ...raw, cards: normalizeCards(raw.cards) }))
-                    .catch(() => null)
-            )
-        ).then((results) => {
-            setDeckMetas(results.filter(Boolean) as DeckMeta[]);
-        });
-    }, [language]);
+    const deckMetas = useLoaderData() as DeckMeta[];
 
     return (
         <div className="srs-container">
@@ -57,7 +24,6 @@ const SRSHome = () => {
             </div>
 
             <div className="srs-deck-list">
-                {deckMetas.length === 0 && <p>Loading decks...</p>}
                 {deckMetas.map((deck) => {
                     const state = loadDeckState(language!, deck.id);
                     const summary = getDeckSummary(deck.cards, state);

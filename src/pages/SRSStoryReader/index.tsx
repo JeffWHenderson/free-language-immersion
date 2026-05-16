@@ -1,5 +1,5 @@
-import { useEffect, useState, useRef } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useState, useRef, useEffect } from "react";
+import { useParams, useNavigate, useLoaderData } from "react-router-dom";
 import { useLanguageApp } from "../../LanguageAppContext";
 import useLanguage from "../../hooks/useLanguage";
 import SRSSettings from "../components/SRSSettings";
@@ -20,10 +20,10 @@ interface StoryData {
 }
 
 const SRSStoryReader = () => {
-    const { language, deckId, storyId } = useParams<{ language: string; deckId: string; storyId: string }>();
+    const { language } = useParams<{ language: string }>();
     const navigate = useNavigate();
 
-    const [story, setStory] = useState<StoryData | null>(null);
+    const story = useLoaderData() as StoryData;
     const [playingIndex, setPlayingIndex] = useState(-1);
     const [isPlaying, setIsPlaying] = useState(false);
     const [speakingRate, setSpeakingRate] = useState(0.9);
@@ -40,14 +40,6 @@ const SRSStoryReader = () => {
             playingRef.current = false;
         };
     }, []);
-
-    useEffect(() => {
-        if (!language || !deckId || !storyId) return;
-        fetch(`/languages/${language}/${deckId}/stories/${storyId}.json`)
-            .then(r => r.json())
-            .then(data => setStory(data))
-            .catch(console.error);
-    }, [language, deckId, storyId]);
 
     const speakSentence = (idx: number, continueAfter = false) => {
         if (!story || idx >= story.sentences.length) {
@@ -99,8 +91,6 @@ const SRSStoryReader = () => {
         window.speechSynthesis.cancel();
         navigate(-1);
     };
-
-    if (!story) return <div className="srs-container"><p>Loading...</p></div>;
 
     return (
         <div className="srs-story-page">

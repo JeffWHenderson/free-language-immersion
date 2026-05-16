@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate, useSearchParams } from "react-router-dom";
+import { useState } from "react";
+import { useParams, useNavigate, useSearchParams, useLoaderData } from "react-router-dom";
 import "../srs.css";
 
 interface StoryMeta {
@@ -10,21 +10,6 @@ interface StoryMeta {
     deckName: string;
 }
 
-interface DeckMeta {
-    id: string;
-    name: string;
-    stories?: string[];
-}
-
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-];
-
 const DIFFICULTIES = ["easy", "medium", "hard"];
 
 const SRSStoryList = () => {
@@ -32,45 +17,9 @@ const SRSStoryList = () => {
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
 
-    const [stories, setStories] = useState<StoryMeta[]>([]);
-    const [loading, setLoading] = useState(true);
+    const stories = useLoaderData() as StoryMeta[];
     const [deckFilter, setDeckFilter] = useState(searchParams.get("deck") ?? "all");
     const [diffFilter, setDiffFilter] = useState("all");
-
-    useEffect(() => {
-        if (!language) return;
-        setLoading(true);
-
-        Promise.all(
-            AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}.json`)
-                    .then((r) => r.json())
-                    .catch(() => null)
-            )
-        ).then((decks: (DeckMeta | null)[]) => {
-            const validDecks = decks.filter(Boolean) as DeckMeta[];
-
-            const storyFetches = validDecks.flatMap((deck) =>
-                (deck.stories ?? []).map((storyId) =>
-                    fetch(`/languages/${language}/${deck.id}/stories/${storyId}.json`)
-                        .then((r) => r.json())
-                        .then((s) => ({
-                            id: storyId,
-                            name: s.name ?? storyId,
-                            difficulty: s.difficulty ?? "easy",
-                            deckId: deck.id,
-                            deckName: deck.name,
-                        }))
-                        .catch(() => null)
-                )
-            );
-
-            Promise.all(storyFetches).then((results) => {
-                setStories(results.filter(Boolean) as StoryMeta[]);
-                setLoading(false);
-            });
-        });
-    }, [language]);
 
     const filtered = stories.filter((s) => {
         if (deckFilter !== "all" && s.deckId !== deckFilter) return false;
@@ -135,9 +84,7 @@ const SRSStoryList = () => {
                 </div>
             </div>
 
-            {loading && <p>Loading stories...</p>}
-
-            {!loading && filtered.length === 0 && (
+            {filtered.length === 0 && (
                 <p className="srs-empty">No stories match these filters.</p>
             )}
 

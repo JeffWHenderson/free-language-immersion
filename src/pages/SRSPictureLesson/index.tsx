@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { useParams, useNavigate, useLoaderData } from "react-router-dom";
 import useLanguage from "../../hooks/useLanguage";
 import { useLanguageApp } from "../../LanguageAppContext";
 import "./picture-lesson.css";
@@ -25,15 +25,8 @@ const SRSPictureLesson = () => {
     const navigate = useNavigate();
     const { targetVoice } = useLanguage({ targetLanguage: language as string });
     const { volume } = useLanguageApp();
-    const [lesson, setLesson] = useState<LessonData | null>(null);
+    const lesson = useLoaderData() as LessonData;
     const [activeIndex, setActiveIndex] = useState(0);
-
-    useEffect(() => {
-        fetch(`/languages/${language}/pictureLessons/${section}.json`)
-            .then(res => res.json())
-            .then(data => setLesson(data))
-            .catch(err => console.error(err));
-    }, [language, section]);
 
     const total = lesson?.dots.length ?? 0;
     const current = lesson?.dots[activeIndex];
@@ -50,10 +43,6 @@ const SRSPictureLesson = () => {
         utt.volume = volume;
         window.speechSynthesis.speak(utt);
     };
-
-    if (!lesson) {
-        return <div className="picture-lesson-page"><p>Loading...</p></div>;
-    }
 
     return (
         <div className="picture-lesson-page">
