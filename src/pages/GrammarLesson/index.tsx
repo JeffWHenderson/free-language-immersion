@@ -33,7 +33,7 @@ const GrammarLesson = () => {
 
     return (
         <div className="srs-container">
-            <button className="srs-page-back" onClick={() => window.history.back()}>← Back</button>
+            <button className="srs-page-back" onClick={() => navigate(`/${language}/${deckId}/grammar`)}>← Back</button>
 
             {lessonName && (
                 <div className="srs-home-header">
@@ -52,17 +52,6 @@ const GrammarLesson = () => {
 
             {!html && !error && <p>Loading...</p>}
 
-            {html && (
-                <div className="grammar-review-cta">
-                    <p>Ready to practice with themed flashcards?</p>
-                    <button
-                        className="srs-btn-primary"
-                        onClick={() => navigate(`/${language}/${deckId}/grammar/${grammarId}/review`)}
-                    >
-                        Study Grammar Cards →
-                    </button>
-                </div>
-            )}
         </div>
     );
 };

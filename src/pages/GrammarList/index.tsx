@@ -29,7 +29,7 @@ const GrammarList = () => {
 
     return (
         <div className="srs-container">
-            <button className="srs-page-back" onClick={() => navigate(-1)}>← Back</button>
+            <button className="srs-page-back" onClick={() => navigate(`/${language}`)}>← Back</button>
 
             <div className="srs-home-header">
                 <h2>Grammar</h2>

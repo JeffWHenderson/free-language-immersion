@@ -27,7 +27,7 @@ createRoot(document.getElementById('root')!).render(
             <Route path="/" element={<LanguageAppLayout />} >
               <Route index element={<LanguageAppHome />} />
               <Route path=":language" element={<LanguageLearningApp />} />
-              <Route path=":language/picture-review/:section" element={<SRSPictureLesson />} />
+              <Route path=":language/picture-review/:deckId/:section" element={<SRSPictureLesson />} />
               <Route path=":language/stories" element={<SRSStoryList />} />
               <Route path=":language/pictures" element={<SRSPictureList />} />
               <Route path=":language/" element={<SRSHome />} />

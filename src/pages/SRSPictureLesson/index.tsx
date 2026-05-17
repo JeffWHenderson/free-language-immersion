@@ -21,7 +21,7 @@ interface LessonData {
 }
 
 const SRSPictureLesson = () => {
-    const { language, section } = useParams();
+    const { language, deckId, section } = useParams();
     const navigate = useNavigate();
     const { targetVoice } = useLanguage({ targetLanguage: language as string });
     const { volume } = useLanguageApp();
@@ -29,7 +29,7 @@ const SRSPictureLesson = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
-        fetch(`/languages/${language}/picture_lessons/${section}.json`)
+        fetch(`/languages/${language}/${deckId}/picture_lessons/${section}.json`)
             .then(res => res.json())
             .then(data => setLesson(data))
             .catch(err => console.error(err));

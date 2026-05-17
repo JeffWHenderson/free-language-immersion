@@ -49,7 +49,7 @@ const SRSPictureList = () => {
 
             const pictureFetches = validDecks.flatMap((deck) =>
                 (deck.pictureLessons ?? []).map((lessonId) =>
-                    fetch(`/languages/${language}/picture_lessons/${lessonId}.json`)
+                    fetch(`/languages/${language}/${deck.id}/picture_lessons/${lessonId}.json`)
                         .then((r) => r.json())
                         .then((p) => ({
                             id: lessonId,
@@ -119,7 +119,7 @@ const SRSPictureList = () => {
                     <button
                         key={`${picture.deckId}-${picture.id}`}
                         className="srs-picture-card"
-                        onClick={() => navigate(`/${language}/picture-review/${picture.id}`)}
+                        onClick={() => navigate(`/${language}/picture-review/${picture.deckId}/${picture.id}`)}
                     >
                         <div className="srs-picture-thumb">
                             <img src={picture.image} alt={picture.name} />
