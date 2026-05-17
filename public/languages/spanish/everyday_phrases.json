@@ -17,1554 +17,796 @@
     {
       "id": "hello",
       "levels": [
-        {
-          "front": "Hello",
-          "back": "hola"
-        },
-        {
-          "front": "Hello! How are you?",
-          "back": "¡Hola! ¿Cómo estás?",
-          "literal": "Hello! How are [you]?"
-        }
+        {"front": "Hello", "back": "hola"},
+        {"front": "Hello! How are you?", "back": "¡Hola! ¿Cómo estás?", "literal": "Hello! How are [you]?"}
       ]
     },
     {
       "id": "please",
       "levels": [
-        {
-          "front": "Please",
-          "back": "por favor"
-        },
-        {
-          "front": "A coffee, please.",
-          "back": "Un café, por favor."
-        }
+        {"front": "Please", "back": "por favor"},
+        {"front": "A coffee, please.", "back": "Un café, por favor."}
       ]
     },
     {
       "id": "thank_you",
       "levels": [
-        {
-          "front": "Thank you",
-          "back": "gracias"
-        },
-        {
-          "front": "Thank you very much.",
-          "back": "Muchas gracias.",
-          "literal": "Many thanks."
-        }
+        {"front": "Thank you", "back": "gracias"},
+        {"front": "Thank you very much.", "back": "Muchas gracias.", "literal": "Many thanks."}
       ]
     },
     {
       "id": "i_want",
       "levels": [
-        {
-          "front": "I want",
-          "back": "quiero",
-          "grammarNote": "querer stem-changes e→ie: yo quiero, tú quieres, él quiere."
-        },
-        {
-          "front": "I want a coffee.",
-          "back": "Quiero un café.",
-          "literal": "[I] want a coffee."
-        }
+        {"front": "I want", "back": "quiero", "grammarNote": "querer stem-changes e→ie: yo quiero, tú quieres, él quiere."},
+        {"front": "I want a coffee.", "back": "Quiero un café.", "literal": "[I] want a coffee."}
       ]
     },
     {
       "id": "i_need",
       "levels": [
-        {
-          "front": "I need",
-          "back": "necesito"
-        },
-        {
-          "front": "I need help.",
-          "back": "Necesito ayuda.",
-          "literal": "[I] need help."
-        }
+        {"front": "I need", "back": "necesito"},
+        {"front": "I need help.", "back": "Necesito ayuda.", "literal": "[I] need help."}
       ]
     },
     {
       "id": "my_name_is",
       "levels": [
-        {
-          "front": "My name is",
-          "back": "me llamo",
-          "grammarNote": "Me llamo literally means 'I call myself' — it uses the reflexive verb llamarse. More natural in conversation than 'mi nombre es'."
-        },
-        {
-          "front": "My name is Ana.",
-          "back": "Me llamo Ana.",
-          "literal": "[I] myself-call Ana."
-        }
+        {"front": "My name is", "back": "me llamo", "grammarNote": "Me llamo literally means 'I call myself' — it uses the reflexive verb llamarse. More natural in conversation than 'mi nombre es'."},
+        {"front": "My name is Ana.", "back": "Me llamo Ana.", "literal": "[I] myself-call Ana."}
       ]
     },
     {
       "id": "i",
       "levels": [
-        {
-          "front": "I",
-          "back": "yo",
-          "grammarNote": "Subject pronouns are often dropped in Spanish because verb endings show who the subject is. 'Soy estudiante' and 'Yo soy estudiante' are both correct — use yo for emphasis."
-        },
-        {
-          "front": "I am a student.",
-          "back": "Yo soy estudiante.",
-          "literal": "I am student."
-        }
+        {"front": "I", "back": "yo", "grammarNote": "Subject pronouns are often dropped in Spanish because verb endings show who the subject is. 'Soy estudiante' and 'Yo soy estudiante' are both correct — use yo for emphasis."},
+        {"front": "I am a student.", "back": "Yo soy estudiante.", "literal": "I am student."}
       ]
     },
     {
       "id": "you",
       "levels": [
-        {
-          "front": "You",
-          "back": "tú",
-          "grammarNote": "Spanish has two 'you': tú (informal, one person) and usted (formal). With friends use tú. With strangers, elders, or in formal settings use usted, which takes the same verb form as él/ella."
-        },
-        {
-          "front": "Do you speak Spanish?",
-          "back": "¿Tú hablas español?",
-          "literal": "You speak Spanish?"
-        }
+        {"front": "You", "back": "tú", "grammarNote": "Spanish has two 'you': tú (informal, one person) and usted (formal). With friends use tú. With strangers, elders, or in formal settings use usted, which takes the same verb form as él/ella."},
+        {"front": "Do you speak Spanish?", "back": "¿Tú hablas español?", "literal": "You speak Spanish?"}
       ]
     },
     {
       "id": "he",
       "hidden": true,
       "levels": [
-        {
-          "front": "He",
-          "back": "él"
-        },
-        {
-          "front": "He is my friend.",
-          "back": "Él es mi amigo."
-        }
+        {"front": "He", "back": "él"},
+        {"front": "He is my friend.", "back": "Él es mi amigo."}
       ]
     },
     {
       "id": "she",
       "hidden": true,
       "levels": [
-        {
-          "front": "She",
-          "back": "ella"
-        },
-        {
-          "front": "She works here.",
-          "back": "Ella trabaja aquí."
-        }
+        {"front": "She", "back": "ella"},
+        {"front": "She works here.", "back": "Ella trabaja aquí."}
       ]
     },
     {
       "id": "it",
       "hidden": true,
       "levels": [
-        {
-          "front": "It",
-          "back": "ello / lo",
-          "grammarNote": "Spanish usually drops 'it' entirely — verb endings and context carry the meaning. 'Es bueno' (it is good), 'Está aquí' (it is here). ello/lo exist but are rarely used in speech."
-        },
-        {
-          "front": "It's over there.",
-          "back": "Está allá.",
-          "literal": "[It] is there."
-        }
+        {"front": "It", "back": "ello / lo", "grammarNote": "Spanish usually drops 'it' entirely — verb endings and context carry the meaning. 'Es bueno' (it is good), 'Está aquí' (it is here). ello/lo exist but are rarely used in speech."},
+        {"front": "It's over there.", "back": "Está allá.", "literal": "[It] is there."}
       ]
     },
     {
       "id": "we",
       "hidden": true,
       "levels": [
-        {
-          "front": "We",
-          "back": "nosotros"
-        },
-        {
-          "front": "We live here.",
-          "back": "Nosotros vivimos aquí."
-        }
+        {"front": "We", "back": "nosotros"},
+        {"front": "We live here.", "back": "Nosotros vivimos aquí."}
       ]
     },
     {
       "id": "they",
       "hidden": true,
       "levels": [
-        {
-          "front": "They",
-          "back": "ellos / ellas"
-        },
-        {
-          "front": "They eat together.",
-          "back": "Ellos comen juntos."
-        }
+        {"front": "They", "back": "ellos / ellas"},
+        {"front": "They eat together.", "back": "Ellos comen juntos."}
       ]
     },
     {
       "id": "this",
       "hidden": true,
       "levels": [
-        {
-          "front": "This",
-          "back": "este / esta",
-          "grammarNote": "este (masc.) / esta (fem.) for 'this'. Neutral form: esto for unknown or abstract things — '¿Qué es esto?' (What is this?)."
-        },
-        {
-          "front": "This book is good.",
-          "back": "Este libro es bueno."
-        }
+        {"front": "This", "back": "este / esta", "grammarNote": "este (masc.) / esta (fem.) for 'this'. Neutral form: esto for unknown or abstract things — '¿Qué es esto?' (What is this?)."},
+        {"front": "This book is good.", "back": "Este libro es bueno."}
       ]
     },
     {
       "id": "that",
       "hidden": true,
       "levels": [
-        {
-          "front": "That",
-          "back": "ese / esa"
-        },
-        {
-          "front": "That person is my friend.",
-          "back": "Esa persona es mi amiga."
-        }
+        {"front": "That", "back": "ese / esa"},
+        {"front": "That person is my friend.", "back": "Esa persona es mi amiga."}
       ]
     },
     {
       "id": "my",
       "hidden": true,
       "levels": [
-        {
-          "front": "My",
-          "back": "mi"
-        },
-        {
-          "front": "My name is Carlos.",
-          "back": "Mi nombre es Carlos."
-        }
+        {"front": "My", "back": "mi"},
+        {"front": "My name is Carlos.", "back": "Mi nombre es Carlos."}
       ]
     },
     {
       "id": "who",
       "hidden": true,
       "levels": [
-        {
-          "front": "Who",
-          "back": "quién"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "¿Quién es esa persona?"
-        }
+        {"front": "Who", "back": "quién"},
+        {"front": "Who is that person?", "back": "¿Quién es esa persona?"}
       ]
     },
     {
       "id": "what",
       "levels": [
-        {
-          "front": "What",
-          "back": "qué"
-        },
-        {
-          "front": "What do you want?",
-          "back": "¿Qué quieres?",
-          "literal": "What want [you]?"
-        }
+        {"front": "What", "back": "qué"},
+        {"front": "What do you want?", "back": "¿Qué quieres?", "literal": "What want [you]?"}
       ]
     },
     {
       "id": "when",
       "hidden": true,
       "levels": [
-        {
-          "front": "When",
-          "back": "cuándo"
-        },
-        {
-          "front": "When do you arrive?",
-          "back": "¿Cuándo llegas?",
-          "literal": "When arrive [you]?"
-        }
+        {"front": "When", "back": "cuándo"},
+        {"front": "When do you arrive?", "back": "¿Cuándo llegas?", "literal": "When arrive [you]?"}
       ]
     },
     {
       "id": "where",
       "levels": [
-        {
-          "front": "Where",
-          "back": "dónde"
-        },
-        {
-          "front": "Where is the bathroom?",
-          "back": "¿Dónde está el baño?"
-        }
+        {"front": "Where", "back": "dónde"},
+        {"front": "Where is the bathroom?", "back": "¿Dónde está el baño?"}
       ]
     },
     {
       "id": "why",
       "hidden": true,
       "levels": [
-        {
-          "front": "Why",
-          "back": "por qué",
-          "grammarNote": "por qué (two words, accents) = why? / porque (one word, no accent) = because. ¿Por qué no vienes? — Porque estoy cansado."
-        },
-        {
-          "front": "Why can't you come?",
-          "back": "¿Por qué no puedes venir?",
-          "literal": "Why not can [you] come?"
-        }
+        {"front": "Why", "back": "por qué", "grammarNote": "por qué (two words, accents) = why? / porque (one word, no accent) = because. ¿Por qué no vienes? — Porque estoy cansado."},
+        {"front": "Why can't you come?", "back": "¿Por qué no puedes venir?", "literal": "Why not can [you] come?"}
       ]
     },
     {
       "id": "how",
       "levels": [
-        {
-          "front": "How",
-          "back": "cómo"
-        },
-        {
-          "front": "How are you?",
-          "back": "¿Cómo estás?",
-          "literal": "How are [you]?"
-        }
+        {"front": "How", "back": "cómo"},
+        {"front": "How are you?", "back": "¿Cómo estás?", "literal": "How are [you]?"}
       ]
     },
     {
       "id": "good_morning",
       "levels": [
-        {
-          "front": "Good morning",
-          "back": "buenos días",
-          "grammarNote": "Spanish greetings by time: buenos días (morning), buenas tardes (afternoon/evening), buenas noches (night). Casually, just buenas works at any hour."
-        },
-        {
-          "front": "Good morning! How did you sleep?",
-          "back": "¡Buenos días! ¿Cómo dormiste?",
-          "literal": "Good days! How slept [you]?"
-        }
+        {"front": "Good morning", "back": "buenos días", "grammarNote": "Spanish greetings by time: buenos días (morning), buenas tardes (afternoon/evening), buenas noches (night). Casually, just buenas works at any hour."},
+        {"front": "Good morning! How did you sleep?", "back": "¡Buenos días! ¿Cómo dormiste?", "literal": "Good days! How slept [you]?"}
       ]
     },
     {
       "id": "to_look_for",
       "hidden": true,
       "levels": [
-        {
-          "front": "To look for",
-          "back": "buscar"
-        },
-        {
-          "front": "I'm looking for the exit.",
-          "back": "Busco la salida.",
-          "literal": "[I] search the exit."
-        }
+        {"front": "To look for", "back": "buscar"},
+        {"front": "I'm looking for the exit.", "back": "Busco la salida.", "literal": "[I] search the exit."}
       ]
     },
     {
       "id": "excuse_me",
       "levels": [
-        {
-          "front": "Excuse me",
-          "back": "perdón / con permiso",
-          "grammarNote": "perdón = excuse me (apology or getting attention). con permiso = excuse me (when passing someone or leaving). disculpe is also common for getting a stranger's attention."
-        },
-        {
-          "front": "Excuse me, where is the main street?",
-          "back": "Perdón, ¿dónde está la calle principal?",
-          "literal": "Excuse-me, where is the street main?"
-        }
+        {"front": "Excuse me", "back": "perdón / con permiso", "grammarNote": "perdón = excuse me (apology or getting attention). con permiso = excuse me (when passing someone or leaving). disculpe is also common for getting a stranger's attention."},
+        {"front": "Excuse me, where is the main street?", "back": "Perdón, ¿dónde está la calle principal?", "literal": "Excuse-me, where is the street main?"}
       ]
     },
     {
       "id": "to_be_able_to_can",
       "levels": [
-        {
-          "front": "To be able to / can",
-          "back": "poder",
-          "grammarNote": "poder stem-changes o→ue: yo puedo, tú puedes, él puede."
-        },
-        {
-          "front": "Can you help me?",
-          "back": "¿Puedes ayudarme?",
-          "literal": "Can [you] help-me?"
-        }
+        {"front": "To be able to / can", "back": "poder", "grammarNote": "poder stem-changes o→ue: yo puedo, tú puedes, él puede."},
+        {"front": "Can you help me?", "back": "¿Puedes ayudarme?", "literal": "Can [you] help-me?"}
       ]
     },
     {
       "id": "i_dont_know",
       "levels": [
-        {
-          "front": "I don't know",
-          "back": "no sé"
-        },
-        {
-          "front": "I don't know where it is.",
-          "back": "No sé dónde está.",
-          "literal": "[I] not know where [it] is."
-        }
+        {"front": "I don't know", "back": "no sé"},
+        {"front": "I don't know where it is.", "back": "No sé dónde está.", "literal": "[I] not know where [it] is."}
       ]
     },
     {
       "id": "to_have",
       "levels": [
-        {
-          "front": "To have",
-          "back": "tener",
-          "grammarNote": "tener is irregular in yo: tengo. Also used for physical states: tener hambre (to be hungry), tener sed (to be thirsty), tener frío/calor (to be cold/hot)."
-        },
-        {
-          "front": "I'm hungry. Do you have water?",
-          "back": "Tengo hambre. ¿Tienes agua?",
-          "literal": "[I] have hunger. Have [you] water?"
-        }
+        {"front": "To have", "back": "tener", "grammarNote": "tener is irregular in yo: tengo. Also used for physical states: tener hambre (to be hungry), tener sed (to be thirsty), tener frío/calor (to be cold/hot)."},
+        {"front": "I'm hungry. Do you have water?", "back": "Tengo hambre. ¿Tienes agua?", "literal": "[I] have hunger. Have [you] water?"}
       ]
     },
     {
       "id": "to_do_make",
       "levels": [
-        {
-          "front": "To do / make",
-          "back": "hacer",
-          "grammarNote": "hacer is irregular in yo: hago. Used in weather: 'Hace calor' (It's hot), 'Hace frío' (It's cold)."
-        },
-        {
-          "front": "What are you doing?",
-          "back": "¿Qué haces?",
-          "literal": "What do [you]?"
-        }
+        {"front": "To do / make", "back": "hacer", "grammarNote": "hacer is irregular in yo: hago. Used in weather: 'Hace calor' (It's hot), 'Hace frío' (It's cold)."},
+        {"front": "What are you doing?", "back": "¿Qué haces?", "literal": "What do [you]?"}
       ]
     },
     {
       "id": "to_eat",
       "levels": [
-        {
-          "front": "To eat",
-          "back": "comer"
-        },
-        {
-          "front": "Where are we eating?",
-          "back": "¿Dónde comemos?",
-          "literal": "Where eat [we]?"
-        }
+        {"front": "To eat", "back": "comer"},
+        {"front": "Where are we eating?", "back": "¿Dónde comemos?", "literal": "Where eat [we]?"}
       ]
     },
     {
       "id": "to_like",
       "levels": [
-        {
-          "front": "To like",
-          "back": "gustar",
-          "grammarNote": "gustar works in reverse: the thing liked is the grammatical subject. 'Me gusta el café' = coffee pleases me = I like coffee. Singular: me gusta. Plural: me gustan ('Me gustan los libros')."
-        },
-        {
-          "front": "I like coffee.",
-          "back": "Me gusta el café.",
-          "literal": "To-me pleases the coffee."
-        }
+        {"front": "To like", "back": "gustar", "grammarNote": "gustar works in reverse: the thing liked is the grammatical subject. 'Me gusta el café' = coffee pleases me = I like coffee. Singular: me gusta. Plural: me gustan ('Me gustan los libros')."},
+        {"front": "I like coffee.", "back": "Me gusta el café.", "literal": "To-me pleases the coffee."}
       ]
     },
     {
       "id": "but",
       "levels": [
-        {
-          "front": "But",
-          "back": "pero"
-        },
-        {
-          "front": "I want to go, but I can't.",
-          "back": "Quiero ir, pero no puedo.",
-          "literal": "[I] want to-go, but not [I] can."
-        }
+        {"front": "But", "back": "pero"},
+        {"front": "I want to go, but I can't.", "back": "Quiero ir, pero no puedo.", "literal": "[I] want to-go, but not [I] can."}
       ]
     },
     {
       "id": "and",
       "levels": [
-        {
-          "front": "And",
-          "back": "y",
-          "grammarNote": "y changes to e before words starting with i or hi: 'madre e hija' (mother and daughter). o changes to u before o or ho: 'siete u ocho' (seven or eight)."
-        },
-        {
-          "front": "Water and food.",
-          "back": "Agua y comida."
-        }
+        {"front": "And", "back": "y", "grammarNote": "y changes to e before words starting with i or hi: 'madre e hija' (mother and daughter). o changes to u before o or ho: 'siete u ocho' (seven or eight)."},
+        {"front": "Water and food.", "back": "Agua y comida."}
       ]
     },
     {
       "id": "or",
       "levels": [
-        {
-          "front": "Or",
-          "back": "o"
-        },
-        {
-          "front": "Tea or coffee?",
-          "back": "¿Té o café?"
-        }
+        {"front": "Or", "back": "o"},
+        {"front": "Tea or coffee?", "back": "¿Té o café?"}
       ]
     },
     {
       "id": "hungry",
       "levels": [
-        {
-          "front": "Hungry",
-          "back": "tengo hambre",
-          "grammarNote": "Spanish uses tener (to have) for hunger, thirst, and temperature: tengo hambre (I'm hungry), tengo sed (I'm thirsty), tengo frío/calor (I'm cold/hot). These are 'having' a feeling, not 'being' one."
-        },
-        {
-          "front": "I'm very hungry.",
-          "back": "Tengo mucha hambre.",
-          "literal": "[I] have much hunger."
-        }
+        {"front": "Hungry", "back": "tengo hambre", "grammarNote": "Spanish uses tener (to have) for hunger, thirst, and temperature: tengo hambre (I'm hungry), tengo sed (I'm thirsty), tengo frío/calor (I'm cold/hot). These are 'having' a feeling, not 'being' one."},
+        {"front": "I'm very hungry.", "back": "Tengo mucha hambre.", "literal": "[I] have much hunger."}
       ]
     },
     {
       "id": "thirsty",
       "levels": [
-        {
-          "front": "Thirsty",
-          "back": "tengo sed"
-        },
-        {
-          "front": "I'm very thirsty.",
-          "back": "Tengo mucha sed.",
-          "literal": "[I] have much thirst."
-        }
+        {"front": "Thirsty", "back": "tengo sed"},
+        {"front": "I'm very thirsty.", "back": "Tengo mucha sed.", "literal": "[I] have much thirst."}
       ]
     },
     {
       "id": "person",
       "hidden": true,
       "levels": [
-        {
-          "front": "Person",
-          "back": "persona"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "¿Quién es esa persona?"
-        }
+        {"front": "Person", "back": "persona"},
+        {"front": "Who is that person?", "back": "¿Quién es esa persona?"}
       ]
     },
     {
       "id": "place",
       "hidden": true,
       "levels": [
-        {
-          "front": "Place",
-          "back": "lugar"
-        },
-        {
-          "front": "Do you know a good place?",
-          "back": "¿Conoces un buen lugar?",
-          "literal": "Know [you] a good place?"
-        }
+        {"front": "Place", "back": "lugar"},
+        {"front": "Do you know a good place?", "back": "¿Conoces un buen lugar?", "literal": "Know [you] a good place?"}
       ]
     },
     {
       "id": "thing",
       "hidden": true,
       "levels": [
-        {
-          "front": "Thing",
-          "back": "cosa"
-        },
-        {
-          "front": "What is that thing?",
-          "back": "¿Qué es esa cosa?"
-        }
+        {"front": "Thing", "back": "cosa"},
+        {"front": "What is that thing?", "back": "¿Qué es esa cosa?"}
       ]
     },
     {
       "id": "here",
       "levels": [
-        {
-          "front": "Here",
-          "back": "aquí"
-        },
-        {
-          "front": "Come here!",
-          "back": "¡Ven aquí!"
-        }
+        {"front": "Here", "back": "aquí"},
+        {"front": "Come here!", "back": "¡Ven aquí!"}
       ]
     },
     {
       "id": "there",
       "levels": [
-        {
-          "front": "There",
-          "back": "allí / allá"
-        },
-        {
-          "front": "The bathroom is over there.",
-          "back": "El baño está allá.",
-          "literal": "The bathroom is there."
-        }
+        {"front": "There", "back": "allí / allá"},
+        {"front": "The bathroom is over there.", "back": "El baño está allá.", "literal": "The bathroom is there."}
       ]
     },
     {
       "id": "very",
       "levels": [
-        {
-          "front": "Very",
-          "back": "muy"
-        },
-        {
-          "front": "It's very good.",
-          "back": "Está muy bien.",
-          "literal": "[It] is very well."
-        }
+        {"front": "Very", "back": "muy"},
+        {"front": "It's very good.", "back": "Está muy bien.", "literal": "[It] is very well."}
       ]
     },
     {
       "id": "goodbye",
       "levels": [
-        {
-          "front": "Goodbye",
-          "back": "adiós / hasta luego"
-        },
-        {
-          "front": "Goodbye! See you tomorrow.",
-          "back": "¡Adiós! Hasta mañana.",
-          "literal": "Goodbye! Until tomorrow."
-        }
+        {"front": "Goodbye", "back": "adiós / hasta luego"},
+        {"front": "Goodbye! See you tomorrow.", "back": "¡Adiós! Hasta mañana.", "literal": "Goodbye! Until tomorrow."}
       ]
     },
     {
       "id": "water",
       "levels": [
-        {
-          "front": "Water",
-          "back": "agua",
-          "grammarNote": "agua is feminine but uses 'el' in singular because it begins with a stressed 'a'. Adjectives still agree feminine: 'el agua fría'. Plural: las aguas."
-        },
-        {
-          "front": "A glass of water, please.",
-          "back": "Un vaso de agua, por favor."
-        }
+        {"front": "Water", "back": "agua", "grammarNote": "agua is feminine but uses 'el' in singular because it begins with a stressed 'a'. Adjectives still agree feminine: 'el agua fría'. Plural: las aguas."},
+        {"front": "A glass of water, please.", "back": "Un vaso de agua, por favor."}
       ]
     },
     {
       "id": "food",
       "levels": [
-        {
-          "front": "Food",
-          "back": "comida",
-          "grammarNote": "Use estar (not ser) with food adjectives: 'La comida está deliciosa' (the food is [right now] delicious). ser would imply a permanent quality, which sounds odd for food."
-        },
-        {
-          "front": "The food is delicious.",
-          "back": "La comida está deliciosa."
-        }
+        {"front": "Food", "back": "comida", "grammarNote": "Use estar (not ser) with food adjectives: 'La comida está deliciosa' (the food is [right now] delicious). ser would imply a permanent quality, which sounds odd for food."},
+        {"front": "The food is delicious.", "back": "La comida está deliciosa."}
       ]
     },
     {
       "id": "house_home",
       "levels": [
-        {
-          "front": "House / home",
-          "back": "casa"
-        },
-        {
-          "front": "My house is nearby.",
-          "back": "Mi casa está cerca."
-        }
+        {"front": "House / home", "back": "casa"},
+        {"front": "My house is nearby.", "back": "Mi casa está cerca."}
       ]
     },
     {
       "id": "store_shop",
       "hidden": true,
       "levels": [
-        {
-          "front": "Store / shop",
-          "back": "tienda"
-        },
-        {
-          "front": "The store is closed.",
-          "back": "La tienda está cerrada."
-        }
+        {"front": "Store / shop", "back": "tienda"},
+        {"front": "The store is closed.", "back": "La tienda está cerrada."}
       ]
     },
     {
       "id": "cash_credit_card",
       "hidden": true,
       "levels": [
-        {
-          "front": "Cash / credit card",
-          "back": "efectivo / tarjeta"
-        },
-        {
-          "front": "Cash or card?",
-          "back": "¿Efectivo o tarjeta?"
-        }
+        {"front": "Cash / credit card", "back": "efectivo / tarjeta"},
+        {"front": "Cash or card?", "back": "¿Efectivo o tarjeta?"}
       ]
     },
     {
       "id": "help",
       "levels": [
-        {
-          "front": "Help",
-          "back": "ayuda"
-        },
-        {
-          "front": "I need your help.",
-          "back": "Necesito tu ayuda.",
-          "literal": "[I] need your help."
-        }
+        {"front": "Help", "back": "ayuda"},
+        {"front": "I need your help.", "back": "Necesito tu ayuda.", "literal": "[I] need your help."}
       ]
     },
     {
       "id": "bathroom",
       "levels": [
-        {
-          "front": "Bathroom",
-          "back": "baño"
-        },
-        {
-          "front": "Where is the bathroom?",
-          "back": "¿Dónde está el baño?"
-        }
+        {"front": "Bathroom", "back": "baño"},
+        {"front": "Where is the bathroom?", "back": "¿Dónde está el baño?"}
       ]
     },
     {
       "id": "always",
       "hidden": true,
       "levels": [
-        {
-          "front": "Always",
-          "back": "siempre"
-        },
-        {
-          "front": "I always drink coffee in the morning.",
-          "back": "Siempre tomo café por la mañana.",
-          "literal": "[I] always drink coffee in the morning."
-        }
+        {"front": "Always", "back": "siempre"},
+        {"front": "I always drink coffee in the morning.", "back": "Siempre tomo café por la mañana.", "literal": "[I] always drink coffee in the morning."}
       ]
     },
     {
       "id": "never",
       "hidden": true,
       "levels": [
-        {
-          "front": "Never",
-          "back": "nunca",
-          "grammarNote": "nunca usually comes before the verb. If placed after, add no before the verb: 'no llego tarde nunca'. Unlike English, double negatives are grammatically correct in Spanish."
-        },
-        {
-          "front": "I never arrive late.",
-          "back": "Nunca llego tarde.",
-          "literal": "[I] never arrive late."
-        }
+        {"front": "Never", "back": "nunca", "grammarNote": "nunca usually comes before the verb. If placed after, add no before the verb: 'no llego tarde nunca'. Unlike English, double negatives are grammatically correct in Spanish."},
+        {"front": "I never arrive late.", "back": "Nunca llego tarde.", "literal": "[I] never arrive late."}
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {
-          "front": "To go",
-          "back": "ir",
-          "grammarNote": "ir a + infinitive = going to do something: 'voy a comer' (I'm going to eat). Also: a + el contracts to al — 'voy al mercado' (not 'a el mercado')."
-        },
-        {
-          "front": "I'm going to the store.",
-          "back": "Voy a la tienda.",
-          "literal": "[I] go to the store."
-        }
+        {"front": "To go", "back": "ir", "grammarNote": "ir a + infinitive = going to do something: 'voy a comer' (I'm going to eat). Also: a + el contracts to al — 'voy al mercado' (not 'a el mercado')."},
+        {"front": "I'm going to the store.", "back": "Voy a la tienda.", "literal": "[I] go to the store."}
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {
-          "front": "To come",
-          "back": "venir",
-          "grammarNote": "venir is irregular: yo vengo, tú vienes, él viene. 'Venir de' = to come from: '¿De dónde vienes?' (Where are you from?)."
-        },
-        {
-          "front": "Where are you coming from?",
-          "back": "¿De dónde vienes?",
-          "literal": "From where come [you]?"
-        }
+        {"front": "To come", "back": "venir", "grammarNote": "venir is irregular: yo vengo, tú vienes, él viene. 'Venir de' = to come from: '¿De dónde vienes?' (Where are you from?)."},
+        {"front": "Where are you coming from?", "back": "¿De dónde vienes?", "literal": "From where come [you]?"}
       ]
     },
     {
       "id": "to_understand",
       "levels": [
-        {
-          "front": "To understand",
-          "back": "entender",
-          "grammarNote": "entender stem-changes e→ie: entiendo, entiendes, entiende."
-        },
-        {
-          "front": "I don't understand.",
-          "back": "No entiendo.",
-          "literal": "[I] not understand."
-        }
+        {"front": "To understand", "back": "entender", "grammarNote": "entender stem-changes e→ie: entiendo, entiendes, entiende."},
+        {"front": "I don't understand.", "back": "No entiendo.", "literal": "[I] not understand."}
       ]
     },
     {
       "id": "to_speak_talk",
       "levels": [
-        {
-          "front": "To speak / talk",
-          "back": "hablar",
-          "grammarNote": "hablar is the model regular -ar verb: hablo, hablas, habla, hablamos, hablan. Most -ar verbs follow this pattern exactly."
-        },
-        {
-          "front": "Do you speak Spanish?",
-          "back": "¿Hablas español?",
-          "literal": "Speak [you] Spanish?"
-        }
+        {"front": "To speak / talk", "back": "hablar", "grammarNote": "hablar is the model regular -ar verb: hablo, hablas, habla, hablamos, hablan. Most -ar verbs follow this pattern exactly."},
+        {"front": "Do you speak Spanish?", "back": "¿Hablas español?", "literal": "Speak [you] Spanish?"}
       ]
     },
     {
       "id": "to_give",
       "hidden": true,
       "levels": [
-        {
-          "front": "To give",
-          "back": "dar",
-          "grammarNote": "dar is irregular in yo: doy. The command 'dame' (give me) is extremely common: 'Dame el menú' (Give me the menu)."
-        },
-        {
-          "front": "Give me the menu, please.",
-          "back": "Dame el menú, por favor.",
-          "literal": "Give-me the menu, please."
-        }
+        {"front": "To give", "back": "dar", "grammarNote": "dar is irregular in yo: doy. The command 'dame' (give me) is extremely common: 'Dame el menú' (Give me the menu)."},
+        {"front": "Give me the menu, please.", "back": "Dame el menú, por favor.", "literal": "Give-me the menu, please."}
       ]
     },
     {
       "id": "to_see",
       "hidden": true,
       "levels": [
-        {
-          "front": "To see",
-          "back": "ver",
-          "grammarNote": "ver is irregular in yo: veo. 'A ver' (let's see) is one of the most common filler expressions in Spanish."
-        },
-        {
-          "front": "I can't see anything.",
-          "back": "No puedo ver nada.",
-          "literal": "[I] not can see nothing."
-        }
+        {"front": "To see", "back": "ver", "grammarNote": "ver is irregular in yo: veo. 'A ver' (let's see) is one of the most common filler expressions in Spanish."},
+        {"front": "I can't see anything.", "back": "No puedo ver nada.", "literal": "[I] not can see nothing."}
       ]
     },
     {
       "id": "with",
       "levels": [
-        {
-          "front": "With",
-          "back": "con"
-        },
-        {
-          "front": "I came with my friend.",
-          "back": "Vine con mi amigo.",
-          "literal": "[I] came with my friend."
-        }
+        {"front": "With", "back": "con"},
+        {"front": "I came with my friend.", "back": "Vine con mi amigo.", "literal": "[I] came with my friend."}
       ]
     },
     {
       "id": "without",
       "levels": [
-        {
-          "front": "Without",
-          "back": "sin"
-        },
-        {
-          "front": "Coffee without sugar, please.",
-          "back": "Café sin azúcar, por favor."
-        }
+        {"front": "Without", "back": "sin"},
+        {"front": "Coffee without sugar, please.", "back": "Café sin azúcar, por favor."}
       ]
     },
     {
       "id": "for",
       "levels": [
-        {
-          "front": "For",
-          "back": "para / por",
-          "grammarNote": "para = purpose or destination: 'un regalo para ti' (a gift for you). por = cause, exchange, duration: 'gracias por tu ayuda' (thanks for your help), 'por dos horas' (for two hours)."
-        },
-        {
-          "front": "This is for you. Thanks for everything.",
-          "back": "Esto es para ti. Gracias por todo."
-        }
+        {"front": "For", "back": "para / por", "grammarNote": "para = purpose or destination: 'un regalo para ti' (a gift for you). por = cause, exchange, duration: 'gracias por tu ayuda' (thanks for your help), 'por dos horas' (for two hours)."},
+        {"front": "This is for you. Thanks for everything.", "back": "Esto es para ti. Gracias por todo."}
       ]
     },
     {
       "id": "in_on_at",
       "levels": [
-        {
-          "front": "In / on / at",
-          "back": "en"
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "El libro está en la mesa."
-        }
+        {"front": "In / on / at", "back": "en"},
+        {"front": "The book is on the table.", "back": "El libro está en la mesa."}
       ]
     },
     {
       "id": "from_of",
       "levels": [
-        {
-          "front": "From / of",
-          "back": "de",
-          "grammarNote": "de is one of the most common Spanish words. de + el = del (contraction required): 'el libro del maestro' (the teacher's book). Used for origin, possession, and material."
-        },
-        {
-          "front": "I'm from Mexico.",
-          "back": "Soy de México.",
-          "literal": "[I] am from Mexico."
-        }
+        {"front": "From / of", "back": "de", "grammarNote": "de is one of the most common Spanish words. de + el = del (contraction required): 'el libro del maestro' (the teacher's book). Used for origin, possession, and material."},
+        {"front": "I'm from Mexico.", "back": "Soy de México.", "literal": "[I] am from Mexico."}
       ]
     },
     {
       "id": "good",
       "levels": [
-        {
-          "front": "Good",
-          "back": "bueno / buena",
-          "grammarNote": "bueno shortens to buen before masculine nouns: 'un buen día' (a good day). 'Buenas' alone is a casual greeting at any time of day."
-        },
-        {
-          "front": "That's a good idea.",
-          "back": "Es una buena idea.",
-          "literal": "[It] is a good idea."
-        }
+        {"front": "Good", "back": "bueno / buena", "grammarNote": "bueno shortens to buen before masculine nouns: 'un buen día' (a good day). 'Buenas' alone is a casual greeting at any time of day."},
+        {"front": "That's a good idea.", "back": "Es una buena idea.", "literal": "[It] is a good idea."}
       ]
     },
     {
       "id": "bad",
       "levels": [
-        {
-          "front": "Bad",
-          "back": "malo / mala",
-          "grammarNote": "malo shortens to mal before masculine nouns: 'un mal día' (a bad day). Also used in 'estar mal' (to feel bad, to be wrong)."
-        },
-        {
-          "front": "That's bad news.",
-          "back": "Eso son malas noticias.",
-          "literal": "That are news bad."
-        }
+        {"front": "Bad", "back": "malo / mala", "grammarNote": "malo shortens to mal before masculine nouns: 'un mal día' (a bad day). Also used in 'estar mal' (to feel bad, to be wrong)."},
+        {"front": "That's bad news.", "back": "Eso son malas noticias.", "literal": "That are news bad."}
       ]
     },
     {
       "id": "big_large",
       "hidden": true,
       "levels": [
-        {
-          "front": "Big / large",
-          "back": "grande",
-          "grammarNote": "grande shortens to gran before any noun (masc. or fem.): 'un gran hombre' (a great man), 'una gran idea' (a great idea). Gran often implies greatness, not just size."
-        },
-        {
-          "front": "A big coffee, please.",
-          "back": "Un café grande, por favor.",
-          "literal": "A coffee large, please."
-        }
+        {"front": "Big / large", "back": "grande", "grammarNote": "grande shortens to gran before any noun (masc. or fem.): 'un gran hombre' (a great man), 'una gran idea' (a great idea). Gran often implies greatness, not just size."},
+        {"front": "A big coffee, please.", "back": "Un café grande, por favor.", "literal": "A coffee large, please."}
       ]
     },
     {
       "id": "small",
       "hidden": true,
       "levels": [
-        {
-          "front": "Small",
-          "back": "pequeño / pequeña"
-        },
-        {
-          "front": "A small table, please.",
-          "back": "Una mesa pequeña, por favor.",
-          "literal": "A table small, please."
-        }
+        {"front": "Small", "back": "pequeño / pequeña"},
+        {"front": "A small table, please.", "back": "Una mesa pequeña, por favor.", "literal": "A table small, please."}
       ]
     },
     {
       "id": "a_lot_much",
       "levels": [
-        {
-          "front": "A lot / much",
-          "back": "mucho / mucha"
-        },
-        {
-          "front": "I have a lot of work.",
-          "back": "Tengo mucho trabajo.",
-          "literal": "[I] have much work."
-        }
+        {"front": "A lot / much", "back": "mucho / mucha"},
+        {"front": "I have a lot of work.", "back": "Tengo mucho trabajo.", "literal": "[I] have much work."}
       ]
     },
     {
       "id": "a_little",
       "levels": [
-        {
-          "front": "A little",
-          "back": "un poco"
-        },
-        {
-          "front": "A little water, please.",
-          "back": "Un poco de agua, por favor.",
-          "literal": "A little of water, please."
-        }
+        {"front": "A little", "back": "un poco"},
+        {"front": "A little water, please.", "back": "Un poco de agua, por favor.", "literal": "A little of water, please."}
       ]
     },
     {
       "id": "how_do_you_say",
       "levels": [
-        {
-          "front": "How do you say ___?",
-          "back": "¿Cómo se dice ___?",
-          "grammarNote": "se dice uses the reflexive se + third-person — literally 'how does one say?' This impersonal se is everywhere in Spanish: 'se come bien aquí' (one eats well here / the food is good here)."
-        },
-        {
-          "front": "How do you say 'thank you' in Spanish?",
-          "back": "¿Cómo se dice 'thank you' en español?",
-          "literal": "How itself-says 'thank you' in Spanish?"
-        }
+        {"front": "How do you say ___?", "back": "¿Cómo se dice ___?", "grammarNote": "se dice uses the reflexive se + third-person — literally 'how does one say?' This impersonal se is everywhere in Spanish: 'se come bien aquí' (one eats well here / the food is good here)."},
+        {"front": "How do you say 'thank you' in Spanish?", "back": "¿Cómo se dice 'thank you' en español?", "literal": "How itself-says 'thank you' in Spanish?"}
       ]
     },
     {
       "id": "can_you_help_me",
       "levels": [
-        {
-          "front": "Can you help me?",
-          "back": "¿Puedes ayudarme?"
-        },
-        {
-          "front": "Excuse me, can you help me find the station?",
-          "back": "Perdón, ¿puedes ayudarme a encontrar la estación?",
-          "literal": "Excuse-me, can [you] help-me to find the station?"
-        }
+        {"front": "Can you help me?", "back": "¿Puedes ayudarme?"},
+        {"front": "Excuse me, can you help me find the station?", "back": "Perdón, ¿puedes ayudarme a encontrar la estación?", "literal": "Excuse-me, can [you] help-me to find the station?"}
       ]
     },
     {
       "id": "how_much_does_it_cost",
       "levels": [
-        {
-          "front": "How much does it cost?",
-          "back": "¿Cuánto cuesta?"
-        },
-        {
-          "front": "How much does this shirt cost?",
-          "back": "¿Cuánto cuesta esta camisa?",
-          "literal": "How-much costs this shirt?"
-        }
+        {"front": "How much does it cost?", "back": "¿Cuánto cuesta?"},
+        {"front": "How much does this shirt cost?", "back": "¿Cuánto cuesta esta camisa?", "literal": "How-much costs this shirt?"}
       ]
     },
     {
       "id": "im_sorry",
       "levels": [
-        {
-          "front": "I'm sorry",
-          "back": "lo siento",
-          "grammarNote": "lo siento (I feel it) = I'm sorry. For minor bumps or getting attention, use perdón. lo siento / lo siento mucho is for genuine apologies."
-        },
-        {
-          "front": "I'm very sorry.",
-          "back": "Lo siento mucho.",
-          "literal": "It [I]-feel much."
-        }
+        {"front": "I'm sorry", "back": "lo siento", "grammarNote": "lo siento (I feel it) = I'm sorry. For minor bumps or getting attention, use perdón. lo siento / lo siento mucho is for genuine apologies."},
+        {"front": "I'm very sorry.", "back": "Lo siento mucho.", "literal": "It [I]-feel much."}
       ]
     },
     {
       "id": "no_problem",
       "levels": [
-        {
-          "front": "No problem",
-          "back": "no hay problema"
-        },
-        {
-          "front": "No problem, don't worry.",
-          "back": "No hay problema, no te preocupes.",
-          "literal": "Not there-is problem, not yourself worry [you]."
-        }
+        {"front": "No problem", "back": "no hay problema"},
+        {"front": "No problem, don't worry.", "back": "No hay problema, no te preocupes.", "literal": "Not there-is problem, not yourself worry [you]."}
       ]
     },
     {
       "id": "to_be_permanent",
       "levels": [
-        {
-          "front": "To be (permanent)",
-          "back": "ser",
-          "grammarNote": "ser = permanent or defining traits: identity, origin, profession, material, time. 'Soy americano' (I'm American), 'Es médico' (He's a doctor), 'Son las tres' (It's three o'clock). When in doubt, ask: is this a permanent fact about the subject?"
-        },
-        {
-          "front": "I'm American and she's a doctor.",
-          "back": "Soy americano y ella es médica.",
-          "literal": "[I] am American and she is doctor."
-        }
+        {"front": "To be (permanent)", "back": "ser", "grammarNote": "ser = permanent or defining traits: identity, origin, profession, material, time. 'Soy americano' (I'm American), 'Es médico' (He's a doctor), 'Son las tres' (It's three o'clock). When in doubt, ask: is this a permanent fact about the subject?"},
+        {"front": "I'm American and she's a doctor.", "back": "Soy americano y ella es médica.", "literal": "[I] am American and she is doctor."}
       ]
     },
     {
       "id": "to_be_state_location",
       "levels": [
-        {
-          "front": "To be (state/location)",
-          "back": "estar",
-          "grammarNote": "estar = temporary states, emotions, location, and progressive tenses. 'Estoy cansado' (I'm tired), 'Está en casa' (She's at home), 'Estamos comiendo' (We're eating). Location always uses estar — even for permanent buildings."
-        },
-        {
-          "front": "I'm tired and I'm at home.",
-          "back": "Estoy cansado y estoy en casa.",
-          "literal": "[I] am tired and [I] am at home."
-        }
+        {"front": "To be (state/location)", "back": "estar", "grammarNote": "estar = temporary states, emotions, location, and progressive tenses. 'Estoy cansado' (I'm tired), 'Está en casa' (She's at home), 'Estamos comiendo' (We're eating). Location always uses estar — even for permanent buildings."},
+        {"front": "I'm tired and I'm at home.", "back": "Estoy cansado y estoy en casa.", "literal": "[I] am tired and [I] am at home."}
       ]
     },
     {
       "id": "to_know_facts",
       "hidden": true,
       "levels": [
-        {
-          "front": "To know (facts)",
-          "back": "saber",
-          "grammarNote": "saber = to know facts or how to do something: '¿Sabes nadar?' (Do you know how to swim?). Irregular yo: sé. Not to be confused with conocer, which means to know people or places."
-        },
-        {
-          "front": "Do you know what time it is?",
-          "back": "¿Sabes qué hora es?",
-          "literal": "Know [you] what hour is?"
-        }
+        {"front": "To know (facts)", "back": "saber", "grammarNote": "saber = to know facts or how to do something: '¿Sabes nadar?' (Do you know how to swim?). Irregular yo: sé. Not to be confused with conocer, which means to know people or places."},
+        {"front": "Do you know what time it is?", "back": "¿Sabes qué hora es?", "literal": "Know [you] what hour is?"}
       ]
     },
     {
       "id": "to_know_people_places",
       "hidden": true,
       "levels": [
-        {
-          "front": "To know (people/places)",
-          "back": "conocer",
-          "grammarNote": "conocer = to know or be familiar with people and places. '¿Conoces a María?' (Do you know María?). Notice the personal 'a' before people. Irregular yo: conozco."
-        },
-        {
-          "front": "Do you know a good restaurant here?",
-          "back": "¿Conoces un buen restaurante aquí?",
-          "literal": "Know [you] a good restaurant here?"
-        }
+        {"front": "To know (people/places)", "back": "conocer", "grammarNote": "conocer = to know or be familiar with people and places. '¿Conoces a María?' (Do you know María?). Notice the personal 'a' before people. Irregular yo: conozco."},
+        {"front": "Do you know a good restaurant here?", "back": "¿Conoces un buen restaurante aquí?", "literal": "Know [you] a good restaurant here?"}
       ]
     },
     {
       "id": "to_say_to_tell",
       "hidden": true,
       "levels": [
-        {
-          "front": "To say / to tell",
-          "back": "decir",
-          "grammarNote": "decir is irregular: digo, dices, dice. Command form: 'dime' (tell me). Appears constantly in '¿Cómo se dice...?' and 'quiero decir' (I mean)."
-        },
-        {
-          "front": "What did you say?",
-          "back": "¿Qué dijiste?",
-          "literal": "What said [you]?"
-        }
+        {"front": "To say / to tell", "back": "decir", "grammarNote": "decir is irregular: digo, dices, dice. Command form: 'dime' (tell me). Appears constantly in '¿Cómo se dice...?' and 'quiero decir' (I mean)."},
+        {"front": "What did you say?", "back": "¿Qué dijiste?", "literal": "What said [you]?"}
       ]
     },
     {
       "id": "to_think",
       "hidden": true,
       "levels": [
-        {
-          "front": "To think",
-          "back": "pensar",
-          "grammarNote": "pensar stem-changes e→ie: yo pienso, tú piensas. 'Pienso que' and 'creo que' both mean 'I think that' — creo is slightly more common in everyday speech."
-        },
-        {
-          "front": "What do you think?",
-          "back": "¿Qué piensas?",
-          "literal": "What think [you]?"
-        }
+        {"front": "To think", "back": "pensar", "grammarNote": "pensar stem-changes e→ie: yo pienso, tú piensas. 'Pienso que' and 'creo que' both mean 'I think that' — creo is slightly more common in everyday speech."},
+        {"front": "What do you think?", "back": "¿Qué piensas?", "literal": "What think [you]?"}
       ]
     },
     {
       "id": "to_wait_to_hope",
       "hidden": true,
       "levels": [
-        {
-          "front": "To wait / to hope",
-          "back": "esperar",
-          "grammarNote": "esperar means both 'to wait' and 'to hope'. 'Espera un momento' (wait a moment). 'Espero que sí' (I hope so). Context makes it clear which is meant."
-        },
-        {
-          "front": "Wait a moment, please.",
-          "back": "Espera un momento, por favor.",
-          "literal": "Wait a moment, please."
-        }
+        {"front": "To wait / to hope", "back": "esperar", "grammarNote": "esperar means both 'to wait' and 'to hope'. 'Espera un momento' (wait a moment). 'Espero que sí' (I hope so). Context makes it clear which is meant."},
+        {"front": "Wait a moment, please.", "back": "Espera un momento, por favor.", "literal": "Wait a moment, please."}
       ]
     },
     {
       "id": "to_look_at_to_watch",
       "hidden": true,
       "levels": [
-        {
-          "front": "To look at / to watch",
-          "back": "mirar"
-        },
-        {
-          "front": "Look at that!",
-          "back": "¡Mira eso!",
-          "literal": "Look-at that!"
-        }
+        {"front": "To look at / to watch", "back": "mirar"},
+        {"front": "Look at that!", "back": "¡Mira eso!", "literal": "Look-at that!"}
       ]
     },
     {
       "id": "to_leave_go_out",
       "hidden": true,
       "levels": [
-        {
-          "front": "To leave / go out",
-          "back": "salir",
-          "grammarNote": "salir is irregular in yo: salgo. 'Salir a' = to go out to: '¿Salimos a comer?' (Shall we go out to eat?). 'Salir de' = to leave from: 'Salgo del trabajo a las seis' (I leave work at six)."
-        },
-        {
-          "front": "At what time does the bus leave?",
-          "back": "¿A qué hora sale el autobús?",
-          "literal": "At what hour leaves the bus?"
-        }
+        {"front": "To leave / go out", "back": "salir", "grammarNote": "salir is irregular in yo: salgo. 'Salir a' = to go out to: '¿Salimos a comer?' (Shall we go out to eat?). 'Salir de' = to leave from: 'Salgo del trabajo a las seis' (I leave work at six)."},
+        {"front": "At what time does the bus leave?", "back": "¿A qué hora sale el autobús?", "literal": "At what hour leaves the bus?"}
       ]
     },
     {
       "id": "to_return_come_back",
       "hidden": true,
       "levels": [
-        {
-          "front": "To return / come back",
-          "back": "volver",
-          "grammarNote": "volver stem-changes o→ue: vuelvo, vuelves, vuelve. 'volver a + infinitive' = to do something again: 'vuelvo a intentarlo' (I'll try again)."
-        },
-        {
-          "front": "When are you coming back?",
-          "back": "¿Cuándo vuelves?",
-          "literal": "When return [you]?"
-        }
+        {"front": "To return / come back", "back": "volver", "grammarNote": "volver stem-changes o→ue: vuelvo, vuelves, vuelve. 'volver a + infinitive' = to do something again: 'vuelvo a intentarlo' (I'll try again)."},
+        {"front": "When are you coming back?", "back": "¿Cuándo vuelves?", "literal": "When return [you]?"}
       ]
     },
     {
       "id": "to_arrive",
       "hidden": true,
       "levels": [
-        {
-          "front": "To arrive",
-          "back": "llegar"
-        },
-        {
-          "front": "I arrive at eight.",
-          "back": "Llego a las ocho.",
-          "literal": "[I] arrive at the eight."
-        }
+        {"front": "To arrive", "back": "llegar"},
+        {"front": "I arrive at eight.", "back": "Llego a las ocho.", "literal": "[I] arrive at the eight."}
       ]
     },
     {
       "id": "today",
       "hidden": true,
       "levels": [
-        {
-          "front": "Today",
-          "back": "hoy"
-        },
-        {
-          "front": "What are we doing today?",
-          "back": "¿Qué hacemos hoy?",
-          "literal": "What do [we] today?"
-        }
+        {"front": "Today", "back": "hoy"},
+        {"front": "What are we doing today?", "back": "¿Qué hacemos hoy?", "literal": "What do [we] today?"}
       ]
     },
     {
       "id": "tomorrow_morning",
       "hidden": true,
       "levels": [
-        {
-          "front": "Tomorrow / morning",
-          "back": "mañana",
-          "grammarNote": "mañana has two meanings: tomorrow and morning. 'Hasta mañana' = see you tomorrow. 'Por la mañana' = in the morning. The article or context makes it clear: 'la mañana' = the morning, 'mañana' alone = tomorrow."
-        },
-        {
-          "front": "See you tomorrow morning!",
-          "back": "¡Hasta mañana por la mañana!",
-          "literal": "Until tomorrow in the morning!"
-        }
+        {"front": "Tomorrow / morning", "back": "mañana", "grammarNote": "mañana has two meanings: tomorrow and morning. 'Hasta mañana' = see you tomorrow. 'Por la mañana' = in the morning. The article or context makes it clear: 'la mañana' = the morning, 'mañana' alone = tomorrow."},
+        {"front": "See you tomorrow morning!", "back": "¡Hasta mañana por la mañana!", "literal": "Until tomorrow in the morning!"}
       ]
     },
     {
       "id": "now",
       "hidden": true,
       "levels": [
-        {
-          "front": "Now",
-          "back": "ahora"
-        },
-        {
-          "front": "Come here now!",
-          "back": "¡Ven aquí ahora!"
-        }
+        {"front": "Now", "back": "ahora"},
+        {"front": "Come here now!", "back": "¡Ven aquí ahora!"}
       ]
     },
     {
       "id": "later_then",
       "hidden": true,
       "levels": [
-        {
-          "front": "Later / then",
-          "back": "luego",
-          "grammarNote": "'Hasta luego' = goodbye (literally: until later). Luego can also mean 'then' in a sequence: 'Primero como, luego descanso' (First I eat, then I rest)."
-        },
-        {
-          "front": "See you later!",
-          "back": "¡Hasta luego!"
-        }
+        {"front": "Later / then", "back": "luego", "grammarNote": "'Hasta luego' = goodbye (literally: until later). Luego can also mean 'then' in a sequence: 'Primero como, luego descanso' (First I eat, then I rest)."},
+        {"front": "See you later!", "back": "¡Hasta luego!"}
       ]
     },
     {
       "id": "already_now",
       "hidden": true,
       "levels": [
-        {
-          "front": "Already / now",
-          "back": "ya",
-          "grammarNote": "ya is one of those high-frequency words with several meanings: 'ya terminé' (I already finished), '¡ya voy!' (coming! / I'm on my way!), 'ya no' (not anymore), '¡ya!' (okay!/got it!). You'll hear it constantly."
-        },
-        {
-          "front": "I already ate.",
-          "back": "Ya comí.",
-          "literal": "Already [I]-ate."
-        }
+        {"front": "Already / now", "back": "ya", "grammarNote": "ya is one of those high-frequency words with several meanings: 'ya terminé' (I already finished), '¡ya voy!' (coming! / I'm on my way!), 'ya no' (not anymore), '¡ya!' (okay!/got it!). You'll hear it constantly."},
+        {"front": "I already ate.", "back": "Ya comí.", "literal": "Already [I]-ate."}
       ]
     },
     {
       "id": "also_too",
       "hidden": true,
       "levels": [
-        {
-          "front": "Also / too",
-          "back": "también"
-        },
-        {
-          "front": "I want one too.",
-          "back": "Yo también quiero uno.",
-          "literal": "I also want one."
-        }
+        {"front": "Also / too", "back": "también"},
+        {"front": "I want one too.", "back": "Yo también quiero uno.", "literal": "I also want one."}
       ]
     },
     {
       "id": "because",
       "hidden": true,
       "levels": [
-        {
-          "front": "Because",
-          "back": "porque",
-          "grammarNote": "porque (one word, no accent) = because. por qué (two words, accent) = why? '¿Por qué no vienes?' — 'Porque estoy cansado.' An easy trick: the question form has the accent."
-        },
-        {
-          "front": "I can't come because I'm tired.",
-          "back": "No puedo venir porque estoy cansado.",
-          "literal": "[I] not can come because [I] am tired."
-        }
+        {"front": "Because", "back": "porque", "grammarNote": "porque (one word, no accent) = because. por qué (two words, accent) = why? '¿Por qué no vienes?' — 'Porque estoy cansado.' An easy trick: the question form has the accent."},
+        {"front": "I can't come because I'm tired.", "back": "No puedo venir porque estoy cansado.", "literal": "[I] not can come because [I] am tired."}
       ]
     },
     {
       "id": "maybe_perhaps",
       "hidden": true,
       "levels": [
-        {
-          "front": "Maybe / perhaps",
-          "back": "tal vez / quizás",
-          "grammarNote": "Both tal vez and quizás mean 'maybe'. They can trigger the subjunctive if the uncertainty is strong: 'Tal vez venga' (Maybe he'll come — subjunctive) vs 'Tal vez viene' (Maybe he's coming — indicative, more certain)."
-        },
-        {
-          "front": "Maybe tomorrow.",
-          "back": "Tal vez mañana."
-        }
+        {"front": "Maybe / perhaps", "back": "tal vez / quizás", "grammarNote": "Both tal vez and quizás mean 'maybe'. They can trigger the subjunctive if the uncertainty is strong: 'Tal vez venga' (Maybe he'll come — subjunctive) vs 'Tal vez viene' (Maybe he's coming — indicative, more certain)."},
+        {"front": "Maybe tomorrow.", "back": "Tal vez mañana."}
       ]
     },
     {
       "id": "of_course",
       "hidden": true,
       "levels": [
-        {
-          "front": "Of course!",
-          "back": "¡Claro!",
-          "grammarNote": "'¡Claro!' or '¡Claro que sí!' = Of course! '¡Claro que no!' = Of course not! Claro is also an adjective meaning 'clear' or 'light-colored'."
-        },
-        {
-          "front": "Of course, no problem!",
-          "back": "¡Claro, no hay problema!"
-        }
+        {"front": "Of course!", "back": "¡Claro!", "grammarNote": "'¡Claro!' or '¡Claro que sí!' = Of course! '¡Claro que no!' = Of course not! Claro is also an adjective meaning 'clear' or 'light-colored'."},
+        {"front": "Of course, no problem!", "back": "¡Claro, no hay problema!"}
       ]
     },
     {
       "id": "its_okay_thats_fine",
       "hidden": true,
       "levels": [
-        {
-          "front": "It's okay / that's fine",
-          "back": "está bien"
-        },
-        {
-          "front": "That's fine, don't worry.",
-          "back": "Está bien, no te preocupes.",
-          "literal": "It-is well, not yourself worry [you]."
-        }
+        {"front": "It's okay / that's fine", "back": "está bien"},
+        {"front": "That's fine, don't worry.", "back": "Está bien, no te preocupes.", "literal": "It-is well, not yourself worry [you]."}
       ]
     },
     {
       "id": "whats_up_hows_it_going",
       "hidden": true,
       "levels": [
-        {
-          "front": "What's up? / How's it going?",
-          "back": "¿Qué tal?",
-          "grammarNote": "'¿Qué tal?' is a casual greeting. Common responses: 'Bien', 'Todo bien', 'Más o menos' (so-so). It also asks about specific things: '¿Qué tal el café?' (How's the coffee?)."
-        },
-        {
-          "front": "Hey! How's it going?",
-          "back": "¡Oye! ¿Qué tal?"
-        }
+        {"front": "What's up? / How's it going?", "back": "¿Qué tal?", "grammarNote": "'¿Qué tal?' is a casual greeting. Common responses: 'Bien', 'Todo bien', 'Más o menos' (so-so). It also asks about specific things: '¿Qué tal el café?' (How's the coffee?)."},
+        {"front": "Hey! How's it going?", "back": "¡Oye! ¿Qué tal?"}
       ]
     },
     {
       "id": "lets_go",
       "hidden": true,
       "levels": [
-        {
-          "front": "Let's go!",
-          "back": "¡Vamos! / ¡Vámonos!",
-          "grammarNote": "'¡Vamos!' = Let's go! / Come on! '¡Vámonos!' = Let's get out of here! (more emphatic, reflexive). Both are used interchangeably in casual speech."
-        },
-        {
-          "front": "Let's go, we're late!",
-          "back": "¡Vámonos, llegamos tarde!",
-          "literal": "Let's-go, [we] arrive late!"
-        }
+        {"front": "Let's go!", "back": "¡Vamos! / ¡Vámonos!", "grammarNote": "'¡Vamos!' = Let's go! / Come on! '¡Vámonos!' = Let's get out of here! (more emphatic, reflexive). Both are used interchangeably in casual speech."},
+        {"front": "Let's go, we're late!", "back": "¡Vámonos, llegamos tarde!", "literal": "Let's-go, [we] arrive late!"}
       ]
     },
     {
       "id": "right_isnt_it",
       "hidden": true,
       "levels": [
-        {
-          "front": "Right? / Isn't it?",
-          "back": "¿verdad? / ¿no?",
-          "grammarNote": "'¿verdad?' is a universal tag question like 'right?': 'Está bueno, ¿verdad?' (It's good, right?). '¿no?' is even simpler and very common: 'Hace calor, ¿no?' (It's hot, isn't it?)."
-        },
-        {
-          "front": "That's a good idea, right?",
-          "back": "Es una buena idea, ¿verdad?"
-        }
+        {"front": "Right? / Isn't it?", "back": "¿verdad? / ¿no?", "grammarNote": "'¿verdad?' is a universal tag question like 'right?': 'Está bueno, ¿verdad?' (It's good, right?). '¿no?' is even simpler and very common: 'Hace calor, ¿no?' (It's hot, isn't it?)."},
+        {"front": "That's a good idea, right?", "back": "Es una buena idea, ¿verdad?"}
       ]
     },
     {
       "id": "again",
       "hidden": true,
       "levels": [
-        {
-          "front": "Again",
-          "back": "otra vez"
-        },
-        {
-          "front": "Can you say it again, please?",
-          "back": "¿Puedes repetirlo otra vez, por favor?",
-          "literal": "Can [you] repeat-it another time, please?"
-        }
+        {"front": "Again", "back": "otra vez"},
+        {"front": "Can you say it again, please?", "back": "¿Puedes repetirlo otra vez, por favor?", "literal": "Can [you] repeat-it another time, please?"}
       ]
     },
     {
       "id": "more_less",
       "hidden": true,
       "levels": [
-        {
-          "front": "More / less",
-          "back": "más / menos"
-        },
-        {
-          "front": "A little more, please.",
-          "back": "Un poco más, por favor."
-        }
+        {"front": "More / less", "back": "más / menos"},
+        {"front": "A little more, please.", "back": "Un poco más, por favor."}
       ]
     },
     {
       "id": "slowly",
       "hidden": true,
       "levels": [
-        {
-          "front": "Slowly",
-          "back": "despacio"
-        },
-        {
-          "front": "Can you speak more slowly?",
-          "back": "¿Puedes hablar más despacio?",
-          "literal": "Can [you] speak more slowly?"
-        }
+        {"front": "Slowly", "back": "despacio"},
+        {"front": "Can you speak more slowly?", "back": "¿Puedes hablar más despacio?", "literal": "Can [you] speak more slowly?"}
       ]
     },
     {
       "id": "the_bill_check",
       "hidden": true,
       "levels": [
-        {
-          "front": "The bill / check",
-          "back": "la cuenta"
-        },
-        {
-          "front": "The check, please.",
-          "back": "La cuenta, por favor."
-        }
+        {"front": "The bill / check", "back": "la cuenta"},
+        {"front": "The check, please.", "back": "La cuenta, por favor."}
       ]
     },
     {
       "id": "the_menu",
       "hidden": true,
       "levels": [
-        {
-          "front": "The menu",
-          "back": "el menú"
-        },
-        {
-          "front": "Can I see the menu?",
-          "back": "¿Me das el menú?",
-          "literal": "To-me give [you] the menu?"
-        }
+        {"front": "The menu", "back": "el menú"},
+        {"front": "Can I see the menu?", "back": "¿Me das el menú?", "literal": "To-me give [you] the menu?"}
       ]
     },
     {
       "id": "the_table",
       "hidden": true,
       "levels": [
-        {
-          "front": "The table",
-          "back": "la mesa"
-        },
-        {
-          "front": "A table for two, please.",
-          "back": "Una mesa para dos, por favor."
-        }
+        {"front": "The table", "back": "la mesa"},
+        {"front": "A table for two, please.", "back": "Una mesa para dos, por favor."}
       ]
     },
     {
       "id": "ready",
       "hidden": true,
       "levels": [
-        {
-          "front": "Ready",
-          "back": "listo / lista"
-        },
-        {
-          "front": "Are you ready to order?",
-          "back": "¿Estás listo para pedir?",
-          "literal": "Are [you] ready to order?"
-        }
+        {"front": "Ready", "back": "listo / lista"},
+        {"front": "Are you ready to order?", "back": "¿Estás listo para pedir?", "literal": "Are [you] ready to order?"}
       ]
     },
     {
       "id": "tired",
       "hidden": true,
       "levels": [
-        {
-          "front": "Tired",
-          "back": "cansado / cansada"
-        },
-        {
-          "front": "I'm very tired today.",
-          "back": "Estoy muy cansado hoy.",
-          "literal": "[I] am very tired today."
-        }
+        {"front": "Tired", "back": "cansado / cansada"},
+        {"front": "I'm very tired today.", "back": "Estoy muy cansado hoy.", "literal": "[I] am very tired today."}
       ]
     }
   ]

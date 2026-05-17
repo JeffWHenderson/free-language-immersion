@@ -1,132 +1,28 @@
 {
-    "id": "a_day_in_the_city",
-    "name": "Sofia in the City",
-    "difficulty": "medium",
-    "sentences": [
-        {
-            "base_language": "My name is Sofía. I live in a small apartment near the city centre.",
-            "target_language": "我叫索菲亚。我住在市中心附近的一间小公寓里。",
-            "romanized": "Wǒ jiào Suǒfēiyà. Wǒ zhù zài shì zhōngxīn fùjìn de yī jiān xiǎo gōngyù lǐ.",
-            "grammarNote": "叫 (jiào) = to be called. 我叫 is the standard self-introduction. 住在 (zhù zài) = live at/in. The pattern 在...里 (zài...lǐ) = inside of: 在公寓里 (inside the apartment)."
-        },
-        {
-            "base_language": "Every morning I wake up, eat bread with butter and drink coffee.",
-            "target_language": "每天早上，我起床，吃黄油面包，喝咖啡。",
-            "romanized": "Měi tiān zǎoshang, wǒ qǐchuáng, chī huángyóu miànbāo, hē kāfēi.",
-            "grammarNote": "起床 (qǐchuáng) = get up (out of bed). 每天 (měi tiān) = every day. Note the verb choice: 吃 (chī) = eat, 喝 (hē) = drink. Chinese uses different verbs for eating vs drinking, never interchangeably."
-        },
-        {
-            "base_language": "I am happy — or at least, I feel calm.",
-            "target_language": "我很快乐——或者至少，我感到平静。",
-            "romanized": "Wǒ hěn kuàilè — huòzhě zhìshǎo, wǒ gǎndào píngjìng.",
-            "grammarNote": "很 (hěn) normally means 'very', but before adjectives in simple statements it's often a linking word with little emphasis: 我很好 = I'm fine (not necessarily 'very good'). 感到 (gǎndào) = to feel / to sense."
-        },
-        {
-            "base_language": "Today is a good day. I need to go to the market near my neighbourhood.",
-            "target_language": "今天是美好的一天。我需要去我家附近的市场。",
-            "romanized": "Jīntiān shì měihǎo de yī tiān. Wǒ xūyào qù wǒ jiā fùjìn de shìchǎng.",
-            "grammarNote": "Adjectives in Chinese come before the noun they modify, connected by 的 (de): 美好的一天 (a wonderful day), 附近的市场 (the nearby market). The structure is: [modifier] + 的 + [noun]."
-        },
-        {
-            "base_language": "I put on my coat and walk straight ahead, then turn left at the corner.",
-            "target_language": "我穿上外套，一直走，然后在街角向左转。",
-            "romanized": "Wǒ chuān shàng wàitào, yīzhí zǒu, ránhòu zài jiējiǎo xiàng zuǒ zhuǎn.",
-            "grammarNote": "穿上 (chuān shàng) = put on clothing. The complement 上 (shàng) after a verb marks completion or attachment: 穿上 (put on), 关上 (close/shut), 锁上 (lock). 一直 (yīzhí) = straight / continuously."
-        },
-        {
-            "base_language": "The street is busy but not too noisy. The sun is hot on my face and shoulder.",
-            "target_language": "街道很热闹，但不太嘈杂。阳光照在我的脸和肩膀上，很热。",
-            "romanized": "Jiēdào hěn rènào, dàn bù tài cáozá. Yángguāng zhào zài wǒ de liǎn hé jiānbǎng shàng, hěn rè.",
-            "grammarNote": "热闹 (rènào) = lively / bustling (positive). 嘈杂 (cáozá) = noisy / chaotic (negative). Chinese often has paired words where the meaning subtly shifts: 热闹 implies energy and life, 嘈杂 implies unpleasant noise."
-        },
-        {
-            "base_language": "At the market, an old man named Paulo is a chef. He is also a musician — on weekends he plays his guitar in the park.",
-            "target_language": "在市场上，一位叫保罗的老人是厨师。他也是音乐家——周末在公园里弹吉他。",
-            "romanized": "Zài shìchǎng shàng, yī wèi jiào Bǎoluó de lǎorén shì chúshī. Tā yě shì yīnyuèjiā — zhōumò zài gōngyuán lǐ tán jítā.",
-            "grammarNote": "位 (wèi) is a polite measure word for people. Compare: 一个人 (a person, neutral) vs 一位老人 (an elderly gentleman, respectful). 弹 (tán) is the verb for string instruments and piano; 吹 (chuī) is for wind instruments."
-        },
-        {
-            "base_language": "Today he is cooking soup with onion, tomato, and fresh herbs. It smells delicious.",
-            "target_language": "今天他在用洋葱、西红柿和新鲜香草煮汤。闻起来很好吃。",
-            "romanized": "Jīntiān tā zài yòng yángcōng, xīhóngshì hé xīnxiān xiāngcǎo zhǔ tāng. Wén qǐlái hěn hǎochī.",
-            "grammarNote": "在 (zài) before a verb signals an ongoing action: 他在煮汤 = he is cooking soup. 闻起来 (wén qǐlái) = smells like. The 起来 (qǐlái) pattern describes sensory impressions: 看起来 (looks like), 听起来 (sounds like), 尝起来 (tastes like)."
-        },
-        {
-            "base_language": "\"Good morning!\" he says. \"Would you like to taste this?\" \"Yes, please.\" The soup is hot, a little spicy, and very tasty.",
-            "target_language": "他说：\"早上好！你想尝一尝吗？\"我说：\"好的，谢谢。\"汤很热，有点辣，非常好吃。",
-            "romanized": "Tā shuō: 'Zǎoshang hǎo! Nǐ xiǎng cháng yī cháng ma?' Wǒ shuō: 'Hǎo de, xièxiè.' Tāng hěn rè, yǒudiǎn là, fēicháng hǎochī.",
-            "grammarNote": "尝一尝 (cháng yī cháng) = have a little taste. Repeating a verb with 一 (V一V) softens the action: 看一看 (have a quick look), 想一想 (think it over), 走一走 (take a little walk). It implies brevity or casualness."
-        },
-        {
-            "base_language": "I buy a big bowl and also some fruit — an apple, a banana, and an orange. I put them in my bag.",
-            "target_language": "我买了一大碗，还有一些水果——一个苹果、一根香蕉和一个橙子。我把它们放进包里。",
-            "romanized": "Wǒ mǎile yī dà wǎn, hái yǒu yīxiē shuǐguǒ — yīgè píngguǒ, yī gēn xiāngjiāo hé yīgè chéngzi. Wǒ bǎ tāmen fàng jìn bāo lǐ.",
-            "grammarNote": "Measure words: 一个 (yīgè) is the general measure word (apple, orange), but 一根 (yī gēn) is for long, thin objects: bananas, chopsticks, candles, strings. 把 (bǎ) construction: 我把它们放进包里 = I put them into the bag (emphasis on acting on the object)."
-        },
-        {
-            "base_language": "Near the market there is a small café. I enter and sit at a table by the window.",
-            "target_language": "市场附近有一家小咖啡馆。我进去，在窗边的桌子旁坐下。",
-            "romanized": "Shìchǎng fùjìn yǒu yī jiā xiǎo kāfēiguǎn. Wǒ jìnqù, zài chuāng biān de zhuōzi páng zuòxià.",
-            "grammarNote": "Location + 有 + object = there is/are [something] at [place]. 市场附近有咖啡馆 (near the market there is a café). 家 (jiā) is the measure word for businesses and establishments. 坐下 (zuòxià) = sit down (下 signals downward completion)."
-        },
-        {
-            "base_language": "A young waiter comes over. His name is Marcos. He is a student at the university and works here part-time.",
-            "target_language": "一位年轻的服务员走过来。他叫马科斯，是大学生，在这里兼职工作。",
-            "romanized": "Yī wèi niánqīng de fúwùyuán zǒu guòlái. Tā jiào Mǎkēsī, shì dàxuéshēng, zài zhèlǐ jiānzhí gōngzuò.",
-            "grammarNote": "走过来 (zǒu guòlái) = walk over here (towards the speaker). Directional complements show movement: 过来 (guòlái, come over), 过去 (guòqù, go over there), 进来 (jìnlái, come in), 出去 (chūqù, go out)."
-        },
-        {
-            "base_language": "\"What do you recommend?\" I ask. He thinks for a moment and smiles. \"The cheese sandwich is very good today. And the orange juice.\"",
-            "target_language": "我问：\"你推荐什么？\"他想了一下，笑了。\"今天的奶酪三明治很好。还有橙汁。\"",
-            "romanized": "Wǒ wèn: 'Nǐ tuījiàn shénme?' Tā xiǎngle yīxià, xiào le. 'Jīntiān de nǎilào sānmíngzhì hěn hǎo. Hái yǒu chéngjuē.'",
-            "grammarNote": "想了一下 (xiǎngle yīxià) = thought for a moment. 了 marks a completed action. 一下 (yīxià) softens or abbreviates the action: 等一下 (wait a moment), 看一下 (take a quick look), 说一下 (say a few words)."
-        },
-        {
-            "base_language": "While I wait, I look out the window. A police officer is crossing the street. Two children are running in the park.",
-            "target_language": "等待的时候，我向窗外望去。一名警察正在过马路。两个孩子在公园里跑步。",
-            "romanized": "Děngdài de shíhòu, wǒ xiàng chuāng wài wàng qù. Yī míng jǐngchá zhèngzài guò mǎlù. Liǎng gè háizi zài gōngyuán lǐ pǎobù.",
-            "grammarNote": "正在 (zhèngzài) = right now, in the middle of. It's a stronger marker of ongoing action than just 在: 他在吃饭 (he's eating) vs 他正在吃饭 (he's eating right at this moment). 名 (míng) is the measure word for people in formal/official roles."
-        },
-        {
-            "base_language": "I feel something warm — not just the coffee in my hands, but something deeper. Joy, maybe. Or comfort.",
-            "target_language": "我感受到一种温暖——不只是手中的咖啡，而是更深层的东西。也许是喜悦，或者是安慰。",
-            "romanized": "Wǒ gǎnshòu dào yī zhǒng wēnnuǎn — bù zhǐ shì shǒu zhōng de kāfēi, ér shì gèng shēncéng de dōngxi. Yěxǔ shì xǐyuè, huòzhě shì ānwèi.",
-            "grammarNote": "不只是...而是... (bù zhǐ shì...ér shì...) = not just... but... This contrast pattern redirects rather than adds. Compare: 不只是...也是... (not just... also...) which adds. 种 (zhǒng) is the measure word for types or kinds."
-        },
-        {
-            "base_language": "After my meal, I leave the café and walk to the library. I love the library — it is quiet and full of good things.",
-            "target_language": "吃完饭后，我离开咖啡馆，走向图书馆。我爱图书馆。那里安静，充满了美好的事物。",
-            "romanized": "Chī wán fàn hòu, wǒ líkāi kāfēiguǎn, zǒu xiàng túshūguǎn. Wǒ ài túshūguǎn. Nàlǐ ānjìng, chōngmǎnle měihǎo de shìwù.",
-            "grammarNote": "吃完 (chī wán) = finish eating. 完 (wán) as a result complement means 'to completion': 做完 (finish doing), 写完 (finish writing), 看完 (finish watching/reading). It's one of the most useful verb complements in Chinese."
-        },
-        {
-            "base_language": "I am learning a new language — it is not always easy, and sometimes I feel stress, but I am calm today.",
-            "target_language": "我在学一门新语言——并不总是容易，有时我感到压力，但今天我很平静。",
-            "romanized": "Wǒ zài xué yī mén xīn yǔyán — bìng bù zǒng shì róngyì, yǒushí wǒ gǎndào yālì, dàn jīntiān wǒ hěn píngjìng.",
-            "grammarNote": "门 (mén) is the measure word for courses and languages: 一门语言 (a language), 一门课 (a course). 并不 (bìng bù) = not at all — a stronger negation than plain 不, emphasising the contrast with what one might expect."
-        },
-        {
-            "base_language": "On my way home, I pass the hospital on the corner. My friend Amara is a nurse there.",
-            "target_language": "回家的路上，我路过街角的医院。我的朋友阿马拉在那里是护士。",
-            "romanized": "Huí jiā de lùshang, wǒ lùguò jiējiǎo de yīyuàn. Wǒ de péngyǒu Āmǎlā zài nàlǐ shì hùshi."
-        },
-        {
-            "base_language": "I arrive home just before dinner. I cook rice with chicken, a little salt, pepper, and oil.",
-            "target_language": "我在晚饭前刚好到家。我用鸡肉、少许盐、胡椒和油做米饭。",
-            "romanized": "Wǒ zài wǎnfàn qián gānghǎo dào jiā. Wǒ yòng jīròu, shǎoxǔ yán, hújiāo hé yóu zuò mǐfàn.",
-            "grammarNote": "刚好 (gānghǎo) = just right / exactly / just in time. 用 (yòng) = to use / using. The pattern 用...做... (use [ingredient] to make [dish]) is the standard way to describe cooking with ingredients."
-        },
-        {
-            "base_language": "I eat alone, but I do not feel lonely. I think about Paulo and his soup, Marcos and his smile, Amara and her courage.",
-            "target_language": "我一个人吃饭，但我不感到孤独。我想到了保罗和他的汤，马科斯和他的笑容，阿马拉和她的勇气。",
-            "romanized": "Wǒ yīgè rén chīfàn, dàn wǒ bù gǎndào gūdú. Wǒ xiǎngdào le Bǎoluó hé tā de tāng, Mǎkēsī hé tā de xiàoróng, Āmǎlā hé tā de yǒngqì.",
-            "grammarNote": "一个人 (yīgè rén) = by oneself / alone. 想到 (xiǎngdào) = to think of / to recall. The complement 到 (dào) marks that the thinking reached its object: 想到了 (thought of and arrived at the thought). Compare: 想 (to think/miss) vs 想到 (to think of something specific)."
-        },
-        {
-            "base_language": "I feel grateful. Here, in my small apartment, in this busy city, I am home.",
-            "target_language": "我感到感激。在这里，在我的小公寓里，在这座繁忙的城市中，我在家。",
-            "romanized": "Wǒ gǎndào gǎnjī. Zài zhèlǐ, zài wǒ de xiǎo gōngyù lǐ, zài zhè zuò fánmáng de chéngshì zhōng, wǒ zài jiā.",
-            "grammarNote": "座 (zuò) is the measure word for large, fixed structures: 一座城市 (a city), 一座山 (a mountain), 一座桥 (a bridge), 一座楼 (a building). Using the right measure word sounds natural; using 个 instead for these would sound unpolished."
-        }
-    ]
+  "id": "a_day_in_the_city",
+  "name": "Sofia in the City",
+  "difficulty": "medium",
+  "sentences": [
+    {"base_language": "My name is Sofía. I live in a small apartment near the city centre.", "target_language": "我叫索菲亚。我住在市中心附近的一间小公寓里。", "romanized": "Wǒ jiào Suǒfēiyà. Wǒ zhù zài shì zhōngxīn fùjìn de yī jiān xiǎo gōngyù lǐ.", "grammarNote": "叫 (jiào) = to be called. 我叫 is the standard self-introduction. 住在 (zhù zài) = live at/in. The pattern 在...里 (zài...lǐ) = inside of: 在公寓里 (inside the apartment)."},
+    {"base_language": "Every morning I wake up, eat bread with butter and drink coffee.", "target_language": "每天早上，我起床，吃黄油面包，喝咖啡。", "romanized": "Měi tiān zǎoshang, wǒ qǐchuáng, chī huángyóu miànbāo, hē kāfēi.", "grammarNote": "起床 (qǐchuáng) = get up (out of bed). 每天 (měi tiān) = every day. Note the verb choice: 吃 (chī) = eat, 喝 (hē) = drink. Chinese uses different verbs for eating vs drinking, never interchangeably."},
+    {"base_language": "I am happy — or at least, I feel calm.", "target_language": "我很快乐——或者至少，我感到平静。", "romanized": "Wǒ hěn kuàilè — huòzhě zhìshǎo, wǒ gǎndào píngjìng.", "grammarNote": "很 (hěn) normally means 'very', but before adjectives in simple statements it's often a linking word with little emphasis: 我很好 = I'm fine (not necessarily 'very good'). 感到 (gǎndào) = to feel / to sense."},
+    {"base_language": "Today is a good day. I need to go to the market near my neighbourhood.", "target_language": "今天是美好的一天。我需要去我家附近的市场。", "romanized": "Jīntiān shì měihǎo de yī tiān. Wǒ xūyào qù wǒ jiā fùjìn de shìchǎng.", "grammarNote": "Adjectives in Chinese come before the noun they modify, connected by 的 (de): 美好的一天 (a wonderful day), 附近的市场 (the nearby market). The structure is: [modifier] + 的 + [noun]."},
+    {"base_language": "I put on my coat and walk straight ahead, then turn left at the corner.", "target_language": "我穿上外套，一直走，然后在街角向左转。", "romanized": "Wǒ chuān shàng wàitào, yīzhí zǒu, ránhòu zài jiējiǎo xiàng zuǒ zhuǎn.", "grammarNote": "穿上 (chuān shàng) = put on clothing. The complement 上 (shàng) after a verb marks completion or attachment: 穿上 (put on), 关上 (close/shut), 锁上 (lock). 一直 (yīzhí) = straight / continuously."},
+    {"base_language": "The street is busy but not too noisy. The sun is hot on my face and shoulder.", "target_language": "街道很热闹，但不太嘈杂。阳光照在我的脸和肩膀上，很热。", "romanized": "Jiēdào hěn rènào, dàn bù tài cáozá. Yángguāng zhào zài wǒ de liǎn hé jiānbǎng shàng, hěn rè.", "grammarNote": "热闹 (rènào) = lively / bustling (positive). 嘈杂 (cáozá) = noisy / chaotic (negative). Chinese often has paired words where the meaning subtly shifts: 热闹 implies energy and life, 嘈杂 implies unpleasant noise."},
+    {"base_language": "At the market, an old man named Paulo is a chef. He is also a musician — on weekends he plays his guitar in the park.", "target_language": "在市场上，一位叫保罗的老人是厨师。他也是音乐家——周末在公园里弹吉他。", "romanized": "Zài shìchǎng shàng, yī wèi jiào Bǎoluó de lǎorén shì chúshī. Tā yě shì yīnyuèjiā — zhōumò zài gōngyuán lǐ tán jítā.", "grammarNote": "位 (wèi) is a polite measure word for people. Compare: 一个人 (a person, neutral) vs 一位老人 (an elderly gentleman, respectful). 弹 (tán) is the verb for string instruments and piano; 吹 (chuī) is for wind instruments."},
+    {"base_language": "Today he is cooking soup with onion, tomato, and fresh herbs. It smells delicious.", "target_language": "今天他在用洋葱、西红柿和新鲜香草煮汤。闻起来很好吃。", "romanized": "Jīntiān tā zài yòng yángcōng, xīhóngshì hé xīnxiān xiāngcǎo zhǔ tāng. Wén qǐlái hěn hǎochī.", "grammarNote": "在 (zài) before a verb signals an ongoing action: 他在煮汤 = he is cooking soup. 闻起来 (wén qǐlái) = smells like. The 起来 (qǐlái) pattern describes sensory impressions: 看起来 (looks like), 听起来 (sounds like), 尝起来 (tastes like)."},
+    {"base_language": "\"Good morning!\" he says. \"Would you like to taste this?\" \"Yes, please.\" The soup is hot, a little spicy, and very tasty.", "target_language": "他说：\"早上好！你想尝一尝吗？\"我说：\"好的，谢谢。\"汤很热，有点辣，非常好吃。", "romanized": "Tā shuō: 'Zǎoshang hǎo! Nǐ xiǎng cháng yī cháng ma?' Wǒ shuō: 'Hǎo de, xièxiè.' Tāng hěn rè, yǒudiǎn là, fēicháng hǎochī.", "grammarNote": "尝一尝 (cháng yī cháng) = have a little taste. Repeating a verb with 一 (V一V) softens the action: 看一看 (have a quick look), 想一想 (think it over), 走一走 (take a little walk). It implies brevity or casualness."},
+    {"base_language": "I buy a big bowl and also some fruit — an apple, a banana, and an orange. I put them in my bag.", "target_language": "我买了一大碗，还有一些水果——一个苹果、一根香蕉和一个橙子。我把它们放进包里。", "romanized": "Wǒ mǎile yī dà wǎn, hái yǒu yīxiē shuǐguǒ — yīgè píngguǒ, yī gēn xiāngjiāo hé yīgè chéngzi. Wǒ bǎ tāmen fàng jìn bāo lǐ.", "grammarNote": "Measure words: 一个 (yīgè) is the general measure word (apple, orange), but 一根 (yī gēn) is for long, thin objects: bananas, chopsticks, candles, strings. 把 (bǎ) construction: 我把它们放进包里 = I put them into the bag (emphasis on acting on the object)."},
+    {"base_language": "Near the market there is a small café. I enter and sit at a table by the window.", "target_language": "市场附近有一家小咖啡馆。我进去，在窗边的桌子旁坐下。", "romanized": "Shìchǎng fùjìn yǒu yī jiā xiǎo kāfēiguǎn. Wǒ jìnqù, zài chuāng biān de zhuōzi páng zuòxià.", "grammarNote": "Location + 有 + object = there is/are [something] at [place]. 市场附近有咖啡馆 (near the market there is a café). 家 (jiā) is the measure word for businesses and establishments. 坐下 (zuòxià) = sit down (下 signals downward completion)."},
+    {"base_language": "A young waiter comes over. His name is Marcos. He is a student at the university and works here part-time.", "target_language": "一位年轻的服务员走过来。他叫马科斯，是大学生，在这里兼职工作。", "romanized": "Yī wèi niánqīng de fúwùyuán zǒu guòlái. Tā jiào Mǎkēsī, shì dàxuéshēng, zài zhèlǐ jiānzhí gōngzuò.", "grammarNote": "走过来 (zǒu guòlái) = walk over here (towards the speaker). Directional complements show movement: 过来 (guòlái, come over), 过去 (guòqù, go over there), 进来 (jìnlái, come in), 出去 (chūqù, go out)."},
+    {"base_language": "\"What do you recommend?\" I ask. He thinks for a moment and smiles. \"The cheese sandwich is very good today. And the orange juice.\"", "target_language": "我问：\"你推荐什么？\"他想了一下，笑了。\"今天的奶酪三明治很好。还有橙汁。\"", "romanized": "Wǒ wèn: 'Nǐ tuījiàn shénme?' Tā xiǎngle yīxià, xiào le. 'Jīntiān de nǎilào sānmíngzhì hěn hǎo. Hái yǒu chéngjuē.'", "grammarNote": "想了一下 (xiǎngle yīxià) = thought for a moment. 了 marks a completed action. 一下 (yīxià) softens or abbreviates the action: 等一下 (wait a moment), 看一下 (take a quick look), 说一下 (say a few words)."},
+    {"base_language": "While I wait, I look out the window. A police officer is crossing the street. Two children are running in the park.", "target_language": "等待的时候，我向窗外望去。一名警察正在过马路。两个孩子在公园里跑步。", "romanized": "Děngdài de shíhòu, wǒ xiàng chuāng wài wàng qù. Yī míng jǐngchá zhèngzài guò mǎlù. Liǎng gè háizi zài gōngyuán lǐ pǎobù.", "grammarNote": "正在 (zhèngzài) = right now, in the middle of. It's a stronger marker of ongoing action than just 在: 他在吃饭 (he's eating) vs 他正在吃饭 (he's eating right at this moment). 名 (míng) is the measure word for people in formal/official roles."},
+    {"base_language": "I feel something warm — not just the coffee in my hands, but something deeper. Joy, maybe. Or comfort.", "target_language": "我感受到一种温暖——不只是手中的咖啡，而是更深层的东西。也许是喜悦，或者是安慰。", "romanized": "Wǒ gǎnshòu dào yī zhǒng wēnnuǎn — bù zhǐ shì shǒu zhōng de kāfēi, ér shì gèng shēncéng de dōngxi. Yěxǔ shì xǐyuè, huòzhě shì ānwèi.", "grammarNote": "不只是...而是... (bù zhǐ shì...ér shì...) = not just... but... This contrast pattern redirects rather than adds. Compare: 不只是...也是... (not just... also...) which adds. 种 (zhǒng) is the measure word for types or kinds."},
+    {"base_language": "After my meal, I leave the café and walk to the library. I love the library — it is quiet and full of good things.", "target_language": "吃完饭后，我离开咖啡馆，走向图书馆。我爱图书馆。那里安静，充满了美好的事物。", "romanized": "Chī wán fàn hòu, wǒ líkāi kāfēiguǎn, zǒu xiàng túshūguǎn. Wǒ ài túshūguǎn. Nàlǐ ānjìng, chōngmǎnle měihǎo de shìwù.", "grammarNote": "吃完 (chī wán) = finish eating. 完 (wán) as a result complement means 'to completion': 做完 (finish doing), 写完 (finish writing), 看完 (finish watching/reading). It's one of the most useful verb complements in Chinese."},
+    {"base_language": "I am learning a new language — it is not always easy, and sometimes I feel stress, but I am calm today.", "target_language": "我在学一门新语言——并不总是容易，有时我感到压力，但今天我很平静。", "romanized": "Wǒ zài xué yī mén xīn yǔyán — bìng bù zǒng shì róngyì, yǒushí wǒ gǎndào yālì, dàn jīntiān wǒ hěn píngjìng.", "grammarNote": "门 (mén) is the measure word for courses and languages: 一门语言 (a language), 一门课 (a course). 并不 (bìng bù) = not at all — a stronger negation than plain 不, emphasising the contrast with what one might expect."},
+    {"base_language": "On my way home, I pass the hospital on the corner. My friend Amara is a nurse there.", "target_language": "回家的路上，我路过街角的医院。我的朋友阿马拉在那里是护士。", "romanized": "Huí jiā de lùshang, wǒ lùguò jiējiǎo de yīyuàn. Wǒ de péngyǒu Āmǎlā zài nàlǐ shì hùshi."},
+    {"base_language": "I arrive home just before dinner. I cook rice with chicken, a little salt, pepper, and oil.", "target_language": "我在晚饭前刚好到家。我用鸡肉、少许盐、胡椒和油做米饭。", "romanized": "Wǒ zài wǎnfàn qián gānghǎo dào jiā. Wǒ yòng jīròu, shǎoxǔ yán, hújiāo hé yóu zuò mǐfàn.", "grammarNote": "刚好 (gānghǎo) = just right / exactly / just in time. 用 (yòng) = to use / using. The pattern 用...做... (use [ingredient] to make [dish]) is the standard way to describe cooking with ingredients."},
+    {"base_language": "I eat alone, but I do not feel lonely. I think about Paulo and his soup, Marcos and his smile, Amara and her courage.", "target_language": "我一个人吃饭，但我不感到孤独。我想到了保罗和他的汤，马科斯和他的笑容，阿马拉和她的勇气。", "romanized": "Wǒ yīgè rén chīfàn, dàn wǒ bù gǎndào gūdú. Wǒ xiǎngdào le Bǎoluó hé tā de tāng, Mǎkēsī hé tā de xiàoróng, Āmǎlā hé tā de yǒngqì.", "grammarNote": "一个人 (yīgè rén) = by oneself / alone. 想到 (xiǎngdào) = to think of / to recall. The complement 到 (dào) marks that the thinking reached its object: 想到了 (thought of and arrived at the thought). Compare: 想 (to think/miss) vs 想到 (to think of something specific)."},
+    {"base_language": "I feel grateful. Here, in my small apartment, in this busy city, I am home.", "target_language": "我感到感激。在这里，在我的小公寓里，在这座繁忙的城市中，我在家。", "romanized": "Wǒ gǎndào gǎnjī. Zài zhèlǐ, zài wǒ de xiǎo gōngyù lǐ, zài zhè zuò fánmáng de chéngshì zhōng, wǒ zài jiā.", "grammarNote": "座 (zuò) is the measure word for large, fixed structures: 一座城市 (a city), 一座山 (a mountain), 一座桥 (a bridge), 一座楼 (a building). Using the right measure word sounds natural; using 个 instead for these would sound unpolished."}
+  ]
 }

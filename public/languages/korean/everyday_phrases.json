@@ -11,1193 +11,517 @@
     {
       "id": "hello",
       "levels": [
-        {
-          "front": "Hello",
-          "back": "안녕하세요",
-          "romanized": "annyeonghaseyo"
-        },
-        {
-          "front": "Hello! How are you?",
-          "back": "안녕하세요! 잘 지내요?",
-          "romanized": "Annyeonghaseyo! Jal jinaeyo?",
-          "literal": "Hello! Well getting-along?"
-        }
+        {"front": "Hello", "back": "안녕하세요", "romanized": "annyeonghaseyo"},
+        {"front": "Hello! How are you?", "back": "안녕하세요! 잘 지내요?", "romanized": "Annyeonghaseyo! Jal jinaeyo?", "literal": "Hello! Well getting-along?"}
       ]
     },
     {
       "id": "please",
       "levels": [
-        {
-          "front": "Please",
-          "back": "부탁해요",
-          "romanized": "butakhaeyo",
-          "grammarNote": "부탁하다 (butakhada) = to ask a favor / please. 부탁해요 at the end of a request softens it. 〜주세요 (juseyo) is also very common: 커피 주세요 (coffee please). Both are natural and polite."
-        },
-        {
-          "front": "A coffee, please.",
-          "back": "커피 한 잔 부탁해요.",
-          "romanized": "Keopi han jan butakhaeyo.",
-          "literal": "Coffee one cup please."
-        }
+        {"front": "Please", "back": "부탁해요", "romanized": "butakhaeyo", "grammarNote": "부탁하다 (butakhada) = to ask a favor / please. 부탁해요 at the end of a request softens it. 〜주세요 (juseyo) is also very common: 커피 주세요 (coffee please). Both are natural and polite."},
+        {"front": "A coffee, please.", "back": "커피 한 잔 부탁해요.", "romanized": "Keopi han jan butakhaeyo.", "literal": "Coffee one cup please."}
       ]
     },
     {
       "id": "thank_you",
       "levels": [
-        {
-          "front": "Thank you",
-          "back": "감사합니다",
-          "romanized": "gamsahamnida"
-        },
-        {
-          "front": "Thank you very much.",
-          "back": "정말 감사합니다.",
-          "romanized": "Jeongmal gamsahamnida.",
-          "literal": "Truly thank-you."
-        }
+        {"front": "Thank you", "back": "감사합니다", "romanized": "gamsahamnida"},
+        {"front": "Thank you very much.", "back": "정말 감사합니다.", "romanized": "Jeongmal gamsahamnida.", "literal": "Truly thank-you."}
       ]
     },
     {
       "id": "i_want",
       "levels": [
-        {
-          "front": "I want",
-          "back": "원해요 / 〜고 싶어요",
-          "romanized": "wonhaeyo / ~ go sipeoyo",
-          "grammarNote": "For wanting a thing: 원해요 (wonhaeyo). For wanting to do something: verb stem + 고 싶어요 (go sipeoyo): 먹고 싶어요 (I want to eat), 가고 싶어요 (I want to go). 싶어요 is one of the most useful endings to learn."
-        },
-        {
-          "front": "I want a coffee.",
-          "back": "커피를 마시고 싶어요.",
-          "romanized": "Keopireul masigo sipeoyo.",
-          "literal": "Coffee [obj] drink want to."
-        }
+        {"front": "I want", "back": "원해요 / 〜고 싶어요", "romanized": "wonhaeyo / ~ go sipeoyo", "grammarNote": "For wanting a thing: 원해요 (wonhaeyo). For wanting to do something: verb stem + 고 싶어요 (go sipeoyo): 먹고 싶어요 (I want to eat), 가고 싶어요 (I want to go). 싶어요 is one of the most useful endings to learn."},
+        {"front": "I want a coffee.", "back": "커피를 마시고 싶어요.", "romanized": "Keopireul masigo sipeoyo.", "literal": "Coffee [obj] drink want to."}
       ]
     },
     {
       "id": "i_need",
       "levels": [
-        {
-          "front": "I need",
-          "back": "필요해요",
-          "romanized": "piryohaeyo"
-        },
-        {
-          "front": "I need help.",
-          "back": "도움이 필요해요.",
-          "romanized": "Doumi piryohaeyo.",
-          "literal": "Help [subj] needed."
-        }
+        {"front": "I need", "back": "필요해요", "romanized": "piryohaeyo"},
+        {"front": "I need help.", "back": "도움이 필요해요.", "romanized": "Doumi piryohaeyo.", "literal": "Help [subj] needed."}
       ]
     },
     {
       "id": "my_name_is",
       "levels": [
-        {
-          "front": "My name is",
-          "back": "제 이름은 〜이에요 / 〜예요",
-          "romanized": "Je ireumeun ~ ieyo / yeyo",
-          "grammarNote": "이에요 is used after a consonant, 예요 after a vowel: 제 이름은 Ana예요 (Ana ends in a vowel). More formally: 제 이름은 〜입니다. In casual speech: 나 〜야."
-        },
-        {
-          "front": "My name is Jeff.",
-          "back": "제 이름은 Jeff예요.",
-          "romanized": "Je ireumeun Jeff yeyo.",
-          "literal": "My name [topic] Jeff is."
-        }
+        {"front": "My name is", "back": "제 이름은 〜이에요 / 〜예요", "romanized": "Je ireumeun ~ ieyo / yeyo", "grammarNote": "이에요 is used after a consonant, 예요 after a vowel: 제 이름은 Ana예요 (Ana ends in a vowel). More formally: 제 이름은 〜입니다. In casual speech: 나 〜야."},
+        {"front": "My name is Jeff.", "back": "제 이름은 Jeff예요.", "romanized": "Je ireumeun Jeff yeyo.", "literal": "My name [topic] Jeff is."}
       ]
     },
     {
       "id": "i",
       "levels": [
-        {
-          "front": "I",
-          "back": "저 / 나",
-          "romanized": "jeo / na",
-          "grammarNote": "저 (jeo) = formal/polite 'I'. 나 (na) = casual 'I' with friends. Always use 저 with strangers or elders. In polite speech, 저는 pairs with 해요-style verbs; 나는 pairs with casual speech."
-        },
-        {
-          "front": "I am a student.",
-          "back": "저는 학생이에요.",
-          "romanized": "Jeoneun haksaengieyo.",
-          "literal": "I [topic] student am."
-        }
+        {"front": "I", "back": "저 / 나", "romanized": "jeo / na", "grammarNote": "저 (jeo) = formal/polite 'I'. 나 (na) = casual 'I' with friends. Always use 저 with strangers or elders. In polite speech, 저는 pairs with 해요-style verbs; 나는 pairs with casual speech."},
+        {"front": "I am a student.", "back": "저는 학생이에요.", "romanized": "Jeoneun haksaengieyo.", "literal": "I [topic] student am."}
       ]
     },
     {
       "id": "you",
       "levels": [
-        {
-          "front": "You",
-          "back": "당신 / 너",
-          "romanized": "dangsin / neo",
-          "grammarNote": "당신 (dangsin) = formal 'you' but is often avoided — sounds cold between strangers and awkward between friends. Koreans usually use the person's name or title instead. 너 (neo) = casual 'you' with close friends only."
-        },
-        {
-          "front": "You speak Korean well.",
-          "back": "한국어를 잘 하시네요.",
-          "romanized": "Hangugeoreul jal hasineyo.",
-          "literal": "Korean [obj] well do-indeed."
-        }
+        {"front": "You", "back": "당신 / 너", "romanized": "dangsin / neo", "grammarNote": "당신 (dangsin) = formal 'you' but is often avoided — sounds cold between strangers and awkward between friends. Koreans usually use the person's name or title instead. 너 (neo) = casual 'you' with close friends only."},
+        {"front": "You speak Korean well.", "back": "한국어를 잘 하시네요.", "romanized": "Hangugeoreul jal hasineyo.", "literal": "Korean [obj] well do-indeed."}
       ]
     },
     {
       "id": "he",
       "levels": [
-        {
-          "front": "He",
-          "back": "그",
-          "romanized": "geu"
-        },
-        {
-          "front": "He is my friend.",
-          "back": "그는 제 친구예요.",
-          "romanized": "Geuneun je chinguye yo.",
-          "literal": "He [topic] my friend is."
-        }
+        {"front": "He", "back": "그", "romanized": "geu"},
+        {"front": "He is my friend.", "back": "그는 제 친구예요.", "romanized": "Geuneun je chinguye yo.", "literal": "He [topic] my friend is."}
       ]
     },
     {
       "id": "she",
       "levels": [
-        {
-          "front": "She",
-          "back": "그녀",
-          "romanized": "geunyeo"
-        },
-        {
-          "front": "She works here.",
-          "back": "그녀는 여기서 일해요.",
-          "romanized": "Geunyeoneun yeogiseo ilhaeyo.",
-          "literal": "She [topic] here-at works."
-        }
+        {"front": "She", "back": "그녀", "romanized": "geunyeo"},
+        {"front": "She works here.", "back": "그녀는 여기서 일해요.", "romanized": "Geunyeoneun yeogiseo ilhaeyo.", "literal": "She [topic] here-at works."}
       ]
     },
     {
       "id": "it",
       "levels": [
-        {
-          "front": "It",
-          "back": "그것",
-          "romanized": "geugeot",
-          "grammarNote": "그것 (geugeot) = that thing / it. In speech, this contracts to 그게 (geuge, subject) or 그걸 (geugeol, object). Koreans often drop the pronoun entirely when context is clear."
-        },
-        {
-          "front": "What is that?",
-          "back": "그게 뭐예요?",
-          "romanized": "Geuge mwoyeyo?",
-          "literal": "That [subj] what is?"
-        }
+        {"front": "It", "back": "그것", "romanized": "geugeot", "grammarNote": "그것 (geugeot) = that thing / it. In speech, this contracts to 그게 (geuge, subject) or 그걸 (geugeol, object). Koreans often drop the pronoun entirely when context is clear."},
+        {"front": "What is that?", "back": "그게 뭐예요?", "romanized": "Geuge mwoyeyo?", "literal": "That [subj] what is?"}
       ]
     },
     {
       "id": "we",
       "levels": [
-        {
-          "front": "We",
-          "back": "우리",
-          "romanized": "uri",
-          "grammarNote": "우리 (uri) = we, but also used where English says 'my': 우리 집 (my house), 우리 엄마 (my mom). This 'our' for 'my' reflects a cultural sense of shared belonging — very natural in Korean."
-        },
-        {
-          "front": "We live here.",
-          "back": "우리는 여기 살아요.",
-          "romanized": "Urineun yeogi sarayo.",
-          "literal": "We [topic] here live."
-        }
+        {"front": "We", "back": "우리", "romanized": "uri", "grammarNote": "우리 (uri) = we, but also used where English says 'my': 우리 집 (my house), 우리 엄마 (my mom). This 'our' for 'my' reflects a cultural sense of shared belonging — very natural in Korean."},
+        {"front": "We live here.", "back": "우리는 여기 살아요.", "romanized": "Urineun yeogi sarayo.", "literal": "We [topic] here live."}
       ]
     },
     {
       "id": "they",
       "levels": [
-        {
-          "front": "They",
-          "back": "그들",
-          "romanized": "geudeul"
-        },
-        {
-          "front": "They eat together.",
-          "back": "그들은 같이 먹어요.",
-          "romanized": "Geudeureun gachi meogeoyo.",
-          "literal": "They [topic] together eat."
-        }
+        {"front": "They", "back": "그들", "romanized": "geudeul"},
+        {"front": "They eat together.", "back": "그들은 같이 먹어요.", "romanized": "Geudeureun gachi meogeoyo.", "literal": "They [topic] together eat."}
       ]
     },
     {
       "id": "this",
       "levels": [
-        {
-          "front": "This",
-          "back": "이것 / 이",
-          "romanized": "igeot / i",
-          "grammarNote": "이것 (igeot) = this thing (stands alone). 이 (i) = this + noun: 이 책 (this book). Same distance pattern: 그것/그 (that, near listener), 저것/저 (that, far from both)."
-        },
-        {
-          "front": "This book is good.",
-          "back": "이 책이 좋아요.",
-          "romanized": "I chaegi joayo.",
-          "literal": "This book [subj] good."
-        }
+        {"front": "This", "back": "이것 / 이", "romanized": "igeot / i", "grammarNote": "이것 (igeot) = this thing (stands alone). 이 (i) = this + noun: 이 책 (this book). Same distance pattern: 그것/그 (that, near listener), 저것/저 (that, far from both)."},
+        {"front": "This book is good.", "back": "이 책이 좋아요.", "romanized": "I chaegi joayo.", "literal": "This book [subj] good."}
       ]
     },
     {
       "id": "that",
       "levels": [
-        {
-          "front": "That",
-          "back": "그것 / 저것",
-          "romanized": "geugeot / jeogeot"
-        },
-        {
-          "front": "That person is my friend.",
-          "back": "저 사람은 제 친구예요.",
-          "romanized": "Jeo sarameun je chinguyeyo.",
-          "literal": "That person [topic] my friend is."
-        }
+        {"front": "That", "back": "그것 / 저것", "romanized": "geugeot / jeogeot"},
+        {"front": "That person is my friend.", "back": "저 사람은 제 친구예요.", "romanized": "Jeo sarameun je chinguyeyo.", "literal": "That person [topic] my friend is."}
       ]
     },
     {
       "id": "my",
       "levels": [
-        {
-          "front": "My",
-          "back": "제 / 내",
-          "romanized": "je / nae"
-        },
-        {
-          "front": "My name is Jeff.",
-          "back": "제 이름은 Jeff예요.",
-          "romanized": "Je ireumeun Jeff yeyo.",
-          "literal": "My name [topic] Jeff is."
-        }
+        {"front": "My", "back": "제 / 내", "romanized": "je / nae"},
+        {"front": "My name is Jeff.", "back": "제 이름은 Jeff예요.", "romanized": "Je ireumeun Jeff yeyo.", "literal": "My name [topic] Jeff is."}
       ]
     },
     {
       "id": "who",
       "levels": [
-        {
-          "front": "Who",
-          "back": "누구",
-          "romanized": "nugu"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "저 사람은 누구예요?",
-          "romanized": "Jeo sarameun nuguyeyo?",
-          "literal": "That person [topic] who is?"
-        }
+        {"front": "Who", "back": "누구", "romanized": "nugu"},
+        {"front": "Who is that person?", "back": "저 사람은 누구예요?", "romanized": "Jeo sarameun nuguyeyo?", "literal": "That person [topic] who is?"}
       ]
     },
     {
       "id": "what",
       "levels": [
-        {
-          "front": "What",
-          "back": "뭐 / 무엇",
-          "romanized": "mwo / mueot"
-        },
-        {
-          "front": "What do you want?",
-          "back": "뭐 원해요?",
-          "romanized": "Mwo wonhaeyo?",
-          "literal": "What want?"
-        }
+        {"front": "What", "back": "뭐 / 무엇", "romanized": "mwo / mueot"},
+        {"front": "What do you want?", "back": "뭐 원해요?", "romanized": "Mwo wonhaeyo?", "literal": "What want?"}
       ]
     },
     {
       "id": "when",
       "levels": [
-        {
-          "front": "When",
-          "back": "언제",
-          "romanized": "eonje"
-        },
-        {
-          "front": "When are you coming?",
-          "back": "언제 와요?",
-          "romanized": "Eonje wayo?",
-          "literal": "When coming?"
-        }
+        {"front": "When", "back": "언제", "romanized": "eonje"},
+        {"front": "When are you coming?", "back": "언제 와요?", "romanized": "Eonje wayo?", "literal": "When coming?"}
       ]
     },
     {
       "id": "where",
       "levels": [
-        {
-          "front": "Where",
-          "back": "어디",
-          "romanized": "eodi"
-        },
-        {
-          "front": "Where is the bathroom?",
-          "back": "화장실이 어디예요?",
-          "romanized": "Hwajangshiri eodiyeyo?",
-          "literal": "Bathroom [subj] where is?"
-        }
+        {"front": "Where", "back": "어디", "romanized": "eodi"},
+        {"front": "Where is the bathroom?", "back": "화장실이 어디예요?", "romanized": "Hwajangshiri eodiyeyo?", "literal": "Bathroom [subj] where is?"}
       ]
     },
     {
       "id": "why",
       "levels": [
-        {
-          "front": "Why",
-          "back": "왜",
-          "romanized": "wae"
-        },
-        {
-          "front": "Why can't you come?",
-          "back": "왜 못 와요?",
-          "romanized": "Wae mot wayo?",
-          "literal": "Why cannot come?"
-        }
+        {"front": "Why", "back": "왜", "romanized": "wae"},
+        {"front": "Why can't you come?", "back": "왜 못 와요?", "romanized": "Wae mot wayo?", "literal": "Why cannot come?"}
       ]
     },
     {
       "id": "how",
       "levels": [
-        {
-          "front": "How",
-          "back": "어떻게",
-          "romanized": "eotteoke"
-        },
-        {
-          "front": "How are you?",
-          "back": "어떻게 지내요?",
-          "romanized": "Eotteoke jinaeyo?",
-          "literal": "How getting-along?"
-        }
+        {"front": "How", "back": "어떻게", "romanized": "eotteoke"},
+        {"front": "How are you?", "back": "어떻게 지내요?", "romanized": "Eotteoke jinaeyo?", "literal": "How getting-along?"}
       ]
     },
     {
       "id": "good_morning",
       "levels": [
-        {
-          "front": "Good morning",
-          "back": "좋은 아침이에요",
-          "romanized": "joeun achimieyo",
-          "grammarNote": "안녕하세요 (annyeonghaseyo) works at any time of day and is the most natural all-purpose greeting. 좋은 아침이에요 (good morning) is understood but less common in daily speech. 안녕히 주무셨어요? = 'did you sleep well?' (honorific)."
-        },
-        {
-          "front": "Good morning! Did you sleep well?",
-          "back": "좋은 아침이에요! 잘 잤어요?",
-          "romanized": "Joeun achimieyo! Jal jasseoyo?",
-          "literal": "Good morning is! Well slept?"
-        }
+        {"front": "Good morning", "back": "좋은 아침이에요", "romanized": "joeun achimieyo", "grammarNote": "안녕하세요 (annyeonghaseyo) works at any time of day and is the most natural all-purpose greeting. 좋은 아침이에요 (good morning) is understood but less common in daily speech. 안녕히 주무셨어요? = 'did you sleep well?' (honorific)."},
+        {"front": "Good morning! Did you sleep well?", "back": "좋은 아침이에요! 잘 잤어요?", "romanized": "Joeun achimieyo! Jal jasseoyo?", "literal": "Good morning is! Well slept?"}
       ]
     },
     {
       "id": "to_look_for",
       "levels": [
-        {
-          "front": "To look for",
-          "back": "찾다",
-          "romanized": "chatda"
-        },
-        {
-          "front": "I'm looking for the exit.",
-          "back": "출구를 찾고 있어요.",
-          "romanized": "Chulkureul chatgo isseoyo.",
-          "literal": "Exit [obj] looking-for am."
-        }
+        {"front": "To look for", "back": "찾다", "romanized": "chatda"},
+        {"front": "I'm looking for the exit.", "back": "출구를 찾고 있어요.", "romanized": "Chulkureul chatgo isseoyo.", "literal": "Exit [obj] looking-for am."}
       ]
     },
     {
       "id": "excuse_me",
       "levels": [
-        {
-          "front": "Excuse me",
-          "back": "실례합니다 / 저기요",
-          "romanized": "sillyehamnida / jeogiyo",
-          "grammarNote": "저기요 (jeogiyo) = 'excuse me!' for getting a stranger's or server's attention — very common and natural. 실례합니다 (sillyehamnida) = 'excuse me' in more formal contexts like passing someone in a hallway."
-        },
-        {
-          "front": "Excuse me, where is the station?",
-          "back": "저기요, 역이 어디예요?",
-          "romanized": "Jeogiyo, yeogi eodiyeyo?",
-          "literal": "Excuse me, station [subj] where is?"
-        }
+        {"front": "Excuse me", "back": "실례합니다 / 저기요", "romanized": "sillyehamnida / jeogiyo", "grammarNote": "저기요 (jeogiyo) = 'excuse me!' for getting a stranger's or server's attention — very common and natural. 실례합니다 (sillyehamnida) = 'excuse me' in more formal contexts like passing someone in a hallway."},
+        {"front": "Excuse me, where is the station?", "back": "저기요, 역이 어디예요?", "romanized": "Jeogiyo, yeogi eodiyeyo?", "literal": "Excuse me, station [subj] where is?"}
       ]
     },
     {
       "id": "to_be_able_to_can",
       "levels": [
-        {
-          "front": "To be able to / can",
-          "back": "할 수 있다",
-          "romanized": "hal su itda",
-          "grammarNote": "verb stem + (으)ㄹ 수 있다 = can/be able to: 갈 수 있어요 (can go), 먹을 수 있어요 (can eat). The negative: (으)ㄹ 수 없다 = can't. This pattern is one of the most important in Korean."
-        },
-        {
-          "front": "Can you help me?",
-          "back": "도와줄 수 있어요?",
-          "romanized": "Dowajul su isseoyo?",
-          "literal": "Help-give can?"
-        }
+        {"front": "To be able to / can", "back": "할 수 있다", "romanized": "hal su itda", "grammarNote": "verb stem + (으)ㄹ 수 있다 = can/be able to: 갈 수 있어요 (can go), 먹을 수 있어요 (can eat). The negative: (으)ㄹ 수 없다 = can't. This pattern is one of the most important in Korean."},
+        {"front": "Can you help me?", "back": "도와줄 수 있어요?", "romanized": "Dowajul su isseoyo?", "literal": "Help-give can?"}
       ]
     },
     {
       "id": "i_dont_know",
       "levels": [
-        {
-          "front": "I don't know",
-          "back": "몰라요",
-          "romanized": "mollayo"
-        },
-        {
-          "front": "I don't know where it is.",
-          "back": "어디 있는지 몰라요.",
-          "romanized": "Eodi inneunji mollayo.",
-          "literal": "Where is [whether] don't know."
-        }
+        {"front": "I don't know", "back": "몰라요", "romanized": "mollayo"},
+        {"front": "I don't know where it is.", "back": "어디 있는지 몰라요.", "romanized": "Eodi inneunji mollayo.", "literal": "Where is [whether] don't know."}
       ]
     },
     {
       "id": "to_have",
       "levels": [
-        {
-          "front": "To have",
-          "back": "있다",
-          "romanized": "itda",
-          "grammarNote": "있다 (itda) handles both 'to have' and 'to exist/there is'. 돈이 있어요 = I have money (lit. 'money exists'). Its opposite 없다 (eopda) = don't have / doesn't exist. No separate 'have' verb is needed."
-        },
-        {
-          "front": "I'm hungry. Do you have water?",
-          "back": "배고파요. 물 있어요?",
-          "romanized": "Baegopayo. Mul isseoyo?",
-          "literal": "Hungry. Water there is?"
-        }
+        {"front": "To have", "back": "있다", "romanized": "itda", "grammarNote": "있다 (itda) handles both 'to have' and 'to exist/there is'. 돈이 있어요 = I have money (lit. 'money exists'). Its opposite 없다 (eopda) = don't have / doesn't exist. No separate 'have' verb is needed."},
+        {"front": "I'm hungry. Do you have water?", "back": "배고파요. 물 있어요?", "romanized": "Baegopayo. Mul isseoyo?", "literal": "Hungry. Water there is?"}
       ]
     },
     {
       "id": "to_do_make",
       "levels": [
-        {
-          "front": "To do / make",
-          "back": "하다",
-          "romanized": "hada"
-        },
-        {
-          "front": "What are you doing?",
-          "back": "뭐 해요?",
-          "romanized": "Mwo haeyo?",
-          "literal": "What doing?"
-        }
+        {"front": "To do / make", "back": "하다", "romanized": "hada"},
+        {"front": "What are you doing?", "back": "뭐 해요?", "romanized": "Mwo haeyo?", "literal": "What doing?"}
       ]
     },
     {
       "id": "to_eat",
       "levels": [
-        {
-          "front": "To eat",
-          "back": "먹다",
-          "romanized": "meokda"
-        },
-        {
-          "front": "Where are we eating?",
-          "back": "어디서 먹어요?",
-          "romanized": "Eodiseo meogeoyo?",
-          "literal": "Where-at eating?"
-        }
+        {"front": "To eat", "back": "먹다", "romanized": "meokda"},
+        {"front": "Where are we eating?", "back": "어디서 먹어요?", "romanized": "Eodiseo meogeoyo?", "literal": "Where-at eating?"}
       ]
     },
     {
       "id": "to_like",
       "levels": [
-        {
-          "front": "To like",
-          "back": "좋아하다",
-          "romanized": "joahada"
-        },
-        {
-          "front": "I like coffee.",
-          "back": "커피를 좋아해요.",
-          "romanized": "Keopireul joahaeyo.",
-          "literal": "Coffee [obj] like."
-        }
+        {"front": "To like", "back": "좋아하다", "romanized": "joahada"},
+        {"front": "I like coffee.", "back": "커피를 좋아해요.", "romanized": "Keopireul joahaeyo.", "literal": "Coffee [obj] like."}
       ]
     },
     {
       "id": "but",
       "levels": [
-        {
-          "front": "But",
-          "back": "하지만 / 그런데",
-          "romanized": "hajiman / geureonde"
-        },
-        {
-          "front": "I want to go, but I can't.",
-          "back": "가고 싶지만 못 가요.",
-          "romanized": "Gago sipjiman mot gayo.",
-          "literal": "Go want-to-but cannot go."
-        }
+        {"front": "But", "back": "하지만 / 그런데", "romanized": "hajiman / geureonde"},
+        {"front": "I want to go, but I can't.", "back": "가고 싶지만 못 가요.", "romanized": "Gago sipjiman mot gayo.", "literal": "Go want-to-but cannot go."}
       ]
     },
     {
       "id": "and",
       "levels": [
-        {
-          "front": "And",
-          "back": "그리고 / 와/과",
-          "romanized": "geurigo / wa/gwa",
-          "grammarNote": "그리고 (geurigo) = 'and' between sentences. 와/과 (wa/gwa) = 'and' between nouns: 와 after a vowel, 과 after a consonant. Casual alternative: 이랑/랑 (irang/rang) — more colloquial."
-        },
-        {
-          "front": "Water and food.",
-          "back": "물이랑 음식.",
-          "romanized": "Mulirang eumsik."
-        }
+        {"front": "And", "back": "그리고 / 와/과", "romanized": "geurigo / wa/gwa", "grammarNote": "그리고 (geurigo) = 'and' between sentences. 와/과 (wa/gwa) = 'and' between nouns: 와 after a vowel, 과 after a consonant. Casual alternative: 이랑/랑 (irang/rang) — more colloquial."},
+        {"front": "Water and food.", "back": "물이랑 음식.", "romanized": "Mulirang eumsik."}
       ]
     },
     {
       "id": "or",
       "levels": [
-        {
-          "front": "Or",
-          "back": "아니면 / 또는",
-          "romanized": "animyeon / ttoneun"
-        },
-        {
-          "front": "Tea or coffee?",
-          "back": "차 아니면 커피?",
-          "romanized": "Cha animyeon keopi?"
-        }
+        {"front": "Or", "back": "아니면 / 또는", "romanized": "animyeon / ttoneun"},
+        {"front": "Tea or coffee?", "back": "차 아니면 커피?", "romanized": "Cha animyeon keopi?"}
       ]
     },
     {
       "id": "hungry",
       "levels": [
-        {
-          "front": "Hungry",
-          "back": "배고프다",
-          "romanized": "baegopuda",
-          "grammarNote": "배고프다 (baegopuda) = to be hungry. 배 (bae) = stomach/belly. In speech: 배고파요. Compare 배부르다 (baeburuda) = to be full. Unlike Spanish/French, Korean uses its own adjective, not a 'have hunger' construction."
-        },
-        {
-          "front": "I'm very hungry.",
-          "back": "너무 배고파요.",
-          "romanized": "Neomu baegopayo.",
-          "literal": "Too-much hungry."
-        }
+        {"front": "Hungry", "back": "배고프다", "romanized": "baegopuda", "grammarNote": "배고프다 (baegopuda) = to be hungry. 배 (bae) = stomach/belly. In speech: 배고파요. Compare 배부르다 (baeburuda) = to be full. Unlike Spanish/French, Korean uses its own adjective, not a 'have hunger' construction."},
+        {"front": "I'm very hungry.", "back": "너무 배고파요.", "romanized": "Neomu baegopayo.", "literal": "Too-much hungry."}
       ]
     },
     {
       "id": "thirsty",
       "levels": [
-        {
-          "front": "Thirsty",
-          "back": "목이 마르다",
-          "romanized": "mogi mareuda"
-        },
-        {
-          "front": "I'm very thirsty.",
-          "back": "목이 너무 말라요.",
-          "romanized": "Mogi neomu mallayo.",
-          "literal": "Throat [subj] too-much dry."
-        }
+        {"front": "Thirsty", "back": "목이 마르다", "romanized": "mogi mareuda"},
+        {"front": "I'm very thirsty.", "back": "목이 너무 말라요.", "romanized": "Mogi neomu mallayo.", "literal": "Throat [subj] too-much dry."}
       ]
     },
     {
       "id": "person",
       "levels": [
-        {
-          "front": "Person",
-          "back": "사람",
-          "romanized": "saram"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "저 사람은 누구예요?",
-          "romanized": "Jeo sarameun nuguyeyo?",
-          "literal": "That person [topic] who is?"
-        }
+        {"front": "Person", "back": "사람", "romanized": "saram"},
+        {"front": "Who is that person?", "back": "저 사람은 누구예요?", "romanized": "Jeo sarameun nuguyeyo?", "literal": "That person [topic] who is?"}
       ]
     },
     {
       "id": "place",
       "levels": [
-        {
-          "front": "Place",
-          "back": "장소 / 곳",
-          "romanized": "jangso / got"
-        },
-        {
-          "front": "Do you know a good place?",
-          "back": "좋은 곳 알아요?",
-          "romanized": "Joeun got arayo?",
-          "literal": "Good place know?"
-        }
+        {"front": "Place", "back": "장소 / 곳", "romanized": "jangso / got"},
+        {"front": "Do you know a good place?", "back": "좋은 곳 알아요?", "romanized": "Joeun got arayo?", "literal": "Good place know?"}
       ]
     },
     {
       "id": "thing",
       "levels": [
-        {
-          "front": "Thing",
-          "back": "것 / 물건",
-          "romanized": "geot / mulgeon"
-        },
-        {
-          "front": "What is that thing?",
-          "back": "그게 뭐예요?",
-          "romanized": "Geuge mwoyeyo?",
-          "literal": "That [subj] what is?"
-        }
+        {"front": "Thing", "back": "것 / 물건", "romanized": "geot / mulgeon"},
+        {"front": "What is that thing?", "back": "그게 뭐예요?", "romanized": "Geuge mwoyeyo?", "literal": "That [subj] what is?"}
       ]
     },
     {
       "id": "here",
       "levels": [
-        {
-          "front": "Here",
-          "back": "여기",
-          "romanized": "yeogi"
-        },
-        {
-          "front": "Come here!",
-          "back": "여기 와요!",
-          "romanized": "Yeogi wayo!",
-          "literal": "Here come!"
-        }
+        {"front": "Here", "back": "여기", "romanized": "yeogi"},
+        {"front": "Come here!", "back": "여기 와요!", "romanized": "Yeogi wayo!", "literal": "Here come!"}
       ]
     },
     {
       "id": "there",
       "levels": [
-        {
-          "front": "There",
-          "back": "거기 / 저기",
-          "romanized": "geogi / jeoogi"
-        },
-        {
-          "front": "The bathroom is over there.",
-          "back": "화장실은 저기예요.",
-          "romanized": "Hwajangshireun jeogieyeo.",
-          "literal": "Bathroom [topic] over-there is."
-        }
+        {"front": "There", "back": "거기 / 저기", "romanized": "geogi / jeoogi"},
+        {"front": "The bathroom is over there.", "back": "화장실은 저기예요.", "romanized": "Hwajangshireun jeogieyeo.", "literal": "Bathroom [topic] over-there is."}
       ]
     },
     {
       "id": "very",
       "levels": [
-        {
-          "front": "Very",
-          "back": "매우 / 너무",
-          "romanized": "maeu / neomu",
-          "grammarNote": "너무 (neomu) originally means 'too much' but is used colloquially to mean 'very': 너무 좋아요 (so good!). 매우 (maeu) is the more formal 'very'. 정말 (jeongmal) = 'really/truly' — very common in speech."
-        },
-        {
-          "front": "It's very good.",
-          "back": "너무 좋아요.",
-          "romanized": "Neomu joayo.",
-          "literal": "Too-much good."
-        }
+        {"front": "Very", "back": "매우 / 너무", "romanized": "maeu / neomu", "grammarNote": "너무 (neomu) originally means 'too much' but is used colloquially to mean 'very': 너무 좋아요 (so good!). 매우 (maeu) is the more formal 'very'. 정말 (jeongmal) = 'really/truly' — very common in speech."},
+        {"front": "It's very good.", "back": "너무 좋아요.", "romanized": "Neomu joayo.", "literal": "Too-much good."}
       ]
     },
     {
       "id": "goodbye",
       "levels": [
-        {
-          "front": "Goodbye",
-          "back": "안녕히 가세요 / 잘 가요",
-          "romanized": "annyeonghi gaseyo / jal gayo",
-          "grammarNote": "Two goodbye forms depending on who is leaving: 안녕히 가세요 (said to the person leaving — 'go peacefully'). 안녕히 계세요 (said by the person leaving to whoever stays — 'stay peacefully'). Casual: 잘 가 / 잘 있어."
-        },
-        {
-          "front": "Goodbye! See you tomorrow.",
-          "back": "잘 가요! 내일 봐요.",
-          "romanized": "Jal gayo! Naeil bwayo.",
-          "literal": "Well go! Tomorrow see."
-        }
+        {"front": "Goodbye", "back": "안녕히 가세요 / 잘 가요", "romanized": "annyeonghi gaseyo / jal gayo", "grammarNote": "Two goodbye forms depending on who is leaving: 안녕히 가세요 (said to the person leaving — 'go peacefully'). 안녕히 계세요 (said by the person leaving to whoever stays — 'stay peacefully'). Casual: 잘 가 / 잘 있어."},
+        {"front": "Goodbye! See you tomorrow.", "back": "잘 가요! 내일 봐요.", "romanized": "Jal gayo! Naeil bwayo.", "literal": "Well go! Tomorrow see."}
       ]
     },
     {
       "id": "water",
       "levels": [
-        {
-          "front": "Water",
-          "back": "물",
-          "romanized": "mul"
-        },
-        {
-          "front": "A glass of water, please.",
-          "back": "물 한 잔 주세요.",
-          "romanized": "Mul han jan juseyo.",
-          "literal": "Water one glass please give."
-        }
+        {"front": "Water", "back": "물", "romanized": "mul"},
+        {"front": "A glass of water, please.", "back": "물 한 잔 주세요.", "romanized": "Mul han jan juseyo.", "literal": "Water one glass please give."}
       ]
     },
     {
       "id": "food",
       "levels": [
-        {
-          "front": "Food",
-          "back": "음식",
-          "romanized": "eumsik"
-        },
-        {
-          "front": "The food is delicious.",
-          "back": "음식이 맛있어요.",
-          "romanized": "Eumsigi masisseoyo.",
-          "literal": "Food [subj] delicious."
-        }
+        {"front": "Food", "back": "음식", "romanized": "eumsik"},
+        {"front": "The food is delicious.", "back": "음식이 맛있어요.", "romanized": "Eumsigi masisseoyo.", "literal": "Food [subj] delicious."}
       ]
     },
     {
       "id": "house_home",
       "levels": [
-        {
-          "front": "House / home",
-          "back": "집",
-          "romanized": "jib"
-        },
-        {
-          "front": "My house is nearby.",
-          "back": "우리 집이 가까워요.",
-          "romanized": "Uri jibi gakkawoyo.",
-          "literal": "Our house [subj] nearby."
-        }
+        {"front": "House / home", "back": "집", "romanized": "jib"},
+        {"front": "My house is nearby.", "back": "우리 집이 가까워요.", "romanized": "Uri jibi gakkawoyo.", "literal": "Our house [subj] nearby."}
       ]
     },
     {
       "id": "store_shop",
       "levels": [
-        {
-          "front": "Store / shop",
-          "back": "가게 / 상점",
-          "romanized": "gage / sangjeom"
-        },
-        {
-          "front": "The store is closed.",
-          "back": "가게가 닫았어요.",
-          "romanized": "Gagega dad-asseoyo.",
-          "literal": "Store [subj] closed."
-        }
+        {"front": "Store / shop", "back": "가게 / 상점", "romanized": "gage / sangjeom"},
+        {"front": "The store is closed.", "back": "가게가 닫았어요.", "romanized": "Gagega dad-asseoyo.", "literal": "Store [subj] closed."}
       ]
     },
     {
       "id": "cash_credit",
       "levels": [
-        {
-          "front": "Cash / credit",
-          "back": "현금 / 카드",
-          "romanized": "hyeongeum / kadeu"
-        },
-        {
-          "front": "Cash or card?",
-          "back": "현금이에요, 카드예요?",
-          "romanized": "Hyeongeumieyo, kadeuyeyo?",
-          "literal": "Cash is, card is?"
-        }
+        {"front": "Cash / credit", "back": "현금 / 카드", "romanized": "hyeongeum / kadeu"},
+        {"front": "Cash or card?", "back": "현금이에요, 카드예요?", "romanized": "Hyeongeumieyo, kadeuyeyo?", "literal": "Cash is, card is?"}
       ]
     },
     {
       "id": "help",
       "levels": [
-        {
-          "front": "Help",
-          "back": "도움",
-          "romanized": "doum"
-        },
-        {
-          "front": "I need help.",
-          "back": "도움이 필요해요.",
-          "romanized": "Doumi piryohaeyo.",
-          "literal": "Help [subj] needed."
-        }
+        {"front": "Help", "back": "도움", "romanized": "doum"},
+        {"front": "I need help.", "back": "도움이 필요해요.", "romanized": "Doumi piryohaeyo.", "literal": "Help [subj] needed."}
       ]
     },
     {
       "id": "bathroom",
       "levels": [
-        {
-          "front": "Bathroom",
-          "back": "화장실",
-          "romanized": "hwajangsil"
-        },
-        {
-          "front": "Where is the bathroom?",
-          "back": "화장실이 어디예요?",
-          "romanized": "Hwajangshiri eodiyeyo?",
-          "literal": "Bathroom [subj] where is?"
-        }
+        {"front": "Bathroom", "back": "화장실", "romanized": "hwajangsil"},
+        {"front": "Where is the bathroom?", "back": "화장실이 어디예요?", "romanized": "Hwajangshiri eodiyeyo?", "literal": "Bathroom [subj] where is?"}
       ]
     },
     {
       "id": "always",
       "levels": [
-        {
-          "front": "Always",
-          "back": "항상",
-          "romanized": "hangsang"
-        },
-        {
-          "front": "I always drink coffee in the morning.",
-          "back": "항상 아침에 커피를 마셔요.",
-          "romanized": "Hangsang achime keopireul masyeoyo.",
-          "literal": "Always morning-at coffee [obj] drink."
-        }
+        {"front": "Always", "back": "항상", "romanized": "hangsang"},
+        {"front": "I always drink coffee in the morning.", "back": "항상 아침에 커피를 마셔요.", "romanized": "Hangsang achime keopireul masyeoyo.", "literal": "Always morning-at coffee [obj] drink."}
       ]
     },
     {
       "id": "never",
       "levels": [
-        {
-          "front": "Never",
-          "back": "절대로 〜않다",
-          "romanized": "jeoldaero ~ anta",
-          "grammarNote": "절대로 (jeoldaero) = absolutely/never, paired with a negative verb: 절대로 안 가요 (I never go). 한 번도 〜않다 (han beondo ~ anta) = not even once. The negative marker 안 or 〜지 않다 is required."
-        },
-        {
-          "front": "I'm never late.",
-          "back": "절대로 늦지 않아요.",
-          "romanized": "Jeoldaero neutji anayo.",
-          "literal": "Never late not."
-        }
+        {"front": "Never", "back": "절대로 〜않다", "romanized": "jeoldaero ~ anta", "grammarNote": "절대로 (jeoldaero) = absolutely/never, paired with a negative verb: 절대로 안 가요 (I never go). 한 번도 〜않다 (han beondo ~ anta) = not even once. The negative marker 안 or 〜지 않다 is required."},
+        {"front": "I'm never late.", "back": "절대로 늦지 않아요.", "romanized": "Jeoldaero neutji anayo.", "literal": "Never late not."}
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {
-          "front": "To go",
-          "back": "가다",
-          "romanized": "gada"
-        },
-        {
-          "front": "I'm going to the store.",
-          "back": "가게에 가요.",
-          "romanized": "Gagee gayo.",
-          "literal": "Store-at go."
-        }
+        {"front": "To go", "back": "가다", "romanized": "gada"},
+        {"front": "I'm going to the store.", "back": "가게에 가요.", "romanized": "Gagee gayo.", "literal": "Store-at go."}
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {
-          "front": "To come",
-          "back": "오다",
-          "romanized": "oda"
-        },
-        {
-          "front": "Where did you come from?",
-          "back": "어디서 왔어요?",
-          "romanized": "Eodiseo wasseoyo?",
-          "literal": "Where-from came?"
-        }
+        {"front": "To come", "back": "오다", "romanized": "oda"},
+        {"front": "Where did you come from?", "back": "어디서 왔어요?", "romanized": "Eodiseo wasseoyo?", "literal": "Where-from came?"}
       ]
     },
     {
       "id": "to_understand",
       "levels": [
-        {
-          "front": "To understand",
-          "back": "이해하다 / 알다",
-          "romanized": "ihaehada / alda"
-        },
-        {
-          "front": "I don't understand.",
-          "back": "이해 못 해요.",
-          "romanized": "Ihae mot haeyo.",
-          "literal": "Understanding cannot do."
-        }
+        {"front": "To understand", "back": "이해하다 / 알다", "romanized": "ihaehada / alda"},
+        {"front": "I don't understand.", "back": "이해 못 해요.", "romanized": "Ihae mot haeyo.", "literal": "Understanding cannot do."}
       ]
     },
     {
       "id": "to_speak_talk",
       "levels": [
-        {
-          "front": "To speak / talk",
-          "back": "말하다",
-          "romanized": "malhada"
-        },
-        {
-          "front": "Do you speak Korean?",
-          "back": "한국어 말해요?",
-          "romanized": "Hangueo malhaeyo?",
-          "literal": "Korean speak?"
-        }
+        {"front": "To speak / talk", "back": "말하다", "romanized": "malhada"},
+        {"front": "Do you speak Korean?", "back": "한국어 말해요?", "romanized": "Hangueo malhaeyo?", "literal": "Korean speak?"}
       ]
     },
     {
       "id": "to_give",
       "levels": [
-        {
-          "front": "To give",
-          "back": "주다",
-          "romanized": "juda",
-          "grammarNote": "주다 (juda) = to give. 〜아/어 주세요 = please do [something] for me: 도와주세요 (please help me), 가르쳐 주세요 (please teach me). The pattern 〜아/어 주다 frames actions as favors — very common in polite requests."
-        },
-        {
-          "front": "Please give me the menu.",
-          "back": "메뉴 주세요.",
-          "romanized": "Menyu juseyo.",
-          "literal": "Menu please give."
-        }
+        {"front": "To give", "back": "주다", "romanized": "juda", "grammarNote": "주다 (juda) = to give. 〜아/어 주세요 = please do [something] for me: 도와주세요 (please help me), 가르쳐 주세요 (please teach me). The pattern 〜아/어 주다 frames actions as favors — very common in polite requests."},
+        {"front": "Please give me the menu.", "back": "메뉴 주세요.", "romanized": "Menyu juseyo.", "literal": "Menu please give."}
       ]
     },
     {
       "id": "to_see",
       "levels": [
-        {
-          "front": "To see",
-          "back": "보다",
-          "romanized": "boda"
-        },
-        {
-          "front": "I can't see anything.",
-          "back": "아무것도 못 봐요.",
-          "romanized": "Amugeotdo mot bwayo.",
-          "literal": "Anything [also] cannot see."
-        }
+        {"front": "To see", "back": "보다", "romanized": "boda"},
+        {"front": "I can't see anything.", "back": "아무것도 못 봐요.", "romanized": "Amugeotdo mot bwayo.", "literal": "Anything [also] cannot see."}
       ]
     },
     {
       "id": "with",
       "levels": [
-        {
-          "front": "With",
-          "back": "〜와/과 함께",
-          "romanized": "~ wa/gwa hamkke"
-        },
-        {
-          "front": "I came with my friend.",
-          "back": "친구와 함께 왔어요.",
-          "romanized": "Chinguwa hamkke wasseoyo.",
-          "literal": "Friend with together came."
-        }
+        {"front": "With", "back": "〜와/과 함께", "romanized": "~ wa/gwa hamkke"},
+        {"front": "I came with my friend.", "back": "친구와 함께 왔어요.", "romanized": "Chinguwa hamkke wasseoyo.", "literal": "Friend with together came."}
       ]
     },
     {
       "id": "without",
       "levels": [
-        {
-          "front": "Without",
-          "back": "없이",
-          "romanized": "eopsi"
-        },
-        {
-          "front": "Coffee without sugar, please.",
-          "back": "설탕 없이 커피 주세요.",
-          "romanized": "Seoltang eopsi keopi juseyo.",
-          "literal": "Sugar without coffee please give."
-        }
+        {"front": "Without", "back": "없이", "romanized": "eopsi"},
+        {"front": "Coffee without sugar, please.", "back": "설탕 없이 커피 주세요.", "romanized": "Seoltang eopsi keopi juseyo.", "literal": "Sugar without coffee please give."}
       ]
     },
     {
       "id": "for",
       "levels": [
-        {
-          "front": "For",
-          "back": "〜을/를 위해",
-          "romanized": "~ eul/reul wihae"
-        },
-        {
-          "front": "This is for you.",
-          "back": "이건 당신을 위한 거예요.",
-          "romanized": "Igeon dangsineul wihan geoyeyo.",
-          "literal": "This [topic] you [obj] for thing is."
-        }
+        {"front": "For", "back": "〜을/를 위해", "romanized": "~ eul/reul wihae"},
+        {"front": "This is for you.", "back": "이건 당신을 위한 거예요.", "romanized": "Igeon dangsineul wihan geoyeyo.", "literal": "This [topic] you [obj] for thing is."}
       ]
     },
     {
       "id": "in_on_at",
       "levels": [
-        {
-          "front": "In / on / at",
-          "back": "〜에서 / 〜에",
-          "romanized": "~ eseo / ~ e",
-          "grammarNote": "에 (e) = direction or static location: 학교에 가요 (go to school), 집에 있어요 (at home). 에서 (eseo) = where an action takes place: 카페에서 먹어요 (eat at the café). Use 에 for 'where something is', 에서 for 'where you do something'."
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "책이 테이블 위에 있어요.",
-          "romanized": "Chaegi teibeul wie isseoyo.",
-          "literal": "Book [subj] table on-at there is."
-        }
+        {"front": "In / on / at", "back": "〜에서 / 〜에", "romanized": "~ eseo / ~ e", "grammarNote": "에 (e) = direction or static location: 학교에 가요 (go to school), 집에 있어요 (at home). 에서 (eseo) = where an action takes place: 카페에서 먹어요 (eat at the café). Use 에 for 'where something is', 에서 for 'where you do something'."},
+        {"front": "The book is on the table.", "back": "책이 테이블 위에 있어요.", "romanized": "Chaegi teibeul wie isseoyo.", "literal": "Book [subj] table on-at there is."}
       ]
     },
     {
       "id": "from",
       "levels": [
-        {
-          "front": "From",
-          "back": "〜에서 / 부터",
-          "romanized": "~ eseo / buteo"
-        },
-        {
-          "front": "Where are you from?",
-          "back": "어디서 왔어요?",
-          "romanized": "Eodiseo wasseoyo?",
-          "literal": "Where-from came?"
-        }
+        {"front": "From", "back": "〜에서 / 부터", "romanized": "~ eseo / buteo"},
+        {"front": "Where are you from?", "back": "어디서 왔어요?", "romanized": "Eodiseo wasseoyo?", "literal": "Where-from came?"}
       ]
     },
     {
       "id": "good",
       "levels": [
-        {
-          "front": "Good",
-          "back": "좋다",
-          "romanized": "jota"
-        },
-        {
-          "front": "That's a good idea.",
-          "back": "좋은 생각이에요.",
-          "romanized": "Joeun saenggagieyo.",
-          "literal": "Good idea is."
-        }
+        {"front": "Good", "back": "좋다", "romanized": "jota"},
+        {"front": "That's a good idea.", "back": "좋은 생각이에요.", "romanized": "Joeun saenggagieyo.", "literal": "Good idea is."}
       ]
     },
     {
       "id": "bad",
       "levels": [
-        {
-          "front": "Bad",
-          "back": "나쁘다",
-          "romanized": "nappeuda"
-        },
-        {
-          "front": "That's bad.",
-          "back": "그건 나빠요.",
-          "romanized": "Geugeon nappayo.",
-          "literal": "That [topic] bad."
-        }
+        {"front": "Bad", "back": "나쁘다", "romanized": "nappeuda"},
+        {"front": "That's bad.", "back": "그건 나빠요.", "romanized": "Geugeon nappayo.", "literal": "That [topic] bad."}
       ]
     },
     {
       "id": "big",
       "levels": [
-        {
-          "front": "Big",
-          "back": "크다",
-          "romanized": "keuda"
-        },
-        {
-          "front": "A large coffee, please.",
-          "back": "큰 커피 주세요.",
-          "romanized": "Keun keopi juseyo.",
-          "literal": "Large coffee please give."
-        }
+        {"front": "Big", "back": "크다", "romanized": "keuda"},
+        {"front": "A large coffee, please.", "back": "큰 커피 주세요.", "romanized": "Keun keopi juseyo.", "literal": "Large coffee please give."}
       ]
     },
     {
       "id": "small",
       "levels": [
-        {
-          "front": "Small",
-          "back": "작다",
-          "romanized": "jakda"
-        },
-        {
-          "front": "A small table, please.",
-          "back": "작은 테이블 주세요.",
-          "romanized": "Jageun teibeul juseyo.",
-          "literal": "Small table please give."
-        }
+        {"front": "Small", "back": "작다", "romanized": "jakda"},
+        {"front": "A small table, please.", "back": "작은 테이블 주세요.", "romanized": "Jageun teibeul juseyo.", "literal": "Small table please give."}
       ]
     },
     {
       "id": "a_lot_much",
       "levels": [
-        {
-          "front": "A lot / much",
-          "back": "많이",
-          "romanized": "mani"
-        },
-        {
-          "front": "I have a lot of work.",
-          "back": "할 일이 많아요.",
-          "romanized": "Hal iri manayo.",
-          "literal": "Do-to-do work [subj] many."
-        }
+        {"front": "A lot / much", "back": "많이", "romanized": "mani"},
+        {"front": "I have a lot of work.", "back": "할 일이 많아요.", "romanized": "Hal iri manayo.", "literal": "Do-to-do work [subj] many."}
       ]
     },
     {
       "id": "a_little",
       "levels": [
-        {
-          "front": "A little",
-          "back": "조금",
-          "romanized": "jogeum"
-        },
-        {
-          "front": "A little water, please.",
-          "back": "물 조금 주세요.",
-          "romanized": "Mul jogeum juseyo.",
-          "literal": "Water a-little please give."
-        }
+        {"front": "A little", "back": "조금", "romanized": "jogeum"},
+        {"front": "A little water, please.", "back": "물 조금 주세요.", "romanized": "Mul jogeum juseyo.", "literal": "Water a-little please give."}
       ]
     },
     {
       "id": "how_do_you_say",
       "levels": [
-        {
-          "front": "How do you say ___?",
-          "back": "___는 어떻게 말해요?",
-          "romanized": "~ neun eotteoke malhaeyo?"
-        },
-        {
-          "front": "How do you say 'thank you' in Korean?",
-          "back": "'thank you'는 한국어로 어떻게 말해요?",
-          "romanized": "'thank you' neun hangugeoro eotteoke malhaeyo?",
-          "literal": "'thank you' [topic] Korean-in how say?"
-        }
+        {"front": "How do you say ___?", "back": "___는 어떻게 말해요?", "romanized": "~ neun eotteoke malhaeyo?"},
+        {"front": "How do you say 'thank you' in Korean?", "back": "'thank you'는 한국어로 어떻게 말해요?", "romanized": "'thank you' neun hangugeoro eotteoke malhaeyo?", "literal": "'thank you' [topic] Korean-in how say?"}
       ]
     },
     {
       "id": "can_you_help_me",
       "levels": [
-        {
-          "front": "Can you help me?",
-          "back": "도와줄 수 있어요?",
-          "romanized": "Dowajul su isseoyo?",
-          "literal": "Help-give can?"
-        }
+        {"front": "Can you help me?", "back": "도와줄 수 있어요?", "romanized": "Dowajul su isseoyo?", "literal": "Help-give can?"}
       ]
     },
     {
       "id": "how_much_does_it_cost",
       "levels": [
-        {
-          "front": "How much does it cost?",
-          "back": "얼마예요?",
-          "romanized": "Eolmayeyo?",
-          "literal": "How-much is?"
-        }
+        {"front": "How much does it cost?", "back": "얼마예요?", "romanized": "Eolmayeyo?", "literal": "How-much is?"}
       ]
     },
     {
       "id": "im_sorry",
       "levels": [
-        {
-          "front": "I'm sorry",
-          "back": "죄송해요 / 미안해요",
-          "romanized": "joesonghaeyo / mianhaeyo",
-          "grammarNote": "죄송해요 (joesonghaeyo) = formal apology, used with strangers or elders. 미안해요 (mianhaeyo) = casual sorry, with friends. 미안해 (mianhae) = very casual. Koreans apologize frequently as a sign of social consideration."
-        },
-        {
-          "front": "I'm very sorry.",
-          "back": "정말 죄송해요.",
-          "romanized": "Jeongmal joesonghaeyo.",
-          "literal": "Truly sorry."
-        }
+        {"front": "I'm sorry", "back": "죄송해요 / 미안해요", "romanized": "joesonghaeyo / mianhaeyo", "grammarNote": "죄송해요 (joesonghaeyo) = formal apology, used with strangers or elders. 미안해요 (mianhaeyo) = casual sorry, with friends. 미안해 (mianhae) = very casual. Koreans apologize frequently as a sign of social consideration."},
+        {"front": "I'm very sorry.", "back": "정말 죄송해요.", "romanized": "Jeongmal joesonghaeyo.", "literal": "Truly sorry."}
       ]
     },
     {
       "id": "no_problem",
       "levels": [
-        {
-          "front": "No problem",
-          "back": "괜찮아요",
-          "romanized": "gwaenchanayo"
-        },
-        {
-          "front": "No problem, don't worry.",
-          "back": "괜찮아요, 걱정 마세요.",
-          "romanized": "Gwaenchanayo, geokjeong maseyo.",
-          "literal": "OK, worry please-don't."
-        }
+        {"front": "No problem", "back": "괜찮아요", "romanized": "gwaenchanayo"},
+        {"front": "No problem, don't worry.", "back": "괜찮아요, 걱정 마세요.", "romanized": "Gwaenchanayo, geokjeong maseyo.", "literal": "OK, worry please-don't."}
       ]
     }
   ]

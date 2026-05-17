@@ -1,62 +1,15 @@
 {
-    "id": "at_the_doctor",
-    "name": "At the Doctor",
-    "sentences": [
-        {
-            "base_language": "I don't feel well.",
-            "target_language": "我感觉不舒服。",
-            "romanized": "Wǒ gǎnjué bù shūfu.",
-            "literal": "I feel not comfortable."
-        },
-        {
-            "base_language": "I need to see a doctor.",
-            "target_language": "我需要去看医生。",
-            "romanized": "Wǒ xūyào qù kàn yīshēng.",
-            "literal": "I need go see doctor.",
-            "grammarNote": "看 (kàn) in medical context = 'to see (a doctor)'. 看医生 = 'see a doctor'. Also: 看病 (see a doctor / get medical treatment) is a very common fixed phrase."
-        },
-        {
-            "base_language": "Where does it hurt?",
-            "target_language": "哪里疼？",
-            "romanized": "Nǎlǐ téng?",
-            "literal": "Where hurts?",
-            "grammarNote": "疼 (téng) = 'to hurt / ache'. In Chinese, the hurting body part is the subject: 肚子疼 (my stomach hurts), 头疼 (my head hurts). Unlike English, there's no 'my' needed — context makes it possessive."
-        },
-        {
-            "base_language": "My stomach has been hurting since yesterday.",
-            "target_language": "我的肚子从昨天就开始疼了。",
-            "romanized": "Wǒ de dùzi cóng zuótiān jiù kāishǐ téng le.",
-            "literal": "My stomach since yesterday started hurting.",
-            "grammarNote": "从 (cóng) = 'from / since' (a starting time). 从昨天 = 'since yesterday'. 就 here emphasizes that the action started right at that point. Together: 从昨天就开始… = 'has been … ever since yesterday'."
-        },
-        {
-            "base_language": "Have you eaten anything unusual?",
-            "target_language": "你有没有吃了什么奇怪的东西？",
-            "romanized": "Nǐ yǒuméiyǒu chī le shénme qíguài de dōngxi?",
-            "literal": "You did-or-didn't eat any strange things?",
-            "grammarNote": "有没有 = affirmative-negative question: 'did you or did you not…?'. This is an alternative to adding 吗 to a positive statement. Both are correct, but 有没有 often sounds more probing."
-        },
-        {
-            "base_language": "I'll prescribe you some medicine.",
-            "target_language": "我给你开一些药。",
-            "romanized": "Wǒ gěi nǐ kāi yīxiē yào.",
-            "literal": "I for you prescribe some medicine.",
-            "grammarNote": "给 (gěi) as a preposition: 给你 = 'for you / to you'. 开药 = 'prescribe medicine' (literally 'open/write medicine'). Pattern: 给 + person + verb + object."
-        },
-        {
-            "base_language": "Take this medicine three times a day.",
-            "target_language": "这个药一天吃三次。",
-            "romanized": "Zhège yào yī tiān chī sān cì.",
-            "literal": "This medicine one day take three times.",
-            "grammarNote": "次 (cì) is the measure word for occurrences/times: 一次 (once), 两次 (twice), 三次 (three times). Pattern: number + 次 = frequency. 一天三次 = 'three times a day'."
-        },
-        {
-            "base_language": "Rest and drink plenty of water.",
-            "target_language": "多休息，多喝水。",
-            "romanized": "Duō xiūxi, duō hē shuǐ.",
-            "literal": "More rest, more drink water.",
-            "grammarNote": "多 (duō) before a verb = 'do more of / do plenty of': 多吃蔬菜 (eat more vegetables), 多运动 (exercise more). 少 (shǎo) is the opposite: 少吃糖 (eat less sugar)."
-        }
-    ],
-    "difficulty": "easy"
+  "id": "at_the_doctor",
+  "name": "At the Doctor",
+  "sentences": [
+    {"base_language": "I don't feel well.", "target_language": "我感觉不舒服。", "romanized": "Wǒ gǎnjué bù shūfu.", "literal": "I feel not comfortable."},
+    {"base_language": "I need to see a doctor.", "target_language": "我需要去看医生。", "romanized": "Wǒ xūyào qù kàn yīshēng.", "literal": "I need go see doctor.", "grammarNote": "看 (kàn) in medical context = 'to see (a doctor)'. 看医生 = 'see a doctor'. Also: 看病 (see a doctor / get medical treatment) is a very common fixed phrase."},
+    {"base_language": "Where does it hurt?", "target_language": "哪里疼？", "romanized": "Nǎlǐ téng?", "literal": "Where hurts?", "grammarNote": "疼 (téng) = 'to hurt / ache'. In Chinese, the hurting body part is the subject: 肚子疼 (my stomach hurts), 头疼 (my head hurts). Unlike English, there's no 'my' needed — context makes it possessive."},
+    {"base_language": "My stomach has been hurting since yesterday.", "target_language": "我的肚子从昨天就开始疼了。", "romanized": "Wǒ de dùzi cóng zuótiān jiù kāishǐ téng le.", "literal": "My stomach since yesterday started hurting.", "grammarNote": "从 (cóng) = 'from / since' (a starting time). 从昨天 = 'since yesterday'. 就 here emphasizes that the action started right at that point. Together: 从昨天就开始… = 'has been … ever since yesterday'."},
+    {"base_language": "Have you eaten anything unusual?", "target_language": "你有没有吃了什么奇怪的东西？", "romanized": "Nǐ yǒuméiyǒu chī le shénme qíguài de dōngxi?", "literal": "You did-or-didn't eat any strange things?", "grammarNote": "有没有 = affirmative-negative question: 'did you or did you not…?'. This is an alternative to adding 吗 to a positive statement. Both are correct, but 有没有 often sounds more probing."},
+    {"base_language": "I'll prescribe you some medicine.", "target_language": "我给你开一些药。", "romanized": "Wǒ gěi nǐ kāi yīxiē yào.", "literal": "I for you prescribe some medicine.", "grammarNote": "给 (gěi) as a preposition: 给你 = 'for you / to you'. 开药 = 'prescribe medicine' (literally 'open/write medicine'). Pattern: 给 + person + verb + object."},
+    {"base_language": "Take this medicine three times a day.", "target_language": "这个药一天吃三次。", "romanized": "Zhège yào yī tiān chī sān cì.", "literal": "This medicine one day take three times.", "grammarNote": "次 (cì) is the measure word for occurrences/times: 一次 (once), 两次 (twice), 三次 (three times). Pattern: number + 次 = frequency. 一天三次 = 'three times a day'."},
+    {"base_language": "Rest and drink plenty of water.", "target_language": "多休息，多喝水。", "romanized": "Duō xiūxi, duō hē shuǐ.", "literal": "More rest, more drink water.", "grammarNote": "多 (duō) before a verb = 'do more of / do plenty of': 多吃蔬菜 (eat more vegetables), 多运动 (exercise more). 少 (shǎo) is the opposite: 少吃糖 (eat less sugar)."}
+  ],
+  "difficulty": "easy"
 }

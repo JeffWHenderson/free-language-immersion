@@ -10,1366 +10,596 @@
     {
       "id": "home",
       "levels": [
-        {
-          "front": "Home",
-          "back": "집 / 가정",
-          "romanized": "jip / gajeong",
-          "grammarNote": "'Jip' (집) is the physical house or home. '집에 가다' (jibe gada) means to go home. In Korean, location particles are: '에' (e) for direction/existence and '에서' (eseo) for actions at a place."
-        },
-        {
-          "front": "I'm going home.",
-          "back": "집에 가요.",
-          "romanized": "jibe gayo",
-          "literal": "Home to go."
-        }
+        {"front": "Home", "back": "집 / 가정", "romanized": "jip / gajeong", "grammarNote": "'Jip' (집) is the physical house or home. '집에 가다' (jibe gada) means to go home. In Korean, location particles are: '에' (e) for direction/existence and '에서' (eseo) for actions at a place."},
+        {"front": "I'm going home.", "back": "집에 가요.", "romanized": "jibe gayo", "literal": "Home to go."}
       ]
     },
     {
       "id": "apartment",
       "levels": [
-        {
-          "front": "Apartment",
-          "back": "아파트",
-          "romanized": "apateu",
-          "grammarNote": "Korea has some of the world's highest rates of apartment living. '아파트' (apateu) refers to large high-rise apartment complexes (different from the Western sense of 'apartment'). Complexes are often called '단지' (danji)."
-        },
-        {
-          "front": "I live in an apartment.",
-          "back": "아파트에 살아요.",
-          "romanized": "apateue sarayo",
-          "literal": "Apartment at live."
-        }
+        {"front": "Apartment", "back": "아파트", "romanized": "apateu", "grammarNote": "Korea has some of the world's highest rates of apartment living. '아파트' (apateu) refers to large high-rise apartment complexes (different from the Western sense of 'apartment'). Complexes are often called '단지' (danji)."},
+        {"front": "I live in an apartment.", "back": "아파트에 살아요.", "romanized": "apateue sarayo", "literal": "Apartment at live."}
       ]
     },
     {
       "id": "school",
       "levels": [
-        {
-          "front": "School",
-          "back": "학교",
-          "romanized": "hakgyo"
-        },
-        {
-          "front": "The children go to school.",
-          "back": "아이들이 학교에 가요.",
-          "romanized": "aideuri hakgyoe gayo",
-          "literal": "Children [subj] school to go."
-        }
+        {"front": "School", "back": "학교", "romanized": "hakgyo"},
+        {"front": "The children go to school.", "back": "아이들이 학교에 가요.", "romanized": "aideuri hakgyoe gayo", "literal": "Children [subj] school to go."}
       ]
     },
     {
       "id": "university",
       "levels": [
-        {
-          "front": "University",
-          "back": "대학교 / 대학",
-          "romanized": "daehakgyo / daehak"
-        },
-        {
-          "front": "She studies at the university.",
-          "back": "그녀는 대학교에서 공부해요.",
-          "romanized": "geunyeoneun daehakgyoeseo gongbuhaeyo",
-          "literal": "She [topic] university at studies."
-        }
+        {"front": "University", "back": "대학교 / 대학", "romanized": "daehakgyo / daehak"},
+        {"front": "She studies at the university.", "back": "그녀는 대학교에서 공부해요.", "romanized": "geunyeoneun daehakgyoeseo gongbuhaeyo", "literal": "She [topic] university at studies."}
       ]
     },
     {
       "id": "office",
       "levels": [
-        {
-          "front": "Office",
-          "back": "사무실",
-          "romanized": "samusil"
-        },
-        {
-          "front": "He works in an office.",
-          "back": "그는 사무실에서 일해요.",
-          "romanized": "geuneun samusilleseo ilhaeyo",
-          "literal": "He [topic] office at works."
-        }
+        {"front": "Office", "back": "사무실", "romanized": "samusil"},
+        {"front": "He works in an office.", "back": "그는 사무실에서 일해요.", "romanized": "geuneun samusilleseo ilhaeyo", "literal": "He [topic] office at works."}
       ]
     },
     {
       "id": "hospital",
       "levels": [
-        {
-          "front": "Hospital",
-          "back": "병원",
-          "romanized": "byeongwon"
-        },
-        {
-          "front": "I'm going to the hospital.",
-          "back": "병원에 가요.",
-          "romanized": "byeongwone gayo",
-          "literal": "Hospital to go."
-        }
+        {"front": "Hospital", "back": "병원", "romanized": "byeongwon"},
+        {"front": "I'm going to the hospital.", "back": "병원에 가요.", "romanized": "byeongwone gayo", "literal": "Hospital to go."}
       ]
     },
     {
       "id": "grocery_store",
       "levels": [
-        {
-          "front": "Grocery store",
-          "back": "슈퍼마켓 / 마트",
-          "romanized": "syupeomaket / mateu"
-        },
-        {
-          "front": "I need to go to the supermarket.",
-          "back": "슈퍼마켓에 가야 해요.",
-          "romanized": "syupeomakete gaya haeyo",
-          "literal": "Supermarket to go-must do."
-        }
+        {"front": "Grocery store", "back": "슈퍼마켓 / 마트", "romanized": "syupeomaket / mateu"},
+        {"front": "I need to go to the supermarket.", "back": "슈퍼마켓에 가야 해요.", "romanized": "syupeomakete gaya haeyo", "literal": "Supermarket to go-must do."}
       ]
     },
     {
       "id": "bank",
       "levels": [
-        {
-          "front": "Bank",
-          "back": "은행",
-          "romanized": "eunhaeng"
-        },
-        {
-          "front": "I'm coming from the bank.",
-          "back": "은행에서 왔어요.",
-          "romanized": "eunhaengeseo wasseoyo",
-          "literal": "Bank from came."
-        }
+        {"front": "Bank", "back": "은행", "romanized": "eunhaeng"},
+        {"front": "I'm coming from the bank.", "back": "은행에서 왔어요.", "romanized": "eunhaengeseo wasseoyo", "literal": "Bank from came."}
       ]
     },
     {
       "id": "library",
       "levels": [
-        {
-          "front": "Library",
-          "back": "도서관",
-          "romanized": "doseogwan"
-        },
-        {
-          "front": "I study in the library.",
-          "back": "도서관에서 공부해요.",
-          "romanized": "doseogwaneseo gongbuhaeyo",
-          "literal": "Library at study."
-        }
+        {"front": "Library", "back": "도서관", "romanized": "doseogwan"},
+        {"front": "I study in the library.", "back": "도서관에서 공부해요.", "romanized": "doseogwaneseo gongbuhaeyo", "literal": "Library at study."}
       ]
     },
     {
       "id": "restaurant",
       "levels": [
-        {
-          "front": "Restaurant",
-          "back": "식당 / 레스토랑",
-          "romanized": "sikdang / reseutorang"
-        },
-        {
-          "front": "The restaurant is full.",
-          "back": "식당이 꽉 찼어요.",
-          "romanized": "sikdangi kkwak chasseoyo",
-          "literal": "Restaurant [subj] completely full-is."
-        }
+        {"front": "Restaurant", "back": "식당 / 레스토랑", "romanized": "sikdang / reseutorang"},
+        {"front": "The restaurant is full.", "back": "식당이 꽉 찼어요.", "romanized": "sikdangi kkwak chasseoyo", "literal": "Restaurant [subj] completely full-is."}
       ]
     },
     {
       "id": "cafe",
       "levels": [
-        {
-          "front": "Cafe",
-          "back": "카페",
-          "romanized": "kape"
-        },
-        {
-          "front": "Let's meet at the cafe.",
-          "back": "카페에서 만나요.",
-          "romanized": "kapeeseo mannayo",
-          "literal": "Cafe at meet."
-        }
+        {"front": "Cafe", "back": "카페", "romanized": "kape"},
+        {"front": "Let's meet at the cafe.", "back": "카페에서 만나요.", "romanized": "kapeeseo mannayo", "literal": "Cafe at meet."}
       ]
     },
     {
       "id": "hotel",
       "levels": [
-        {
-          "front": "Hotel",
-          "back": "호텔",
-          "romanized": "hotel"
-        },
-        {
-          "front": "The hotel is downtown.",
-          "back": "호텔이 시내에 있어요.",
-          "romanized": "hoteli sinaee isseoyo",
-          "literal": "Hotel [subj] downtown at is."
-        }
+        {"front": "Hotel", "back": "호텔", "romanized": "hotel"},
+        {"front": "The hotel is downtown.", "back": "호텔이 시내에 있어요.", "romanized": "hoteli sinaee isseoyo", "literal": "Hotel [subj] downtown at is."}
       ]
     },
     {
       "id": "airport",
       "levels": [
-        {
-          "front": "Airport",
-          "back": "공항",
-          "romanized": "gonghang"
-        },
-        {
-          "front": "The airport is far from here.",
-          "back": "공항은 여기서 멀어요.",
-          "romanized": "gonghang-eun yeogiseo meoreoyo",
-          "literal": "Airport [topic] here from far-is."
-        }
+        {"front": "Airport", "back": "공항", "romanized": "gonghang"},
+        {"front": "The airport is far from here.", "back": "공항은 여기서 멀어요.", "romanized": "gonghang-eun yeogiseo meoreoyo", "literal": "Airport [topic] here from far-is."}
       ]
     },
     {
       "id": "station",
       "levels": [
-        {
-          "front": "Station",
-          "back": "역",
-          "romanized": "yeok"
-        },
-        {
-          "front": "The station is near the hotel.",
-          "back": "역이 호텔 가까이에 있어요.",
-          "romanized": "yeogi hotel gakkaie isseoyo",
-          "literal": "Station [subj] hotel near-at is."
-        }
+        {"front": "Station", "back": "역", "romanized": "yeok"},
+        {"front": "The station is near the hotel.", "back": "역이 호텔 가까이에 있어요.", "romanized": "yeogi hotel gakkaie isseoyo", "literal": "Station [subj] hotel near-at is."}
       ]
     },
     {
       "id": "bus_stop",
       "levels": [
-        {
-          "front": "Bus stop",
-          "back": "버스 정류장",
-          "romanized": "beoseu jeongnyujang"
-        },
-        {
-          "front": "Wait at the bus stop.",
-          "back": "버스 정류장에서 기다리세요.",
-          "romanized": "beoseu jeongnyujangeseo gidariseyo",
-          "literal": "Bus stop at please-wait."
-        }
+        {"front": "Bus stop", "back": "버스 정류장", "romanized": "beoseu jeongnyujang"},
+        {"front": "Wait at the bus stop.", "back": "버스 정류장에서 기다리세요.", "romanized": "beoseu jeongnyujangeseo gidariseyo", "literal": "Bus stop at please-wait."}
       ]
     },
     {
       "id": "park",
       "levels": [
-        {
-          "front": "Park",
-          "back": "공원",
-          "romanized": "gongwon"
-        },
-        {
-          "front": "The children play in the park.",
-          "back": "아이들이 공원에서 놀아요.",
-          "romanized": "aideuri gongwoneseo norayo",
-          "literal": "Children [subj] park at play."
-        }
+        {"front": "Park", "back": "공원", "romanized": "gongwon"},
+        {"front": "The children play in the park.", "back": "아이들이 공원에서 놀아요.", "romanized": "aideuri gongwoneseo norayo", "literal": "Children [subj] park at play."}
       ]
     },
     {
       "id": "square",
       "levels": [
-        {
-          "front": "Square",
-          "back": "광장",
-          "romanized": "gwangjang"
-        },
-        {
-          "front": "There's a fountain in the square.",
-          "back": "광장에 분수가 있어요.",
-          "romanized": "gwangjanге bunsuga isseoyo",
-          "literal": "Square at fountain [subj] is."
-        }
+        {"front": "Square", "back": "광장", "romanized": "gwangjang"},
+        {"front": "There's a fountain in the square.", "back": "광장에 분수가 있어요.", "romanized": "gwangjanге bunsuga isseoyo", "literal": "Square at fountain [subj] is."}
       ]
     },
     {
       "id": "street",
       "levels": [
-        {
-          "front": "Street",
-          "back": "거리 / 길",
-          "romanized": "geori / gil"
-        },
-        {
-          "front": "The restaurant is on this street.",
-          "back": "식당이 이 거리에 있어요.",
-          "romanized": "sikdangi i georie isseoyo",
-          "literal": "Restaurant [subj] this street at is."
-        }
+        {"front": "Street", "back": "거리 / 길", "romanized": "geori / gil"},
+        {"front": "The restaurant is on this street.", "back": "식당이 이 거리에 있어요.", "romanized": "sikdangi i georie isseoyo", "literal": "Restaurant [subj] this street at is."}
       ]
     },
     {
       "id": "crosswalk",
       "levels": [
-        {
-          "front": "Crosswalk",
-          "back": "횡단보도",
-          "romanized": "hoengdanbodo"
-        },
-        {
-          "front": "Cross at the crosswalk.",
-          "back": "횡단보도에서 건너세요.",
-          "romanized": "hoengdanbodoeeseo geonneoseyo",
-          "literal": "Crosswalk at please-cross."
-        }
+        {"front": "Crosswalk", "back": "횡단보도", "romanized": "hoengdanbodo"},
+        {"front": "Cross at the crosswalk.", "back": "횡단보도에서 건너세요.", "romanized": "hoengdanbodoeeseo geonneoseyo", "literal": "Crosswalk at please-cross."}
       ]
     },
     {
       "id": "intersection",
       "levels": [
-        {
-          "front": "Intersection",
-          "back": "교차로",
-          "romanized": "gyocharo"
-        },
-        {
-          "front": "Turn left at the intersection.",
-          "back": "교차로에서 왼쪽으로 도세요.",
-          "romanized": "gyocharoeseo oenjjogeuro doseyo",
-          "literal": "Intersection at left-side to please-turn."
-        }
+        {"front": "Intersection", "back": "교차로", "romanized": "gyocharo"},
+        {"front": "Turn left at the intersection.", "back": "교차로에서 왼쪽으로 도세요.", "romanized": "gyocharoeseo oenjjogeuro doseyo", "literal": "Intersection at left-side to please-turn."}
       ]
     },
     {
       "id": "bridge",
       "levels": [
-        {
-          "front": "Bridge",
-          "back": "다리",
-          "romanized": "dari"
-        },
-        {
-          "front": "We crossed the bridge.",
-          "back": "다리를 건넜어요.",
-          "romanized": "darireul geonneosseoyo",
-          "literal": "Bridge [obj] crossed."
-        }
+        {"front": "Bridge", "back": "다리", "romanized": "dari"},
+        {"front": "We crossed the bridge.", "back": "다리를 건넜어요.", "romanized": "darireul geonneosseoyo", "literal": "Bridge [obj] crossed."}
       ]
     },
     {
       "id": "corner",
       "levels": [
-        {
-          "front": "Corner",
-          "back": "모퉁이 / 코너",
-          "romanized": "motungi / koneo"
-        },
-        {
-          "front": "Turn right at the corner.",
-          "back": "모퉁이에서 오른쪽으로 도세요.",
-          "romanized": "motungieseo oreunjjogeuro doseyo",
-          "literal": "Corner at right-side to please-turn."
-        }
+        {"front": "Corner", "back": "모퉁이 / 코너", "romanized": "motungi / koneo"},
+        {"front": "Turn right at the corner.", "back": "모퉁이에서 오른쪽으로 도세요.", "romanized": "motungieseo oreunjjogeuro doseyo", "literal": "Corner at right-side to please-turn."}
       ]
     },
     {
       "id": "city_centre_downtown",
       "levels": [
-        {
-          "front": "City centre / Downtown",
-          "back": "시내 / 도심",
-          "romanized": "sinai / dosim"
-        },
-        {
-          "front": "The museum is downtown.",
-          "back": "박물관이 시내에 있어요.",
-          "romanized": "bakmulgwani sinaee isseoyo",
-          "literal": "Museum [subj] downtown at is."
-        }
+        {"front": "City centre / Downtown", "back": "시내 / 도심", "romanized": "sinai / dosim"},
+        {"front": "The museum is downtown.", "back": "박물관이 시내에 있어요.", "romanized": "bakmulgwani sinaee isseoyo", "literal": "Museum [subj] downtown at is."}
       ]
     },
     {
       "id": "neighbourhood",
       "levels": [
-        {
-          "front": "Neighbourhood",
-          "back": "동네 / 이웃",
-          "romanized": "dongne / iut"
-        },
-        {
-          "front": "I live in a quiet neighbourhood.",
-          "back": "조용한 동네에 살아요.",
-          "romanized": "joyonghan dongnee sarayo",
-          "literal": "Quiet neighbourhood at live."
-        }
+        {"front": "Neighbourhood", "back": "동네 / 이웃", "romanized": "dongne / iut"},
+        {"front": "I live in a quiet neighbourhood.", "back": "조용한 동네에 살아요.", "romanized": "joyonghan dongnee sarayo", "literal": "Quiet neighbourhood at live."}
       ]
     },
     {
       "id": "beach",
       "levels": [
-        {
-          "front": "Beach",
-          "back": "해변 / 바닷가",
-          "romanized": "haebyeon / badasga"
-        },
-        {
-          "front": "The beach is beautiful.",
-          "back": "해변이 아름다워요.",
-          "romanized": "haebyeoni areumdawoyo",
-          "literal": "Beach [subj] beautiful-is."
-        }
+        {"front": "Beach", "back": "해변 / 바닷가", "romanized": "haebyeon / badasga"},
+        {"front": "The beach is beautiful.", "back": "해변이 아름다워요.", "romanized": "haebyeoni areumdawoyo", "literal": "Beach [subj] beautiful-is."}
       ]
     },
     {
       "id": "mountain",
       "levels": [
-        {
-          "front": "Mountain",
-          "back": "산",
-          "romanized": "san"
-        },
-        {
-          "front": "The mountain is very high.",
-          "back": "산이 매우 높아요.",
-          "romanized": "sani maeu nopayo",
-          "literal": "Mountain [subj] very high-is."
-        }
+        {"front": "Mountain", "back": "산", "romanized": "san"},
+        {"front": "The mountain is very high.", "back": "산이 매우 높아요.", "romanized": "sani maeu nopayo", "literal": "Mountain [subj] very high-is."}
       ]
     },
     {
       "id": "museum",
       "levels": [
-        {
-          "front": "Museum",
-          "back": "박물관",
-          "romanized": "bakmulgwan"
-        },
-        {
-          "front": "I want to visit the museum.",
-          "back": "박물관을 방문하고 싶어요.",
-          "romanized": "bakmulgwaneul bangmunhago sipeoyo",
-          "literal": "Museum [obj] visit-and want-to."
-        }
+        {"front": "Museum", "back": "박물관", "romanized": "bakmulgwan"},
+        {"front": "I want to visit the museum.", "back": "박물관을 방문하고 싶어요.", "romanized": "bakmulgwaneul bangmunhago sipeoyo", "literal": "Museum [obj] visit-and want-to."}
       ]
     },
     {
       "id": "movie_theater",
       "levels": [
-        {
-          "front": "Movie theater",
-          "back": "영화관",
-          "romanized": "yeonghwagwan"
-        },
-        {
-          "front": "We're going to the cinema tonight.",
-          "back": "오늘 밤 영화관에 가요.",
-          "romanized": "oneul bam yeonghwagwane gayo",
-          "literal": "Tonight cinema to go."
-        }
+        {"front": "Movie theater", "back": "영화관", "romanized": "yeonghwagwan"},
+        {"front": "We're going to the cinema tonight.", "back": "오늘 밤 영화관에 가요.", "romanized": "oneul bam yeonghwagwane gayo", "literal": "Tonight cinema to go."}
       ]
     },
     {
       "id": "map",
       "levels": [
-        {
-          "front": "Map",
-          "back": "지도",
-          "romanized": "jido"
-        },
-        {
-          "front": "Do you have a map?",
-          "back": "지도 있어요?",
-          "romanized": "jido isseoyo",
-          "literal": "Map have?"
-        }
+        {"front": "Map", "back": "지도", "romanized": "jido"},
+        {"front": "Do you have a map?", "back": "지도 있어요?", "romanized": "jido isseoyo", "literal": "Map have?"}
       ]
     },
     {
       "id": "direction",
       "levels": [
-        {
-          "front": "Direction",
-          "back": "방향",
-          "romanized": "banghyang"
-        },
-        {
-          "front": "Which direction is the station?",
-          "back": "역은 어느 방향이에요?",
-          "romanized": "yeogeun eoneu bangyangiеyo",
-          "literal": "Station [topic] which direction is?"
-        }
+        {"front": "Direction", "back": "방향", "romanized": "banghyang"},
+        {"front": "Which direction is the station?", "back": "역은 어느 방향이에요?", "romanized": "yeogeun eoneu bangyangiеyo", "literal": "Station [topic] which direction is?"}
       ]
     },
     {
       "id": "distance",
       "levels": [
-        {
-          "front": "Distance",
-          "back": "거리",
-          "romanized": "geori"
-        },
-        {
-          "front": "What's the distance to the hotel?",
-          "back": "호텔까지 거리가 얼마예요?",
-          "romanized": "hotelkkaji georiga eolmayeyo",
-          "literal": "Hotel until distance [subj] how-much is?"
-        }
+        {"front": "Distance", "back": "거리", "romanized": "geori"},
+        {"front": "What's the distance to the hotel?", "back": "호텔까지 거리가 얼마예요?", "romanized": "hotelkkaji georiga eolmayeyo", "literal": "Hotel until distance [subj] how-much is?"}
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {
-          "front": "To go",
-          "back": "가다",
-          "romanized": "gada",
-          "grammarNote": "Korean verbs come at the end of the sentence. 'Gada' (가다, to go) becomes '가요' (gayo) in polite present tense. Destination uses '에' (e): '슈퍼에 가요' = I'm going to the supermarket. '오다' (oda, to come) is the opposite direction."
-        },
-        {
-          "front": "I'm going to the supermarket.",
-          "back": "슈퍼마켓에 가요.",
-          "romanized": "syupeomakete gayo",
-          "literal": "Supermarket to go."
-        }
+        {"front": "To go", "back": "가다", "romanized": "gada", "grammarNote": "Korean verbs come at the end of the sentence. 'Gada' (가다, to go) becomes '가요' (gayo) in polite present tense. Destination uses '에' (e): '슈퍼에 가요' = I'm going to the supermarket. '오다' (oda, to come) is the opposite direction."},
+        {"front": "I'm going to the supermarket.", "back": "슈퍼마켓에 가요.", "romanized": "syupeomakete gayo", "literal": "Supermarket to go."}
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {
-          "front": "To come",
-          "back": "오다",
-          "romanized": "oda"
-        },
-        {
-          "front": "Come to my house.",
-          "back": "우리 집에 오세요.",
-          "romanized": "uri jibe oseyo",
-          "literal": "Our home to please-come."
-        }
+        {"front": "To come", "back": "오다", "romanized": "oda"},
+        {"front": "Come to my house.", "back": "우리 집에 오세요.", "romanized": "uri jibe oseyo", "literal": "Our home to please-come."}
       ]
     },
     {
       "id": "to_travel",
       "levels": [
-        {
-          "front": "To travel",
-          "back": "여행하다",
-          "romanized": "yeohaenghada"
-        },
-        {
-          "front": "I love to travel.",
-          "back": "여행하는 걸 좋아해요.",
-          "romanized": "yeohaenghaneun geol joahaeyo",
-          "literal": "Traveling [obj] like."
-        }
+        {"front": "To travel", "back": "여행하다", "romanized": "yeohaenghada"},
+        {"front": "I love to travel.", "back": "여행하는 걸 좋아해요.", "romanized": "yeohaenghaneun geol joahaeyo", "literal": "Traveling [obj] like."}
       ]
     },
     {
       "id": "to_walk",
       "levels": [
-        {
-          "front": "To walk",
-          "back": "걷다",
-          "romanized": "geotda"
-        },
-        {
-          "front": "I walk to work every day.",
-          "back": "매일 걸어서 출근해요.",
-          "romanized": "maeil georeoeseo chulgeunhaeyo",
-          "literal": "Every-day walking commute."
-        }
+        {"front": "To walk", "back": "걷다", "romanized": "geotda"},
+        {"front": "I walk to work every day.", "back": "매일 걸어서 출근해요.", "romanized": "maeil georeoeseo chulgeunhaeyo", "literal": "Every-day walking commute."}
       ]
     },
     {
       "id": "to_drive",
       "levels": [
-        {
-          "front": "To drive",
-          "back": "운전하다",
-          "romanized": "unjeonhada"
-        },
-        {
-          "front": "She drives to the office.",
-          "back": "그녀는 사무실까지 운전해요.",
-          "romanized": "geunyeoneun samusilkkaji unjeonhaeyo",
-          "literal": "She [topic] office until drives."
-        }
+        {"front": "To drive", "back": "운전하다", "romanized": "unjeonhada"},
+        {"front": "She drives to the office.", "back": "그녀는 사무실까지 운전해요.", "romanized": "geunyeoneun samusilkkaji unjeonhaeyo", "literal": "She [topic] office until drives."}
       ]
     },
     {
       "id": "to_turn",
       "levels": [
-        {
-          "front": "To turn",
-          "back": "돌다 / 방향을 바꾸다",
-          "romanized": "dolda / banghyangeul bakkuda"
-        },
-        {
-          "front": "Turn left at the corner.",
-          "back": "모퉁이에서 왼쪽으로 도세요.",
-          "romanized": "motungieseo oenjjogeuro doseyo",
-          "literal": "Corner at left-side to please-turn."
-        }
+        {"front": "To turn", "back": "돌다 / 방향을 바꾸다", "romanized": "dolda / banghyangeul bakkuda"},
+        {"front": "Turn left at the corner.", "back": "모퉁이에서 왼쪽으로 도세요.", "romanized": "motungieseo oenjjogeuro doseyo", "literal": "Corner at left-side to please-turn."}
       ]
     },
     {
       "id": "to_cross",
       "levels": [
-        {
-          "front": "To cross",
-          "back": "건너다",
-          "romanized": "geonneoda"
-        },
-        {
-          "front": "Cross the street carefully.",
-          "back": "조심해서 길을 건너세요.",
-          "romanized": "josimhaeseo gireul geonneoseyo",
-          "literal": "Carefully road [obj] please-cross."
-        }
+        {"front": "To cross", "back": "건너다", "romanized": "geonneoda"},
+        {"front": "Cross the street carefully.", "back": "조심해서 길을 건너세요.", "romanized": "josimhaeseo gireul geonneoseyo", "literal": "Carefully road [obj] please-cross."}
       ]
     },
     {
       "id": "to_follow",
       "levels": [
-        {
-          "front": "To follow",
-          "back": "따라가다 / 따르다",
-          "romanized": "ttaragada / ttareuda"
-        },
-        {
-          "front": "Follow this street.",
-          "back": "이 거리를 따라가세요.",
-          "romanized": "i georireul ttaragaseyo",
-          "literal": "This street [obj] please-follow."
-        }
+        {"front": "To follow", "back": "따라가다 / 따르다", "romanized": "ttaragada / ttareuda"},
+        {"front": "Follow this street.", "back": "이 거리를 따라가세요.", "romanized": "i georireul ttaragaseyo", "literal": "This street [obj] please-follow."}
       ]
     },
     {
       "id": "to_reach",
       "levels": [
-        {
-          "front": "To reach",
-          "back": "도착하다 / 닿다",
-          "romanized": "dochaghada / datda"
-        },
-        {
-          "front": "How do I reach the station?",
-          "back": "역에 어떻게 가요?",
-          "romanized": "yeoge eotteoke gayo",
-          "literal": "Station to how go?"
-        }
+        {"front": "To reach", "back": "도착하다 / 닿다", "romanized": "dochaghada / datda"},
+        {"front": "How do I reach the station?", "back": "역에 어떻게 가요?", "romanized": "yeoge eotteoke gayo", "literal": "Station to how go?"}
       ]
     },
     {
       "id": "to_enter",
       "levels": [
-        {
-          "front": "To enter",
-          "back": "들어가다",
-          "romanized": "deureogada"
-        },
-        {
-          "front": "Enter through the main door.",
-          "back": "정문으로 들어가세요.",
-          "romanized": "jeongmuneuro deureogaseyo",
-          "literal": "Main-door through please-enter."
-        }
+        {"front": "To enter", "back": "들어가다", "romanized": "deureogada"},
+        {"front": "Enter through the main door.", "back": "정문으로 들어가세요.", "romanized": "jeongmuneuro deureogaseyo", "literal": "Main-door through please-enter."}
       ]
     },
     {
       "id": "to_leave",
       "levels": [
-        {
-          "front": "To leave",
-          "back": "나가다 / 떠나다",
-          "romanized": "nagada / tteonada"
-        },
-        {
-          "front": "I leave work at five.",
-          "back": "다섯 시에 퇴근해요.",
-          "romanized": "daseot sie toegeunhaeyo",
-          "literal": "Five o'clock at leave-work."
-        }
+        {"front": "To leave", "back": "나가다 / 떠나다", "romanized": "nagada / tteonada"},
+        {"front": "I leave work at five.", "back": "다섯 시에 퇴근해요.", "romanized": "daseot sie toegeunhaeyo", "literal": "Five o'clock at leave-work."}
       ]
     },
     {
       "id": "to_depart",
       "levels": [
-        {
-          "front": "To depart",
-          "back": "출발하다",
-          "romanized": "chulbalhada"
-        },
-        {
-          "front": "The train departs at nine.",
-          "back": "기차가 아홉 시에 출발해요.",
-          "romanized": "gichaga ahop sie chulbalhaeyo",
-          "literal": "Train [subj] nine o'clock at departs."
-        }
+        {"front": "To depart", "back": "출발하다", "romanized": "chulbalhada"},
+        {"front": "The train departs at nine.", "back": "기차가 아홉 시에 출발해요.", "romanized": "gichaga ahop sie chulbalhaeyo", "literal": "Train [subj] nine o'clock at departs."}
       ]
     },
     {
       "id": "to_arrive",
       "levels": [
-        {
-          "front": "To arrive",
-          "back": "도착하다",
-          "romanized": "dochaghada"
-        },
-        {
-          "front": "We arrive tomorrow.",
-          "back": "내일 도착해요.",
-          "romanized": "naeil dochaghaeyo",
-          "literal": "Tomorrow arrive."
-        }
+        {"front": "To arrive", "back": "도착하다", "romanized": "dochaghada"},
+        {"front": "We arrive tomorrow.", "back": "내일 도착해요.", "romanized": "naeil dochaghaeyo", "literal": "Tomorrow arrive."}
       ]
     },
     {
       "id": "to_visit",
       "levels": [
-        {
-          "front": "To visit",
-          "back": "방문하다",
-          "romanized": "bangmunhada"
-        },
-        {
-          "front": "I want to visit the museum.",
-          "back": "박물관을 방문하고 싶어요.",
-          "romanized": "bakmulgwaneul bangmunhago sipeoyo",
-          "literal": "Museum [obj] visit-and want-to."
-        }
+        {"front": "To visit", "back": "방문하다", "romanized": "bangmunhada"},
+        {"front": "I want to visit the museum.", "back": "박물관을 방문하고 싶어요.", "romanized": "bakmulgwaneul bangmunhago sipeoyo", "literal": "Museum [obj] visit-and want-to."}
       ]
     },
     {
       "id": "in",
       "levels": [
-        {
-          "front": "In",
-          "back": "안에 / ~에",
-          "romanized": "ane / ~e",
-          "grammarNote": "Korean location expressions use postpositions (after the noun). Key ones: '안에' (ane, inside/in), '위에' (wie, on top), '아래에' (araee, under), '옆에' (yeope, next to), '앞에' (ape, in front), '뒤에' (dwie, behind). Existence uses '있어요' (isseoyo)."
-        },
-        {
-          "front": "The keys are in the bag.",
-          "back": "열쇠가 가방 안에 있어요.",
-          "romanized": "yeolsoega gabang ane isseoyo",
-          "literal": "Keys [subj] bag inside at is."
-        }
+        {"front": "In", "back": "안에 / ~에", "romanized": "ane / ~e", "grammarNote": "Korean location expressions use postpositions (after the noun). Key ones: '안에' (ane, inside/in), '위에' (wie, on top), '아래에' (araee, under), '옆에' (yeope, next to), '앞에' (ape, in front), '뒤에' (dwie, behind). Existence uses '있어요' (isseoyo)."},
+        {"front": "The keys are in the bag.", "back": "열쇠가 가방 안에 있어요.", "romanized": "yeolsoega gabang ane isseoyo", "literal": "Keys [subj] bag inside at is."}
       ]
     },
     {
       "id": "on",
       "levels": [
-        {
-          "front": "On",
-          "back": "위에",
-          "romanized": "wie"
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "책이 테이블 위에 있어요.",
-          "romanized": "chaegi teibeul wie isseoyo",
-          "literal": "Book [subj] table on-top-at is."
-        }
+        {"front": "On", "back": "위에", "romanized": "wie"},
+        {"front": "The book is on the table.", "back": "책이 테이블 위에 있어요.", "romanized": "chaegi teibeul wie isseoyo", "literal": "Book [subj] table on-top-at is."}
       ]
     },
     {
       "id": "at",
       "levels": [
-        {
-          "front": "At",
-          "back": "~에 / ~에서",
-          "romanized": "~e / ~eseo"
-        },
-        {
-          "front": "I'm at the office.",
-          "back": "사무실에 있어요.",
-          "romanized": "samusile isseoyo",
-          "literal": "Office at is."
-        }
+        {"front": "At", "back": "~에 / ~에서", "romanized": "~e / ~eseo"},
+        {"front": "I'm at the office.", "back": "사무실에 있어요.", "romanized": "samusile isseoyo", "literal": "Office at is."}
       ]
     },
     {
       "id": "under",
       "levels": [
-        {
-          "front": "Under",
-          "back": "아래에 / 밑에",
-          "romanized": "araee / mite"
-        },
-        {
-          "front": "The cat is under the table.",
-          "back": "고양이가 테이블 밑에 있어요.",
-          "romanized": "goyang-iga teibeul mite isseoyo",
-          "literal": "Cat [subj] table under-at is."
-        }
+        {"front": "Under", "back": "아래에 / 밑에", "romanized": "araee / mite"},
+        {"front": "The cat is under the table.", "back": "고양이가 테이블 밑에 있어요.", "romanized": "goyang-iga teibeul mite isseoyo", "literal": "Cat [subj] table under-at is."}
       ]
     },
     {
       "id": "next_to",
       "levels": [
-        {
-          "front": "Next to",
-          "back": "옆에",
-          "romanized": "yeope"
-        },
-        {
-          "front": "The bank is next to the cafe.",
-          "back": "은행이 카페 옆에 있어요.",
-          "romanized": "eunhaengi kape yeope isseoyo",
-          "literal": "Bank [subj] cafe next-to-at is."
-        }
+        {"front": "Next to", "back": "옆에", "romanized": "yeope"},
+        {"front": "The bank is next to the cafe.", "back": "은행이 카페 옆에 있어요.", "romanized": "eunhaengi kape yeope isseoyo", "literal": "Bank [subj] cafe next-to-at is."}
       ]
     },
     {
       "id": "between",
       "levels": [
-        {
-          "front": "Between",
-          "back": "사이에",
-          "romanized": "saie"
-        },
-        {
-          "front": "The park is between the school and the library.",
-          "back": "공원이 학교와 도서관 사이에 있어요.",
-          "romanized": "gongwoni hakgyowa doseogwan saie isseoyo",
-          "literal": "Park [subj] school and library between-at is."
-        }
+        {"front": "Between", "back": "사이에", "romanized": "saie"},
+        {"front": "The park is between the school and the library.", "back": "공원이 학교와 도서관 사이에 있어요.", "romanized": "gongwoni hakgyowa doseogwan saie isseoyo", "literal": "Park [subj] school and library between-at is."}
       ]
     },
     {
       "id": "in_front_of",
       "levels": [
-        {
-          "front": "In front of",
-          "back": "앞에",
-          "romanized": "ape"
-        },
-        {
-          "front": "The taxi is in front of the hotel.",
-          "back": "택시가 호텔 앞에 있어요.",
-          "romanized": "taeksiga hotel ape isseoyo",
-          "literal": "Taxi [subj] hotel in-front-at is."
-        }
+        {"front": "In front of", "back": "앞에", "romanized": "ape"},
+        {"front": "The taxi is in front of the hotel.", "back": "택시가 호텔 앞에 있어요.", "romanized": "taeksiga hotel ape isseoyo", "literal": "Taxi [subj] hotel in-front-at is."}
       ]
     },
     {
       "id": "behind",
       "levels": [
-        {
-          "front": "Behind",
-          "back": "뒤에",
-          "romanized": "dwie"
-        },
-        {
-          "front": "The garden is behind the house.",
-          "back": "정원이 집 뒤에 있어요.",
-          "romanized": "jeongwoni jip dwie isseoyo",
-          "literal": "Garden [subj] house behind-at is."
-        }
+        {"front": "Behind", "back": "뒤에", "romanized": "dwie"},
+        {"front": "The garden is behind the house.", "back": "정원이 집 뒤에 있어요.", "romanized": "jeongwoni jip dwie isseoyo", "literal": "Garden [subj] house behind-at is."}
       ]
     },
     {
       "id": "near",
       "levels": [
-        {
-          "front": "Near",
-          "back": "가까이 / 근처에",
-          "romanized": "gakkai / geuncheoe"
-        },
-        {
-          "front": "Is there a restaurant near here?",
-          "back": "여기 근처에 식당이 있어요?",
-          "romanized": "yeogi geuncheoe sikdangi isseoyo",
-          "literal": "Here near-at restaurant [subj] is?"
-        }
+        {"front": "Near", "back": "가까이 / 근처에", "romanized": "gakkai / geuncheoe"},
+        {"front": "Is there a restaurant near here?", "back": "여기 근처에 식당이 있어요?", "romanized": "yeogi geuncheoe sikdangi isseoyo", "literal": "Here near-at restaurant [subj] is?"}
       ]
     },
     {
       "id": "far",
       "levels": [
-        {
-          "front": "Far",
-          "back": "멀리 / 먼",
-          "romanized": "meolli / meon"
-        },
-        {
-          "front": "Is the airport far?",
-          "back": "공항이 멀어요?",
-          "romanized": "gonghangı meoreoyo",
-          "literal": "Airport [subj] far-is?"
-        }
+        {"front": "Far", "back": "멀리 / 먼", "romanized": "meolli / meon"},
+        {"front": "Is the airport far?", "back": "공항이 멀어요?", "romanized": "gonghangı meoreoyo", "literal": "Airport [subj] far-is?"}
       ]
     },
     {
       "id": "here",
       "levels": [
-        {
-          "front": "Here",
-          "back": "여기",
-          "romanized": "yeogi",
-          "grammarNote": "Korean has a three-way distance system like Japanese: '여기' (yeogi, here — near speaker), '거기' (geogi, there — near listener), '저기' (jeogi, over there — far from both). This mirrors the demonstrative system 이/그/저 (i/geu/jeo)."
-        },
-        {
-          "front": "Come here, please.",
-          "back": "여기 오세요.",
-          "romanized": "yeogi oseyo",
-          "literal": "Here please-come."
-        }
+        {"front": "Here", "back": "여기", "romanized": "yeogi", "grammarNote": "Korean has a three-way distance system like Japanese: '여기' (yeogi, here — near speaker), '거기' (geogi, there — near listener), '저기' (jeogi, over there — far from both). This mirrors the demonstrative system 이/그/저 (i/geu/jeo)."},
+        {"front": "Come here, please.", "back": "여기 오세요.", "romanized": "yeogi oseyo", "literal": "Here please-come."}
       ]
     },
     {
       "id": "there",
       "levels": [
-        {
-          "front": "There",
-          "back": "거기 / 저기",
-          "romanized": "geogi / jeogi"
-        },
-        {
-          "front": "The taxi is over there.",
-          "back": "택시가 저기 있어요.",
-          "romanized": "taeksiga jeogi isseoyo",
-          "literal": "Taxi [subj] over-there is."
-        }
+        {"front": "There", "back": "거기 / 저기", "romanized": "geogi / jeogi"},
+        {"front": "The taxi is over there.", "back": "택시가 저기 있어요.", "romanized": "taeksiga jeogi isseoyo", "literal": "Taxi [subj] over-there is."}
       ]
     },
     {
       "id": "everywhere",
       "levels": [
-        {
-          "front": "Everywhere",
-          "back": "어디에나 / 곳곳에",
-          "romanized": "eodiene / gotgose"
-        },
-        {
-          "front": "There are tourists everywhere.",
-          "back": "어디에나 관광객이 있어요.",
-          "romanized": "eodiene gwangwanggaegi isseoyo",
-          "literal": "Everywhere tourists [subj] are."
-        }
+        {"front": "Everywhere", "back": "어디에나 / 곳곳에", "romanized": "eodiene / gotgose"},
+        {"front": "There are tourists everywhere.", "back": "어디에나 관광객이 있어요.", "romanized": "eodiene gwangwanggaegi isseoyo", "literal": "Everywhere tourists [subj] are."}
       ]
     },
     {
       "id": "somewhere",
       "levels": [
-        {
-          "front": "Somewhere",
-          "back": "어딘가에",
-          "romanized": "eodingae"
-        },
-        {
-          "front": "Let's go somewhere quiet.",
-          "back": "조용한 곳으로 가요.",
-          "romanized": "joyonghan goseuro gayo",
-          "literal": "Quiet place to go."
-        }
+        {"front": "Somewhere", "back": "어딘가에", "romanized": "eodingae"},
+        {"front": "Let's go somewhere quiet.", "back": "조용한 곳으로 가요.", "romanized": "joyonghan goseuro gayo", "literal": "Quiet place to go."}
       ]
     },
     {
       "id": "nowhere",
       "levels": [
-        {
-          "front": "Nowhere",
-          "back": "아무 데도 없는",
-          "romanized": "amu dedo eomneun"
-        },
-        {
-          "front": "There is nowhere to sit.",
-          "back": "앉을 자리가 없어요.",
-          "romanized": "anjeul jariga eopseoyo",
-          "literal": "Sit-able seat [subj] isn't."
-        }
+        {"front": "Nowhere", "back": "아무 데도 없는", "romanized": "amu dedo eomneun"},
+        {"front": "There is nowhere to sit.", "back": "앉을 자리가 없어요.", "romanized": "anjeul jariga eopseoyo", "literal": "Sit-able seat [subj] isn't."}
       ]
     },
     {
       "id": "left",
       "levels": [
-        {
-          "front": "Left",
-          "back": "왼쪽",
-          "romanized": "oenjjok"
-        },
-        {
-          "front": "Turn left.",
-          "back": "왼쪽으로 도세요.",
-          "romanized": "oenjjogeuro doseyo",
-          "literal": "Left-side to please-turn."
-        }
+        {"front": "Left", "back": "왼쪽", "romanized": "oenjjok"},
+        {"front": "Turn left.", "back": "왼쪽으로 도세요.", "romanized": "oenjjogeuro doseyo", "literal": "Left-side to please-turn."}
       ]
     },
     {
       "id": "right",
       "levels": [
-        {
-          "front": "Right",
-          "back": "오른쪽",
-          "romanized": "oreunjjok"
-        },
-        {
-          "front": "Turn right.",
-          "back": "오른쪽으로 도세요.",
-          "romanized": "oreunjjogeuro doseyo",
-          "literal": "Right-side to please-turn."
-        }
+        {"front": "Right", "back": "오른쪽", "romanized": "oreunjjok"},
+        {"front": "Turn right.", "back": "오른쪽으로 도세요.", "romanized": "oreunjjogeuro doseyo", "literal": "Right-side to please-turn."}
       ]
     },
     {
       "id": "straight_ahead",
       "levels": [
-        {
-          "front": "Straight (ahead)",
-          "back": "직진 / 앞으로",
-          "romanized": "jikjin / apeuro"
-        },
-        {
-          "front": "Go straight ahead.",
-          "back": "직진하세요.",
-          "romanized": "jikjinhaseyo",
-          "literal": "Please-go-straight."
-        }
+        {"front": "Straight (ahead)", "back": "직진 / 앞으로", "romanized": "jikjin / apeuro"},
+        {"front": "Go straight ahead.", "back": "직진하세요.", "romanized": "jikjinhaseyo", "literal": "Please-go-straight."}
       ]
     },
     {
       "id": "north",
       "levels": [
-        {
-          "front": "North",
-          "back": "북쪽",
-          "romanized": "bukjjok"
-        },
-        {
-          "front": "The city is to the north.",
-          "back": "도시는 북쪽에 있어요.",
-          "romanized": "dosineun bukjjoge isseoyo",
-          "literal": "City [topic] north-side at is."
-        }
+        {"front": "North", "back": "북쪽", "romanized": "bukjjok"},
+        {"front": "The city is to the north.", "back": "도시는 북쪽에 있어요.", "romanized": "dosineun bukjjoge isseoyo", "literal": "City [topic] north-side at is."}
       ]
     },
     {
       "id": "south",
       "levels": [
-        {
-          "front": "South",
-          "back": "남쪽",
-          "romanized": "namjjok"
-        },
-        {
-          "front": "The beach is to the south.",
-          "back": "해변은 남쪽에 있어요.",
-          "romanized": "haebyeoneun namjjoge isseoyo",
-          "literal": "Beach [topic] south-side at is."
-        }
+        {"front": "South", "back": "남쪽", "romanized": "namjjok"},
+        {"front": "The beach is to the south.", "back": "해변은 남쪽에 있어요.", "romanized": "haebyeoneun namjjoge isseoyo", "literal": "Beach [topic] south-side at is."}
       ]
     },
     {
       "id": "east",
       "levels": [
-        {
-          "front": "East",
-          "back": "동쪽",
-          "romanized": "dongjjok"
-        },
-        {
-          "front": "The sun rises in the east.",
-          "back": "태양은 동쪽에서 떠요.",
-          "romanized": "taeyyangeun dongjjogeseo tteoyo",
-          "literal": "Sun [topic] east-side from rises."
-        }
+        {"front": "East", "back": "동쪽", "romanized": "dongjjok"},
+        {"front": "The sun rises in the east.", "back": "태양은 동쪽에서 떠요.", "romanized": "taeyyangeun dongjjogeseo tteoyo", "literal": "Sun [topic] east-side from rises."}
       ]
     },
     {
       "id": "west",
       "levels": [
-        {
-          "front": "West",
-          "back": "서쪽",
-          "romanized": "seojjok"
-        },
-        {
-          "front": "The sun sets in the west.",
-          "back": "태양은 서쪽으로 져요.",
-          "romanized": "taeyyangeun seojjogeuro jyeoyo",
-          "literal": "Sun [topic] west-side to sets."
-        }
+        {"front": "West", "back": "서쪽", "romanized": "seojjok"},
+        {"front": "The sun sets in the west.", "back": "태양은 서쪽으로 져요.", "romanized": "taeyyangeun seojjogeuro jyeoyo", "literal": "Sun [topic] west-side to sets."}
       ]
     },
     {
       "id": "to_live",
       "levels": [
-        {
-          "front": "To live",
-          "back": "살다",
-          "romanized": "salda"
-        },
-        {
-          "front": "I live near the city centre.",
-          "back": "시내 근처에 살아요.",
-          "romanized": "sinai geuncheoe sarayo",
-          "literal": "Downtown near-at live."
-        }
+        {"front": "To live", "back": "살다", "romanized": "salda"},
+        {"front": "I live near the city centre.", "back": "시내 근처에 살아요.", "romanized": "sinai geuncheoe sarayo", "literal": "Downtown near-at live."}
       ]
     },
     {
       "id": "to_stay",
       "levels": [
-        {
-          "front": "To stay",
-          "back": "머물다 / 묵다",
-          "romanized": "meomulda / mukda"
-        },
-        {
-          "front": "We're staying at a hotel.",
-          "back": "호텔에 묵고 있어요.",
-          "romanized": "hotele mukgo isseoyo",
-          "literal": "Hotel at staying-is."
-        }
+        {"front": "To stay", "back": "머물다 / 묵다", "romanized": "meomulda / mukda"},
+        {"front": "We're staying at a hotel.", "back": "호텔에 묵고 있어요.", "romanized": "hotele mukgo isseoyo", "literal": "Hotel at staying-is."}
       ]
     },
     {
       "id": "to_wait",
       "levels": [
-        {
-          "front": "To wait",
-          "back": "기다리다",
-          "romanized": "gidarida"
-        },
-        {
-          "front": "I'll wait for you here.",
-          "back": "여기서 기다릴게요.",
-          "romanized": "yeogiseo gidarilgeyo",
-          "literal": "Here from will-wait."
-        }
+        {"front": "To wait", "back": "기다리다", "romanized": "gidarida"},
+        {"front": "I'll wait for you here.", "back": "여기서 기다릴게요.", "romanized": "yeogiseo gidarilgeyo", "literal": "Here from will-wait."}
       ]
     },
     {
       "id": "to_meet",
       "levels": [
-        {
-          "front": "To meet",
-          "back": "만나다",
-          "romanized": "mannada"
-        },
-        {
-          "front": "Let's meet at the park.",
-          "back": "공원에서 만나요.",
-          "romanized": "gongwoneseo mannayo",
-          "literal": "Park at meet."
-        }
+        {"front": "To meet", "back": "만나다", "romanized": "mannada"},
+        {"front": "Let's meet at the park.", "back": "공원에서 만나요.", "romanized": "gongwoneseo mannayo", "literal": "Park at meet."}
       ]
     },
     {
       "id": "to_get_lost",
       "levels": [
-        {
-          "front": "To get lost",
-          "back": "길을 잃다",
-          "romanized": "gireul ilta"
-        },
-        {
-          "front": "Don't get lost!",
-          "back": "길을 잃지 마세요!",
-          "romanized": "gireul ilji maseyo",
-          "literal": "Road [obj] lose please-don't!"
-        }
+        {"front": "To get lost", "back": "길을 잃다", "romanized": "gireul ilta"},
+        {"front": "Don't get lost!", "back": "길을 잃지 마세요!", "romanized": "gireul ilji maseyo", "literal": "Road [obj] lose please-don't!"}
       ]
     },
     {
       "id": "to_find",
       "levels": [
-        {
-          "front": "To find",
-          "back": "찾다",
-          "romanized": "chatda"
-        },
-        {
-          "front": "I can't find the hotel.",
-          "back": "호텔을 못 찾겠어요.",
-          "romanized": "hoteleul mot chatgesseoyo",
-          "literal": "Hotel [obj] cannot find."
-        }
+        {"front": "To find", "back": "찾다", "romanized": "chatda"},
+        {"front": "I can't find the hotel.", "back": "호텔을 못 찾겠어요.", "romanized": "hoteleul mot chatgesseoyo", "literal": "Hotel [obj] cannot find."}
       ]
     },
     {
       "id": "to_look_for",
       "levels": [
-        {
-          "front": "To look for",
-          "back": "찾다 / 찾아보다",
-          "romanized": "chatda / chajaboda"
-        },
-        {
-          "front": "I'm looking for the pharmacy.",
-          "back": "약국을 찾고 있어요.",
-          "romanized": "yakguk-eul chatgo isseoyo",
-          "literal": "Pharmacy [obj] looking-for-ing."
-        }
+        {"front": "To look for", "back": "찾다 / 찾아보다", "romanized": "chatda / chajaboda"},
+        {"front": "I'm looking for the pharmacy.", "back": "약국을 찾고 있어요.", "romanized": "yakguk-eul chatgo isseoyo", "literal": "Pharmacy [obj] looking-for-ing."}
       ]
     },
     {
       "id": "to_head",
       "levels": [
-        {
-          "front": "To head",
-          "back": "향하다",
-          "romanized": "hyanghada"
-        },
-        {
-          "front": "Head towards the station.",
-          "back": "역을 향해 가세요.",
-          "romanized": "yeogeul hyanghae gaseyo",
-          "literal": "Station [obj] toward please-go."
-        }
+        {"front": "To head", "back": "향하다", "romanized": "hyanghada"},
+        {"front": "Head towards the station.", "back": "역을 향해 가세요.", "romanized": "yeogeul hyanghae gaseyo", "literal": "Station [obj] toward please-go."}
       ]
     },
     {
       "id": "to_continue",
       "levels": [
-        {
-          "front": "To continue",
-          "back": "계속하다 / 계속 가다",
-          "romanized": "gyesokhada / gyesok gada"
-        },
-        {
-          "front": "Continue straight ahead.",
-          "back": "계속 직진하세요.",
-          "romanized": "gyesok jikjinhaseyo",
-          "literal": "Continuously please-go-straight."
-        }
+        {"front": "To continue", "back": "계속하다 / 계속 가다", "romanized": "gyesokhada / gyesok gada"},
+        {"front": "Continue straight ahead.", "back": "계속 직진하세요.", "romanized": "gyesok jikjinhaseyo", "literal": "Continuously please-go-straight."}
       ]
     },
     {
       "id": "to_stop",
       "levels": [
-        {
-          "front": "To stop",
-          "back": "멈추다 / 서다",
-          "romanized": "meomchuda / seoda"
-        },
-        {
-          "front": "Stop at the corner.",
-          "back": "모퉁이에서 멈추세요.",
-          "romanized": "motungieseo meomchuseyo",
-          "literal": "Corner at please-stop."
-        }
+        {"front": "To stop", "back": "멈추다 / 서다", "romanized": "meomchuda / seoda"},
+        {"front": "Stop at the corner.", "back": "모퉁이에서 멈추세요.", "romanized": "motungieseo meomchuseyo", "literal": "Corner at please-stop."}
       ]
     },
     {
       "id": "to_park",
       "levels": [
-        {
-          "front": "To park",
-          "back": "주차하다",
-          "romanized": "juchahada"
-        },
-        {
-          "front": "Where can I park?",
-          "back": "어디에 주차할 수 있어요?",
-          "romanized": "eodie juchahal su isseoyo",
-          "literal": "Where at park-able can?"
-        }
+        {"front": "To park", "back": "주차하다", "romanized": "juchahada"},
+        {"front": "Where can I park?", "back": "어디에 주차할 수 있어요?", "romanized": "eodie juchahal su isseoyo", "literal": "Where at park-able can?"}
       ]
     },
     {
       "id": "to_book_to_reserve",
       "levels": [
-        {
-          "front": "To book / To reserve",
-          "back": "예약하다",
-          "romanized": "yeyakhada"
-        },
-        {
-          "front": "I booked a room.",
-          "back": "방을 예약했어요.",
-          "romanized": "bang-eul yeyakhaesseoyo",
-          "literal": "Room [obj] reserved."
-        }
+        {"front": "To book / To reserve", "back": "예약하다", "romanized": "yeyakhada"},
+        {"front": "I booked a room.", "back": "방을 예약했어요.", "romanized": "bang-eul yeyakhaesseoyo", "literal": "Room [obj] reserved."}
       ]
     },
     {
       "id": "to_check_in",
       "levels": [
-        {
-          "front": "To check in",
-          "back": "체크인하다",
-          "romanized": "chekeuin-hada"
-        },
-        {
-          "front": "We checked in at three.",
-          "back": "세 시에 체크인했어요.",
-          "romanized": "se sie chekeuinhaesseoyo",
-          "literal": "Three o'clock at checked-in."
-        }
+        {"front": "To check in", "back": "체크인하다", "romanized": "chekeuin-hada"},
+        {"front": "We checked in at three.", "back": "세 시에 체크인했어요.", "romanized": "se sie chekeuinhaesseoyo", "literal": "Three o'clock at checked-in."}
       ]
     },
     {
       "id": "to_check_out",
       "levels": [
-        {
-          "front": "To check out",
-          "back": "체크아웃하다",
-          "romanized": "chekeuauthada"
-        },
-        {
-          "front": "Check out is at eleven.",
-          "back": "체크아웃은 열한 시예요.",
-          "romanized": "chekeuaouteun yeolhan siyeyo",
-          "literal": "Check-out [topic] eleven o'clock is."
-        }
+        {"front": "To check out", "back": "체크아웃하다", "romanized": "chekeuauthada"},
+        {"front": "Check out is at eleven.", "back": "체크아웃은 열한 시예요.", "romanized": "chekeuaouteun yeolhan siyeyo", "literal": "Check-out [topic] eleven o'clock is."}
       ]
     },
     {
       "id": "nearby",
       "levels": [
-        {
-          "front": "Nearby",
-          "back": "근처에 / 가까이에",
-          "romanized": "geuncheoe / gakkaie"
-        },
-        {
-          "front": "Is there a pharmacy nearby?",
-          "back": "근처에 약국이 있어요?",
-          "romanized": "geuncheoe yakgugi isseoyo",
-          "literal": "Nearby pharmacy [subj] is?"
-        }
+        {"front": "Nearby", "back": "근처에 / 가까이에", "romanized": "geuncheoe / gakkaie"},
+        {"front": "Is there a pharmacy nearby?", "back": "근처에 약국이 있어요?", "romanized": "geuncheoe yakgugi isseoyo", "literal": "Nearby pharmacy [subj] is?"}
       ]
     },
     {
       "id": "busy_crowded",
       "levels": [
-        {
-          "front": "Busy / Crowded",
-          "back": "복잡한 / 붐비는",
-          "romanized": "bokjaphan / bumbineun"
-        },
-        {
-          "front": "The market is very crowded.",
-          "back": "시장이 매우 붐벼요.",
-          "romanized": "sijangi maeu bumbeoyo",
-          "literal": "Market [subj] very crowded-is."
-        }
+        {"front": "Busy / Crowded", "back": "복잡한 / 붐비는", "romanized": "bokjaphan / bumbineun"},
+        {"front": "The market is very crowded.", "back": "시장이 매우 붐벼요.", "romanized": "sijangi maeu bumbeoyo", "literal": "Market [subj] very crowded-is."}
       ]
     },
     {
       "id": "quiet",
       "levels": [
-        {
-          "front": "Quiet",
-          "back": "조용한",
-          "romanized": "joyonghan"
-        },
-        {
-          "front": "I prefer a quiet neighbourhood.",
-          "back": "조용한 동네를 더 좋아해요.",
-          "romanized": "joyonghan dongnereul deo joahaeyo",
-          "literal": "Quiet neighbourhood [obj] more like."
-        }
+        {"front": "Quiet", "back": "조용한", "romanized": "joyonghan"},
+        {"front": "I prefer a quiet neighbourhood.", "back": "조용한 동네를 더 좋아해요.", "romanized": "joyonghan dongnereul deo joahaeyo", "literal": "Quiet neighbourhood [obj] more like."}
       ]
     },
     {
       "id": "lost",
       "levels": [
-        {
-          "front": "Lost",
-          "back": "길을 잃은 / 미아",
-          "romanized": "gireul ilheun / mia"
-        },
-        {
-          "front": "I'm lost.",
-          "back": "길을 잃었어요.",
-          "romanized": "gireul ilheosseoyo",
-          "literal": "Road [obj] lost."
-        }
+        {"front": "Lost", "back": "길을 잃은 / 미아", "romanized": "gireul ilheun / mia"},
+        {"front": "I'm lost.", "back": "길을 잃었어요.", "romanized": "gireul ilheosseoyo", "literal": "Road [obj] lost."}
       ]
     }
   ]
