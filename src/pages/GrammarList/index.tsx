@@ -19,7 +19,7 @@ const GrammarList = () => {
 
     useEffect(() => {
         if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}.json`)
+        fetch(`/languages/${language}/${deckId}/index.json`)
             .then(r => r.json())
             .then(data => setDeck(data))
             .catch(console.error);

@@ -40,7 +40,7 @@ const SRSPictureList = () => {
 
         Promise.all(
             AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}.json`)
+                fetch(`/languages/${language}/${deckId}/index.json`)
                     .then((r) => r.json())
                     .catch(() => null)
             )
