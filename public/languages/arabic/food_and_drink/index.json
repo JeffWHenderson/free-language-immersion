@@ -4,698 +4,1503 @@
   "language": "arabic",
   "stories": [],
   "pictureLessons": [],
+  "grammarLessons": [
+    {
+      "id": "al_definite",
+      "name": "ال — The Definite Article"
+    },
+    {
+      "id": "gender",
+      "name": "المذكر والمؤنث — Masculine & Feminine"
+    }
+  ],
   "cards": [
     {
       "id": "water",
       "levels": [
-        {"front": "water", "back": "ماء", "romanized": "ma'", "grammarNote": "Arabic has no copula (verb 'to be') in the present tense. 'الماء بارد' (al-ma' barid) literally means 'the-water cold' with no verb. This nominal sentence structure is standard: subject + predicate adjective, no linking verb needed."},
-        {"front": "The water is cold.", "back": "الماء بارد.", "romanized": "al-ma' barid."}
+        {
+          "front": "water",
+          "back": "ماء",
+          "romanized": "ma'",
+          "grammarNote": "Arabic has no copula (verb 'to be') in the present tense. 'الماء بارد' (al-ma' barid) literally means 'the-water cold' with no verb. This nominal sentence structure is standard: subject + predicate adjective, no linking verb needed."
+        },
+        {
+          "front": "The water is cold.",
+          "back": "الماء بارد.",
+          "romanized": "al-ma' barid."
+        }
       ]
     },
     {
       "id": "bread",
       "levels": [
-        {"front": "bread", "back": "خبز", "romanized": "khubz"},
-        {"front": "I'd like some bread.", "back": "أريد بعض الخبز.", "romanized": "urid ba'd al-khubz."}
+        {
+          "front": "bread",
+          "back": "خبز",
+          "romanized": "khubz"
+        },
+        {
+          "front": "I'd like some bread.",
+          "back": "أريد بعض الخبز.",
+          "romanized": "urid ba'd al-khubz."
+        }
       ]
     },
     {
       "id": "rice",
       "levels": [
-        {"front": "rice", "back": "أرز", "romanized": "aruzz"},
-        {"front": "I like rice with vegetables.", "back": "أحب الأرز مع الخضروات.", "romanized": "uhibb al-aruzz ma'a al-khadrawat."}
+        {
+          "front": "rice",
+          "back": "أرز",
+          "romanized": "aruzz"
+        },
+        {
+          "front": "I like rice with vegetables.",
+          "back": "أحب الأرز مع الخضروات.",
+          "romanized": "uhibb al-aruzz ma'a al-khadrawat."
+        }
       ]
     },
     {
       "id": "milk",
       "levels": [
-        {"front": "milk", "back": "حليب", "romanized": "halib"},
-        {"front": "Do you want milk?", "back": "هل تريد حليباً؟", "romanized": "hal turid haliban?"}
+        {
+          "front": "milk",
+          "back": "حليب",
+          "romanized": "halib"
+        },
+        {
+          "front": "Do you want milk?",
+          "back": "هل تريد حليباً؟",
+          "romanized": "hal turid haliban?"
+        }
       ]
     },
     {
       "id": "egg",
       "levels": [
-        {"front": "egg", "back": "بيضة", "romanized": "bayda"},
-        {"front": "I eat two eggs for breakfast.", "back": "آكل بيضتين في الفطور.", "romanized": "akul baydatayn fi al-futur."}
+        {
+          "front": "egg",
+          "back": "بيضة",
+          "romanized": "bayda"
+        },
+        {
+          "front": "I eat two eggs for breakfast.",
+          "back": "آكل بيضتين في الفطور.",
+          "romanized": "akul baydatayn fi al-futur."
+        }
       ]
     },
     {
       "id": "cheese",
       "levels": [
-        {"front": "cheese", "back": "جبن", "romanized": "jubn"},
-        {"front": "The sandwich has cheese.", "back": "الشطيرة فيها جبن.", "romanized": "ash-shatira fiha jubn."}
+        {
+          "front": "cheese",
+          "back": "جبن",
+          "romanized": "jubn"
+        },
+        {
+          "front": "The sandwich has cheese.",
+          "back": "الشطيرة فيها جبن.",
+          "romanized": "ash-shatira fiha jubn."
+        }
       ]
     },
     {
       "id": "chicken",
       "levels": [
-        {"front": "chicken", "back": "دجاج", "romanized": "dajaj"},
-        {"front": "The chicken is delicious.", "back": "الدجاج لذيذ.", "romanized": "ad-dajaj ladhidh."}
+        {
+          "front": "chicken",
+          "back": "دجاج",
+          "romanized": "dajaj"
+        },
+        {
+          "front": "The chicken is delicious.",
+          "back": "الدجاج لذيذ.",
+          "romanized": "ad-dajaj ladhidh."
+        }
       ]
     },
     {
       "id": "meat",
       "levels": [
-        {"front": "meat", "back": "لحم", "romanized": "lahm"},
-        {"front": "He doesn't eat meat.", "back": "هو لا يأكل اللحم.", "romanized": "huwa la ya'kul al-lahm."}
+        {
+          "front": "meat",
+          "back": "لحم",
+          "romanized": "lahm"
+        },
+        {
+          "front": "He doesn't eat meat.",
+          "back": "هو لا يأكل اللحم.",
+          "romanized": "huwa la ya'kul al-lahm."
+        }
       ]
     },
     {
       "id": "fish",
       "levels": [
-        {"front": "fish", "back": "سمك", "romanized": "samak"},
-        {"front": "I like fish.", "back": "أحب السمك.", "romanized": "uhibb as-samak."}
+        {
+          "front": "fish",
+          "back": "سمك",
+          "romanized": "samak"
+        },
+        {
+          "front": "I like fish.",
+          "back": "أحب السمك.",
+          "romanized": "uhibb as-samak."
+        }
       ]
     },
     {
       "id": "pork",
       "levels": [
-        {"front": "pork", "back": "لحم خنزير", "romanized": "lahm khinzir", "grammarNote": "Pork (لحم خنزير, lahm khinzir) is forbidden (حرام, haram) in Islam and is generally unavailable in most Arab countries. When eating in Arab cultural contexts, knowing this phrase is practical: لا آكل لحم الخنزير (la akul lahm al-khinzir) = I don't eat pork."},
-        {"front": "I don't eat pork.", "back": "لا آكل لحم الخنزير.", "romanized": "la akul lahm al-khinzir."}
+        {
+          "front": "pork",
+          "back": "لحم خنزير",
+          "romanized": "lahm khinzir",
+          "grammarNote": "Pork (لحم خنزير, lahm khinzir) is forbidden (حرام, haram) in Islam and is generally unavailable in most Arab countries. When eating in Arab cultural contexts, knowing this phrase is practical: لا آكل لحم الخنزير (la akul lahm al-khinzir) = I don't eat pork."
+        },
+        {
+          "front": "I don't eat pork.",
+          "back": "لا آكل لحم الخنزير.",
+          "romanized": "la akul lahm al-khinzir."
+        }
       ]
     },
     {
       "id": "fruit",
       "levels": [
-        {"front": "fruit", "back": "فاكهة", "romanized": "fakiha"},
-        {"front": "I eat fruit every day.", "back": "آكل الفاكهة كل يوم.", "romanized": "akul al-fakiha kull yawm."}
+        {
+          "front": "fruit",
+          "back": "فاكهة",
+          "romanized": "fakiha"
+        },
+        {
+          "front": "I eat fruit every day.",
+          "back": "آكل الفاكهة كل يوم.",
+          "romanized": "akul al-fakiha kull yawm."
+        }
       ]
     },
     {
       "id": "apple",
       "levels": [
-        {"front": "apple", "back": "تفاحة", "romanized": "tuffaha"},
-        {"front": "An apple a day is healthy.", "back": "تفاحة في اليوم مفيدة للصحة.", "romanized": "tuffaha fi al-yawm mufida lis-sihha."}
+        {
+          "front": "apple",
+          "back": "تفاحة",
+          "romanized": "tuffaha"
+        },
+        {
+          "front": "An apple a day is healthy.",
+          "back": "تفاحة في اليوم مفيدة للصحة.",
+          "romanized": "tuffaha fi al-yawm mufida lis-sihha."
+        }
       ]
     },
     {
       "id": "banana",
       "levels": [
-        {"front": "banana", "back": "موز", "romanized": "mawz"},
-        {"front": "The bananas are ripe.", "back": "الموز ناضج.", "romanized": "al-mawz nadij."}
+        {
+          "front": "banana",
+          "back": "موز",
+          "romanized": "mawz"
+        },
+        {
+          "front": "The bananas are ripe.",
+          "back": "الموز ناضج.",
+          "romanized": "al-mawz nadij."
+        }
       ]
     },
     {
       "id": "orange",
       "levels": [
-        {"front": "orange", "back": "برتقال", "romanized": "burtuqal"},
-        {"front": "I want an orange juice.", "back": "أريد عصير برتقال.", "romanized": "urid asir burtuqal."}
+        {
+          "front": "orange",
+          "back": "برتقال",
+          "romanized": "burtuqal"
+        },
+        {
+          "front": "I want an orange juice.",
+          "back": "أريد عصير برتقال.",
+          "romanized": "urid asir burtuqal."
+        }
       ]
     },
     {
       "id": "vegetable",
       "levels": [
-        {"front": "vegetable", "back": "خضروات", "romanized": "khadrawat"},
-        {"front": "Eat your vegetables!", "back": "كُل خضرواتك!", "romanized": "kul khadrawatak!"}
+        {
+          "front": "vegetable",
+          "back": "خضروات",
+          "romanized": "khadrawat"
+        },
+        {
+          "front": "Eat your vegetables!",
+          "back": "كُل خضرواتك!",
+          "romanized": "kul khadrawatak!"
+        }
       ]
     },
     {
       "id": "potato",
       "levels": [
-        {"front": "potato", "back": "بطاطس", "romanized": "batatais"},
-        {"front": "I want mashed potatoes.", "back": "أريد بطاطس مهروسة.", "romanized": "urid batatais mahrusa."}
+        {
+          "front": "potato",
+          "back": "بطاطس",
+          "romanized": "batatais"
+        },
+        {
+          "front": "I want mashed potatoes.",
+          "back": "أريد بطاطس مهروسة.",
+          "romanized": "urid batatais mahrusa."
+        }
       ]
     },
     {
       "id": "tomato",
       "levels": [
-        {"front": "tomato", "back": "طماطم", "romanized": "tamatim"},
-        {"front": "The salad has tomatoes.", "back": "السلطة فيها طماطم.", "romanized": "as-salata fiha tamatim."}
+        {
+          "front": "tomato",
+          "back": "طماطم",
+          "romanized": "tamatim"
+        },
+        {
+          "front": "The salad has tomatoes.",
+          "back": "السلطة فيها طماطم.",
+          "romanized": "as-salata fiha tamatim."
+        }
       ]
     },
     {
       "id": "onion",
       "levels": [
-        {"front": "onion", "back": "بصل", "romanized": "basal"},
-        {"front": "I don't like onions.", "back": "لا أحب البصل.", "romanized": "la uhibb al-basal."}
+        {
+          "front": "onion",
+          "back": "بصل",
+          "romanized": "basal"
+        },
+        {
+          "front": "I don't like onions.",
+          "back": "لا أحب البصل.",
+          "romanized": "la uhibb al-basal."
+        }
       ]
     },
     {
       "id": "salad",
       "levels": [
-        {"front": "salad", "back": "سلطة", "romanized": "salata"},
-        {"front": "I'll have a salad.", "back": "سآخذ سلطة.", "romanized": "sa-akhudh salata."}
+        {
+          "front": "salad",
+          "back": "سلطة",
+          "romanized": "salata"
+        },
+        {
+          "front": "I'll have a salad.",
+          "back": "سآخذ سلطة.",
+          "romanized": "sa-akhudh salata."
+        }
       ]
     },
     {
       "id": "soup",
       "levels": [
-        {"front": "soup", "back": "حساء / شوربة", "romanized": "hisa' / shurba"},
-        {"front": "The soup is hot.", "back": "الحساء ساخن.", "romanized": "al-hisa' sakhin."}
+        {
+          "front": "soup",
+          "back": "حساء",
+          "romanized": "hisa'"
+        },
+        {
+          "front": "The soup is hot.",
+          "back": "الحساء ساخن.",
+          "romanized": "al-hisa' sakhin."
+        }
       ]
     },
     {
       "id": "sandwich",
       "levels": [
-        {"front": "sandwich", "back": "شطيرة / سندوتش", "romanized": "shatira / sandawich"},
-        {"front": "I made a sandwich for lunch.", "back": "صنعت شطيرة للغداء.", "romanized": "sana'tu shatira lil-ghada'."}
+        {
+          "front": "sandwich",
+          "back": "شطيرة",
+          "romanized": "shatira"
+        },
+        {
+          "front": "I made a sandwich for lunch.",
+          "back": "صنعت شطيرة للغداء.",
+          "romanized": "sana'tu shatira lil-ghada'."
+        }
       ]
     },
     {
       "id": "cake",
       "levels": [
-        {"front": "cake", "back": "كعكة", "romanized": "ka'ka"},
-        {"front": "Do you want cake?", "back": "هل تريد كعكة؟", "romanized": "hal turid ka'ka?"}
+        {
+          "front": "cake",
+          "back": "كعكة",
+          "romanized": "ka'ka"
+        },
+        {
+          "front": "Do you want cake?",
+          "back": "هل تريد كعكة؟",
+          "romanized": "hal turid ka'ka?"
+        }
       ]
     },
     {
       "id": "cookie",
       "levels": [
-        {"front": "cookie", "back": "بسكويت", "romanized": "biskwit"},
-        {"front": "These cookies are delicious.", "back": "هذا البسكويت لذيذ.", "romanized": "hadha al-biskwit ladhidh."}
+        {
+          "front": "cookie",
+          "back": "بسكويت",
+          "romanized": "biskwit"
+        },
+        {
+          "front": "These cookies are delicious.",
+          "back": "هذا البسكويت لذيذ.",
+          "romanized": "hadha al-biskwit ladhidh."
+        }
       ]
     },
     {
       "id": "chocolate",
       "levels": [
-        {"front": "chocolate", "back": "شوكولاتة", "romanized": "shukulata"},
-        {"front": "I love chocolate.", "back": "أحب الشوكولاتة.", "romanized": "uhibb ash-shukulata."}
+        {
+          "front": "chocolate",
+          "back": "شوكولاتة",
+          "romanized": "shukulata"
+        },
+        {
+          "front": "I love chocolate.",
+          "back": "أحب الشوكولاتة.",
+          "romanized": "uhibb ash-shukulata."
+        }
       ]
     },
     {
       "id": "sugar",
       "levels": [
-        {"front": "sugar", "back": "سكر", "romanized": "sukkar"},
-        {"front": "No sugar, please.", "back": "بدون سكر، من فضلك.", "romanized": "bidun sukkar, min fadlak."}
+        {
+          "front": "sugar",
+          "back": "سكر",
+          "romanized": "sukkar"
+        },
+        {
+          "front": "No sugar, please.",
+          "back": "بدون سكر، من فضلك.",
+          "romanized": "bidun sukkar, min fadlak."
+        }
       ]
     },
     {
       "id": "salt",
       "levels": [
-        {"front": "salt", "back": "ملح", "romanized": "milh"},
-        {"front": "Can you pass the salt?", "back": "هل يمكنك تناولي الملح؟", "romanized": "hal yumkinuka tanawuli al-milh?"}
+        {
+          "front": "salt",
+          "back": "ملح",
+          "romanized": "milh"
+        },
+        {
+          "front": "Can you pass the salt?",
+          "back": "هل يمكنك تناولي الملح؟",
+          "romanized": "hal yumkinuka tanawuli al-milh?"
+        }
       ]
     },
     {
       "id": "pepper",
       "levels": [
-        {"front": "pepper", "back": "فلفل", "romanized": "filfil"},
-        {"front": "Can you pass the pepper?", "back": "هل يمكنك تناولي الفلفل؟", "romanized": "hal yumkinuka tanawuli al-filfil?"}
+        {
+          "front": "pepper",
+          "back": "فلفل",
+          "romanized": "filfil"
+        },
+        {
+          "front": "Can you pass the pepper?",
+          "back": "هل يمكنك تناولي الفلفل؟",
+          "romanized": "hal yumkinuka tanawuli al-filfil?"
+        }
       ]
     },
     {
       "id": "butter",
       "levels": [
-        {"front": "butter", "back": "زبدة", "romanized": "zubda"},
-        {"front": "I put butter on my bread.", "back": "أضع الزبدة على الخبز.", "romanized": "ada' az-zubda 'ala al-khubz."}
+        {
+          "front": "butter",
+          "back": "زبدة",
+          "romanized": "zubda"
+        },
+        {
+          "front": "I put butter on my bread.",
+          "back": "أضع الزبدة على الخبز.",
+          "romanized": "ada' az-zubda 'ala al-khubz."
+        }
       ]
     },
     {
       "id": "oil",
       "levels": [
-        {"front": "oil", "back": "زيت", "romanized": "zayt"},
-        {"front": "Cook with olive oil.", "back": "اطبخ بزيت الزيتون.", "romanized": "utbukh bi-zayt az-zaytun."}
+        {
+          "front": "oil",
+          "back": "زيت",
+          "romanized": "zayt"
+        },
+        {
+          "front": "Cook with olive oil.",
+          "back": "اطبخ بزيت الزيتون.",
+          "romanized": "utbukh bi-zayt az-zaytun."
+        }
       ]
     },
     {
       "id": "coffee",
       "levels": [
-        {"front": "coffee", "back": "قهوة", "romanized": "qahwa"},
-        {"front": "I like coffee in the morning.", "back": "أحب القهوة في الصباح.", "romanized": "uhibb al-qahwa fi as-sabah."}
+        {
+          "front": "coffee",
+          "back": "قهوة",
+          "romanized": "qahwa"
+        },
+        {
+          "front": "I like coffee in the morning.",
+          "back": "أحب القهوة في الصباح.",
+          "romanized": "uhibb al-qahwa fi as-sabah."
+        }
       ]
     },
     {
       "id": "tea",
       "levels": [
-        {"front": "tea", "back": "شاي", "romanized": "shay"},
-        {"front": "Would you like some tea?", "back": "هل تريد شاياً؟", "romanized": "hal turid shayan?"}
+        {
+          "front": "tea",
+          "back": "شاي",
+          "romanized": "shay"
+        },
+        {
+          "front": "Would you like some tea?",
+          "back": "هل تريد شاياً؟",
+          "romanized": "hal turid shayan?"
+        }
       ]
     },
     {
       "id": "wine",
       "levels": [
-        {"front": "wine", "back": "نبيذ", "romanized": "nabidh"},
-        {"front": "A glass of red wine, please.", "back": "كوب نبيذ أحمر، من فضلك.", "romanized": "kub nabidh ahmar, min fadlak."}
+        {
+          "front": "wine",
+          "back": "نبيذ",
+          "romanized": "nabidh"
+        },
+        {
+          "front": "A glass of red wine, please.",
+          "back": "كوب نبيذ أحمر، من فضلك.",
+          "romanized": "kub nabidh ahmar, min fadlak."
+        }
       ]
     },
     {
       "id": "beer",
       "levels": [
-        {"front": "beer", "back": "بيرة", "romanized": "bira"},
-        {"front": "Two beers, please.", "back": "بيرتان، من فضلك.", "romanized": "birratan, min fadlak."}
+        {
+          "front": "beer",
+          "back": "بيرة",
+          "romanized": "bira"
+        },
+        {
+          "front": "Two beers, please.",
+          "back": "بيرتان، من فضلك.",
+          "romanized": "birratan, min fadlak."
+        }
       ]
     },
     {
       "id": "juice",
       "levels": [
-        {"front": "juice", "back": "عصير", "romanized": "asir"},
-        {"front": "I want orange juice.", "back": "أريد عصير برتقال.", "romanized": "urid asir burtuqal."}
+        {
+          "front": "juice",
+          "back": "عصير",
+          "romanized": "asir"
+        },
+        {
+          "front": "I want orange juice.",
+          "back": "أريد عصير برتقال.",
+          "romanized": "urid asir burtuqal."
+        }
       ]
     },
     {
       "id": "breakfast",
       "levels": [
-        {"front": "breakfast", "back": "فطور", "romanized": "futur"},
-        {"front": "I have breakfast at seven.", "back": "آكل الفطور في السابعة.", "romanized": "akul al-futur fi as-sabi'a."}
+        {
+          "front": "breakfast",
+          "back": "فطور",
+          "romanized": "futur"
+        },
+        {
+          "front": "I have breakfast at seven.",
+          "back": "آكل الفطور في السابعة.",
+          "romanized": "akul al-futur fi as-sabi'a."
+        }
       ]
     },
     {
       "id": "lunch",
       "levels": [
-        {"front": "lunch", "back": "غداء", "romanized": "ghada'"},
-        {"front": "We have lunch at two.", "back": "نتناول الغداء في الثانية.", "romanized": "natarawal al-ghada' fi ath-thaniya."}
+        {
+          "front": "lunch",
+          "back": "غداء",
+          "romanized": "ghada'"
+        },
+        {
+          "front": "We have lunch at two.",
+          "back": "نتناول الغداء في الثانية.",
+          "romanized": "natarawal al-ghada' fi ath-thaniya."
+        }
       ]
     },
     {
       "id": "dinner",
       "levels": [
-        {"front": "dinner", "back": "عشاء", "romanized": "asha'"},
-        {"front": "Dinner is ready.", "back": "العشاء جاهز.", "romanized": "al-asha' jahiz."}
+        {
+          "front": "dinner",
+          "back": "عشاء",
+          "romanized": "asha'"
+        },
+        {
+          "front": "Dinner is ready.",
+          "back": "العشاء جاهز.",
+          "romanized": "al-asha' jahiz."
+        }
       ]
     },
     {
       "id": "snack",
       "levels": [
-        {"front": "snack", "back": "وجبة خفيفة", "romanized": "wajba khafifa"},
-        {"front": "I have a snack in the afternoon.", "back": "آكل وجبة خفيفة في بعد الظهر.", "romanized": "akul wajba khafifa fi ba'd adh-dhuhr."}
+        {
+          "front": "snack",
+          "back": "وجبة خفيفة",
+          "romanized": "wajba khafifa"
+        },
+        {
+          "front": "I have a snack in the afternoon.",
+          "back": "آكل وجبة خفيفة في بعد الظهر.",
+          "romanized": "akul wajba khafifa fi ba'd adh-dhuhr."
+        }
       ]
     },
     {
       "id": "meal",
       "levels": [
-        {"front": "meal", "back": "وجبة", "romanized": "wajba"},
-        {"front": "This is a delicious meal.", "back": "هذه وجبة لذيذة.", "romanized": "hadhihi wajba ladhidha."}
+        {
+          "front": "meal",
+          "back": "وجبة",
+          "romanized": "wajba"
+        },
+        {
+          "front": "This is a delicious meal.",
+          "back": "هذه وجبة لذيذة.",
+          "romanized": "hadhihi wajba ladhidha."
+        }
       ]
     },
     {
       "id": "recipe",
       "levels": [
-        {"front": "recipe", "back": "وصفة", "romanized": "wasfa"},
-        {"front": "Do you have a good recipe?", "back": "هل عندك وصفة جيدة؟", "romanized": "hal indaka wasfa jayyida?"}
+        {
+          "front": "recipe",
+          "back": "وصفة",
+          "romanized": "wasfa"
+        },
+        {
+          "front": "Do you have a good recipe?",
+          "back": "هل عندك وصفة جيدة؟",
+          "romanized": "hal indaka wasfa jayyida?"
+        }
       ]
     },
     {
       "id": "flavor",
       "levels": [
-        {"front": "flavor", "back": "نكهة / طعم", "romanized": "nakha / ta'm"},
-        {"front": "What flavor do you want?", "back": "أي نكهة تريد؟", "romanized": "ayy nakha turid?"}
+        {
+          "front": "flavor",
+          "back": "نكهة",
+          "romanized": "nakha"
+        },
+        {
+          "front": "What flavor do you want?",
+          "back": "أي نكهة تريد؟",
+          "romanized": "ayy nakha turid?"
+        }
       ]
     },
     {
       "id": "ingredient",
       "levels": [
-        {"front": "ingredient", "back": "مكون", "romanized": "mukawwin"},
-        {"front": "What ingredients do you need?", "back": "ما هي المكونات التي تحتاجها؟", "romanized": "ma hiya al-mukawwinat allati tahtajuha?"}
+        {
+          "front": "ingredient",
+          "back": "مكون",
+          "romanized": "mukawwin"
+        },
+        {
+          "front": "What ingredients do you need?",
+          "back": "ما هي المكونات التي تحتاجها؟",
+          "romanized": "ma hiya al-mukawwinat allati tahtajuha?"
+        }
       ]
     },
     {
       "id": "menu",
       "levels": [
-        {"front": "menu", "back": "قائمة الطعام", "romanized": "qa'imat at-ta'am"},
-        {"front": "Can I see the menu?", "back": "هل يمكنني رؤية قائمة الطعام؟", "romanized": "hal yumkinuni ru'yat qa'imat at-ta'am?"}
+        {
+          "front": "menu",
+          "back": "قائمة الطعام",
+          "romanized": "qa'imat at-ta'am"
+        },
+        {
+          "front": "Can I see the menu?",
+          "back": "هل يمكنني رؤية قائمة الطعام؟",
+          "romanized": "hal yumkinuni ru'yat qa'imat at-ta'am?"
+        }
       ]
     },
     {
       "id": "restaurant",
       "levels": [
-        {"front": "restaurant", "back": "مطعم", "romanized": "mat'am"},
-        {"front": "This restaurant is good.", "back": "هذا المطعم جيد.", "romanized": "hadha al-mat'am jayyid."}
+        {
+          "front": "restaurant",
+          "back": "مطعم",
+          "romanized": "mat'am"
+        },
+        {
+          "front": "This restaurant is good.",
+          "back": "هذا المطعم جيد.",
+          "romanized": "hadha al-mat'am jayyid."
+        }
       ]
     },
     {
       "id": "kitchen",
       "levels": [
-        {"front": "kitchen", "back": "مطبخ", "romanized": "matbakh"},
-        {"front": "The kitchen is clean.", "back": "المطبخ نظيف.", "romanized": "al-matbakh nadhif."}
+        {
+          "front": "kitchen",
+          "back": "مطبخ",
+          "romanized": "matbakh"
+        },
+        {
+          "front": "The kitchen is clean.",
+          "back": "المطبخ نظيف.",
+          "romanized": "al-matbakh nadhif."
+        }
       ]
     },
     {
       "id": "oven",
       "levels": [
-        {"front": "oven", "back": "فرن", "romanized": "furn"},
-        {"front": "The oven is hot.", "back": "الفرن ساخن.", "romanized": "al-furn sakhin."}
+        {
+          "front": "oven",
+          "back": "فرن",
+          "romanized": "furn"
+        },
+        {
+          "front": "The oven is hot.",
+          "back": "الفرن ساخن.",
+          "romanized": "al-furn sakhin."
+        }
       ]
     },
     {
       "id": "stove",
       "levels": [
-        {"front": "stove", "back": "موقد", "romanized": "mawqid"},
-        {"front": "Cook it on the stove.", "back": "اطبخه على الموقد.", "romanized": "utbukhhu 'ala al-mawqid."}
+        {
+          "front": "stove",
+          "back": "موقد",
+          "romanized": "mawqid"
+        },
+        {
+          "front": "Cook it on the stove.",
+          "back": "اطبخه على الموقد.",
+          "romanized": "utbukhhu 'ala al-mawqid."
+        }
       ]
     },
     {
       "id": "knife",
       "levels": [
-        {"front": "knife", "back": "سكين", "romanized": "sikkin"},
-        {"front": "I need a sharp knife.", "back": "أحتاج سكيناً حاداً.", "romanized": "ahtaj sikkinen haddan."}
+        {
+          "front": "knife",
+          "back": "سكين",
+          "romanized": "sikkin"
+        },
+        {
+          "front": "I need a sharp knife.",
+          "back": "أحتاج سكيناً حاداً.",
+          "romanized": "ahtaj sikkinen haddan."
+        }
       ]
     },
     {
       "id": "fork",
       "levels": [
-        {"front": "fork", "back": "شوكة", "romanized": "shawka"},
-        {"front": "Can I have a fork?", "back": "هل يمكنني الحصول على شوكة؟", "romanized": "hal yumkinuni al-husul 'ala shawka?"}
+        {
+          "front": "fork",
+          "back": "شوكة",
+          "romanized": "shawka"
+        },
+        {
+          "front": "Can I have a fork?",
+          "back": "هل يمكنني الحصول على شوكة؟",
+          "romanized": "hal yumkinuni al-husul 'ala shawka?"
+        }
       ]
     },
     {
       "id": "spoon",
       "levels": [
-        {"front": "spoon", "back": "ملعقة", "romanized": "mil'aqa"},
-        {"front": "I need a spoon.", "back": "أحتاج ملعقة.", "romanized": "ahtaj mil'aqa."}
+        {
+          "front": "spoon",
+          "back": "ملعقة",
+          "romanized": "mil'aqa"
+        },
+        {
+          "front": "I need a spoon.",
+          "back": "أحتاج ملعقة.",
+          "romanized": "ahtaj mil'aqa."
+        }
       ]
     },
     {
       "id": "plate",
       "levels": [
-        {"front": "plate", "back": "طبق", "romanized": "tabaq"},
-        {"front": "The plate is dirty.", "back": "الطبق متسخ.", "romanized": "at-tabaq mutassikh."}
+        {
+          "front": "plate",
+          "back": "طبق",
+          "romanized": "tabaq"
+        },
+        {
+          "front": "The plate is dirty.",
+          "back": "الطبق متسخ.",
+          "romanized": "at-tabaq mutassikh."
+        }
       ]
     },
     {
       "id": "bowl",
       "levels": [
-        {"front": "bowl", "back": "وعاء / صحن", "romanized": "wi'a' / sahn"},
-        {"front": "Fill the bowl with soup.", "back": "امل الوعاء بالحساء.", "romanized": "amla' al-wi'a' bil-hisa'."}
+        {
+          "front": "bowl",
+          "back": "وعاء",
+          "romanized": "wi'a'"
+        },
+        {
+          "front": "Fill the bowl with soup.",
+          "back": "امل الوعاء بالحساء.",
+          "romanized": "amla' al-wi'a' bil-hisa'."
+        }
       ]
     },
     {
       "id": "glass",
       "levels": [
-        {"front": "glass", "back": "كوب", "romanized": "kub"},
-        {"front": "A glass of water, please.", "back": "كوب ماء، من فضلك.", "romanized": "kub ma', min fadlak."}
+        {
+          "front": "glass",
+          "back": "كوب",
+          "romanized": "kub"
+        },
+        {
+          "front": "A glass of water, please.",
+          "back": "كوب ماء، من فضلك.",
+          "romanized": "kub ma', min fadlak."
+        }
       ]
     },
     {
       "id": "bottle",
       "levels": [
-        {"front": "bottle", "back": "زجاجة", "romanized": "zujaja"},
-        {"front": "A bottle of wine, please.", "back": "زجاجة نبيذ، من فضلك.", "romanized": "zujajat nabidh, min fadlak."}
+        {
+          "front": "bottle",
+          "back": "زجاجة",
+          "romanized": "zujaja"
+        },
+        {
+          "front": "A bottle of wine, please.",
+          "back": "زجاجة نبيذ، من فضلك.",
+          "romanized": "zujajat nabidh, min fadlak."
+        }
       ]
     },
     {
       "id": "table",
       "levels": [
-        {"front": "table", "back": "طاولة", "romanized": "tawila"},
-        {"front": "Our table is ready.", "back": "طاولتنا جاهزة.", "romanized": "tawilantuna jahiza."}
+        {
+          "front": "table",
+          "back": "طاولة",
+          "romanized": "tawila"
+        },
+        {
+          "front": "Our table is ready.",
+          "back": "طاولتنا جاهزة.",
+          "romanized": "tawilantuna jahiza."
+        }
       ]
     },
     {
       "id": "waiter",
       "levels": [
-        {"front": "waiter", "back": "نادل", "romanized": "nadil"},
-        {"front": "Waiter, the bill please.", "back": "يا نادل، الفاتورة من فضلك.", "romanized": "ya nadil, al-fatura min fadlak."}
+        {
+          "front": "waiter",
+          "back": "نادل",
+          "romanized": "nadil"
+        },
+        {
+          "front": "Waiter, the bill please.",
+          "back": "يا نادل، الفاتورة من فضلك.",
+          "romanized": "ya nadil, al-fatura min fadlak."
+        }
       ]
     },
     {
       "id": "hungry",
       "levels": [
-        {"front": "hungry", "back": "جائع", "romanized": "ja'i'", "grammarNote": "Arabic expresses hunger and thirst with adjectives directly: أنا جائع (ana ja'i' = I am hungry), أنا عطشان (ana atshan = I am thirsty). Unlike Spanish which uses 'tener' (to have hunger), Arabic simply places the adjective as a predicate with no verb. Feminine forms: جائعة (ja'i'a), عطشانة (atshanah)."},
-        {"front": "I'm hungry. Are you thirsty?", "back": "أنا جائع. هل أنت عطشان؟", "romanized": "ana ja'i'. hal anta atshan?"}
+        {
+          "front": "hungry",
+          "back": "جائع",
+          "romanized": "ja'i'",
+          "grammarNote": "Arabic expresses hunger and thirst with adjectives directly: أنا جائع (ana ja'i' = I am hungry), أنا عطشان (ana atshan = I am thirsty). Unlike Spanish which uses 'tener' (to have hunger), Arabic simply places the adjective as a predicate with no verb. Feminine forms: جائعة (ja'i'a), عطشانة (atshanah)."
+        },
+        {
+          "front": "I'm hungry. Are you thirsty?",
+          "back": "أنا جائع. هل أنت عطشان؟",
+          "romanized": "ana ja'i'. hal anta atshan?"
+        }
       ]
     },
     {
       "id": "thirsty",
       "levels": [
-        {"front": "thirsty", "back": "عطشان", "romanized": "atshan"},
-        {"front": "I'm thirsty.", "back": "أنا عطشان.", "romanized": "ana atshan."}
+        {
+          "front": "thirsty",
+          "back": "عطشان",
+          "romanized": "atshan"
+        },
+        {
+          "front": "I'm thirsty.",
+          "back": "أنا عطشان.",
+          "romanized": "ana atshan."
+        }
       ]
     },
     {
       "id": "eat",
       "levels": [
-        {"front": "eat", "back": "يأكل", "romanized": "ya'kul"},
-        {"front": "Let's eat!", "back": "لنأكل!", "romanized": "lna'kul!"}
+        {
+          "front": "eat",
+          "back": "يأكل",
+          "romanized": "ya'kul"
+        },
+        {
+          "front": "Let's eat!",
+          "back": "لنأكل!",
+          "romanized": "lna'kul!"
+        }
       ]
     },
     {
       "id": "drink",
       "levels": [
-        {"front": "drink", "back": "يشرب", "romanized": "yashrab"},
-        {"front": "Would you like something to drink?", "back": "هل تريد شيئاً للشرب؟", "romanized": "hal turid shay'an lish-shurb?"}
+        {
+          "front": "drink",
+          "back": "يشرب",
+          "romanized": "yashrab"
+        },
+        {
+          "front": "Would you like something to drink?",
+          "back": "هل تريد شيئاً للشرب؟",
+          "romanized": "hal turid shay'an lish-shurb?"
+        }
       ]
     },
     {
       "id": "cook",
       "levels": [
-        {"front": "cook", "back": "يطبخ", "romanized": "yatbukh"},
-        {"front": "She cooks very well.", "back": "هي تطبخ جيداً جداً.", "romanized": "hiya tatbukh jayyidan jiddan."}
+        {
+          "front": "cook",
+          "back": "يطبخ",
+          "romanized": "yatbukh"
+        },
+        {
+          "front": "She cooks very well.",
+          "back": "هي تطبخ جيداً جداً.",
+          "romanized": "hiya tatbukh jayyidan jiddan."
+        }
       ]
     },
     {
       "id": "bake",
       "levels": [
-        {"front": "bake", "back": "يخبز", "romanized": "yakhbuz"},
-        {"front": "I bake bread on Sundays.", "back": "أخبز الخبز يوم الأحد.", "romanized": "akhbuz al-khubz yawm al-ahad."}
+        {
+          "front": "bake",
+          "back": "يخبز",
+          "romanized": "yakhbuz"
+        },
+        {
+          "front": "I bake bread on Sundays.",
+          "back": "أخبز الخبز يوم الأحد.",
+          "romanized": "akhbuz al-khubz yawm al-ahad."
+        }
       ]
     },
     {
       "id": "fry",
       "levels": [
-        {"front": "fry", "back": "يقلي", "romanized": "yaqli"},
-        {"front": "Fry the onions in oil.", "back": "اقلِ البصل في الزيت.", "romanized": "iqli al-basal fi az-zayt."}
+        {
+          "front": "fry",
+          "back": "يقلي",
+          "romanized": "yaqli"
+        },
+        {
+          "front": "Fry the onions in oil.",
+          "back": "اقلِ البصل في الزيت.",
+          "romanized": "iqli al-basal fi az-zayt."
+        }
       ]
     },
     {
       "id": "roast",
       "levels": [
-        {"front": "roast", "back": "يشوي", "romanized": "yashwi"},
-        {"front": "Roast the chicken for one hour.", "back": "اشوِ الدجاج لمدة ساعة.", "romanized": "ishwi ad-dajaj li-mudat sa'a."}
+        {
+          "front": "roast",
+          "back": "يشوي",
+          "romanized": "yashwi"
+        },
+        {
+          "front": "Roast the chicken for one hour.",
+          "back": "اشوِ الدجاج لمدة ساعة.",
+          "romanized": "ishwi ad-dajaj li-mudat sa'a."
+        }
       ]
     },
     {
       "id": "chop",
       "levels": [
-        {"front": "chop", "back": "يقطع", "romanized": "yaqta'"},
-        {"front": "Chop the onions.", "back": "اقطع البصل.", "romanized": "iqta' al-basal."}
+        {
+          "front": "chop",
+          "back": "يقطع",
+          "romanized": "yaqta'"
+        },
+        {
+          "front": "Chop the onions.",
+          "back": "اقطع البصل.",
+          "romanized": "iqta' al-basal."
+        }
       ]
     },
     {
       "id": "slice",
       "levels": [
-        {"front": "slice", "back": "يشرّح", "romanized": "yusharrah"},
-        {"front": "Slice the bread.", "back": "شرّح الخبز.", "romanized": "sharrah al-khubz."}
+        {
+          "front": "slice",
+          "back": "يشرّح",
+          "romanized": "yusharrah"
+        },
+        {
+          "front": "Slice the bread.",
+          "back": "شرّح الخبز.",
+          "romanized": "sharrah al-khubz."
+        }
       ]
     },
     {
       "id": "mix",
       "levels": [
-        {"front": "mix", "back": "يمزج", "romanized": "yamzuj"},
-        {"front": "Mix all the ingredients.", "back": "امزج جميع المكونات.", "romanized": "imzuj jami' al-mukawwinat."}
+        {
+          "front": "mix",
+          "back": "يمزج",
+          "romanized": "yamzuj"
+        },
+        {
+          "front": "Mix all the ingredients.",
+          "back": "امزج جميع المكونات.",
+          "romanized": "imzuj jami' al-mukawwinat."
+        }
       ]
     },
     {
       "id": "stir",
       "levels": [
-        {"front": "stir", "back": "يحرّك", "romanized": "yuharrik"},
-        {"front": "Stir the soup.", "back": "حرّك الحساء.", "romanized": "harrik al-hisa'."}
+        {
+          "front": "stir",
+          "back": "يحرّك",
+          "romanized": "yuharrik"
+        },
+        {
+          "front": "Stir the soup.",
+          "back": "حرّك الحساء.",
+          "romanized": "harrik al-hisa'."
+        }
       ]
     },
     {
       "id": "whisk",
       "levels": [
-        {"front": "whisk", "back": "يخفق", "romanized": "yakhfuq"},
-        {"front": "Whisk the eggs.", "back": "اخفق البيض.", "romanized": "ikhfuq al-bayd."}
+        {
+          "front": "whisk",
+          "back": "يخفق",
+          "romanized": "yakhfuq"
+        },
+        {
+          "front": "Whisk the eggs.",
+          "back": "اخفق البيض.",
+          "romanized": "ikhfuq al-bayd."
+        }
       ]
     },
     {
       "id": "pour",
       "levels": [
-        {"front": "pour", "back": "يسكب", "romanized": "yaskub"},
-        {"front": "Pour the water into the glass.", "back": "اسكب الماء في الكوب.", "romanized": "uskub al-ma' fi al-kub."}
+        {
+          "front": "pour",
+          "back": "يسكب",
+          "romanized": "yaskub"
+        },
+        {
+          "front": "Pour the water into the glass.",
+          "back": "اسكب الماء في الكوب.",
+          "romanized": "uskub al-ma' fi al-kub."
+        }
       ]
     },
     {
       "id": "serve",
       "levels": [
-        {"front": "serve", "back": "يقدّم", "romanized": "yuqaddim"},
-        {"front": "The waiter served the food.", "back": "النادل قدّم الطعام.", "romanized": "an-nadil qaddama at-ta'am."}
+        {
+          "front": "serve",
+          "back": "يقدّم",
+          "romanized": "yuqaddim"
+        },
+        {
+          "front": "The waiter served the food.",
+          "back": "النادل قدّم الطعام.",
+          "romanized": "an-nadil qaddama at-ta'am."
+        }
       ]
     },
     {
       "id": "feed",
       "levels": [
-        {"front": "feed", "back": "يطعم", "romanized": "yut'im"},
-        {"front": "She feeds the baby.", "back": "هي تطعم الطفل.", "romanized": "hiya tut'im at-tifl."}
+        {
+          "front": "feed",
+          "back": "يطعم",
+          "romanized": "yut'im"
+        },
+        {
+          "front": "She feeds the baby.",
+          "back": "هي تطعم الطفل.",
+          "romanized": "hiya tut'im at-tifl."
+        }
       ]
     },
     {
       "id": "dine",
       "levels": [
-        {"front": "dine", "back": "يتناول العشاء", "romanized": "yatanawal al-asha'"},
-        {"front": "We dined at a nice restaurant.", "back": "تناولنا العشاء في مطعم جيد.", "romanized": "tanawalna al-asha' fi mat'am jayyid."}
+        {
+          "front": "dine",
+          "back": "يتناول العشاء",
+          "romanized": "yatanawal al-asha'"
+        },
+        {
+          "front": "We dined at a nice restaurant.",
+          "back": "تناولنا العشاء في مطعم جيد.",
+          "romanized": "tanawalna al-asha' fi mat'am jayyid."
+        }
       ]
     },
     {
       "id": "chew",
       "levels": [
-        {"front": "chew", "back": "يمضغ", "romanized": "yamdag"},
-        {"front": "Chew your food slowly.", "back": "امضغ طعامك ببطء.", "romanized": "umdug ta'amak bi-but'."}
+        {
+          "front": "chew",
+          "back": "يمضغ",
+          "romanized": "yamdag"
+        },
+        {
+          "front": "Chew your food slowly.",
+          "back": "امضغ طعامك ببطء.",
+          "romanized": "umdug ta'amak bi-but'."
+        }
       ]
     },
     {
       "id": "swallow",
       "levels": [
-        {"front": "swallow", "back": "يبتلع", "romanized": "yabtali'"},
-        {"front": "Swallow the pill with water.", "back": "ابتلع الحبة بالماء.", "romanized": "ibtali' al-habba bil-ma'."}
+        {
+          "front": "swallow",
+          "back": "يبتلع",
+          "romanized": "yabtali'"
+        },
+        {
+          "front": "Swallow the pill with water.",
+          "back": "ابتلع الحبة بالماء.",
+          "romanized": "ibtali' al-habba bil-ma'."
+        }
       ]
     },
     {
       "id": "season",
       "levels": [
-        {"front": "season", "back": "يتبّل", "romanized": "yutabbil"},
-        {"front": "Season with salt and pepper.", "back": "تبّل بالملح والفلفل.", "romanized": "tabbil bil-milh wal-filfil."}
+        {
+          "front": "season",
+          "back": "يتبّل",
+          "romanized": "yutabbil"
+        },
+        {
+          "front": "Season with salt and pepper.",
+          "back": "تبّل بالملح والفلفل.",
+          "romanized": "tabbil bil-milh wal-filfil."
+        }
       ]
     },
     {
       "id": "fresh",
       "levels": [
-        {"front": "fresh", "back": "طازج", "romanized": "tazij"},
-        {"front": "The bread is fresh.", "back": "الخبز طازج.", "romanized": "al-khubz tazij."}
+        {
+          "front": "fresh",
+          "back": "طازج",
+          "romanized": "tazij"
+        },
+        {
+          "front": "The bread is fresh.",
+          "back": "الخبز طازج.",
+          "romanized": "al-khubz tazij."
+        }
       ]
     },
     {
       "id": "ripe",
       "levels": [
-        {"front": "ripe", "back": "ناضج", "romanized": "nadij"},
-        {"front": "The tomatoes are ripe.", "back": "الطماطم ناضجة.", "romanized": "at-tamatim nadija."}
+        {
+          "front": "ripe",
+          "back": "ناضج",
+          "romanized": "nadij"
+        },
+        {
+          "front": "The tomatoes are ripe.",
+          "back": "الطماطم ناضجة.",
+          "romanized": "at-tamatim nadija."
+        }
       ]
     },
     {
       "id": "cooked",
       "levels": [
-        {"front": "cooked", "back": "مطبوخ", "romanized": "matbukh"},
-        {"front": "Is the chicken cooked?", "back": "هل الدجاج مطبوخ؟", "romanized": "hal ad-dajaj matbukh?"}
+        {
+          "front": "cooked",
+          "back": "مطبوخ",
+          "romanized": "matbukh"
+        },
+        {
+          "front": "Is the chicken cooked?",
+          "back": "هل الدجاج مطبوخ؟",
+          "romanized": "hal ad-dajaj matbukh?"
+        }
       ]
     },
     {
       "id": "hot",
       "levels": [
-        {"front": "hot", "back": "ساخن", "romanized": "sakhin"},
-        {"front": "Be careful, the soup is hot.", "back": "انتبه، الحساء ساخن.", "romanized": "intabih, al-hisa' sakhin."}
+        {
+          "front": "hot",
+          "back": "ساخن",
+          "romanized": "sakhin"
+        },
+        {
+          "front": "Be careful, the soup is hot.",
+          "back": "انتبه، الحساء ساخن.",
+          "romanized": "intabih, al-hisa' sakhin."
+        }
       ]
     },
     {
       "id": "cold",
       "levels": [
-        {"front": "cold", "back": "بارد", "romanized": "barid"},
-        {"front": "My coffee is cold.", "back": "قهوتي باردة.", "romanized": "qahwati barida."}
+        {
+          "front": "cold",
+          "back": "بارد",
+          "romanized": "barid"
+        },
+        {
+          "front": "My coffee is cold.",
+          "back": "قهوتي باردة.",
+          "romanized": "qahwati barida."
+        }
       ]
     },
     {
       "id": "sweet",
       "levels": [
-        {"front": "sweet", "back": "حلو", "romanized": "hulw"},
-        {"front": "This cake is very sweet.", "back": "هذه الكعكة حلوة جداً.", "romanized": "hadhihi al-ka'ka hulwa jiddan."}
+        {
+          "front": "sweet",
+          "back": "حلو",
+          "romanized": "hulw"
+        },
+        {
+          "front": "This cake is very sweet.",
+          "back": "هذه الكعكة حلوة جداً.",
+          "romanized": "hadhihi al-ka'ka hulwa jiddan."
+        }
       ]
     },
     {
       "id": "sour",
       "levels": [
-        {"front": "sour", "back": "حامض", "romanized": "hamid"},
-        {"front": "This lemon is sour.", "back": "هذا الليمون حامض.", "romanized": "hadha al-laymun hamid."}
+        {
+          "front": "sour",
+          "back": "حامض",
+          "romanized": "hamid"
+        },
+        {
+          "front": "This lemon is sour.",
+          "back": "هذا الليمون حامض.",
+          "romanized": "hadha al-laymun hamid."
+        }
       ]
     },
     {
       "id": "bitter",
       "levels": [
-        {"front": "bitter", "back": "مرّ", "romanized": "murr"},
-        {"front": "This coffee is bitter.", "back": "هذه القهوة مرّة.", "romanized": "hadhihi al-qahwa murra."}
+        {
+          "front": "bitter",
+          "back": "مرّ",
+          "romanized": "murr"
+        },
+        {
+          "front": "This coffee is bitter.",
+          "back": "هذه القهوة مرّة.",
+          "romanized": "hadhihi al-qahwa murra."
+        }
       ]
     },
     {
       "id": "spicy",
       "levels": [
-        {"front": "spicy", "back": "حارّ", "romanized": "harr"},
-        {"front": "Mexican food is often spicy.", "back": "الطعام المكسيكي حارّ في الغالب.", "romanized": "at-ta'am al-miksiki harr fi al-ghalib."}
+        {
+          "front": "spicy",
+          "back": "حارّ",
+          "romanized": "harr"
+        },
+        {
+          "front": "Mexican food is often spicy.",
+          "back": "الطعام المكسيكي حارّ في الغالب.",
+          "romanized": "at-ta'am al-miksiki harr fi al-ghalib."
+        }
       ]
     },
     {
       "id": "tender",
       "levels": [
-        {"front": "tender", "back": "طريّ", "romanized": "tariyy"},
-        {"front": "The meat is tender.", "back": "اللحم طريّ.", "romanized": "al-lahm tariyy."}
+        {
+          "front": "tender",
+          "back": "طريّ",
+          "romanized": "tariyy"
+        },
+        {
+          "front": "The meat is tender.",
+          "back": "اللحم طريّ.",
+          "romanized": "al-lahm tariyy."
+        }
       ]
     },
     {
       "id": "delicious",
       "levels": [
-        {"front": "delicious", "back": "لذيذ", "romanized": "ladhidh"},
-        {"front": "This is delicious!", "back": "هذا لذيذ!", "romanized": "hadha ladhidh!"}
+        {
+          "front": "delicious",
+          "back": "لذيذ",
+          "romanized": "ladhidh"
+        },
+        {
+          "front": "This is delicious!",
+          "back": "هذا لذيذ!",
+          "romanized": "hadha ladhidh!"
+        }
       ]
     },
     {
       "id": "tasty",
       "levels": [
-        {"front": "tasty", "back": "شهيّ", "romanized": "shahiyy"},
-        {"front": "The soup is very tasty.", "back": "الحساء شهيّ جداً.", "romanized": "al-hisa' shahiyy jiddan."}
+        {
+          "front": "tasty",
+          "back": "شهيّ",
+          "romanized": "shahiyy"
+        },
+        {
+          "front": "The soup is very tasty.",
+          "back": "الحساء شهيّ جداً.",
+          "romanized": "al-hisa' shahiyy jiddan."
+        }
       ]
     },
     {
       "id": "bland",
       "levels": [
-        {"front": "bland", "back": "تفه الطعم", "romanized": "tafih at-ta'm"},
-        {"front": "The rice is bland.", "back": "الأرز تفه الطعم.", "romanized": "al-aruzz tafih at-ta'm."}
+        {
+          "front": "bland",
+          "back": "تفه الطعم",
+          "romanized": "tafih at-ta'm"
+        },
+        {
+          "front": "The rice is bland.",
+          "back": "الأرز تفه الطعم.",
+          "romanized": "al-aruzz tafih at-ta'm."
+        }
       ]
     },
     {
       "id": "healthy",
       "levels": [
-        {"front": "healthy", "back": "صحيّ", "romanized": "sihiyy"},
-        {"front": "Fruit is healthy.", "back": "الفاكهة صحية.", "romanized": "al-fakiha sihiyya."}
+        {
+          "front": "healthy",
+          "back": "صحيّ",
+          "romanized": "sihiyy"
+        },
+        {
+          "front": "Fruit is healthy.",
+          "back": "الفاكهة صحية.",
+          "romanized": "al-fakiha sihiyya."
+        }
       ]
     },
     {
       "id": "unhealthy",
       "levels": [
-        {"front": "unhealthy", "back": "غير صحيّ", "romanized": "ghayr sihiyy"},
-        {"front": "Fast food is unhealthy.", "back": "الوجبات السريعة غير صحية.", "romanized": "al-wajbat as-sari'a ghayr sihiyya."}
+        {
+          "front": "unhealthy",
+          "back": "غير صحيّ",
+          "romanized": "ghayr sihiyy"
+        },
+        {
+          "front": "Fast food is unhealthy.",
+          "back": "الوجبات السريعة غير صحية.",
+          "romanized": "al-wajbat as-sari'a ghayr sihiyya."
+        }
       ]
     },
     {
       "id": "vegetarian",
       "levels": [
-        {"front": "vegetarian", "back": "نباتي", "romanized": "nabati"},
-        {"front": "I am vegetarian.", "back": "أنا نباتي.", "romanized": "ana nabati."}
+        {
+          "front": "vegetarian",
+          "back": "نباتي",
+          "romanized": "nabati"
+        },
+        {
+          "front": "I am vegetarian.",
+          "back": "أنا نباتي.",
+          "romanized": "ana nabati."
+        }
       ]
     },
     {
       "id": "vegan",
       "levels": [
-        {"front": "vegan", "back": "نباتي صارم", "romanized": "nabati sarim"},
-        {"front": "She is vegan.", "back": "هي نباتية صارمة.", "romanized": "hiya nabatiyya sarima."}
+        {
+          "front": "vegan",
+          "back": "نباتي صارم",
+          "romanized": "nabati sarim"
+        },
+        {
+          "front": "She is vegan.",
+          "back": "هي نباتية صارمة.",
+          "romanized": "hiya nabatiyya sarima."
+        }
       ]
     },
     {
       "id": "frozen",
       "levels": [
-        {"front": "frozen", "back": "مجمّد", "romanized": "mujammad"},
-        {"front": "Take the frozen food out.", "back": "أخرج الطعام المجمّد.", "romanized": "akhrij at-ta'am al-mujammad."}
+        {
+          "front": "frozen",
+          "back": "مجمّد",
+          "romanized": "mujammad"
+        },
+        {
+          "front": "Take the frozen food out.",
+          "back": "أخرج الطعام المجمّد.",
+          "romanized": "akhrij at-ta'am al-mujammad."
+        }
       ]
     },
     {
       "id": "organic",
       "levels": [
-        {"front": "organic", "back": "عضوي", "romanized": "'udwi"},
-        {"front": "I prefer organic vegetables.", "back": "أفضل الخضروات العضوية.", "romanized": "ufaddil al-khadrawat al-'udwiyya."}
+        {
+          "front": "organic",
+          "back": "عضوي",
+          "romanized": "'udwi"
+        },
+        {
+          "front": "I prefer organic vegetables.",
+          "back": "أفضل الخضروات العضوية.",
+          "romanized": "ufaddil al-khadrawat al-'udwiyya."
+        }
       ]
     },
     {
       "id": "homemade",
       "levels": [
-        {"front": "homemade", "back": "منزلي الصنع", "romanized": "manzili as-sun'"},
-        {"front": "I love homemade bread.", "back": "أحب الخبز المنزلي.", "romanized": "uhibb al-khubz al-manzili."}
+        {
+          "front": "homemade",
+          "back": "منزلي الصنع",
+          "romanized": "manzili as-sun'"
+        },
+        {
+          "front": "I love homemade bread.",
+          "back": "أحب الخبز المنزلي.",
+          "romanized": "uhibb al-khubz al-manzili."
+        }
       ]
     },
     {
       "id": "daily",
       "levels": [
-        {"front": "daily", "back": "يومي", "romanized": "yawmi"},
-        {"front": "I eat fruit daily.", "back": "آكل الفاكهة يومياً.", "romanized": "akul al-fakiha yawmiyan."}
+        {
+          "front": "daily",
+          "back": "يومي",
+          "romanized": "yawmi"
+        },
+        {
+          "front": "I eat fruit daily.",
+          "back": "آكل الفاكهة يومياً.",
+          "romanized": "akul al-fakiha yawmiyan."
+        }
       ]
     },
     {
       "id": "almost",
       "levels": [
-        {"front": "almost", "back": "تقريباً", "romanized": "taqriban"},
-        {"front": "Lunch is almost ready.", "back": "الغداء جاهز تقريباً.", "romanized": "al-ghada' jahiz taqriban."}
+        {
+          "front": "almost",
+          "back": "تقريباً",
+          "romanized": "taqriban"
+        },
+        {
+          "front": "Lunch is almost ready.",
+          "back": "الغداء جاهز تقريباً.",
+          "romanized": "al-ghada' jahiz taqriban."
+        }
       ]
     },
     {
       "id": "too_too_much",
       "levels": [
-        {"front": "too (too much)", "back": "أكثر من اللازم", "romanized": "akthar min al-lazim"},
-        {"front": "There is too much salt.", "back": "الملح أكثر من اللازم.", "romanized": "al-milh akthar min al-lazim."}
+        {
+          "front": "too (too much)",
+          "back": "أكثر من اللازم",
+          "romanized": "akthar min al-lazim"
+        },
+        {
+          "front": "There is too much salt.",
+          "back": "الملح أكثر من اللازم.",
+          "romanized": "al-milh akthar min al-lazim."
+        }
       ]
     }
   ]

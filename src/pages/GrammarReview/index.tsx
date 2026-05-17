@@ -44,7 +44,7 @@ const GrammarReview = () => {
     const [cards, setCards] = useState<Card[]>([]);
     const [index, setIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
-    const [noteOpen, setNoteOpen] = useState(false);
+    const [noteOpen, setNoteOpen] = useState(true);
     const [done, setDone] = useState(false);
 
     const { readFront, readBack, volume, showLiteral, shuffleCards } = useLanguageApp();
@@ -84,7 +84,7 @@ const GrammarReview = () => {
 
     const flip = () => {
         setIsFlipped(true);
-        setNoteOpen(false);
+        setNoteOpen(true);
         if (level) speak(level.back, true);
     };
 
@@ -94,7 +94,7 @@ const GrammarReview = () => {
         } else {
             setIndex(i => i + 1);
             setIsFlipped(false);
-            setNoteOpen(false);
+            setNoteOpen(true);
         }
     };
 

@@ -6,390 +6,896 @@
     "at_the_doctor",
     "getting_ready"
   ],
+  "grammarLessons": [
+    {
+      "id": "ga_apayo",
+      "name": "이/가 아파요 — Expressing Pain"
+    },
+    {
+      "id": "nae_je",
+      "name": "내 vs 제 — My (Informal vs Formal)"
+    }
+  ],
   "cards": [
     {
       "id": "head",
       "levels": [
-        {"front": "head", "back": "머리", "romanized": "meori", "grammarNote": "In Korean, pain is expressed as '아프다' (apeuda, to hurt/be sick): '머리가 아파요' (meoriga apayo) = my head hurts. The body part takes subject particle 이/가 (i/ga). This construction is used for all body pain."},
-        {"front": "My head hurts.", "back": "머리가 아파요.", "romanized": "meoriga apayo", "literal": "Head [subj] hurts."}
+        {
+          "front": "head",
+          "back": "머리",
+          "romanized": "meori",
+          "grammarNote": "In Korean, pain is expressed as '아프다' (apeuda, to hurt/be sick): '머리가 아파요' (meoriga apayo) = my head hurts. The body part takes subject particle 이/가 (i/ga). This construction is used for all body pain."
+        },
+        {
+          "front": "My head hurts.",
+          "back": "머리가 아파요.",
+          "romanized": "meoriga apayo",
+          "literal": "Head [subj] hurts."
+        }
       ]
     },
     {
       "id": "hair",
       "levels": [
-        {"front": "hair", "back": "머리카락 / 머리", "romanized": "meorikaraк / meori"},
-        {"front": "She has long hair.", "back": "그녀는 머리카락이 길어요.", "romanized": "geunyeoneun meorikaragi gireoyo", "literal": "She [topic] hair [subj] long is."}
+        {
+          "front": "hair",
+          "back": "머리카락",
+          "romanized": "meorikaraк"
+        },
+        {
+          "front": "She has long hair.",
+          "back": "그녀는 머리카락이 길어요.",
+          "romanized": "geunyeoneun meorikaragi gireoyo",
+          "literal": "She [topic] hair [subj] long is."
+        }
       ]
     },
     {
       "id": "face",
       "levels": [
-        {"front": "face", "back": "얼굴", "romanized": "eolgul"},
-        {"front": "Wash your face.", "back": "얼굴을 씻으세요.", "romanized": "eolgureul ssiseuseyo", "literal": "Face [obj] please wash."}
+        {
+          "front": "face",
+          "back": "얼굴",
+          "romanized": "eolgul"
+        },
+        {
+          "front": "Wash your face.",
+          "back": "얼굴을 씻으세요.",
+          "romanized": "eolgureul ssiseuseyo",
+          "literal": "Face [obj] please wash."
+        }
       ]
     },
     {
       "id": "eye",
       "levels": [
-        {"front": "eye", "back": "눈", "romanized": "nun"},
-        {"front": "He has blue eyes.", "back": "그는 파란 눈을 가졌어요.", "romanized": "geuneun paran nuneul gajyeosseoyo", "literal": "He [topic] blue eyes [obj] had [past]."}
+        {
+          "front": "eye",
+          "back": "눈",
+          "romanized": "nun"
+        },
+        {
+          "front": "He has blue eyes.",
+          "back": "그는 파란 눈을 가졌어요.",
+          "romanized": "geuneun paran nuneul gajyeosseoyo",
+          "literal": "He [topic] blue eyes [obj] had [past]."
+        }
       ]
     },
     {
       "id": "ear",
       "levels": [
-        {"front": "ear", "back": "귀", "romanized": "gwi"},
-        {"front": "My ear hurts.", "back": "귀가 아파요.", "romanized": "gwiga apayo", "literal": "Ear [subj] hurts."}
+        {
+          "front": "ear",
+          "back": "귀",
+          "romanized": "gwi"
+        },
+        {
+          "front": "My ear hurts.",
+          "back": "귀가 아파요.",
+          "romanized": "gwiga apayo",
+          "literal": "Ear [subj] hurts."
+        }
       ]
     },
     {
       "id": "nose",
       "levels": [
-        {"front": "nose", "back": "코", "romanized": "ko"},
-        {"front": "My nose is cold.", "back": "코가 차가워요.", "romanized": "koga chagawoyo", "literal": "Nose [subj] cold is."}
+        {
+          "front": "nose",
+          "back": "코",
+          "romanized": "ko"
+        },
+        {
+          "front": "My nose is cold.",
+          "back": "코가 차가워요.",
+          "romanized": "koga chagawoyo",
+          "literal": "Nose [subj] cold is."
+        }
       ]
     },
     {
       "id": "mouth",
       "levels": [
-        {"front": "mouth", "back": "입", "romanized": "ip"},
-        {"front": "Open your mouth.", "back": "입을 벌리세요.", "romanized": "ibeul beolliseyo", "literal": "Mouth [obj] please open."}
+        {
+          "front": "mouth",
+          "back": "입",
+          "romanized": "ip"
+        },
+        {
+          "front": "Open your mouth.",
+          "back": "입을 벌리세요.",
+          "romanized": "ibeul beolliseyo",
+          "literal": "Mouth [obj] please open."
+        }
       ]
     },
     {
       "id": "lip",
       "levels": [
-        {"front": "lip", "back": "입술", "romanized": "ipsul"},
-        {"front": "She has red lips.", "back": "그녀는 입술이 빨개요.", "romanized": "geunyeoneun ipsuri ppalg aeyo", "literal": "She [topic] lips [subj] red is."}
+        {
+          "front": "lip",
+          "back": "입술",
+          "romanized": "ipsul"
+        },
+        {
+          "front": "She has red lips.",
+          "back": "그녀는 입술이 빨개요.",
+          "romanized": "geunyeoneun ipsuri ppalg aeyo",
+          "literal": "She [topic] lips [subj] red is."
+        }
       ]
     },
     {
       "id": "tooth_teeth",
       "levels": [
-        {"front": "tooth (teeth)", "back": "이 / 치아", "romanized": "i / chia"},
-        {"front": "I have a toothache.", "back": "이가 아파요.", "romanized": "iga apayo", "literal": "Tooth [subj] hurts."}
+        {
+          "front": "tooth (teeth)",
+          "back": "이",
+          "romanized": "i"
+        },
+        {
+          "front": "I have a toothache.",
+          "back": "이가 아파요.",
+          "romanized": "iga apayo",
+          "literal": "Tooth [subj] hurts."
+        }
       ]
     },
     {
       "id": "tongue",
       "levels": [
-        {"front": "tongue", "back": "혀", "romanized": "hyeo"},
-        {"front": "Stick out your tongue.", "back": "혀를 내미세요.", "romanized": "hyeoreul naemiseyo", "literal": "Tongue [obj] please stick out."}
+        {
+          "front": "tongue",
+          "back": "혀",
+          "romanized": "hyeo"
+        },
+        {
+          "front": "Stick out your tongue.",
+          "back": "혀를 내미세요.",
+          "romanized": "hyeoreul naemiseyo",
+          "literal": "Tongue [obj] please stick out."
+        }
       ]
     },
     {
       "id": "neck",
       "levels": [
-        {"front": "neck", "back": "목", "romanized": "mok"},
-        {"front": "My neck is stiff.", "back": "목이 뻣뻣해요.", "romanized": "mogi ppyeotppyeothaeyo", "literal": "Neck [subj] stiff is."}
+        {
+          "front": "neck",
+          "back": "목",
+          "romanized": "mok"
+        },
+        {
+          "front": "My neck is stiff.",
+          "back": "목이 뻣뻣해요.",
+          "romanized": "mogi ppyeotppyeothaeyo",
+          "literal": "Neck [subj] stiff is."
+        }
       ]
     },
     {
       "id": "arm",
       "levels": [
-        {"front": "arm", "back": "팔", "romanized": "pal"},
-        {"front": "I broke my arm.", "back": "팔이 골절됐어요.", "romanized": "pari goljeoldwaesseoyo", "literal": "Arm [subj] fractured [past]."}
+        {
+          "front": "arm",
+          "back": "팔",
+          "romanized": "pal"
+        },
+        {
+          "front": "I broke my arm.",
+          "back": "팔이 골절됐어요.",
+          "romanized": "pari goljeoldwaesseoyo",
+          "literal": "Arm [subj] fractured [past]."
+        }
       ]
     },
     {
       "id": "hand",
       "levels": [
-        {"front": "hand", "back": "손", "romanized": "son"},
-        {"front": "Wash your hands.", "back": "손을 씻으세요.", "romanized": "soneul ssiseuseyo", "literal": "Hands [obj] please wash."}
+        {
+          "front": "hand",
+          "back": "손",
+          "romanized": "son"
+        },
+        {
+          "front": "Wash your hands.",
+          "back": "손을 씻으세요.",
+          "romanized": "soneul ssiseuseyo",
+          "literal": "Hands [obj] please wash."
+        }
       ]
     },
     {
       "id": "finger",
       "levels": [
-        {"front": "finger", "back": "손가락", "romanized": "songarak"},
-        {"front": "He cut his finger.", "back": "그는 손가락을 베었어요.", "romanized": "geuneun songarageul beeoisseoyo", "literal": "He [topic] finger [obj] cut [past]."}
+        {
+          "front": "finger",
+          "back": "손가락",
+          "romanized": "songarak"
+        },
+        {
+          "front": "He cut his finger.",
+          "back": "그는 손가락을 베었어요.",
+          "romanized": "geuneun songarageul beeoisseoyo",
+          "literal": "He [topic] finger [obj] cut [past]."
+        }
       ]
     },
     {
       "id": "chest",
       "levels": [
-        {"front": "chest", "back": "가슴", "romanized": "gaseum"},
-        {"front": "He has chest pain.", "back": "그는 가슴이 아파요.", "romanized": "geuneun gaseumi apayo", "literal": "He [topic] chest [subj] hurts."}
+        {
+          "front": "chest",
+          "back": "가슴",
+          "romanized": "gaseum"
+        },
+        {
+          "front": "He has chest pain.",
+          "back": "그는 가슴이 아파요.",
+          "romanized": "geuneun gaseumi apayo",
+          "literal": "He [topic] chest [subj] hurts."
+        }
       ]
     },
     {
       "id": "back",
       "levels": [
-        {"front": "back", "back": "등 / 허리", "romanized": "deung / heori"},
-        {"front": "My back hurts.", "back": "등이 아파요.", "romanized": "deungi apayo", "literal": "Back [subj] hurts."}
+        {
+          "front": "back",
+          "back": "등",
+          "romanized": "deung"
+        },
+        {
+          "front": "My back hurts.",
+          "back": "등이 아파요.",
+          "romanized": "deungi apayo",
+          "literal": "Back [subj] hurts."
+        }
       ]
     },
     {
       "id": "heart",
       "levels": [
-        {"front": "heart", "back": "심장", "romanized": "simjang"},
-        {"front": "My heart is beating fast.", "back": "심장이 빨리 뛰어요.", "romanized": "simjangi ppalli ttwieoyo", "literal": "Heart [subj] fast beating-is."}
+        {
+          "front": "heart",
+          "back": "심장",
+          "romanized": "simjang"
+        },
+        {
+          "front": "My heart is beating fast.",
+          "back": "심장이 빨리 뛰어요.",
+          "romanized": "simjangi ppalli ttwieoyo",
+          "literal": "Heart [subj] fast beating-is."
+        }
       ]
     },
     {
       "id": "stomach",
       "levels": [
-        {"front": "stomach", "back": "배 / 위", "romanized": "bae / wi"},
-        {"front": "My stomach hurts.", "back": "배가 아파요.", "romanized": "baega apayo", "literal": "Stomach [subj] hurts."}
+        {
+          "front": "stomach",
+          "back": "배",
+          "romanized": "bae"
+        },
+        {
+          "front": "My stomach hurts.",
+          "back": "배가 아파요.",
+          "romanized": "baega apayo",
+          "literal": "Stomach [subj] hurts."
+        }
       ]
     },
     {
       "id": "muscle",
       "levels": [
-        {"front": "muscle", "back": "근육", "romanized": "geunyuk"},
-        {"front": "I pulled a muscle.", "back": "근육을 다쳤어요.", "romanized": "geunyugeul dachyeosseoyo", "literal": "Muscle [obj] injured [past]."}
+        {
+          "front": "muscle",
+          "back": "근육",
+          "romanized": "geunyuk"
+        },
+        {
+          "front": "I pulled a muscle.",
+          "back": "근육을 다쳤어요.",
+          "romanized": "geunyugeul dachyeosseoyo",
+          "literal": "Muscle [obj] injured [past]."
+        }
       ]
     },
     {
       "id": "waist",
       "levels": [
-        {"front": "waist", "back": "허리 / 허리선", "romanized": "heori / heoriseon"},
-        {"front": "She has a slim waist.", "back": "그녀는 허리가 가늘어요.", "romanized": "geunyeoneun heoriga ganeureoyo", "literal": "She [topic] waist [subj] slim is."}
+        {
+          "front": "waist",
+          "back": "허리",
+          "romanized": "heori"
+        },
+        {
+          "front": "She has a slim waist.",
+          "back": "그녀는 허리가 가늘어요.",
+          "romanized": "geunyeoneun heoriga ganeureoyo",
+          "literal": "She [topic] waist [subj] slim is."
+        }
       ]
     },
     {
       "id": "skin",
       "levels": [
-        {"front": "skin", "back": "피부", "romanized": "pibu"},
-        {"front": "Her skin is soft.", "back": "그녀의 피부가 부드러워요.", "romanized": "geunyeoui pibuga budeureowoyo", "literal": "Her skin [subj] soft is."}
+        {
+          "front": "skin",
+          "back": "피부",
+          "romanized": "pibu"
+        },
+        {
+          "front": "Her skin is soft.",
+          "back": "그녀의 피부가 부드러워요.",
+          "romanized": "geunyeoui pibuga budeureowoyo",
+          "literal": "Her skin [subj] soft is."
+        }
       ]
     },
     {
       "id": "blood",
       "levels": [
-        {"front": "blood", "back": "피 / 혈액", "romanized": "pi / hyeraek"},
-        {"front": "He donated blood.", "back": "그는 헌혈했어요.", "romanized": "geuneun heonhyeolhaesseoyo", "literal": "He [topic] blood-donated [past]."}
+        {
+          "front": "blood",
+          "back": "피",
+          "romanized": "pi"
+        },
+        {
+          "front": "He donated blood.",
+          "back": "그는 헌혈했어요.",
+          "romanized": "geuneun heonhyeolhaesseoyo",
+          "literal": "He [topic] blood-donated [past]."
+        }
       ]
     },
     {
       "id": "brain",
       "levels": [
-        {"front": "brain", "back": "뇌", "romanized": "noe"},
-        {"front": "The brain is complex.", "back": "뇌는 복잡해요.", "romanized": "noeneun bokjaphaeyo", "literal": "Brain [topic] complex is."}
+        {
+          "front": "brain",
+          "back": "뇌",
+          "romanized": "noe"
+        },
+        {
+          "front": "The brain is complex.",
+          "back": "뇌는 복잡해요.",
+          "romanized": "noeneun bokjaphaeyo",
+          "literal": "Brain [topic] complex is."
+        }
       ]
     },
     {
       "id": "skull",
       "levels": [
-        {"front": "skull", "back": "두개골", "romanized": "dugaegol"},
-        {"front": "The skull protects the brain.", "back": "두개골은 뇌를 보호해요.", "romanized": "dugaegoreun noereul bohohaeyo", "literal": "Skull [topic] brain [obj] protects."}
+        {
+          "front": "skull",
+          "back": "두개골",
+          "romanized": "dugaegol"
+        },
+        {
+          "front": "The skull protects the brain.",
+          "back": "두개골은 뇌를 보호해요.",
+          "romanized": "dugaegoreun noereul bohohaeyo",
+          "literal": "Skull [topic] brain [obj] protects."
+        }
       ]
     },
     {
       "id": "breast",
       "levels": [
-        {"front": "breast", "back": "가슴 / 유방", "romanized": "gaseum / yubang"},
-        {"front": "She felt pain in her chest.", "back": "그녀는 가슴에 통증을 느꼈어요.", "romanized": "geunyeoneun gaseume tongjeungeul neukkkyeosseoyo", "literal": "She [topic] chest-at pain [obj] felt [past]."}
+        {
+          "front": "breast",
+          "back": "가슴",
+          "romanized": "gaseum"
+        },
+        {
+          "front": "She felt pain in her chest.",
+          "back": "그녀는 가슴에 통증을 느꼈어요.",
+          "romanized": "geunyeoneun gaseume tongjeungeul neukkkyeosseoyo",
+          "literal": "She [topic] chest-at pain [obj] felt [past]."
+        }
       ]
     },
     {
       "id": "leg",
       "levels": [
-        {"front": "leg", "back": "다리", "romanized": "dari"},
-        {"front": "My leg is tired.", "back": "다리가 피곤해요.", "romanized": "dariga pigonhaeyo", "literal": "Leg [subj] tired is."}
+        {
+          "front": "leg",
+          "back": "다리",
+          "romanized": "dari"
+        },
+        {
+          "front": "My leg is tired.",
+          "back": "다리가 피곤해요.",
+          "romanized": "dariga pigonhaeyo",
+          "literal": "Leg [subj] tired is."
+        }
       ]
     },
     {
       "id": "foot_feet",
       "levels": [
-        {"front": "foot (feet)", "back": "발", "romanized": "bal"},
-        {"front": "My feet hurt.", "back": "발이 아파요.", "romanized": "bari apayo", "literal": "Feet [subj] hurts."}
+        {
+          "front": "foot (feet)",
+          "back": "발",
+          "romanized": "bal"
+        },
+        {
+          "front": "My feet hurt.",
+          "back": "발이 아파요.",
+          "romanized": "bari apayo",
+          "literal": "Feet [subj] hurts."
+        }
       ]
     },
     {
       "id": "toe",
       "levels": [
-        {"front": "toe", "back": "발가락", "romanized": "balgarak"},
-        {"front": "He stubbed his toe.", "back": "그는 발가락을 부딪혔어요.", "romanized": "geuneun balgarageul budichyeosseoyo", "literal": "He [topic] toe [obj] bumped [past]."}
+        {
+          "front": "toe",
+          "back": "발가락",
+          "romanized": "balgarak"
+        },
+        {
+          "front": "He stubbed his toe.",
+          "back": "그는 발가락을 부딪혔어요.",
+          "romanized": "geuneun balgarageul budichyeosseoyo",
+          "literal": "He [topic] toe [obj] bumped [past]."
+        }
       ]
     },
     {
       "id": "joint",
       "levels": [
-        {"front": "joint", "back": "관절", "romanized": "gwanjeol"},
-        {"front": "My joints are stiff.", "back": "관절이 뻣뻣해요.", "romanized": "gwanjeori ppyeotppyeothaeyo", "literal": "Joints [subj] stiff are."}
+        {
+          "front": "joint",
+          "back": "관절",
+          "romanized": "gwanjeol"
+        },
+        {
+          "front": "My joints are stiff.",
+          "back": "관절이 뻣뻣해요.",
+          "romanized": "gwanjeori ppyeotppyeothaeyo",
+          "literal": "Joints [subj] stiff are."
+        }
       ]
     },
     {
       "id": "breath",
       "levels": [
-        {"front": "breath", "back": "숨 / 호흡", "romanized": "sum / hoheup"},
-        {"front": "Hold your breath.", "back": "숨을 참으세요.", "romanized": "sumeul chameuseyo", "literal": "Breath [obj] please hold."}
+        {
+          "front": "breath",
+          "back": "숨",
+          "romanized": "sum"
+        },
+        {
+          "front": "Hold your breath.",
+          "back": "숨을 참으세요.",
+          "romanized": "sumeul chameuseyo",
+          "literal": "Breath [obj] please hold."
+        }
       ]
     },
     {
       "id": "see",
       "levels": [
-        {"front": "see", "back": "보다 / 보이다", "romanized": "boda / boida"},
-        {"front": "I can see clearly.", "back": "선명하게 보여요.", "romanized": "seonmyeonghage boyeoyo", "literal": "Clearly visible-is."}
+        {
+          "front": "see",
+          "back": "보다",
+          "romanized": "boda"
+        },
+        {
+          "front": "I can see clearly.",
+          "back": "선명하게 보여요.",
+          "romanized": "seonmyeonghage boyeoyo",
+          "literal": "Clearly visible-is."
+        }
       ]
     },
     {
       "id": "hear",
       "levels": [
-        {"front": "hear", "back": "듣다 / 들리다", "romanized": "deutda / deullida"},
-        {"front": "I can't hear you.", "back": "들리지 않아요.", "romanized": "deulliji anayo", "literal": "Heard-not is."}
+        {
+          "front": "hear",
+          "back": "듣다",
+          "romanized": "deutda"
+        },
+        {
+          "front": "I can't hear you.",
+          "back": "들리지 않아요.",
+          "romanized": "deulliji anayo",
+          "literal": "Heard-not is."
+        }
       ]
     },
     {
       "id": "smell",
       "levels": [
-        {"front": "smell", "back": "냄새 맡다", "romanized": "naemse matda"},
-        {"front": "I can smell the flowers.", "back": "꽃 냄새가 나요.", "romanized": "kkot naemssaega nayo", "literal": "Flower smell [subj] comes-out."}
+        {
+          "front": "smell",
+          "back": "냄새 맡다",
+          "romanized": "naemse matda"
+        },
+        {
+          "front": "I can smell the flowers.",
+          "back": "꽃 냄새가 나요.",
+          "romanized": "kkot naemssaega nayo",
+          "literal": "Flower smell [subj] comes-out."
+        }
       ]
     },
     {
       "id": "taste",
       "levels": [
-        {"front": "taste", "back": "맛보다 / 맛을 보다", "romanized": "matboda / maseul boda"},
-        {"front": "Taste this soup.", "back": "이 국을 맛보세요.", "romanized": "i gugeul matboseyo", "literal": "This soup [obj] please taste."}
+        {
+          "front": "taste",
+          "back": "맛보다",
+          "romanized": "matboda"
+        },
+        {
+          "front": "Taste this soup.",
+          "back": "이 국을 맛보세요.",
+          "romanized": "i gugeul matboseyo",
+          "literal": "This soup [obj] please taste."
+        }
       ]
     },
     {
       "id": "touch",
       "levels": [
-        {"front": "touch", "back": "만지다 / 닿다", "romanized": "manjida / datda"},
-        {"front": "Don't touch that!", "back": "그것을 만지지 마세요!", "romanized": "geugeoseul manjiji maseyo", "literal": "That [obj] please don't touch!"}
+        {
+          "front": "touch",
+          "back": "만지다",
+          "romanized": "manjida"
+        },
+        {
+          "front": "Don't touch that!",
+          "back": "그것을 만지지 마세요!",
+          "romanized": "geugeoseul manjiji maseyo",
+          "literal": "That [obj] please don't touch!"
+        }
       ]
     },
     {
       "id": "breathe",
       "levels": [
-        {"front": "breathe", "back": "숨을 쉬다 / 호흡하다", "romanized": "sumeul swida / hoheuphada"},
-        {"front": "Breathe slowly.", "back": "천천히 숨을 쉬세요.", "romanized": "cheoncheonhi sumeul swiseyo", "literal": "Slowly breath [obj] please breathe."}
+        {
+          "front": "breathe",
+          "back": "숨을 쉬다",
+          "romanized": "sumeul swida"
+        },
+        {
+          "front": "Breathe slowly.",
+          "back": "천천히 숨을 쉬세요.",
+          "romanized": "cheoncheonhi sumeul swiseyo",
+          "literal": "Slowly breath [obj] please breathe."
+        }
       ]
     },
     {
       "id": "bend",
       "levels": [
-        {"front": "bend", "back": "구부리다 / 굽히다", "romanized": "gubeurida / guphida"},
-        {"front": "Bend your knees.", "back": "무릎을 구부리세요.", "romanized": "mureuppeul gubeuriseyo", "literal": "Knees [obj] please bend."}
+        {
+          "front": "bend",
+          "back": "구부리다",
+          "romanized": "gubeurida"
+        },
+        {
+          "front": "Bend your knees.",
+          "back": "무릎을 구부리세요.",
+          "romanized": "mureuppeul gubeuriseyo",
+          "literal": "Knees [obj] please bend."
+        }
       ]
     },
     {
       "id": "stretch",
       "levels": [
-        {"front": "stretch", "back": "늘이다 / 스트레칭하다", "romanized": "neurida / seuteurechinghada"},
-        {"front": "Stretch your arms.", "back": "팔을 쭉 뻗으세요.", "romanized": "pareul jjuk ppeodseuseyo", "literal": "Arms [obj] straight please stretch."}
+        {
+          "front": "stretch",
+          "back": "늘이다",
+          "romanized": "neurida"
+        },
+        {
+          "front": "Stretch your arms.",
+          "back": "팔을 쭉 뻗으세요.",
+          "romanized": "pareul jjuk ppeodseuseyo",
+          "literal": "Arms [obj] straight please stretch."
+        }
       ]
     },
     {
       "id": "flex",
       "levels": [
-        {"front": "flex", "back": "근육을 긴장시키다", "romanized": "geunyugeul ginjangssikida"},
-        {"front": "Flex your muscles.", "back": "근육에 힘을 주세요.", "romanized": "geunyuge himeul juseyo", "literal": "Muscles-to strength [obj] please give."}
+        {
+          "front": "flex",
+          "back": "근육을 긴장시키다",
+          "romanized": "geunyugeul ginjangssikida"
+        },
+        {
+          "front": "Flex your muscles.",
+          "back": "근육에 힘을 주세요.",
+          "romanized": "geunyuge himeul juseyo",
+          "literal": "Muscles-to strength [obj] please give."
+        }
       ]
     },
     {
       "id": "blink",
       "levels": [
-        {"front": "blink", "back": "눈을 깜빡이다", "romanized": "nuneul kkamppagida"},
-        {"front": "Don't blink.", "back": "눈을 깜빡이지 마세요.", "romanized": "nuneul kkamppagiji maseyo", "literal": "Eyes [obj] please don't blink."}
+        {
+          "front": "blink",
+          "back": "눈을 깜빡이다",
+          "romanized": "nuneul kkamppagida"
+        },
+        {
+          "front": "Don't blink.",
+          "back": "눈을 깜빡이지 마세요.",
+          "romanized": "nuneul kkamppagiji maseyo",
+          "literal": "Eyes [obj] please don't blink."
+        }
       ]
     },
     {
       "id": "sweat",
       "levels": [
-        {"front": "sweat", "back": "땀을 흘리다", "romanized": "ttameul heullida"},
-        {"front": "I sweat when I run.", "back": "달릴 때 땀을 흘려요.", "romanized": "dallil ttae ttameul heullyeoyo", "literal": "Running when sweat [obj] shed."}
+        {
+          "front": "sweat",
+          "back": "땀을 흘리다",
+          "romanized": "ttameul heullida"
+        },
+        {
+          "front": "I sweat when I run.",
+          "back": "달릴 때 땀을 흘려요.",
+          "romanized": "dallil ttae ttameul heullyeoyo",
+          "literal": "Running when sweat [obj] shed."
+        }
       ]
     },
     {
       "id": "bleed",
       "levels": [
-        {"front": "bleed", "back": "피가 나다 / 출혈하다", "romanized": "piga nada / chulhyeolhada"},
-        {"front": "The wound is bleeding.", "back": "상처에서 피가 나요.", "romanized": "sangcheoseo piga nayo", "literal": "Wound from blood [subj] comes-out."}
+        {
+          "front": "bleed",
+          "back": "피가 나다",
+          "romanized": "piga nada"
+        },
+        {
+          "front": "The wound is bleeding.",
+          "back": "상처에서 피가 나요.",
+          "romanized": "sangcheoseo piga nayo",
+          "literal": "Wound from blood [subj] comes-out."
+        }
       ]
     },
     {
       "id": "feel",
       "levels": [
-        {"front": "feel", "back": "느끼다 / 기분이 ~하다", "romanized": "neukkida / gibuni ~hada"},
-        {"front": "How do you feel?", "back": "기분이 어때요?", "romanized": "gibuni eottaeyo", "literal": "Feeling [subj] how is?"}
+        {
+          "front": "feel",
+          "back": "느끼다",
+          "romanized": "neukkida"
+        },
+        {
+          "front": "How do you feel?",
+          "back": "기분이 어때요?",
+          "romanized": "gibuni eottaeyo",
+          "literal": "Feeling [subj] how is?"
+        }
       ]
     },
     {
       "id": "think",
       "levels": [
-        {"front": "think", "back": "생각하다 / 생각하다", "romanized": "saenggakhada"},
-        {"front": "What are you thinking about?", "back": "무슨 생각 하고 있어요?", "romanized": "museun saenggak hago isseoyo", "literal": "What thought doing-is?"}
+        {
+          "front": "think",
+          "back": "생각하다",
+          "romanized": "saenggakhada"
+        },
+        {
+          "front": "What are you thinking about?",
+          "back": "무슨 생각 하고 있어요?",
+          "romanized": "museun saenggak hago isseoyo",
+          "literal": "What thought doing-is?"
+        }
       ]
     },
     {
       "id": "move",
       "levels": [
-        {"front": "move", "back": "움직이다", "romanized": "umjigida"},
-        {"front": "I can't move my arm.", "back": "팔을 움직일 수 없어요.", "romanized": "pareul umjigil su eopseoyo", "literal": "Arm [obj] move cannot."}
+        {
+          "front": "move",
+          "back": "움직이다",
+          "romanized": "umjigida"
+        },
+        {
+          "front": "I can't move my arm.",
+          "back": "팔을 움직일 수 없어요.",
+          "romanized": "pareul umjigil su eopseoyo",
+          "literal": "Arm [obj] move cannot."
+        }
       ]
     },
     {
       "id": "bony",
       "levels": [
-        {"front": "bony", "back": "뼈가 앙상한 / 깡마른", "romanized": "ppyeoga angsanghan / kkangmareun"},
-        {"front": "His hands are bony.", "back": "그의 손이 앙상해요.", "romanized": "geuui soni angsanghaeyo", "literal": "His hands [subj] bony are."}
+        {
+          "front": "bony",
+          "back": "뼈가 앙상한",
+          "romanized": "ppyeoga angsanghan"
+        },
+        {
+          "front": "His hands are bony.",
+          "back": "그의 손이 앙상해요.",
+          "romanized": "geuui soni angsanghaeyo",
+          "literal": "His hands [subj] bony are."
+        }
       ]
     },
     {
       "id": "hairy",
       "levels": [
-        {"front": "hairy", "back": "털이 많은", "romanized": "teori manheun"},
-        {"front": "He has hairy arms.", "back": "그는 팔에 털이 많아요.", "romanized": "geuneun pare teori manayo", "literal": "He [topic] arms-on hair [subj] many is."}
+        {
+          "front": "hairy",
+          "back": "털이 많은",
+          "romanized": "teori manheun"
+        },
+        {
+          "front": "He has hairy arms.",
+          "back": "그는 팔에 털이 많아요.",
+          "romanized": "geuneun pare teori manayo",
+          "literal": "He [topic] arms-on hair [subj] many is."
+        }
       ]
     },
     {
       "id": "soft",
       "levels": [
-        {"front": "soft", "back": "부드러운", "romanized": "budeuroun"},
-        {"front": "The tissue is soft.", "back": "티슈가 부드러워요.", "romanized": "tisyuga budeureowoyo", "literal": "Tissue [subj] soft is."}
+        {
+          "front": "soft",
+          "back": "부드러운",
+          "romanized": "budeuroun"
+        },
+        {
+          "front": "The tissue is soft.",
+          "back": "티슈가 부드러워요.",
+          "romanized": "tisyuga budeureowoyo",
+          "literal": "Tissue [subj] soft is."
+        }
       ]
     },
     {
       "id": "sore",
       "levels": [
-        {"front": "sore", "back": "아픈 / 쑤시는", "romanized": "apeun / ssusineun"},
-        {"front": "My muscles are sore.", "back": "근육이 쑤셔요.", "romanized": "geunyugi ssusyeoyo", "literal": "Muscles [subj] aching is."}
+        {
+          "front": "sore",
+          "back": "아픈",
+          "romanized": "apeun"
+        },
+        {
+          "front": "My muscles are sore.",
+          "back": "근육이 쑤셔요.",
+          "romanized": "geunyugi ssusyeoyo",
+          "literal": "Muscles [subj] aching is."
+        }
       ]
     },
     {
       "id": "left",
       "levels": [
-        {"front": "left", "back": "왼쪽", "romanized": "oenjjok"},
-        {"front": "I hurt my left knee.", "back": "왼쪽 무릎을 다쳤어요.", "romanized": "oenjjok mureuppeul dachyeosseoyo", "literal": "Left knee [obj] injured [past]."}
+        {
+          "front": "left",
+          "back": "왼쪽",
+          "romanized": "oenjjok"
+        },
+        {
+          "front": "I hurt my left knee.",
+          "back": "왼쪽 무릎을 다쳤어요.",
+          "romanized": "oenjjok mureuppeul dachyeosseoyo",
+          "literal": "Left knee [obj] injured [past]."
+        }
       ]
     },
     {
       "id": "right",
       "levels": [
-        {"front": "right", "back": "오른쪽", "romanized": "oreunjjok"},
-        {"front": "I broke my right arm.", "back": "오른팔이 골절됐어요.", "romanized": "oreunpari goljeoldwaesseoyo", "literal": "Right-arm [subj] fractured [past]."}
+        {
+          "front": "right",
+          "back": "오른쪽",
+          "romanized": "oreunjjok"
+        },
+        {
+          "front": "I broke my right arm.",
+          "back": "오른팔이 골절됐어요.",
+          "romanized": "oreunpari goljeoldwaesseoyo",
+          "literal": "Right-arm [subj] fractured [past]."
+        }
       ]
     },
     {
       "id": "upper",
       "levels": [
-        {"front": "upper", "back": "상체 / 위쪽", "romanized": "sangche / wijjok"},
-        {"front": "The upper body is strong.", "back": "상체가 강해요.", "romanized": "sangchega ganghaeyo", "literal": "Upper-body [subj] strong is."}
+        {
+          "front": "upper",
+          "back": "상체",
+          "romanized": "sangche"
+        },
+        {
+          "front": "The upper body is strong.",
+          "back": "상체가 강해요.",
+          "romanized": "sangchega ganghaeyo",
+          "literal": "Upper-body [subj] strong is."
+        }
       ]
     },
     {
       "id": "lower",
       "levels": [
-        {"front": "lower", "back": "하체 / 아래쪽", "romanized": "hache / araejjok"},
-        {"front": "He has lower back pain.", "back": "그는 허리가 아파요.", "romanized": "geuneun heoriga apayo", "literal": "He [topic] lower-back [subj] hurts."}
+        {
+          "front": "lower",
+          "back": "하체",
+          "romanized": "hache"
+        },
+        {
+          "front": "He has lower back pain.",
+          "back": "그는 허리가 아파요.",
+          "romanized": "geuneun heoriga apayo",
+          "literal": "He [topic] lower-back [subj] hurts."
+        }
       ]
     },
     {
       "id": "body",
       "levels": [
-        {"front": "body", "back": "몸 / 신체", "romanized": "mom / sinche"},
-        {"front": "The human body is amazing.", "back": "인체는 놀라워요.", "romanized": "incheneun nollawayo", "literal": "Human-body [topic] amazing is."}
+        {
+          "front": "body",
+          "back": "몸",
+          "romanized": "mom"
+        },
+        {
+          "front": "The human body is amazing.",
+          "back": "인체는 놀라워요.",
+          "romanized": "incheneun nollawayo",
+          "literal": "Human-body [topic] amazing is."
+        }
       ]
     },
     {
       "id": "human_adjective",
       "levels": [
-        {"front": "human (adjective)", "back": "인간의 / 인체의", "romanized": "ingan-ui / inche-ui"},
-        {"front": "It's part of human biology.", "back": "인간 생물학의 일부예요.", "romanized": "ingan saengmulhagui ilbuyeyo", "literal": "Human biology's part is."}
+        {
+          "front": "human (adjective)",
+          "back": "인간의",
+          "romanized": "ingan-ui"
+        },
+        {
+          "front": "It's part of human biology.",
+          "back": "인간 생물학의 일부예요.",
+          "romanized": "ingan saengmulhagui ilbuyeyo",
+          "literal": "Human biology's part is."
+        }
       ]
     }
   ]

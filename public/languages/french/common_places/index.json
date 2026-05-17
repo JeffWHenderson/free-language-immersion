@@ -6,600 +6,1122 @@
     "a_day_in_the_city",
     "at_the_hotel"
   ],
+  "grammarLessons": [
+    {
+      "id": "aller",
+      "name": "Aller — To Go"
+    },
+    {
+      "id": "prepositions_lieu",
+      "name": "Prepositions of Place"
+    }
+  ],
   "cards": [
     {
       "id": "home",
       "levels": [
-        {"front": "Home", "back": "La maison / Chez soi"},
-        {"front": "I'm going home.", "back": "Je rentre à la maison."}
+        {
+          "front": "Home",
+          "back": "La maison"
+        },
+        {
+          "front": "I'm going home.",
+          "back": "Je rentre à la maison."
+        }
       ]
     },
     {
       "id": "apartment",
       "levels": [
-        {"front": "Apartment", "back": "L'appartement (masc.)"},
-        {"front": "I live in an apartment.", "back": "J'habite dans un appartement."}
+        {
+          "front": "Apartment",
+          "back": "L'appartement (masc.)"
+        },
+        {
+          "front": "I live in an apartment.",
+          "back": "J'habite dans un appartement."
+        }
       ]
     },
     {
       "id": "school",
       "levels": [
-        {"front": "School", "back": "L'école (fem.)"},
-        {"front": "The children go to school.", "back": "Les enfants vont à l'école."}
+        {
+          "front": "School",
+          "back": "L'école (fem.)"
+        },
+        {
+          "front": "The children go to school.",
+          "back": "Les enfants vont à l'école."
+        }
       ]
     },
     {
       "id": "university",
       "levels": [
-        {"front": "University", "back": "L'université (fem.)"},
-        {"front": "She studies at the university.", "back": "Elle étudie à l'université."}
+        {
+          "front": "University",
+          "back": "L'université (fem.)"
+        },
+        {
+          "front": "She studies at the university.",
+          "back": "Elle étudie à l'université."
+        }
       ]
     },
     {
       "id": "office",
       "levels": [
-        {"front": "Office", "back": "Le bureau"},
-        {"front": "He works in an office.", "back": "Il travaille dans un bureau."}
+        {
+          "front": "Office",
+          "back": "Le bureau"
+        },
+        {
+          "front": "He works in an office.",
+          "back": "Il travaille dans un bureau."
+        }
       ]
     },
     {
       "id": "hospital",
       "levels": [
-        {"front": "Hospital", "back": "L'hôpital (masc.)", "grammarNote": "French contractions: à + le = au (au cinéma, au bureau), à + les = aux. De + le = du (du marché). These are mandatory. Before vowels: à l'hôpital, de l'hôpital — no contraction needed since l' already elides."},
-        {"front": "I'm going to the hospital.", "back": "Je vais à l'hôpital."}
+        {
+          "front": "Hospital",
+          "back": "L'hôpital (masc.)",
+          "grammarNote": "French contractions: à + le = au (au cinéma, au bureau), à + les = aux. De + le = du (du marché). These are mandatory. Before vowels: à l'hôpital, de l'hôpital — no contraction needed since l' already elides."
+        },
+        {
+          "front": "I'm going to the hospital.",
+          "back": "Je vais à l'hôpital."
+        }
       ]
     },
     {
       "id": "grocery_store",
       "levels": [
-        {"front": "Grocery store", "back": "L'épicerie (fem.) / Le supermarché"},
-        {"front": "I need to go to the supermarket.", "back": "J'ai besoin d'aller au supermarché."}
+        {
+          "front": "Grocery store",
+          "back": "L'épicerie (fem.)"
+        },
+        {
+          "front": "I need to go to the supermarket.",
+          "back": "J'ai besoin d'aller au supermarché."
+        }
       ]
     },
     {
       "id": "bank",
       "levels": [
-        {"front": "Bank", "back": "La banque"},
-        {"front": "I'm coming from the bank.", "back": "Je viens de la banque."}
+        {
+          "front": "Bank",
+          "back": "La banque"
+        },
+        {
+          "front": "I'm coming from the bank.",
+          "back": "Je viens de la banque."
+        }
       ]
     },
     {
       "id": "library",
       "levels": [
-        {"front": "Library", "back": "La bibliothèque"},
-        {"front": "I study in the library.", "back": "J'étudie à la bibliothèque."}
+        {
+          "front": "Library",
+          "back": "La bibliothèque"
+        },
+        {
+          "front": "I study in the library.",
+          "back": "J'étudie à la bibliothèque."
+        }
       ]
     },
     {
       "id": "restaurant",
       "levels": [
-        {"front": "Restaurant", "back": "Le restaurant"},
-        {"front": "The restaurant is full.", "back": "Le restaurant est complet."}
+        {
+          "front": "Restaurant",
+          "back": "Le restaurant"
+        },
+        {
+          "front": "The restaurant is full.",
+          "back": "Le restaurant est complet."
+        }
       ]
     },
     {
       "id": "cafe",
       "levels": [
-        {"front": "Cafe", "back": "Le café"},
-        {"front": "Let's meet at the cafe.", "back": "On se retrouve au café."}
+        {
+          "front": "Cafe",
+          "back": "Le café"
+        },
+        {
+          "front": "Let's meet at the cafe.",
+          "back": "On se retrouve au café."
+        }
       ]
     },
     {
       "id": "hotel",
       "levels": [
-        {"front": "Hotel", "back": "L'hôtel (masc.)"},
-        {"front": "The hotel is downtown.", "back": "L'hôtel est en centre-ville."}
+        {
+          "front": "Hotel",
+          "back": "L'hôtel (masc.)"
+        },
+        {
+          "front": "The hotel is downtown.",
+          "back": "L'hôtel est en centre-ville."
+        }
       ]
     },
     {
       "id": "airport",
       "levels": [
-        {"front": "Airport", "back": "L'aéroport (masc.)"},
-        {"front": "The airport is far from here.", "back": "L'aéroport est loin d'ici."}
+        {
+          "front": "Airport",
+          "back": "L'aéroport (masc.)"
+        },
+        {
+          "front": "The airport is far from here.",
+          "back": "L'aéroport est loin d'ici."
+        }
       ]
     },
     {
       "id": "station",
       "levels": [
-        {"front": "Station", "back": "La gare"},
-        {"front": "The station is near the hotel.", "back": "La gare est près de l'hôtel."}
+        {
+          "front": "Station",
+          "back": "La gare"
+        },
+        {
+          "front": "The station is near the hotel.",
+          "back": "La gare est près de l'hôtel."
+        }
       ]
     },
     {
       "id": "bus_stop",
       "levels": [
-        {"front": "Bus stop", "back": "L'arrêt de bus (masc.)"},
-        {"front": "Wait at the bus stop.", "back": "Attends à l'arrêt de bus."}
+        {
+          "front": "Bus stop",
+          "back": "L'arrêt de bus (masc.)"
+        },
+        {
+          "front": "Wait at the bus stop.",
+          "back": "Attends à l'arrêt de bus."
+        }
       ]
     },
     {
       "id": "park",
       "levels": [
-        {"front": "Park", "back": "Le parc"},
-        {"front": "The children play in the park.", "back": "Les enfants jouent dans le parc."}
+        {
+          "front": "Park",
+          "back": "Le parc"
+        },
+        {
+          "front": "The children play in the park.",
+          "back": "Les enfants jouent dans le parc."
+        }
       ]
     },
     {
       "id": "square",
       "levels": [
-        {"front": "Square", "back": "La place"},
-        {"front": "There's a fountain in the square.", "back": "Il y a une fontaine sur la place."}
+        {
+          "front": "Square",
+          "back": "La place"
+        },
+        {
+          "front": "There's a fountain in the square.",
+          "back": "Il y a une fontaine sur la place."
+        }
       ]
     },
     {
       "id": "street",
       "levels": [
-        {"front": "Street", "back": "La rue"},
-        {"front": "The restaurant is on this street.", "back": "Le restaurant est dans cette rue."}
+        {
+          "front": "Street",
+          "back": "La rue"
+        },
+        {
+          "front": "The restaurant is on this street.",
+          "back": "Le restaurant est dans cette rue."
+        }
       ]
     },
     {
       "id": "crosswalk",
       "levels": [
-        {"front": "Crosswalk", "back": "Le passage piéton / Le passage clouté"},
-        {"front": "Cross at the crosswalk.", "back": "Traversez au passage piéton."}
+        {
+          "front": "Crosswalk",
+          "back": "Le passage piéton"
+        },
+        {
+          "front": "Cross at the crosswalk.",
+          "back": "Traversez au passage piéton."
+        }
       ]
     },
     {
       "id": "intersection",
       "levels": [
-        {"front": "Intersection", "back": "Le carrefour / L'intersection (fem.)"},
-        {"front": "Turn left at the intersection.", "back": "Tournez à gauche au carrefour."}
+        {
+          "front": "Intersection",
+          "back": "Le carrefour"
+        },
+        {
+          "front": "Turn left at the intersection.",
+          "back": "Tournez à gauche au carrefour."
+        }
       ]
     },
     {
       "id": "bridge",
       "levels": [
-        {"front": "Bridge", "back": "Le pont"},
-        {"front": "We crossed the bridge.", "back": "On a traversé le pont."}
+        {
+          "front": "Bridge",
+          "back": "Le pont"
+        },
+        {
+          "front": "We crossed the bridge.",
+          "back": "On a traversé le pont."
+        }
       ]
     },
     {
       "id": "corner",
       "levels": [
-        {"front": "Corner", "back": "Le coin"},
-        {"front": "Turn right at the corner.", "back": "Tournez à droite au coin."}
+        {
+          "front": "Corner",
+          "back": "Le coin"
+        },
+        {
+          "front": "Turn right at the corner.",
+          "back": "Tournez à droite au coin."
+        }
       ]
     },
     {
       "id": "city_centre_downtown",
       "levels": [
-        {"front": "City centre / Downtown", "back": "Le centre-ville"},
-        {"front": "The museum is downtown.", "back": "Le musée est en centre-ville."}
+        {
+          "front": "City centre",
+          "back": "Le centre-ville"
+        },
+        {
+          "front": "The museum is downtown.",
+          "back": "Le musée est en centre-ville."
+        }
       ]
     },
     {
       "id": "neighbourhood",
       "levels": [
-        {"front": "Neighbourhood", "back": "Le quartier"},
-        {"front": "I live in a quiet neighbourhood.", "back": "J'habite dans un quartier calme."}
+        {
+          "front": "Neighbourhood",
+          "back": "Le quartier"
+        },
+        {
+          "front": "I live in a quiet neighbourhood.",
+          "back": "J'habite dans un quartier calme."
+        }
       ]
     },
     {
       "id": "beach",
       "levels": [
-        {"front": "Beach", "back": "La plage"},
-        {"front": "The beach is beautiful.", "back": "La plage est belle."}
+        {
+          "front": "Beach",
+          "back": "La plage"
+        },
+        {
+          "front": "The beach is beautiful.",
+          "back": "La plage est belle."
+        }
       ]
     },
     {
       "id": "mountain",
       "levels": [
-        {"front": "Mountain", "back": "La montagne"},
-        {"front": "The mountain is very high.", "back": "La montagne est très haute."}
+        {
+          "front": "Mountain",
+          "back": "La montagne"
+        },
+        {
+          "front": "The mountain is very high.",
+          "back": "La montagne est très haute."
+        }
       ]
     },
     {
       "id": "museum",
       "levels": [
-        {"front": "Museum", "back": "Le musée"},
-        {"front": "I want to visit the museum.", "back": "Je veux visiter le musée."}
+        {
+          "front": "Museum",
+          "back": "Le musée"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "Je veux visiter le musée."
+        }
       ]
     },
     {
       "id": "movie_theater",
       "levels": [
-        {"front": "Movie theater", "back": "Le cinéma"},
-        {"front": "We're going to the cinema tonight.", "back": "On va au cinéma ce soir."}
+        {
+          "front": "Movie theater",
+          "back": "Le cinéma"
+        },
+        {
+          "front": "We're going to the cinema tonight.",
+          "back": "On va au cinéma ce soir."
+        }
       ]
     },
     {
       "id": "map",
       "levels": [
-        {"front": "Map", "back": "La carte / Le plan"},
-        {"front": "Do you have a map?", "back": "Vous avez un plan ?"}
+        {
+          "front": "Map",
+          "back": "La carte"
+        },
+        {
+          "front": "Do you have a map?",
+          "back": "Vous avez un plan ?"
+        }
       ]
     },
     {
       "id": "direction",
       "levels": [
-        {"front": "Direction", "back": "La direction"},
-        {"front": "Which direction is the station?", "back": "Dans quelle direction est la gare ?"}
+        {
+          "front": "Direction",
+          "back": "La direction"
+        },
+        {
+          "front": "Which direction is the station?",
+          "back": "Dans quelle direction est la gare ?"
+        }
       ]
     },
     {
       "id": "distance",
       "levels": [
-        {"front": "Distance", "back": "La distance"},
-        {"front": "What's the distance to the hotel?", "back": "Quelle est la distance jusqu'à l'hôtel ?"}
+        {
+          "front": "Distance",
+          "back": "La distance"
+        },
+        {
+          "front": "What's the distance to the hotel?",
+          "back": "Quelle est la distance jusqu'à l'hôtel ?"
+        }
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {"front": "To go", "back": "Aller"},
-        {"front": "I'm going to the supermarket.", "back": "Je vais au supermarché."}
+        {
+          "front": "To go",
+          "back": "Aller"
+        },
+        {
+          "front": "I'm going to the supermarket.",
+          "back": "Je vais au supermarché."
+        }
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {"front": "To come", "back": "Venir"},
-        {"front": "Come to my house.", "back": "Viens chez moi."}
+        {
+          "front": "To come",
+          "back": "Venir"
+        },
+        {
+          "front": "Come to my house.",
+          "back": "Viens chez moi."
+        }
       ]
     },
     {
       "id": "to_travel",
       "levels": [
-        {"front": "To travel", "back": "Voyager"},
-        {"front": "I love to travel.", "back": "J'adore voyager."}
+        {
+          "front": "To travel",
+          "back": "Voyager"
+        },
+        {
+          "front": "I love to travel.",
+          "back": "J'adore voyager."
+        }
       ]
     },
     {
       "id": "to_walk",
       "levels": [
-        {"front": "To walk", "back": "Marcher / Se promener"},
-        {"front": "I walk to work every day.", "back": "Je marche jusqu'au travail tous les jours."}
+        {
+          "front": "To walk",
+          "back": "Marcher"
+        },
+        {
+          "front": "I walk to work every day.",
+          "back": "Je marche jusqu'au travail tous les jours."
+        }
       ]
     },
     {
       "id": "to_drive",
       "levels": [
-        {"front": "To drive", "back": "Conduire"},
-        {"front": "She drives to the office.", "back": "Elle conduit jusqu'au bureau."}
+        {
+          "front": "To drive",
+          "back": "Conduire"
+        },
+        {
+          "front": "She drives to the office.",
+          "back": "Elle conduit jusqu'au bureau."
+        }
       ]
     },
     {
       "id": "to_turn",
       "levels": [
-        {"front": "To turn", "back": "Tourner"},
-        {"front": "Turn left at the corner.", "back": "Tournez à gauche au coin."}
+        {
+          "front": "To turn",
+          "back": "Tourner"
+        },
+        {
+          "front": "Turn left at the corner.",
+          "back": "Tournez à gauche au coin."
+        }
       ]
     },
     {
       "id": "to_cross",
       "levels": [
-        {"front": "To cross", "back": "Traverser"},
-        {"front": "Cross the street carefully.", "back": "Traversez la rue avec précaution."}
+        {
+          "front": "To cross",
+          "back": "Traverser"
+        },
+        {
+          "front": "Cross the street carefully.",
+          "back": "Traversez la rue avec précaution."
+        }
       ]
     },
     {
       "id": "to_follow",
       "levels": [
-        {"front": "To follow", "back": "Suivre"},
-        {"front": "Follow this street.", "back": "Suivez cette rue."}
+        {
+          "front": "To follow",
+          "back": "Suivre"
+        },
+        {
+          "front": "Follow this street.",
+          "back": "Suivez cette rue."
+        }
       ]
     },
     {
       "id": "to_reach",
       "levels": [
-        {"front": "To reach", "back": "Arriver à / Rejoindre"},
-        {"front": "How do I reach the station?", "back": "Comment est-ce que j'arrive à la gare ?"}
+        {
+          "front": "To reach",
+          "back": "Arriver à"
+        },
+        {
+          "front": "How do I reach the station?",
+          "back": "Comment est-ce que j'arrive à la gare ?"
+        }
       ]
     },
     {
       "id": "to_enter",
       "levels": [
-        {"front": "To enter", "back": "Entrer"},
-        {"front": "Enter through the main door.", "back": "Entrez par la porte principale."}
+        {
+          "front": "To enter",
+          "back": "Entrer"
+        },
+        {
+          "front": "Enter through the main door.",
+          "back": "Entrez par la porte principale."
+        }
       ]
     },
     {
       "id": "to_leave",
       "levels": [
-        {"front": "To leave", "back": "Partir / Quitter"},
-        {"front": "I leave work at five.", "back": "Je pars du travail à cinq heures."}
+        {
+          "front": "To leave",
+          "back": "Partir"
+        },
+        {
+          "front": "I leave work at five.",
+          "back": "Je pars du travail à cinq heures."
+        }
       ]
     },
     {
       "id": "to_depart",
       "levels": [
-        {"front": "To depart", "back": "Partir / S'en aller"},
-        {"front": "The train departs at nine.", "back": "Le train part à neuf heures."}
+        {
+          "front": "To depart",
+          "back": "Partir"
+        },
+        {
+          "front": "The train departs at nine.",
+          "back": "Le train part à neuf heures."
+        }
       ]
     },
     {
       "id": "to_arrive",
       "levels": [
-        {"front": "To arrive", "back": "Arriver"},
-        {"front": "We arrive tomorrow.", "back": "On arrive demain."}
+        {
+          "front": "To arrive",
+          "back": "Arriver"
+        },
+        {
+          "front": "We arrive tomorrow.",
+          "back": "On arrive demain."
+        }
       ]
     },
     {
       "id": "to_visit",
       "levels": [
-        {"front": "To visit", "back": "Visiter"},
-        {"front": "I want to visit the museum.", "back": "Je veux visiter le musée."}
+        {
+          "front": "To visit",
+          "back": "Visiter"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "Je veux visiter le musée."
+        }
       ]
     },
     {
       "id": "in",
       "levels": [
-        {"front": "In", "back": "Dans / En"},
-        {"front": "The keys are in the bag.", "back": "Les clés sont dans le sac."}
+        {
+          "front": "In",
+          "back": "Dans"
+        },
+        {
+          "front": "The keys are in the bag.",
+          "back": "Les clés sont dans le sac."
+        }
       ]
     },
     {
       "id": "on",
       "levels": [
-        {"front": "On", "back": "Sur"},
-        {"front": "The book is on the table.", "back": "Le livre est sur la table."}
+        {
+          "front": "On",
+          "back": "Sur"
+        },
+        {
+          "front": "The book is on the table.",
+          "back": "Le livre est sur la table."
+        }
       ]
     },
     {
       "id": "at",
       "levels": [
-        {"front": "At", "back": "À"},
-        {"front": "I'm at the office.", "back": "Je suis au bureau."}
+        {
+          "front": "At",
+          "back": "À"
+        },
+        {
+          "front": "I'm at the office.",
+          "back": "Je suis au bureau."
+        }
       ]
     },
     {
       "id": "under",
       "levels": [
-        {"front": "Under", "back": "Sous"},
-        {"front": "The cat is under the table.", "back": "Le chat est sous la table."}
+        {
+          "front": "Under",
+          "back": "Sous"
+        },
+        {
+          "front": "The cat is under the table.",
+          "back": "Le chat est sous la table."
+        }
       ]
     },
     {
       "id": "next_to",
       "levels": [
-        {"front": "Next to", "back": "À côté de"},
-        {"front": "The bank is next to the cafe.", "back": "La banque est à côté du café."}
+        {
+          "front": "Next to",
+          "back": "À côté de"
+        },
+        {
+          "front": "The bank is next to the cafe.",
+          "back": "La banque est à côté du café."
+        }
       ]
     },
     {
       "id": "between",
       "levels": [
-        {"front": "Between", "back": "Entre"},
-        {"front": "The park is between the school and the library.", "back": "Le parc est entre l'école et la bibliothèque."}
+        {
+          "front": "Between",
+          "back": "Entre"
+        },
+        {
+          "front": "The park is between the school and the library.",
+          "back": "Le parc est entre l'école et la bibliothèque."
+        }
       ]
     },
     {
       "id": "in_front_of",
       "levels": [
-        {"front": "In front of", "back": "Devant"},
-        {"front": "The taxi is in front of the hotel.", "back": "Le taxi est devant l'hôtel."}
+        {
+          "front": "In front of",
+          "back": "Devant"
+        },
+        {
+          "front": "The taxi is in front of the hotel.",
+          "back": "Le taxi est devant l'hôtel."
+        }
       ]
     },
     {
       "id": "behind",
       "levels": [
-        {"front": "Behind", "back": "Derrière"},
-        {"front": "The garden is behind the house.", "back": "Le jardin est derrière la maison."}
+        {
+          "front": "Behind",
+          "back": "Derrière"
+        },
+        {
+          "front": "The garden is behind the house.",
+          "back": "Le jardin est derrière la maison."
+        }
       ]
     },
     {
       "id": "near",
       "levels": [
-        {"front": "Near", "back": "Près de"},
-        {"front": "Is there a restaurant near here?", "back": "Il y a un restaurant près d'ici ?"}
+        {
+          "front": "Near",
+          "back": "Près de"
+        },
+        {
+          "front": "Is there a restaurant near here?",
+          "back": "Il y a un restaurant près d'ici ?"
+        }
       ]
     },
     {
       "id": "far",
       "levels": [
-        {"front": "Far", "back": "Loin de"},
-        {"front": "Is the airport far?", "back": "L'aéroport est loin ?"}
+        {
+          "front": "Far",
+          "back": "Loin de"
+        },
+        {
+          "front": "Is the airport far?",
+          "back": "L'aéroport est loin ?"
+        }
       ]
     },
     {
       "id": "here",
       "levels": [
-        {"front": "Here", "back": "Ici"},
-        {"front": "Come here, please.", "back": "Viens ici, s'il te plaît."}
+        {
+          "front": "Here",
+          "back": "Ici"
+        },
+        {
+          "front": "Come here, please.",
+          "back": "Viens ici, s'il te plaît."
+        }
       ]
     },
     {
       "id": "there",
       "levels": [
-        {"front": "There", "back": "Là / Là-bas"},
-        {"front": "The taxi is over there.", "back": "Le taxi est là-bas."}
+        {
+          "front": "There",
+          "back": "Là"
+        },
+        {
+          "front": "The taxi is over there.",
+          "back": "Le taxi est là-bas."
+        }
       ]
     },
     {
       "id": "everywhere",
       "levels": [
-        {"front": "Everywhere", "back": "Partout"},
-        {"front": "There are tourists everywhere.", "back": "Il y a des touristes partout."}
+        {
+          "front": "Everywhere",
+          "back": "Partout"
+        },
+        {
+          "front": "There are tourists everywhere.",
+          "back": "Il y a des touristes partout."
+        }
       ]
     },
     {
       "id": "somewhere",
       "levels": [
-        {"front": "Somewhere", "back": "Quelque part"},
-        {"front": "Let's go somewhere quiet.", "back": "Allons quelque part de calme."}
+        {
+          "front": "Somewhere",
+          "back": "Quelque part"
+        },
+        {
+          "front": "Let's go somewhere quiet.",
+          "back": "Allons quelque part de calme."
+        }
       ]
     },
     {
       "id": "nowhere",
       "levels": [
-        {"front": "Nowhere", "back": "Nulle part"},
-        {"front": "There is nowhere to sit.", "back": "Il n'y a nulle part où s'asseoir."}
+        {
+          "front": "Nowhere",
+          "back": "Nulle part"
+        },
+        {
+          "front": "There is nowhere to sit.",
+          "back": "Il n'y a nulle part où s'asseoir."
+        }
       ]
     },
     {
       "id": "left",
       "levels": [
-        {"front": "Left", "back": "Gauche"},
-        {"front": "Turn left.", "back": "Tournez à gauche."}
+        {
+          "front": "Left",
+          "back": "Gauche"
+        },
+        {
+          "front": "Turn left.",
+          "back": "Tournez à gauche."
+        }
       ]
     },
     {
       "id": "right",
       "levels": [
-        {"front": "Right", "back": "Droite"},
-        {"front": "Turn right.", "back": "Tournez à droite."}
+        {
+          "front": "Right",
+          "back": "Droite"
+        },
+        {
+          "front": "Turn right.",
+          "back": "Tournez à droite."
+        }
       ]
     },
     {
       "id": "straight_ahead",
       "levels": [
-        {"front": "Straight (ahead)", "back": "Tout droit"},
-        {"front": "Go straight ahead.", "back": "Allez tout droit."}
+        {
+          "front": "Straight (ahead)",
+          "back": "Tout droit"
+        },
+        {
+          "front": "Go straight ahead.",
+          "back": "Allez tout droit."
+        }
       ]
     },
     {
       "id": "north",
       "levels": [
-        {"front": "North", "back": "Nord"},
-        {"front": "The city is to the north.", "back": "La ville est au nord."}
+        {
+          "front": "North",
+          "back": "Nord"
+        },
+        {
+          "front": "The city is to the north.",
+          "back": "La ville est au nord."
+        }
       ]
     },
     {
       "id": "south",
       "levels": [
-        {"front": "South", "back": "Sud"},
-        {"front": "The beach is to the south.", "back": "La plage est au sud."}
+        {
+          "front": "South",
+          "back": "Sud"
+        },
+        {
+          "front": "The beach is to the south.",
+          "back": "La plage est au sud."
+        }
       ]
     },
     {
       "id": "east",
       "levels": [
-        {"front": "East", "back": "Est"},
-        {"front": "The sun rises in the east.", "back": "Le soleil se lève à l'est."}
+        {
+          "front": "East",
+          "back": "Est"
+        },
+        {
+          "front": "The sun rises in the east.",
+          "back": "Le soleil se lève à l'est."
+        }
       ]
     },
     {
       "id": "west",
       "levels": [
-        {"front": "West", "back": "Ouest"},
-        {"front": "The sun sets in the west.", "back": "Le soleil se couche à l'ouest."}
+        {
+          "front": "West",
+          "back": "Ouest"
+        },
+        {
+          "front": "The sun sets in the west.",
+          "back": "Le soleil se couche à l'ouest."
+        }
       ]
     },
     {
       "id": "to_live",
       "levels": [
-        {"front": "To live", "back": "Habiter / Vivre"},
-        {"front": "I live near the city centre.", "back": "J'habite près du centre-ville."}
+        {
+          "front": "To live",
+          "back": "Habiter"
+        },
+        {
+          "front": "I live near the city centre.",
+          "back": "J'habite près du centre-ville."
+        }
       ]
     },
     {
       "id": "to_stay",
       "levels": [
-        {"front": "To stay", "back": "Rester / Séjourner"},
-        {"front": "We're staying at a hotel.", "back": "On séjourne dans un hôtel."}
+        {
+          "front": "To stay",
+          "back": "Rester"
+        },
+        {
+          "front": "We're staying at a hotel.",
+          "back": "On séjourne dans un hôtel."
+        }
       ]
     },
     {
       "id": "to_wait",
       "levels": [
-        {"front": "To wait", "back": "Attendre"},
-        {"front": "I'll wait for you here.", "back": "Je t'attends ici."}
+        {
+          "front": "To wait",
+          "back": "Attendre"
+        },
+        {
+          "front": "I'll wait for you here.",
+          "back": "Je t'attends ici."
+        }
       ]
     },
     {
       "id": "to_meet",
       "levels": [
-        {"front": "To meet", "back": "Se retrouver / Se rencontrer"},
-        {"front": "Let's meet at the park.", "back": "On se retrouve au parc."}
+        {
+          "front": "To meet",
+          "back": "Se retrouver"
+        },
+        {
+          "front": "Let's meet at the park.",
+          "back": "On se retrouve au parc."
+        }
       ]
     },
     {
       "id": "to_get_lost",
       "levels": [
-        {"front": "To get lost", "back": "Se perdre", "grammarNote": "Se perdre is reflexive: je me perds, tu te perds, il se perd. 'Ne te perds pas !' = Don't get lost! Many movement verbs in French are reflexive: se promener (to stroll), se diriger (to head toward), s'en aller (to leave)."},
-        {"front": "Don't get lost!", "back": "Ne te perds pas !"}
+        {
+          "front": "To get lost",
+          "back": "Se perdre",
+          "grammarNote": "Se perdre is reflexive: je me perds, tu te perds, il se perd. 'Ne te perds pas !' = Don't get lost! Many movement verbs in French are reflexive: se promener (to stroll), se diriger (to head toward), s'en aller (to leave)."
+        },
+        {
+          "front": "Don't get lost!",
+          "back": "Ne te perds pas !"
+        }
       ]
     },
     {
       "id": "to_find",
       "levels": [
-        {"front": "To find", "back": "Trouver"},
-        {"front": "I can't find the hotel.", "back": "Je ne trouve pas l'hôtel."}
+        {
+          "front": "To find",
+          "back": "Trouver"
+        },
+        {
+          "front": "I can't find the hotel.",
+          "back": "Je ne trouve pas l'hôtel."
+        }
       ]
     },
     {
       "id": "to_look_for",
       "levels": [
-        {"front": "To look for", "back": "Chercher"},
-        {"front": "I'm looking for the pharmacy.", "back": "Je cherche la pharmacie."}
+        {
+          "front": "To look for",
+          "back": "Chercher"
+        },
+        {
+          "front": "I'm looking for the pharmacy.",
+          "back": "Je cherche la pharmacie."
+        }
       ]
     },
     {
       "id": "to_head",
       "levels": [
-        {"front": "To head", "back": "Se diriger (vers)"},
-        {"front": "Head towards the station.", "back": "Dirigez-vous vers la gare."}
+        {
+          "front": "To head",
+          "back": "Se diriger (vers)"
+        },
+        {
+          "front": "Head towards the station.",
+          "back": "Dirigez-vous vers la gare."
+        }
       ]
     },
     {
       "id": "to_continue",
       "levels": [
-        {"front": "To continue", "back": "Continuer"},
-        {"front": "Continue straight ahead.", "back": "Continuez tout droit."}
+        {
+          "front": "To continue",
+          "back": "Continuer"
+        },
+        {
+          "front": "Continue straight ahead.",
+          "back": "Continuez tout droit."
+        }
       ]
     },
     {
       "id": "to_stop",
       "levels": [
-        {"front": "To stop", "back": "S'arrêter"},
-        {"front": "Stop at the corner.", "back": "Arrêtez-vous au coin."}
+        {
+          "front": "To stop",
+          "back": "S'arrêter"
+        },
+        {
+          "front": "Stop at the corner.",
+          "back": "Arrêtez-vous au coin."
+        }
       ]
     },
     {
       "id": "to_park",
       "levels": [
-        {"front": "To park", "back": "Se garer / Stationner"},
-        {"front": "Where can I park?", "back": "Où est-ce que je peux me garer ?"}
+        {
+          "front": "To park",
+          "back": "Se garer"
+        },
+        {
+          "front": "Where can I park?",
+          "back": "Où est-ce que je peux me garer ?"
+        }
       ]
     },
     {
       "id": "to_book_to_reserve",
       "levels": [
-        {"front": "To book / To reserve", "back": "Réserver"},
-        {"front": "I booked a room.", "back": "J'ai réservé une chambre."}
+        {
+          "front": "To book",
+          "back": "Réserver"
+        },
+        {
+          "front": "I booked a room.",
+          "back": "J'ai réservé une chambre."
+        }
       ]
     },
     {
       "id": "to_check_in",
       "levels": [
-        {"front": "To check in", "back": "S'enregistrer / Faire son check-in"},
-        {"front": "We checked in at three.", "back": "On s'est enregistrés à trois heures."}
+        {
+          "front": "To check in",
+          "back": "S'enregistrer"
+        },
+        {
+          "front": "We checked in at three.",
+          "back": "On s'est enregistrés à trois heures."
+        }
       ]
     },
     {
       "id": "to_check_out",
       "levels": [
-        {"front": "To check out", "back": "Régler / Faire son check-out"},
-        {"front": "Check out is at eleven.", "back": "Le départ est à onze heures."}
+        {
+          "front": "To check out",
+          "back": "Régler"
+        },
+        {
+          "front": "Check out is at eleven.",
+          "back": "Le départ est à onze heures."
+        }
       ]
     },
     {
       "id": "nearby",
       "levels": [
-        {"front": "Nearby", "back": "À proximité / Près d'ici"},
-        {"front": "Is there a pharmacy nearby?", "back": "Il y a une pharmacie à proximité ?"}
+        {
+          "front": "Nearby",
+          "back": "À proximité"
+        },
+        {
+          "front": "Is there a pharmacy nearby?",
+          "back": "Il y a une pharmacie à proximité ?"
+        }
       ]
     },
     {
       "id": "busy_crowded",
       "levels": [
-        {"front": "Busy / Crowded", "back": "Animé / Bondé"},
-        {"front": "The market is very crowded.", "back": "Le marché est très animé."}
+        {
+          "front": "Busy",
+          "back": "Animé"
+        },
+        {
+          "front": "The market is very crowded.",
+          "back": "Le marché est très animé."
+        }
       ]
     },
     {
       "id": "quiet",
       "levels": [
-        {"front": "Quiet", "back": "Calme / Tranquille"},
-        {"front": "I prefer a quiet neighbourhood.", "back": "Je préfère un quartier calme."}
+        {
+          "front": "Quiet",
+          "back": "Calme"
+        },
+        {
+          "front": "I prefer a quiet neighbourhood.",
+          "back": "Je préfère un quartier calme."
+        }
       ]
     },
     {
       "id": "lost",
       "levels": [
-        {"front": "Lost", "back": "Perdu(e)"},
-        {"front": "I'm lost.", "back": "Je suis perdu(e)."}
+        {
+          "front": "Lost",
+          "back": "Perdu(e)"
+        },
+        {
+          "front": "I'm lost.",
+          "back": "Je suis perdu(e)."
+        }
       ]
     }
   ]

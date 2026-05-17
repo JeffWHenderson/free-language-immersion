@@ -6,425 +6,796 @@
     "a_bad_day",
     "good_news"
   ],
+  "grammarLessons": [
+    {
+      "id": "negation",
+      "name": "Negation — ne...pas"
+    },
+    {
+      "id": "tres_trop",
+      "name": "Intensifiers — très, trop, assez"
+    }
+  ],
   "cards": [
     {
       "id": "happy",
       "levels": [
-        {"front": "happy", "back": "heureux / heureuse"},
-        {"front": "I'm very happy today.", "back": "Je suis très heureux/heureuse aujourd'hui."}
+        {
+          "front": "happy",
+          "back": "heureux"
+        },
+        {
+          "front": "I'm very happy today.",
+          "back": "Je suis très heureux"
+        }
       ]
     },
     {
       "id": "sad",
       "levels": [
-        {"front": "sad", "back": "triste"},
-        {"front": "Why are you sad?", "back": "Pourquoi tu es triste ?"}
+        {
+          "front": "sad",
+          "back": "triste"
+        },
+        {
+          "front": "Why are you sad?",
+          "back": "Pourquoi tu es triste ?"
+        }
       ]
     },
     {
       "id": "love",
       "levels": [
-        {"front": "love", "back": "l'amour (masc.)"},
-        {"front": "I feel a lot of love for my family.", "back": "Je ressens beaucoup d'amour pour ma famille."}
+        {
+          "front": "love",
+          "back": "l'amour (masc.)"
+        },
+        {
+          "front": "I feel a lot of love for my family.",
+          "back": "Je ressens beaucoup d'amour pour ma famille."
+        }
       ]
     },
     {
       "id": "anger",
       "levels": [
-        {"front": "anger", "back": "la colère"},
-        {"front": "I felt anger when they lied to me.", "back": "J'ai ressenti de la colère quand ils m'ont menti."}
+        {
+          "front": "anger",
+          "back": "la colère"
+        },
+        {
+          "front": "I felt anger when they lied to me.",
+          "back": "J'ai ressenti de la colère quand ils m'ont menti."
+        }
       ]
     },
     {
       "id": "fear",
       "levels": [
-        {"front": "fear", "back": "la peur"},
-        {"front": "I'm afraid of the dark.", "back": "J'ai peur du noir."}
+        {
+          "front": "fear",
+          "back": "la peur"
+        },
+        {
+          "front": "I'm afraid of the dark.",
+          "back": "J'ai peur du noir."
+        }
       ]
     },
     {
       "id": "hope",
       "levels": [
-        {"front": "hope", "back": "l'espoir (masc.)"},
-        {"front": "I have hope for the future.", "back": "J'ai de l'espoir pour l'avenir."}
+        {
+          "front": "hope",
+          "back": "l'espoir (masc.)"
+        },
+        {
+          "front": "I have hope for the future.",
+          "back": "J'ai de l'espoir pour l'avenir."
+        }
       ]
     },
     {
       "id": "stress",
       "levels": [
-        {"front": "stress", "back": "le stress"},
-        {"front": "I have a lot of stress at work.", "back": "J'ai beaucoup de stress au travail."}
+        {
+          "front": "stress",
+          "back": "le stress"
+        },
+        {
+          "front": "I have a lot of stress at work.",
+          "back": "J'ai beaucoup de stress au travail."
+        }
       ]
     },
     {
       "id": "mood",
       "levels": [
-        {"front": "mood", "back": "l'humeur (fem.)"},
-        {"front": "I'm in a good mood today.", "back": "Je suis de bonne humeur aujourd'hui."}
+        {
+          "front": "mood",
+          "back": "l'humeur (fem.)"
+        },
+        {
+          "front": "I'm in a good mood today.",
+          "back": "Je suis de bonne humeur aujourd'hui."
+        }
       ]
     },
     {
       "id": "feeling",
       "levels": [
-        {"front": "feeling", "back": "le sentiment / la sensation"},
-        {"front": "That feeling is normal.", "back": "Ce sentiment est normal."}
+        {
+          "front": "feeling",
+          "back": "le sentiment"
+        },
+        {
+          "front": "That feeling is normal.",
+          "back": "Ce sentiment est normal."
+        }
       ]
     },
     {
       "id": "emotion_excitement",
       "levels": [
-        {"front": "emotion / excitement", "back": "l'émotion (fem.)"},
-        {"front": "I couldn't hide my emotion.", "back": "Je n'ai pas pu cacher mon émotion."}
+        {
+          "front": "emotion",
+          "back": "l'émotion (fem.)"
+        },
+        {
+          "front": "I couldn't hide my emotion.",
+          "back": "Je n'ai pas pu cacher mon émotion."
+        }
       ]
     },
     {
       "id": "calm",
       "levels": [
-        {"front": "calm", "back": "le calme"},
-        {"front": "Try to maintain your calm.", "back": "Essaie de garder ton calme."}
+        {
+          "front": "calm",
+          "back": "le calme"
+        },
+        {
+          "front": "Try to maintain your calm.",
+          "back": "Essaie de garder ton calme."
+        }
       ]
     },
     {
       "id": "peace",
       "levels": [
-        {"front": "peace", "back": "la paix"},
-        {"front": "I need peace and quiet.", "back": "J'ai besoin de paix et de tranquillité."}
+        {
+          "front": "peace",
+          "back": "la paix"
+        },
+        {
+          "front": "I need peace and quiet.",
+          "back": "J'ai besoin de paix et de tranquillité."
+        }
       ]
     },
     {
       "id": "worry",
       "levels": [
-        {"front": "worry", "back": "l'inquiétude (fem.) / le souci"},
-        {"front": "Don't let worry stop you.", "back": "Ne laisse pas l'inquiétude t'arrêter."}
+        {
+          "front": "worry",
+          "back": "l'inquiétude (fem.)"
+        },
+        {
+          "front": "Don't let worry stop you.",
+          "back": "Ne laisse pas l'inquiétude t'arrêter."
+        }
       ]
     },
     {
       "id": "surprise",
       "levels": [
-        {"front": "surprise", "back": "la surprise"},
-        {"front": "What a surprise!", "back": "Quelle surprise !"}
+        {
+          "front": "surprise",
+          "back": "la surprise"
+        },
+        {
+          "front": "What a surprise!",
+          "back": "Quelle surprise !"
+        }
       ]
     },
     {
       "id": "passion",
       "levels": [
-        {"front": "passion", "back": "la passion"},
-        {"front": "She teaches with passion.", "back": "Elle enseigne avec passion."}
+        {
+          "front": "passion",
+          "back": "la passion"
+        },
+        {
+          "front": "She teaches with passion.",
+          "back": "Elle enseigne avec passion."
+        }
       ]
     },
     {
       "id": "desire",
       "levels": [
-        {"front": "desire", "back": "le désir / l'envie (fem.)"},
-        {"front": "I have a strong desire to travel.", "back": "J'ai une grande envie de voyager."}
+        {
+          "front": "desire",
+          "back": "le désir"
+        },
+        {
+          "front": "I have a strong desire to travel.",
+          "back": "J'ai une grande envie de voyager."
+        }
       ]
     },
     {
       "id": "hate",
       "levels": [
-        {"front": "hate", "back": "la haine"},
-        {"front": "Hate is a strong feeling.", "back": "La haine est un sentiment fort."}
+        {
+          "front": "hate",
+          "back": "la haine"
+        },
+        {
+          "front": "Hate is a strong feeling.",
+          "back": "La haine est un sentiment fort."
+        }
       ]
     },
     {
       "id": "pleasure",
       "levels": [
-        {"front": "pleasure", "back": "le plaisir"},
-        {"front": "It's a pleasure to meet you.", "back": "C'est un plaisir de vous rencontrer."}
+        {
+          "front": "pleasure",
+          "back": "le plaisir"
+        },
+        {
+          "front": "It's a pleasure to meet you.",
+          "back": "C'est un plaisir de vous rencontrer."
+        }
       ]
     },
     {
       "id": "pain",
       "levels": [
-        {"front": "pain", "back": "la douleur"},
-        {"front": "I feel pain in my leg.", "back": "Je ressens une douleur dans la jambe."}
+        {
+          "front": "pain",
+          "back": "la douleur"
+        },
+        {
+          "front": "I feel pain in my leg.",
+          "back": "Je ressens une douleur dans la jambe."
+        }
       ]
     },
     {
       "id": "energy",
       "levels": [
-        {"front": "energy", "back": "l'énergie (fem.)"},
-        {"front": "I have a lot of energy today.", "back": "J'ai beaucoup d'énergie aujourd'hui."}
+        {
+          "front": "energy",
+          "back": "l'énergie (fem.)"
+        },
+        {
+          "front": "I have a lot of energy today.",
+          "back": "J'ai beaucoup d'énergie aujourd'hui."
+        }
       ]
     },
     {
       "id": "relief",
       "levels": [
-        {"front": "relief", "back": "le soulagement"},
-        {"front": "What a relief!", "back": "Quel soulagement !"}
+        {
+          "front": "relief",
+          "back": "le soulagement"
+        },
+        {
+          "front": "What a relief!",
+          "back": "Quel soulagement !"
+        }
       ]
     },
     {
       "id": "comfort",
       "levels": [
-        {"front": "comfort", "back": "le réconfort / le confort"},
-        {"front": "Her words were a comfort.", "back": "Ses mots étaient un réconfort."}
+        {
+          "front": "comfort",
+          "back": "le réconfort"
+        },
+        {
+          "front": "Her words were a comfort.",
+          "back": "Ses mots étaient un réconfort."
+        }
       ]
     },
     {
       "id": "feel_to_feel",
       "levels": [
-        {"front": "feel (to feel)", "back": "se sentir / ressentir", "grammarNote": "Se sentir = to feel a certain way (état): 'Je me sens bien' (I feel good). Ressentir = to feel/experience an emotion: 'Je ressens de la joie' (I feel joy). Both are common but used in slightly different contexts."},
-        {"front": "I feel good today.", "back": "Je me sens bien aujourd'hui."}
+        {
+          "front": "feel (to feel)",
+          "back": "se sentir",
+          "grammarNote": "Se sentir = to feel a certain way (état): 'Je me sens bien' (I feel good). Ressentir = to feel/experience an emotion: 'Je ressens de la joie' (I feel joy). Both are common but used in slightly different contexts."
+        },
+        {
+          "front": "I feel good today.",
+          "back": "Je me sens bien aujourd'hui."
+        }
       ]
     },
     {
       "id": "love_to_love",
       "levels": [
-        {"front": "love (to love)", "back": "aimer / adorer"},
-        {"front": "I love you very much.", "back": "Je t'aime beaucoup."}
+        {
+          "front": "love (to love)",
+          "back": "aimer"
+        },
+        {
+          "front": "I love you very much.",
+          "back": "Je t'aime beaucoup."
+        }
       ]
     },
     {
       "id": "hate_to_hate",
       "levels": [
-        {"front": "hate (to hate)", "back": "détester / haïr"},
-        {"front": "I hate waiting.", "back": "Je déteste attendre."}
+        {
+          "front": "hate (to hate)",
+          "back": "détester"
+        },
+        {
+          "front": "I hate waiting.",
+          "back": "Je déteste attendre."
+        }
       ]
     },
     {
       "id": "like_to_like",
       "levels": [
-        {"front": "like (to like)", "back": "aimer / aimer bien"},
-        {"front": "I like music.", "back": "J'aime bien la musique."}
+        {
+          "front": "like (to like)",
+          "back": "aimer"
+        },
+        {
+          "front": "I like music.",
+          "back": "J'aime bien la musique."
+        }
       ]
     },
     {
       "id": "enjoy",
       "levels": [
-        {"front": "enjoy", "back": "apprécier / profiter de"},
-        {"front": "I enjoy the weekend.", "back": "Je profite du week-end."}
+        {
+          "front": "enjoy",
+          "back": "apprécier"
+        },
+        {
+          "front": "I enjoy the weekend.",
+          "back": "Je profite du week-end."
+        }
       ]
     },
     {
       "id": "fear_dread_to_fear",
       "levels": [
-        {"front": "fear / dread (to fear)", "back": "craindre / avoir peur de"},
-        {"front": "I fear the worst.", "back": "Je crains le pire."}
+        {
+          "front": "fear",
+          "back": "craindre"
+        },
+        {
+          "front": "I fear the worst.",
+          "back": "Je crains le pire."
+        }
       ]
     },
     {
       "id": "hope_to_hope",
       "levels": [
-        {"front": "hope (to hope)", "back": "espérer"},
-        {"front": "I hope everything goes well.", "back": "J'espère que tout se passe bien."}
+        {
+          "front": "hope (to hope)",
+          "back": "espérer"
+        },
+        {
+          "front": "I hope everything goes well.",
+          "back": "J'espère que tout se passe bien."
+        }
       ]
     },
     {
       "id": "worry_to_worry",
       "levels": [
-        {"front": "worry (to worry)", "back": "s'inquiéter"},
-        {"front": "Don't worry about it.", "back": "Ne t'inquiète pas pour ça."}
+        {
+          "front": "worry (to worry)",
+          "back": "s'inquiéter"
+        },
+        {
+          "front": "Don't worry about it.",
+          "back": "Ne t'inquiète pas pour ça."
+        }
       ]
     },
     {
       "id": "calm_soothe_to_calm",
       "levels": [
-        {"front": "calm / soothe (to calm)", "back": "calmer / se calmer"},
-        {"front": "Calm down, please.", "back": "Calme-toi, s'il te plaît."}
+        {
+          "front": "calm",
+          "back": "calmer"
+        },
+        {
+          "front": "Calm down, please.",
+          "back": "Calme-toi, s'il te plaît."
+        }
       ]
     },
     {
       "id": "comfort_to_comfort",
       "levels": [
-        {"front": "comfort (to comfort)", "back": "réconforter / consoler"},
-        {"front": "She comforted her friend.", "back": "Elle a réconforté son amie."}
+        {
+          "front": "comfort (to comfort)",
+          "back": "réconforter"
+        },
+        {
+          "front": "She comforted her friend.",
+          "back": "Elle a réconforté son amie."
+        }
       ]
     },
     {
       "id": "excite_thrill",
       "levels": [
-        {"front": "excite / thrill", "back": "enthousiasmer / exciter"},
-        {"front": "The trip excites me.", "back": "Le voyage m'enthousiasme."}
+        {
+          "front": "excite",
+          "back": "enthousiasmer"
+        },
+        {
+          "front": "The trip excites me.",
+          "back": "Le voyage m'enthousiasme."
+        }
       ]
     },
     {
       "id": "annoy",
       "levels": [
-        {"front": "annoy", "back": "agacer / énerver"},
-        {"front": "That noise annoys me.", "back": "Ce bruit m'agace."}
+        {
+          "front": "annoy",
+          "back": "agacer"
+        },
+        {
+          "front": "That noise annoys me.",
+          "back": "Ce bruit m'agace."
+        }
       ]
     },
     {
       "id": "irritate",
       "levels": [
-        {"front": "irritate", "back": "irriter / énerver"},
-        {"front": "Waiting irritates me.", "back": "Attendre m'irrite."}
+        {
+          "front": "irritate",
+          "back": "irriter"
+        },
+        {
+          "front": "Waiting irritates me.",
+          "back": "Attendre m'irrite."
+        }
       ]
     },
     {
       "id": "anger_to_anger",
       "levels": [
-        {"front": "anger (to anger)", "back": "mettre en colère / fâcher"},
-        {"front": "That comment angered me.", "back": "Ce commentaire m'a mis en colère."}
+        {
+          "front": "anger (to anger)",
+          "back": "mettre en colère"
+        },
+        {
+          "front": "That comment angered me.",
+          "back": "Ce commentaire m'a mis en colère."
+        }
       ]
     },
     {
       "id": "delight",
       "levels": [
-        {"front": "delight", "back": "ravir / enchanter / régaler"},
-        {"front": "The music delighted everyone.", "back": "La musique a ravi tout le monde."}
+        {
+          "front": "delight",
+          "back": "ravir"
+        },
+        {
+          "front": "The music delighted everyone.",
+          "back": "La musique a ravi tout le monde."
+        }
       ]
     },
     {
       "id": "smile",
       "levels": [
-        {"front": "smile", "back": "sourire"},
-        {"front": "She always smiles.", "back": "Elle sourit toujours."}
+        {
+          "front": "smile",
+          "back": "sourire"
+        },
+        {
+          "front": "She always smiles.",
+          "back": "Elle sourit toujours."
+        }
       ]
     },
     {
       "id": "laugh",
       "levels": [
-        {"front": "laugh", "back": "rire"},
-        {"front": "We laughed a lot.", "back": "On a beaucoup ri."}
+        {
+          "front": "laugh",
+          "back": "rire"
+        },
+        {
+          "front": "We laughed a lot.",
+          "back": "On a beaucoup ri."
+        }
       ]
     },
     {
       "id": "cry_weep_mourn",
       "levels": [
-        {"front": "cry / weep / mourn", "back": "pleurer"},
-        {"front": "The baby is crying.", "back": "Le bébé pleure."}
+        {
+          "front": "cry",
+          "back": "pleurer"
+        },
+        {
+          "front": "The baby is crying.",
+          "back": "Le bébé pleure."
+        }
       ]
     },
     {
       "id": "sigh",
       "levels": [
-        {"front": "sigh", "back": "soupirer"},
-        {"front": "She sighed with relief.", "back": "Elle a soupiré de soulagement."}
+        {
+          "front": "sigh",
+          "back": "soupirer"
+        },
+        {
+          "front": "She sighed with relief.",
+          "back": "Elle a soupiré de soulagement."
+        }
       ]
     },
     {
       "id": "frown",
       "levels": [
-        {"front": "frown", "back": "froncer les sourcils"},
-        {"front": "He frowned when he heard the news.", "back": "Il a froncé les sourcils en entendant la nouvelle."}
+        {
+          "front": "frown",
+          "back": "froncer les sourcils"
+        },
+        {
+          "front": "He frowned when he heard the news.",
+          "back": "Il a froncé les sourcils en entendant la nouvelle."
+        }
       ]
     },
     {
       "id": "scream_shout",
       "levels": [
-        {"front": "scream / shout", "back": "crier / hurler"},
-        {"front": "Don't shout, please.", "back": "Ne crie pas, s'il te plaît."}
+        {
+          "front": "scream",
+          "back": "crier"
+        },
+        {
+          "front": "Don't shout, please.",
+          "back": "Ne crie pas, s'il te plaît."
+        }
       ]
     },
     {
       "id": "relax",
       "levels": [
-        {"front": "relax", "back": "se détendre / se relaxer"},
-        {"front": "Relax, there's no rush.", "back": "Détends-toi, il n'y a pas d'urgence."}
+        {
+          "front": "relax",
+          "back": "se détendre"
+        },
+        {
+          "front": "Relax, there's no rush.",
+          "back": "Détends-toi, il n'y a pas d'urgence."
+        }
       ]
     },
     {
       "id": "angry",
       "levels": [
-        {"front": "angry", "back": "en colère / fâché(e)"},
-        {"front": "I'm angry with you.", "back": "Je suis en colère contre toi."}
+        {
+          "front": "angry",
+          "back": "en colère"
+        },
+        {
+          "front": "I'm angry with you.",
+          "back": "Je suis en colère contre toi."
+        }
       ]
     },
     {
       "id": "mad",
       "levels": [
-        {"front": "mad", "back": "furieux / furieuse / très fâché(e)"},
-        {"front": "Why are you so mad?", "back": "Pourquoi tu es si furieux/furieuse ?"}
+        {
+          "front": "mad",
+          "back": "furieux"
+        },
+        {
+          "front": "Why are you so mad?",
+          "back": "Pourquoi tu es si furieux"
+        }
       ]
     },
     {
       "id": "afraid_scared",
       "levels": [
-        {"front": "afraid / scared", "back": "effrayé(e) / apeuré(e)"},
-        {"front": "The child was scared.", "back": "L'enfant était effrayé."}
+        {
+          "front": "afraid",
+          "back": "effrayé(e)"
+        },
+        {
+          "front": "The child was scared.",
+          "back": "L'enfant était effrayé."
+        }
       ]
     },
     {
       "id": "anxious",
       "levels": [
-        {"front": "anxious", "back": "anxieux / anxieuse / angoissé(e)"},
-        {"front": "I'm anxious about the exam.", "back": "Je suis anxieux/anxieuse pour l'examen."}
+        {
+          "front": "anxious",
+          "back": "anxieux"
+        },
+        {
+          "front": "I'm anxious about the exam.",
+          "back": "Je suis anxieux"
+        }
       ]
     },
     {
       "id": "nervous",
       "levels": [
-        {"front": "nervous", "back": "nerveux / nerveuse"},
-        {"front": "I'm nervous today.", "back": "Je suis nerveux/nerveuse aujourd'hui."}
+        {
+          "front": "nervous",
+          "back": "nerveux"
+        },
+        {
+          "front": "I'm nervous today.",
+          "back": "Je suis nerveux"
+        }
       ]
     },
     {
       "id": "excited",
       "levels": [
-        {"front": "excited", "back": "enthousiaste / excité(e)"},
-        {"front": "I'm excited about the trip.", "back": "Je suis enthousiaste pour le voyage."}
+        {
+          "front": "excited",
+          "back": "enthousiaste"
+        },
+        {
+          "front": "I'm excited about the trip.",
+          "back": "Je suis enthousiaste pour le voyage."
+        }
       ]
     },
     {
       "id": "joyful_cheerful",
       "levels": [
-        {"front": "joyful / cheerful", "back": "joyeux / joyeuse / enjoué(e)"},
-        {"front": "She is always cheerful.", "back": "Elle est toujours joyeuse."}
+        {
+          "front": "joyful",
+          "back": "joyeux"
+        },
+        {
+          "front": "She is always cheerful.",
+          "back": "Elle est toujours joyeuse."
+        }
       ]
     },
     {
       "id": "proud",
       "levels": [
-        {"front": "proud", "back": "fier / fière"},
-        {"front": "I'm proud of you.", "back": "Je suis fier/fière de toi."}
+        {
+          "front": "proud",
+          "back": "fier"
+        },
+        {
+          "front": "I'm proud of you.",
+          "back": "Je suis fier"
+        }
       ]
     },
     {
       "id": "content_contented",
       "levels": [
-        {"front": "content / contented", "back": "content(e) / satisfait(e)"},
-        {"front": "I'm content with my life.", "back": "Je suis content(e) de ma vie."}
+        {
+          "front": "content",
+          "back": "content(e)"
+        },
+        {
+          "front": "I'm content with my life.",
+          "back": "Je suis content(e) de ma vie."
+        }
       ]
     },
     {
       "id": "calm_2",
       "levels": [
-        {"front": "calm", "back": "calme / tranquille"},
-        {"front": "Stay calm, everything is fine.", "back": "Reste calme, tout va bien."}
+        {
+          "front": "calm",
+          "back": "calme"
+        },
+        {
+          "front": "Stay calm, everything is fine.",
+          "back": "Reste calme, tout va bien."
+        }
       ]
     },
     {
       "id": "stressed",
       "levels": [
-        {"front": "stressed", "back": "stressé(e)"},
-        {"front": "I'm very stressed this week.", "back": "Je suis très stressé(e) cette semaine."}
+        {
+          "front": "stressed",
+          "back": "stressé(e)"
+        },
+        {
+          "front": "I'm very stressed this week.",
+          "back": "Je suis très stressé(e) cette semaine."
+        }
       ]
     },
     {
       "id": "overwhelmed",
       "levels": [
-        {"front": "overwhelmed", "back": "dépassé(e) / submergé(e) / débordé(e)"},
-        {"front": "I feel overwhelmed by the work.", "back": "Je me sens dépassé(e) par le travail."}
+        {
+          "front": "overwhelmed",
+          "back": "dépassé(e)"
+        },
+        {
+          "front": "I feel overwhelmed by the work.",
+          "back": "Je me sens dépassé(e) par le travail."
+        }
       ]
     },
     {
       "id": "energetic",
       "levels": [
-        {"front": "energetic", "back": "énergique / plein(e) d'énergie"},
-        {"front": "She is very energetic.", "back": "Elle est très énergique."}
+        {
+          "front": "energetic",
+          "back": "énergique"
+        },
+        {
+          "front": "She is very energetic.",
+          "back": "Elle est très énergique."
+        }
       ]
     },
     {
       "id": "tired",
       "levels": [
-        {"front": "tired", "back": "fatigué(e)"},
-        {"front": "I'm very tired today.", "back": "Je suis très fatigué(e) aujourd'hui."}
+        {
+          "front": "tired",
+          "back": "fatigué(e)"
+        },
+        {
+          "front": "I'm very tired today.",
+          "back": "Je suis très fatigué(e) aujourd'hui."
+        }
       ]
     },
     {
       "id": "exhausted",
       "levels": [
-        {"front": "exhausted", "back": "épuisé(e) / crevé(e)"},
-        {"front": "I'm exhausted after the run.", "back": "Je suis épuisé(e) après la course."}
+        {
+          "front": "exhausted",
+          "back": "épuisé(e)"
+        },
+        {
+          "front": "I'm exhausted after the run.",
+          "back": "Je suis épuisé(e) après la course."
+        }
       ]
     },
     {
       "id": "curious",
       "levels": [
-        {"front": "curious", "back": "curieux / curieuse"},
-        {"front": "I'm curious about that.", "back": "Je suis curieux/curieuse à ce sujet."}
+        {
+          "front": "curious",
+          "back": "curieux"
+        },
+        {
+          "front": "I'm curious about that.",
+          "back": "Je suis curieux"
+        }
       ]
     }
   ]

@@ -172,7 +172,7 @@ const SRSReview = () => {
 
     const flip = () => {
         setIsFlipped(true);
-        setNoteOpen(false);
+        setNoteOpen(true);
         if (currentCard) speak(currentLevel(currentCard).back, true);
     };
 
@@ -184,7 +184,7 @@ const SRSReview = () => {
         setDeckState(updatedDeckState);
         if (language && deckId) saveDeckState(language, deckId, updatedDeckState);
         setIsFlipped(false);
-        setNoteOpen(false);
+        setNoteOpen(true);
         if (nextSession.length === 0) setDone(true);
     };
 
