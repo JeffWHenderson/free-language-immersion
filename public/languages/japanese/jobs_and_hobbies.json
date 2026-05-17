@@ -9,547 +9,1243 @@
     "audrey"
   ],
   "pictureLessons": [
-    "jobsAndHobbies",
-    "jobsAndHobbies2"
+    "jobs_and_hobbies",
+    "jobs_and_hobbies_2"
   ],
   "cards": [
     {
       "id": "doctor",
       "levels": [
-        {"front": "Doctor", "back": "医者 / 医師", "romanized": "isha / ishi", "grammarNote": "In Japanese, professions are stated without an article: 'watashi wa isha desu' (私は医者です, I am a doctor). Unlike English, no 'a' or 'an' is needed. 'Isha' (医者) is the common everyday word; 'ishi' (医師) is the formal/official term."},
-        {"front": "He is a doctor.", "back": "彼は医者です。", "romanized": "kare wa isha desu", "literal": "He [topic] doctor is."}
+        {
+          "front": "Doctor",
+          "back": "医者 / 医師",
+          "romanized": "isha / ishi",
+          "grammarNote": "In Japanese, professions are stated without an article: 'watashi wa isha desu' (私は医者です, I am a doctor). Unlike English, no 'a' or 'an' is needed. 'Isha' (医者) is the common everyday word; 'ishi' (医師) is the formal/official term."
+        },
+        {
+          "front": "He is a doctor.",
+          "back": "彼は医者です。",
+          "romanized": "kare wa isha desu",
+          "literal": "He [topic] doctor is."
+        }
       ]
     },
     {
       "id": "nurse",
       "levels": [
-        {"front": "Nurse", "back": "看護師", "romanized": "kangoshi"},
-        {"front": "She is a nurse.", "back": "彼女は看護師です。", "romanized": "kanojo wa kangoshi desu", "literal": "She [topic] nurse is."}
+        {
+          "front": "Nurse",
+          "back": "看護師",
+          "romanized": "kangoshi"
+        },
+        {
+          "front": "She is a nurse.",
+          "back": "彼女は看護師です。",
+          "romanized": "kanojo wa kangoshi desu",
+          "literal": "She [topic] nurse is."
+        }
       ]
     },
     {
       "id": "engineer",
       "levels": [
-        {"front": "Engineer", "back": "エンジニア / 技術者", "romanized": "enjinia / gijutsusha"},
-        {"front": "My brother is an engineer.", "back": "兄はエンジニアです。", "romanized": "ani wa enjinia desu", "literal": "Older-brother [topic] engineer is."}
+        {
+          "front": "Engineer",
+          "back": "エンジニア / 技術者",
+          "romanized": "enjinia / gijutsusha"
+        },
+        {
+          "front": "My brother is an engineer.",
+          "back": "兄はエンジニアです。",
+          "romanized": "ani wa enjinia desu",
+          "literal": "Older-brother [topic] engineer is."
+        }
       ]
     },
     {
       "id": "programmer",
       "levels": [
-        {"front": "Programmer", "back": "プログラマー", "romanized": "puroguramā"},
-        {"front": "I work as a programmer.", "back": "私はプログラマーとして働いています。", "romanized": "watashi wa puroguramā to shite hataraite imasu", "literal": "I [topic] programmer as working-am."}
+        {
+          "front": "Programmer",
+          "back": "プログラマー",
+          "romanized": "puroguramā"
+        },
+        {
+          "front": "I work as a programmer.",
+          "back": "私はプログラマーとして働いています。",
+          "romanized": "watashi wa puroguramā to shite hataraite imasu",
+          "literal": "I [topic] programmer as working-am."
+        }
       ]
     },
     {
       "id": "cook",
       "levels": [
-        {"front": "Cook", "back": "料理人 / コック", "romanized": "ryōrinin / kokku"},
-        {"front": "The cook works in the kitchen.", "back": "料理人はキッチンで働いています。", "romanized": "ryōrinin wa kicchin de hataraite imasu", "literal": "Cook [topic] kitchen at working-am."}
+        {
+          "front": "Cook",
+          "back": "料理人 / コック",
+          "romanized": "ryōrinin / kokku"
+        },
+        {
+          "front": "The cook works in the kitchen.",
+          "back": "料理人はキッチンで働いています。",
+          "romanized": "ryōrinin wa kicchin de hataraite imasu",
+          "literal": "Cook [topic] kitchen at working-am."
+        }
       ]
     },
     {
       "id": "waiter_waitress",
       "levels": [
-        {"front": "Waiter (Waitress)", "back": "ウェイター / 店員", "romanized": "weitā / ten'in"},
-        {"front": "The waiter brought the menu.", "back": "ウェイターがメニューを持ってきました。", "romanized": "weitā ga menyū wo motte kimashita", "literal": "Waiter [subj] menu [obj] brought [past]."}
+        {
+          "front": "Waiter (Waitress)",
+          "back": "ウェイター / 店員",
+          "romanized": "weitā / ten'in"
+        },
+        {
+          "front": "The waiter brought the menu.",
+          "back": "ウェイターがメニューを持ってきました。",
+          "romanized": "weitā ga menyū wo motte kimashita",
+          "literal": "Waiter [subj] menu [obj] brought [past]."
+        }
       ]
     },
     {
       "id": "manager",
       "levels": [
-        {"front": "Manager", "back": "マネージャー / 管理職", "romanized": "manēja / kanrishoku"},
-        {"front": "She is a manager.", "back": "彼女はマネージャーです。", "romanized": "kanojo wa manēja desu", "literal": "She [topic] manager is."}
+        {
+          "front": "Manager",
+          "back": "マネージャー / 管理職",
+          "romanized": "manēja / kanrishoku"
+        },
+        {
+          "front": "She is a manager.",
+          "back": "彼女はマネージャーです。",
+          "romanized": "kanojo wa manēja desu",
+          "literal": "She [topic] manager is."
+        }
       ]
     },
     {
       "id": "student",
       "levels": [
-        {"front": "Student", "back": "学生 / 生徒", "romanized": "gakusei / seito"},
-        {"front": "I am a student.", "back": "私は学生です。", "romanized": "watashi wa gakusei desu", "literal": "I [topic] student is."}
+        {
+          "front": "Student",
+          "back": "学生 / 生徒",
+          "romanized": "gakusei / seito"
+        },
+        {
+          "front": "I am a student.",
+          "back": "私は学生です。",
+          "romanized": "watashi wa gakusei desu",
+          "literal": "I [topic] student is."
+        }
       ]
     },
     {
       "id": "architect",
       "levels": [
-        {"front": "Architect", "back": "建築家", "romanized": "kenchikuka"},
-        {"front": "He is an architect.", "back": "彼は建築家です。", "romanized": "kare wa kenchikuka desu", "literal": "He [topic] architect is."}
+        {
+          "front": "Architect",
+          "back": "建築家",
+          "romanized": "kenchikuka"
+        },
+        {
+          "front": "He is an architect.",
+          "back": "彼は建築家です。",
+          "romanized": "kare wa kenchikuka desu",
+          "literal": "He [topic] architect is."
+        }
       ]
     },
     {
       "id": "lawyer",
       "levels": [
-        {"front": "Lawyer", "back": "弁護士", "romanized": "bengoshi"},
-        {"front": "My sister is a lawyer.", "back": "姉は弁護士です。", "romanized": "ane wa bengoshi desu", "literal": "Older-sister [topic] lawyer is."}
+        {
+          "front": "Lawyer",
+          "back": "弁護士",
+          "romanized": "bengoshi"
+        },
+        {
+          "front": "My sister is a lawyer.",
+          "back": "姉は弁護士です。",
+          "romanized": "ane wa bengoshi desu",
+          "literal": "Older-sister [topic] lawyer is."
+        }
       ]
     },
     {
       "id": "retired_person",
       "levels": [
-        {"front": "Retired Person", "back": "退職者 / 定年退職した人", "romanized": "taishokusha / teinen taishoku shita hito"},
-        {"front": "My father is retired.", "back": "父は退職しています。", "romanized": "chichi wa taishoku shite imasu", "literal": "Father [topic] retired-is."}
+        {
+          "front": "Retired Person",
+          "back": "退職者 / 定年退職した人",
+          "romanized": "taishokusha / teinen taishoku shita hito"
+        },
+        {
+          "front": "My father is retired.",
+          "back": "父は退職しています。",
+          "romanized": "chichi wa taishoku shite imasu",
+          "literal": "Father [topic] retired-is."
+        }
       ]
     },
     {
       "id": "reading",
       "levels": [
-        {"front": "Reading", "back": "読書 / 本を読むこと", "romanized": "dokusho / hon wo yomu koto"},
-        {"front": "I like reading.", "back": "読書が好きです。", "romanized": "dokusho ga suki desu", "literal": "Reading [subj] liked is."}
+        {
+          "front": "Reading",
+          "back": "読書 / 本を読むこと",
+          "romanized": "dokusho / hon wo yomu koto"
+        },
+        {
+          "front": "I like reading.",
+          "back": "読書が好きです。",
+          "romanized": "dokusho ga suki desu",
+          "literal": "Reading [subj] liked is."
+        }
       ]
     },
     {
       "id": "writing",
       "levels": [
-        {"front": "Writing", "back": "書くこと / 執筆", "romanized": "kaku koto / shippitsu"},
-        {"front": "She likes writing stories.", "back": "彼女は物語を書くのが好きです。", "romanized": "kanojo wa monogatari wo kaku no ga suki desu", "literal": "She [topic] stories [obj] writing-thing [subj] liked is."}
+        {
+          "front": "Writing",
+          "back": "書くこと / 執筆",
+          "romanized": "kaku koto / shippitsu"
+        },
+        {
+          "front": "She likes writing stories.",
+          "back": "彼女は物語を書くのが好きです。",
+          "romanized": "kanojo wa monogatari wo kaku no ga suki desu",
+          "literal": "She [topic] stories [obj] writing-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "painting",
       "levels": [
-        {"front": "Painting", "back": "絵を描くこと / 絵画", "romanized": "e wo kaku koto / kaiga"},
-        {"front": "He loves painting.", "back": "彼は絵を描くのが大好きです。", "romanized": "kare wa e wo kaku no ga daisuki desu", "literal": "He [topic] pictures [obj] drawing-thing [subj] greatly-liked is."}
+        {
+          "front": "Painting",
+          "back": "絵を描くこと / 絵画",
+          "romanized": "e wo kaku koto / kaiga"
+        },
+        {
+          "front": "He loves painting.",
+          "back": "彼は絵を描くのが大好きです。",
+          "romanized": "kare wa e wo kaku no ga daisuki desu",
+          "literal": "He [topic] pictures [obj] drawing-thing [subj] greatly-liked is."
+        }
       ]
     },
     {
       "id": "drawing",
       "levels": [
-        {"front": "Drawing", "back": "お絵描き / スケッチ", "romanized": "oekaki / suketchi"},
-        {"front": "I like drawing.", "back": "お絵描きが好きです。", "romanized": "oekaki ga suki desu", "literal": "Drawing [subj] liked is."}
+        {
+          "front": "Drawing",
+          "back": "お絵描き / スケッチ",
+          "romanized": "oekaki / suketchi"
+        },
+        {
+          "front": "I like drawing.",
+          "back": "お絵描きが好きです。",
+          "romanized": "oekaki ga suki desu",
+          "literal": "Drawing [subj] liked is."
+        }
       ]
     },
     {
       "id": "photography",
       "levels": [
-        {"front": "Photography", "back": "写真撮影 / 写真", "romanized": "shashin satsuei / shashin"},
-        {"front": "Photography is my hobby.", "back": "写真撮影が趣味です。", "romanized": "shashin satsuei ga shumi desu", "literal": "Photography [subj] hobby is."}
+        {
+          "front": "Photography",
+          "back": "写真撮影 / 写真",
+          "romanized": "shashin satsuei / shashin"
+        },
+        {
+          "front": "Photography is my hobby.",
+          "back": "写真撮影が趣味です。",
+          "romanized": "shashin satsuei ga shumi desu",
+          "literal": "Photography [subj] hobby is."
+        }
       ]
     },
     {
       "id": "music",
       "levels": [
-        {"front": "Music", "back": "音楽", "romanized": "ongaku"},
-        {"front": "I listen to music every day.", "back": "毎日音楽を聴きます。", "romanized": "mainichi ongaku wo kikimasu", "literal": "Every-day music [obj] listen."}
+        {
+          "front": "Music",
+          "back": "音楽",
+          "romanized": "ongaku"
+        },
+        {
+          "front": "I listen to music every day.",
+          "back": "毎日音楽を聴きます。",
+          "romanized": "mainichi ongaku wo kikimasu",
+          "literal": "Every-day music [obj] listen."
+        }
       ]
     },
     {
       "id": "singing",
       "levels": [
-        {"front": "Singing", "back": "歌うこと / 歌", "romanized": "utau koto / uta"},
-        {"front": "She loves singing.", "back": "彼女は歌うのが大好きです。", "romanized": "kanojo wa utau no ga daisuki desu", "literal": "She [topic] singing-thing [subj] greatly-liked is."}
+        {
+          "front": "Singing",
+          "back": "歌うこと / 歌",
+          "romanized": "utau koto / uta"
+        },
+        {
+          "front": "She loves singing.",
+          "back": "彼女は歌うのが大好きです。",
+          "romanized": "kanojo wa utau no ga daisuki desu",
+          "literal": "She [topic] singing-thing [subj] greatly-liked is."
+        }
       ]
     },
     {
       "id": "playing_an_instrument_e_g_guitar",
       "levels": [
-        {"front": "Playing an instrument (e.g., Guitar)", "back": "楽器を弾くこと / ギターを弾くこと", "romanized": "gakki wo hiku koto / gitā wo hiku koto", "grammarNote": "For string and keyboard instruments, use 'hiku' (弾く): 'gitā wo hiku' (ギターを弾く, play guitar). For wind instruments, use 'fuku' (吹く): 'furūto wo fuku' (フルートを吹く, play flute). For percussion, use 'tataku' (叩く): 'doramu wo tataku' (ドラムを叩く, play drums)."},
-        {"front": "I play the guitar.", "back": "ギターを弾きます。", "romanized": "gitā wo hikimasu", "literal": "Guitar [obj] play."}
+        {
+          "front": "Playing an instrument (e.g., Guitar)",
+          "back": "楽器を弾くこと / ギターを弾くこと",
+          "romanized": "gakki wo hiku koto / gitā wo hiku koto",
+          "grammarNote": "For string and keyboard instruments, use 'hiku' (弾く): 'gitā wo hiku' (ギターを弾く, play guitar). For wind instruments, use 'fuku' (吹く): 'furūto wo fuku' (フルートを吹く, play flute). For percussion, use 'tataku' (叩く): 'doramu wo tataku' (ドラムを叩く, play drums)."
+        },
+        {
+          "front": "I play the guitar.",
+          "back": "ギターを弾きます。",
+          "romanized": "gitā wo hikimasu",
+          "literal": "Guitar [obj] play."
+        }
       ]
     },
     {
       "id": "dancing",
       "levels": [
-        {"front": "Dancing", "back": "ダンス / 踊ること", "romanized": "dansu / odoru koto"},
-        {"front": "We love dancing.", "back": "私たちはダンスが大好きです。", "romanized": "watashitachi wa dansu ga daisuki desu", "literal": "We [topic] dancing [subj] greatly-liked is."}
+        {
+          "front": "Dancing",
+          "back": "ダンス / 踊ること",
+          "romanized": "dansu / odoru koto"
+        },
+        {
+          "front": "We love dancing.",
+          "back": "私たちはダンスが大好きです。",
+          "romanized": "watashitachi wa dansu ga daisuki desu",
+          "literal": "We [topic] dancing [subj] greatly-liked is."
+        }
       ]
     },
     {
       "id": "cooking",
       "levels": [
-        {"front": "Cooking", "back": "料理 / 料理すること", "romanized": "ryōri / ryōri suru koto"},
-        {"front": "I enjoy cooking.", "back": "料理するのが好きです。", "romanized": "ryōri suru no ga suki desu", "literal": "Cooking-thing [subj] liked is."}
+        {
+          "front": "Cooking",
+          "back": "料理 / 料理すること",
+          "romanized": "ryōri / ryōri suru koto"
+        },
+        {
+          "front": "I enjoy cooking.",
+          "back": "料理するのが好きです。",
+          "romanized": "ryōri suru no ga suki desu",
+          "literal": "Cooking-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "gardening",
       "levels": [
-        {"front": "Gardening", "back": "ガーデニング / 園芸", "romanized": "gādeningu / engei"},
-        {"front": "Gardening is relaxing.", "back": "ガーデニングはリラックスできます。", "romanized": "gādeningu wa rirakkusu dekimasu", "literal": "Gardening [topic] relax can."}
+        {
+          "front": "Gardening",
+          "back": "ガーデニング / 園芸",
+          "romanized": "gādeningu / engei"
+        },
+        {
+          "front": "Gardening is relaxing.",
+          "back": "ガーデニングはリラックスできます。",
+          "romanized": "gādeningu wa rirakkusu dekimasu",
+          "literal": "Gardening [topic] relax can."
+        }
       ]
     },
     {
       "id": "hiking",
       "levels": [
-        {"front": "Hiking", "back": "ハイキング / 山歩き", "romanized": "haikingu / yamaaruki"},
-        {"front": "I like hiking in the mountains.", "back": "山でハイキングするのが好きです。", "romanized": "yama de haikingu suru no ga suki desu", "literal": "Mountains at hiking-doing-thing [subj] liked is."}
+        {
+          "front": "Hiking",
+          "back": "ハイキング / 山歩き",
+          "romanized": "haikingu / yamaaruki"
+        },
+        {
+          "front": "I like hiking in the mountains.",
+          "back": "山でハイキングするのが好きです。",
+          "romanized": "yama de haikingu suru no ga suki desu",
+          "literal": "Mountains at hiking-doing-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "running",
       "levels": [
-        {"front": "Running", "back": "ランニング / 走ること", "romanized": "ran'ningu / hashiru koto"},
-        {"front": "I run every morning.", "back": "毎朝ランニングします。", "romanized": "maiasa ran'ningu shimasu", "literal": "Every-morning running do."}
+        {
+          "front": "Running",
+          "back": "ランニング / 走ること",
+          "romanized": "ran'ningu / hashiru koto"
+        },
+        {
+          "front": "I run every morning.",
+          "back": "毎朝ランニングします。",
+          "romanized": "maiasa ran'ningu shimasu",
+          "literal": "Every-morning running do."
+        }
       ]
     },
     {
       "id": "jogging",
       "levels": [
-        {"front": "Jogging", "back": "ジョギング", "romanized": "jogingu"},
-        {"front": "He jogs in the park.", "back": "彼は公園でジョギングします。", "romanized": "kare wa kōen de jogingu shimasu", "literal": "He [topic] park at jogging does."}
+        {
+          "front": "Jogging",
+          "back": "ジョギング",
+          "romanized": "jogingu"
+        },
+        {
+          "front": "He jogs in the park.",
+          "back": "彼は公園でジョギングします。",
+          "romanized": "kare wa kōen de jogingu shimasu",
+          "literal": "He [topic] park at jogging does."
+        }
       ]
     },
     {
       "id": "biking",
       "levels": [
-        {"front": "Biking", "back": "サイクリング / 自転車に乗ること", "romanized": "saikuringu / jitensha ni noru koto"},
-        {"front": "I go biking on weekends.", "back": "週末にサイクリングします。", "romanized": "shūmatsu ni saikuringu shimasu", "literal": "Weekends on cycling do."}
+        {
+          "front": "Biking",
+          "back": "サイクリング / 自転車に乗ること",
+          "romanized": "saikuringu / jitensha ni noru koto"
+        },
+        {
+          "front": "I go biking on weekends.",
+          "back": "週末にサイクリングします。",
+          "romanized": "shūmatsu ni saikuringu shimasu",
+          "literal": "Weekends on cycling do."
+        }
       ]
     },
     {
       "id": "swimming",
       "levels": [
-        {"front": "Swimming", "back": "水泳 / 泳ぐこと", "romanized": "suiei / oyogu koto"},
-        {"front": "I like swimming.", "back": "水泳が好きです。", "romanized": "suiei ga suki desu", "literal": "Swimming [subj] liked is."}
+        {
+          "front": "Swimming",
+          "back": "水泳 / 泳ぐこと",
+          "romanized": "suiei / oyogu koto"
+        },
+        {
+          "front": "I like swimming.",
+          "back": "水泳が好きです。",
+          "romanized": "suiei ga suki desu",
+          "literal": "Swimming [subj] liked is."
+        }
       ]
     },
     {
       "id": "yoga",
       "levels": [
-        {"front": "Yoga", "back": "ヨガ", "romanized": "yoga"},
-        {"front": "She does yoga every morning.", "back": "彼女は毎朝ヨガをします。", "romanized": "kanojo wa maiasa yoga wo shimasu", "literal": "She [topic] every-morning yoga [obj] does."}
+        {
+          "front": "Yoga",
+          "back": "ヨガ",
+          "romanized": "yoga"
+        },
+        {
+          "front": "She does yoga every morning.",
+          "back": "彼女は毎朝ヨガをします。",
+          "romanized": "kanojo wa maiasa yoga wo shimasu",
+          "literal": "She [topic] every-morning yoga [obj] does."
+        }
       ]
     },
     {
       "id": "exercise",
       "levels": [
-        {"front": "Exercise", "back": "運動 / エクササイズ", "romanized": "undō / ekusasaizu"},
-        {"front": "I go to the gym for exercise.", "back": "運動のためにジムに行きます。", "romanized": "undō no tame ni jimu ni ikimasu", "literal": "Exercise 's-sake-for gym to go."}
+        {
+          "front": "Exercise",
+          "back": "運動 / エクササイズ",
+          "romanized": "undō / ekusasaizu"
+        },
+        {
+          "front": "I go to the gym for exercise.",
+          "back": "運動のためにジムに行きます。",
+          "romanized": "undō no tame ni jimu ni ikimasu",
+          "literal": "Exercise 's-sake-for gym to go."
+        }
       ]
     },
     {
       "id": "traveling",
       "levels": [
-        {"front": "Traveling", "back": "旅行 / 旅", "romanized": "ryokō / tabi"},
-        {"front": "I love traveling.", "back": "旅行が大好きです。", "romanized": "ryokō ga daisuki desu", "literal": "Traveling [subj] greatly-liked is."}
+        {
+          "front": "Traveling",
+          "back": "旅行 / 旅",
+          "romanized": "ryokō / tabi"
+        },
+        {
+          "front": "I love traveling.",
+          "back": "旅行が大好きです。",
+          "romanized": "ryokō ga daisuki desu",
+          "literal": "Traveling [subj] greatly-liked is."
+        }
       ]
     },
     {
       "id": "camping",
       "levels": [
-        {"front": "Camping", "back": "キャンプ", "romanized": "kyanpu"},
-        {"front": "We go camping in the summer.", "back": "夏にキャンプに行きます。", "romanized": "natsu ni kyanpu ni ikimasu", "literal": "Summer in camping to go."}
+        {
+          "front": "Camping",
+          "back": "キャンプ",
+          "romanized": "kyanpu"
+        },
+        {
+          "front": "We go camping in the summer.",
+          "back": "夏にキャンプに行きます。",
+          "romanized": "natsu ni kyanpu ni ikimasu",
+          "literal": "Summer in camping to go."
+        }
       ]
     },
     {
       "id": "gaming_video_games",
       "levels": [
-        {"front": "Gaming (Video games)", "back": "ゲーム / テレビゲーム", "romanized": "gēmu / terebi gēmu"},
-        {"front": "He plays video games at night.", "back": "彼は夜にテレビゲームをします。", "romanized": "kare wa yoru ni terebi gēmu wo shimasu", "literal": "He [topic] night at video-games [obj] does."}
+        {
+          "front": "Gaming (Video games)",
+          "back": "ゲーム / テレビゲーム",
+          "romanized": "gēmu / terebi gēmu"
+        },
+        {
+          "front": "He plays video games at night.",
+          "back": "彼は夜にテレビゲームをします。",
+          "romanized": "kare wa yoru ni terebi gēmu wo shimasu",
+          "literal": "He [topic] night at video-games [obj] does."
+        }
       ]
     },
     {
       "id": "watching_tv",
       "levels": [
-        {"front": "Watching TV", "back": "テレビを見ること / 映画鑑賞", "romanized": "terebi wo miru koto / eiga kanshō"},
-        {"front": "I like watching movies.", "back": "映画を見るのが好きです。", "romanized": "eiga wo miru no ga suki desu", "literal": "Movies [obj] watching-thing [subj] liked is."}
+        {
+          "front": "Watching TV",
+          "back": "テレビを見ること / 映画鑑賞",
+          "romanized": "terebi wo miru koto / eiga kanshō"
+        },
+        {
+          "front": "I like watching movies.",
+          "back": "映画を見るのが好きです。",
+          "romanized": "eiga wo miru no ga suki desu",
+          "literal": "Movies [obj] watching-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "listening_to_music",
       "levels": [
-        {"front": "Listening to music", "back": "音楽を聴くこと", "romanized": "ongaku wo kiku koto"},
-        {"front": "She likes listening to music.", "back": "彼女は音楽を聴くのが好きです。", "romanized": "kanojo wa ongaku wo kiku no ga suki desu", "literal": "She [topic] music [obj] listening-thing [subj] liked is."}
+        {
+          "front": "Listening to music",
+          "back": "音楽を聴くこと",
+          "romanized": "ongaku wo kiku koto"
+        },
+        {
+          "front": "She likes listening to music.",
+          "back": "彼女は音楽を聴くのが好きです。",
+          "romanized": "kanojo wa ongaku wo kiku no ga suki desu",
+          "literal": "She [topic] music [obj] listening-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "crafts",
       "levels": [
-        {"front": "Crafts", "back": "工作 / 手芸 / クラフト", "romanized": "kōsaku / shugei / kurafuto"},
-        {"front": "The children are making crafts.", "back": "子どもたちは工作をしています。", "romanized": "kodomotachi wa kōsaku wo shite imasu", "literal": "Children [topic] crafts [obj] doing-am."}
+        {
+          "front": "Crafts",
+          "back": "工作 / 手芸 / クラフト",
+          "romanized": "kōsaku / shugei / kurafuto"
+        },
+        {
+          "front": "The children are making crafts.",
+          "back": "子どもたちは工作をしています。",
+          "romanized": "kodomotachi wa kōsaku wo shite imasu",
+          "literal": "Children [topic] crafts [obj] doing-am."
+        }
       ]
     },
     {
       "id": "chess",
       "levels": [
-        {"front": "Chess", "back": "チェス", "romanized": "chesu"},
-        {"front": "Do you play chess?", "back": "チェスをしますか？", "romanized": "chesu wo shimasu ka", "literal": "Chess [obj] do [question]?"}
+        {
+          "front": "Chess",
+          "back": "チェス",
+          "romanized": "chesu"
+        },
+        {
+          "front": "Do you play chess?",
+          "back": "チェスをしますか？",
+          "romanized": "chesu wo shimasu ka",
+          "literal": "Chess [obj] do [question]?"
+        }
       ]
     },
     {
       "id": "board_games",
       "levels": [
-        {"front": "Board games", "back": "ボードゲーム", "romanized": "bōdo gēmu"},
-        {"front": "We play board games on weekends.", "back": "週末にボードゲームをします。", "romanized": "shūmatsu ni bōdo gēmu wo shimasu", "literal": "Weekends on board-games [obj] do."}
+        {
+          "front": "Board games",
+          "back": "ボードゲーム",
+          "romanized": "bōdo gēmu"
+        },
+        {
+          "front": "We play board games on weekends.",
+          "back": "週末にボードゲームをします。",
+          "romanized": "shūmatsu ni bōdo gēmu wo shimasu",
+          "literal": "Weekends on board-games [obj] do."
+        }
       ]
     },
     {
       "id": "to_work_in_for_as",
       "levels": [
-        {"front": "To work (in/for/as)", "back": "働く / 勤める", "romanized": "hataraku / tsutomeru"},
-        {"front": "I work in a hospital.", "back": "病院で働いています。", "romanized": "byōin de hataraite imasu", "literal": "Hospital at working-am."}
+        {
+          "front": "To work (in/for/as)",
+          "back": "働く / 勤める",
+          "romanized": "hataraku / tsutomeru"
+        },
+        {
+          "front": "I work in a hospital.",
+          "back": "病院で働いています。",
+          "romanized": "byōin de hataraite imasu",
+          "literal": "Hospital at working-am."
+        }
       ]
     },
     {
       "id": "to_earn_a_salary",
       "levels": [
-        {"front": "To earn (a salary)", "back": "稼ぐ / 給料をもらう", "romanized": "kasegu / kyūryō wo morau"},
-        {"front": "He earns a good salary.", "back": "彼はいい給料をもらっています。", "romanized": "kare wa ii kyūryō wo moratte imasu", "literal": "He [topic] good salary [obj] receiving-am."}
+        {
+          "front": "To earn (a salary)",
+          "back": "稼ぐ / 給料をもらう",
+          "romanized": "kasegu / kyūryō wo morau"
+        },
+        {
+          "front": "He earns a good salary.",
+          "back": "彼はいい給料をもらっています。",
+          "romanized": "kare wa ii kyūryō wo moratte imasu",
+          "literal": "He [topic] good salary [obj] receiving-am."
+        }
       ]
     },
     {
       "id": "to_retire",
       "levels": [
-        {"front": "To retire", "back": "退職する / 定年退職する", "romanized": "taishoku suru / teinen taishoku suru"},
-        {"front": "She retired last year.", "back": "彼女は去年退職しました。", "romanized": "kanojo wa kyonen taishoku shimashita", "literal": "She [topic] last-year retired did [past]."}
+        {
+          "front": "To retire",
+          "back": "退職する / 定年退職する",
+          "romanized": "taishoku suru / teinen taishoku suru"
+        },
+        {
+          "front": "She retired last year.",
+          "back": "彼女は去年退職しました。",
+          "romanized": "kanojo wa kyonen taishoku shimashita",
+          "literal": "She [topic] last-year retired did [past]."
+        }
       ]
     },
     {
       "id": "to_have_a_job",
       "levels": [
-        {"front": "To have a job", "back": "仕事がある / 就職している", "romanized": "shigoto ga aru / shūshoku shite iru"},
-        {"front": "I have a good job.", "back": "いい仕事があります。", "romanized": "ii shigoto ga arimasu", "literal": "Good job [subj] exists."}
+        {
+          "front": "To have a job",
+          "back": "仕事がある / 就職している",
+          "romanized": "shigoto ga aru / shūshoku shite iru"
+        },
+        {
+          "front": "I have a good job.",
+          "back": "いい仕事があります。",
+          "romanized": "ii shigoto ga arimasu",
+          "literal": "Good job [subj] exists."
+        }
       ]
     },
     {
       "id": "to_be_unemployed",
       "levels": [
-        {"front": "To be unemployed", "back": "失業している / 仕事がない", "romanized": "shitsugyō shite iru / shigoto ga nai"},
-        {"front": "He is currently unemployed.", "back": "彼は現在失業しています。", "romanized": "kare wa genzai shitsugyō shite imasu", "literal": "He [topic] currently unemployed-is."}
+        {
+          "front": "To be unemployed",
+          "back": "失業している / 仕事がない",
+          "romanized": "shitsugyō shite iru / shigoto ga nai"
+        },
+        {
+          "front": "He is currently unemployed.",
+          "back": "彼は現在失業しています。",
+          "romanized": "kare wa genzai shitsugyō shite imasu",
+          "literal": "He [topic] currently unemployed-is."
+        }
       ]
     },
     {
       "id": "to_study",
       "levels": [
-        {"front": "To study", "back": "勉強する / 学ぶ", "romanized": "benkyō suru / manabu"},
-        {"front": "I study every day.", "back": "毎日勉強します。", "romanized": "mainichi benkyō shimasu", "literal": "Every-day study do."}
+        {
+          "front": "To study",
+          "back": "勉強する / 学ぶ",
+          "romanized": "benkyō suru / manabu"
+        },
+        {
+          "front": "I study every day.",
+          "back": "毎日勉強します。",
+          "romanized": "mainichi benkyō shimasu",
+          "literal": "Every-day study do."
+        }
       ]
     },
     {
       "id": "to_learn",
       "levels": [
-        {"front": "To learn", "back": "学ぶ / 習う", "romanized": "manabu / narau"},
-        {"front": "I'm learning Japanese.", "back": "日本語を勉強しています。", "romanized": "nihongo wo benkyō shite imasu", "literal": "Japanese [obj] studying-am."}
+        {
+          "front": "To learn",
+          "back": "学ぶ / 習う",
+          "romanized": "manabu / narau"
+        },
+        {
+          "front": "I'm learning Japanese.",
+          "back": "日本語を勉強しています。",
+          "romanized": "nihongo wo benkyō shite imasu",
+          "literal": "Japanese [obj] studying-am."
+        }
       ]
     },
     {
       "id": "to_practice",
       "levels": [
-        {"front": "To practice", "back": "練習する", "romanized": "renshū suru"},
-        {"front": "I practice every day.", "back": "毎日練習します。", "romanized": "mainichi renshū shimasu", "literal": "Every-day practice do."}
+        {
+          "front": "To practice",
+          "back": "練習する",
+          "romanized": "renshū suru"
+        },
+        {
+          "front": "I practice every day.",
+          "back": "毎日練習します。",
+          "romanized": "mainichi renshū shimasu",
+          "literal": "Every-day practice do."
+        }
       ]
     },
     {
       "id": "to_teach",
       "levels": [
-        {"front": "To teach", "back": "教える", "romanized": "oshieru"},
-        {"front": "She teaches Japanese.", "back": "彼女は日本語を教えています。", "romanized": "kanojo wa nihongo wo oshiete imasu", "literal": "She [topic] Japanese [obj] teaching-am."}
+        {
+          "front": "To teach",
+          "back": "教える",
+          "romanized": "oshieru"
+        },
+        {
+          "front": "She teaches Japanese.",
+          "back": "彼女は日本語を教えています。",
+          "romanized": "kanojo wa nihongo wo oshiete imasu",
+          "literal": "She [topic] Japanese [obj] teaching-am."
+        }
       ]
     },
     {
       "id": "to_build",
       "levels": [
-        {"front": "To build", "back": "建てる / 作る", "romanized": "tateru / tsukuru"},
-        {"front": "They are building a new school.", "back": "新しい学校を建てています。", "romanized": "atarashii gakkō wo tatete imasu", "literal": "New school [obj] building-am."}
+        {
+          "front": "To build",
+          "back": "建てる / 作る",
+          "romanized": "tateru / tsukuru"
+        },
+        {
+          "front": "They are building a new school.",
+          "back": "新しい学校を建てています。",
+          "romanized": "atarashii gakkō wo tatete imasu",
+          "literal": "New school [obj] building-am."
+        }
       ]
     },
     {
       "id": "to_fix",
       "levels": [
-        {"front": "To fix", "back": "直す / 修理する", "romanized": "naosu / shūri suru"},
-        {"front": "Can you fix this?", "back": "これを直せますか？", "romanized": "kore wo naosemasu ka", "literal": "This [obj] fix-can [question]?"}
+        {
+          "front": "To fix",
+          "back": "直す / 修理する",
+          "romanized": "naosu / shūri suru"
+        },
+        {
+          "front": "Can you fix this?",
+          "back": "これを直せますか？",
+          "romanized": "kore wo naosemasu ka",
+          "literal": "This [obj] fix-can [question]?"
+        }
       ]
     },
     {
       "id": "to_make",
       "levels": [
-        {"front": "To make", "back": "作る / 作成する", "romanized": "tsukuru / sakusei suru"},
-        {"front": "I make coffee every morning.", "back": "毎朝コーヒーを作ります。", "romanized": "maiasa kōhī wo tsukurimasu", "literal": "Every-morning coffee [obj] make."}
+        {
+          "front": "To make",
+          "back": "作る / 作成する",
+          "romanized": "tsukuru / sakusei suru"
+        },
+        {
+          "front": "I make coffee every morning.",
+          "back": "毎朝コーヒーを作ります。",
+          "romanized": "maiasa kōhī wo tsukurimasu",
+          "literal": "Every-morning coffee [obj] make."
+        }
       ]
     },
     {
       "id": "to_design",
       "levels": [
-        {"front": "To design", "back": "デザインする / 設計する", "romanized": "dezain suru / sekkei suru"},
-        {"front": "He designs websites.", "back": "彼はウェブサイトをデザインしています。", "romanized": "kare wa uebusaito wo dezain shite imasu", "literal": "He [topic] websites [obj] designing-am."}
+        {
+          "front": "To design",
+          "back": "デザインする / 設計する",
+          "romanized": "dezain suru / sekkei suru"
+        },
+        {
+          "front": "He designs websites.",
+          "back": "彼はウェブサイトをデザインしています。",
+          "romanized": "kare wa uebusaito wo dezain shite imasu",
+          "literal": "He [topic] websites [obj] designing-am."
+        }
       ]
     },
     {
       "id": "to_sell",
       "levels": [
-        {"front": "To sell", "back": "売る / 販売する", "romanized": "uru / hanbai suru"},
-        {"front": "He sells cars.", "back": "彼は車を売っています。", "romanized": "kare wa kuruma wo utte imasu", "literal": "He [topic] cars [obj] selling-am."}
+        {
+          "front": "To sell",
+          "back": "売る / 販売する",
+          "romanized": "uru / hanbai suru"
+        },
+        {
+          "front": "He sells cars.",
+          "back": "彼は車を売っています。",
+          "romanized": "kare wa kuruma wo utte imasu",
+          "literal": "He [topic] cars [obj] selling-am."
+        }
       ]
     },
     {
       "id": "to_buy",
       "levels": [
-        {"front": "To buy", "back": "買う / 購入する", "romanized": "kau / kōnyū suru"},
-        {"front": "I need to buy a new computer.", "back": "新しいコンピューターを買う必要があります。", "romanized": "atarashii konpyūtā wo kau hitsuyō ga arimasu", "literal": "New computer [obj] buy necessity [subj] exists."}
+        {
+          "front": "To buy",
+          "back": "買う / 購入する",
+          "romanized": "kau / kōnyū suru"
+        },
+        {
+          "front": "I need to buy a new computer.",
+          "back": "新しいコンピューターを買う必要があります。",
+          "romanized": "atarashii konpyūtā wo kau hitsuyō ga arimasu",
+          "literal": "New computer [obj] buy necessity [subj] exists."
+        }
       ]
     },
     {
       "id": "to_help",
       "levels": [
-        {"front": "To help", "back": "助ける / 手伝う", "romanized": "tasukeru / tetsudau"},
-        {"front": "Can I help you?", "back": "お手伝いしましょうか？", "romanized": "otetsudai shimashō ka", "literal": "Helping shall-do [question]?"}
+        {
+          "front": "To help",
+          "back": "助ける / 手伝う",
+          "romanized": "tasukeru / tetsudau"
+        },
+        {
+          "front": "Can I help you?",
+          "back": "お手伝いしましょうか？",
+          "romanized": "otetsudai shimashō ka",
+          "literal": "Helping shall-do [question]?"
+        }
       ]
     },
     {
       "id": "to_manage",
       "levels": [
-        {"front": "To manage", "back": "管理する / 率いる", "romanized": "kanri suru / hikiiru"},
-        {"front": "She manages the team.", "back": "彼女はチームを管理しています。", "romanized": "kanojo wa chīmu wo kanri shite imasu", "literal": "She [topic] team [obj] managing-am."}
+        {
+          "front": "To manage",
+          "back": "管理する / 率いる",
+          "romanized": "kanri suru / hikiiru"
+        },
+        {
+          "front": "She manages the team.",
+          "back": "彼女はチームを管理しています。",
+          "romanized": "kanojo wa chīmu wo kanri shite imasu",
+          "literal": "She [topic] team [obj] managing-am."
+        }
       ]
     },
     {
       "id": "to_meet",
       "levels": [
-        {"front": "To meet", "back": "会う / 集まる / 打ち合わせる", "romanized": "au / atsumaru / uchiawaseru"},
-        {"front": "We meet every Monday.", "back": "毎週月曜日に集まります。", "romanized": "maishū getsuyōbi ni atsumarimasu", "literal": "Every-week Monday on gather."}
+        {
+          "front": "To meet",
+          "back": "会う / 集まる / 打ち合わせる",
+          "romanized": "au / atsumaru / uchiawaseru"
+        },
+        {
+          "front": "We meet every Monday.",
+          "back": "毎週月曜日に集まります。",
+          "romanized": "maishū getsuyōbi ni atsumarimasu",
+          "literal": "Every-week Monday on gather."
+        }
       ]
     },
     {
       "id": "to_start",
       "levels": [
-        {"front": "To start", "back": "始める / 開始する", "romanized": "hajimeru / kaishi suru"},
-        {"front": "I start work at eight.", "back": "8時に仕事を始めます。", "romanized": "hachiji ni shigoto wo hajimemasu", "literal": "8-o'clock at work [obj] begin."}
+        {
+          "front": "To start",
+          "back": "始める / 開始する",
+          "romanized": "hajimeru / kaishi suru"
+        },
+        {
+          "front": "I start work at eight.",
+          "back": "8時に仕事を始めます。",
+          "romanized": "hachiji ni shigoto wo hajimemasu",
+          "literal": "8-o'clock at work [obj] begin."
+        }
       ]
     },
     {
       "id": "to_finish",
       "levels": [
-        {"front": "To finish", "back": "終わる / 終える", "romanized": "owaru / oeru"},
-        {"front": "I finish work at five.", "back": "5時に仕事が終わります。", "romanized": "goji ni shigoto ga owarimasu", "literal": "5-o'clock at work [subj] finishes."}
+        {
+          "front": "To finish",
+          "back": "終わる / 終える",
+          "romanized": "owaru / oeru"
+        },
+        {
+          "front": "I finish work at five.",
+          "back": "5時に仕事が終わります。",
+          "romanized": "goji ni shigoto ga owarimasu",
+          "literal": "5-o'clock at work [subj] finishes."
+        }
       ]
     },
     {
       "id": "to_like_to_enjoy",
       "levels": [
-        {"front": "To like / To enjoy", "back": "好き / 楽しむ", "romanized": "suki / tanoshimu", "grammarNote": "In Japanese, 'like' is expressed as an adjective: 'suki' (好き). Say 'X ga suki desu' (Xが好きです, I like X). 'Tanoshimu' (楽しむ) means to enjoy. Common pattern: 'X suru no ga suki desu' (Xするのが好きです, I like doing X)."},
-        {"front": "I like reading. She likes singing.", "back": "読書が好きです。彼女は歌うのが好きです。", "romanized": "dokusho ga suki desu. kanojo wa utau no ga suki desu", "literal": "Reading [subj] liked is. She [topic] singing-thing [subj] liked is."}
+        {
+          "front": "To like / To enjoy",
+          "back": "好き / 楽しむ",
+          "romanized": "suki / tanoshimu",
+          "grammarNote": "In Japanese, 'like' is expressed as an adjective: 'suki' (好き). Say 'X ga suki desu' (Xが好きです, I like X). 'Tanoshimu' (楽しむ) means to enjoy. Common pattern: 'X suru no ga suki desu' (Xするのが好きです, I like doing X)."
+        },
+        {
+          "front": "I like reading. She likes singing.",
+          "back": "読書が好きです。彼女は歌うのが好きです。",
+          "romanized": "dokusho ga suki desu. kanojo wa utau no ga suki desu",
+          "literal": "Reading [subj] liked is. She [topic] singing-thing [subj] liked is."
+        }
       ]
     },
     {
       "id": "to_relax",
       "levels": [
-        {"front": "To relax", "back": "リラックスする / くつろぐ", "romanized": "rirakkusu suru / kutsuроgu"},
-        {"front": "I relax on weekends.", "back": "週末はリラックスします。", "romanized": "shūmatsu wa rirakkusu shimasu", "literal": "Weekends [topic] relax do."}
+        {
+          "front": "To relax",
+          "back": "リラックスする / くつろぐ",
+          "romanized": "rirakkusu suru / kutsuроgu"
+        },
+        {
+          "front": "I relax on weekends.",
+          "back": "週末はリラックスします。",
+          "romanized": "shūmatsu wa rirakkusu shimasu",
+          "literal": "Weekends [topic] relax do."
+        }
       ]
     },
     {
       "id": "to_spend_time_on",
       "levels": [
-        {"front": "To spend time (on)", "back": "時間を過ごす / 時間をかける", "romanized": "jikan wo sugosu / jikan wo kakeru"},
-        {"front": "I spend a lot of time reading.", "back": "読書にたくさんの時間を使います。", "romanized": "dokusho ni takusan no jikan wo tsukaimasu", "literal": "Reading on much-of time [obj] use."}
+        {
+          "front": "To spend time (on)",
+          "back": "時間を過ごす / 時間をかける",
+          "romanized": "jikan wo sugosu / jikan wo kakeru"
+        },
+        {
+          "front": "I spend a lot of time reading.",
+          "back": "読書にたくさんの時間を使います。",
+          "romanized": "dokusho ni takusan no jikan wo tsukaimasu",
+          "literal": "Reading on much-of time [obj] use."
+        }
       ]
     },
     {
       "id": "creative",
       "levels": [
-        {"front": "Creative", "back": "クリエイティブな / 創造的な", "romanized": "kurietibu na / sōzōteki na"},
-        {"front": "She is very creative.", "back": "彼女はとてもクリエイティブです。", "romanized": "kanojo wa totemo kurietibu desu", "literal": "She [topic] very creative is."}
+        {
+          "front": "Creative",
+          "back": "クリエイティブな / 創造的な",
+          "romanized": "kurietibu na / sōzōteki na"
+        },
+        {
+          "front": "She is very creative.",
+          "back": "彼女はとてもクリエイティブです。",
+          "romanized": "kanojo wa totemo kurietibu desu",
+          "literal": "She [topic] very creative is."
+        }
       ]
     },
     {
       "id": "interesting",
       "levels": [
-        {"front": "Interesting", "back": "面白い / 興味深い", "romanized": "omoshiroi / kyōmibuka i"},
-        {"front": "My job is interesting.", "back": "私の仕事は面白いです。", "romanized": "watashi no shigoto wa omoshiroi desu", "literal": "My 's job [topic] interesting is."}
+        {
+          "front": "Interesting",
+          "back": "面白い / 興味深い",
+          "romanized": "omoshiroi / kyōmibuka i"
+        },
+        {
+          "front": "My job is interesting.",
+          "back": "私の仕事は面白いです。",
+          "romanized": "watashi no shigoto wa omoshiroi desu",
+          "literal": "My 's job [topic] interesting is."
+        }
       ]
     },
     {
       "id": "stressful",
       "levels": [
-        {"front": "Stressful", "back": "ストレスが多い / 大変な", "romanized": "sutoresu ga ōi / taihen na"},
-        {"front": "My job is stressful.", "back": "私の仕事はストレスが多いです。", "romanized": "watashi no shigoto wa sutoresu ga ōi desu", "literal": "My 's job [topic] stress [subj] much is."}
+        {
+          "front": "Stressful",
+          "back": "ストレスが多い / 大変な",
+          "romanized": "sutoresu ga ōi / taihen na"
+        },
+        {
+          "front": "My job is stressful.",
+          "back": "私の仕事はストレスが多いです。",
+          "romanized": "watashi no shigoto wa sutoresu ga ōi desu",
+          "literal": "My 's job [topic] stress [subj] much is."
+        }
       ]
     },
     {
       "id": "boring",
       "levels": [
-        {"front": "Boring", "back": "退屈な / つまらない", "romanized": "taikutsu na / tsumaranai"},
-        {"front": "The meeting was boring.", "back": "会議は退屈でした。", "romanized": "kaigi wa taikutsu deshita", "literal": "Meeting [topic] boring was [past]."}
+        {
+          "front": "Boring",
+          "back": "退屈な / つまらない",
+          "romanized": "taikutsu na / tsumaranai"
+        },
+        {
+          "front": "The meeting was boring.",
+          "back": "会議は退屈でした。",
+          "romanized": "kaigi wa taikutsu deshita",
+          "literal": "Meeting [topic] boring was [past]."
+        }
       ]
     },
     {
       "id": "salary",
       "levels": [
-        {"front": "Salary", "back": "給料 / 賃金", "romanized": "kyūryō / chingin"},
-        {"front": "What is the salary?", "back": "給料はいくらですか？", "romanized": "kyūryō wa ikura desu ka", "literal": "Salary [topic] how-much is [question]?"}
+        {
+          "front": "Salary",
+          "back": "給料 / 賃金",
+          "romanized": "kyūryō / chingin"
+        },
+        {
+          "front": "What is the salary?",
+          "back": "給料はいくらですか？",
+          "romanized": "kyūryō wa ikura desu ka",
+          "literal": "Salary [topic] how-much is [question]?"
+        }
       ]
     },
     {
       "id": "schedule",
       "levels": [
-        {"front": "Schedule", "back": "スケジュール / 予定", "romanized": "sukejūru / yotei"},
-        {"front": "My schedule is flexible.", "back": "私のスケジュールは柔軟です。", "romanized": "watashi no sukejūru wa jūnan desu", "literal": "My 's schedule [topic] flexible is."}
+        {
+          "front": "Schedule",
+          "back": "スケジュール / 予定",
+          "romanized": "sukejūru / yotei"
+        },
+        {
+          "front": "My schedule is flexible.",
+          "back": "私のスケジュールは柔軟です。",
+          "romanized": "watashi no sukejūru wa jūnan desu",
+          "literal": "My 's schedule [topic] flexible is."
+        }
       ]
     },
     {
       "id": "vacation",
       "levels": [
-        {"front": "Vacation", "back": "休暇 / 休み", "romanized": "kyūka / yasumi"},
-        {"front": "I'm going on vacation next week.", "back": "来週休暇を取ります。", "romanized": "raishū kyūka wo torimasu", "literal": "Next-week vacation [obj] take."}
+        {
+          "front": "Vacation",
+          "back": "休暇 / 休み",
+          "romanized": "kyūka / yasumi"
+        },
+        {
+          "front": "I'm going on vacation next week.",
+          "back": "来週休暇を取ります。",
+          "romanized": "raishū kyūka wo torimasu",
+          "literal": "Next-week vacation [obj] take."
+        }
       ]
     },
     {
       "id": "break",
       "levels": [
-        {"front": "Break", "back": "休憩 / 休み", "romanized": "kyūkei / yasumi"},
-        {"front": "Let's take a break.", "back": "休憩しましょう。", "romanized": "kyūkei shimashō", "literal": "Break shall-do."}
+        {
+          "front": "Break",
+          "back": "休憩 / 休み",
+          "romanized": "kyūkei / yasumi"
+        },
+        {
+          "front": "Let's take a break.",
+          "back": "休憩しましょう。",
+          "romanized": "kyūkei shimashō",
+          "literal": "Break shall-do."
+        }
       ]
     },
     {
       "id": "office",
       "levels": [
-        {"front": "Office", "back": "オフィス / 事務所", "romanized": "ofisu / jimusho"},
-        {"front": "I work in an office.", "back": "オフィスで働いています。", "romanized": "ofisu de hataraite imasu", "literal": "Office at working-am."}
+        {
+          "front": "Office",
+          "back": "オフィス / 事務所",
+          "romanized": "ofisu / jimusho"
+        },
+        {
+          "front": "I work in an office.",
+          "back": "オフィスで働いています。",
+          "romanized": "ofisu de hataraite imasu",
+          "literal": "Office at working-am."
+        }
       ]
     },
     {
       "id": "outdoors",
       "levels": [
-        {"front": "Outdoors", "back": "屋外 / 野外", "romanized": "okugai / yagai"},
-        {"front": "She works outdoors.", "back": "彼女は屋外で働いています。", "romanized": "kanojo wa okugai de hataraite imasu", "literal": "She [topic] outdoors at working-am."}
+        {
+          "front": "Outdoors",
+          "back": "屋外 / 野外",
+          "romanized": "okugai / yagai"
+        },
+        {
+          "front": "She works outdoors.",
+          "back": "彼女は屋外で働いています。",
+          "romanized": "kanojo wa okugai de hataraite imasu",
+          "literal": "She [topic] outdoors at working-am."
+        }
       ]
     },
     {
       "id": "interview",
       "levels": [
-        {"front": "Interview", "back": "面接 / インタビュー", "romanized": "mensetsu / intabyū"},
-        {"front": "I have a job interview tomorrow.", "back": "明日就職面接があります。", "romanized": "ashita shūshoku mensetsu ga arimasu", "literal": "Tomorrow job-interview [subj] exists."}
+        {
+          "front": "Interview",
+          "back": "面接 / インタビュー",
+          "romanized": "mensetsu / intabyū"
+        },
+        {
+          "front": "I have a job interview tomorrow.",
+          "back": "明日就職面接があります。",
+          "romanized": "ashita shūshoku mensetsu ga arimasu",
+          "literal": "Tomorrow job-interview [subj] exists."
+        }
       ]
     },
     {
       "id": "colleague",
       "levels": [
-        {"front": "Colleague", "back": "同僚 / 仕事仲間", "romanized": "dōryō / shigoto nakama"},
-        {"front": "My coworkers are friendly.", "back": "同僚たちは親切です。", "romanized": "dōryōtachi wa shinsetsu desu", "literal": "Colleagues [topic] friendly is."}
+        {
+          "front": "Colleague",
+          "back": "同僚 / 仕事仲間",
+          "romanized": "dōryō / shigoto nakama"
+        },
+        {
+          "front": "My coworkers are friendly.",
+          "back": "同僚たちは親切です。",
+          "romanized": "dōryōtachi wa shinsetsu desu",
+          "literal": "Colleagues [topic] friendly is."
+        }
       ]
     },
     {
       "id": "customer",
       "levels": [
-        {"front": "Customer", "back": "お客様 / 顧客", "romanized": "okyakusama / kokyaku"},
-        {"front": "The client is happy.", "back": "お客様は満足しています。", "romanized": "okyakusama wa manzoku shite imasu", "literal": "Customer [topic] satisfied-is."}
+        {
+          "front": "Customer",
+          "back": "お客様 / 顧客",
+          "romanized": "okyakusama / kokyaku"
+        },
+        {
+          "front": "The client is happy.",
+          "back": "お客様は満足しています。",
+          "romanized": "okyakusama wa manzoku shite imasu",
+          "literal": "Customer [topic] satisfied-is."
+        }
       ]
     },
     {
       "id": "team",
       "levels": [
-        {"front": "Team", "back": "チーム", "romanized": "chīmu"},
-        {"front": "I work in a great team.", "back": "素晴らしいチームで働いています。", "romanized": "subarashii chīmu de hataraite imasu", "literal": "Wonderful team at working-am."}
+        {
+          "front": "Team",
+          "back": "チーム",
+          "romanized": "chīmu"
+        },
+        {
+          "front": "I work in a great team.",
+          "back": "素晴らしいチームで働いています。",
+          "romanized": "subarashii chīmu de hataraite imasu",
+          "literal": "Wonderful team at working-am."
+        }
       ]
     },
     {
       "id": "project",
       "levels": [
-        {"front": "Project", "back": "プロジェクト / 企画", "romanized": "purojekuto / kikaku"},
-        {"front": "The project is almost finished.", "back": "プロジェクトはもうすぐ終わります。", "romanized": "purojekuto wa mōsugu owarimasu", "literal": "Project [topic] soon finishes."}
+        {
+          "front": "Project",
+          "back": "プロジェクト / 企画",
+          "romanized": "purojekuto / kikaku"
+        },
+        {
+          "front": "The project is almost finished.",
+          "back": "プロジェクトはもうすぐ終わります。",
+          "romanized": "purojekuto wa mōsugu owarimasu",
+          "literal": "Project [topic] soon finishes."
+        }
       ]
     },
     {
       "id": "meeting",
       "levels": [
-        {"front": "Meeting", "back": "会議 / ミーティング", "romanized": "kaigi / mītingu"},
-        {"front": "We have a meeting at ten.", "back": "10時に会議があります。", "romanized": "jūji ni kaigi ga arimasu", "literal": "10-o'clock at meeting [subj] exists."}
+        {
+          "front": "Meeting",
+          "back": "会議 / ミーティング",
+          "romanized": "kaigi / mītingu"
+        },
+        {
+          "front": "We have a meeting at ten.",
+          "back": "10時に会議があります。",
+          "romanized": "jūji ni kaigi ga arimasu",
+          "literal": "10-o'clock at meeting [subj] exists."
+        }
       ]
     },
     {
       "id": "free_time",
       "levels": [
-        {"front": "Free time", "back": "自由時間 / 暇な時間", "romanized": "jiyū jikan / hima na jikan"},
-        {"front": "What do you do in your free time?", "back": "自由な時間に何をしますか？", "romanized": "jiyū na jikan ni nani wo shimasu ka", "literal": "Free time in what [obj] do [question]?"}
+        {
+          "front": "Free time",
+          "back": "自由時間 / 暇な時間",
+          "romanized": "jiyū jikan / hima na jikan"
+        },
+        {
+          "front": "What do you do in your free time?",
+          "back": "自由な時間に何をしますか？",
+          "romanized": "jiyū na jikan ni nani wo shimasu ka",
+          "literal": "Free time in what [obj] do [question]?"
+        }
       ]
     }
   ]

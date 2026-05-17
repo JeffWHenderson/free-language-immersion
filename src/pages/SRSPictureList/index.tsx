@@ -49,7 +49,7 @@ const SRSPictureList = () => {
 
             const pictureFetches = validDecks.flatMap((deck) =>
                 (deck.pictureLessons ?? []).map((lessonId) =>
-                    fetch(`/languages/${language}/pictureLessons/${lessonId}.json`)
+                    fetch(`/languages/${language}/picture_lessons/${lessonId}.json`)
                         .then((r) => r.json())
                         .then((p) => ({
                             id: lessonId,

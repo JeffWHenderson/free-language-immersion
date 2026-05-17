@@ -9,602 +9,1188 @@
     "a_day_in_the_city"
   ],
   "pictureLessons": [
-    "commonPlaces"
+    "common_places"
   ],
   "cards": [
     {
       "id": "home",
       "levels": [
-        {"front": "Home", "back": "La casa / El hogar"},
-        {"front": "I'm going home.", "back": "Voy a casa.", "literal": "[I] go to house."}
+        {
+          "front": "Home",
+          "back": "La casa / El hogar"
+        },
+        {
+          "front": "I'm going home.",
+          "back": "Voy a casa.",
+          "literal": "[I] go to house."
+        }
       ]
     },
     {
       "id": "apartment",
       "levels": [
-        {"front": "Apartment", "back": "El apartamento"},
-        {"front": "I live in an apartment.", "back": "Vivo en un apartamento.", "literal": "[I] live in an apartment."}
+        {
+          "front": "Apartment",
+          "back": "El apartamento"
+        },
+        {
+          "front": "I live in an apartment.",
+          "back": "Vivo en un apartamento.",
+          "literal": "[I] live in an apartment."
+        }
       ]
     },
     {
       "id": "school",
       "levels": [
-        {"front": "School", "back": "La escuela"},
-        {"front": "The children go to school.", "back": "Los niños van a la escuela.", "literal": "The children go to-the school."}
+        {
+          "front": "School",
+          "back": "La escuela"
+        },
+        {
+          "front": "The children go to school.",
+          "back": "Los niños van a la escuela.",
+          "literal": "The children go to-the school."
+        }
       ]
     },
     {
       "id": "university",
       "levels": [
-        {"front": "University", "back": "La universidad"},
-        {"front": "She studies at the university.", "back": "Ella estudia en la universidad.", "literal": "She studies in the university."}
+        {
+          "front": "University",
+          "back": "La universidad"
+        },
+        {
+          "front": "She studies at the university.",
+          "back": "Ella estudia en la universidad.",
+          "literal": "She studies in the university."
+        }
       ]
     },
     {
       "id": "office",
       "levels": [
-        {"front": "Office", "back": "La oficina"},
-        {"front": "He works in an office.", "back": "Él trabaja en una oficina."}
+        {
+          "front": "Office",
+          "back": "La oficina"
+        },
+        {
+          "front": "He works in an office.",
+          "back": "Él trabaja en una oficina."
+        }
       ]
     },
     {
       "id": "hospital",
       "levels": [
-        {"front": "Hospital", "back": "El hospital", "grammarNote": "When 'a' (to) precedes 'el', they contract to 'al'. When 'de' (from/of) precedes 'el', they contract to 'del'. These contractions are mandatory. E.g., 'Voy al hospital' (not 'a el'), 'Vengo del banco' (not 'de el')."},
-        {"front": "I'm going to the hospital.", "back": "Voy al hospital.", "literal": "[I] go to-the hospital."}
+        {
+          "front": "Hospital",
+          "back": "El hospital",
+          "grammarNote": "When 'a' (to) precedes 'el', they contract to 'al'. When 'de' (from/of) precedes 'el', they contract to 'del'. These contractions are mandatory. E.g., 'Voy al hospital' (not 'a el'), 'Vengo del banco' (not 'de el')."
+        },
+        {
+          "front": "I'm going to the hospital.",
+          "back": "Voy al hospital.",
+          "literal": "[I] go to-the hospital."
+        }
       ]
     },
     {
       "id": "grocery_store",
       "levels": [
-        {"front": "Grocery store", "back": "La tienda de abarrotes / El supermercado"},
-        {"front": "I need to go to the supermarket.", "back": "Necesito ir al supermercado.", "literal": "[I] need to-go to-the supermarket."}
+        {
+          "front": "Grocery store",
+          "back": "La tienda de abarrotes / El supermercado"
+        },
+        {
+          "front": "I need to go to the supermarket.",
+          "back": "Necesito ir al supermercado.",
+          "literal": "[I] need to-go to-the supermarket."
+        }
       ]
     },
     {
       "id": "bank",
       "levels": [
-        {"front": "Bank", "back": "El banco"},
-        {"front": "I'm coming from the bank.", "back": "Vengo del banco.", "literal": "[I] come from-the bank."}
+        {
+          "front": "Bank",
+          "back": "El banco"
+        },
+        {
+          "front": "I'm coming from the bank.",
+          "back": "Vengo del banco.",
+          "literal": "[I] come from-the bank."
+        }
       ]
     },
     {
       "id": "library",
       "levels": [
-        {"front": "Library", "back": "La biblioteca"},
-        {"front": "I study in the library.", "back": "Estudio en la biblioteca.", "literal": "[I] study in the library."}
+        {
+          "front": "Library",
+          "back": "La biblioteca"
+        },
+        {
+          "front": "I study in the library.",
+          "back": "Estudio en la biblioteca.",
+          "literal": "[I] study in the library."
+        }
       ]
     },
     {
       "id": "restaurant",
       "levels": [
-        {"front": "Restaurant", "back": "El restaurante"},
-        {"front": "The restaurant is full.", "back": "El restaurante está lleno."}
+        {
+          "front": "Restaurant",
+          "back": "El restaurante"
+        },
+        {
+          "front": "The restaurant is full.",
+          "back": "El restaurante está lleno."
+        }
       ]
     },
     {
       "id": "cafe",
       "levels": [
-        {"front": "Cafe", "back": "El café"},
-        {"front": "Let's meet at the cafe.", "back": "Nos encontramos en el café.", "literal": "[We] ourselves meet in the café."}
+        {
+          "front": "Cafe",
+          "back": "El café"
+        },
+        {
+          "front": "Let's meet at the cafe.",
+          "back": "Nos encontramos en el café.",
+          "literal": "[We] ourselves meet in the café."
+        }
       ]
     },
     {
       "id": "hotel",
       "levels": [
-        {"front": "Hotel", "back": "El hotel"},
-        {"front": "The hotel is downtown.", "back": "El hotel está en el centro.", "literal": "The hotel is in the centre."}
+        {
+          "front": "Hotel",
+          "back": "El hotel"
+        },
+        {
+          "front": "The hotel is downtown.",
+          "back": "El hotel está en el centro.",
+          "literal": "The hotel is in the centre."
+        }
       ]
     },
     {
       "id": "airport",
       "levels": [
-        {"front": "Airport", "back": "El aeropuerto"},
-        {"front": "The airport is far from here.", "back": "El aeropuerto está lejos de aquí."}
+        {
+          "front": "Airport",
+          "back": "El aeropuerto"
+        },
+        {
+          "front": "The airport is far from here.",
+          "back": "El aeropuerto está lejos de aquí."
+        }
       ]
     },
     {
       "id": "station",
       "levels": [
-        {"front": "Station", "back": "La estación"},
-        {"front": "The station is near the hotel.", "back": "La estación está cerca del hotel.", "literal": "The station is near of-the hotel."}
+        {
+          "front": "Station",
+          "back": "La estación"
+        },
+        {
+          "front": "The station is near the hotel.",
+          "back": "La estación está cerca del hotel.",
+          "literal": "The station is near of-the hotel."
+        }
       ]
     },
     {
       "id": "bus_stop",
       "levels": [
-        {"front": "Bus stop", "back": "La parada de autobús"},
-        {"front": "Wait at the bus stop.", "back": "Espera en la parada de autobús.", "literal": "Wait [command] in the stop of bus."}
+        {
+          "front": "Bus stop",
+          "back": "La parada de autobús"
+        },
+        {
+          "front": "Wait at the bus stop.",
+          "back": "Espera en la parada de autobús.",
+          "literal": "Wait [command] in the stop of bus."
+        }
       ]
     },
     {
       "id": "park",
       "levels": [
-        {"front": "Park", "back": "El parque"},
-        {"front": "The children play in the park.", "back": "Los niños juegan en el parque."}
+        {
+          "front": "Park",
+          "back": "El parque"
+        },
+        {
+          "front": "The children play in the park.",
+          "back": "Los niños juegan en el parque."
+        }
       ]
     },
     {
       "id": "square",
       "levels": [
-        {"front": "Square", "back": "La plaza"},
-        {"front": "There's a fountain in the square.", "back": "Hay una fuente en la plaza.", "literal": "There-is a fountain in the square."}
+        {
+          "front": "Square",
+          "back": "La plaza"
+        },
+        {
+          "front": "There's a fountain in the square.",
+          "back": "Hay una fuente en la plaza.",
+          "literal": "There-is a fountain in the square."
+        }
       ]
     },
     {
       "id": "street",
       "levels": [
-        {"front": "Street", "back": "La calle"},
-        {"front": "The restaurant is on this street.", "back": "El restaurante está en esta calle."}
+        {
+          "front": "Street",
+          "back": "La calle"
+        },
+        {
+          "front": "The restaurant is on this street.",
+          "back": "El restaurante está en esta calle."
+        }
       ]
     },
     {
       "id": "crosswalk",
       "levels": [
-        {"front": "Crosswalk", "back": "El paso de peatones"},
-        {"front": "Cross at the crosswalk.", "back": "Cruza en el paso de peatones.", "literal": "Cross [command] at the crossing of pedestrians."}
+        {
+          "front": "Crosswalk",
+          "back": "El paso de peatones"
+        },
+        {
+          "front": "Cross at the crosswalk.",
+          "back": "Cruza en el paso de peatones.",
+          "literal": "Cross [command] at the crossing of pedestrians."
+        }
       ]
     },
     {
       "id": "intersection",
       "levels": [
-        {"front": "Intersection", "back": "El cruce / La intersección"},
-        {"front": "Turn left at the intersection.", "back": "Gira a la izquierda en el cruce.", "literal": "Turn [command] to the left-side at the intersection."}
+        {
+          "front": "Intersection",
+          "back": "El cruce / La intersección"
+        },
+        {
+          "front": "Turn left at the intersection.",
+          "back": "Gira a la izquierda en el cruce.",
+          "literal": "Turn [command] to the left-side at the intersection."
+        }
       ]
     },
     {
       "id": "bridge",
       "levels": [
-        {"front": "Bridge", "back": "El puente"},
-        {"front": "We crossed the bridge.", "back": "Cruzamos el puente.", "literal": "[We] crossed the bridge."}
+        {
+          "front": "Bridge",
+          "back": "El puente"
+        },
+        {
+          "front": "We crossed the bridge.",
+          "back": "Cruzamos el puente.",
+          "literal": "[We] crossed the bridge."
+        }
       ]
     },
     {
       "id": "corner",
       "levels": [
-        {"front": "Corner", "back": "La esquina"},
-        {"front": "Turn right at the corner.", "back": "Dobla a la derecha en la esquina.", "literal": "Turn [command] to the right-side at the corner."}
+        {
+          "front": "Corner",
+          "back": "La esquina"
+        },
+        {
+          "front": "Turn right at the corner.",
+          "back": "Dobla a la derecha en la esquina.",
+          "literal": "Turn [command] to the right-side at the corner."
+        }
       ]
     },
     {
       "id": "city_centre_downtown",
       "levels": [
-        {"front": "City centre / Downtown", "back": "El centro (de la ciudad)"},
-        {"front": "The museum is downtown.", "back": "El museo está en el centro.", "literal": "The museum is in the centre."}
+        {
+          "front": "City centre / Downtown",
+          "back": "El centro (de la ciudad)"
+        },
+        {
+          "front": "The museum is downtown.",
+          "back": "El museo está en el centro.",
+          "literal": "The museum is in the centre."
+        }
       ]
     },
     {
       "id": "neighbourhood",
       "levels": [
-        {"front": "Neighbourhood", "back": "El barrio / La colonia"},
-        {"front": "I live in a quiet neighbourhood.", "back": "Vivo en un barrio tranquilo.", "literal": "[I] live in a neighbourhood quiet."}
+        {
+          "front": "Neighbourhood",
+          "back": "El barrio / La colonia"
+        },
+        {
+          "front": "I live in a quiet neighbourhood.",
+          "back": "Vivo en un barrio tranquilo.",
+          "literal": "[I] live in a neighbourhood quiet."
+        }
       ]
     },
     {
       "id": "beach",
       "levels": [
-        {"front": "Beach", "back": "La playa"},
-        {"front": "The beach is beautiful.", "back": "La playa es hermosa."}
+        {
+          "front": "Beach",
+          "back": "La playa"
+        },
+        {
+          "front": "The beach is beautiful.",
+          "back": "La playa es hermosa."
+        }
       ]
     },
     {
       "id": "mountain",
       "levels": [
-        {"front": "Mountain", "back": "La montaña"},
-        {"front": "The mountain is very high.", "back": "La montaña es muy alta.", "literal": "The mountain is very tall."}
+        {
+          "front": "Mountain",
+          "back": "La montaña"
+        },
+        {
+          "front": "The mountain is very high.",
+          "back": "La montaña es muy alta.",
+          "literal": "The mountain is very tall."
+        }
       ]
     },
     {
       "id": "museum",
       "levels": [
-        {"front": "Museum", "back": "El museo"},
-        {"front": "I want to visit the museum.", "back": "Quiero visitar el museo.", "literal": "[I] want to-visit the museum."}
+        {
+          "front": "Museum",
+          "back": "El museo"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "Quiero visitar el museo.",
+          "literal": "[I] want to-visit the museum."
+        }
       ]
     },
     {
       "id": "movie_theater",
       "levels": [
-        {"front": "Movie theater", "back": "El cine"},
-        {"front": "We're going to the cinema tonight.", "back": "Vamos al cine esta noche.", "literal": "[We] go to-the cinema this night."}
+        {
+          "front": "Movie theater",
+          "back": "El cine"
+        },
+        {
+          "front": "We're going to the cinema tonight.",
+          "back": "Vamos al cine esta noche.",
+          "literal": "[We] go to-the cinema this night."
+        }
       ]
     },
     {
       "id": "map",
       "levels": [
-        {"front": "Map", "back": "El mapa"},
-        {"front": "Do you have a map?", "back": "¿Tienes un mapa?", "literal": "[You] have a map?"}
+        {
+          "front": "Map",
+          "back": "El mapa"
+        },
+        {
+          "front": "Do you have a map?",
+          "back": "¿Tienes un mapa?",
+          "literal": "[You] have a map?"
+        }
       ]
     },
     {
       "id": "direction",
       "levels": [
-        {"front": "Direction", "back": "La dirección"},
-        {"front": "Which direction is the station?", "back": "¿En qué dirección está la estación?", "literal": "In what direction is the station?"}
+        {
+          "front": "Direction",
+          "back": "La dirección"
+        },
+        {
+          "front": "Which direction is the station?",
+          "back": "¿En qué dirección está la estación?",
+          "literal": "In what direction is the station?"
+        }
       ]
     },
     {
       "id": "distance",
       "levels": [
-        {"front": "Distance", "back": "La distancia"},
-        {"front": "What's the distance to the hotel?", "back": "¿Cuál es la distancia al hotel?", "literal": "Which is the distance to-the hotel?"}
+        {
+          "front": "Distance",
+          "back": "La distancia"
+        },
+        {
+          "front": "What's the distance to the hotel?",
+          "back": "¿Cuál es la distancia al hotel?",
+          "literal": "Which is the distance to-the hotel?"
+        }
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {"front": "To go", "back": "Ir"},
-        {"front": "I'm going to the supermarket.", "back": "Voy al supermercado.", "literal": "[I] go to-the supermarket."}
+        {
+          "front": "To go",
+          "back": "Ir"
+        },
+        {
+          "front": "I'm going to the supermarket.",
+          "back": "Voy al supermercado.",
+          "literal": "[I] go to-the supermarket."
+        }
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {"front": "To come", "back": "Venir"},
-        {"front": "Come to my house.", "back": "Ven a mi casa.", "literal": "Come [command] to my house."}
+        {
+          "front": "To come",
+          "back": "Venir"
+        },
+        {
+          "front": "Come to my house.",
+          "back": "Ven a mi casa.",
+          "literal": "Come [command] to my house."
+        }
       ]
     },
     {
       "id": "to_travel",
       "levels": [
-        {"front": "To travel", "back": "Viajar"},
-        {"front": "I love to travel.", "back": "Me encanta viajar.", "literal": "[It] to-me enchants to-travel."}
+        {
+          "front": "To travel",
+          "back": "Viajar"
+        },
+        {
+          "front": "I love to travel.",
+          "back": "Me encanta viajar.",
+          "literal": "[It] to-me enchants to-travel."
+        }
       ]
     },
     {
       "id": "to_walk",
       "levels": [
-        {"front": "To walk", "back": "Caminar"},
-        {"front": "I walk to work every day.", "back": "Camino al trabajo todos los días.", "literal": "[I] walk to-the work all the days."}
+        {
+          "front": "To walk",
+          "back": "Caminar"
+        },
+        {
+          "front": "I walk to work every day.",
+          "back": "Camino al trabajo todos los días.",
+          "literal": "[I] walk to-the work all the days."
+        }
       ]
     },
     {
       "id": "to_drive",
       "levels": [
-        {"front": "To drive", "back": "Manejar / Conducir"},
-        {"front": "She drives to the office.", "back": "Ella maneja a la oficina."}
+        {
+          "front": "To drive",
+          "back": "Manejar / Conducir"
+        },
+        {
+          "front": "She drives to the office.",
+          "back": "Ella maneja a la oficina."
+        }
       ]
     },
     {
       "id": "to_turn",
       "levels": [
-        {"front": "To turn", "back": "Girar / Doblar"},
-        {"front": "Turn left at the corner.", "back": "Gira a la izquierda en la esquina.", "literal": "Turn [command] to the left-side at the corner."}
+        {
+          "front": "To turn",
+          "back": "Girar / Doblar"
+        },
+        {
+          "front": "Turn left at the corner.",
+          "back": "Gira a la izquierda en la esquina.",
+          "literal": "Turn [command] to the left-side at the corner."
+        }
       ]
     },
     {
       "id": "to_cross",
       "levels": [
-        {"front": "To cross", "back": "Cruzar"},
-        {"front": "Cross the street carefully.", "back": "Cruza la calle con cuidado.", "literal": "Cross [command] the street with care."}
+        {
+          "front": "To cross",
+          "back": "Cruzar"
+        },
+        {
+          "front": "Cross the street carefully.",
+          "back": "Cruza la calle con cuidado.",
+          "literal": "Cross [command] the street with care."
+        }
       ]
     },
     {
       "id": "to_follow",
       "levels": [
-        {"front": "To follow", "back": "Seguir"},
-        {"front": "Follow this street.", "back": "Sigue esta calle.", "literal": "Follow [command] this street."}
+        {
+          "front": "To follow",
+          "back": "Seguir"
+        },
+        {
+          "front": "Follow this street.",
+          "back": "Sigue esta calle.",
+          "literal": "Follow [command] this street."
+        }
       ]
     },
     {
       "id": "to_reach",
       "levels": [
-        {"front": "To reach", "back": "Llegar a"},
-        {"front": "How do I reach the station?", "back": "¿Cómo llego a la estación?", "literal": "How [do I] arrive at the station?"}
+        {
+          "front": "To reach",
+          "back": "Llegar a"
+        },
+        {
+          "front": "How do I reach the station?",
+          "back": "¿Cómo llego a la estación?",
+          "literal": "How [do I] arrive at the station?"
+        }
       ]
     },
     {
       "id": "to_enter",
       "levels": [
-        {"front": "To enter", "back": "Entrar"},
-        {"front": "Enter through the main door.", "back": "Entra por la puerta principal.", "literal": "Enter [command] through the door main."}
+        {
+          "front": "To enter",
+          "back": "Entrar"
+        },
+        {
+          "front": "Enter through the main door.",
+          "back": "Entra por la puerta principal.",
+          "literal": "Enter [command] through the door main."
+        }
       ]
     },
     {
       "id": "to_leave",
       "levels": [
-        {"front": "To leave", "back": "Salir / Irse"},
-        {"front": "I leave work at five.", "back": "Salgo del trabajo a las cinco.", "literal": "[I] leave from-the work at the five."}
+        {
+          "front": "To leave",
+          "back": "Salir / Irse"
+        },
+        {
+          "front": "I leave work at five.",
+          "back": "Salgo del trabajo a las cinco.",
+          "literal": "[I] leave from-the work at the five."
+        }
       ]
     },
     {
       "id": "to_depart",
       "levels": [
-        {"front": "To depart", "back": "Partir / Salir"},
-        {"front": "The train departs at nine.", "back": "El tren parte a las nueve.", "literal": "The train departs at the nine."}
+        {
+          "front": "To depart",
+          "back": "Partir / Salir"
+        },
+        {
+          "front": "The train departs at nine.",
+          "back": "El tren parte a las nueve.",
+          "literal": "The train departs at the nine."
+        }
       ]
     },
     {
       "id": "to_arrive",
       "levels": [
-        {"front": "To arrive", "back": "Llegar"},
-        {"front": "We arrive tomorrow.", "back": "Llegamos mañana.", "literal": "[We] arrive tomorrow."}
+        {
+          "front": "To arrive",
+          "back": "Llegar"
+        },
+        {
+          "front": "We arrive tomorrow.",
+          "back": "Llegamos mañana.",
+          "literal": "[We] arrive tomorrow."
+        }
       ]
     },
     {
       "id": "to_visit",
       "levels": [
-        {"front": "To visit", "back": "Visitar"},
-        {"front": "I want to visit the museum.", "back": "Quiero visitar el museo.", "literal": "[I] want to-visit the museum."}
+        {
+          "front": "To visit",
+          "back": "Visitar"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "Quiero visitar el museo.",
+          "literal": "[I] want to-visit the museum."
+        }
       ]
     },
     {
       "id": "in",
       "levels": [
-        {"front": "In", "back": "En"},
-        {"front": "The keys are in the bag.", "back": "Las llaves están en la bolsa."}
+        {
+          "front": "In",
+          "back": "En"
+        },
+        {
+          "front": "The keys are in the bag.",
+          "back": "Las llaves están en la bolsa."
+        }
       ]
     },
     {
       "id": "on",
       "levels": [
-        {"front": "On", "back": "Sobre / En"},
-        {"front": "The book is on the table.", "back": "El libro está sobre la mesa."}
+        {
+          "front": "On",
+          "back": "Sobre / En"
+        },
+        {
+          "front": "The book is on the table.",
+          "back": "El libro está sobre la mesa."
+        }
       ]
     },
     {
       "id": "at",
       "levels": [
-        {"front": "At", "back": "En"},
-        {"front": "I'm at the office.", "back": "Estoy en la oficina.", "literal": "[I] am in the office."}
+        {
+          "front": "At",
+          "back": "En"
+        },
+        {
+          "front": "I'm at the office.",
+          "back": "Estoy en la oficina.",
+          "literal": "[I] am in the office."
+        }
       ]
     },
     {
       "id": "under",
       "levels": [
-        {"front": "Under", "back": "Debajo de"},
-        {"front": "The cat is under the table.", "back": "El gato está debajo de la mesa.", "literal": "The cat is under-of the table."}
+        {
+          "front": "Under",
+          "back": "Debajo de"
+        },
+        {
+          "front": "The cat is under the table.",
+          "back": "El gato está debajo de la mesa.",
+          "literal": "The cat is under-of the table."
+        }
       ]
     },
     {
       "id": "next_to",
       "levels": [
-        {"front": "Next to", "back": "Al lado de / Junto a"},
-        {"front": "The bank is next to the cafe.", "back": "El banco está al lado del café.", "literal": "The bank is to-the side of-the café."}
+        {
+          "front": "Next to",
+          "back": "Al lado de / Junto a"
+        },
+        {
+          "front": "The bank is next to the cafe.",
+          "back": "El banco está al lado del café.",
+          "literal": "The bank is to-the side of-the café."
+        }
       ]
     },
     {
       "id": "between",
       "levels": [
-        {"front": "Between", "back": "Entre"},
-        {"front": "The park is between the school and the library.", "back": "El parque está entre la escuela y la biblioteca."}
+        {
+          "front": "Between",
+          "back": "Entre"
+        },
+        {
+          "front": "The park is between the school and the library.",
+          "back": "El parque está entre la escuela y la biblioteca."
+        }
       ]
     },
     {
       "id": "in_front_of",
       "levels": [
-        {"front": "In front of", "back": "En frente de"},
-        {"front": "The taxi is in front of the hotel.", "back": "El taxi está en frente del hotel.", "literal": "The taxi is in front of-the hotel."}
+        {
+          "front": "In front of",
+          "back": "En frente de"
+        },
+        {
+          "front": "The taxi is in front of the hotel.",
+          "back": "El taxi está en frente del hotel.",
+          "literal": "The taxi is in front of-the hotel."
+        }
       ]
     },
     {
       "id": "behind",
       "levels": [
-        {"front": "Behind", "back": "Detrás de"},
-        {"front": "The garden is behind the house.", "back": "El jardín está detrás de la casa.", "literal": "The garden is behind-of the house."}
+        {
+          "front": "Behind",
+          "back": "Detrás de"
+        },
+        {
+          "front": "The garden is behind the house.",
+          "back": "El jardín está detrás de la casa.",
+          "literal": "The garden is behind-of the house."
+        }
       ]
     },
     {
       "id": "near",
       "levels": [
-        {"front": "Near", "back": "Cerca de"},
-        {"front": "Is there a restaurant near here?", "back": "¿Hay un restaurante cerca de aquí?", "literal": "There-is a restaurant near of here?"}
+        {
+          "front": "Near",
+          "back": "Cerca de"
+        },
+        {
+          "front": "Is there a restaurant near here?",
+          "back": "¿Hay un restaurante cerca de aquí?",
+          "literal": "There-is a restaurant near of here?"
+        }
       ]
     },
     {
       "id": "far",
       "levels": [
-        {"front": "Far", "back": "Lejos de"},
-        {"front": "Is the airport far?", "back": "¿Está lejos el aeropuerto?", "literal": "Is far the airport?"}
+        {
+          "front": "Far",
+          "back": "Lejos de"
+        },
+        {
+          "front": "Is the airport far?",
+          "back": "¿Está lejos el aeropuerto?",
+          "literal": "Is far the airport?"
+        }
       ]
     },
     {
       "id": "here",
       "levels": [
-        {"front": "Here", "back": "Aquí"},
-        {"front": "Come here, please.", "back": "Ven aquí, por favor.", "literal": "Come [command] here, please."}
+        {
+          "front": "Here",
+          "back": "Aquí"
+        },
+        {
+          "front": "Come here, please.",
+          "back": "Ven aquí, por favor.",
+          "literal": "Come [command] here, please."
+        }
       ]
     },
     {
       "id": "there",
       "levels": [
-        {"front": "There", "back": "Allí / Ahí"},
-        {"front": "The taxi is over there.", "back": "El taxi está allí.", "literal": "The taxi is there."}
+        {
+          "front": "There",
+          "back": "Allí / Ahí"
+        },
+        {
+          "front": "The taxi is over there.",
+          "back": "El taxi está allí.",
+          "literal": "The taxi is there."
+        }
       ]
     },
     {
       "id": "everywhere",
       "levels": [
-        {"front": "Everywhere", "back": "En todas partes"},
-        {"front": "There are tourists everywhere.", "back": "Hay turistas en todas partes.", "literal": "There-is tourists in all parts."}
+        {
+          "front": "Everywhere",
+          "back": "En todas partes"
+        },
+        {
+          "front": "There are tourists everywhere.",
+          "back": "Hay turistas en todas partes.",
+          "literal": "There-is tourists in all parts."
+        }
       ]
     },
     {
       "id": "somewhere",
       "levels": [
-        {"front": "Somewhere", "back": "En algún lugar"},
-        {"front": "Let's go somewhere quiet.", "back": "Vamos a algún lugar tranquilo.", "literal": "[We] go to some place quiet."}
+        {
+          "front": "Somewhere",
+          "back": "En algún lugar"
+        },
+        {
+          "front": "Let's go somewhere quiet.",
+          "back": "Vamos a algún lugar tranquilo.",
+          "literal": "[We] go to some place quiet."
+        }
       ]
     },
     {
       "id": "nowhere",
       "levels": [
-        {"front": "Nowhere", "back": "En ningún lugar"},
-        {"front": "There is nowhere to sit.", "back": "No hay ningún lugar para sentarse.", "literal": "[There-is] not any place to sit-oneself."}
+        {
+          "front": "Nowhere",
+          "back": "En ningún lugar"
+        },
+        {
+          "front": "There is nowhere to sit.",
+          "back": "No hay ningún lugar para sentarse.",
+          "literal": "[There-is] not any place to sit-oneself."
+        }
       ]
     },
     {
       "id": "left",
       "levels": [
-        {"front": "Left", "back": "Izquierda"},
-        {"front": "Turn left.", "back": "Gira a la izquierda.", "literal": "Turn [command] to the left-side."}
+        {
+          "front": "Left",
+          "back": "Izquierda"
+        },
+        {
+          "front": "Turn left.",
+          "back": "Gira a la izquierda.",
+          "literal": "Turn [command] to the left-side."
+        }
       ]
     },
     {
       "id": "right",
       "levels": [
-        {"front": "Right", "back": "Derecha"},
-        {"front": "Turn right.", "back": "Gira a la derecha.", "literal": "Turn [command] to the right-side."}
+        {
+          "front": "Right",
+          "back": "Derecha"
+        },
+        {
+          "front": "Turn right.",
+          "back": "Gira a la derecha.",
+          "literal": "Turn [command] to the right-side."
+        }
       ]
     },
     {
       "id": "straight_ahead",
       "levels": [
-        {"front": "Straight (ahead)", "back": "Derecho / Todo recto"},
-        {"front": "Go straight ahead.", "back": "Ve todo recto.", "literal": "Go [command] all straight."}
+        {
+          "front": "Straight (ahead)",
+          "back": "Derecho / Todo recto"
+        },
+        {
+          "front": "Go straight ahead.",
+          "back": "Ve todo recto.",
+          "literal": "Go [command] all straight."
+        }
       ]
     },
     {
       "id": "north",
       "levels": [
-        {"front": "North", "back": "Norte"},
-        {"front": "The city is to the north.", "back": "La ciudad está al norte.", "literal": "The city is to-the north."}
+        {
+          "front": "North",
+          "back": "Norte"
+        },
+        {
+          "front": "The city is to the north.",
+          "back": "La ciudad está al norte.",
+          "literal": "The city is to-the north."
+        }
       ]
     },
     {
       "id": "south",
       "levels": [
-        {"front": "South", "back": "Sur"},
-        {"front": "The beach is to the south.", "back": "La playa está al sur.", "literal": "The beach is to-the south."}
+        {
+          "front": "South",
+          "back": "Sur"
+        },
+        {
+          "front": "The beach is to the south.",
+          "back": "La playa está al sur.",
+          "literal": "The beach is to-the south."
+        }
       ]
     },
     {
       "id": "east",
       "levels": [
-        {"front": "East", "back": "Este"},
-        {"front": "The sun rises in the east.", "back": "El sol sale por el este.", "literal": "The sun comes-out through the east."}
+        {
+          "front": "East",
+          "back": "Este"
+        },
+        {
+          "front": "The sun rises in the east.",
+          "back": "El sol sale por el este.",
+          "literal": "The sun comes-out through the east."
+        }
       ]
     },
     {
       "id": "west",
       "levels": [
-        {"front": "West", "back": "Oeste"},
-        {"front": "The sun sets in the west.", "back": "El sol se pone en el oeste.", "literal": "The sun itself sets in the west."}
+        {
+          "front": "West",
+          "back": "Oeste"
+        },
+        {
+          "front": "The sun sets in the west.",
+          "back": "El sol se pone en el oeste.",
+          "literal": "The sun itself sets in the west."
+        }
       ]
     },
     {
       "id": "to_live",
       "levels": [
-        {"front": "To live", "back": "Vivir"},
-        {"front": "I live near the city centre.", "back": "Vivo cerca del centro.", "literal": "[I] live near of-the centre."}
+        {
+          "front": "To live",
+          "back": "Vivir"
+        },
+        {
+          "front": "I live near the city centre.",
+          "back": "Vivo cerca del centro.",
+          "literal": "[I] live near of-the centre."
+        }
       ]
     },
     {
       "id": "to_stay",
       "levels": [
-        {"front": "To stay", "back": "Quedarse / Hospedarse"},
-        {"front": "We're staying at a hotel.", "back": "Nos hospedamos en un hotel.", "literal": "[We] ourselves lodge in a hotel."}
+        {
+          "front": "To stay",
+          "back": "Quedarse / Hospedarse"
+        },
+        {
+          "front": "We're staying at a hotel.",
+          "back": "Nos hospedamos en un hotel.",
+          "literal": "[We] ourselves lodge in a hotel."
+        }
       ]
     },
     {
       "id": "to_wait",
       "levels": [
-        {"front": "To wait", "back": "Esperar"},
-        {"front": "I'll wait for you here.", "back": "Te espero aquí.", "literal": "[I] you wait-for here."}
+        {
+          "front": "To wait",
+          "back": "Esperar"
+        },
+        {
+          "front": "I'll wait for you here.",
+          "back": "Te espero aquí.",
+          "literal": "[I] you wait-for here."
+        }
       ]
     },
     {
       "id": "to_meet",
       "levels": [
-        {"front": "To meet", "back": "Encontrarse / Quedar"},
-        {"front": "Let's meet at the park.", "back": "Quedamos en el parque.", "literal": "[We] meet at the park."}
+        {
+          "front": "To meet",
+          "back": "Encontrarse / Quedar"
+        },
+        {
+          "front": "Let's meet at the park.",
+          "back": "Quedamos en el parque.",
+          "literal": "[We] meet at the park."
+        }
       ]
     },
     {
       "id": "to_get_lost",
       "levels": [
-        {"front": "To get lost", "back": "Perderse", "grammarNote": "Perderse is reflexive: me pierdo (I get lost), te pierdes, se pierde. The reflexive pronoun changes with the subject. 'No te pierdas' = Don't get lost! Many movement/location verbs in Spanish are reflexive: quedarse (to stay), hospedarse (to lodge), dirigirse (to head)."},
-        {"front": "Don't get lost!", "back": "¡No te pierdas!", "literal": "[You] not yourself lose [command]!"}
+        {
+          "front": "To get lost",
+          "back": "Perderse",
+          "grammarNote": "Perderse is reflexive: me pierdo (I get lost), te pierdes, se pierde. The reflexive pronoun changes with the subject. 'No te pierdas' = Don't get lost! Many movement/location verbs in Spanish are reflexive: quedarse (to stay), hospedarse (to lodge), dirigirse (to head)."
+        },
+        {
+          "front": "Don't get lost!",
+          "back": "¡No te pierdas!",
+          "literal": "[You] not yourself lose [command]!"
+        }
       ]
     },
     {
       "id": "to_find",
       "levels": [
-        {"front": "To find", "back": "Encontrar"},
-        {"front": "I can't find the hotel.", "back": "No encuentro el hotel.", "literal": "[I] not find the hotel."}
+        {
+          "front": "To find",
+          "back": "Encontrar"
+        },
+        {
+          "front": "I can't find the hotel.",
+          "back": "No encuentro el hotel.",
+          "literal": "[I] not find the hotel."
+        }
       ]
     },
     {
       "id": "to_look_for",
       "levels": [
-        {"front": "To look for", "back": "Buscar"},
-        {"front": "I'm looking for the pharmacy.", "back": "Busco la farmacia.", "literal": "[I] search-for the pharmacy."}
+        {
+          "front": "To look for",
+          "back": "Buscar"
+        },
+        {
+          "front": "I'm looking for the pharmacy.",
+          "back": "Busco la farmacia.",
+          "literal": "[I] search-for the pharmacy."
+        }
       ]
     },
     {
       "id": "to_head",
       "levels": [
-        {"front": "To head", "back": "Dirigirse"},
-        {"front": "Head towards the station.", "back": "Dirígete hacia la estación.", "literal": "Direct-yourself [command] towards the station."}
+        {
+          "front": "To head",
+          "back": "Dirigirse"
+        },
+        {
+          "front": "Head towards the station.",
+          "back": "Dirígete hacia la estación.",
+          "literal": "Direct-yourself [command] towards the station."
+        }
       ]
     },
     {
       "id": "to_continue",
       "levels": [
-        {"front": "To continue", "back": "Continuar / Seguir"},
-        {"front": "Continue straight ahead.", "back": "Continúa todo recto.", "literal": "Continue [command] all straight."}
+        {
+          "front": "To continue",
+          "back": "Continuar / Seguir"
+        },
+        {
+          "front": "Continue straight ahead.",
+          "back": "Continúa todo recto.",
+          "literal": "Continue [command] all straight."
+        }
       ]
     },
     {
       "id": "to_stop",
       "levels": [
-        {"front": "To stop", "back": "Parar / Detenerse"},
-        {"front": "Stop at the corner.", "back": "Para en la esquina.", "literal": "Stop [command] at the corner."}
+        {
+          "front": "To stop",
+          "back": "Parar / Detenerse"
+        },
+        {
+          "front": "Stop at the corner.",
+          "back": "Para en la esquina.",
+          "literal": "Stop [command] at the corner."
+        }
       ]
     },
     {
       "id": "to_park",
       "levels": [
-        {"front": "To park", "back": "Estacionar / Aparcar"},
-        {"front": "Where can I park?", "back": "¿Dónde puedo aparcar?", "literal": "Where [can] [I] park?"}
+        {
+          "front": "To park",
+          "back": "Estacionar / Aparcar"
+        },
+        {
+          "front": "Where can I park?",
+          "back": "¿Dónde puedo aparcar?",
+          "literal": "Where [can] [I] park?"
+        }
       ]
     },
     {
       "id": "to_book_to_reserve",
       "levels": [
-        {"front": "To book / To reserve", "back": "Reservar"},
-        {"front": "I booked a room.", "back": "Reservé una habitación.", "literal": "[I] reserved a room."}
+        {
+          "front": "To book / To reserve",
+          "back": "Reservar"
+        },
+        {
+          "front": "I booked a room.",
+          "back": "Reservé una habitación.",
+          "literal": "[I] reserved a room."
+        }
       ]
     },
     {
       "id": "to_check_in",
       "levels": [
-        {"front": "To check in", "back": "Registrarse (llegada)"},
-        {"front": "We checked in at three.", "back": "Nos registramos a las tres.", "literal": "[We] ourselves checked-in at the three."}
+        {
+          "front": "To check in",
+          "back": "Registrarse (llegada)"
+        },
+        {
+          "front": "We checked in at three.",
+          "back": "Nos registramos a las tres.",
+          "literal": "[We] ourselves checked-in at the three."
+        }
       ]
     },
     {
       "id": "to_check_out",
       "levels": [
-        {"front": "To check out", "back": "Hacer el check-out / Salir"},
-        {"front": "Check out is at eleven.", "back": "El check-out es a las once.", "literal": "The check-out is at the eleven."}
+        {
+          "front": "To check out",
+          "back": "Hacer el check-out / Salir"
+        },
+        {
+          "front": "Check out is at eleven.",
+          "back": "El check-out es a las once.",
+          "literal": "The check-out is at the eleven."
+        }
       ]
     },
     {
       "id": "nearby",
       "levels": [
-        {"front": "Nearby", "back": "Cerca / Por aquí"},
-        {"front": "Is there a pharmacy nearby?", "back": "¿Hay una farmacia cerca?", "literal": "There-is a pharmacy nearby?"}
+        {
+          "front": "Nearby",
+          "back": "Cerca / Por aquí"
+        },
+        {
+          "front": "Is there a pharmacy nearby?",
+          "back": "¿Hay una farmacia cerca?",
+          "literal": "There-is a pharmacy nearby?"
+        }
       ]
     },
     {
       "id": "busy_crowded",
       "levels": [
-        {"front": "Busy / Crowded", "back": "Concurrido / Lleno de gente"},
-        {"front": "The market is very crowded.", "back": "El mercado está muy concurrido."}
+        {
+          "front": "Busy / Crowded",
+          "back": "Concurrido / Lleno de gente"
+        },
+        {
+          "front": "The market is very crowded.",
+          "back": "El mercado está muy concurrido."
+        }
       ]
     },
     {
       "id": "quiet",
       "levels": [
-        {"front": "Quiet", "back": "Tranquilo"},
-        {"front": "I prefer a quiet neighbourhood.", "back": "Prefiero un barrio tranquilo.", "literal": "[I] prefer a neighbourhood quiet."}
+        {
+          "front": "Quiet",
+          "back": "Tranquilo"
+        },
+        {
+          "front": "I prefer a quiet neighbourhood.",
+          "back": "Prefiero un barrio tranquilo.",
+          "literal": "[I] prefer a neighbourhood quiet."
+        }
       ]
     },
     {
       "id": "lost",
       "levels": [
-        {"front": "Lost", "back": "Perdido"},
-        {"front": "I'm lost.", "back": "Estoy perdido.", "literal": "[I] am lost."}
+        {
+          "front": "Lost",
+          "back": "Perdido"
+        },
+        {
+          "front": "I'm lost.",
+          "back": "Estoy perdido.",
+          "literal": "[I] am lost."
+        }
       ]
     }
   ]

@@ -12,701 +12,1596 @@
     "cooking_at_home"
   ],
   "pictureLessons": [
-    "foodAndDrink",
-    "foodAndDrink2"
+    "food_and_drink",
+    "food_and_drink_2"
   ],
   "cards": [
     {
       "id": "water",
       "levels": [
-        {"front": "water", "back": "水", "romanized": "mizu"},
-        {"front": "The water is cold.", "back": "水は冷たいです。", "romanized": "mizu wa tsumetai desu", "literal": "Water [topic] cold is."}
+        {
+          "front": "water",
+          "back": "水",
+          "romanized": "mizu"
+        },
+        {
+          "front": "The water is cold.",
+          "back": "水は冷たいです。",
+          "romanized": "mizu wa tsumetai desu",
+          "literal": "Water [topic] cold is."
+        }
       ]
     },
     {
       "id": "bread",
       "levels": [
-        {"front": "bread", "back": "パン", "romanized": "pan"},
-        {"front": "I'd like some bread.", "back": "パンをください。", "romanized": "pan wo kudasai", "literal": "Bread please give."}
+        {
+          "front": "bread",
+          "back": "パン",
+          "romanized": "pan"
+        },
+        {
+          "front": "I'd like some bread.",
+          "back": "パンをください。",
+          "romanized": "pan wo kudasai",
+          "literal": "Bread please give."
+        }
       ]
     },
     {
       "id": "rice",
       "levels": [
-        {"front": "rice", "back": "ご飯 / お米", "romanized": "gohan / okome", "grammarNote": "'Gohan' (ご飯) refers to cooked rice and is also the word for a meal (e.g., 朝ご飯 = breakfast). 'Okome' (お米) refers to uncooked rice grains. In daily conversation, 'gohan' is most common."},
-        {"front": "I like rice with vegetables.", "back": "野菜とご飯が好きです。", "romanized": "yasai to gohan ga suki desu", "literal": "Vegetables and rice [subj] like is."}
+        {
+          "front": "rice",
+          "back": "ご飯 / お米",
+          "romanized": "gohan / okome",
+          "grammarNote": "'Gohan' (ご飯) refers to cooked rice and is also the word for a meal (e.g., 朝ご飯 = breakfast). 'Okome' (お米) refers to uncooked rice grains. In daily conversation, 'gohan' is most common."
+        },
+        {
+          "front": "I like rice with vegetables.",
+          "back": "野菜とご飯が好きです。",
+          "romanized": "yasai to gohan ga suki desu",
+          "literal": "Vegetables and rice [subj] like is."
+        }
       ]
     },
     {
       "id": "milk",
       "levels": [
-        {"front": "milk", "back": "牛乳 / ミルク", "romanized": "gyūnyū / miruku"},
-        {"front": "Do you want milk?", "back": "牛乳はいりますか？", "romanized": "gyūnyū wa irimasu ka", "literal": "Milk [topic] need?"}
+        {
+          "front": "milk",
+          "back": "牛乳 / ミルク",
+          "romanized": "gyūnyū / miruku"
+        },
+        {
+          "front": "Do you want milk?",
+          "back": "牛乳はいりますか？",
+          "romanized": "gyūnyū wa irimasu ka",
+          "literal": "Milk [topic] need?"
+        }
       ]
     },
     {
       "id": "egg",
       "levels": [
-        {"front": "egg", "back": "卵 / たまご", "romanized": "tamago"},
-        {"front": "I eat two eggs for breakfast.", "back": "朝ご飯に卵を二つ食べます。", "romanized": "asagohan ni tamago wo futatsu tabemasu", "literal": "Breakfast at egg [obj] two eat."}
+        {
+          "front": "egg",
+          "back": "卵 / たまご",
+          "romanized": "tamago"
+        },
+        {
+          "front": "I eat two eggs for breakfast.",
+          "back": "朝ご飯に卵を二つ食べます。",
+          "romanized": "asagohan ni tamago wo futatsu tabemasu",
+          "literal": "Breakfast at egg [obj] two eat."
+        }
       ]
     },
     {
       "id": "cheese",
       "levels": [
-        {"front": "cheese", "back": "チーズ", "romanized": "chīzu"},
-        {"front": "The sandwich has cheese.", "back": "サンドイッチにチーズが入っています。", "romanized": "sandoicchi ni chīzu ga haitte imasu", "literal": "Sandwich in cheese [subj] is-entered."}
+        {
+          "front": "cheese",
+          "back": "チーズ",
+          "romanized": "chīzu"
+        },
+        {
+          "front": "The sandwich has cheese.",
+          "back": "サンドイッチにチーズが入っています。",
+          "romanized": "sandoicchi ni chīzu ga haitte imasu",
+          "literal": "Sandwich in cheese [subj] is-entered."
+        }
       ]
     },
     {
       "id": "chicken",
       "levels": [
-        {"front": "chicken", "back": "鶏肉 / チキン", "romanized": "toriniku / chikin"},
-        {"front": "The chicken is delicious.", "back": "鶏肉はおいしいです。", "romanized": "toriniku wa oishii desu", "literal": "Chicken [topic] delicious is."}
+        {
+          "front": "chicken",
+          "back": "鶏肉 / チキン",
+          "romanized": "toriniku / chikin"
+        },
+        {
+          "front": "The chicken is delicious.",
+          "back": "鶏肉はおいしいです。",
+          "romanized": "toriniku wa oishii desu",
+          "literal": "Chicken [topic] delicious is."
+        }
       ]
     },
     {
       "id": "meat",
       "levels": [
-        {"front": "meat", "back": "肉", "romanized": "niku"},
-        {"front": "He doesn't eat meat.", "back": "彼は肉を食べません。", "romanized": "kare wa niku wo tabemasen", "literal": "He [topic] meat [obj] not-eat."}
+        {
+          "front": "meat",
+          "back": "肉",
+          "romanized": "niku"
+        },
+        {
+          "front": "He doesn't eat meat.",
+          "back": "彼は肉を食べません。",
+          "romanized": "kare wa niku wo tabemasen",
+          "literal": "He [topic] meat [obj] not-eat."
+        }
       ]
     },
     {
       "id": "fish",
       "levels": [
-        {"front": "fish", "back": "魚 / 魚介類", "romanized": "sakana / gyokai-rui"},
-        {"front": "I like fish.", "back": "魚が好きです。", "romanized": "sakana ga suki desu", "literal": "Fish [subj] like is."}
+        {
+          "front": "fish",
+          "back": "魚 / 魚介類",
+          "romanized": "sakana / gyokai-rui"
+        },
+        {
+          "front": "I like fish.",
+          "back": "魚が好きです。",
+          "romanized": "sakana ga suki desu",
+          "literal": "Fish [subj] like is."
+        }
       ]
     },
     {
       "id": "pork",
       "levels": [
-        {"front": "pork", "back": "豚肉", "romanized": "butaniku"},
-        {"front": "I don't eat pork.", "back": "豚肉は食べません。", "romanized": "butaniku wa tabemasen", "literal": "Pork [topic] not-eat."}
+        {
+          "front": "pork",
+          "back": "豚肉",
+          "romanized": "butaniku"
+        },
+        {
+          "front": "I don't eat pork.",
+          "back": "豚肉は食べません。",
+          "romanized": "butaniku wa tabemasen",
+          "literal": "Pork [topic] not-eat."
+        }
       ]
     },
     {
       "id": "fruit",
       "levels": [
-        {"front": "fruit", "back": "果物", "romanized": "kudamono"},
-        {"front": "I eat fruit every day.", "back": "毎日果物を食べます。", "romanized": "mainichi kudamono wo tabemasu", "literal": "Every-day fruit [obj] eat."}
+        {
+          "front": "fruit",
+          "back": "果物",
+          "romanized": "kudamono"
+        },
+        {
+          "front": "I eat fruit every day.",
+          "back": "毎日果物を食べます。",
+          "romanized": "mainichi kudamono wo tabemasu",
+          "literal": "Every-day fruit [obj] eat."
+        }
       ]
     },
     {
       "id": "apple",
       "levels": [
-        {"front": "apple", "back": "りんご", "romanized": "ringo"},
-        {"front": "An apple a day is healthy.", "back": "毎日りんごを食べると健康にいいです。", "romanized": "mainichi ringo wo taberu to kenkō ni ii desu", "literal": "Every-day apple [obj] eat if healthy to good is."}
+        {
+          "front": "apple",
+          "back": "りんご",
+          "romanized": "ringo"
+        },
+        {
+          "front": "An apple a day is healthy.",
+          "back": "毎日りんごを食べると健康にいいです。",
+          "romanized": "mainichi ringo wo taberu to kenkō ni ii desu",
+          "literal": "Every-day apple [obj] eat if healthy to good is."
+        }
       ]
     },
     {
       "id": "banana",
       "levels": [
-        {"front": "banana", "back": "バナナ", "romanized": "banana"},
-        {"front": "The bananas are ripe.", "back": "バナナは熟れています。", "romanized": "banana wa urete imasu", "literal": "Bananas [topic] ripened-are."}
+        {
+          "front": "banana",
+          "back": "バナナ",
+          "romanized": "banana"
+        },
+        {
+          "front": "The bananas are ripe.",
+          "back": "バナナは熟れています。",
+          "romanized": "banana wa urete imasu",
+          "literal": "Bananas [topic] ripened-are."
+        }
       ]
     },
     {
       "id": "orange",
       "levels": [
-        {"front": "orange", "back": "オレンジ / みかん", "romanized": "orenji / mikan"},
-        {"front": "I want an orange juice.", "back": "オレンジジュースが欲しいです。", "romanized": "orenji jūsu ga hoshii desu", "literal": "Orange juice [subj] want is."}
+        {
+          "front": "orange",
+          "back": "オレンジ / みかん",
+          "romanized": "orenji / mikan"
+        },
+        {
+          "front": "I want an orange juice.",
+          "back": "オレンジジュースが欲しいです。",
+          "romanized": "orenji jūsu ga hoshii desu",
+          "literal": "Orange juice [subj] want is."
+        }
       ]
     },
     {
       "id": "vegetable",
       "levels": [
-        {"front": "vegetable", "back": "野菜", "romanized": "yasai"},
-        {"front": "Eat your vegetables!", "back": "野菜を食べなさい！", "romanized": "yasai wo tabenasai", "literal": "Vegetables [obj] eat!"}
+        {
+          "front": "vegetable",
+          "back": "野菜",
+          "romanized": "yasai"
+        },
+        {
+          "front": "Eat your vegetables!",
+          "back": "野菜を食べなさい！",
+          "romanized": "yasai wo tabenasai",
+          "literal": "Vegetables [obj] eat!"
+        }
       ]
     },
     {
       "id": "potato",
       "levels": [
-        {"front": "potato", "back": "じゃがいも / ポテト", "romanized": "jagaimo / poteto"},
-        {"front": "I want mashed potatoes.", "back": "マッシュポテトが食べたいです。", "romanized": "masshu poteto ga tabetai desu", "literal": "Mashed potatoes [subj] want-to-eat is."}
+        {
+          "front": "potato",
+          "back": "じゃがいも / ポテト",
+          "romanized": "jagaimo / poteto"
+        },
+        {
+          "front": "I want mashed potatoes.",
+          "back": "マッシュポテトが食べたいです。",
+          "romanized": "masshu poteto ga tabetai desu",
+          "literal": "Mashed potatoes [subj] want-to-eat is."
+        }
       ]
     },
     {
       "id": "tomato",
       "levels": [
-        {"front": "tomato", "back": "トマト", "romanized": "tomato"},
-        {"front": "The salad has tomatoes.", "back": "サラダにトマトが入っています。", "romanized": "sarada ni tomato ga haitte imasu", "literal": "Salad in tomato [subj] is-entered."}
+        {
+          "front": "tomato",
+          "back": "トマト",
+          "romanized": "tomato"
+        },
+        {
+          "front": "The salad has tomatoes.",
+          "back": "サラダにトマトが入っています。",
+          "romanized": "sarada ni tomato ga haitte imasu",
+          "literal": "Salad in tomato [subj] is-entered."
+        }
       ]
     },
     {
       "id": "onion",
       "levels": [
-        {"front": "onion", "back": "たまねぎ / 玉ねぎ", "romanized": "tamanegi"},
-        {"front": "I don't like onions.", "back": "たまねぎが好きではありません。", "romanized": "tamanegi ga suki de wa arimasen", "literal": "Onion [subj] like is-not."}
+        {
+          "front": "onion",
+          "back": "たまねぎ / 玉ねぎ",
+          "romanized": "tamanegi"
+        },
+        {
+          "front": "I don't like onions.",
+          "back": "たまねぎが好きではありません。",
+          "romanized": "tamanegi ga suki de wa arimasen",
+          "literal": "Onion [subj] like is-not."
+        }
       ]
     },
     {
       "id": "salad",
       "levels": [
-        {"front": "salad", "back": "サラダ", "romanized": "sarada"},
-        {"front": "I'll have a salad.", "back": "サラダにします。", "romanized": "sarada ni shimasu", "literal": "Salad to make."}
+        {
+          "front": "salad",
+          "back": "サラダ",
+          "romanized": "sarada"
+        },
+        {
+          "front": "I'll have a salad.",
+          "back": "サラダにします。",
+          "romanized": "sarada ni shimasu",
+          "literal": "Salad to make."
+        }
       ]
     },
     {
       "id": "soup",
       "levels": [
-        {"front": "soup", "back": "スープ / 汁物", "romanized": "sūpu / shirumono"},
-        {"front": "The soup is hot.", "back": "スープは熱いです。", "romanized": "sūpu wa atsui desu", "literal": "Soup [topic] hot is."}
+        {
+          "front": "soup",
+          "back": "スープ / 汁物",
+          "romanized": "sūpu / shirumono"
+        },
+        {
+          "front": "The soup is hot.",
+          "back": "スープは熱いです。",
+          "romanized": "sūpu wa atsui desu",
+          "literal": "Soup [topic] hot is."
+        }
       ]
     },
     {
       "id": "sandwich",
       "levels": [
-        {"front": "sandwich", "back": "サンドイッチ", "romanized": "sandoicchi"},
-        {"front": "I made a sandwich for lunch.", "back": "昼ご飯にサンドイッチを作りました。", "romanized": "hirugohan ni sandoicchi wo tsukurimashita", "literal": "Lunch at sandwich [obj] made."}
+        {
+          "front": "sandwich",
+          "back": "サンドイッチ",
+          "romanized": "sandoicchi"
+        },
+        {
+          "front": "I made a sandwich for lunch.",
+          "back": "昼ご飯にサンドイッチを作りました。",
+          "romanized": "hirugohan ni sandoicchi wo tsukurimashita",
+          "literal": "Lunch at sandwich [obj] made."
+        }
       ]
     },
     {
       "id": "cake",
       "levels": [
-        {"front": "cake", "back": "ケーキ", "romanized": "kēki"},
-        {"front": "Do you want cake?", "back": "ケーキはいりますか？", "romanized": "kēki wa irimasu ka", "literal": "Cake [topic] need?"}
+        {
+          "front": "cake",
+          "back": "ケーキ",
+          "romanized": "kēki"
+        },
+        {
+          "front": "Do you want cake?",
+          "back": "ケーキはいりますか？",
+          "romanized": "kēki wa irimasu ka",
+          "literal": "Cake [topic] need?"
+        }
       ]
     },
     {
       "id": "cookie",
       "levels": [
-        {"front": "cookie", "back": "クッキー", "romanized": "kukkī"},
-        {"front": "These cookies are delicious.", "back": "このクッキーはおいしいです。", "romanized": "kono kukkī wa oishii desu", "literal": "This cookie [topic] delicious is."}
+        {
+          "front": "cookie",
+          "back": "クッキー",
+          "romanized": "kukkī"
+        },
+        {
+          "front": "These cookies are delicious.",
+          "back": "このクッキーはおいしいです。",
+          "romanized": "kono kukkī wa oishii desu",
+          "literal": "This cookie [topic] delicious is."
+        }
       ]
     },
     {
       "id": "chocolate",
       "levels": [
-        {"front": "chocolate", "back": "チョコレート", "romanized": "chokoreeto"},
-        {"front": "I love chocolate.", "back": "チョコレートが大好きです。", "romanized": "chokoreeto ga daisuki desu", "literal": "Chocolate [subj] very-like is."}
+        {
+          "front": "chocolate",
+          "back": "チョコレート",
+          "romanized": "chokoreeto"
+        },
+        {
+          "front": "I love chocolate.",
+          "back": "チョコレートが大好きです。",
+          "romanized": "chokoreeto ga daisuki desu",
+          "literal": "Chocolate [subj] very-like is."
+        }
       ]
     },
     {
       "id": "sugar",
       "levels": [
-        {"front": "sugar", "back": "砂糖", "romanized": "satō"},
-        {"front": "No sugar, please.", "back": "砂糖なしでお願いします。", "romanized": "satō nashi de onegai shimasu", "literal": "Sugar without please."}
+        {
+          "front": "sugar",
+          "back": "砂糖",
+          "romanized": "satō"
+        },
+        {
+          "front": "No sugar, please.",
+          "back": "砂糖なしでお願いします。",
+          "romanized": "satō nashi de onegai shimasu",
+          "literal": "Sugar without please."
+        }
       ]
     },
     {
       "id": "salt",
       "levels": [
-        {"front": "salt", "back": "塩", "romanized": "shio"},
-        {"front": "Can you pass the salt?", "back": "塩を取ってもらえますか？", "romanized": "shio wo totte moraemasu ka", "literal": "Salt [obj] take can?"}
+        {
+          "front": "salt",
+          "back": "塩",
+          "romanized": "shio"
+        },
+        {
+          "front": "Can you pass the salt?",
+          "back": "塩を取ってもらえますか？",
+          "romanized": "shio wo totte moraemasu ka",
+          "literal": "Salt [obj] take can?"
+        }
       ]
     },
     {
       "id": "pepper",
       "levels": [
-        {"front": "pepper", "back": "こしょう / ペッパー", "romanized": "koshō / peppā"},
-        {"front": "Can you pass the pepper?", "back": "こしょうを取ってもらえますか？", "romanized": "koshō wo totte moraemasu ka", "literal": "Pepper [obj] take can?"}
+        {
+          "front": "pepper",
+          "back": "こしょう / ペッパー",
+          "romanized": "koshō / peppā"
+        },
+        {
+          "front": "Can you pass the pepper?",
+          "back": "こしょうを取ってもらえますか？",
+          "romanized": "koshō wo totte moraemasu ka",
+          "literal": "Pepper [obj] take can?"
+        }
       ]
     },
     {
       "id": "butter",
       "levels": [
-        {"front": "butter", "back": "バター", "romanized": "batā"},
-        {"front": "I put butter on my bread.", "back": "パンにバターを塗ります。", "romanized": "pan ni batā wo nurimasu", "literal": "Bread to butter [obj] spread."}
+        {
+          "front": "butter",
+          "back": "バター",
+          "romanized": "batā"
+        },
+        {
+          "front": "I put butter on my bread.",
+          "back": "パンにバターを塗ります。",
+          "romanized": "pan ni batā wo nurimasu",
+          "literal": "Bread to butter [obj] spread."
+        }
       ]
     },
     {
       "id": "oil",
       "levels": [
-        {"front": "oil", "back": "油 / オイル", "romanized": "abura / oiru"},
-        {"front": "Cook with olive oil.", "back": "オリーブオイルで調理します。", "romanized": "orību oiru de chōri shimasu", "literal": "Olive oil with cook."}
+        {
+          "front": "oil",
+          "back": "油 / オイル",
+          "romanized": "abura / oiru"
+        },
+        {
+          "front": "Cook with olive oil.",
+          "back": "オリーブオイルで調理します。",
+          "romanized": "orību oiru de chōri shimasu",
+          "literal": "Olive oil with cook."
+        }
       ]
     },
     {
       "id": "coffee",
       "levels": [
-        {"front": "coffee", "back": "コーヒー", "romanized": "kōhī"},
-        {"front": "I like coffee in the morning.", "back": "朝コーヒーが好きです。", "romanized": "asa kōhī ga suki desu", "literal": "Morning coffee [subj] like is."}
+        {
+          "front": "coffee",
+          "back": "コーヒー",
+          "romanized": "kōhī"
+        },
+        {
+          "front": "I like coffee in the morning.",
+          "back": "朝コーヒーが好きです。",
+          "romanized": "asa kōhī ga suki desu",
+          "literal": "Morning coffee [subj] like is."
+        }
       ]
     },
     {
       "id": "tea",
       "levels": [
-        {"front": "tea", "back": "お茶 / 紅茶", "romanized": "ocha / kōcha", "grammarNote": "'Ocha' (お茶) refers to green tea by default in Japan. 'Kōcha' (紅茶) is black tea (literally 'red tea'). If you just say 'ocha kudasai' at a Japanese restaurant, you'll typically get green tea."},
-        {"front": "Would you like some tea?", "back": "お茶はいかがですか？", "romanized": "ocha wa ikaga desu ka", "literal": "Tea [topic] how is?"}
+        {
+          "front": "tea",
+          "back": "お茶 / 紅茶",
+          "romanized": "ocha / kōcha",
+          "grammarNote": "'Ocha' (お茶) refers to green tea by default in Japan. 'Kōcha' (紅茶) is black tea (literally 'red tea'). If you just say 'ocha kudasai' at a Japanese restaurant, you'll typically get green tea."
+        },
+        {
+          "front": "Would you like some tea?",
+          "back": "お茶はいかがですか？",
+          "romanized": "ocha wa ikaga desu ka",
+          "literal": "Tea [topic] how is?"
+        }
       ]
     },
     {
       "id": "wine",
       "levels": [
-        {"front": "wine", "back": "ワイン", "romanized": "wain"},
-        {"front": "A glass of red wine, please.", "back": "赤ワインを一杯ください。", "romanized": "aka wain wo ippai kudasai", "literal": "Red wine [obj] one-glass please give."}
+        {
+          "front": "wine",
+          "back": "ワイン",
+          "romanized": "wain"
+        },
+        {
+          "front": "A glass of red wine, please.",
+          "back": "赤ワインを一杯ください。",
+          "romanized": "aka wain wo ippai kudasai",
+          "literal": "Red wine [obj] one-glass please give."
+        }
       ]
     },
     {
       "id": "beer",
       "levels": [
-        {"front": "beer", "back": "ビール", "romanized": "bīru"},
-        {"front": "Two beers, please.", "back": "ビールを二本ください。", "romanized": "bīru wo nihon kudasai", "literal": "Beer [obj] two please give."}
+        {
+          "front": "beer",
+          "back": "ビール",
+          "romanized": "bīru"
+        },
+        {
+          "front": "Two beers, please.",
+          "back": "ビールを二本ください。",
+          "romanized": "bīru wo nihon kudasai",
+          "literal": "Beer [obj] two please give."
+        }
       ]
     },
     {
       "id": "juice",
       "levels": [
-        {"front": "juice", "back": "ジュース", "romanized": "jūsu"},
-        {"front": "I want orange juice.", "back": "オレンジジュースが欲しいです。", "romanized": "orenji jūsu ga hoshii desu", "literal": "Orange juice [subj] want is."}
+        {
+          "front": "juice",
+          "back": "ジュース",
+          "romanized": "jūsu"
+        },
+        {
+          "front": "I want orange juice.",
+          "back": "オレンジジュースが欲しいです。",
+          "romanized": "orenji jūsu ga hoshii desu",
+          "literal": "Orange juice [subj] want is."
+        }
       ]
     },
     {
       "id": "breakfast",
       "levels": [
-        {"front": "breakfast", "back": "朝ご飯 / 朝食", "romanized": "asagohan / chōshoku"},
-        {"front": "I have breakfast at seven.", "back": "7時に朝ご飯を食べます。", "romanized": "shichiji ni asagohan wo tabemasu", "literal": "7 o'clock at breakfast [obj] eat."}
+        {
+          "front": "breakfast",
+          "back": "朝ご飯 / 朝食",
+          "romanized": "asagohan / chōshoku"
+        },
+        {
+          "front": "I have breakfast at seven.",
+          "back": "7時に朝ご飯を食べます。",
+          "romanized": "shichiji ni asagohan wo tabemasu",
+          "literal": "7 o'clock at breakfast [obj] eat."
+        }
       ]
     },
     {
       "id": "lunch",
       "levels": [
-        {"front": "lunch", "back": "昼ご飯 / 昼食", "romanized": "hirugohan / chūshoku"},
-        {"front": "We have lunch at two.", "back": "2時に昼ご飯を食べます。", "romanized": "niji ni hirugohan wo tabemasu", "literal": "2 o'clock at lunch [obj] eat."}
+        {
+          "front": "lunch",
+          "back": "昼ご飯 / 昼食",
+          "romanized": "hirugohan / chūshoku"
+        },
+        {
+          "front": "We have lunch at two.",
+          "back": "2時に昼ご飯を食べます。",
+          "romanized": "niji ni hirugohan wo tabemasu",
+          "literal": "2 o'clock at lunch [obj] eat."
+        }
       ]
     },
     {
       "id": "dinner",
       "levels": [
-        {"front": "dinner", "back": "夕ご飯 / 夕食", "romanized": "yūgohan / yūshoku"},
-        {"front": "Dinner is ready.", "back": "夕ご飯の準備ができました。", "romanized": "yūgohan no junbi ga dekimashita", "literal": "Dinner 's preparation [subj] finished."}
+        {
+          "front": "dinner",
+          "back": "夕ご飯 / 夕食",
+          "romanized": "yūgohan / yūshoku"
+        },
+        {
+          "front": "Dinner is ready.",
+          "back": "夕ご飯の準備ができました。",
+          "romanized": "yūgohan no junbi ga dekimashita",
+          "literal": "Dinner 's preparation [subj] finished."
+        }
       ]
     },
     {
       "id": "snack",
       "levels": [
-        {"front": "snack", "back": "おやつ / 軽食", "romanized": "oyatsu / keishoku"},
-        {"front": "I have a snack in the afternoon.", "back": "午後におやつを食べます。", "romanized": "gogo ni oyatsu wo tabemasu", "literal": "Afternoon at snack [obj] eat."}
+        {
+          "front": "snack",
+          "back": "おやつ / 軽食",
+          "romanized": "oyatsu / keishoku"
+        },
+        {
+          "front": "I have a snack in the afternoon.",
+          "back": "午後におやつを食べます。",
+          "romanized": "gogo ni oyatsu wo tabemasu",
+          "literal": "Afternoon at snack [obj] eat."
+        }
       ]
     },
     {
       "id": "meal",
       "levels": [
-        {"front": "meal", "back": "食事 / ご飯", "romanized": "shokuji / gohan"},
-        {"front": "This is a delicious meal.", "back": "これはおいしい食事です。", "romanized": "kore wa oishii shokuji desu", "literal": "This [topic] delicious meal is."}
+        {
+          "front": "meal",
+          "back": "食事 / ご飯",
+          "romanized": "shokuji / gohan"
+        },
+        {
+          "front": "This is a delicious meal.",
+          "back": "これはおいしい食事です。",
+          "romanized": "kore wa oishii shokuji desu",
+          "literal": "This [topic] delicious meal is."
+        }
       ]
     },
     {
       "id": "recipe",
       "levels": [
-        {"front": "recipe", "back": "レシピ", "romanized": "reshipi"},
-        {"front": "Do you have a good recipe?", "back": "いいレシピを知っていますか？", "romanized": "ii reshipi wo shitte imasu ka", "literal": "Good recipe [obj] know?"}
+        {
+          "front": "recipe",
+          "back": "レシピ",
+          "romanized": "reshipi"
+        },
+        {
+          "front": "Do you have a good recipe?",
+          "back": "いいレシピを知っていますか？",
+          "romanized": "ii reshipi wo shitte imasu ka",
+          "literal": "Good recipe [obj] know?"
+        }
       ]
     },
     {
       "id": "flavor",
       "levels": [
-        {"front": "flavor", "back": "味 / フレーバー", "romanized": "aji / furēbā"},
-        {"front": "What flavor do you want?", "back": "どんな味がいいですか？", "romanized": "donna aji ga ii desu ka", "literal": "What flavor [subj] good is?"}
+        {
+          "front": "flavor",
+          "back": "味 / フレーバー",
+          "romanized": "aji / furēbā"
+        },
+        {
+          "front": "What flavor do you want?",
+          "back": "どんな味がいいですか？",
+          "romanized": "donna aji ga ii desu ka",
+          "literal": "What flavor [subj] good is?"
+        }
       ]
     },
     {
       "id": "ingredient",
       "levels": [
-        {"front": "ingredient", "back": "材料 / 食材", "romanized": "zairyō / shokuzai"},
-        {"front": "What ingredients do you need?", "back": "どんな材料が必要ですか？", "romanized": "donna zairyō ga hitsuyō desu ka", "literal": "What ingredients [subj] necessary is?"}
+        {
+          "front": "ingredient",
+          "back": "材料 / 食材",
+          "romanized": "zairyō / shokuzai"
+        },
+        {
+          "front": "What ingredients do you need?",
+          "back": "どんな材料が必要ですか？",
+          "romanized": "donna zairyō ga hitsuyō desu ka",
+          "literal": "What ingredients [subj] necessary is?"
+        }
       ]
     },
     {
       "id": "menu",
       "levels": [
-        {"front": "menu", "back": "メニュー", "romanized": "menyū"},
-        {"front": "Can I see the menu?", "back": "メニューを見せてもらえますか？", "romanized": "menyū wo misete moraemasu ka", "literal": "Menu [obj] show can?"}
+        {
+          "front": "menu",
+          "back": "メニュー",
+          "romanized": "menyū"
+        },
+        {
+          "front": "Can I see the menu?",
+          "back": "メニューを見せてもらえますか？",
+          "romanized": "menyū wo misete moraemasu ka",
+          "literal": "Menu [obj] show can?"
+        }
       ]
     },
     {
       "id": "restaurant",
       "levels": [
-        {"front": "restaurant", "back": "レストラン / 料理店", "romanized": "resutoran / ryōriten"},
-        {"front": "This restaurant is good.", "back": "このレストランはいいです。", "romanized": "kono resutoran wa ii desu", "literal": "This restaurant [topic] good is."}
+        {
+          "front": "restaurant",
+          "back": "レストラン / 料理店",
+          "romanized": "resutoran / ryōriten"
+        },
+        {
+          "front": "This restaurant is good.",
+          "back": "このレストランはいいです。",
+          "romanized": "kono resutoran wa ii desu",
+          "literal": "This restaurant [topic] good is."
+        }
       ]
     },
     {
       "id": "kitchen",
       "levels": [
-        {"front": "kitchen", "back": "キッチン / 台所", "romanized": "kicchin / daidokoro"},
-        {"front": "The kitchen is clean.", "back": "キッチンはきれいです。", "romanized": "kicchin wa kirei desu", "literal": "Kitchen [topic] clean is."}
+        {
+          "front": "kitchen",
+          "back": "キッチン / 台所",
+          "romanized": "kicchin / daidokoro"
+        },
+        {
+          "front": "The kitchen is clean.",
+          "back": "キッチンはきれいです。",
+          "romanized": "kicchin wa kirei desu",
+          "literal": "Kitchen [topic] clean is."
+        }
       ]
     },
     {
       "id": "oven",
       "levels": [
-        {"front": "oven", "back": "オーブン", "romanized": "ōbun"},
-        {"front": "The oven is hot.", "back": "オーブンは熱いです。", "romanized": "ōbun wa atsui desu", "literal": "Oven [topic] hot is."}
+        {
+          "front": "oven",
+          "back": "オーブン",
+          "romanized": "ōbun"
+        },
+        {
+          "front": "The oven is hot.",
+          "back": "オーブンは熱いです。",
+          "romanized": "ōbun wa atsui desu",
+          "literal": "Oven [topic] hot is."
+        }
       ]
     },
     {
       "id": "stove",
       "levels": [
-        {"front": "stove", "back": "コンロ / ガスレンジ", "romanized": "konro / gasu renji"},
-        {"front": "Cook it on the stove.", "back": "コンロで調理してください。", "romanized": "konro de chōri shite kudasai", "literal": "Stove at cook please."}
+        {
+          "front": "stove",
+          "back": "コンロ / ガスレンジ",
+          "romanized": "konro / gasu renji"
+        },
+        {
+          "front": "Cook it on the stove.",
+          "back": "コンロで調理してください。",
+          "romanized": "konro de chōri shite kudasai",
+          "literal": "Stove at cook please."
+        }
       ]
     },
     {
       "id": "knife",
       "levels": [
-        {"front": "knife", "back": "包丁 / ナイフ", "romanized": "hōchō / naifu"},
-        {"front": "I need a sharp knife.", "back": "よく切れる包丁が必要です。", "romanized": "yoku kireru hōchō ga hitsuyō desu", "literal": "Well-cutting knife [subj] necessary is."}
+        {
+          "front": "knife",
+          "back": "包丁 / ナイフ",
+          "romanized": "hōchō / naifu"
+        },
+        {
+          "front": "I need a sharp knife.",
+          "back": "よく切れる包丁が必要です。",
+          "romanized": "yoku kireru hōchō ga hitsuyō desu",
+          "literal": "Well-cutting knife [subj] necessary is."
+        }
       ]
     },
     {
       "id": "fork",
       "levels": [
-        {"front": "fork", "back": "フォーク", "romanized": "fōku"},
-        {"front": "Can I have a fork?", "back": "フォークをもらえますか？", "romanized": "fōku wo moraemasu ka", "literal": "Fork [obj] can-receive?"}
+        {
+          "front": "fork",
+          "back": "フォーク",
+          "romanized": "fōku"
+        },
+        {
+          "front": "Can I have a fork?",
+          "back": "フォークをもらえますか？",
+          "romanized": "fōku wo moraemasu ka",
+          "literal": "Fork [obj] can-receive?"
+        }
       ]
     },
     {
       "id": "spoon",
       "levels": [
-        {"front": "spoon", "back": "スプーン", "romanized": "supūn"},
-        {"front": "I need a spoon.", "back": "スプーンが必要です。", "romanized": "supūn ga hitsuyō desu", "literal": "Spoon [subj] necessary is."}
+        {
+          "front": "spoon",
+          "back": "スプーン",
+          "romanized": "supūn"
+        },
+        {
+          "front": "I need a spoon.",
+          "back": "スプーンが必要です。",
+          "romanized": "supūn ga hitsuyō desu",
+          "literal": "Spoon [subj] necessary is."
+        }
       ]
     },
     {
       "id": "plate",
       "levels": [
-        {"front": "plate", "back": "お皿 / 皿", "romanized": "osara / sara"},
-        {"front": "The plate is dirty.", "back": "お皿が汚れています。", "romanized": "osara ga yogorete imasu", "literal": "Plate [subj] dirties-is."}
+        {
+          "front": "plate",
+          "back": "お皿 / 皿",
+          "romanized": "osara / sara"
+        },
+        {
+          "front": "The plate is dirty.",
+          "back": "お皿が汚れています。",
+          "romanized": "osara ga yogorete imasu",
+          "literal": "Plate [subj] dirties-is."
+        }
       ]
     },
     {
       "id": "bowl",
       "levels": [
-        {"front": "bowl", "back": "ボウル / お碗", "romanized": "bōru / owan"},
-        {"front": "Fill the bowl with soup.", "back": "ボウルにスープを入れてください。", "romanized": "bōru ni sūpu wo irete kudasai", "literal": "Bowl in soup [obj] put please."}
+        {
+          "front": "bowl",
+          "back": "ボウル / お碗",
+          "romanized": "bōru / owan"
+        },
+        {
+          "front": "Fill the bowl with soup.",
+          "back": "ボウルにスープを入れてください。",
+          "romanized": "bōru ni sūpu wo irete kudasai",
+          "literal": "Bowl in soup [obj] put please."
+        }
       ]
     },
     {
       "id": "glass",
       "levels": [
-        {"front": "glass", "back": "コップ / グラス", "romanized": "koppu / gurasu"},
-        {"front": "A glass of water, please.", "back": "水を一杯ください。", "romanized": "mizu wo ippai kudasai", "literal": "Water [obj] one-glass please give."}
+        {
+          "front": "glass",
+          "back": "コップ / グラス",
+          "romanized": "koppu / gurasu"
+        },
+        {
+          "front": "A glass of water, please.",
+          "back": "水を一杯ください。",
+          "romanized": "mizu wo ippai kudasai",
+          "literal": "Water [obj] one-glass please give."
+        }
       ]
     },
     {
       "id": "bottle",
       "levels": [
-        {"front": "bottle", "back": "ボトル / 瓶", "romanized": "botoru / bin"},
-        {"front": "A bottle of wine, please.", "back": "ワインを一本ください。", "romanized": "wain wo ippon kudasai", "literal": "Wine [obj] one-bottle please give."}
+        {
+          "front": "bottle",
+          "back": "ボトル / 瓶",
+          "romanized": "botoru / bin"
+        },
+        {
+          "front": "A bottle of wine, please.",
+          "back": "ワインを一本ください。",
+          "romanized": "wain wo ippon kudasai",
+          "literal": "Wine [obj] one-bottle please give."
+        }
       ]
     },
     {
       "id": "table",
       "levels": [
-        {"front": "table", "back": "テーブル / 机", "romanized": "tēburu / tsukue"},
-        {"front": "Our table is ready.", "back": "私たちのテーブルの準備ができました。", "romanized": "watashitachi no tēburu no junbi ga dekimashita", "literal": "Our table 's preparation [subj] finished."}
+        {
+          "front": "table",
+          "back": "テーブル / 机",
+          "romanized": "tēburu / tsukue"
+        },
+        {
+          "front": "Our table is ready.",
+          "back": "私たちのテーブルの準備ができました。",
+          "romanized": "watashitachi no tēburu no junbi ga dekimashita",
+          "literal": "Our table 's preparation [subj] finished."
+        }
       ]
     },
     {
       "id": "waiter",
       "levels": [
-        {"front": "waiter", "back": "ウェイター / 店員", "romanized": "weitā / ten'in"},
-        {"front": "Waiter, the bill please.", "back": "すみません、お会計をお願いします。", "romanized": "sumimasen, okaikei wo onegai shimasu", "literal": "Excuse me, bill [obj] please."}
+        {
+          "front": "waiter",
+          "back": "ウェイター / 店員",
+          "romanized": "weitā / ten'in"
+        },
+        {
+          "front": "Waiter, the bill please.",
+          "back": "すみません、お会計をお願いします。",
+          "romanized": "sumimasen, okaikei wo onegai shimasu",
+          "literal": "Excuse me, bill [obj] please."
+        }
       ]
     },
     {
       "id": "hungry",
       "levels": [
-        {"front": "hungry", "back": "お腹が空いた / 空腹な", "romanized": "onaka ga suita / kūfuku na", "grammarNote": "In Japanese, hunger is expressed as a physical state: 'onaka ga suita' (お腹が空いた) literally means 'my stomach has become empty'. Similarly, thirst: 'nodo ga kawaita' (喉が渇いた) = 'my throat became dry'. These are transitory states, not personality traits."},
-        {"front": "I'm hungry. Are you thirsty?", "back": "お腹が空きました。喉が渇いていますか？", "romanized": "onaka ga sukimashita. nodo ga kawaite imasu ka", "literal": "Stomach [subj] empty-became. Throat [subj] dried-is?"}
+        {
+          "front": "hungry",
+          "back": "お腹が空いた / 空腹な",
+          "romanized": "onaka ga suita / kūfuku na",
+          "grammarNote": "In Japanese, hunger is expressed as a physical state: 'onaka ga suita' (お腹が空いた) literally means 'my stomach has become empty'. Similarly, thirst: 'nodo ga kawaita' (喉が渇いた) = 'my throat became dry'. These are transitory states, not personality traits."
+        },
+        {
+          "front": "I'm hungry. Are you thirsty?",
+          "back": "お腹が空きました。喉が渇いていますか？",
+          "romanized": "onaka ga sukimashita. nodo ga kawaite imasu ka",
+          "literal": "Stomach [subj] empty-became. Throat [subj] dried-is?"
+        }
       ]
     },
     {
       "id": "thirsty",
       "levels": [
-        {"front": "thirsty", "back": "喉が渇いた", "romanized": "nodo ga kawaita"},
-        {"front": "I'm thirsty.", "back": "喉が渇きました。", "romanized": "nodo ga kawakimashita", "literal": "Throat [subj] dried."}
+        {
+          "front": "thirsty",
+          "back": "喉が渇いた",
+          "romanized": "nodo ga kawaita"
+        },
+        {
+          "front": "I'm thirsty.",
+          "back": "喉が渇きました。",
+          "romanized": "nodo ga kawakimashita",
+          "literal": "Throat [subj] dried."
+        }
       ]
     },
     {
       "id": "eat",
       "levels": [
-        {"front": "eat", "back": "食べる", "romanized": "taberu"},
-        {"front": "Let's eat!", "back": "食べましょう！", "romanized": "tabemashō"}
+        {
+          "front": "eat",
+          "back": "食べる",
+          "romanized": "taberu"
+        },
+        {
+          "front": "Let's eat!",
+          "back": "食べましょう！",
+          "romanized": "tabemashō"
+        }
       ]
     },
     {
       "id": "drink",
       "levels": [
-        {"front": "drink", "back": "飲む", "romanized": "nomu"},
-        {"front": "Would you like something to drink?", "back": "何か飲み物はいかがですか？", "romanized": "nanika nomimono wa ikaga desu ka", "literal": "Something drink [topic] how is?"}
+        {
+          "front": "drink",
+          "back": "飲む",
+          "romanized": "nomu"
+        },
+        {
+          "front": "Would you like something to drink?",
+          "back": "何か飲み物はいかがですか？",
+          "romanized": "nanika nomimono wa ikaga desu ka",
+          "literal": "Something drink [topic] how is?"
+        }
       ]
     },
     {
       "id": "cook",
       "levels": [
-        {"front": "cook", "back": "料理する / 調理する", "romanized": "ryōri suru / chōri suru"},
-        {"front": "She cooks very well.", "back": "彼女はとても料理が上手です。", "romanized": "kanojo wa totemo ryōri ga jōzu desu", "literal": "She [topic] very cooking [subj] skilled is."}
+        {
+          "front": "cook",
+          "back": "料理する / 調理する",
+          "romanized": "ryōri suru / chōri suru"
+        },
+        {
+          "front": "She cooks very well.",
+          "back": "彼女はとても料理が上手です。",
+          "romanized": "kanojo wa totemo ryōri ga jōzu desu",
+          "literal": "She [topic] very cooking [subj] skilled is."
+        }
       ]
     },
     {
       "id": "bake",
       "levels": [
-        {"front": "bake", "back": "焼く / オーブンで焼く", "romanized": "yaku / ōbun de yaku"},
-        {"front": "I bake bread on Sundays.", "back": "日曜日にパンを焼きます。", "romanized": "nichiyōbi ni pan wo yakimasu", "literal": "Sunday at bread [obj] bake."}
+        {
+          "front": "bake",
+          "back": "焼く / オーブンで焼く",
+          "romanized": "yaku / ōbun de yaku"
+        },
+        {
+          "front": "I bake bread on Sundays.",
+          "back": "日曜日にパンを焼きます。",
+          "romanized": "nichiyōbi ni pan wo yakimasu",
+          "literal": "Sunday at bread [obj] bake."
+        }
       ]
     },
     {
       "id": "fry",
       "levels": [
-        {"front": "fry", "back": "揚げる / 炒める", "romanized": "ageru / itameru"},
-        {"front": "Fry the onions in oil.", "back": "油でたまねぎを炒めてください。", "romanized": "abura de tamanegi wo itamete kudasai", "literal": "Oil with onion [obj] fry please."}
+        {
+          "front": "fry",
+          "back": "揚げる / 炒める",
+          "romanized": "ageru / itameru"
+        },
+        {
+          "front": "Fry the onions in oil.",
+          "back": "油でたまねぎを炒めてください。",
+          "romanized": "abura de tamanegi wo itamete kudasai",
+          "literal": "Oil with onion [obj] fry please."
+        }
       ]
     },
     {
       "id": "roast",
       "levels": [
-        {"front": "roast", "back": "ローストする / 焼く", "romanized": "rōsuto suru / yaku"},
-        {"front": "Roast the chicken for one hour.", "back": "鶏肉を1時間ローストしてください。", "romanized": "toriniku wo ichijikan rōsuto shite kudasai", "literal": "Chicken [obj] one-hour roast please."}
+        {
+          "front": "roast",
+          "back": "ローストする / 焼く",
+          "romanized": "rōsuto suru / yaku"
+        },
+        {
+          "front": "Roast the chicken for one hour.",
+          "back": "鶏肉を1時間ローストしてください。",
+          "romanized": "toriniku wo ichijikan rōsuto shite kudasai",
+          "literal": "Chicken [obj] one-hour roast please."
+        }
       ]
     },
     {
       "id": "chop",
       "levels": [
-        {"front": "chop", "back": "刻む / 切る", "romanized": "kizamu / kiru"},
-        {"front": "Chop the onions.", "back": "たまねぎを刻んでください。", "romanized": "tamanegi wo kizande kudasai", "literal": "Onion [obj] chop please."}
+        {
+          "front": "chop",
+          "back": "刻む / 切る",
+          "romanized": "kizamu / kiru"
+        },
+        {
+          "front": "Chop the onions.",
+          "back": "たまねぎを刻んでください。",
+          "romanized": "tamanegi wo kizande kudasai",
+          "literal": "Onion [obj] chop please."
+        }
       ]
     },
     {
       "id": "slice",
       "levels": [
-        {"front": "slice", "back": "薄く切る / スライスする", "romanized": "usuku kiru / suraisu suru"},
-        {"front": "Slice the bread.", "back": "パンを薄く切ってください。", "romanized": "pan wo usuku kitte kudasai", "literal": "Bread [obj] thinly cut please."}
+        {
+          "front": "slice",
+          "back": "薄く切る / スライスする",
+          "romanized": "usuku kiru / suraisu suru"
+        },
+        {
+          "front": "Slice the bread.",
+          "back": "パンを薄く切ってください。",
+          "romanized": "pan wo usuku kitte kudasai",
+          "literal": "Bread [obj] thinly cut please."
+        }
       ]
     },
     {
       "id": "mix",
       "levels": [
-        {"front": "mix", "back": "混ぜる", "romanized": "mazeru"},
-        {"front": "Mix all the ingredients.", "back": "すべての材料を混ぜてください。", "romanized": "subete no zairyō wo mazete kudasai", "literal": "All 's ingredients [obj] mix please."}
+        {
+          "front": "mix",
+          "back": "混ぜる",
+          "romanized": "mazeru"
+        },
+        {
+          "front": "Mix all the ingredients.",
+          "back": "すべての材料を混ぜてください。",
+          "romanized": "subete no zairyō wo mazete kudasai",
+          "literal": "All 's ingredients [obj] mix please."
+        }
       ]
     },
     {
       "id": "stir",
       "levels": [
-        {"front": "stir", "back": "かき混ぜる / かき回す", "romanized": "kakimazeru / kakimawasu"},
-        {"front": "Stir the soup.", "back": "スープをかき混ぜてください。", "romanized": "sūpu wo kakimazete kudasai", "literal": "Soup [obj] stir please."}
+        {
+          "front": "stir",
+          "back": "かき混ぜる / かき回す",
+          "romanized": "kakimazeru / kakimawasu"
+        },
+        {
+          "front": "Stir the soup.",
+          "back": "スープをかき混ぜてください。",
+          "romanized": "sūpu wo kakimazete kudasai",
+          "literal": "Soup [obj] stir please."
+        }
       ]
     },
     {
       "id": "whisk",
       "levels": [
-        {"front": "whisk", "back": "泡立てる / 混ぜ合わせる", "romanized": "awadateru / mazeawaseru"},
-        {"front": "Whisk the eggs.", "back": "卵を泡立ててください。", "romanized": "tamago wo awadatete kudasai", "literal": "Eggs [obj] whisk please."}
+        {
+          "front": "whisk",
+          "back": "泡立てる / 混ぜ合わせる",
+          "romanized": "awadateru / mazeawaseru"
+        },
+        {
+          "front": "Whisk the eggs.",
+          "back": "卵を泡立ててください。",
+          "romanized": "tamago wo awadatete kudasai",
+          "literal": "Eggs [obj] whisk please."
+        }
       ]
     },
     {
       "id": "pour",
       "levels": [
-        {"front": "pour", "back": "注ぐ / 入れる", "romanized": "sosogu / ireru"},
-        {"front": "Pour the water into the glass.", "back": "グラスに水を注いでください。", "romanized": "gurasu ni mizu wo sosoide kudasai", "literal": "Glass in water [obj] pour please."}
+        {
+          "front": "pour",
+          "back": "注ぐ / 入れる",
+          "romanized": "sosogu / ireru"
+        },
+        {
+          "front": "Pour the water into the glass.",
+          "back": "グラスに水を注いでください。",
+          "romanized": "gurasu ni mizu wo sosoide kudasai",
+          "literal": "Glass in water [obj] pour please."
+        }
       ]
     },
     {
       "id": "serve",
       "levels": [
-        {"front": "serve", "back": "出す / 提供する", "romanized": "dasu / teikyō suru"},
-        {"front": "The waiter served the food.", "back": "ウェイターが料理を出しました。", "romanized": "weitā ga ryōri wo dashimashita", "literal": "Waiter [subj] dish [obj] served."}
+        {
+          "front": "serve",
+          "back": "出す / 提供する",
+          "romanized": "dasu / teikyō suru"
+        },
+        {
+          "front": "The waiter served the food.",
+          "back": "ウェイターが料理を出しました。",
+          "romanized": "weitā ga ryōri wo dashimashita",
+          "literal": "Waiter [subj] dish [obj] served."
+        }
       ]
     },
     {
       "id": "feed",
       "levels": [
-        {"front": "feed", "back": "食べさせる / 与える", "romanized": "tabesaseru / ataeru"},
-        {"front": "She feeds the baby.", "back": "彼女は赤ちゃんに食べさせています。", "romanized": "kanojo wa akachan ni tabesasete imasu", "literal": "She [topic] baby to eating-makes-is."}
+        {
+          "front": "feed",
+          "back": "食べさせる / 与える",
+          "romanized": "tabesaseru / ataeru"
+        },
+        {
+          "front": "She feeds the baby.",
+          "back": "彼女は赤ちゃんに食べさせています。",
+          "romanized": "kanojo wa akachan ni tabesasete imasu",
+          "literal": "She [topic] baby to eating-makes-is."
+        }
       ]
     },
     {
       "id": "dine",
       "levels": [
-        {"front": "dine", "back": "食事する / 外食する", "romanized": "shokuji suru / gaishoku suru"},
-        {"front": "We dined at a nice restaurant.", "back": "素敵なレストランで食事しました。", "romanized": "suteki na resutoran de shokuji shimashita", "literal": "Wonderful restaurant at dined."}
+        {
+          "front": "dine",
+          "back": "食事する / 外食する",
+          "romanized": "shokuji suru / gaishoku suru"
+        },
+        {
+          "front": "We dined at a nice restaurant.",
+          "back": "素敵なレストランで食事しました。",
+          "romanized": "suteki na resutoran de shokuji shimashita",
+          "literal": "Wonderful restaurant at dined."
+        }
       ]
     },
     {
       "id": "chew",
       "levels": [
-        {"front": "chew", "back": "噛む", "romanized": "kamu"},
-        {"front": "Chew your food slowly.", "back": "食べ物をゆっくり噛んでください。", "romanized": "tabemono wo yukkuri kande kudasai", "literal": "Food [obj] slowly chew please."}
+        {
+          "front": "chew",
+          "back": "噛む",
+          "romanized": "kamu"
+        },
+        {
+          "front": "Chew your food slowly.",
+          "back": "食べ物をゆっくり噛んでください。",
+          "romanized": "tabemono wo yukkuri kande kudasai",
+          "literal": "Food [obj] slowly chew please."
+        }
       ]
     },
     {
       "id": "swallow",
       "levels": [
-        {"front": "swallow", "back": "飲み込む / 嚥下する", "romanized": "nomikomu / enka suru"},
-        {"front": "Swallow the pill with water.", "back": "水で薬を飲み込んでください。", "romanized": "mizu de kusuri wo nomikonde kudasai", "literal": "Water with medicine [obj] swallow please."}
+        {
+          "front": "swallow",
+          "back": "飲み込む / 嚥下する",
+          "romanized": "nomikomu / enka suru"
+        },
+        {
+          "front": "Swallow the pill with water.",
+          "back": "水で薬を飲み込んでください。",
+          "romanized": "mizu de kusuri wo nomikonde kudasai",
+          "literal": "Water with medicine [obj] swallow please."
+        }
       ]
     },
     {
       "id": "season",
       "levels": [
-        {"front": "season", "back": "味付けする / 調味する", "romanized": "ajiuke suru / chōmi suru"},
-        {"front": "Season with salt and pepper.", "back": "塩とこしょうで味付けしてください。", "romanized": "shio to koshō de ajiuke shite kudasai", "literal": "Salt and pepper with season please."}
+        {
+          "front": "season",
+          "back": "味付けする / 調味する",
+          "romanized": "ajiuke suru / chōmi suru"
+        },
+        {
+          "front": "Season with salt and pepper.",
+          "back": "塩とこしょうで味付けしてください。",
+          "romanized": "shio to koshō de ajiuke shite kudasai",
+          "literal": "Salt and pepper with season please."
+        }
       ]
     },
     {
       "id": "fresh",
       "levels": [
-        {"front": "fresh", "back": "新鮮な / 新しい", "romanized": "shinsen na / atarashii"},
-        {"front": "The bread is fresh.", "back": "パンは新鮮です。", "romanized": "pan wa shinsen desu", "literal": "Bread [topic] fresh is."}
+        {
+          "front": "fresh",
+          "back": "新鮮な / 新しい",
+          "romanized": "shinsen na / atarashii"
+        },
+        {
+          "front": "The bread is fresh.",
+          "back": "パンは新鮮です。",
+          "romanized": "pan wa shinsen desu",
+          "literal": "Bread [topic] fresh is."
+        }
       ]
     },
     {
       "id": "ripe",
       "levels": [
-        {"front": "ripe", "back": "熟れた / 完熟の", "romanized": "ureta / kanjuku no"},
-        {"front": "The tomatoes are ripe.", "back": "トマトは熟れています。", "romanized": "tomato wa urete imasu", "literal": "Tomatoes [topic] ripened-are."}
+        {
+          "front": "ripe",
+          "back": "熟れた / 完熟の",
+          "romanized": "ureta / kanjuku no"
+        },
+        {
+          "front": "The tomatoes are ripe.",
+          "back": "トマトは熟れています。",
+          "romanized": "tomato wa urete imasu",
+          "literal": "Tomatoes [topic] ripened-are."
+        }
       ]
     },
     {
       "id": "cooked",
       "levels": [
-        {"front": "cooked", "back": "調理された / 火が通った", "romanized": "chōri sareta / hi ga tōtta"},
-        {"front": "Is the chicken cooked?", "back": "鶏肉に火が通っていますか？", "romanized": "toriniku ni hi ga tōtte imasu ka", "literal": "Chicken to fire [subj] passed-is?"}
+        {
+          "front": "cooked",
+          "back": "調理された / 火が通った",
+          "romanized": "chōri sareta / hi ga tōtta"
+        },
+        {
+          "front": "Is the chicken cooked?",
+          "back": "鶏肉に火が通っていますか？",
+          "romanized": "toriniku ni hi ga tōtte imasu ka",
+          "literal": "Chicken to fire [subj] passed-is?"
+        }
       ]
     },
     {
       "id": "hot",
       "levels": [
-        {"front": "hot", "back": "熱い / 温かい", "romanized": "atsui / atatakai", "grammarNote": "'Atsui' (熱い) describes something hot to the touch (e.g., food, liquid). 'Atatakai' (温かい) means warm, often used for food or feelings. 'Atsui' (暑い, different kanji) means the weather is hot. Context and kanji distinguish these."},
-        {"front": "Be careful, the soup is hot.", "back": "気をつけてください、スープは熱いです。", "romanized": "ki wo tsukete kudasai, sūpu wa atsui desu", "literal": "Careful please, soup [topic] hot is."}
+        {
+          "front": "hot",
+          "back": "熱い / 温かい",
+          "romanized": "atsui / atatakai",
+          "grammarNote": "'Atsui' (熱い) describes something hot to the touch (e.g., food, liquid). 'Atatakai' (温かい) means warm, often used for food or feelings. 'Atsui' (暑い, different kanji) means the weather is hot. Context and kanji distinguish these."
+        },
+        {
+          "front": "Be careful, the soup is hot.",
+          "back": "気をつけてください、スープは熱いです。",
+          "romanized": "ki wo tsukete kudasai, sūpu wa atsui desu",
+          "literal": "Careful please, soup [topic] hot is."
+        }
       ]
     },
     {
       "id": "cold",
       "levels": [
-        {"front": "cold", "back": "冷たい / 冷えた", "romanized": "tsumetai / hieta"},
-        {"front": "My coffee is cold.", "back": "コーヒーが冷たくなりました。", "romanized": "kōhī ga tsumetaku narimashita", "literal": "Coffee [subj] cold-became."}
+        {
+          "front": "cold",
+          "back": "冷たい / 冷えた",
+          "romanized": "tsumetai / hieta"
+        },
+        {
+          "front": "My coffee is cold.",
+          "back": "コーヒーが冷たくなりました。",
+          "romanized": "kōhī ga tsumetaku narimashita",
+          "literal": "Coffee [subj] cold-became."
+        }
       ]
     },
     {
       "id": "sweet",
       "levels": [
-        {"front": "sweet", "back": "甘い", "romanized": "amai"},
-        {"front": "This cake is very sweet.", "back": "このケーキはとても甘いです。", "romanized": "kono kēki wa totemo amai desu", "literal": "This cake [topic] very sweet is."}
+        {
+          "front": "sweet",
+          "back": "甘い",
+          "romanized": "amai"
+        },
+        {
+          "front": "This cake is very sweet.",
+          "back": "このケーキはとても甘いです。",
+          "romanized": "kono kēki wa totemo amai desu",
+          "literal": "This cake [topic] very sweet is."
+        }
       ]
     },
     {
       "id": "sour",
       "levels": [
-        {"front": "sour", "back": "酸っぱい", "romanized": "suppai"},
-        {"front": "This lemon is sour.", "back": "このレモンは酸っぱいです。", "romanized": "kono remon wa suppai desu", "literal": "This lemon [topic] sour is."}
+        {
+          "front": "sour",
+          "back": "酸っぱい",
+          "romanized": "suppai"
+        },
+        {
+          "front": "This lemon is sour.",
+          "back": "このレモンは酸っぱいです。",
+          "romanized": "kono remon wa suppai desu",
+          "literal": "This lemon [topic] sour is."
+        }
       ]
     },
     {
       "id": "bitter",
       "levels": [
-        {"front": "bitter", "back": "苦い", "romanized": "nigai"},
-        {"front": "This coffee is bitter.", "back": "このコーヒーは苦いです。", "romanized": "kono kōhī wa nigai desu", "literal": "This coffee [topic] bitter is."}
+        {
+          "front": "bitter",
+          "back": "苦い",
+          "romanized": "nigai"
+        },
+        {
+          "front": "This coffee is bitter.",
+          "back": "このコーヒーは苦いです。",
+          "romanized": "kono kōhī wa nigai desu",
+          "literal": "This coffee [topic] bitter is."
+        }
       ]
     },
     {
       "id": "spicy",
       "levels": [
-        {"front": "spicy", "back": "辛い", "romanized": "karai"},
-        {"front": "Mexican food is often spicy.", "back": "メキシコ料理はよく辛いです。", "romanized": "mekishiko ryōri wa yoku karai desu", "literal": "Mexican cuisine [topic] often spicy is."}
+        {
+          "front": "spicy",
+          "back": "辛い",
+          "romanized": "karai"
+        },
+        {
+          "front": "Mexican food is often spicy.",
+          "back": "メキシコ料理はよく辛いです。",
+          "romanized": "mekishiko ryōri wa yoku karai desu",
+          "literal": "Mexican cuisine [topic] often spicy is."
+        }
       ]
     },
     {
       "id": "tender",
       "levels": [
-        {"front": "tender", "back": "柔らかい / やわらかい", "romanized": "yawarakai"},
-        {"front": "The meat is tender.", "back": "肉は柔らかいです。", "romanized": "niku wa yawarakai desu", "literal": "Meat [topic] tender is."}
+        {
+          "front": "tender",
+          "back": "柔らかい / やわらかい",
+          "romanized": "yawarakai"
+        },
+        {
+          "front": "The meat is tender.",
+          "back": "肉は柔らかいです。",
+          "romanized": "niku wa yawarakai desu",
+          "literal": "Meat [topic] tender is."
+        }
       ]
     },
     {
       "id": "delicious",
       "levels": [
-        {"front": "delicious", "back": "おいしい / 美味しい", "romanized": "oishii", "grammarNote": "'Oishii' (おいしい) is the standard word for delicious. A culturally important phrase is 'itadakimasu' (いただきます), said before eating (like 'let's eat' but also expressing gratitude). 'Gochisōsama deshita' (ごちそうさまでした) is said after finishing a meal."},
-        {"front": "This is delicious!", "back": "これはおいしいです！", "romanized": "kore wa oishii desu", "literal": "This [topic] delicious is!"}
+        {
+          "front": "delicious",
+          "back": "おいしい / 美味しい",
+          "romanized": "oishii",
+          "grammarNote": "'Oishii' (おいしい) is the standard word for delicious. A culturally important phrase is 'itadakimasu' (いただきます), said before eating (like 'let's eat' but also expressing gratitude). 'Gochisōsama deshita' (ごちそうさまでした) is said after finishing a meal."
+        },
+        {
+          "front": "This is delicious!",
+          "back": "これはおいしいです！",
+          "romanized": "kore wa oishii desu",
+          "literal": "This [topic] delicious is!"
+        }
       ]
     },
     {
       "id": "tasty",
       "levels": [
-        {"front": "tasty", "back": "美味しい / 旨い", "romanized": "oishii / umai"},
-        {"front": "The soup is very tasty.", "back": "スープはとても美味しいです。", "romanized": "sūpu wa totemo oishii desu", "literal": "Soup [topic] very delicious is."}
+        {
+          "front": "tasty",
+          "back": "美味しい / 旨い",
+          "romanized": "oishii / umai"
+        },
+        {
+          "front": "The soup is very tasty.",
+          "back": "スープはとても美味しいです。",
+          "romanized": "sūpu wa totemo oishii desu",
+          "literal": "Soup [topic] very delicious is."
+        }
       ]
     },
     {
       "id": "bland",
       "levels": [
-        {"front": "bland", "back": "薄味の / 味が薄い", "romanized": "usaaji no / aji ga usui"},
-        {"front": "The rice is bland.", "back": "ご飯は味が薄いです。", "romanized": "gohan wa aji ga usui desu", "literal": "Rice [topic] flavor [subj] thin is."}
+        {
+          "front": "bland",
+          "back": "薄味の / 味が薄い",
+          "romanized": "usaaji no / aji ga usui"
+        },
+        {
+          "front": "The rice is bland.",
+          "back": "ご飯は味が薄いです。",
+          "romanized": "gohan wa aji ga usui desu",
+          "literal": "Rice [topic] flavor [subj] thin is."
+        }
       ]
     },
     {
       "id": "healthy",
       "levels": [
-        {"front": "healthy", "back": "健康的な / 体にいい", "romanized": "kenkōteki na / karada ni ii"},
-        {"front": "Fruit is healthy.", "back": "果物は体にいいです。", "romanized": "kudamono wa karada ni ii desu", "literal": "Fruit [topic] body to good is."}
+        {
+          "front": "healthy",
+          "back": "健康的な / 体にいい",
+          "romanized": "kenkōteki na / karada ni ii"
+        },
+        {
+          "front": "Fruit is healthy.",
+          "back": "果物は体にいいです。",
+          "romanized": "kudamono wa karada ni ii desu",
+          "literal": "Fruit [topic] body to good is."
+        }
       ]
     },
     {
       "id": "unhealthy",
       "levels": [
-        {"front": "unhealthy", "back": "不健康な / 体に悪い", "romanized": "fukenkō na / karada ni warui"},
-        {"front": "Fast food is unhealthy.", "back": "ファストフードは体に悪いです。", "romanized": "fasuto fūdo wa karada ni warui desu", "literal": "Fast food [topic] body to bad is."}
+        {
+          "front": "unhealthy",
+          "back": "不健康な / 体に悪い",
+          "romanized": "fukenkō na / karada ni warui"
+        },
+        {
+          "front": "Fast food is unhealthy.",
+          "back": "ファストフードは体に悪いです。",
+          "romanized": "fasuto fūdo wa karada ni warui desu",
+          "literal": "Fast food [topic] body to bad is."
+        }
       ]
     },
     {
       "id": "vegetarian",
       "levels": [
-        {"front": "vegetarian", "back": "ベジタリアン / 菜食主義の", "romanized": "bejitarian / saishoku shugi no"},
-        {"front": "I am vegetarian.", "back": "私はベジタリアンです。", "romanized": "watashi wa bejitarian desu", "literal": "I [topic] vegetarian is."}
+        {
+          "front": "vegetarian",
+          "back": "ベジタリアン / 菜食主義の",
+          "romanized": "bejitarian / saishoku shugi no"
+        },
+        {
+          "front": "I am vegetarian.",
+          "back": "私はベジタリアンです。",
+          "romanized": "watashi wa bejitarian desu",
+          "literal": "I [topic] vegetarian is."
+        }
       ]
     },
     {
       "id": "vegan",
       "levels": [
-        {"front": "vegan", "back": "ビーガン / 完全菜食主義の", "romanized": "bīgan / kanzen saishoku shugi no"},
-        {"front": "She is vegan.", "back": "彼女はビーガンです。", "romanized": "kanojo wa bīgan desu", "literal": "She [topic] vegan is."}
+        {
+          "front": "vegan",
+          "back": "ビーガン / 完全菜食主義の",
+          "romanized": "bīgan / kanzen saishoku shugi no"
+        },
+        {
+          "front": "She is vegan.",
+          "back": "彼女はビーガンです。",
+          "romanized": "kanojo wa bīgan desu",
+          "literal": "She [topic] vegan is."
+        }
       ]
     },
     {
       "id": "frozen",
       "levels": [
-        {"front": "frozen", "back": "冷凍の / 冷凍された", "romanized": "reitō no / reitō sareta"},
-        {"front": "Take the frozen food out.", "back": "冷凍食品を取り出してください。", "romanized": "reitō shokuhin wo toridashite kudasai", "literal": "Frozen food [obj] take-out please."}
+        {
+          "front": "frozen",
+          "back": "冷凍の / 冷凍された",
+          "romanized": "reitō no / reitō sareta"
+        },
+        {
+          "front": "Take the frozen food out.",
+          "back": "冷凍食品を取り出してください。",
+          "romanized": "reitō shokuhin wo toridashite kudasai",
+          "literal": "Frozen food [obj] take-out please."
+        }
       ]
     },
     {
       "id": "organic",
       "levels": [
-        {"front": "organic", "back": "有機の / オーガニックの", "romanized": "yūki no / ōganikku no"},
-        {"front": "I prefer organic vegetables.", "back": "有機野菜の方が好きです。", "romanized": "yūki yasai no hō ga suki desu", "literal": "Organic vegetable 's side [subj] like is."}
+        {
+          "front": "organic",
+          "back": "有機の / オーガニックの",
+          "romanized": "yūki no / ōganikku no"
+        },
+        {
+          "front": "I prefer organic vegetables.",
+          "back": "有機野菜の方が好きです。",
+          "romanized": "yūki yasai no hō ga suki desu",
+          "literal": "Organic vegetable 's side [subj] like is."
+        }
       ]
     },
     {
       "id": "homemade",
       "levels": [
-        {"front": "homemade", "back": "手作りの / 家庭料理の", "romanized": "tezukuri no / katei ryōri no"},
-        {"front": "I love homemade bread.", "back": "手作りパンが大好きです。", "romanized": "tezukuri pan ga daisuki desu", "literal": "Handmade bread [subj] very-like is."}
+        {
+          "front": "homemade",
+          "back": "手作りの / 家庭料理の",
+          "romanized": "tezukuri no / katei ryōri no"
+        },
+        {
+          "front": "I love homemade bread.",
+          "back": "手作りパンが大好きです。",
+          "romanized": "tezukuri pan ga daisuki desu",
+          "literal": "Handmade bread [subj] very-like is."
+        }
       ]
     },
     {
       "id": "daily",
       "levels": [
-        {"front": "daily", "back": "毎日 / 日々の", "romanized": "mainichi / hibi no"},
-        {"front": "I eat fruit daily.", "back": "毎日果物を食べます。", "romanized": "mainichi kudamono wo tabemasu", "literal": "Every-day fruit [obj] eat."}
+        {
+          "front": "daily",
+          "back": "毎日 / 日々の",
+          "romanized": "mainichi / hibi no"
+        },
+        {
+          "front": "I eat fruit daily.",
+          "back": "毎日果物を食べます。",
+          "romanized": "mainichi kudamono wo tabemasu",
+          "literal": "Every-day fruit [obj] eat."
+        }
       ]
     },
     {
       "id": "almost",
       "levels": [
-        {"front": "almost", "back": "もうすぐ / ほとんど", "romanized": "mōsugu / hotondo"},
-        {"front": "Lunch is almost ready.", "back": "昼ご飯はもうすぐできます。", "romanized": "hirugohan wa mōsugu dekimasu", "literal": "Lunch [topic] soon ready-becomes."}
+        {
+          "front": "almost",
+          "back": "もうすぐ / ほとんど",
+          "romanized": "mōsugu / hotondo"
+        },
+        {
+          "front": "Lunch is almost ready.",
+          "back": "昼ご飯はもうすぐできます。",
+          "romanized": "hirugohan wa mōsugu dekimasu",
+          "literal": "Lunch [topic] soon ready-becomes."
+        }
       ]
     },
     {
       "id": "too_too_much",
       "levels": [
-        {"front": "too (too much)", "back": "すぎる / 多すぎる", "romanized": "sugiru / ōsugiru"},
-        {"front": "There is too much salt.", "back": "塩が多すぎます。", "romanized": "shio ga ōsugimasu", "literal": "Salt [subj] too-much."}
+        {
+          "front": "too (too much)",
+          "back": "すぎる / 多すぎる",
+          "romanized": "sugiru / ōsugiru"
+        },
+        {
+          "front": "There is too much salt.",
+          "back": "塩が多すぎます。",
+          "romanized": "shio ga ōsugimasu",
+          "literal": "Salt [subj] too-much."
+        }
       ]
     }
   ]

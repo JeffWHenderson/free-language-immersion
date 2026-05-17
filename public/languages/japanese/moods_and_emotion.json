@@ -9,428 +9,970 @@
     "good_news"
   ],
   "pictureLessons": [
-    "moodsAndEmotion",
-    "moodsAndEmotion2"
+    "moods_and_emotion",
+    "moods_and_emotion_2"
   ],
   "cards": [
     {
       "id": "happy",
       "levels": [
-        {"front": "happy", "back": "嬉しい / 幸せな", "romanized": "ureshii / shiawase na", "grammarNote": "Japanese has two words for happy: 'ureshii' (嬉しい) expresses a momentary feeling of happiness or joy (something made you happy). 'Shiawase' (幸せ) refers to a deeper, more lasting sense of happiness or contentment. Both are i-adjectives."},
-        {"front": "I'm very happy today.", "back": "今日はとても嬉しいです。", "romanized": "kyō wa totemo ureshii desu", "literal": "Today [topic] very happy is."}
+        {
+          "front": "happy",
+          "back": "嬉しい / 幸せな",
+          "romanized": "ureshii / shiawase na",
+          "grammarNote": "Japanese has two words for happy: 'ureshii' (嬉しい) expresses a momentary feeling of happiness or joy (something made you happy). 'Shiawase' (幸せ) refers to a deeper, more lasting sense of happiness or contentment. Both are i-adjectives."
+        },
+        {
+          "front": "I'm very happy today.",
+          "back": "今日はとても嬉しいです。",
+          "romanized": "kyō wa totemo ureshii desu",
+          "literal": "Today [topic] very happy is."
+        }
       ]
     },
     {
       "id": "sad",
       "levels": [
-        {"front": "sad", "back": "悲しい", "romanized": "kanashii"},
-        {"front": "Why are you sad?", "back": "なぜ悲しいのですか？", "romanized": "naze kanashii no desu ka", "literal": "Why sad is?"}
+        {
+          "front": "sad",
+          "back": "悲しい",
+          "romanized": "kanashii"
+        },
+        {
+          "front": "Why are you sad?",
+          "back": "なぜ悲しいのですか？",
+          "romanized": "naze kanashii no desu ka",
+          "literal": "Why sad is?"
+        }
       ]
     },
     {
       "id": "love",
       "levels": [
-        {"front": "love", "back": "愛 / 愛情", "romanized": "ai / aijō"},
-        {"front": "I feel a lot of love for my family.", "back": "家族への愛をたくさん感じます。", "romanized": "kazoku e no ai wo takusan kanjimasu", "literal": "Family toward-'s love [obj] a-lot feel."}
+        {
+          "front": "love",
+          "back": "愛 / 愛情",
+          "romanized": "ai / aijō"
+        },
+        {
+          "front": "I feel a lot of love for my family.",
+          "back": "家族への愛をたくさん感じます。",
+          "romanized": "kazoku e no ai wo takusan kanjimasu",
+          "literal": "Family toward-'s love [obj] a-lot feel."
+        }
       ]
     },
     {
       "id": "anger",
       "levels": [
-        {"front": "anger", "back": "怒り", "romanized": "ikari"},
-        {"front": "I felt anger when they lied to me.", "back": "嘘をつかれたとき、怒りを感じました。", "romanized": "uso wo tsukareta toki, ikari wo kanjimashita", "literal": "Lie [obj] was-told-to-me time, anger [obj] felt."}
+        {
+          "front": "anger",
+          "back": "怒り",
+          "romanized": "ikari"
+        },
+        {
+          "front": "I felt anger when they lied to me.",
+          "back": "嘘をつかれたとき、怒りを感じました。",
+          "romanized": "uso wo tsukareta toki, ikari wo kanjimashita",
+          "literal": "Lie [obj] was-told-to-me time, anger [obj] felt."
+        }
       ]
     },
     {
       "id": "fear",
       "levels": [
-        {"front": "fear", "back": "恐怖 / 恐れ", "romanized": "kyōfu / osore"},
-        {"front": "I'm afraid of the dark.", "back": "暗いのが怖いです。", "romanized": "kurai no ga kowai desu", "literal": "Dark-thing [subj] scary is."}
+        {
+          "front": "fear",
+          "back": "恐怖 / 恐れ",
+          "romanized": "kyōfu / osore"
+        },
+        {
+          "front": "I'm afraid of the dark.",
+          "back": "暗いのが怖いです。",
+          "romanized": "kurai no ga kowai desu",
+          "literal": "Dark-thing [subj] scary is."
+        }
       ]
     },
     {
       "id": "hope",
       "levels": [
-        {"front": "hope", "back": "希望 / 望み", "romanized": "kibō / nozomi"},
-        {"front": "I have hope for the future.", "back": "将来への希望があります。", "romanized": "shōrai e no kibō ga arimasu", "literal": "Future toward-'s hope [subj] exists."}
+        {
+          "front": "hope",
+          "back": "希望 / 望み",
+          "romanized": "kibō / nozomi"
+        },
+        {
+          "front": "I have hope for the future.",
+          "back": "将来への希望があります。",
+          "romanized": "shōrai e no kibō ga arimasu",
+          "literal": "Future toward-'s hope [subj] exists."
+        }
       ]
     },
     {
       "id": "stress",
       "levels": [
-        {"front": "stress", "back": "ストレス", "romanized": "sutoresu"},
-        {"front": "I have a lot of stress at work.", "back": "仕事でストレスがたくさんあります。", "romanized": "shigoto de sutoresu ga takusan arimasu", "literal": "Work at stress [subj] a-lot exists."}
+        {
+          "front": "stress",
+          "back": "ストレス",
+          "romanized": "sutoresu"
+        },
+        {
+          "front": "I have a lot of stress at work.",
+          "back": "仕事でストレスがたくさんあります。",
+          "romanized": "shigoto de sutoresu ga takusan arimasu",
+          "literal": "Work at stress [subj] a-lot exists."
+        }
       ]
     },
     {
       "id": "mood",
       "levels": [
-        {"front": "mood", "back": "気分 / 気持ち", "romanized": "kibun / kimochi"},
-        {"front": "I'm in a good mood today.", "back": "今日は気分がいいです。", "romanized": "kyō wa kibun ga ii desu", "literal": "Today [topic] mood [subj] good is."}
+        {
+          "front": "mood",
+          "back": "気分 / 気持ち",
+          "romanized": "kibun / kimochi"
+        },
+        {
+          "front": "I'm in a good mood today.",
+          "back": "今日は気分がいいです。",
+          "romanized": "kyō wa kibun ga ii desu",
+          "literal": "Today [topic] mood [subj] good is."
+        }
       ]
     },
     {
       "id": "feeling",
       "levels": [
-        {"front": "feeling", "back": "感情 / 気持ち", "romanized": "kanjō / kimochi"},
-        {"front": "That feeling is normal.", "back": "その気持ちは普通です。", "romanized": "sono kimochi wa futsū desu", "literal": "That feeling [topic] normal is."}
+        {
+          "front": "feeling",
+          "back": "感情 / 気持ち",
+          "romanized": "kanjō / kimochi"
+        },
+        {
+          "front": "That feeling is normal.",
+          "back": "その気持ちは普通です。",
+          "romanized": "sono kimochi wa futsū desu",
+          "literal": "That feeling [topic] normal is."
+        }
       ]
     },
     {
       "id": "emotion_excitement",
       "levels": [
-        {"front": "emotion / excitement", "back": "感情 / 感動 / 興奮", "romanized": "kanjō / kandō / kōfun"},
-        {"front": "I couldn't hide my emotion.", "back": "感動を隠せませんでした。", "romanized": "kandō wo kakusemasen deshita", "literal": "Emotion [obj] cannot-hide was."}
+        {
+          "front": "emotion / excitement",
+          "back": "感情 / 感動 / 興奮",
+          "romanized": "kanjō / kandō / kōfun"
+        },
+        {
+          "front": "I couldn't hide my emotion.",
+          "back": "感動を隠せませんでした。",
+          "romanized": "kandō wo kakusemasen deshita",
+          "literal": "Emotion [obj] cannot-hide was."
+        }
       ]
     },
     {
       "id": "calm",
       "levels": [
-        {"front": "calm", "back": "落ち着き / 穏やかさ", "romanized": "ochitsuki / odayakasa"},
-        {"front": "Try to maintain your calm.", "back": "落ち着きを保つようにしてください。", "romanized": "ochitsuki wo tamotsu yō ni shite kudasai", "literal": "Calm [obj] maintain-so-as please do."}
+        {
+          "front": "calm",
+          "back": "落ち着き / 穏やかさ",
+          "romanized": "ochitsuki / odayakasa"
+        },
+        {
+          "front": "Try to maintain your calm.",
+          "back": "落ち着きを保つようにしてください。",
+          "romanized": "ochitsuki wo tamotsu yō ni shite kudasai",
+          "literal": "Calm [obj] maintain-so-as please do."
+        }
       ]
     },
     {
       "id": "peace",
       "levels": [
-        {"front": "peace", "back": "平和 / 平静", "romanized": "heiwa / heisei"},
-        {"front": "I need peace and quiet.", "back": "静けさと平穏が必要です。", "romanized": "shizukesa to heion ga hitsuyō desu", "literal": "Quiet and peace [subj] necessary is."}
+        {
+          "front": "peace",
+          "back": "平和 / 平静",
+          "romanized": "heiwa / heisei"
+        },
+        {
+          "front": "I need peace and quiet.",
+          "back": "静けさと平穏が必要です。",
+          "romanized": "shizukesa to heion ga hitsuyō desu",
+          "literal": "Quiet and peace [subj] necessary is."
+        }
       ]
     },
     {
       "id": "worry",
       "levels": [
-        {"front": "worry", "back": "心配 / 不安", "romanized": "shinpai / fuan"},
-        {"front": "Don't let worry stop you.", "back": "心配で立ち止まらないでください。", "romanized": "shinpai de tachidomaranaide kudasai", "literal": "Worry by stop-moving-please don't."}
+        {
+          "front": "worry",
+          "back": "心配 / 不安",
+          "romanized": "shinpai / fuan"
+        },
+        {
+          "front": "Don't let worry stop you.",
+          "back": "心配で立ち止まらないでください。",
+          "romanized": "shinpai de tachidomaranaide kudasai",
+          "literal": "Worry by stop-moving-please don't."
+        }
       ]
     },
     {
       "id": "surprise",
       "levels": [
-        {"front": "surprise", "back": "驚き / サプライズ", "romanized": "odoroki / sapuraizu"},
-        {"front": "What a surprise!", "back": "なんと驚いた！", "romanized": "nanto odoroita", "literal": "How surprised [past]!"}
+        {
+          "front": "surprise",
+          "back": "驚き / サプライズ",
+          "romanized": "odoroki / sapuraizu"
+        },
+        {
+          "front": "What a surprise!",
+          "back": "なんと驚いた！",
+          "romanized": "nanto odoroita",
+          "literal": "How surprised [past]!"
+        }
       ]
     },
     {
       "id": "passion",
       "levels": [
-        {"front": "passion", "back": "情熱 / パッション", "romanized": "jōnetsu / passhon"},
-        {"front": "She teaches with passion.", "back": "彼女は情熱を持って教えています。", "romanized": "kanojo wa jōnetsu wo motte oshiete imasu", "literal": "She [topic] passion [obj] holding teaching-is."}
+        {
+          "front": "passion",
+          "back": "情熱 / パッション",
+          "romanized": "jōnetsu / passhon"
+        },
+        {
+          "front": "She teaches with passion.",
+          "back": "彼女は情熱を持って教えています。",
+          "romanized": "kanojo wa jōnetsu wo motte oshiete imasu",
+          "literal": "She [topic] passion [obj] holding teaching-is."
+        }
       ]
     },
     {
       "id": "desire",
       "levels": [
-        {"front": "desire", "back": "欲望 / 願望", "romanized": "yokubō / ganbō"},
-        {"front": "I have a strong desire to travel.", "back": "旅行したいという強い願望があります。", "romanized": "ryokō shitai to iu tsuyoi ganbō ga arimasu", "literal": "Travel-want called strong desire [subj] exists."}
+        {
+          "front": "desire",
+          "back": "欲望 / 願望",
+          "romanized": "yokubō / ganbō"
+        },
+        {
+          "front": "I have a strong desire to travel.",
+          "back": "旅行したいという強い願望があります。",
+          "romanized": "ryokō shitai to iu tsuyoi ganbō ga arimasu",
+          "literal": "Travel-want called strong desire [subj] exists."
+        }
       ]
     },
     {
       "id": "hate",
       "levels": [
-        {"front": "hate", "back": "憎しみ / 嫌悪", "romanized": "nikushimi / ken'o"},
-        {"front": "Hate is a strong feeling.", "back": "憎しみは強い感情です。", "romanized": "nikushimi wa tsuyoi kanjō desu", "literal": "Hate [topic] strong feeling is."}
+        {
+          "front": "hate",
+          "back": "憎しみ / 嫌悪",
+          "romanized": "nikushimi / ken'o"
+        },
+        {
+          "front": "Hate is a strong feeling.",
+          "back": "憎しみは強い感情です。",
+          "romanized": "nikushimi wa tsuyoi kanjō desu",
+          "literal": "Hate [topic] strong feeling is."
+        }
       ]
     },
     {
       "id": "pleasure",
       "levels": [
-        {"front": "pleasure", "back": "喜び / 楽しみ", "romanized": "yorokobi / tanoshimi"},
-        {"front": "It's a pleasure to meet you.", "back": "はじめまして、お会いできて光栄です。", "romanized": "hajimemashite, oai dekite kōei desu", "literal": "First-time-meeting, meet able-to honored is."}
+        {
+          "front": "pleasure",
+          "back": "喜び / 楽しみ",
+          "romanized": "yorokobi / tanoshimi"
+        },
+        {
+          "front": "It's a pleasure to meet you.",
+          "back": "はじめまして、お会いできて光栄です。",
+          "romanized": "hajimemashite, oai dekite kōei desu",
+          "literal": "First-time-meeting, meet able-to honored is."
+        }
       ]
     },
     {
       "id": "pain",
       "levels": [
-        {"front": "pain", "back": "痛み / 苦痛", "romanized": "itami / kutsū"},
-        {"front": "I feel pain in my leg.", "back": "足に痛みを感じます。", "romanized": "ashi ni itami wo kanjimasu", "literal": "Leg at pain [obj] feel."}
+        {
+          "front": "pain",
+          "back": "痛み / 苦痛",
+          "romanized": "itami / kutsū"
+        },
+        {
+          "front": "I feel pain in my leg.",
+          "back": "足に痛みを感じます。",
+          "romanized": "ashi ni itami wo kanjimasu",
+          "literal": "Leg at pain [obj] feel."
+        }
       ]
     },
     {
       "id": "energy",
       "levels": [
-        {"front": "energy", "back": "エネルギー / 元気", "romanized": "enerugī / genki"},
-        {"front": "I have a lot of energy today.", "back": "今日はとても元気です。", "romanized": "kyō wa totemo genki desu", "literal": "Today [topic] very energetic is."}
+        {
+          "front": "energy",
+          "back": "エネルギー / 元気",
+          "romanized": "enerugī / genki"
+        },
+        {
+          "front": "I have a lot of energy today.",
+          "back": "今日はとても元気です。",
+          "romanized": "kyō wa totemo genki desu",
+          "literal": "Today [topic] very energetic is."
+        }
       ]
     },
     {
       "id": "relief",
       "levels": [
-        {"front": "relief", "back": "安堵 / ホッとすること", "romanized": "ando / hotto suru koto"},
-        {"front": "What a relief!", "back": "ホッとしました！", "romanized": "hotto shimashita", "literal": "Relieved-became!"}
+        {
+          "front": "relief",
+          "back": "安堵 / ホッとすること",
+          "romanized": "ando / hotto suru koto"
+        },
+        {
+          "front": "What a relief!",
+          "back": "ホッとしました！",
+          "romanized": "hotto shimashita",
+          "literal": "Relieved-became!"
+        }
       ]
     },
     {
       "id": "comfort",
       "levels": [
-        {"front": "comfort", "back": "慰め / 安心", "romanized": "nagusame / anshin"},
-        {"front": "Her words were a comfort.", "back": "彼女の言葉は慰めになりました。", "romanized": "kanojo no kotoba wa nagusame ni narimashita", "literal": "Her words [topic] comfort became."}
+        {
+          "front": "comfort",
+          "back": "慰め / 安心",
+          "romanized": "nagusame / anshin"
+        },
+        {
+          "front": "Her words were a comfort.",
+          "back": "彼女の言葉は慰めになりました。",
+          "romanized": "kanojo no kotoba wa nagusame ni narimashita",
+          "literal": "Her words [topic] comfort became."
+        }
       ]
     },
     {
       "id": "feel_to_feel",
       "levels": [
-        {"front": "feel (to feel)", "back": "感じる / 気分がする", "romanized": "kanjiru / kibun ga suru", "grammarNote": "Two ways to express 'feel' in Japanese: 'kanjiru' (感じる) means to physically or emotionally sense something ('pain wo kanjiru' = feel pain). 'Kibun ga suru' or 'ki ga suru' (気がする) means to have a feeling/hunch. For emotional state, use 'X na kibun' or 'X desu'."},
-        {"front": "I feel good today.", "back": "今日は気分がいいです。", "romanized": "kyō wa kibun ga ii desu", "literal": "Today [topic] mood [subj] good is."}
+        {
+          "front": "feel (to feel)",
+          "back": "感じる / 気分がする",
+          "romanized": "kanjiru / kibun ga suru",
+          "grammarNote": "Two ways to express 'feel' in Japanese: 'kanjiru' (感じる) means to physically or emotionally sense something ('pain wo kanjiru' = feel pain). 'Kibun ga suru' or 'ki ga suru' (気がする) means to have a feeling/hunch. For emotional state, use 'X na kibun' or 'X desu'."
+        },
+        {
+          "front": "I feel good today.",
+          "back": "今日は気分がいいです。",
+          "romanized": "kyō wa kibun ga ii desu",
+          "literal": "Today [topic] mood [subj] good is."
+        }
       ]
     },
     {
       "id": "love_to_love",
       "levels": [
-        {"front": "love (to love)", "back": "愛する / 大好き", "romanized": "aisuru / daisuki"},
-        {"front": "I love you very much.", "back": "あなたのことが大好きです。", "romanized": "anata no koto ga daisuki desu", "literal": "You 's thing [subj] very-like is."}
+        {
+          "front": "love (to love)",
+          "back": "愛する / 大好き",
+          "romanized": "aisuru / daisuki"
+        },
+        {
+          "front": "I love you very much.",
+          "back": "あなたのことが大好きです。",
+          "romanized": "anata no koto ga daisuki desu",
+          "literal": "You 's thing [subj] very-like is."
+        }
       ]
     },
     {
       "id": "hate_to_hate",
       "levels": [
-        {"front": "hate (to hate)", "back": "嫌う / 大嫌い", "romanized": "kirau / daikirai"},
-        {"front": "I hate waiting.", "back": "待つのが大嫌いです。", "romanized": "matsu no ga daikirai desu", "literal": "Waiting-thing [subj] very-hate is."}
+        {
+          "front": "hate (to hate)",
+          "back": "嫌う / 大嫌い",
+          "romanized": "kirau / daikirai"
+        },
+        {
+          "front": "I hate waiting.",
+          "back": "待つのが大嫌いです。",
+          "romanized": "matsu no ga daikirai desu",
+          "literal": "Waiting-thing [subj] very-hate is."
+        }
       ]
     },
     {
       "id": "like_to_like",
       "levels": [
-        {"front": "like (to like)", "back": "好きな / 好む", "romanized": "suki na / konomu"},
-        {"front": "I like music.", "back": "音楽が好きです。", "romanized": "ongaku ga suki desu", "literal": "Music [subj] liked is."}
+        {
+          "front": "like (to like)",
+          "back": "好きな / 好む",
+          "romanized": "suki na / konomu"
+        },
+        {
+          "front": "I like music.",
+          "back": "音楽が好きです。",
+          "romanized": "ongaku ga suki desu",
+          "literal": "Music [subj] liked is."
+        }
       ]
     },
     {
       "id": "enjoy",
       "levels": [
-        {"front": "enjoy", "back": "楽しむ / 楽しい", "romanized": "tanoshimu / tanoshii"},
-        {"front": "I enjoy the weekend.", "back": "週末を楽しんでいます。", "romanized": "shūmatsu wo tanoshinde imasu", "literal": "Weekend [obj] enjoying-is."}
+        {
+          "front": "enjoy",
+          "back": "楽しむ / 楽しい",
+          "romanized": "tanoshimu / tanoshii"
+        },
+        {
+          "front": "I enjoy the weekend.",
+          "back": "週末を楽しんでいます。",
+          "romanized": "shūmatsu wo tanoshinde imasu",
+          "literal": "Weekend [obj] enjoying-is."
+        }
       ]
     },
     {
       "id": "fear_dread_to_fear",
       "levels": [
-        {"front": "fear / dread (to fear)", "back": "恐れる / 怖がる", "romanized": "osoreru / kowagaru"},
-        {"front": "I fear the worst.", "back": "最悪の事態を恐れています。", "romanized": "saiaku no jitai wo osorete imasu", "literal": "Worst 's situation [obj] fearing-is."}
+        {
+          "front": "fear / dread (to fear)",
+          "back": "恐れる / 怖がる",
+          "romanized": "osoreru / kowagaru"
+        },
+        {
+          "front": "I fear the worst.",
+          "back": "最悪の事態を恐れています。",
+          "romanized": "saiaku no jitai wo osorete imasu",
+          "literal": "Worst 's situation [obj] fearing-is."
+        }
       ]
     },
     {
       "id": "hope_to_hope",
       "levels": [
-        {"front": "hope (to hope)", "back": "望む / 期待する", "romanized": "nozomu / kitai suru"},
-        {"front": "I hope everything goes well.", "back": "すべてうまくいくことを望んでいます。", "romanized": "subete umaku iku koto wo nozonde imasu", "literal": "Everything well go thing [obj] hoping-is."}
+        {
+          "front": "hope (to hope)",
+          "back": "望む / 期待する",
+          "romanized": "nozomu / kitai suru"
+        },
+        {
+          "front": "I hope everything goes well.",
+          "back": "すべてうまくいくことを望んでいます。",
+          "romanized": "subete umaku iku koto wo nozonde imasu",
+          "literal": "Everything well go thing [obj] hoping-is."
+        }
       ]
     },
     {
       "id": "worry_to_worry",
       "levels": [
-        {"front": "worry (to worry)", "back": "心配する", "romanized": "shinpai suru"},
-        {"front": "Don't worry about it.", "back": "それについて心配しないでください。", "romanized": "sore ni tsuite shinpai shinaide kudasai", "literal": "That about worry not-doing please."}
+        {
+          "front": "worry (to worry)",
+          "back": "心配する",
+          "romanized": "shinpai suru"
+        },
+        {
+          "front": "Don't worry about it.",
+          "back": "それについて心配しないでください。",
+          "romanized": "sore ni tsuite shinpai shinaide kudasai",
+          "literal": "That about worry not-doing please."
+        }
       ]
     },
     {
       "id": "calm_soothe_to_calm",
       "levels": [
-        {"front": "calm / soothe (to calm)", "back": "落ち着かせる / 穏やかにする", "romanized": "ochitsukaseru / odayaka ni suru"},
-        {"front": "Calm down, please.", "back": "落ち着いてください。", "romanized": "ochitsuite kudasai", "literal": "Calm-become please."}
+        {
+          "front": "calm / soothe (to calm)",
+          "back": "落ち着かせる / 穏やかにする",
+          "romanized": "ochitsukaseru / odayaka ni suru"
+        },
+        {
+          "front": "Calm down, please.",
+          "back": "落ち着いてください。",
+          "romanized": "ochitsuite kudasai",
+          "literal": "Calm-become please."
+        }
       ]
     },
     {
       "id": "comfort_to_comfort",
       "levels": [
-        {"front": "comfort (to comfort)", "back": "慰める / 励ます", "romanized": "nagusameru / hagemasu"},
-        {"front": "She comforted her friend.", "back": "彼女は友人を慰めました。", "romanized": "kanojo wa yūjin wo nagusamemashita", "literal": "She [topic] friend [obj] comforted."}
+        {
+          "front": "comfort (to comfort)",
+          "back": "慰める / 励ます",
+          "romanized": "nagusameru / hagemasu"
+        },
+        {
+          "front": "She comforted her friend.",
+          "back": "彼女は友人を慰めました。",
+          "romanized": "kanojo wa yūjin wo nagusamemashita",
+          "literal": "She [topic] friend [obj] comforted."
+        }
       ]
     },
     {
       "id": "excite_thrill",
       "levels": [
-        {"front": "excite / thrill", "back": "興奮させる / ワクワクさせる", "romanized": "kōfun saseru / wakuwaku saseru"},
-        {"front": "The trip excites me.", "back": "旅行がワクワクします。", "romanized": "ryokō ga wakuwaku shimasu", "literal": "Trip [subj] exciting-does."}
+        {
+          "front": "excite / thrill",
+          "back": "興奮させる / ワクワクさせる",
+          "romanized": "kōfun saseru / wakuwaku saseru"
+        },
+        {
+          "front": "The trip excites me.",
+          "back": "旅行がワクワクします。",
+          "romanized": "ryokō ga wakuwaku shimasu",
+          "literal": "Trip [subj] exciting-does."
+        }
       ]
     },
     {
       "id": "annoy",
       "levels": [
-        {"front": "annoy", "back": "イライラさせる / 悩ます", "romanized": "iraira saseru / nayamasu"},
-        {"front": "That noise annoys me.", "back": "その音にイライラします。", "romanized": "sono oto ni iraira shimasu", "literal": "That sound at irritated-become."}
+        {
+          "front": "annoy",
+          "back": "イライラさせる / 悩ます",
+          "romanized": "iraira saseru / nayamasu"
+        },
+        {
+          "front": "That noise annoys me.",
+          "back": "その音にイライラします。",
+          "romanized": "sono oto ni iraira shimasu",
+          "literal": "That sound at irritated-become."
+        }
       ]
     },
     {
       "id": "irritate",
       "levels": [
-        {"front": "irritate", "back": "苛立たせる / 不快にする", "romanized": "iradataseru / fukai ni suru"},
-        {"front": "Waiting irritates me.", "back": "待つことが苛立たしいです。", "romanized": "matsu koto ga iradatashii desu", "literal": "Waiting thing [subj] irritating is."}
+        {
+          "front": "irritate",
+          "back": "苛立たせる / 不快にする",
+          "romanized": "iradataseru / fukai ni suru"
+        },
+        {
+          "front": "Waiting irritates me.",
+          "back": "待つことが苛立たしいです。",
+          "romanized": "matsu koto ga iradatashii desu",
+          "literal": "Waiting thing [subj] irritating is."
+        }
       ]
     },
     {
       "id": "anger_to_anger",
       "levels": [
-        {"front": "anger (to anger)", "back": "怒らせる / 腹を立てさせる", "romanized": "okoraseru / hara wo tatasesaseru"},
-        {"front": "That comment angered me.", "back": "そのコメントに腹が立ちました。", "romanized": "sono komento ni hara ga tachimashita", "literal": "That comment at belly [subj] rose [past]."}
+        {
+          "front": "anger (to anger)",
+          "back": "怒らせる / 腹を立てさせる",
+          "romanized": "okoraseru / hara wo tatasesaseru"
+        },
+        {
+          "front": "That comment angered me.",
+          "back": "そのコメントに腹が立ちました。",
+          "romanized": "sono komento ni hara ga tachimashita",
+          "literal": "That comment at belly [subj] rose [past]."
+        }
       ]
     },
     {
       "id": "delight",
       "levels": [
-        {"front": "delight", "back": "喜ばせる / 楽しませる", "romanized": "yorokobaseru / tanoshimaseru"},
-        {"front": "The music delighted everyone.", "back": "音楽はみんなを喜ばせました。", "romanized": "ongaku wa min'na wo yorokobasemashita", "literal": "Music [topic] everyone [obj] made-glad."}
+        {
+          "front": "delight",
+          "back": "喜ばせる / 楽しませる",
+          "romanized": "yorokobaseru / tanoshimaseru"
+        },
+        {
+          "front": "The music delighted everyone.",
+          "back": "音楽はみんなを喜ばせました。",
+          "romanized": "ongaku wa min'na wo yorokobasemashita",
+          "literal": "Music [topic] everyone [obj] made-glad."
+        }
       ]
     },
     {
       "id": "smile",
       "levels": [
-        {"front": "smile", "back": "微笑む / 笑顔になる", "romanized": "hohoemu / egao ni naru"},
-        {"front": "She always smiles.", "back": "彼女はいつも微笑んでいます。", "romanized": "kanojo wa itsumo hohoende imasu", "literal": "She [topic] always smiling-is."}
+        {
+          "front": "smile",
+          "back": "微笑む / 笑顔になる",
+          "romanized": "hohoemu / egao ni naru"
+        },
+        {
+          "front": "She always smiles.",
+          "back": "彼女はいつも微笑んでいます。",
+          "romanized": "kanojo wa itsumo hohoende imasu",
+          "literal": "She [topic] always smiling-is."
+        }
       ]
     },
     {
       "id": "laugh",
       "levels": [
-        {"front": "laugh", "back": "笑う", "romanized": "warau"},
-        {"front": "We laughed a lot.", "back": "私たちはたくさん笑いました。", "romanized": "watashitachi wa takusan waraimashita", "literal": "We [topic] a-lot laughed."}
+        {
+          "front": "laugh",
+          "back": "笑う",
+          "romanized": "warau"
+        },
+        {
+          "front": "We laughed a lot.",
+          "back": "私たちはたくさん笑いました。",
+          "romanized": "watashitachi wa takusan waraimashita",
+          "literal": "We [topic] a-lot laughed."
+        }
       ]
     },
     {
       "id": "cry_weep_mourn",
       "levels": [
-        {"front": "cry / weep / mourn", "back": "泣く", "romanized": "naku"},
-        {"front": "The baby is crying.", "back": "赤ちゃんが泣いています。", "romanized": "akachan ga naite imasu", "literal": "Baby [subj] crying-is."}
+        {
+          "front": "cry / weep / mourn",
+          "back": "泣く",
+          "romanized": "naku"
+        },
+        {
+          "front": "The baby is crying.",
+          "back": "赤ちゃんが泣いています。",
+          "romanized": "akachan ga naite imasu",
+          "literal": "Baby [subj] crying-is."
+        }
       ]
     },
     {
       "id": "sigh",
       "levels": [
-        {"front": "sigh", "back": "ため息をつく", "romanized": "tameiki wo tsuku"},
-        {"front": "She sighed with relief.", "back": "彼女は安堵してため息をつきました。", "romanized": "kanojo wa ando shite tameiki wo tsukimashita", "literal": "She [topic] relieved-being sigh [obj] let-out."}
+        {
+          "front": "sigh",
+          "back": "ため息をつく",
+          "romanized": "tameiki wo tsuku"
+        },
+        {
+          "front": "She sighed with relief.",
+          "back": "彼女は安堵してため息をつきました。",
+          "romanized": "kanojo wa ando shite tameiki wo tsukimashita",
+          "literal": "She [topic] relieved-being sigh [obj] let-out."
+        }
       ]
     },
     {
       "id": "frown",
       "levels": [
-        {"front": "frown", "back": "眉をひそめる / しかめっ面をする", "romanized": "mayu wo hisomeru / shikamettsurao wo suru"},
-        {"front": "He frowned when he heard the news.", "back": "彼はそのニュースを聞いて眉をひそめました。", "romanized": "kare wa sono nyūsu wo kiite mayu wo hisomemashita", "literal": "He [topic] that news [obj] hearing eyebrows [obj] furrowed."}
+        {
+          "front": "frown",
+          "back": "眉をひそめる / しかめっ面をする",
+          "romanized": "mayu wo hisomeru / shikamettsurao wo suru"
+        },
+        {
+          "front": "He frowned when he heard the news.",
+          "back": "彼はそのニュースを聞いて眉をひそめました。",
+          "romanized": "kare wa sono nyūsu wo kiite mayu wo hisomemashita",
+          "literal": "He [topic] that news [obj] hearing eyebrows [obj] furrowed."
+        }
       ]
     },
     {
       "id": "scream_shout",
       "levels": [
-        {"front": "scream / shout", "back": "叫ぶ / 怒鳴る", "romanized": "sakebu / donaru"},
-        {"front": "Don't shout, please.", "back": "叫ばないでください。", "romanized": "sakabanaide kudasai", "literal": "Shout-not please."}
+        {
+          "front": "scream / shout",
+          "back": "叫ぶ / 怒鳴る",
+          "romanized": "sakebu / donaru"
+        },
+        {
+          "front": "Don't shout, please.",
+          "back": "叫ばないでください。",
+          "romanized": "sakabanaide kudasai",
+          "literal": "Shout-not please."
+        }
       ]
     },
     {
       "id": "relax",
       "levels": [
-        {"front": "relax", "back": "リラックスする / くつろぐ", "romanized": "rirakkusu suru / kutsurogu"},
-        {"front": "Relax, there's no rush.", "back": "リラックスして、急がなくていいです。", "romanized": "rirakkusu shite, isoganakute ii desu", "literal": "Relax-and, hurry-not-being is-fine."}
+        {
+          "front": "relax",
+          "back": "リラックスする / くつろぐ",
+          "romanized": "rirakkusu suru / kutsurogu"
+        },
+        {
+          "front": "Relax, there's no rush.",
+          "back": "リラックスして、急がなくていいです。",
+          "romanized": "rirakkusu shite, isoganakute ii desu",
+          "literal": "Relax-and, hurry-not-being is-fine."
+        }
       ]
     },
     {
       "id": "angry",
       "levels": [
-        {"front": "angry", "back": "怒っている / 腹を立てた", "romanized": "okotte iru / hara wo tateta"},
-        {"front": "I'm angry with you.", "back": "あなたに怒っています。", "romanized": "anata ni okotte imasu", "literal": "You at angry-am."}
+        {
+          "front": "angry",
+          "back": "怒っている / 腹を立てた",
+          "romanized": "okotte iru / hara wo tateta"
+        },
+        {
+          "front": "I'm angry with you.",
+          "back": "あなたに怒っています。",
+          "romanized": "anata ni okotte imasu",
+          "literal": "You at angry-am."
+        }
       ]
     },
     {
       "id": "mad",
       "levels": [
-        {"front": "mad", "back": "激怒した / かんかんに怒った", "romanized": "gekido shita / kankan ni okotta"},
-        {"front": "Why are you so mad?", "back": "なぜそんなに怒っているのですか？", "romanized": "naze son'na ni okotte iru no desu ka", "literal": "Why so-much angry-being is?"}
+        {
+          "front": "mad",
+          "back": "激怒した / かんかんに怒った",
+          "romanized": "gekido shita / kankan ni okotta"
+        },
+        {
+          "front": "Why are you so mad?",
+          "back": "なぜそんなに怒っているのですか？",
+          "romanized": "naze son'na ni okotte iru no desu ka",
+          "literal": "Why so-much angry-being is?"
+        }
       ]
     },
     {
       "id": "afraid_scared",
       "levels": [
-        {"front": "afraid / scared", "back": "怖い / 恐怖を感じた", "romanized": "kowai / kyōfu wo kanjita"},
-        {"front": "The child was scared.", "back": "子どもは怖がっていました。", "romanized": "kodomo wa kowagatte imashita", "literal": "Child [topic] scared-was."}
+        {
+          "front": "afraid / scared",
+          "back": "怖い / 恐怖を感じた",
+          "romanized": "kowai / kyōfu wo kanjita"
+        },
+        {
+          "front": "The child was scared.",
+          "back": "子どもは怖がっていました。",
+          "romanized": "kodomo wa kowagatte imashita",
+          "literal": "Child [topic] scared-was."
+        }
       ]
     },
     {
       "id": "anxious",
       "levels": [
-        {"front": "anxious", "back": "不安な / 心配している", "romanized": "fuan na / shinpai shite iru"},
-        {"front": "I'm anxious about the exam.", "back": "試験が不安です。", "romanized": "shiken ga fuan desu", "literal": "Exam [subj] anxious is."}
+        {
+          "front": "anxious",
+          "back": "不安な / 心配している",
+          "romanized": "fuan na / shinpai shite iru"
+        },
+        {
+          "front": "I'm anxious about the exam.",
+          "back": "試験が不安です。",
+          "romanized": "shiken ga fuan desu",
+          "literal": "Exam [subj] anxious is."
+        }
       ]
     },
     {
       "id": "nervous",
       "levels": [
-        {"front": "nervous", "back": "緊張した / ナーバスな", "romanized": "kinchō shita / nābasu na"},
-        {"front": "I'm nervous today.", "back": "今日は緊張しています。", "romanized": "kyō wa kinchō shite imasu", "literal": "Today [topic] nervous-am."}
+        {
+          "front": "nervous",
+          "back": "緊張した / ナーバスな",
+          "romanized": "kinchō shita / nābasu na"
+        },
+        {
+          "front": "I'm nervous today.",
+          "back": "今日は緊張しています。",
+          "romanized": "kyō wa kinchō shite imasu",
+          "literal": "Today [topic] nervous-am."
+        }
       ]
     },
     {
       "id": "excited",
       "levels": [
-        {"front": "excited", "back": "興奮した / ワクワクした", "romanized": "kōfun shita / wakuwaku shita"},
-        {"front": "I'm excited about the trip.", "back": "旅行がとても楽しみです。", "romanized": "ryokō ga totemo tanoshimi desu", "literal": "Trip [subj] very looked-forward-to is."}
+        {
+          "front": "excited",
+          "back": "興奮した / ワクワクした",
+          "romanized": "kōfun shita / wakuwaku shita"
+        },
+        {
+          "front": "I'm excited about the trip.",
+          "back": "旅行がとても楽しみです。",
+          "romanized": "ryokō ga totemo tanoshimi desu",
+          "literal": "Trip [subj] very looked-forward-to is."
+        }
       ]
     },
     {
       "id": "joyful_cheerful",
       "levels": [
-        {"front": "joyful / cheerful", "back": "嬉しそうな / 明るい", "romanized": "ureshisō na / akarui"},
-        {"front": "She is always cheerful.", "back": "彼女はいつも明るいです。", "romanized": "kanojo wa itsumo akarui desu", "literal": "She [topic] always bright is."}
+        {
+          "front": "joyful / cheerful",
+          "back": "嬉しそうな / 明るい",
+          "romanized": "ureshisō na / akarui"
+        },
+        {
+          "front": "She is always cheerful.",
+          "back": "彼女はいつも明るいです。",
+          "romanized": "kanojo wa itsumo akarui desu",
+          "literal": "She [topic] always bright is."
+        }
       ]
     },
     {
       "id": "proud",
       "levels": [
-        {"front": "proud", "back": "誇りに思う / 自慢の", "romanized": "hokori ni omou / jiman no"},
-        {"front": "I'm proud of you.", "back": "あなたのことを誇りに思います。", "romanized": "anata no koto wo hokori ni omoimasu", "literal": "You 's thing [obj] pride as think."}
+        {
+          "front": "proud",
+          "back": "誇りに思う / 自慢の",
+          "romanized": "hokori ni omou / jiman no"
+        },
+        {
+          "front": "I'm proud of you.",
+          "back": "あなたのことを誇りに思います。",
+          "romanized": "anata no koto wo hokori ni omoimasu",
+          "literal": "You 's thing [obj] pride as think."
+        }
       ]
     },
     {
       "id": "content_contented",
       "levels": [
-        {"front": "content / contented", "back": "満足した / 充実した", "romanized": "manzoku shita / jūjitsu shita"},
-        {"front": "I'm content with my life.", "back": "自分の人生に満足しています。", "romanized": "jibun no jinsei ni manzoku shite imasu", "literal": "Own 's life at satisfied-am."}
+        {
+          "front": "content / contented",
+          "back": "満足した / 充実した",
+          "romanized": "manzoku shita / jūjitsu shita"
+        },
+        {
+          "front": "I'm content with my life.",
+          "back": "自分の人生に満足しています。",
+          "romanized": "jibun no jinsei ni manzoku shite imasu",
+          "literal": "Own 's life at satisfied-am."
+        }
       ]
     },
     {
       "id": "calm_2",
       "levels": [
-        {"front": "calm", "back": "穏やかな / 落ち着いた", "romanized": "odayaka na / ochitsuita"},
-        {"front": "Stay calm, everything is fine.", "back": "落ち着いてください、大丈夫です。", "romanized": "ochitsuite kudasai, daijōbu desu", "literal": "Calm-be please, okay is."}
+        {
+          "front": "calm",
+          "back": "穏やかな / 落ち着いた",
+          "romanized": "odayaka na / ochitsuita"
+        },
+        {
+          "front": "Stay calm, everything is fine.",
+          "back": "落ち着いてください、大丈夫です。",
+          "romanized": "ochitsuite kudasai, daijōbu desu",
+          "literal": "Calm-be please, okay is."
+        }
       ]
     },
     {
       "id": "stressed",
       "levels": [
-        {"front": "stressed", "back": "ストレスを感じている / 追い詰められた", "romanized": "sutoresu wo kanjite iru / oitsumareta"},
-        {"front": "I'm very stressed this week.", "back": "今週はとてもストレスを感じています。", "romanized": "konshū wa totemo sutoresu wo kanjite imasu", "literal": "This-week [topic] very stress [obj] feeling-is."}
+        {
+          "front": "stressed",
+          "back": "ストレスを感じている / 追い詰められた",
+          "romanized": "sutoresu wo kanjite iru / oitsumareta"
+        },
+        {
+          "front": "I'm very stressed this week.",
+          "back": "今週はとてもストレスを感じています。",
+          "romanized": "konshū wa totemo sutoresu wo kanjite imasu",
+          "literal": "This-week [topic] very stress [obj] feeling-is."
+        }
       ]
     },
     {
       "id": "overwhelmed",
       "levels": [
-        {"front": "overwhelmed", "back": "圧倒された / 手に負えない", "romanized": "attō sareta / te ni oenai"},
-        {"front": "I feel overwhelmed by the work.", "back": "仕事に圧倒されています。", "romanized": "shigoto ni attō sarete imasu", "literal": "Work by overwhelmed-am."}
+        {
+          "front": "overwhelmed",
+          "back": "圧倒された / 手に負えない",
+          "romanized": "attō sareta / te ni oenai"
+        },
+        {
+          "front": "I feel overwhelmed by the work.",
+          "back": "仕事に圧倒されています。",
+          "romanized": "shigoto ni attō sarete imasu",
+          "literal": "Work by overwhelmed-am."
+        }
       ]
     },
     {
       "id": "energetic",
       "levels": [
-        {"front": "energetic", "back": "元気な / 活気のある", "romanized": "genki na / kakki no aru"},
-        {"front": "She is very energetic.", "back": "彼女はとても元気です。", "romanized": "kanojo wa totemo genki desu", "literal": "She [topic] very energetic is."}
+        {
+          "front": "energetic",
+          "back": "元気な / 活気のある",
+          "romanized": "genki na / kakki no aru"
+        },
+        {
+          "front": "She is very energetic.",
+          "back": "彼女はとても元気です。",
+          "romanized": "kanojo wa totemo genki desu",
+          "literal": "She [topic] very energetic is."
+        }
       ]
     },
     {
       "id": "tired",
       "levels": [
-        {"front": "tired", "back": "疲れた / 眠い", "romanized": "tsukareta / nemui"},
-        {"front": "I'm very tired today.", "back": "今日はとても疲れています。", "romanized": "kyō wa totemo tsukarete imasu", "literal": "Today [topic] very tired-am."}
+        {
+          "front": "tired",
+          "back": "疲れた / 眠い",
+          "romanized": "tsukareta / nemui"
+        },
+        {
+          "front": "I'm very tired today.",
+          "back": "今日はとても疲れています。",
+          "romanized": "kyō wa totemo tsukarete imasu",
+          "literal": "Today [topic] very tired-am."
+        }
       ]
     },
     {
       "id": "exhausted",
       "levels": [
-        {"front": "exhausted", "back": "くたくたに疲れた / 消耗した", "romanized": "kutakuta ni tsukareta / shōmō shita"},
-        {"front": "I'm exhausted after the run.", "back": "走った後でくたくたです。", "romanized": "hashitta ato de kutakuta desu", "literal": "Ran after at dead-tired is."}
+        {
+          "front": "exhausted",
+          "back": "くたくたに疲れた / 消耗した",
+          "romanized": "kutakuta ni tsukareta / shōmō shita"
+        },
+        {
+          "front": "I'm exhausted after the run.",
+          "back": "走った後でくたくたです。",
+          "romanized": "hashitta ato de kutakuta desu",
+          "literal": "Ran after at dead-tired is."
+        }
       ]
     },
     {
       "id": "curious",
       "levels": [
-        {"front": "curious", "back": "好奇心旺盛な / 気になる", "romanized": "kōkishin ōsei na / ki ni naru"},
-        {"front": "I'm curious about that.", "back": "それがとても気になります。", "romanized": "sore ga totemo ki ni narimasu", "literal": "That [subj] very mind-on-becomes."}
+        {
+          "front": "curious",
+          "back": "好奇心旺盛な / 気になる",
+          "romanized": "kōkishin ōsei na / ki ni naru"
+        },
+        {
+          "front": "I'm curious about that.",
+          "back": "それがとても気になります。",
+          "romanized": "sore ga totemo ki ni narimasu",
+          "literal": "That [subj] very mind-on-becomes."
+        }
       ]
     }
   ]

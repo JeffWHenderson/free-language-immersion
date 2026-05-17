@@ -10,547 +10,1088 @@
     "la_entrevista"
   ],
   "pictureLessons": [
-    "jobsAndHobbies",
-    "jobsAndHobbies2"
+    "jobs_and_hobbies",
+    "jobs_and_hobbies_2"
   ],
   "cards": [
     {
       "id": "doctor",
       "levels": [
-        {"front": "Doctor", "back": "Médico", "grammarNote": "Use 'ser' for professions and omit the article: 'Soy médico' (I am a doctor), not 'Soy un médico'. This applies to all professions: 'Es enfermera', 'Es ingeniero'. The article is added only when the noun is modified: 'Soy un buen médico'."},
-        {"front": "He is a doctor.", "back": "Es médico.", "literal": "[he] is doctor"}
+        {
+          "front": "Doctor",
+          "back": "Médico",
+          "grammarNote": "Use 'ser' for professions and omit the article: 'Soy médico' (I am a doctor), not 'Soy un médico'. This applies to all professions: 'Es enfermera', 'Es ingeniero'. The article is added only when the noun is modified: 'Soy un buen médico'."
+        },
+        {
+          "front": "He is a doctor.",
+          "back": "Es médico.",
+          "literal": "[he] is doctor"
+        }
       ]
     },
     {
       "id": "nurse",
       "levels": [
-        {"front": "Nurse", "back": "Enfermero"},
-        {"front": "She is a nurse.", "back": "Ella es enfermera.", "literal": "She is nurse"}
+        {
+          "front": "Nurse",
+          "back": "Enfermero"
+        },
+        {
+          "front": "She is a nurse.",
+          "back": "Ella es enfermera.",
+          "literal": "She is nurse"
+        }
       ]
     },
     {
       "id": "engineer",
       "levels": [
-        {"front": "Engineer", "back": "Ingeniero"},
-        {"front": "My brother is an engineer.", "back": "Mi hermano es ingeniero.", "literal": "My brother is engineer"}
+        {
+          "front": "Engineer",
+          "back": "Ingeniero"
+        },
+        {
+          "front": "My brother is an engineer.",
+          "back": "Mi hermano es ingeniero.",
+          "literal": "My brother is engineer"
+        }
       ]
     },
     {
       "id": "programmer",
       "levels": [
-        {"front": "Programmer", "back": "Programador"},
-        {"front": "I work as a programmer.", "back": "Trabajo como programador.", "literal": "[I] work as programmer"}
+        {
+          "front": "Programmer",
+          "back": "Programador"
+        },
+        {
+          "front": "I work as a programmer.",
+          "back": "Trabajo como programador.",
+          "literal": "[I] work as programmer"
+        }
       ]
     },
     {
       "id": "cook",
       "levels": [
-        {"front": "Cook", "back": "Cocinero"},
-        {"front": "The cook works in the kitchen.", "back": "El cocinero trabaja en la cocina.", "literal": "The cook works in the kitchen"}
+        {
+          "front": "Cook",
+          "back": "Cocinero"
+        },
+        {
+          "front": "The cook works in the kitchen.",
+          "back": "El cocinero trabaja en la cocina.",
+          "literal": "The cook works in the kitchen"
+        }
       ]
     },
     {
       "id": "waiter_waitress",
       "levels": [
-        {"front": "Waiter (Waitress)", "back": "Camarero (Camarera)"},
-        {"front": "The waiter brought the menu.", "back": "El camarero trajo el menú.", "literal": "The waiter brought the menu"}
+        {
+          "front": "Waiter (Waitress)",
+          "back": "Camarero (Camarera)"
+        },
+        {
+          "front": "The waiter brought the menu.",
+          "back": "El camarero trajo el menú.",
+          "literal": "The waiter brought the menu"
+        }
       ]
     },
     {
       "id": "manager",
       "levels": [
-        {"front": "Manager", "back": "Gerente"},
-        {"front": "She is a manager.", "back": "Ella es gerente.", "literal": "She is manager"}
+        {
+          "front": "Manager",
+          "back": "Gerente"
+        },
+        {
+          "front": "She is a manager.",
+          "back": "Ella es gerente.",
+          "literal": "She is manager"
+        }
       ]
     },
     {
       "id": "student",
       "levels": [
-        {"front": "Student", "back": "Estudiante"},
-        {"front": "I am a student.", "back": "Soy estudiante.", "literal": "[I] am student"}
+        {
+          "front": "Student",
+          "back": "Estudiante"
+        },
+        {
+          "front": "I am a student.",
+          "back": "Soy estudiante.",
+          "literal": "[I] am student"
+        }
       ]
     },
     {
       "id": "architect",
       "levels": [
-        {"front": "Architect", "back": "Arquitecto"},
-        {"front": "He is an architect.", "back": "Él es arquitecto.", "literal": "He is architect"}
+        {
+          "front": "Architect",
+          "back": "Arquitecto"
+        },
+        {
+          "front": "He is an architect.",
+          "back": "Él es arquitecto.",
+          "literal": "He is architect"
+        }
       ]
     },
     {
       "id": "lawyer",
       "levels": [
-        {"front": "Lawyer", "back": "Abogado"},
-        {"front": "My sister is a lawyer.", "back": "Mi hermana es abogada.", "literal": "My sister is lawyer"}
+        {
+          "front": "Lawyer",
+          "back": "Abogado"
+        },
+        {
+          "front": "My sister is a lawyer.",
+          "back": "Mi hermana es abogada.",
+          "literal": "My sister is lawyer"
+        }
       ]
     },
     {
       "id": "retired_person",
       "levels": [
-        {"front": "Retired Person", "back": "Jubilado"},
-        {"front": "My father is retired.", "back": "Mi padre está jubilado.", "literal": "My father is retired"}
+        {
+          "front": "Retired Person",
+          "back": "Jubilado"
+        },
+        {
+          "front": "My father is retired.",
+          "back": "Mi padre está jubilado.",
+          "literal": "My father is retired"
+        }
       ]
     },
     {
       "id": "reading",
       "levels": [
-        {"front": "Reading", "back": "Leer"},
-        {"front": "I like reading.", "back": "Me gusta leer.", "literal": "To-me pleases reading"}
+        {
+          "front": "Reading",
+          "back": "Leer"
+        },
+        {
+          "front": "I like reading.",
+          "back": "Me gusta leer.",
+          "literal": "To-me pleases reading"
+        }
       ]
     },
     {
       "id": "writing",
       "levels": [
-        {"front": "Writing", "back": "Escribir"},
-        {"front": "She likes writing stories.", "back": "A ella le gusta escribir cuentos.", "literal": "To her to-her pleases writing stories"}
+        {
+          "front": "Writing",
+          "back": "Escribir"
+        },
+        {
+          "front": "She likes writing stories.",
+          "back": "A ella le gusta escribir cuentos.",
+          "literal": "To her to-her pleases writing stories"
+        }
       ]
     },
     {
       "id": "painting",
       "levels": [
-        {"front": "Painting", "back": "Pintar"},
-        {"front": "He loves painting.", "back": "A él le encanta pintar.", "literal": "To him to-him enchants painting"}
+        {
+          "front": "Painting",
+          "back": "Pintar"
+        },
+        {
+          "front": "He loves painting.",
+          "back": "A él le encanta pintar.",
+          "literal": "To him to-him enchants painting"
+        }
       ]
     },
     {
       "id": "drawing",
       "levels": [
-        {"front": "Drawing", "back": "Dibujar"},
-        {"front": "I like drawing.", "back": "Me gusta dibujar.", "literal": "To-me pleases drawing"}
+        {
+          "front": "Drawing",
+          "back": "Dibujar"
+        },
+        {
+          "front": "I like drawing.",
+          "back": "Me gusta dibujar.",
+          "literal": "To-me pleases drawing"
+        }
       ]
     },
     {
       "id": "photography",
       "levels": [
-        {"front": "Photography", "back": "Fotografía"},
-        {"front": "Photography is my hobby.", "back": "La fotografía es mi pasatiempo.", "literal": "The photography is my pastime"}
+        {
+          "front": "Photography",
+          "back": "Fotografía"
+        },
+        {
+          "front": "Photography is my hobby.",
+          "back": "La fotografía es mi pasatiempo.",
+          "literal": "The photography is my pastime"
+        }
       ]
     },
     {
       "id": "music",
       "levels": [
-        {"front": "Music", "back": "Música"},
-        {"front": "I listen to music every day.", "back": "Escucho música todos los días.", "literal": "[I] listen music all the days"}
+        {
+          "front": "Music",
+          "back": "Música"
+        },
+        {
+          "front": "I listen to music every day.",
+          "back": "Escucho música todos los días.",
+          "literal": "[I] listen music all the days"
+        }
       ]
     },
     {
       "id": "singing",
       "levels": [
-        {"front": "Singing", "back": "Cantar"},
-        {"front": "She loves singing.", "back": "A ella le encanta cantar.", "literal": "To her to-her enchants singing"}
+        {
+          "front": "Singing",
+          "back": "Cantar"
+        },
+        {
+          "front": "She loves singing.",
+          "back": "A ella le encanta cantar.",
+          "literal": "To her to-her enchants singing"
+        }
       ]
     },
     {
       "id": "playing_an_instrument_e_g_guitar",
       "levels": [
-        {"front": "Playing an instrument (e.g., Guitar)", "back": "Tocar un instrumento (ej., Guitarra)"},
-        {"front": "I play the guitar.", "back": "Toco la guitarra.", "literal": "[I] play the guitar"}
+        {
+          "front": "Playing an instrument (e.g., Guitar)",
+          "back": "Tocar un instrumento (ej., Guitarra)"
+        },
+        {
+          "front": "I play the guitar.",
+          "back": "Toco la guitarra.",
+          "literal": "[I] play the guitar"
+        }
       ]
     },
     {
       "id": "dancing",
       "levels": [
-        {"front": "Dancing", "back": "Bailar"},
-        {"front": "We love dancing.", "back": "Nos encanta bailar.", "literal": "To-us enchants dancing"}
+        {
+          "front": "Dancing",
+          "back": "Bailar"
+        },
+        {
+          "front": "We love dancing.",
+          "back": "Nos encanta bailar.",
+          "literal": "To-us enchants dancing"
+        }
       ]
     },
     {
       "id": "cooking",
       "levels": [
-        {"front": "Cooking", "back": "Cocinar"},
-        {"front": "I enjoy cooking.", "back": "Me gusta cocinar.", "literal": "To-me pleases cooking"}
+        {
+          "front": "Cooking",
+          "back": "Cocinar"
+        },
+        {
+          "front": "I enjoy cooking.",
+          "back": "Me gusta cocinar.",
+          "literal": "To-me pleases cooking"
+        }
       ]
     },
     {
       "id": "gardening",
       "levels": [
-        {"front": "Gardening", "back": "Jardinería"},
-        {"front": "Gardening is relaxing.", "back": "La jardinería es relajante.", "literal": "The gardening is relaxing"}
+        {
+          "front": "Gardening",
+          "back": "Jardinería"
+        },
+        {
+          "front": "Gardening is relaxing.",
+          "back": "La jardinería es relajante.",
+          "literal": "The gardening is relaxing"
+        }
       ]
     },
     {
       "id": "hiking",
       "levels": [
-        {"front": "Hiking", "back": "Senderismo"},
-        {"front": "I like hiking in the mountains.", "back": "Me gusta hacer senderismo en la montaña.", "literal": "To-me pleases do hiking in the mountain"}
+        {
+          "front": "Hiking",
+          "back": "Senderismo"
+        },
+        {
+          "front": "I like hiking in the mountains.",
+          "back": "Me gusta hacer senderismo en la montaña.",
+          "literal": "To-me pleases do hiking in the mountain"
+        }
       ]
     },
     {
       "id": "running",
       "levels": [
-        {"front": "Running", "back": "Correr"},
-        {"front": "I run every morning.", "back": "Corro todas las mañanas.", "literal": "[I] run all the mornings"}
+        {
+          "front": "Running",
+          "back": "Correr"
+        },
+        {
+          "front": "I run every morning.",
+          "back": "Corro todas las mañanas.",
+          "literal": "[I] run all the mornings"
+        }
       ]
     },
     {
       "id": "jogging",
       "levels": [
-        {"front": "Jogging", "back": "Trotar"},
-        {"front": "He jogs in the park.", "back": "Él trota en el parque.", "literal": "He jogs in the park"}
+        {
+          "front": "Jogging",
+          "back": "Trotar"
+        },
+        {
+          "front": "He jogs in the park.",
+          "back": "Él trota en el parque.",
+          "literal": "He jogs in the park"
+        }
       ]
     },
     {
       "id": "biking",
       "levels": [
-        {"front": "Biking", "back": "Andar en bicicleta"},
-        {"front": "I go biking on weekends.", "back": "Ando en bicicleta los fines de semana.", "literal": "[I] go by bicycle the ends of week"}
+        {
+          "front": "Biking",
+          "back": "Andar en bicicleta"
+        },
+        {
+          "front": "I go biking on weekends.",
+          "back": "Ando en bicicleta los fines de semana.",
+          "literal": "[I] go by bicycle the ends of week"
+        }
       ]
     },
     {
       "id": "swimming",
       "levels": [
-        {"front": "Swimming", "back": "Nadar"},
-        {"front": "I like swimming.", "back": "Me gusta nadar.", "literal": "To-me pleases swimming"}
+        {
+          "front": "Swimming",
+          "back": "Nadar"
+        },
+        {
+          "front": "I like swimming.",
+          "back": "Me gusta nadar.",
+          "literal": "To-me pleases swimming"
+        }
       ]
     },
     {
       "id": "yoga",
       "levels": [
-        {"front": "Yoga", "back": "Yoga"},
-        {"front": "She does yoga every morning.", "back": "Ella hace yoga todas las mañanas.", "literal": "She does yoga all the mornings"}
+        {
+          "front": "Yoga",
+          "back": "Yoga"
+        },
+        {
+          "front": "She does yoga every morning.",
+          "back": "Ella hace yoga todas las mañanas.",
+          "literal": "She does yoga all the mornings"
+        }
       ]
     },
     {
       "id": "exercise",
       "levels": [
-        {"front": "Exercise", "back": "Ejercicio"},
-        {"front": "I go to the gym for exercise.", "back": "Voy al gimnasio para hacer ejercicio.", "literal": "[I] go to-the gym to do exercise"}
+        {
+          "front": "Exercise",
+          "back": "Ejercicio"
+        },
+        {
+          "front": "I go to the gym for exercise.",
+          "back": "Voy al gimnasio para hacer ejercicio.",
+          "literal": "[I] go to-the gym to do exercise"
+        }
       ]
     },
     {
       "id": "traveling",
       "levels": [
-        {"front": "Traveling", "back": "Viajar"},
-        {"front": "I love traveling.", "back": "Me encanta viajar.", "literal": "To-me enchants traveling"}
+        {
+          "front": "Traveling",
+          "back": "Viajar"
+        },
+        {
+          "front": "I love traveling.",
+          "back": "Me encanta viajar.",
+          "literal": "To-me enchants traveling"
+        }
       ]
     },
     {
       "id": "camping",
       "levels": [
-        {"front": "Camping", "back": "Acampar"},
-        {"front": "We go camping in the summer.", "back": "Acampamos en verano.", "literal": "[we] camp in summer"}
+        {
+          "front": "Camping",
+          "back": "Acampar"
+        },
+        {
+          "front": "We go camping in the summer.",
+          "back": "Acampamos en verano.",
+          "literal": "[we] camp in summer"
+        }
       ]
     },
     {
       "id": "gaming_video_games",
       "levels": [
-        {"front": "Gaming (Video games)", "back": "Jugar videojuegos"},
-        {"front": "He plays video games at night.", "back": "Él juega videojuegos por la noche.", "literal": "He plays video-games by the night"}
+        {
+          "front": "Gaming (Video games)",
+          "back": "Jugar videojuegos"
+        },
+        {
+          "front": "He plays video games at night.",
+          "back": "Él juega videojuegos por la noche.",
+          "literal": "He plays video-games by the night"
+        }
       ]
     },
     {
       "id": "watching_tv",
       "levels": [
-        {"front": "Watching TV", "back": "Ver películas / la tele"},
-        {"front": "I like watching movies.", "back": "Me gusta ver películas.", "literal": "To-me pleases watch movies"}
+        {
+          "front": "Watching TV",
+          "back": "Ver películas / la tele"
+        },
+        {
+          "front": "I like watching movies.",
+          "back": "Me gusta ver películas.",
+          "literal": "To-me pleases watch movies"
+        }
       ]
     },
     {
       "id": "listening_to_music",
       "levels": [
-        {"front": "Listening to music", "back": "Escuchar música"},
-        {"front": "She likes listening to music.", "back": "A ella le gusta escuchar música.", "literal": "To her to-her pleases listen music"}
+        {
+          "front": "Listening to music",
+          "back": "Escuchar música"
+        },
+        {
+          "front": "She likes listening to music.",
+          "back": "A ella le gusta escuchar música.",
+          "literal": "To her to-her pleases listen music"
+        }
       ]
     },
     {
       "id": "crafts",
       "levels": [
-        {"front": "Crafts", "back": "Artesanías"},
-        {"front": "The children are making crafts.", "back": "Los niños están haciendo artesanías.", "literal": "The children [are] making crafts"}
+        {
+          "front": "Crafts",
+          "back": "Artesanías"
+        },
+        {
+          "front": "The children are making crafts.",
+          "back": "Los niños están haciendo artesanías.",
+          "literal": "The children [are] making crafts"
+        }
       ]
     },
     {
       "id": "chess",
       "levels": [
-        {"front": "Chess", "back": "Ajedrez"},
-        {"front": "Do you play chess?", "back": "¿Juegas ajedrez?", "literal": "[you] play chess?"}
+        {
+          "front": "Chess",
+          "back": "Ajedrez"
+        },
+        {
+          "front": "Do you play chess?",
+          "back": "¿Juegas ajedrez?",
+          "literal": "[you] play chess?"
+        }
       ]
     },
     {
       "id": "board_games",
       "levels": [
-        {"front": "Board games", "back": "Juegos de mesa"},
-        {"front": "We play board games on weekends.", "back": "Jugamos juegos de mesa los fines de semana.", "literal": "[we] play games of table the ends of week"}
+        {
+          "front": "Board games",
+          "back": "Juegos de mesa"
+        },
+        {
+          "front": "We play board games on weekends.",
+          "back": "Jugamos juegos de mesa los fines de semana.",
+          "literal": "[we] play games of table the ends of week"
+        }
       ]
     },
     {
       "id": "to_work_in_for_as",
       "levels": [
-        {"front": "To work (in/for/as)", "back": "Trabajar (en/para/como)"},
-        {"front": "I work in a hospital.", "back": "Trabajo en un hospital.", "literal": "[I] work in a hospital"}
+        {
+          "front": "To work (in/for/as)",
+          "back": "Trabajar (en/para/como)"
+        },
+        {
+          "front": "I work in a hospital.",
+          "back": "Trabajo en un hospital.",
+          "literal": "[I] work in a hospital"
+        }
       ]
     },
     {
       "id": "to_earn_a_salary",
       "levels": [
-        {"front": "To earn (a salary)", "back": "Ganar (un salario)"},
-        {"front": "He earns a good salary.", "back": "Él gana un buen salario.", "literal": "He earns a good salary"}
+        {
+          "front": "To earn (a salary)",
+          "back": "Ganar (un salario)"
+        },
+        {
+          "front": "He earns a good salary.",
+          "back": "Él gana un buen salario.",
+          "literal": "He earns a good salary"
+        }
       ]
     },
     {
       "id": "to_retire",
       "levels": [
-        {"front": "To retire", "back": "Jubilarse"},
-        {"front": "She retired last year.", "back": "Ella se jubiló el año pasado.", "literal": "She herself retired the year past"}
+        {
+          "front": "To retire",
+          "back": "Jubilarse"
+        },
+        {
+          "front": "She retired last year.",
+          "back": "Ella se jubiló el año pasado.",
+          "literal": "She herself retired the year past"
+        }
       ]
     },
     {
       "id": "to_have_a_job",
       "levels": [
-        {"front": "To have a job", "back": "Tener un trabajo"},
-        {"front": "I have a good job.", "back": "Tengo un buen trabajo.", "literal": "[I] have a good job"}
+        {
+          "front": "To have a job",
+          "back": "Tener un trabajo"
+        },
+        {
+          "front": "I have a good job.",
+          "back": "Tengo un buen trabajo.",
+          "literal": "[I] have a good job"
+        }
       ]
     },
     {
       "id": "to_be_unemployed",
       "levels": [
-        {"front": "To be unemployed", "back": "Estar desempleado"},
-        {"front": "He is currently unemployed.", "back": "Él está desempleado actualmente.", "literal": "He is unemployed currently"}
+        {
+          "front": "To be unemployed",
+          "back": "Estar desempleado"
+        },
+        {
+          "front": "He is currently unemployed.",
+          "back": "Él está desempleado actualmente.",
+          "literal": "He is unemployed currently"
+        }
       ]
     },
     {
       "id": "to_study",
       "levels": [
-        {"front": "To study", "back": "Estudiar"},
-        {"front": "I study every day.", "back": "Estudio todos los días.", "literal": "[I] study all the days"}
+        {
+          "front": "To study",
+          "back": "Estudiar"
+        },
+        {
+          "front": "I study every day.",
+          "back": "Estudio todos los días.",
+          "literal": "[I] study all the days"
+        }
       ]
     },
     {
       "id": "to_learn",
       "levels": [
-        {"front": "To learn", "back": "Aprender"},
-        {"front": "I'm learning Spanish.", "back": "Estoy aprendiendo español.", "literal": "[I] am learning Spanish"}
+        {
+          "front": "To learn",
+          "back": "Aprender"
+        },
+        {
+          "front": "I'm learning Spanish.",
+          "back": "Estoy aprendiendo español.",
+          "literal": "[I] am learning Spanish"
+        }
       ]
     },
     {
       "id": "to_practice",
       "levels": [
-        {"front": "To practice", "back": "Practicar"},
-        {"front": "I practice every day.", "back": "Practico todos los días.", "literal": "[I] practice all the days"}
+        {
+          "front": "To practice",
+          "back": "Practicar"
+        },
+        {
+          "front": "I practice every day.",
+          "back": "Practico todos los días.",
+          "literal": "[I] practice all the days"
+        }
       ]
     },
     {
       "id": "to_teach",
       "levels": [
-        {"front": "To teach", "back": "Enseñar"},
-        {"front": "She teaches Spanish.", "back": "Ella enseña español.", "literal": "She teaches Spanish"}
+        {
+          "front": "To teach",
+          "back": "Enseñar"
+        },
+        {
+          "front": "She teaches Spanish.",
+          "back": "Ella enseña español.",
+          "literal": "She teaches Spanish"
+        }
       ]
     },
     {
       "id": "to_build",
       "levels": [
-        {"front": "To build", "back": "Construir"},
-        {"front": "They are building a new school.", "back": "Están construyendo una nueva escuela.", "literal": "[they] are building a new school"}
+        {
+          "front": "To build",
+          "back": "Construir"
+        },
+        {
+          "front": "They are building a new school.",
+          "back": "Están construyendo una nueva escuela.",
+          "literal": "[they] are building a new school"
+        }
       ]
     },
     {
       "id": "to_fix",
       "levels": [
-        {"front": "To fix", "back": "Arreglar"},
-        {"front": "Can you fix this?", "back": "¿Puedes arreglar esto?", "literal": "[you] can fix this?"}
+        {
+          "front": "To fix",
+          "back": "Arreglar"
+        },
+        {
+          "front": "Can you fix this?",
+          "back": "¿Puedes arreglar esto?",
+          "literal": "[you] can fix this?"
+        }
       ]
     },
     {
       "id": "to_make",
       "levels": [
-        {"front": "To make", "back": "Hacer"},
-        {"front": "I make coffee every morning.", "back": "Hago café todas las mañanas.", "literal": "[I] make coffee all the mornings"}
+        {
+          "front": "To make",
+          "back": "Hacer"
+        },
+        {
+          "front": "I make coffee every morning.",
+          "back": "Hago café todas las mañanas.",
+          "literal": "[I] make coffee all the mornings"
+        }
       ]
     },
     {
       "id": "to_design",
       "levels": [
-        {"front": "To design", "back": "Diseñar"},
-        {"front": "He designs websites.", "back": "Él diseña páginas web.", "literal": "He designs pages web"}
+        {
+          "front": "To design",
+          "back": "Diseñar"
+        },
+        {
+          "front": "He designs websites.",
+          "back": "Él diseña páginas web.",
+          "literal": "He designs pages web"
+        }
       ]
     },
     {
       "id": "to_sell",
       "levels": [
-        {"front": "To sell", "back": "Vender"},
-        {"front": "He sells cars.", "back": "Él vende coches.", "literal": "He sells cars"}
+        {
+          "front": "To sell",
+          "back": "Vender"
+        },
+        {
+          "front": "He sells cars.",
+          "back": "Él vende coches.",
+          "literal": "He sells cars"
+        }
       ]
     },
     {
       "id": "to_buy",
       "levels": [
-        {"front": "To buy", "back": "Comprar"},
-        {"front": "I need to buy a new computer.", "back": "Necesito comprar una nueva computadora.", "literal": "[I] need to buy a new computer"}
+        {
+          "front": "To buy",
+          "back": "Comprar"
+        },
+        {
+          "front": "I need to buy a new computer.",
+          "back": "Necesito comprar una nueva computadora.",
+          "literal": "[I] need to buy a new computer"
+        }
       ]
     },
     {
       "id": "to_help",
       "levels": [
-        {"front": "To help", "back": "Ayudar"},
-        {"front": "Can I help you?", "back": "¿Puedo ayudarte?", "literal": "[I] can help-you?"}
+        {
+          "front": "To help",
+          "back": "Ayudar"
+        },
+        {
+          "front": "Can I help you?",
+          "back": "¿Puedo ayudarte?",
+          "literal": "[I] can help-you?"
+        }
       ]
     },
     {
       "id": "to_manage",
       "levels": [
-        {"front": "To manage", "back": "Dirigir"},
-        {"front": "She manages the team.", "back": "Ella dirige el equipo.", "literal": "She directs the team"}
+        {
+          "front": "To manage",
+          "back": "Dirigir"
+        },
+        {
+          "front": "She manages the team.",
+          "back": "Ella dirige el equipo.",
+          "literal": "She directs the team"
+        }
       ]
     },
     {
       "id": "to_meet",
       "levels": [
-        {"front": "To meet", "back": "Reunirse"},
-        {"front": "We meet every Monday.", "back": "Nos reunimos cada lunes.", "literal": "[we] ourselves meet each Monday"}
+        {
+          "front": "To meet",
+          "back": "Reunirse"
+        },
+        {
+          "front": "We meet every Monday.",
+          "back": "Nos reunimos cada lunes.",
+          "literal": "[we] ourselves meet each Monday"
+        }
       ]
     },
     {
       "id": "to_start",
       "levels": [
-        {"front": "To start", "back": "Empezar"},
-        {"front": "I start work at eight.", "back": "Empiezo a trabajar a las ocho.", "literal": "[I] start to work at the eight"}
+        {
+          "front": "To start",
+          "back": "Empezar"
+        },
+        {
+          "front": "I start work at eight.",
+          "back": "Empiezo a trabajar a las ocho.",
+          "literal": "[I] start to work at the eight"
+        }
       ]
     },
     {
       "id": "to_finish",
       "levels": [
-        {"front": "To finish", "back": "Terminar"},
-        {"front": "I finish work at five.", "back": "Termino de trabajar a las cinco.", "literal": "[I] finish of working at the five"}
+        {
+          "front": "To finish",
+          "back": "Terminar"
+        },
+        {
+          "front": "I finish work at five.",
+          "back": "Termino de trabajar a las cinco.",
+          "literal": "[I] finish of working at the five"
+        }
       ]
     },
     {
       "id": "to_like_to_enjoy",
       "levels": [
-        {"front": "To like / To enjoy", "back": "Gustar / Disfrutar", "grammarNote": "Gustar + infinitive = to like doing something. 'Me gusta leer' = I like reading. 'A ella le gusta cantar' = She likes singing. For third-person subjects, add 'a + person' for clarity: 'A mi padre le gusta pescar'. The verb gustar agrees with what is liked, not the person doing the liking."},
-        {"front": "I like reading. She likes singing.", "back": "Me gusta leer. A ella le gusta cantar.", "literal": "To-me pleases reading. To her to-her pleases singing."}
+        {
+          "front": "To like / To enjoy",
+          "back": "Gustar / Disfrutar",
+          "grammarNote": "Gustar + infinitive = to like doing something. 'Me gusta leer' = I like reading. 'A ella le gusta cantar' = She likes singing. For third-person subjects, add 'a + person' for clarity: 'A mi padre le gusta pescar'. The verb gustar agrees with what is liked, not the person doing the liking."
+        },
+        {
+          "front": "I like reading. She likes singing.",
+          "back": "Me gusta leer. A ella le gusta cantar.",
+          "literal": "To-me pleases reading. To her to-her pleases singing."
+        }
       ]
     },
     {
       "id": "to_relax",
       "levels": [
-        {"front": "To relax", "back": "Relajarse"},
-        {"front": "I relax on weekends.", "back": "Me relajo los fines de semana.", "literal": "[I] myself relax the ends of week"}
+        {
+          "front": "To relax",
+          "back": "Relajarse"
+        },
+        {
+          "front": "I relax on weekends.",
+          "back": "Me relajo los fines de semana.",
+          "literal": "[I] myself relax the ends of week"
+        }
       ]
     },
     {
       "id": "to_spend_time_on",
       "levels": [
-        {"front": "To spend time (on)", "back": "Pasar tiempo (en)"},
-        {"front": "I spend a lot of time reading.", "back": "Paso mucho tiempo leyendo.", "literal": "[I] spend much time reading"}
+        {
+          "front": "To spend time (on)",
+          "back": "Pasar tiempo (en)"
+        },
+        {
+          "front": "I spend a lot of time reading.",
+          "back": "Paso mucho tiempo leyendo.",
+          "literal": "[I] spend much time reading"
+        }
       ]
     },
     {
       "id": "creative",
       "levels": [
-        {"front": "Creative", "back": "Creativo"},
-        {"front": "She is very creative.", "back": "Ella es muy creativa.", "literal": "She is very creative"}
+        {
+          "front": "Creative",
+          "back": "Creativo"
+        },
+        {
+          "front": "She is very creative.",
+          "back": "Ella es muy creativa.",
+          "literal": "She is very creative"
+        }
       ]
     },
     {
       "id": "interesting",
       "levels": [
-        {"front": "Interesting", "back": "Interesante"},
-        {"front": "My job is interesting.", "back": "Mi trabajo es interesante.", "literal": "My work is interesting"}
+        {
+          "front": "Interesting",
+          "back": "Interesante"
+        },
+        {
+          "front": "My job is interesting.",
+          "back": "Mi trabajo es interesante.",
+          "literal": "My work is interesting"
+        }
       ]
     },
     {
       "id": "stressful",
       "levels": [
-        {"front": "Stressful", "back": "Estresante"},
-        {"front": "My job is stressful.", "back": "Mi trabajo es estresante.", "literal": "My work is stressful"}
+        {
+          "front": "Stressful",
+          "back": "Estresante"
+        },
+        {
+          "front": "My job is stressful.",
+          "back": "Mi trabajo es estresante.",
+          "literal": "My work is stressful"
+        }
       ]
     },
     {
       "id": "boring",
       "levels": [
-        {"front": "Boring", "back": "Aburrido"},
-        {"front": "The meeting was boring.", "back": "La reunión fue aburrida.", "literal": "The meeting was boring"}
+        {
+          "front": "Boring",
+          "back": "Aburrido"
+        },
+        {
+          "front": "The meeting was boring.",
+          "back": "La reunión fue aburrida.",
+          "literal": "The meeting was boring"
+        }
       ]
     },
     {
       "id": "salary",
       "levels": [
-        {"front": "Salary", "back": "Salario"},
-        {"front": "What is the salary?", "back": "¿Cuál es el salario?", "literal": "Which is the salary?"}
+        {
+          "front": "Salary",
+          "back": "Salario"
+        },
+        {
+          "front": "What is the salary?",
+          "back": "¿Cuál es el salario?",
+          "literal": "Which is the salary?"
+        }
       ]
     },
     {
       "id": "schedule",
       "levels": [
-        {"front": "Schedule", "back": "Horario"},
-        {"front": "My schedule is flexible.", "back": "Mi horario es flexible.", "literal": "My schedule is flexible"}
+        {
+          "front": "Schedule",
+          "back": "Horario"
+        },
+        {
+          "front": "My schedule is flexible.",
+          "back": "Mi horario es flexible.",
+          "literal": "My schedule is flexible"
+        }
       ]
     },
     {
       "id": "vacation",
       "levels": [
-        {"front": "Vacation", "back": "Vacaciones"},
-        {"front": "I'm going on vacation next week.", "back": "Voy de vacaciones la semana próxima.", "literal": "[I] go of vacations the week next"}
+        {
+          "front": "Vacation",
+          "back": "Vacaciones"
+        },
+        {
+          "front": "I'm going on vacation next week.",
+          "back": "Voy de vacaciones la semana próxima.",
+          "literal": "[I] go of vacations the week next"
+        }
       ]
     },
     {
       "id": "break",
       "levels": [
-        {"front": "Break", "back": "Descanso"},
-        {"front": "Let's take a break.", "back": "Tomemos un descanso.", "literal": "[let us] take a rest"}
+        {
+          "front": "Break",
+          "back": "Descanso"
+        },
+        {
+          "front": "Let's take a break.",
+          "back": "Tomemos un descanso.",
+          "literal": "[let us] take a rest"
+        }
       ]
     },
     {
       "id": "office",
       "levels": [
-        {"front": "Office", "back": "Oficina"},
-        {"front": "I work in an office.", "back": "Trabajo en una oficina.", "literal": "[I] work in an office"}
+        {
+          "front": "Office",
+          "back": "Oficina"
+        },
+        {
+          "front": "I work in an office.",
+          "back": "Trabajo en una oficina.",
+          "literal": "[I] work in an office"
+        }
       ]
     },
     {
       "id": "outdoors",
       "levels": [
-        {"front": "Outdoors", "back": "Al aire libre"},
-        {"front": "She works outdoors.", "back": "Ella trabaja al aire libre.", "literal": "She works to-the air free"}
+        {
+          "front": "Outdoors",
+          "back": "Al aire libre"
+        },
+        {
+          "front": "She works outdoors.",
+          "back": "Ella trabaja al aire libre.",
+          "literal": "She works to-the air free"
+        }
       ]
     },
     {
       "id": "interview",
       "levels": [
-        {"front": "Interview", "back": "Entrevista"},
-        {"front": "I have a job interview tomorrow.", "back": "Tengo una entrevista de trabajo mañana.", "literal": "[I] have an interview of work tomorrow"}
+        {
+          "front": "Interview",
+          "back": "Entrevista"
+        },
+        {
+          "front": "I have a job interview tomorrow.",
+          "back": "Tengo una entrevista de trabajo mañana.",
+          "literal": "[I] have an interview of work tomorrow"
+        }
       ]
     },
     {
       "id": "colleague",
       "levels": [
-        {"front": "Colleague", "back": "Compañero de trabajo"},
-        {"front": "My coworkers are friendly.", "back": "Mis compañeros de trabajo son simpáticos.", "literal": "My companions of work are friendly"}
+        {
+          "front": "Colleague",
+          "back": "Compañero de trabajo"
+        },
+        {
+          "front": "My coworkers are friendly.",
+          "back": "Mis compañeros de trabajo son simpáticos.",
+          "literal": "My companions of work are friendly"
+        }
       ]
     },
     {
       "id": "customer",
       "levels": [
-        {"front": "Customer", "back": "Cliente"},
-        {"front": "The client is happy.", "back": "El cliente está contento.", "literal": "The client is content"}
+        {
+          "front": "Customer",
+          "back": "Cliente"
+        },
+        {
+          "front": "The client is happy.",
+          "back": "El cliente está contento.",
+          "literal": "The client is content"
+        }
       ]
     },
     {
       "id": "team",
       "levels": [
-        {"front": "Team", "back": "Equipo"},
-        {"front": "I work in a great team.", "back": "Trabajo en un equipo genial.", "literal": "[I] work in a team great"}
+        {
+          "front": "Team",
+          "back": "Equipo"
+        },
+        {
+          "front": "I work in a great team.",
+          "back": "Trabajo en un equipo genial.",
+          "literal": "[I] work in a team great"
+        }
       ]
     },
     {
       "id": "project",
       "levels": [
-        {"front": "Project", "back": "Proyecto"},
-        {"front": "The project is almost finished.", "back": "El proyecto está casi terminado.", "literal": "The project is almost finished"}
+        {
+          "front": "Project",
+          "back": "Proyecto"
+        },
+        {
+          "front": "The project is almost finished.",
+          "back": "El proyecto está casi terminado.",
+          "literal": "The project is almost finished"
+        }
       ]
     },
     {
       "id": "meeting",
       "levels": [
-        {"front": "Meeting", "back": "Reunión"},
-        {"front": "We have a meeting at ten.", "back": "Tenemos una reunión a las diez.", "literal": "[we] have a meeting at the ten"}
+        {
+          "front": "Meeting",
+          "back": "Reunión"
+        },
+        {
+          "front": "We have a meeting at ten.",
+          "back": "Tenemos una reunión a las diez.",
+          "literal": "[we] have a meeting at the ten"
+        }
       ]
     },
     {
       "id": "free_time",
       "levels": [
-        {"front": "Free time", "back": "Tiempo libre"},
-        {"front": "What do you do in your free time?", "back": "¿Qué haces en tu tiempo libre?", "literal": "What [you] do in your time free?"}
+        {
+          "front": "Free time",
+          "back": "Tiempo libre"
+        },
+        {
+          "front": "What do you do in your free time?",
+          "back": "¿Qué haces en tu tiempo libre?",
+          "literal": "What [you] do in your time free?"
+        }
       ]
     }
   ]

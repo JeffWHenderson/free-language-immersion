@@ -11,525 +11,1203 @@
     "bad_bunny"
   ],
   "pictureLessons": [
-    "everydayPhrases01"
+    "everyday_phrases_01"
   ],
   "cards": [
     {
       "id": "hello",
       "levels": [
-        {"front": "Hello", "back": "你好", "romanized": "nǐ hǎo"},
-        {"front": "Hello! How are you?", "back": "你好！你好吗？", "romanized": "Nǐ hǎo! Nǐ hǎo ma?", "literal": "Hello! You good?"}
+        {
+          "front": "Hello",
+          "back": "你好",
+          "romanized": "nǐ hǎo"
+        },
+        {
+          "front": "Hello! How are you?",
+          "back": "你好！你好吗？",
+          "romanized": "Nǐ hǎo! Nǐ hǎo ma?",
+          "literal": "Hello! You good?"
+        }
       ]
     },
     {
       "id": "please",
       "levels": [
-        {"front": "Please", "back": "请", "romanized": "qǐng", "grammarNote": "请 (qǐng) precedes a verb to make a polite request: 请坐 (please sit), 请问 (may I ask). For offering something: 请 alone. To ask for an item: 给我... 好吗? or just 来一个... (bring one...)."},
-        {"front": "A coffee, please.", "back": "请给我一杯咖啡。", "romanized": "Qǐng gěi wǒ yī bēi kāfēi.", "literal": "Please give me one cup coffee."}
+        {
+          "front": "Please",
+          "back": "请",
+          "romanized": "qǐng",
+          "grammarNote": "请 (qǐng) precedes a verb to make a polite request: 请坐 (please sit), 请问 (may I ask). For offering something: 请 alone. To ask for an item: 给我... 好吗? or just 来一个... (bring one...)."
+        },
+        {
+          "front": "A coffee, please.",
+          "back": "请给我一杯咖啡。",
+          "romanized": "Qǐng gěi wǒ yī bēi kāfēi.",
+          "literal": "Please give me one cup coffee."
+        }
       ]
     },
     {
       "id": "thank_you",
       "levels": [
-        {"front": "Thank you", "back": "谢谢", "romanized": "xièxie"},
-        {"front": "Thank you very much.", "back": "非常感谢。", "romanized": "Fēicháng gǎnxiè.", "literal": "Extremely grateful."}
+        {
+          "front": "Thank you",
+          "back": "谢谢",
+          "romanized": "xièxie"
+        },
+        {
+          "front": "Thank you very much.",
+          "back": "非常感谢。",
+          "romanized": "Fēicháng gǎnxiè.",
+          "literal": "Extremely grateful."
+        }
       ]
     },
     {
       "id": "i_want",
       "levels": [
-        {"front": "I want", "back": "我想要 / 我要", "romanized": "wǒ xiǎng yào / wǒ yào", "grammarNote": "想要 (xiǎng yào) = would like (softer, more polite). 要 (yào) = want/will (more direct, also used for future). In a restaurant, 我要... is common and perfectly natural. 想 alone = think/feel like doing."},
-        {"front": "I want a coffee.", "back": "我想要一杯咖啡。", "romanized": "Wǒ xiǎng yào yī bēi kāfēi.", "literal": "I want one cup coffee."}
+        {
+          "front": "I want",
+          "back": "我想要 / 我要",
+          "romanized": "wǒ xiǎng yào / wǒ yào",
+          "grammarNote": "想要 (xiǎng yào) = would like (softer, more polite). 要 (yào) = want/will (more direct, also used for future). In a restaurant, 我要... is common and perfectly natural. 想 alone = think/feel like doing."
+        },
+        {
+          "front": "I want a coffee.",
+          "back": "我想要一杯咖啡。",
+          "romanized": "Wǒ xiǎng yào yī bēi kāfēi.",
+          "literal": "I want one cup coffee."
+        }
       ]
     },
     {
       "id": "i_need",
       "levels": [
-        {"front": "I need", "back": "我需要", "romanized": "wǒ xūyào"},
-        {"front": "I need help.", "back": "我需要帮助。", "romanized": "Wǒ xūyào bāngzhù."}
+        {
+          "front": "I need",
+          "back": "我需要",
+          "romanized": "wǒ xūyào"
+        },
+        {
+          "front": "I need help.",
+          "back": "我需要帮助。",
+          "romanized": "Wǒ xūyào bāngzhù."
+        }
       ]
     },
     {
       "id": "my_name_is",
       "levels": [
-        {"front": "My name is", "back": "我叫 / 我的名字是", "romanized": "wǒ jiào / wǒ de míngzi shì", "grammarNote": "我叫 (wǒ jiào) = my name is (lit. 'I am called'). More natural in conversation than 我的名字是. 我姓... (wǒ xìng...) = my surname is... — used when giving a last name in formal contexts."},
-        {"front": "My name is Jeff.", "back": "我叫Jeff。", "romanized": "Wǒ jiào Jeff.", "literal": "I am-called Jeff."}
+        {
+          "front": "My name is",
+          "back": "我叫 / 我的名字是",
+          "romanized": "wǒ jiào / wǒ de míngzi shì",
+          "grammarNote": "我叫 (wǒ jiào) = my name is (lit. 'I am called'). More natural in conversation than 我的名字是. 我姓... (wǒ xìng...) = my surname is... — used when giving a last name in formal contexts."
+        },
+        {
+          "front": "My name is Jeff.",
+          "back": "我叫Jeff。",
+          "romanized": "Wǒ jiào Jeff.",
+          "literal": "I am-called Jeff."
+        }
       ]
     },
     {
       "id": "i",
       "levels": [
-        {"front": "I", "back": "我", "romanized": "wǒ"},
-        {"front": "I am a student.", "back": "我是学生。", "romanized": "Wǒ shì xuésheng.", "literal": "I am student."}
+        {
+          "front": "I",
+          "back": "我",
+          "romanized": "wǒ"
+        },
+        {
+          "front": "I am a student.",
+          "back": "我是学生。",
+          "romanized": "Wǒ shì xuésheng.",
+          "literal": "I am student."
+        }
       ]
     },
     {
       "id": "you",
       "levels": [
-        {"front": "You", "back": "你 / 您", "romanized": "nǐ / nín", "grammarNote": "你 (nǐ) = you (everyday). 您 (nín) = you (formal/respectful) — used with elders, customers, or in formal settings. In most daily conversation, 你 is fine."},
-        {"front": "You speak Chinese well.", "back": "你中文说得很好。", "romanized": "Nǐ zhōngwén shuō de hěn hǎo.", "literal": "You Chinese speak very well."}
+        {
+          "front": "You",
+          "back": "你 / 您",
+          "romanized": "nǐ / nín",
+          "grammarNote": "你 (nǐ) = you (everyday). 您 (nín) = you (formal/respectful) — used with elders, customers, or in formal settings. In most daily conversation, 你 is fine."
+        },
+        {
+          "front": "You speak Chinese well.",
+          "back": "你中文说得很好。",
+          "romanized": "Nǐ zhōngwén shuō de hěn hǎo.",
+          "literal": "You Chinese speak very well."
+        }
       ]
     },
     {
       "id": "he",
       "levels": [
-        {"front": "He", "back": "他", "romanized": "tā"},
-        {"front": "He is my friend.", "back": "他是我的朋友。", "romanized": "Tā shì wǒ de péngyou."}
+        {
+          "front": "He",
+          "back": "他",
+          "romanized": "tā"
+        },
+        {
+          "front": "He is my friend.",
+          "back": "他是我的朋友。",
+          "romanized": "Tā shì wǒ de péngyou."
+        }
       ]
     },
     {
       "id": "she",
       "levels": [
-        {"front": "She", "back": "她", "romanized": "tā", "grammarNote": "他 (he) and 她 (she) are both pronounced tā — identical in speech, different only in writing. Context makes the meaning clear in conversation."},
-        {"front": "She works here.", "back": "她在这里工作。", "romanized": "Tā zài zhèlǐ gōngzuò.", "literal": "She at here work."}
+        {
+          "front": "She",
+          "back": "她",
+          "romanized": "tā",
+          "grammarNote": "他 (he) and 她 (she) are both pronounced tā — identical in speech, different only in writing. Context makes the meaning clear in conversation."
+        },
+        {
+          "front": "She works here.",
+          "back": "她在这里工作。",
+          "romanized": "Tā zài zhèlǐ gōngzuò.",
+          "literal": "She at here work."
+        }
       ]
     },
     {
       "id": "it",
       "levels": [
-        {"front": "It", "back": "它", "romanized": "tā"},
-        {"front": "What is that?", "back": "那是什么？", "romanized": "Nà shì shénme?", "literal": "That is what?"}
+        {
+          "front": "It",
+          "back": "它",
+          "romanized": "tā"
+        },
+        {
+          "front": "What is that?",
+          "back": "那是什么？",
+          "romanized": "Nà shì shénme?",
+          "literal": "That is what?"
+        }
       ]
     },
     {
       "id": "we",
       "levels": [
-        {"front": "We", "back": "我们", "romanized": "wǒmen"},
-        {"front": "We live here.", "back": "我们住在这里。", "romanized": "Wǒmen zhù zài zhèlǐ.", "literal": "We live at here."}
+        {
+          "front": "We",
+          "back": "我们",
+          "romanized": "wǒmen"
+        },
+        {
+          "front": "We live here.",
+          "back": "我们住在这里。",
+          "romanized": "Wǒmen zhù zài zhèlǐ.",
+          "literal": "We live at here."
+        }
       ]
     },
     {
       "id": "they",
       "levels": [
-        {"front": "They", "back": "他们 / 她们", "romanized": "tāmen"},
-        {"front": "They eat together.", "back": "他们一起吃饭。", "romanized": "Tāmen yīqǐ chīfàn.", "literal": "They together eat."}
+        {
+          "front": "They",
+          "back": "他们 / 她们",
+          "romanized": "tāmen"
+        },
+        {
+          "front": "They eat together.",
+          "back": "他们一起吃饭。",
+          "romanized": "Tāmen yīqǐ chīfàn.",
+          "literal": "They together eat."
+        }
       ]
     },
     {
       "id": "this",
       "levels": [
-        {"front": "This", "back": "这个 / 这", "romanized": "zhège / zhè", "grammarNote": "这 (zhè) = this. 这个 (zhège) = this one (with the measure word 个). In Chinese, a measure word (量词) goes between number/demonstrative and noun: 这本书 (this book — 本 is the measure word for books)."},
-        {"front": "This book is good.", "back": "这本书很好。", "romanized": "Zhè běn shū hěn hǎo.", "literal": "This book very good."}
+        {
+          "front": "This",
+          "back": "这个 / 这",
+          "romanized": "zhège / zhè",
+          "grammarNote": "这 (zhè) = this. 这个 (zhège) = this one (with the measure word 个). In Chinese, a measure word (量词) goes between number/demonstrative and noun: 这本书 (this book — 本 is the measure word for books)."
+        },
+        {
+          "front": "This book is good.",
+          "back": "这本书很好。",
+          "romanized": "Zhè běn shū hěn hǎo.",
+          "literal": "This book very good."
+        }
       ]
     },
     {
       "id": "that",
       "levels": [
-        {"front": "That", "back": "那个 / 那", "romanized": "nàge / nà"},
-        {"front": "That person is my friend.", "back": "那个人是我的朋友。", "romanized": "Nàge rén shì wǒ de péngyou."}
+        {
+          "front": "That",
+          "back": "那个 / 那",
+          "romanized": "nàge / nà"
+        },
+        {
+          "front": "That person is my friend.",
+          "back": "那个人是我的朋友。",
+          "romanized": "Nàge rén shì wǒ de péngyou."
+        }
       ]
     },
     {
       "id": "my",
       "levels": [
-        {"front": "My", "back": "我的", "romanized": "wǒ de"},
-        {"front": "My name is Jeff.", "back": "我的名字是Jeff。", "romanized": "Wǒ de míngzi shì Jeff."}
+        {
+          "front": "My",
+          "back": "我的",
+          "romanized": "wǒ de"
+        },
+        {
+          "front": "My name is Jeff.",
+          "back": "我的名字是Jeff。",
+          "romanized": "Wǒ de míngzi shì Jeff."
+        }
       ]
     },
     {
       "id": "who",
       "levels": [
-        {"front": "Who", "back": "谁", "romanized": "shéi"},
-        {"front": "Who is that person?", "back": "那个人是谁？", "romanized": "Nàge rén shì shéi?", "literal": "That person is who?"}
+        {
+          "front": "Who",
+          "back": "谁",
+          "romanized": "shéi"
+        },
+        {
+          "front": "Who is that person?",
+          "back": "那个人是谁？",
+          "romanized": "Nàge rén shì shéi?",
+          "literal": "That person is who?"
+        }
       ]
     },
     {
       "id": "what",
       "levels": [
-        {"front": "What", "back": "什么", "romanized": "shénme"},
-        {"front": "What do you want?", "back": "你想要什么？", "romanized": "Nǐ xiǎng yào shénme?", "literal": "You want what?"}
+        {
+          "front": "What",
+          "back": "什么",
+          "romanized": "shénme"
+        },
+        {
+          "front": "What do you want?",
+          "back": "你想要什么？",
+          "romanized": "Nǐ xiǎng yào shénme?",
+          "literal": "You want what?"
+        }
       ]
     },
     {
       "id": "when",
       "levels": [
-        {"front": "When", "back": "什么时候", "romanized": "shénme shíhou"},
-        {"front": "When are you coming?", "back": "你什么时候来？", "romanized": "Nǐ shénme shíhou lái?", "literal": "You what-time come?"}
+        {
+          "front": "When",
+          "back": "什么时候",
+          "romanized": "shénme shíhou"
+        },
+        {
+          "front": "When are you coming?",
+          "back": "你什么时候来？",
+          "romanized": "Nǐ shénme shíhou lái?",
+          "literal": "You what-time come?"
+        }
       ]
     },
     {
       "id": "where",
       "levels": [
-        {"front": "Where", "back": "在哪里 / 哪儿", "romanized": "zài nǎlǐ / nǎr"},
-        {"front": "Where is the bathroom?", "back": "洗手间在哪里？", "romanized": "Xǐshǒujiān zài nǎlǐ?", "literal": "Bathroom at where?"}
+        {
+          "front": "Where",
+          "back": "在哪里 / 哪儿",
+          "romanized": "zài nǎlǐ / nǎr"
+        },
+        {
+          "front": "Where is the bathroom?",
+          "back": "洗手间在哪里？",
+          "romanized": "Xǐshǒujiān zài nǎlǐ?",
+          "literal": "Bathroom at where?"
+        }
       ]
     },
     {
       "id": "why",
       "levels": [
-        {"front": "Why", "back": "为什么", "romanized": "wèishénme"},
-        {"front": "Why can't you come?", "back": "你为什么不能来？", "romanized": "Nǐ wèishénme bù néng lái?", "literal": "You why not can come?"}
+        {
+          "front": "Why",
+          "back": "为什么",
+          "romanized": "wèishénme"
+        },
+        {
+          "front": "Why can't you come?",
+          "back": "你为什么不能来？",
+          "romanized": "Nǐ wèishénme bù néng lái?",
+          "literal": "You why not can come?"
+        }
       ]
     },
     {
       "id": "how",
       "levels": [
-        {"front": "How", "back": "怎么 / 怎么样", "romanized": "zěnme / zěnmeyàng"},
-        {"front": "How are you?", "back": "你怎么样？", "romanized": "Nǐ zěnmeyàng?", "literal": "You how?"}
+        {
+          "front": "How",
+          "back": "怎么 / 怎么样",
+          "romanized": "zěnme / zěnmeyàng"
+        },
+        {
+          "front": "How are you?",
+          "back": "你怎么样？",
+          "romanized": "Nǐ zěnmeyàng?",
+          "literal": "You how?"
+        }
       ]
     },
     {
       "id": "good_morning",
       "levels": [
-        {"front": "Good morning", "back": "早上好 / 早", "romanized": "zǎoshang hǎo / zǎo", "grammarNote": "早上好 (zǎoshang hǎo) = formal good morning. 早 (zǎo) = casual good morning. 你好 works any time of day. 下午好 (xiàwǔ hǎo) = good afternoon. 晚上好 (wǎnshang hǎo) = good evening."},
-        {"front": "Good morning! Did you sleep well?", "back": "早上好！睡得好吗？", "romanized": "Zǎoshang hǎo! Shuì de hǎo ma?", "literal": "Morning good! Sleep well?"}
+        {
+          "front": "Good morning",
+          "back": "早上好 / 早",
+          "romanized": "zǎoshang hǎo / zǎo",
+          "grammarNote": "早上好 (zǎoshang hǎo) = formal good morning. 早 (zǎo) = casual good morning. 你好 works any time of day. 下午好 (xiàwǔ hǎo) = good afternoon. 晚上好 (wǎnshang hǎo) = good evening."
+        },
+        {
+          "front": "Good morning! Did you sleep well?",
+          "back": "早上好！睡得好吗？",
+          "romanized": "Zǎoshang hǎo! Shuì de hǎo ma?",
+          "literal": "Morning good! Sleep well?"
+        }
       ]
     },
     {
       "id": "to_look_for",
       "levels": [
-        {"front": "To look for", "back": "找", "romanized": "zhǎo"},
-        {"front": "I'm looking for the exit.", "back": "我在找出口。", "romanized": "Wǒ zài zhǎo chūkǒu.", "literal": "I am-looking-for exit."}
+        {
+          "front": "To look for",
+          "back": "找",
+          "romanized": "zhǎo"
+        },
+        {
+          "front": "I'm looking for the exit.",
+          "back": "我在找出口。",
+          "romanized": "Wǒ zài zhǎo chūkǒu.",
+          "literal": "I am-looking-for exit."
+        }
       ]
     },
     {
       "id": "excuse_me",
       "levels": [
-        {"front": "Excuse me", "back": "不好意思 / 打扰一下", "romanized": "bù hǎo yìsi / dǎrǎo yīxià", "grammarNote": "不好意思 (bù hǎo yìsi) = excuse me / I'm embarrassed to ask — the most natural all-purpose attention-getter. 打扰一下 (dǎrǎo yīxià) = 'sorry to interrupt'. 请问 (qǐng wèn) = 'may I ask' — great before a question."},
-        {"front": "Excuse me, where is the subway?", "back": "不好意思，请问地铁站在哪里？", "romanized": "Bù hǎo yìsi, qǐngwèn dìtiě zhàn zài nǎlǐ?", "literal": "Excuse-me, may-I-ask subway station at where?"}
+        {
+          "front": "Excuse me",
+          "back": "不好意思 / 打扰一下",
+          "romanized": "bù hǎo yìsi / dǎrǎo yīxià",
+          "grammarNote": "不好意思 (bù hǎo yìsi) = excuse me / I'm embarrassed to ask — the most natural all-purpose attention-getter. 打扰一下 (dǎrǎo yīxià) = 'sorry to interrupt'. 请问 (qǐng wèn) = 'may I ask' — great before a question."
+        },
+        {
+          "front": "Excuse me, where is the subway?",
+          "back": "不好意思，请问地铁站在哪里？",
+          "romanized": "Bù hǎo yìsi, qǐngwèn dìtiě zhàn zài nǎlǐ?",
+          "literal": "Excuse-me, may-I-ask subway station at where?"
+        }
       ]
     },
     {
       "id": "to_be_able_to_can",
       "levels": [
-        {"front": "To be able to / can", "back": "能 / 可以", "romanized": "néng / kěyǐ", "grammarNote": "能 (néng) = can (physical ability or circumstance): 我能游泳 (I can swim). 可以 (kěyǐ) = may/can (permission or possibility): 我可以进来吗? (May I come in?). 会 (huì) = can (learned skill): 我会说中文 (I can speak Chinese)."},
-        {"front": "Can you help me?", "back": "你能帮我吗？", "romanized": "Nǐ néng bāng wǒ ma?", "literal": "You can help me?"}
+        {
+          "front": "To be able to / can",
+          "back": "能 / 可以",
+          "romanized": "néng / kěyǐ",
+          "grammarNote": "能 (néng) = can (physical ability or circumstance): 我能游泳 (I can swim). 可以 (kěyǐ) = may/can (permission or possibility): 我可以进来吗? (May I come in?). 会 (huì) = can (learned skill): 我会说中文 (I can speak Chinese)."
+        },
+        {
+          "front": "Can you help me?",
+          "back": "你能帮我吗？",
+          "romanized": "Nǐ néng bāng wǒ ma?",
+          "literal": "You can help me?"
+        }
       ]
     },
     {
       "id": "i_dont_know",
       "levels": [
-        {"front": "I don't know", "back": "我不知道", "romanized": "wǒ bù zhīdào"},
-        {"front": "I don't know where it is.", "back": "我不知道在哪里。", "romanized": "Wǒ bù zhīdào zài nǎlǐ.", "literal": "I not know at where."}
+        {
+          "front": "I don't know",
+          "back": "我不知道",
+          "romanized": "wǒ bù zhīdào"
+        },
+        {
+          "front": "I don't know where it is.",
+          "back": "我不知道在哪里。",
+          "romanized": "Wǒ bù zhīdào zài nǎlǐ.",
+          "literal": "I not know at where."
+        }
       ]
     },
     {
       "id": "to_have",
       "levels": [
-        {"front": "To have", "back": "有", "romanized": "yǒu", "grammarNote": "有 (yǒu) = have or there is/are. 我有钱 (I have money). 这里有咖啡 (There is coffee here). Negated: 没有 (méiyǒu) — note: never 不有, always 没有. 没有 alone = 'I don't have it / there isn't any'."},
-        {"front": "I'm hungry. Do you have water?", "back": "我饿了。你有水吗？", "romanized": "Wǒ è le. Nǐ yǒu shuǐ ma?", "literal": "I hungry [now]. You have water?"}
+        {
+          "front": "To have",
+          "back": "有",
+          "romanized": "yǒu",
+          "grammarNote": "有 (yǒu) = have or there is/are. 我有钱 (I have money). 这里有咖啡 (There is coffee here). Negated: 没有 (méiyǒu) — note: never 不有, always 没有. 没有 alone = 'I don't have it / there isn't any'."
+        },
+        {
+          "front": "I'm hungry. Do you have water?",
+          "back": "我饿了。你有水吗？",
+          "romanized": "Wǒ è le. Nǐ yǒu shuǐ ma?",
+          "literal": "I hungry [now]. You have water?"
+        }
       ]
     },
     {
       "id": "to_do_make",
       "levels": [
-        {"front": "To do / make", "back": "做", "romanized": "zuò"},
-        {"front": "What are you doing?", "back": "你在做什么？", "romanized": "Nǐ zài zuò shénme?", "literal": "You are-doing what?"}
+        {
+          "front": "To do / make",
+          "back": "做",
+          "romanized": "zuò"
+        },
+        {
+          "front": "What are you doing?",
+          "back": "你在做什么？",
+          "romanized": "Nǐ zài zuò shénme?",
+          "literal": "You are-doing what?"
+        }
       ]
     },
     {
       "id": "to_eat",
       "levels": [
-        {"front": "To eat", "back": "吃", "romanized": "chī"},
-        {"front": "Where are we eating?", "back": "我们在哪里吃饭？", "romanized": "Wǒmen zài nǎlǐ chīfàn?", "literal": "We at where eat?"}
+        {
+          "front": "To eat",
+          "back": "吃",
+          "romanized": "chī"
+        },
+        {
+          "front": "Where are we eating?",
+          "back": "我们在哪里吃饭？",
+          "romanized": "Wǒmen zài nǎlǐ chīfàn?",
+          "literal": "We at where eat?"
+        }
       ]
     },
     {
       "id": "to_like",
       "levels": [
-        {"front": "To like", "back": "喜欢", "romanized": "xǐhuān"},
-        {"front": "I like coffee.", "back": "我喜欢咖啡。", "romanized": "Wǒ xǐhuān kāfēi."}
+        {
+          "front": "To like",
+          "back": "喜欢",
+          "romanized": "xǐhuān"
+        },
+        {
+          "front": "I like coffee.",
+          "back": "我喜欢咖啡。",
+          "romanized": "Wǒ xǐhuān kāfēi."
+        }
       ]
     },
     {
       "id": "but",
       "levels": [
-        {"front": "But", "back": "但是 / 可是", "romanized": "dànshì / kěshì"},
-        {"front": "I want to go, but I can't.", "back": "我想去，但是不能。", "romanized": "Wǒ xiǎng qù, dànshì bù néng.", "literal": "I want-to go, but not can."}
+        {
+          "front": "But",
+          "back": "但是 / 可是",
+          "romanized": "dànshì / kěshì"
+        },
+        {
+          "front": "I want to go, but I can't.",
+          "back": "我想去，但是不能。",
+          "romanized": "Wǒ xiǎng qù, dànshì bù néng.",
+          "literal": "I want-to go, but not can."
+        }
       ]
     },
     {
       "id": "and",
       "levels": [
-        {"front": "And", "back": "和 / 还有", "romanized": "hé / háiyǒu", "grammarNote": "和 (hé) = and, connecting nouns: 水和食物 (water and food). 还有 (háiyǒu) = also/and also, adding items: 还有一件事 (and there's one more thing). 和 does not connect verbs or sentences — use 然后 (ránhòu) for 'and then'."},
-        {"front": "Water and food.", "back": "水和食物。", "romanized": "Shuǐ hé shíwù."}
+        {
+          "front": "And",
+          "back": "和 / 还有",
+          "romanized": "hé / háiyǒu",
+          "grammarNote": "和 (hé) = and, connecting nouns: 水和食物 (water and food). 还有 (háiyǒu) = also/and also, adding items: 还有一件事 (and there's one more thing). 和 does not connect verbs or sentences — use 然后 (ránhòu) for 'and then'."
+        },
+        {
+          "front": "Water and food.",
+          "back": "水和食物。",
+          "romanized": "Shuǐ hé shíwù."
+        }
       ]
     },
     {
       "id": "or",
       "levels": [
-        {"front": "Or", "back": "还是 / 或者", "romanized": "háishì / huòzhě", "grammarNote": "还是 (háishì) = or (in questions): 你要茶还是咖啡？(Tea or coffee?). 或者 (huòzhě) = or (in statements): 你可以喝茶或者咖啡 (You can have tea or coffee). A common mistake is swapping them."},
-        {"front": "Tea or coffee?", "back": "你要茶还是咖啡？", "romanized": "Nǐ yào chá háishì kāfēi?", "literal": "You want tea or coffee?"}
+        {
+          "front": "Or",
+          "back": "还是 / 或者",
+          "romanized": "háishì / huòzhě",
+          "grammarNote": "还是 (háishì) = or (in questions): 你要茶还是咖啡？(Tea or coffee?). 或者 (huòzhě) = or (in statements): 你可以喝茶或者咖啡 (You can have tea or coffee). A common mistake is swapping them."
+        },
+        {
+          "front": "Tea or coffee?",
+          "back": "你要茶还是咖啡？",
+          "romanized": "Nǐ yào chá háishì kāfēi?",
+          "literal": "You want tea or coffee?"
+        }
       ]
     },
     {
       "id": "hungry",
       "levels": [
-        {"front": "Hungry", "back": "饿了", "romanized": "è le", "grammarNote": "了 (le) after an adjective or verb marks a change of state: 饿了 = have become hungry, 渴了 = have become thirsty. 我很饿 = I am hungry (general state). 我饿了 = I've gotten hungry (new state). Both are common."},
-        {"front": "I'm very hungry.", "back": "我很饿。", "romanized": "Wǒ hěn è.", "literal": "I very hungry."}
+        {
+          "front": "Hungry",
+          "back": "饿了",
+          "romanized": "è le",
+          "grammarNote": "了 (le) after an adjective or verb marks a change of state: 饿了 = have become hungry, 渴了 = have become thirsty. 我很饿 = I am hungry (general state). 我饿了 = I've gotten hungry (new state). Both are common."
+        },
+        {
+          "front": "I'm very hungry.",
+          "back": "我很饿。",
+          "romanized": "Wǒ hěn è.",
+          "literal": "I very hungry."
+        }
       ]
     },
     {
       "id": "thirsty",
       "levels": [
-        {"front": "Thirsty", "back": "渴了", "romanized": "kě le"},
-        {"front": "I'm very thirsty.", "back": "我很渴。", "romanized": "Wǒ hěn kě.", "literal": "I very thirsty."}
+        {
+          "front": "Thirsty",
+          "back": "渴了",
+          "romanized": "kě le"
+        },
+        {
+          "front": "I'm very thirsty.",
+          "back": "我很渴。",
+          "romanized": "Wǒ hěn kě.",
+          "literal": "I very thirsty."
+        }
       ]
     },
     {
       "id": "person",
       "levels": [
-        {"front": "Person", "back": "人", "romanized": "rén"},
-        {"front": "Who is that person?", "back": "那个人是谁？", "romanized": "Nàge rén shì shéi?", "literal": "That person is who?"}
+        {
+          "front": "Person",
+          "back": "人",
+          "romanized": "rén"
+        },
+        {
+          "front": "Who is that person?",
+          "back": "那个人是谁？",
+          "romanized": "Nàge rén shì shéi?",
+          "literal": "That person is who?"
+        }
       ]
     },
     {
       "id": "place",
       "levels": [
-        {"front": "Place", "back": "地方 / 地点", "romanized": "dìfāng / dìdiǎn"},
-        {"front": "Do you know a good place?", "back": "你知道一个好地方吗？", "romanized": "Nǐ zhīdào yīgè hǎo dìfāng ma?", "literal": "You know one good place?"}
+        {
+          "front": "Place",
+          "back": "地方 / 地点",
+          "romanized": "dìfāng / dìdiǎn"
+        },
+        {
+          "front": "Do you know a good place?",
+          "back": "你知道一个好地方吗？",
+          "romanized": "Nǐ zhīdào yīgè hǎo dìfāng ma?",
+          "literal": "You know one good place?"
+        }
       ]
     },
     {
       "id": "thing",
       "levels": [
-        {"front": "Thing", "back": "东西 / 事情", "romanized": "dōngxi / shìqing", "grammarNote": "东西 (dōngxi) = a physical thing or stuff. 事情 (shìqing) = a matter or situation. 买东西 (buy things / go shopping). 有事情 (have something going on / there's a matter). Don't mix them up."},
-        {"front": "What is that thing?", "back": "那是什么东西？", "romanized": "Nà shì shénme dōngxi?", "literal": "That is what thing?"}
+        {
+          "front": "Thing",
+          "back": "东西 / 事情",
+          "romanized": "dōngxi / shìqing",
+          "grammarNote": "东西 (dōngxi) = a physical thing or stuff. 事情 (shìqing) = a matter or situation. 买东西 (buy things / go shopping). 有事情 (have something going on / there's a matter). Don't mix them up."
+        },
+        {
+          "front": "What is that thing?",
+          "back": "那是什么东西？",
+          "romanized": "Nà shì shénme dōngxi?",
+          "literal": "That is what thing?"
+        }
       ]
     },
     {
       "id": "here",
       "levels": [
-        {"front": "Here", "back": "这里 / 这儿", "romanized": "zhèlǐ / zhèr"},
-        {"front": "Come here!", "back": "过来这里！", "romanized": "Guòlái zhèlǐ!", "literal": "Come-over here!"}
+        {
+          "front": "Here",
+          "back": "这里 / 这儿",
+          "romanized": "zhèlǐ / zhèr"
+        },
+        {
+          "front": "Come here!",
+          "back": "过来这里！",
+          "romanized": "Guòlái zhèlǐ!",
+          "literal": "Come-over here!"
+        }
       ]
     },
     {
       "id": "there",
       "levels": [
-        {"front": "There", "back": "那里 / 那儿", "romanized": "nàlǐ / nàr"},
-        {"front": "The bathroom is over there.", "back": "洗手间在那里。", "romanized": "Xǐshǒujiān zài nàlǐ.", "literal": "Bathroom at there."}
+        {
+          "front": "There",
+          "back": "那里 / 那儿",
+          "romanized": "nàlǐ / nàr"
+        },
+        {
+          "front": "The bathroom is over there.",
+          "back": "洗手间在那里。",
+          "romanized": "Xǐshǒujiān zài nàlǐ.",
+          "literal": "Bathroom at there."
+        }
       ]
     },
     {
       "id": "very",
       "levels": [
-        {"front": "Very", "back": "很 / 非常", "romanized": "hěn / fēicháng", "grammarNote": "很 (hěn) = very, but in 'A是B' sentences it's often required even without emphasis: 我很好 (I'm good) — dropping 很 makes it sound like a contrast. 非常 (fēicháng) = extremely. 太 (tài) = too/so: 太好了！(So great!)"},
-        {"front": "It's very good.", "back": "非常好。", "romanized": "Fēicháng hǎo.", "literal": "Extremely good."}
+        {
+          "front": "Very",
+          "back": "很 / 非常",
+          "romanized": "hěn / fēicháng",
+          "grammarNote": "很 (hěn) = very, but in 'A是B' sentences it's often required even without emphasis: 我很好 (I'm good) — dropping 很 makes it sound like a contrast. 非常 (fēicháng) = extremely. 太 (tài) = too/so: 太好了！(So great!)"
+        },
+        {
+          "front": "It's very good.",
+          "back": "非常好。",
+          "romanized": "Fēicháng hǎo.",
+          "literal": "Extremely good."
+        }
       ]
     },
     {
       "id": "goodbye",
       "levels": [
-        {"front": "Goodbye", "back": "再见 / 拜拜", "romanized": "zàijiàn / báibái"},
-        {"front": "Goodbye! See you tomorrow.", "back": "再见！明天见。", "romanized": "Zàijiàn! Míngtiān jiàn.", "literal": "Goodbye! Tomorrow see."}
+        {
+          "front": "Goodbye",
+          "back": "再见 / 拜拜",
+          "romanized": "zàijiàn / báibái"
+        },
+        {
+          "front": "Goodbye! See you tomorrow.",
+          "back": "再见！明天见。",
+          "romanized": "Zàijiàn! Míngtiān jiàn.",
+          "literal": "Goodbye! Tomorrow see."
+        }
       ]
     },
     {
       "id": "water",
       "levels": [
-        {"front": "Water", "back": "水", "romanized": "shuǐ"},
-        {"front": "A glass of water, please.", "back": "请给我一杯水。", "romanized": "Qǐng gěi wǒ yī bēi shuǐ.", "literal": "Please give me one cup water."}
+        {
+          "front": "Water",
+          "back": "水",
+          "romanized": "shuǐ"
+        },
+        {
+          "front": "A glass of water, please.",
+          "back": "请给我一杯水。",
+          "romanized": "Qǐng gěi wǒ yī bēi shuǐ.",
+          "literal": "Please give me one cup water."
+        }
       ]
     },
     {
       "id": "food",
       "levels": [
-        {"front": "Food", "back": "食物 / 吃的", "romanized": "shíwù / chī de"},
-        {"front": "The food is delicious.", "back": "食物很好吃。", "romanized": "Shíwù hěn hǎochī.", "literal": "Food very delicious."}
+        {
+          "front": "Food",
+          "back": "食物 / 吃的",
+          "romanized": "shíwù / chī de"
+        },
+        {
+          "front": "The food is delicious.",
+          "back": "食物很好吃。",
+          "romanized": "Shíwù hěn hǎochī.",
+          "literal": "Food very delicious."
+        }
       ]
     },
     {
       "id": "house_home",
       "levels": [
-        {"front": "House / home", "back": "家 / 房子", "romanized": "jiā / fángzi", "grammarNote": "家 (jiā) = home (warm, where you belong): 回家 (go home), 我家 (my home). 房子 (fángzi) = house (the physical building). 在家 = at home. 家 also means 'family': 我家有四口人 (My family has four people)."},
-        {"front": "My house is nearby.", "back": "我家在附近。", "romanized": "Wǒ jiā zài fùjìn.", "literal": "My home at nearby."}
+        {
+          "front": "House / home",
+          "back": "家 / 房子",
+          "romanized": "jiā / fángzi",
+          "grammarNote": "家 (jiā) = home (warm, where you belong): 回家 (go home), 我家 (my home). 房子 (fángzi) = house (the physical building). 在家 = at home. 家 also means 'family': 我家有四口人 (My family has four people)."
+        },
+        {
+          "front": "My house is nearby.",
+          "back": "我家在附近。",
+          "romanized": "Wǒ jiā zài fùjìn.",
+          "literal": "My home at nearby."
+        }
       ]
     },
     {
       "id": "store_shop",
       "levels": [
-        {"front": "Store / shop", "back": "商店 / 店", "romanized": "shāngdiàn / diàn"},
-        {"front": "The store is closed.", "back": "商店关门了。", "romanized": "Shāngdiàn guānmén le.", "literal": "Store closed [now]."}
+        {
+          "front": "Store / shop",
+          "back": "商店 / 店",
+          "romanized": "shāngdiàn / diàn"
+        },
+        {
+          "front": "The store is closed.",
+          "back": "商店关门了。",
+          "romanized": "Shāngdiàn guānmén le.",
+          "literal": "Store closed [now]."
+        }
       ]
     },
     {
       "id": "cash_credit",
       "levels": [
-        {"front": "Cash / credit", "back": "现金 / 信用卡", "romanized": "xiànjīn / xìnyòngkǎ"},
-        {"front": "Cash or card?", "back": "付现金还是刷卡？", "romanized": "Fù xiànjīn háishì shuākǎ?", "literal": "Pay cash or swipe-card?"}
+        {
+          "front": "Cash / credit",
+          "back": "现金 / 信用卡",
+          "romanized": "xiànjīn / xìnyòngkǎ"
+        },
+        {
+          "front": "Cash or card?",
+          "back": "付现金还是刷卡？",
+          "romanized": "Fù xiànjīn háishì shuākǎ?",
+          "literal": "Pay cash or swipe-card?"
+        }
       ]
     },
     {
       "id": "help",
       "levels": [
-        {"front": "Help", "back": "帮助", "romanized": "bāngzhù"},
-        {"front": "I need help.", "back": "我需要帮助。", "romanized": "Wǒ xūyào bāngzhù."}
+        {
+          "front": "Help",
+          "back": "帮助",
+          "romanized": "bāngzhù"
+        },
+        {
+          "front": "I need help.",
+          "back": "我需要帮助。",
+          "romanized": "Wǒ xūyào bāngzhù."
+        }
       ]
     },
     {
       "id": "bathroom",
       "levels": [
-        {"front": "Bathroom", "back": "洗手间 / 卫生间", "romanized": "xǐshǒujiān / wèishēngjiān"},
-        {"front": "Where is the bathroom?", "back": "洗手间在哪里？", "romanized": "Xǐshǒujiān zài nǎlǐ?", "literal": "Bathroom at where?"}
+        {
+          "front": "Bathroom",
+          "back": "洗手间 / 卫生间",
+          "romanized": "xǐshǒujiān / wèishēngjiān"
+        },
+        {
+          "front": "Where is the bathroom?",
+          "back": "洗手间在哪里？",
+          "romanized": "Xǐshǒujiān zài nǎlǐ?",
+          "literal": "Bathroom at where?"
+        }
       ]
     },
     {
       "id": "always",
       "levels": [
-        {"front": "Always", "back": "总是 / 一直", "romanized": "zǒngshì / yīzhí"},
-        {"front": "I always drink coffee in the morning.", "back": "我早上总是喝咖啡。", "romanized": "Wǒ zǎoshang zǒngshì hē kāfēi.", "literal": "I morning always drink coffee."}
+        {
+          "front": "Always",
+          "back": "总是 / 一直",
+          "romanized": "zǒngshì / yīzhí"
+        },
+        {
+          "front": "I always drink coffee in the morning.",
+          "back": "我早上总是喝咖啡。",
+          "romanized": "Wǒ zǎoshang zǒngshì hē kāfēi.",
+          "literal": "I morning always drink coffee."
+        }
       ]
     },
     {
       "id": "never",
       "levels": [
-        {"front": "Never", "back": "从不 / 从来不", "romanized": "cóngbù / cónglái bù", "grammarNote": "从不 (cóngbù) = never (habitual). 从来不 (cónglái bù) = have never. 从来没有 (cónglái méiyǒu) = have never done: 我从来没有去过日本 (I've never been to Japan). All three place the negative before the verb."},
-        {"front": "I'm never late.", "back": "我从不迟到。", "romanized": "Wǒ cóngbù chídào.", "literal": "I never late-arrive."}
+        {
+          "front": "Never",
+          "back": "从不 / 从来不",
+          "romanized": "cóngbù / cónglái bù",
+          "grammarNote": "从不 (cóngbù) = never (habitual). 从来不 (cónglái bù) = have never. 从来没有 (cónglái méiyǒu) = have never done: 我从来没有去过日本 (I've never been to Japan). All three place the negative before the verb."
+        },
+        {
+          "front": "I'm never late.",
+          "back": "我从不迟到。",
+          "romanized": "Wǒ cóngbù chídào.",
+          "literal": "I never late-arrive."
+        }
       ]
     },
     {
       "id": "to_go",
       "levels": [
-        {"front": "To go", "back": "去", "romanized": "qù"},
-        {"front": "I'm going to the store.", "back": "我去商店。", "romanized": "Wǒ qù shāngdiàn.", "literal": "I go store."}
+        {
+          "front": "To go",
+          "back": "去",
+          "romanized": "qù"
+        },
+        {
+          "front": "I'm going to the store.",
+          "back": "我去商店。",
+          "romanized": "Wǒ qù shāngdiàn.",
+          "literal": "I go store."
+        }
       ]
     },
     {
       "id": "to_come",
       "levels": [
-        {"front": "To come", "back": "来", "romanized": "lái"},
-        {"front": "Where did you come from?", "back": "你从哪里来？", "romanized": "Nǐ cóng nǎlǐ lái?", "literal": "You from where come?"}
+        {
+          "front": "To come",
+          "back": "来",
+          "romanized": "lái"
+        },
+        {
+          "front": "Where did you come from?",
+          "back": "你从哪里来？",
+          "romanized": "Nǐ cóng nǎlǐ lái?",
+          "literal": "You from where come?"
+        }
       ]
     },
     {
       "id": "to_understand",
       "levels": [
-        {"front": "To understand", "back": "明白 / 懂", "romanized": "míngbai / dǒng"},
-        {"front": "I don't understand.", "back": "我不明白。", "romanized": "Wǒ bù míngbai.", "literal": "I not understand."}
+        {
+          "front": "To understand",
+          "back": "明白 / 懂",
+          "romanized": "míngbai / dǒng"
+        },
+        {
+          "front": "I don't understand.",
+          "back": "我不明白。",
+          "romanized": "Wǒ bù míngbai.",
+          "literal": "I not understand."
+        }
       ]
     },
     {
       "id": "to_speak_talk",
       "levels": [
-        {"front": "To speak / talk", "back": "说 / 讲", "romanized": "shuō / jiǎng"},
-        {"front": "Do you speak Chinese?", "back": "你会说中文吗？", "romanized": "Nǐ huì shuō zhōngwén ma?", "literal": "You can speak Chinese?"}
+        {
+          "front": "To speak / talk",
+          "back": "说 / 讲",
+          "romanized": "shuō / jiǎng"
+        },
+        {
+          "front": "Do you speak Chinese?",
+          "back": "你会说中文吗？",
+          "romanized": "Nǐ huì shuō zhōngwén ma?",
+          "literal": "You can speak Chinese?"
+        }
       ]
     },
     {
       "id": "to_give",
       "levels": [
-        {"front": "To give", "back": "给", "romanized": "gěi"},
-        {"front": "Please give me the menu.", "back": "请给我菜单。", "romanized": "Qǐng gěi wǒ càidān.", "literal": "Please give me menu."}
+        {
+          "front": "To give",
+          "back": "给",
+          "romanized": "gěi"
+        },
+        {
+          "front": "Please give me the menu.",
+          "back": "请给我菜单。",
+          "romanized": "Qǐng gěi wǒ càidān.",
+          "literal": "Please give me menu."
+        }
       ]
     },
     {
       "id": "to_see",
       "levels": [
-        {"front": "To see", "back": "看 / 见", "romanized": "kàn / jiàn", "grammarNote": "看 (kàn) = to look at / watch / read. 见 (jiàn) = to see / meet. 看书 (read a book), 看电视 (watch TV). 见面 (meet up). 我看不见 = I can't see it (visibility blocked). 看不到 = can't see it (too far/hidden)."},
-        {"front": "I can't see anything.", "back": "我什么都看不见。", "romanized": "Wǒ shénme dōu kàn bùjiàn.", "literal": "I what all see not-visible."}
+        {
+          "front": "To see",
+          "back": "看 / 见",
+          "romanized": "kàn / jiàn",
+          "grammarNote": "看 (kàn) = to look at / watch / read. 见 (jiàn) = to see / meet. 看书 (read a book), 看电视 (watch TV). 见面 (meet up). 我看不见 = I can't see it (visibility blocked). 看不到 = can't see it (too far/hidden)."
+        },
+        {
+          "front": "I can't see anything.",
+          "back": "我什么都看不见。",
+          "romanized": "Wǒ shénme dōu kàn bùjiàn.",
+          "literal": "I what all see not-visible."
+        }
       ]
     },
     {
       "id": "with",
       "levels": [
-        {"front": "With", "back": "和 / 跟", "romanized": "hé / gēn"},
-        {"front": "I came with my friend.", "back": "我和朋友一起来的。", "romanized": "Wǒ hé péngyou yīqǐ lái de.", "literal": "I and friend together came."}
+        {
+          "front": "With",
+          "back": "和 / 跟",
+          "romanized": "hé / gēn"
+        },
+        {
+          "front": "I came with my friend.",
+          "back": "我和朋友一起来的。",
+          "romanized": "Wǒ hé péngyou yīqǐ lái de.",
+          "literal": "I and friend together came."
+        }
       ]
     },
     {
       "id": "without",
       "levels": [
-        {"front": "Without", "back": "没有 / 不加", "romanized": "méiyǒu / bù jiā"},
-        {"front": "Coffee without sugar.", "back": "咖啡不加糖。", "romanized": "Kāfēi bù jiā táng.", "literal": "Coffee not add sugar."}
+        {
+          "front": "Without",
+          "back": "没有 / 不加",
+          "romanized": "méiyǒu / bù jiā"
+        },
+        {
+          "front": "Coffee without sugar.",
+          "back": "咖啡不加糖。",
+          "romanized": "Kāfēi bù jiā táng.",
+          "literal": "Coffee not add sugar."
+        }
       ]
     },
     {
       "id": "for",
       "levels": [
-        {"front": "For", "back": "为了 / 给", "romanized": "wèile / gěi"},
-        {"front": "This is for you.", "back": "这是给你的。", "romanized": "Zhè shì gěi nǐ de."}
+        {
+          "front": "For",
+          "back": "为了 / 给",
+          "romanized": "wèile / gěi"
+        },
+        {
+          "front": "This is for you.",
+          "back": "这是给你的。",
+          "romanized": "Zhè shì gěi nǐ de."
+        }
       ]
     },
     {
       "id": "in_on_at",
       "levels": [
-        {"front": "In / on / at", "back": "在", "romanized": "zài", "grammarNote": "在 (zài) = at/in/on. It covers location: 在家 (at home), 在桌子上 (on the table). For 'on top of': 在…上 (shàng). For 'inside': 在…里 (lǐ). For 'under': 在…下 (xià). The position word follows the place noun."},
-        {"front": "The book is on the table.", "back": "书在桌子上。", "romanized": "Shū zài zhuōzi shàng.", "literal": "Book at table on."}
+        {
+          "front": "In / on / at",
+          "back": "在",
+          "romanized": "zài",
+          "grammarNote": "在 (zài) = at/in/on. It covers location: 在家 (at home), 在桌子上 (on the table). For 'on top of': 在…上 (shàng). For 'inside': 在…里 (lǐ). For 'under': 在…下 (xià). The position word follows the place noun."
+        },
+        {
+          "front": "The book is on the table.",
+          "back": "书在桌子上。",
+          "romanized": "Shū zài zhuōzi shàng.",
+          "literal": "Book at table on."
+        }
       ]
     },
     {
       "id": "from",
       "levels": [
-        {"front": "From", "back": "从 / 来自", "romanized": "cóng / láizì"},
-        {"front": "Where are you from?", "back": "你从哪里来？", "romanized": "Nǐ cóng nǎlǐ lái?", "literal": "You from where come?"}
+        {
+          "front": "From",
+          "back": "从 / 来自",
+          "romanized": "cóng / láizì"
+        },
+        {
+          "front": "Where are you from?",
+          "back": "你从哪里来？",
+          "romanized": "Nǐ cóng nǎlǐ lái?",
+          "literal": "You from where come?"
+        }
       ]
     },
     {
       "id": "good",
       "levels": [
-        {"front": "Good", "back": "好", "romanized": "hǎo"},
-        {"front": "That's a good idea.", "back": "这是个好主意。", "romanized": "Zhè shì gè hǎo zhǔyi.", "literal": "This is one good idea."}
+        {
+          "front": "Good",
+          "back": "好",
+          "romanized": "hǎo"
+        },
+        {
+          "front": "That's a good idea.",
+          "back": "这是个好主意。",
+          "romanized": "Zhè shì gè hǎo zhǔyi.",
+          "literal": "This is one good idea."
+        }
       ]
     },
     {
       "id": "bad",
       "levels": [
-        {"front": "Bad", "back": "不好 / 坏", "romanized": "bù hǎo / huài"},
-        {"front": "That's really bad.", "back": "那太糟糕了。", "romanized": "Nà tài zāogāo le.", "literal": "That too terrible."}
+        {
+          "front": "Bad",
+          "back": "不好 / 坏",
+          "romanized": "bù hǎo / huài"
+        },
+        {
+          "front": "That's really bad.",
+          "back": "那太糟糕了。",
+          "romanized": "Nà tài zāogāo le.",
+          "literal": "That too terrible."
+        }
       ]
     },
     {
       "id": "big",
       "levels": [
-        {"front": "Big", "back": "大", "romanized": "dà"},
-        {"front": "A large coffee, please.", "back": "来一杯大杯咖啡。", "romanized": "Lái yī bēi dàbēi kāfēi.", "literal": "Bring one large-cup coffee."}
+        {
+          "front": "Big",
+          "back": "大",
+          "romanized": "dà"
+        },
+        {
+          "front": "A large coffee, please.",
+          "back": "来一杯大杯咖啡。",
+          "romanized": "Lái yī bēi dàbēi kāfēi.",
+          "literal": "Bring one large-cup coffee."
+        }
       ]
     },
     {
       "id": "small",
       "levels": [
-        {"front": "Small", "back": "小", "romanized": "xiǎo"},
-        {"front": "A small table, please.", "back": "请给我一张小桌子。", "romanized": "Qǐng gěi wǒ yī zhāng xiǎo zhuōzi.", "literal": "Please give me one small table."}
+        {
+          "front": "Small",
+          "back": "小",
+          "romanized": "xiǎo"
+        },
+        {
+          "front": "A small table, please.",
+          "back": "请给我一张小桌子。",
+          "romanized": "Qǐng gěi wǒ yī zhāng xiǎo zhuōzi.",
+          "literal": "Please give me one small table."
+        }
       ]
     },
     {
       "id": "a_lot_much",
       "levels": [
-        {"front": "A lot / much", "back": "很多 / 多", "romanized": "hěn duō / duō"},
-        {"front": "I have a lot of work.", "back": "我有很多工作。", "romanized": "Wǒ yǒu hěn duō gōngzuò.", "literal": "I have very-many work."}
+        {
+          "front": "A lot / much",
+          "back": "很多 / 多",
+          "romanized": "hěn duō / duō"
+        },
+        {
+          "front": "I have a lot of work.",
+          "back": "我有很多工作。",
+          "romanized": "Wǒ yǒu hěn duō gōngzuò.",
+          "literal": "I have very-many work."
+        }
       ]
     },
     {
       "id": "a_little",
       "levels": [
-        {"front": "A little", "back": "一点 / 一些", "romanized": "yīdiǎn / yīxiē"},
-        {"front": "A little water, please.", "back": "请给我一点水。", "romanized": "Qǐng gěi wǒ yīdiǎn shuǐ.", "literal": "Please give me a-little water."}
+        {
+          "front": "A little",
+          "back": "一点 / 一些",
+          "romanized": "yīdiǎn / yīxiē"
+        },
+        {
+          "front": "A little water, please.",
+          "back": "请给我一点水。",
+          "romanized": "Qǐng gěi wǒ yīdiǎn shuǐ.",
+          "literal": "Please give me a-little water."
+        }
       ]
     },
     {
       "id": "how_do_you_say",
       "levels": [
-        {"front": "How do you say ___?", "back": "___怎么说？", "romanized": "~ zěnme shuō?"},
-        {"front": "How do you say 'thank you' in Chinese?", "back": "'thank you'用中文怎么说？", "romanized": "'thank you' yòng zhōngwén zěnme shuō?", "literal": "'thank you' using Chinese how-to say?"}
+        {
+          "front": "How do you say ___?",
+          "back": "___怎么说？",
+          "romanized": "~ zěnme shuō?"
+        },
+        {
+          "front": "How do you say 'thank you' in Chinese?",
+          "back": "'thank you'用中文怎么说？",
+          "romanized": "'thank you' yòng zhōngwén zěnme shuō?",
+          "literal": "'thank you' using Chinese how-to say?"
+        }
       ]
     },
     {
       "id": "can_you_help_me",
       "levels": [
-        {"front": "Can you help me?", "back": "你能帮我吗？", "romanized": "Nǐ néng bāng wǒ ma?"},
-        {"front": "Can you help me carry this?", "back": "你能帮我拿这个吗？", "romanized": "Nǐ néng bāng wǒ ná zhège ma?", "literal": "You can help me carry this?"}
+        {
+          "front": "Can you help me?",
+          "back": "你能帮我吗？",
+          "romanized": "Nǐ néng bāng wǒ ma?"
+        },
+        {
+          "front": "Can you help me carry this?",
+          "back": "你能帮我拿这个吗？",
+          "romanized": "Nǐ néng bāng wǒ ná zhège ma?",
+          "literal": "You can help me carry this?"
+        }
       ]
     },
     {
       "id": "how_much_does_it_cost",
       "levels": [
-        {"front": "How much does it cost?", "back": "多少钱？", "romanized": "Duōshǎo qián?"},
-        {"front": "How much does this jacket cost?", "back": "这件夹克多少钱？", "romanized": "Zhè jiàn jiākè duōshǎo qián?", "literal": "This jacket how-much money?"}
+        {
+          "front": "How much does it cost?",
+          "back": "多少钱？",
+          "romanized": "Duōshǎo qián?"
+        },
+        {
+          "front": "How much does this jacket cost?",
+          "back": "这件夹克多少钱？",
+          "romanized": "Zhè jiàn jiākè duōshǎo qián?",
+          "literal": "This jacket how-much money?"
+        }
       ]
     },
     {
       "id": "im_sorry",
       "levels": [
-        {"front": "I'm sorry", "back": "对不起 / 不好意思", "romanized": "duìbuqǐ / bù hǎo yìsi", "grammarNote": "对不起 (duìbuqǐ) = I'm sorry (genuine apology — lit. 'I can't face you'). 不好意思 (bù hǎo yìsi) = excuse me / I'm embarrassed — lighter, more social. 抱歉 (bàoqiàn) = formal apology."},
-        {"front": "I'm very sorry.", "back": "非常对不起。", "romanized": "Fēicháng duìbuqǐ.", "literal": "Extremely sorry."}
+        {
+          "front": "I'm sorry",
+          "back": "对不起 / 不好意思",
+          "romanized": "duìbuqǐ / bù hǎo yìsi",
+          "grammarNote": "对不起 (duìbuqǐ) = I'm sorry (genuine apology — lit. 'I can't face you'). 不好意思 (bù hǎo yìsi) = excuse me / I'm embarrassed — lighter, more social. 抱歉 (bàoqiàn) = formal apology."
+        },
+        {
+          "front": "I'm very sorry.",
+          "back": "非常对不起。",
+          "romanized": "Fēicháng duìbuqǐ.",
+          "literal": "Extremely sorry."
+        }
       ]
     },
     {
       "id": "no_problem",
       "levels": [
-        {"front": "No problem", "back": "没问题", "romanized": "méi wèntí"},
-        {"front": "No problem, don't worry.", "back": "没问题，别担心。", "romanized": "Méi wèntí, bié dānxīn.", "literal": "Not-have problem, don't worry."}
+        {
+          "front": "No problem",
+          "back": "没问题",
+          "romanized": "méi wèntí"
+        },
+        {
+          "front": "No problem, don't worry.",
+          "back": "没问题，别担心。",
+          "romanized": "Méi wèntí, bié dānxīn.",
+          "literal": "Not-have problem, don't worry."
+        }
       ]
     }
   ]
