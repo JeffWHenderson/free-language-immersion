@@ -1,16 +1,10 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useLanguageApp } from "../../LanguageAppContext";
-import useLanguage from "../../hooks/useLanguage";
+import { useSpeech } from "../../hooks/useSpeech";
+import { shuffled } from "../../utils";
+import FlipCard, { CardLevel } from "../components/FlipCard";
 import "../srs.css";
-
-interface CardLevel {
-    front: string;
-    back: string;
-    romanized?: string;
-    grammarNote?: string;
-    literal?: string;
-}
 
 interface Card {
     id: string;
@@ -21,15 +15,6 @@ interface DeckData {
     id: string;
     name: string;
     cards: Card[];
-}
-
-function shuffled<T>(arr: T[]): T[] {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
 }
 
 const GrammarReview = () => {
@@ -47,22 +32,8 @@ const GrammarReview = () => {
     const [noteOpen, setNoteOpen] = useState(true);
     const [done, setDone] = useState(false);
 
-    const { readFront, readBack, volume, showLiteral, shuffleCards } = useLanguageApp();
-    const { targetVoice, baseVoice } = useLanguage({ targetLanguage: language ?? "english" });
-
-    const buildUtt = useCallback((text: string, isTarget: boolean): SpeechSynthesisUtterance => {
-        const utt = new SpeechSynthesisUtterance(text.replace(/\(.*?\)/g, ""));
-        utt.voice = (isTarget ? targetVoice : baseVoice) ?? null;
-        utt.rate = 0.9;
-        utt.volume = volume;
-        return utt;
-    }, [targetVoice, baseVoice, volume]);
-
-    const speak = useCallback((text: string, isTarget: boolean) => {
-        if (isTarget ? !readBack : !readFront) return;
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(buildUtt(text, isTarget));
-    }, [readFront, readBack, buildUtt]);
+    const { showLiteral, shuffleCards } = useLanguageApp();
+    const { speak } = useSpeech(language);
 
     useEffect(() => {
         if (!language || !deckId || !grammarId) return;
@@ -144,41 +115,15 @@ const GrammarReview = () => {
                 <span>{index + 1} / {cards.length}</span>
             </div>
 
-            <div className="srs-card-wrap">
-                <div className={`srs-card ${isFlipped ? "flipped" : ""}`} onClick={!isFlipped ? flip : undefined}>
-                    <div className="srs-card-front">
-                        <div className="srs-card-text">{level?.front}</div>
-                        {showLiteral && level?.literal && (
-                            <div className="srs-literal">{level.literal}</div>
-                        )}
-                        {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
-                    </div>
-                    <div className="srs-card-back">
-                        <div className="srs-card-text front-dim">{level?.front}</div>
-                        {showLiteral && level?.literal && (
-                            <div className="srs-literal front-dim">{level.literal}</div>
-                        )}
-                        <hr className="srs-divider" />
-                        <div className="srs-card-text">{level?.back}</div>
-                        {level?.romanized && (
-                            <div className="srs-romanized">{level.romanized}</div>
-                        )}
-                    </div>
-                </div>
-                {isFlipped && level?.grammarNote && (
-                    <div className="srs-grammar-note-wrap" onClick={e => e.stopPropagation()}>
-                        <button
-                            className="srs-grammar-note-toggle"
-                            onClick={() => setNoteOpen(o => !o)}
-                        >
-                            Grammar note {noteOpen ? "▴" : "▾"}
-                        </button>
-                        {noteOpen && (
-                            <div className="srs-grammar-note-body">{level.grammarNote}</div>
-                        )}
-                    </div>
-                )}
-            </div>
+            {level && (
+                <FlipCard
+                    level={level}
+                    isFlipped={isFlipped}
+                    onFlip={flip}
+                    noteOpen={noteOpen}
+                    onNoteToggle={() => setNoteOpen(o => !o)}
+                />
+            )}
 
             {isFlipped ? (
                 <div className="srs-flip-hint">

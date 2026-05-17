@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { applyRating, CardState, isDue, isNew, levelUpState, previewIntervals, LEVEL_UP_REPS, Rating } from "../fsrs";
 import { useLanguageApp } from "../../LanguageAppContext";
@@ -10,17 +10,11 @@ import {
     isCardHidden,
     SRSDeckState,
 } from "../useSRSStorage";
-import useLanguage from "../../hooks/useLanguage";
+import { useSpeech } from "../../hooks/useSpeech";
+import { shuffled } from "../../utils";
+import FlipCard, { CardLevel } from "../components/FlipCard";
 import SRSSettings from "../components/SRSSettings";
 import "../srs.css";
-
-interface CardLevel {
-    front: string;
-    back: string;
-    romanized?: string;
-    grammarNote?: string;
-    literal?: string;
-}
 
 interface Card {
     id: string;
@@ -36,15 +30,6 @@ interface DeckData {
 }
 
 type SessionCard = Card & { cardState: CardState; isAgain?: boolean };
-
-function shuffled<T>(arr: T[]): T[] {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-}
 
 function buildSession(cards: Card[], deckState: SRSDeckState, shuffle: boolean): SessionCard[] {
     const due: SessionCard[] = [];      // graduated (interval > 1), most overdue first
@@ -90,7 +75,7 @@ const SRSReview = () => {
     const [session, setSession] = useState<SessionCard[]>([]);
     const [currentIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
-    const { readFront, readBack, fastMode, volume, showLiteral, shuffleCards } = useLanguageApp();
+    const { readFront, readBack, fastMode, showLiteral, shuffleCards } = useLanguageApp();
     const [done, setDone] = useState(false);
     const [totalCards, setTotalCards] = useState(0);
     const [reviewed, setReviewed] = useState(0);
@@ -100,22 +85,7 @@ const SRSReview = () => {
     // Fast mode state
     const [fastModeIndex, setFastModeIndex] = useState(0);
 
-    const { targetVoice, baseVoice } = useLanguage({ targetLanguage: language ?? "english" });
-
-    // Returns the utterance so callers can attach onend
-    const buildUtt = useCallback((text: string, isTarget: boolean): SpeechSynthesisUtterance => {
-        const utt = new SpeechSynthesisUtterance(text.replace(/\(.*?\)/g, ""));
-        utt.voice = (isTarget ? targetVoice : baseVoice) ?? null;
-        utt.rate = 0.9;
-        utt.volume = volume;
-        return utt;
-    }, [targetVoice, baseVoice, volume]);
-
-    const speak = (text: string, isTarget: boolean) => {
-        if (isTarget ? !readBack : !readFront) return;
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(buildUtt(text, isTarget));
-    };
+    const { buildUtt, speak } = useSpeech(language);
 
     useEffect(() => {
         if (!language || !deckId) return;
@@ -389,53 +359,25 @@ const SRSReview = () => {
                 <span className="srs-count review">{session.filter((c) => c.cardState.state === "review").length} due</span>
             </div>
 
-            <div className="srs-card-wrap">
-                <div className={`srs-card ${isFlipped ? "flipped" : ""}`} onClick={!isFlipped ? flip : undefined}>
-                    <div className="srs-card-front">
-                        <div className="srs-card-text">{level.front}</div>
-                        {showLiteral && level.literal && (
-                            <div className="srs-literal">{level.literal}</div>
-                        )}
-                        {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
-                    </div>
-                    <div className="srs-card-back">
-                        <div className="srs-card-text front-dim">{level.front}</div>
-                        {showLiteral && level.literal && (
-                            <div className="srs-literal front-dim">{level.literal}</div>
-                        )}
-                        <hr className="srs-divider" />
-                        <div className="srs-card-text">{level.back}</div>
-                        {level.romanized && (
-                            <div className="srs-romanized">{level.romanized}</div>
-                        )}
-                        {hasNextLevel(currentCard) && (
-                            <div className="srs-levelup-hint">
-                                <span>
-                                    {LEVEL_UP_REPS - currentCard.cardState.reps > 0
-                                        ? `${LEVEL_UP_REPS - currentCard.cardState.reps} good review${LEVEL_UP_REPS - currentCard.cardState.reps !== 1 ? "s" : ""} to unlock phrase`
-                                        : "Phrase unlocks on Good or Easy!"}
-                                </span>
-                                <button className="srs-upgrade-btn" onClick={e => { e.stopPropagation(); upgradeNow(); }}>
-                                    Upgrade now
-                                </button>
-                            </div>
-                        )}
-                    </div>
-                </div>
-                {isFlipped && level.grammarNote && (
-                    <div className="srs-grammar-note-wrap" onClick={e => e.stopPropagation()}>
-                        <button
-                            className="srs-grammar-note-toggle"
-                            onClick={() => setNoteOpen(o => !o)}
-                        >
-                            Grammar note {noteOpen ? "▴" : "▾"}
+            <FlipCard
+                level={level}
+                isFlipped={isFlipped}
+                onFlip={flip}
+                noteOpen={noteOpen}
+                onNoteToggle={() => setNoteOpen(o => !o)}
+                backExtra={hasNextLevel(currentCard) ? (
+                    <div className="srs-levelup-hint">
+                        <span>
+                            {LEVEL_UP_REPS - currentCard.cardState.reps > 0
+                                ? `${LEVEL_UP_REPS - currentCard.cardState.reps} good review${LEVEL_UP_REPS - currentCard.cardState.reps !== 1 ? "s" : ""} to unlock phrase`
+                                : "Phrase unlocks on Good or Easy!"}
+                        </span>
+                        <button className="srs-upgrade-btn" onClick={e => { e.stopPropagation(); upgradeNow(); }}>
+                            Upgrade now
                         </button>
-                        {noteOpen && (
-                            <div className="srs-grammar-note-body">{level.grammarNote}</div>
-                        )}
                     </div>
-                )}
-            </div>
+                ) : undefined}
+            />
 
             {isFlipped ? (
                 <div className="srs-rating-row">
