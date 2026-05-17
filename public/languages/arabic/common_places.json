@@ -6,598 +6,1279 @@
   "pictureLessons": [],
   "cards": [
     {
-      "id": "ar_cp_001",
-      "levels": [
-        { "front": "Home", "back": "بيت / منزل", "romanized": "bayt / manzil" },
-        { "front": "I'm going home.", "back": "أنا ذاهب إلى البيت.", "romanized": "ana dhahib ila al-bayt." }
+      "id": "home",
+      "levels": [
+        {
+          "front": "Home",
+          "back": "بيت / منزل",
+          "romanized": "bayt / manzil"
+        },
+        {
+          "front": "I'm going home.",
+          "back": "أنا ذاهب إلى البيت.",
+          "romanized": "ana dhahib ila al-bayt."
+        }
       ]
     },
     {
-      "id": "ar_cp_002",
+      "id": "apartment",
       "levels": [
-        { "front": "Apartment", "back": "شقة", "romanized": "shaqqa" },
-        { "front": "I live in an apartment.", "back": "أسكن في شقة.", "romanized": "askun fi shaqqa." }
+        {
+          "front": "Apartment",
+          "back": "شقة",
+          "romanized": "shaqqa"
+        },
+        {
+          "front": "I live in an apartment.",
+          "back": "أسكن في شقة.",
+          "romanized": "askun fi shaqqa."
+        }
       ]
     },
     {
-      "id": "ar_cp_003",
+      "id": "school",
       "levels": [
-        { "front": "School", "back": "مدرسة", "romanized": "madrasa" },
-        { "front": "The children go to school.", "back": "الأطفال يذهبون إلى المدرسة.", "romanized": "al-atfal yadhhalbun ila al-madrasa." }
+        {
+          "front": "School",
+          "back": "مدرسة",
+          "romanized": "madrasa"
+        },
+        {
+          "front": "The children go to school.",
+          "back": "الأطفال يذهبون إلى المدرسة.",
+          "romanized": "al-atfal yadhhalbun ila al-madrasa."
+        }
       ]
     },
     {
-      "id": "ar_cp_004",
+      "id": "university",
       "levels": [
-        { "front": "University", "back": "جامعة", "romanized": "jami'a" },
-        { "front": "She studies at the university.", "back": "هي تدرس في الجامعة.", "romanized": "hiya tadrus fi al-jami'a." }
+        {
+          "front": "University",
+          "back": "جامعة",
+          "romanized": "jami'a"
+        },
+        {
+          "front": "She studies at the university.",
+          "back": "هي تدرس في الجامعة.",
+          "romanized": "hiya tadrus fi al-jami'a."
+        }
       ]
     },
     {
-      "id": "ar_cp_005",
+      "id": "office",
       "levels": [
-        { "front": "Office", "back": "مكتب", "romanized": "maktab" },
-        { "front": "He works in an office.", "back": "هو يعمل في مكتب.", "romanized": "huwa ya'mal fi maktab." }
+        {
+          "front": "Office",
+          "back": "مكتب",
+          "romanized": "maktab"
+        },
+        {
+          "front": "He works in an office.",
+          "back": "هو يعمل في مكتب.",
+          "romanized": "huwa ya'mal fi maktab."
+        }
       ]
     },
     {
-      "id": "ar_cp_006",
+      "id": "hospital",
       "levels": [
-        { "front": "Hospital", "back": "مستشفى", "romanized": "mustashfa", "grammarNote": "Arabic has 'sun letters' (حروف شمسية) that assimilate the 'l' of the definite article ال. For example: الشمس = ash-shams (not al-shams), الشارع = ash-shari'. 'Moon letters' (حروف قمرية) do not assimilate: المستشفى = al-mustashfa. This affects 14 of the 28 Arabic letters." },
-        { "front": "I'm going to the hospital.", "back": "أنا ذاهب إلى المستشفى.", "romanized": "ana dhahib ila al-mustashfa." }
+        {
+          "front": "Hospital",
+          "back": "مستشفى",
+          "romanized": "mustashfa",
+          "grammarNote": "Arabic has 'sun letters' (حروف شمسية) that assimilate the 'l' of the definite article ال. For example: الشمس = ash-shams (not al-shams), الشارع = ash-shari'. 'Moon letters' (حروف قمرية) do not assimilate: المستشفى = al-mustashfa. This affects 14 of the 28 Arabic letters."
+        },
+        {
+          "front": "I'm going to the hospital.",
+          "back": "أنا ذاهب إلى المستشفى.",
+          "romanized": "ana dhahib ila al-mustashfa."
+        }
       ]
     },
     {
-      "id": "ar_cp_007",
+      "id": "grocery_store",
       "levels": [
-        { "front": "Grocery store", "back": "بقالة / سوبرماركت", "romanized": "baqqala / subarmarket" },
-        { "front": "I need to go to the supermarket.", "back": "أحتاج إلى الذهاب إلى السوبرماركت.", "romanized": "ahtaj ila adh-dhahab ila as-subarmarket." }
+        {
+          "front": "Grocery store",
+          "back": "بقالة / سوبرماركت",
+          "romanized": "baqqala / subarmarket"
+        },
+        {
+          "front": "I need to go to the supermarket.",
+          "back": "أحتاج إلى الذهاب إلى السوبرماركت.",
+          "romanized": "ahtaj ila adh-dhahab ila as-subarmarket."
+        }
       ]
     },
     {
-      "id": "ar_cp_009",
+      "id": "bank",
       "levels": [
-        { "front": "Bank", "back": "بنك", "romanized": "bank" },
-        { "front": "I'm coming from the bank.", "back": "أنا قادم من البنك.", "romanized": "ana qadim min al-bank." }
+        {
+          "front": "Bank",
+          "back": "بنك",
+          "romanized": "bank"
+        },
+        {
+          "front": "I'm coming from the bank.",
+          "back": "أنا قادم من البنك.",
+          "romanized": "ana qadim min al-bank."
+        }
       ]
     },
     {
-      "id": "ar_cp_010",
+      "id": "library",
       "levels": [
-        { "front": "Library", "back": "مكتبة", "romanized": "maktaba" },
-        { "front": "I study in the library.", "back": "أدرس في المكتبة.", "romanized": "adrus fi al-maktaba." }
+        {
+          "front": "Library",
+          "back": "مكتبة",
+          "romanized": "maktaba"
+        },
+        {
+          "front": "I study in the library.",
+          "back": "أدرس في المكتبة.",
+          "romanized": "adrus fi al-maktaba."
+        }
       ]
     },
     {
-      "id": "ar_cp_011",
+      "id": "restaurant",
       "levels": [
-        { "front": "Restaurant", "back": "مطعم", "romanized": "mat'am" },
-        { "front": "The restaurant is full.", "back": "المطعم ممتلئ.", "romanized": "al-mat'am mumtali'." }
+        {
+          "front": "Restaurant",
+          "back": "مطعم",
+          "romanized": "mat'am"
+        },
+        {
+          "front": "The restaurant is full.",
+          "back": "المطعم ممتلئ.",
+          "romanized": "al-mat'am mumtali'."
+        }
       ]
     },
     {
-      "id": "ar_cp_012",
+      "id": "cafe",
       "levels": [
-        { "front": "Cafe", "back": "مقهى", "romanized": "maqha" },
-        { "front": "Let's meet at the cafe.", "back": "لنلتقِ في المقهى.", "romanized": "lnaltaqi fi al-maqha." }
+        {
+          "front": "Cafe",
+          "back": "مقهى",
+          "romanized": "maqha"
+        },
+        {
+          "front": "Let's meet at the cafe.",
+          "back": "لنلتقِ في المقهى.",
+          "romanized": "lnaltaqi fi al-maqha."
+        }
       ]
     },
     {
-      "id": "ar_cp_013",
+      "id": "hotel",
       "levels": [
-        { "front": "Hotel", "back": "فندق", "romanized": "funduq" },
-        { "front": "The hotel is downtown.", "back": "الفندق في وسط المدينة.", "romanized": "al-funduq fi wasat al-madina." }
+        {
+          "front": "Hotel",
+          "back": "فندق",
+          "romanized": "funduq"
+        },
+        {
+          "front": "The hotel is downtown.",
+          "back": "الفندق في وسط المدينة.",
+          "romanized": "al-funduq fi wasat al-madina."
+        }
       ]
     },
     {
-      "id": "ar_cp_014",
+      "id": "airport",
       "levels": [
-        { "front": "Airport", "back": "مطار", "romanized": "matar" },
-        { "front": "The airport is far from here.", "back": "المطار بعيد من هنا.", "romanized": "al-matar ba'id min huna." }
+        {
+          "front": "Airport",
+          "back": "مطار",
+          "romanized": "matar"
+        },
+        {
+          "front": "The airport is far from here.",
+          "back": "المطار بعيد من هنا.",
+          "romanized": "al-matar ba'id min huna."
+        }
       ]
     },
     {
-      "id": "ar_cp_015",
+      "id": "station",
       "levels": [
-        { "front": "Station", "back": "محطة", "romanized": "mahatta" },
-        { "front": "The station is near the hotel.", "back": "المحطة قريبة من الفندق.", "romanized": "al-mahatta qariba min al-funduq." }
+        {
+          "front": "Station",
+          "back": "محطة",
+          "romanized": "mahatta"
+        },
+        {
+          "front": "The station is near the hotel.",
+          "back": "المحطة قريبة من الفندق.",
+          "romanized": "al-mahatta qariba min al-funduq."
+        }
       ]
     },
     {
-      "id": "ar_cp_016",
+      "id": "bus_stop",
       "levels": [
-        { "front": "Bus stop", "back": "موقف الحافلة", "romanized": "mawqif al-hafila" },
-        { "front": "Wait at the bus stop.", "back": "انتظر عند موقف الحافلة.", "romanized": "intazir inda mawqif al-hafila." }
+        {
+          "front": "Bus stop",
+          "back": "موقف الحافلة",
+          "romanized": "mawqif al-hafila"
+        },
+        {
+          "front": "Wait at the bus stop.",
+          "back": "انتظر عند موقف الحافلة.",
+          "romanized": "intazir inda mawqif al-hafila."
+        }
       ]
     },
     {
-      "id": "ar_cp_017",
+      "id": "park",
       "levels": [
-        { "front": "Park", "back": "حديقة", "romanized": "hadiqa" },
-        { "front": "The children play in the park.", "back": "الأطفال يلعبون في الحديقة.", "romanized": "al-atfal yal'abun fi al-hadiqa." }
+        {
+          "front": "Park",
+          "back": "حديقة",
+          "romanized": "hadiqa"
+        },
+        {
+          "front": "The children play in the park.",
+          "back": "الأطفال يلعبون في الحديقة.",
+          "romanized": "al-atfal yal'abun fi al-hadiqa."
+        }
       ]
     },
     {
-      "id": "ar_cp_018",
+      "id": "square",
       "levels": [
-        { "front": "Square", "back": "ميدان / ساحة", "romanized": "maydan / saha" },
-        { "front": "There's a fountain in the square.", "back": "هناك نافورة في الميدان.", "romanized": "hunak nafura fi al-maydan." }
+        {
+          "front": "Square",
+          "back": "ميدان / ساحة",
+          "romanized": "maydan / saha"
+        },
+        {
+          "front": "There's a fountain in the square.",
+          "back": "هناك نافورة في الميدان.",
+          "romanized": "hunak nafura fi al-maydan."
+        }
       ]
     },
     {
-      "id": "ar_cp_019",
+      "id": "street",
       "levels": [
-        { "front": "Street", "back": "شارع", "romanized": "shari'" },
-        { "front": "The restaurant is on this street.", "back": "المطعم في هذا الشارع.", "romanized": "al-mat'am fi hadha ash-shari'." }
+        {
+          "front": "Street",
+          "back": "شارع",
+          "romanized": "shari'"
+        },
+        {
+          "front": "The restaurant is on this street.",
+          "back": "المطعم في هذا الشارع.",
+          "romanized": "al-mat'am fi hadha ash-shari'."
+        }
       ]
     },
     {
-      "id": "ar_cp_020",
+      "id": "crosswalk",
       "levels": [
-        { "front": "Crosswalk", "back": "ممر المشاة", "romanized": "mamarr al-mushah" },
-        { "front": "Cross at the crosswalk.", "back": "اعبر عند ممر المشاة.", "romanized": "i'bur inda mamarr al-mushah." }
+        {
+          "front": "Crosswalk",
+          "back": "ممر المشاة",
+          "romanized": "mamarr al-mushah"
+        },
+        {
+          "front": "Cross at the crosswalk.",
+          "back": "اعبر عند ممر المشاة.",
+          "romanized": "i'bur inda mamarr al-mushah."
+        }
       ]
     },
     {
-      "id": "ar_cp_021",
+      "id": "intersection",
       "levels": [
-        { "front": "Intersection", "back": "تقاطع", "romanized": "taqatu'" },
-        { "front": "Turn left at the intersection.", "back": "التفِ يساراً عند التقاطع.", "romanized": "iltafi yasaran inda at-taqatu'." }
+        {
+          "front": "Intersection",
+          "back": "تقاطع",
+          "romanized": "taqatu'"
+        },
+        {
+          "front": "Turn left at the intersection.",
+          "back": "التفِ يساراً عند التقاطع.",
+          "romanized": "iltafi yasaran inda at-taqatu'."
+        }
       ]
     },
     {
-      "id": "ar_cp_022",
+      "id": "bridge",
       "levels": [
-        { "front": "Bridge", "back": "جسر", "romanized": "jisr" },
-        { "front": "We crossed the bridge.", "back": "عبرنا الجسر.", "romanized": "'abarna al-jisr." }
+        {
+          "front": "Bridge",
+          "back": "جسر",
+          "romanized": "jisr"
+        },
+        {
+          "front": "We crossed the bridge.",
+          "back": "عبرنا الجسر.",
+          "romanized": "'abarna al-jisr."
+        }
       ]
     },
     {
-      "id": "ar_cp_023",
+      "id": "corner",
       "levels": [
-        { "front": "Corner", "back": "زاوية", "romanized": "zawiya" },
-        { "front": "Turn right at the corner.", "back": "التفِ يميناً عند الزاوية.", "romanized": "iltafi yamina inda az-zawiya." }
+        {
+          "front": "Corner",
+          "back": "زاوية",
+          "romanized": "zawiya"
+        },
+        {
+          "front": "Turn right at the corner.",
+          "back": "التفِ يميناً عند الزاوية.",
+          "romanized": "iltafi yamina inda az-zawiya."
+        }
       ]
     },
     {
-      "id": "ar_cp_024",
+      "id": "city_centre_downtown",
       "levels": [
-        { "front": "City centre / Downtown", "back": "وسط المدينة", "romanized": "wasat al-madina" },
-        { "front": "The museum is downtown.", "back": "المتحف في وسط المدينة.", "romanized": "al-mathaf fi wasat al-madina." }
+        {
+          "front": "City centre / Downtown",
+          "back": "وسط المدينة",
+          "romanized": "wasat al-madina"
+        },
+        {
+          "front": "The museum is downtown.",
+          "back": "المتحف في وسط المدينة.",
+          "romanized": "al-mathaf fi wasat al-madina."
+        }
       ]
     },
     {
-      "id": "ar_cp_025",
+      "id": "neighbourhood",
       "levels": [
-        { "front": "Neighbourhood", "back": "حي", "romanized": "hayy" },
-        { "front": "I live in a quiet neighbourhood.", "back": "أسكن في حي هادئ.", "romanized": "askun fi hayy hadi'." }
+        {
+          "front": "Neighbourhood",
+          "back": "حي",
+          "romanized": "hayy"
+        },
+        {
+          "front": "I live in a quiet neighbourhood.",
+          "back": "أسكن في حي هادئ.",
+          "romanized": "askun fi hayy hadi'."
+        }
       ]
     },
     {
-      "id": "ar_cp_028",
+      "id": "beach",
       "levels": [
-        { "front": "Beach", "back": "شاطئ", "romanized": "shati'" },
-        { "front": "The beach is beautiful.", "back": "الشاطئ جميل.", "romanized": "ash-shati' jamil." }
+        {
+          "front": "Beach",
+          "back": "شاطئ",
+          "romanized": "shati'"
+        },
+        {
+          "front": "The beach is beautiful.",
+          "back": "الشاطئ جميل.",
+          "romanized": "ash-shati' jamil."
+        }
       ]
     },
     {
-      "id": "ar_cp_029",
+      "id": "mountain",
       "levels": [
-        { "front": "Mountain", "back": "جبل", "romanized": "jabal" },
-        { "front": "The mountain is very high.", "back": "الجبل عالٍ جداً.", "romanized": "al-jabal 'alin jiddan." }
+        {
+          "front": "Mountain",
+          "back": "جبل",
+          "romanized": "jabal"
+        },
+        {
+          "front": "The mountain is very high.",
+          "back": "الجبل عالٍ جداً.",
+          "romanized": "al-jabal 'alin jiddan."
+        }
       ]
     },
     {
-      "id": "ar_cp_030",
+      "id": "museum",
       "levels": [
-        { "front": "Museum", "back": "متحف", "romanized": "mathaf" },
-        { "front": "I want to visit the museum.", "back": "أريد زيارة المتحف.", "romanized": "urid ziyarat al-mathaf." }
+        {
+          "front": "Museum",
+          "back": "متحف",
+          "romanized": "mathaf"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "أريد زيارة المتحف.",
+          "romanized": "urid ziyarat al-mathaf."
+        }
       ]
     },
     {
-      "id": "ar_cp_031",
+      "id": "movie_theater",
       "levels": [
-        { "front": "Movie theater", "back": "سينما", "romanized": "sinima" },
-        { "front": "We're going to the cinema tonight.", "back": "نحن ذاهبون إلى السينما الليلة.", "romanized": "nahnu dhahibun ila as-sinima al-layla." }
+        {
+          "front": "Movie theater",
+          "back": "سينما",
+          "romanized": "sinima"
+        },
+        {
+          "front": "We're going to the cinema tonight.",
+          "back": "نحن ذاهبون إلى السينما الليلة.",
+          "romanized": "nahnu dhahibun ila as-sinima al-layla."
+        }
       ]
     },
     {
-      "id": "ar_cp_032",
+      "id": "map",
       "levels": [
-        { "front": "Map", "back": "خريطة", "romanized": "kharita" },
-        { "front": "Do you have a map?", "back": "هل عندك خريطة؟", "romanized": "hal indaka kharita?" }
+        {
+          "front": "Map",
+          "back": "خريطة",
+          "romanized": "kharita"
+        },
+        {
+          "front": "Do you have a map?",
+          "back": "هل عندك خريطة؟",
+          "romanized": "hal indaka kharita?"
+        }
       ]
     },
     {
-      "id": "ar_cp_034",
+      "id": "direction",
       "levels": [
-        { "front": "Direction", "back": "اتجاه", "romanized": "ittijah" },
-        { "front": "Which direction is the station?", "back": "في أي اتجاه المحطة؟", "romanized": "fi ayy ittijah al-mahatta?" }
+        {
+          "front": "Direction",
+          "back": "اتجاه",
+          "romanized": "ittijah"
+        },
+        {
+          "front": "Which direction is the station?",
+          "back": "في أي اتجاه المحطة؟",
+          "romanized": "fi ayy ittijah al-mahatta?"
+        }
       ]
     },
     {
-      "id": "ar_cp_035",
+      "id": "distance",
       "levels": [
-        { "front": "Distance", "back": "مسافة", "romanized": "masafa" },
-        { "front": "What's the distance to the hotel?", "back": "ما هي المسافة إلى الفندق؟", "romanized": "ma hiya al-masafa ila al-funduq?" }
+        {
+          "front": "Distance",
+          "back": "مسافة",
+          "romanized": "masafa"
+        },
+        {
+          "front": "What's the distance to the hotel?",
+          "back": "ما هي المسافة إلى الفندق؟",
+          "romanized": "ma hiya al-masafa ila al-funduq?"
+        }
       ]
     },
     {
-      "id": "ar_cp_036",
+      "id": "to_go",
       "levels": [
-        { "front": "To go", "back": "يذهب", "romanized": "yadhhab" },
-        { "front": "I'm going to the supermarket.", "back": "أنا ذاهب إلى السوبرماركت.", "romanized": "ana dhahib ila as-subarmarket." }
+        {
+          "front": "To go",
+          "back": "يذهب",
+          "romanized": "yadhhab"
+        },
+        {
+          "front": "I'm going to the supermarket.",
+          "back": "أنا ذاهب إلى السوبرماركت.",
+          "romanized": "ana dhahib ila as-subarmarket."
+        }
       ]
     },
     {
-      "id": "ar_cp_037",
+      "id": "to_come",
       "levels": [
-        { "front": "To come", "back": "يأتي", "romanized": "ya'ti" },
-        { "front": "Come to my house.", "back": "تعال إلى بيتي.", "romanized": "ta'al ila bayti." }
+        {
+          "front": "To come",
+          "back": "يأتي",
+          "romanized": "ya'ti"
+        },
+        {
+          "front": "Come to my house.",
+          "back": "تعال إلى بيتي.",
+          "romanized": "ta'al ila bayti."
+        }
       ]
     },
     {
-      "id": "ar_cp_038",
+      "id": "to_travel",
       "levels": [
-        { "front": "To travel", "back": "يسافر", "romanized": "yusafir" },
-        { "front": "I love to travel.", "back": "أحب السفر.", "romanized": "uhibb as-safar." }
+        {
+          "front": "To travel",
+          "back": "يسافر",
+          "romanized": "yusafir"
+        },
+        {
+          "front": "I love to travel.",
+          "back": "أحب السفر.",
+          "romanized": "uhibb as-safar."
+        }
       ]
     },
     {
-      "id": "ar_cp_039",
+      "id": "to_walk",
       "levels": [
-        { "front": "To walk", "back": "يمشي", "romanized": "yamshi" },
-        { "front": "I walk to work every day.", "back": "أمشي إلى العمل كل يوم.", "romanized": "amshi ila al-'amal kull yawm." }
+        {
+          "front": "To walk",
+          "back": "يمشي",
+          "romanized": "yamshi"
+        },
+        {
+          "front": "I walk to work every day.",
+          "back": "أمشي إلى العمل كل يوم.",
+          "romanized": "amshi ila al-'amal kull yawm."
+        }
       ]
     },
     {
-      "id": "ar_cp_040",
+      "id": "to_drive",
       "levels": [
-        { "front": "To drive", "back": "يقود", "romanized": "yaqud" },
-        { "front": "She drives to the office.", "back": "هي تقود إلى المكتب.", "romanized": "hiya taqud ila al-maktab." }
+        {
+          "front": "To drive",
+          "back": "يقود",
+          "romanized": "yaqud"
+        },
+        {
+          "front": "She drives to the office.",
+          "back": "هي تقود إلى المكتب.",
+          "romanized": "hiya taqud ila al-maktab."
+        }
       ]
     },
     {
-      "id": "ar_cp_041",
+      "id": "to_turn",
       "levels": [
-        { "front": "To turn", "back": "يلتف / ينعطف", "romanized": "yaltaf / yan'atif" },
-        { "front": "Turn left at the corner.", "back": "التفِ يساراً عند الزاوية.", "romanized": "iltafi yasaran inda az-zawiya." }
+        {
+          "front": "To turn",
+          "back": "يلتف / ينعطف",
+          "romanized": "yaltaf / yan'atif"
+        },
+        {
+          "front": "Turn left at the corner.",
+          "back": "التفِ يساراً عند الزاوية.",
+          "romanized": "iltafi yasaran inda az-zawiya."
+        }
       ]
     },
     {
-      "id": "ar_cp_042",
+      "id": "to_cross",
       "levels": [
-        { "front": "To cross", "back": "يعبر", "romanized": "ya'bur" },
-        { "front": "Cross the street carefully.", "back": "اعبر الشارع بحذر.", "romanized": "i'bur ash-shari' bi-hadhar." }
+        {
+          "front": "To cross",
+          "back": "يعبر",
+          "romanized": "ya'bur"
+        },
+        {
+          "front": "Cross the street carefully.",
+          "back": "اعبر الشارع بحذر.",
+          "romanized": "i'bur ash-shari' bi-hadhar."
+        }
       ]
     },
     {
-      "id": "ar_cp_043",
+      "id": "to_follow",
       "levels": [
-        { "front": "To follow", "back": "يتبع", "romanized": "yatba'" },
-        { "front": "Follow this street.", "back": "اتبع هذا الشارع.", "romanized": "ittabi' hadha ash-shari'." }
+        {
+          "front": "To follow",
+          "back": "يتبع",
+          "romanized": "yatba'"
+        },
+        {
+          "front": "Follow this street.",
+          "back": "اتبع هذا الشارع.",
+          "romanized": "ittabi' hadha ash-shari'."
+        }
       ]
     },
     {
-      "id": "ar_cp_044",
+      "id": "to_reach",
       "levels": [
-        { "front": "To reach", "back": "يصل إلى", "romanized": "yasil ila" },
-        { "front": "How do I reach the station?", "back": "كيف أصل إلى المحطة؟", "romanized": "kayfa asil ila al-mahatta?" }
+        {
+          "front": "To reach",
+          "back": "يصل إلى",
+          "romanized": "yasil ila"
+        },
+        {
+          "front": "How do I reach the station?",
+          "back": "كيف أصل إلى المحطة؟",
+          "romanized": "kayfa asil ila al-mahatta?"
+        }
       ]
     },
     {
-      "id": "ar_cp_045",
+      "id": "to_enter",
       "levels": [
-        { "front": "To enter", "back": "يدخل", "romanized": "yadkhul" },
-        { "front": "Enter through the main door.", "back": "ادخل من الباب الرئيسي.", "romanized": "udkhul min al-bab ar-ra'isi." }
+        {
+          "front": "To enter",
+          "back": "يدخل",
+          "romanized": "yadkhul"
+        },
+        {
+          "front": "Enter through the main door.",
+          "back": "ادخل من الباب الرئيسي.",
+          "romanized": "udkhul min al-bab ar-ra'isi."
+        }
       ]
     },
     {
-      "id": "ar_cp_046",
+      "id": "to_leave",
       "levels": [
-        { "front": "To leave", "back": "يغادر", "romanized": "yughadir" },
-        { "front": "I leave work at five.", "back": "أغادر العمل في الخامسة.", "romanized": "ughadir al-'amal fi al-khamisa." }
+        {
+          "front": "To leave",
+          "back": "يغادر",
+          "romanized": "yughadir"
+        },
+        {
+          "front": "I leave work at five.",
+          "back": "أغادر العمل في الخامسة.",
+          "romanized": "ughadir al-'amal fi al-khamisa."
+        }
       ]
     },
     {
-      "id": "ar_cp_047",
+      "id": "to_depart",
       "levels": [
-        { "front": "To depart", "back": "يغادر / يقلع", "romanized": "yughadir / yuqli'" },
-        { "front": "The train departs at nine.", "back": "القطار يغادر في التاسعة.", "romanized": "al-qitar yughadir fi at-tasi'a." }
+        {
+          "front": "To depart",
+          "back": "يغادر / يقلع",
+          "romanized": "yughadir / yuqli'"
+        },
+        {
+          "front": "The train departs at nine.",
+          "back": "القطار يغادر في التاسعة.",
+          "romanized": "al-qitar yughadir fi at-tasi'a."
+        }
       ]
     },
     {
-      "id": "ar_cp_048",
+      "id": "to_arrive",
       "levels": [
-        { "front": "To arrive", "back": "يصل", "romanized": "yasil" },
-        { "front": "We arrive tomorrow.", "back": "نصل غداً.", "romanized": "nasil ghadan." }
+        {
+          "front": "To arrive",
+          "back": "يصل",
+          "romanized": "yasil"
+        },
+        {
+          "front": "We arrive tomorrow.",
+          "back": "نصل غداً.",
+          "romanized": "nasil ghadan."
+        }
       ]
     },
     {
-      "id": "ar_cp_049",
+      "id": "to_visit",
       "levels": [
-        { "front": "To visit", "back": "يزور", "romanized": "yazur" },
-        { "front": "I want to visit the museum.", "back": "أريد زيارة المتحف.", "romanized": "urid ziyarat al-mathaf." }
+        {
+          "front": "To visit",
+          "back": "يزور",
+          "romanized": "yazur"
+        },
+        {
+          "front": "I want to visit the museum.",
+          "back": "أريد زيارة المتحف.",
+          "romanized": "urid ziyarat al-mathaf."
+        }
       ]
     },
     {
-      "id": "ar_cp_051",
+      "id": "in",
       "levels": [
-        { "front": "In", "back": "في", "romanized": "fi" },
-        { "front": "The keys are in the bag.", "back": "المفاتيح في الحقيبة.", "romanized": "al-mafatih fi al-haqiba." }
+        {
+          "front": "In",
+          "back": "في",
+          "romanized": "fi"
+        },
+        {
+          "front": "The keys are in the bag.",
+          "back": "المفاتيح في الحقيبة.",
+          "romanized": "al-mafatih fi al-haqiba."
+        }
       ]
     },
     {
-      "id": "ar_cp_052",
+      "id": "on",
       "levels": [
-        { "front": "On", "back": "على", "romanized": "'ala" },
-        { "front": "The book is on the table.", "back": "الكتاب على الطاولة.", "romanized": "al-kitab 'ala at-tawila." }
+        {
+          "front": "On",
+          "back": "على",
+          "romanized": "'ala"
+        },
+        {
+          "front": "The book is on the table.",
+          "back": "الكتاب على الطاولة.",
+          "romanized": "al-kitab 'ala at-tawila."
+        }
       ]
     },
     {
-      "id": "ar_cp_053",
+      "id": "at",
       "levels": [
-        { "front": "At", "back": "في / عند", "romanized": "fi / 'inda" },
-        { "front": "I'm at the office.", "back": "أنا في المكتب.", "romanized": "ana fi al-maktab." }
+        {
+          "front": "At",
+          "back": "في / عند",
+          "romanized": "fi / 'inda"
+        },
+        {
+          "front": "I'm at the office.",
+          "back": "أنا في المكتب.",
+          "romanized": "ana fi al-maktab."
+        }
       ]
     },
     {
-      "id": "ar_cp_054",
+      "id": "under",
       "levels": [
-        { "front": "Under", "back": "تحت", "romanized": "taht" },
-        { "front": "The cat is under the table.", "back": "القطة تحت الطاولة.", "romanized": "al-qitta taht at-tawila." }
+        {
+          "front": "Under",
+          "back": "تحت",
+          "romanized": "taht"
+        },
+        {
+          "front": "The cat is under the table.",
+          "back": "القطة تحت الطاولة.",
+          "romanized": "al-qitta taht at-tawila."
+        }
       ]
     },
     {
-      "id": "ar_cp_058",
+      "id": "next_to",
       "levels": [
-        { "front": "Next to", "back": "بجانب", "romanized": "bi-janib" },
-        { "front": "The bank is next to the cafe.", "back": "البنك بجانب المقهى.", "romanized": "al-bank bi-janib al-maqha." }
+        {
+          "front": "Next to",
+          "back": "بجانب",
+          "romanized": "bi-janib"
+        },
+        {
+          "front": "The bank is next to the cafe.",
+          "back": "البنك بجانب المقهى.",
+          "romanized": "al-bank bi-janib al-maqha."
+        }
       ]
     },
     {
-      "id": "ar_cp_059",
+      "id": "between",
       "levels": [
-        { "front": "Between", "back": "بين", "romanized": "bayn" },
-        { "front": "The park is between the school and the library.", "back": "الحديقة بين المدرسة والمكتبة.", "romanized": "al-hadiqa bayn al-madrasa wa-al-maktaba." }
+        {
+          "front": "Between",
+          "back": "بين",
+          "romanized": "bayn"
+        },
+        {
+          "front": "The park is between the school and the library.",
+          "back": "الحديقة بين المدرسة والمكتبة.",
+          "romanized": "al-hadiqa bayn al-madrasa wa-al-maktaba."
+        }
       ]
     },
     {
-      "id": "ar_cp_060",
+      "id": "in_front_of",
       "levels": [
-        { "front": "In front of", "back": "أمام", "romanized": "amam" },
-        { "front": "The taxi is in front of the hotel.", "back": "التاكسي أمام الفندق.", "romanized": "at-taksi amam al-funduq." }
+        {
+          "front": "In front of",
+          "back": "أمام",
+          "romanized": "amam"
+        },
+        {
+          "front": "The taxi is in front of the hotel.",
+          "back": "التاكسي أمام الفندق.",
+          "romanized": "at-taksi amam al-funduq."
+        }
       ]
     },
     {
-      "id": "ar_cp_061",
+      "id": "behind",
       "levels": [
-        { "front": "Behind", "back": "خلف", "romanized": "khalf" },
-        { "front": "The garden is behind the house.", "back": "الحديقة خلف البيت.", "romanized": "al-hadiqa khalf al-bayt." }
+        {
+          "front": "Behind",
+          "back": "خلف",
+          "romanized": "khalf"
+        },
+        {
+          "front": "The garden is behind the house.",
+          "back": "الحديقة خلف البيت.",
+          "romanized": "al-hadiqa khalf al-bayt."
+        }
       ]
     },
     {
-      "id": "ar_cp_063",
+      "id": "near",
       "levels": [
-        { "front": "Near", "back": "قريب من", "romanized": "qarib min" },
-        { "front": "Is there a restaurant near here?", "back": "هل يوجد مطعم قريب من هنا؟", "romanized": "hal yujad mat'am qarib min huna?" }
+        {
+          "front": "Near",
+          "back": "قريب من",
+          "romanized": "qarib min"
+        },
+        {
+          "front": "Is there a restaurant near here?",
+          "back": "هل يوجد مطعم قريب من هنا؟",
+          "romanized": "hal yujad mat'am qarib min huna?"
+        }
       ]
     },
     {
-      "id": "ar_cp_064",
+      "id": "far",
       "levels": [
-        { "front": "Far", "back": "بعيد عن", "romanized": "ba'id 'an" },
-        { "front": "Is the airport far?", "back": "هل المطار بعيد؟", "romanized": "hal al-matar ba'id?" }
+        {
+          "front": "Far",
+          "back": "بعيد عن",
+          "romanized": "ba'id 'an"
+        },
+        {
+          "front": "Is the airport far?",
+          "back": "هل المطار بعيد؟",
+          "romanized": "hal al-matar ba'id?"
+        }
       ]
     },
     {
-      "id": "ar_cp_065",
+      "id": "here",
       "levels": [
-        { "front": "Here", "back": "هنا", "romanized": "huna" },
-        { "front": "Come here, please.", "back": "تعال هنا، من فضلك.", "romanized": "ta'al huna, min fadlak." }
+        {
+          "front": "Here",
+          "back": "هنا",
+          "romanized": "huna"
+        },
+        {
+          "front": "Come here, please.",
+          "back": "تعال هنا، من فضلك.",
+          "romanized": "ta'al huna, min fadlak."
+        }
       ]
     },
     {
-      "id": "ar_cp_066",
+      "id": "there",
       "levels": [
-        { "front": "There", "back": "هناك", "romanized": "hunak" },
-        { "front": "The taxi is over there.", "back": "التاكسي هناك.", "romanized": "at-taksi hunak." }
+        {
+          "front": "There",
+          "back": "هناك",
+          "romanized": "hunak"
+        },
+        {
+          "front": "The taxi is over there.",
+          "back": "التاكسي هناك.",
+          "romanized": "at-taksi hunak."
+        }
       ]
     },
     {
-      "id": "ar_cp_067",
+      "id": "everywhere",
       "levels": [
-        { "front": "Everywhere", "back": "في كل مكان", "romanized": "fi kull makan" },
-        { "front": "There are tourists everywhere.", "back": "هناك سياح في كل مكان.", "romanized": "hunak siyyah fi kull makan." }
+        {
+          "front": "Everywhere",
+          "back": "في كل مكان",
+          "romanized": "fi kull makan"
+        },
+        {
+          "front": "There are tourists everywhere.",
+          "back": "هناك سياح في كل مكان.",
+          "romanized": "hunak siyyah fi kull makan."
+        }
       ]
     },
     {
-      "id": "ar_cp_068",
+      "id": "somewhere",
       "levels": [
-        { "front": "Somewhere", "back": "في مكان ما", "romanized": "fi makan ma" },
-        { "front": "Let's go somewhere quiet.", "back": "لنذهب إلى مكان هادئ.", "romanized": "lnadhhab ila makan hadi'." }
+        {
+          "front": "Somewhere",
+          "back": "في مكان ما",
+          "romanized": "fi makan ma"
+        },
+        {
+          "front": "Let's go somewhere quiet.",
+          "back": "لنذهب إلى مكان هادئ.",
+          "romanized": "lnadhhab ila makan hadi'."
+        }
       ]
     },
     {
-      "id": "ar_cp_069",
+      "id": "nowhere",
       "levels": [
-        { "front": "Nowhere", "back": "لا مكان", "romanized": "la makan" },
-        { "front": "There is nowhere to sit.", "back": "لا يوجد مكان للجلوس.", "romanized": "la yujad makan lil-julus." }
+        {
+          "front": "Nowhere",
+          "back": "لا مكان",
+          "romanized": "la makan"
+        },
+        {
+          "front": "There is nowhere to sit.",
+          "back": "لا يوجد مكان للجلوس.",
+          "romanized": "la yujad makan lil-julus."
+        }
       ]
     },
     {
-      "id": "ar_cp_070",
+      "id": "left",
       "levels": [
-        { "front": "Left", "back": "يسار", "romanized": "yasar" },
-        { "front": "Turn left.", "back": "التفِ يساراً.", "romanized": "iltafi yasaran." }
+        {
+          "front": "Left",
+          "back": "يسار",
+          "romanized": "yasar"
+        },
+        {
+          "front": "Turn left.",
+          "back": "التفِ يساراً.",
+          "romanized": "iltafi yasaran."
+        }
       ]
     },
     {
-      "id": "ar_cp_071",
+      "id": "right",
       "levels": [
-        { "front": "Right", "back": "يمين", "romanized": "yamin" },
-        { "front": "Turn right.", "back": "التفِ يميناً.", "romanized": "iltafi yamina." }
+        {
+          "front": "Right",
+          "back": "يمين",
+          "romanized": "yamin"
+        },
+        {
+          "front": "Turn right.",
+          "back": "التفِ يميناً.",
+          "romanized": "iltafi yamina."
+        }
       ]
     },
     {
-      "id": "ar_cp_072",
+      "id": "straight_ahead",
       "levels": [
-        { "front": "Straight (ahead)", "back": "مباشرة / على طول", "romanized": "mubashara / 'ala tul" },
-        { "front": "Go straight ahead.", "back": "اذهب مباشرة.", "romanized": "idhhab mubashara." }
+        {
+          "front": "Straight (ahead)",
+          "back": "مباشرة / على طول",
+          "romanized": "mubashara / 'ala tul"
+        },
+        {
+          "front": "Go straight ahead.",
+          "back": "اذهب مباشرة.",
+          "romanized": "idhhab mubashara."
+        }
       ]
     },
     {
-      "id": "ar_cp_073",
+      "id": "north",
       "levels": [
-        { "front": "North", "back": "شمال", "romanized": "shamal" },
-        { "front": "The city is to the north.", "back": "المدينة في الشمال.", "romanized": "al-madina fi ash-shamal." }
+        {
+          "front": "North",
+          "back": "شمال",
+          "romanized": "shamal"
+        },
+        {
+          "front": "The city is to the north.",
+          "back": "المدينة في الشمال.",
+          "romanized": "al-madina fi ash-shamal."
+        }
       ]
     },
     {
-      "id": "ar_cp_074",
+      "id": "south",
       "levels": [
-        { "front": "South", "back": "جنوب", "romanized": "janub" },
-        { "front": "The beach is to the south.", "back": "الشاطئ في الجنوب.", "romanized": "ash-shati' fi al-janub." }
+        {
+          "front": "South",
+          "back": "جنوب",
+          "romanized": "janub"
+        },
+        {
+          "front": "The beach is to the south.",
+          "back": "الشاطئ في الجنوب.",
+          "romanized": "ash-shati' fi al-janub."
+        }
       ]
     },
     {
-      "id": "ar_cp_075",
+      "id": "east",
       "levels": [
-        { "front": "East", "back": "شرق", "romanized": "sharq" },
-        { "front": "The sun rises in the east.", "back": "تشرق الشمس في الشرق.", "romanized": "tashruq ash-shams fi ash-sharq." }
+        {
+          "front": "East",
+          "back": "شرق",
+          "romanized": "sharq"
+        },
+        {
+          "front": "The sun rises in the east.",
+          "back": "تشرق الشمس في الشرق.",
+          "romanized": "tashruq ash-shams fi ash-sharq."
+        }
       ]
     },
     {
-      "id": "ar_cp_076",
+      "id": "west",
       "levels": [
-        { "front": "West", "back": "غرب", "romanized": "gharb" },
-        { "front": "The sun sets in the west.", "back": "تغرب الشمس في الغرب.", "romanized": "taghrubu ash-shams fi al-gharb." }
+        {
+          "front": "West",
+          "back": "غرب",
+          "romanized": "gharb"
+        },
+        {
+          "front": "The sun sets in the west.",
+          "back": "تغرب الشمس في الغرب.",
+          "romanized": "taghrubu ash-shams fi al-gharb."
+        }
       ]
     },
     {
-      "id": "ar_cp_079",
+      "id": "to_live",
       "levels": [
-        { "front": "To live", "back": "يسكن / يعيش", "romanized": "yaskun / ya'ish" },
-        { "front": "I live near the city centre.", "back": "أسكن بالقرب من وسط المدينة.", "romanized": "askun bil-qurb min wasat al-madina." }
+        {
+          "front": "To live",
+          "back": "يسكن / يعيش",
+          "romanized": "yaskun / ya'ish"
+        },
+        {
+          "front": "I live near the city centre.",
+          "back": "أسكن بالقرب من وسط المدينة.",
+          "romanized": "askun bil-qurb min wasat al-madina."
+        }
       ]
     },
     {
-      "id": "ar_cp_080",
+      "id": "to_stay",
       "levels": [
-        { "front": "To stay", "back": "يقيم / يبقى", "romanized": "yuqim / yabqa" },
-        { "front": "We're staying at a hotel.", "back": "نحن نقيم في فندق.", "romanized": "nahnu nuqim fi funduq." }
+        {
+          "front": "To stay",
+          "back": "يقيم / يبقى",
+          "romanized": "yuqim / yabqa"
+        },
+        {
+          "front": "We're staying at a hotel.",
+          "back": "نحن نقيم في فندق.",
+          "romanized": "nahnu nuqim fi funduq."
+        }
       ]
     },
     {
-      "id": "ar_cp_081",
+      "id": "to_wait",
       "levels": [
-        { "front": "To wait", "back": "ينتظر", "romanized": "yantazir" },
-        { "front": "I'll wait for you here.", "back": "سأنتظرك هنا.", "romanized": "sa-antazirak huna." }
+        {
+          "front": "To wait",
+          "back": "ينتظر",
+          "romanized": "yantazir"
+        },
+        {
+          "front": "I'll wait for you here.",
+          "back": "سأنتظرك هنا.",
+          "romanized": "sa-antazirak huna."
+        }
       ]
     },
     {
-      "id": "ar_cp_082",
+      "id": "to_meet",
       "levels": [
-        { "front": "To meet", "back": "يلتقي", "romanized": "yaltaqi" },
-        { "front": "Let's meet at the park.", "back": "لنلتقِ في الحديقة.", "romanized": "lnaltaqi fi al-hadiqa." }
+        {
+          "front": "To meet",
+          "back": "يلتقي",
+          "romanized": "yaltaqi"
+        },
+        {
+          "front": "Let's meet at the park.",
+          "back": "لنلتقِ في الحديقة.",
+          "romanized": "lnaltaqi fi al-hadiqa."
+        }
       ]
     },
     {
-      "id": "ar_cp_083",
+      "id": "to_get_lost",
       "levels": [
-        { "front": "To get lost", "back": "يضيع", "romanized": "yadi'" },
-        { "front": "Don't get lost!", "back": "لا تضيع!", "romanized": "la tadi'!" }
+        {
+          "front": "To get lost",
+          "back": "يضيع",
+          "romanized": "yadi'"
+        },
+        {
+          "front": "Don't get lost!",
+          "back": "لا تضيع!",
+          "romanized": "la tadi'!"
+        }
       ]
     },
     {
-      "id": "ar_cp_084",
+      "id": "to_find",
       "levels": [
-        { "front": "To find", "back": "يجد", "romanized": "yajid" },
-        { "front": "I can't find the hotel.", "back": "لا أستطيع إيجاد الفندق.", "romanized": "la astati' ijah al-funduq." }
+        {
+          "front": "To find",
+          "back": "يجد",
+          "romanized": "yajid"
+        },
+        {
+          "front": "I can't find the hotel.",
+          "back": "لا أستطيع إيجاد الفندق.",
+          "romanized": "la astati' ijah al-funduq."
+        }
       ]
     },
     {
-      "id": "ar_cp_085",
+      "id": "to_look_for",
       "levels": [
-        { "front": "To look for", "back": "يبحث عن", "romanized": "yabhathu 'an" },
-        { "front": "I'm looking for the pharmacy.", "back": "أبحث عن الصيدلية.", "romanized": "abhath 'an as-saydaliyya." }
+        {
+          "front": "To look for",
+          "back": "يبحث عن",
+          "romanized": "yabhathu 'an"
+        },
+        {
+          "front": "I'm looking for the pharmacy.",
+          "back": "أبحث عن الصيدلية.",
+          "romanized": "abhath 'an as-saydaliyya."
+        }
       ]
     },
     {
-      "id": "ar_cp_088",
+      "id": "to_head",
       "levels": [
-        { "front": "To head", "back": "يتجه نحو", "romanized": "yattajih nahwa" },
-        { "front": "Head towards the station.", "back": "اتجه نحو المحطة.", "romanized": "ittajih nahwa al-mahatta." }
+        {
+          "front": "To head",
+          "back": "يتجه نحو",
+          "romanized": "yattajih nahwa"
+        },
+        {
+          "front": "Head towards the station.",
+          "back": "اتجه نحو المحطة.",
+          "romanized": "ittajih nahwa al-mahatta."
+        }
       ]
     },
     {
-      "id": "ar_cp_089",
+      "id": "to_continue",
       "levels": [
-        { "front": "To continue", "back": "يكمل / يستمر", "romanized": "yukmil / yastamirr" },
-        { "front": "Continue straight ahead.", "back": "واصل مباشرة.", "romanized": "wasil mubashara." }
+        {
+          "front": "To continue",
+          "back": "يكمل / يستمر",
+          "romanized": "yukmil / yastamirr"
+        },
+        {
+          "front": "Continue straight ahead.",
+          "back": "واصل مباشرة.",
+          "romanized": "wasil mubashara."
+        }
       ]
     },
     {
-      "id": "ar_cp_090",
+      "id": "to_stop",
       "levels": [
-        { "front": "To stop", "back": "يتوقف", "romanized": "yatawaqqaf" },
-        { "front": "Stop at the corner.", "back": "توقف عند الزاوية.", "romanized": "tawwaqqaf inda az-zawiya." }
+        {
+          "front": "To stop",
+          "back": "يتوقف",
+          "romanized": "yatawaqqaf"
+        },
+        {
+          "front": "Stop at the corner.",
+          "back": "توقف عند الزاوية.",
+          "romanized": "tawwaqqaf inda az-zawiya."
+        }
       ]
     },
     {
-      "id": "ar_cp_091",
+      "id": "to_park",
       "levels": [
-        { "front": "To park", "back": "يوقف السيارة", "romanized": "yuwaqqif as-sayyara" },
-        { "front": "Where can I park?", "back": "أين يمكنني إيقاف السيارة؟", "romanized": "ayna yumkinuni iqaf as-sayyara?" }
+        {
+          "front": "To park",
+          "back": "يوقف السيارة",
+          "romanized": "yuwaqqif as-sayyara"
+        },
+        {
+          "front": "Where can I park?",
+          "back": "أين يمكنني إيقاف السيارة؟",
+          "romanized": "ayna yumkinuni iqaf as-sayyara?"
+        }
       ]
     },
     {
-      "id": "ar_cp_092",
+      "id": "to_book_to_reserve",
       "levels": [
-        { "front": "To book / To reserve", "back": "يحجز", "romanized": "yahjuz" },
-        { "front": "I booked a room.", "back": "حجزت غرفة.", "romanized": "hajaztu ghurfa." }
+        {
+          "front": "To book / To reserve",
+          "back": "يحجز",
+          "romanized": "yahjuz"
+        },
+        {
+          "front": "I booked a room.",
+          "back": "حجزت غرفة.",
+          "romanized": "hajaztu ghurfa."
+        }
       ]
     },
     {
-      "id": "ar_cp_093",
+      "id": "to_check_in",
       "levels": [
-        { "front": "To check in", "back": "يسجل الوصول", "romanized": "yusajjil al-wusul" },
-        { "front": "We checked in at three.", "back": "سجلنا الوصول في الثالثة.", "romanized": "sajjalna al-wusul fi ath-thalitha." }
+        {
+          "front": "To check in",
+          "back": "يسجل الوصول",
+          "romanized": "yusajjil al-wusul"
+        },
+        {
+          "front": "We checked in at three.",
+          "back": "سجلنا الوصول في الثالثة.",
+          "romanized": "sajjalna al-wusul fi ath-thalitha."
+        }
       ]
     },
     {
-      "id": "ar_cp_094",
+      "id": "to_check_out",
       "levels": [
-        { "front": "To check out", "back": "يسجل المغادرة", "romanized": "yusajjil al-mughadara" },
-        { "front": "Check out is at eleven.", "back": "المغادرة في الحادية عشرة.", "romanized": "al-mughadara fi al-hadiya 'ashara." }
+        {
+          "front": "To check out",
+          "back": "يسجل المغادرة",
+          "romanized": "yusajjil al-mughadara"
+        },
+        {
+          "front": "Check out is at eleven.",
+          "back": "المغادرة في الحادية عشرة.",
+          "romanized": "al-mughadara fi al-hadiya 'ashara."
+        }
       ]
     },
     {
-      "id": "ar_cp_095",
+      "id": "nearby",
       "levels": [
-        { "front": "Nearby", "back": "قريب / بالقرب", "romanized": "qarib / bil-qurb" },
-        { "front": "Is there a pharmacy nearby?", "back": "هل توجد صيدلية قريبة؟", "romanized": "hal tujad saydaliyya qariba?" }
+        {
+          "front": "Nearby",
+          "back": "قريب / بالقرب",
+          "romanized": "qarib / bil-qurb"
+        },
+        {
+          "front": "Is there a pharmacy nearby?",
+          "back": "هل توجد صيدلية قريبة؟",
+          "romanized": "hal tujad saydaliyya qariba?"
+        }
       ]
     },
     {
-      "id": "ar_cp_098",
+      "id": "busy_crowded",
       "levels": [
-        { "front": "Busy / Crowded", "back": "مزدحم", "romanized": "muzdahim" },
-        { "front": "The market is very crowded.", "back": "السوق مزدحم جداً.", "romanized": "as-suq muzdahim jiddan." }
+        {
+          "front": "Busy / Crowded",
+          "back": "مزدحم",
+          "romanized": "muzdahim"
+        },
+        {
+          "front": "The market is very crowded.",
+          "back": "السوق مزدحم جداً.",
+          "romanized": "as-suq muzdahim jiddan."
+        }
       ]
     },
     {
-      "id": "ar_cp_099",
+      "id": "quiet",
       "levels": [
-        { "front": "Quiet", "back": "هادئ", "romanized": "hadi'" },
-        { "front": "I prefer a quiet neighbourhood.", "back": "أفضل حياً هادئاً.", "romanized": "ufaddil hayyan hadi'an." }
+        {
+          "front": "Quiet",
+          "back": "هادئ",
+          "romanized": "hadi'"
+        },
+        {
+          "front": "I prefer a quiet neighbourhood.",
+          "back": "أفضل حياً هادئاً.",
+          "romanized": "ufaddil hayyan hadi'an."
+        }
       ]
     },
     {
-      "id": "ar_cp_102",
+      "id": "lost",
       "levels": [
-        { "front": "Lost", "back": "ضائع", "romanized": "da'i'" },
-        { "front": "I'm lost.", "back": "أنا ضائع.", "romanized": "ana da'i'." }
+        {
+          "front": "Lost",
+          "back": "ضائع",
+          "romanized": "da'i'"
+        },
+        {
+          "front": "I'm lost.",
+          "back": "أنا ضائع.",
+          "romanized": "ana da'i'."
+        }
       ]
     }
   ]

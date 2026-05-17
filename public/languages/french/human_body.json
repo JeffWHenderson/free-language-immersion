@@ -2,62 +2,729 @@
   "id": "human_body",
   "name": "Human Body",
   "language": "french",
-  "stories": ["at_the_doctor", "getting_ready"],
+  "stories": [
+    "at_the_doctor",
+    "getting_ready"
+  ],
   "cards": [
-    { "id": "fr_hb_001", "levels": [{ "front": "head", "back": "la tête", "grammarNote": "To express pain in French, use 'avoir mal à + body part': j'ai mal à la tête (my head hurts), j'ai mal au dos (my back hurts), j'ai mal aux pieds (my feet hurt). The article contracts: à + le = au, à + les = aux." }, { "front": "My head hurts.", "back": "J'ai mal à la tête." }] },
-    { "id": "fr_hb_002", "levels": [{ "front": "hair", "back": "les cheveux (masc.)", "grammarNote": "'Les cheveux' is always plural in French (the collection of hair). One strand is 'un cheveu'. 'Elle a les cheveux longs' = She has long hair. Note: use the definite article with body parts, not possessives — 'elle a les cheveux courts', not 'ses cheveux courts'." }, { "front": "She has long hair.", "back": "Elle a les cheveux longs." }] },
-    { "id": "fr_hb_003", "levels": [{ "front": "face", "back": "le visage" }, { "front": "Wash your face.", "back": "Lave-toi le visage." }] },
-    { "id": "fr_hb_004", "levels": [{ "front": "eye", "back": "l'œil (masc.) / les yeux", "grammarNote": "l'œil (singular) and les yeux (plural) are completely different words — one of the most irregular plurals in French. 'Il a les yeux bleus' = He has blue eyes." }, { "front": "He has blue eyes.", "back": "Il a les yeux bleus." }] },
-    { "id": "fr_hb_005", "levels": [{ "front": "ear", "back": "l'oreille (fem.)" }, { "front": "My ear hurts.", "back": "J'ai mal à l'oreille." }] },
-    { "id": "fr_hb_006", "levels": [{ "front": "nose", "back": "le nez" }, { "front": "My nose is cold.", "back": "J'ai le nez froid." }] },
-    { "id": "fr_hb_007", "levels": [{ "front": "mouth", "back": "la bouche" }, { "front": "Open your mouth.", "back": "Ouvre la bouche." }] },
-    { "id": "fr_hb_008", "levels": [{ "front": "lip", "back": "la lèvre" }, { "front": "She has red lips.", "back": "Elle a les lèvres rouges." }] },
-    { "id": "fr_hb_009", "levels": [{ "front": "tooth (teeth)", "back": "la dent (les dents)" }, { "front": "I have a toothache.", "back": "J'ai mal aux dents." }] },
-    { "id": "fr_hb_010", "levels": [{ "front": "tongue", "back": "la langue" }, { "front": "Stick out your tongue.", "back": "Tire la langue." }] },
-    { "id": "fr_hb_011", "levels": [{ "front": "neck", "back": "le cou" }, { "front": "My neck is stiff.", "back": "J'ai le cou raide." }] },
-    { "id": "fr_hb_012", "levels": [{ "front": "arm", "back": "le bras" }, { "front": "I broke my arm.", "back": "Je me suis cassé le bras." }] },
-    { "id": "fr_hb_013", "levels": [{ "front": "hand", "back": "la main", "grammarNote": "With reflexive verbs and body parts, French uses the definite article (la, le, les) instead of possessives. 'Lave-toi les mains' = Wash your hands (not 'lave tes mains'). 'Je me suis cassé le bras' = I broke my arm. The reflexive pronoun (me/te/se) makes clear whose body part it is." }, { "front": "Wash your hands.", "back": "Lave-toi les mains." }] },
-    { "id": "fr_hb_014", "levels": [{ "front": "finger", "back": "le doigt" }, { "front": "He cut his finger.", "back": "Il s'est coupé le doigt." }] },
-    { "id": "fr_hb_015", "levels": [{ "front": "chest", "back": "la poitrine" }, { "front": "He has chest pain.", "back": "Il a une douleur à la poitrine." }] },
-    { "id": "fr_hb_016", "levels": [{ "front": "back", "back": "le dos" }, { "front": "My back hurts.", "back": "J'ai mal au dos." }] },
-    { "id": "fr_hb_017", "levels": [{ "front": "heart", "back": "le cœur" }, { "front": "My heart is beating fast.", "back": "Mon cœur bat vite." }] },
-    { "id": "fr_hb_018", "levels": [{ "front": "stomach", "back": "l'estomac (masc.) / le ventre" }, { "front": "My stomach hurts.", "back": "J'ai mal au ventre." }] },
-    { "id": "fr_hb_019", "levels": [{ "front": "muscle", "back": "le muscle" }, { "front": "I pulled a muscle.", "back": "Je me suis froissé un muscle." }] },
-    { "id": "fr_hb_020", "levels": [{ "front": "waist", "back": "la taille / la ceinture" }, { "front": "She has a slim waist.", "back": "Elle a la taille fine." }] },
-    { "id": "fr_hb_021", "levels": [{ "front": "skin", "back": "la peau" }, { "front": "Her skin is soft.", "back": "Elle a la peau douce." }] },
-    { "id": "fr_hb_022", "levels": [{ "front": "blood", "back": "le sang" }, { "front": "He donated blood.", "back": "Il a donné son sang." }] },
-    { "id": "fr_hb_023", "levels": [{ "front": "brain", "back": "le cerveau" }, { "front": "The brain is complex.", "back": "Le cerveau est complexe." }] },
-    { "id": "fr_hb_024", "levels": [{ "front": "skull", "back": "le crâne" }, { "front": "The skull protects the brain.", "back": "Le crâne protège le cerveau." }] },
-    { "id": "fr_hb_025", "levels": [{ "front": "breast", "back": "le sein / la poitrine" }, { "front": "She felt pain in her chest.", "back": "Elle a ressenti une douleur dans la poitrine." }] },
-    { "id": "fr_hb_026", "levels": [{ "front": "leg", "back": "la jambe" }, { "front": "My leg is tired.", "back": "J'ai la jambe fatiguée." }] },
-    { "id": "fr_hb_027", "levels": [{ "front": "foot (feet)", "back": "le pied (les pieds)" }, { "front": "My feet hurt.", "back": "J'ai mal aux pieds." }] },
-    { "id": "fr_hb_028", "levels": [{ "front": "toe", "back": "l'orteil (masc.) / le doigt de pied" }, { "front": "He stubbed his toe.", "back": "Il s'est cogné l'orteil." }] },
-    { "id": "fr_hb_029", "levels": [{ "front": "joint", "back": "l'articulation (fem.)" }, { "front": "My joints are stiff.", "back": "Mes articulations sont raides." }] },
-    { "id": "fr_hb_030", "levels": [{ "front": "breath", "back": "le souffle / la respiration" }, { "front": "Hold your breath.", "back": "Retiens ta respiration." }] },
-    { "id": "fr_hb_031", "levels": [{ "front": "see", "back": "voir" }, { "front": "I can see clearly.", "back": "Je vois clairement." }] },
-    { "id": "fr_hb_032", "levels": [{ "front": "hear", "back": "entendre" }, { "front": "I can't hear you.", "back": "Je ne t'entends pas." }] },
-    { "id": "fr_hb_033", "levels": [{ "front": "smell", "back": "sentir" }, { "front": "I can smell the flowers.", "back": "Je sens les fleurs." }] },
-    { "id": "fr_hb_034", "levels": [{ "front": "taste", "back": "goûter / savourer" }, { "front": "Taste this soup.", "back": "Goûte cette soupe." }] },
-    { "id": "fr_hb_035", "levels": [{ "front": "touch", "back": "toucher" }, { "front": "Don't touch that!", "back": "Ne touche pas à ça !" }] },
-    { "id": "fr_hb_036", "levels": [{ "front": "breathe", "back": "respirer" }, { "front": "Breathe slowly.", "back": "Respire lentement." }] },
-    { "id": "fr_hb_037", "levels": [{ "front": "bend", "back": "plier / fléchir" }, { "front": "Bend your knees.", "back": "Plie les genoux." }] },
-    { "id": "fr_hb_038", "levels": [{ "front": "stretch", "back": "s'étirer / étirer" }, { "front": "Stretch your arms.", "back": "Étire les bras." }] },
-    { "id": "fr_hb_039", "levels": [{ "front": "flex", "back": "contracter / fléchir" }, { "front": "Flex your muscles.", "back": "Contracte tes muscles." }] },
-    { "id": "fr_hb_040", "levels": [{ "front": "blink", "back": "cligner des yeux" }, { "front": "Don't blink.", "back": "Ne cligne pas des yeux." }] },
-    { "id": "fr_hb_041", "levels": [{ "front": "sweat", "back": "transpirer / suer" }, { "front": "I sweat when I run.", "back": "Je transpire quand je cours." }] },
-    { "id": "fr_hb_042", "levels": [{ "front": "bleed", "back": "saigner" }, { "front": "The wound is bleeding.", "back": "La blessure saigne." }] },
-    { "id": "fr_hb_043", "levels": [{ "front": "feel", "back": "se sentir / ressentir" }, { "front": "How do you feel?", "back": "Comment tu te sens ?" }] },
-    { "id": "fr_hb_044", "levels": [{ "front": "think", "back": "penser / réfléchir" }, { "front": "What are you thinking about?", "back": "À quoi tu penses ?" }] },
-    { "id": "fr_hb_045", "levels": [{ "front": "move", "back": "bouger / se déplacer" }, { "front": "I can't move my arm.", "back": "Je ne peux pas bouger le bras." }] },
-    { "id": "fr_hb_046", "levels": [{ "front": "bony", "back": "osseux / maigre" }, { "front": "His hands are bony.", "back": "Il a les mains osseuses." }] },
-    { "id": "fr_hb_047", "levels": [{ "front": "hairy", "back": "poilu / velu" }, { "front": "He has hairy arms.", "back": "Il a les bras poilus." }] },
-    { "id": "fr_hb_048", "levels": [{ "front": "soft", "back": "doux / douce" }, { "front": "The tissue is soft.", "back": "Le tissu est doux." }] },
-    { "id": "fr_hb_049", "levels": [{ "front": "sore", "back": "douloureux / endolori" }, { "front": "My muscles are sore.", "back": "Mes muscles sont endoloris." }] },
-    { "id": "fr_hb_050", "levels": [{ "front": "left", "back": "gauche" }, { "front": "I hurt my left knee.", "back": "Je me suis blessé(e) au genou gauche." }] },
-    { "id": "fr_hb_051", "levels": [{ "front": "right", "back": "droit / droite" }, { "front": "I broke my right arm.", "back": "Je me suis cassé le bras droit." }] },
-    { "id": "fr_hb_052", "levels": [{ "front": "upper", "back": "supérieur / du haut" }, { "front": "The upper body is strong.", "back": "La partie supérieure du corps est forte." }] },
-    { "id": "fr_hb_053", "levels": [{ "front": "lower", "back": "inférieur / du bas" }, { "front": "He has lower back pain.", "back": "Il a mal dans le bas du dos." }] },
-    { "id": "fr_hb_054", "levels": [{ "front": "body", "back": "le corps" }, { "front": "The human body is amazing.", "back": "Le corps humain est incroyable." }] },
-    { "id": "fr_hb_055", "levels": [{ "front": "human (adjective)", "back": "humain / humaine" }, { "front": "It's part of human biology.", "back": "Ça fait partie de la biologie humaine." }] }
+    {
+      "id": "head",
+      "levels": [
+        {
+          "front": "head",
+          "back": "la tête",
+          "grammarNote": "To express pain in French, use 'avoir mal à + body part': j'ai mal à la tête (my head hurts), j'ai mal au dos (my back hurts), j'ai mal aux pieds (my feet hurt). The article contracts: à + le = au, à + les = aux."
+        },
+        {
+          "front": "My head hurts.",
+          "back": "J'ai mal à la tête."
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "levels": [
+        {
+          "front": "hair",
+          "back": "les cheveux (masc.)",
+          "grammarNote": "'Les cheveux' is always plural in French (the collection of hair). One strand is 'un cheveu'. 'Elle a les cheveux longs' = She has long hair. Note: use the definite article with body parts, not possessives — 'elle a les cheveux courts', not 'ses cheveux courts'."
+        },
+        {
+          "front": "She has long hair.",
+          "back": "Elle a les cheveux longs."
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "levels": [
+        {
+          "front": "face",
+          "back": "le visage"
+        },
+        {
+          "front": "Wash your face.",
+          "back": "Lave-toi le visage."
+        }
+      ]
+    },
+    {
+      "id": "eye",
+      "levels": [
+        {
+          "front": "eye",
+          "back": "l'œil (masc.) / les yeux",
+          "grammarNote": "l'œil (singular) and les yeux (plural) are completely different words — one of the most irregular plurals in French. 'Il a les yeux bleus' = He has blue eyes."
+        },
+        {
+          "front": "He has blue eyes.",
+          "back": "Il a les yeux bleus."
+        }
+      ]
+    },
+    {
+      "id": "ear",
+      "levels": [
+        {
+          "front": "ear",
+          "back": "l'oreille (fem.)"
+        },
+        {
+          "front": "My ear hurts.",
+          "back": "J'ai mal à l'oreille."
+        }
+      ]
+    },
+    {
+      "id": "nose",
+      "levels": [
+        {
+          "front": "nose",
+          "back": "le nez"
+        },
+        {
+          "front": "My nose is cold.",
+          "back": "J'ai le nez froid."
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "levels": [
+        {
+          "front": "mouth",
+          "back": "la bouche"
+        },
+        {
+          "front": "Open your mouth.",
+          "back": "Ouvre la bouche."
+        }
+      ]
+    },
+    {
+      "id": "lip",
+      "levels": [
+        {
+          "front": "lip",
+          "back": "la lèvre"
+        },
+        {
+          "front": "She has red lips.",
+          "back": "Elle a les lèvres rouges."
+        }
+      ]
+    },
+    {
+      "id": "tooth_teeth",
+      "levels": [
+        {
+          "front": "tooth (teeth)",
+          "back": "la dent (les dents)"
+        },
+        {
+          "front": "I have a toothache.",
+          "back": "J'ai mal aux dents."
+        }
+      ]
+    },
+    {
+      "id": "tongue",
+      "levels": [
+        {
+          "front": "tongue",
+          "back": "la langue"
+        },
+        {
+          "front": "Stick out your tongue.",
+          "back": "Tire la langue."
+        }
+      ]
+    },
+    {
+      "id": "neck",
+      "levels": [
+        {
+          "front": "neck",
+          "back": "le cou"
+        },
+        {
+          "front": "My neck is stiff.",
+          "back": "J'ai le cou raide."
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "levels": [
+        {
+          "front": "arm",
+          "back": "le bras"
+        },
+        {
+          "front": "I broke my arm.",
+          "back": "Je me suis cassé le bras."
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "levels": [
+        {
+          "front": "hand",
+          "back": "la main",
+          "grammarNote": "With reflexive verbs and body parts, French uses the definite article (la, le, les) instead of possessives. 'Lave-toi les mains' = Wash your hands (not 'lave tes mains'). 'Je me suis cassé le bras' = I broke my arm. The reflexive pronoun (me/te/se) makes clear whose body part it is."
+        },
+        {
+          "front": "Wash your hands.",
+          "back": "Lave-toi les mains."
+        }
+      ]
+    },
+    {
+      "id": "finger",
+      "levels": [
+        {
+          "front": "finger",
+          "back": "le doigt"
+        },
+        {
+          "front": "He cut his finger.",
+          "back": "Il s'est coupé le doigt."
+        }
+      ]
+    },
+    {
+      "id": "chest",
+      "levels": [
+        {
+          "front": "chest",
+          "back": "la poitrine"
+        },
+        {
+          "front": "He has chest pain.",
+          "back": "Il a une douleur à la poitrine."
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "levels": [
+        {
+          "front": "back",
+          "back": "le dos"
+        },
+        {
+          "front": "My back hurts.",
+          "back": "J'ai mal au dos."
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "levels": [
+        {
+          "front": "heart",
+          "back": "le cœur"
+        },
+        {
+          "front": "My heart is beating fast.",
+          "back": "Mon cœur bat vite."
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "levels": [
+        {
+          "front": "stomach",
+          "back": "l'estomac (masc.) / le ventre"
+        },
+        {
+          "front": "My stomach hurts.",
+          "back": "J'ai mal au ventre."
+        }
+      ]
+    },
+    {
+      "id": "muscle",
+      "levels": [
+        {
+          "front": "muscle",
+          "back": "le muscle"
+        },
+        {
+          "front": "I pulled a muscle.",
+          "back": "Je me suis froissé un muscle."
+        }
+      ]
+    },
+    {
+      "id": "waist",
+      "levels": [
+        {
+          "front": "waist",
+          "back": "la taille / la ceinture"
+        },
+        {
+          "front": "She has a slim waist.",
+          "back": "Elle a la taille fine."
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "levels": [
+        {
+          "front": "skin",
+          "back": "la peau"
+        },
+        {
+          "front": "Her skin is soft.",
+          "back": "Elle a la peau douce."
+        }
+      ]
+    },
+    {
+      "id": "blood",
+      "levels": [
+        {
+          "front": "blood",
+          "back": "le sang"
+        },
+        {
+          "front": "He donated blood.",
+          "back": "Il a donné son sang."
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "levels": [
+        {
+          "front": "brain",
+          "back": "le cerveau"
+        },
+        {
+          "front": "The brain is complex.",
+          "back": "Le cerveau est complexe."
+        }
+      ]
+    },
+    {
+      "id": "skull",
+      "levels": [
+        {
+          "front": "skull",
+          "back": "le crâne"
+        },
+        {
+          "front": "The skull protects the brain.",
+          "back": "Le crâne protège le cerveau."
+        }
+      ]
+    },
+    {
+      "id": "breast",
+      "levels": [
+        {
+          "front": "breast",
+          "back": "le sein / la poitrine"
+        },
+        {
+          "front": "She felt pain in her chest.",
+          "back": "Elle a ressenti une douleur dans la poitrine."
+        }
+      ]
+    },
+    {
+      "id": "leg",
+      "levels": [
+        {
+          "front": "leg",
+          "back": "la jambe"
+        },
+        {
+          "front": "My leg is tired.",
+          "back": "J'ai la jambe fatiguée."
+        }
+      ]
+    },
+    {
+      "id": "foot_feet",
+      "levels": [
+        {
+          "front": "foot (feet)",
+          "back": "le pied (les pieds)"
+        },
+        {
+          "front": "My feet hurt.",
+          "back": "J'ai mal aux pieds."
+        }
+      ]
+    },
+    {
+      "id": "toe",
+      "levels": [
+        {
+          "front": "toe",
+          "back": "l'orteil (masc.) / le doigt de pied"
+        },
+        {
+          "front": "He stubbed his toe.",
+          "back": "Il s'est cogné l'orteil."
+        }
+      ]
+    },
+    {
+      "id": "joint",
+      "levels": [
+        {
+          "front": "joint",
+          "back": "l'articulation (fem.)"
+        },
+        {
+          "front": "My joints are stiff.",
+          "back": "Mes articulations sont raides."
+        }
+      ]
+    },
+    {
+      "id": "breath",
+      "levels": [
+        {
+          "front": "breath",
+          "back": "le souffle / la respiration"
+        },
+        {
+          "front": "Hold your breath.",
+          "back": "Retiens ta respiration."
+        }
+      ]
+    },
+    {
+      "id": "see",
+      "levels": [
+        {
+          "front": "see",
+          "back": "voir"
+        },
+        {
+          "front": "I can see clearly.",
+          "back": "Je vois clairement."
+        }
+      ]
+    },
+    {
+      "id": "hear",
+      "levels": [
+        {
+          "front": "hear",
+          "back": "entendre"
+        },
+        {
+          "front": "I can't hear you.",
+          "back": "Je ne t'entends pas."
+        }
+      ]
+    },
+    {
+      "id": "smell",
+      "levels": [
+        {
+          "front": "smell",
+          "back": "sentir"
+        },
+        {
+          "front": "I can smell the flowers.",
+          "back": "Je sens les fleurs."
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "levels": [
+        {
+          "front": "taste",
+          "back": "goûter / savourer"
+        },
+        {
+          "front": "Taste this soup.",
+          "back": "Goûte cette soupe."
+        }
+      ]
+    },
+    {
+      "id": "touch",
+      "levels": [
+        {
+          "front": "touch",
+          "back": "toucher"
+        },
+        {
+          "front": "Don't touch that!",
+          "back": "Ne touche pas à ça !"
+        }
+      ]
+    },
+    {
+      "id": "breathe",
+      "levels": [
+        {
+          "front": "breathe",
+          "back": "respirer"
+        },
+        {
+          "front": "Breathe slowly.",
+          "back": "Respire lentement."
+        }
+      ]
+    },
+    {
+      "id": "bend",
+      "levels": [
+        {
+          "front": "bend",
+          "back": "plier / fléchir"
+        },
+        {
+          "front": "Bend your knees.",
+          "back": "Plie les genoux."
+        }
+      ]
+    },
+    {
+      "id": "stretch",
+      "levels": [
+        {
+          "front": "stretch",
+          "back": "s'étirer / étirer"
+        },
+        {
+          "front": "Stretch your arms.",
+          "back": "Étire les bras."
+        }
+      ]
+    },
+    {
+      "id": "flex",
+      "levels": [
+        {
+          "front": "flex",
+          "back": "contracter / fléchir"
+        },
+        {
+          "front": "Flex your muscles.",
+          "back": "Contracte tes muscles."
+        }
+      ]
+    },
+    {
+      "id": "blink",
+      "levels": [
+        {
+          "front": "blink",
+          "back": "cligner des yeux"
+        },
+        {
+          "front": "Don't blink.",
+          "back": "Ne cligne pas des yeux."
+        }
+      ]
+    },
+    {
+      "id": "sweat",
+      "levels": [
+        {
+          "front": "sweat",
+          "back": "transpirer / suer"
+        },
+        {
+          "front": "I sweat when I run.",
+          "back": "Je transpire quand je cours."
+        }
+      ]
+    },
+    {
+      "id": "bleed",
+      "levels": [
+        {
+          "front": "bleed",
+          "back": "saigner"
+        },
+        {
+          "front": "The wound is bleeding.",
+          "back": "La blessure saigne."
+        }
+      ]
+    },
+    {
+      "id": "feel",
+      "levels": [
+        {
+          "front": "feel",
+          "back": "se sentir / ressentir"
+        },
+        {
+          "front": "How do you feel?",
+          "back": "Comment tu te sens ?"
+        }
+      ]
+    },
+    {
+      "id": "think",
+      "levels": [
+        {
+          "front": "think",
+          "back": "penser / réfléchir"
+        },
+        {
+          "front": "What are you thinking about?",
+          "back": "À quoi tu penses ?"
+        }
+      ]
+    },
+    {
+      "id": "move",
+      "levels": [
+        {
+          "front": "move",
+          "back": "bouger / se déplacer"
+        },
+        {
+          "front": "I can't move my arm.",
+          "back": "Je ne peux pas bouger le bras."
+        }
+      ]
+    },
+    {
+      "id": "bony",
+      "levels": [
+        {
+          "front": "bony",
+          "back": "osseux / maigre"
+        },
+        {
+          "front": "His hands are bony.",
+          "back": "Il a les mains osseuses."
+        }
+      ]
+    },
+    {
+      "id": "hairy",
+      "levels": [
+        {
+          "front": "hairy",
+          "back": "poilu / velu"
+        },
+        {
+          "front": "He has hairy arms.",
+          "back": "Il a les bras poilus."
+        }
+      ]
+    },
+    {
+      "id": "soft",
+      "levels": [
+        {
+          "front": "soft",
+          "back": "doux / douce"
+        },
+        {
+          "front": "The tissue is soft.",
+          "back": "Le tissu est doux."
+        }
+      ]
+    },
+    {
+      "id": "sore",
+      "levels": [
+        {
+          "front": "sore",
+          "back": "douloureux / endolori"
+        },
+        {
+          "front": "My muscles are sore.",
+          "back": "Mes muscles sont endoloris."
+        }
+      ]
+    },
+    {
+      "id": "left",
+      "levels": [
+        {
+          "front": "left",
+          "back": "gauche"
+        },
+        {
+          "front": "I hurt my left knee.",
+          "back": "Je me suis blessé(e) au genou gauche."
+        }
+      ]
+    },
+    {
+      "id": "right",
+      "levels": [
+        {
+          "front": "right",
+          "back": "droit / droite"
+        },
+        {
+          "front": "I broke my right arm.",
+          "back": "Je me suis cassé le bras droit."
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "levels": [
+        {
+          "front": "upper",
+          "back": "supérieur / du haut"
+        },
+        {
+          "front": "The upper body is strong.",
+          "back": "La partie supérieure du corps est forte."
+        }
+      ]
+    },
+    {
+      "id": "lower",
+      "levels": [
+        {
+          "front": "lower",
+          "back": "inférieur / du bas"
+        },
+        {
+          "front": "He has lower back pain.",
+          "back": "Il a mal dans le bas du dos."
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "levels": [
+        {
+          "front": "body",
+          "back": "le corps"
+        },
+        {
+          "front": "The human body is amazing.",
+          "back": "Le corps humain est incroyable."
+        }
+      ]
+    },
+    {
+      "id": "human_adjective",
+      "levels": [
+        {
+          "front": "human (adjective)",
+          "back": "humain / humaine"
+        },
+        {
+          "front": "It's part of human biology.",
+          "back": "Ça fait partie de la biologie humaine."
+        }
+      ]
+    }
   ]
 }

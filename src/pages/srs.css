@@ -898,6 +898,32 @@ button.srs-count:hover { opacity: 0.75; }
     background-color: rgba(41, 128, 185, 0.08);
 }
 
+.srs-btn-grammar {
+    padding: 7px 14px;
+    background: none;
+    border: 1px solid #7b5ea7;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #7b5ea7;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.srs-btn-grammar:hover {
+    background-color: rgba(123, 94, 167, 0.08);
+}
+
+.srs-btn-secondary {
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 /* ── Story list page ── */
 .srs-story-filters {
     display: flex;

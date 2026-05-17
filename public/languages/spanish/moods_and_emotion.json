@@ -2,68 +2,865 @@
   "id": "moods_and_emotion",
   "name": "Moods & Emotion",
   "language": "spanish",
-  "stories": ["a_bad_day", "good_news", "friendship", "sean", "la_conversacion"],
-  "pictureLessons": ["moodsAndEmotion", "moodsAndEmotion2"],
+  "stories": [
+    "a_bad_day",
+    "good_news",
+    "friendship",
+    "sean",
+    "la_conversacion"
+  ],
+  "pictureLessons": [
+    "moodsAndEmotion",
+    "moodsAndEmotion2"
+  ],
   "cards": [
-    {"id": "es_me_001", "levels": [{"front": "happy", "back": "feliz", "grammarNote": "Adverb form: felizmente (happily). Spanish adverbs are made by adding -mente to the feminine adjective. Feliz has no gender change: feliz + mente → felizmente. E.g., 'Ella sonrió felizmente.' (She smiled happily.)"}, {"front": "I'm very happy today.", "back": "Estoy muy feliz hoy.", "literal": "[I] am very happy today."}]},
-    {"id": "es_me_002", "levels": [{"front": "sad", "back": "triste", "grammarNote": "Adverb form: tristemente (sadly). Triste has no gender change: triste + mente → tristemente. E.g., 'Habló tristemente.' (He spoke sadly.)"}, {"front": "Why are you sad?", "back": "¿Por qué estás triste?", "literal": "Why [you] are sad?"}]},
-    {"id": "es_me_003", "levels": [{"front": "love", "back": "amor"}, {"front": "I feel a lot of love for my family.", "back": "Siento mucho amor por mi familia.", "literal": "[I] feel much love for my family."}]},
-    {"id": "es_me_004", "levels": [{"front": "anger", "back": "ira"}, {"front": "I felt anger when they lied to me.", "back": "Sentí ira cuando me mintieron.", "literal": "[I] felt anger when to-me they-lied."}]},
-    {"id": "es_me_005", "levels": [{"front": "fear", "back": "miedo"}, {"front": "I'm afraid of the dark.", "back": "Tengo miedo de la oscuridad.", "literal": "[I] have fear of the darkness."}]},
-    {"id": "es_me_006", "levels": [{"front": "hope", "back": "esperanza"}, {"front": "I have hope for the future.", "back": "Tengo esperanza en el futuro.", "literal": "[I] have hope in the future."}]},
-    {"id": "es_me_007", "levels": [{"front": "stress", "back": "estrés"}, {"front": "I have a lot of stress at work.", "back": "Tengo mucho estrés en el trabajo.", "literal": "[I] have much stress in the work."}]},
-    {"id": "es_me_008", "levels": [{"front": "mood", "back": "estado de ánimo"}, {"front": "I'm in a good mood today.", "back": "Hoy estoy de buen estado de ánimo.", "literal": "Today [I] am in [a] good mood."}]},
-    {"id": "es_me_009", "levels": [{"front": "feeling", "back": "sentimiento"}, {"front": "That feeling is normal.", "back": "Ese sentimiento es normal."}]},
-    {"id": "es_me_010", "levels": [{"front": "emotion / excitement", "back": "emoción"}, {"front": "I couldn't hide my emotion.", "back": "No pude ocultar mi emoción.", "literal": "Not [I] could hide my emotion."}]},
-    {"id": "es_me_011", "levels": [{"front": "calm", "back": "calma"}, {"front": "Try to maintain your calm.", "back": "Intenta mantener la calma.", "literal": "[You] try to maintain the calm."}]},
-    {"id": "es_me_012", "levels": [{"front": "peace", "back": "paz"}, {"front": "I need peace and quiet.", "back": "Necesito paz y tranquilidad.", "literal": "[I] need peace and quiet."}]},
-    {"id": "es_me_013", "levels": [{"front": "worry", "back": "preocupación"}, {"front": "Don't let worry stop you.", "back": "No dejes que la preocupación te detenga.", "literal": "Not [you] let that the worry you stops."}]},
-    {"id": "es_me_014", "levels": [{"front": "surprise", "back": "sorpresa"}, {"front": "What a surprise!", "back": "¡Qué sorpresa!"}]},
-    {"id": "es_me_015", "levels": [{"front": "passion", "back": "pasión"}, {"front": "She teaches with passion.", "back": "Ella enseña con pasión."}]},
-    {"id": "es_me_016", "levels": [{"front": "desire", "back": "deseo"}, {"front": "I have a strong desire to travel.", "back": "Tengo un gran deseo de viajar.", "literal": "[I] have a great desire to travel."}]},
-    {"id": "es_me_017", "levels": [{"front": "hate", "back": "odio"}, {"front": "Hate is a strong feeling.", "back": "El odio es un sentimiento fuerte.", "literal": "The hate is a feeling strong."}]},
-    {"id": "es_me_018", "levels": [{"front": "pleasure", "back": "placer"}, {"front": "It's a pleasure to meet you.", "back": "Es un placer conocerte.", "literal": "[It] is a pleasure to-meet-you."}]},
-    {"id": "es_me_019", "levels": [{"front": "pain", "back": "dolor"}, {"front": "I feel pain in my leg.", "back": "Siento dolor en la pierna.", "literal": "[I] feel pain in the leg."}]},
-    {"id": "es_me_020", "levels": [{"front": "energy", "back": "energía"}, {"front": "I have a lot of energy today.", "back": "Hoy tengo mucha energía.", "literal": "Today [I] have much energy."}]},
-    {"id": "es_me_021", "levels": [{"front": "relief", "back": "alivio"}, {"front": "What a relief!", "back": "¡Qué alivio!"}]},
-    {"id": "es_me_022", "levels": [{"front": "comfort", "back": "consuelo"}, {"front": "Her words were a comfort.", "back": "Sus palabras fueron un consuelo.", "literal": "Her/His words were a comfort."}]},
-    {"id": "es_me_023", "levels": [{"front": "feel (to feel)", "back": "sentir", "grammarNote": "Sentir = to feel/perceive something. Sentirse (reflexive) = to feel a certain way. 'Me siento bien' (I feel good) vs 'Siento dolor' (I feel pain)."}, {"front": "I feel good today.", "back": "Me siento bien hoy.", "literal": "[I] myself-feel good today."}]},
-    {"id": "es_me_024", "levels": [{"front": "love (to love)", "back": "amar"}, {"front": "I love you very much.", "back": "Te amo mucho.", "literal": "To-you [I] love much."}]},
-    {"id": "es_me_025", "levels": [{"front": "hate (to hate)", "back": "odiar"}, {"front": "I hate waiting.", "back": "Odio esperar.", "literal": "[I] hate to-wait."}]},
-    {"id": "es_me_026", "levels": [{"front": "like (to like)", "back": "gustar"}, {"front": "I like music.", "back": "Me gusta la música.", "literal": "To-me pleases the music."}]},
-    {"id": "es_me_027", "levels": [{"front": "enjoy", "back": "disfrutar"}, {"front": "I enjoy the weekend.", "back": "Disfruto el fin de semana.", "literal": "[I] enjoy the weekend."}]},
-    {"id": "es_me_028", "levels": [{"front": "fear / dread (to fear)", "back": "temer"}, {"front": "I fear the worst.", "back": "Temo lo peor.", "literal": "[I] fear the worst."}]},
-    {"id": "es_me_029", "levels": [{"front": "hope (to hope)", "back": "esperar"}, {"front": "I hope everything goes well.", "back": "Espero que todo salga bien.", "literal": "[I] hope that everything goes well."}]},
-    {"id": "es_me_030", "levels": [{"front": "worry (to worry)", "back": "preocuparse"}, {"front": "Don't worry about it.", "back": "No te preocupes por eso.", "literal": "Not yourself-worry [command] for that."}]},
-    {"id": "es_me_031", "levels": [{"front": "calm / soothe (to calm)", "back": "calmar"}, {"front": "Calm down, please.", "back": "Cálmate, por favor.", "literal": "Calm-yourself [command], please."}]},
-    {"id": "es_me_032", "levels": [{"front": "comfort (to comfort)", "back": "consolar"}, {"front": "She comforted her friend.", "back": "Ella consoló a su amiga.", "literal": "She comforted [to] her friend."}]},
-    {"id": "es_me_033", "levels": [{"front": "excite / thrill", "back": "emocionar"}, {"front": "The trip excites me.", "back": "El viaje me emociona.", "literal": "The trip to-me excites."}]},
-    {"id": "es_me_034", "levels": [{"front": "annoy", "back": "molestar"}, {"front": "That noise annoys me.", "back": "Ese ruido me molesta.", "literal": "That noise to-me bothers."}]},
-    {"id": "es_me_035", "levels": [{"front": "irritate", "back": "irritar"}, {"front": "Waiting irritates me.", "back": "Esperar me irrita.", "literal": "To-wait to-me irritates."}]},
-    {"id": "es_me_036", "levels": [{"front": "anger (to anger)", "back": "enojar"}, {"front": "That comment angered me.", "back": "Ese comentario me enojó.", "literal": "That comment to-me angered."}]},
-    {"id": "es_me_037", "levels": [{"front": "delight", "back": "deleitar"}, {"front": "The music delighted everyone.", "back": "La música deleitó a todos.", "literal": "The music delighted [to] everyone."}]},
-    {"id": "es_me_038", "levels": [{"front": "smile", "back": "sonreír"}, {"front": "She always smiles.", "back": "Ella siempre sonríe."}]},
-    {"id": "es_me_039", "levels": [{"front": "laugh", "back": "reír"}, {"front": "We laughed a lot.", "back": "Nos reímos mucho.", "literal": "[We] ourselves-laughed much."}]},
-    {"id": "es_me_040", "levels": [{"front": "cry / weep / mourn", "back": "llorar"}, {"front": "The baby is crying.", "back": "El bebé está llorando."}]},
-    {"id": "es_me_041", "levels": [{"front": "sigh", "back": "suspirar"}, {"front": "She sighed with relief.", "back": "Ella suspiró de alivio.", "literal": "She sighed of relief."}]},
-    {"id": "es_me_042", "levels": [{"front": "frown", "back": "fruncir el ceño"}, {"front": "He frowned when he heard the news.", "back": "Frunció el ceño cuando escuchó la noticia.", "literal": "[He/She] furrowed the brow when [he/she] heard the news."}]},
-    {"id": "es_me_043", "levels": [{"front": "scream / shout", "back": "gritar"}, {"front": "Don't shout, please.", "back": "No grites, por favor.", "literal": "Not [you] shout [command], please."}]},
-    {"id": "es_me_044", "levels": [{"front": "relax", "back": "relajarse"}, {"front": "Relax, there's no rush.", "back": "Relájate, no hay prisa.", "literal": "Relax-yourself [command], not there-is rush."}]},
-    {"id": "es_me_045", "levels": [{"front": "angry", "back": "enojado", "grammarNote": "Adverb form: enojadamente (angrily). Use the feminine: enojada + mente → enojadamente. E.g., 'Respondió enojadamente.' (She answered angrily.)"}, {"front": "I'm angry with you.", "back": "Estoy enojado contigo.", "literal": "[I] am angry with-you."}]},
-    {"id": "es_me_046", "levels": [{"front": "mad", "back": "enfadado"}, {"front": "Why are you so mad?", "back": "¿Por qué estás tan enfadado?", "literal": "Why [you] are so mad?"}]},
-    {"id": "es_me_047", "levels": [{"front": "afraid / scared", "back": "asustado"}, {"front": "The child was scared.", "back": "El niño estaba asustado."}]},
-    {"id": "es_me_048", "levels": [{"front": "anxious", "back": "ansioso", "grammarNote": "Adverb form: ansiosamente (anxiously). Feminine: ansiosa + mente → ansiosamente. E.g., 'Esperaba ansiosamente.' (She was waiting anxiously.)"}, {"front": "I'm anxious about the exam.", "back": "Estoy ansioso por el examen.", "literal": "[I] am anxious for the exam."}]},
-    {"id": "es_me_049", "levels": [{"front": "nervous", "back": "nervioso", "grammarNote": "Adverb form: nerviosamente (nervously). Feminine: nerviosa + mente → nerviosamente. E.g., 'Habló nerviosamente.' (He spoke nervously.)"}, {"front": "I'm nervous today.", "back": "Estoy nervioso hoy.", "literal": "[I] am nervous today."}]},
-    {"id": "es_me_050", "levels": [{"front": "excited", "back": "emocionado", "grammarNote": "Adverb form: emocionadamente (excitedly). Feminine: emocionada + mente → emocionadamente. E.g., 'Gritó emocionadamente.' (She shouted excitedly.)"}, {"front": "I'm excited about the trip.", "back": "Estoy emocionado por el viaje.", "literal": "[I] am excited for the trip."}]},
-    {"id": "es_me_051", "levels": [{"front": "joyful / cheerful", "back": "alegre"}, {"front": "She is always cheerful.", "back": "Ella siempre está alegre.", "literal": "She always is cheerful."}]},
-    {"id": "es_me_052", "levels": [{"front": "proud", "back": "orgulloso", "grammarNote": "Adverb form: orgullosamente (proudly). Feminine: orgullosa + mente → orgullosamente. E.g., 'Sonrió orgullosamente.' (She smiled proudly.)"}, {"front": "I'm proud of you.", "back": "Estoy orgulloso de ti.", "literal": "[I] am proud of you."}]},
-    {"id": "es_me_053", "levels": [{"front": "content / contented", "back": "contento"}, {"front": "I'm content with my life.", "back": "Estoy contento con mi vida.", "literal": "[I] am content with my life."}]},
-    {"id": "es_me_054", "levels": [{"front": "calm", "back": "tranquilo", "grammarNote": "Adverb form: tranquilamente (calmly). Feminine: tranquila + mente → tranquilamente. E.g., 'Respondió tranquilamente.' (She answered calmly.)"}, {"front": "Stay calm, everything is fine.", "back": "Mantente tranquilo, todo está bien.", "literal": "Keep-yourself calm [command], everything is fine."}]},
-    {"id": "es_me_055", "levels": [{"front": "stressed", "back": "estresado"}, {"front": "I'm very stressed this week.", "back": "Estoy muy estresado esta semana.", "literal": "[I] am very stressed this week."}]},
-    {"id": "es_me_056", "levels": [{"front": "overwhelmed", "back": "abrumado"}, {"front": "I feel overwhelmed by the work.", "back": "Me siento abrumado por el trabajo.", "literal": "[I] myself-feel overwhelmed by the work."}]},
-    {"id": "es_me_057", "levels": [{"front": "energetic", "back": "energético"}, {"front": "She is very energetic.", "back": "Ella es muy energética."}]},
-    {"id": "es_me_058", "levels": [{"front": "tired", "back": "cansado", "grammarNote": "Adverb form: cansadamente (tiredly / wearily). Feminine: cansada + mente → cansadamente. E.g., 'Arrastró los pies cansadamente.' (He dragged his feet wearily.)"}, {"front": "I'm very tired today.", "back": "Estoy muy cansado hoy.", "literal": "[I] am very tired today."}]},
-    {"id": "es_me_059", "levels": [{"front": "exhausted", "back": "agotado"}, {"front": "I'm exhausted after the run.", "back": "Estoy agotado después de correr.", "literal": "[I] am exhausted after running."}]},
-    {"id": "es_me_060", "levels": [{"front": "curious", "back": "curioso"}, {"front": "I'm curious about that.", "back": "Estoy curioso por eso.", "literal": "[I] am curious about that."}]}
+    {
+      "id": "happy",
+      "levels": [
+        {
+          "front": "happy",
+          "back": "feliz",
+          "grammarNote": "Adverb form: felizmente (happily). Spanish adverbs are made by adding -mente to the feminine adjective. Feliz has no gender change: feliz + mente → felizmente. E.g., 'Ella sonrió felizmente.' (She smiled happily.)"
+        },
+        {
+          "front": "I'm very happy today.",
+          "back": "Estoy muy feliz hoy.",
+          "literal": "[I] am very happy today."
+        }
+      ]
+    },
+    {
+      "id": "sad",
+      "levels": [
+        {
+          "front": "sad",
+          "back": "triste",
+          "grammarNote": "Adverb form: tristemente (sadly). Triste has no gender change: triste + mente → tristemente. E.g., 'Habló tristemente.' (He spoke sadly.)"
+        },
+        {
+          "front": "Why are you sad?",
+          "back": "¿Por qué estás triste?",
+          "literal": "Why [you] are sad?"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "levels": [
+        {
+          "front": "love",
+          "back": "amor"
+        },
+        {
+          "front": "I feel a lot of love for my family.",
+          "back": "Siento mucho amor por mi familia.",
+          "literal": "[I] feel much love for my family."
+        }
+      ]
+    },
+    {
+      "id": "anger",
+      "levels": [
+        {
+          "front": "anger",
+          "back": "ira"
+        },
+        {
+          "front": "I felt anger when they lied to me.",
+          "back": "Sentí ira cuando me mintieron.",
+          "literal": "[I] felt anger when to-me they-lied."
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "levels": [
+        {
+          "front": "fear",
+          "back": "miedo"
+        },
+        {
+          "front": "I'm afraid of the dark.",
+          "back": "Tengo miedo de la oscuridad.",
+          "literal": "[I] have fear of the darkness."
+        }
+      ]
+    },
+    {
+      "id": "hope",
+      "levels": [
+        {
+          "front": "hope",
+          "back": "esperanza"
+        },
+        {
+          "front": "I have hope for the future.",
+          "back": "Tengo esperanza en el futuro.",
+          "literal": "[I] have hope in the future."
+        }
+      ]
+    },
+    {
+      "id": "stress",
+      "levels": [
+        {
+          "front": "stress",
+          "back": "estrés"
+        },
+        {
+          "front": "I have a lot of stress at work.",
+          "back": "Tengo mucho estrés en el trabajo.",
+          "literal": "[I] have much stress in the work."
+        }
+      ]
+    },
+    {
+      "id": "mood",
+      "levels": [
+        {
+          "front": "mood",
+          "back": "estado de ánimo"
+        },
+        {
+          "front": "I'm in a good mood today.",
+          "back": "Hoy estoy de buen estado de ánimo.",
+          "literal": "Today [I] am in [a] good mood."
+        }
+      ]
+    },
+    {
+      "id": "feeling",
+      "levels": [
+        {
+          "front": "feeling",
+          "back": "sentimiento"
+        },
+        {
+          "front": "That feeling is normal.",
+          "back": "Ese sentimiento es normal."
+        }
+      ]
+    },
+    {
+      "id": "emotion_excitement",
+      "levels": [
+        {
+          "front": "emotion / excitement",
+          "back": "emoción"
+        },
+        {
+          "front": "I couldn't hide my emotion.",
+          "back": "No pude ocultar mi emoción.",
+          "literal": "Not [I] could hide my emotion."
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "levels": [
+        {
+          "front": "calm",
+          "back": "calma"
+        },
+        {
+          "front": "Try to maintain your calm.",
+          "back": "Intenta mantener la calma.",
+          "literal": "[You] try to maintain the calm."
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "levels": [
+        {
+          "front": "peace",
+          "back": "paz"
+        },
+        {
+          "front": "I need peace and quiet.",
+          "back": "Necesito paz y tranquilidad.",
+          "literal": "[I] need peace and quiet."
+        }
+      ]
+    },
+    {
+      "id": "worry",
+      "levels": [
+        {
+          "front": "worry",
+          "back": "preocupación"
+        },
+        {
+          "front": "Don't let worry stop you.",
+          "back": "No dejes que la preocupación te detenga.",
+          "literal": "Not [you] let that the worry you stops."
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "levels": [
+        {
+          "front": "surprise",
+          "back": "sorpresa"
+        },
+        {
+          "front": "What a surprise!",
+          "back": "¡Qué sorpresa!"
+        }
+      ]
+    },
+    {
+      "id": "passion",
+      "levels": [
+        {
+          "front": "passion",
+          "back": "pasión"
+        },
+        {
+          "front": "She teaches with passion.",
+          "back": "Ella enseña con pasión."
+        }
+      ]
+    },
+    {
+      "id": "desire",
+      "levels": [
+        {
+          "front": "desire",
+          "back": "deseo"
+        },
+        {
+          "front": "I have a strong desire to travel.",
+          "back": "Tengo un gran deseo de viajar.",
+          "literal": "[I] have a great desire to travel."
+        }
+      ]
+    },
+    {
+      "id": "hate",
+      "levels": [
+        {
+          "front": "hate",
+          "back": "odio"
+        },
+        {
+          "front": "Hate is a strong feeling.",
+          "back": "El odio es un sentimiento fuerte.",
+          "literal": "The hate is a feeling strong."
+        }
+      ]
+    },
+    {
+      "id": "pleasure",
+      "levels": [
+        {
+          "front": "pleasure",
+          "back": "placer"
+        },
+        {
+          "front": "It's a pleasure to meet you.",
+          "back": "Es un placer conocerte.",
+          "literal": "[It] is a pleasure to-meet-you."
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "levels": [
+        {
+          "front": "pain",
+          "back": "dolor"
+        },
+        {
+          "front": "I feel pain in my leg.",
+          "back": "Siento dolor en la pierna.",
+          "literal": "[I] feel pain in the leg."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "levels": [
+        {
+          "front": "energy",
+          "back": "energía"
+        },
+        {
+          "front": "I have a lot of energy today.",
+          "back": "Hoy tengo mucha energía.",
+          "literal": "Today [I] have much energy."
+        }
+      ]
+    },
+    {
+      "id": "relief",
+      "levels": [
+        {
+          "front": "relief",
+          "back": "alivio"
+        },
+        {
+          "front": "What a relief!",
+          "back": "¡Qué alivio!"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "levels": [
+        {
+          "front": "comfort",
+          "back": "consuelo"
+        },
+        {
+          "front": "Her words were a comfort.",
+          "back": "Sus palabras fueron un consuelo.",
+          "literal": "Her/His words were a comfort."
+        }
+      ]
+    },
+    {
+      "id": "feel_to_feel",
+      "levels": [
+        {
+          "front": "feel (to feel)",
+          "back": "sentir",
+          "grammarNote": "Sentir = to feel/perceive something. Sentirse (reflexive) = to feel a certain way. 'Me siento bien' (I feel good) vs 'Siento dolor' (I feel pain)."
+        },
+        {
+          "front": "I feel good today.",
+          "back": "Me siento bien hoy.",
+          "literal": "[I] myself-feel good today."
+        }
+      ]
+    },
+    {
+      "id": "love_to_love",
+      "levels": [
+        {
+          "front": "love (to love)",
+          "back": "amar"
+        },
+        {
+          "front": "I love you very much.",
+          "back": "Te amo mucho.",
+          "literal": "To-you [I] love much."
+        }
+      ]
+    },
+    {
+      "id": "hate_to_hate",
+      "levels": [
+        {
+          "front": "hate (to hate)",
+          "back": "odiar"
+        },
+        {
+          "front": "I hate waiting.",
+          "back": "Odio esperar.",
+          "literal": "[I] hate to-wait."
+        }
+      ]
+    },
+    {
+      "id": "like_to_like",
+      "levels": [
+        {
+          "front": "like (to like)",
+          "back": "gustar"
+        },
+        {
+          "front": "I like music.",
+          "back": "Me gusta la música.",
+          "literal": "To-me pleases the music."
+        }
+      ]
+    },
+    {
+      "id": "enjoy",
+      "levels": [
+        {
+          "front": "enjoy",
+          "back": "disfrutar"
+        },
+        {
+          "front": "I enjoy the weekend.",
+          "back": "Disfruto el fin de semana.",
+          "literal": "[I] enjoy the weekend."
+        }
+      ]
+    },
+    {
+      "id": "fear_dread_to_fear",
+      "levels": [
+        {
+          "front": "fear / dread (to fear)",
+          "back": "temer"
+        },
+        {
+          "front": "I fear the worst.",
+          "back": "Temo lo peor.",
+          "literal": "[I] fear the worst."
+        }
+      ]
+    },
+    {
+      "id": "hope_to_hope",
+      "levels": [
+        {
+          "front": "hope (to hope)",
+          "back": "esperar"
+        },
+        {
+          "front": "I hope everything goes well.",
+          "back": "Espero que todo salga bien.",
+          "literal": "[I] hope that everything goes well."
+        }
+      ]
+    },
+    {
+      "id": "worry_to_worry",
+      "levels": [
+        {
+          "front": "worry (to worry)",
+          "back": "preocuparse"
+        },
+        {
+          "front": "Don't worry about it.",
+          "back": "No te preocupes por eso.",
+          "literal": "Not yourself-worry [command] for that."
+        }
+      ]
+    },
+    {
+      "id": "calm_soothe_to_calm",
+      "levels": [
+        {
+          "front": "calm / soothe (to calm)",
+          "back": "calmar"
+        },
+        {
+          "front": "Calm down, please.",
+          "back": "Cálmate, por favor.",
+          "literal": "Calm-yourself [command], please."
+        }
+      ]
+    },
+    {
+      "id": "comfort_to_comfort",
+      "levels": [
+        {
+          "front": "comfort (to comfort)",
+          "back": "consolar"
+        },
+        {
+          "front": "She comforted her friend.",
+          "back": "Ella consoló a su amiga.",
+          "literal": "She comforted [to] her friend."
+        }
+      ]
+    },
+    {
+      "id": "excite_thrill",
+      "levels": [
+        {
+          "front": "excite / thrill",
+          "back": "emocionar"
+        },
+        {
+          "front": "The trip excites me.",
+          "back": "El viaje me emociona.",
+          "literal": "The trip to-me excites."
+        }
+      ]
+    },
+    {
+      "id": "annoy",
+      "levels": [
+        {
+          "front": "annoy",
+          "back": "molestar"
+        },
+        {
+          "front": "That noise annoys me.",
+          "back": "Ese ruido me molesta.",
+          "literal": "That noise to-me bothers."
+        }
+      ]
+    },
+    {
+      "id": "irritate",
+      "levels": [
+        {
+          "front": "irritate",
+          "back": "irritar"
+        },
+        {
+          "front": "Waiting irritates me.",
+          "back": "Esperar me irrita.",
+          "literal": "To-wait to-me irritates."
+        }
+      ]
+    },
+    {
+      "id": "anger_to_anger",
+      "levels": [
+        {
+          "front": "anger (to anger)",
+          "back": "enojar"
+        },
+        {
+          "front": "That comment angered me.",
+          "back": "Ese comentario me enojó.",
+          "literal": "That comment to-me angered."
+        }
+      ]
+    },
+    {
+      "id": "delight",
+      "levels": [
+        {
+          "front": "delight",
+          "back": "deleitar"
+        },
+        {
+          "front": "The music delighted everyone.",
+          "back": "La música deleitó a todos.",
+          "literal": "The music delighted [to] everyone."
+        }
+      ]
+    },
+    {
+      "id": "smile",
+      "levels": [
+        {
+          "front": "smile",
+          "back": "sonreír"
+        },
+        {
+          "front": "She always smiles.",
+          "back": "Ella siempre sonríe."
+        }
+      ]
+    },
+    {
+      "id": "laugh",
+      "levels": [
+        {
+          "front": "laugh",
+          "back": "reír"
+        },
+        {
+          "front": "We laughed a lot.",
+          "back": "Nos reímos mucho.",
+          "literal": "[We] ourselves-laughed much."
+        }
+      ]
+    },
+    {
+      "id": "cry_weep_mourn",
+      "levels": [
+        {
+          "front": "cry / weep / mourn",
+          "back": "llorar"
+        },
+        {
+          "front": "The baby is crying.",
+          "back": "El bebé está llorando."
+        }
+      ]
+    },
+    {
+      "id": "sigh",
+      "levels": [
+        {
+          "front": "sigh",
+          "back": "suspirar"
+        },
+        {
+          "front": "She sighed with relief.",
+          "back": "Ella suspiró de alivio.",
+          "literal": "She sighed of relief."
+        }
+      ]
+    },
+    {
+      "id": "frown",
+      "levels": [
+        {
+          "front": "frown",
+          "back": "fruncir el ceño"
+        },
+        {
+          "front": "He frowned when he heard the news.",
+          "back": "Frunció el ceño cuando escuchó la noticia.",
+          "literal": "[He/She] furrowed the brow when [he/she] heard the news."
+        }
+      ]
+    },
+    {
+      "id": "scream_shout",
+      "levels": [
+        {
+          "front": "scream / shout",
+          "back": "gritar"
+        },
+        {
+          "front": "Don't shout, please.",
+          "back": "No grites, por favor.",
+          "literal": "Not [you] shout [command], please."
+        }
+      ]
+    },
+    {
+      "id": "relax",
+      "levels": [
+        {
+          "front": "relax",
+          "back": "relajarse"
+        },
+        {
+          "front": "Relax, there's no rush.",
+          "back": "Relájate, no hay prisa.",
+          "literal": "Relax-yourself [command], not there-is rush."
+        }
+      ]
+    },
+    {
+      "id": "angry",
+      "levels": [
+        {
+          "front": "angry",
+          "back": "enojado",
+          "grammarNote": "Adverb form: enojadamente (angrily). Use the feminine: enojada + mente → enojadamente. E.g., 'Respondió enojadamente.' (She answered angrily.)"
+        },
+        {
+          "front": "I'm angry with you.",
+          "back": "Estoy enojado contigo.",
+          "literal": "[I] am angry with-you."
+        }
+      ]
+    },
+    {
+      "id": "mad",
+      "levels": [
+        {
+          "front": "mad",
+          "back": "enfadado"
+        },
+        {
+          "front": "Why are you so mad?",
+          "back": "¿Por qué estás tan enfadado?",
+          "literal": "Why [you] are so mad?"
+        }
+      ]
+    },
+    {
+      "id": "afraid_scared",
+      "levels": [
+        {
+          "front": "afraid / scared",
+          "back": "asustado"
+        },
+        {
+          "front": "The child was scared.",
+          "back": "El niño estaba asustado."
+        }
+      ]
+    },
+    {
+      "id": "anxious",
+      "levels": [
+        {
+          "front": "anxious",
+          "back": "ansioso",
+          "grammarNote": "Adverb form: ansiosamente (anxiously). Feminine: ansiosa + mente → ansiosamente. E.g., 'Esperaba ansiosamente.' (She was waiting anxiously.)"
+        },
+        {
+          "front": "I'm anxious about the exam.",
+          "back": "Estoy ansioso por el examen.",
+          "literal": "[I] am anxious for the exam."
+        }
+      ]
+    },
+    {
+      "id": "nervous",
+      "levels": [
+        {
+          "front": "nervous",
+          "back": "nervioso",
+          "grammarNote": "Adverb form: nerviosamente (nervously). Feminine: nerviosa + mente → nerviosamente. E.g., 'Habló nerviosamente.' (He spoke nervously.)"
+        },
+        {
+          "front": "I'm nervous today.",
+          "back": "Estoy nervioso hoy.",
+          "literal": "[I] am nervous today."
+        }
+      ]
+    },
+    {
+      "id": "excited",
+      "levels": [
+        {
+          "front": "excited",
+          "back": "emocionado",
+          "grammarNote": "Adverb form: emocionadamente (excitedly). Feminine: emocionada + mente → emocionadamente. E.g., 'Gritó emocionadamente.' (She shouted excitedly.)"
+        },
+        {
+          "front": "I'm excited about the trip.",
+          "back": "Estoy emocionado por el viaje.",
+          "literal": "[I] am excited for the trip."
+        }
+      ]
+    },
+    {
+      "id": "joyful_cheerful",
+      "levels": [
+        {
+          "front": "joyful / cheerful",
+          "back": "alegre"
+        },
+        {
+          "front": "She is always cheerful.",
+          "back": "Ella siempre está alegre.",
+          "literal": "She always is cheerful."
+        }
+      ]
+    },
+    {
+      "id": "proud",
+      "levels": [
+        {
+          "front": "proud",
+          "back": "orgulloso",
+          "grammarNote": "Adverb form: orgullosamente (proudly). Feminine: orgullosa + mente → orgullosamente. E.g., 'Sonrió orgullosamente.' (She smiled proudly.)"
+        },
+        {
+          "front": "I'm proud of you.",
+          "back": "Estoy orgulloso de ti.",
+          "literal": "[I] am proud of you."
+        }
+      ]
+    },
+    {
+      "id": "content_contented",
+      "levels": [
+        {
+          "front": "content / contented",
+          "back": "contento"
+        },
+        {
+          "front": "I'm content with my life.",
+          "back": "Estoy contento con mi vida.",
+          "literal": "[I] am content with my life."
+        }
+      ]
+    },
+    {
+      "id": "calm_2",
+      "levels": [
+        {
+          "front": "calm",
+          "back": "tranquilo",
+          "grammarNote": "Adverb form: tranquilamente (calmly). Feminine: tranquila + mente → tranquilamente. E.g., 'Respondió tranquilamente.' (She answered calmly.)"
+        },
+        {
+          "front": "Stay calm, everything is fine.",
+          "back": "Mantente tranquilo, todo está bien.",
+          "literal": "Keep-yourself calm [command], everything is fine."
+        }
+      ]
+    },
+    {
+      "id": "stressed",
+      "levels": [
+        {
+          "front": "stressed",
+          "back": "estresado"
+        },
+        {
+          "front": "I'm very stressed this week.",
+          "back": "Estoy muy estresado esta semana.",
+          "literal": "[I] am very stressed this week."
+        }
+      ]
+    },
+    {
+      "id": "overwhelmed",
+      "levels": [
+        {
+          "front": "overwhelmed",
+          "back": "abrumado"
+        },
+        {
+          "front": "I feel overwhelmed by the work.",
+          "back": "Me siento abrumado por el trabajo.",
+          "literal": "[I] myself-feel overwhelmed by the work."
+        }
+      ]
+    },
+    {
+      "id": "energetic",
+      "levels": [
+        {
+          "front": "energetic",
+          "back": "energético"
+        },
+        {
+          "front": "She is very energetic.",
+          "back": "Ella es muy energética."
+        }
+      ]
+    },
+    {
+      "id": "tired",
+      "levels": [
+        {
+          "front": "tired",
+          "back": "cansado",
+          "grammarNote": "Adverb form: cansadamente (tiredly / wearily). Feminine: cansada + mente → cansadamente. E.g., 'Arrastró los pies cansadamente.' (He dragged his feet wearily.)"
+        },
+        {
+          "front": "I'm very tired today.",
+          "back": "Estoy muy cansado hoy.",
+          "literal": "[I] am very tired today."
+        }
+      ]
+    },
+    {
+      "id": "exhausted",
+      "levels": [
+        {
+          "front": "exhausted",
+          "back": "agotado"
+        },
+        {
+          "front": "I'm exhausted after the run.",
+          "back": "Estoy agotado después de correr.",
+          "literal": "[I] am exhausted after running."
+        }
+      ]
+    },
+    {
+      "id": "curious",
+      "levels": [
+        {
+          "front": "curious",
+          "back": "curioso"
+        },
+        {
+          "front": "I'm curious about that.",
+          "back": "Estoy curioso por eso.",
+          "literal": "[I] am curious about that."
+        }
+      ]
+    }
+  ],
+  "grammarLessons": [
+    {
+      "id": "estar_emotions",
+      "name": "Estar + Emotions"
+    }
   ]
 }

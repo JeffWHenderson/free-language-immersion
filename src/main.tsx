@@ -14,6 +14,9 @@ const SRSStoryReader = lazy(() => import('./pages/SRSStoryReader'));
 const SRSStoryList = lazy(() => import('./pages/SRSStoryList'));
 const SRSPictureList = lazy(() => import('./pages/SRSPictureList'));
 const SRSBrowse = lazy(() => import('./pages/SRSBrowse'));
+const GrammarList = lazy(() => import('./pages/GrammarList'));
+const GrammarLesson = lazy(() => import('./pages/GrammarLesson'));
+const GrammarReview = lazy(() => import('./pages/GrammarReview'));
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -31,8 +34,10 @@ createRoot(document.getElementById('root')!).render(
               <Route path=":language/:deckId" element={<SRSReview />} />
               <Route path=":language/:deckId/browse" element={<SRSBrowse />} />
               <Route path=":language/:deckId/story/:storyId" element={<SRSStoryReader />} />
+              <Route path=":language/:deckId/grammar" element={<GrammarList />} />
+              <Route path=":language/:deckId/grammar/:grammarId" element={<GrammarLesson />} />
+              <Route path=":language/:deckId/grammar/:grammarId/review" element={<GrammarReview />} />
             </Route>
-            {/* <Route path="*" element={<NoPage />} /> */}
           </Routes>
         </Suspense>
       </ThemeProvider>
@@ -47,7 +52,7 @@ createRoot(document.getElementById('root')!).render(
 // <Route path=":language/wordlist/:section/:lessonId" element={<WordList />} />
 // <Route path=":language/view-lesson/:lessonId" element={<ViewLesson />} />
 // <Route path=":language/my-decks" element={<MyDecks />} />
-// <Route path=":language/my-decks/:section/:lessonId" element={<FlashCardsV2 />} /> 
+// <Route path=":language/my-decks/:section/:lessonId" element={<FlashCardsV2 />} />
 
 // const FlashCardsV2 = lazy(() => import('./pages/flashcards/FlashCardsV2'));
 // const WordList = lazy(() => import('./pages/wordlist/WordList'));

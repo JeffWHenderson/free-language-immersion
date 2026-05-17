@@ -3,12 +3,18 @@ import { useParams, useNavigate } from "react-router-dom";
 import { loadDeckState, getDeckSummary } from "../useSRSStorage";
 import "../srs.css";
 
+interface GrammarLessonMeta {
+    id: string;
+    name: string;
+}
+
 interface DeckMeta {
     id: string;
     name: string;
     language: string;
     stories?: string[];
     pictureLessons?: string[];
+    grammarLessons?: GrammarLessonMeta[];
     cards: { id: string; hidden?: boolean; levels: unknown[] }[];
 }
 
@@ -31,7 +37,7 @@ const SRSHome = () => {
         Promise.all(
             AVAILABLE_DECKS.map((deckId) =>
                 fetch(`/languages/${language}/${deckId}.json`)
-                    .then((r) => r.json())
+                    .then((r) => r.json() as Promise<DeckMeta>)
                     .catch(() => null)
             )
         ).then((results) => {
@@ -93,6 +99,14 @@ const SRSHome = () => {
                                         onClick={() => navigate(`/${language}/stories?deck=${deck.id}`)}
                                     >
                                         Stories
+                                    </button>
+                                )}
+                                {deck.grammarLessons && deck.grammarLessons.length > 0 && (
+                                    <button
+                                        className="srs-btn-grammar"
+                                        onClick={() => navigate(`/${language}/${deck.id}/grammar`)}
+                                    >
+                                        Grammar
                                     </button>
                                 )}
                             </div>

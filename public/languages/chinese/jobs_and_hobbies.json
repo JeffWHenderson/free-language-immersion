@@ -2,83 +2,1210 @@
   "id": "jobs_and_hobbies",
   "name": "Jobs & Hobbies",
   "language": "chinese",
-  "stories": ["at_work", "weekend_hobbies", "job_interview"],
-  "pictureLessons": ["jobsAndHobbies", "jobsAndHobbies2"],
+  "stories": [
+    "at_work",
+    "weekend_hobbies",
+    "job_interview"
+  ],
+  "pictureLessons": [
+    "jobsAndHobbies",
+    "jobsAndHobbies2"
+  ],
   "cards": [
-    {"id": "zh_jh_001", "levels": [{"front": "Doctor", "back": "医生", "romanized": "yīshēng"}, {"front": "He is a doctor.", "back": "他是医生。", "romanized": "tā shì yīshēng.", "literal": "He is doctor."}]},
-    {"id": "zh_jh_002", "levels": [{"front": "Nurse", "back": "护士", "romanized": "hùshi"}, {"front": "She works as a nurse.", "back": "她是一名护士。", "romanized": "tā shì yī míng hùshi.", "literal": "She is one [measure] nurse."}]},
-    {"id": "zh_jh_003", "levels": [{"front": "Engineer", "back": "工程师", "romanized": "gōngchéngshī"}, {"front": "My brother is an engineer.", "back": "我哥哥是工程师。", "romanized": "wǒ gēgē shì gōngchéngshī.", "literal": "My older-brother is engineer."}]},
-    {"id": "zh_jh_004", "levels": [{"front": "Programmer", "back": "程序员", "romanized": "chéngxùyuán"}, {"front": "She is a programmer.", "back": "她是一名程序员。", "romanized": "tā shì yī míng chéngxùyuán.", "literal": "She is one [measure] programmer."}]},
-    {"id": "zh_jh_005", "levels": [{"front": "Cook", "back": "厨师", "romanized": "chúshī"}, {"front": "The cook made a delicious meal.", "back": "厨师做了一顿美味的饭。", "romanized": "chúshī zuò le yī dùn měiwèi de fàn.", "literal": "Cook made [completed] one [measure] delicious meal."}]},
-    {"id": "zh_jh_006", "levels": [{"front": "Waiter (Waitress)", "back": "服务员", "romanized": "fúwùyuán"}, {"front": "The waiter brought the menu.", "back": "服务员拿来了菜单。", "romanized": "fúwùyuán ná lái le càidān.", "literal": "Waiter brought [completed] menu."}]},
-    {"id": "zh_jh_007", "levels": [{"front": "Manager", "back": "经理", "romanized": "jīnglǐ"}, {"front": "She is a good manager.", "back": "她是一位好经理。", "romanized": "tā shì yī wèi hǎo jīnglǐ.", "literal": "She is one [measure] good manager."}]},
-    {"id": "zh_jh_008", "levels": [{"front": "Student", "back": "学生", "romanized": "xuésheng"}, {"front": "He is a university student.", "back": "他是一名大学生。", "romanized": "tā shì yī míng dàxuéshēng.", "literal": "He is one [measure] university-student."}]},
-    {"id": "zh_jh_009", "levels": [{"front": "Architect", "back": "建筑师", "romanized": "jiànzhùshī"}, {"front": "The architect designed the building.", "back": "建筑师设计了这栋楼。", "romanized": "jiànzhùshī shèjì le zhè dòng lóu.", "literal": "Architect designed [completed] this [measure] building."}]},
-    {"id": "zh_jh_010", "levels": [{"front": "Lawyer", "back": "律师", "romanized": "lǜshī"}, {"front": "She hired a lawyer.", "back": "她请了一位律师。", "romanized": "tā qǐng le yī wèi lǜshī.", "literal": "She hired [completed] one [measure] lawyer."}]},
-    {"id": "zh_jh_011", "levels": [{"front": "Retired Person", "back": "退休人员", "romanized": "tuìxiū rényuán"}, {"front": "He is a retired person now.", "back": "他现在是退休人员了。", "romanized": "tā xiànzài shì tuìxiū rényuán le.", "literal": "He now is retired-person [now]."}]},
-    {"id": "zh_jh_012", "levels": [{"front": "Reading", "back": "阅读", "romanized": "yuèdú"}, {"front": "I enjoy reading in the evening.", "back": "我喜欢在晚上阅读。", "romanized": "wǒ xǐhuān zài wǎnshàng yuèdú.", "literal": "I like in evening read."}]},
-    {"id": "zh_jh_013", "levels": [{"front": "Writing", "back": "写作", "romanized": "xiězuò"}, {"front": "She is good at writing.", "back": "她很擅长写作。", "romanized": "tā hěn shàncháng xiězuò.", "literal": "She very good-at writing."}]},
-    {"id": "zh_jh_014", "levels": [{"front": "Painting", "back": "绘画", "romanized": "huìhuà"}, {"front": "Painting is my favorite hobby.", "back": "绘画是我最喜欢的爱好。", "romanized": "huìhuà shì wǒ zuì xǐhuān de àihào.", "literal": "Painting is my most-liked hobby."}]},
-    {"id": "zh_jh_015", "levels": [{"front": "Drawing", "back": "素描", "romanized": "sùmiáo"}, {"front": "He likes drawing animals.", "back": "他喜欢素描动物。", "romanized": "tā xǐhuān sùmiáo dòngwù."}]},
-    {"id": "zh_jh_016", "levels": [{"front": "Photography", "back": "摄影", "romanized": "shèyǐng"}, {"front": "She has a talent for photography.", "back": "她有摄影天赋。", "romanized": "tā yǒu shèyǐng tiānfù.", "literal": "She has photography talent."}]},
-    {"id": "zh_jh_017", "levels": [{"front": "Music", "back": "音乐", "romanized": "yīnyuè"}, {"front": "Music makes me happy.", "back": "音乐让我开心。", "romanized": "yīnyuè ràng wǒ kāixīn."}]},
-    {"id": "zh_jh_018", "levels": [{"front": "Singing", "back": "唱歌", "romanized": "chànggē"}, {"front": "She loves singing.", "back": "她热爱唱歌。", "romanized": "tā rè'ài chànggē."}]},
-    {"id": "zh_jh_019", "levels": [{"front": "Playing an instrument", "back": "演奏乐器", "romanized": "yǎnzòu yuèqì"}, {"front": "He has been playing an instrument since he was young.", "back": "他从小就在演奏乐器。", "romanized": "tā cóngxiǎo jiù zài yǎnzòu yuèqì.", "literal": "He from-young already is playing instrument."}]},
-    {"id": "zh_jh_020", "levels": [{"front": "Dancing", "back": "跳舞", "romanized": "tiàowǔ"}, {"front": "She takes dancing classes.", "back": "她上舞蹈课。", "romanized": "tā shàng wǔdào kè.", "literal": "She attends dance class."}]},
-    {"id": "zh_jh_021", "levels": [{"front": "Cooking", "back": "烹饪", "romanized": "pēngrèn"}, {"front": "Cooking for my family makes me happy.", "back": "为家人烹饪让我很开心。", "romanized": "wèi jiārén pēngrèn ràng wǒ hěn kāixīn.", "literal": "For family cook makes me very happy."}]},
-    {"id": "zh_jh_022", "levels": [{"front": "Gardening", "back": "园艺", "romanized": "yuányì"}, {"front": "Gardening is very relaxing.", "back": "园艺让人很放松。", "romanized": "yuányì ràng rén hěn fàngsōng.", "literal": "Gardening makes people very relaxed."}]},
-    {"id": "zh_jh_023", "levels": [{"front": "Hiking", "back": "徒步旅行", "romanized": "túbù lǚxíng"}, {"front": "We went hiking last weekend.", "back": "上周末我们去徒步了。", "romanized": "shàng zhōumò wǒmen qù túbù le.", "literal": "Last weekend we went hiking [completed]."}]},
-    {"id": "zh_jh_024", "levels": [{"front": "Running", "back": "跑步", "romanized": "pǎobù"}, {"front": "I go running every morning.", "back": "我每天早上跑步。", "romanized": "wǒ měitiān zǎoshàng pǎobù.", "literal": "I every-day morning run."}]},
-    {"id": "zh_jh_025", "levels": [{"front": "Jogging", "back": "慢跑", "romanized": "màn pǎo"}, {"front": "He jogs in the park.", "back": "他在公园慢跑。", "romanized": "tā zài gōngyuán màn pǎo.", "literal": "He in park jog."}]},
-    {"id": "zh_jh_026", "levels": [{"front": "Biking", "back": "骑自行车", "romanized": "qí zìxíngchē"}, {"front": "I go biking on weekends.", "back": "我周末骑自行车。", "romanized": "wǒ zhōumò qí zìxíngchē.", "literal": "I weekend ride bicycle."}]},
-    {"id": "zh_jh_027", "levels": [{"front": "Swimming", "back": "游泳", "romanized": "yóuyǒng"}, {"front": "She swims every day.", "back": "她每天游泳。", "romanized": "tā měitiān yóuyǒng.", "literal": "She every-day swim."}]},
-    {"id": "zh_jh_028", "levels": [{"front": "Yoga", "back": "瑜伽", "romanized": "yújiā"}, {"front": "She does yoga in the morning.", "back": "她早上练瑜伽。", "romanized": "tā zǎoshàng liàn yújiā.", "literal": "She morning practice yoga."}]},
-    {"id": "zh_jh_029", "levels": [{"front": "Exercise", "back": "健身", "romanized": "jiànshēn"}, {"front": "I exercise three times a week.", "back": "我一周锻炼三次。", "romanized": "wǒ yī zhōu jiànshēn sān cì.", "literal": "I one-week exercise three times."}]},
-    {"id": "zh_jh_030", "levels": [{"front": "Traveling", "back": "旅行", "romanized": "lǚxíng"}, {"front": "I love traveling to new places.", "back": "我喜欢去新地方旅行。", "romanized": "wǒ xǐhuān qù xīn dìfāng lǚxíng.", "literal": "I like go new place travel."}]},
-    {"id": "zh_jh_031", "levels": [{"front": "Camping", "back": "露营", "romanized": "lùyíng"}, {"front": "We went camping in the mountains.", "back": "我们去山里露营了。", "romanized": "wǒmen qù shān lǐ lùyíng le.", "literal": "We went mountain-in camp [completed]."}]},
-    {"id": "zh_jh_032", "levels": [{"front": "Gaming (Video games)", "back": "玩电子游戏", "romanized": "wán diànzǐ yóuxì"}, {"front": "He spends hours gaming.", "back": "他花很多时间玩电子游戏。", "romanized": "tā huā hěnduō shíjiān wán diànzǐ yóuxì.", "literal": "He spends very-much time play video-games."}]},
-    {"id": "zh_jh_033", "levels": [{"front": "Watching TV / movies", "back": "看电影", "romanized": "kàn diànyǐng"}, {"front": "She enjoys watching movies at home.", "back": "她喜欢在家看电影。", "romanized": "tā xǐhuān zài jiā kàn diànyǐng.", "literal": "She likes in home watch movies."}]},
-    {"id": "zh_jh_034", "levels": [{"front": "Listening to music", "back": "听音乐", "romanized": "tīng yīnyuè"}, {"front": "I listen to music while I work.", "back": "我工作时听音乐。", "romanized": "wǒ gōngzuò shí tīng yīnyuè.", "literal": "I work-time listen music."}]},
-    {"id": "zh_jh_035", "levels": [{"front": "Crafts", "back": "手工艺", "romanized": "shǒugōngyì"}, {"front": "She makes crafts on weekends.", "back": "她周末做手工艺。", "romanized": "tā zhōumò zuò shǒugōngyì.", "literal": "She weekend make crafts."}]},
-    {"id": "zh_jh_036", "levels": [{"front": "Board games", "back": "桌游", "romanized": "zhuōyóu"}, {"front": "We play board games every Friday.", "back": "我们每周五玩桌游。", "romanized": "wǒmen měi zhōuwǔ wán zhuōyóu.", "literal": "We every-Friday play board-games."}]},
-    {"id": "zh_jh_037", "levels": [{"front": "To work", "back": "工作", "romanized": "gōngzuò"}, {"front": "I work from home.", "back": "我在家工作。", "romanized": "wǒ zài jiā gōngzuò.", "literal": "I in home work."}]},
-    {"id": "zh_jh_038", "levels": [{"front": "To earn (a salary)", "back": "赚钱", "romanized": "zhuànqián"}, {"front": "He earns a good salary.", "back": "他赚的薪水不错。", "romanized": "tā zhuàn de xīnshuǐ bùcuò.", "literal": "He earns-[de] salary not-bad."}]},
-    {"id": "zh_jh_039", "levels": [{"front": "To retire", "back": "退休", "romanized": "tuìxiū"}, {"front": "She plans to retire next year.", "back": "她计划明年退休。", "romanized": "tā jìhuà míngnián tuìxiū.", "literal": "She plans next-year retire."}]},
-    {"id": "zh_jh_040", "levels": [{"front": "To have a job", "back": "有工作", "romanized": "yǒu gōngzuò"}, {"front": "Do you have a job?", "back": "你有工作吗？", "romanized": "nǐ yǒu gōngzuò ma?", "literal": "You have job?"}]},
-    {"id": "zh_jh_041", "levels": [{"front": "To be unemployed", "back": "失业", "romanized": "shīyè"}, {"front": "He has been unemployed for three months.", "back": "他已经失业三个月了。", "romanized": "tā yǐjīng shīyè sān gè yuè le.", "literal": "He already unemployed three months [now]."}]},
-    {"id": "zh_jh_042", "levels": [{"front": "To study", "back": "学习", "romanized": "xuéxí"}, {"front": "She studies every night.", "back": "她每天晚上学习。", "romanized": "tā měitiān wǎnshàng xuéxí.", "literal": "She every-day evening study."}]},
-    {"id": "zh_jh_043", "levels": [{"front": "To learn", "back": "学", "romanized": "xué"}, {"front": "I want to learn Chinese.", "back": "我想学中文。", "romanized": "wǒ xiǎng xué zhōngwén.", "literal": "I want-to learn Chinese."}]},
-    {"id": "zh_jh_044", "levels": [{"front": "To practice", "back": "练习", "romanized": "liànxí"}, {"front": "You need to practice every day.", "back": "你需要每天练习。", "romanized": "nǐ xūyào měitiān liànxí.", "literal": "You need every-day practice."}]},
-    {"id": "zh_jh_045", "levels": [{"front": "To teach", "back": "教", "romanized": "jiāo"}, {"front": "She teaches mathematics.", "back": "她教数学。", "romanized": "tā jiāo shùxué."}]},
-    {"id": "zh_jh_046", "levels": [{"front": "To build", "back": "建造", "romanized": "jiànzào"}, {"front": "They are building a new school.", "back": "他们正在建造一所新学校。", "romanized": "tāmen zhèngzài jiànzào yī suǒ xīn xuéxiào.", "literal": "They currently building one [measure] new school."}]},
-    {"id": "zh_jh_047", "levels": [{"front": "To fix", "back": "修理", "romanized": "xiūlǐ"}, {"front": "Can you fix my phone?", "back": "你能修理我的手机吗？", "romanized": "nǐ néng xiūlǐ wǒ de shǒujī ma?", "literal": "You can fix my phone?"}]},
-    {"id": "zh_jh_048", "levels": [{"front": "To make", "back": "做 / 制作", "romanized": "zuò / zhìzuò"}, {"front": "She makes her own clothes.", "back": "她自己制作衣服。", "romanized": "tā zìjǐ zhìzuò yīfu.", "literal": "She herself makes clothes."}]},
-    {"id": "zh_jh_049", "levels": [{"front": "To design", "back": "设计", "romanized": "shèjì"}, {"front": "He designed the new logo.", "back": "他设计了新标志。", "romanized": "tā shèjì le xīn biāozhì.", "literal": "He designed [completed] new logo."}]},
-    {"id": "zh_jh_050", "levels": [{"front": "To sell", "back": "卖", "romanized": "mài"}, {"front": "She sells handmade jewelry.", "back": "她卖手工首饰。", "romanized": "tā mài shǒugōng shǒushì."}]},
-    {"id": "zh_jh_051", "levels": [{"front": "To buy", "back": "买", "romanized": "mǎi"}, {"front": "I need to buy a new computer.", "back": "我需要买一台新电脑。", "romanized": "wǒ xūyào mǎi yī tái xīn diànnǎo.", "literal": "I need buy one [measure] new computer."}]},
-    {"id": "zh_jh_052", "levels": [{"front": "To help", "back": "帮助", "romanized": "bāngzhù"}, {"front": "Can you help me?", "back": "你能帮我吗？", "romanized": "nǐ néng bāng wǒ ma?", "literal": "You can help me?"}]},
-    {"id": "zh_jh_053", "levels": [{"front": "To manage", "back": "管理", "romanized": "guǎnlǐ"}, {"front": "She manages a team of ten people.", "back": "她管理着一个十人团队。", "romanized": "tā guǎnlǐ zhe yīgè shí rén tuánduì.", "literal": "She is managing one [measure] ten-person team."}]},
-    {"id": "zh_jh_054", "levels": [{"front": "To meet", "back": "开会", "romanized": "kāihuì"}, {"front": "We have a meeting at three.", "back": "我们三点开会。", "romanized": "wǒmen sān diǎn kāihuì.", "literal": "We three o'clock meet."}]},
-    {"id": "zh_jh_055", "levels": [{"front": "To start", "back": "开始", "romanized": "kāishǐ"}, {"front": "We start work at nine.", "back": "我们九点开始工作。", "romanized": "wǒmen jiǔ diǎn kāishǐ gōngzuò.", "literal": "We nine o'clock start work."}]},
-    {"id": "zh_jh_056", "levels": [{"front": "To finish", "back": "完成", "romanized": "wánchéng"}, {"front": "I need to finish this project today.", "back": "我今天需要完成这个项目。", "romanized": "wǒ jīntiān xūyào wánchéng zhège xiàngmù.", "literal": "I today need finish this [measure] project."}]},
-    {"id": "zh_jh_057", "levels": [{"front": "To relax", "back": "放松", "romanized": "fàngsōng"}, {"front": "I relax by reading.", "back": "我通过阅读来放松。", "romanized": "wǒ tōngguò yuèdú lái fàngsōng.", "literal": "I through reading relax."}]},
-    {"id": "zh_jh_058", "levels": [{"front": "To spend time (on)", "back": "花时间", "romanized": "huā shíjiān"}, {"front": "She spends a lot of time on her hobby.", "back": "她在爱好上花很多时间。", "romanized": "tā zài àihào shàng huā hěnduō shíjiān.", "literal": "She on hobby spends very-much time."}]},
-    {"id": "zh_jh_059", "levels": [{"front": "Creative", "back": "有创意的", "romanized": "yǒu chuàngyì de"}, {"front": "She is very creative.", "back": "她很有创意。", "romanized": "tā hěn yǒu chuàngyì.", "literal": "She very has creativity."}]},
-    {"id": "zh_jh_060", "levels": [{"front": "Stressful", "back": "有压力的", "romanized": "yǒu yālì de"}, {"front": "My job is stressful.", "back": "我的工作很有压力。", "romanized": "wǒ de gōngzuò hěn yǒu yālì.", "literal": "My work very has pressure."}]},
-    {"id": "zh_jh_061", "levels": [{"front": "Boring", "back": "无聊的", "romanized": "wúliáo de"}, {"front": "This meeting is boring.", "back": "这个会议很无聊。", "romanized": "zhège huìyì hěn wúliáo.", "literal": "This [measure] meeting very boring."}]},
-    {"id": "zh_jh_062", "levels": [{"front": "Interesting", "back": "有趣的", "romanized": "yǒuqù de"}, {"front": "This project is very interesting.", "back": "这个项目很有趣。", "romanized": "zhège xiàngmù hěn yǒuqù.", "literal": "This [measure] project very interesting."}]},
-    {"id": "zh_jh_063", "levels": [{"front": "Salary", "back": "工资", "romanized": "gōngzī"}, {"front": "He received a salary increase.", "back": "他获得了加薪。", "romanized": "tā huòdé le jiāxīn.", "literal": "He received [completed] salary-increase."}]},
-    {"id": "zh_jh_064", "levels": [{"front": "Schedule", "back": "日程", "romanized": "rìchéng"}, {"front": "I have a busy schedule today.", "back": "我今天日程很忙。", "romanized": "wǒ jīntiān rìchéng hěn máng.", "literal": "I today schedule very busy."}]},
-    {"id": "zh_jh_065", "levels": [{"front": "Vacation", "back": "假期", "romanized": "jiàqī"}, {"front": "I'm going on vacation next month.", "back": "下个月我去度假。", "romanized": "xià gè yuè wǒ qù dùjià.", "literal": "Next month I go on-vacation."}]},
-    {"id": "zh_jh_066", "levels": [{"front": "Break", "back": "休息", "romanized": "xiūxi"}, {"front": "Let's take a break.", "back": "我们休息一下吧。", "romanized": "wǒmen xiūxi yīxià ba.", "literal": "We rest a-moment [suggestion]."}]},
-    {"id": "zh_jh_067", "levels": [{"front": "Office", "back": "办公室", "romanized": "bàngōngshì"}, {"front": "I work in a big office.", "back": "我在一个大办公室工作。", "romanized": "wǒ zài yīgè dà bàngōngshì gōngzuò.", "literal": "I in one [measure] big office work."}]},
-    {"id": "zh_jh_068", "levels": [{"front": "Outdoors", "back": "户外", "romanized": "hùwài"}, {"front": "I prefer working outdoors.", "back": "我更喜欢在户外工作。", "romanized": "wǒ gèng xǐhuān zài hùwài gōngzuò.", "literal": "I more like in outdoors work."}]},
-    {"id": "zh_jh_069", "levels": [{"front": "Interview", "back": "面试", "romanized": "miànshì"}, {"front": "I have a job interview tomorrow.", "back": "我明天有一个面试。", "romanized": "wǒ míngtiān yǒu yīgè miànshì.", "literal": "I tomorrow have one [measure] interview."}]},
-    {"id": "zh_jh_070", "levels": [{"front": "Colleague", "back": "同事", "romanized": "tóngshì"}, {"front": "My colleague helped me a lot.", "back": "我的同事帮了我很多。", "romanized": "wǒ de tóngshì bāng le wǒ hěnduō.", "literal": "My colleague helped [completed] me very-much."}]},
-    {"id": "zh_jh_071", "levels": [{"front": "Customer", "back": "顾客 / 客户", "romanized": "gùkè / kèhù"}, {"front": "The customer is always right.", "back": "顾客永远是对的。", "romanized": "gùkè yǒngyuǎn shì duì de.", "literal": "Customer always is right."}]},
-    {"id": "zh_jh_072", "levels": [{"front": "Team", "back": "团队", "romanized": "tuánduì"}, {"front": "Our team works well together.", "back": "我们团队合作很好。", "romanized": "wǒmen tuánduì hézuò hěn hǎo.", "literal": "Our team cooperate very well."}]},
-    {"id": "zh_jh_073", "levels": [{"front": "Project", "back": "项目", "romanized": "xiàngmù"}, {"front": "The project is almost done.", "back": "项目快完成了。", "romanized": "xiàngmù kuài wánchéng le.", "literal": "Project soon finished [now]."}]},
-    {"id": "zh_jh_074", "levels": [{"front": "Meeting", "back": "会议", "romanized": "huìyì"}, {"front": "The meeting starts in five minutes.", "back": "会议五分钟后开始。", "romanized": "huìyì wǔ fēnzhōng hòu kāishǐ.", "literal": "Meeting five minutes later start."}]},
-    {"id": "zh_jh_075", "levels": [{"front": "Free time", "back": "空闲时间", "romanized": "kòngxián shíjiān"}, {"front": "What do you do in your free time?", "back": "你空闲时间做什么？", "romanized": "nǐ kòngxián shíjiān zuò shénme?", "literal": "You free-time do what?"}]}
+    {
+      "id": "doctor",
+      "levels": [
+        {
+          "front": "Doctor",
+          "back": "医生",
+          "romanized": "yīshēng"
+        },
+        {
+          "front": "He is a doctor.",
+          "back": "他是医生。",
+          "romanized": "tā shì yīshēng.",
+          "literal": "He is doctor."
+        }
+      ]
+    },
+    {
+      "id": "nurse",
+      "levels": [
+        {
+          "front": "Nurse",
+          "back": "护士",
+          "romanized": "hùshi"
+        },
+        {
+          "front": "She works as a nurse.",
+          "back": "她是一名护士。",
+          "romanized": "tā shì yī míng hùshi.",
+          "literal": "She is one [measure] nurse."
+        }
+      ]
+    },
+    {
+      "id": "engineer",
+      "levels": [
+        {
+          "front": "Engineer",
+          "back": "工程师",
+          "romanized": "gōngchéngshī"
+        },
+        {
+          "front": "My brother is an engineer.",
+          "back": "我哥哥是工程师。",
+          "romanized": "wǒ gēgē shì gōngchéngshī.",
+          "literal": "My older-brother is engineer."
+        }
+      ]
+    },
+    {
+      "id": "programmer",
+      "levels": [
+        {
+          "front": "Programmer",
+          "back": "程序员",
+          "romanized": "chéngxùyuán"
+        },
+        {
+          "front": "She is a programmer.",
+          "back": "她是一名程序员。",
+          "romanized": "tā shì yī míng chéngxùyuán.",
+          "literal": "She is one [measure] programmer."
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "levels": [
+        {
+          "front": "Cook",
+          "back": "厨师",
+          "romanized": "chúshī"
+        },
+        {
+          "front": "The cook made a delicious meal.",
+          "back": "厨师做了一顿美味的饭。",
+          "romanized": "chúshī zuò le yī dùn měiwèi de fàn.",
+          "literal": "Cook made [completed] one [measure] delicious meal."
+        }
+      ]
+    },
+    {
+      "id": "waiter_waitress",
+      "levels": [
+        {
+          "front": "Waiter (Waitress)",
+          "back": "服务员",
+          "romanized": "fúwùyuán"
+        },
+        {
+          "front": "The waiter brought the menu.",
+          "back": "服务员拿来了菜单。",
+          "romanized": "fúwùyuán ná lái le càidān.",
+          "literal": "Waiter brought [completed] menu."
+        }
+      ]
+    },
+    {
+      "id": "manager",
+      "levels": [
+        {
+          "front": "Manager",
+          "back": "经理",
+          "romanized": "jīnglǐ"
+        },
+        {
+          "front": "She is a good manager.",
+          "back": "她是一位好经理。",
+          "romanized": "tā shì yī wèi hǎo jīnglǐ.",
+          "literal": "She is one [measure] good manager."
+        }
+      ]
+    },
+    {
+      "id": "student",
+      "levels": [
+        {
+          "front": "Student",
+          "back": "学生",
+          "romanized": "xuésheng"
+        },
+        {
+          "front": "He is a university student.",
+          "back": "他是一名大学生。",
+          "romanized": "tā shì yī míng dàxuéshēng.",
+          "literal": "He is one [measure] university-student."
+        }
+      ]
+    },
+    {
+      "id": "architect",
+      "levels": [
+        {
+          "front": "Architect",
+          "back": "建筑师",
+          "romanized": "jiànzhùshī"
+        },
+        {
+          "front": "The architect designed the building.",
+          "back": "建筑师设计了这栋楼。",
+          "romanized": "jiànzhùshī shèjì le zhè dòng lóu.",
+          "literal": "Architect designed [completed] this [measure] building."
+        }
+      ]
+    },
+    {
+      "id": "lawyer",
+      "levels": [
+        {
+          "front": "Lawyer",
+          "back": "律师",
+          "romanized": "lǜshī"
+        },
+        {
+          "front": "She hired a lawyer.",
+          "back": "她请了一位律师。",
+          "romanized": "tā qǐng le yī wèi lǜshī.",
+          "literal": "She hired [completed] one [measure] lawyer."
+        }
+      ]
+    },
+    {
+      "id": "retired_person",
+      "levels": [
+        {
+          "front": "Retired Person",
+          "back": "退休人员",
+          "romanized": "tuìxiū rényuán"
+        },
+        {
+          "front": "He is a retired person now.",
+          "back": "他现在是退休人员了。",
+          "romanized": "tā xiànzài shì tuìxiū rényuán le.",
+          "literal": "He now is retired-person [now]."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "levels": [
+        {
+          "front": "Reading",
+          "back": "阅读",
+          "romanized": "yuèdú"
+        },
+        {
+          "front": "I enjoy reading in the evening.",
+          "back": "我喜欢在晚上阅读。",
+          "romanized": "wǒ xǐhuān zài wǎnshàng yuèdú.",
+          "literal": "I like in evening read."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "levels": [
+        {
+          "front": "Writing",
+          "back": "写作",
+          "romanized": "xiězuò"
+        },
+        {
+          "front": "She is good at writing.",
+          "back": "她很擅长写作。",
+          "romanized": "tā hěn shàncháng xiězuò.",
+          "literal": "She very good-at writing."
+        }
+      ]
+    },
+    {
+      "id": "painting",
+      "levels": [
+        {
+          "front": "Painting",
+          "back": "绘画",
+          "romanized": "huìhuà"
+        },
+        {
+          "front": "Painting is my favorite hobby.",
+          "back": "绘画是我最喜欢的爱好。",
+          "romanized": "huìhuà shì wǒ zuì xǐhuān de àihào.",
+          "literal": "Painting is my most-liked hobby."
+        }
+      ]
+    },
+    {
+      "id": "drawing",
+      "levels": [
+        {
+          "front": "Drawing",
+          "back": "素描",
+          "romanized": "sùmiáo"
+        },
+        {
+          "front": "He likes drawing animals.",
+          "back": "他喜欢素描动物。",
+          "romanized": "tā xǐhuān sùmiáo dòngwù."
+        }
+      ]
+    },
+    {
+      "id": "photography",
+      "levels": [
+        {
+          "front": "Photography",
+          "back": "摄影",
+          "romanized": "shèyǐng"
+        },
+        {
+          "front": "She has a talent for photography.",
+          "back": "她有摄影天赋。",
+          "romanized": "tā yǒu shèyǐng tiānfù.",
+          "literal": "She has photography talent."
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "levels": [
+        {
+          "front": "Music",
+          "back": "音乐",
+          "romanized": "yīnyuè"
+        },
+        {
+          "front": "Music makes me happy.",
+          "back": "音乐让我开心。",
+          "romanized": "yīnyuè ràng wǒ kāixīn."
+        }
+      ]
+    },
+    {
+      "id": "singing",
+      "levels": [
+        {
+          "front": "Singing",
+          "back": "唱歌",
+          "romanized": "chànggē"
+        },
+        {
+          "front": "She loves singing.",
+          "back": "她热爱唱歌。",
+          "romanized": "tā rè'ài chànggē."
+        }
+      ]
+    },
+    {
+      "id": "playing_an_instrument",
+      "levels": [
+        {
+          "front": "Playing an instrument",
+          "back": "演奏乐器",
+          "romanized": "yǎnzòu yuèqì"
+        },
+        {
+          "front": "He has been playing an instrument since he was young.",
+          "back": "他从小就在演奏乐器。",
+          "romanized": "tā cóngxiǎo jiù zài yǎnzòu yuèqì.",
+          "literal": "He from-young already is playing instrument."
+        }
+      ]
+    },
+    {
+      "id": "dancing",
+      "levels": [
+        {
+          "front": "Dancing",
+          "back": "跳舞",
+          "romanized": "tiàowǔ"
+        },
+        {
+          "front": "She takes dancing classes.",
+          "back": "她上舞蹈课。",
+          "romanized": "tā shàng wǔdào kè.",
+          "literal": "She attends dance class."
+        }
+      ]
+    },
+    {
+      "id": "cooking",
+      "levels": [
+        {
+          "front": "Cooking",
+          "back": "烹饪",
+          "romanized": "pēngrèn"
+        },
+        {
+          "front": "Cooking for my family makes me happy.",
+          "back": "为家人烹饪让我很开心。",
+          "romanized": "wèi jiārén pēngrèn ràng wǒ hěn kāixīn.",
+          "literal": "For family cook makes me very happy."
+        }
+      ]
+    },
+    {
+      "id": "gardening",
+      "levels": [
+        {
+          "front": "Gardening",
+          "back": "园艺",
+          "romanized": "yuányì"
+        },
+        {
+          "front": "Gardening is very relaxing.",
+          "back": "园艺让人很放松。",
+          "romanized": "yuányì ràng rén hěn fàngsōng.",
+          "literal": "Gardening makes people very relaxed."
+        }
+      ]
+    },
+    {
+      "id": "hiking",
+      "levels": [
+        {
+          "front": "Hiking",
+          "back": "徒步旅行",
+          "romanized": "túbù lǚxíng"
+        },
+        {
+          "front": "We went hiking last weekend.",
+          "back": "上周末我们去徒步了。",
+          "romanized": "shàng zhōumò wǒmen qù túbù le.",
+          "literal": "Last weekend we went hiking [completed]."
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "levels": [
+        {
+          "front": "Running",
+          "back": "跑步",
+          "romanized": "pǎobù"
+        },
+        {
+          "front": "I go running every morning.",
+          "back": "我每天早上跑步。",
+          "romanized": "wǒ měitiān zǎoshàng pǎobù.",
+          "literal": "I every-day morning run."
+        }
+      ]
+    },
+    {
+      "id": "jogging",
+      "levels": [
+        {
+          "front": "Jogging",
+          "back": "慢跑",
+          "romanized": "màn pǎo"
+        },
+        {
+          "front": "He jogs in the park.",
+          "back": "他在公园慢跑。",
+          "romanized": "tā zài gōngyuán màn pǎo.",
+          "literal": "He in park jog."
+        }
+      ]
+    },
+    {
+      "id": "biking",
+      "levels": [
+        {
+          "front": "Biking",
+          "back": "骑自行车",
+          "romanized": "qí zìxíngchē"
+        },
+        {
+          "front": "I go biking on weekends.",
+          "back": "我周末骑自行车。",
+          "romanized": "wǒ zhōumò qí zìxíngchē.",
+          "literal": "I weekend ride bicycle."
+        }
+      ]
+    },
+    {
+      "id": "swimming",
+      "levels": [
+        {
+          "front": "Swimming",
+          "back": "游泳",
+          "romanized": "yóuyǒng"
+        },
+        {
+          "front": "She swims every day.",
+          "back": "她每天游泳。",
+          "romanized": "tā měitiān yóuyǒng.",
+          "literal": "She every-day swim."
+        }
+      ]
+    },
+    {
+      "id": "yoga",
+      "levels": [
+        {
+          "front": "Yoga",
+          "back": "瑜伽",
+          "romanized": "yújiā"
+        },
+        {
+          "front": "She does yoga in the morning.",
+          "back": "她早上练瑜伽。",
+          "romanized": "tā zǎoshàng liàn yújiā.",
+          "literal": "She morning practice yoga."
+        }
+      ]
+    },
+    {
+      "id": "exercise",
+      "levels": [
+        {
+          "front": "Exercise",
+          "back": "健身",
+          "romanized": "jiànshēn"
+        },
+        {
+          "front": "I exercise three times a week.",
+          "back": "我一周锻炼三次。",
+          "romanized": "wǒ yī zhōu jiànshēn sān cì.",
+          "literal": "I one-week exercise three times."
+        }
+      ]
+    },
+    {
+      "id": "traveling",
+      "levels": [
+        {
+          "front": "Traveling",
+          "back": "旅行",
+          "romanized": "lǚxíng"
+        },
+        {
+          "front": "I love traveling to new places.",
+          "back": "我喜欢去新地方旅行。",
+          "romanized": "wǒ xǐhuān qù xīn dìfāng lǚxíng.",
+          "literal": "I like go new place travel."
+        }
+      ]
+    },
+    {
+      "id": "camping",
+      "levels": [
+        {
+          "front": "Camping",
+          "back": "露营",
+          "romanized": "lùyíng"
+        },
+        {
+          "front": "We went camping in the mountains.",
+          "back": "我们去山里露营了。",
+          "romanized": "wǒmen qù shān lǐ lùyíng le.",
+          "literal": "We went mountain-in camp [completed]."
+        }
+      ]
+    },
+    {
+      "id": "gaming_video_games",
+      "levels": [
+        {
+          "front": "Gaming (Video games)",
+          "back": "玩电子游戏",
+          "romanized": "wán diànzǐ yóuxì"
+        },
+        {
+          "front": "He spends hours gaming.",
+          "back": "他花很多时间玩电子游戏。",
+          "romanized": "tā huā hěnduō shíjiān wán diànzǐ yóuxì.",
+          "literal": "He spends very-much time play video-games."
+        }
+      ]
+    },
+    {
+      "id": "watching_tv_movies",
+      "levels": [
+        {
+          "front": "Watching TV / movies",
+          "back": "看电影",
+          "romanized": "kàn diànyǐng"
+        },
+        {
+          "front": "She enjoys watching movies at home.",
+          "back": "她喜欢在家看电影。",
+          "romanized": "tā xǐhuān zài jiā kàn diànyǐng.",
+          "literal": "She likes in home watch movies."
+        }
+      ]
+    },
+    {
+      "id": "listening_to_music",
+      "levels": [
+        {
+          "front": "Listening to music",
+          "back": "听音乐",
+          "romanized": "tīng yīnyuè"
+        },
+        {
+          "front": "I listen to music while I work.",
+          "back": "我工作时听音乐。",
+          "romanized": "wǒ gōngzuò shí tīng yīnyuè.",
+          "literal": "I work-time listen music."
+        }
+      ]
+    },
+    {
+      "id": "crafts",
+      "levels": [
+        {
+          "front": "Crafts",
+          "back": "手工艺",
+          "romanized": "shǒugōngyì"
+        },
+        {
+          "front": "She makes crafts on weekends.",
+          "back": "她周末做手工艺。",
+          "romanized": "tā zhōumò zuò shǒugōngyì.",
+          "literal": "She weekend make crafts."
+        }
+      ]
+    },
+    {
+      "id": "board_games",
+      "levels": [
+        {
+          "front": "Board games",
+          "back": "桌游",
+          "romanized": "zhuōyóu"
+        },
+        {
+          "front": "We play board games every Friday.",
+          "back": "我们每周五玩桌游。",
+          "romanized": "wǒmen měi zhōuwǔ wán zhuōyóu.",
+          "literal": "We every-Friday play board-games."
+        }
+      ]
+    },
+    {
+      "id": "to_work",
+      "levels": [
+        {
+          "front": "To work",
+          "back": "工作",
+          "romanized": "gōngzuò"
+        },
+        {
+          "front": "I work from home.",
+          "back": "我在家工作。",
+          "romanized": "wǒ zài jiā gōngzuò.",
+          "literal": "I in home work."
+        }
+      ]
+    },
+    {
+      "id": "to_earn_a_salary",
+      "levels": [
+        {
+          "front": "To earn (a salary)",
+          "back": "赚钱",
+          "romanized": "zhuànqián"
+        },
+        {
+          "front": "He earns a good salary.",
+          "back": "他赚的薪水不错。",
+          "romanized": "tā zhuàn de xīnshuǐ bùcuò.",
+          "literal": "He earns-[de] salary not-bad."
+        }
+      ]
+    },
+    {
+      "id": "to_retire",
+      "levels": [
+        {
+          "front": "To retire",
+          "back": "退休",
+          "romanized": "tuìxiū"
+        },
+        {
+          "front": "She plans to retire next year.",
+          "back": "她计划明年退休。",
+          "romanized": "tā jìhuà míngnián tuìxiū.",
+          "literal": "She plans next-year retire."
+        }
+      ]
+    },
+    {
+      "id": "to_have_a_job",
+      "levels": [
+        {
+          "front": "To have a job",
+          "back": "有工作",
+          "romanized": "yǒu gōngzuò"
+        },
+        {
+          "front": "Do you have a job?",
+          "back": "你有工作吗？",
+          "romanized": "nǐ yǒu gōngzuò ma?",
+          "literal": "You have job?"
+        }
+      ]
+    },
+    {
+      "id": "to_be_unemployed",
+      "levels": [
+        {
+          "front": "To be unemployed",
+          "back": "失业",
+          "romanized": "shīyè"
+        },
+        {
+          "front": "He has been unemployed for three months.",
+          "back": "他已经失业三个月了。",
+          "romanized": "tā yǐjīng shīyè sān gè yuè le.",
+          "literal": "He already unemployed three months [now]."
+        }
+      ]
+    },
+    {
+      "id": "to_study",
+      "levels": [
+        {
+          "front": "To study",
+          "back": "学习",
+          "romanized": "xuéxí"
+        },
+        {
+          "front": "She studies every night.",
+          "back": "她每天晚上学习。",
+          "romanized": "tā měitiān wǎnshàng xuéxí.",
+          "literal": "She every-day evening study."
+        }
+      ]
+    },
+    {
+      "id": "to_learn",
+      "levels": [
+        {
+          "front": "To learn",
+          "back": "学",
+          "romanized": "xué"
+        },
+        {
+          "front": "I want to learn Chinese.",
+          "back": "我想学中文。",
+          "romanized": "wǒ xiǎng xué zhōngwén.",
+          "literal": "I want-to learn Chinese."
+        }
+      ]
+    },
+    {
+      "id": "to_practice",
+      "levels": [
+        {
+          "front": "To practice",
+          "back": "练习",
+          "romanized": "liànxí"
+        },
+        {
+          "front": "You need to practice every day.",
+          "back": "你需要每天练习。",
+          "romanized": "nǐ xūyào měitiān liànxí.",
+          "literal": "You need every-day practice."
+        }
+      ]
+    },
+    {
+      "id": "to_teach",
+      "levels": [
+        {
+          "front": "To teach",
+          "back": "教",
+          "romanized": "jiāo"
+        },
+        {
+          "front": "She teaches mathematics.",
+          "back": "她教数学。",
+          "romanized": "tā jiāo shùxué."
+        }
+      ]
+    },
+    {
+      "id": "to_build",
+      "levels": [
+        {
+          "front": "To build",
+          "back": "建造",
+          "romanized": "jiànzào"
+        },
+        {
+          "front": "They are building a new school.",
+          "back": "他们正在建造一所新学校。",
+          "romanized": "tāmen zhèngzài jiànzào yī suǒ xīn xuéxiào.",
+          "literal": "They currently building one [measure] new school."
+        }
+      ]
+    },
+    {
+      "id": "to_fix",
+      "levels": [
+        {
+          "front": "To fix",
+          "back": "修理",
+          "romanized": "xiūlǐ"
+        },
+        {
+          "front": "Can you fix my phone?",
+          "back": "你能修理我的手机吗？",
+          "romanized": "nǐ néng xiūlǐ wǒ de shǒujī ma?",
+          "literal": "You can fix my phone?"
+        }
+      ]
+    },
+    {
+      "id": "to_make",
+      "levels": [
+        {
+          "front": "To make",
+          "back": "做 / 制作",
+          "romanized": "zuò / zhìzuò"
+        },
+        {
+          "front": "She makes her own clothes.",
+          "back": "她自己制作衣服。",
+          "romanized": "tā zìjǐ zhìzuò yīfu.",
+          "literal": "She herself makes clothes."
+        }
+      ]
+    },
+    {
+      "id": "to_design",
+      "levels": [
+        {
+          "front": "To design",
+          "back": "设计",
+          "romanized": "shèjì"
+        },
+        {
+          "front": "He designed the new logo.",
+          "back": "他设计了新标志。",
+          "romanized": "tā shèjì le xīn biāozhì.",
+          "literal": "He designed [completed] new logo."
+        }
+      ]
+    },
+    {
+      "id": "to_sell",
+      "levels": [
+        {
+          "front": "To sell",
+          "back": "卖",
+          "romanized": "mài"
+        },
+        {
+          "front": "She sells handmade jewelry.",
+          "back": "她卖手工首饰。",
+          "romanized": "tā mài shǒugōng shǒushì."
+        }
+      ]
+    },
+    {
+      "id": "to_buy",
+      "levels": [
+        {
+          "front": "To buy",
+          "back": "买",
+          "romanized": "mǎi"
+        },
+        {
+          "front": "I need to buy a new computer.",
+          "back": "我需要买一台新电脑。",
+          "romanized": "wǒ xūyào mǎi yī tái xīn diànnǎo.",
+          "literal": "I need buy one [measure] new computer."
+        }
+      ]
+    },
+    {
+      "id": "to_help",
+      "levels": [
+        {
+          "front": "To help",
+          "back": "帮助",
+          "romanized": "bāngzhù"
+        },
+        {
+          "front": "Can you help me?",
+          "back": "你能帮我吗？",
+          "romanized": "nǐ néng bāng wǒ ma?",
+          "literal": "You can help me?"
+        }
+      ]
+    },
+    {
+      "id": "to_manage",
+      "levels": [
+        {
+          "front": "To manage",
+          "back": "管理",
+          "romanized": "guǎnlǐ"
+        },
+        {
+          "front": "She manages a team of ten people.",
+          "back": "她管理着一个十人团队。",
+          "romanized": "tā guǎnlǐ zhe yīgè shí rén tuánduì.",
+          "literal": "She is managing one [measure] ten-person team."
+        }
+      ]
+    },
+    {
+      "id": "to_meet",
+      "levels": [
+        {
+          "front": "To meet",
+          "back": "开会",
+          "romanized": "kāihuì"
+        },
+        {
+          "front": "We have a meeting at three.",
+          "back": "我们三点开会。",
+          "romanized": "wǒmen sān diǎn kāihuì.",
+          "literal": "We three o'clock meet."
+        }
+      ]
+    },
+    {
+      "id": "to_start",
+      "levels": [
+        {
+          "front": "To start",
+          "back": "开始",
+          "romanized": "kāishǐ"
+        },
+        {
+          "front": "We start work at nine.",
+          "back": "我们九点开始工作。",
+          "romanized": "wǒmen jiǔ diǎn kāishǐ gōngzuò.",
+          "literal": "We nine o'clock start work."
+        }
+      ]
+    },
+    {
+      "id": "to_finish",
+      "levels": [
+        {
+          "front": "To finish",
+          "back": "完成",
+          "romanized": "wánchéng"
+        },
+        {
+          "front": "I need to finish this project today.",
+          "back": "我今天需要完成这个项目。",
+          "romanized": "wǒ jīntiān xūyào wánchéng zhège xiàngmù.",
+          "literal": "I today need finish this [measure] project."
+        }
+      ]
+    },
+    {
+      "id": "to_relax",
+      "levels": [
+        {
+          "front": "To relax",
+          "back": "放松",
+          "romanized": "fàngsōng"
+        },
+        {
+          "front": "I relax by reading.",
+          "back": "我通过阅读来放松。",
+          "romanized": "wǒ tōngguò yuèdú lái fàngsōng.",
+          "literal": "I through reading relax."
+        }
+      ]
+    },
+    {
+      "id": "to_spend_time_on",
+      "levels": [
+        {
+          "front": "To spend time (on)",
+          "back": "花时间",
+          "romanized": "huā shíjiān"
+        },
+        {
+          "front": "She spends a lot of time on her hobby.",
+          "back": "她在爱好上花很多时间。",
+          "romanized": "tā zài àihào shàng huā hěnduō shíjiān.",
+          "literal": "She on hobby spends very-much time."
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "levels": [
+        {
+          "front": "Creative",
+          "back": "有创意的",
+          "romanized": "yǒu chuàngyì de"
+        },
+        {
+          "front": "She is very creative.",
+          "back": "她很有创意。",
+          "romanized": "tā hěn yǒu chuàngyì.",
+          "literal": "She very has creativity."
+        }
+      ]
+    },
+    {
+      "id": "stressful",
+      "levels": [
+        {
+          "front": "Stressful",
+          "back": "有压力的",
+          "romanized": "yǒu yālì de"
+        },
+        {
+          "front": "My job is stressful.",
+          "back": "我的工作很有压力。",
+          "romanized": "wǒ de gōngzuò hěn yǒu yālì.",
+          "literal": "My work very has pressure."
+        }
+      ]
+    },
+    {
+      "id": "boring",
+      "levels": [
+        {
+          "front": "Boring",
+          "back": "无聊的",
+          "romanized": "wúliáo de"
+        },
+        {
+          "front": "This meeting is boring.",
+          "back": "这个会议很无聊。",
+          "romanized": "zhège huìyì hěn wúliáo.",
+          "literal": "This [measure] meeting very boring."
+        }
+      ]
+    },
+    {
+      "id": "interesting",
+      "levels": [
+        {
+          "front": "Interesting",
+          "back": "有趣的",
+          "romanized": "yǒuqù de"
+        },
+        {
+          "front": "This project is very interesting.",
+          "back": "这个项目很有趣。",
+          "romanized": "zhège xiàngmù hěn yǒuqù.",
+          "literal": "This [measure] project very interesting."
+        }
+      ]
+    },
+    {
+      "id": "salary",
+      "levels": [
+        {
+          "front": "Salary",
+          "back": "工资",
+          "romanized": "gōngzī"
+        },
+        {
+          "front": "He received a salary increase.",
+          "back": "他获得了加薪。",
+          "romanized": "tā huòdé le jiāxīn.",
+          "literal": "He received [completed] salary-increase."
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "levels": [
+        {
+          "front": "Schedule",
+          "back": "日程",
+          "romanized": "rìchéng"
+        },
+        {
+          "front": "I have a busy schedule today.",
+          "back": "我今天日程很忙。",
+          "romanized": "wǒ jīntiān rìchéng hěn máng.",
+          "literal": "I today schedule very busy."
+        }
+      ]
+    },
+    {
+      "id": "vacation",
+      "levels": [
+        {
+          "front": "Vacation",
+          "back": "假期",
+          "romanized": "jiàqī"
+        },
+        {
+          "front": "I'm going on vacation next month.",
+          "back": "下个月我去度假。",
+          "romanized": "xià gè yuè wǒ qù dùjià.",
+          "literal": "Next month I go on-vacation."
+        }
+      ]
+    },
+    {
+      "id": "break",
+      "levels": [
+        {
+          "front": "Break",
+          "back": "休息",
+          "romanized": "xiūxi"
+        },
+        {
+          "front": "Let's take a break.",
+          "back": "我们休息一下吧。",
+          "romanized": "wǒmen xiūxi yīxià ba.",
+          "literal": "We rest a-moment [suggestion]."
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "levels": [
+        {
+          "front": "Office",
+          "back": "办公室",
+          "romanized": "bàngōngshì"
+        },
+        {
+          "front": "I work in a big office.",
+          "back": "我在一个大办公室工作。",
+          "romanized": "wǒ zài yīgè dà bàngōngshì gōngzuò.",
+          "literal": "I in one [measure] big office work."
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "levels": [
+        {
+          "front": "Outdoors",
+          "back": "户外",
+          "romanized": "hùwài"
+        },
+        {
+          "front": "I prefer working outdoors.",
+          "back": "我更喜欢在户外工作。",
+          "romanized": "wǒ gèng xǐhuān zài hùwài gōngzuò.",
+          "literal": "I more like in outdoors work."
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "levels": [
+        {
+          "front": "Interview",
+          "back": "面试",
+          "romanized": "miànshì"
+        },
+        {
+          "front": "I have a job interview tomorrow.",
+          "back": "我明天有一个面试。",
+          "romanized": "wǒ míngtiān yǒu yīgè miànshì.",
+          "literal": "I tomorrow have one [measure] interview."
+        }
+      ]
+    },
+    {
+      "id": "colleague",
+      "levels": [
+        {
+          "front": "Colleague",
+          "back": "同事",
+          "romanized": "tóngshì"
+        },
+        {
+          "front": "My colleague helped me a lot.",
+          "back": "我的同事帮了我很多。",
+          "romanized": "wǒ de tóngshì bāng le wǒ hěnduō.",
+          "literal": "My colleague helped [completed] me very-much."
+        }
+      ]
+    },
+    {
+      "id": "customer",
+      "levels": [
+        {
+          "front": "Customer",
+          "back": "顾客 / 客户",
+          "romanized": "gùkè / kèhù"
+        },
+        {
+          "front": "The customer is always right.",
+          "back": "顾客永远是对的。",
+          "romanized": "gùkè yǒngyuǎn shì duì de.",
+          "literal": "Customer always is right."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "levels": [
+        {
+          "front": "Team",
+          "back": "团队",
+          "romanized": "tuánduì"
+        },
+        {
+          "front": "Our team works well together.",
+          "back": "我们团队合作很好。",
+          "romanized": "wǒmen tuánduì hézuò hěn hǎo.",
+          "literal": "Our team cooperate very well."
+        }
+      ]
+    },
+    {
+      "id": "project",
+      "levels": [
+        {
+          "front": "Project",
+          "back": "项目",
+          "romanized": "xiàngmù"
+        },
+        {
+          "front": "The project is almost done.",
+          "back": "项目快完成了。",
+          "romanized": "xiàngmù kuài wánchéng le.",
+          "literal": "Project soon finished [now]."
+        }
+      ]
+    },
+    {
+      "id": "meeting",
+      "levels": [
+        {
+          "front": "Meeting",
+          "back": "会议",
+          "romanized": "huìyì"
+        },
+        {
+          "front": "The meeting starts in five minutes.",
+          "back": "会议五分钟后开始。",
+          "romanized": "huìyì wǔ fēnzhōng hòu kāishǐ.",
+          "literal": "Meeting five minutes later start."
+        }
+      ]
+    },
+    {
+      "id": "free_time",
+      "levels": [
+        {
+          "front": "Free time",
+          "back": "空闲时间",
+          "romanized": "kòngxián shíjiān"
+        },
+        {
+          "front": "What do you do in your free time?",
+          "back": "你空闲时间做什么？",
+          "romanized": "nǐ kòngxián shíjiān zuò shénme?",
+          "literal": "You free-time do what?"
+        }
+      ]
+    }
   ]
 }

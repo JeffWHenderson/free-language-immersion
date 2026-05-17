@@ -2,106 +2,1303 @@
   "id": "food_and_drink",
   "name": "Food & Drink",
   "language": "french",
-  "stories": ["at_the_restaurant", "at_the_market", "cooking_at_home"],
+  "stories": [
+    "at_the_restaurant",
+    "at_the_market",
+    "cooking_at_home"
+  ],
   "cards": [
-    { "id": "fr_fd_001", "levels": [{ "front": "water", "back": "l'eau (fem.)", "grammarNote": "L'eau is feminine. Use the partitive 'de l'eau' when talking about an unspecified amount: 'Je bois de l'eau.' A definite quantity uses 'un verre d'eau' (a glass of water). The partitive (du/de la/de l') is essential with food and drink in French." }, { "front": "The water is cold.", "back": "L'eau est froide." }] },
-    { "id": "fr_fd_002", "levels": [{ "front": "bread", "back": "le pain" }, { "front": "I'd like some bread.", "back": "Je voudrais du pain." }] },
-    { "id": "fr_fd_003", "levels": [{ "front": "rice", "back": "le riz" }, { "front": "I like rice with vegetables.", "back": "J'aime le riz avec des légumes." }] },
-    { "id": "fr_fd_004", "levels": [{ "front": "milk", "back": "le lait" }, { "front": "Do you want milk?", "back": "Tu veux du lait ?" }] },
-    { "id": "fr_fd_005", "levels": [{ "front": "egg", "back": "l'œuf (masc.)", "grammarNote": "Singular: l'œuf (the f is pronounced). Plural: les œufs — the f goes silent! 'leh-ZUH'. This is a classic French pronunciation trap that catches everyone at first." }, { "front": "I eat two eggs for breakfast.", "back": "Je mange deux œufs au petit-déjeuner." }] },
-    { "id": "fr_fd_006", "levels": [{ "front": "cheese", "back": "le fromage" }, { "front": "The sandwich has cheese.", "back": "Le sandwich a du fromage." }] },
-    { "id": "fr_fd_007", "levels": [{ "front": "chicken", "back": "le poulet" }, { "front": "The chicken is delicious.", "back": "Le poulet est délicieux." }] },
-    { "id": "fr_fd_008", "levels": [{ "front": "meat", "back": "la viande" }, { "front": "He doesn't eat meat.", "back": "Il ne mange pas de viande." }] },
-    { "id": "fr_fd_009", "levels": [{ "front": "fish", "back": "le poisson" }, { "front": "I like fish.", "back": "J'aime le poisson." }] },
-    { "id": "fr_fd_011", "levels": [{ "front": "pork", "back": "le porc" }, { "front": "I don't eat pork.", "back": "Je ne mange pas de porc." }] },
-    { "id": "fr_fd_012", "levels": [{ "front": "fruit", "back": "le fruit" }, { "front": "I eat fruit every day.", "back": "Je mange des fruits tous les jours." }] },
-    { "id": "fr_fd_013", "levels": [{ "front": "apple", "back": "la pomme" }, { "front": "An apple a day is healthy.", "back": "Une pomme par jour, c'est bon pour la santé." }] },
-    { "id": "fr_fd_014", "levels": [{ "front": "banana", "back": "la banane" }, { "front": "The bananas are ripe.", "back": "Les bananes sont mûres." }] },
-    { "id": "fr_fd_015", "levels": [{ "front": "orange", "back": "l'orange (fem.)" }, { "front": "I want an orange juice.", "back": "Je veux un jus d'orange." }] },
-    { "id": "fr_fd_016", "levels": [{ "front": "vegetable", "back": "le légume" }, { "front": "Eat your vegetables!", "back": "Mange tes légumes !" }] },
-    { "id": "fr_fd_017", "levels": [{ "front": "potato", "back": "la pomme de terre" }, { "front": "I want mashed potatoes.", "back": "Je veux de la purée de pommes de terre." }] },
-    { "id": "fr_fd_018", "levels": [{ "front": "tomato", "back": "la tomate" }, { "front": "The salad has tomatoes.", "back": "La salade a des tomates." }] },
-    { "id": "fr_fd_019", "levels": [{ "front": "onion", "back": "l'oignon (masc.)" }, { "front": "I don't like onions.", "back": "Je n'aime pas les oignons." }] },
-    { "id": "fr_fd_020", "levels": [{ "front": "salad", "back": "la salade" }, { "front": "I'll have a salad.", "back": "Je vais prendre une salade." }] },
-    { "id": "fr_fd_021", "levels": [{ "front": "soup", "back": "la soupe" }, { "front": "The soup is hot.", "back": "La soupe est chaude." }] },
-    { "id": "fr_fd_024", "levels": [{ "front": "sandwich", "back": "le sandwich" }, { "front": "I made a sandwich for lunch.", "back": "J'ai fait un sandwich pour le déjeuner." }] },
-    { "id": "fr_fd_025", "levels": [{ "front": "cake", "back": "le gâteau" }, { "front": "Do you want cake?", "back": "Tu veux du gâteau ?" }] },
-    { "id": "fr_fd_026", "levels": [{ "front": "cookie", "back": "le biscuit / le cookie" }, { "front": "These cookies are delicious.", "back": "Ces biscuits sont délicieux." }] },
-    { "id": "fr_fd_027", "levels": [{ "front": "chocolate", "back": "le chocolat" }, { "front": "I love chocolate.", "back": "J'adore le chocolat." }] },
-    { "id": "fr_fd_028", "levels": [{ "front": "sugar", "back": "le sucre" }, { "front": "No sugar, please.", "back": "Sans sucre, s'il vous plaît." }] },
-    { "id": "fr_fd_029", "levels": [{ "front": "salt", "back": "le sel" }, { "front": "Can you pass the salt?", "back": "Tu peux me passer le sel ?" }] },
-    { "id": "fr_fd_030", "levels": [{ "front": "pepper", "back": "le poivre" }, { "front": "Can you pass the pepper?", "back": "Tu peux me passer le poivre ?" }] },
-    { "id": "fr_fd_031", "levels": [{ "front": "butter", "back": "le beurre" }, { "front": "I put butter on my bread.", "back": "Je mets du beurre sur mon pain." }] },
-    { "id": "fr_fd_032", "levels": [{ "front": "oil", "back": "l'huile (fem.)" }, { "front": "Cook with olive oil.", "back": "Cuisinez avec de l'huile d'olive." }] },
-    { "id": "fr_fd_033", "levels": [{ "front": "coffee", "back": "le café" }, { "front": "I like coffee in the morning.", "back": "J'aime le café le matin." }] },
-    { "id": "fr_fd_034", "levels": [{ "front": "tea", "back": "le thé" }, { "front": "Would you like some tea?", "back": "Tu veux du thé ?" }] },
-    { "id": "fr_fd_035", "levels": [{ "front": "wine", "back": "le vin" }, { "front": "A glass of red wine, please.", "back": "Un verre de vin rouge, s'il vous plaît." }] },
-    { "id": "fr_fd_036", "levels": [{ "front": "beer", "back": "la bière" }, { "front": "Two beers, please.", "back": "Deux bières, s'il vous plaît." }] },
-    { "id": "fr_fd_037", "levels": [{ "front": "juice", "back": "le jus" }, { "front": "I want orange juice.", "back": "Je veux du jus d'orange." }] },
-    { "id": "fr_fd_038", "levels": [{ "front": "breakfast", "back": "le petit-déjeuner" }, { "front": "I have breakfast at seven.", "back": "Je prends le petit-déjeuner à sept heures." }] },
-    { "id": "fr_fd_039", "levels": [{ "front": "lunch", "back": "le déjeuner" }, { "front": "We have lunch at two.", "back": "On déjeune à deux heures." }] },
-    { "id": "fr_fd_040", "levels": [{ "front": "dinner", "back": "le dîner" }, { "front": "Dinner is ready.", "back": "Le dîner est prêt." }] },
-    { "id": "fr_fd_041", "levels": [{ "front": "snack", "back": "le goûter / le snack", "grammarNote": "Le goûter specifically refers to the afternoon snack (around 4pm), a French institution especially for children. For a general snack at any time, un snack or un encas is more common among adults." }, { "front": "I have a snack in the afternoon.", "back": "Je prends un goûter l'après-midi." }] },
-    { "id": "fr_fd_042", "levels": [{ "front": "meal", "back": "le repas" }, { "front": "This is a delicious meal.", "back": "C'est un repas délicieux." }] },
-    { "id": "fr_fd_043", "levels": [{ "front": "recipe", "back": "la recette" }, { "front": "Do you have a good recipe?", "back": "Tu as une bonne recette ?" }] },
-    { "id": "fr_fd_044", "levels": [{ "front": "flavor", "back": "la saveur / le goût" }, { "front": "What flavor do you want?", "back": "Quel goût tu veux ?" }] },
-    { "id": "fr_fd_046", "levels": [{ "front": "ingredient", "back": "l'ingrédient (masc.)" }, { "front": "What ingredients do you need?", "back": "De quels ingrédients tu as besoin ?" }] },
-    { "id": "fr_fd_047", "levels": [{ "front": "menu", "back": "la carte / le menu", "grammarNote": "La carte = the full menu with all choices. Le menu in France usually means a set-price meal (entrée + plat + dessert). Always ask for 'la carte' if you want to order freely from individual dishes." }, { "front": "Can I see the menu?", "back": "Je peux voir la carte ?" }] },
-    { "id": "fr_fd_048", "levels": [{ "front": "restaurant", "back": "le restaurant" }, { "front": "This restaurant is good.", "back": "Ce restaurant est bien." }] },
-    { "id": "fr_fd_049", "levels": [{ "front": "kitchen", "back": "la cuisine" }, { "front": "The kitchen is clean.", "back": "La cuisine est propre." }] },
-    { "id": "fr_fd_050", "levels": [{ "front": "oven", "back": "le four" }, { "front": "The oven is hot.", "back": "Le four est chaud." }] },
-    { "id": "fr_fd_051", "levels": [{ "front": "stove", "back": "la cuisinière / les plaques" }, { "front": "Cook it on the stove.", "back": "Faites-le cuire sur les plaques." }] },
-    { "id": "fr_fd_052", "levels": [{ "front": "knife", "back": "le couteau" }, { "front": "I need a sharp knife.", "back": "J'ai besoin d'un couteau bien aiguisé." }] },
-    { "id": "fr_fd_053", "levels": [{ "front": "fork", "back": "la fourchette" }, { "front": "Can I have a fork?", "back": "Je peux avoir une fourchette ?" }] },
-    { "id": "fr_fd_054", "levels": [{ "front": "spoon", "back": "la cuillère" }, { "front": "I need a spoon.", "back": "J'ai besoin d'une cuillère." }] },
-    { "id": "fr_fd_055", "levels": [{ "front": "plate", "back": "l'assiette (fem.)" }, { "front": "The plate is dirty.", "back": "L'assiette est sale." }] },
-    { "id": "fr_fd_056", "levels": [{ "front": "bowl", "back": "le bol" }, { "front": "Fill the bowl with soup.", "back": "Remplis le bol de soupe." }] },
-    { "id": "fr_fd_058", "levels": [{ "front": "glass", "back": "le verre" }, { "front": "A glass of water, please.", "back": "Un verre d'eau, s'il vous plaît." }] },
-    { "id": "fr_fd_059", "levels": [{ "front": "bottle", "back": "la bouteille" }, { "front": "A bottle of wine, please.", "back": "Une bouteille de vin, s'il vous plaît." }] },
-    { "id": "fr_fd_060", "levels": [{ "front": "table", "back": "la table" }, { "front": "Our table is ready.", "back": "Notre table est prête." }] },
-    { "id": "fr_fd_061", "levels": [{ "front": "waiter", "back": "le serveur / la serveuse" }, { "front": "Waiter, the bill please.", "back": "Monsieur, l'addition s'il vous plaît." }] },
-    { "id": "fr_fd_062", "levels": [{ "front": "hungry", "back": "avoir faim", "grammarNote": "French uses avoir (to have) for hunger and thirst: avoir faim = to be hungry, avoir soif = to be thirsty. Also: avoir froid/chaud (to be cold/hot), avoir peur (to be afraid). These sensations are expressed as 'having' something, not 'being' something — never 'être faim'." }, { "front": "I'm hungry. Are you thirsty?", "back": "J'ai faim. Tu as soif ?" }] },
-    { "id": "fr_fd_063", "levels": [{ "front": "thirsty", "back": "avoir soif" }, { "front": "I'm thirsty.", "back": "J'ai soif." }] },
-    { "id": "fr_fd_064", "levels": [{ "front": "eat", "back": "manger" }, { "front": "Let's eat!", "back": "On mange !" }] },
-    { "id": "fr_fd_065", "levels": [{ "front": "drink", "back": "boire" }, { "front": "Would you like something to drink?", "back": "Tu veux quelque chose à boire ?" }] },
-    { "id": "fr_fd_066", "levels": [{ "front": "cook", "back": "cuisiner / faire la cuisine" }, { "front": "She cooks very well.", "back": "Elle cuisine très bien." }] },
-    { "id": "fr_fd_067", "levels": [{ "front": "bake", "back": "faire cuire au four" }, { "front": "I bake bread on Sundays.", "back": "Je fais cuire du pain au four le dimanche." }] },
-    { "id": "fr_fd_069", "levels": [{ "front": "fry", "back": "frire / faire revenir" }, { "front": "Fry the onions in oil.", "back": "Faites revenir les oignons dans l'huile." }] },
-    { "id": "fr_fd_070", "levels": [{ "front": "roast", "back": "rôtir / faire rôtir" }, { "front": "Roast the chicken for one hour.", "back": "Faites rôtir le poulet pendant une heure." }] },
-    { "id": "fr_fd_072", "levels": [{ "front": "chop", "back": "couper / hacher" }, { "front": "Chop the onions.", "back": "Hachez les oignons." }] },
-    { "id": "fr_fd_073", "levels": [{ "front": "slice", "back": "couper en tranches / trancher" }, { "front": "Slice the bread.", "back": "Tranchez le pain." }] },
-    { "id": "fr_fd_074", "levels": [{ "front": "mix", "back": "mélanger" }, { "front": "Mix all the ingredients.", "back": "Mélangez tous les ingrédients." }] },
-    { "id": "fr_fd_075", "levels": [{ "front": "stir", "back": "remuer / mélanger" }, { "front": "Stir the soup.", "back": "Remuez la soupe." }] },
-    { "id": "fr_fd_076", "levels": [{ "front": "whisk", "back": "fouetter / battre" }, { "front": "Whisk the eggs.", "back": "Battez les œufs." }] },
-    { "id": "fr_fd_077", "levels": [{ "front": "pour", "back": "verser" }, { "front": "Pour the water into the glass.", "back": "Versez l'eau dans le verre." }] },
-    { "id": "fr_fd_078", "levels": [{ "front": "serve", "back": "servir" }, { "front": "The waiter served the food.", "back": "Le serveur a servi la nourriture." }] },
-    { "id": "fr_fd_080", "levels": [{ "front": "feed", "back": "nourrir / donner à manger" }, { "front": "She feeds the baby.", "back": "Elle donne à manger au bébé." }] },
-    { "id": "fr_fd_081", "levels": [{ "front": "dine", "back": "dîner / déjeuner" }, { "front": "We dined at a nice restaurant.", "back": "On a dîné dans un beau restaurant." }] },
-    { "id": "fr_fd_082", "levels": [{ "front": "chew", "back": "mâcher" }, { "front": "Chew your food slowly.", "back": "Mâche ta nourriture lentement." }] },
-    { "id": "fr_fd_083", "levels": [{ "front": "swallow", "back": "avaler" }, { "front": "Swallow the pill with water.", "back": "Avalez le comprimé avec de l'eau." }] },
-    { "id": "fr_fd_084", "levels": [{ "front": "season", "back": "assaisonner" }, { "front": "Season with salt and pepper.", "back": "Assaisonnez avec du sel et du poivre." }] },
-    { "id": "fr_fd_086", "levels": [{ "front": "fresh", "back": "frais / fraîche" }, { "front": "The bread is fresh.", "back": "Le pain est frais." }] },
-    { "id": "fr_fd_087", "levels": [{ "front": "ripe", "back": "mûr / mûre" }, { "front": "The tomatoes are ripe.", "back": "Les tomates sont mûres." }] },
-    { "id": "fr_fd_089", "levels": [{ "front": "cooked", "back": "cuit / cuite" }, { "front": "Is the chicken cooked?", "back": "Le poulet est cuit ?" }] },
-    { "id": "fr_fd_090", "levels": [{ "front": "hot", "back": "chaud / chaude" }, { "front": "Be careful, the soup is hot.", "back": "Attention, la soupe est chaude." }] },
-    { "id": "fr_fd_091", "levels": [{ "front": "cold", "back": "froid / froide" }, { "front": "My coffee is cold.", "back": "Mon café est froid." }] },
-    { "id": "fr_fd_092", "levels": [{ "front": "sweet", "back": "sucré / sucrée" }, { "front": "This cake is very sweet.", "back": "Ce gâteau est très sucré." }] },
-    { "id": "fr_fd_093", "levels": [{ "front": "sour", "back": "aigre / acide" }, { "front": "This lemon is sour.", "back": "Ce citron est acide." }] },
-    { "id": "fr_fd_095", "levels": [{ "front": "bitter", "back": "amer / amère" }, { "front": "This coffee is bitter.", "back": "Ce café est amer." }] },
-    { "id": "fr_fd_096", "levels": [{ "front": "spicy", "back": "épicé / épicée / piquant" }, { "front": "Mexican food is often spicy.", "back": "La cuisine mexicaine est souvent épicée." }] },
-    { "id": "fr_fd_099", "levels": [{ "front": "tender", "back": "tendre" }, { "front": "The meat is tender.", "back": "La viande est tendre." }] },
-    { "id": "fr_fd_101", "levels": [{ "front": "delicious", "back": "délicieux / délicieuse" }, { "front": "This is delicious!", "back": "C'est délicieux !" }] },
-    { "id": "fr_fd_102", "levels": [{ "front": "tasty", "back": "savoureux / savoureuse" }, { "front": "The soup is very tasty.", "back": "La soupe est très savoureuse." }] },
-    { "id": "fr_fd_103", "levels": [{ "front": "bland", "back": "fade / sans goût" }, { "front": "The rice is bland.", "back": "Le riz est fade." }] },
-    { "id": "fr_fd_104", "levels": [{ "front": "healthy", "back": "sain / saine / bon pour la santé" }, { "front": "Fruit is healthy.", "back": "Les fruits sont bons pour la santé." }] },
-    { "id": "fr_fd_105", "levels": [{ "front": "unhealthy", "back": "mauvais pour la santé / malsain" }, { "front": "Fast food is unhealthy.", "back": "La restauration rapide est mauvaise pour la santé." }] },
-    { "id": "fr_fd_106", "levels": [{ "front": "vegetarian", "back": "végétarien / végétarienne" }, { "front": "I am vegetarian.", "back": "Je suis végétarien(ne)." }] },
-    { "id": "fr_fd_107", "levels": [{ "front": "vegan", "back": "vegan / végétalien(ne)" }, { "front": "She is vegan.", "back": "Elle est vegan." }] },
-    { "id": "fr_fd_108", "levels": [{ "front": "frozen", "back": "congelé / congelée / surgelé" }, { "front": "Take the frozen food out.", "back": "Sors la nourriture surgelée." }] },
-    { "id": "fr_fd_109", "levels": [{ "front": "organic", "back": "bio / biologique" }, { "front": "I prefer organic vegetables.", "back": "Je préfère les légumes bio." }] },
-    { "id": "fr_fd_110", "levels": [{ "front": "homemade", "back": "fait maison" }, { "front": "I love homemade bread.", "back": "J'adore le pain fait maison." }] },
-    { "id": "fr_fd_112", "levels": [{ "front": "daily", "back": "quotidien / tous les jours" }, { "front": "I eat fruit daily.", "back": "Je mange des fruits tous les jours." }] },
-    { "id": "fr_fd_113", "levels": [{ "front": "almost", "back": "presque" }, { "front": "Lunch is almost ready.", "back": "Le déjeuner est presque prêt." }] },
-    { "id": "fr_fd_114", "levels": [{ "front": "too (too much)", "back": "trop" }, { "front": "There is too much salt.", "back": "Il y a trop de sel." }] }
+    {
+      "id": "water",
+      "levels": [
+        {
+          "front": "water",
+          "back": "l'eau (fem.)",
+          "grammarNote": "L'eau is feminine. Use the partitive 'de l'eau' when talking about an unspecified amount: 'Je bois de l'eau.' A definite quantity uses 'un verre d'eau' (a glass of water). The partitive (du/de la/de l') is essential with food and drink in French."
+        },
+        {
+          "front": "The water is cold.",
+          "back": "L'eau est froide."
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "levels": [
+        {
+          "front": "bread",
+          "back": "le pain"
+        },
+        {
+          "front": "I'd like some bread.",
+          "back": "Je voudrais du pain."
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "levels": [
+        {
+          "front": "rice",
+          "back": "le riz"
+        },
+        {
+          "front": "I like rice with vegetables.",
+          "back": "J'aime le riz avec des légumes."
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "levels": [
+        {
+          "front": "milk",
+          "back": "le lait"
+        },
+        {
+          "front": "Do you want milk?",
+          "back": "Tu veux du lait ?"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "levels": [
+        {
+          "front": "egg",
+          "back": "l'œuf (masc.)",
+          "grammarNote": "Singular: l'œuf (the f is pronounced). Plural: les œufs — the f goes silent! 'leh-ZUH'. This is a classic French pronunciation trap that catches everyone at first."
+        },
+        {
+          "front": "I eat two eggs for breakfast.",
+          "back": "Je mange deux œufs au petit-déjeuner."
+        }
+      ]
+    },
+    {
+      "id": "cheese",
+      "levels": [
+        {
+          "front": "cheese",
+          "back": "le fromage"
+        },
+        {
+          "front": "The sandwich has cheese.",
+          "back": "Le sandwich a du fromage."
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "levels": [
+        {
+          "front": "chicken",
+          "back": "le poulet"
+        },
+        {
+          "front": "The chicken is delicious.",
+          "back": "Le poulet est délicieux."
+        }
+      ]
+    },
+    {
+      "id": "meat",
+      "levels": [
+        {
+          "front": "meat",
+          "back": "la viande"
+        },
+        {
+          "front": "He doesn't eat meat.",
+          "back": "Il ne mange pas de viande."
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "levels": [
+        {
+          "front": "fish",
+          "back": "le poisson"
+        },
+        {
+          "front": "I like fish.",
+          "back": "J'aime le poisson."
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "levels": [
+        {
+          "front": "pork",
+          "back": "le porc"
+        },
+        {
+          "front": "I don't eat pork.",
+          "back": "Je ne mange pas de porc."
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "levels": [
+        {
+          "front": "fruit",
+          "back": "le fruit"
+        },
+        {
+          "front": "I eat fruit every day.",
+          "back": "Je mange des fruits tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "levels": [
+        {
+          "front": "apple",
+          "back": "la pomme"
+        },
+        {
+          "front": "An apple a day is healthy.",
+          "back": "Une pomme par jour, c'est bon pour la santé."
+        }
+      ]
+    },
+    {
+      "id": "banana",
+      "levels": [
+        {
+          "front": "banana",
+          "back": "la banane"
+        },
+        {
+          "front": "The bananas are ripe.",
+          "back": "Les bananes sont mûres."
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "levels": [
+        {
+          "front": "orange",
+          "back": "l'orange (fem.)"
+        },
+        {
+          "front": "I want an orange juice.",
+          "back": "Je veux un jus d'orange."
+        }
+      ]
+    },
+    {
+      "id": "vegetable",
+      "levels": [
+        {
+          "front": "vegetable",
+          "back": "le légume"
+        },
+        {
+          "front": "Eat your vegetables!",
+          "back": "Mange tes légumes !"
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "levels": [
+        {
+          "front": "potato",
+          "back": "la pomme de terre"
+        },
+        {
+          "front": "I want mashed potatoes.",
+          "back": "Je veux de la purée de pommes de terre."
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "levels": [
+        {
+          "front": "tomato",
+          "back": "la tomate"
+        },
+        {
+          "front": "The salad has tomatoes.",
+          "back": "La salade a des tomates."
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "levels": [
+        {
+          "front": "onion",
+          "back": "l'oignon (masc.)"
+        },
+        {
+          "front": "I don't like onions.",
+          "back": "Je n'aime pas les oignons."
+        }
+      ]
+    },
+    {
+      "id": "salad",
+      "levels": [
+        {
+          "front": "salad",
+          "back": "la salade"
+        },
+        {
+          "front": "I'll have a salad.",
+          "back": "Je vais prendre une salade."
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "levels": [
+        {
+          "front": "soup",
+          "back": "la soupe"
+        },
+        {
+          "front": "The soup is hot.",
+          "back": "La soupe est chaude."
+        }
+      ]
+    },
+    {
+      "id": "sandwich",
+      "levels": [
+        {
+          "front": "sandwich",
+          "back": "le sandwich"
+        },
+        {
+          "front": "I made a sandwich for lunch.",
+          "back": "J'ai fait un sandwich pour le déjeuner."
+        }
+      ]
+    },
+    {
+      "id": "cake",
+      "levels": [
+        {
+          "front": "cake",
+          "back": "le gâteau"
+        },
+        {
+          "front": "Do you want cake?",
+          "back": "Tu veux du gâteau ?"
+        }
+      ]
+    },
+    {
+      "id": "cookie",
+      "levels": [
+        {
+          "front": "cookie",
+          "back": "le biscuit / le cookie"
+        },
+        {
+          "front": "These cookies are delicious.",
+          "back": "Ces biscuits sont délicieux."
+        }
+      ]
+    },
+    {
+      "id": "chocolate",
+      "levels": [
+        {
+          "front": "chocolate",
+          "back": "le chocolat"
+        },
+        {
+          "front": "I love chocolate.",
+          "back": "J'adore le chocolat."
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "levels": [
+        {
+          "front": "sugar",
+          "back": "le sucre"
+        },
+        {
+          "front": "No sugar, please.",
+          "back": "Sans sucre, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "salt",
+      "levels": [
+        {
+          "front": "salt",
+          "back": "le sel"
+        },
+        {
+          "front": "Can you pass the salt?",
+          "back": "Tu peux me passer le sel ?"
+        }
+      ]
+    },
+    {
+      "id": "pepper",
+      "levels": [
+        {
+          "front": "pepper",
+          "back": "le poivre"
+        },
+        {
+          "front": "Can you pass the pepper?",
+          "back": "Tu peux me passer le poivre ?"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "levels": [
+        {
+          "front": "butter",
+          "back": "le beurre"
+        },
+        {
+          "front": "I put butter on my bread.",
+          "back": "Je mets du beurre sur mon pain."
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "levels": [
+        {
+          "front": "oil",
+          "back": "l'huile (fem.)"
+        },
+        {
+          "front": "Cook with olive oil.",
+          "back": "Cuisinez avec de l'huile d'olive."
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "levels": [
+        {
+          "front": "coffee",
+          "back": "le café"
+        },
+        {
+          "front": "I like coffee in the morning.",
+          "back": "J'aime le café le matin."
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "levels": [
+        {
+          "front": "tea",
+          "back": "le thé"
+        },
+        {
+          "front": "Would you like some tea?",
+          "back": "Tu veux du thé ?"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "levels": [
+        {
+          "front": "wine",
+          "back": "le vin"
+        },
+        {
+          "front": "A glass of red wine, please.",
+          "back": "Un verre de vin rouge, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "levels": [
+        {
+          "front": "beer",
+          "back": "la bière"
+        },
+        {
+          "front": "Two beers, please.",
+          "back": "Deux bières, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "juice",
+      "levels": [
+        {
+          "front": "juice",
+          "back": "le jus"
+        },
+        {
+          "front": "I want orange juice.",
+          "back": "Je veux du jus d'orange."
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "levels": [
+        {
+          "front": "breakfast",
+          "back": "le petit-déjeuner"
+        },
+        {
+          "front": "I have breakfast at seven.",
+          "back": "Je prends le petit-déjeuner à sept heures."
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "levels": [
+        {
+          "front": "lunch",
+          "back": "le déjeuner"
+        },
+        {
+          "front": "We have lunch at two.",
+          "back": "On déjeune à deux heures."
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "levels": [
+        {
+          "front": "dinner",
+          "back": "le dîner"
+        },
+        {
+          "front": "Dinner is ready.",
+          "back": "Le dîner est prêt."
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "levels": [
+        {
+          "front": "snack",
+          "back": "le goûter / le snack",
+          "grammarNote": "Le goûter specifically refers to the afternoon snack (around 4pm), a French institution especially for children. For a general snack at any time, un snack or un encas is more common among adults."
+        },
+        {
+          "front": "I have a snack in the afternoon.",
+          "back": "Je prends un goûter l'après-midi."
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "levels": [
+        {
+          "front": "meal",
+          "back": "le repas"
+        },
+        {
+          "front": "This is a delicious meal.",
+          "back": "C'est un repas délicieux."
+        }
+      ]
+    },
+    {
+      "id": "recipe",
+      "levels": [
+        {
+          "front": "recipe",
+          "back": "la recette"
+        },
+        {
+          "front": "Do you have a good recipe?",
+          "back": "Tu as une bonne recette ?"
+        }
+      ]
+    },
+    {
+      "id": "flavor",
+      "levels": [
+        {
+          "front": "flavor",
+          "back": "la saveur / le goût"
+        },
+        {
+          "front": "What flavor do you want?",
+          "back": "Quel goût tu veux ?"
+        }
+      ]
+    },
+    {
+      "id": "ingredient",
+      "levels": [
+        {
+          "front": "ingredient",
+          "back": "l'ingrédient (masc.)"
+        },
+        {
+          "front": "What ingredients do you need?",
+          "back": "De quels ingrédients tu as besoin ?"
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "levels": [
+        {
+          "front": "menu",
+          "back": "la carte / le menu",
+          "grammarNote": "La carte = the full menu with all choices. Le menu in France usually means a set-price meal (entrée + plat + dessert). Always ask for 'la carte' if you want to order freely from individual dishes."
+        },
+        {
+          "front": "Can I see the menu?",
+          "back": "Je peux voir la carte ?"
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "levels": [
+        {
+          "front": "restaurant",
+          "back": "le restaurant"
+        },
+        {
+          "front": "This restaurant is good.",
+          "back": "Ce restaurant est bien."
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "levels": [
+        {
+          "front": "kitchen",
+          "back": "la cuisine"
+        },
+        {
+          "front": "The kitchen is clean.",
+          "back": "La cuisine est propre."
+        }
+      ]
+    },
+    {
+      "id": "oven",
+      "levels": [
+        {
+          "front": "oven",
+          "back": "le four"
+        },
+        {
+          "front": "The oven is hot.",
+          "back": "Le four est chaud."
+        }
+      ]
+    },
+    {
+      "id": "stove",
+      "levels": [
+        {
+          "front": "stove",
+          "back": "la cuisinière / les plaques"
+        },
+        {
+          "front": "Cook it on the stove.",
+          "back": "Faites-le cuire sur les plaques."
+        }
+      ]
+    },
+    {
+      "id": "knife",
+      "levels": [
+        {
+          "front": "knife",
+          "back": "le couteau"
+        },
+        {
+          "front": "I need a sharp knife.",
+          "back": "J'ai besoin d'un couteau bien aiguisé."
+        }
+      ]
+    },
+    {
+      "id": "fork",
+      "levels": [
+        {
+          "front": "fork",
+          "back": "la fourchette"
+        },
+        {
+          "front": "Can I have a fork?",
+          "back": "Je peux avoir une fourchette ?"
+        }
+      ]
+    },
+    {
+      "id": "spoon",
+      "levels": [
+        {
+          "front": "spoon",
+          "back": "la cuillère"
+        },
+        {
+          "front": "I need a spoon.",
+          "back": "J'ai besoin d'une cuillère."
+        }
+      ]
+    },
+    {
+      "id": "plate",
+      "levels": [
+        {
+          "front": "plate",
+          "back": "l'assiette (fem.)"
+        },
+        {
+          "front": "The plate is dirty.",
+          "back": "L'assiette est sale."
+        }
+      ]
+    },
+    {
+      "id": "bowl",
+      "levels": [
+        {
+          "front": "bowl",
+          "back": "le bol"
+        },
+        {
+          "front": "Fill the bowl with soup.",
+          "back": "Remplis le bol de soupe."
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "levels": [
+        {
+          "front": "glass",
+          "back": "le verre"
+        },
+        {
+          "front": "A glass of water, please.",
+          "back": "Un verre d'eau, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "bottle",
+      "levels": [
+        {
+          "front": "bottle",
+          "back": "la bouteille"
+        },
+        {
+          "front": "A bottle of wine, please.",
+          "back": "Une bouteille de vin, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "levels": [
+        {
+          "front": "table",
+          "back": "la table"
+        },
+        {
+          "front": "Our table is ready.",
+          "back": "Notre table est prête."
+        }
+      ]
+    },
+    {
+      "id": "waiter",
+      "levels": [
+        {
+          "front": "waiter",
+          "back": "le serveur / la serveuse"
+        },
+        {
+          "front": "Waiter, the bill please.",
+          "back": "Monsieur, l'addition s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "hungry",
+      "levels": [
+        {
+          "front": "hungry",
+          "back": "avoir faim",
+          "grammarNote": "French uses avoir (to have) for hunger and thirst: avoir faim = to be hungry, avoir soif = to be thirsty. Also: avoir froid/chaud (to be cold/hot), avoir peur (to be afraid). These sensations are expressed as 'having' something, not 'being' something — never 'être faim'."
+        },
+        {
+          "front": "I'm hungry. Are you thirsty?",
+          "back": "J'ai faim. Tu as soif ?"
+        }
+      ]
+    },
+    {
+      "id": "thirsty",
+      "levels": [
+        {
+          "front": "thirsty",
+          "back": "avoir soif"
+        },
+        {
+          "front": "I'm thirsty.",
+          "back": "J'ai soif."
+        }
+      ]
+    },
+    {
+      "id": "eat",
+      "levels": [
+        {
+          "front": "eat",
+          "back": "manger"
+        },
+        {
+          "front": "Let's eat!",
+          "back": "On mange !"
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "levels": [
+        {
+          "front": "drink",
+          "back": "boire"
+        },
+        {
+          "front": "Would you like something to drink?",
+          "back": "Tu veux quelque chose à boire ?"
+        }
+      ]
+    },
+    {
+      "id": "cook",
+      "levels": [
+        {
+          "front": "cook",
+          "back": "cuisiner / faire la cuisine"
+        },
+        {
+          "front": "She cooks very well.",
+          "back": "Elle cuisine très bien."
+        }
+      ]
+    },
+    {
+      "id": "bake",
+      "levels": [
+        {
+          "front": "bake",
+          "back": "faire cuire au four"
+        },
+        {
+          "front": "I bake bread on Sundays.",
+          "back": "Je fais cuire du pain au four le dimanche."
+        }
+      ]
+    },
+    {
+      "id": "fry",
+      "levels": [
+        {
+          "front": "fry",
+          "back": "frire / faire revenir"
+        },
+        {
+          "front": "Fry the onions in oil.",
+          "back": "Faites revenir les oignons dans l'huile."
+        }
+      ]
+    },
+    {
+      "id": "roast",
+      "levels": [
+        {
+          "front": "roast",
+          "back": "rôtir / faire rôtir"
+        },
+        {
+          "front": "Roast the chicken for one hour.",
+          "back": "Faites rôtir le poulet pendant une heure."
+        }
+      ]
+    },
+    {
+      "id": "chop",
+      "levels": [
+        {
+          "front": "chop",
+          "back": "couper / hacher"
+        },
+        {
+          "front": "Chop the onions.",
+          "back": "Hachez les oignons."
+        }
+      ]
+    },
+    {
+      "id": "slice",
+      "levels": [
+        {
+          "front": "slice",
+          "back": "couper en tranches / trancher"
+        },
+        {
+          "front": "Slice the bread.",
+          "back": "Tranchez le pain."
+        }
+      ]
+    },
+    {
+      "id": "mix",
+      "levels": [
+        {
+          "front": "mix",
+          "back": "mélanger"
+        },
+        {
+          "front": "Mix all the ingredients.",
+          "back": "Mélangez tous les ingrédients."
+        }
+      ]
+    },
+    {
+      "id": "stir",
+      "levels": [
+        {
+          "front": "stir",
+          "back": "remuer / mélanger"
+        },
+        {
+          "front": "Stir the soup.",
+          "back": "Remuez la soupe."
+        }
+      ]
+    },
+    {
+      "id": "whisk",
+      "levels": [
+        {
+          "front": "whisk",
+          "back": "fouetter / battre"
+        },
+        {
+          "front": "Whisk the eggs.",
+          "back": "Battez les œufs."
+        }
+      ]
+    },
+    {
+      "id": "pour",
+      "levels": [
+        {
+          "front": "pour",
+          "back": "verser"
+        },
+        {
+          "front": "Pour the water into the glass.",
+          "back": "Versez l'eau dans le verre."
+        }
+      ]
+    },
+    {
+      "id": "serve",
+      "levels": [
+        {
+          "front": "serve",
+          "back": "servir"
+        },
+        {
+          "front": "The waiter served the food.",
+          "back": "Le serveur a servi la nourriture."
+        }
+      ]
+    },
+    {
+      "id": "feed",
+      "levels": [
+        {
+          "front": "feed",
+          "back": "nourrir / donner à manger"
+        },
+        {
+          "front": "She feeds the baby.",
+          "back": "Elle donne à manger au bébé."
+        }
+      ]
+    },
+    {
+      "id": "dine",
+      "levels": [
+        {
+          "front": "dine",
+          "back": "dîner / déjeuner"
+        },
+        {
+          "front": "We dined at a nice restaurant.",
+          "back": "On a dîné dans un beau restaurant."
+        }
+      ]
+    },
+    {
+      "id": "chew",
+      "levels": [
+        {
+          "front": "chew",
+          "back": "mâcher"
+        },
+        {
+          "front": "Chew your food slowly.",
+          "back": "Mâche ta nourriture lentement."
+        }
+      ]
+    },
+    {
+      "id": "swallow",
+      "levels": [
+        {
+          "front": "swallow",
+          "back": "avaler"
+        },
+        {
+          "front": "Swallow the pill with water.",
+          "back": "Avalez le comprimé avec de l'eau."
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "levels": [
+        {
+          "front": "season",
+          "back": "assaisonner"
+        },
+        {
+          "front": "Season with salt and pepper.",
+          "back": "Assaisonnez avec du sel et du poivre."
+        }
+      ]
+    },
+    {
+      "id": "fresh",
+      "levels": [
+        {
+          "front": "fresh",
+          "back": "frais / fraîche"
+        },
+        {
+          "front": "The bread is fresh.",
+          "back": "Le pain est frais."
+        }
+      ]
+    },
+    {
+      "id": "ripe",
+      "levels": [
+        {
+          "front": "ripe",
+          "back": "mûr / mûre"
+        },
+        {
+          "front": "The tomatoes are ripe.",
+          "back": "Les tomates sont mûres."
+        }
+      ]
+    },
+    {
+      "id": "cooked",
+      "levels": [
+        {
+          "front": "cooked",
+          "back": "cuit / cuite"
+        },
+        {
+          "front": "Is the chicken cooked?",
+          "back": "Le poulet est cuit ?"
+        }
+      ]
+    },
+    {
+      "id": "hot",
+      "levels": [
+        {
+          "front": "hot",
+          "back": "chaud / chaude"
+        },
+        {
+          "front": "Be careful, the soup is hot.",
+          "back": "Attention, la soupe est chaude."
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "levels": [
+        {
+          "front": "cold",
+          "back": "froid / froide"
+        },
+        {
+          "front": "My coffee is cold.",
+          "back": "Mon café est froid."
+        }
+      ]
+    },
+    {
+      "id": "sweet",
+      "levels": [
+        {
+          "front": "sweet",
+          "back": "sucré / sucrée"
+        },
+        {
+          "front": "This cake is very sweet.",
+          "back": "Ce gâteau est très sucré."
+        }
+      ]
+    },
+    {
+      "id": "sour",
+      "levels": [
+        {
+          "front": "sour",
+          "back": "aigre / acide"
+        },
+        {
+          "front": "This lemon is sour.",
+          "back": "Ce citron est acide."
+        }
+      ]
+    },
+    {
+      "id": "bitter",
+      "levels": [
+        {
+          "front": "bitter",
+          "back": "amer / amère"
+        },
+        {
+          "front": "This coffee is bitter.",
+          "back": "Ce café est amer."
+        }
+      ]
+    },
+    {
+      "id": "spicy",
+      "levels": [
+        {
+          "front": "spicy",
+          "back": "épicé / épicée / piquant"
+        },
+        {
+          "front": "Mexican food is often spicy.",
+          "back": "La cuisine mexicaine est souvent épicée."
+        }
+      ]
+    },
+    {
+      "id": "tender",
+      "levels": [
+        {
+          "front": "tender",
+          "back": "tendre"
+        },
+        {
+          "front": "The meat is tender.",
+          "back": "La viande est tendre."
+        }
+      ]
+    },
+    {
+      "id": "delicious",
+      "levels": [
+        {
+          "front": "delicious",
+          "back": "délicieux / délicieuse"
+        },
+        {
+          "front": "This is delicious!",
+          "back": "C'est délicieux !"
+        }
+      ]
+    },
+    {
+      "id": "tasty",
+      "levels": [
+        {
+          "front": "tasty",
+          "back": "savoureux / savoureuse"
+        },
+        {
+          "front": "The soup is very tasty.",
+          "back": "La soupe est très savoureuse."
+        }
+      ]
+    },
+    {
+      "id": "bland",
+      "levels": [
+        {
+          "front": "bland",
+          "back": "fade / sans goût"
+        },
+        {
+          "front": "The rice is bland.",
+          "back": "Le riz est fade."
+        }
+      ]
+    },
+    {
+      "id": "healthy",
+      "levels": [
+        {
+          "front": "healthy",
+          "back": "sain / saine / bon pour la santé"
+        },
+        {
+          "front": "Fruit is healthy.",
+          "back": "Les fruits sont bons pour la santé."
+        }
+      ]
+    },
+    {
+      "id": "unhealthy",
+      "levels": [
+        {
+          "front": "unhealthy",
+          "back": "mauvais pour la santé / malsain"
+        },
+        {
+          "front": "Fast food is unhealthy.",
+          "back": "La restauration rapide est mauvaise pour la santé."
+        }
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "levels": [
+        {
+          "front": "vegetarian",
+          "back": "végétarien / végétarienne"
+        },
+        {
+          "front": "I am vegetarian.",
+          "back": "Je suis végétarien(ne)."
+        }
+      ]
+    },
+    {
+      "id": "vegan",
+      "levels": [
+        {
+          "front": "vegan",
+          "back": "vegan / végétalien(ne)"
+        },
+        {
+          "front": "She is vegan.",
+          "back": "Elle est vegan."
+        }
+      ]
+    },
+    {
+      "id": "frozen",
+      "levels": [
+        {
+          "front": "frozen",
+          "back": "congelé / congelée / surgelé"
+        },
+        {
+          "front": "Take the frozen food out.",
+          "back": "Sors la nourriture surgelée."
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "levels": [
+        {
+          "front": "organic",
+          "back": "bio / biologique"
+        },
+        {
+          "front": "I prefer organic vegetables.",
+          "back": "Je préfère les légumes bio."
+        }
+      ]
+    },
+    {
+      "id": "homemade",
+      "levels": [
+        {
+          "front": "homemade",
+          "back": "fait maison"
+        },
+        {
+          "front": "I love homemade bread.",
+          "back": "J'adore le pain fait maison."
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "levels": [
+        {
+          "front": "daily",
+          "back": "quotidien / tous les jours"
+        },
+        {
+          "front": "I eat fruit daily.",
+          "back": "Je mange des fruits tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "almost",
+      "levels": [
+        {
+          "front": "almost",
+          "back": "presque"
+        },
+        {
+          "front": "Lunch is almost ready.",
+          "back": "Le déjeuner est presque prêt."
+        }
+      ]
+    },
+    {
+      "id": "too_too_much",
+      "levels": [
+        {
+          "front": "too (too much)",
+          "back": "trop"
+        },
+        {
+          "front": "There is too much salt.",
+          "back": "Il y a trop de sel."
+        }
+      ]
+    }
   ]
 }
