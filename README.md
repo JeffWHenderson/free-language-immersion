@@ -1,12 +1,14 @@
-# World Wide Jeff — Frontend
+# Free Immersion
 
-React + TypeScript + Vite. All the course data is static JSON in `public/languages/` — no backend, no API.
+React + TypeScript + Vite PWA. All course data is static JSON in `public/languages/` — no backend, no API. Progress is stored in `localStorage`.
 
 ## Running locally
 
 ```bash
-yarn        # install dependencies
-yarn dev    # http://localhost:5173
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production build (JSON minified, PWA service worker generated)
+npm run preview  # preview production build locally
 ```
 
 ---
@@ -14,230 +16,180 @@ yarn dev    # http://localhost:5173
 ## Project structure
 
 ```
-apps/frontend/
-├── public/
-│   └── languages/
-│       ├── arabic/
-│       ├── chinese/
-│       ├── japanese/
-│       └── spanish/
-│           ├── <topic>.json                       # SRS deck file (e.g. everyday_phrases.json)
-│           ├── <topic>/
-│           │   └── stories/
-│           │       └── <story>.json               # story files for the SRS story reader
-│           ├── modules/
-│           │   └── <levelId>/
-│           │       ├── __wordList__.json          # printable word list
-│           │       ├── flashcards/
-│           │       │   └── <deck>.json            # flashcard sentences for the course reader
-│           │       └── stories/
-│           │           └── <story>.json           # story files for the course story reader
-│           └── pictureLessons/
-│               └── <lesson>.json
-└── src/
-    ├── common/LanguageTypes.ts                # language enum
-    ├── hooks/useLanguage.tsx                  # TTS voice selection (older components)
-    ├── LanguageHome.tsx                       # home page with language buttons
-    └── pages/
-        └── srsFlashcards/
-            ├── SRSReview.tsx                  # SRS flashcard component (getVoice here too)
-            └── SRSStoryReader.tsx             # SRS story reader (getVoice here too)
-```
----
+public/
+├── picture_lessons/
+│   └── <name>.jpg                              # shared background images for picture lessons
+└── languages/
+    └── <language>/
+        ├── <deck>/
+        │   ├── index.json                      # SRS deck definition
+        │   ├── stories/
+        │   │   └── <story>.json                # story files
+        │   ├── grammar/
+        │   │   └── <grammarId>.json            # grammar review card deck
+        │   └── picture_lessons/
+        │       └── <lessonId>.json             # picture lesson metadata
+        └── grammar/
+            └── <grammarId>.html                # grammar explanation page (HTML)
 
-## Adding a new language
-
-### 1. Register the language in code (4 places)
-
-**`src/common/LanguageTypes.ts`** — add to the enum:
-```ts
-export enum AvailableLanguages {
-    arabic = "arabic",
-    chinese = "chinese",
-    // add your language here
-}
+src/
+├── pages/
+│   ├── SRSHome/        # deck list with study counts
+│   ├── SRSReview/      # spaced repetition flashcard session
+│   ├── SRSBrowse/      # browse/hide individual cards
+│   ├── SRSStoryList/   # story browser
+│   ├── SRSStoryReader/ # sentence-by-sentence story reader
+│   ├── SRSPictureList/ # picture lesson browser
+│   ├── SRSPictureLesson/ # interactive picture lesson
+│   ├── GrammarList/    # grammar topic list for a deck
+│   ├── GrammarLesson/  # grammar explanation (HTML)
+│   └── GrammarReview/  # grammar-themed SRS review session
+└── hooks/
+    └── useLanguage.tsx # TTS voice selection per language
 ```
 
-**`src/LanguageHome.tsx`** — add a button:
-```tsx
-<button className="lang-course-btn" onClick={() => navigate('french')}>
-    French Course →
-</button>
-```
-
-**`src/hooks/useLanguage.tsx`** — add voice selection (used by older components):
-```ts
-if (selectedLanguage == "french") {
-    selectedVoice = voices.find(v => v.lang.startsWith("fr-"));
-}
-```
-
-**`src/pages/srsFlashcards/SRSReview.tsx`** and **`SRSStoryReader.tsx`** — add a matching block to `getVoice()` in each file:
-```ts
-if (lang === "french") {
-    return voices.find(v => v.lang.startsWith("fr-")) ?? undefined;
-}
-```
-
-To find the right voice lang code, open your browser console and run:
-```js
-speechSynthesis.getVoices().map(v => `${v.name} — ${v.lang}`)
-```
-
-### 2. Create the data files
-
-Create `public/languages/<language>/` and add the files below. Use an existing language folder (e.g. `arabic`) as a reference.
-
-**Minimum required files:**
-
-```
-public/languages/<language>/
-├── course.json
-├── everyday_phrases.json
-└── modules/
-    └── everydayPhrases/
-        ├── __wordList__.json
-        ├── flashcards/
-        │   └── everyday_phrases.json
-        └── stories/
-            └── meet_jeff.json
-```
-
-Add more topic folders by following the same pattern. See the existing languages for naming conventions (`foodAndDrink`, `commonPlaces`, `humanBody`, `jobsAndHobbies`, `moodsAndEmotion`).
+Available decks (same IDs across all languages):
+- `everyday_phrases`, `food_and_drink`, `common_places`, `jobs_and_hobbies`, `moods_and_emotion`, `human_body`
 
 ---
 
 ## Data formats
 
-### SRS deck file (`<topic>.json` at the root)
-
-Used by the spaced repetition review system. Each card has 1–2 levels: level 0 is a single word/phrase, level 1 is a full example sentence using it.
+### Deck file (`<deck>/index.json`)
 
 ```json
 {
     "id": "everyday_phrases",
     "name": "Everyday Phrases",
-    "language": "french",
+    "language": "spanish",
     "stories": ["meet_jeff", "meet_seth"],
-    "pictureLessons": [],
+    "pictureLessons": ["everyday_phrases_01"],
+    "grammarLessons": [
+        { "id": "past_tense", "name": "Past Tense" }
+    ],
     "cards": [
         {
-            "id": "fr_ep_001",
+            "id": "hello",
             "levels": [
-                {
-                    "front": "hello",
-                    "back": "bonjour",
-                    "romanized": "bohn-ZHOOR"
-                },
-                {
-                    "front": "Hello, how are you?",
-                    "back": "Bonjour, comment allez-vous ?",
-                    "grammarNote": "Comment allez-vous is formal. With friends say 'ça va ?'"
-                }
+                { "front": "hello", "back": "hola" },
+                { "front": "Hello, how are you?", "back": "Hola, ¿cómo estás?", "grammarNote": "¿cómo estás? is informal; ¿cómo está usted? is formal." }
             ]
         }
     ]
 }
 ```
 
-- `id` — unique string, used to build file paths (keep it snake_case matching the filename)
-- `stories` — list of story filenames available in the SRS story reader for this deck
-- `romanized` — optional, shown in red below the target language (useful for non-Latin scripts)
-- `grammarNote` — optional, shown on the card when expanded
+- `stories` — list of story IDs available for this deck (filenames without `.json`)
+- `pictureLessons` — list of picture lesson IDs for this deck
+- `grammarLessons` — list of `{ id, name }` grammar topics for this deck
+- Each card has 1–2 levels: level 0 is word/phrase, level 1 is a full example sentence
+- `romanized` — optional on any level, shown below the target language (useful for non-Latin scripts)
+- `grammarNote` — optional on any level, shown as an expandable note after flipping the card
+- `literal` — optional on any level, word-for-word translation shown on the front of the card
 
----
-
-### Flashcard sentences file (`modules/<levelId>/flashcards/<name>.json`)
-
-Used by the course-view flashcard reader (`FlashCardsV2`). Simpler than the SRS format — just a flat list of sentences.
-
-```json
-{
-    "sentences": [
-        {
-            "base_language": "Hello, how are you?",
-            "target_language": "Bonjour, comment allez-vous ?",
-            "romanized": "bohn-ZHOOR, koh-mahn tah-lay VOO"
-        },
-        {
-            "base_language": "My name is Jeff.",
-            "target_language": "Je m'appelle Jeff.",
-            "grammarNote": "m'appelle is a reflexive verb — literally 'I call myself'."
-        }
-    ]
-}
-```
-
----
-
-### Word list file (`modules/<levelId>/__wordList__.json`)
-
-A flat array used for the printable word list view. No nesting.
-
-```json
-[
-    { "base_language": "hello", "target_language": "bonjour", "romanized": "bohn-ZHOOR" },
-    { "base_language": "thank you", "target_language": "merci" }
-]
-```
-
-`romanized` is optional.
-
----
-
-### Story file (`modules/<levelId>/stories/<name>.json` and `<topic>/stories/<name>.json`)
-
-Stories live in **two places** (same content, different paths) so they work in both the course view and the SRS story reader:
-- Course view: `modules/<levelId>/stories/<name>.json`
-- SRS reader: `<topic>/stories/<name>.json`
+### Story file (`<deck>/stories/<story>.json`)
 
 ```json
 {
     "id": "meet_jeff",
     "name": "Meet Jeff",
-    "difficulty": "easy",
     "sentences": [
+        { "base_language": "Hi, I'm Jeff.", "target_language": "Hola, soy Jeff." },
+        { "base_language": "I like learning languages.", "target_language": "Me gusta aprender idiomas.", "romanized": "...", "grammarNote": "..." }
+    ]
+}
+```
+
+### Grammar card deck (`<deck>/grammar/<grammarId>.json`)
+
+Same format as a regular deck file. Typically 15–20 cards themed around the grammar topic and the deck's vocabulary. Progress is stored separately from the main deck so it doesn't affect the main SRS schedule.
+
+### Picture lesson metadata (`<deck>/picture_lessons/<lessonId>.json`)
+
+```json
+{
+    "name": "Common Places",
+    "image": "/picture_lessons/common_places.jpg",
+    "dots": [
         {
-            "base_language": "What's up? I'm Jeff.",
-            "target_language": "Quoi de neuf ? Je m'appelle Jeff.",
-            "romanized": "kwah duh NUF? zhuh mah-PELL Jeff."
-        },
-        {
-            "base_language": "I like learning languages but it is very hard.",
-            "target_language": "J'aime apprendre les langues mais c'est très difficile.",
-            "grammarNote": "J'aime + infinitive = I like doing something. More natural than 'j'aime de faire'."
+            "top": "42%",
+            "left": "30%",
+            "sentences": [
+                { "base_language": "the school", "target_language": "la escuela" }
+            ]
         }
     ]
 }
 ```
 
-Optional fields per sentence: `romanized`, `grammarNote`, `literal` (word-for-word translation).
+- `image` — path to the background image in `public/picture_lessons/`
+- `dots` — hotspots positioned with `top`/`left` percentages; each has one or more sentences
+
+### Grammar explanation page (`grammar/<grammarId>.html`)
+
+A standalone HTML fragment (no `<html>`/`<body>` tags) rendered via `dangerouslySetInnerHTML`. Supports tables, inline styles, and any HTML the browser can render. Lives at the language level so one explanation can be shared across decks.
+
+---
+
+## Adding a new language
+
+### 1. Register the language in code
+
+**`src/hooks/useLanguage.tsx`** — add voice selection:
+```ts
+if (targetLanguage === "french") {
+    voice = voices.find(v => v.lang.startsWith("fr-"));
+}
+```
+
+To find the right BCP 47 lang code, open the browser console and run:
+```js
+speechSynthesis.getVoices().map(v => `${v.name} — ${v.lang}`)
+```
+
+**`src/LanguageHome.tsx`** — add a button for the new language.
+
+### 2. Create the data files
+
+Copy an existing language folder and replace the content:
+
+```
+public/languages/<language>/
+└── everyday_phrases/
+    ├── index.json
+    └── stories/
+        └── meet_jeff.json
+```
+
+Add more decks following the same pattern. All six deck IDs (`everyday_phrases`, `food_and_drink`, `common_places`, `jobs_and_hobbies`, `moods_and_emotion`, `human_body`) are loaded automatically — just create the folder and `index.json`.
+
+---
+
+## Adding a grammar lesson to a deck
+
+1. Add an entry to `grammarLessons` in `<deck>/index.json`:
+   ```json
+   "grammarLessons": [{ "id": "past_tense", "name": "Past Tense" }]
+   ```
+2. Create the card deck at `<deck>/grammar/past_tense.json` (same format as a regular deck)
+3. Optionally create a grammar explanation page at `grammar/past_tense.html` (language-level, shared across decks)
 
 ---
 
 ## Fixing a translation
 
-The filename is visible in the browser URL. For example:
+Find the file from the browser URL:
 
 ```
-/french/srs/everyday_phrases
-         └── public/languages/french/everyday_phrases.json
-
-/french/story/everydayPhrases/meet_jeff
-                  │                └── modules/everydayPhrases/stories/meet_jeff.json
-                  └── level_id from course.json
+/spanish/food_and_drink        →  public/languages/spanish/food_and_drink/index.json
+/spanish/food_and_drink/story/at_the_market  →  public/languages/spanish/food_and_drink/stories/at_the_market.json
 ```
 
-Find the file, edit the `target_language` (and `romanized` if present), save. No build step needed for data changes.
+Edit the `target_language` (and `romanized` if present). No build step needed for data changes in development.
 
 ---
 
-## Adding a new topic to an existing language
+## Build notes
 
-1. Add a new entry to `course.json` under `course_levels`
-2. Create `public/languages/<language>/modules/<levelId>/`
-3. Add `__wordList__.json`, `flashcards/<name>.json`, and any story files
-4. Add the matching SRS deck file at `public/languages/<language>/<topic>.json`
-5. Add story files at `public/languages/<language>/<topic>/stories/<name>.json` (same content as the modules stories)
-
-Use an existing topic folder as a template.
+- JSON files in `public/` are kept human-readable in source and automatically minified during `npm run build` by a custom Vite plugin before the PWA service worker is generated. Workbox precache hashes are computed on the minified files.
+- The PWA caches all assets on first visit. Subsequent visits load from cache; the service worker checks for updates in the background (stale-while-revalidate).
