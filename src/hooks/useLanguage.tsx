@@ -39,8 +39,8 @@ const useLanguage = ({
 
     useEffect(() => {
         const load = () => setVoices(window.speechSynthesis.getVoices());
-        window.speechSynthesis.onvoiceschanged = load;
-        return () => { window.speechSynthesis.onvoiceschanged = null; };
+        window.speechSynthesis.addEventListener("voiceschanged", load);
+        return () => window.speechSynthesis.removeEventListener("voiceschanged", load);
     }, []);
 
     return {

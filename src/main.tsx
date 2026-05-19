@@ -17,6 +17,7 @@ const SRSBrowse = lazy(() => import('./pages/SRSBrowse'));
 const GrammarList = lazy(() => import('./pages/GrammarList'));
 const GrammarLesson = lazy(() => import('./pages/GrammarLesson'));
 const GrammarReview = lazy(() => import('./pages/GrammarReview'));
+const ESZHReview = lazy(() => import('./pages/ESZHReview'));
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')!).render(
               <Route path=":language/:deckId/grammar" element={<GrammarList />} />
               <Route path=":language/:deckId/grammar/:grammarId" element={<GrammarLesson />} />
               <Route path=":language/:deckId/grammar/:grammarId/review" element={<GrammarReview />} />
+              <Route path="es-zh" element={<ESZHReview />} />
             </Route>
           </Routes>
         </Suspense>

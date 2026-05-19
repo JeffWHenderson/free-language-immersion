@@ -46,6 +46,25 @@
     background-color: #2471a3;
 }
 
+.lang-cross-btn {
+    flex: 1 1 160px;
+    max-width: 320px;
+    padding: 14px 20px;
+    background-color: #1a8a6e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.15s;
+}
+
+.lang-cross-btn:hover {
+    background-color: #157a60;
+}
+
 .lang-home-content h2 {
     margin-top: 28px;
     margin-bottom: 10px;

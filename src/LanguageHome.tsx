@@ -30,6 +30,12 @@ const LanguageAppHome = () => {
                 </button>
             </div>
 
+            <div className="lang-home-courses">
+                <button className="lang-cross-btn" onClick={() => navigate('es-zh')}>
+                    Spanish → Chinese Flashcards →
+                </button>
+            </div>
+
             <div className="lang-home-content">
                 <h2>What's in the app?</h2>
                 <ul>
