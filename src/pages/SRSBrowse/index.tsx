@@ -3,6 +3,7 @@ import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { CardState, isDue, isNew } from "../fsrs";
 import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, SRSDeckState } from "../useSRSStorage";
 import "../srs.css";
+import "./SRSBrowse.css";
 
 interface Card {
     id: string;

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import "../srs.css";
+import "./SRSPictureList.css";
 
 interface PictureMeta {
     id: string;
@@ -125,7 +126,7 @@ const SRSPictureList = () => {
                             <img src={picture.image} alt={picture.name} />
                         </div>
                         <div className="srs-picture-card-info">
-                            <div className="srs-story-card-deck">{picture.deckName}</div>
+                            <div className="srs-picture-card-deck">{picture.deckName}</div>
                         </div>
                     </button>
                 ))}

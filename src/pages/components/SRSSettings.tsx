@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import "./SRSSettings.css";
 import { useLanguageApp } from "../../LanguageAppContext";
 
 const SRSSettings = () => {

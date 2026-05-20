@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import "../srs.css";
+import "./SRSStoryList.css";
 
 interface StoryMeta {
     id: string;

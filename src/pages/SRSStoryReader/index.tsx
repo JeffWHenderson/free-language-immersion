@@ -4,6 +4,7 @@ import { useLanguageApp } from "../../LanguageAppContext";
 import useLanguage from "../../hooks/useLanguage";
 import SRSSettings from "../components/SRSSettings";
 import "../srs.css";
+import "./SRSStoryReader.css";
 
 interface StorySentence {
     base_language: string;

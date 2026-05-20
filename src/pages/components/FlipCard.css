@@ -1,0 +1,196 @@
+/* ── Card ── */
+.srs-card-wrap {
+    perspective: 1000px;
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 12px;
+}
+
+.srs-card {
+    width: 100%;
+    height: 310px;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.45s ease;
+}
+
+.srs-card.flipped {
+    transform: rotateY(180deg);
+    cursor: default;
+}
+
+.srs-card-front,
+.srs-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color, #111);
+    overflow: hidden;
+}
+
+.srs-card-front {
+    background-color: var(--card-color, #fff);
+}
+
+.srs-card-back {
+    background-color: var(--card-color, #fff);
+    transform: rotateY(180deg);
+}
+
+.srs-card-text {
+    font-size: 1.65rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.srs-card-text.front-dim {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--text-color, #111);
+    opacity: 0.38;
+    margin-bottom: 2px;
+}
+
+.srs-divider {
+    width: 50%;
+    border: none;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    margin: 10px 0;
+    flex-shrink: 0;
+}
+
+.srs-romanized {
+    font-size: 0.85rem;
+    color: var(--text-color, #111);
+    opacity: 0.5;
+    margin-top: 5px;
+    letter-spacing: 0.02em;
+}
+
+.srs-tap-hint {
+    position: absolute;
+    bottom: 14px;
+    font-size: 0.75rem;
+    color: var(--text-color, #111);
+    opacity: 0.3;
+}
+
+/* ── Phrase lines ── */
+.eszh-phrase {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-top: 9px;
+    opacity: 0.8;
+    max-width: 100%;
+}
+
+.eszh-phrase.front-dim {
+    opacity: 0.32;
+    font-size: 0.82rem;
+    margin-top: 3px;
+}
+
+.eszh-phrase-pin {
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    margin-top: 3px;
+    opacity: 0.45;
+}
+
+/* ── Below-card literal note ── */
+.srs-literal-note {
+    margin-top: 8px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color, #555);
+    font-style: italic;
+    opacity: 0.7;
+    padding: 6px 0px 12px 30px;
+    margin: 5px 0px 0px 30px;
+    border-left: 3px solid #e07b3a;
+    background: rgba(224, 123, 58, 0.06);
+    border-radius: 0 6px 6px 0;
+}
+
+/* ── Direction toggle controls ── */
+.eszh-controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eszh-toggle {
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    background: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: var(--text-color, #555);
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.eszh-toggle.active {
+    background-color: #1a8a6e;
+    border-color: #1a8a6e;
+    color: white;
+}
+
+.eszh-toggle:not(.active):hover {
+    border-color: rgba(128, 128, 128, 0.6);
+    color: var(--text-color, #333);
+}
+
+/* ── Grammar note ── */
+.srs-grammar-note-wrap {
+    margin-top: 14px;
+    width: 100%;
+    text-align: left;
+}
+
+.srs-grammar-note-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #888;
+    padding: 0;
+    letter-spacing: 0.02em;
+}
+
+.srs-grammar-note-toggle:hover {
+    color: var(--text-color, #333);
+}
+
+.srs-grammar-note-body {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--text-color, #333);
+    background: rgba(0, 0, 0, 0.04);
+    border-left: 3px solid #2980b9;
+    padding: 8px 12px;
+    border-radius: 0 6px 6px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .srs-grammar-note-body {
+        background: rgba(255, 255, 255, 0.06);
+    }
+}

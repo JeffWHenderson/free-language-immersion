@@ -15,6 +15,7 @@ import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
 import SRSSettings from "../components/SRSSettings";
 import "../srs.css";
+import "./SRSReview.css";
 
 interface Card {
     id: string;

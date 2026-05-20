@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { useLanguageApp } from "../../LanguageAppContext";
+import "./FlipCard.css";
 
 interface FlipCardProps {
     english: string;
@@ -22,8 +22,6 @@ const FlipCard = ({
     english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote,
     isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra,
 }: FlipCardProps) => {
-    const { showLiteral } = useLanguageApp();
-
     return (
         <div className="srs-card-wrap">
             <div
@@ -44,7 +42,6 @@ const FlipCard = ({
                             {phrase && <div className="eszh-phrase front-dim">{phrase}</div>}
                             <hr className="srs-divider" />
                             <div className="srs-card-text">{english}</div>
-                            {showLiteral && literal && <div className="srs-literal">{literal}</div>}
                             {englishPhrase && <div className="eszh-phrase">{englishPhrase}</div>}
                             {backExtra}
                         </div>
@@ -69,6 +66,11 @@ const FlipCard = ({
                     </>
                 )}
             </div>
+            {isFlipped && literal && (
+                <div className="srs-literal-note">
+                    Lit. {literal}
+                </div>
+            )}
             {isFlipped && grammarNote && (
                 <div className="srs-grammar-note-wrap" onClick={e => e.stopPropagation()}>
                     <button className="srs-grammar-note-toggle" onClick={onNoteToggle}>
