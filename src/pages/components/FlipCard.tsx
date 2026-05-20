@@ -16,10 +16,17 @@ interface FlipCardProps {
     noteOpen: boolean;
     onNoteToggle: () => void;
     backExtra?: ReactNode;
+    reversed?: boolean;
 }
 
-const FlipCard = ({ level, isFlipped, onFlip, noteOpen, onNoteToggle, backExtra }: FlipCardProps) => {
+const FlipCard = ({ level, isFlipped, onFlip, noteOpen, onNoteToggle, backExtra, reversed }: FlipCardProps) => {
     const { showLiteral } = useLanguageApp();
+
+    const frontText = reversed ? level.back : level.front;
+    const backText = reversed ? level.front : level.back;
+    const frontRomanized = reversed ? level.romanized : undefined;
+    const backRomanized = reversed ? undefined : level.romanized;
+
     return (
         <div className="srs-card-wrap">
             <div
@@ -27,21 +34,24 @@ const FlipCard = ({ level, isFlipped, onFlip, noteOpen, onNoteToggle, backExtra 
                 onClick={!isFlipped ? onFlip : undefined}
             >
                 <div className="srs-card-front">
-                    <div className="srs-card-text">{level.front}</div>
-                    {showLiteral && level.literal && (
+                    <div className="srs-card-text">{frontText}</div>
+                    {frontRomanized && <div className="srs-romanized">{frontRomanized}</div>}
+                    {!reversed && showLiteral && level.literal && (
                         <div className="srs-literal">{level.literal}</div>
                     )}
                     {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
                 </div>
                 <div className="srs-card-back">
-                    <div className="srs-card-text front-dim">{level.front}</div>
-                    {showLiteral && level.literal && (
+                    <div className="srs-card-text front-dim">{frontText}</div>
+                    {frontRomanized && <div className="srs-romanized" style={{ opacity: 0.4 }}>{frontRomanized}</div>}
+                    {!reversed && showLiteral && level.literal && (
                         <div className="srs-literal front-dim">{level.literal}</div>
                     )}
                     <hr className="srs-divider" />
-                    <div className="srs-card-text">{level.back}</div>
-                    {level.romanized && (
-                        <div className="srs-romanized">{level.romanized}</div>
+                    <div className="srs-card-text">{backText}</div>
+                    {backRomanized && <div className="srs-romanized">{backRomanized}</div>}
+                    {reversed && showLiteral && level.literal && (
+                        <div className="srs-literal">{level.literal}</div>
                     )}
                     {backExtra}
                 </div>

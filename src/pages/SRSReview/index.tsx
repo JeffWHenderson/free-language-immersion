@@ -81,6 +81,7 @@ const SRSReview = () => {
     const [reviewed, setReviewed] = useState(0);
     const [levelUpCard, setLevelUpCard] = useState<SessionCard | null>(null);
     const [noteOpen, setNoteOpen] = useState(true);
+    const [reversed, setReversed] = useState(false);
 
     // Fast mode state
     const [fastModeIndex, setFastModeIndex] = useState(0);
@@ -102,14 +103,31 @@ const SRSReview = () => {
             .catch((e) => console.error(e));
     }, [language, deckId]);
 
+    const speakTargetSide = (card: SessionCard) => {
+        if (!readBack) return;
+        window.speechSynthesis.cancel();
+        const levelIdx = Math.min(card.cardState.level, card.levels.length - 1);
+        const targetText = card.levels[levelIdx].back;
+        if (levelIdx > 0 && card.levels[0]?.back) {
+            const wordUtt = buildUtt(card.levels[0].back, true);
+            wordUtt.onend = () => setTimeout(() =>
+                window.speechSynthesis.speak(buildUtt(targetText, true)), 450);
+            window.speechSynthesis.speak(wordUtt);
+        } else {
+            window.speechSynthesis.speak(buildUtt(targetText, true));
+        }
+    };
+
     // ── Normal mode: speak front when a new card appears ──────────────────────
     const currentCardId = session[0]?.id;
     useEffect(() => {
         if (fastMode || !currentCardId) return;
         const card = session[0];
-        if (card) speak(currentLevel(card).front, false);
+        if (!card) return;
+        if (reversed) speakTargetSide(card);
+        else speak(currentLevel(card).front, false);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [currentCardId]);
+    }, [currentCardId, reversed]);
     // ──────────────────────────────────────────────────────────────────────────
 
     // ── Fast mode: speak front then back when card changes ────────────────────
@@ -143,7 +161,9 @@ const SRSReview = () => {
     const flip = () => {
         setIsFlipped(true);
         setNoteOpen(true);
-        if (currentCard) speak(currentLevel(currentCard).back, true);
+        if (!currentCard) return;
+        if (reversed) speak(currentLevel(currentCard).front, false);
+        else speakTargetSide(currentCard);
     };
 
     const advanceSession = (
@@ -336,6 +356,9 @@ const SRSReview = () => {
     }
 
     const level = currentLevel(currentCard);
+    const langLabel = language
+        ? language.charAt(0).toUpperCase() + language.slice(1)
+        : "Target";
 
     return (
         <div className="srs-container">
@@ -345,6 +368,21 @@ const SRSReview = () => {
                 </button>
                 <span className="srs-deck-name">{deck.name}</span>
                 <SRSSettings />
+            </div>
+
+            <div className="eszh-controls">
+                <button
+                    className={`eszh-toggle ${!reversed ? "active" : ""}`}
+                    onClick={() => { setReversed(false); setIsFlipped(false); setNoteOpen(true); }}
+                >
+                    EN → {langLabel}
+                </button>
+                <button
+                    className={`eszh-toggle ${reversed ? "active" : ""}`}
+                    onClick={() => { setReversed(true); setIsFlipped(false); setNoteOpen(true); }}
+                >
+                    {langLabel} → EN
+                </button>
             </div>
 
             <div className="srs-progress-bar-wrap">
@@ -365,6 +403,7 @@ const SRSReview = () => {
                 onFlip={flip}
                 noteOpen={noteOpen}
                 onNoteToggle={() => setNoteOpen(o => !o)}
+                reversed={reversed}
                 backExtra={hasNextLevel(currentCard) ? (
                     <div className="srs-levelup-hint">
                         <span>
