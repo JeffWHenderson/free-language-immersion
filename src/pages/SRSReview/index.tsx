@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { applyRating, CardState, isDue, isNew, levelUpState, previewIntervals, LEVEL_UP_REPS, Rating } from "../fsrs";
+import { applyRating, CardState, isDue, isNew, previewIntervals, Rating } from "../fsrs";
 import { useLanguageApp } from "../../LanguageAppContext";
 import {
     loadDeckState,
@@ -12,14 +12,21 @@ import {
 } from "../useSRSStorage";
 import { useSpeech } from "../../hooks/useSpeech";
 import { shuffled } from "../../utils";
-import FlipCard, { CardLevel } from "../components/FlipCard";
+import FlipCard from "../components/FlipCard";
 import SRSSettings from "../components/SRSSettings";
 import "../srs.css";
 
 interface Card {
     id: string;
     hidden?: boolean;
-    levels: CardLevel[];
+    english: string;
+    word: string;
+    romanized?: string;
+    grammarNote?: string;
+    englishPhrase?: string;
+    phrase?: string;
+    phraseRomanized?: string;
+    literal?: string;
 }
 
 interface DeckData {
@@ -29,42 +36,26 @@ interface DeckData {
     cards: Card[];
 }
 
-type SessionCard = Card & { cardState: CardState; isAgain?: boolean };
+type SessionCard = Card & { cardState: CardState };
 
 function buildSession(cards: Card[], deckState: SRSDeckState, shuffle: boolean): SessionCard[] {
-    const due: SessionCard[] = [];      // graduated (interval > 1), most overdue first
-    const learn: SessionCard[] = [];    // short interval (≤ 1 day)
-    const newWords: SessionCard[] = []; // never seen, level 0
-    const newPhrases: SessionCard[] = []; // never seen, level 1+
+    const due: SessionCard[] = [];
+    const learn: SessionCard[] = [];
+    const newCards: SessionCard[] = [];
 
     for (const card of cards) {
         if (isCardHidden(card, deckState)) continue;
         const state = getCardState(deckState, card.id);
         if (isNew(state)) {
-            (state.level === 0 ? newWords : newPhrases).push({ ...card, cardState: state });
+            newCards.push({ ...card, cardState: state });
         } else if (isDue(state)) {
             (state.state === "review" ? due : learn).push({ ...card, cardState: state });
         }
     }
 
-    // Anki order: due (most overdue first) → learn → new words → new phrases
     due.sort((a, b) => a.cardState.dueDate.localeCompare(b.cardState.dueDate));
-
-    const groups = [due, learn, newWords, newPhrases];
-    return groups.flatMap(g => shuffle ? shuffled(g) : g);
+    return [due, learn, newCards].flatMap(g => shuffle ? shuffled(g) : g);
 }
-
-function currentLevel(card: Card & { cardState: CardState }): CardLevel {
-    const idx = Math.min(card.cardState.level, card.levels.length - 1);
-    return card.levels[idx];
-}
-
-function hasNextLevel(card: SessionCard): boolean {
-    return card.cardState.level < card.levels.length - 1;
-}
-
-const LEVEL_NAMES = ["Vocabulary", "Phrase"];
-
 
 const SRSReview = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
@@ -73,20 +64,23 @@ const SRSReview = () => {
     const [deck, setDeck] = useState<DeckData | null>(null);
     const [deckState, setDeckState] = useState<SRSDeckState>({});
     const [session, setSession] = useState<SessionCard[]>([]);
-    const [currentIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
-    const { readFront, readBack, fastMode, showLiteral, shuffleCards } = useLanguageApp();
+    const { readBack, fastMode, showLiteral, shuffleCards } = useLanguageApp();
     const [done, setDone] = useState(false);
     const [totalCards, setTotalCards] = useState(0);
     const [reviewed, setReviewed] = useState(0);
-    const [levelUpCard, setLevelUpCard] = useState<SessionCard | null>(null);
     const [noteOpen, setNoteOpen] = useState(true);
     const [reversed, setReversed] = useState(false);
 
-    // Fast mode state
     const [fastModeIndex, setFastModeIndex] = useState(0);
 
     const { buildUtt, speak } = useSpeech(language);
+    const ttsGenRef = useRef(0);
+
+    const cancelTts = () => {
+        ttsGenRef.current += 1;
+        window.speechSynthesis.cancel();
+    };
 
     useEffect(() => {
         if (!language || !deckId) return;
@@ -105,47 +99,48 @@ const SRSReview = () => {
 
     const speakTargetSide = (card: SessionCard) => {
         if (!readBack) return;
+        const gen = ++ttsGenRef.current;
         window.speechSynthesis.cancel();
-        const levelIdx = Math.min(card.cardState.level, card.levels.length - 1);
-        const targetText = card.levels[levelIdx].back;
-        if (levelIdx > 0 && card.levels[0]?.back) {
-            const wordUtt = buildUtt(card.levels[0].back, true);
-            wordUtt.onend = () => setTimeout(() =>
-                window.speechSynthesis.speak(buildUtt(targetText, true)), 450);
-            window.speechSynthesis.speak(wordUtt);
-        } else {
-            window.speechSynthesis.speak(buildUtt(targetText, true));
+        const wordUtt = buildUtt(card.word, true);
+        if (card.phrase) {
+            wordUtt.onend = () => {
+                if (ttsGenRef.current !== gen) return;
+                setTimeout(() => {
+                    if (ttsGenRef.current !== gen) return;
+                    window.speechSynthesis.speak(buildUtt(card.phrase!, true));
+                }, 450);
+            };
         }
+        window.speechSynthesis.speak(wordUtt);
     };
 
-    // ── Normal mode: speak front when a new card appears ──────────────────────
+    // Speak front on new card or direction toggle
     const currentCardId = session[0]?.id;
     useEffect(() => {
         if (fastMode || !currentCardId) return;
         const card = session[0];
         if (!card) return;
         if (reversed) speakTargetSide(card);
-        else speak(currentLevel(card).front, false);
+        else speak(card.english, false);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentCardId, reversed]);
-    // ──────────────────────────────────────────────────────────────────────────
 
-    // ── Fast mode: speak front then back when card changes ────────────────────
+    // ── Fast mode ─────────────────────────────────────────────────────────────
     useEffect(() => {
         if (!fastMode || !deck) return;
         window.speechSynthesis.cancel();
         const visibleCards = deck.cards.filter(c => !isCardHidden(c, deckState));
         if (visibleCards.length === 0) return;
         const card = visibleCards[fastModeIndex % visibleCards.length];
-        const level = currentLevel({ ...card, cardState: getCardState(deckState, card.id) });
+        const { readFront } = { readFront: true }; // fast mode always reads both
         if (readFront) {
-            const frontUtt = buildUtt(level.front, false);
+            const frontUtt = buildUtt(card.english, false);
             frontUtt.onend = () => {
-                if (readBack) setTimeout(() => window.speechSynthesis.speak(buildUtt(level.back, true)), 500);
+                setTimeout(() => window.speechSynthesis.speak(buildUtt(card.word, true)), 500);
             };
             window.speechSynthesis.speak(frontUtt);
-        } else if (readBack) {
-            window.speechSynthesis.speak(buildUtt(level.back, true));
+        } else {
+            window.speechSynthesis.speak(buildUtt(card.word, true));
         }
         return () => window.speechSynthesis.cancel();
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -154,22 +149,20 @@ const SRSReview = () => {
     useEffect(() => {
         if (!fastMode) window.speechSynthesis.cancel();
     }, [fastMode]);
-    // ──────────────────────────────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────────────────
 
-    const currentCard = session[currentIndex];
+    const currentCard = session[0];
 
     const flip = () => {
         setIsFlipped(true);
         setNoteOpen(true);
         if (!currentCard) return;
-        if (reversed) speak(currentLevel(currentCard).front, false);
+        cancelTts();
+        if (reversed) speak(currentCard.english, false);
         else speakTargetSide(currentCard);
     };
 
-    const advanceSession = (
-        nextSession: SessionCard[],
-        updatedDeckState: SRSDeckState
-    ) => {
+    const advanceSession = (nextSession: SessionCard[], updatedDeckState: SRSDeckState) => {
         setSession(nextSession);
         setDeckState(updatedDeckState);
         if (language && deckId) saveDeckState(language, deckId, updatedDeckState);
@@ -180,66 +173,28 @@ const SRSReview = () => {
 
     const rate = (rating: Rating) => {
         if (!deck || !currentCard || !language || !deckId) return;
-
         const newState = applyRating(currentCard.cardState, rating);
         setReviewed((r) => r + 1);
 
-        const willLevelUp =
-            rating >= 3 &&
-            newState.reps >= LEVEL_UP_REPS &&
-            hasNextLevel(currentCard);
+        const next = [...session];
+        next.splice(0, 1);
 
         if (rating === 1) {
-            const updatedCard: SessionCard = { ...currentCard, cardState: newState, isAgain: true };
-            const next = [...session];
-            next.splice(currentIndex, 1);
-            const insertAt = Math.min(currentIndex + 5, next.length);
+            const updatedCard: SessionCard = { ...currentCard, cardState: newState };
+            const insertAt = Math.min(5, next.length);
             next.splice(insertAt, 0, updatedCard);
             setTotalCards((t) => t + 1);
-            const updated = updateCardState(deckState, currentCard.id, newState);
-            advanceSession(next, updated);
-        } else if (willLevelUp) {
-            const leveledState = levelUpState(newState);
-            const updated = updateCardState(deckState, currentCard.id, leveledState);
-            saveDeckState(language, deckId, updated);
-            setDeckState(updated);
-            setLevelUpCard({ ...currentCard, cardState: leveledState });
-            const next = [...session];
-            next.splice(currentIndex, 1);
-            setSession(next);
-        } else {
-            const next = [...session];
-            next.splice(currentIndex, 1);
-            const updated = updateCardState(deckState, currentCard.id, newState);
-            advanceSession(next, updated);
         }
-    };
 
-    const upgradeNow = () => {
-        if (!deck || !currentCard || !language || !deckId) return;
-        const leveledState = levelUpState(currentCard.cardState);
-        const updated = updateCardState(deckState, currentCard.id, leveledState);
-        saveDeckState(language, deckId, updated);
-        setDeckState(updated);
-        setLevelUpCard({ ...currentCard, cardState: leveledState });
-        const next = [...session];
-        next.splice(currentIndex, 1);
-        setSession(next);
-    };
-
-    const dismissLevelUp = () => {
-        setLevelUpCard(null);
-        setIsFlipped(false);
-        if (session.length === 0) setDone(true);
+        const updated = updateCardState(deckState, currentCard.id, newState);
+        advanceSession(next, updated);
     };
 
     const remaining = session.length;
 
-    if (!deck) {
-        return <div className="srs-container"><p>Loading...</p></div>;
-    }
+    if (!deck) return <div className="srs-container"><p>Loading...</p></div>;
 
-    // ── Fast mode view ─────────────────────────────────────────────────────────
+    // ── Fast mode view ────────────────────────────────────────────────────────
     if (fastMode) {
         const visibleCards = deck.cards.filter(c => !isCardHidden(c, deckState));
         const total = visibleCards.length;
@@ -247,9 +202,7 @@ const SRSReview = () => {
             return (
                 <div className="srs-container">
                     <div className="srs-header">
-                        <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>
-                            ← Decks
-                        </button>
+                        <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>← Decks</button>
                         <span className="srs-deck-name">{deck.name}</span>
                         <SRSSettings />
                     </div>
@@ -259,84 +212,31 @@ const SRSReview = () => {
         }
         const idx = fastModeIndex % total;
         const card = visibleCards[idx];
-        const level = currentLevel({ ...card, cardState: getCardState(deckState, card.id) });
         return (
             <div className="srs-container">
                 <div className="srs-header">
-                    <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>
-                        ← Decks
-                    </button>
+                    <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>← Decks</button>
                     <span className="srs-deck-name">{deck.name}</span>
                     <SRSSettings />
                 </div>
-
                 <div className="srs-card-wrap">
                     <div className="srs-card srs-card-fast">
-                        <div className="srs-card-text">{level.front}</div>
-                        {showLiteral && level.literal && (
-                            <div className="srs-literal">{level.literal}</div>
-                        )}
+                        <div className="srs-card-text">{card.english}</div>
+                        {showLiteral && card.literal && <div className="srs-literal">{card.literal}</div>}
                         <hr className="srs-divider" />
-                        <div className="srs-card-text">{level.back}</div>
-                        {level.romanized && (
-                            <div className="srs-romanized">{level.romanized}</div>
-                        )}
+                        <div className="srs-card-text">{card.word}</div>
+                        {card.romanized && <div className="srs-romanized">{card.romanized}</div>}
                     </div>
                 </div>
-
                 <div className="srs-fast-nav">
-                    <button
-                        className="srs-fast-nav-btn"
-                        onClick={() => setFastModeIndex(i => Math.max(0, i - 1))}
-                        disabled={idx === 0}
-                    >
-                        ← Prev
-                    </button>
+                    <button className="srs-fast-nav-btn" onClick={() => setFastModeIndex(i => Math.max(0, i - 1))} disabled={idx === 0}>← Prev</button>
                     <span className="srs-fast-counter">{idx + 1} / {total}</span>
-                    <button
-                        className="srs-fast-nav-btn"
-                        onClick={() => setFastModeIndex(i => Math.min(total - 1, i + 1))}
-                        disabled={idx === total - 1}
-                    >
-                        Next →
-                    </button>
+                    <button className="srs-fast-nav-btn" onClick={() => setFastModeIndex(i => Math.min(total - 1, i + 1))} disabled={idx === total - 1}>Next →</button>
                 </div>
             </div>
         );
     }
-    // ──────────────────────────────────────────────────────────────────────────
-
-    // Level-up banner
-    if (levelUpCard) {
-        const nextLevelName = LEVEL_NAMES[levelUpCard.cardState.level] ?? "Next Level";
-        const prevLevel = levelUpCard.levels[levelUpCard.cardState.level - 1];
-        const nextLevelContent = currentLevel(levelUpCard);
-        return (
-            <div className="srs-container">
-                <div className="srs-levelup-banner">
-                    <div className="srs-levelup-icon">⬆</div>
-                    <h2 className="srs-levelup-title">Level Up!</h2>
-                    <p className="srs-levelup-sub">
-                        You've mastered the <strong>{LEVEL_NAMES[levelUpCard.cardState.level - 1] ?? "word"}</strong> level.
-                    </p>
-                    <div className="srs-levelup-transition">
-                        <div className="srs-levelup-old">
-                            <span className="srs-levelup-badge old">{LEVEL_NAMES[levelUpCard.cardState.level - 1]}</span>
-                            <div>{prevLevel?.front}</div>
-                            <div className="srs-levelup-arrow-text">{prevLevel?.back}</div>
-                        </div>
-                        <div className="srs-levelup-arrow">→</div>
-                        <div className="srs-levelup-new">
-                            <span className="srs-levelup-badge new">{nextLevelName}</span>
-                            <div>{nextLevelContent.front}</div>
-                            <div className="srs-levelup-arrow-text">{nextLevelContent.back}</div>
-                        </div>
-                    </div>
-                    <button className="srs-btn-primary" onClick={dismissLevelUp}>Continue</button>
-                </div>
-            </div>
-        );
-    }
+    // ─────────────────────────────────────────────────────────────────────────
 
     if (done || remaining === 0) {
         return (
@@ -346,16 +246,13 @@ const SRSReview = () => {
                     <p>You reviewed {reviewed} card{reviewed !== 1 ? "s" : ""}.</p>
                     <p>Come back tomorrow to review cards that are due.</p>
                     <div className="srs-done-actions">
-                        <button className="srs-btn-primary" onClick={() => navigate(`/${language}`)}>
-                            Back to Decks
-                        </button>
+                        <button className="srs-btn-primary" onClick={() => navigate(`/${language}`)}>Back to Decks</button>
                     </div>
                 </div>
             </div>
         );
     }
 
-    const level = currentLevel(currentCard);
     const langLabel = language
         ? language.charAt(0).toUpperCase() + language.slice(1)
         : "Target";
@@ -363,9 +260,7 @@ const SRSReview = () => {
     return (
         <div className="srs-container">
             <div className="srs-header">
-                <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>
-                    ← Decks
-                </button>
+                <button className="srs-back-link" onClick={() => navigate(`/${language}`)}>← Decks</button>
                 <span className="srs-deck-name">{deck.name}</span>
                 <SRSSettings />
             </div>
@@ -398,24 +293,19 @@ const SRSReview = () => {
             </div>
 
             <FlipCard
-                level={level}
+                english={currentCard.english}
+                word={currentCard.word}
+                romanized={currentCard.romanized}
+                phrase={currentCard.phrase}
+                phraseRomanized={currentCard.phraseRomanized}
+                englishPhrase={currentCard.englishPhrase}
+                literal={currentCard.literal}
+                grammarNote={currentCard.grammarNote}
                 isFlipped={isFlipped}
                 onFlip={flip}
                 noteOpen={noteOpen}
                 onNoteToggle={() => setNoteOpen(o => !o)}
                 reversed={reversed}
-                backExtra={hasNextLevel(currentCard) ? (
-                    <div className="srs-levelup-hint">
-                        <span>
-                            {LEVEL_UP_REPS - currentCard.cardState.reps > 0
-                                ? `${LEVEL_UP_REPS - currentCard.cardState.reps} good review${LEVEL_UP_REPS - currentCard.cardState.reps !== 1 ? "s" : ""} to unlock phrase`
-                                : "Phrase unlocks on Good or Easy!"}
-                        </span>
-                        <button className="srs-upgrade-btn" onClick={e => { e.stopPropagation(); upgradeNow(); }}>
-                            Upgrade now
-                        </button>
-                    </div>
-                ) : undefined}
             />
 
             {isFlipped ? (

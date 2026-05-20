@@ -19,965 +19,605 @@
   "cards": [
     {
       "id": "happy",
-      "levels": [
-        {
-          "front": "happy",
-          "back": "행복한",
-          "romanized": "haengbokhan",
-          "grammarNote": "'행복하다' (haengbokhada) = to be happy (deep, lasting happiness). '기쁘다' (gippeuda) = to be glad/delighted (in the moment). Korean emotions are adjectives that become predicates: '행복해요' (haengbokhaeyo, I'm happy), '기뻐요' (gippeoyo, I'm glad)."
-        },
-        {
-          "front": "I'm very happy today.",
-          "back": "오늘 너무 행복해요.",
-          "romanized": "oneul neomu haengbokhaeyo",
-          "literal": "Today very happy is."
-        }
-      ]
+      "english": "happy",
+      "word": "행복한",
+      "romanized": "haengbokhan",
+      "grammarNote": "'행복하다' (haengbokhada) = to be happy (deep, lasting happiness). '기쁘다' (gippeuda) = to be glad/delighted (in the moment). Korean emotions are adjectives that become predicates: '행복해요' (haengbokhaeyo, I'm happy), '기뻐요' (gippeoyo, I'm glad).",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "오늘 너무 행복해요.",
+      "phraseRomanized": "oneul neomu haengbokhaeyo",
+      "literal": "Today very happy is."
     },
     {
       "id": "sad",
-      "levels": [
-        {
-          "front": "sad",
-          "back": "슬픈",
-          "romanized": "seulpeun"
-        },
-        {
-          "front": "Why are you sad?",
-          "back": "왜 슬퍼요?",
-          "romanized": "wae seulpeoyo",
-          "literal": "Why sad is?"
-        }
-      ]
+      "english": "sad",
+      "word": "슬픈",
+      "romanized": "seulpeun",
+      "englishPhrase": "Why are you sad?",
+      "phrase": "왜 슬퍼요?",
+      "phraseRomanized": "wae seulpeoyo",
+      "literal": "Why sad is?"
     },
     {
       "id": "love",
-      "levels": [
-        {
-          "front": "love",
-          "back": "사랑",
-          "romanized": "sarang"
-        },
-        {
-          "front": "I feel a lot of love for my family.",
-          "back": "가족에게 많은 사랑을 느껴요.",
-          "romanized": "gajogege manheun sarang-eul neukkeyeoyo",
-          "literal": "Family to much love [obj] feel."
-        }
-      ]
+      "english": "love",
+      "word": "사랑",
+      "romanized": "sarang",
+      "englishPhrase": "I feel a lot of love for my family.",
+      "phrase": "가족에게 많은 사랑을 느껴요.",
+      "phraseRomanized": "gajogege manheun sarang-eul neukkeyeoyo",
+      "literal": "Family to much love [obj] feel."
     },
     {
       "id": "anger",
-      "levels": [
-        {
-          "front": "anger",
-          "back": "화",
-          "romanized": "hwa"
-        },
-        {
-          "front": "I felt anger when they lied to me.",
-          "back": "거짓말했을 때 화가 났어요.",
-          "romanized": "geojitmalhaesseul ttae hwa-ga nasseoyo",
-          "literal": "Lied-when anger [subj] rose."
-        }
-      ]
+      "english": "anger",
+      "word": "화",
+      "romanized": "hwa",
+      "englishPhrase": "I felt anger when they lied to me.",
+      "phrase": "거짓말했을 때 화가 났어요.",
+      "phraseRomanized": "geojitmalhaesseul ttae hwa-ga nasseoyo",
+      "literal": "Lied-when anger [subj] rose."
     },
     {
       "id": "fear",
-      "levels": [
-        {
-          "front": "fear",
-          "back": "두려움",
-          "romanized": "duryeoum"
-        },
-        {
-          "front": "I'm afraid of the dark.",
-          "back": "어둠이 무서워요.",
-          "romanized": "eodumi museowoyo",
-          "literal": "Darkness [subj] scary is."
-        }
-      ]
+      "english": "fear",
+      "word": "두려움",
+      "romanized": "duryeoum",
+      "englishPhrase": "I'm afraid of the dark.",
+      "phrase": "어둠이 무서워요.",
+      "phraseRomanized": "eodumi museowoyo",
+      "literal": "Darkness [subj] scary is."
     },
     {
       "id": "hope",
-      "levels": [
-        {
-          "front": "hope",
-          "back": "희망",
-          "romanized": "huimang"
-        },
-        {
-          "front": "I have hope for the future.",
-          "back": "미래에 대한 희망이 있어요.",
-          "romanized": "mirae-e daehan huimangi isseoyo",
-          "literal": "Future about hope [subj] have."
-        }
-      ]
+      "english": "hope",
+      "word": "희망",
+      "romanized": "huimang",
+      "englishPhrase": "I have hope for the future.",
+      "phrase": "미래에 대한 희망이 있어요.",
+      "phraseRomanized": "mirae-e daehan huimangi isseoyo",
+      "literal": "Future about hope [subj] have."
     },
     {
       "id": "stress",
-      "levels": [
-        {
-          "front": "stress",
-          "back": "스트레스",
-          "romanized": "seuteurese"
-        },
-        {
-          "front": "I have a lot of stress at work.",
-          "back": "일에서 스트레스가 많아요.",
-          "romanized": "ireseo seuteurese-ga manayo",
-          "literal": "Work-at stress [subj] much is."
-        }
-      ]
+      "english": "stress",
+      "word": "스트레스",
+      "romanized": "seuteurese",
+      "englishPhrase": "I have a lot of stress at work.",
+      "phrase": "일에서 스트레스가 많아요.",
+      "phraseRomanized": "ireseo seuteurese-ga manayo",
+      "literal": "Work-at stress [subj] much is."
     },
     {
       "id": "mood",
-      "levels": [
-        {
-          "front": "mood",
-          "back": "기분",
-          "romanized": "gibun"
-        },
-        {
-          "front": "I'm in a good mood today.",
-          "back": "오늘 기분이 좋아요.",
-          "romanized": "oneul gibuni joayo",
-          "literal": "Today mood [subj] good is."
-        }
-      ]
+      "english": "mood",
+      "word": "기분",
+      "romanized": "gibun",
+      "englishPhrase": "I'm in a good mood today.",
+      "phrase": "오늘 기분이 좋아요.",
+      "phraseRomanized": "oneul gibuni joayo",
+      "literal": "Today mood [subj] good is."
     },
     {
       "id": "feeling",
-      "levels": [
-        {
-          "front": "feeling",
-          "back": "감정",
-          "romanized": "gamjeong"
-        },
-        {
-          "front": "That feeling is normal.",
-          "back": "그 감정은 자연스러워요.",
-          "romanized": "geu gamjeong-eun jayeonseuleowoyo",
-          "literal": "That feeling [topic] natural is."
-        }
-      ]
+      "english": "feeling",
+      "word": "감정",
+      "romanized": "gamjeong",
+      "englishPhrase": "That feeling is normal.",
+      "phrase": "그 감정은 자연스러워요.",
+      "phraseRomanized": "geu gamjeong-eun jayeonseuleowoyo",
+      "literal": "That feeling [topic] natural is."
     },
     {
       "id": "emotion_excitement",
-      "levels": [
-        {
-          "front": "emotion",
-          "back": "감정",
-          "romanized": "gamjeong"
-        },
-        {
-          "front": "I couldn't hide my emotion.",
-          "back": "감동을 숨길 수 없었어요.",
-          "romanized": "gamdong-eul sumgil su eopseosseoyo",
-          "literal": "Emotion [obj] cannot-hide was."
-        }
-      ]
+      "english": "emotion",
+      "word": "감정",
+      "romanized": "gamjeong",
+      "englishPhrase": "I couldn't hide my emotion.",
+      "phrase": "감동을 숨길 수 없었어요.",
+      "phraseRomanized": "gamdong-eul sumgil su eopseosseoyo",
+      "literal": "Emotion [obj] cannot-hide was."
     },
     {
       "id": "calm",
-      "levels": [
-        {
-          "front": "calm",
-          "back": "침착함",
-          "romanized": "chimchakam"
-        },
-        {
-          "front": "Try to maintain your calm.",
-          "back": "침착함을 유지하도록 하세요.",
-          "romanized": "chimchakameul yujihadorok haseyo",
-          "literal": "Calm [obj] maintain-so do."
-        }
-      ]
+      "english": "calm",
+      "word": "침착함",
+      "romanized": "chimchakam",
+      "englishPhrase": "Try to maintain your calm.",
+      "phrase": "침착함을 유지하도록 하세요.",
+      "phraseRomanized": "chimchakameul yujihadorok haseyo",
+      "literal": "Calm [obj] maintain-so do."
     },
     {
       "id": "peace",
-      "levels": [
-        {
-          "front": "peace",
-          "back": "평화",
-          "romanized": "pyeonghwa"
-        },
-        {
-          "front": "I need peace and quiet.",
-          "back": "평화와 고요함이 필요해요.",
-          "romanized": "pyeonghwawa goyoami piryohaeyo",
-          "literal": "Peace and quietness [subj] needed is."
-        }
-      ]
+      "english": "peace",
+      "word": "평화",
+      "romanized": "pyeonghwa",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "평화와 고요함이 필요해요.",
+      "phraseRomanized": "pyeonghwawa goyoami piryohaeyo",
+      "literal": "Peace and quietness [subj] needed is."
     },
     {
       "id": "worry",
-      "levels": [
-        {
-          "front": "worry",
-          "back": "걱정",
-          "romanized": "geokjeong"
-        },
-        {
-          "front": "Don't let worry stop you.",
-          "back": "걱정 때문에 멈추지 마세요.",
-          "romanized": "geokjeong ttaemune meomchuji maseyo",
-          "literal": "Worry because-of stop-not do."
-        }
-      ]
+      "english": "worry",
+      "word": "걱정",
+      "romanized": "geokjeong",
+      "englishPhrase": "Don't let worry stop you.",
+      "phrase": "걱정 때문에 멈추지 마세요.",
+      "phraseRomanized": "geokjeong ttaemune meomchuji maseyo",
+      "literal": "Worry because-of stop-not do."
     },
     {
       "id": "surprise",
-      "levels": [
-        {
-          "front": "surprise",
-          "back": "놀라움",
-          "romanized": "nollaum"
-        },
-        {
-          "front": "What a surprise!",
-          "back": "정말 놀랐어요!",
-          "romanized": "jeongmal nollaisseoyo",
-          "literal": "Really surprised [past]!"
-        }
-      ]
+      "english": "surprise",
+      "word": "놀라움",
+      "romanized": "nollaum",
+      "englishPhrase": "What a surprise!",
+      "phrase": "정말 놀랐어요!",
+      "phraseRomanized": "jeongmal nollaisseoyo",
+      "literal": "Really surprised [past]!"
     },
     {
       "id": "passion",
-      "levels": [
-        {
-          "front": "passion",
-          "back": "열정",
-          "romanized": "yeoljeong"
-        },
-        {
-          "front": "She teaches with passion.",
-          "back": "그녀는 열정을 가지고 가르쳐요.",
-          "romanized": "geunyeoneun yeoljeong-eul gajigo gareuсhyeoyo",
-          "literal": "She [topic] passion [obj] holding teaches."
-        }
-      ]
+      "english": "passion",
+      "word": "열정",
+      "romanized": "yeoljeong",
+      "englishPhrase": "She teaches with passion.",
+      "phrase": "그녀는 열정을 가지고 가르쳐요.",
+      "phraseRomanized": "geunyeoneun yeoljeong-eul gajigo gareuсhyeoyo",
+      "literal": "She [topic] passion [obj] holding teaches."
     },
     {
       "id": "desire",
-      "levels": [
-        {
-          "front": "desire",
-          "back": "욕망",
-          "romanized": "yokmang"
-        },
-        {
-          "front": "I have a strong desire to travel.",
-          "back": "여행하고 싶은 강한 욕구가 있어요.",
-          "romanized": "yeohaenghago sipeon ganghan yokguga isseoyo",
-          "literal": "Travel-want strong desire [subj] have."
-        }
-      ]
+      "english": "desire",
+      "word": "욕망",
+      "romanized": "yokmang",
+      "englishPhrase": "I have a strong desire to travel.",
+      "phrase": "여행하고 싶은 강한 욕구가 있어요.",
+      "phraseRomanized": "yeohaenghago sipeon ganghan yokguga isseoyo",
+      "literal": "Travel-want strong desire [subj] have."
     },
     {
       "id": "hate",
-      "levels": [
-        {
-          "front": "hate",
-          "back": "증오",
-          "romanized": "jeungo"
-        },
-        {
-          "front": "Hate is a strong feeling.",
-          "back": "증오는 강한 감정이에요.",
-          "romanized": "jeungoneun ganghan gamjeongieyo",
-          "literal": "Hate [topic] strong feeling is."
-        }
-      ]
+      "english": "hate",
+      "word": "증오",
+      "romanized": "jeungo",
+      "englishPhrase": "Hate is a strong feeling.",
+      "phrase": "증오는 강한 감정이에요.",
+      "phraseRomanized": "jeungoneun ganghan gamjeongieyo",
+      "literal": "Hate [topic] strong feeling is."
     },
     {
       "id": "pleasure",
-      "levels": [
-        {
-          "front": "pleasure",
-          "back": "기쁨",
-          "romanized": "gippeum"
-        },
-        {
-          "front": "It's a pleasure to meet you.",
-          "back": "만나서 반갑습니다.",
-          "romanized": "mannaseo bangapseumnida",
-          "literal": "Meeting pleased-am."
-        }
-      ]
+      "english": "pleasure",
+      "word": "기쁨",
+      "romanized": "gippeum",
+      "englishPhrase": "It's a pleasure to meet you.",
+      "phrase": "만나서 반갑습니다.",
+      "phraseRomanized": "mannaseo bangapseumnida",
+      "literal": "Meeting pleased-am."
     },
     {
       "id": "pain",
-      "levels": [
-        {
-          "front": "pain",
-          "back": "고통",
-          "romanized": "gotong"
-        },
-        {
-          "front": "I feel pain in my leg.",
-          "back": "다리에 통증이 느껴져요.",
-          "romanized": "darie tongjeungi neukkkyeojyeoyo",
-          "literal": "Leg-at pain [subj] felt is."
-        }
-      ]
+      "english": "pain",
+      "word": "고통",
+      "romanized": "gotong",
+      "englishPhrase": "I feel pain in my leg.",
+      "phrase": "다리에 통증이 느껴져요.",
+      "phraseRomanized": "darie tongjeungi neukkkyeojyeoyo",
+      "literal": "Leg-at pain [subj] felt is."
     },
     {
       "id": "energy",
-      "levels": [
-        {
-          "front": "energy",
-          "back": "에너지",
-          "romanized": "eneoji"
-        },
-        {
-          "front": "I have a lot of energy today.",
-          "back": "오늘 에너지가 넘쳐요.",
-          "romanized": "oneul eneoji-ga neomchyeoyo",
-          "literal": "Today energy [subj] overflows."
-        }
-      ]
+      "english": "energy",
+      "word": "에너지",
+      "romanized": "eneoji",
+      "englishPhrase": "I have a lot of energy today.",
+      "phrase": "오늘 에너지가 넘쳐요.",
+      "phraseRomanized": "oneul eneoji-ga neomchyeoyo",
+      "literal": "Today energy [subj] overflows."
     },
     {
       "id": "relief",
-      "levels": [
-        {
-          "front": "relief",
-          "back": "안도",
-          "romanized": "ando"
-        },
-        {
-          "front": "What a relief!",
-          "back": "정말 다행이에요!",
-          "romanized": "jeongmal dahaengieyo",
-          "literal": "Really fortunate is!"
-        }
-      ]
+      "english": "relief",
+      "word": "안도",
+      "romanized": "ando",
+      "englishPhrase": "What a relief!",
+      "phrase": "정말 다행이에요!",
+      "phraseRomanized": "jeongmal dahaengieyo",
+      "literal": "Really fortunate is!"
     },
     {
       "id": "comfort",
-      "levels": [
-        {
-          "front": "comfort",
-          "back": "위로",
-          "romanized": "wiro"
-        },
-        {
-          "front": "Her words were a comfort.",
-          "back": "그녀의 말이 위로가 됐어요.",
-          "romanized": "geunyeoui mari wiroga dwaesseoyo",
-          "literal": "Her words [subj] comfort became."
-        }
-      ]
+      "english": "comfort",
+      "word": "위로",
+      "romanized": "wiro",
+      "englishPhrase": "Her words were a comfort.",
+      "phrase": "그녀의 말이 위로가 됐어요.",
+      "phraseRomanized": "geunyeoui mari wiroga dwaesseoyo",
+      "literal": "Her words [subj] comfort became."
     },
     {
       "id": "feel_to_feel",
-      "levels": [
-        {
-          "front": "feel (to feel)",
-          "back": "느끼다",
-          "romanized": "neukkida",
-          "grammarNote": "'느끼다' (neukkida) = to feel/sense something. '기분이 좋아요' (gibuni joayo) = I feel good (literally 'my mood is good'). Korean often expresses emotional states as noun+adjective rather than a verb: '기분' (gibun, mood/feeling) + state adjective."
-        },
-        {
-          "front": "I feel good today.",
-          "back": "오늘 기분이 좋아요.",
-          "romanized": "oneul gibuni joayo",
-          "literal": "Today mood [subj] good is."
-        }
-      ]
+      "english": "feel (to feel)",
+      "word": "느끼다",
+      "romanized": "neukkida",
+      "grammarNote": "'느끼다' (neukkida) = to feel/sense something. '기분이 좋아요' (gibuni joayo) = I feel good (literally 'my mood is good'). Korean often expresses emotional states as noun+adjective rather than a verb: '기분' (gibun, mood/feeling) + state adjective.",
+      "englishPhrase": "I feel good today.",
+      "phrase": "오늘 기분이 좋아요.",
+      "phraseRomanized": "oneul gibuni joayo",
+      "literal": "Today mood [subj] good is."
     },
     {
       "id": "love_to_love",
-      "levels": [
-        {
-          "front": "love (to love)",
-          "back": "사랑하다",
-          "romanized": "saranghada"
-        },
-        {
-          "front": "I love you very much.",
-          "back": "당신을 많이 사랑해요.",
-          "romanized": "dangsineul manhi saranghaeyo",
-          "literal": "You [obj] much love."
-        }
-      ]
+      "english": "love (to love)",
+      "word": "사랑하다",
+      "romanized": "saranghada",
+      "englishPhrase": "I love you very much.",
+      "phrase": "당신을 많이 사랑해요.",
+      "phraseRomanized": "dangsineul manhi saranghaeyo",
+      "literal": "You [obj] much love."
     },
     {
       "id": "hate_to_hate",
-      "levels": [
-        {
-          "front": "hate (to hate)",
-          "back": "싫어하다",
-          "romanized": "sireohada"
-        },
-        {
-          "front": "I hate waiting.",
-          "back": "기다리는 걸 싫어해요.",
-          "romanized": "gidarineun geol sireohaeyo",
-          "literal": "Waiting [obj] dislike."
-        }
-      ]
+      "english": "hate (to hate)",
+      "word": "싫어하다",
+      "romanized": "sireohada",
+      "englishPhrase": "I hate waiting.",
+      "phrase": "기다리는 걸 싫어해요.",
+      "phraseRomanized": "gidarineun geol sireohaeyo",
+      "literal": "Waiting [obj] dislike."
     },
     {
       "id": "like_to_like",
-      "levels": [
-        {
-          "front": "like (to like)",
-          "back": "좋아하다",
-          "romanized": "joahada"
-        },
-        {
-          "front": "I like music.",
-          "back": "음악을 좋아해요.",
-          "romanized": "eumag-eul joahaeyo",
-          "literal": "Music [obj] like."
-        }
-      ]
+      "english": "like (to like)",
+      "word": "좋아하다",
+      "romanized": "joahada",
+      "englishPhrase": "I like music.",
+      "phrase": "음악을 좋아해요.",
+      "phraseRomanized": "eumag-eul joahaeyo",
+      "literal": "Music [obj] like."
     },
     {
       "id": "enjoy",
-      "levels": [
-        {
-          "front": "enjoy",
-          "back": "즐기다",
-          "romanized": "jeulgida"
-        },
-        {
-          "front": "I enjoy the weekend.",
-          "back": "주말을 즐겨요.",
-          "romanized": "jumal-eul jeulgyeoyo",
-          "literal": "Weekend [obj] enjoy."
-        }
-      ]
+      "english": "enjoy",
+      "word": "즐기다",
+      "romanized": "jeulgida",
+      "englishPhrase": "I enjoy the weekend.",
+      "phrase": "주말을 즐겨요.",
+      "phraseRomanized": "jumal-eul jeulgyeoyo",
+      "literal": "Weekend [obj] enjoy."
     },
     {
       "id": "fear_dread_to_fear",
-      "levels": [
-        {
-          "front": "fear",
-          "back": "두려워하다",
-          "romanized": "duryeowohada"
-        },
-        {
-          "front": "I fear the worst.",
-          "back": "최악의 상황을 두려워해요.",
-          "romanized": "choeag-ui sanghwang-eul duryeowohaeyo",
-          "literal": "Worst's situation [obj] fear."
-        }
-      ]
+      "english": "fear",
+      "word": "두려워하다",
+      "romanized": "duryeowohada",
+      "englishPhrase": "I fear the worst.",
+      "phrase": "최악의 상황을 두려워해요.",
+      "phraseRomanized": "choeag-ui sanghwang-eul duryeowohaeyo",
+      "literal": "Worst's situation [obj] fear."
     },
     {
       "id": "hope_to_hope",
-      "levels": [
-        {
-          "front": "hope (to hope)",
-          "back": "바라다",
-          "romanized": "barada"
-        },
-        {
-          "front": "I hope everything goes well.",
-          "back": "모든 게 잘 되길 바라요.",
-          "romanized": "modeun ge jal doegil barayo",
-          "literal": "Everything well go-hoping hope."
-        }
-      ]
+      "english": "hope (to hope)",
+      "word": "바라다",
+      "romanized": "barada",
+      "englishPhrase": "I hope everything goes well.",
+      "phrase": "모든 게 잘 되길 바라요.",
+      "phraseRomanized": "modeun ge jal doegil barayo",
+      "literal": "Everything well go-hoping hope."
     },
     {
       "id": "worry_to_worry",
-      "levels": [
-        {
-          "front": "worry (to worry)",
-          "back": "걱정하다",
-          "romanized": "geokjeonghada"
-        },
-        {
-          "front": "Don't worry about it.",
-          "back": "그것에 대해 걱정하지 마세요.",
-          "romanized": "geugeose daehae geokjeongji maseyo",
-          "literal": "That about worry-not do."
-        }
-      ]
+      "english": "worry (to worry)",
+      "word": "걱정하다",
+      "romanized": "geokjeonghada",
+      "englishPhrase": "Don't worry about it.",
+      "phrase": "그것에 대해 걱정하지 마세요.",
+      "phraseRomanized": "geugeose daehae geokjeongji maseyo",
+      "literal": "That about worry-not do."
     },
     {
       "id": "calm_soothe_to_calm",
-      "levels": [
-        {
-          "front": "calm",
-          "back": "진정시키다",
-          "romanized": "jinjeongssikida"
-        },
-        {
-          "front": "Calm down, please.",
-          "back": "진정하세요.",
-          "romanized": "jinjeong haseyo",
-          "literal": "Calm-down do."
-        }
-      ]
+      "english": "calm",
+      "word": "진정시키다",
+      "romanized": "jinjeongssikida",
+      "englishPhrase": "Calm down, please.",
+      "phrase": "진정하세요.",
+      "phraseRomanized": "jinjeong haseyo",
+      "literal": "Calm-down do."
     },
     {
       "id": "comfort_to_comfort",
-      "levels": [
-        {
-          "front": "comfort (to comfort)",
-          "back": "위로하다",
-          "romanized": "wirohada"
-        },
-        {
-          "front": "She comforted her friend.",
-          "back": "그녀는 친구를 위로했어요.",
-          "romanized": "geunyeoneun chingureul wirohaesseoyo",
-          "literal": "She [topic] friend [obj] comforted."
-        }
-      ]
+      "english": "comfort (to comfort)",
+      "word": "위로하다",
+      "romanized": "wirohada",
+      "englishPhrase": "She comforted her friend.",
+      "phrase": "그녀는 친구를 위로했어요.",
+      "phraseRomanized": "geunyeoneun chingureul wirohaesseoyo",
+      "literal": "She [topic] friend [obj] comforted."
     },
     {
       "id": "excite_thrill",
-      "levels": [
-        {
-          "front": "excite",
-          "back": "흥분시키다",
-          "romanized": "heungbunssikida"
-        },
-        {
-          "front": "The trip excites me.",
-          "back": "여행을 생각하면 설레요.",
-          "romanized": "yeohaeng-eul saenggakamyeon seolleoyo",
-          "literal": "Trip [obj] thinking-when heart-flutters."
-        }
-      ]
+      "english": "excite",
+      "word": "흥분시키다",
+      "romanized": "heungbunssikida",
+      "englishPhrase": "The trip excites me.",
+      "phrase": "여행을 생각하면 설레요.",
+      "phraseRomanized": "yeohaeng-eul saenggakamyeon seolleoyo",
+      "literal": "Trip [obj] thinking-when heart-flutters."
     },
     {
       "id": "annoy",
-      "levels": [
-        {
-          "front": "annoy",
-          "back": "짜증나게 하다",
-          "romanized": "jjajeungnage hada"
-        },
-        {
-          "front": "That noise annoys me.",
-          "back": "그 소음이 짜증 나요.",
-          "romanized": "geu soeumi jjajeung nayo",
-          "literal": "That noise [subj] annoyance comes."
-        }
-      ]
+      "english": "annoy",
+      "word": "짜증나게 하다",
+      "romanized": "jjajeungnage hada",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "그 소음이 짜증 나요.",
+      "phraseRomanized": "geu soeumi jjajeung nayo",
+      "literal": "That noise [subj] annoyance comes."
     },
     {
       "id": "irritate",
-      "levels": [
-        {
-          "front": "irritate",
-          "back": "짜증나게 하다",
-          "romanized": "jjajeungnage hada"
-        },
-        {
-          "front": "Waiting irritates me.",
-          "back": "기다리는 게 짜증 나요.",
-          "romanized": "gidarineun ge jjajeung nayo",
-          "literal": "Waiting [subj] annoyance comes."
-        }
-      ]
+      "english": "irritate",
+      "word": "짜증나게 하다",
+      "romanized": "jjajeungnage hada",
+      "englishPhrase": "Waiting irritates me.",
+      "phrase": "기다리는 게 짜증 나요.",
+      "phraseRomanized": "gidarineun ge jjajeung nayo",
+      "literal": "Waiting [subj] annoyance comes."
     },
     {
       "id": "anger_to_anger",
-      "levels": [
-        {
-          "front": "anger (to anger)",
-          "back": "화나게 하다",
-          "romanized": "hwanage hada"
-        },
-        {
-          "front": "That comment angered me.",
-          "back": "그 말이 화나게 했어요.",
-          "romanized": "geu mari hwanage haesseoyo",
-          "literal": "That comment [subj] angry-made [past]."
-        }
-      ]
+      "english": "anger (to anger)",
+      "word": "화나게 하다",
+      "romanized": "hwanage hada",
+      "englishPhrase": "That comment angered me.",
+      "phrase": "그 말이 화나게 했어요.",
+      "phraseRomanized": "geu mari hwanage haesseoyo",
+      "literal": "That comment [subj] angry-made [past]."
     },
     {
       "id": "delight",
-      "levels": [
-        {
-          "front": "delight",
-          "back": "기쁘게 하다",
-          "romanized": "gippeuge hada"
-        },
-        {
-          "front": "The music delighted everyone.",
-          "back": "음악이 모두를 기쁘게 했어요.",
-          "romanized": "eumagi modureul gippeuge haesseoyo",
-          "literal": "Music [subj] everyone [obj] joyfully-made [past]."
-        }
-      ]
+      "english": "delight",
+      "word": "기쁘게 하다",
+      "romanized": "gippeuge hada",
+      "englishPhrase": "The music delighted everyone.",
+      "phrase": "음악이 모두를 기쁘게 했어요.",
+      "phraseRomanized": "eumagi modureul gippeuge haesseoyo",
+      "literal": "Music [subj] everyone [obj] joyfully-made [past]."
     },
     {
       "id": "smile",
-      "levels": [
-        {
-          "front": "smile",
-          "back": "미소 짓다",
-          "romanized": "miso jitda"
-        },
-        {
-          "front": "She always smiles.",
-          "back": "그녀는 항상 미소 지어요.",
-          "romanized": "geunyeoneun hangsang miso jieoyo",
-          "literal": "She [topic] always smile makes."
-        }
-      ]
+      "english": "smile",
+      "word": "미소 짓다",
+      "romanized": "miso jitda",
+      "englishPhrase": "She always smiles.",
+      "phrase": "그녀는 항상 미소 지어요.",
+      "phraseRomanized": "geunyeoneun hangsang miso jieoyo",
+      "literal": "She [topic] always smile makes."
     },
     {
       "id": "laugh",
-      "levels": [
-        {
-          "front": "laugh",
-          "back": "웃다",
-          "romanized": "utda"
-        },
-        {
-          "front": "We laughed a lot.",
-          "back": "우리는 많이 웃었어요.",
-          "romanized": "urineun manhi uteosseoyo",
-          "literal": "We [topic] much laughed."
-        }
-      ]
+      "english": "laugh",
+      "word": "웃다",
+      "romanized": "utda",
+      "englishPhrase": "We laughed a lot.",
+      "phrase": "우리는 많이 웃었어요.",
+      "phraseRomanized": "urineun manhi uteosseoyo",
+      "literal": "We [topic] much laughed."
     },
     {
       "id": "cry_weep_mourn",
-      "levels": [
-        {
-          "front": "cry",
-          "back": "울다",
-          "romanized": "ulda"
-        },
-        {
-          "front": "The baby is crying.",
-          "back": "아기가 울고 있어요.",
-          "romanized": "agiga ulgo isseoyo",
-          "literal": "Baby [subj] crying-is."
-        }
-      ]
+      "english": "cry",
+      "word": "울다",
+      "romanized": "ulda",
+      "englishPhrase": "The baby is crying.",
+      "phrase": "아기가 울고 있어요.",
+      "phraseRomanized": "agiga ulgo isseoyo",
+      "literal": "Baby [subj] crying-is."
     },
     {
       "id": "sigh",
-      "levels": [
-        {
-          "front": "sigh",
-          "back": "한숨을 쉬다",
-          "romanized": "hansumeul swida"
-        },
-        {
-          "front": "She sighed with relief.",
-          "back": "그녀는 안도의 한숨을 쉬었어요.",
-          "romanized": "geunyeoneun andoui hansumeul swieosseoyo",
-          "literal": "She [topic] relief's sigh [obj] breathed."
-        }
-      ]
+      "english": "sigh",
+      "word": "한숨을 쉬다",
+      "romanized": "hansumeul swida",
+      "englishPhrase": "She sighed with relief.",
+      "phrase": "그녀는 안도의 한숨을 쉬었어요.",
+      "phraseRomanized": "geunyeoneun andoui hansumeul swieosseoyo",
+      "literal": "She [topic] relief's sigh [obj] breathed."
     },
     {
       "id": "frown",
-      "levels": [
-        {
-          "front": "frown",
-          "back": "찡그리다",
-          "romanized": "jjinggeurida"
-        },
-        {
-          "front": "He frowned when he heard the news.",
-          "back": "그는 소식을 들었을 때 인상을 찡그렸어요.",
-          "romanized": "geuneun sosig-eul deureosseul ttae insang-eul jjingeuryeosseoyo",
-          "literal": "He [topic] news [obj] heard-when face [obj] frowned."
-        }
-      ]
+      "english": "frown",
+      "word": "찡그리다",
+      "romanized": "jjinggeurida",
+      "englishPhrase": "He frowned when he heard the news.",
+      "phrase": "그는 소식을 들었을 때 인상을 찡그렸어요.",
+      "phraseRomanized": "geuneun sosig-eul deureosseul ttae insang-eul jjingeuryeosseoyo",
+      "literal": "He [topic] news [obj] heard-when face [obj] frowned."
     },
     {
       "id": "scream_shout",
-      "levels": [
-        {
-          "front": "scream",
-          "back": "소리치다",
-          "romanized": "sorichida"
-        },
-        {
-          "front": "Don't shout, please.",
-          "back": "소리치지 마세요.",
-          "romanized": "sorichiji maseyo",
-          "literal": "Shout-not do."
-        }
-      ]
+      "english": "scream",
+      "word": "소리치다",
+      "romanized": "sorichida",
+      "englishPhrase": "Don't shout, please.",
+      "phrase": "소리치지 마세요.",
+      "phraseRomanized": "sorichiji maseyo",
+      "literal": "Shout-not do."
     },
     {
       "id": "relax",
-      "levels": [
-        {
-          "front": "relax",
-          "back": "쉬다",
-          "romanized": "swida"
-        },
-        {
-          "front": "Relax, there's no rush.",
-          "back": "긴장 풀어요, 급하지 않아요.",
-          "romanized": "ginжang pureоyo, geupaji anayo",
-          "literal": "Tension release, urgent-not is."
-        }
-      ]
+      "english": "relax",
+      "word": "쉬다",
+      "romanized": "swida",
+      "englishPhrase": "Relax, there's no rush.",
+      "phrase": "긴장 풀어요, 급하지 않아요.",
+      "phraseRomanized": "ginжang pureоyo, geupaji anayo",
+      "literal": "Tension release, urgent-not is."
     },
     {
       "id": "angry",
-      "levels": [
-        {
-          "front": "angry",
-          "back": "화가 난",
-          "romanized": "hwa-ga nan"
-        },
-        {
-          "front": "I'm angry with you.",
-          "back": "당신에게 화가 났어요.",
-          "romanized": "dangsинеge hwa-ga nasseoyo",
-          "literal": "You to anger [subj] rose."
-        }
-      ]
+      "english": "angry",
+      "word": "화가 난",
+      "romanized": "hwa-ga nan",
+      "englishPhrase": "I'm angry with you.",
+      "phrase": "당신에게 화가 났어요.",
+      "phraseRomanized": "dangsинеge hwa-ga nasseoyo",
+      "literal": "You to anger [subj] rose."
     },
     {
       "id": "mad",
-      "levels": [
-        {
-          "front": "mad",
-          "back": "매우 화난",
-          "romanized": "maeu hwanan"
-        },
-        {
-          "front": "Why are you so mad?",
-          "back": "왜 그렇게 화가 났어요?",
-          "romanized": "wae geureoke hwa-ga nasseoyo",
-          "literal": "Why so anger [subj] rose?"
-        }
-      ]
+      "english": "mad",
+      "word": "매우 화난",
+      "romanized": "maeu hwanan",
+      "englishPhrase": "Why are you so mad?",
+      "phrase": "왜 그렇게 화가 났어요?",
+      "phraseRomanized": "wae geureoke hwa-ga nasseoyo",
+      "literal": "Why so anger [subj] rose?"
     },
     {
       "id": "afraid_scared",
-      "levels": [
-        {
-          "front": "afraid",
-          "back": "무서운",
-          "romanized": "museoun"
-        },
-        {
-          "front": "The child was scared.",
-          "back": "아이가 무서워했어요.",
-          "romanized": "aiga museowohaesseoyo",
-          "literal": "Child [subj] scared [past]."
-        }
-      ]
+      "english": "afraid",
+      "word": "무서운",
+      "romanized": "museoun",
+      "englishPhrase": "The child was scared.",
+      "phrase": "아이가 무서워했어요.",
+      "phraseRomanized": "aiga museowohaesseoyo",
+      "literal": "Child [subj] scared [past]."
     },
     {
       "id": "anxious",
-      "levels": [
-        {
-          "front": "anxious",
-          "back": "불안한",
-          "romanized": "buranhan"
-        },
-        {
-          "front": "I'm anxious about the exam.",
-          "back": "시험 때문에 불안해요.",
-          "romanized": "siheom ttaemune buranhaeyo",
-          "literal": "Exam because-of anxious is."
-        }
-      ]
+      "english": "anxious",
+      "word": "불안한",
+      "romanized": "buranhan",
+      "englishPhrase": "I'm anxious about the exam.",
+      "phrase": "시험 때문에 불안해요.",
+      "phraseRomanized": "siheom ttaemune buranhaeyo",
+      "literal": "Exam because-of anxious is."
     },
     {
       "id": "nervous",
-      "levels": [
-        {
-          "front": "nervous",
-          "back": "긴장된",
-          "romanized": "ginжangdoen"
-        },
-        {
-          "front": "I'm nervous today.",
-          "back": "오늘 긴장돼요.",
-          "romanized": "oneul ginжangdwaeyo",
-          "literal": "Today nervous is."
-        }
-      ]
+      "english": "nervous",
+      "word": "긴장된",
+      "romanized": "ginжangdoen",
+      "englishPhrase": "I'm nervous today.",
+      "phrase": "오늘 긴장돼요.",
+      "phraseRomanized": "oneul ginжangdwaeyo",
+      "literal": "Today nervous is."
     },
     {
       "id": "excited",
-      "levels": [
-        {
-          "front": "excited",
-          "back": "신이 난",
-          "romanized": "sini nan"
-        },
-        {
-          "front": "I'm excited about the trip.",
-          "back": "여행이 기대돼요.",
-          "romanized": "yeohaengi gidaedwaeyo",
-          "literal": "Trip [subj] anticipated is."
-        }
-      ]
+      "english": "excited",
+      "word": "신이 난",
+      "romanized": "sini nan",
+      "englishPhrase": "I'm excited about the trip.",
+      "phrase": "여행이 기대돼요.",
+      "phraseRomanized": "yeohaengi gidaedwaeyo",
+      "literal": "Trip [subj] anticipated is."
     },
     {
       "id": "joyful_cheerful",
-      "levels": [
-        {
-          "front": "joyful",
-          "back": "즐거운",
-          "romanized": "jeulgoun"
-        },
-        {
-          "front": "She is always cheerful.",
-          "back": "그녀는 항상 명랑해요.",
-          "romanized": "geunyeoneun hangsang myeongnanghaeyo",
-          "literal": "She [topic] always cheerful is."
-        }
-      ]
+      "english": "joyful",
+      "word": "즐거운",
+      "romanized": "jeulgoun",
+      "englishPhrase": "She is always cheerful.",
+      "phrase": "그녀는 항상 명랑해요.",
+      "phraseRomanized": "geunyeoneun hangsang myeongnanghaeyo",
+      "literal": "She [topic] always cheerful is."
     },
     {
       "id": "proud",
-      "levels": [
-        {
-          "front": "proud",
-          "back": "자랑스러운",
-          "romanized": "jarangseureoun"
-        },
-        {
-          "front": "I'm proud of you.",
-          "back": "당신이 자랑스러워요.",
-          "romanized": "dangsini jarangseureоwoyo",
-          "literal": "You [subj] proud is."
-        }
-      ]
+      "english": "proud",
+      "word": "자랑스러운",
+      "romanized": "jarangseureoun",
+      "englishPhrase": "I'm proud of you.",
+      "phrase": "당신이 자랑스러워요.",
+      "phraseRomanized": "dangsini jarangseureоwoyo",
+      "literal": "You [subj] proud is."
     },
     {
       "id": "content_contented",
-      "levels": [
-        {
-          "front": "content",
-          "back": "만족한",
-          "romanized": "manjokhan"
-        },
-        {
-          "front": "I'm content with my life.",
-          "back": "제 삶에 만족해요.",
-          "romanized": "je sarme manjokaeyo",
-          "literal": "My life-at satisfied is."
-        }
-      ]
+      "english": "content",
+      "word": "만족한",
+      "romanized": "manjokhan",
+      "englishPhrase": "I'm content with my life.",
+      "phrase": "제 삶에 만족해요.",
+      "phraseRomanized": "je sarme manjokaeyo",
+      "literal": "My life-at satisfied is."
     },
     {
       "id": "calm_2",
-      "levels": [
-        {
-          "front": "calm",
-          "back": "침착한",
-          "romanized": "chimchakhan"
-        },
-        {
-          "front": "Stay calm, everything is fine.",
-          "back": "침착하세요, 다 괜찮아요.",
-          "romanized": "chimchakaseyo, da gwaenchanhayo",
-          "literal": "Be-calm, all fine is."
-        }
-      ]
+      "english": "calm",
+      "word": "침착한",
+      "romanized": "chimchakhan",
+      "englishPhrase": "Stay calm, everything is fine.",
+      "phrase": "침착하세요, 다 괜찮아요.",
+      "phraseRomanized": "chimchakaseyo, da gwaenchanhayo",
+      "literal": "Be-calm, all fine is."
     },
     {
       "id": "stressed",
-      "levels": [
-        {
-          "front": "stressed",
-          "back": "스트레스받는",
-          "romanized": "seuteurese-bat-neun"
-        },
-        {
-          "front": "I'm very stressed this week.",
-          "back": "이번 주에 스트레스가 많아요.",
-          "romanized": "ibeon jue seuteurese-ga manayo",
-          "literal": "This week-at stress [subj] much is."
-        }
-      ]
+      "english": "stressed",
+      "word": "스트레스받는",
+      "romanized": "seuteurese-bat-neun",
+      "englishPhrase": "I'm very stressed this week.",
+      "phrase": "이번 주에 스트레스가 많아요.",
+      "phraseRomanized": "ibeon jue seuteurese-ga manayo",
+      "literal": "This week-at stress [subj] much is."
     },
     {
       "id": "overwhelmed",
-      "levels": [
-        {
-          "front": "overwhelmed",
-          "back": "압도된",
-          "romanized": "apdo-doen"
-        },
-        {
-          "front": "I feel overwhelmed by the work.",
-          "back": "일에 압도된 느낌이에요.",
-          "romanized": "ire apdo-doen neukkimieyo",
-          "literal": "Work-at overwhelmed feeling is."
-        }
-      ]
+      "english": "overwhelmed",
+      "word": "압도된",
+      "romanized": "apdo-doen",
+      "englishPhrase": "I feel overwhelmed by the work.",
+      "phrase": "일에 압도된 느낌이에요.",
+      "phraseRomanized": "ire apdo-doen neukkimieyo",
+      "literal": "Work-at overwhelmed feeling is."
     },
     {
       "id": "energetic",
-      "levels": [
-        {
-          "front": "energetic",
-          "back": "활기찬",
-          "romanized": "hwalgi chan"
-        },
-        {
-          "front": "She is very energetic.",
-          "back": "그녀는 매우 활기차요.",
-          "romanized": "geunyeoneun maeu hwalgichayo",
-          "literal": "She [topic] very energetic is."
-        }
-      ]
+      "english": "energetic",
+      "word": "활기찬",
+      "romanized": "hwalgi chan",
+      "englishPhrase": "She is very energetic.",
+      "phrase": "그녀는 매우 활기차요.",
+      "phraseRomanized": "geunyeoneun maeu hwalgichayo",
+      "literal": "She [topic] very energetic is."
     },
     {
       "id": "tired",
-      "levels": [
-        {
-          "front": "tired",
-          "back": "피곤한",
-          "romanized": "pigonhan"
-        },
-        {
-          "front": "I'm very tired today.",
-          "back": "오늘 너무 피곤해요.",
-          "romanized": "oneul neomu pigonhaeyo",
-          "literal": "Today very tired is."
-        }
-      ]
+      "english": "tired",
+      "word": "피곤한",
+      "romanized": "pigonhan",
+      "englishPhrase": "I'm very tired today.",
+      "phrase": "오늘 너무 피곤해요.",
+      "phraseRomanized": "oneul neomu pigonhaeyo",
+      "literal": "Today very tired is."
     },
     {
       "id": "exhausted",
-      "levels": [
-        {
-          "front": "exhausted",
-          "back": "완전히 지친",
-          "romanized": "wanjeonhi jichin"
-        },
-        {
-          "front": "I'm exhausted after the run.",
-          "back": "달리기 후에 완전히 지쳤어요.",
-          "romanized": "dalligi hue wanjeonhi jichyeosseoyo",
-          "literal": "Running after completely exhausted [past]."
-        }
-      ]
+      "english": "exhausted",
+      "word": "완전히 지친",
+      "romanized": "wanjeonhi jichin",
+      "englishPhrase": "I'm exhausted after the run.",
+      "phrase": "달리기 후에 완전히 지쳤어요.",
+      "phraseRomanized": "dalligi hue wanjeonhi jichyeosseoyo",
+      "literal": "Running after completely exhausted [past]."
     },
     {
       "id": "curious",
-      "levels": [
-        {
-          "front": "curious",
-          "back": "궁금한",
-          "romanized": "gunggeumhan"
-        },
-        {
-          "front": "I'm curious about that.",
-          "back": "그것이 궁금해요.",
-          "romanized": "geugeosi gunggeumhaeyo",
-          "literal": "That [subj] curious is."
-        }
-      ]
+      "english": "curious",
+      "word": "궁금한",
+      "romanized": "gunggeumhan",
+      "englishPhrase": "I'm curious about that.",
+      "phrase": "그것이 궁금해요.",
+      "phraseRomanized": "geugeosi gunggeumhaeyo",
+      "literal": "That [subj] curious is."
     }
   ]
 }

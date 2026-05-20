@@ -20,7 +20,6 @@ function migrateCard(raw: Record<string, unknown>): CardState {
             lastReview: (raw.dueDate as string) ?? DEFAULT_CARD_STATE.lastReview,
             lapses: (raw.lapses as number) ?? 0,
             reps: repetitions,
-            level: (raw.level as number) ?? 0,
             state: repetitions === 0 ? "new" : interval <= 1 ? "learning" : "review",
             hidden: (raw.hidden as boolean) ?? false,
         };

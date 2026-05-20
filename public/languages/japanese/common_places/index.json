@@ -24,1371 +24,861 @@
   "cards": [
     {
       "id": "home",
-      "levels": [
-        {
-          "front": "Home",
-          "back": "家",
-          "romanized": "ie",
-          "grammarNote": "家 can be read as 'ie' (the building) or 'uchi' (home/my place). 'Ie ni kaeru' (家に帰る) means to return home. 'Uchi' is often used casually to mean 'my home' or 'my household'."
-        },
-        {
-          "front": "I'm going home.",
-          "back": "家に帰ります。",
-          "romanized": "ie ni kaerimasu",
-          "literal": "Home to return."
-        }
-      ]
+      "english": "Home",
+      "word": "家",
+      "romanized": "ie",
+      "grammarNote": "家 can be read as 'ie' (the building) or 'uchi' (home/my place). 'Ie ni kaeru' (家に帰る) means to return home. 'Uchi' is often used casually to mean 'my home' or 'my household'.",
+      "englishPhrase": "I'm going home.",
+      "phrase": "家に帰ります。",
+      "phraseRomanized": "ie ni kaerimasu",
+      "literal": "Home to return."
     },
     {
       "id": "apartment",
-      "levels": [
-        {
-          "front": "Apartment",
-          "back": "アパート",
-          "romanized": "apāto",
-          "grammarNote": "In Japan, 'apāto' (アパート) usually refers to a smaller wooden or lightweight building, while 'manshon' (マンション) refers to a larger reinforced concrete apartment building — despite sounding like 'mansion' in English."
-        },
-        {
-          "front": "I live in an apartment.",
-          "back": "アパートに住んでいます。",
-          "romanized": "apāto ni sunde imasu",
-          "literal": "Apartment in living-am."
-        }
-      ]
+      "english": "Apartment",
+      "word": "アパート",
+      "romanized": "apāto",
+      "grammarNote": "In Japan, 'apāto' (アパート) usually refers to a smaller wooden or lightweight building, while 'manshon' (マンション) refers to a larger reinforced concrete apartment building — despite sounding like 'mansion' in English.",
+      "englishPhrase": "I live in an apartment.",
+      "phrase": "アパートに住んでいます。",
+      "phraseRomanized": "apāto ni sunde imasu",
+      "literal": "Apartment in living-am."
     },
     {
       "id": "school",
-      "levels": [
-        {
-          "front": "School",
-          "back": "学校",
-          "romanized": "gakkō"
-        },
-        {
-          "front": "The children go to school.",
-          "back": "子どもたちは学校に行きます。",
-          "romanized": "kodomotachi wa gakkō ni ikimasu",
-          "literal": "Children [topic] school to go."
-        }
-      ]
+      "english": "School",
+      "word": "学校",
+      "romanized": "gakkō",
+      "englishPhrase": "The children go to school.",
+      "phrase": "子どもたちは学校に行きます。",
+      "phraseRomanized": "kodomotachi wa gakkō ni ikimasu",
+      "literal": "Children [topic] school to go."
     },
     {
       "id": "university",
-      "levels": [
-        {
-          "front": "University",
-          "back": "大学",
-          "romanized": "daigaku"
-        },
-        {
-          "front": "She studies at the university.",
-          "back": "彼女は大学で勉強しています。",
-          "romanized": "kanojo wa daigaku de benkyō shite imasu",
-          "literal": "She [topic] university at studying-is."
-        }
-      ]
+      "english": "University",
+      "word": "大学",
+      "romanized": "daigaku",
+      "englishPhrase": "She studies at the university.",
+      "phrase": "彼女は大学で勉強しています。",
+      "phraseRomanized": "kanojo wa daigaku de benkyō shite imasu",
+      "literal": "She [topic] university at studying-is."
     },
     {
       "id": "office",
-      "levels": [
-        {
-          "front": "Office",
-          "back": "オフィス",
-          "romanized": "ofisu"
-        },
-        {
-          "front": "He works in an office.",
-          "back": "彼はオフィスで働いています。",
-          "romanized": "kare wa ofisu de hataraite imasu",
-          "literal": "He [topic] office at working-is."
-        }
-      ]
+      "english": "Office",
+      "word": "オフィス",
+      "romanized": "ofisu",
+      "englishPhrase": "He works in an office.",
+      "phrase": "彼はオフィスで働いています。",
+      "phraseRomanized": "kare wa ofisu de hataraite imasu",
+      "literal": "He [topic] office at working-is."
     },
     {
       "id": "hospital",
-      "levels": [
-        {
-          "front": "Hospital",
-          "back": "病院",
-          "romanized": "byōin"
-        },
-        {
-          "front": "I'm going to the hospital.",
-          "back": "病院に行きます。",
-          "romanized": "byōin ni ikimasu",
-          "literal": "Hospital to go."
-        }
-      ]
+      "english": "Hospital",
+      "word": "病院",
+      "romanized": "byōin",
+      "englishPhrase": "I'm going to the hospital.",
+      "phrase": "病院に行きます。",
+      "phraseRomanized": "byōin ni ikimasu",
+      "literal": "Hospital to go."
     },
     {
       "id": "grocery_store",
-      "levels": [
-        {
-          "front": "Grocery store",
-          "back": "スーパーマーケット",
-          "romanized": "sūpāmāketto"
-        },
-        {
-          "front": "I need to go to the supermarket.",
-          "back": "スーパーに行かなければなりません。",
-          "romanized": "sūpā ni ikanakereba narimasen",
-          "literal": "Supermarket to go-must."
-        }
-      ]
+      "english": "Grocery store",
+      "word": "スーパーマーケット",
+      "romanized": "sūpāmāketto",
+      "englishPhrase": "I need to go to the supermarket.",
+      "phrase": "スーパーに行かなければなりません。",
+      "phraseRomanized": "sūpā ni ikanakereba narimasen",
+      "literal": "Supermarket to go-must."
     },
     {
       "id": "bank",
-      "levels": [
-        {
-          "front": "Bank",
-          "back": "銀行",
-          "romanized": "ginkō"
-        },
-        {
-          "front": "I'm coming from the bank.",
-          "back": "銀行から来ました。",
-          "romanized": "ginkō kara kimashita",
-          "literal": "Bank from came."
-        }
-      ]
+      "english": "Bank",
+      "word": "銀行",
+      "romanized": "ginkō",
+      "englishPhrase": "I'm coming from the bank.",
+      "phrase": "銀行から来ました。",
+      "phraseRomanized": "ginkō kara kimashita",
+      "literal": "Bank from came."
     },
     {
       "id": "library",
-      "levels": [
-        {
-          "front": "Library",
-          "back": "図書館",
-          "romanized": "toshokan"
-        },
-        {
-          "front": "I study in the library.",
-          "back": "図書館で勉強します。",
-          "romanized": "toshokan de benkyō shimasu",
-          "literal": "Library at study do."
-        }
-      ]
+      "english": "Library",
+      "word": "図書館",
+      "romanized": "toshokan",
+      "englishPhrase": "I study in the library.",
+      "phrase": "図書館で勉強します。",
+      "phraseRomanized": "toshokan de benkyō shimasu",
+      "literal": "Library at study do."
     },
     {
       "id": "restaurant",
-      "levels": [
-        {
-          "front": "Restaurant",
-          "back": "レストラン",
-          "romanized": "resutoran"
-        },
-        {
-          "front": "The restaurant is full.",
-          "back": "レストランは満席です。",
-          "romanized": "resutoran wa manseki desu",
-          "literal": "Restaurant [topic] full-seats is."
-        }
-      ]
+      "english": "Restaurant",
+      "word": "レストラン",
+      "romanized": "resutoran",
+      "englishPhrase": "The restaurant is full.",
+      "phrase": "レストランは満席です。",
+      "phraseRomanized": "resutoran wa manseki desu",
+      "literal": "Restaurant [topic] full-seats is."
     },
     {
       "id": "cafe",
-      "levels": [
-        {
-          "front": "Cafe",
-          "back": "カフェ",
-          "romanized": "kafe",
-          "grammarNote": "'Kafe' (カフェ) is the modern loanword for cafe. 'Kissaten' (喫茶店) is a traditional Japanese-style coffee shop — often quieter and more old-fashioned. Both are common."
-        },
-        {
-          "front": "Let's meet at the cafe.",
-          "back": "カフェで会いましょう。",
-          "romanized": "kafe de aimashō",
-          "literal": "Cafe at let's-meet."
-        }
-      ]
+      "english": "Cafe",
+      "word": "カフェ",
+      "romanized": "kafe",
+      "grammarNote": "'Kafe' (カフェ) is the modern loanword for cafe. 'Kissaten' (喫茶店) is a traditional Japanese-style coffee shop — often quieter and more old-fashioned. Both are common.",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "カフェで会いましょう。",
+      "phraseRomanized": "kafe de aimashō",
+      "literal": "Cafe at let's-meet."
     },
     {
       "id": "hotel",
-      "levels": [
-        {
-          "front": "Hotel",
-          "back": "ホテル",
-          "romanized": "hoteru"
-        },
-        {
-          "front": "The hotel is downtown.",
-          "back": "ホテルは市内にあります。",
-          "romanized": "hoteru wa shinai ni arimasu",
-          "literal": "Hotel [topic] downtown at exists."
-        }
-      ]
+      "english": "Hotel",
+      "word": "ホテル",
+      "romanized": "hoteru",
+      "englishPhrase": "The hotel is downtown.",
+      "phrase": "ホテルは市内にあります。",
+      "phraseRomanized": "hoteru wa shinai ni arimasu",
+      "literal": "Hotel [topic] downtown at exists."
     },
     {
       "id": "airport",
-      "levels": [
-        {
-          "front": "Airport",
-          "back": "空港",
-          "romanized": "kūkō"
-        },
-        {
-          "front": "The airport is far from here.",
-          "back": "空港はここから遠いです。",
-          "romanized": "kūkō wa koko kara tōi desu",
-          "literal": "Airport [topic] here from far is."
-        }
-      ]
+      "english": "Airport",
+      "word": "空港",
+      "romanized": "kūkō",
+      "englishPhrase": "The airport is far from here.",
+      "phrase": "空港はここから遠いです。",
+      "phraseRomanized": "kūkō wa koko kara tōi desu",
+      "literal": "Airport [topic] here from far is."
     },
     {
       "id": "station",
-      "levels": [
-        {
-          "front": "Station",
-          "back": "駅",
-          "romanized": "eki"
-        },
-        {
-          "front": "The station is near the hotel.",
-          "back": "駅はホテルの近くにあります。",
-          "romanized": "eki wa hoteru no chikaku ni arimasu",
-          "literal": "Station [topic] hotel's near-area at exists."
-        }
-      ]
+      "english": "Station",
+      "word": "駅",
+      "romanized": "eki",
+      "englishPhrase": "The station is near the hotel.",
+      "phrase": "駅はホテルの近くにあります。",
+      "phraseRomanized": "eki wa hoteru no chikaku ni arimasu",
+      "literal": "Station [topic] hotel's near-area at exists."
     },
     {
       "id": "bus_stop",
-      "levels": [
-        {
-          "front": "Bus stop",
-          "back": "バス停",
-          "romanized": "basutei"
-        },
-        {
-          "front": "Wait at the bus stop.",
-          "back": "バス停で待ってください。",
-          "romanized": "basutei de matte kudasai",
-          "literal": "Bus stop at please-wait."
-        }
-      ]
+      "english": "Bus stop",
+      "word": "バス停",
+      "romanized": "basutei",
+      "englishPhrase": "Wait at the bus stop.",
+      "phrase": "バス停で待ってください。",
+      "phraseRomanized": "basutei de matte kudasai",
+      "literal": "Bus stop at please-wait."
     },
     {
       "id": "park",
-      "levels": [
-        {
-          "front": "Park",
-          "back": "公園",
-          "romanized": "kōen"
-        },
-        {
-          "front": "The children play in the park.",
-          "back": "子どもたちは公園で遊びます。",
-          "romanized": "kodomotachi wa kōen de asobimasu",
-          "literal": "Children [topic] park at play."
-        }
-      ]
+      "english": "Park",
+      "word": "公園",
+      "romanized": "kōen",
+      "englishPhrase": "The children play in the park.",
+      "phrase": "子どもたちは公園で遊びます。",
+      "phraseRomanized": "kodomotachi wa kōen de asobimasu",
+      "literal": "Children [topic] park at play."
     },
     {
       "id": "square",
-      "levels": [
-        {
-          "front": "Square",
-          "back": "広場",
-          "romanized": "hiroba"
-        },
-        {
-          "front": "There's a fountain in the square.",
-          "back": "広場に噴水があります。",
-          "romanized": "hiroba ni funsui ga arimasu",
-          "literal": "Square in fountain [subj] exists."
-        }
-      ]
+      "english": "Square",
+      "word": "広場",
+      "romanized": "hiroba",
+      "englishPhrase": "There's a fountain in the square.",
+      "phrase": "広場に噴水があります。",
+      "phraseRomanized": "hiroba ni funsui ga arimasu",
+      "literal": "Square in fountain [subj] exists."
     },
     {
       "id": "street",
-      "levels": [
-        {
-          "front": "Street",
-          "back": "通り",
-          "romanized": "tōri"
-        },
-        {
-          "front": "The restaurant is on this street.",
-          "back": "レストランはこの通りにあります。",
-          "romanized": "resutoran wa kono tōri ni arimasu",
-          "literal": "Restaurant [topic] this street on exists."
-        }
-      ]
+      "english": "Street",
+      "word": "通り",
+      "romanized": "tōri",
+      "englishPhrase": "The restaurant is on this street.",
+      "phrase": "レストランはこの通りにあります。",
+      "phraseRomanized": "resutoran wa kono tōri ni arimasu",
+      "literal": "Restaurant [topic] this street on exists."
     },
     {
       "id": "crosswalk",
-      "levels": [
-        {
-          "front": "Crosswalk",
-          "back": "横断歩道",
-          "romanized": "ōdan hodō"
-        },
-        {
-          "front": "Cross at the crosswalk.",
-          "back": "横断歩道を渡ってください。",
-          "romanized": "ōdan hodō wo watatte kudasai",
-          "literal": "Crosswalk please-cross."
-        }
-      ]
+      "english": "Crosswalk",
+      "word": "横断歩道",
+      "romanized": "ōdan hodō",
+      "englishPhrase": "Cross at the crosswalk.",
+      "phrase": "横断歩道を渡ってください。",
+      "phraseRomanized": "ōdan hodō wo watatte kudasai",
+      "literal": "Crosswalk please-cross."
     },
     {
       "id": "intersection",
-      "levels": [
-        {
-          "front": "Intersection",
-          "back": "交差点",
-          "romanized": "kōsaten"
-        },
-        {
-          "front": "Turn left at the intersection.",
-          "back": "交差点で左に曲がってください。",
-          "romanized": "kōsaten de hidari ni magatte kudasai",
-          "literal": "Intersection at left to please-turn."
-        }
-      ]
+      "english": "Intersection",
+      "word": "交差点",
+      "romanized": "kōsaten",
+      "englishPhrase": "Turn left at the intersection.",
+      "phrase": "交差点で左に曲がってください。",
+      "phraseRomanized": "kōsaten de hidari ni magatte kudasai",
+      "literal": "Intersection at left to please-turn."
     },
     {
       "id": "bridge",
-      "levels": [
-        {
-          "front": "Bridge",
-          "back": "橋",
-          "romanized": "hashi"
-        },
-        {
-          "front": "We crossed the bridge.",
-          "back": "私たちは橋を渡りました。",
-          "romanized": "watashitachi wa hashi wo watarimashita",
-          "literal": "We [topic] bridge crossed."
-        }
-      ]
+      "english": "Bridge",
+      "word": "橋",
+      "romanized": "hashi",
+      "englishPhrase": "We crossed the bridge.",
+      "phrase": "私たちは橋を渡りました。",
+      "phraseRomanized": "watashitachi wa hashi wo watarimashita",
+      "literal": "We [topic] bridge crossed."
     },
     {
       "id": "corner",
-      "levels": [
-        {
-          "front": "Corner",
-          "back": "角",
-          "romanized": "kado"
-        },
-        {
-          "front": "Turn right at the corner.",
-          "back": "角で右に曲がってください。",
-          "romanized": "kado de migi ni magatte kudasai",
-          "literal": "Corner at right to please-turn."
-        }
-      ]
+      "english": "Corner",
+      "word": "角",
+      "romanized": "kado",
+      "englishPhrase": "Turn right at the corner.",
+      "phrase": "角で右に曲がってください。",
+      "phraseRomanized": "kado de migi ni magatte kudasai",
+      "literal": "Corner at right to please-turn."
     },
     {
       "id": "city_centre_downtown",
-      "levels": [
-        {
-          "front": "City centre",
-          "back": "市内",
-          "romanized": "shinai"
-        },
-        {
-          "front": "The museum is downtown.",
-          "back": "博物館は市内にあります。",
-          "romanized": "hakubutsukan wa shinai ni arimasu",
-          "literal": "Museum [topic] downtown at exists."
-        }
-      ]
+      "english": "City centre",
+      "word": "市内",
+      "romanized": "shinai",
+      "englishPhrase": "The museum is downtown.",
+      "phrase": "博物館は市内にあります。",
+      "phraseRomanized": "hakubutsukan wa shinai ni arimasu",
+      "literal": "Museum [topic] downtown at exists."
     },
     {
       "id": "neighbourhood",
-      "levels": [
-        {
-          "front": "Neighbourhood",
-          "back": "近所",
-          "romanized": "kinjo"
-        },
-        {
-          "front": "I live in a quiet neighbourhood.",
-          "back": "静かな近所に住んでいます。",
-          "romanized": "shizuka na kinjo ni sunde imasu",
-          "literal": "Quiet neighbourhood in living-am."
-        }
-      ]
+      "english": "Neighbourhood",
+      "word": "近所",
+      "romanized": "kinjo",
+      "englishPhrase": "I live in a quiet neighbourhood.",
+      "phrase": "静かな近所に住んでいます。",
+      "phraseRomanized": "shizuka na kinjo ni sunde imasu",
+      "literal": "Quiet neighbourhood in living-am."
     },
     {
       "id": "beach",
-      "levels": [
-        {
-          "front": "Beach",
-          "back": "海岸",
-          "romanized": "kaigan"
-        },
-        {
-          "front": "The beach is beautiful.",
-          "back": "海岸はきれいです。",
-          "romanized": "kaigan wa kirei desu",
-          "literal": "Beach [topic] beautiful is."
-        }
-      ]
+      "english": "Beach",
+      "word": "海岸",
+      "romanized": "kaigan",
+      "englishPhrase": "The beach is beautiful.",
+      "phrase": "海岸はきれいです。",
+      "phraseRomanized": "kaigan wa kirei desu",
+      "literal": "Beach [topic] beautiful is."
     },
     {
       "id": "mountain",
-      "levels": [
-        {
-          "front": "Mountain",
-          "back": "山",
-          "romanized": "yama"
-        },
-        {
-          "front": "The mountain is very high.",
-          "back": "山はとても高いです。",
-          "romanized": "yama wa totemo takai desu",
-          "literal": "Mountain [topic] very high is."
-        }
-      ]
+      "english": "Mountain",
+      "word": "山",
+      "romanized": "yama",
+      "englishPhrase": "The mountain is very high.",
+      "phrase": "山はとても高いです。",
+      "phraseRomanized": "yama wa totemo takai desu",
+      "literal": "Mountain [topic] very high is."
     },
     {
       "id": "museum",
-      "levels": [
-        {
-          "front": "Museum",
-          "back": "博物館",
-          "romanized": "hakubutsukan",
-          "grammarNote": "'Hakubutsukan' (博物館) is a general museum (history, science, etc.). 'Bijutsukan' (美術館) is specifically an art museum. When visiting, specify which type depending on context."
-        },
-        {
-          "front": "I want to visit the museum.",
-          "back": "博物館を訪れたいです。",
-          "romanized": "hakubutsukan wo otozuretai desu",
-          "literal": "Museum want-to-visit."
-        }
-      ]
+      "english": "Museum",
+      "word": "博物館",
+      "romanized": "hakubutsukan",
+      "grammarNote": "'Hakubutsukan' (博物館) is a general museum (history, science, etc.). 'Bijutsukan' (美術館) is specifically an art museum. When visiting, specify which type depending on context.",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "博物館を訪れたいです。",
+      "phraseRomanized": "hakubutsukan wo otozuretai desu",
+      "literal": "Museum want-to-visit."
     },
     {
       "id": "movie_theater",
-      "levels": [
-        {
-          "front": "Movie theater",
-          "back": "映画館",
-          "romanized": "eigakan"
-        },
-        {
-          "front": "We're going to the cinema tonight.",
-          "back": "今夜映画館に行きます。",
-          "romanized": "kon'ya eigakan ni ikimasu",
-          "literal": "Tonight cinema to go."
-        }
-      ]
+      "english": "Movie theater",
+      "word": "映画館",
+      "romanized": "eigakan",
+      "englishPhrase": "We're going to the cinema tonight.",
+      "phrase": "今夜映画館に行きます。",
+      "phraseRomanized": "kon'ya eigakan ni ikimasu",
+      "literal": "Tonight cinema to go."
     },
     {
       "id": "map",
-      "levels": [
-        {
-          "front": "Map",
-          "back": "地図",
-          "romanized": "chizu"
-        },
-        {
-          "front": "Do you have a map?",
-          "back": "地図を持っていますか？",
-          "romanized": "chizu wo motte imasu ka",
-          "literal": "Map holding-are?"
-        }
-      ]
+      "english": "Map",
+      "word": "地図",
+      "romanized": "chizu",
+      "englishPhrase": "Do you have a map?",
+      "phrase": "地図を持っていますか？",
+      "phraseRomanized": "chizu wo motte imasu ka",
+      "literal": "Map holding-are?"
     },
     {
       "id": "direction",
-      "levels": [
-        {
-          "front": "Direction",
-          "back": "方向",
-          "romanized": "hōkō"
-        },
-        {
-          "front": "Which direction is the station?",
-          "back": "駅はどの方向ですか？",
-          "romanized": "eki wa dono hōkō desu ka",
-          "literal": "Station [topic] which direction is?"
-        }
-      ]
+      "english": "Direction",
+      "word": "方向",
+      "romanized": "hōkō",
+      "englishPhrase": "Which direction is the station?",
+      "phrase": "駅はどの方向ですか？",
+      "phraseRomanized": "eki wa dono hōkō desu ka",
+      "literal": "Station [topic] which direction is?"
     },
     {
       "id": "distance",
-      "levels": [
-        {
-          "front": "Distance",
-          "back": "距離",
-          "romanized": "kyori"
-        },
-        {
-          "front": "What's the distance to the hotel?",
-          "back": "ホテルまでの距離はどのくらいですか？",
-          "romanized": "hoteru made no kyori wa dono kurai desu ka",
-          "literal": "Hotel until's distance [topic] how much is?"
-        }
-      ]
+      "english": "Distance",
+      "word": "距離",
+      "romanized": "kyori",
+      "englishPhrase": "What's the distance to the hotel?",
+      "phrase": "ホテルまでの距離はどのくらいですか？",
+      "phraseRomanized": "hoteru made no kyori wa dono kurai desu ka",
+      "literal": "Hotel until's distance [topic] how much is?"
     },
     {
       "id": "to_go",
-      "levels": [
-        {
-          "front": "To go",
-          "back": "行く",
-          "romanized": "iku",
-          "grammarNote": "'Iku' (行く) means to go (away from the speaker). The polite form is 'ikimasu'. Use particle 'ni' or 'e' for destination: 'sūpā ni ikimasu' (I'm going to the supermarket). 'Kuru' (来る) means to come (toward the speaker)."
-        },
-        {
-          "front": "I'm going to the supermarket.",
-          "back": "スーパーに行きます。",
-          "romanized": "sūpā ni ikimasu",
-          "literal": "Supermarket to go."
-        }
-      ]
+      "english": "To go",
+      "word": "行く",
+      "romanized": "iku",
+      "grammarNote": "'Iku' (行く) means to go (away from the speaker). The polite form is 'ikimasu'. Use particle 'ni' or 'e' for destination: 'sūpā ni ikimasu' (I'm going to the supermarket). 'Kuru' (来る) means to come (toward the speaker).",
+      "englishPhrase": "I'm going to the supermarket.",
+      "phrase": "スーパーに行きます。",
+      "phraseRomanized": "sūpā ni ikimasu",
+      "literal": "Supermarket to go."
     },
     {
       "id": "to_come",
-      "levels": [
-        {
-          "front": "To come",
-          "back": "来る",
-          "romanized": "kuru"
-        },
-        {
-          "front": "Come to my house.",
-          "back": "私の家に来てください。",
-          "romanized": "watashi no ie ni kite kudasai",
-          "literal": "My house to please-come."
-        }
-      ]
+      "english": "To come",
+      "word": "来る",
+      "romanized": "kuru",
+      "englishPhrase": "Come to my house.",
+      "phrase": "私の家に来てください。",
+      "phraseRomanized": "watashi no ie ni kite kudasai",
+      "literal": "My house to please-come."
     },
     {
       "id": "to_travel",
-      "levels": [
-        {
-          "front": "To travel",
-          "back": "旅行する",
-          "romanized": "ryokō suru"
-        },
-        {
-          "front": "I love to travel.",
-          "back": "旅行するのが大好きです。",
-          "romanized": "ryokō suru no ga daisuki desu",
-          "literal": "Traveling [subj] love is."
-        }
-      ]
+      "english": "To travel",
+      "word": "旅行する",
+      "romanized": "ryokō suru",
+      "englishPhrase": "I love to travel.",
+      "phrase": "旅行するのが大好きです。",
+      "phraseRomanized": "ryokō suru no ga daisuki desu",
+      "literal": "Traveling [subj] love is."
     },
     {
       "id": "to_walk",
-      "levels": [
-        {
-          "front": "To walk",
-          "back": "歩く",
-          "romanized": "aruku"
-        },
-        {
-          "front": "I walk to work every day.",
-          "back": "毎日歩いて仕事に行きます。",
-          "romanized": "mainichi aruite shigoto ni ikimasu",
-          "literal": "Every-day walking work to go."
-        }
-      ]
+      "english": "To walk",
+      "word": "歩く",
+      "romanized": "aruku",
+      "englishPhrase": "I walk to work every day.",
+      "phrase": "毎日歩いて仕事に行きます。",
+      "phraseRomanized": "mainichi aruite shigoto ni ikimasu",
+      "literal": "Every-day walking work to go."
     },
     {
       "id": "to_drive",
-      "levels": [
-        {
-          "front": "To drive",
-          "back": "運転する",
-          "romanized": "unten suru"
-        },
-        {
-          "front": "She drives to the office.",
-          "back": "彼女はオフィスまで運転します。",
-          "romanized": "kanojo wa ofisu made unten shimasu",
-          "literal": "She [topic] office until drives."
-        }
-      ]
+      "english": "To drive",
+      "word": "運転する",
+      "romanized": "unten suru",
+      "englishPhrase": "She drives to the office.",
+      "phrase": "彼女はオフィスまで運転します。",
+      "phraseRomanized": "kanojo wa ofisu made unten shimasu",
+      "literal": "She [topic] office until drives."
     },
     {
       "id": "to_turn",
-      "levels": [
-        {
-          "front": "To turn",
-          "back": "曲がる",
-          "romanized": "magaru"
-        },
-        {
-          "front": "Turn left at the corner.",
-          "back": "角で左に曲がってください。",
-          "romanized": "kado de hidari ni magatte kudasai",
-          "literal": "Corner at left to please-turn."
-        }
-      ]
+      "english": "To turn",
+      "word": "曲がる",
+      "romanized": "magaru",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "角で左に曲がってください。",
+      "phraseRomanized": "kado de hidari ni magatte kudasai",
+      "literal": "Corner at left to please-turn."
     },
     {
       "id": "to_cross",
-      "levels": [
-        {
-          "front": "To cross",
-          "back": "渡る",
-          "romanized": "wataru"
-        },
-        {
-          "front": "Cross the street carefully.",
-          "back": "注意して道を渡ってください。",
-          "romanized": "chūi shite michi wo watatte kudasai",
-          "literal": "Carefully road please-cross."
-        }
-      ]
+      "english": "To cross",
+      "word": "渡る",
+      "romanized": "wataru",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "注意して道を渡ってください。",
+      "phraseRomanized": "chūi shite michi wo watatte kudasai",
+      "literal": "Carefully road please-cross."
     },
     {
       "id": "to_follow",
-      "levels": [
-        {
-          "front": "To follow",
-          "back": "従う",
-          "romanized": "shitagau"
-        },
-        {
-          "front": "Follow this street.",
-          "back": "この通りに沿って進んでください。",
-          "romanized": "kono tōri ni sotte susunde kudasai",
-          "literal": "This street along please-proceed."
-        }
-      ]
+      "english": "To follow",
+      "word": "従う",
+      "romanized": "shitagau",
+      "englishPhrase": "Follow this street.",
+      "phrase": "この通りに沿って進んでください。",
+      "phraseRomanized": "kono tōri ni sotte susunde kudasai",
+      "literal": "This street along please-proceed."
     },
     {
       "id": "to_reach",
-      "levels": [
-        {
-          "front": "To reach",
-          "back": "着く",
-          "romanized": "tsuku"
-        },
-        {
-          "front": "How do I reach the station?",
-          "back": "駅にはどうやって着きますか？",
-          "romanized": "eki ni wa dō yatte tsukimasu ka",
-          "literal": "Station to [topic] how doing arrive?"
-        }
-      ]
+      "english": "To reach",
+      "word": "着く",
+      "romanized": "tsuku",
+      "englishPhrase": "How do I reach the station?",
+      "phrase": "駅にはどうやって着きますか？",
+      "phraseRomanized": "eki ni wa dō yatte tsukimasu ka",
+      "literal": "Station to [topic] how doing arrive?"
     },
     {
       "id": "to_enter",
-      "levels": [
-        {
-          "front": "To enter",
-          "back": "入る",
-          "romanized": "hairu"
-        },
-        {
-          "front": "Enter through the main door.",
-          "back": "正面玄関から入ってください。",
-          "romanized": "shōmen genkan kara haitte kudasai",
-          "literal": "Main entrance from please-enter."
-        }
-      ]
+      "english": "To enter",
+      "word": "入る",
+      "romanized": "hairu",
+      "englishPhrase": "Enter through the main door.",
+      "phrase": "正面玄関から入ってください。",
+      "phraseRomanized": "shōmen genkan kara haitte kudasai",
+      "literal": "Main entrance from please-enter."
     },
     {
       "id": "to_leave",
-      "levels": [
-        {
-          "front": "To leave",
-          "back": "出る",
-          "romanized": "deru"
-        },
-        {
-          "front": "I leave work at five.",
-          "back": "5時に仕事を出ます。",
-          "romanized": "goji ni shigoto wo demasu",
-          "literal": "Five o'clock at work leave."
-        }
-      ]
+      "english": "To leave",
+      "word": "出る",
+      "romanized": "deru",
+      "englishPhrase": "I leave work at five.",
+      "phrase": "5時に仕事を出ます。",
+      "phraseRomanized": "goji ni shigoto wo demasu",
+      "literal": "Five o'clock at work leave."
     },
     {
       "id": "to_depart",
-      "levels": [
-        {
-          "front": "To depart",
-          "back": "出発する",
-          "romanized": "shuppatsu suru"
-        },
-        {
-          "front": "The train departs at nine.",
-          "back": "電車は9時に出発します。",
-          "romanized": "densha wa kuji ni shuppatsu shimasu",
-          "literal": "Train [topic] nine o'clock at departs."
-        }
-      ]
+      "english": "To depart",
+      "word": "出発する",
+      "romanized": "shuppatsu suru",
+      "englishPhrase": "The train departs at nine.",
+      "phrase": "電車は9時に出発します。",
+      "phraseRomanized": "densha wa kuji ni shuppatsu shimasu",
+      "literal": "Train [topic] nine o'clock at departs."
     },
     {
       "id": "to_arrive",
-      "levels": [
-        {
-          "front": "To arrive",
-          "back": "到着する",
-          "romanized": "tōchaku suru"
-        },
-        {
-          "front": "We arrive tomorrow.",
-          "back": "明日到着します。",
-          "romanized": "ashita tōchaku shimasu",
-          "literal": "Tomorrow arrive."
-        }
-      ]
+      "english": "To arrive",
+      "word": "到着する",
+      "romanized": "tōchaku suru",
+      "englishPhrase": "We arrive tomorrow.",
+      "phrase": "明日到着します。",
+      "phraseRomanized": "ashita tōchaku shimasu",
+      "literal": "Tomorrow arrive."
     },
     {
       "id": "to_visit",
-      "levels": [
-        {
-          "front": "To visit",
-          "back": "訪れる",
-          "romanized": "otozureru"
-        },
-        {
-          "front": "I want to visit the museum.",
-          "back": "博物館を訪れたいです。",
-          "romanized": "hakubutsukan wo otozuretai desu",
-          "literal": "Museum want-to-visit."
-        }
-      ]
+      "english": "To visit",
+      "word": "訪れる",
+      "romanized": "otozureru",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "博物館を訪れたいです。",
+      "phraseRomanized": "hakubutsukan wo otozuretai desu",
+      "literal": "Museum want-to-visit."
     },
     {
       "id": "in",
-      "levels": [
-        {
-          "front": "In",
-          "back": "の中に",
-          "romanized": "no naka ni",
-          "grammarNote": "Japanese uses postpositions rather than prepositions. Location markers: 'ni' (に, at/in for existence), 'de' (で, at/in for actions), 'no naka ni' (の中に, inside), 'no ue ni' (の上に, on top of), 'no shita ni' (の下に, under)."
-        },
-        {
-          "front": "The keys are in the bag.",
-          "back": "鍵はバッグの中にあります。",
-          "romanized": "kagi wa baggu no naka ni arimasu",
-          "literal": "Keys [topic] bag's inside at exist."
-        }
-      ]
+      "english": "In",
+      "word": "の中に",
+      "romanized": "no naka ni",
+      "grammarNote": "Japanese uses postpositions rather than prepositions. Location markers: 'ni' (に, at/in for existence), 'de' (で, at/in for actions), 'no naka ni' (の中に, inside), 'no ue ni' (の上に, on top of), 'no shita ni' (の下に, under).",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "鍵はバッグの中にあります。",
+      "phraseRomanized": "kagi wa baggu no naka ni arimasu",
+      "literal": "Keys [topic] bag's inside at exist."
     },
     {
       "id": "on",
-      "levels": [
-        {
-          "front": "On",
-          "back": "の上に",
-          "romanized": "no ue ni"
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "本はテーブルの上にあります。",
-          "romanized": "hon wa tēburu no ue ni arimasu",
-          "literal": "Book [topic] table's top at exists."
-        }
-      ]
+      "english": "On",
+      "word": "の上に",
+      "romanized": "no ue ni",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "本はテーブルの上にあります。",
+      "phraseRomanized": "hon wa tēburu no ue ni arimasu",
+      "literal": "Book [topic] table's top at exists."
     },
     {
       "id": "at",
-      "levels": [
-        {
-          "front": "At",
-          "back": "に",
-          "romanized": "ni"
-        },
-        {
-          "front": "I'm at the office.",
-          "back": "オフィスにいます。",
-          "romanized": "ofisu ni imasu",
-          "literal": "Office at am."
-        }
-      ]
+      "english": "At",
+      "word": "に",
+      "romanized": "ni",
+      "englishPhrase": "I'm at the office.",
+      "phrase": "オフィスにいます。",
+      "phraseRomanized": "ofisu ni imasu",
+      "literal": "Office at am."
     },
     {
       "id": "under",
-      "levels": [
-        {
-          "front": "Under",
-          "back": "の下に",
-          "romanized": "no shita ni"
-        },
-        {
-          "front": "The cat is under the table.",
-          "back": "猫はテーブルの下にいます。",
-          "romanized": "neko wa tēburu no shita ni imasu",
-          "literal": "Cat [topic] table's beneath at is."
-        }
-      ]
+      "english": "Under",
+      "word": "の下に",
+      "romanized": "no shita ni",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "猫はテーブルの下にいます。",
+      "phraseRomanized": "neko wa tēburu no shita ni imasu",
+      "literal": "Cat [topic] table's beneath at is."
     },
     {
       "id": "next_to",
-      "levels": [
-        {
-          "front": "Next to",
-          "back": "の隣に",
-          "romanized": "no tonari ni"
-        },
-        {
-          "front": "The bank is next to the cafe.",
-          "back": "銀行はカフェの隣にあります。",
-          "romanized": "ginkō wa kafe no tonari ni arimasu",
-          "literal": "Bank [topic] cafe's next-to at exists."
-        }
-      ]
+      "english": "Next to",
+      "word": "の隣に",
+      "romanized": "no tonari ni",
+      "englishPhrase": "The bank is next to the cafe.",
+      "phrase": "銀行はカフェの隣にあります。",
+      "phraseRomanized": "ginkō wa kafe no tonari ni arimasu",
+      "literal": "Bank [topic] cafe's next-to at exists."
     },
     {
       "id": "between",
-      "levels": [
-        {
-          "front": "Between",
-          "back": "の間に",
-          "romanized": "no aida ni"
-        },
-        {
-          "front": "The park is between the school and the library.",
-          "back": "公園は学校と図書館の間にあります。",
-          "romanized": "kōen wa gakkō to toshokan no aida ni arimasu",
-          "literal": "Park [topic] school and library's between at exists."
-        }
-      ]
+      "english": "Between",
+      "word": "の間に",
+      "romanized": "no aida ni",
+      "englishPhrase": "The park is between the school and the library.",
+      "phrase": "公園は学校と図書館の間にあります。",
+      "phraseRomanized": "kōen wa gakkō to toshokan no aida ni arimasu",
+      "literal": "Park [topic] school and library's between at exists."
     },
     {
       "id": "in_front_of",
-      "levels": [
-        {
-          "front": "In front of",
-          "back": "の前に",
-          "romanized": "no mae ni"
-        },
-        {
-          "front": "The taxi is in front of the hotel.",
-          "back": "タクシーはホテルの前にいます。",
-          "romanized": "takushī wa hoteru no mae ni imasu",
-          "literal": "Taxi [topic] hotel's front at is."
-        }
-      ]
+      "english": "In front of",
+      "word": "の前に",
+      "romanized": "no mae ni",
+      "englishPhrase": "The taxi is in front of the hotel.",
+      "phrase": "タクシーはホテルの前にいます。",
+      "phraseRomanized": "takushī wa hoteru no mae ni imasu",
+      "literal": "Taxi [topic] hotel's front at is."
     },
     {
       "id": "behind",
-      "levels": [
-        {
-          "front": "Behind",
-          "back": "の後ろに",
-          "romanized": "no ushiro ni"
-        },
-        {
-          "front": "The garden is behind the house.",
-          "back": "庭は家の後ろにあります。",
-          "romanized": "niwa wa ie no ushiro ni arimasu",
-          "literal": "Garden [topic] house's behind at exists."
-        }
-      ]
+      "english": "Behind",
+      "word": "の後ろに",
+      "romanized": "no ushiro ni",
+      "englishPhrase": "The garden is behind the house.",
+      "phrase": "庭は家の後ろにあります。",
+      "phraseRomanized": "niwa wa ie no ushiro ni arimasu",
+      "literal": "Garden [topic] house's behind at exists."
     },
     {
       "id": "near",
-      "levels": [
-        {
-          "front": "Near",
-          "back": "近くに",
-          "romanized": "chikaku ni"
-        },
-        {
-          "front": "Is there a restaurant near here?",
-          "back": "この近くにレストランはありますか？",
-          "romanized": "kono chikaku ni resutoran wa arimasu ka",
-          "literal": "This near-area in restaurant [topic] exists?"
-        }
-      ]
+      "english": "Near",
+      "word": "近くに",
+      "romanized": "chikaku ni",
+      "englishPhrase": "Is there a restaurant near here?",
+      "phrase": "この近くにレストランはありますか？",
+      "phraseRomanized": "kono chikaku ni resutoran wa arimasu ka",
+      "literal": "This near-area in restaurant [topic] exists?"
     },
     {
       "id": "far",
-      "levels": [
-        {
-          "front": "Far",
-          "back": "遠い",
-          "romanized": "tōi"
-        },
-        {
-          "front": "Is the airport far?",
-          "back": "空港は遠いですか？",
-          "romanized": "kūkō wa tōi desu ka",
-          "literal": "Airport [topic] far is?"
-        }
-      ]
+      "english": "Far",
+      "word": "遠い",
+      "romanized": "tōi",
+      "englishPhrase": "Is the airport far?",
+      "phrase": "空港は遠いですか？",
+      "phraseRomanized": "kūkō wa tōi desu ka",
+      "literal": "Airport [topic] far is?"
     },
     {
       "id": "here",
-      "levels": [
-        {
-          "front": "Here",
-          "back": "ここ",
-          "romanized": "koko",
-          "grammarNote": "Japanese has three levels of distance in demonstratives: 'koko' (ここ, here — near speaker), 'soko' (そこ, there — near listener), 'asoko' (あそこ, over there — far from both). This three-way system is called ko-so-a (こそあ)."
-        },
-        {
-          "front": "Come here, please.",
-          "back": "ここに来てください。",
-          "romanized": "koko ni kite kudasai",
-          "literal": "Here to please-come."
-        }
-      ]
+      "english": "Here",
+      "word": "ここ",
+      "romanized": "koko",
+      "grammarNote": "Japanese has three levels of distance in demonstratives: 'koko' (ここ, here — near speaker), 'soko' (そこ, there — near listener), 'asoko' (あそこ, over there — far from both). This three-way system is called ko-so-a (こそあ).",
+      "englishPhrase": "Come here, please.",
+      "phrase": "ここに来てください。",
+      "phraseRomanized": "koko ni kite kudasai",
+      "literal": "Here to please-come."
     },
     {
       "id": "there",
-      "levels": [
-        {
-          "front": "There",
-          "back": "そこ",
-          "romanized": "soko"
-        },
-        {
-          "front": "The taxi is over there.",
-          "back": "タクシーはあそこにいます。",
-          "romanized": "takushī wa asoko ni imasu",
-          "literal": "Taxi [topic] over-there at is."
-        }
-      ]
+      "english": "There",
+      "word": "そこ",
+      "romanized": "soko",
+      "englishPhrase": "The taxi is over there.",
+      "phrase": "タクシーはあそこにいます。",
+      "phraseRomanized": "takushī wa asoko ni imasu",
+      "literal": "Taxi [topic] over-there at is."
     },
     {
       "id": "everywhere",
-      "levels": [
-        {
-          "front": "Everywhere",
-          "back": "どこにでも",
-          "romanized": "doko ni demo"
-        },
-        {
-          "front": "There are tourists everywhere.",
-          "back": "どこにでも観光客がいます。",
-          "romanized": "doko ni demo kankōkyaku ga imasu",
-          "literal": "Everywhere tourists [subj] are."
-        }
-      ]
+      "english": "Everywhere",
+      "word": "どこにでも",
+      "romanized": "doko ni demo",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "どこにでも観光客がいます。",
+      "phraseRomanized": "doko ni demo kankōkyaku ga imasu",
+      "literal": "Everywhere tourists [subj] are."
     },
     {
       "id": "somewhere",
-      "levels": [
-        {
-          "front": "Somewhere",
-          "back": "どこかに",
-          "romanized": "doko ka ni"
-        },
-        {
-          "front": "Let's go somewhere quiet.",
-          "back": "どこか静かなところに行きましょう。",
-          "romanized": "doko ka shizuka na tokoro ni ikimashō",
-          "literal": "Somewhere quiet place to let's-go."
-        }
-      ]
+      "english": "Somewhere",
+      "word": "どこかに",
+      "romanized": "doko ka ni",
+      "englishPhrase": "Let's go somewhere quiet.",
+      "phrase": "どこか静かなところに行きましょう。",
+      "phraseRomanized": "doko ka shizuka na tokoro ni ikimashō",
+      "literal": "Somewhere quiet place to let's-go."
     },
     {
       "id": "nowhere",
-      "levels": [
-        {
-          "front": "Nowhere",
-          "back": "どこにもない",
-          "romanized": "doko ni mo nai"
-        },
-        {
-          "front": "There is nowhere to sit.",
-          "back": "座るところがどこにもありません。",
-          "romanized": "suwaru tokoro ga doko ni mo arimasen",
-          "literal": "Sitting place [subj] nowhere not-exist."
-        }
-      ]
+      "english": "Nowhere",
+      "word": "どこにもない",
+      "romanized": "doko ni mo nai",
+      "englishPhrase": "There is nowhere to sit.",
+      "phrase": "座るところがどこにもありません。",
+      "phraseRomanized": "suwaru tokoro ga doko ni mo arimasen",
+      "literal": "Sitting place [subj] nowhere not-exist."
     },
     {
       "id": "left",
-      "levels": [
-        {
-          "front": "Left",
-          "back": "左",
-          "romanized": "hidari"
-        },
-        {
-          "front": "Turn left.",
-          "back": "左に曲がってください。",
-          "romanized": "hidari ni magatte kudasai",
-          "literal": "Left to please-turn."
-        }
-      ]
+      "english": "Left",
+      "word": "左",
+      "romanized": "hidari",
+      "englishPhrase": "Turn left.",
+      "phrase": "左に曲がってください。",
+      "phraseRomanized": "hidari ni magatte kudasai",
+      "literal": "Left to please-turn."
     },
     {
       "id": "right",
-      "levels": [
-        {
-          "front": "Right",
-          "back": "右",
-          "romanized": "migi"
-        },
-        {
-          "front": "Turn right.",
-          "back": "右に曲がってください。",
-          "romanized": "migi ni magatte kudasai",
-          "literal": "Right to please-turn."
-        }
-      ]
+      "english": "Right",
+      "word": "右",
+      "romanized": "migi",
+      "englishPhrase": "Turn right.",
+      "phrase": "右に曲がってください。",
+      "phraseRomanized": "migi ni magatte kudasai",
+      "literal": "Right to please-turn."
     },
     {
       "id": "straight_ahead",
-      "levels": [
-        {
-          "front": "Straight (ahead)",
-          "back": "まっすぐ",
-          "romanized": "massugu"
-        },
-        {
-          "front": "Go straight ahead.",
-          "back": "まっすぐ進んでください。",
-          "romanized": "massugu susunde kudasai",
-          "literal": "Straight please-proceed."
-        }
-      ]
+      "english": "Straight (ahead)",
+      "word": "まっすぐ",
+      "romanized": "massugu",
+      "englishPhrase": "Go straight ahead.",
+      "phrase": "まっすぐ進んでください。",
+      "phraseRomanized": "massugu susunde kudasai",
+      "literal": "Straight please-proceed."
     },
     {
       "id": "north",
-      "levels": [
-        {
-          "front": "North",
-          "back": "北",
-          "romanized": "kita"
-        },
-        {
-          "front": "The city is to the north.",
-          "back": "町は北にあります。",
-          "romanized": "machi wa kita ni arimasu",
-          "literal": "City [topic] north at exists."
-        }
-      ]
+      "english": "North",
+      "word": "北",
+      "romanized": "kita",
+      "englishPhrase": "The city is to the north.",
+      "phrase": "町は北にあります。",
+      "phraseRomanized": "machi wa kita ni arimasu",
+      "literal": "City [topic] north at exists."
     },
     {
       "id": "south",
-      "levels": [
-        {
-          "front": "South",
-          "back": "南",
-          "romanized": "minami"
-        },
-        {
-          "front": "The beach is to the south.",
-          "back": "海岸は南にあります。",
-          "romanized": "kaigan wa minami ni arimasu",
-          "literal": "Beach [topic] south at exists."
-        }
-      ]
+      "english": "South",
+      "word": "南",
+      "romanized": "minami",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "海岸は南にあります。",
+      "phraseRomanized": "kaigan wa minami ni arimasu",
+      "literal": "Beach [topic] south at exists."
     },
     {
       "id": "east",
-      "levels": [
-        {
-          "front": "East",
-          "back": "東",
-          "romanized": "higashi"
-        },
-        {
-          "front": "The sun rises in the east.",
-          "back": "太陽は東から昇ります。",
-          "romanized": "taiyō wa higashi kara noborimasu",
-          "literal": "Sun [topic] east from rises."
-        }
-      ]
+      "english": "East",
+      "word": "東",
+      "romanized": "higashi",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "太陽は東から昇ります。",
+      "phraseRomanized": "taiyō wa higashi kara noborimasu",
+      "literal": "Sun [topic] east from rises."
     },
     {
       "id": "west",
-      "levels": [
-        {
-          "front": "West",
-          "back": "西",
-          "romanized": "nishi"
-        },
-        {
-          "front": "The sun sets in the west.",
-          "back": "太陽は西に沈みます。",
-          "romanized": "taiyō wa nishi ni shizumimasu",
-          "literal": "Sun [topic] west to sets."
-        }
-      ]
+      "english": "West",
+      "word": "西",
+      "romanized": "nishi",
+      "englishPhrase": "The sun sets in the west.",
+      "phrase": "太陽は西に沈みます。",
+      "phraseRomanized": "taiyō wa nishi ni shizumimasu",
+      "literal": "Sun [topic] west to sets."
     },
     {
       "id": "to_live",
-      "levels": [
-        {
-          "front": "To live",
-          "back": "住む",
-          "romanized": "sumu"
-        },
-        {
-          "front": "I live near the city centre.",
-          "back": "市内の近くに住んでいます。",
-          "romanized": "shinai no chikaku ni sunde imasu",
-          "literal": "City-centre's near-area in living-am."
-        }
-      ]
+      "english": "To live",
+      "word": "住む",
+      "romanized": "sumu",
+      "englishPhrase": "I live near the city centre.",
+      "phrase": "市内の近くに住んでいます。",
+      "phraseRomanized": "shinai no chikaku ni sunde imasu",
+      "literal": "City-centre's near-area in living-am."
     },
     {
       "id": "to_stay",
-      "levels": [
-        {
-          "front": "To stay",
-          "back": "泊まる",
-          "romanized": "tomaru",
-          "grammarNote": "'Tomaru' (泊まる) is the common word for staying overnight at a hotel or someone's house. 'Taizai suru' (滞在する) implies a longer stay or formal residence. For hotels, 'tomaru' is most natural."
-        },
-        {
-          "front": "We're staying at a hotel.",
-          "back": "ホテルに泊まっています。",
-          "romanized": "hoteru ni tomatte imasu",
-          "literal": "Hotel at staying-are."
-        }
-      ]
+      "english": "To stay",
+      "word": "泊まる",
+      "romanized": "tomaru",
+      "grammarNote": "'Tomaru' (泊まる) is the common word for staying overnight at a hotel or someone's house. 'Taizai suru' (滞在する) implies a longer stay or formal residence. For hotels, 'tomaru' is most natural.",
+      "englishPhrase": "We're staying at a hotel.",
+      "phrase": "ホテルに泊まっています。",
+      "phraseRomanized": "hoteru ni tomatte imasu",
+      "literal": "Hotel at staying-are."
     },
     {
       "id": "to_wait",
-      "levels": [
-        {
-          "front": "To wait",
-          "back": "待つ",
-          "romanized": "matsu"
-        },
-        {
-          "front": "I'll wait for you here.",
-          "back": "ここであなたを待ちます。",
-          "romanized": "koko de anata wo machimasu",
-          "literal": "Here at you wait."
-        }
-      ]
+      "english": "To wait",
+      "word": "待つ",
+      "romanized": "matsu",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "ここであなたを待ちます。",
+      "phraseRomanized": "koko de anata wo machimasu",
+      "literal": "Here at you wait."
     },
     {
       "id": "to_meet",
-      "levels": [
-        {
-          "front": "To meet",
-          "back": "会う",
-          "romanized": "au"
-        },
-        {
-          "front": "Let's meet at the park.",
-          "back": "公園で会いましょう。",
-          "romanized": "kōen de aimashō",
-          "literal": "Park at let's-meet."
-        }
-      ]
+      "english": "To meet",
+      "word": "会う",
+      "romanized": "au",
+      "englishPhrase": "Let's meet at the park.",
+      "phrase": "公園で会いましょう。",
+      "phraseRomanized": "kōen de aimashō",
+      "literal": "Park at let's-meet."
     },
     {
       "id": "to_get_lost",
-      "levels": [
-        {
-          "front": "To get lost",
-          "back": "迷う",
-          "romanized": "mayou"
-        },
-        {
-          "front": "Don't get lost!",
-          "back": "迷わないでください！",
-          "romanized": "mayowanaide kudasai",
-          "literal": "Please-don't-get-lost!"
-        }
-      ]
+      "english": "To get lost",
+      "word": "迷う",
+      "romanized": "mayou",
+      "englishPhrase": "Don't get lost!",
+      "phrase": "迷わないでください！",
+      "phraseRomanized": "mayowanaide kudasai",
+      "literal": "Please-don't-get-lost!"
     },
     {
       "id": "to_find",
-      "levels": [
-        {
-          "front": "To find",
-          "back": "見つける",
-          "romanized": "mitsukeru"
-        },
-        {
-          "front": "I can't find the hotel.",
-          "back": "ホテルが見つかりません。",
-          "romanized": "hoteru ga mitsukarimasen",
-          "literal": "Hotel [subj] not-found."
-        }
-      ]
+      "english": "To find",
+      "word": "見つける",
+      "romanized": "mitsukeru",
+      "englishPhrase": "I can't find the hotel.",
+      "phrase": "ホテルが見つかりません。",
+      "phraseRomanized": "hoteru ga mitsukarimasen",
+      "literal": "Hotel [subj] not-found."
     },
     {
       "id": "to_look_for",
-      "levels": [
-        {
-          "front": "To look for",
-          "back": "探す",
-          "romanized": "sagasu"
-        },
-        {
-          "front": "I'm looking for the pharmacy.",
-          "back": "薬局を探しています。",
-          "romanized": "yakkyoku wo sagashite imasu",
-          "literal": "Pharmacy searching-am."
-        }
-      ]
+      "english": "To look for",
+      "word": "探す",
+      "romanized": "sagasu",
+      "englishPhrase": "I'm looking for the pharmacy.",
+      "phrase": "薬局を探しています。",
+      "phraseRomanized": "yakkyoku wo sagashite imasu",
+      "literal": "Pharmacy searching-am."
     },
     {
       "id": "to_head",
-      "levels": [
-        {
-          "front": "To head",
-          "back": "向かう",
-          "romanized": "mukau"
-        },
-        {
-          "front": "Head towards the station.",
-          "back": "駅に向かってください。",
-          "romanized": "eki ni mukatte kudasai",
-          "literal": "Station to please-head."
-        }
-      ]
+      "english": "To head",
+      "word": "向かう",
+      "romanized": "mukau",
+      "englishPhrase": "Head towards the station.",
+      "phrase": "駅に向かってください。",
+      "phraseRomanized": "eki ni mukatte kudasai",
+      "literal": "Station to please-head."
     },
     {
       "id": "to_continue",
-      "levels": [
-        {
-          "front": "To continue",
-          "back": "続ける",
-          "romanized": "tsuzukeru"
-        },
-        {
-          "front": "Continue straight ahead.",
-          "back": "まっすぐ進んでください。",
-          "romanized": "massugu susunde kudasai",
-          "literal": "Straight please-proceed."
-        }
-      ]
+      "english": "To continue",
+      "word": "続ける",
+      "romanized": "tsuzukeru",
+      "englishPhrase": "Continue straight ahead.",
+      "phrase": "まっすぐ進んでください。",
+      "phraseRomanized": "massugu susunde kudasai",
+      "literal": "Straight please-proceed."
     },
     {
       "id": "to_stop",
-      "levels": [
-        {
-          "front": "To stop",
-          "back": "止まる",
-          "romanized": "tomaru"
-        },
-        {
-          "front": "Stop at the corner.",
-          "back": "角で止まってください。",
-          "romanized": "kado de tomatte kudasai",
-          "literal": "Corner at please-stop."
-        }
-      ]
+      "english": "To stop",
+      "word": "止まる",
+      "romanized": "tomaru",
+      "englishPhrase": "Stop at the corner.",
+      "phrase": "角で止まってください。",
+      "phraseRomanized": "kado de tomatte kudasai",
+      "literal": "Corner at please-stop."
     },
     {
       "id": "to_park",
-      "levels": [
-        {
-          "front": "To park",
-          "back": "駐車する",
-          "romanized": "chūsha suru"
-        },
-        {
-          "front": "Where can I park?",
-          "back": "どこに駐車できますか？",
-          "romanized": "doko ni chūsha dekimasu ka",
-          "literal": "Where at park can?"
-        }
-      ]
+      "english": "To park",
+      "word": "駐車する",
+      "romanized": "chūsha suru",
+      "englishPhrase": "Where can I park?",
+      "phrase": "どこに駐車できますか？",
+      "phraseRomanized": "doko ni chūsha dekimasu ka",
+      "literal": "Where at park can?"
     },
     {
       "id": "to_book_to_reserve",
-      "levels": [
-        {
-          "front": "To book",
-          "back": "予約する",
-          "romanized": "yoyaku suru"
-        },
-        {
-          "front": "I booked a room.",
-          "back": "部屋を予約しました。",
-          "romanized": "heya wo yoyaku shimashita",
-          "literal": "Room reserved."
-        }
-      ]
+      "english": "To book",
+      "word": "予約する",
+      "romanized": "yoyaku suru",
+      "englishPhrase": "I booked a room.",
+      "phrase": "部屋を予約しました。",
+      "phraseRomanized": "heya wo yoyaku shimashita",
+      "literal": "Room reserved."
     },
     {
       "id": "to_check_in",
-      "levels": [
-        {
-          "front": "To check in",
-          "back": "チェックインする",
-          "romanized": "chekkuin suru"
-        },
-        {
-          "front": "We checked in at three.",
-          "back": "3時にチェックインしました。",
-          "romanized": "sanji ni chekkuin shimashita",
-          "literal": "Three o'clock at checked-in."
-        }
-      ]
+      "english": "To check in",
+      "word": "チェックインする",
+      "romanized": "chekkuin suru",
+      "englishPhrase": "We checked in at three.",
+      "phrase": "3時にチェックインしました。",
+      "phraseRomanized": "sanji ni chekkuin shimashita",
+      "literal": "Three o'clock at checked-in."
     },
     {
       "id": "to_check_out",
-      "levels": [
-        {
-          "front": "To check out",
-          "back": "チェックアウトする",
-          "romanized": "chekkuauto suru"
-        },
-        {
-          "front": "Check out is at eleven.",
-          "back": "チェックアウトは11時です。",
-          "romanized": "chekkuauto wa jūichiji desu",
-          "literal": "Check-out [topic] eleven o'clock is."
-        }
-      ]
+      "english": "To check out",
+      "word": "チェックアウトする",
+      "romanized": "chekkuauto suru",
+      "englishPhrase": "Check out is at eleven.",
+      "phrase": "チェックアウトは11時です。",
+      "phraseRomanized": "chekkuauto wa jūichiji desu",
+      "literal": "Check-out [topic] eleven o'clock is."
     },
     {
       "id": "nearby",
-      "levels": [
-        {
-          "front": "Nearby",
-          "back": "近くに",
-          "romanized": "chikaku ni"
-        },
-        {
-          "front": "Is there a pharmacy nearby?",
-          "back": "近くに薬局はありますか？",
-          "romanized": "chikaku ni yakkyoku wa arimasu ka",
-          "literal": "Nearby pharmacy [topic] exists?"
-        }
-      ]
+      "english": "Nearby",
+      "word": "近くに",
+      "romanized": "chikaku ni",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "近くに薬局はありますか？",
+      "phraseRomanized": "chikaku ni yakkyoku wa arimasu ka",
+      "literal": "Nearby pharmacy [topic] exists?"
     },
     {
       "id": "busy_crowded",
-      "levels": [
-        {
-          "front": "Busy",
-          "back": "混んでいる",
-          "romanized": "konde iru"
-        },
-        {
-          "front": "The market is very crowded.",
-          "back": "市場はとても混んでいます。",
-          "romanized": "ichiba wa totemo konde imasu",
-          "literal": "Market [topic] very crowded-is."
-        }
-      ]
+      "english": "Busy",
+      "word": "混んでいる",
+      "romanized": "konde iru",
+      "englishPhrase": "The market is very crowded.",
+      "phrase": "市場はとても混んでいます。",
+      "phraseRomanized": "ichiba wa totemo konde imasu",
+      "literal": "Market [topic] very crowded-is."
     },
     {
       "id": "quiet",
-      "levels": [
-        {
-          "front": "Quiet",
-          "back": "静かな",
-          "romanized": "shizuka na"
-        },
-        {
-          "front": "I prefer a quiet neighbourhood.",
-          "back": "静かな近所の方が好きです。",
-          "romanized": "shizuka na kinjo no hō ga suki desu",
-          "literal": "Quiet neighbourhood's side [subj] preferred is."
-        }
-      ]
+      "english": "Quiet",
+      "word": "静かな",
+      "romanized": "shizuka na",
+      "englishPhrase": "I prefer a quiet neighbourhood.",
+      "phrase": "静かな近所の方が好きです。",
+      "phraseRomanized": "shizuka na kinjo no hō ga suki desu",
+      "literal": "Quiet neighbourhood's side [subj] preferred is."
     },
     {
       "id": "lost",
-      "levels": [
-        {
-          "front": "Lost",
-          "back": "迷子",
-          "romanized": "maigo"
-        },
-        {
-          "front": "I'm lost.",
-          "back": "道に迷いました。",
-          "romanized": "michi ni mayoimashita",
-          "literal": "Road on got-lost."
-        }
-      ]
+      "english": "Lost",
+      "word": "迷子",
+      "romanized": "maigo",
+      "englishPhrase": "I'm lost.",
+      "phrase": "道に迷いました。",
+      "phraseRomanized": "michi ni mayoimashita",
+      "literal": "Road on got-lost."
     }
   ]
 }

@@ -3,12 +3,20 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useLanguageApp } from "../../LanguageAppContext";
 import { useSpeech } from "../../hooks/useSpeech";
 import { shuffled } from "../../utils";
-import FlipCard, { CardLevel } from "../components/FlipCard";
+import FlipCard from "../components/FlipCard";
 import "../srs.css";
+
+interface GrammarCardLevel {
+    front: string;
+    back: string;
+    romanized?: string;
+    grammarNote?: string;
+    literal?: string;
+}
 
 interface Card {
     id: string;
-    levels: CardLevel[];
+    levels: GrammarCardLevel[];
 }
 
 interface DeckData {
@@ -32,7 +40,7 @@ const GrammarReview = () => {
     const [noteOpen, setNoteOpen] = useState(true);
     const [done, setDone] = useState(false);
 
-    const { showLiteral, shuffleCards } = useLanguageApp();
+    const { shuffleCards } = useLanguageApp();
     const { speak } = useSpeech(language);
 
     useEffect(() => {
@@ -56,7 +64,10 @@ const GrammarReview = () => {
     const flip = () => {
         setIsFlipped(true);
         setNoteOpen(true);
-        if (level) speak(level.back, true);
+        if (level) {
+            window.speechSynthesis.cancel();
+            speak(level.back, true);
+        }
     };
 
     const next = () => {
@@ -117,7 +128,11 @@ const GrammarReview = () => {
 
             {level && (
                 <FlipCard
-                    level={level}
+                    english={level.front}
+                    word={level.back}
+                    romanized={level.romanized}
+                    grammarNote={level.grammarNote}
+                    literal={level.literal}
                     isFlipped={isFlipped}
                     onFlip={flip}
                     noteOpen={noteOpen}

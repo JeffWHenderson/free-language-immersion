@@ -1,31 +1,28 @@
 import type { ReactNode } from "react";
 import { useLanguageApp } from "../../LanguageAppContext";
 
-export interface CardLevel {
-    front: string;
-    back: string;
-    romanized?: string;
-    grammarNote?: string;
-    literal?: string;
-}
-
 interface FlipCardProps {
-    level: CardLevel;
+    english: string;
+    word: string;
+    romanized?: string;
+    phrase?: string;
+    phraseRomanized?: string;
+    englishPhrase?: string;
+    literal?: string;
+    grammarNote?: string;
     isFlipped: boolean;
     onFlip: () => void;
     noteOpen: boolean;
     onNoteToggle: () => void;
-    backExtra?: ReactNode;
     reversed?: boolean;
+    backExtra?: ReactNode;
 }
 
-const FlipCard = ({ level, isFlipped, onFlip, noteOpen, onNoteToggle, backExtra, reversed }: FlipCardProps) => {
+const FlipCard = ({
+    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote,
+    isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra,
+}: FlipCardProps) => {
     const { showLiteral } = useLanguageApp();
-
-    const frontText = reversed ? level.back : level.front;
-    const backText = reversed ? level.front : level.back;
-    const frontRomanized = reversed ? level.romanized : undefined;
-    const backRomanized = reversed ? undefined : level.romanized;
 
     return (
         <div className="srs-card-wrap">
@@ -33,40 +30,51 @@ const FlipCard = ({ level, isFlipped, onFlip, noteOpen, onNoteToggle, backExtra,
                 className={`srs-card ${isFlipped ? "flipped" : ""}`}
                 onClick={!isFlipped ? onFlip : undefined}
             >
-                <div className="srs-card-front">
-                    <div className="srs-card-text">{frontText}</div>
-                    {frontRomanized && <div className="srs-romanized">{frontRomanized}</div>}
-                    {!reversed && showLiteral && level.literal && (
-                        <div className="srs-literal">{level.literal}</div>
-                    )}
-                    {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
-                </div>
-                <div className="srs-card-back">
-                    <div className="srs-card-text front-dim">{frontText}</div>
-                    {frontRomanized && <div className="srs-romanized" style={{ opacity: 0.4 }}>{frontRomanized}</div>}
-                    {!reversed && showLiteral && level.literal && (
-                        <div className="srs-literal front-dim">{level.literal}</div>
-                    )}
-                    <hr className="srs-divider" />
-                    <div className="srs-card-text">{backText}</div>
-                    {backRomanized && <div className="srs-romanized">{backRomanized}</div>}
-                    {reversed && showLiteral && level.literal && (
-                        <div className="srs-literal">{level.literal}</div>
-                    )}
-                    {backExtra}
-                </div>
+                {reversed ? (
+                    <>
+                        <div className="srs-card-front">
+                            <div className="srs-card-text">{word}</div>
+                            {romanized && <div className="srs-romanized">{romanized}</div>}
+                            {phrase && <div className="eszh-phrase">{phrase}</div>}
+                            {phraseRomanized && <div className="eszh-phrase-pin">{phraseRomanized}</div>}
+                            {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
+                        </div>
+                        <div className="srs-card-back">
+                            <div className="srs-card-text front-dim">{word}</div>
+                            {phrase && <div className="eszh-phrase front-dim">{phrase}</div>}
+                            <hr className="srs-divider" />
+                            <div className="srs-card-text">{english}</div>
+                            {showLiteral && literal && <div className="srs-literal">{literal}</div>}
+                            {englishPhrase && <div className="eszh-phrase">{englishPhrase}</div>}
+                            {backExtra}
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        <div className="srs-card-front">
+                            <div className="srs-card-text">{english}</div>
+                            {englishPhrase && <div className="eszh-phrase">{englishPhrase}</div>}
+                            {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
+                        </div>
+                        <div className="srs-card-back">
+                            <div className="srs-card-text front-dim">{english}</div>
+                            {englishPhrase && <div className="eszh-phrase front-dim">{englishPhrase}</div>}
+                            <hr className="srs-divider" />
+                            <div className="srs-card-text">{word}</div>
+                            {romanized && <div className="srs-romanized">{romanized}</div>}
+                            {phrase && <div className="eszh-phrase">{phrase}</div>}
+                            {phraseRomanized && <div className="eszh-phrase-pin">{phraseRomanized}</div>}
+                            {backExtra}
+                        </div>
+                    </>
+                )}
             </div>
-            {isFlipped && level.grammarNote && (
+            {isFlipped && grammarNote && (
                 <div className="srs-grammar-note-wrap" onClick={e => e.stopPropagation()}>
-                    <button
-                        className="srs-grammar-note-toggle"
-                        onClick={onNoteToggle}
-                    >
+                    <button className="srs-grammar-note-toggle" onClick={onNoteToggle}>
                         Grammar note {noteOpen ? "▴" : "▾"}
                     </button>
-                    {noteOpen && (
-                        <div className="srs-grammar-note-body">{level.grammarNote}</div>
-                    )}
+                    {noteOpen && <div className="srs-grammar-note-body">{grammarNote}</div>}
                 </div>
             )}
         </div>

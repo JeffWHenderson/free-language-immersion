@@ -19,1238 +19,776 @@
   "cards": [
     {
       "id": "doctor",
-      "levels": [
-        {
-          "front": "Doctor",
-          "back": "의사",
-          "romanized": "uisa",
-          "grammarNote": "In Korean, professions are stated directly without an article: '저는 의사예요' (jeoneun uisayeyo, I am a doctor). The copula '이에요/예요' (ieyo/yeyo) attaches to the noun. No equivalent of 'a/an' is needed."
-        },
-        {
-          "front": "He is a doctor.",
-          "back": "그는 의사예요.",
-          "romanized": "geuneun uisayeyo",
-          "literal": "He [topic] doctor is."
-        }
-      ]
+      "english": "Doctor",
+      "word": "의사",
+      "romanized": "uisa",
+      "grammarNote": "In Korean, professions are stated directly without an article: '저는 의사예요' (jeoneun uisayeyo, I am a doctor). The copula '이에요/예요' (ieyo/yeyo) attaches to the noun. No equivalent of 'a/an' is needed.",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "그는 의사예요.",
+      "phraseRomanized": "geuneun uisayeyo",
+      "literal": "He [topic] doctor is."
     },
     {
       "id": "nurse",
-      "levels": [
-        {
-          "front": "Nurse",
-          "back": "간호사",
-          "romanized": "ganhosa"
-        },
-        {
-          "front": "She is a nurse.",
-          "back": "그녀는 간호사예요.",
-          "romanized": "geunyeoneun ganhosayeyo",
-          "literal": "She [topic] nurse is."
-        }
-      ]
+      "english": "Nurse",
+      "word": "간호사",
+      "romanized": "ganhosa",
+      "englishPhrase": "She is a nurse.",
+      "phrase": "그녀는 간호사예요.",
+      "phraseRomanized": "geunyeoneun ganhosayeyo",
+      "literal": "She [topic] nurse is."
     },
     {
       "id": "engineer",
-      "levels": [
-        {
-          "front": "Engineer",
-          "back": "엔지니어",
-          "romanized": "enjinieo"
-        },
-        {
-          "front": "My brother is an engineer.",
-          "back": "오빠는 엔지니어예요.",
-          "romanized": "oppaneun enjinieoyeyo",
-          "literal": "Older-brother [topic] engineer is."
-        }
-      ]
+      "english": "Engineer",
+      "word": "엔지니어",
+      "romanized": "enjinieo",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "오빠는 엔지니어예요.",
+      "phraseRomanized": "oppaneun enjinieoyeyo",
+      "literal": "Older-brother [topic] engineer is."
     },
     {
       "id": "programmer",
-      "levels": [
-        {
-          "front": "Programmer",
-          "back": "프로그래머",
-          "romanized": "peurogeuraeмео"
-        },
-        {
-          "front": "I work as a programmer.",
-          "back": "저는 프로그래머로 일해요.",
-          "romanized": "jeoneun peuroguraemerо ilhaeyo",
-          "literal": "I [topic] programmer as work."
-        }
-      ]
+      "english": "Programmer",
+      "word": "프로그래머",
+      "romanized": "peurogeuraeмео",
+      "englishPhrase": "I work as a programmer.",
+      "phrase": "저는 프로그래머로 일해요.",
+      "phraseRomanized": "jeoneun peuroguraemerо ilhaeyo",
+      "literal": "I [topic] programmer as work."
     },
     {
       "id": "cook",
-      "levels": [
-        {
-          "front": "Cook",
-          "back": "요리사",
-          "romanized": "yorisa"
-        },
-        {
-          "front": "The cook works in the kitchen.",
-          "back": "요리사는 주방에서 일해요.",
-          "romanized": "yorisaneun jubangeseo ilhaeyo",
-          "literal": "Cook [topic] kitchen at/from work."
-        }
-      ]
+      "english": "Cook",
+      "word": "요리사",
+      "romanized": "yorisa",
+      "englishPhrase": "The cook works in the kitchen.",
+      "phrase": "요리사는 주방에서 일해요.",
+      "phraseRomanized": "yorisaneun jubangeseo ilhaeyo",
+      "literal": "Cook [topic] kitchen at/from work."
     },
     {
       "id": "waiter_waitress",
-      "levels": [
-        {
-          "front": "Waiter (Waitress)",
-          "back": "웨이터",
-          "romanized": "weiteo"
-        },
-        {
-          "front": "The waiter brought the menu.",
-          "back": "웨이터가 메뉴를 가져왔어요.",
-          "romanized": "weiteo-ga menyureul gajyeowasseoyo",
-          "literal": "Waiter [subj] menu [obj] brought."
-        }
-      ]
+      "english": "Waiter (Waitress)",
+      "word": "웨이터",
+      "romanized": "weiteo",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "웨이터가 메뉴를 가져왔어요.",
+      "phraseRomanized": "weiteo-ga menyureul gajyeowasseoyo",
+      "literal": "Waiter [subj] menu [obj] brought."
     },
     {
       "id": "manager",
-      "levels": [
-        {
-          "front": "Manager",
-          "back": "매니저",
-          "romanized": "maeniжео"
-        },
-        {
-          "front": "She is a manager.",
-          "back": "그녀는 매니저예요.",
-          "romanized": "geunyeoneun maenijyeoyeyo",
-          "literal": "She [topic] manager is."
-        }
-      ]
+      "english": "Manager",
+      "word": "매니저",
+      "romanized": "maeniжео",
+      "englishPhrase": "She is a manager.",
+      "phrase": "그녀는 매니저예요.",
+      "phraseRomanized": "geunyeoneun maenijyeoyeyo",
+      "literal": "She [topic] manager is."
     },
     {
       "id": "student",
-      "levels": [
-        {
-          "front": "Student",
-          "back": "학생",
-          "romanized": "haksaeng"
-        },
-        {
-          "front": "I am a student.",
-          "back": "저는 학생이에요.",
-          "romanized": "jeoneun haksaengieyo",
-          "literal": "I [topic] student is."
-        }
-      ]
+      "english": "Student",
+      "word": "학생",
+      "romanized": "haksaeng",
+      "englishPhrase": "I am a student.",
+      "phrase": "저는 학생이에요.",
+      "phraseRomanized": "jeoneun haksaengieyo",
+      "literal": "I [topic] student is."
     },
     {
       "id": "architect",
-      "levels": [
-        {
-          "front": "Architect",
-          "back": "건축가",
-          "romanized": "geonchukga"
-        },
-        {
-          "front": "He is an architect.",
-          "back": "그는 건축가예요.",
-          "romanized": "geuneun geonchukgayeyo",
-          "literal": "He [topic] architect is."
-        }
-      ]
+      "english": "Architect",
+      "word": "건축가",
+      "romanized": "geonchukga",
+      "englishPhrase": "He is an architect.",
+      "phrase": "그는 건축가예요.",
+      "phraseRomanized": "geuneun geonchukgayeyo",
+      "literal": "He [topic] architect is."
     },
     {
       "id": "lawyer",
-      "levels": [
-        {
-          "front": "Lawyer",
-          "back": "변호사",
-          "romanized": "byeonhosa"
-        },
-        {
-          "front": "My sister is a lawyer.",
-          "back": "언니는 변호사예요.",
-          "romanized": "eonnineun byeonhosayeyo",
-          "literal": "Older-sister [topic] lawyer is."
-        }
-      ]
+      "english": "Lawyer",
+      "word": "변호사",
+      "romanized": "byeonhosa",
+      "englishPhrase": "My sister is a lawyer.",
+      "phrase": "언니는 변호사예요.",
+      "phraseRomanized": "eonnineun byeonhosayeyo",
+      "literal": "Older-sister [topic] lawyer is."
     },
     {
       "id": "retired_person",
-      "levels": [
-        {
-          "front": "Retired Person",
-          "back": "은퇴자",
-          "romanized": "euntoeja"
-        },
-        {
-          "front": "My father is retired.",
-          "back": "아버지는 은퇴했어요.",
-          "romanized": "abeojineun euntoehaesseoyo",
-          "literal": "Father [topic] retired."
-        }
-      ]
+      "english": "Retired Person",
+      "word": "은퇴자",
+      "romanized": "euntoeja",
+      "englishPhrase": "My father is retired.",
+      "phrase": "아버지는 은퇴했어요.",
+      "phraseRomanized": "abeojineun euntoehaesseoyo",
+      "literal": "Father [topic] retired."
     },
     {
       "id": "reading",
-      "levels": [
-        {
-          "front": "Reading",
-          "back": "독서",
-          "romanized": "dokseo"
-        },
-        {
-          "front": "I like reading.",
-          "back": "독서를 좋아해요.",
-          "romanized": "dokseoreul joahaeyo",
-          "literal": "Reading [obj] like."
-        }
-      ]
+      "english": "Reading",
+      "word": "독서",
+      "romanized": "dokseo",
+      "englishPhrase": "I like reading.",
+      "phrase": "독서를 좋아해요.",
+      "phraseRomanized": "dokseoreul joahaeyo",
+      "literal": "Reading [obj] like."
     },
     {
       "id": "writing",
-      "levels": [
-        {
-          "front": "Writing",
-          "back": "글쓰기",
-          "romanized": "geulsseuggi"
-        },
-        {
-          "front": "She likes writing stories.",
-          "back": "그녀는 이야기 쓰는 걸 좋아해요.",
-          "romanized": "geunyeoneun iyagi sseuneun geol joahaeyo",
-          "literal": "She [topic] story writing-thing [obj] like."
-        }
-      ]
+      "english": "Writing",
+      "word": "글쓰기",
+      "romanized": "geulsseuggi",
+      "englishPhrase": "She likes writing stories.",
+      "phrase": "그녀는 이야기 쓰는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun iyagi sseuneun geol joahaeyo",
+      "literal": "She [topic] story writing-thing [obj] like."
     },
     {
       "id": "painting",
-      "levels": [
-        {
-          "front": "Painting",
-          "back": "그림 그리기",
-          "romanized": "geurim geurigi"
-        },
-        {
-          "front": "He loves painting.",
-          "back": "그는 그림 그리는 걸 좋아해요.",
-          "romanized": "geuneun geurim geurineun geol joahaeyo",
-          "literal": "He [topic] picture drawing-thing [obj] like."
-        }
-      ]
+      "english": "Painting",
+      "word": "그림 그리기",
+      "romanized": "geurim geurigi",
+      "englishPhrase": "He loves painting.",
+      "phrase": "그는 그림 그리는 걸 좋아해요.",
+      "phraseRomanized": "geuneun geurim geurineun geol joahaeyo",
+      "literal": "He [topic] picture drawing-thing [obj] like."
     },
     {
       "id": "drawing",
-      "levels": [
-        {
-          "front": "Drawing",
-          "back": "그림 그리기",
-          "romanized": "geurim geurigi"
-        },
-        {
-          "front": "I like drawing.",
-          "back": "그림 그리는 걸 좋아해요.",
-          "romanized": "geurim geurineun geol joahaeyo",
-          "literal": "Picture drawing-thing [obj] like."
-        }
-      ]
+      "english": "Drawing",
+      "word": "그림 그리기",
+      "romanized": "geurim geurigi",
+      "englishPhrase": "I like drawing.",
+      "phrase": "그림 그리는 걸 좋아해요.",
+      "phraseRomanized": "geurim geurineun geol joahaeyo",
+      "literal": "Picture drawing-thing [obj] like."
     },
     {
       "id": "photography",
-      "levels": [
-        {
-          "front": "Photography",
-          "back": "사진 촬영",
-          "romanized": "sajin chwallyeong"
-        },
-        {
-          "front": "Photography is my hobby.",
-          "back": "사진 찍기가 취미예요.",
-          "romanized": "sajin jjikgiga chwimiyeyo",
-          "literal": "Photo taking [subj] hobby is."
-        }
-      ]
+      "english": "Photography",
+      "word": "사진 촬영",
+      "romanized": "sajin chwallyeong",
+      "englishPhrase": "Photography is my hobby.",
+      "phrase": "사진 찍기가 취미예요.",
+      "phraseRomanized": "sajin jjikgiga chwimiyeyo",
+      "literal": "Photo taking [subj] hobby is."
     },
     {
       "id": "music",
-      "levels": [
-        {
-          "front": "Music",
-          "back": "음악",
-          "romanized": "eumak"
-        },
-        {
-          "front": "I listen to music every day.",
-          "back": "매일 음악을 들어요.",
-          "romanized": "maeil eumag-eul deoreoyo",
-          "literal": "Every-day music [obj] listen."
-        }
-      ]
+      "english": "Music",
+      "word": "음악",
+      "romanized": "eumak",
+      "englishPhrase": "I listen to music every day.",
+      "phrase": "매일 음악을 들어요.",
+      "phraseRomanized": "maeil eumag-eul deoreoyo",
+      "literal": "Every-day music [obj] listen."
     },
     {
       "id": "singing",
-      "levels": [
-        {
-          "front": "Singing",
-          "back": "노래",
-          "romanized": "norae"
-        },
-        {
-          "front": "She loves singing.",
-          "back": "그녀는 노래 부르는 걸 좋아해요.",
-          "romanized": "geunyeoneun norae bureoneun geol joahaeyo",
-          "literal": "She [topic] singing-thing [obj] like."
-        }
-      ]
+      "english": "Singing",
+      "word": "노래",
+      "romanized": "norae",
+      "englishPhrase": "She loves singing.",
+      "phrase": "그녀는 노래 부르는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun norae bureoneun geol joahaeyo",
+      "literal": "She [topic] singing-thing [obj] like."
     },
     {
       "id": "playing_an_instrument_e_g_guitar",
-      "levels": [
-        {
-          "front": "Playing an instrument (e.g., Guitar)",
-          "back": "악기 연주",
-          "romanized": "akgi yeonju",
-          "grammarNote": "For string/keyboard instruments, use '치다' (chida): '기타를 쳐요' (gitareul chyeoyo, I play guitar). For wind instruments, '불다' (bulda): '플루트를 불어요'. For drums, '치다' is also used: '드럼을 쳐요'."
-        },
-        {
-          "front": "I play the guitar.",
-          "back": "기타를 쳐요.",
-          "romanized": "gitareul chyeoyo",
-          "literal": "Guitar [obj] play."
-        }
-      ]
+      "english": "Playing an instrument (e.g., Guitar)",
+      "word": "악기 연주",
+      "romanized": "akgi yeonju",
+      "grammarNote": "For string/keyboard instruments, use '치다' (chida): '기타를 쳐요' (gitareul chyeoyo, I play guitar). For wind instruments, '불다' (bulda): '플루트를 불어요'. For drums, '치다' is also used: '드럼을 쳐요'.",
+      "englishPhrase": "I play the guitar.",
+      "phrase": "기타를 쳐요.",
+      "phraseRomanized": "gitareul chyeoyo",
+      "literal": "Guitar [obj] play."
     },
     {
       "id": "dancing",
-      "levels": [
-        {
-          "front": "Dancing",
-          "back": "춤",
-          "romanized": "chum"
-        },
-        {
-          "front": "We love dancing.",
-          "back": "저희는 춤 추는 걸 좋아해요.",
-          "romanized": "jeohuineun chum chuneun geol joahaeyo",
-          "literal": "We [topic] dancing-thing [obj] like."
-        }
-      ]
+      "english": "Dancing",
+      "word": "춤",
+      "romanized": "chum",
+      "englishPhrase": "We love dancing.",
+      "phrase": "저희는 춤 추는 걸 좋아해요.",
+      "phraseRomanized": "jeohuineun chum chuneun geol joahaeyo",
+      "literal": "We [topic] dancing-thing [obj] like."
     },
     {
       "id": "cooking",
-      "levels": [
-        {
-          "front": "Cooking",
-          "back": "요리",
-          "romanized": "yori"
-        },
-        {
-          "front": "I enjoy cooking.",
-          "back": "요리하는 걸 좋아해요.",
-          "romanized": "yorihaneun geol joahaeyo",
-          "literal": "Cooking-thing [obj] like."
-        }
-      ]
+      "english": "Cooking",
+      "word": "요리",
+      "romanized": "yori",
+      "englishPhrase": "I enjoy cooking.",
+      "phrase": "요리하는 걸 좋아해요.",
+      "phraseRomanized": "yorihaneun geol joahaeyo",
+      "literal": "Cooking-thing [obj] like."
     },
     {
       "id": "gardening",
-      "levels": [
-        {
-          "front": "Gardening",
-          "back": "원예",
-          "romanized": "wonyе"
-        },
-        {
-          "front": "Gardening is relaxing.",
-          "back": "원예는 힐링이 돼요.",
-          "romanized": "wonyeneun hilring-i dwaeyo",
-          "literal": "Gardening [topic] healing becomes."
-        }
-      ]
+      "english": "Gardening",
+      "word": "원예",
+      "romanized": "wonyе",
+      "englishPhrase": "Gardening is relaxing.",
+      "phrase": "원예는 힐링이 돼요.",
+      "phraseRomanized": "wonyeneun hilring-i dwaeyo",
+      "literal": "Gardening [topic] healing becomes."
     },
     {
       "id": "hiking",
-      "levels": [
-        {
-          "front": "Hiking",
-          "back": "하이킹",
-          "romanized": "haiking"
-        },
-        {
-          "front": "I like hiking in the mountains.",
-          "back": "산에서 하이킹하는 걸 좋아해요.",
-          "romanized": "saneseo haikinghaneun geol joahaeyo",
-          "literal": "Mountain at/from hiking-thing [obj] like."
-        }
-      ]
+      "english": "Hiking",
+      "word": "하이킹",
+      "romanized": "haiking",
+      "englishPhrase": "I like hiking in the mountains.",
+      "phrase": "산에서 하이킹하는 걸 좋아해요.",
+      "phraseRomanized": "saneseo haikinghaneun geol joahaeyo",
+      "literal": "Mountain at/from hiking-thing [obj] like."
     },
     {
       "id": "running",
-      "levels": [
-        {
-          "front": "Running",
-          "back": "달리기",
-          "romanized": "dalligi"
-        },
-        {
-          "front": "I run every morning.",
-          "back": "매일 아침 달려요.",
-          "romanized": "maeil achim dallyeoyo",
-          "literal": "Every-day morning run."
-        }
-      ]
+      "english": "Running",
+      "word": "달리기",
+      "romanized": "dalligi",
+      "englishPhrase": "I run every morning.",
+      "phrase": "매일 아침 달려요.",
+      "phraseRomanized": "maeil achim dallyeoyo",
+      "literal": "Every-day morning run."
     },
     {
       "id": "jogging",
-      "levels": [
-        {
-          "front": "Jogging",
-          "back": "조깅",
-          "romanized": "joging"
-        },
-        {
-          "front": "He jogs in the park.",
-          "back": "그는 공원에서 조깅해요.",
-          "romanized": "geuneun gongwoneseo joginghaeyo",
-          "literal": "He [topic] park at/from jog."
-        }
-      ]
+      "english": "Jogging",
+      "word": "조깅",
+      "romanized": "joging",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "그는 공원에서 조깅해요.",
+      "phraseRomanized": "geuneun gongwoneseo joginghaeyo",
+      "literal": "He [topic] park at/from jog."
     },
     {
       "id": "biking",
-      "levels": [
-        {
-          "front": "Biking",
-          "back": "자전거 타기",
-          "romanized": "jajeongeo tagi"
-        },
-        {
-          "front": "I go biking on weekends.",
-          "back": "주말에 자전거를 타요.",
-          "romanized": "jumare jajeongeo reul tayo",
-          "literal": "Weekend in bicycle [obj] ride."
-        }
-      ]
+      "english": "Biking",
+      "word": "자전거 타기",
+      "romanized": "jajeongeo tagi",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "주말에 자전거를 타요.",
+      "phraseRomanized": "jumare jajeongeo reul tayo",
+      "literal": "Weekend in bicycle [obj] ride."
     },
     {
       "id": "swimming",
-      "levels": [
-        {
-          "front": "Swimming",
-          "back": "수영",
-          "romanized": "suyeong"
-        },
-        {
-          "front": "I like swimming.",
-          "back": "수영을 좋아해요.",
-          "romanized": "suyeong-eul joahaeyo",
-          "literal": "Swimming [obj] like."
-        }
-      ]
+      "english": "Swimming",
+      "word": "수영",
+      "romanized": "suyeong",
+      "englishPhrase": "I like swimming.",
+      "phrase": "수영을 좋아해요.",
+      "phraseRomanized": "suyeong-eul joahaeyo",
+      "literal": "Swimming [obj] like."
     },
     {
       "id": "yoga",
-      "levels": [
-        {
-          "front": "Yoga",
-          "back": "요가",
-          "romanized": "yoga"
-        },
-        {
-          "front": "She does yoga every morning.",
-          "back": "그녀는 매일 아침 요가를 해요.",
-          "romanized": "geunyeoneun maeil achim yogareul haeyo",
-          "literal": "She [topic] every-day morning yoga [obj] do."
-        }
-      ]
+      "english": "Yoga",
+      "word": "요가",
+      "romanized": "yoga",
+      "englishPhrase": "She does yoga every morning.",
+      "phrase": "그녀는 매일 아침 요가를 해요.",
+      "phraseRomanized": "geunyeoneun maeil achim yogareul haeyo",
+      "literal": "She [topic] every-day morning yoga [obj] do."
     },
     {
       "id": "exercise",
-      "levels": [
-        {
-          "front": "Exercise",
-          "back": "운동",
-          "romanized": "undong"
-        },
-        {
-          "front": "I go to the gym for exercise.",
-          "back": "운동하러 헬스장에 가요.",
-          "romanized": "undonghareo helseujanге gayo",
-          "literal": "Exercise-to gym at go."
-        }
-      ]
+      "english": "Exercise",
+      "word": "운동",
+      "romanized": "undong",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "운동하러 헬스장에 가요.",
+      "phraseRomanized": "undonghareo helseujanге gayo",
+      "literal": "Exercise-to gym at go."
     },
     {
       "id": "traveling",
-      "levels": [
-        {
-          "front": "Traveling",
-          "back": "여행",
-          "romanized": "yeohaeng"
-        },
-        {
-          "front": "I love traveling.",
-          "back": "여행을 정말 좋아해요.",
-          "romanized": "yeohaeng-eul jeongmal joahaeyo",
-          "literal": "Travel [obj] really like."
-        }
-      ]
+      "english": "Traveling",
+      "word": "여행",
+      "romanized": "yeohaeng",
+      "englishPhrase": "I love traveling.",
+      "phrase": "여행을 정말 좋아해요.",
+      "phraseRomanized": "yeohaeng-eul jeongmal joahaeyo",
+      "literal": "Travel [obj] really like."
     },
     {
       "id": "camping",
-      "levels": [
-        {
-          "front": "Camping",
-          "back": "캠핑",
-          "romanized": "kaemping"
-        },
-        {
-          "front": "We go camping in the summer.",
-          "back": "여름에 캠핑을 가요.",
-          "romanized": "yeoreume kaemping-eul gayo",
-          "literal": "Summer in camping [obj] go."
-        }
-      ]
+      "english": "Camping",
+      "word": "캠핑",
+      "romanized": "kaemping",
+      "englishPhrase": "We go camping in the summer.",
+      "phrase": "여름에 캠핑을 가요.",
+      "phraseRomanized": "yeoreume kaemping-eul gayo",
+      "literal": "Summer in camping [obj] go."
     },
     {
       "id": "gaming_video_games",
-      "levels": [
-        {
-          "front": "Gaming (Video games)",
-          "back": "게임",
-          "romanized": "geim"
-        },
-        {
-          "front": "He plays video games at night.",
-          "back": "그는 밤에 비디오 게임을 해요.",
-          "romanized": "geuneun bame bidio geim-eul haeyo",
-          "literal": "He [topic] night in video game [obj] do."
-        }
-      ]
+      "english": "Gaming (Video games)",
+      "word": "게임",
+      "romanized": "geim",
+      "englishPhrase": "He plays video games at night.",
+      "phrase": "그는 밤에 비디오 게임을 해요.",
+      "phraseRomanized": "geuneun bame bidio geim-eul haeyo",
+      "literal": "He [topic] night in video game [obj] do."
     },
     {
       "id": "watching_tv",
-      "levels": [
-        {
-          "front": "Watching TV",
-          "back": "TV 보기",
-          "romanized": "tivi bogi"
-        },
-        {
-          "front": "I like watching movies.",
-          "back": "영화 보는 걸 좋아해요.",
-          "romanized": "yeonghwa boneun geol joahaeyo",
-          "literal": "Movie watching-thing [obj] like."
-        }
-      ]
+      "english": "Watching TV",
+      "word": "TV 보기",
+      "romanized": "tivi bogi",
+      "englishPhrase": "I like watching movies.",
+      "phrase": "영화 보는 걸 좋아해요.",
+      "phraseRomanized": "yeonghwa boneun geol joahaeyo",
+      "literal": "Movie watching-thing [obj] like."
     },
     {
       "id": "listening_to_music",
-      "levels": [
-        {
-          "front": "Listening to music",
-          "back": "음악 듣기",
-          "romanized": "eumak deutgi"
-        },
-        {
-          "front": "She likes listening to music.",
-          "back": "그녀는 음악 듣는 걸 좋아해요.",
-          "romanized": "geunyeoneun eumak deutneun geol joahaeyo",
-          "literal": "She [topic] music listening-thing [obj] like."
-        }
-      ]
+      "english": "Listening to music",
+      "word": "음악 듣기",
+      "romanized": "eumak deutgi",
+      "englishPhrase": "She likes listening to music.",
+      "phrase": "그녀는 음악 듣는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun eumak deutneun geol joahaeyo",
+      "literal": "She [topic] music listening-thing [obj] like."
     },
     {
       "id": "crafts",
-      "levels": [
-        {
-          "front": "Crafts",
-          "back": "공예",
-          "romanized": "gongye"
-        },
-        {
-          "front": "The children are making crafts.",
-          "back": "아이들이 공예 활동을 하고 있어요.",
-          "romanized": "aideuri gongye hwaldong-eul hago isseoyo",
-          "literal": "Children [subj] craft activity [obj] doing."
-        }
-      ]
+      "english": "Crafts",
+      "word": "공예",
+      "romanized": "gongye",
+      "englishPhrase": "The children are making crafts.",
+      "phrase": "아이들이 공예 활동을 하고 있어요.",
+      "phraseRomanized": "aideuri gongye hwaldong-eul hago isseoyo",
+      "literal": "Children [subj] craft activity [obj] doing."
     },
     {
       "id": "chess",
-      "levels": [
-        {
-          "front": "Chess",
-          "back": "체스",
-          "romanized": "cheseu"
-        },
-        {
-          "front": "Do you play chess?",
-          "back": "체스 두세요?",
-          "romanized": "cheseu duseyo",
-          "literal": "Chess play?"
-        }
-      ]
+      "english": "Chess",
+      "word": "체스",
+      "romanized": "cheseu",
+      "englishPhrase": "Do you play chess?",
+      "phrase": "체스 두세요?",
+      "phraseRomanized": "cheseu duseyo",
+      "literal": "Chess play?"
     },
     {
       "id": "board_games",
-      "levels": [
-        {
-          "front": "Board games",
-          "back": "보드게임",
-          "romanized": "bodeugeim"
-        },
-        {
-          "front": "We play board games on weekends.",
-          "back": "주말에 보드게임을 해요.",
-          "romanized": "jumare bodeugeim-eul haeyo",
-          "literal": "Weekend in board-game [obj] do."
-        }
-      ]
+      "english": "Board games",
+      "word": "보드게임",
+      "romanized": "bodeugeim",
+      "englishPhrase": "We play board games on weekends.",
+      "phrase": "주말에 보드게임을 해요.",
+      "phraseRomanized": "jumare bodeugeim-eul haeyo",
+      "literal": "Weekend in board-game [obj] do."
     },
     {
       "id": "to_work_in_for_as",
-      "levels": [
-        {
-          "front": "To work (in)",
-          "back": "일하다",
-          "romanized": "ilhada"
-        },
-        {
-          "front": "I work in a hospital.",
-          "back": "병원에서 일해요.",
-          "romanized": "byeongwoneseo ilhaeyo",
-          "literal": "Hospital at/from work."
-        }
-      ]
+      "english": "To work (in)",
+      "word": "일하다",
+      "romanized": "ilhada",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "병원에서 일해요.",
+      "phraseRomanized": "byeongwoneseo ilhaeyo",
+      "literal": "Hospital at/from work."
     },
     {
       "id": "to_earn_a_salary",
-      "levels": [
-        {
-          "front": "To earn (a salary)",
-          "back": "벌다",
-          "romanized": "beolda"
-        },
-        {
-          "front": "He earns a good salary.",
-          "back": "그는 월급을 잘 받아요.",
-          "romanized": "geuneun wolgeub-eul jal badayo",
-          "literal": "He [topic] salary [obj] well receive."
-        }
-      ]
+      "english": "To earn (a salary)",
+      "word": "벌다",
+      "romanized": "beolda",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "그는 월급을 잘 받아요.",
+      "phraseRomanized": "geuneun wolgeub-eul jal badayo",
+      "literal": "He [topic] salary [obj] well receive."
     },
     {
       "id": "to_retire",
-      "levels": [
-        {
-          "front": "To retire",
-          "back": "은퇴하다",
-          "romanized": "euntoehada"
-        },
-        {
-          "front": "She retired last year.",
-          "back": "그녀는 작년에 은퇴했어요.",
-          "romanized": "geunyeoneun jangnyeone euntoehaesseoyo",
-          "literal": "She [topic] last-year in retired."
-        }
-      ]
+      "english": "To retire",
+      "word": "은퇴하다",
+      "romanized": "euntoehada",
+      "englishPhrase": "She retired last year.",
+      "phrase": "그녀는 작년에 은퇴했어요.",
+      "phraseRomanized": "geunyeoneun jangnyeone euntoehaesseoyo",
+      "literal": "She [topic] last-year in retired."
     },
     {
       "id": "to_have_a_job",
-      "levels": [
-        {
-          "front": "To have a job",
-          "back": "직업이 있다",
-          "romanized": "jigeob-i itda"
-        },
-        {
-          "front": "I have a good job.",
-          "back": "좋은 직업이 있어요.",
-          "romanized": "joeun jigeob-i isseoyo",
-          "literal": "Good job [subj] have."
-        }
-      ]
+      "english": "To have a job",
+      "word": "직업이 있다",
+      "romanized": "jigeob-i itda",
+      "englishPhrase": "I have a good job.",
+      "phrase": "좋은 직업이 있어요.",
+      "phraseRomanized": "joeun jigeob-i isseoyo",
+      "literal": "Good job [subj] have."
     },
     {
       "id": "to_be_unemployed",
-      "levels": [
-        {
-          "front": "To be unemployed",
-          "back": "실직 상태이다",
-          "romanized": "siljik sangtaeidа"
-        },
-        {
-          "front": "He is currently unemployed.",
-          "back": "그는 현재 실직 상태예요.",
-          "romanized": "geuneun hyeonjae siljik sangtaeyeyo",
-          "literal": "He [topic] currently unemployed state is."
-        }
-      ]
+      "english": "To be unemployed",
+      "word": "실직 상태이다",
+      "romanized": "siljik sangtaeidа",
+      "englishPhrase": "He is currently unemployed.",
+      "phrase": "그는 현재 실직 상태예요.",
+      "phraseRomanized": "geuneun hyeonjae siljik sangtaeyeyo",
+      "literal": "He [topic] currently unemployed state is."
     },
     {
       "id": "to_study",
-      "levels": [
-        {
-          "front": "To study",
-          "back": "공부하다",
-          "romanized": "gongbuhada"
-        },
-        {
-          "front": "I study every day.",
-          "back": "매일 공부해요.",
-          "romanized": "maeil gongbuhaeyo",
-          "literal": "Every-day study."
-        }
-      ]
+      "english": "To study",
+      "word": "공부하다",
+      "romanized": "gongbuhada",
+      "englishPhrase": "I study every day.",
+      "phrase": "매일 공부해요.",
+      "phraseRomanized": "maeil gongbuhaeyo",
+      "literal": "Every-day study."
     },
     {
       "id": "to_learn",
-      "levels": [
-        {
-          "front": "To learn",
-          "back": "배우다",
-          "romanized": "baeuda"
-        },
-        {
-          "front": "I'm learning Korean.",
-          "back": "한국어를 배우고 있어요.",
-          "romanized": "hangugеoreul baeуgo isseoyo",
-          "literal": "Korean [obj] learning."
-        }
-      ]
+      "english": "To learn",
+      "word": "배우다",
+      "romanized": "baeuda",
+      "englishPhrase": "I'm learning Korean.",
+      "phrase": "한국어를 배우고 있어요.",
+      "phraseRomanized": "hangugеoreul baeуgo isseoyo",
+      "literal": "Korean [obj] learning."
     },
     {
       "id": "to_practice",
-      "levels": [
-        {
-          "front": "To practice",
-          "back": "연습하다",
-          "romanized": "yeonseupada"
-        },
-        {
-          "front": "I practice every day.",
-          "back": "매일 연습해요.",
-          "romanized": "maeil yeonseuphaeyo",
-          "literal": "Every-day practice."
-        }
-      ]
+      "english": "To practice",
+      "word": "연습하다",
+      "romanized": "yeonseupada",
+      "englishPhrase": "I practice every day.",
+      "phrase": "매일 연습해요.",
+      "phraseRomanized": "maeil yeonseuphaeyo",
+      "literal": "Every-day practice."
     },
     {
       "id": "to_teach",
-      "levels": [
-        {
-          "front": "To teach",
-          "back": "가르치다",
-          "romanized": "gareuchida"
-        },
-        {
-          "front": "She teaches Korean.",
-          "back": "그녀는 한국어를 가르쳐요.",
-          "romanized": "geunyeoneun hangugeo reul gareucho ayo",
-          "literal": "She [topic] Korean [obj] teach."
-        }
-      ]
+      "english": "To teach",
+      "word": "가르치다",
+      "romanized": "gareuchida",
+      "englishPhrase": "She teaches Korean.",
+      "phrase": "그녀는 한국어를 가르쳐요.",
+      "phraseRomanized": "geunyeoneun hangugeo reul gareucho ayo",
+      "literal": "She [topic] Korean [obj] teach."
     },
     {
       "id": "to_build",
-      "levels": [
-        {
-          "front": "To build",
-          "back": "짓다",
-          "romanized": "jitda"
-        },
-        {
-          "front": "They are building a new school.",
-          "back": "새 학교를 짓고 있어요.",
-          "romanized": "sae hakgyoreul jitgo isseoyo",
-          "literal": "New school [obj] building."
-        }
-      ]
+      "english": "To build",
+      "word": "짓다",
+      "romanized": "jitda",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "새 학교를 짓고 있어요.",
+      "phraseRomanized": "sae hakgyoreul jitgo isseoyo",
+      "literal": "New school [obj] building."
     },
     {
       "id": "to_fix",
-      "levels": [
-        {
-          "front": "To fix",
-          "back": "고치다",
-          "romanized": "gochida"
-        },
-        {
-          "front": "Can you fix this?",
-          "back": "이거 고칠 수 있어요?",
-          "romanized": "igeo gochil su isseoyo",
-          "literal": "This fix can?"
-        }
-      ]
+      "english": "To fix",
+      "word": "고치다",
+      "romanized": "gochida",
+      "englishPhrase": "Can you fix this?",
+      "phrase": "이거 고칠 수 있어요?",
+      "phraseRomanized": "igeo gochil su isseoyo",
+      "literal": "This fix can?"
     },
     {
       "id": "to_make",
-      "levels": [
-        {
-          "front": "To make",
-          "back": "만들다",
-          "romanized": "mandeulda"
-        },
-        {
-          "front": "I make coffee every morning.",
-          "back": "매일 아침 커피를 만들어요.",
-          "romanized": "maeil achim keopireul mandeuleoyo",
-          "literal": "Every-day morning coffee [obj] make."
-        }
-      ]
+      "english": "To make",
+      "word": "만들다",
+      "romanized": "mandeulda",
+      "englishPhrase": "I make coffee every morning.",
+      "phrase": "매일 아침 커피를 만들어요.",
+      "phraseRomanized": "maeil achim keopireul mandeuleoyo",
+      "literal": "Every-day morning coffee [obj] make."
     },
     {
       "id": "to_design",
-      "levels": [
-        {
-          "front": "To design",
-          "back": "디자인하다",
-          "romanized": "dijainhada"
-        },
-        {
-          "front": "He designs websites.",
-          "back": "그는 웹사이트를 디자인해요.",
-          "romanized": "geuneun wepsaiteuреul dijаinhaeyo",
-          "literal": "He [topic] website [obj] design."
-        }
-      ]
+      "english": "To design",
+      "word": "디자인하다",
+      "romanized": "dijainhada",
+      "englishPhrase": "He designs websites.",
+      "phrase": "그는 웹사이트를 디자인해요.",
+      "phraseRomanized": "geuneun wepsaiteuреul dijаinhaeyo",
+      "literal": "He [topic] website [obj] design."
     },
     {
       "id": "to_sell",
-      "levels": [
-        {
-          "front": "To sell",
-          "back": "팔다",
-          "romanized": "palda"
-        },
-        {
-          "front": "He sells cars.",
-          "back": "그는 자동차를 팔아요.",
-          "romanized": "geuneun jadongcharеul parayo",
-          "literal": "He [topic] car [obj] sell."
-        }
-      ]
+      "english": "To sell",
+      "word": "팔다",
+      "romanized": "palda",
+      "englishPhrase": "He sells cars.",
+      "phrase": "그는 자동차를 팔아요.",
+      "phraseRomanized": "geuneun jadongcharеul parayo",
+      "literal": "He [topic] car [obj] sell."
     },
     {
       "id": "to_buy",
-      "levels": [
-        {
-          "front": "To buy",
-          "back": "사다",
-          "romanized": "sada"
-        },
-        {
-          "front": "I need to buy a new computer.",
-          "back": "새 컴퓨터를 사야 해요.",
-          "romanized": "sae keompyuteoreul saya haeyo",
-          "literal": "New computer [obj] must-buy."
-        }
-      ]
+      "english": "To buy",
+      "word": "사다",
+      "romanized": "sada",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "새 컴퓨터를 사야 해요.",
+      "phraseRomanized": "sae keompyuteoreul saya haeyo",
+      "literal": "New computer [obj] must-buy."
     },
     {
       "id": "to_help",
-      "levels": [
-        {
-          "front": "To help",
-          "back": "돕다",
-          "romanized": "dopda"
-        },
-        {
-          "front": "Can I help you?",
-          "back": "도와드릴까요?",
-          "romanized": "dowadeurillkkayo",
-          "literal": "Help-[honorific] shall-I?"
-        }
-      ]
+      "english": "To help",
+      "word": "돕다",
+      "romanized": "dopda",
+      "englishPhrase": "Can I help you?",
+      "phrase": "도와드릴까요?",
+      "phraseRomanized": "dowadeurillkkayo",
+      "literal": "Help-[honorific] shall-I?"
     },
     {
       "id": "to_manage",
-      "levels": [
-        {
-          "front": "To manage",
-          "back": "관리하다",
-          "romanized": "gwallihada"
-        },
-        {
-          "front": "She manages the team.",
-          "back": "그녀는 팀을 관리해요.",
-          "romanized": "geunyeoneun timeul gwallihaeyo",
-          "literal": "She [topic] team [obj] manage."
-        }
-      ]
+      "english": "To manage",
+      "word": "관리하다",
+      "romanized": "gwallihada",
+      "englishPhrase": "She manages the team.",
+      "phrase": "그녀는 팀을 관리해요.",
+      "phraseRomanized": "geunyeoneun timeul gwallihaeyo",
+      "literal": "She [topic] team [obj] manage."
     },
     {
       "id": "to_meet",
-      "levels": [
-        {
-          "front": "To meet",
-          "back": "만나다",
-          "romanized": "mannada"
-        },
-        {
-          "front": "We meet every Monday.",
-          "back": "매주 월요일에 만나요.",
-          "romanized": "maeju woryoile mannayo",
-          "literal": "Every-week Monday in meet."
-        }
-      ]
+      "english": "To meet",
+      "word": "만나다",
+      "romanized": "mannada",
+      "englishPhrase": "We meet every Monday.",
+      "phrase": "매주 월요일에 만나요.",
+      "phraseRomanized": "maeju woryoile mannayo",
+      "literal": "Every-week Monday in meet."
     },
     {
       "id": "to_start",
-      "levels": [
-        {
-          "front": "To start",
-          "back": "시작하다",
-          "romanized": "sijaghada"
-        },
-        {
-          "front": "I start work at eight.",
-          "back": "여덟 시에 일을 시작해요.",
-          "romanized": "yeodeol sie ireul sijаghaeyo",
-          "literal": "Eight o'clock at work [obj] start."
-        }
-      ]
+      "english": "To start",
+      "word": "시작하다",
+      "romanized": "sijaghada",
+      "englishPhrase": "I start work at eight.",
+      "phrase": "여덟 시에 일을 시작해요.",
+      "phraseRomanized": "yeodeol sie ireul sijаghaeyo",
+      "literal": "Eight o'clock at work [obj] start."
     },
     {
       "id": "to_finish",
-      "levels": [
-        {
-          "front": "To finish",
-          "back": "끝나다",
-          "romanized": "kkeunnada"
-        },
-        {
-          "front": "I finish work at five.",
-          "back": "다섯 시에 일이 끝나요.",
-          "romanized": "daseot sie iri kkeunnayo",
-          "literal": "Five o'clock at work [subj] finish."
-        }
-      ]
+      "english": "To finish",
+      "word": "끝나다",
+      "romanized": "kkeunnada",
+      "englishPhrase": "I finish work at five.",
+      "phrase": "다섯 시에 일이 끝나요.",
+      "phraseRomanized": "daseot sie iri kkeunnayo",
+      "literal": "Five o'clock at work [subj] finish."
     },
     {
       "id": "to_like_to_enjoy",
-      "levels": [
-        {
-          "front": "To like",
-          "back": "좋아하다",
-          "romanized": "joahada",
-          "grammarNote": "'좋아하다' (joahada) = to like. Pattern: 'X를/을 좋아해요' (X-reul/eul joahaeyo, I like X). For activities: 'X하는 걸 좋아해요' (X haneun geol joahaeyo, I like doing X). '즐기다' (jeulgida) = to enjoy (stronger enjoyment)."
-        },
-        {
-          "front": "I like reading. She likes singing.",
-          "back": "독서를 좋아해요. 그녀는 노래를 좋아해요.",
-          "romanized": "dokseoreul joahaeyo. geunyeoneun noraereul joahaeyo",
-          "literal": "Reading [obj] like. She [topic] song [obj] like."
-        }
-      ]
+      "english": "To like",
+      "word": "좋아하다",
+      "romanized": "joahada",
+      "grammarNote": "'좋아하다' (joahada) = to like. Pattern: 'X를/을 좋아해요' (X-reul/eul joahaeyo, I like X). For activities: 'X하는 걸 좋아해요' (X haneun geol joahaeyo, I like doing X). '즐기다' (jeulgida) = to enjoy (stronger enjoyment).",
+      "englishPhrase": "I like reading. She likes singing.",
+      "phrase": "독서를 좋아해요. 그녀는 노래를 좋아해요.",
+      "phraseRomanized": "dokseoreul joahaeyo. geunyeoneun noraereul joahaeyo",
+      "literal": "Reading [obj] like. She [topic] song [obj] like."
     },
     {
       "id": "to_relax",
-      "levels": [
-        {
-          "front": "To relax",
-          "back": "쉬다",
-          "romanized": "swida"
-        },
-        {
-          "front": "I relax on weekends.",
-          "back": "주말에 쉬어요.",
-          "romanized": "jumare swieoyo",
-          "literal": "Weekend in rest."
-        }
-      ]
+      "english": "To relax",
+      "word": "쉬다",
+      "romanized": "swida",
+      "englishPhrase": "I relax on weekends.",
+      "phrase": "주말에 쉬어요.",
+      "phraseRomanized": "jumare swieoyo",
+      "literal": "Weekend in rest."
     },
     {
       "id": "to_spend_time_on",
-      "levels": [
-        {
-          "front": "To spend time (on)",
-          "back": "시간을 보내다",
-          "romanized": "siganeul bonaeda"
-        },
-        {
-          "front": "I spend a lot of time reading.",
-          "back": "독서에 많은 시간을 보내요.",
-          "romanized": "dokseoe manheun siganeul bonaeyo",
-          "literal": "Reading to much time [obj] spend."
-        }
-      ]
+      "english": "To spend time (on)",
+      "word": "시간을 보내다",
+      "romanized": "siganeul bonaeda",
+      "englishPhrase": "I spend a lot of time reading.",
+      "phrase": "독서에 많은 시간을 보내요.",
+      "phraseRomanized": "dokseoe manheun siganeul bonaeyo",
+      "literal": "Reading to much time [obj] spend."
     },
     {
       "id": "creative",
-      "levels": [
-        {
-          "front": "Creative",
-          "back": "창의적인",
-          "romanized": "changruijeog-in"
-        },
-        {
-          "front": "She is very creative.",
-          "back": "그녀는 매우 창의적이에요.",
-          "romanized": "geunyeoneun maeu changruijeogieyo",
-          "literal": "She [topic] very creative is."
-        }
-      ]
+      "english": "Creative",
+      "word": "창의적인",
+      "romanized": "changruijeog-in",
+      "englishPhrase": "She is very creative.",
+      "phrase": "그녀는 매우 창의적이에요.",
+      "phraseRomanized": "geunyeoneun maeu changruijeogieyo",
+      "literal": "She [topic] very creative is."
     },
     {
       "id": "interesting",
-      "levels": [
-        {
-          "front": "Interesting",
-          "back": "흥미로운",
-          "romanized": "heungmiroun"
-        },
-        {
-          "front": "My job is interesting.",
-          "back": "제 일은 흥미로워요.",
-          "romanized": "je ireun heungmirowayo",
-          "literal": "My work [topic] interesting is."
-        }
-      ]
+      "english": "Interesting",
+      "word": "흥미로운",
+      "romanized": "heungmiroun",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "제 일은 흥미로워요.",
+      "phraseRomanized": "je ireun heungmirowayo",
+      "literal": "My work [topic] interesting is."
     },
     {
       "id": "stressful",
-      "levels": [
-        {
-          "front": "Stressful",
-          "back": "스트레스가 많은",
-          "romanized": "seuteuresi-ga manheun"
-        },
-        {
-          "front": "My job is stressful.",
-          "back": "제 일은 스트레스가 많아요.",
-          "romanized": "je ireun seuteurese-ga manayo",
-          "literal": "My work [topic] stress [subj] much."
-        }
-      ]
+      "english": "Stressful",
+      "word": "스트레스가 많은",
+      "romanized": "seuteuresi-ga manheun",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "제 일은 스트레스가 많아요.",
+      "phraseRomanized": "je ireun seuteurese-ga manayo",
+      "literal": "My work [topic] stress [subj] much."
     },
     {
       "id": "boring",
-      "levels": [
-        {
-          "front": "Boring",
-          "back": "지루한",
-          "romanized": "jiruahn"
-        },
-        {
-          "front": "The meeting was boring.",
-          "back": "회의가 지루했어요.",
-          "romanized": "hoeui-ga jiruhaesseoyo",
-          "literal": "Meeting [subj] boring was."
-        }
-      ]
+      "english": "Boring",
+      "word": "지루한",
+      "romanized": "jiruahn",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "회의가 지루했어요.",
+      "phraseRomanized": "hoeui-ga jiruhaesseoyo",
+      "literal": "Meeting [subj] boring was."
     },
     {
       "id": "salary",
-      "levels": [
-        {
-          "front": "Salary",
-          "back": "월급",
-          "romanized": "wolgeup"
-        },
-        {
-          "front": "What is the salary?",
-          "back": "월급이 얼마예요?",
-          "romanized": "wolgeubi eolmayeyo",
-          "literal": "Salary [subj] how-much is?"
-        }
-      ]
+      "english": "Salary",
+      "word": "월급",
+      "romanized": "wolgeup",
+      "englishPhrase": "What is the salary?",
+      "phrase": "월급이 얼마예요?",
+      "phraseRomanized": "wolgeubi eolmayeyo",
+      "literal": "Salary [subj] how-much is?"
     },
     {
       "id": "schedule",
-      "levels": [
-        {
-          "front": "Schedule",
-          "back": "일정",
-          "romanized": "iljeong"
-        },
-        {
-          "front": "My schedule is flexible.",
-          "back": "제 일정은 유연해요.",
-          "romanized": "je iljeong-eun yuyeonhaeyo",
-          "literal": "My schedule [topic] flexible is."
-        }
-      ]
+      "english": "Schedule",
+      "word": "일정",
+      "romanized": "iljeong",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "제 일정은 유연해요.",
+      "phraseRomanized": "je iljeong-eun yuyeonhaeyo",
+      "literal": "My schedule [topic] flexible is."
     },
     {
       "id": "vacation",
-      "levels": [
-        {
-          "front": "Vacation",
-          "back": "휴가",
-          "romanized": "hyuga"
-        },
-        {
-          "front": "I'm going on vacation next week.",
-          "back": "다음 주에 휴가를 가요.",
-          "romanized": "daeum jue hyugareul gayo",
-          "literal": "Next week in vacation [obj] go."
-        }
-      ]
+      "english": "Vacation",
+      "word": "휴가",
+      "romanized": "hyuga",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "다음 주에 휴가를 가요.",
+      "phraseRomanized": "daeum jue hyugareul gayo",
+      "literal": "Next week in vacation [obj] go."
     },
     {
       "id": "break",
-      "levels": [
-        {
-          "front": "Break",
-          "back": "휴식",
-          "romanized": "hyusik"
-        },
-        {
-          "front": "Let's take a break.",
-          "back": "잠깐 쉬어요.",
-          "romanized": "jamkkan swieoyo",
-          "literal": "Briefly rest."
-        }
-      ]
+      "english": "Break",
+      "word": "휴식",
+      "romanized": "hyusik",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "잠깐 쉬어요.",
+      "phraseRomanized": "jamkkan swieoyo",
+      "literal": "Briefly rest."
     },
     {
       "id": "office",
-      "levels": [
-        {
-          "front": "Office",
-          "back": "사무실",
-          "romanized": "samusil"
-        },
-        {
-          "front": "I work in an office.",
-          "back": "사무실에서 일해요.",
-          "romanized": "samusilleseo ilhaeyo",
-          "literal": "Office at/from work."
-        }
-      ]
+      "english": "Office",
+      "word": "사무실",
+      "romanized": "samusil",
+      "englishPhrase": "I work in an office.",
+      "phrase": "사무실에서 일해요.",
+      "phraseRomanized": "samusilleseo ilhaeyo",
+      "literal": "Office at/from work."
     },
     {
       "id": "outdoors",
-      "levels": [
-        {
-          "front": "Outdoors",
-          "back": "야외",
-          "romanized": "yaoe"
-        },
-        {
-          "front": "She works outdoors.",
-          "back": "그녀는 야외에서 일해요.",
-          "romanized": "geunyeoneun yaoeseo ilhaeyo",
-          "literal": "She [topic] outdoors at/from work."
-        }
-      ]
+      "english": "Outdoors",
+      "word": "야외",
+      "romanized": "yaoe",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "그녀는 야외에서 일해요.",
+      "phraseRomanized": "geunyeoneun yaoeseo ilhaeyo",
+      "literal": "She [topic] outdoors at/from work."
     },
     {
       "id": "interview",
-      "levels": [
-        {
-          "front": "Interview",
-          "back": "면접",
-          "romanized": "myeonjeop"
-        },
-        {
-          "front": "I have a job interview tomorrow.",
-          "back": "내일 취업 면접이 있어요.",
-          "romanized": "naeil chwieop myeonjeobi isseoyo",
-          "literal": "Tomorrow job interview [subj] have."
-        }
-      ]
+      "english": "Interview",
+      "word": "면접",
+      "romanized": "myeonjeop",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "내일 취업 면접이 있어요.",
+      "phraseRomanized": "naeil chwieop myeonjeobi isseoyo",
+      "literal": "Tomorrow job interview [subj] have."
     },
     {
       "id": "colleague",
-      "levels": [
-        {
-          "front": "Colleague",
-          "back": "동료",
-          "romanized": "dongnyo"
-        },
-        {
-          "front": "My coworkers are friendly.",
-          "back": "직장 동료들이 친해요.",
-          "romanized": "jikjang dongnyodeuri chinhaeyo",
-          "literal": "Workplace colleagues [subj] friendly."
-        }
-      ]
+      "english": "Colleague",
+      "word": "동료",
+      "romanized": "dongnyo",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "직장 동료들이 친해요.",
+      "phraseRomanized": "jikjang dongnyodeuri chinhaeyo",
+      "literal": "Workplace colleagues [subj] friendly."
     },
     {
       "id": "customer",
-      "levels": [
-        {
-          "front": "Customer",
-          "back": "고객",
-          "romanized": "gogaek"
-        },
-        {
-          "front": "The client is happy.",
-          "back": "고객이 만족해요.",
-          "romanized": "gogaegi manjokaeyo",
-          "literal": "Client [subj] satisfied."
-        }
-      ]
+      "english": "Customer",
+      "word": "고객",
+      "romanized": "gogaek",
+      "englishPhrase": "The client is happy.",
+      "phrase": "고객이 만족해요.",
+      "phraseRomanized": "gogaegi manjokaeyo",
+      "literal": "Client [subj] satisfied."
     },
     {
       "id": "team",
-      "levels": [
-        {
-          "front": "Team",
-          "back": "팀",
-          "romanized": "tim"
-        },
-        {
-          "front": "I work in a great team.",
-          "back": "훌륭한 팀에서 일해요.",
-          "romanized": "hullyunghan time seo ilhaeyo",
-          "literal": "Excellent team at/from work."
-        }
-      ]
+      "english": "Team",
+      "word": "팀",
+      "romanized": "tim",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "훌륭한 팀에서 일해요.",
+      "phraseRomanized": "hullyunghan time seo ilhaeyo",
+      "literal": "Excellent team at/from work."
     },
     {
       "id": "project",
-      "levels": [
-        {
-          "front": "Project",
-          "back": "프로젝트",
-          "romanized": "peurojegteu"
-        },
-        {
-          "front": "The project is almost finished.",
-          "back": "프로젝트가 거의 다 끝났어요.",
-          "romanized": "peurojegteu-ga geoui da kkeunnasseoyo",
-          "literal": "Project [subj] almost all finished."
-        }
-      ]
+      "english": "Project",
+      "word": "프로젝트",
+      "romanized": "peurojegteu",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "프로젝트가 거의 다 끝났어요.",
+      "phraseRomanized": "peurojegteu-ga geoui da kkeunnasseoyo",
+      "literal": "Project [subj] almost all finished."
     },
     {
       "id": "meeting",
-      "levels": [
-        {
-          "front": "Meeting",
-          "back": "회의",
-          "romanized": "hoeui"
-        },
-        {
-          "front": "We have a meeting at ten.",
-          "back": "열 시에 회의가 있어요.",
-          "romanized": "yeol sie hoeui-ga isseoyo",
-          "literal": "Ten o'clock at meeting [subj] have."
-        }
-      ]
+      "english": "Meeting",
+      "word": "회의",
+      "romanized": "hoeui",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "열 시에 회의가 있어요.",
+      "phraseRomanized": "yeol sie hoeui-ga isseoyo",
+      "literal": "Ten o'clock at meeting [subj] have."
     },
     {
       "id": "free_time",
-      "levels": [
-        {
-          "front": "Free time",
-          "back": "자유 시간",
-          "romanized": "jayu sigan"
-        },
-        {
-          "front": "What do you do in your free time?",
-          "back": "여가 시간에 뭐 해요?",
-          "romanized": "yeoga sigane mwo haeyo",
-          "literal": "Free time in what do?"
-        }
-      ]
+      "english": "Free time",
+      "word": "자유 시간",
+      "romanized": "jayu sigan",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "여가 시간에 뭐 해요?",
+      "phraseRomanized": "yeoga sigane mwo haeyo",
+      "literal": "Free time in what do?"
     }
   ]
 }

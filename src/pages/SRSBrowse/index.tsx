@@ -4,16 +4,12 @@ import { CardState, isDue, isNew } from "../fsrs";
 import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, SRSDeckState } from "../useSRSStorage";
 import "../srs.css";
 
-interface CardLevel {
-    front: string;
-    back: string;
-    romanized?: string;
-}
-
 interface Card {
     id: string;
     hidden?: boolean;
-    levels: CardLevel[];
+    english: string;
+    word: string;
+    romanized?: string;
 }
 
 interface DeckData {
@@ -48,7 +44,6 @@ const FILTERS: { key: FilterType; label: string }[] = [
     { key: "hidden", label: "Hidden" },
 ];
 
-const LEVEL_NAMES = ["Vocabulary", "Phrase"];
 
 const SRSBrowse = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
@@ -151,22 +146,18 @@ const SRSBrowse = () => {
                     const state = getCardState(deckState, card.id);
                     const isHidden = isCardHidden(card, deckState);
                     const fam = familiarity(state);
-                    const levelIdx = Math.min(state.level, card.levels.length - 1);
-                    const level = card.levels[levelIdx];
-                    const levelName = LEVEL_NAMES[levelIdx] ?? `Level ${levelIdx + 1}`;
                     return (
                         <div key={card.id} className={`srs-browse-row ${isHidden ? "srs-browse-row-hidden" : ""}`}>
                             <div className="srs-browse-text">
-                                <div className="srs-browse-front">{level.front}</div>
-                                <div className="srs-browse-back">{level.back}</div>
-                                {level.romanized && (
-                                    <div className="srs-browse-romanized">{level.romanized}</div>
+                                <div className="srs-browse-front">{card.english}</div>
+                                <div className="srs-browse-back">{card.word}</div>
+                                {card.romanized && (
+                                    <div className="srs-browse-romanized">{card.romanized}</div>
                                 )}
                             </div>
                             <div className="srs-browse-meta">
                                 {!isHidden && (
                                     <>
-                                        <span className="srs-level-badge" style={{ fontSize: "0.62rem" }}>{levelName}</span>
                                         <span className={`srs-fam srs-fam-${fam}`} title={FAM_LABEL[fam]}>
                                             {fam}
                                         </span>

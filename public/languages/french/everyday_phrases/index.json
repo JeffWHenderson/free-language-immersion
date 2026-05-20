@@ -20,973 +20,533 @@
   "cards": [
     {
       "id": "hello",
-      "levels": [
-        {
-          "front": "Hello",
-          "back": "bonjour"
-        },
-        {
-          "front": "Hello! How are you?",
-          "back": "Bonjour ! Comment allez-vous ?"
-        }
-      ]
+      "english": "Hello",
+      "word": "bonjour",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "Bonjour ! Comment allez-vous ?"
     },
     {
       "id": "please",
-      "levels": [
-        {
-          "front": "Please",
-          "back": "s'il vous plaît"
-        },
-        {
-          "front": "A coffee, please.",
-          "back": "Un café, s'il vous plaît."
-        }
-      ]
+      "english": "Please",
+      "word": "s'il vous plaît",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "Un café, s'il vous plaît."
     },
     {
       "id": "thank_you",
-      "levels": [
-        {
-          "front": "Thank you",
-          "back": "merci"
-        },
-        {
-          "front": "Thank you very much.",
-          "back": "Merci beaucoup."
-        }
-      ]
+      "english": "Thank you",
+      "word": "merci",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "Merci beaucoup."
     },
     {
       "id": "i_want",
-      "levels": [
-        {
-          "front": "I want",
-          "back": "je veux"
-        },
-        {
-          "front": "I want a coffee.",
-          "back": "Je veux un café."
-        }
-      ]
+      "english": "I want",
+      "word": "je veux",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "Je veux un café."
     },
     {
       "id": "i_need",
-      "levels": [
-        {
-          "front": "I need",
-          "back": "j'ai besoin de",
-          "grammarNote": "avoir besoin de = 'to need' — literally 'to have need of'. j'ai besoin d'aide (I need help), j'ai besoin de temps (I need time). The de contracts with a following vowel: besoin d'aide."
-        },
-        {
-          "front": "I need help.",
-          "back": "J'ai besoin d'aide."
-        }
-      ]
+      "english": "I need",
+      "word": "j'ai besoin de",
+      "grammarNote": "avoir besoin de = 'to need' — literally 'to have need of'. j'ai besoin d'aide (I need help), j'ai besoin de temps (I need time). The de contracts with a following vowel: besoin d'aide.",
+      "englishPhrase": "I need help.",
+      "phrase": "J'ai besoin d'aide."
     },
     {
       "id": "my_name_is",
-      "levels": [
-        {
-          "front": "My name is",
-          "back": "je m'appelle",
-          "grammarNote": "je m'appelle uses the reflexive verb s'appeler — literally 'I call myself'. Much more natural than 'mon nom est'. The double l in appelle is a spelling quirk to preserve the /ɛl/ sound."
-        },
-        {
-          "front": "My name is Marie.",
-          "back": "Je m'appelle Marie."
-        }
-      ]
+      "english": "My name is",
+      "word": "je m'appelle",
+      "grammarNote": "je m'appelle uses the reflexive verb s'appeler — literally 'I call myself'. Much more natural than 'mon nom est'. The double l in appelle is a spelling quirk to preserve the /ɛl/ sound.",
+      "englishPhrase": "My name is Marie.",
+      "phrase": "Je m'appelle Marie."
     },
     {
       "id": "i",
-      "levels": [
-        {
-          "front": "I",
-          "back": "je"
-        },
-        {
-          "front": "I am a student.",
-          "back": "Je suis étudiant."
-        }
-      ]
+      "english": "I",
+      "word": "je",
+      "englishPhrase": "I am a student.",
+      "phrase": "Je suis étudiant."
     },
     {
       "id": "you",
-      "levels": [
-        {
-          "front": "You",
-          "back": "tu",
-          "grammarNote": "tu = informal (one person, someone you know). vous = formal or plural. Using tu with a stranger can feel rude; using vous is always safe. The switch from vous to tu (tutoyer) is a social milestone in French relationships."
-        },
-        {
-          "front": "You speak French well.",
-          "back": "Tu parles bien français."
-        }
-      ]
+      "english": "You",
+      "word": "tu",
+      "grammarNote": "tu = informal (one person, someone you know). vous = formal or plural. Using tu with a stranger can feel rude; using vous is always safe. The switch from vous to tu (tutoyer) is a social milestone in French relationships.",
+      "englishPhrase": "You speak French well.",
+      "phrase": "Tu parles bien français."
     },
     {
       "id": "he",
-      "levels": [
-        {
-          "front": "He",
-          "back": "il"
-        },
-        {
-          "front": "He is my friend.",
-          "back": "Il est mon ami."
-        }
-      ]
+      "english": "He",
+      "word": "il",
+      "englishPhrase": "He is my friend.",
+      "phrase": "Il est mon ami."
     },
     {
       "id": "she",
-      "levels": [
-        {
-          "front": "She",
-          "back": "elle"
-        },
-        {
-          "front": "She works here.",
-          "back": "Elle travaille ici."
-        }
-      ]
+      "english": "She",
+      "word": "elle",
+      "englishPhrase": "She works here.",
+      "phrase": "Elle travaille ici."
     },
     {
       "id": "it",
-      "levels": [
-        {
-          "front": "It",
-          "back": "il",
-          "grammarNote": "French has no neutral pronoun — every noun is masculine (il) or feminine (elle). For abstract ideas or pointing at things: ça (that/it). C'est ça = 'that's it / exactly'."
-        },
-        {
-          "front": "That's it",
-          "back": "C'est ça."
-        }
-      ]
+      "english": "It",
+      "word": "il",
+      "grammarNote": "French has no neutral pronoun — every noun is masculine (il) or feminine (elle). For abstract ideas or pointing at things: ça (that/it). C'est ça = 'that's it / exactly'.",
+      "englishPhrase": "That's it",
+      "phrase": "C'est ça."
     },
     {
       "id": "we",
-      "levels": [
-        {
-          "front": "We",
-          "back": "nous",
-          "grammarNote": "on is used conversationally to mean 'we' in spoken French — more common than nous in everyday speech. 'On mange ensemble' (we eat together). on takes the same verb form as il/elle."
-        },
-        {
-          "front": "We live here.",
-          "back": "On habite ici."
-        }
-      ]
+      "english": "We",
+      "word": "nous",
+      "grammarNote": "on is used conversationally to mean 'we' in spoken French — more common than nous in everyday speech. 'On mange ensemble' (we eat together). on takes the same verb form as il/elle.",
+      "englishPhrase": "We live here.",
+      "phrase": "On habite ici."
     },
     {
       "id": "they",
-      "levels": [
-        {
-          "front": "They",
-          "back": "ils"
-        },
-        {
-          "front": "They eat together.",
-          "back": "Ils mangent ensemble."
-        }
-      ]
+      "english": "They",
+      "word": "ils",
+      "englishPhrase": "They eat together.",
+      "phrase": "Ils mangent ensemble."
     },
     {
       "id": "this",
-      "levels": [
-        {
-          "front": "This",
-          "back": "ce",
-          "grammarNote": "ce (m.) / cet (m. before vowel) / cette (f.) + noun. ce livre (this book), cet homme (this man), cette table (this table). As a standalone pronoun: ceci (this), cela/ça (that)."
-        },
-        {
-          "front": "This book is good.",
-          "back": "Ce livre est bon."
-        }
-      ]
+      "english": "This",
+      "word": "ce",
+      "grammarNote": "ce (m.) / cet (m. before vowel) / cette (f.) + noun. ce livre (this book), cet homme (this man), cette table (this table). As a standalone pronoun: ceci (this), cela/ça (that).",
+      "englishPhrase": "This book is good.",
+      "phrase": "Ce livre est bon."
     },
     {
       "id": "that",
-      "levels": [
-        {
-          "front": "That",
-          "back": "ce"
-        },
-        {
-          "front": "That person is my friend.",
-          "back": "Cette personne est mon amie."
-        }
-      ]
+      "english": "That",
+      "word": "ce",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "Cette personne est mon amie."
     },
     {
       "id": "my",
-      "levels": [
-        {
-          "front": "My",
-          "back": "mon",
-          "grammarNote": "Possessives agree with the thing possessed, not the owner: mon livre (my book, masc.), ma table (my table, fem.), mes livres (my books, plural). Before feminine nouns starting with a vowel: mon amie (my friend, f.)."
-        },
-        {
-          "front": "My name is Carlos.",
-          "back": "Mon prénom est Carlos."
-        }
-      ]
+      "english": "My",
+      "word": "mon",
+      "grammarNote": "Possessives agree with the thing possessed, not the owner: mon livre (my book, masc.), ma table (my table, fem.), mes livres (my books, plural). Before feminine nouns starting with a vowel: mon amie (my friend, f.).",
+      "englishPhrase": "My name is Carlos.",
+      "phrase": "Mon prénom est Carlos."
     },
     {
       "id": "who",
-      "levels": [
-        {
-          "front": "Who",
-          "back": "qui"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "Qui est cette personne ?"
-        }
-      ]
+      "english": "Who",
+      "word": "qui",
+      "englishPhrase": "Who is that person?",
+      "phrase": "Qui est cette personne ?"
     },
     {
       "id": "what",
-      "levels": [
-        {
-          "front": "What",
-          "back": "quoi"
-        },
-        {
-          "front": "What do you want?",
-          "back": "Qu'est-ce que tu veux ?"
-        }
-      ]
+      "english": "What",
+      "word": "quoi",
+      "englishPhrase": "What do you want?",
+      "phrase": "Qu'est-ce que tu veux ?"
     },
     {
       "id": "when",
-      "levels": [
-        {
-          "front": "When",
-          "back": "quand"
-        },
-        {
-          "front": "When do you arrive?",
-          "back": "Quand est-ce que tu arrives ?"
-        }
-      ]
+      "english": "When",
+      "word": "quand",
+      "englishPhrase": "When do you arrive?",
+      "phrase": "Quand est-ce que tu arrives ?"
     },
     {
       "id": "where",
-      "levels": [
-        {
-          "front": "Where",
-          "back": "où"
-        },
-        {
-          "front": "Where are the toilets?",
-          "back": "Où sont les toilettes ?"
-        }
-      ]
+      "english": "Where",
+      "word": "où",
+      "englishPhrase": "Where are the toilets?",
+      "phrase": "Où sont les toilettes ?"
     },
     {
       "id": "why",
-      "levels": [
-        {
-          "front": "Why",
-          "back": "pourquoi"
-        },
-        {
-          "front": "Why can't you come?",
-          "back": "Pourquoi tu ne peux pas venir ?"
-        }
-      ]
+      "english": "Why",
+      "word": "pourquoi",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "Pourquoi tu ne peux pas venir ?"
     },
     {
       "id": "how",
-      "levels": [
-        {
-          "front": "How",
-          "back": "comment"
-        },
-        {
-          "front": "How are you?",
-          "back": "Comment tu vas ?"
-        }
-      ]
+      "english": "How",
+      "word": "comment",
+      "englishPhrase": "How are you?",
+      "phrase": "Comment tu vas ?"
     },
     {
       "id": "good_morning",
-      "levels": [
-        {
-          "front": "Good morning",
-          "back": "bonjour",
-          "grammarNote": "bonjour covers both 'good morning' and 'good afternoon'. bonsoir = good evening (from around 6pm). bonne nuit = good night (only when going to bed). In France, saying bonjour when entering a shop is expected."
-        },
-        {
-          "front": "Good morning! Did you sleep well?",
-          "back": "Bonjour ! Vous avez bien dormi ?"
-        }
-      ]
+      "english": "Good morning",
+      "word": "bonjour",
+      "grammarNote": "bonjour covers both 'good morning' and 'good afternoon'. bonsoir = good evening (from around 6pm). bonne nuit = good night (only when going to bed). In France, saying bonjour when entering a shop is expected.",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "Bonjour ! Vous avez bien dormi ?"
     },
     {
       "id": "to_look_for",
-      "levels": [
-        {
-          "front": "To look for",
-          "back": "chercher"
-        },
-        {
-          "front": "I'm looking for the exit.",
-          "back": "Je cherche la sortie."
-        }
-      ]
+      "english": "To look for",
+      "word": "chercher",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "Je cherche la sortie."
     },
     {
       "id": "excuse_me",
-      "levels": [
-        {
-          "front": "Excuse me",
-          "back": "excusez-moi",
-          "grammarNote": "pardon = excuse me (passing someone or mishearing). excusez-moi = excuse me (getting attention, more formal). s'il vous plaît can also open a request to a stranger: 'S'il vous plaît, où est…?'"
-        },
-        {
-          "front": "Excuse me, where is the main street?",
-          "back": "Pardon, où est la rue principale ?"
-        }
-      ]
+      "english": "Excuse me",
+      "word": "excusez-moi",
+      "grammarNote": "pardon = excuse me (passing someone or mishearing). excusez-moi = excuse me (getting attention, more formal). s'il vous plaît can also open a request to a stranger: 'S'il vous plaît, où est…?'",
+      "englishPhrase": "Excuse me, where is the main street?",
+      "phrase": "Pardon, où est la rue principale ?"
     },
     {
       "id": "to_be_able_to_can",
-      "levels": [
-        {
-          "front": "To be able to",
-          "back": "pouvoir"
-        },
-        {
-          "front": "Can you help me?",
-          "back": "Vous pouvez m'aider ?"
-        }
-      ]
+      "english": "To be able to",
+      "word": "pouvoir",
+      "englishPhrase": "Can you help me?",
+      "phrase": "Vous pouvez m'aider ?"
     },
     {
       "id": "i_dont_know",
-      "levels": [
-        {
-          "front": "I don't know",
-          "back": "je ne sais pas"
-        },
-        {
-          "front": "I don't know where it is.",
-          "back": "Je ne sais pas où c'est."
-        }
-      ]
+      "english": "I don't know",
+      "word": "je ne sais pas",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "Je ne sais pas où c'est."
     },
     {
       "id": "to_have",
-      "levels": [
-        {
-          "front": "To have",
-          "back": "avoir",
-          "grammarNote": "avoir is used for physical states: j'ai faim (I'm hungry), j'ai soif (I'm thirsty), j'ai froid/chaud (I'm cold/hot), j'ai peur (I'm scared). These are 'having' a sensation, not 'being' one."
-        },
-        {
-          "front": "I'm hungry. Do you have water?",
-          "back": "J'ai faim. Tu as de l'eau ?"
-        }
-      ]
+      "english": "To have",
+      "word": "avoir",
+      "grammarNote": "avoir is used for physical states: j'ai faim (I'm hungry), j'ai soif (I'm thirsty), j'ai froid/chaud (I'm cold/hot), j'ai peur (I'm scared). These are 'having' a sensation, not 'being' one.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "J'ai faim. Tu as de l'eau ?"
     },
     {
       "id": "to_do_make",
-      "levels": [
-        {
-          "front": "To do",
-          "back": "faire"
-        },
-        {
-          "front": "What are you doing?",
-          "back": "Qu'est-ce que tu fais ?"
-        }
-      ]
+      "english": "To do",
+      "word": "faire",
+      "englishPhrase": "What are you doing?",
+      "phrase": "Qu'est-ce que tu fais ?"
     },
     {
       "id": "to_eat",
-      "levels": [
-        {
-          "front": "To eat",
-          "back": "manger"
-        },
-        {
-          "front": "Where are we eating?",
-          "back": "On mange où ?"
-        }
-      ]
+      "english": "To eat",
+      "word": "manger",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "On mange où ?"
     },
     {
       "id": "to_like",
-      "levels": [
-        {
-          "front": "To like",
-          "back": "aimer",
-          "grammarNote": "aimer = to love (people) or to like (things). For things, aimer bien softens it to 'like' rather than 'love': 'J'aime bien le café' (I like coffee). Saying 'j'aime le café' is fine but stronger."
-        },
-        {
-          "front": "I like coffee.",
-          "back": "J'aime bien le café."
-        }
-      ]
+      "english": "To like",
+      "word": "aimer",
+      "grammarNote": "aimer = to love (people) or to like (things). For things, aimer bien softens it to 'like' rather than 'love': 'J'aime bien le café' (I like coffee). Saying 'j'aime le café' is fine but stronger.",
+      "englishPhrase": "I like coffee.",
+      "phrase": "J'aime bien le café."
     },
     {
       "id": "but",
-      "levels": [
-        {
-          "front": "But",
-          "back": "mais"
-        },
-        {
-          "front": "I want to go, but I can't.",
-          "back": "Je veux y aller, mais je ne peux pas."
-        }
-      ]
+      "english": "But",
+      "word": "mais",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "Je veux y aller, mais je ne peux pas."
     },
     {
       "id": "and",
-      "levels": [
-        {
-          "front": "And",
-          "back": "et"
-        },
-        {
-          "front": "Water and food.",
-          "back": "De l'eau et de la nourriture."
-        }
-      ]
+      "english": "And",
+      "word": "et",
+      "englishPhrase": "Water and food.",
+      "phrase": "De l'eau et de la nourriture."
     },
     {
       "id": "or",
-      "levels": [
-        {
-          "front": "Or",
-          "back": "ou"
-        },
-        {
-          "front": "Tea or coffee?",
-          "back": "Thé ou café ?"
-        }
-      ]
+      "english": "Or",
+      "word": "ou",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "Thé ou café ?"
     },
     {
       "id": "hungry",
-      "levels": [
-        {
-          "front": "Hungry",
-          "back": "j'ai faim",
-          "grammarNote": "French uses avoir (to have) for hunger, thirst, and temperature: j'ai faim (I'm hungry), j'ai soif (I'm thirsty), j'ai froid/chaud (I'm cold/hot). Never 'je suis faim'."
-        },
-        {
-          "front": "I'm very hungry.",
-          "back": "J'ai très faim."
-        }
-      ]
+      "english": "Hungry",
+      "word": "j'ai faim",
+      "grammarNote": "French uses avoir (to have) for hunger, thirst, and temperature: j'ai faim (I'm hungry), j'ai soif (I'm thirsty), j'ai froid/chaud (I'm cold/hot). Never 'je suis faim'.",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "J'ai très faim."
     },
     {
       "id": "thirsty",
-      "levels": [
-        {
-          "front": "Thirsty",
-          "back": "j'ai soif"
-        },
-        {
-          "front": "I'm very thirsty.",
-          "back": "J'ai très soif."
-        }
-      ]
+      "english": "Thirsty",
+      "word": "j'ai soif",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "J'ai très soif."
     },
     {
       "id": "person",
-      "levels": [
-        {
-          "front": "Person",
-          "back": "personne"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "Qui est cette personne ?"
-        }
-      ]
+      "english": "Person",
+      "word": "personne",
+      "englishPhrase": "Who is that person?",
+      "phrase": "Qui est cette personne ?"
     },
     {
       "id": "place",
-      "levels": [
-        {
-          "front": "Place",
-          "back": "endroit"
-        },
-        {
-          "front": "Do you know a good place?",
-          "back": "Tu connais un bon endroit ?"
-        }
-      ]
+      "english": "Place",
+      "word": "endroit",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "Tu connais un bon endroit ?"
     },
     {
       "id": "thing",
-      "levels": [
-        {
-          "front": "Thing",
-          "back": "chose"
-        },
-        {
-          "front": "What is that thing?",
-          "back": "Qu'est-ce que c'est que ça ?"
-        }
-      ]
+      "english": "Thing",
+      "word": "chose",
+      "englishPhrase": "What is that thing?",
+      "phrase": "Qu'est-ce que c'est que ça ?"
     },
     {
       "id": "here",
-      "levels": [
-        {
-          "front": "Here",
-          "back": "ici"
-        },
-        {
-          "front": "Come here!",
-          "back": "Viens ici !"
-        }
-      ]
+      "english": "Here",
+      "word": "ici",
+      "englishPhrase": "Come here!",
+      "phrase": "Viens ici !"
     },
     {
       "id": "there",
-      "levels": [
-        {
-          "front": "There",
-          "back": "là"
-        },
-        {
-          "front": "The toilets are over there.",
-          "back": "Les toilettes sont là-bas."
-        }
-      ]
+      "english": "There",
+      "word": "là",
+      "englishPhrase": "The toilets are over there.",
+      "phrase": "Les toilettes sont là-bas."
     },
     {
       "id": "very",
-      "levels": [
-        {
-          "front": "Very",
-          "back": "très"
-        },
-        {
-          "front": "It's very good.",
-          "back": "C'est très bien."
-        }
-      ]
+      "english": "Very",
+      "word": "très",
+      "englishPhrase": "It's very good.",
+      "phrase": "C'est très bien."
     },
     {
       "id": "goodbye",
-      "levels": [
-        {
-          "front": "Goodbye",
-          "back": "au revoir"
-        },
-        {
-          "front": "Goodbye! See you tomorrow.",
-          "back": "Au revoir ! À demain."
-        }
-      ]
+      "english": "Goodbye",
+      "word": "au revoir",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "Au revoir ! À demain."
     },
     {
       "id": "water",
-      "levels": [
-        {
-          "front": "Water",
-          "back": "eau",
-          "grammarNote": "eau is feminine. With the partitive article: de l'eau (some water). Un verre d'eau = a glass of water. The partitive (du/de la/de l') is used when quantity is unspecified — very common with food and drink."
-        },
-        {
-          "front": "A glass of water, please.",
-          "back": "Un verre d'eau, s'il vous plaît."
-        }
-      ]
+      "english": "Water",
+      "word": "eau",
+      "grammarNote": "eau is feminine. With the partitive article: de l'eau (some water). Un verre d'eau = a glass of water. The partitive (du/de la/de l') is used when quantity is unspecified — very common with food and drink.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "Un verre d'eau, s'il vous plaît."
     },
     {
       "id": "food",
-      "levels": [
-        {
-          "front": "Food",
-          "back": "nourriture"
-        },
-        {
-          "front": "The food is delicious.",
-          "back": "La nourriture est délicieuse."
-        }
-      ]
+      "english": "Food",
+      "word": "nourriture",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "La nourriture est délicieuse."
     },
     {
       "id": "house_home",
-      "levels": [
-        {
-          "front": "House",
-          "back": "maison"
-        },
-        {
-          "front": "My house is nearby.",
-          "back": "Ma maison est près d'ici."
-        }
-      ]
+      "english": "House",
+      "word": "maison",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "Ma maison est près d'ici."
     },
     {
       "id": "store_shop",
-      "levels": [
-        {
-          "front": "Store",
-          "back": "magasin"
-        },
-        {
-          "front": "The store is closed.",
-          "back": "Le magasin est fermé."
-        }
-      ]
+      "english": "Store",
+      "word": "magasin",
+      "englishPhrase": "The store is closed.",
+      "phrase": "Le magasin est fermé."
     },
     {
       "id": "cash_credit",
-      "levels": [
-        {
-          "front": "Cash",
-          "back": "espèces"
-        },
-        {
-          "front": "Cash or card?",
-          "back": "Vous payez en espèces ou par carte ?"
-        }
-      ]
+      "english": "Cash",
+      "word": "espèces",
+      "englishPhrase": "Cash or card?",
+      "phrase": "Vous payez en espèces ou par carte ?"
     },
     {
       "id": "help",
-      "levels": [
-        {
-          "front": "Help",
-          "back": "aide"
-        },
-        {
-          "front": "I need help.",
-          "back": "J'ai besoin d'aide."
-        }
-      ]
+      "english": "Help",
+      "word": "aide",
+      "englishPhrase": "I need help.",
+      "phrase": "J'ai besoin d'aide."
     },
     {
       "id": "bathroom",
-      "levels": [
-        {
-          "front": "Bathroom",
-          "back": "toilettes"
-        },
-        {
-          "front": "Where are the toilets?",
-          "back": "Où sont les toilettes ?"
-        }
-      ]
+      "english": "Bathroom",
+      "word": "toilettes",
+      "englishPhrase": "Where are the toilets?",
+      "phrase": "Où sont les toilettes ?"
     },
     {
       "id": "always",
-      "levels": [
-        {
-          "front": "Always",
-          "back": "toujours"
-        },
-        {
-          "front": "I always drink coffee in the morning.",
-          "back": "Je prends toujours un café le matin."
-        }
-      ]
+      "english": "Always",
+      "word": "toujours",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "Je prends toujours un café le matin."
     },
     {
       "id": "never",
-      "levels": [
-        {
-          "front": "Never",
-          "back": "jamais",
-          "grammarNote": "jamais pairs with ne to form the negative: je ne... jamais. 'Je n'arrive jamais en retard.' In spoken French the ne is often dropped: 'J'arrive jamais en retard.' Jamais alone in response to a question means 'never'."
-        },
-        {
-          "front": "I never arrive late.",
-          "back": "Je n'arrive jamais en retard."
-        }
-      ]
+      "english": "Never",
+      "word": "jamais",
+      "grammarNote": "jamais pairs with ne to form the negative: je ne... jamais. 'Je n'arrive jamais en retard.' In spoken French the ne is often dropped: 'J'arrive jamais en retard.' Jamais alone in response to a question means 'never'.",
+      "englishPhrase": "I never arrive late.",
+      "phrase": "Je n'arrive jamais en retard."
     },
     {
       "id": "to_go",
-      "levels": [
-        {
-          "front": "To go",
-          "back": "aller",
-          "grammarNote": "aller + infinitive = the near future: 'je vais manger' (I'm going to eat), 'on va partir' (we're going to leave). This is the most common way to talk about immediate future plans in French."
-        },
-        {
-          "front": "I'm going to the store.",
-          "back": "Je vais au magasin."
-        }
-      ]
+      "english": "To go",
+      "word": "aller",
+      "grammarNote": "aller + infinitive = the near future: 'je vais manger' (I'm going to eat), 'on va partir' (we're going to leave). This is the most common way to talk about immediate future plans in French.",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "Je vais au magasin."
     },
     {
       "id": "to_come",
-      "levels": [
-        {
-          "front": "To come",
-          "back": "venir"
-        },
-        {
-          "front": "Where are you coming from?",
-          "back": "Tu viens d'où ?"
-        }
-      ]
+      "english": "To come",
+      "word": "venir",
+      "englishPhrase": "Where are you coming from?",
+      "phrase": "Tu viens d'où ?"
     },
     {
       "id": "to_understand",
-      "levels": [
-        {
-          "front": "To understand",
-          "back": "comprendre"
-        },
-        {
-          "front": "I don't understand.",
-          "back": "Je ne comprends pas."
-        }
-      ]
+      "english": "To understand",
+      "word": "comprendre",
+      "englishPhrase": "I don't understand.",
+      "phrase": "Je ne comprends pas."
     },
     {
       "id": "to_speak_talk",
-      "levels": [
-        {
-          "front": "To speak",
-          "back": "parler"
-        },
-        {
-          "front": "Do you speak French?",
-          "back": "Vous parlez français ?"
-        }
-      ]
+      "english": "To speak",
+      "word": "parler",
+      "englishPhrase": "Do you speak French?",
+      "phrase": "Vous parlez français ?"
     },
     {
       "id": "to_give",
-      "levels": [
-        {
-          "front": "To give",
-          "back": "donner"
-        },
-        {
-          "front": "Give me the menu, please.",
-          "back": "Donnez-moi le menu, s'il vous plaît."
-        }
-      ]
+      "english": "To give",
+      "word": "donner",
+      "englishPhrase": "Give me the menu, please.",
+      "phrase": "Donnez-moi le menu, s'il vous plaît."
     },
     {
       "id": "to_see",
-      "levels": [
-        {
-          "front": "To see",
-          "back": "voir"
-        },
-        {
-          "front": "I can't see anything.",
-          "back": "Je ne peux rien voir."
-        }
-      ]
+      "english": "To see",
+      "word": "voir",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "Je ne peux rien voir."
     },
     {
       "id": "with",
-      "levels": [
-        {
-          "front": "With",
-          "back": "avec"
-        },
-        {
-          "front": "I came with my friend.",
-          "back": "Je suis venu avec mon ami."
-        }
-      ]
+      "english": "With",
+      "word": "avec",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "Je suis venu avec mon ami."
     },
     {
       "id": "without",
-      "levels": [
-        {
-          "front": "Without",
-          "back": "sans"
-        },
-        {
-          "front": "Coffee without sugar, please.",
-          "back": "Café sans sucre, s'il vous plaît."
-        }
-      ]
+      "english": "Without",
+      "word": "sans",
+      "englishPhrase": "Coffee without sugar, please.",
+      "phrase": "Café sans sucre, s'il vous plaît."
     },
     {
       "id": "for",
-      "levels": [
-        {
-          "front": "For",
-          "back": "pour"
-        },
-        {
-          "front": "This is for you.",
-          "back": "C'est pour toi."
-        }
-      ]
+      "english": "For",
+      "word": "pour",
+      "englishPhrase": "This is for you.",
+      "phrase": "C'est pour toi."
     },
     {
       "id": "in_on_at",
-      "levels": [
-        {
-          "front": "In",
-          "back": "dans",
-          "grammarNote": "dans = inside a space (dans le café). sur = on top of (sur la table). en = in + language/country/material: en français, en France, en coton. à = at/to a specific place: à Paris, au magasin."
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "Le livre est sur la table."
-        }
-      ]
+      "english": "In",
+      "word": "dans",
+      "grammarNote": "dans = inside a space (dans le café). sur = on top of (sur la table). en = in + language/country/material: en français, en France, en coton. à = at/to a specific place: à Paris, au magasin.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "Le livre est sur la table."
     },
     {
       "id": "from",
-      "levels": [
-        {
-          "front": "From",
-          "back": "de"
-        },
-        {
-          "front": "I'm from Paris.",
-          "back": "Je suis de Paris."
-        }
-      ]
+      "english": "From",
+      "word": "de",
+      "englishPhrase": "I'm from Paris.",
+      "phrase": "Je suis de Paris."
     },
     {
       "id": "good",
-      "levels": [
-        {
-          "front": "Good",
-          "back": "bon"
-        },
-        {
-          "front": "That's a good idea.",
-          "back": "C'est une bonne idée."
-        }
-      ]
+      "english": "Good",
+      "word": "bon",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "C'est une bonne idée."
     },
     {
       "id": "bad",
-      "levels": [
-        {
-          "front": "Bad",
-          "back": "mauvais"
-        },
-        {
-          "front": "That's bad news.",
-          "back": "C'est une mauvaise nouvelle."
-        }
-      ]
+      "english": "Bad",
+      "word": "mauvais",
+      "englishPhrase": "That's bad news.",
+      "phrase": "C'est une mauvaise nouvelle."
     },
     {
       "id": "big",
-      "levels": [
-        {
-          "front": "Big",
-          "back": "grand"
-        },
-        {
-          "front": "A large coffee, please.",
-          "back": "Un grand café, s'il vous plaît."
-        }
-      ]
+      "english": "Big",
+      "word": "grand",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "Un grand café, s'il vous plaît."
     },
     {
       "id": "small",
-      "levels": [
-        {
-          "front": "Small",
-          "back": "petit"
-        },
-        {
-          "front": "A small table, please.",
-          "back": "Une petite table, s'il vous plaît."
-        }
-      ]
+      "english": "Small",
+      "word": "petit",
+      "englishPhrase": "A small table, please.",
+      "phrase": "Une petite table, s'il vous plaît."
     },
     {
       "id": "a_lot_much",
-      "levels": [
-        {
-          "front": "A lot",
-          "back": "beaucoup"
-        },
-        {
-          "front": "I have a lot of work.",
-          "back": "J'ai beaucoup de travail."
-        }
-      ]
+      "english": "A lot",
+      "word": "beaucoup",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "J'ai beaucoup de travail."
     },
     {
       "id": "a_little",
-      "levels": [
-        {
-          "front": "A little",
-          "back": "un peu"
-        },
-        {
-          "front": "A little water, please.",
-          "back": "Un peu d'eau, s'il vous plaît."
-        }
-      ]
+      "english": "A little",
+      "word": "un peu",
+      "englishPhrase": "A little water, please.",
+      "phrase": "Un peu d'eau, s'il vous plaît."
     },
     {
       "id": "how_do_you_say",
-      "levels": [
-        {
-          "front": "How do you say ___?",
-          "back": "Comment dit-on ___ ?"
-        },
-        {
-          "front": "How do you say 'thank you' in French?",
-          "back": "Comment dit-on 'thank you' en français ?"
-        }
-      ]
+      "english": "How do you say ___?",
+      "word": "Comment dit-on ___ ?",
+      "englishPhrase": "How do you say 'thank you' in French?",
+      "phrase": "Comment dit-on 'thank you' en français ?"
     },
     {
       "id": "can_you_help_me",
-      "levels": [
-        {
-          "front": "Can you help me?",
-          "back": "Pouvez-vous m'aider ?"
-        }
-      ]
+      "english": "Can you help me?",
+      "word": "Pouvez-vous m'aider ?"
     },
     {
       "id": "how_much_does_it_cost",
-      "levels": [
-        {
-          "front": "How much does it cost?",
-          "back": "C'est combien ?"
-        }
-      ]
+      "english": "How much does it cost?",
+      "word": "C'est combien ?"
     },
     {
       "id": "im_sorry",
-      "levels": [
-        {
-          "front": "I'm sorry",
-          "back": "je suis désolé(e)"
-        },
-        {
-          "front": "I'm very sorry.",
-          "back": "Je suis vraiment désolé."
-        }
-      ]
+      "english": "I'm sorry",
+      "word": "je suis désolé(e)",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "Je suis vraiment désolé."
     },
     {
       "id": "no_problem",
-      "levels": [
-        {
-          "front": "No problem",
-          "back": "pas de problème"
-        },
-        {
-          "front": "No problem, don't worry.",
-          "back": "Pas de problème, ne t'inquiète pas."
-        }
-      ]
+      "english": "No problem",
+      "word": "pas de problème",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "Pas de problème, ne t'inquiète pas."
     }
   ]
 }

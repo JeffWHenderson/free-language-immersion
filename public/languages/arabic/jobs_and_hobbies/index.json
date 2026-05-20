@@ -19,1160 +19,698 @@
   "cards": [
     {
       "id": "doctor",
-      "levels": [
-        {
-          "front": "Doctor",
-          "back": "طبيب",
-          "romanized": "tabib",
-          "grammarNote": "Arabic profession nouns are masculine by default. Feminine is formed by adding ة (ta marbuta): طبيب → طبيبة (tabib → tabiba = female doctor), مهندس → مهندسة (muhandis → muhandisa = female engineer). Unlike Spanish, Arabic doesn't drop the article when saying 'I am a doctor': أنا طبيب (ana tabib = I am a doctor)."
-        },
-        {
-          "front": "He is a doctor.",
-          "back": "هو طبيب.",
-          "romanized": "huwa tabib."
-        }
-      ]
+      "english": "Doctor",
+      "word": "طبيب",
+      "romanized": "tabib",
+      "grammarNote": "Arabic profession nouns are masculine by default. Feminine is formed by adding ة (ta marbuta): طبيب → طبيبة (tabib → tabiba = female doctor), مهندس → مهندسة (muhandis → muhandisa = female engineer). Unlike Spanish, Arabic doesn't drop the article when saying 'I am a doctor': أنا طبيب (ana tabib = I am a doctor).",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "هو طبيب.",
+      "phraseRomanized": "huwa tabib."
     },
     {
       "id": "nurse",
-      "levels": [
-        {
-          "front": "Nurse",
-          "back": "ممرض",
-          "romanized": "mumarrida"
-        },
-        {
-          "front": "She is a nurse.",
-          "back": "هي ممرضة.",
-          "romanized": "hiya mumarrida."
-        }
-      ]
+      "english": "Nurse",
+      "word": "ممرض",
+      "romanized": "mumarrida",
+      "englishPhrase": "She is a nurse.",
+      "phrase": "هي ممرضة.",
+      "phraseRomanized": "hiya mumarrida."
     },
     {
       "id": "engineer",
-      "levels": [
-        {
-          "front": "Engineer",
-          "back": "مهندس",
-          "romanized": "muhandis"
-        },
-        {
-          "front": "My brother is an engineer.",
-          "back": "أخي مهندس.",
-          "romanized": "akhi muhandis."
-        }
-      ]
+      "english": "Engineer",
+      "word": "مهندس",
+      "romanized": "muhandis",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "أخي مهندس.",
+      "phraseRomanized": "akhi muhandis."
     },
     {
       "id": "programmer",
-      "levels": [
-        {
-          "front": "Programmer",
-          "back": "مبرمج",
-          "romanized": "mubarammij"
-        },
-        {
-          "front": "I work as a programmer.",
-          "back": "أعمل كمبرمج.",
-          "romanized": "a'mal ka-mubarammij."
-        }
-      ]
+      "english": "Programmer",
+      "word": "مبرمج",
+      "romanized": "mubarammij",
+      "englishPhrase": "I work as a programmer.",
+      "phrase": "أعمل كمبرمج.",
+      "phraseRomanized": "a'mal ka-mubarammij."
     },
     {
       "id": "cook",
-      "levels": [
-        {
-          "front": "Cook",
-          "back": "طاهٍ",
-          "romanized": "tahi"
-        },
-        {
-          "front": "The cook works in the kitchen.",
-          "back": "الطاهي يعمل في المطبخ.",
-          "romanized": "at-tahi ya'mal fi al-matbakh."
-        }
-      ]
+      "english": "Cook",
+      "word": "طاهٍ",
+      "romanized": "tahi",
+      "englishPhrase": "The cook works in the kitchen.",
+      "phrase": "الطاهي يعمل في المطبخ.",
+      "phraseRomanized": "at-tahi ya'mal fi al-matbakh."
     },
     {
       "id": "waiter_waitress",
-      "levels": [
-        {
-          "front": "Waiter (Waitress)",
-          "back": "نادل (نادلة)",
-          "romanized": "nadil (nadila)"
-        },
-        {
-          "front": "The waiter brought the menu.",
-          "back": "النادل أحضر قائمة الطعام.",
-          "romanized": "an-nadil ahdara qa'imat at-ta'am."
-        }
-      ]
+      "english": "Waiter (Waitress)",
+      "word": "نادل (نادلة)",
+      "romanized": "nadil (nadila)",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "النادل أحضر قائمة الطعام.",
+      "phraseRomanized": "an-nadil ahdara qa'imat at-ta'am."
     },
     {
       "id": "manager",
-      "levels": [
-        {
-          "front": "Manager",
-          "back": "مدير",
-          "romanized": "mudir"
-        },
-        {
-          "front": "She is a manager.",
-          "back": "هي مديرة.",
-          "romanized": "hiya mudira."
-        }
-      ]
+      "english": "Manager",
+      "word": "مدير",
+      "romanized": "mudir",
+      "englishPhrase": "She is a manager.",
+      "phrase": "هي مديرة.",
+      "phraseRomanized": "hiya mudira."
     },
     {
       "id": "student",
-      "levels": [
-        {
-          "front": "Student",
-          "back": "طالب",
-          "romanized": "talib"
-        },
-        {
-          "front": "I am a student.",
-          "back": "أنا طالب.",
-          "romanized": "ana talib."
-        }
-      ]
+      "english": "Student",
+      "word": "طالب",
+      "romanized": "talib",
+      "englishPhrase": "I am a student.",
+      "phrase": "أنا طالب.",
+      "phraseRomanized": "ana talib."
     },
     {
       "id": "architect",
-      "levels": [
-        {
-          "front": "Architect",
-          "back": "مهندس معماري",
-          "romanized": "muhandis mi'mari"
-        },
-        {
-          "front": "He is an architect.",
-          "back": "هو مهندس معماري.",
-          "romanized": "huwa muhandis mi'mari."
-        }
-      ]
+      "english": "Architect",
+      "word": "مهندس معماري",
+      "romanized": "muhandis mi'mari",
+      "englishPhrase": "He is an architect.",
+      "phrase": "هو مهندس معماري.",
+      "phraseRomanized": "huwa muhandis mi'mari."
     },
     {
       "id": "lawyer",
-      "levels": [
-        {
-          "front": "Lawyer",
-          "back": "محامٍ",
-          "romanized": "muhami"
-        },
-        {
-          "front": "My sister is a lawyer.",
-          "back": "أختي محامية.",
-          "romanized": "ukhti muhamiya."
-        }
-      ]
+      "english": "Lawyer",
+      "word": "محامٍ",
+      "romanized": "muhami",
+      "englishPhrase": "My sister is a lawyer.",
+      "phrase": "أختي محامية.",
+      "phraseRomanized": "ukhti muhamiya."
     },
     {
       "id": "retired_person",
-      "levels": [
-        {
-          "front": "Retired Person",
-          "back": "متقاعد",
-          "romanized": "mutaqa'id"
-        },
-        {
-          "front": "My father is retired.",
-          "back": "أبي متقاعد.",
-          "romanized": "abi mutaqa'id."
-        }
-      ]
+      "english": "Retired Person",
+      "word": "متقاعد",
+      "romanized": "mutaqa'id",
+      "englishPhrase": "My father is retired.",
+      "phrase": "أبي متقاعد.",
+      "phraseRomanized": "abi mutaqa'id."
     },
     {
       "id": "reading",
-      "levels": [
-        {
-          "front": "Reading",
-          "back": "القراءة",
-          "romanized": "al-qira'a"
-        },
-        {
-          "front": "I like reading.",
-          "back": "أحب القراءة.",
-          "romanized": "uhibb al-qira'a."
-        }
-      ]
+      "english": "Reading",
+      "word": "القراءة",
+      "romanized": "al-qira'a",
+      "englishPhrase": "I like reading.",
+      "phrase": "أحب القراءة.",
+      "phraseRomanized": "uhibb al-qira'a."
     },
     {
       "id": "writing",
-      "levels": [
-        {
-          "front": "Writing",
-          "back": "الكتابة",
-          "romanized": "al-kitaba"
-        },
-        {
-          "front": "She likes writing stories.",
-          "back": "هي تحب كتابة القصص.",
-          "romanized": "hiya tuhibb kitabat al-qisas."
-        }
-      ]
+      "english": "Writing",
+      "word": "الكتابة",
+      "romanized": "al-kitaba",
+      "englishPhrase": "She likes writing stories.",
+      "phrase": "هي تحب كتابة القصص.",
+      "phraseRomanized": "hiya tuhibb kitabat al-qisas."
     },
     {
       "id": "painting",
-      "levels": [
-        {
-          "front": "Painting",
-          "back": "الرسم",
-          "romanized": "ar-rasm"
-        },
-        {
-          "front": "He loves painting.",
-          "back": "هو يحب الرسم.",
-          "romanized": "huwa yuhibb ar-rasm."
-        }
-      ]
+      "english": "Painting",
+      "word": "الرسم",
+      "romanized": "ar-rasm",
+      "englishPhrase": "He loves painting.",
+      "phrase": "هو يحب الرسم.",
+      "phraseRomanized": "huwa yuhibb ar-rasm."
     },
     {
       "id": "drawing",
-      "levels": [
-        {
-          "front": "Drawing",
-          "back": "الرسم",
-          "romanized": "ar-rasm"
-        },
-        {
-          "front": "I like drawing.",
-          "back": "أحب الرسم.",
-          "romanized": "uhibb ar-rasm."
-        }
-      ]
+      "english": "Drawing",
+      "word": "الرسم",
+      "romanized": "ar-rasm",
+      "englishPhrase": "I like drawing.",
+      "phrase": "أحب الرسم.",
+      "phraseRomanized": "uhibb ar-rasm."
     },
     {
       "id": "photography",
-      "levels": [
-        {
-          "front": "Photography",
-          "back": "التصوير",
-          "romanized": "at-taswir"
-        },
-        {
-          "front": "Photography is my hobby.",
-          "back": "التصوير هوايتي.",
-          "romanized": "at-taswir hiwayati."
-        }
-      ]
+      "english": "Photography",
+      "word": "التصوير",
+      "romanized": "at-taswir",
+      "englishPhrase": "Photography is my hobby.",
+      "phrase": "التصوير هوايتي.",
+      "phraseRomanized": "at-taswir hiwayati."
     },
     {
       "id": "music",
-      "levels": [
-        {
-          "front": "Music",
-          "back": "الموسيقى",
-          "romanized": "al-musiqa"
-        },
-        {
-          "front": "I listen to music every day.",
-          "back": "أستمع إلى الموسيقى كل يوم.",
-          "romanized": "astami' ila al-musiqa kull yawm."
-        }
-      ]
+      "english": "Music",
+      "word": "الموسيقى",
+      "romanized": "al-musiqa",
+      "englishPhrase": "I listen to music every day.",
+      "phrase": "أستمع إلى الموسيقى كل يوم.",
+      "phraseRomanized": "astami' ila al-musiqa kull yawm."
     },
     {
       "id": "singing",
-      "levels": [
-        {
-          "front": "Singing",
-          "back": "الغناء",
-          "romanized": "al-ghina'"
-        },
-        {
-          "front": "She loves singing.",
-          "back": "هي تحب الغناء.",
-          "romanized": "hiya tuhibb al-ghina'."
-        }
-      ]
+      "english": "Singing",
+      "word": "الغناء",
+      "romanized": "al-ghina'",
+      "englishPhrase": "She loves singing.",
+      "phrase": "هي تحب الغناء.",
+      "phraseRomanized": "hiya tuhibb al-ghina'."
     },
     {
       "id": "playing_an_instrument_e_g_guitar",
-      "levels": [
-        {
-          "front": "Playing an instrument (e.g., Guitar)",
-          "back": "العزف على آلة موسيقية (مثل الغيتار)",
-          "romanized": "al-'azf 'ala ala musiqiyya (mithl al-ghitar)"
-        },
-        {
-          "front": "I play the guitar.",
-          "back": "أعزف على الغيتار.",
-          "romanized": "a'zif 'ala al-ghitar."
-        }
-      ]
+      "english": "Playing an instrument (e.g., Guitar)",
+      "word": "العزف على آلة موسيقية (مثل الغيتار)",
+      "romanized": "al-'azf 'ala ala musiqiyya (mithl al-ghitar)",
+      "englishPhrase": "I play the guitar.",
+      "phrase": "أعزف على الغيتار.",
+      "phraseRomanized": "a'zif 'ala al-ghitar."
     },
     {
       "id": "dancing",
-      "levels": [
-        {
-          "front": "Dancing",
-          "back": "الرقص",
-          "romanized": "ar-raqs"
-        },
-        {
-          "front": "We love dancing.",
-          "back": "نحن نحب الرقص.",
-          "romanized": "nahnu nuhibb ar-raqs."
-        }
-      ]
+      "english": "Dancing",
+      "word": "الرقص",
+      "romanized": "ar-raqs",
+      "englishPhrase": "We love dancing.",
+      "phrase": "نحن نحب الرقص.",
+      "phraseRomanized": "nahnu nuhibb ar-raqs."
     },
     {
       "id": "cooking",
-      "levels": [
-        {
-          "front": "Cooking",
-          "back": "الطبخ",
-          "romanized": "at-tabkh"
-        },
-        {
-          "front": "I enjoy cooking.",
-          "back": "أستمتع بالطبخ.",
-          "romanized": "astamti' bit-tabkh."
-        }
-      ]
+      "english": "Cooking",
+      "word": "الطبخ",
+      "romanized": "at-tabkh",
+      "englishPhrase": "I enjoy cooking.",
+      "phrase": "أستمتع بالطبخ.",
+      "phraseRomanized": "astamti' bit-tabkh."
     },
     {
       "id": "gardening",
-      "levels": [
-        {
-          "front": "Gardening",
-          "back": "البستنة",
-          "romanized": "al-bustana"
-        },
-        {
-          "front": "Gardening is relaxing.",
-          "back": "البستنة مريحة.",
-          "romanized": "al-bustana muriha."
-        }
-      ]
+      "english": "Gardening",
+      "word": "البستنة",
+      "romanized": "al-bustana",
+      "englishPhrase": "Gardening is relaxing.",
+      "phrase": "البستنة مريحة.",
+      "phraseRomanized": "al-bustana muriha."
     },
     {
       "id": "hiking",
-      "levels": [
-        {
-          "front": "Hiking",
-          "back": "المشي لمسافات طويلة",
-          "romanized": "al-mashy li-masafat tawila"
-        },
-        {
-          "front": "I like hiking in the mountains.",
-          "back": "أحب المشي في الجبال.",
-          "romanized": "uhibb al-mashy fi al-jibal."
-        }
-      ]
+      "english": "Hiking",
+      "word": "المشي لمسافات طويلة",
+      "romanized": "al-mashy li-masafat tawila",
+      "englishPhrase": "I like hiking in the mountains.",
+      "phrase": "أحب المشي في الجبال.",
+      "phraseRomanized": "uhibb al-mashy fi al-jibal."
     },
     {
       "id": "running",
-      "levels": [
-        {
-          "front": "Running",
-          "back": "الجري",
-          "romanized": "al-jarri"
-        },
-        {
-          "front": "I run every morning.",
-          "back": "أركض كل صباح.",
-          "romanized": "arkud kull sabah."
-        }
-      ]
+      "english": "Running",
+      "word": "الجري",
+      "romanized": "al-jarri",
+      "englishPhrase": "I run every morning.",
+      "phrase": "أركض كل صباح.",
+      "phraseRomanized": "arkud kull sabah."
     },
     {
       "id": "jogging",
-      "levels": [
-        {
-          "front": "Jogging",
-          "back": "الهرولة",
-          "romanized": "al-harwala"
-        },
-        {
-          "front": "He jogs in the park.",
-          "back": "هو يهرول في الحديقة.",
-          "romanized": "huwa yharwil fi al-hadiqa."
-        }
-      ]
+      "english": "Jogging",
+      "word": "الهرولة",
+      "romanized": "al-harwala",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "هو يهرول في الحديقة.",
+      "phraseRomanized": "huwa yharwil fi al-hadiqa."
     },
     {
       "id": "biking",
-      "levels": [
-        {
-          "front": "Biking",
-          "back": "ركوب الدراجة",
-          "romanized": "rukub ad-darraja"
-        },
-        {
-          "front": "I go biking on weekends.",
-          "back": "أركب الدراجة في عطلة نهاية الأسبوع.",
-          "romanized": "arkab ad-darraja fi 'utlat nihayat al-usbu'."
-        }
-      ]
+      "english": "Biking",
+      "word": "ركوب الدراجة",
+      "romanized": "rukub ad-darraja",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "أركب الدراجة في عطلة نهاية الأسبوع.",
+      "phraseRomanized": "arkab ad-darraja fi 'utlat nihayat al-usbu'."
     },
     {
       "id": "swimming",
-      "levels": [
-        {
-          "front": "Swimming",
-          "back": "السباحة",
-          "romanized": "as-sibaha"
-        },
-        {
-          "front": "I like swimming.",
-          "back": "أحب السباحة.",
-          "romanized": "uhibb as-sibaha."
-        }
-      ]
+      "english": "Swimming",
+      "word": "السباحة",
+      "romanized": "as-sibaha",
+      "englishPhrase": "I like swimming.",
+      "phrase": "أحب السباحة.",
+      "phraseRomanized": "uhibb as-sibaha."
     },
     {
       "id": "yoga",
-      "levels": [
-        {
-          "front": "Yoga",
-          "back": "اليوغا",
-          "romanized": "al-yuga"
-        },
-        {
-          "front": "She does yoga every morning.",
-          "back": "هي تمارس اليوغا كل صباح.",
-          "romanized": "hiya tumaris al-yuga kull sabah."
-        }
-      ]
+      "english": "Yoga",
+      "word": "اليوغا",
+      "romanized": "al-yuga",
+      "englishPhrase": "She does yoga every morning.",
+      "phrase": "هي تمارس اليوغا كل صباح.",
+      "phraseRomanized": "hiya tumaris al-yuga kull sabah."
     },
     {
       "id": "exercise",
-      "levels": [
-        {
-          "front": "Exercise",
-          "back": "التمرين",
-          "romanized": "at-tamrin"
-        },
-        {
-          "front": "I go to the gym for exercise.",
-          "back": "أذهب إلى الصالة الرياضية للتمرين.",
-          "romanized": "adhhab ila as-sala ar-riyadiyya lit-tamrin."
-        }
-      ]
+      "english": "Exercise",
+      "word": "التمرين",
+      "romanized": "at-tamrin",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "أذهب إلى الصالة الرياضية للتمرين.",
+      "phraseRomanized": "adhhab ila as-sala ar-riyadiyya lit-tamrin."
     },
     {
       "id": "traveling",
-      "levels": [
-        {
-          "front": "Traveling",
-          "back": "السفر",
-          "romanized": "as-safar"
-        },
-        {
-          "front": "I love traveling.",
-          "back": "أحب السفر.",
-          "romanized": "uhibb as-safar."
-        }
-      ]
+      "english": "Traveling",
+      "word": "السفر",
+      "romanized": "as-safar",
+      "englishPhrase": "I love traveling.",
+      "phrase": "أحب السفر.",
+      "phraseRomanized": "uhibb as-safar."
     },
     {
       "id": "camping",
-      "levels": [
-        {
-          "front": "Camping",
-          "back": "التخييم",
-          "romanized": "at-takhyim"
-        },
-        {
-          "front": "We go camping in the summer.",
-          "back": "نذهب للتخييم في الصيف.",
-          "romanized": "nadhhab lit-takhyim fi as-sayf."
-        }
-      ]
+      "english": "Camping",
+      "word": "التخييم",
+      "romanized": "at-takhyim",
+      "englishPhrase": "We go camping in the summer.",
+      "phrase": "نذهب للتخييم في الصيف.",
+      "phraseRomanized": "nadhhab lit-takhyim fi as-sayf."
     },
     {
       "id": "gaming_video_games",
-      "levels": [
-        {
-          "front": "Gaming (Video games)",
-          "back": "ألعاب الفيديو",
-          "romanized": "al'ab al-vidyu"
-        },
-        {
-          "front": "He plays video games at night.",
-          "back": "هو يلعب ألعاب الفيديو في الليل.",
-          "romanized": "huwa yal'ab al'ab al-vidyu fi al-layl."
-        }
-      ]
+      "english": "Gaming (Video games)",
+      "word": "ألعاب الفيديو",
+      "romanized": "al'ab al-vidyu",
+      "englishPhrase": "He plays video games at night.",
+      "phrase": "هو يلعب ألعاب الفيديو في الليل.",
+      "phraseRomanized": "huwa yal'ab al'ab al-vidyu fi al-layl."
     },
     {
       "id": "watching_tv",
-      "levels": [
-        {
-          "front": "Watching TV",
-          "back": "مشاهدة التلفاز",
-          "romanized": "mushahada at-tilfaz"
-        },
-        {
-          "front": "I like watching movies.",
-          "back": "أحب مشاهدة الأفلام.",
-          "romanized": "uhibb mushahada al-aflam."
-        }
-      ]
+      "english": "Watching TV",
+      "word": "مشاهدة التلفاز",
+      "romanized": "mushahada at-tilfaz",
+      "englishPhrase": "I like watching movies.",
+      "phrase": "أحب مشاهدة الأفلام.",
+      "phraseRomanized": "uhibb mushahada al-aflam."
     },
     {
       "id": "listening_to_music",
-      "levels": [
-        {
-          "front": "Listening to music",
-          "back": "الاستماع إلى الموسيقى",
-          "romanized": "al-istima' ila al-musiqa"
-        },
-        {
-          "front": "She likes listening to music.",
-          "back": "هي تحب الاستماع إلى الموسيقى.",
-          "romanized": "hiya tuhibb al-istima' ila al-musiqa."
-        }
-      ]
+      "english": "Listening to music",
+      "word": "الاستماع إلى الموسيقى",
+      "romanized": "al-istima' ila al-musiqa",
+      "englishPhrase": "She likes listening to music.",
+      "phrase": "هي تحب الاستماع إلى الموسيقى.",
+      "phraseRomanized": "hiya tuhibb al-istima' ila al-musiqa."
     },
     {
       "id": "crafts",
-      "levels": [
-        {
-          "front": "Crafts",
-          "back": "الحرف اليدوية",
-          "romanized": "al-hiraf al-yadawiyya"
-        },
-        {
-          "front": "The children are making crafts.",
-          "back": "الأطفال يصنعون الحرف اليدوية.",
-          "romanized": "al-atfal yasna'un al-hiraf al-yadawiyya."
-        }
-      ]
+      "english": "Crafts",
+      "word": "الحرف اليدوية",
+      "romanized": "al-hiraf al-yadawiyya",
+      "englishPhrase": "The children are making crafts.",
+      "phrase": "الأطفال يصنعون الحرف اليدوية.",
+      "phraseRomanized": "al-atfal yasna'un al-hiraf al-yadawiyya."
     },
     {
       "id": "chess",
-      "levels": [
-        {
-          "front": "Chess",
-          "back": "الشطرنج",
-          "romanized": "ash-shataranj"
-        },
-        {
-          "front": "Do you play chess?",
-          "back": "هل تلعب الشطرنج؟",
-          "romanized": "hal tal'ab ash-shataranj?"
-        }
-      ]
+      "english": "Chess",
+      "word": "الشطرنج",
+      "romanized": "ash-shataranj",
+      "englishPhrase": "Do you play chess?",
+      "phrase": "هل تلعب الشطرنج؟",
+      "phraseRomanized": "hal tal'ab ash-shataranj?"
     },
     {
       "id": "board_games",
-      "levels": [
-        {
-          "front": "Board games",
-          "back": "ألعاب لوحية",
-          "romanized": "al'ab lawhiyya"
-        },
-        {
-          "front": "We play board games on weekends.",
-          "back": "نلعب الألعاب اللوحية في عطلة نهاية الأسبوع.",
-          "romanized": "nal'ab al-al'ab al-lawhiyya fi 'utlat nihayat al-usbu'."
-        }
-      ]
+      "english": "Board games",
+      "word": "ألعاب لوحية",
+      "romanized": "al'ab lawhiyya",
+      "englishPhrase": "We play board games on weekends.",
+      "phrase": "نلعب الألعاب اللوحية في عطلة نهاية الأسبوع.",
+      "phraseRomanized": "nal'ab al-al'ab al-lawhiyya fi 'utlat nihayat al-usbu'."
     },
     {
       "id": "to_work_in_for_as",
-      "levels": [
-        {
-          "front": "To work (in)",
-          "back": "يعمل (في)",
-          "romanized": "ya'mal (fi)"
-        },
-        {
-          "front": "I work in a hospital.",
-          "back": "أعمل في مستشفى.",
-          "romanized": "a'mal fi mustashfa."
-        }
-      ]
+      "english": "To work (in)",
+      "word": "يعمل (في)",
+      "romanized": "ya'mal (fi)",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "أعمل في مستشفى.",
+      "phraseRomanized": "a'mal fi mustashfa."
     },
     {
       "id": "to_earn_a_salary",
-      "levels": [
-        {
-          "front": "To earn (a salary)",
-          "back": "يتقاضى",
-          "romanized": "yataqada"
-        },
-        {
-          "front": "He earns a good salary.",
-          "back": "هو يتقاضى راتباً جيداً.",
-          "romanized": "huwa yataqada ratiban jayyidan."
-        }
-      ]
+      "english": "To earn (a salary)",
+      "word": "يتقاضى",
+      "romanized": "yataqada",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "هو يتقاضى راتباً جيداً.",
+      "phraseRomanized": "huwa yataqada ratiban jayyidan."
     },
     {
       "id": "to_retire",
-      "levels": [
-        {
-          "front": "To retire",
-          "back": "يتقاعد",
-          "romanized": "yataqa'ad"
-        },
-        {
-          "front": "She retired last year.",
-          "back": "هي تقاعدت العام الماضي.",
-          "romanized": "hiya taqa'adat al-'am al-madi."
-        }
-      ]
+      "english": "To retire",
+      "word": "يتقاعد",
+      "romanized": "yataqa'ad",
+      "englishPhrase": "She retired last year.",
+      "phrase": "هي تقاعدت العام الماضي.",
+      "phraseRomanized": "hiya taqa'adat al-'am al-madi."
     },
     {
       "id": "to_have_a_job",
-      "levels": [
-        {
-          "front": "To have a job",
-          "back": "لديه وظيفة",
-          "romanized": "ladayhi wazifa"
-        },
-        {
-          "front": "I have a good job.",
-          "back": "لدي وظيفة جيدة.",
-          "romanized": "ladayya wazifa jayyida."
-        }
-      ]
+      "english": "To have a job",
+      "word": "لديه وظيفة",
+      "romanized": "ladayhi wazifa",
+      "englishPhrase": "I have a good job.",
+      "phrase": "لدي وظيفة جيدة.",
+      "phraseRomanized": "ladayya wazifa jayyida."
     },
     {
       "id": "to_be_unemployed",
-      "levels": [
-        {
-          "front": "To be unemployed",
-          "back": "عاطل عن العمل",
-          "romanized": "'atil 'an al-'amal"
-        },
-        {
-          "front": "He is currently unemployed.",
-          "back": "هو عاطل عن العمل حالياً.",
-          "romanized": "huwa 'atil 'an al-'amal haliyan."
-        }
-      ]
+      "english": "To be unemployed",
+      "word": "عاطل عن العمل",
+      "romanized": "'atil 'an al-'amal",
+      "englishPhrase": "He is currently unemployed.",
+      "phrase": "هو عاطل عن العمل حالياً.",
+      "phraseRomanized": "huwa 'atil 'an al-'amal haliyan."
     },
     {
       "id": "to_study",
-      "levels": [
-        {
-          "front": "To study",
-          "back": "يدرس",
-          "romanized": "yadrus"
-        },
-        {
-          "front": "I study every day.",
-          "back": "أدرس كل يوم.",
-          "romanized": "adrus kull yawm."
-        }
-      ]
+      "english": "To study",
+      "word": "يدرس",
+      "romanized": "yadrus",
+      "englishPhrase": "I study every day.",
+      "phrase": "أدرس كل يوم.",
+      "phraseRomanized": "adrus kull yawm."
     },
     {
       "id": "to_learn",
-      "levels": [
-        {
-          "front": "To learn",
-          "back": "يتعلّم",
-          "romanized": "yata'allam"
-        },
-        {
-          "front": "I'm learning Arabic.",
-          "back": "أنا أتعلم العربية.",
-          "romanized": "ana ata'allam al-arabiyya."
-        }
-      ]
+      "english": "To learn",
+      "word": "يتعلّم",
+      "romanized": "yata'allam",
+      "englishPhrase": "I'm learning Arabic.",
+      "phrase": "أنا أتعلم العربية.",
+      "phraseRomanized": "ana ata'allam al-arabiyya."
     },
     {
       "id": "to_practice",
-      "levels": [
-        {
-          "front": "To practice",
-          "back": "يتدرّب",
-          "romanized": "yatadarrab"
-        },
-        {
-          "front": "I practice every day.",
-          "back": "أتدرّب كل يوم.",
-          "romanized": "atadarrab kull yawm."
-        }
-      ]
+      "english": "To practice",
+      "word": "يتدرّب",
+      "romanized": "yatadarrab",
+      "englishPhrase": "I practice every day.",
+      "phrase": "أتدرّب كل يوم.",
+      "phraseRomanized": "atadarrab kull yawm."
     },
     {
       "id": "to_teach",
-      "levels": [
-        {
-          "front": "To teach",
-          "back": "يدرّس",
-          "romanized": "yudarris"
-        },
-        {
-          "front": "She teaches Arabic.",
-          "back": "هي تدرّس العربية.",
-          "romanized": "hiya tudarris al-arabiyya."
-        }
-      ]
+      "english": "To teach",
+      "word": "يدرّس",
+      "romanized": "yudarris",
+      "englishPhrase": "She teaches Arabic.",
+      "phrase": "هي تدرّس العربية.",
+      "phraseRomanized": "hiya tudarris al-arabiyya."
     },
     {
       "id": "to_build",
-      "levels": [
-        {
-          "front": "To build",
-          "back": "يبني",
-          "romanized": "yabni"
-        },
-        {
-          "front": "They are building a new school.",
-          "back": "هم يبنون مدرسة جديدة.",
-          "romanized": "hum yabnun madrasa jadida."
-        }
-      ]
+      "english": "To build",
+      "word": "يبني",
+      "romanized": "yabni",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "هم يبنون مدرسة جديدة.",
+      "phraseRomanized": "hum yabnun madrasa jadida."
     },
     {
       "id": "to_fix",
-      "levels": [
-        {
-          "front": "To fix",
-          "back": "يصلح",
-          "romanized": "yusallih"
-        },
-        {
-          "front": "Can you fix this?",
-          "back": "هل يمكنك إصلاح هذا؟",
-          "romanized": "hal yumkinuka islah hadha?"
-        }
-      ]
+      "english": "To fix",
+      "word": "يصلح",
+      "romanized": "yusallih",
+      "englishPhrase": "Can you fix this?",
+      "phrase": "هل يمكنك إصلاح هذا؟",
+      "phraseRomanized": "hal yumkinuka islah hadha?"
     },
     {
       "id": "to_make",
-      "levels": [
-        {
-          "front": "To make",
-          "back": "يصنع",
-          "romanized": "yasna'"
-        },
-        {
-          "front": "I make coffee every morning.",
-          "back": "أصنع القهوة كل صباح.",
-          "romanized": "asna' al-qahwa kull sabah."
-        }
-      ]
+      "english": "To make",
+      "word": "يصنع",
+      "romanized": "yasna'",
+      "englishPhrase": "I make coffee every morning.",
+      "phrase": "أصنع القهوة كل صباح.",
+      "phraseRomanized": "asna' al-qahwa kull sabah."
     },
     {
       "id": "to_design",
-      "levels": [
-        {
-          "front": "To design",
-          "back": "يصمّم",
-          "romanized": "yusammim"
-        },
-        {
-          "front": "He designs websites.",
-          "back": "هو يصمّم مواقع الويب.",
-          "romanized": "huwa yusammim mawaqia' al-wayb."
-        }
-      ]
+      "english": "To design",
+      "word": "يصمّم",
+      "romanized": "yusammim",
+      "englishPhrase": "He designs websites.",
+      "phrase": "هو يصمّم مواقع الويب.",
+      "phraseRomanized": "huwa yusammim mawaqia' al-wayb."
     },
     {
       "id": "to_sell",
-      "levels": [
-        {
-          "front": "To sell",
-          "back": "يبيع",
-          "romanized": "yabi'"
-        },
-        {
-          "front": "He sells cars.",
-          "back": "هو يبيع السيارات.",
-          "romanized": "huwa yabi' as-sayyarat."
-        }
-      ]
+      "english": "To sell",
+      "word": "يبيع",
+      "romanized": "yabi'",
+      "englishPhrase": "He sells cars.",
+      "phrase": "هو يبيع السيارات.",
+      "phraseRomanized": "huwa yabi' as-sayyarat."
     },
     {
       "id": "to_buy",
-      "levels": [
-        {
-          "front": "To buy",
-          "back": "يشتري",
-          "romanized": "yashtari"
-        },
-        {
-          "front": "I need to buy a new computer.",
-          "back": "أحتاج إلى شراء حاسوب جديد.",
-          "romanized": "ahtaj ila shira' hasub jadid."
-        }
-      ]
+      "english": "To buy",
+      "word": "يشتري",
+      "romanized": "yashtari",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "أحتاج إلى شراء حاسوب جديد.",
+      "phraseRomanized": "ahtaj ila shira' hasub jadid."
     },
     {
       "id": "to_help",
-      "levels": [
-        {
-          "front": "To help",
-          "back": "يساعد",
-          "romanized": "yusa'id"
-        },
-        {
-          "front": "Can I help you?",
-          "back": "هل يمكنني مساعدتك؟",
-          "romanized": "hal yumkinuni musa'adatuk?"
-        }
-      ]
+      "english": "To help",
+      "word": "يساعد",
+      "romanized": "yusa'id",
+      "englishPhrase": "Can I help you?",
+      "phrase": "هل يمكنني مساعدتك؟",
+      "phraseRomanized": "hal yumkinuni musa'adatuk?"
     },
     {
       "id": "to_manage",
-      "levels": [
-        {
-          "front": "To manage",
-          "back": "يدير",
-          "romanized": "yudir"
-        },
-        {
-          "front": "She manages the team.",
-          "back": "هي تدير الفريق.",
-          "romanized": "hiya tudir al-fariq."
-        }
-      ]
+      "english": "To manage",
+      "word": "يدير",
+      "romanized": "yudir",
+      "englishPhrase": "She manages the team.",
+      "phrase": "هي تدير الفريق.",
+      "phraseRomanized": "hiya tudir al-fariq."
     },
     {
       "id": "to_meet",
-      "levels": [
-        {
-          "front": "To meet",
-          "back": "يجتمع",
-          "romanized": "yajtami'"
-        },
-        {
-          "front": "We meet every Monday.",
-          "back": "نجتمع كل يوم الاثنين.",
-          "romanized": "najtami' kull yawm al-ithnayn."
-        }
-      ]
+      "english": "To meet",
+      "word": "يجتمع",
+      "romanized": "yajtami'",
+      "englishPhrase": "We meet every Monday.",
+      "phrase": "نجتمع كل يوم الاثنين.",
+      "phraseRomanized": "najtami' kull yawm al-ithnayn."
     },
     {
       "id": "to_start",
-      "levels": [
-        {
-          "front": "To start",
-          "back": "يبدأ",
-          "romanized": "yabda'"
-        },
-        {
-          "front": "I start work at eight.",
-          "back": "أبدأ العمل في الثامنة.",
-          "romanized": "abda' al-'amal fi ath-thamina."
-        }
-      ]
+      "english": "To start",
+      "word": "يبدأ",
+      "romanized": "yabda'",
+      "englishPhrase": "I start work at eight.",
+      "phrase": "أبدأ العمل في الثامنة.",
+      "phraseRomanized": "abda' al-'amal fi ath-thamina."
     },
     {
       "id": "to_finish",
-      "levels": [
-        {
-          "front": "To finish",
-          "back": "ينهي",
-          "romanized": "yunhi"
-        },
-        {
-          "front": "I finish work at five.",
-          "back": "أنهي العمل في الخامسة.",
-          "romanized": "anhi al-'amal fi al-khamisa."
-        }
-      ]
+      "english": "To finish",
+      "word": "ينهي",
+      "romanized": "yunhi",
+      "englishPhrase": "I finish work at five.",
+      "phrase": "أنهي العمل في الخامسة.",
+      "phraseRomanized": "anhi al-'amal fi al-khamisa."
     },
     {
       "id": "to_like_to_enjoy",
-      "levels": [
-        {
-          "front": "To like",
-          "back": "يحب",
-          "romanized": "yuhibb",
-          "grammarNote": "Arabic 'يحب' (yuhibb = to love/like) is used where Spanish uses 'gustar'. The structure is direct: أحب القراءة (uhibb al-qira'a = I like reading), هي تحب الغناء (hiya tuhibb al-ghina' = she likes singing). Unlike Spanish gustar, the subject of the Arabic sentence is the person, not the thing liked."
-        },
-        {
-          "front": "I like reading. She likes singing.",
-          "back": "أحب القراءة. هي تحب الغناء.",
-          "romanized": "uhibb al-qira'a. hiya tuhibb al-ghina'."
-        }
-      ]
+      "english": "To like",
+      "word": "يحب",
+      "romanized": "yuhibb",
+      "grammarNote": "Arabic 'يحب' (yuhibb = to love/like) is used where Spanish uses 'gustar'. The structure is direct: أحب القراءة (uhibb al-qira'a = I like reading), هي تحب الغناء (hiya tuhibb al-ghina' = she likes singing). Unlike Spanish gustar, the subject of the Arabic sentence is the person, not the thing liked.",
+      "englishPhrase": "I like reading. She likes singing.",
+      "phrase": "أحب القراءة. هي تحب الغناء.",
+      "phraseRomanized": "uhibb al-qira'a. hiya tuhibb al-ghina'."
     },
     {
       "id": "to_relax",
-      "levels": [
-        {
-          "front": "To relax",
-          "back": "يسترخي",
-          "romanized": "yastarkhi"
-        },
-        {
-          "front": "I relax on weekends.",
-          "back": "أسترخي في عطلة نهاية الأسبوع.",
-          "romanized": "astarkhi fi 'utlat nihayat al-usbu'."
-        }
-      ]
+      "english": "To relax",
+      "word": "يسترخي",
+      "romanized": "yastarkhi",
+      "englishPhrase": "I relax on weekends.",
+      "phrase": "أسترخي في عطلة نهاية الأسبوع.",
+      "phraseRomanized": "astarkhi fi 'utlat nihayat al-usbu'."
     },
     {
       "id": "to_spend_time_on",
-      "levels": [
-        {
-          "front": "To spend time (on)",
-          "back": "يقضي وقتاً (في)",
-          "romanized": "yaqdi waqtan (fi)"
-        },
-        {
-          "front": "I spend a lot of time reading.",
-          "back": "أقضي وقتاً كثيراً في القراءة.",
-          "romanized": "aqdi waqtan kathiran fi al-qira'a."
-        }
-      ]
+      "english": "To spend time (on)",
+      "word": "يقضي وقتاً (في)",
+      "romanized": "yaqdi waqtan (fi)",
+      "englishPhrase": "I spend a lot of time reading.",
+      "phrase": "أقضي وقتاً كثيراً في القراءة.",
+      "phraseRomanized": "aqdi waqtan kathiran fi al-qira'a."
     },
     {
       "id": "creative",
-      "levels": [
-        {
-          "front": "Creative",
-          "back": "مبدع",
-          "romanized": "mubdi'"
-        },
-        {
-          "front": "She is very creative.",
-          "back": "هي مبدعة جداً.",
-          "romanized": "hiya mubdi'a jiddan."
-        }
-      ]
+      "english": "Creative",
+      "word": "مبدع",
+      "romanized": "mubdi'",
+      "englishPhrase": "She is very creative.",
+      "phrase": "هي مبدعة جداً.",
+      "phraseRomanized": "hiya mubdi'a jiddan."
     },
     {
       "id": "interesting",
-      "levels": [
-        {
-          "front": "Interesting",
-          "back": "مثير للاهتمام",
-          "romanized": "muthir lil-ihtimam"
-        },
-        {
-          "front": "My job is interesting.",
-          "back": "عملي مثير للاهتمام.",
-          "romanized": "'amali muthir lil-ihtimam."
-        }
-      ]
+      "english": "Interesting",
+      "word": "مثير للاهتمام",
+      "romanized": "muthir lil-ihtimam",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "عملي مثير للاهتمام.",
+      "phraseRomanized": "'amali muthir lil-ihtimam."
     },
     {
       "id": "stressful",
-      "levels": [
-        {
-          "front": "Stressful",
-          "back": "مُجهِد",
-          "romanized": "mujhid"
-        },
-        {
-          "front": "My job is stressful.",
-          "back": "عملي مُجهِد.",
-          "romanized": "'amali mujhid."
-        }
-      ]
+      "english": "Stressful",
+      "word": "مُجهِد",
+      "romanized": "mujhid",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "عملي مُجهِد.",
+      "phraseRomanized": "'amali mujhid."
     },
     {
       "id": "boring",
-      "levels": [
-        {
-          "front": "Boring",
-          "back": "ممل",
-          "romanized": "mumill"
-        },
-        {
-          "front": "The meeting was boring.",
-          "back": "الاجتماع كان مملاً.",
-          "romanized": "al-ijtima' kan mumillan."
-        }
-      ]
+      "english": "Boring",
+      "word": "ممل",
+      "romanized": "mumill",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "الاجتماع كان مملاً.",
+      "phraseRomanized": "al-ijtima' kan mumillan."
     },
     {
       "id": "salary",
-      "levels": [
-        {
-          "front": "Salary",
-          "back": "راتب",
-          "romanized": "ratib"
-        },
-        {
-          "front": "What is the salary?",
-          "back": "ما هو الراتب؟",
-          "romanized": "ma huwa ar-ratib?"
-        }
-      ]
+      "english": "Salary",
+      "word": "راتب",
+      "romanized": "ratib",
+      "englishPhrase": "What is the salary?",
+      "phrase": "ما هو الراتب؟",
+      "phraseRomanized": "ma huwa ar-ratib?"
     },
     {
       "id": "schedule",
-      "levels": [
-        {
-          "front": "Schedule",
-          "back": "جدول",
-          "romanized": "jadwal"
-        },
-        {
-          "front": "My schedule is flexible.",
-          "back": "جدولي مرن.",
-          "romanized": "jadwali marin."
-        }
-      ]
+      "english": "Schedule",
+      "word": "جدول",
+      "romanized": "jadwal",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "جدولي مرن.",
+      "phraseRomanized": "jadwali marin."
     },
     {
       "id": "vacation",
-      "levels": [
-        {
-          "front": "Vacation",
-          "back": "إجازة",
-          "romanized": "ijaza"
-        },
-        {
-          "front": "I'm going on vacation next week.",
-          "back": "سأذهب في إجازة الأسبوع القادم.",
-          "romanized": "sa-adhhab fi ijaza al-usbu' al-qadim."
-        }
-      ]
+      "english": "Vacation",
+      "word": "إجازة",
+      "romanized": "ijaza",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "سأذهب في إجازة الأسبوع القادم.",
+      "phraseRomanized": "sa-adhhab fi ijaza al-usbu' al-qadim."
     },
     {
       "id": "break",
-      "levels": [
-        {
-          "front": "Break",
-          "back": "استراحة",
-          "romanized": "istiraha"
-        },
-        {
-          "front": "Let's take a break.",
-          "back": "لنأخذ استراحة.",
-          "romanized": "lna'khudh istiraha."
-        }
-      ]
+      "english": "Break",
+      "word": "استراحة",
+      "romanized": "istiraha",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "لنأخذ استراحة.",
+      "phraseRomanized": "lna'khudh istiraha."
     },
     {
       "id": "office",
-      "levels": [
-        {
-          "front": "Office",
-          "back": "مكتب",
-          "romanized": "maktab"
-        },
-        {
-          "front": "I work in an office.",
-          "back": "أعمل في مكتب.",
-          "romanized": "a'mal fi maktab."
-        }
-      ]
+      "english": "Office",
+      "word": "مكتب",
+      "romanized": "maktab",
+      "englishPhrase": "I work in an office.",
+      "phrase": "أعمل في مكتب.",
+      "phraseRomanized": "a'mal fi maktab."
     },
     {
       "id": "outdoors",
-      "levels": [
-        {
-          "front": "Outdoors",
-          "back": "في الهواء الطلق",
-          "romanized": "fi al-hawa' at-taliq"
-        },
-        {
-          "front": "She works outdoors.",
-          "back": "هي تعمل في الهواء الطلق.",
-          "romanized": "hiya ta'mal fi al-hawa' at-taliq."
-        }
-      ]
+      "english": "Outdoors",
+      "word": "في الهواء الطلق",
+      "romanized": "fi al-hawa' at-taliq",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "هي تعمل في الهواء الطلق.",
+      "phraseRomanized": "hiya ta'mal fi al-hawa' at-taliq."
     },
     {
       "id": "interview",
-      "levels": [
-        {
-          "front": "Interview",
-          "back": "مقابلة",
-          "romanized": "muqabala"
-        },
-        {
-          "front": "I have a job interview tomorrow.",
-          "back": "لدي مقابلة عمل غداً.",
-          "romanized": "ladayya muqabalat 'amal ghadan."
-        }
-      ]
+      "english": "Interview",
+      "word": "مقابلة",
+      "romanized": "muqabala",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "لدي مقابلة عمل غداً.",
+      "phraseRomanized": "ladayya muqabalat 'amal ghadan."
     },
     {
       "id": "colleague",
-      "levels": [
-        {
-          "front": "Colleague",
-          "back": "زميل",
-          "romanized": "zamil"
-        },
-        {
-          "front": "My coworkers are friendly.",
-          "back": "زملائي ودودون.",
-          "romanized": "zumala'i wadudun."
-        }
-      ]
+      "english": "Colleague",
+      "word": "زميل",
+      "romanized": "zamil",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "زملائي ودودون.",
+      "phraseRomanized": "zumala'i wadudun."
     },
     {
       "id": "customer",
-      "levels": [
-        {
-          "front": "Customer",
-          "back": "عميل",
-          "romanized": "'amil"
-        },
-        {
-          "front": "The client is happy.",
-          "back": "العميل سعيد.",
-          "romanized": "al-'amil sa'id."
-        }
-      ]
+      "english": "Customer",
+      "word": "عميل",
+      "romanized": "'amil",
+      "englishPhrase": "The client is happy.",
+      "phrase": "العميل سعيد.",
+      "phraseRomanized": "al-'amil sa'id."
     },
     {
       "id": "team",
-      "levels": [
-        {
-          "front": "Team",
-          "back": "فريق",
-          "romanized": "fariq"
-        },
-        {
-          "front": "I work in a great team.",
-          "back": "أعمل في فريق رائع.",
-          "romanized": "a'mal fi fariq ra'i'."
-        }
-      ]
+      "english": "Team",
+      "word": "فريق",
+      "romanized": "fariq",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "أعمل في فريق رائع.",
+      "phraseRomanized": "a'mal fi fariq ra'i'."
     },
     {
       "id": "project",
-      "levels": [
-        {
-          "front": "Project",
-          "back": "مشروع",
-          "romanized": "mashrua'"
-        },
-        {
-          "front": "The project is almost finished.",
-          "back": "المشروع شبه منتهٍ.",
-          "romanized": "al-mashrua' shibh muntahin."
-        }
-      ]
+      "english": "Project",
+      "word": "مشروع",
+      "romanized": "mashrua'",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "المشروع شبه منتهٍ.",
+      "phraseRomanized": "al-mashrua' shibh muntahin."
     },
     {
       "id": "meeting",
-      "levels": [
-        {
-          "front": "Meeting",
-          "back": "اجتماع",
-          "romanized": "ijtima'"
-        },
-        {
-          "front": "We have a meeting at ten.",
-          "back": "لدينا اجتماع في العاشرة.",
-          "romanized": "ladayna ijtima' fi al-ashira."
-        }
-      ]
+      "english": "Meeting",
+      "word": "اجتماع",
+      "romanized": "ijtima'",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "لدينا اجتماع في العاشرة.",
+      "phraseRomanized": "ladayna ijtima' fi al-ashira."
     },
     {
       "id": "free_time",
-      "levels": [
-        {
-          "front": "Free time",
-          "back": "وقت فراغ",
-          "romanized": "waqt faragh"
-        },
-        {
-          "front": "What do you do in your free time?",
-          "back": "ماذا تفعل في وقت فراغك؟",
-          "romanized": "madha taf'al fi waqt faraghak?"
-        }
-      ]
+      "english": "Free time",
+      "word": "وقت فراغ",
+      "romanized": "waqt faragh",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "ماذا تفعل في وقت فراغك؟",
+      "phraseRomanized": "madha taf'al fi waqt faraghak?"
     }
   ]
 }

@@ -26,1198 +26,756 @@
   "cards": [
     {
       "id": "hello",
-      "levels": [
-        {
-          "front": "Hello",
-          "back": "こんにちは",
-          "romanized": "konnichiwa"
-        },
-        {
-          "front": "Hello! How are you?",
-          "back": "こんにちは！お元気ですか？",
-          "romanized": "Konnichiwa! O-genki desu ka?",
-          "literal": "Hello! Honorable-health is?"
-        }
-      ]
+      "english": "Hello",
+      "word": "こんにちは",
+      "romanized": "konnichiwa",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "こんにちは！お元気ですか？",
+      "phraseRomanized": "Konnichiwa! O-genki desu ka?",
+      "literal": "Hello! Honorable-health is?"
     },
     {
       "id": "please",
-      "levels": [
-        {
-          "front": "Please",
-          "back": "お願いします",
-          "romanized": "onegaishimasu",
-          "grammarNote": "お願いします (onegaishimasu) = 'please' when making a request. ください (kudasai) = 'please give me' when asking for something specific. For actions: 〜てください (te kudasai): 待ってください (please wait)."
-        },
-        {
-          "front": "A coffee, please.",
-          "back": "コーヒーをお願いします。",
-          "romanized": "Kōhī wo onegaishimasu.",
-          "literal": "Coffee [obj] please."
-        }
-      ]
+      "english": "Please",
+      "word": "お願いします",
+      "romanized": "onegaishimasu",
+      "grammarNote": "お願いします (onegaishimasu) = 'please' when making a request. ください (kudasai) = 'please give me' when asking for something specific. For actions: 〜てください (te kudasai): 待ってください (please wait).",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "コーヒーをお願いします。",
+      "phraseRomanized": "Kōhī wo onegaishimasu.",
+      "literal": "Coffee [obj] please."
     },
     {
       "id": "thank_you",
-      "levels": [
-        {
-          "front": "Thank you",
-          "back": "ありがとうございます",
-          "romanized": "arigatou gozaimasu"
-        },
-        {
-          "front": "Thank you very much.",
-          "back": "どうもありがとうございます。",
-          "romanized": "Dōmo arigatou gozaimasu."
-        }
-      ]
+      "english": "Thank you",
+      "word": "ありがとうございます",
+      "romanized": "arigatou gozaimasu",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "どうもありがとうございます。",
+      "phraseRomanized": "Dōmo arigatou gozaimasu."
     },
     {
       "id": "i_want",
-      "levels": [
-        {
-          "front": "I want",
-          "back": "〜がほしい",
-          "romanized": "~ ga hoshii",
-          "grammarNote": "For wanting a thing: 〜がほしい (hoshii). For wanting to do something: 〜したい (shitai), attached to the verb stem. コーヒーがほしい (I want coffee). 食べたい (I want to eat). Neither is used for others' wants — use 〜たがっている for third person."
-        },
-        {
-          "front": "I want a coffee.",
-          "back": "コーヒーがほしいです。",
-          "romanized": "Kōhī ga hoshii desu.",
-          "literal": "Coffee [subj] want is."
-        }
-      ]
+      "english": "I want",
+      "word": "〜がほしい",
+      "romanized": "~ ga hoshii",
+      "grammarNote": "For wanting a thing: 〜がほしい (hoshii). For wanting to do something: 〜したい (shitai), attached to the verb stem. コーヒーがほしい (I want coffee). 食べたい (I want to eat). Neither is used for others' wants — use 〜たがっている for third person.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "コーヒーがほしいです。",
+      "phraseRomanized": "Kōhī ga hoshii desu.",
+      "literal": "Coffee [subj] want is."
     },
     {
       "id": "i_need",
-      "levels": [
-        {
-          "front": "I need",
-          "back": "〜が必要です",
-          "romanized": "~ ga hitsuyou desu"
-        },
-        {
-          "front": "I need help.",
-          "back": "助けが必要です。",
-          "romanized": "Tasuke ga hitsuyou desu.",
-          "literal": "Help [subj] necessary is."
-        }
-      ]
+      "english": "I need",
+      "word": "〜が必要です",
+      "romanized": "~ ga hitsuyou desu",
+      "englishPhrase": "I need help.",
+      "phrase": "助けが必要です。",
+      "phraseRomanized": "Tasuke ga hitsuyou desu.",
+      "literal": "Help [subj] necessary is."
     },
     {
       "id": "my_name_is",
-      "levels": [
-        {
-          "front": "My name is",
-          "back": "〜と申します",
-          "romanized": "~ to moushimasu",
-          "grammarNote": "〜と申します (to moushimasu) is the humble/formal self-introduction. 私の名前は〜です is more neutral. In casual speech: 〜といいます (to iimasu)."
-        },
-        {
-          "front": "My name is Tanaka.",
-          "back": "私の名前は田中です。",
-          "romanized": "Watashi no namae wa Tanaka desu.",
-          "literal": "I's name [topic] Tanaka is."
-        }
-      ]
+      "english": "My name is",
+      "word": "〜と申します",
+      "romanized": "~ to moushimasu",
+      "grammarNote": "〜と申します (to moushimasu) is the humble/formal self-introduction. 私の名前は〜です is more neutral. In casual speech: 〜といいます (to iimasu).",
+      "englishPhrase": "My name is Tanaka.",
+      "phrase": "私の名前は田中です。",
+      "phraseRomanized": "Watashi no namae wa Tanaka desu.",
+      "literal": "I's name [topic] Tanaka is."
     },
     {
       "id": "i",
-      "levels": [
-        {
-          "front": "I",
-          "back": "私",
-          "romanized": "watashi",
-          "grammarNote": "私 (watashi) is gender-neutral and polite. Men in casual speech often use 僕 (boku) or 俺 (ore). Subject pronouns are frequently dropped in Japanese when context is clear."
-        },
-        {
-          "front": "I am a student.",
-          "back": "私は学生です。",
-          "romanized": "Watashi wa gakusei desu.",
-          "literal": "I [topic] student is."
-        }
-      ]
+      "english": "I",
+      "word": "私",
+      "romanized": "watashi",
+      "grammarNote": "私 (watashi) is gender-neutral and polite. Men in casual speech often use 僕 (boku) or 俺 (ore). Subject pronouns are frequently dropped in Japanese when context is clear.",
+      "englishPhrase": "I am a student.",
+      "phrase": "私は学生です。",
+      "phraseRomanized": "Watashi wa gakusei desu.",
+      "literal": "I [topic] student is."
     },
     {
       "id": "you",
-      "levels": [
-        {
-          "front": "You",
-          "back": "あなた",
-          "romanized": "anata",
-          "grammarNote": "あなた (anata) can sound cold or presumptuous in direct address. Japanese speakers usually use the person's name + さん instead. Drop 'you' entirely when context is obvious."
-        },
-        {
-          "front": "You speak Japanese well.",
-          "back": "日本語がお上手ですね。",
-          "romanized": "Nihongo ga o-jouzu desu ne.",
-          "literal": "Japanese [subj] honorable-skilled is, right?"
-        }
-      ]
+      "english": "You",
+      "word": "あなた",
+      "romanized": "anata",
+      "grammarNote": "あなた (anata) can sound cold or presumptuous in direct address. Japanese speakers usually use the person's name + さん instead. Drop 'you' entirely when context is obvious.",
+      "englishPhrase": "You speak Japanese well.",
+      "phrase": "日本語がお上手ですね。",
+      "phraseRomanized": "Nihongo ga o-jouzu desu ne.",
+      "literal": "Japanese [subj] honorable-skilled is, right?"
     },
     {
       "id": "he",
-      "levels": [
-        {
-          "front": "He",
-          "back": "彼",
-          "romanized": "kare"
-        },
-        {
-          "front": "He is my friend.",
-          "back": "彼は私の友達です。",
-          "romanized": "Kare wa watashi no tomodachi desu.",
-          "literal": "He [topic] my friend is."
-        }
-      ]
+      "english": "He",
+      "word": "彼",
+      "romanized": "kare",
+      "englishPhrase": "He is my friend.",
+      "phrase": "彼は私の友達です。",
+      "phraseRomanized": "Kare wa watashi no tomodachi desu.",
+      "literal": "He [topic] my friend is."
     },
     {
       "id": "she",
-      "levels": [
-        {
-          "front": "She",
-          "back": "彼女",
-          "romanized": "kanojo"
-        },
-        {
-          "front": "She works here.",
-          "back": "彼女はここで働いています。",
-          "romanized": "Kanojo wa koko de hataraite imasu.",
-          "literal": "She [topic] here at working is."
-        }
-      ]
+      "english": "She",
+      "word": "彼女",
+      "romanized": "kanojo",
+      "englishPhrase": "She works here.",
+      "phrase": "彼女はここで働いています。",
+      "phraseRomanized": "Kanojo wa koko de hataraite imasu.",
+      "literal": "She [topic] here at working is."
     },
     {
       "id": "it",
-      "levels": [
-        {
-          "front": "It",
-          "back": "それ",
-          "romanized": "sore",
-          "grammarNote": "Japanese has no true 'it'. Use それ (sore) for things near the listener, あれ (are) for things far from both. Near the speaker: これ (kore). Often just drop the pronoun entirely."
-        },
-        {
-          "front": "What is that?",
-          "back": "それは何ですか？",
-          "romanized": "Sore wa nan desu ka?",
-          "literal": "That [topic] what is?"
-        }
-      ]
+      "english": "It",
+      "word": "それ",
+      "romanized": "sore",
+      "grammarNote": "Japanese has no true 'it'. Use それ (sore) for things near the listener, あれ (are) for things far from both. Near the speaker: これ (kore). Often just drop the pronoun entirely.",
+      "englishPhrase": "What is that?",
+      "phrase": "それは何ですか？",
+      "phraseRomanized": "Sore wa nan desu ka?",
+      "literal": "That [topic] what is?"
     },
     {
       "id": "we",
-      "levels": [
-        {
-          "front": "We",
-          "back": "私たち",
-          "romanized": "watashitachi"
-        },
-        {
-          "front": "We live here.",
-          "back": "私たちはここに住んでいます。",
-          "romanized": "Watashitachi wa koko ni sunde imasu.",
-          "literal": "We [topic] here in living are."
-        }
-      ]
+      "english": "We",
+      "word": "私たち",
+      "romanized": "watashitachi",
+      "englishPhrase": "We live here.",
+      "phrase": "私たちはここに住んでいます。",
+      "phraseRomanized": "Watashitachi wa koko ni sunde imasu.",
+      "literal": "We [topic] here in living are."
     },
     {
       "id": "they",
-      "levels": [
-        {
-          "front": "They",
-          "back": "彼ら",
-          "romanized": "karera"
-        },
-        {
-          "front": "They eat together.",
-          "back": "彼らは一緒に食べます。",
-          "romanized": "Karera wa issho ni tabemasu.",
-          "literal": "They [topic] together eat."
-        }
-      ]
+      "english": "They",
+      "word": "彼ら",
+      "romanized": "karera",
+      "englishPhrase": "They eat together.",
+      "phrase": "彼らは一緒に食べます。",
+      "phraseRomanized": "Karera wa issho ni tabemasu.",
+      "literal": "They [topic] together eat."
     },
     {
       "id": "this",
-      "levels": [
-        {
-          "front": "This",
-          "back": "これ",
-          "romanized": "kore",
-          "grammarNote": "これ (kore) = this thing (stands alone). この (kono) = this + noun: この本 (this book). Same pattern: それ/その (that, near listener), あれ/あの (that, far from both)."
-        },
-        {
-          "front": "This book is good.",
-          "back": "この本はいいです。",
-          "romanized": "Kono hon wa ii desu.",
-          "literal": "This book [topic] good is."
-        }
-      ]
+      "english": "This",
+      "word": "これ",
+      "romanized": "kore",
+      "grammarNote": "これ (kore) = this thing (stands alone). この (kono) = this + noun: この本 (this book). Same pattern: それ/その (that, near listener), あれ/あの (that, far from both).",
+      "englishPhrase": "This book is good.",
+      "phrase": "この本はいいです。",
+      "phraseRomanized": "Kono hon wa ii desu.",
+      "literal": "This book [topic] good is."
     },
     {
       "id": "that",
-      "levels": [
-        {
-          "front": "That",
-          "back": "それ",
-          "romanized": "sore"
-        },
-        {
-          "front": "That person is my friend.",
-          "back": "あの人は私の友達です。",
-          "romanized": "Ano hito wa watashi no tomodachi desu.",
-          "literal": "That person [topic] my friend is."
-        }
-      ]
+      "english": "That",
+      "word": "それ",
+      "romanized": "sore",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "あの人は私の友達です。",
+      "phraseRomanized": "Ano hito wa watashi no tomodachi desu.",
+      "literal": "That person [topic] my friend is."
     },
     {
       "id": "my",
-      "levels": [
-        {
-          "front": "My",
-          "back": "私の",
-          "romanized": "watashi no"
-        },
-        {
-          "front": "My name is Tanaka.",
-          "back": "私の名前は田中です。",
-          "romanized": "Watashi no namae wa Tanaka desu.",
-          "literal": "I's name [topic] Tanaka is."
-        }
-      ]
+      "english": "My",
+      "word": "私の",
+      "romanized": "watashi no",
+      "englishPhrase": "My name is Tanaka.",
+      "phrase": "私の名前は田中です。",
+      "phraseRomanized": "Watashi no namae wa Tanaka desu.",
+      "literal": "I's name [topic] Tanaka is."
     },
     {
       "id": "who",
-      "levels": [
-        {
-          "front": "Who",
-          "back": "誰",
-          "romanized": "dare"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "あの人は誰ですか？",
-          "romanized": "Ano hito wa dare desu ka?",
-          "literal": "That person [topic] who is?"
-        }
-      ]
+      "english": "Who",
+      "word": "誰",
+      "romanized": "dare",
+      "englishPhrase": "Who is that person?",
+      "phrase": "あの人は誰ですか？",
+      "phraseRomanized": "Ano hito wa dare desu ka?",
+      "literal": "That person [topic] who is?"
     },
     {
       "id": "what",
-      "levels": [
-        {
-          "front": "What",
-          "back": "何",
-          "romanized": "nani"
-        },
-        {
-          "front": "What do you want?",
-          "back": "何がほしいですか？",
-          "romanized": "Nani ga hoshii desu ka?",
-          "literal": "What [subj] want is?"
-        }
-      ]
+      "english": "What",
+      "word": "何",
+      "romanized": "nani",
+      "englishPhrase": "What do you want?",
+      "phrase": "何がほしいですか？",
+      "phraseRomanized": "Nani ga hoshii desu ka?",
+      "literal": "What [subj] want is?"
     },
     {
       "id": "when",
-      "levels": [
-        {
-          "front": "When",
-          "back": "いつ",
-          "romanized": "itsu"
-        },
-        {
-          "front": "When are you coming?",
-          "back": "いつ来ますか？",
-          "romanized": "Itsu kimasu ka?",
-          "literal": "When come?"
-        }
-      ]
+      "english": "When",
+      "word": "いつ",
+      "romanized": "itsu",
+      "englishPhrase": "When are you coming?",
+      "phrase": "いつ来ますか？",
+      "phraseRomanized": "Itsu kimasu ka?",
+      "literal": "When come?"
     },
     {
       "id": "where",
-      "levels": [
-        {
-          "front": "Where",
-          "back": "どこ",
-          "romanized": "doko"
-        },
-        {
-          "front": "Where is the restroom?",
-          "back": "お手洗いはどこですか？",
-          "romanized": "Otearai wa doko desu ka?",
-          "literal": "Restroom [topic] where is?"
-        }
-      ]
+      "english": "Where",
+      "word": "どこ",
+      "romanized": "doko",
+      "englishPhrase": "Where is the restroom?",
+      "phrase": "お手洗いはどこですか？",
+      "phraseRomanized": "Otearai wa doko desu ka?",
+      "literal": "Restroom [topic] where is?"
     },
     {
       "id": "why",
-      "levels": [
-        {
-          "front": "Why",
-          "back": "なぜ",
-          "romanized": "naze"
-        },
-        {
-          "front": "Why can't you come?",
-          "back": "どうして来られないんですか？",
-          "romanized": "Doushite korarenai n desu ka?",
-          "literal": "Why come-cannot is?"
-        }
-      ]
+      "english": "Why",
+      "word": "なぜ",
+      "romanized": "naze",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "どうして来られないんですか？",
+      "phraseRomanized": "Doushite korarenai n desu ka?",
+      "literal": "Why come-cannot is?"
     },
     {
       "id": "how",
-      "levels": [
-        {
-          "front": "How",
-          "back": "どうやって",
-          "romanized": "dōyatte"
-        },
-        {
-          "front": "How are you?",
-          "back": "お元気ですか？",
-          "romanized": "O-genki desu ka?",
-          "literal": "Honorable-health is?"
-        }
-      ]
+      "english": "How",
+      "word": "どうやって",
+      "romanized": "dōyatte",
+      "englishPhrase": "How are you?",
+      "phrase": "お元気ですか？",
+      "phraseRomanized": "O-genki desu ka?",
+      "literal": "Honorable-health is?"
     },
     {
       "id": "good_morning",
-      "levels": [
-        {
-          "front": "Good morning",
-          "back": "おはようございます",
-          "romanized": "ohayou gozaimasu",
-          "grammarNote": "おはようございます = formal good morning. おはよう = casual. こんにちは = hello/good afternoon. こんばんは = good evening. Time-based greetings matter in Japanese — using the wrong one sounds odd."
-        },
-        {
-          "front": "Good morning! Did you sleep well?",
-          "back": "おはようございます！よく眠れましたか？",
-          "romanized": "Ohayou gozaimasu! Yoku nemuremashita ka?",
-          "literal": "Good morning! Well slept?"
-        }
-      ]
+      "english": "Good morning",
+      "word": "おはようございます",
+      "romanized": "ohayou gozaimasu",
+      "grammarNote": "おはようございます = formal good morning. おはよう = casual. こんにちは = hello/good afternoon. こんばんは = good evening. Time-based greetings matter in Japanese — using the wrong one sounds odd.",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "おはようございます！よく眠れましたか？",
+      "phraseRomanized": "Ohayou gozaimasu! Yoku nemuremashita ka?",
+      "literal": "Good morning! Well slept?"
     },
     {
       "id": "to_look_for",
-      "levels": [
-        {
-          "front": "To look for",
-          "back": "探す",
-          "romanized": "sagasu"
-        },
-        {
-          "front": "I'm looking for the exit.",
-          "back": "出口を探しています。",
-          "romanized": "Deguchi wo sagashite imasu.",
-          "literal": "Exit [obj] searching am."
-        }
-      ]
+      "english": "To look for",
+      "word": "探す",
+      "romanized": "sagasu",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "出口を探しています。",
+      "phraseRomanized": "Deguchi wo sagashite imasu.",
+      "literal": "Exit [obj] searching am."
     },
     {
       "id": "excuse_me",
-      "levels": [
-        {
-          "front": "Excuse me",
-          "back": "すみません",
-          "romanized": "sumimasen",
-          "grammarNote": "すみません (sumimasen) covers 'excuse me' (getting attention), mild apology, and even 'thank you' for a favor. The full apology for serious mistakes is ごめんなさい (gomen nasai)."
-        },
-        {
-          "front": "Excuse me, where is the station?",
-          "back": "すみません、駅はどこですか？",
-          "romanized": "Sumimasen, eki wa doko desu ka?",
-          "literal": "Excuse me, station [topic] where is?"
-        }
-      ]
+      "english": "Excuse me",
+      "word": "すみません",
+      "romanized": "sumimasen",
+      "grammarNote": "すみません (sumimasen) covers 'excuse me' (getting attention), mild apology, and even 'thank you' for a favor. The full apology for serious mistakes is ごめんなさい (gomen nasai).",
+      "englishPhrase": "Excuse me, where is the station?",
+      "phrase": "すみません、駅はどこですか？",
+      "phraseRomanized": "Sumimasen, eki wa doko desu ka?",
+      "literal": "Excuse me, station [topic] where is?"
     },
     {
       "id": "to_be_able_to_can",
-      "levels": [
-        {
-          "front": "To be able to",
-          "back": "できる",
-          "romanized": "dekiru",
-          "grammarNote": "Two structures: verb potential form (食べられる = can eat) or noun + ができる (日本語ができる = I can speak Japanese). できる alone often means 'it's possible' or 'it's ready/done'."
-        },
-        {
-          "front": "Can you help me?",
-          "back": "手伝ってもらえますか？",
-          "romanized": "Tetsudatte moraemasu ka?",
-          "literal": "Help receive-can?"
-        }
-      ]
+      "english": "To be able to",
+      "word": "できる",
+      "romanized": "dekiru",
+      "grammarNote": "Two structures: verb potential form (食べられる = can eat) or noun + ができる (日本語ができる = I can speak Japanese). できる alone often means 'it's possible' or 'it's ready/done'.",
+      "englishPhrase": "Can you help me?",
+      "phrase": "手伝ってもらえますか？",
+      "phraseRomanized": "Tetsudatte moraemasu ka?",
+      "literal": "Help receive-can?"
     },
     {
       "id": "i_dont_know",
-      "levels": [
-        {
-          "front": "I don't know",
-          "back": "知りません",
-          "romanized": "shirimasen",
-          "grammarNote": "知りません = I don't know (a fact). わかりません = I don't understand / can't figure it out. Use わかりません when you've heard something but can't process it; 知りません when the information is simply unknown."
-        },
-        {
-          "front": "I don't know where it is.",
-          "back": "どこにあるか知りません。",
-          "romanized": "Doko ni aru ka shirimasen.",
-          "literal": "Where at exists whether not-know."
-        }
-      ]
+      "english": "I don't know",
+      "word": "知りません",
+      "romanized": "shirimasen",
+      "grammarNote": "知りません = I don't know (a fact). わかりません = I don't understand / can't figure it out. Use わかりません when you've heard something but can't process it; 知りません when the information is simply unknown.",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "どこにあるか知りません。",
+      "phraseRomanized": "Doko ni aru ka shirimasen.",
+      "literal": "Where at exists whether not-know."
     },
     {
       "id": "to_have",
-      "levels": [
-        {
-          "front": "To have",
-          "back": "ある",
-          "romanized": "aru",
-          "grammarNote": "ある = exists/have (inanimate things). いる = exists/have (living things). 水がある (there is water), 友達がいる (I have a friend). The choice is not interchangeable."
-        },
-        {
-          "front": "I'm hungry. Do you have water?",
-          "back": "お腹が空きました。水はありますか？",
-          "romanized": "Onaka ga sukimashita. Mizu wa arimasu ka?",
-          "literal": "Stomach [subj] emptied. Water [topic] exists?"
-        }
-      ]
+      "english": "To have",
+      "word": "ある",
+      "romanized": "aru",
+      "grammarNote": "ある = exists/have (inanimate things). いる = exists/have (living things). 水がある (there is water), 友達がいる (I have a friend). The choice is not interchangeable.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "お腹が空きました。水はありますか？",
+      "phraseRomanized": "Onaka ga sukimashita. Mizu wa arimasu ka?",
+      "literal": "Stomach [subj] emptied. Water [topic] exists?"
     },
     {
       "id": "to_do_make",
-      "levels": [
-        {
-          "front": "To do",
-          "back": "する",
-          "romanized": "suru"
-        },
-        {
-          "front": "What are you doing?",
-          "back": "何をしていますか？",
-          "romanized": "Nani wo shite imasu ka?",
-          "literal": "What [obj] doing are?"
-        }
-      ]
+      "english": "To do",
+      "word": "する",
+      "romanized": "suru",
+      "englishPhrase": "What are you doing?",
+      "phrase": "何をしていますか？",
+      "phraseRomanized": "Nani wo shite imasu ka?",
+      "literal": "What [obj] doing are?"
     },
     {
       "id": "to_eat",
-      "levels": [
-        {
-          "front": "To eat",
-          "back": "食べる",
-          "romanized": "taberu"
-        },
-        {
-          "front": "Where are we eating?",
-          "back": "どこで食べますか？",
-          "romanized": "Doko de tabemasu ka?",
-          "literal": "Where at eat?"
-        }
-      ]
+      "english": "To eat",
+      "word": "食べる",
+      "romanized": "taberu",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "どこで食べますか？",
+      "phraseRomanized": "Doko de tabemasu ka?",
+      "literal": "Where at eat?"
     },
     {
       "id": "to_like",
-      "levels": [
-        {
-          "front": "To like",
-          "back": "〜が好き",
-          "romanized": "~ ga suki",
-          "grammarNote": "好き (suki) is an adjective, not a verb. The thing liked takes が: コーヒーが好き (I like coffee). 大好き (daisuki) = love/really like. 好きじゃない = don't like."
-        },
-        {
-          "front": "I like coffee.",
-          "back": "コーヒーが好きです。",
-          "romanized": "Kōhī ga suki desu.",
-          "literal": "Coffee [subj] liked is."
-        }
-      ]
+      "english": "To like",
+      "word": "〜が好き",
+      "romanized": "~ ga suki",
+      "grammarNote": "好き (suki) is an adjective, not a verb. The thing liked takes が: コーヒーが好き (I like coffee). 大好き (daisuki) = love/really like. 好きじゃない = don't like.",
+      "englishPhrase": "I like coffee.",
+      "phrase": "コーヒーが好きです。",
+      "phraseRomanized": "Kōhī ga suki desu.",
+      "literal": "Coffee [subj] liked is."
     },
     {
       "id": "but",
-      "levels": [
-        {
-          "front": "But",
-          "back": "でも",
-          "romanized": "demo",
-          "grammarNote": "でも (demo) = 'but' at the start of a new sentence. が (ga) connects two clauses within a sentence: 行きたいですが、行けません. けど (kedo) is more casual. でも is the most beginner-friendly."
-        },
-        {
-          "front": "I want to go, but I can't.",
-          "back": "行きたいですが、行けません。",
-          "romanized": "Ikitai desu ga, ikemasen.",
-          "literal": "Go-want is but, go-cannot."
-        }
-      ]
+      "english": "But",
+      "word": "でも",
+      "romanized": "demo",
+      "grammarNote": "でも (demo) = 'but' at the start of a new sentence. が (ga) connects two clauses within a sentence: 行きたいですが、行けません. けど (kedo) is more casual. でも is the most beginner-friendly.",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "行きたいですが、行けません。",
+      "phraseRomanized": "Ikitai desu ga, ikemasen.",
+      "literal": "Go-want is but, go-cannot."
     },
     {
       "id": "and",
-      "levels": [
-        {
-          "front": "And",
-          "back": "そして",
-          "romanized": "soshite",
-          "grammarNote": "と (to) connects nouns in a complete list: パンと水 (bread and water). そして (soshite) connects sentences or sequential actions. For an open/partial list: や (ya): パンや水など."
-        },
-        {
-          "front": "Water and food.",
-          "back": "水と食べ物。",
-          "romanized": "Mizu to tabemono."
-        }
-      ]
+      "english": "And",
+      "word": "そして",
+      "romanized": "soshite",
+      "grammarNote": "と (to) connects nouns in a complete list: パンと水 (bread and water). そして (soshite) connects sentences or sequential actions. For an open/partial list: や (ya): パンや水など.",
+      "englishPhrase": "Water and food.",
+      "phrase": "水と食べ物。",
+      "phraseRomanized": "Mizu to tabemono."
     },
     {
       "id": "or",
-      "levels": [
-        {
-          "front": "Or",
-          "back": "または",
-          "romanized": "matawa"
-        },
-        {
-          "front": "Tea or coffee?",
-          "back": "お茶かコーヒー、どちらにしますか？",
-          "romanized": "Ocha ka kōhī, dochira ni shimasu ka?",
-          "literal": "Tea or coffee, which will you make?"
-        }
-      ]
+      "english": "Or",
+      "word": "または",
+      "romanized": "matawa",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "お茶かコーヒー、どちらにしますか？",
+      "phraseRomanized": "Ocha ka kōhī, dochira ni shimasu ka?",
+      "literal": "Tea or coffee, which will you make?"
     },
     {
       "id": "hungry",
-      "levels": [
-        {
-          "front": "Hungry",
-          "back": "お腹が空いた",
-          "romanized": "onaka ga suita",
-          "grammarNote": "お腹が空く (onaka ga suku) literally means 'the stomach empties'. The past tense marks the arrival of the state — common in Japanese for newly reached conditions: 空いた/空きました (have become hungry)."
-        },
-        {
-          "front": "I'm very hungry.",
-          "back": "お腹がとても空きました。",
-          "romanized": "Onaka ga totemo sukimashita.",
-          "literal": "Stomach [subj] very emptied."
-        }
-      ]
+      "english": "Hungry",
+      "word": "お腹が空いた",
+      "romanized": "onaka ga suita",
+      "grammarNote": "お腹が空く (onaka ga suku) literally means 'the stomach empties'. The past tense marks the arrival of the state — common in Japanese for newly reached conditions: 空いた/空きました (have become hungry).",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "お腹がとても空きました。",
+      "phraseRomanized": "Onaka ga totemo sukimashita.",
+      "literal": "Stomach [subj] very emptied."
     },
     {
       "id": "thirsty",
-      "levels": [
-        {
-          "front": "Thirsty",
-          "back": "喉が渇いた",
-          "romanized": "nodo ga kawaita"
-        },
-        {
-          "front": "I'm very thirsty.",
-          "back": "喉がとても渇きました。",
-          "romanized": "Nodo ga totemo kawakimashita.",
-          "literal": "Throat [subj] very dried."
-        }
-      ]
+      "english": "Thirsty",
+      "word": "喉が渇いた",
+      "romanized": "nodo ga kawaita",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "喉がとても渇きました。",
+      "phraseRomanized": "Nodo ga totemo kawakimashita.",
+      "literal": "Throat [subj] very dried."
     },
     {
       "id": "person",
-      "levels": [
-        {
-          "front": "Person",
-          "back": "人",
-          "romanized": "hito"
-        },
-        {
-          "front": "Who is that person?",
-          "back": "あの人は誰ですか？",
-          "romanized": "Ano hito wa dare desu ka?",
-          "literal": "That person [topic] who is?"
-        }
-      ]
+      "english": "Person",
+      "word": "人",
+      "romanized": "hito",
+      "englishPhrase": "Who is that person?",
+      "phrase": "あの人は誰ですか？",
+      "phraseRomanized": "Ano hito wa dare desu ka?",
+      "literal": "That person [topic] who is?"
     },
     {
       "id": "place",
-      "levels": [
-        {
-          "front": "Place",
-          "back": "場所",
-          "romanized": "basho"
-        },
-        {
-          "front": "Do you know a good place?",
-          "back": "いい場所を知っていますか？",
-          "romanized": "Ii basho wo shitte imasu ka?",
-          "literal": "Good place [obj] knowing are?"
-        }
-      ]
+      "english": "Place",
+      "word": "場所",
+      "romanized": "basho",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "いい場所を知っていますか？",
+      "phraseRomanized": "Ii basho wo shitte imasu ka?",
+      "literal": "Good place [obj] knowing are?"
     },
     {
       "id": "thing",
-      "levels": [
-        {
-          "front": "Thing",
-          "back": "物",
-          "romanized": "mono",
-          "grammarNote": "物 (mono) = a physical thing. こと (koto) = an abstract thing, fact, or situation. 好きなものは何？ (What things do you like?) vs 好きなことは何？ (What do you like doing?)"
-        },
-        {
-          "front": "What is that thing?",
-          "back": "それは何ですか？",
-          "romanized": "Sore wa nan desu ka?",
-          "literal": "That [topic] what is?"
-        }
-      ]
+      "english": "Thing",
+      "word": "物",
+      "romanized": "mono",
+      "grammarNote": "物 (mono) = a physical thing. こと (koto) = an abstract thing, fact, or situation. 好きなものは何？ (What things do you like?) vs 好きなことは何？ (What do you like doing?)",
+      "englishPhrase": "What is that thing?",
+      "phrase": "それは何ですか？",
+      "phraseRomanized": "Sore wa nan desu ka?",
+      "literal": "That [topic] what is?"
     },
     {
       "id": "here",
-      "levels": [
-        {
-          "front": "Here",
-          "back": "ここ",
-          "romanized": "koko"
-        },
-        {
-          "front": "Please come here.",
-          "back": "ここに来てください。",
-          "romanized": "Koko ni kite kudasai.",
-          "literal": "Here to please come."
-        }
-      ]
+      "english": "Here",
+      "word": "ここ",
+      "romanized": "koko",
+      "englishPhrase": "Please come here.",
+      "phrase": "ここに来てください。",
+      "phraseRomanized": "Koko ni kite kudasai.",
+      "literal": "Here to please come."
     },
     {
       "id": "there",
-      "levels": [
-        {
-          "front": "There",
-          "back": "そこ",
-          "romanized": "soko"
-        },
-        {
-          "front": "The restroom is over there.",
-          "back": "お手洗いはあそこです。",
-          "romanized": "Otearai wa asoko desu.",
-          "literal": "Restroom [topic] over-there is."
-        }
-      ]
+      "english": "There",
+      "word": "そこ",
+      "romanized": "soko",
+      "englishPhrase": "The restroom is over there.",
+      "phrase": "お手洗いはあそこです。",
+      "phraseRomanized": "Otearai wa asoko desu.",
+      "literal": "Restroom [topic] over-there is."
     },
     {
       "id": "very",
-      "levels": [
-        {
-          "front": "Very",
-          "back": "とても",
-          "romanized": "totemo"
-        },
-        {
-          "front": "It's very good.",
-          "back": "とてもいいです。",
-          "romanized": "Totemo ii desu.",
-          "literal": "Very good is."
-        }
-      ]
+      "english": "Very",
+      "word": "とても",
+      "romanized": "totemo",
+      "englishPhrase": "It's very good.",
+      "phrase": "とてもいいです。",
+      "phraseRomanized": "Totemo ii desu.",
+      "literal": "Very good is."
     },
     {
       "id": "goodbye",
-      "levels": [
-        {
-          "front": "Goodbye",
-          "back": "さようなら",
-          "romanized": "sayounara",
-          "grammarNote": "さようなら (sayounara) is formal and somewhat final. じゃあね/またね (jaa ne/mata ne) = casual 'bye/see you'. またあとで (mata atode) = see you later."
-        },
-        {
-          "front": "Goodbye! See you tomorrow.",
-          "back": "じゃあ、また明日！",
-          "romanized": "Jaa, mata ashita!",
-          "literal": "Well then, again tomorrow!"
-        }
-      ]
+      "english": "Goodbye",
+      "word": "さようなら",
+      "romanized": "sayounara",
+      "grammarNote": "さようなら (sayounara) is formal and somewhat final. じゃあね/またね (jaa ne/mata ne) = casual 'bye/see you'. またあとで (mata atode) = see you later.",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "じゃあ、また明日！",
+      "phraseRomanized": "Jaa, mata ashita!",
+      "literal": "Well then, again tomorrow!"
     },
     {
       "id": "water",
-      "levels": [
-        {
-          "front": "Water",
-          "back": "水",
-          "romanized": "mizu"
-        },
-        {
-          "front": "A glass of water, please.",
-          "back": "水を一杯ください。",
-          "romanized": "Mizu wo ippai kudasai.",
-          "literal": "Water [obj] one-cup please give."
-        }
-      ]
+      "english": "Water",
+      "word": "水",
+      "romanized": "mizu",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "水を一杯ください。",
+      "phraseRomanized": "Mizu wo ippai kudasai.",
+      "literal": "Water [obj] one-cup please give."
     },
     {
       "id": "food",
-      "levels": [
-        {
-          "front": "Food",
-          "back": "食べ物",
-          "romanized": "tabemono"
-        },
-        {
-          "front": "The food is delicious.",
-          "back": "食べ物がとても美味しいです。",
-          "romanized": "Tabemono ga totemo oishii desu.",
-          "literal": "Food [subj] very delicious is."
-        }
-      ]
+      "english": "Food",
+      "word": "食べ物",
+      "romanized": "tabemono",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "食べ物がとても美味しいです。",
+      "phraseRomanized": "Tabemono ga totemo oishii desu.",
+      "literal": "Food [subj] very delicious is."
     },
     {
       "id": "house_home",
-      "levels": [
-        {
-          "front": "House",
-          "back": "家",
-          "romanized": "ie",
-          "grammarNote": "家 has two readings: ie (the building) and uchi (warm, 'my place/home'). uchi also means 'inside' and one's own group. うちに帰る (go home) feels warmer than 家に帰る."
-        },
-        {
-          "front": "My house is nearby.",
-          "back": "私の家は近くにあります。",
-          "romanized": "Watashi no ie wa chikaku ni arimasu.",
-          "literal": "My house [topic] nearby at exists."
-        }
-      ]
+      "english": "House",
+      "word": "家",
+      "romanized": "ie",
+      "grammarNote": "家 has two readings: ie (the building) and uchi (warm, 'my place/home'). uchi also means 'inside' and one's own group. うちに帰る (go home) feels warmer than 家に帰る.",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "私の家は近くにあります。",
+      "phraseRomanized": "Watashi no ie wa chikaku ni arimasu.",
+      "literal": "My house [topic] nearby at exists."
     },
     {
       "id": "store_shop",
-      "levels": [
-        {
-          "front": "Store",
-          "back": "お店",
-          "romanized": "omise"
-        },
-        {
-          "front": "The store is closed.",
-          "back": "お店は閉まっています。",
-          "romanized": "Omise wa shimatte imasu.",
-          "literal": "Store [topic] closed is."
-        }
-      ]
+      "english": "Store",
+      "word": "お店",
+      "romanized": "omise",
+      "englishPhrase": "The store is closed.",
+      "phrase": "お店は閉まっています。",
+      "phraseRomanized": "Omise wa shimatte imasu.",
+      "literal": "Store [topic] closed is."
     },
     {
       "id": "cash_credit",
-      "levels": [
-        {
-          "front": "Cash",
-          "back": "現金",
-          "romanized": "genkin"
-        },
-        {
-          "front": "Cash or card?",
-          "back": "現金とカード、どちらがいいですか？",
-          "romanized": "Genkin to kādo, dochira ga ii desu ka?",
-          "literal": "Cash and card, which [subj] good is?"
-        }
-      ]
+      "english": "Cash",
+      "word": "現金",
+      "romanized": "genkin",
+      "englishPhrase": "Cash or card?",
+      "phrase": "現金とカード、どちらがいいですか？",
+      "phraseRomanized": "Genkin to kādo, dochira ga ii desu ka?",
+      "literal": "Cash and card, which [subj] good is?"
     },
     {
       "id": "help",
-      "levels": [
-        {
-          "front": "Help",
-          "back": "助け",
-          "romanized": "tasuke"
-        },
-        {
-          "front": "I need help.",
-          "back": "助けが必要です。",
-          "romanized": "Tasuke ga hitsuyou desu.",
-          "literal": "Help [subj] necessary is."
-        }
-      ]
+      "english": "Help",
+      "word": "助け",
+      "romanized": "tasuke",
+      "englishPhrase": "I need help.",
+      "phrase": "助けが必要です。",
+      "phraseRomanized": "Tasuke ga hitsuyou desu.",
+      "literal": "Help [subj] necessary is."
     },
     {
       "id": "bathroom",
-      "levels": [
-        {
-          "front": "Bathroom",
-          "back": "お手洗い",
-          "romanized": "otearai"
-        },
-        {
-          "front": "Where is the restroom?",
-          "back": "お手洗いはどこですか？",
-          "romanized": "Otearai wa doko desu ka?",
-          "literal": "Restroom [topic] where is?"
-        }
-      ]
+      "english": "Bathroom",
+      "word": "お手洗い",
+      "romanized": "otearai",
+      "englishPhrase": "Where is the restroom?",
+      "phrase": "お手洗いはどこですか？",
+      "phraseRomanized": "Otearai wa doko desu ka?",
+      "literal": "Restroom [topic] where is?"
     },
     {
       "id": "always",
-      "levels": [
-        {
-          "front": "Always",
-          "back": "いつも",
-          "romanized": "itsumo"
-        },
-        {
-          "front": "I always drink coffee in the morning.",
-          "back": "毎朝いつもコーヒーを飲みます。",
-          "romanized": "Maiasa itsumo kōhī wo nomimasu.",
-          "literal": "Every-morning always coffee [obj] drink."
-        }
-      ]
+      "english": "Always",
+      "word": "いつも",
+      "romanized": "itsumo",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "毎朝いつもコーヒーを飲みます。",
+      "phraseRomanized": "Maiasa itsumo kōhī wo nomimasu.",
+      "literal": "Every-morning always coffee [obj] drink."
     },
     {
       "id": "never",
-      "levels": [
-        {
-          "front": "Never",
-          "back": "決して〜ない",
-          "romanized": "kesshite ~ nai",
-          "grammarNote": "決して〜ない = never (strong). 絶対に〜ない = absolutely never. 一度も〜ない = not even once. All require a negative verb form at the end of the clause."
-        },
-        {
-          "front": "I'm never late.",
-          "back": "絶対に遅刻しません。",
-          "romanized": "Zettai ni chikoku shimasen.",
-          "literal": "Absolutely late-arriving not-do."
-        }
-      ]
+      "english": "Never",
+      "word": "決して〜ない",
+      "romanized": "kesshite ~ nai",
+      "grammarNote": "決して〜ない = never (strong). 絶対に〜ない = absolutely never. 一度も〜ない = not even once. All require a negative verb form at the end of the clause.",
+      "englishPhrase": "I'm never late.",
+      "phrase": "絶対に遅刻しません。",
+      "phraseRomanized": "Zettai ni chikoku shimasen.",
+      "literal": "Absolutely late-arriving not-do."
     },
     {
       "id": "to_go",
-      "levels": [
-        {
-          "front": "To go",
-          "back": "行く",
-          "romanized": "iku"
-        },
-        {
-          "front": "I'm going to the store.",
-          "back": "お店に行きます。",
-          "romanized": "Omise ni ikimasu.",
-          "literal": "Store to go."
-        }
-      ]
+      "english": "To go",
+      "word": "行く",
+      "romanized": "iku",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "お店に行きます。",
+      "phraseRomanized": "Omise ni ikimasu.",
+      "literal": "Store to go."
     },
     {
       "id": "to_come",
-      "levels": [
-        {
-          "front": "To come",
-          "back": "来る",
-          "romanized": "kuru"
-        },
-        {
-          "front": "Where did you come from?",
-          "back": "どこから来ましたか？",
-          "romanized": "Doko kara kimashita ka?",
-          "literal": "Where from came?"
-        }
-      ]
+      "english": "To come",
+      "word": "来る",
+      "romanized": "kuru",
+      "englishPhrase": "Where did you come from?",
+      "phrase": "どこから来ましたか？",
+      "phraseRomanized": "Doko kara kimashita ka?",
+      "literal": "Where from came?"
     },
     {
       "id": "to_understand",
-      "levels": [
-        {
-          "front": "To understand",
-          "back": "わかる",
-          "romanized": "wakaru"
-        },
-        {
-          "front": "I don't understand.",
-          "back": "わかりません。",
-          "romanized": "Wakarimasen.",
-          "literal": "Not understand."
-        }
-      ]
+      "english": "To understand",
+      "word": "わかる",
+      "romanized": "wakaru",
+      "englishPhrase": "I don't understand.",
+      "phrase": "わかりません。",
+      "phraseRomanized": "Wakarimasen.",
+      "literal": "Not understand."
     },
     {
       "id": "to_speak_talk",
-      "levels": [
-        {
-          "front": "To speak",
-          "back": "話す",
-          "romanized": "hanasu"
-        },
-        {
-          "front": "Do you speak Japanese?",
-          "back": "日本語を話しますか？",
-          "romanized": "Nihongo wo hanashimasu ka?",
-          "literal": "Japanese [obj] speak?"
-        }
-      ]
+      "english": "To speak",
+      "word": "話す",
+      "romanized": "hanasu",
+      "englishPhrase": "Do you speak Japanese?",
+      "phrase": "日本語を話しますか？",
+      "phraseRomanized": "Nihongo wo hanashimasu ka?",
+      "literal": "Japanese [obj] speak?"
     },
     {
       "id": "to_give",
-      "levels": [
-        {
-          "front": "To give",
-          "back": "あげる",
-          "romanized": "ageru",
-          "grammarNote": "あげる = give (from speaker to others, or between third parties). くれる = give to the speaker. もらう = receive. Direction determines the verb — メニューをください uses くれる because you are the receiver."
-        },
-        {
-          "front": "Please give me the menu.",
-          "back": "メニューをください。",
-          "romanized": "Menyū wo kudasai.",
-          "literal": "Menu [obj] please give."
-        }
-      ]
+      "english": "To give",
+      "word": "あげる",
+      "romanized": "ageru",
+      "grammarNote": "あげる = give (from speaker to others, or between third parties). くれる = give to the speaker. もらう = receive. Direction determines the verb — メニューをください uses くれる because you are the receiver.",
+      "englishPhrase": "Please give me the menu.",
+      "phrase": "メニューをください。",
+      "phraseRomanized": "Menyū wo kudasai.",
+      "literal": "Menu [obj] please give."
     },
     {
       "id": "to_see",
-      "levels": [
-        {
-          "front": "To see",
-          "back": "見る",
-          "romanized": "miru"
-        },
-        {
-          "front": "I can't see anything.",
-          "back": "何も見えません。",
-          "romanized": "Nani mo miemasen.",
-          "literal": "Nothing [also] cannot-see."
-        }
-      ]
+      "english": "To see",
+      "word": "見る",
+      "romanized": "miru",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "何も見えません。",
+      "phraseRomanized": "Nani mo miemasen.",
+      "literal": "Nothing [also] cannot-see."
     },
     {
       "id": "with",
-      "levels": [
-        {
-          "front": "With",
-          "back": "〜と一緒に",
-          "romanized": "~ to issho ni"
-        },
-        {
-          "front": "I came with my friend.",
-          "back": "友達と一緒に来ました。",
-          "romanized": "Tomodachi to issho ni kimashita.",
-          "literal": "Friend with together came."
-        }
-      ]
+      "english": "With",
+      "word": "〜と一緒に",
+      "romanized": "~ to issho ni",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "友達と一緒に来ました。",
+      "phraseRomanized": "Tomodachi to issho ni kimashita.",
+      "literal": "Friend with together came."
     },
     {
       "id": "without",
-      "levels": [
-        {
-          "front": "Without",
-          "back": "〜なしで",
-          "romanized": "~ nashi de"
-        },
-        {
-          "front": "Coffee without sugar.",
-          "back": "砂糖なしのコーヒー。",
-          "romanized": "Satou nashi no kōhī.",
-          "literal": "Sugar without's coffee."
-        }
-      ]
+      "english": "Without",
+      "word": "〜なしで",
+      "romanized": "~ nashi de",
+      "englishPhrase": "Coffee without sugar.",
+      "phrase": "砂糖なしのコーヒー。",
+      "phraseRomanized": "Satou nashi no kōhī.",
+      "literal": "Sugar without's coffee."
     },
     {
       "id": "for",
-      "levels": [
-        {
-          "front": "For",
-          "back": "〜のために",
-          "romanized": "~ no tame ni"
-        },
-        {
-          "front": "This is for you.",
-          "back": "これはあなたのためです。",
-          "romanized": "Kore wa anata no tame desu.",
-          "literal": "This [topic] your for-sake is."
-        }
-      ]
+      "english": "For",
+      "word": "〜のために",
+      "romanized": "~ no tame ni",
+      "englishPhrase": "This is for you.",
+      "phrase": "これはあなたのためです。",
+      "phraseRomanized": "Kore wa anata no tame desu.",
+      "literal": "This [topic] your for-sake is."
     },
     {
       "id": "in_on_at",
-      "levels": [
-        {
-          "front": "In",
-          "back": "〜に",
-          "romanized": "~ ni",
-          "grammarNote": "に (ni) = location of existence or destination: 駅にいる (at the station), 東京に行く (go to Tokyo). で (de) = location where an action happens: カフェで食べる (eat at the café). に for 'where something is', で for 'where you act'."
-        },
-        {
-          "front": "The book is on the table.",
-          "back": "本はテーブルの上にあります。",
-          "romanized": "Hon wa tēburu no ue ni arimasu.",
-          "literal": "Book [topic] table's top at exists."
-        }
-      ]
+      "english": "In",
+      "word": "〜に",
+      "romanized": "~ ni",
+      "grammarNote": "に (ni) = location of existence or destination: 駅にいる (at the station), 東京に行く (go to Tokyo). で (de) = location where an action happens: カフェで食べる (eat at the café). に for 'where something is', で for 'where you act'.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "本はテーブルの上にあります。",
+      "phraseRomanized": "Hon wa tēburu no ue ni arimasu.",
+      "literal": "Book [topic] table's top at exists."
     },
     {
       "id": "from",
-      "levels": [
-        {
-          "front": "From",
-          "back": "〜から",
-          "romanized": "~ kara"
-        },
-        {
-          "front": "Where are you from?",
-          "back": "どこから来ましたか？",
-          "romanized": "Doko kara kimashita ka?",
-          "literal": "Where from came?"
-        }
-      ]
+      "english": "From",
+      "word": "〜から",
+      "romanized": "~ kara",
+      "englishPhrase": "Where are you from?",
+      "phrase": "どこから来ましたか？",
+      "phraseRomanized": "Doko kara kimashita ka?",
+      "literal": "Where from came?"
     },
     {
       "id": "good",
-      "levels": [
-        {
-          "front": "Good",
-          "back": "いい",
-          "romanized": "ii"
-        },
-        {
-          "front": "That's a good idea.",
-          "back": "いいアイデアですね。",
-          "romanized": "Ii aidea desu ne.",
-          "literal": "Good idea is, right?"
-        }
-      ]
+      "english": "Good",
+      "word": "いい",
+      "romanized": "ii",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "いいアイデアですね。",
+      "phraseRomanized": "Ii aidea desu ne.",
+      "literal": "Good idea is, right?"
     },
     {
       "id": "bad",
-      "levels": [
-        {
-          "front": "Bad",
-          "back": "悪い",
-          "romanized": "warui"
-        },
-        {
-          "front": "That's bad.",
-          "back": "それは悪いですね。",
-          "romanized": "Sore wa warui desu ne.",
-          "literal": "That [topic] bad is, right?"
-        }
-      ]
+      "english": "Bad",
+      "word": "悪い",
+      "romanized": "warui",
+      "englishPhrase": "That's bad.",
+      "phrase": "それは悪いですね。",
+      "phraseRomanized": "Sore wa warui desu ne.",
+      "literal": "That [topic] bad is, right?"
     },
     {
       "id": "big",
-      "levels": [
-        {
-          "front": "Big",
-          "back": "大きい",
-          "romanized": "ookii"
-        },
-        {
-          "front": "A large coffee, please.",
-          "back": "大きいサイズのコーヒーをください。",
-          "romanized": "Ookii saizu no kōhī wo kudasai.",
-          "literal": "Large size's coffee [obj] please give."
-        }
-      ]
+      "english": "Big",
+      "word": "大きい",
+      "romanized": "ookii",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "大きいサイズのコーヒーをください。",
+      "phraseRomanized": "Ookii saizu no kōhī wo kudasai.",
+      "literal": "Large size's coffee [obj] please give."
     },
     {
       "id": "small",
-      "levels": [
-        {
-          "front": "Small",
-          "back": "小さい",
-          "romanized": "chiisai"
-        },
-        {
-          "front": "A small table, please.",
-          "back": "小さいテーブルをお願いします。",
-          "romanized": "Chiisai tēburu wo onegaishimasu.",
-          "literal": "Small table [obj] please."
-        }
-      ]
+      "english": "Small",
+      "word": "小さい",
+      "romanized": "chiisai",
+      "englishPhrase": "A small table, please.",
+      "phrase": "小さいテーブルをお願いします。",
+      "phraseRomanized": "Chiisai tēburu wo onegaishimasu.",
+      "literal": "Small table [obj] please."
     },
     {
       "id": "a_lot_much",
-      "levels": [
-        {
-          "front": "A lot",
-          "back": "たくさん",
-          "romanized": "takusan"
-        },
-        {
-          "front": "I have a lot of work.",
-          "back": "仕事がたくさんあります。",
-          "romanized": "Shigoto ga takusan arimasu.",
-          "literal": "Work [subj] a-lot exists."
-        }
-      ]
+      "english": "A lot",
+      "word": "たくさん",
+      "romanized": "takusan",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "仕事がたくさんあります。",
+      "phraseRomanized": "Shigoto ga takusan arimasu.",
+      "literal": "Work [subj] a-lot exists."
     },
     {
       "id": "a_little",
-      "levels": [
-        {
-          "front": "A little",
-          "back": "少し",
-          "romanized": "sukoshi"
-        },
-        {
-          "front": "A little water, please.",
-          "back": "水を少しください。",
-          "romanized": "Mizu wo sukoshi kudasai.",
-          "literal": "Water [obj] a-little please give."
-        }
-      ]
+      "english": "A little",
+      "word": "少し",
+      "romanized": "sukoshi",
+      "englishPhrase": "A little water, please.",
+      "phrase": "水を少しください。",
+      "phraseRomanized": "Mizu wo sukoshi kudasai.",
+      "literal": "Water [obj] a-little please give."
     },
     {
       "id": "how_do_you_say",
-      "levels": [
-        {
-          "front": "How do you say ___?",
-          "back": "___は何と言いますか？",
-          "romanized": "~ wa nan to iimasu ka?"
-        },
-        {
-          "front": "How do you say 'thank you' in Japanese?",
-          "back": "「ありがとう」は日本語で何と言いますか？",
-          "romanized": "\"Arigatou\" wa nihongo de nan to iimasu ka?",
-          "literal": "'Arigatou' [topic] Japanese in what-as say?"
-        }
-      ]
+      "english": "How do you say ___?",
+      "word": "___は何と言いますか？",
+      "romanized": "~ wa nan to iimasu ka?",
+      "englishPhrase": "How do you say 'thank you' in Japanese?",
+      "phrase": "「ありがとう」は日本語で何と言いますか？",
+      "phraseRomanized": "\"Arigatou\" wa nihongo de nan to iimasu ka?",
+      "literal": "'Arigatou' [topic] Japanese in what-as say?"
     },
     {
       "id": "can_you_help_me",
-      "levels": [
-        {
-          "front": "Can you help me?",
-          "back": "助けてもらえますか？",
-          "romanized": "Tasukete moraemasu ka?",
-          "literal": "Help receive-can?"
-        }
-      ]
+      "english": "Can you help me?",
+      "word": "助けてもらえますか？",
+      "romanized": "Tasukete moraemasu ka?"
     },
     {
       "id": "how_much_does_it_cost",
-      "levels": [
-        {
-          "front": "How much does it cost?",
-          "back": "いくらですか？",
-          "romanized": "Ikura desu ka?",
-          "literal": "How-much is?"
-        }
-      ]
+      "english": "How much does it cost?",
+      "word": "いくらですか？",
+      "romanized": "Ikura desu ka?"
     },
     {
       "id": "im_sorry",
-      "levels": [
-        {
-          "front": "I'm sorry",
-          "back": "ごめんなさい",
-          "romanized": "gomen nasai",
-          "grammarNote": "ごめんなさい = genuine apology. すみません = excuse me / mild apology / thank you for a favor. 申し訳ありません (moushiwake arimasen) = very formal apology. Use ごめんなさい with people you know; すみません with strangers."
-        },
-        {
-          "front": "I'm very sorry.",
-          "back": "本当にごめんなさい。",
-          "romanized": "Hontou ni gomen nasai.",
-          "literal": "Truly sorry."
-        }
-      ]
+      "english": "I'm sorry",
+      "word": "ごめんなさい",
+      "romanized": "gomen nasai",
+      "grammarNote": "ごめんなさい = genuine apology. すみません = excuse me / mild apology / thank you for a favor. 申し訳ありません (moushiwake arimasen) = very formal apology. Use ごめんなさい with people you know; すみません with strangers.",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "本当にごめんなさい。",
+      "phraseRomanized": "Hontou ni gomen nasai.",
+      "literal": "Truly sorry."
     },
     {
       "id": "no_problem",
-      "levels": [
-        {
-          "front": "No problem",
-          "back": "大丈夫です",
-          "romanized": "daijoubu desu"
-        },
-        {
-          "front": "No problem, don't worry.",
-          "back": "大丈夫です。心配しないでください。",
-          "romanized": "Daijoubu desu. Shinpai shinaide kudasai.",
-          "literal": "Fine is. Worry not-do please."
-        }
-      ]
+      "english": "No problem",
+      "word": "大丈夫です",
+      "romanized": "daijoubu desu",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "大丈夫です。心配しないでください。",
+      "phraseRomanized": "Daijoubu desu. Shinpai shinaide kudasai.",
+      "literal": "Fine is. Worry not-do please."
     }
   ]
 }

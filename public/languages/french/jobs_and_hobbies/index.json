@@ -19,1007 +19,545 @@
   "cards": [
     {
       "id": "doctor",
-      "levels": [
-        {
-          "front": "Doctor",
-          "back": "Le médecin",
-          "grammarNote": "In French, omit the article with professions after être: 'Je suis médecin' (not 'un médecin') — unless the noun is modified: 'Je suis un bon médecin'. This differs from English but is standard for all professions: 'Elle est avocate', 'Il est ingénieur'."
-        },
-        {
-          "front": "He is a doctor.",
-          "back": "Il est médecin."
-        }
-      ]
+      "english": "Doctor",
+      "word": "Le médecin",
+      "grammarNote": "In French, omit the article with professions after être: 'Je suis médecin' (not 'un médecin') — unless the noun is modified: 'Je suis un bon médecin'. This differs from English but is standard for all professions: 'Elle est avocate', 'Il est ingénieur'.",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "Il est médecin."
     },
     {
       "id": "nurse",
-      "levels": [
-        {
-          "front": "Nurse",
-          "back": "L'infirmier"
-        },
-        {
-          "front": "She is a nurse.",
-          "back": "Elle est infirmière."
-        }
-      ]
+      "english": "Nurse",
+      "word": "L'infirmier",
+      "englishPhrase": "She is a nurse.",
+      "phrase": "Elle est infirmière."
     },
     {
       "id": "engineer",
-      "levels": [
-        {
-          "front": "Engineer",
-          "back": "L'ingénieur (masc.)"
-        },
-        {
-          "front": "My brother is an engineer.",
-          "back": "Mon frère est ingénieur."
-        }
-      ]
+      "english": "Engineer",
+      "word": "L'ingénieur (masc.)",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "Mon frère est ingénieur."
     },
     {
       "id": "programmer",
-      "levels": [
-        {
-          "front": "Programmer",
-          "back": "Le programmeur"
-        },
-        {
-          "front": "I work as a programmer.",
-          "back": "Je travaille comme développeur."
-        }
-      ]
+      "english": "Programmer",
+      "word": "Le programmeur",
+      "englishPhrase": "I work as a programmer.",
+      "phrase": "Je travaille comme développeur."
     },
     {
       "id": "cook",
-      "levels": [
-        {
-          "front": "Cook",
-          "back": "Le cuisinier"
-        },
-        {
-          "front": "The cook works in the kitchen.",
-          "back": "Le cuisinier travaille en cuisine."
-        }
-      ]
+      "english": "Cook",
+      "word": "Le cuisinier",
+      "englishPhrase": "The cook works in the kitchen.",
+      "phrase": "Le cuisinier travaille en cuisine."
     },
     {
       "id": "waiter_waitress",
-      "levels": [
-        {
-          "front": "Waiter (Waitress)",
-          "back": "Le serveur (La serveuse)"
-        },
-        {
-          "front": "The waiter brought the menu.",
-          "back": "Le serveur a apporté la carte."
-        }
-      ]
+      "english": "Waiter (Waitress)",
+      "word": "Le serveur (La serveuse)",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "Le serveur a apporté la carte."
     },
     {
       "id": "manager",
-      "levels": [
-        {
-          "front": "Manager",
-          "back": "Le directeur"
-        },
-        {
-          "front": "She is a manager.",
-          "back": "Elle est directrice."
-        }
-      ]
+      "english": "Manager",
+      "word": "Le directeur",
+      "englishPhrase": "She is a manager.",
+      "phrase": "Elle est directrice."
     },
     {
       "id": "student",
-      "levels": [
-        {
-          "front": "Student",
-          "back": "L'étudiant"
-        },
-        {
-          "front": "I am a student.",
-          "back": "Je suis étudiant(e)."
-        }
-      ]
+      "english": "Student",
+      "word": "L'étudiant",
+      "englishPhrase": "I am a student.",
+      "phrase": "Je suis étudiant(e)."
     },
     {
       "id": "architect",
-      "levels": [
-        {
-          "front": "Architect",
-          "back": "L'architecte (masc.)"
-        },
-        {
-          "front": "He is an architect.",
-          "back": "Il est architecte."
-        }
-      ]
+      "english": "Architect",
+      "word": "L'architecte (masc.)",
+      "englishPhrase": "He is an architect.",
+      "phrase": "Il est architecte."
     },
     {
       "id": "lawyer",
-      "levels": [
-        {
-          "front": "Lawyer",
-          "back": "L'avocat"
-        },
-        {
-          "front": "My sister is a lawyer.",
-          "back": "Ma sœur est avocate."
-        }
-      ]
+      "english": "Lawyer",
+      "word": "L'avocat",
+      "englishPhrase": "My sister is a lawyer.",
+      "phrase": "Ma sœur est avocate."
     },
     {
       "id": "retired_person",
-      "levels": [
-        {
-          "front": "Retired Person",
-          "back": "Le retraité"
-        },
-        {
-          "front": "My father is retired.",
-          "back": "Mon père est à la retraite."
-        }
-      ]
+      "english": "Retired Person",
+      "word": "Le retraité",
+      "englishPhrase": "My father is retired.",
+      "phrase": "Mon père est à la retraite."
     },
     {
       "id": "reading",
-      "levels": [
-        {
-          "front": "Reading",
-          "back": "Lire"
-        },
-        {
-          "front": "I like reading.",
-          "back": "J'aime lire."
-        }
-      ]
+      "english": "Reading",
+      "word": "Lire",
+      "englishPhrase": "I like reading.",
+      "phrase": "J'aime lire."
     },
     {
       "id": "writing",
-      "levels": [
-        {
-          "front": "Writing",
-          "back": "Écrire"
-        },
-        {
-          "front": "She likes writing stories.",
-          "back": "Elle aime écrire des histoires."
-        }
-      ]
+      "english": "Writing",
+      "word": "Écrire",
+      "englishPhrase": "She likes writing stories.",
+      "phrase": "Elle aime écrire des histoires."
     },
     {
       "id": "painting",
-      "levels": [
-        {
-          "front": "Painting",
-          "back": "Peindre"
-        },
-        {
-          "front": "He loves painting.",
-          "back": "Il adore peindre."
-        }
-      ]
+      "english": "Painting",
+      "word": "Peindre",
+      "englishPhrase": "He loves painting.",
+      "phrase": "Il adore peindre."
     },
     {
       "id": "drawing",
-      "levels": [
-        {
-          "front": "Drawing",
-          "back": "Dessiner"
-        },
-        {
-          "front": "I like drawing.",
-          "back": "J'aime dessiner."
-        }
-      ]
+      "english": "Drawing",
+      "word": "Dessiner",
+      "englishPhrase": "I like drawing.",
+      "phrase": "J'aime dessiner."
     },
     {
       "id": "photography",
-      "levels": [
-        {
-          "front": "Photography",
-          "back": "La photographie"
-        },
-        {
-          "front": "Photography is my hobby.",
-          "back": "La photographie est mon hobby."
-        }
-      ]
+      "english": "Photography",
+      "word": "La photographie",
+      "englishPhrase": "Photography is my hobby.",
+      "phrase": "La photographie est mon hobby."
     },
     {
       "id": "music",
-      "levels": [
-        {
-          "front": "Music",
-          "back": "La musique"
-        },
-        {
-          "front": "I listen to music every day.",
-          "back": "J'écoute de la musique tous les jours."
-        }
-      ]
+      "english": "Music",
+      "word": "La musique",
+      "englishPhrase": "I listen to music every day.",
+      "phrase": "J'écoute de la musique tous les jours."
     },
     {
       "id": "singing",
-      "levels": [
-        {
-          "front": "Singing",
-          "back": "Chanter"
-        },
-        {
-          "front": "She loves singing.",
-          "back": "Elle adore chanter."
-        }
-      ]
+      "english": "Singing",
+      "word": "Chanter",
+      "englishPhrase": "She loves singing.",
+      "phrase": "Elle adore chanter."
     },
     {
       "id": "playing_an_instrument_e_g_guitar",
-      "levels": [
-        {
-          "front": "Playing an instrument (e.g., Guitar)",
-          "back": "Jouer d'un instrument (ex., Guitare)",
-          "grammarNote": "Jouer de = to play an instrument: jouer du piano, jouer de la guitare, jouer du violon. Jouer à = to play a sport or game: jouer au foot, jouer aux échecs. The difference is de vs à."
-        },
-        {
-          "front": "I play the guitar.",
-          "back": "Je joue de la guitare."
-        }
-      ]
+      "english": "Playing an instrument (e.g., Guitar)",
+      "word": "Jouer d'un instrument (ex., Guitare)",
+      "grammarNote": "Jouer de = to play an instrument: jouer du piano, jouer de la guitare, jouer du violon. Jouer à = to play a sport or game: jouer au foot, jouer aux échecs. The difference is de vs à.",
+      "englishPhrase": "I play the guitar.",
+      "phrase": "Je joue de la guitare."
     },
     {
       "id": "dancing",
-      "levels": [
-        {
-          "front": "Dancing",
-          "back": "Danser"
-        },
-        {
-          "front": "We love dancing.",
-          "back": "On adore danser."
-        }
-      ]
+      "english": "Dancing",
+      "word": "Danser",
+      "englishPhrase": "We love dancing.",
+      "phrase": "On adore danser."
     },
     {
       "id": "cooking",
-      "levels": [
-        {
-          "front": "Cooking",
-          "back": "Cuisiner"
-        },
-        {
-          "front": "I enjoy cooking.",
-          "back": "J'aime cuisiner."
-        }
-      ]
+      "english": "Cooking",
+      "word": "Cuisiner",
+      "englishPhrase": "I enjoy cooking.",
+      "phrase": "J'aime cuisiner."
     },
     {
       "id": "gardening",
-      "levels": [
-        {
-          "front": "Gardening",
-          "back": "Le jardinage"
-        },
-        {
-          "front": "Gardening is relaxing.",
-          "back": "Le jardinage est relaxant."
-        }
-      ]
+      "english": "Gardening",
+      "word": "Le jardinage",
+      "englishPhrase": "Gardening is relaxing.",
+      "phrase": "Le jardinage est relaxant."
     },
     {
       "id": "hiking",
-      "levels": [
-        {
-          "front": "Hiking",
-          "back": "La randonnée"
-        },
-        {
-          "front": "I like hiking in the mountains.",
-          "back": "J'aime faire de la randonnée en montagne."
-        }
-      ]
+      "english": "Hiking",
+      "word": "La randonnée",
+      "englishPhrase": "I like hiking in the mountains.",
+      "phrase": "J'aime faire de la randonnée en montagne."
     },
     {
       "id": "running",
-      "levels": [
-        {
-          "front": "Running",
-          "back": "Courir"
-        },
-        {
-          "front": "I run every morning.",
-          "back": "Je cours tous les matins."
-        }
-      ]
+      "english": "Running",
+      "word": "Courir",
+      "englishPhrase": "I run every morning.",
+      "phrase": "Je cours tous les matins."
     },
     {
       "id": "jogging",
-      "levels": [
-        {
-          "front": "Jogging",
-          "back": "Faire du jogging"
-        },
-        {
-          "front": "He jogs in the park.",
-          "back": "Il fait du jogging dans le parc."
-        }
-      ]
+      "english": "Jogging",
+      "word": "Faire du jogging",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "Il fait du jogging dans le parc."
     },
     {
       "id": "biking",
-      "levels": [
-        {
-          "front": "Biking",
-          "back": "Faire du vélo"
-        },
-        {
-          "front": "I go biking on weekends.",
-          "back": "Je fais du vélo le week-end."
-        }
-      ]
+      "english": "Biking",
+      "word": "Faire du vélo",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "Je fais du vélo le week-end."
     },
     {
       "id": "swimming",
-      "levels": [
-        {
-          "front": "Swimming",
-          "back": "Nager"
-        },
-        {
-          "front": "I like swimming.",
-          "back": "J'aime nager."
-        }
-      ]
+      "english": "Swimming",
+      "word": "Nager",
+      "englishPhrase": "I like swimming.",
+      "phrase": "J'aime nager."
     },
     {
       "id": "yoga",
-      "levels": [
-        {
-          "front": "Yoga",
-          "back": "Le yoga"
-        },
-        {
-          "front": "She does yoga every morning.",
-          "back": "Elle fait du yoga tous les matins."
-        }
-      ]
+      "english": "Yoga",
+      "word": "Le yoga",
+      "englishPhrase": "She does yoga every morning.",
+      "phrase": "Elle fait du yoga tous les matins."
     },
     {
       "id": "exercise",
-      "levels": [
-        {
-          "front": "Exercise",
-          "back": "L'exercice (masc.)"
-        },
-        {
-          "front": "I go to the gym for exercise.",
-          "back": "Je vais à la salle de sport pour faire de l'exercice."
-        }
-      ]
+      "english": "Exercise",
+      "word": "L'exercice (masc.)",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "Je vais à la salle de sport pour faire de l'exercice."
     },
     {
       "id": "traveling",
-      "levels": [
-        {
-          "front": "Traveling",
-          "back": "Voyager"
-        },
-        {
-          "front": "I love traveling.",
-          "back": "J'adore voyager."
-        }
-      ]
+      "english": "Traveling",
+      "word": "Voyager",
+      "englishPhrase": "I love traveling.",
+      "phrase": "J'adore voyager."
     },
     {
       "id": "camping",
-      "levels": [
-        {
-          "front": "Camping",
-          "back": "Faire du camping"
-        },
-        {
-          "front": "We go camping in the summer.",
-          "back": "On fait du camping en été."
-        }
-      ]
+      "english": "Camping",
+      "word": "Faire du camping",
+      "englishPhrase": "We go camping in the summer.",
+      "phrase": "On fait du camping en été."
     },
     {
       "id": "gaming_video_games",
-      "levels": [
-        {
-          "front": "Gaming (Video games)",
-          "back": "Jouer aux jeux vidéo"
-        },
-        {
-          "front": "He plays video games at night.",
-          "back": "Il joue aux jeux vidéo le soir."
-        }
-      ]
+      "english": "Gaming (Video games)",
+      "word": "Jouer aux jeux vidéo",
+      "englishPhrase": "He plays video games at night.",
+      "phrase": "Il joue aux jeux vidéo le soir."
     },
     {
       "id": "watching_tv",
-      "levels": [
-        {
-          "front": "Watching TV",
-          "back": "Regarder la télé"
-        },
-        {
-          "front": "I like watching movies.",
-          "back": "J'aime regarder des films."
-        }
-      ]
+      "english": "Watching TV",
+      "word": "Regarder la télé",
+      "englishPhrase": "I like watching movies.",
+      "phrase": "J'aime regarder des films."
     },
     {
       "id": "listening_to_music",
-      "levels": [
-        {
-          "front": "Listening to music",
-          "back": "Écouter de la musique"
-        },
-        {
-          "front": "She likes listening to music.",
-          "back": "Elle aime écouter de la musique."
-        }
-      ]
+      "english": "Listening to music",
+      "word": "Écouter de la musique",
+      "englishPhrase": "She likes listening to music.",
+      "phrase": "Elle aime écouter de la musique."
     },
     {
       "id": "crafts",
-      "levels": [
-        {
-          "front": "Crafts",
-          "back": "Les travaux manuels"
-        },
-        {
-          "front": "The children are making crafts.",
-          "back": "Les enfants font des travaux manuels."
-        }
-      ]
+      "english": "Crafts",
+      "word": "Les travaux manuels",
+      "englishPhrase": "The children are making crafts.",
+      "phrase": "Les enfants font des travaux manuels."
     },
     {
       "id": "chess",
-      "levels": [
-        {
-          "front": "Chess",
-          "back": "Les échecs (masc. pl.)"
-        },
-        {
-          "front": "Do you play chess?",
-          "back": "Tu joues aux échecs ?"
-        }
-      ]
+      "english": "Chess",
+      "word": "Les échecs (masc. pl.)",
+      "englishPhrase": "Do you play chess?",
+      "phrase": "Tu joues aux échecs ?"
     },
     {
       "id": "board_games",
-      "levels": [
-        {
-          "front": "Board games",
-          "back": "Les jeux de société"
-        },
-        {
-          "front": "We play board games on weekends.",
-          "back": "On joue aux jeux de société le week-end."
-        }
-      ]
+      "english": "Board games",
+      "word": "Les jeux de société",
+      "englishPhrase": "We play board games on weekends.",
+      "phrase": "On joue aux jeux de société le week-end."
     },
     {
       "id": "to_work_in_for_as",
-      "levels": [
-        {
-          "front": "To work (in)",
-          "back": "Travailler (dans)"
-        },
-        {
-          "front": "I work in a hospital.",
-          "back": "Je travaille dans un hôpital."
-        }
-      ]
+      "english": "To work (in)",
+      "word": "Travailler (dans)",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "Je travaille dans un hôpital."
     },
     {
       "id": "to_earn_a_salary",
-      "levels": [
-        {
-          "front": "To earn (a salary)",
-          "back": "Gagner (un salaire)"
-        },
-        {
-          "front": "He earns a good salary.",
-          "back": "Il gagne un bon salaire."
-        }
-      ]
+      "english": "To earn (a salary)",
+      "word": "Gagner (un salaire)",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "Il gagne un bon salaire."
     },
     {
       "id": "to_retire",
-      "levels": [
-        {
-          "front": "To retire",
-          "back": "Prendre sa retraite"
-        },
-        {
-          "front": "She retired last year.",
-          "back": "Elle a pris sa retraite l'année dernière."
-        }
-      ]
+      "english": "To retire",
+      "word": "Prendre sa retraite",
+      "englishPhrase": "She retired last year.",
+      "phrase": "Elle a pris sa retraite l'année dernière."
     },
     {
       "id": "to_have_a_job",
-      "levels": [
-        {
-          "front": "To have a job",
-          "back": "Avoir un travail"
-        },
-        {
-          "front": "I have a good job.",
-          "back": "J'ai un bon travail."
-        }
-      ]
+      "english": "To have a job",
+      "word": "Avoir un travail",
+      "englishPhrase": "I have a good job.",
+      "phrase": "J'ai un bon travail."
     },
     {
       "id": "to_be_unemployed",
-      "levels": [
-        {
-          "front": "To be unemployed",
-          "back": "Être au chômage"
-        },
-        {
-          "front": "He is currently unemployed.",
-          "back": "Il est au chômage en ce moment."
-        }
-      ]
+      "english": "To be unemployed",
+      "word": "Être au chômage",
+      "englishPhrase": "He is currently unemployed.",
+      "phrase": "Il est au chômage en ce moment."
     },
     {
       "id": "to_study",
-      "levels": [
-        {
-          "front": "To study",
-          "back": "Étudier"
-        },
-        {
-          "front": "I study every day.",
-          "back": "J'étudie tous les jours."
-        }
-      ]
+      "english": "To study",
+      "word": "Étudier",
+      "englishPhrase": "I study every day.",
+      "phrase": "J'étudie tous les jours."
     },
     {
       "id": "to_learn",
-      "levels": [
-        {
-          "front": "To learn",
-          "back": "Apprendre"
-        },
-        {
-          "front": "I'm learning French.",
-          "back": "J'apprends le français."
-        }
-      ]
+      "english": "To learn",
+      "word": "Apprendre",
+      "englishPhrase": "I'm learning French.",
+      "phrase": "J'apprends le français."
     },
     {
       "id": "to_practice",
-      "levels": [
-        {
-          "front": "To practice",
-          "back": "Pratiquer"
-        },
-        {
-          "front": "I practice every day.",
-          "back": "Je pratique tous les jours."
-        }
-      ]
+      "english": "To practice",
+      "word": "Pratiquer",
+      "englishPhrase": "I practice every day.",
+      "phrase": "Je pratique tous les jours."
     },
     {
       "id": "to_teach",
-      "levels": [
-        {
-          "front": "To teach",
-          "back": "Enseigner"
-        },
-        {
-          "front": "She teaches French.",
-          "back": "Elle enseigne le français."
-        }
-      ]
+      "english": "To teach",
+      "word": "Enseigner",
+      "englishPhrase": "She teaches French.",
+      "phrase": "Elle enseigne le français."
     },
     {
       "id": "to_build",
-      "levels": [
-        {
-          "front": "To build",
-          "back": "Construire"
-        },
-        {
-          "front": "They are building a new school.",
-          "back": "Ils construisent une nouvelle école."
-        }
-      ]
+      "english": "To build",
+      "word": "Construire",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "Ils construisent une nouvelle école."
     },
     {
       "id": "to_fix",
-      "levels": [
-        {
-          "front": "To fix",
-          "back": "Réparer"
-        },
-        {
-          "front": "Can you fix this?",
-          "back": "Tu peux réparer ça ?"
-        }
-      ]
+      "english": "To fix",
+      "word": "Réparer",
+      "englishPhrase": "Can you fix this?",
+      "phrase": "Tu peux réparer ça ?"
     },
     {
       "id": "to_make",
-      "levels": [
-        {
-          "front": "To make",
-          "back": "Faire"
-        },
-        {
-          "front": "I make coffee every morning.",
-          "back": "Je fais du café tous les matins."
-        }
-      ]
+      "english": "To make",
+      "word": "Faire",
+      "englishPhrase": "I make coffee every morning.",
+      "phrase": "Je fais du café tous les matins."
     },
     {
       "id": "to_design",
-      "levels": [
-        {
-          "front": "To design",
-          "back": "Concevoir"
-        },
-        {
-          "front": "He designs websites.",
-          "back": "Il conçoit des sites web."
-        }
-      ]
+      "english": "To design",
+      "word": "Concevoir",
+      "englishPhrase": "He designs websites.",
+      "phrase": "Il conçoit des sites web."
     },
     {
       "id": "to_sell",
-      "levels": [
-        {
-          "front": "To sell",
-          "back": "Vendre"
-        },
-        {
-          "front": "He sells cars.",
-          "back": "Il vend des voitures."
-        }
-      ]
+      "english": "To sell",
+      "word": "Vendre",
+      "englishPhrase": "He sells cars.",
+      "phrase": "Il vend des voitures."
     },
     {
       "id": "to_buy",
-      "levels": [
-        {
-          "front": "To buy",
-          "back": "Acheter"
-        },
-        {
-          "front": "I need to buy a new computer.",
-          "back": "J'ai besoin d'acheter un nouvel ordinateur."
-        }
-      ]
+      "english": "To buy",
+      "word": "Acheter",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "J'ai besoin d'acheter un nouvel ordinateur."
     },
     {
       "id": "to_help",
-      "levels": [
-        {
-          "front": "To help",
-          "back": "Aider"
-        },
-        {
-          "front": "Can I help you?",
-          "back": "Je peux t'aider ?"
-        }
-      ]
+      "english": "To help",
+      "word": "Aider",
+      "englishPhrase": "Can I help you?",
+      "phrase": "Je peux t'aider ?"
     },
     {
       "id": "to_manage",
-      "levels": [
-        {
-          "front": "To manage",
-          "back": "Diriger"
-        },
-        {
-          "front": "She manages the team.",
-          "back": "Elle dirige l'équipe."
-        }
-      ]
+      "english": "To manage",
+      "word": "Diriger",
+      "englishPhrase": "She manages the team.",
+      "phrase": "Elle dirige l'équipe."
     },
     {
       "id": "to_meet",
-      "levels": [
-        {
-          "front": "To meet",
-          "back": "Se réunir"
-        },
-        {
-          "front": "We meet every Monday.",
-          "back": "On se réunit chaque lundi."
-        }
-      ]
+      "english": "To meet",
+      "word": "Se réunir",
+      "englishPhrase": "We meet every Monday.",
+      "phrase": "On se réunit chaque lundi."
     },
     {
       "id": "to_start",
-      "levels": [
-        {
-          "front": "To start",
-          "back": "Commencer"
-        },
-        {
-          "front": "I start work at eight.",
-          "back": "Je commence à travailler à huit heures."
-        }
-      ]
+      "english": "To start",
+      "word": "Commencer",
+      "englishPhrase": "I start work at eight.",
+      "phrase": "Je commence à travailler à huit heures."
     },
     {
       "id": "to_finish",
-      "levels": [
-        {
-          "front": "To finish",
-          "back": "Finir"
-        },
-        {
-          "front": "I finish work at five.",
-          "back": "Je termine le travail à cinq heures."
-        }
-      ]
+      "english": "To finish",
+      "word": "Finir",
+      "englishPhrase": "I finish work at five.",
+      "phrase": "Je termine le travail à cinq heures."
     },
     {
       "id": "to_like_to_enjoy",
-      "levels": [
-        {
-          "front": "To like",
-          "back": "Aimer",
-          "grammarNote": "Aimer + infinitive = to like doing something: 'J'aime lire' (I like reading). Aimer bien softens aimer when talking about things (vs people): 'J'aime bien ce film'. Adorer is stronger: 'J'adore la musique'. For activities with faire, add 'de': 'J'aime faire du sport'."
-        },
-        {
-          "front": "I like reading. She likes singing.",
-          "back": "J'aime lire. Elle aime chanter."
-        }
-      ]
+      "english": "To like",
+      "word": "Aimer",
+      "grammarNote": "Aimer + infinitive = to like doing something: 'J'aime lire' (I like reading). Aimer bien softens aimer when talking about things (vs people): 'J'aime bien ce film'. Adorer is stronger: 'J'adore la musique'. For activities with faire, add 'de': 'J'aime faire du sport'.",
+      "englishPhrase": "I like reading. She likes singing.",
+      "phrase": "J'aime lire. Elle aime chanter."
     },
     {
       "id": "to_relax",
-      "levels": [
-        {
-          "front": "To relax",
-          "back": "Se détendre"
-        },
-        {
-          "front": "I relax on weekends.",
-          "back": "Je me détends le week-end."
-        }
-      ]
+      "english": "To relax",
+      "word": "Se détendre",
+      "englishPhrase": "I relax on weekends.",
+      "phrase": "Je me détends le week-end."
     },
     {
       "id": "to_spend_time_on",
-      "levels": [
-        {
-          "front": "To spend time (on)",
-          "back": "Passer du temps (à)"
-        },
-        {
-          "front": "I spend a lot of time reading.",
-          "back": "Je passe beaucoup de temps à lire."
-        }
-      ]
+      "english": "To spend time (on)",
+      "word": "Passer du temps (à)",
+      "englishPhrase": "I spend a lot of time reading.",
+      "phrase": "Je passe beaucoup de temps à lire."
     },
     {
       "id": "creative",
-      "levels": [
-        {
-          "front": "Creative",
-          "back": "Créatif"
-        },
-        {
-          "front": "She is very creative.",
-          "back": "Elle est très créative."
-        }
-      ]
+      "english": "Creative",
+      "word": "Créatif",
+      "englishPhrase": "She is very creative.",
+      "phrase": "Elle est très créative."
     },
     {
       "id": "interesting",
-      "levels": [
-        {
-          "front": "Interesting",
-          "back": "Intéressant"
-        },
-        {
-          "front": "My job is interesting.",
-          "back": "Mon travail est intéressant."
-        }
-      ]
+      "english": "Interesting",
+      "word": "Intéressant",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "Mon travail est intéressant."
     },
     {
       "id": "stressful",
-      "levels": [
-        {
-          "front": "Stressful",
-          "back": "Stressant"
-        },
-        {
-          "front": "My job is stressful.",
-          "back": "Mon travail est stressant."
-        }
-      ]
+      "english": "Stressful",
+      "word": "Stressant",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "Mon travail est stressant."
     },
     {
       "id": "boring",
-      "levels": [
-        {
-          "front": "Boring",
-          "back": "Ennuyeux"
-        },
-        {
-          "front": "The meeting was boring.",
-          "back": "La réunion était ennuyeuse."
-        }
-      ]
+      "english": "Boring",
+      "word": "Ennuyeux",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "La réunion était ennuyeuse."
     },
     {
       "id": "salary",
-      "levels": [
-        {
-          "front": "Salary",
-          "back": "Le salaire"
-        },
-        {
-          "front": "What is the salary?",
-          "back": "Quel est le salaire ?"
-        }
-      ]
+      "english": "Salary",
+      "word": "Le salaire",
+      "englishPhrase": "What is the salary?",
+      "phrase": "Quel est le salaire ?"
     },
     {
       "id": "schedule",
-      "levels": [
-        {
-          "front": "Schedule",
-          "back": "L'emploi du temps"
-        },
-        {
-          "front": "My schedule is flexible.",
-          "back": "Mon emploi du temps est flexible."
-        }
-      ]
+      "english": "Schedule",
+      "word": "L'emploi du temps",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "Mon emploi du temps est flexible."
     },
     {
       "id": "vacation",
-      "levels": [
-        {
-          "front": "Vacation",
-          "back": "Les vacances (fem. pl.)"
-        },
-        {
-          "front": "I'm going on vacation next week.",
-          "back": "Je pars en vacances la semaine prochaine."
-        }
-      ]
+      "english": "Vacation",
+      "word": "Les vacances (fem. pl.)",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "Je pars en vacances la semaine prochaine."
     },
     {
       "id": "break",
-      "levels": [
-        {
-          "front": "Break",
-          "back": "La pause"
-        },
-        {
-          "front": "Let's take a break.",
-          "back": "Prenons une pause."
-        }
-      ]
+      "english": "Break",
+      "word": "La pause",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "Prenons une pause."
     },
     {
       "id": "office",
-      "levels": [
-        {
-          "front": "Office",
-          "back": "Le bureau"
-        },
-        {
-          "front": "I work in an office.",
-          "back": "Je travaille dans un bureau."
-        }
-      ]
+      "english": "Office",
+      "word": "Le bureau",
+      "englishPhrase": "I work in an office.",
+      "phrase": "Je travaille dans un bureau."
     },
     {
       "id": "outdoors",
-      "levels": [
-        {
-          "front": "Outdoors",
-          "back": "En plein air"
-        },
-        {
-          "front": "She works outdoors.",
-          "back": "Elle travaille en plein air."
-        }
-      ]
+      "english": "Outdoors",
+      "word": "En plein air",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "Elle travaille en plein air."
     },
     {
       "id": "interview",
-      "levels": [
-        {
-          "front": "Interview",
-          "back": "L'entretien (d'embauche)"
-        },
-        {
-          "front": "I have a job interview tomorrow.",
-          "back": "J'ai un entretien d'embauche demain."
-        }
-      ]
+      "english": "Interview",
+      "word": "L'entretien (d'embauche)",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "J'ai un entretien d'embauche demain."
     },
     {
       "id": "colleague",
-      "levels": [
-        {
-          "front": "Colleague",
-          "back": "Le"
-        },
-        {
-          "front": "My coworkers are friendly.",
-          "back": "Mes collègues sont sympas."
-        }
-      ]
+      "english": "Colleague",
+      "word": "Le",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "Mes collègues sont sympas."
     },
     {
       "id": "customer",
-      "levels": [
-        {
-          "front": "Customer",
-          "back": "Le client"
-        },
-        {
-          "front": "The client is happy.",
-          "back": "Le client est content."
-        }
-      ]
+      "english": "Customer",
+      "word": "Le client",
+      "englishPhrase": "The client is happy.",
+      "phrase": "Le client est content."
     },
     {
       "id": "team",
-      "levels": [
-        {
-          "front": "Team",
-          "back": "L'équipe (fem.)"
-        },
-        {
-          "front": "I work in a great team.",
-          "back": "Je travaille dans une super équipe."
-        }
-      ]
+      "english": "Team",
+      "word": "L'équipe (fem.)",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "Je travaille dans une super équipe."
     },
     {
       "id": "project",
-      "levels": [
-        {
-          "front": "Project",
-          "back": "Le projet"
-        },
-        {
-          "front": "The project is almost finished.",
-          "back": "Le projet est presque terminé."
-        }
-      ]
+      "english": "Project",
+      "word": "Le projet",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "Le projet est presque terminé."
     },
     {
       "id": "meeting",
-      "levels": [
-        {
-          "front": "Meeting",
-          "back": "La réunion"
-        },
-        {
-          "front": "We have a meeting at ten.",
-          "back": "On a une réunion à dix heures."
-        }
-      ]
+      "english": "Meeting",
+      "word": "La réunion",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "On a une réunion à dix heures."
     },
     {
       "id": "free_time",
-      "levels": [
-        {
-          "front": "Free time",
-          "back": "Le temps libre"
-        },
-        {
-          "front": "What do you do in your free time?",
-          "back": "Qu'est-ce que tu fais pendant ton temps libre ?"
-        }
-      ]
+      "english": "Free time",
+      "word": "Le temps libre",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "Qu'est-ce que tu fais pendant ton temps libre ?"
     }
   ]
 }

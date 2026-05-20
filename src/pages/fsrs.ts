@@ -3,8 +3,6 @@
 
 export type Rating = 1 | 2 | 3 | 4;
 
-export const LEVEL_UP_REPS = 3;
-
 export type CardSRSState = "new" | "learning" | "review";
 
 export interface CardState {
@@ -13,8 +11,7 @@ export interface CardState {
     dueDate: string;     // ISO date (YYYY-MM-DD)
     lastReview: string;  // ISO date of last rating
     lapses: number;
-    reps: number;        // successful reviews at current level (for level-up gate)
-    level: number;       // card level (0=word, 1=phrase, ...)
+    reps: number;
     state: CardSRSState;
     hidden?: boolean;
 }
@@ -26,7 +23,6 @@ export const DEFAULT_CARD_STATE: CardState = {
     lastReview: todayISO(),
     lapses: 0,
     reps: 0,
-    level: 0,
     state: "new",
     hidden: false,
 };
@@ -155,20 +151,6 @@ export function applyRating(state: CardState, rating: Rating): CardState {
     const interval = nextInterval(s);
     return { ...state, stability: s, difficulty: d, reps: state.reps + 1,
              dueDate: addDays(interval), lastReview: today, state: "review" };
-}
-
-/** Fresh state for the next level, preserving difficulty as a head-start. */
-export function levelUpState(state: CardState): CardState {
-    return {
-        stability: 0,
-        difficulty: state.difficulty,
-        dueDate: todayISO(),
-        lastReview: todayISO(),
-        lapses: 0,
-        reps: 0,
-        level: state.level + 1,
-        state: "new",
-    };
 }
 
 /** Preview the resulting interval for each rating without mutating state. */
