@@ -1,0 +1,2404 @@
+{
+  "id": "common_places",
+  "name": "Common Places",
+  "language": "chinese",
+  "stories": [
+    "getting_around",
+    "at_the_hotel",
+    "a_day_out",
+    "a_day_in_the_city",
+    "at_the_library",
+    "at_the_gym"
+  ],
+  "pictureLessons": [
+    "common_places"
+  ],
+  "grammarLessons": [
+    {
+      "id": "zai",
+      "name": "在 — Location"
+    },
+    {
+      "id": "qu_lai",
+      "name": "去 & 来 — Go & Come"
+    },
+    {
+      "id": "you_meiyou",
+      "name": "有 & 没有 — Have / Don't Have"
+    },
+    {
+      "id": "ma_questions",
+      "name": "吗 — Yes/No Questions"
+    },
+    {
+      "id": "location_patterns",
+      "name": "Location Word Patterns — 店馆场院站"
+    },
+    {
+      "id": "cong_dao",
+      "name": "从...到... — From...To..."
+    },
+    {
+      "id": "direction_complements",
+      "name": "Direction Complements — 上来, 出去, 回来"
+    }
+  ],
+  "cards": [
+    {
+      "id": "home",
+      "english": "Home",
+      "word": "家",
+      "romanized": "jiā",
+      "englishPhrase": "I'm going home.",
+      "phrase": "我回家了。",
+      "phraseRomanized": "wǒ huí jiā le.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "回",
+          "return"
+        ],
+        [
+          "家",
+          "home"
+        ],
+        [
+          "了。",
+          "[now]"
+        ]
+      ],
+      "grammarNote": "**家** (jiā) means both 'home' and 'family'. **回家** (huí jiā) = go/return home — **回** specifically means 'return', so it already implies going back. The sentence-final **了** (le) here signals a new situation or imminent action: 'I'm going home (now).'\n**家** is also the measure word for businesses: **一家餐厅** (a restaurant), **一家酒店** (a hotel)."
+    },
+    {
+      "id": "apartment",
+      "english": "Apartment",
+      "word": "公寓",
+      "romanized": "gōngyù",
+      "englishPhrase": "She lives in an apartment.",
+      "phrase": "她住在公寓里。",
+      "phraseRomanized": "tā zhù zài gōngyù lǐ.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "住",
+          "lives"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "公寓",
+          "apartment"
+        ],
+        [
+          "里。",
+          "inside"
+        ]
+      ],
+      "grammarNote": "**公寓** (gōngyù) = **公** (public/shared) + **寓** (dwelling) → apartment.\n**住在** (zhù zài) = live at/in. **在...里** (zài...lǐ) is the standard pattern for 'inside a place': **在公寓里** (inside the apartment), **在学校里** (inside the school).\n**里** (lǐ) = inside. Compare location words: **里** (inside), **外** (outside), **上** (on/above), **下面** (below), **旁边** (beside)."
+    },
+    {
+      "id": "school",
+      "english": "School",
+      "word": "学校",
+      "romanized": "xuéxiào",
+      "englishPhrase": "The school is nearby.",
+      "phrase": "学校在附近。",
+      "phraseRomanized": "xuéxiào zài fùjìn.",
+      "literal": [
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "附近。",
+          "nearby"
+        ]
+      ],
+      "grammarNote": "**学校** (xuéxiào) = **学** (learn/study) + **校** (school/campus) → school.\n**在** (zài) here means 'is located at' — describing a static location. Compare: **去学校** (go to school, movement) vs **在学校** (be at school, location).\n**附近** (fùjìn) = nearby / in the vicinity. Often used as: **附近有...吗？** (Is there a ... nearby?)"
+    },
+    {
+      "id": "university",
+      "english": "University",
+      "word": "大学",
+      "romanized": "dàxué",
+      "englishPhrase": "He studies at the university.",
+      "phrase": "他在大学学习。",
+      "phraseRomanized": "tā zài dàxué xuéxí.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "大学",
+          "university"
+        ],
+        [
+          "学习。",
+          "studies"
+        ]
+      ],
+      "grammarNote": "**大学** (dàxué) = **大** (big/great) + **学** (learning/study) → university/college.\n**在** (zài) + place + verb is a key pattern: the location comes BEFORE the verb in Chinese. So: **他在大学学习** (He at university studies) — not *he studies at university.\n**学习** (xuéxí) = to study/learn. **学** alone can mean the same but **学习** is more formal."
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "办公室",
+      "romanized": "bàngōngshì",
+      "englishPhrase": "I work in an office.",
+      "phrase": "我在办公室工作。",
+      "phraseRomanized": "wǒ zài bàngōngshì gōngzuò.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "办公室",
+          "office"
+        ],
+        [
+          "工作。",
+          "work"
+        ]
+      ],
+      "grammarNote": "**办公室** (bàngōngshì) = **办公** (handle work/do official business) + **室** (room) → office.\n**室** (shì) is a common suffix for rooms: **教室** (classroom), **卧室** (bedroom), **浴室** (bathroom).\nThe pattern **在 + place + verb** places location before the action: **在办公室工作** = work in the office. In English it's after the verb; in Chinese it's before."
+    },
+    {
+      "id": "hospital",
+      "english": "Hospital",
+      "word": "医院",
+      "romanized": "yīyuàn",
+      "englishPhrase": "The hospital is on the main street.",
+      "phrase": "医院在大街上。",
+      "phraseRomanized": "yīyuàn zài dàjiē shàng.",
+      "literal": [
+        [
+          "医院",
+          "hospital"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "大街",
+          "main-street"
+        ],
+        [
+          "上。",
+          "on"
+        ]
+      ],
+      "grammarNote": "**医院** (yīyuàn) = **医** (medicine/heal) + **院** (courtyard/institution) → hospital.\n**院** is a common suffix for institutions: **医院** (hospital), **学院** (college/institute), **电影院** (movie theater), **法院** (court).\n**在...上** (zài...shàng) = on/along: **在大街上** (on the main street). **上** (shàng) often attaches to streets, surfaces, and open areas."
+    },
+    {
+      "id": "grocery_store",
+      "english": "Grocery store",
+      "word": "超市",
+      "romanized": "chāoshì",
+      "englishPhrase": "Let's go to the grocery store.",
+      "phrase": "我们去超市吧。",
+      "phraseRomanized": "wǒmen qù chāoshì ba.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "超市",
+          "grocery-store"
+        ],
+        [
+          "吧。",
+          "[suggestion]"
+        ]
+      ],
+      "grammarNote": "**超市** (chāoshì) = **超** (super/exceed) + **市** (market) → supermarket/grocery store.\n**去** (qù) = go to (a destination). Contrast with **在** (zài) = be at (a location): **去超市** (going to the store) vs **在超市** (at the store).\n**吧** (ba) at the end of a sentence makes it a suggestion or soft proposal: **我们去吧** = let's go / how about we go."
+    },
+    {
+      "id": "market",
+      "english": "Market",
+      "word": "市场",
+      "romanized": "shìchǎng",
+      "englishPhrase": "There is a market nearby.",
+      "phrase": "附近有个市场。",
+      "phraseRomanized": "fùjìn yǒu gè shìchǎng.",
+      "literal": [
+        [
+          "附近",
+          "nearby"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "个",
+          "[measure]"
+        ],
+        [
+          "市场。",
+          "market"
+        ]
+      ],
+      "grammarNote": "**市场** (shìchǎng) = **市** (market/city) + **场** (ground/space/venue) → market.\n**场** is a common suffix for open venues: **市场** (market), **广场** (plaza), **机场** (airport), **停车场** (parking lot).\n**有个** (yǒu gè) = there is a. The pattern **place + 有 + noun** = 'there is [noun] at [place]': **附近有个市场** (nearby there is a market). This is the existential use of **有**."
+    },
+    {
+      "id": "bank",
+      "english": "Bank",
+      "word": "银行",
+      "romanized": "yínháng",
+      "englishPhrase": "The bank is on the right.",
+      "phrase": "银行在右边。",
+      "phraseRomanized": "yínháng zài yòubiān.",
+      "literal": [
+        [
+          "银行",
+          "bank"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "右边。",
+          "right-side"
+        ]
+      ],
+      "grammarNote": "**银行** (yínháng) = **银** (silver/money) + **行** (trade/enterprise) → bank.\n**行** (háng) is a suffix for business trades: **旅行** (travel), **银行** (bank), **行业** (industry).\n**右边** (yòubiān) = right side. Direction words with **边** (biān, side): **左边** (left), **右边** (right), **前边** (front), **后边** (back), **旁边** (beside)."
+    },
+    {
+      "id": "library",
+      "english": "Library",
+      "word": "图书馆",
+      "romanized": "túshūguǎn",
+      "englishPhrase": "I like going to the library.",
+      "phrase": "我喜欢去图书馆。",
+      "phraseRomanized": "wǒ xǐhuān qù túshūguǎn.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "图书馆。",
+          "library"
+        ]
+      ],
+      "grammarNote": "**图书馆** (túshūguǎn) = **图书** (books/pictures-and-books) + **馆** (hall/building for a specific purpose) → library.\n**馆** is a common suffix for public buildings: **图书馆** (library), **博物馆** (museum), **咖啡馆** (café), **餐馆** (restaurant).\n**喜欢 + verb** = like to do something: **喜欢去** (like going). The second verb follows immediately without any connector."
+    },
+    {
+      "id": "restaurant",
+      "english": "Restaurant",
+      "word": "餐厅",
+      "romanized": "cāntīng",
+      "englishPhrase": "Let's eat at a restaurant tonight.",
+      "phrase": "今晚我们去餐厅吃饭吧。",
+      "phraseRomanized": "jīnwǎn wǒmen qù cāntīng chīfàn ba.",
+      "literal": [
+        [
+          "今晚",
+          "tonight"
+        ],
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "餐厅",
+          "restaurant"
+        ],
+        [
+          "吃饭",
+          "eat"
+        ],
+        [
+          "吧。",
+          "[suggestion]"
+        ]
+      ],
+      "grammarNote": "**餐厅** (cāntīng) = **餐** (meal/food) + **厅** (hall/lounge) → restaurant/dining hall.\n**厅** is used for larger halls: **餐厅** (restaurant), **客厅** (living room), **大厅** (lobby).\nThe measure word for restaurants (as businesses) is **家** (jiā): **一家餐厅** (a restaurant). Use **家** for shops, restaurants, and companies.\n**吃饭** (chīfàn) = eat a meal (literally 'eat rice'). It's the general expression for having a meal."
+    },
+    {
+      "id": "cafe",
+      "english": "Cafe",
+      "word": "咖啡厅",
+      "romanized": "kāfēitīng",
+      "englishPhrase": "She meets her friends at the cafe.",
+      "phrase": "她在咖啡厅见朋友。",
+      "phraseRomanized": "tā zài kāfēitīng jiàn péngyou.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "咖啡厅",
+          "cafe"
+        ],
+        [
+          "见",
+          "meets"
+        ],
+        [
+          "朋友。",
+          "friends"
+        ]
+      ],
+      "grammarNote": "**咖啡厅** (kāfēitīng) = **咖啡** (coffee, a loanword) + **厅** (hall/lounge) → café.\nAlternative: **咖啡馆** (kāfēiguǎn) — both are commonly used.\n**在 + place + verb**: location comes before the verb: **在咖啡厅见朋友** (at the café meet friends).\n**见** (jiàn) = meet/see (someone in person). Compare: **见面** (jiànmiàn) = meet face-to-face (as a two-person activity)."
+    },
+    {
+      "id": "hotel",
+      "english": "Hotel",
+      "word": "酒店",
+      "romanized": "jiǔdiàn",
+      "englishPhrase": "We stayed at a nice hotel.",
+      "phrase": "我们住在一家不错的酒店。",
+      "phraseRomanized": "wǒmen zhù zài yī jiā bùcuò de jiǔdiàn.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "住",
+          "stayed"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "一家",
+          "one"
+        ],
+        [
+          "不错的",
+          "not-bad"
+        ],
+        [
+          "酒店。",
+          "hotel"
+        ]
+      ],
+      "grammarNote": "**酒店** (jiǔdiàn) = **酒** (alcohol/drinks) + **店** (shop/establishment) → hotel. Originally an inn where travelers ate and drank.\n**店** is a common suffix for shops/establishments: **酒店** (hotel), **书店** (bookstore), **药店** (pharmacy), **饭店** (restaurant/hotel).\n**一家** (yī jiā): **家** (jiā) is the measure word for businesses, hotels, shops, and restaurants: **一家酒店** (a hotel), **两家餐厅** (two restaurants).\n**不错** (bùcuò) = not bad → pretty good. A very common understatement of praise."
+    },
+    {
+      "id": "airport",
+      "english": "Airport",
+      "word": "机场",
+      "romanized": "jīchǎng",
+      "englishPhrase": "I need to get to the airport.",
+      "phrase": "我需要去机场。",
+      "phraseRomanized": "wǒ xūyào qù jīchǎng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "机场。",
+          "airport"
+        ]
+      ],
+      "grammarNote": "**机场** (jīchǎng) = **机** (machine/aircraft) + **场** (ground/open space) → airport.\n**场** (chǎng) appears in many place words: **机场** (airport), **广场** (plaza/square), **市场** (market), **停车场** (parking lot), **操场** (sports ground).\n**需要** (xūyào) = need to. Followed directly by a verb: **需要去** (need to go). Compare: **想** (want to), **要** (want to/going to), **必须** (must)."
+    },
+    {
+      "id": "station",
+      "english": "Station",
+      "word": "车站",
+      "romanized": "chēzhàn",
+      "englishPhrase": "The station is not far.",
+      "phrase": "车站不远。",
+      "phraseRomanized": "chēzhàn bù yuǎn.",
+      "literal": [
+        [
+          "车站",
+          "station"
+        ],
+        [
+          "不",
+          "not"
+        ],
+        [
+          "远。",
+          "far"
+        ]
+      ],
+      "grammarNote": "**车站** (chēzhàn) = **车** (vehicle/car) + **站** (stop/stand) → (bus/train) station or stop.\n**站** (zhàn) appears in transport words: **车站** (station), **公交站** (bus stop), **地铁站** (subway station), **火车站** (train station).\n**不远** (bù yuǎn) = not far. In Chinese, adjectives are negated with **不** (bù): **不远** (not far), **不近** (not close), **不大** (not big). No verb 'to be' is needed."
+    },
+    {
+      "id": "bus_stop",
+      "english": "Bus stop",
+      "word": "公交站",
+      "romanized": "gōngjiāo zhàn",
+      "englishPhrase": "Wait for me at the bus stop.",
+      "phrase": "在公交站等我。",
+      "phraseRomanized": "zài gōngjiāo zhàn děng wǒ.",
+      "literal": [
+        [
+          "在",
+          "at"
+        ],
+        [
+          "公交站",
+          "bus-stop"
+        ],
+        [
+          "等",
+          "wait"
+        ],
+        [
+          "我。",
+          "me"
+        ]
+      ],
+      "grammarNote": "**公交站** (gōngjiāo zhàn) = **公交** (public transport/bus) + **站** (stop) → bus stop.\n**公交** is short for **公共交通** (gōnggòng jiāotōng) = public transportation.\nThe pattern **在 + place + verb** is an imperative here: **在公交站等我** (wait for me at the bus stop). The location phrase **在公交站** comes before the verb **等**.\n**等** (děng) = wait / wait for. **等我** = wait for me."
+    },
+    {
+      "id": "park",
+      "english": "Park",
+      "word": "公园",
+      "romanized": "gōngyuán",
+      "englishPhrase": "We often walk in the park.",
+      "phrase": "我们经常在公园散步。",
+      "phraseRomanized": "wǒmen jīngcháng zài gōngyuán sànbù.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "经常",
+          "often"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "公园",
+          "park"
+        ],
+        [
+          "散步。",
+          "stroll"
+        ]
+      ],
+      "grammarNote": "**公园** (gōngyuán) = **公** (public) + **园** (garden/enclosed grounds) → park.\n**园** appears in: **公园** (park), **花园** (flower garden), **动物园** (zoo), **果园** (orchard).\n**经常** (jīngcháng) = often/frequently. Frequency adverbs like **经常**, **常常**, **有时**, **偶尔** (occasionally) come before the location and verb.\n**散步** (sànbù) = take a stroll/walk (a compound verb: **散** = scatter/relax + **步** = step)."
+    },
+    {
+      "id": "square",
+      "english": "Square",
+      "word": "广场",
+      "romanized": "guǎngchǎng",
+      "englishPhrase": "There was a concert at the square.",
+      "phrase": "广场上有一场音乐会。",
+      "phraseRomanized": "guǎngchǎng shàng yǒu yī chǎng yīnyuèhuì.",
+      "literal": [
+        [
+          "广场",
+          "square"
+        ],
+        [
+          "上",
+          "on"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "一场",
+          "one"
+        ],
+        [
+          "音乐会。",
+          "concert"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**广场** (guǎngchǎng) = **广** (broad/wide) + **场** (open ground/space) → plaza/square.\n**场** (chǎng) is both a place suffix AND a measure word for events: **一场音乐会** (a concert), **一场比赛** (a match), **一场电影** (a screening of a film).\n**广场上** = on the square/plaza — **上** is attached to open, surface-like spaces (streets, squares, tables)."
+    },
+    {
+      "id": "street",
+      "english": "Street",
+      "word": "街道",
+      "romanized": "jiēdào",
+      "englishPhrase": "Walk down this street.",
+      "phrase": "沿着这条街道走。",
+      "phraseRomanized": "yánzhe zhè tiáo jiēdào zǒu.",
+      "literal": [
+        [
+          "沿着",
+          "along"
+        ],
+        [
+          "这条",
+          "this"
+        ],
+        [
+          "街道",
+          "street"
+        ],
+        [
+          "走。",
+          "walk"
+        ]
+      ],
+      "grammarNote": "**街道** (jiēdào) = **街** (street) + **道** (road/path) → street.\n**条** (tiáo) is the measure word for long, narrow things — roads, rivers, fish, trousers: **这条街** (this street), **一条河** (a river).\n**沿着** (yánzhe) = along. The **着** (zhe) suffix on verbs or prepositions indicates a sustained state or ongoing manner: **沿着走** (walk along)."
+    },
+    {
+      "id": "bridge",
+      "english": "Bridge",
+      "word": "桥",
+      "romanized": "qiáo",
+      "englishPhrase": "Cross the bridge and turn left.",
+      "phrase": "过桥然后左拐。",
+      "phraseRomanized": "guò qiáo rán hòu zuǒ guǎi.",
+      "literal": [
+        [
+          "过",
+          "cross"
+        ],
+        [
+          "桥",
+          "bridge"
+        ],
+        [
+          "然后",
+          "then"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "拐。",
+          "turn"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**桥** (qiáo) = bridge. The measure word for bridges is **座** (zuò): **一座桥** (a bridge).\n**过** (guò) = cross/pass: **过桥** (cross the bridge), **过马路** (cross the road), **过来** (come over here).\n**拐** (guǎi) = turn (at a corner). Used in directions: **左拐** (turn left), **右拐** (turn right). Synonymous with **转** (zhuǎn) in directions.\n**然后** (ránhòu) = then/after that, used to sequence steps."
+    },
+    {
+      "id": "corner",
+      "english": "Corner",
+      "word": "街角",
+      "romanized": "jiējiǎo",
+      "englishPhrase": "Meet me at the corner.",
+      "phrase": "在街角等我。",
+      "phraseRomanized": "zài jiējiǎo děng wǒ.",
+      "literal": [
+        [
+          "在",
+          "at"
+        ],
+        [
+          "街角",
+          "corner"
+        ],
+        [
+          "等",
+          "wait"
+        ],
+        [
+          "我。",
+          "me"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**街角** (jiējiǎo) = **街** (street) + **角** (corner/angle) → street corner.\nAlternative: **路口** (lùkǒu) = intersection/junction. **转角** (zhuǎnjiǎo) is also used for corners.\n**在街角** = at the corner. The phrase **在 + location** here sets the scene for the action **等我** (wait for me). This is the standard pattern for giving location in commands."
+    },
+    {
+      "id": "city_centre_downtown",
+      "english": "City centre",
+      "word": "市中心",
+      "romanized": "shì zhōngxīn",
+      "englishPhrase": "The museum is in the city centre.",
+      "phrase": "博物馆在市中心。",
+      "phraseRomanized": "bówùguǎn zài shì zhōngxīn.",
+      "literal": [
+        [
+          "博物馆",
+          "museum"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "市中心。",
+          "city-centre"
+        ]
+      ],
+      "grammarNote": "**市中心** (shì zhōngxīn) = **市** (city) + **中心** (centre/hub) → city centre/downtown.\n**博物馆** (bówùguǎn) = **博物** (extensive knowledge of things/natural history) + **馆** (hall/building) → museum.\n**在** (zài) in this sentence is the main verb meaning 'is located at'. No separate 'to be' is needed: **博物馆在市中心** (the museum [is] in the city centre)."
+    },
+    {
+      "id": "neighbourhood",
+      "english": "Neighbourhood",
+      "word": "附近",
+      "romanized": "fùjìn",
+      "englishPhrase": "It's a quiet neighbourhood.",
+      "phrase": "这是一个安静的街区。",
+      "phraseRomanized": "zhè shì yīgè ānjìng de jiēqū.",
+      "literal": [
+        [
+          "这",
+          "this"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "一个",
+          "one"
+        ],
+        [
+          "安静的",
+          "quiet"
+        ],
+        [
+          "街区。",
+          "neighbourhood"
+        ]
+      ],
+      "grammarNote": "Note: the card word is **附近** (fùjìn, nearby/vicinity) but the phrase uses **街区** (jiēqū, block/neighbourhood district). Both relate to neighbourhood.\n**街区** (jiēqū) = **街** (street) + **区** (district/zone) → neighbourhood block.\n**安静的** (ānjìng de): adjectives modifying nouns take **的** (de) in Chinese: **安静的街区** (quiet neighbourhood). The structure is [adjective + **的**] + noun."
+    },
+    {
+      "id": "beach",
+      "english": "Beach",
+      "word": "海滩",
+      "romanized": "hǎitān",
+      "englishPhrase": "Let's spend the day at the beach.",
+      "phrase": "我们去海滩玩一天吧。",
+      "phraseRomanized": "wǒmen qù hǎitān wán yītiān ba.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "海滩",
+          "beach"
+        ],
+        [
+          "玩",
+          "play"
+        ],
+        [
+          "一天",
+          "one-day"
+        ],
+        [
+          "吧。",
+          "[suggestion]"
+        ]
+      ],
+      "grammarNote": "**海滩** (hǎitān) = **海** (sea/ocean) + **滩** (beach/shoal/flat) → beach.\n**玩** (wán) = play/have fun — broadly used for leisure: **去海滩玩** (go have fun at the beach), **玩手机** (play with a phone), **玩游戏** (play games).\n**去 + place + verb**: the destination comes before the purpose verb: **去海滩玩** (go to the beach [and] have fun). This serial-verb construction is very common in Chinese."
+    },
+    {
+      "id": "mountain",
+      "english": "Mountain",
+      "word": "山",
+      "romanized": "shān",
+      "englishPhrase": "They hiked up the mountain.",
+      "phrase": "他们爬上了山。",
+      "phraseRomanized": "tāmen pá shàng le shān.",
+      "literal": [
+        [
+          "他们",
+          "they"
+        ],
+        [
+          "爬",
+          "climbed"
+        ],
+        [
+          "上",
+          "up"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "山。",
+          "mountain"
+        ]
+      ],
+      "grammarNote": "**山** (shān) = mountain/hill. The measure word is **座** (zuò): **一座山** (a mountain).\n**爬上** (pá shàng) = climb up. **上** is a directional complement showing upward movement: **爬上** (climb up), **走上** (walk up), **跑上** (run up).\n**爬上了山** = climbed up the mountain. The **了** (le) after the complement marks completion of the action. Word order: verb + complement + **了** + object."
+    },
+    {
+      "id": "museum",
+      "english": "Museum",
+      "word": "博物馆",
+      "romanized": "bówùguǎn",
+      "englishPhrase": "The museum opens at nine.",
+      "phrase": "博物馆九点开门。",
+      "phraseRomanized": "bówùguǎn jiǔ diǎn kāimén.",
+      "literal": [
+        [
+          "博物馆",
+          "museum"
+        ],
+        [
+          "九点",
+          "nine o'clock"
+        ],
+        [
+          "开门。",
+          "opens"
+        ]
+      ],
+      "grammarNote": "**博物馆** (bówùguǎn) = **博物** (broad knowledge of things) + **馆** (hall) → museum.\n**开门** (kāimén) = open (literally 'open the door'). Its opposite is **关门** (guānmén) = close.\nTime expressions in Chinese come BEFORE the main verb (like location): **九点开门** (at nine o'clock [it] opens). Time → Location → Verb is the standard order."
+    },
+    {
+      "id": "movie_theater",
+      "english": "Movie theater",
+      "word": "电影院",
+      "romanized": "diànyǐngyuàn",
+      "englishPhrase": "Let's go to the movie theater.",
+      "phrase": "我们去电影院吧。",
+      "phraseRomanized": "wǒmen qù diànyǐngyuàn ba.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "电影院",
+          "movie-theater"
+        ],
+        [
+          "吧。",
+          "[suggestion]"
+        ]
+      ],
+      "grammarNote": "**电影院** (diànyǐngyuàn) = **电影** (movie/film: **电** electricity + **影** shadow/image) + **院** (hall/institution) → movie theater.\n**院** as a suffix for venues and institutions: **电影院** (cinema), **医院** (hospital), **学院** (institute/college), **法院** (court), **体育馆** vs **体育院** (sports hall vs sports institute).\n**去...吧** = let's go to... / how about going to...: a very common suggestion pattern."
+    },
+    {
+      "id": "map",
+      "english": "Map",
+      "word": "地图",
+      "romanized": "dìtú",
+      "englishPhrase": "Can you show me on the map?",
+      "phrase": "你能在地图上指给我看吗？",
+      "phraseRomanized": "nǐ néng zài dìtú shàng zhǐ gěi wǒ kàn ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "地图",
+          "map"
+        ],
+        [
+          "上",
+          "on"
+        ],
+        [
+          "指",
+          "point"
+        ],
+        [
+          "给",
+          "for"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "看",
+          "look"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**地图** (dìtú) = **地** (earth/ground) + **图** (picture/diagram) → map.\n**给** (gěi) = give/for. The pattern **verb + 给 + person + verb** = do [action] for someone to [perceive]: **指给我看** (point [it] for me to see), **说给我听** (say it for me to hear).\n**能** (néng) = can/be able to (physical or circumstantial ability). Compare: **会** (huì) = can (learned skill), **可以** (kěyǐ) = may/can (permission or possibility)."
+    },
+    {
+      "id": "direction",
+      "english": "Direction",
+      "word": "方向",
+      "romanized": "fāngxiàng",
+      "englishPhrase": "Can you tell me the direction?",
+      "phrase": "你能告诉我方向吗？",
+      "phraseRomanized": "nǐ néng gàosu wǒ fāngxiàng ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "告诉",
+          "tell"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "方向",
+          "direction"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**方向** (fāngxiàng) = **方** (direction/side) + **向** (toward/facing) → direction.\n**告诉** (gàosu) = tell (someone something). The pattern is: **告诉 + person + information**: **告诉我方向** (tell me the direction), **告诉他答案** (tell him the answer).\n**方向** vs **方位** (fāngwèi): **方向** = direction of movement (which way to go), **方位** = compass direction or spatial orientation."
+    },
+    {
+      "id": "distance",
+      "english": "Distance",
+      "word": "距离",
+      "romanized": "jùlí",
+      "englishPhrase": "What is the distance to the station?",
+      "phrase": "到车站的距离是多少？",
+      "phraseRomanized": "dào chēzhàn de jùlí shì duōshǎo?",
+      "literal": [
+        [
+          "到",
+          "to"
+        ],
+        [
+          "车站",
+          "station"
+        ],
+        [
+          "的",
+          "[de]"
+        ],
+        [
+          "距离",
+          "distance"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "多少？",
+          "how-much?"
+        ]
+      ],
+      "grammarNote": "**距离** (jùlí) = **距** (separated from) + **离** (away from) → distance. Note both characters carry the idea of separation.\n**到...的距离** (dào...de jùlí) = the distance to... This nominalized phrase uses **的** to link the prepositional phrase to the noun.\n**多少** (duōshǎo) = how much/how many. Used for quantities, prices, distances. **多少钱** (how much money?), **多少公里** (how many kilometers?)."
+    },
+    {
+      "id": "to_travel",
+      "english": "To travel",
+      "word": "旅行",
+      "romanized": "lǚxíng",
+      "englishPhrase": "I love to travel.",
+      "phrase": "我喜欢旅行。",
+      "phraseRomanized": "wǒ xǐhuān lǚxíng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "旅行。",
+          "travel"
+        ]
+      ],
+      "grammarNote": "**旅行** (lǚxíng) = **旅** (journey/travel) + **行** (go/travel) → travel. Both characters share the meaning of moving/travelling.\n**喜欢** (xǐhuān) = like/enjoy. Followed directly by a verb or noun: **喜欢旅行** (like travelling), **喜欢音乐** (like music). No extra word is needed between **喜欢** and the following verb.\n**旅行** vs **旅游** (lǚyóu): **旅行** = travel (general, formal), **旅游** = travel for tourism/leisure."
+    },
+    {
+      "id": "to_walk",
+      "english": "To walk",
+      "word": "走路",
+      "romanized": "zǒulù",
+      "englishPhrase": "I walk to school every day.",
+      "phrase": "我每天走路去学校。",
+      "phraseRomanized": "wǒ měitiān zǒulù qù xuéxiào.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "每天",
+          "every-day"
+        ],
+        [
+          "走路",
+          "walk"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "学校。",
+          "school"
+        ]
+      ],
+      "grammarNote": "**走路** (zǒulù) = **走** (walk/move) + **路** (road/path) → walk (by foot). Used to specify the mode of transport.\n**走路去** = walk to (a place). Transport mode + **去** + destination: **走路去学校** (walk to school), **开车去公司** (drive to the company), **坐地铁去** (take the subway).\n**每天** (měitiān) = every day. Time adverbs come early in the sentence, right after the subject."
+    },
+    {
+      "id": "to_drive",
+      "english": "To drive",
+      "word": "开车",
+      "romanized": "kāichē",
+      "englishPhrase": "He drives to work.",
+      "phrase": "他开车去上班。",
+      "phraseRomanized": "tā kāichē qù shàngbān.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "开车",
+          "drives"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "上班。",
+          "work"
+        ]
+      ],
+      "grammarNote": "**开车** (kāichē) = **开** (drive/operate) + **车** (vehicle) → drive (a car).\n**开** is used for operating vehicles and machines: **开车** (drive a car), **开船** (sail a boat), **开飞机** (fly a plane).\n**上班** (shàngbān) = go to work / be at work (literally 'go up to work-duty'). Contrast: **下班** (xiàbān) = get off work. **去上班** = go to work (with movement implied)."
+    },
+    {
+      "id": "to_turn",
+      "english": "To turn",
+      "word": "转",
+      "romanized": "zhuǎn",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "在街角向左转。",
+      "phraseRomanized": "zài jiējiǎo xiàng zuǒ zhuǎn.",
+      "literal": [
+        [
+          "在",
+          "at"
+        ],
+        [
+          "街角",
+          "corner"
+        ],
+        [
+          "向",
+          "toward"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "转。",
+          "turn"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**转** (zhuǎn) = turn/rotate. In directions, **向左转** (turn left) and **向右转** (turn right) are standard.\n**向** (xiàng) = toward/facing: a direction preposition. **向左** (toward the left), **向右** (toward the right), **向前** (forward), **向后** (backward).\nAlternative phrasing: **左转** / **右转** (used in colloquial and signage contexts without **向**). Also: **左拐** / **右拐** (colloquial 'turn left/right' using **拐** = veer/turn)."
+    },
+    {
+      "id": "to_cross",
+      "english": "To cross",
+      "word": "穿过",
+      "romanized": "chuānguò",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "小心穿过马路。",
+      "phraseRomanized": "xiǎoxīn chuānguò mǎlù.",
+      "literal": [
+        [
+          "小心",
+          "carefully"
+        ],
+        [
+          "穿过",
+          "cross"
+        ],
+        [
+          "马路。",
+          "road"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**穿过** (chuānguò) = **穿** (pierce through/pass through) + **过** (pass) → cross/go through.\nCompare: **过马路** (guò mǎlù) = cross the road (simpler form). **穿过** implies passing through something (a crowd, a forest, a road).\n**小心** (xiǎoxīn) = be careful/carefully. Literally 'small heart' — pay attention. Used as an adverb before verbs: **小心走** (walk carefully), or as a warning: **小心！** (Watch out!)\n**马路** (mǎlù) = road (literally 'horse road', originally a paved road wide enough for horses)."
+    },
+    {
+      "id": "to_follow",
+      "english": "To follow",
+      "word": "跟着",
+      "romanized": "gēnzhe",
+      "englishPhrase": "Follow me, please.",
+      "phrase": "请跟着我。",
+      "phraseRomanized": "qǐng gēnzhe wǒ.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "跟着",
+          "follow"
+        ],
+        [
+          "我。",
+          "me"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**跟着** (gēnzhe) = **跟** (follow/with) + **着** (continuous action suffix) → follow (someone, continuously).\n**着** (zhe) after a verb indicates a sustained or ongoing action/state: **跟着我** (keep following me), **开着灯** (with the light on), **笑着说** (say [something] while smiling).\n**请** (qǐng) = please (in polite requests). **请 + verb** is the standard polite imperative: **请进** (please come in), **请坐** (please sit), **请等一下** (please wait a moment)."
+    },
+    {
+      "id": "to_reach",
+      "english": "To reach",
+      "word": "到达",
+      "romanized": "dàodá",
+      "englishPhrase": "We will reach the hotel soon.",
+      "phrase": "我们很快就会到达酒店。",
+      "phraseRomanized": "wǒmen hěn kuài jiù huì dàodá jiǔdiàn.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "很快",
+          "very-soon"
+        ],
+        [
+          "就",
+          "then"
+        ],
+        [
+          "会",
+          "will"
+        ],
+        [
+          "到达",
+          "arrive"
+        ],
+        [
+          "酒店。",
+          "hotel"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**到达** (dàodá) = **到** (arrive/reach) + **达** (reach/attain) → arrive at/reach. More formal than just **到** (dào).\n**很快就** (hěn kuài jiù) = very soon / before long. **就** here adds a sense of immediacy or 'sooner than expected'. The pattern **很快就...** is a natural collocation.\n**会** (huì) = will/shall (expressing future or expectation). Not to be confused with **会** = can/know how to (skill)."
+    },
+    {
+      "id": "to_enter",
+      "english": "To enter",
+      "word": "进入",
+      "romanized": "jìnrù",
+      "englishPhrase": "You can enter through the side door.",
+      "phrase": "你可以从侧门进入。",
+      "phraseRomanized": "nǐ kěyǐ cóng cè mén jìnrù.",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "可以",
+          "can"
+        ],
+        [
+          "从",
+          "from"
+        ],
+        [
+          "侧门",
+          "side-door"
+        ],
+        [
+          "进入。",
+          "enter"
+        ]
+      ],
+      "grammarNote": "**进入** (jìnrù) = **进** (enter/go in) + **入** (enter/go into) → enter. Both characters carry the same meaning, making it emphatic/formal.\nColloquial alternatives: **进来** (jìnlái, come in — toward speaker), **进去** (jìnqù, go in — away from speaker).\n**从** (cóng) = from. Used to mark the starting point of movement: **从侧门进** (enter from the side door). Pattern: **从 + place + verb**.\n**侧门** (cè mén) = **侧** (side) + **门** (door) → side door."
+    },
+    {
+      "id": "to_leave",
+      "english": "To leave",
+      "word": "离开",
+      "romanized": "líkāi",
+      "englishPhrase": "I need to leave now.",
+      "phrase": "我现在需要离开。",
+      "phraseRomanized": "wǒ xiànzài xūyào líkāi.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "现在",
+          "now"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "离开。",
+          "leave"
+        ]
+      ],
+      "grammarNote": "**离开** (líkāi) = **离** (depart from/separate) + **开** (open/away) → leave/depart from.\n**离** indicates separation from a place or thing: **离开** (leave), **离** + place = 'away from': **离这里很近** (close to here), **离车站不远** (not far from the station).\n**现在** (xiànzài) = now/at present. Time words come before the main verb: **我现在需要离开** = I now need to leave."
+    },
+    {
+      "id": "to_depart",
+      "english": "To depart",
+      "word": "出发",
+      "romanized": "chūfā",
+      "englishPhrase": "The train departs at eight.",
+      "phrase": "火车八点出发。",
+      "phraseRomanized": "huǒchē bā diǎn chūfā.",
+      "literal": [
+        [
+          "火车",
+          "train"
+        ],
+        [
+          "八点",
+          "eight o'clock"
+        ],
+        [
+          "出发。",
+          "departs"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**出发** (chūfā) = **出** (go out/exit) + **发** (set off/start) → depart/set off.\n**火车** (huǒchē) = **火** (fire) + **车** (vehicle) → train (literally 'fire vehicle'). A reminder of the steam engine era.\nTime comes before the main verb: **八点出发** (depart at eight o'clock).\n**出** is a directional element in many words: **出发** (depart), **出口** (exit), **出去** (go out), **出来** (come out)."
+    },
+    {
+      "id": "to_visit",
+      "english": "To visit",
+      "word": "参观",
+      "romanized": "cānguān",
+      "englishPhrase": "We plan to visit the museum.",
+      "phrase": "我们计划参观博物馆。",
+      "phraseRomanized": "wǒmen jìhuà cānguān bówùguǎn.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "计划",
+          "plan"
+        ],
+        [
+          "参观",
+          "visit"
+        ],
+        [
+          "博物馆。",
+          "museum"
+        ]
+      ],
+      "grammarNote": "**参观** (cānguān) = **参** (participate/attend) + **观** (observe/view) → visit (a place to look around, e.g. museums, factories, schools).\nNote: **参观** is used for places you tour/inspect. For visiting people, use **拜访** (bàifǎng) or **探望** (tànwàng). For visiting places casually, **去** + place is also fine.\n**计划** (jìhuà) = plan (noun or verb). As a verb, it is followed directly by the next verb: **计划参观** (plan to visit)."
+    },
+    {
+      "id": "in",
+      "english": "In",
+      "word": "在…里",
+      "romanized": "zài...lǐ",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "钥匙在包里。",
+      "phraseRomanized": "yàoshi zài bāo lǐ.",
+      "literal": [
+        [
+          "钥匙",
+          "keys"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "包",
+          "bag"
+        ],
+        [
+          "里。",
+          "inside"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**在...里** (zài...lǐ) = inside [something]. **里** (lǐ) = inside/interior.\nThe pattern for containment: **在 + container + 里**: **在包里** (in the bag), **在房间里** (in the room), **在城市里** (in the city).\n**里** vs **里面** (lǐmiàn): both mean inside, but **里面** is slightly more explicit and emphatic. Either can follow a noun.\nContrast: **在...外** / **在...外面** (outside), **在...上** (on top), **在...下** (underneath)."
+    },
+    {
+      "id": "on",
+      "english": "On",
+      "word": "在…上",
+      "romanized": "zài...shàng",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "书在桌子上。",
+      "phraseRomanized": "shū zài zhuōzi shàng.",
+      "literal": [
+        [
+          "书",
+          "book"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "桌子",
+          "table"
+        ],
+        [
+          "上。",
+          "on"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**在...上** (zài...shàng) = on [a surface]. **上** (shàng) = above/on top.\nThe location word comes AFTER the reference noun: **桌子上** (on the table) — not *上桌子.\nThis position-word pattern applies to all location words: **桌子上** (on the table), **椅子下面** (under the chair), **门旁边** (beside the door), **楼前面** (in front of the building).\n**上** also attaches to streets and open areas: **街上** (on the street), **广场上** (in the square)."
+    },
+    {
+      "id": "at",
+      "english": "At",
+      "word": "在",
+      "romanized": "zài",
+      "englishPhrase": "She is at the library.",
+      "phrase": "她在图书馆。",
+      "phraseRomanized": "tā zài túshūguǎn.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "图书馆。",
+          "library"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**在** (zài) is one of the most versatile words in Chinese:\n1. Main verb meaning 'to be at/in': **她在图书馆** (she is at the library)\n2. Preposition meaning 'at/in': **在图书馆学习** (study at the library)\n3. Ongoing-action marker before a verb: **她在看书** (she is reading)\nHere **在** is the main verb — no separate 'to be' is needed. **她在图书馆** = She [is] at the library."
+    },
+    {
+      "id": "under",
+      "english": "Under",
+      "word": "在…下面",
+      "romanized": "zài...xiàmiàn",
+      "englishPhrase": "The cat is under the chair.",
+      "phrase": "猫在椅子下面。",
+      "phraseRomanized": "māo zài yǐzi xiàmiàn.",
+      "literal": [
+        [
+          "猫",
+          "cat"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "椅子",
+          "chair"
+        ],
+        [
+          "下面。",
+          "underneath"
+        ]
+      ],
+      "grammarNote": "**在...下面** (zài...xiàmiàn) = under/beneath [something]. **下面** (xiàmiàn) = below/underneath.\nLocation words always come AFTER their reference noun in Chinese: **椅子下面** (under the chair), NOT *下面椅子.\nThe full set of vertical position words: **上面** (above), **下面** (below), **里面** (inside), **外面** (outside), **旁边** (beside), **中间** (in the middle).\n**面** (miàn) = face/surface. Adding **面** to a direction makes it more explicit: **上面** = above (more than just **上**), **下面** = below."
+    },
+    {
+      "id": "next_to",
+      "english": "Next to",
+      "word": "旁边",
+      "romanized": "pángbiān",
+      "englishPhrase": "The cafe is next to the bank.",
+      "phrase": "咖啡厅在银行旁边。",
+      "phraseRomanized": "kāfēitīng zài yínháng pángbiān.",
+      "literal": [
+        [
+          "咖啡厅",
+          "cafe"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "银行",
+          "bank"
+        ],
+        [
+          "旁边。",
+          "beside"
+        ]
+      ],
+      "grammarNote": "**旁边** (pángbiān) = **旁** (side/beside) + **边** (side/edge) → next to/beside.\n**边** (biān) is a common suffix for direction/position words: **旁边** (beside), **左边** (left side), **右边** (right side), **前边** (front side), **后边** (back side), **里边** (inside), **外边** (outside).\nPattern for 'A is next to B': **A + 在 + B + 旁边**: **咖啡厅在银行旁边** (the café is beside the bank). The reference landmark goes before the position word."
+    },
+    {
+      "id": "between",
+      "english": "Between",
+      "word": "之间",
+      "romanized": "zhījiān",
+      "englishPhrase": "It is between the school and the park.",
+      "phrase": "它在学校和公园之间。",
+      "phraseRomanized": "tā zài xuéxiào hé gōngyuán zhījiān.",
+      "literal": [
+        [
+          "它",
+          "it"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "和",
+          "and"
+        ],
+        [
+          "公园",
+          "park"
+        ],
+        [
+          "之间。",
+          "between"
+        ]
+      ],
+      "grammarNote": "**之间** (zhījiān) = **之** (possessive/linking particle, literary) + **间** (between/gap) → between.\n**之** (zhī) is a classical/literary equivalent of **的** (de), used in fixed phrases like **之间**, **之前** (before), **之后** (after), **之中** (among/within).\nPattern: **A 和 B 之间** (between A and B): **学校和公园之间** (between the school and the park). The two landmarks + **之间** always go together after **在**."
+    },
+    {
+      "id": "in_front_of",
+      "english": "In front of",
+      "word": "前面",
+      "romanized": "qiánmiàn",
+      "englishPhrase": "Wait in front of the hotel.",
+      "phrase": "在酒店前面等。",
+      "phraseRomanized": "zài jiǔdiàn qiánmiàn děng.",
+      "literal": [
+        [
+          "在",
+          "at"
+        ],
+        [
+          "酒店",
+          "hotel"
+        ],
+        [
+          "前面",
+          "front"
+        ],
+        [
+          "等。",
+          "wait"
+        ]
+      ],
+      "grammarNote": "**前面** (qiánmiàn) = **前** (front/before) + **面** (face/side) → in front of/ahead.\n**酒店前面** = in front of the hotel. The reference noun always precedes the position word: **hotel + front** in Chinese (opposite to English 'in front of + hotel').\nFront/back pair: **前面** (in front), **后面** (behind/at the back). Also: **前边** (qiánbian) and **后边** (hòubian) — slightly less formal variants.\n**等** (děng) = wait. No object needed when context is clear."
+    },
+    {
+      "id": "behind",
+      "english": "Behind",
+      "word": "后面",
+      "romanized": "hòumiàn",
+      "englishPhrase": "The parking lot is behind the building.",
+      "phrase": "停车场在楼后面。",
+      "phraseRomanized": "tíngchēchǎng zài lóu hòumiàn.",
+      "literal": [
+        [
+          "停车场",
+          "parking-lot"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "楼",
+          "building"
+        ],
+        [
+          "后面。",
+          "behind"
+        ]
+      ],
+      "grammarNote": "**后面** (hòumiàn) = **后** (back/behind) + **面** (face/side) → behind/at the back.\n**停车场** (tíngchēchǎng) = **停车** (stop/park a vehicle) + **场** (ground/space) → parking lot.\n**楼** (lóu) = building (multi-storey) / floor. **楼后面** = behind the building.\nThe reference point + position word is the standard structure: **楼后面** (behind the building), **门前面** (in front of the door), **桥旁边** (beside the bridge)."
+    },
+    {
+      "id": "near",
+      "english": "Near",
+      "word": "附近",
+      "romanized": "fùjìn",
+      "englishPhrase": "Is there a pharmacy near here?",
+      "phrase": "这附近有药店吗？",
+      "phraseRomanized": "zhè fùjìn yǒu yàodiàn ma?",
+      "literal": [
+        [
+          "这",
+          "here"
+        ],
+        [
+          "附近",
+          "nearby"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "药店",
+          "pharmacy"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**附近** (fùjìn) = **附** (close to/attached) + **近** (near) → nearby/vicinity.\n**这附近** (zhè fùjìn) = near here / in this vicinity. **这** (zhè) = this/here acts as a demonstrative anchor.\nThe existential pattern **[place] + 有 + [thing] + 吗？** = Is there [thing] at [place]?: **这附近有药店吗** (Is there a pharmacy near here?).\n**药店** (yàodiàn) = **药** (medicine) + **店** (shop) → pharmacy."
+    },
+    {
+      "id": "everywhere",
+      "english": "Everywhere",
+      "word": "到处",
+      "romanized": "dàochù",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "到处都是游客。",
+      "phraseRomanized": "dàochù dōu shì yóukè.",
+      "literal": [
+        [
+          "到处",
+          "everywhere"
+        ],
+        [
+          "都",
+          "all"
+        ],
+        [
+          "是",
+          "are"
+        ],
+        [
+          "游客。",
+          "tourists"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**到处** (dàochù) = **到** (reach/to) + **处** (place) → everywhere/all over.\n**都** (dōu) = all/both — used to sum up multiple items or locations. **到处都是** = everywhere [there] are (all places have). **都** must come before the verb.\n**游客** (yóukè) = **游** (travel/roam) + **客** (guest/visitor) → tourist.\n**到处都是 + noun** = [noun] everywhere: **到处都是人** (people everywhere), **到处都是花** (flowers everywhere)."
+    },
+    {
+      "id": "somewhere",
+      "english": "Somewhere",
+      "word": "某处",
+      "romanized": "mǒu chù",
+      "englishPhrase": "I left my phone somewhere.",
+      "phrase": "我把手机落在某处了。",
+      "phraseRomanized": "wǒ bǎ shǒujī là zài mǒu chù le.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "把",
+          "[take]"
+        ],
+        [
+          "手机",
+          "phone"
+        ],
+        [
+          "落",
+          "left"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "某处",
+          "somewhere"
+        ],
+        [
+          "了。",
+          "[completed]"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**某处** (mǒu chù) = **某** (a certain/some unspecified) + **处** (place) → somewhere.\n**把** (bǎ) construction: **我把手机落在某处了** = I [took my phone and] left it somewhere. The **把** structure emphasizes the subject's action on a specific object, and what happened to it. Pattern: **Subject + 把 + Object + Verb + Result**.\n**落** (là) = leave behind accidentally (different from **放** = put down intentionally). **落在** = accidentally left at."
+    },
+    {
+      "id": "nowhere",
+      "english": "Nowhere",
+      "word": "哪儿都不",
+      "romanized": "nǎr dōu bù",
+      "englishPhrase": "I have nowhere to go.",
+      "phrase": "我无处可去。",
+      "phraseRomanized": "wǒ wú chù kě qù.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "无处",
+          "no-place"
+        ],
+        [
+          "可",
+          "can"
+        ],
+        [
+          "去。",
+          "go"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**无处** (wú chù) = **无** (have not/without) + **处** (place) → nowhere/no place. This is the literary/formal form.\nColloquial equivalent: **没有地方** (méiyǒu dìfāng) = have nowhere.\n**无处可去** = nowhere to go. **可** (kě) here = 'to be able to / there is [something] to': **无处可去** (no place that can be gone to), **无话可说** (nothing to say).\n**无** (wú) is the literary/classical negation, seen in fixed phrases: **无处** (nowhere), **无法** (unable to), **无聊** (bored/nothing to do)."
+    },
+    {
+      "id": "left",
+      "english": "Left",
+      "word": "左边",
+      "romanized": "zuǒbiān",
+      "englishPhrase": "Turn left at the light.",
+      "phrase": "在红绿灯左转。",
+      "phraseRomanized": "zài hónglǜdēng zuǒ zhuǎn.",
+      "literal": [
+        [
+          "在",
+          "at"
+        ],
+        [
+          "红绿灯",
+          "traffic-light"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "转。",
+          "turn"
+        ]
+      ],
+      "grammarNote": "**左边** (zuǒbiān) = **左** (left) + **边** (side) → the left side.\n**红绿灯** (hónglǜdēng) = **红** (red) + **绿** (green) + **灯** (light) → traffic light. Note: Chinese says 'red-green light' rather than 'traffic light'.\n**左转** (zuǒ zhuǎn) = turn left. Direction + **转**: **左转** (left turn), **右转** (right turn). The direction word comes before the verb in Chinese.\n**在红绿灯** = at the traffic light. This **在** phrase precedes the action verb."
+    },
+    {
+      "id": "right",
+      "english": "Right",
+      "word": "右边",
+      "romanized": "yòubiān",
+      "englishPhrase": "The hotel is on the right.",
+      "phrase": "酒店在右边。",
+      "phraseRomanized": "jiǔdiàn zài yòubiān.",
+      "literal": [
+        [
+          "酒店",
+          "hotel"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "右边。",
+          "right-side"
+        ]
+      ],
+      "grammarNote": "**右边** (yòubiān) = **右** (right) + **边** (side) → the right side.\nThe four relative directions with **边**: **左边** (left), **右边** (right), **前边** (front), **后边** (back). These can be used alone or after a landmark: **银行右边** (to the right of the bank).\n**在右边** = on the right (side). **在** + direction word = located to the [direction]: **在左边** (on the left), **在前面** (up ahead), **在后面** (behind)."
+    },
+    {
+      "id": "straight_ahead",
+      "english": "Straight (ahead)",
+      "word": "直走",
+      "romanized": "zhí zǒu",
+      "englishPhrase": "Go straight for two blocks.",
+      "phrase": "直走两个街区。",
+      "phraseRomanized": "zhí zǒu liǎng gè jiēqū.",
+      "literal": [
+        [
+          "直",
+          "straight"
+        ],
+        [
+          "走",
+          "walk"
+        ],
+        [
+          "两个",
+          "two"
+        ],
+        [
+          "街区。",
+          "blocks"
+        ]
+      ],
+      "grammarNote": "**直走** (zhí zǒu) = **直** (straight) + **走** (walk/go) → go straight.\n**一直走** (yīzhí zǒu) with **一直** is also very common: **一直** = continuously/keep going. **一直走** = keep walking straight.\n**两个** (liǎng gè): note **两** (liǎng) is used for 'two' before measure words, not **二** (èr): **两个街区** (two blocks), **两本书** (two books). **二** is used in numbers like 12 (十二) and ordinals (第二).\n**街区** (jiēqū) = city block."
+    },
+    {
+      "id": "north",
+      "english": "North",
+      "word": "北方",
+      "romanized": "běifāng",
+      "englishPhrase": "Head north on this road.",
+      "phrase": "沿这条路向北走。",
+      "phraseRomanized": "yán zhè tiáo lù xiàng běi zǒu.",
+      "literal": [
+        [
+          "沿",
+          "along"
+        ],
+        [
+          "这条",
+          "this"
+        ],
+        [
+          "路",
+          "road"
+        ],
+        [
+          "向",
+          "toward"
+        ],
+        [
+          "北",
+          "north"
+        ],
+        [
+          "走。",
+          "walk"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**北方** (běifāng) = **北** (north) + **方** (direction/side) → north (general direction).\n**方** as a compass suffix: **北方** (north), **南方** (south), **东方** (east), **西方** (west). These are used for broader regions.\nFor specific directions in navigation: **向北** (toward the north), **向南** (toward the south). **向** (xiàng) = toward, facing.\n**沿** (yán) = along (a road, river, coastline). **沿这条路** = along this road."
+    },
+    {
+      "id": "south",
+      "english": "South",
+      "word": "南方",
+      "romanized": "nánfāng",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "海滩在南边。",
+      "phraseRomanized": "hǎitān zài nánbiān.",
+      "literal": [
+        [
+          "海滩",
+          "beach"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "南边。",
+          "south-side"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**南方** (nánfāng) = **南** (south) + **方** (direction) → south.\nNote: the phrase uses **南边** (nánbiān) — **边** gives a more immediate/relative sense ('the south side'), while **南方** is more general ('the south' as a broad region or direction).\nThe four cardinal directions: **北** (north), **南** (south), **东** (east), **西** (west). With **方**: **北方**, **南方**, **东方**, **西方**. With **边**: **北边**, **南边**, **东边**, **西边** (more colloquial)."
+    },
+    {
+      "id": "east",
+      "english": "East",
+      "word": "东方",
+      "romanized": "dōngfāng",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "太阳从东方升起。",
+      "phraseRomanized": "tàiyáng cóng dōngfāng shēngqǐ.",
+      "literal": [
+        [
+          "太阳",
+          "sun"
+        ],
+        [
+          "从",
+          "from"
+        ],
+        [
+          "东方",
+          "east"
+        ],
+        [
+          "升起。",
+          "rises"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**东方** (dōngfāng) = **东** (east) + **方** (direction) → east. Also used to mean 'the East/Orient' culturally.\n**升起** (shēngqǐ) = rise up. **升** (shēng) = rise/ascend + **起** (qǐ) = up/start → rise upward. The complement **起** adds an upward directional sense.\n**从** (cóng) = from. Used to mark the starting point of movement: **从东方升起** (rise from the east). Pattern: **从 + starting point + verb**."
+    },
+    {
+      "id": "west",
+      "english": "West",
+      "word": "西方",
+      "romanized": "xīfāng",
+      "englishPhrase": "Drive west for ten minutes.",
+      "phrase": "向西开十分钟。",
+      "phraseRomanized": "xiàng xī kāi shí fēnzhōng.",
+      "literal": [
+        [
+          "向",
+          "toward"
+        ],
+        [
+          "西",
+          "west"
+        ],
+        [
+          "开",
+          "drive"
+        ],
+        [
+          "十分钟。",
+          "ten minutes"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**西方** (xīfāng) = **西** (west) + **方** (direction) → west. Also 'the West/Western world' culturally.\n**向西** (xiàng xī) = toward the west. **向** + direction = facing/heading in that direction: **向东走** (walk east), **向南开** (drive south).\n**开** (kāi) alone can mean 'drive': **开车** = drive a car, but **开十分钟** = drive for ten minutes (the car is implied).\nTime duration follows the verb: **开十分钟** (drive for ten minutes), not *十分钟开."
+    },
+    {
+      "id": "to_live",
+      "english": "To live",
+      "word": "住",
+      "romanized": "zhù",
+      "englishPhrase": "Where do you live?",
+      "phrase": "你住在哪里？",
+      "phraseRomanized": "nǐ zhù zài nǎlǐ?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "住",
+          "live"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里？",
+          "where?"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**住** (zhù) = live/reside/stay. A key verb for talking about where you live or stay.\n**住在** (zhù zài) = live at/in. **在** here marks the location of the action: **住在北京** (live in Beijing), **住在公寓里** (live in an apartment).\n**哪里** (nǎlǐ) = where. Used in questions: **在哪里** (where is it / where are you?). Synonymous with **哪儿** (nǎr) — the **儿** form is more colloquial and northern (Beijing dialect)."
+    },
+    {
+      "id": "to_stay",
+      "english": "To stay",
+      "word": "待",
+      "romanized": "dāi",
+      "englishPhrase": "How long will you stay?",
+      "phrase": "你会待多久？",
+      "phraseRomanized": "nǐ huì dāi duōjiǔ?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "会",
+          "will"
+        ],
+        [
+          "待",
+          "stay"
+        ],
+        [
+          "多久？",
+          "how-long?"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**待** (dāi) = stay/remain (in a place). Note: **待** can also be read as **dài** with a different meaning (treat/deal with). As **dāi** it means to stay/hang around.\n**多久** (duōjiǔ) = how long (in time). Duration question word. Compare: **多少** (how much/how many, for countable amounts) vs **多久** (how long in time duration).\n**会** (huì) here expresses expectation or future: **你会待多久** = how long will you (plan to) stay. This **会** is not about skill, but about what is expected to happen."
+    },
+    {
+      "id": "to_wait",
+      "english": "To wait",
+      "word": "等",
+      "romanized": "děng",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "我在这里等你。",
+      "phraseRomanized": "wǒ zài zhèlǐ děng nǐ.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "这里",
+          "here"
+        ],
+        [
+          "等",
+          "wait"
+        ],
+        [
+          "你。",
+          "you"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**等** (děng) = wait / wait for. Takes a direct object: **等你** (wait for you), **等公交车** (wait for the bus).\n**在这里等** = wait here. The location **在这里** comes before the verb **等** — standard Chinese word order.\n**这里** (zhèlǐ) = here. Compare: **那里** (nàlǐ) = there. Colloquial forms: **这儿** (zhèr) / **那儿** (nàr). **这里** and **那里** are slightly more standard/written."
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "见面",
+      "romanized": "jiànmiàn",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "我们在咖啡厅见面吧。",
+      "phraseRomanized": "wǒmen zài kāfēitīng jiànmiàn ba.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "咖啡厅",
+          "cafe"
+        ],
+        [
+          "见面",
+          "meet"
+        ],
+        [
+          "吧。",
+          "[suggestion]"
+        ]
+      ],
+      "grammarNote": "**见面** (jiànmiàn) = **见** (see/meet) + **面** (face) → meet face-to-face. This is a verb-object compound; you cannot say *见面你 — it doesn't take a direct object.\nTo say 'meet someone': **跟你见面** (meet with you) or simply **见你** (see you). **见面** is intransitive — it describes the act of meeting between parties.\n**在咖啡厅见面**: location before the verb: **在 + place + verb** is the standard order."
+    },
+    {
+      "id": "to_get_lost",
+      "english": "To get lost",
+      "word": "迷路",
+      "romanized": "mílù",
+      "englishPhrase": "I got lost in the city.",
+      "phrase": "我在城市里迷路了。",
+      "phraseRomanized": "wǒ zài chéngshì lǐ mílù le.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "城市",
+          "city"
+        ],
+        [
+          "里",
+          "inside"
+        ],
+        [
+          "迷路",
+          "got-lost"
+        ],
+        [
+          "了。",
+          "[completed]"
+        ]
+      ],
+      "grammarNote": "**迷路** (mílù) = **迷** (get confused/lose oneself) + **路** (road/way) → get lost.\n**在城市里** = in the city. The pattern **在 + place + 里** emphasizes being inside a space: **在城市里** (in the city), **在森林里** (in the forest).\n**了** (le) at the end of the sentence marks a new state or situation: **迷路了** = got lost (and now am lost). This sentence-final **了** expresses a change rather than a completed action."
+    },
+    {
+      "id": "to_find",
+      "english": "To find",
+      "word": "找到",
+      "romanized": "zhǎodào",
+      "englishPhrase": "Did you find the hotel?",
+      "phrase": "你找到酒店了吗？",
+      "phraseRomanized": "nǐ zhǎodào jiǔdiàn le ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "找到",
+          "found"
+        ],
+        [
+          "酒店",
+          "hotel"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**找到** (zhǎodào) = **找** (look for/search) + **到** (reach/attain as result) → find (successfully).\n**到** as a result complement marks that the action achieved its goal: **找** = search, **找到** = search and find it. Compare: **找不到** (zhǎo bu dào) = can't find / search and fail.\nOther examples of **到** as result: **学到** (learn/acquire), **看到** (see), **听到** (hear), **想到** (think of)."
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "找",
+      "romanized": "zhǎo",
+      "englishPhrase": "I'm looking for the train station.",
+      "phrase": "我在找火车站。",
+      "phraseRomanized": "wǒ zài zhǎo huǒchēzhàn.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "[doing]"
+        ],
+        [
+          "找",
+          "looking-for"
+        ],
+        [
+          "火车站。",
+          "train-station"
+        ]
+      ],
+      "grammarNote": "**找** (zhǎo) = look for/seek. When used alone, it means the search is ongoing or the outcome uncertain. Add **到** to show success: **找到** (find/found).\n**在找** (zài zhǎo) = am currently looking for. **在** before a verb marks an ongoing action: **在找** (looking for), **在走** (walking), **在等** (waiting).\n**火车站** (huǒchēzhàn) = **火车** (train) + **站** (stop/station) → train station."
+    },
+    {
+      "id": "to_head",
+      "english": "To head",
+      "word": "前往",
+      "romanized": "qiánwǎng",
+      "englishPhrase": "We are heading to the airport.",
+      "phrase": "我们正前往机场。",
+      "phraseRomanized": "wǒmen zhèng qiánwǎng jīchǎng.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "正",
+          "[doing]"
+        ],
+        [
+          "前往",
+          "heading-to"
+        ],
+        [
+          "机场。",
+          "airport"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**前往** (qiánwǎng) = **前** (forward/ahead) + **往** (go toward) → head to/proceed to. Formal and literary; more common in announcements and written Chinese.\nColloquial equivalent: **去** (qù) = go to.\n**正** (zhèng) = right now / in the process of. A slightly more formal version of **在** for marking ongoing actions: **正前往** = heading to [right now]. **正在** together is also common: **正在前往**."
+    },
+    {
+      "id": "to_continue",
+      "english": "To continue",
+      "word": "继续",
+      "romanized": "jìxù",
+      "englishPhrase": "Continue straight for two kilometers.",
+      "phrase": "继续直走两公里。",
+      "phraseRomanized": "jìxù zhí zǒu liǎng gōnglǐ.",
+      "literal": [
+        [
+          "继续",
+          "continue"
+        ],
+        [
+          "直",
+          "straight"
+        ],
+        [
+          "走",
+          "walk"
+        ],
+        [
+          "两公里。",
+          "two kilometers"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**继续** (jìxù) = **继** (continue/follow on) + **续** (continue/extend) → continue. Both characters carry the meaning of continuation.\n**继续 + verb** = continue doing [something]: **继续走** (keep walking), **继续学习** (continue studying).\n**两公里** (liǎng gōnglǐ) = two kilometres. **公里** (gōnglǐ) = kilometre (**公** = metric/public + **里** = Chinese unit of distance). **两** is used before measure words for 'two', not **二**."
+    },
+    {
+      "id": "to_stop",
+      "english": "To stop",
+      "word": "停下",
+      "romanized": "tíng xià",
+      "englishPhrase": "Stop here, please.",
+      "phrase": "请在这里停下。",
+      "phraseRomanized": "qǐng zài zhèlǐ tíng xià.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "这里",
+          "here"
+        ],
+        [
+          "停下。",
+          "stop"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**停下** (tíng xià) = **停** (stop) + **下** (down/completion complement) → come to a stop. **下** adds a sense of downward completion, as if an action settles.\nCompare: **停** alone = stop (can be temporary), **停下** = stop completely/settle to a halt.\nOther completion-downward complements: **坐下** (sit down), **躺下** (lie down), **放下** (put down), **写下** (write down).\n**在这里停下** = stop here. Location precedes the verb: **在这里** before **停下**."
+    },
+    {
+      "id": "to_park",
+      "english": "To park",
+      "word": "停车",
+      "romanized": "tíngchē",
+      "englishPhrase": "Where can I park?",
+      "phrase": "我在哪里可以停车？",
+      "phraseRomanized": "wǒ zài nǎlǐ kěyǐ tíngchē?",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里",
+          "where"
+        ],
+        [
+          "可以",
+          "can"
+        ],
+        [
+          "停车？",
+          "park?"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**停车** (tíngchē) = **停** (stop) + **车** (vehicle/car) → park (a vehicle) / stop the car.\nThis is a verb-object compound. The **车** can be separated in some contexts: **把车停在这里** (park the car here).\n**在哪里** (zài nǎlǐ) = where (location). In a question: the question word **哪里** simply replaces the unknown location. **我在哪里可以停车** = where can I park (here where exactly)?\n**可以** (kěyǐ) = may/can (permission or possibility)."
+    },
+    {
+      "id": "to_book_to_reserve",
+      "english": "To book",
+      "word": "预订",
+      "romanized": "yùdìng",
+      "englishPhrase": "I'd like to book a room.",
+      "phrase": "我想预订一个房间。",
+      "phraseRomanized": "wǒ xiǎng yùdìng yīgè fángjiān.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "想",
+          "want-to"
+        ],
+        [
+          "预订",
+          "book"
+        ],
+        [
+          "一个",
+          "one"
+        ],
+        [
+          "房间。",
+          "room"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**预订** (yùdìng) = **预** (in advance) + **订** (order/book) → reserve/book in advance. Also written **预定**.\nNote: **房间** uses the general measure word **个** here, but the more specific measure word for rooms is **间** (jiān): **一间房间** is also very common and sounds more natural.\n**想** (xiǎng) = want to / would like to. A softer expression of desire than **要** (yào). **我想** + verb = I'd like to [do something]."
+    },
+    {
+      "id": "to_check_in",
+      "english": "To check in",
+      "word": "办理入住",
+      "romanized": "bànlǐ rùzhù",
+      "englishPhrase": "I'm here to check in.",
+      "phrase": "我来办理入住。",
+      "phraseRomanized": "wǒ lái bànlǐ rùzhù.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "来",
+          "come"
+        ],
+        [
+          "办理",
+          "handle"
+        ],
+        [
+          "入住。",
+          "check-in"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**办理入住** (bànlǐ rùzhù) = **办理** (handle/process) + **入住** (enter and stay) → check in (to a hotel).\n**入住** (rùzhù) = **入** (enter) + **住** (stay) → check in/move in.\n**来** (lái) = come. **我来** + verb = 'I've come to [do something]': **我来办理入住** (I've come to check in). This construction explains the purpose of coming.\nContrast: **我来了** = I've arrived (no stated purpose), **我来[verb]** = I've come to [do something]."
+    },
+    {
+      "id": "to_check_out",
+      "english": "To check out",
+      "word": "退房",
+      "romanized": "tuìfáng",
+      "englishPhrase": "We need to check out by noon.",
+      "phrase": "我们需要在中午前退房。",
+      "phraseRomanized": "wǒmen xūyào zài zhōngwǔ qián tuìfáng.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "中午",
+          "noon"
+        ],
+        [
+          "前",
+          "before"
+        ],
+        [
+          "退房。",
+          "check-out"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**退房** (tuìfáng) = **退** (return/give back) + **房** (room) → check out (literally 'return the room'). A very logical compound.\n**在中午前** = before noon. **前** (qián) = before (time). Time patterns: **在...前** (before...), **在...后** (after...), **在...时** (during...). The time phrase comes before the main verb.\n**需要** (xūyào) = need to. Followed directly by a verb: **需要退房** (need to check out)."
+    },
+    {
+      "id": "nearby",
+      "english": "Nearby",
+      "word": "附近",
+      "romanized": "fùjìn",
+      "englishPhrase": "Is there a bus stop nearby?",
+      "phrase": "附近有公交站吗？",
+      "phraseRomanized": "fùjìn yǒu gōngjiāo zhàn ma?",
+      "literal": [
+        [
+          "附近",
+          "nearby"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "公交站",
+          "bus-stop"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**附近** (fùjìn) used at the start of the sentence functions as a location subject: **附近有...** = there is... nearby. This is the standard existential pattern: **[location] + 有 + [thing]**.\n**公交站** (gōngjiāo zhàn) = bus stop. **公交** is short for **公共交通** (public transport).\n**吗** (ma) at the end turns a statement into a yes/no question: **附近有公交站** → **附近有公交站吗？** No change in word order needed — just add **吗**."
+    },
+    {
+      "id": "busy",
+      "english": "Busy",
+      "word": "繁忙的",
+      "romanized": "fánmáng de",
+      "englishPhrase": "The city centre is very busy.",
+      "phrase": "市中心非常繁忙。",
+      "phraseRomanized": "shì zhōngxīn fēicháng fánmáng.",
+      "literal": [
+        [
+          "市中心",
+          "city-centre"
+        ],
+        [
+          "非常",
+          "extremely"
+        ],
+        [
+          "繁忙。",
+          "busy"
+        ]
+      ],
+      "grammarNote": "**繁忙** (fánmáng) = **繁** (numerous/complex) + **忙** (busy) → busy/hectic. **繁** on its own means 'numerous/proliferating'.\nNote: when used as a predicate adjective (describing the subject directly), Chinese adjectives don't need **是**: **市中心非常繁忙** (the city centre is very busy) — no **是** before **繁忙**.\n**非常** (fēicháng) = extremely/very. Stronger than **很** (hěn). **非常** vs **很**: **非常好** (extremely good) > **很好** (very good)."
+    },
+    {
+      "id": "quiet",
+      "english": "Quiet",
+      "word": "安静的",
+      "romanized": "ānjìng de",
+      "englishPhrase": "This neighbourhood is very quiet.",
+      "phrase": "这个街区非常安静。",
+      "phraseRomanized": "zhège jiēqū fēicháng ānjìng.",
+      "literal": [
+        [
+          "这个",
+          "this"
+        ],
+        [
+          "街区",
+          "neighbourhood"
+        ],
+        [
+          "非常",
+          "extremely"
+        ],
+        [
+          "安静。",
+          "quiet"
+        ]
+      ],
+      "grammarNote": "**安静** (ānjìng) = **安** (peaceful/safe) + **静** (still/quiet) → quiet/peaceful.\nPredicate position vs attributive position: **这个街区安静** (the neighbourhood is quiet — predicate) vs **安静的街区** (a quiet neighbourhood — attributive, before the noun). **的** is needed before the noun but not in predicate position.\n**这个** (zhège) = this (+ measure word **个**). For places and things: **这个地方** (this place), **这个街区** (this neighbourhood)."
+    },
+    {
+      "id": "lost",
+      "english": "Lost",
+      "word": "迷路了",
+      "romanized": "mílù le",
+      "englishPhrase": "I'm lost. Can you help me?",
+      "phrase": "我迷路了，你能帮我吗？",
+      "phraseRomanized": "wǒ mílù le, nǐ néng bāng wǒ ma?",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "迷路",
+          "lost"
+        ],
+        [
+          "了，",
+          "[now],"
+        ],
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "帮",
+          "help"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**迷路了** (mílù le) — the **了** here is a sentence-final **了** signalling a change of state: 'I have become lost / I am now lost.'\n**帮** (bāng) = help. **帮我** = help me. The full form is **帮助** (bāngzhù), but **帮** alone is common in speech.\n**能** (néng) = can (ability, circumstance). **你能帮我吗？** = Can you help me? Compare: **你可以帮我吗** (is it okay for you to help me? — permission), **你会帮我吗** (will you help me? — expectation/willingness)."
+    }
+  ]
+}

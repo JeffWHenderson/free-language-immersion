@@ -1,0 +1,697 @@
+{
+  "id": "everyday_phrases",
+  "name": "Everyday Phrases",
+  "language": "french",
+  "stories": [
+    "morning_routine",
+    "meeting_a_friend",
+    "making_plans",
+    "meet_jeff",
+    "a_phone_call",
+    "going_shopping"
+  ],
+  "grammarLessons": [
+    {
+      "id": "numbers",
+      "name": "Numbers 0–100"
+    },
+    {
+      "id": "time_words",
+      "name": "Time Words & Days"
+    },
+    {
+      "id": "articles",
+      "name": "Articles — le, la, les, un, une"
+    },
+    {
+      "id": "etre",
+      "name": "Être — To Be"
+    },
+    {
+      "id": "negation",
+      "name": "La Négation — ne...pas"
+    },
+    {
+      "id": "tres_trop",
+      "name": "très & trop — Very & Too"
+    },
+    {
+      "id": "passe_compose",
+      "name": "Le Passé Composé — Past Tense"
+    },
+    {
+      "id": "object_pronouns_direct",
+      "name": "Les Pronoms COD — Direct Object Pronouns"
+    },
+    {
+      "id": "deja_encore_toujours",
+      "name": "déjà, encore, toujours — Temporal Adverbs"
+    },
+    {
+      "id": "futur_simple",
+      "name": "Le Futur Simple — Simple Future"
+    },
+    {
+      "id": "word_patterns",
+      "name": "Word Patterns"
+    }
+  ],
+  "cards": [
+    {
+      "id": "hello",
+      "english": "Hello",
+      "word": "bonjour",
+      "grammarNote": "**bonjour** = **bon** (good) + **jour** (day), from Latin **bonus dies**.\nUsed for both 'good morning' and 'good afternoon'. In France, saying bonjour when entering any shop or meeting anyone is culturally essential — skipping it reads as rude.",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "Bonjour ! Comment allez-vous ?"
+    },
+    {
+      "id": "please",
+      "english": "Please",
+      "word": "s'il vous plaît",
+      "grammarNote": "**s'il vous plaît** = 'if it pleases you' (formal/plural). Informal: **s'il te plaît**.\nBreaking it down: **s'il** = si + il (if it) · **vous** = you (formal) · **plaît** = pleases (from **plaire**).\nCan open a request: S'il vous plaît, où est… ?",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "Un café, s'il vous plaît."
+    },
+    {
+      "id": "thank_you",
+      "english": "Thank you",
+      "word": "merci",
+      "grammarNote": "**merci** comes from Latin **mercedem** (payment, reward) — the same root as English 'mercy'.\n**Merci beaucoup** = thank you very much · **merci bien** = thanks a lot (can be slightly sarcastic in tone).\nResponse: **de rien** (you're welcome) or **avec plaisir** (with pleasure, more warm).",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "Merci beaucoup."
+    },
+    {
+      "id": "i_want",
+      "english": "I want",
+      "word": "je veux",
+      "grammarNote": "**vouloir** is irregular: je **veux**, tu **veux**, il **veut**, nous **voulons**, vous **voulez**, ils **veulent**.\nIn a shop or restaurant, **je voudrais** (I would like) is more polite than **je veux** — the conditional softens the request.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "Je veux un café."
+    },
+    {
+      "id": "i_need",
+      "english": "I need",
+      "word": "j'ai besoin de",
+      "grammarNote": "**avoir besoin de** = to need (literally 'to have need of').\nj'ai besoin d'aide · j'ai besoin de temps\n**de** contracts before a vowel: besoin **d'**aide.",
+      "englishPhrase": "I need help.",
+      "phrase": "J'ai besoin d'aide."
+    },
+    {
+      "id": "my_name_is",
+      "english": "My name is",
+      "word": "je m'appelle",
+      "grammarNote": "**je m'appelle** uses the reflexive verb **s'appeler** — literally 'I call myself'. Much more natural than 'mon nom est'.\nThe double l in *appelle* preserves the /ɛl/ sound.",
+      "englishPhrase": "My name is Marie.",
+      "phrase": "Je m'appelle Marie."
+    },
+    {
+      "id": "i",
+      "english": "I",
+      "word": "je",
+      "grammarNote": "**je** becomes **j'** before a vowel or silent h: **j'**aime, **j'**habite, **j'**ai.\nThis elision is mandatory — *je aime* is never written or spoken.\nSubject pronouns in French cannot be dropped as in Spanish; **je** must always appear.",
+      "englishPhrase": "I am a student.",
+      "phrase": "Je suis étudiant."
+    },
+    {
+      "id": "you",
+      "english": "You",
+      "word": "tu",
+      "grammarNote": "**tu** = informal (one person you know) · **vous** = formal or plural.\nUsing tu with a stranger can feel rude; vous is always safe. The shift from vous to tu (**tutoyer**) is a social milestone in French relationships.",
+      "englishPhrase": "You speak French well.",
+      "phrase": "Tu parles bien français."
+    },
+    {
+      "id": "he",
+      "english": "He",
+      "word": "il",
+      "grammarNote": "**il** = he (for a person) or 'it' (for any masculine noun).\n**elle** = she, or 'it' for feminine nouns.\nEvery French noun has grammatical gender — there is no neutral pronoun. **le livre** → il est intéressant. **la table** → elle est grande.",
+      "englishPhrase": "He is my friend.",
+      "phrase": "Il est mon ami."
+    },
+    {
+      "id": "she",
+      "english": "She",
+      "word": "elle",
+      "grammarNote": "**elle** = she (person) or 'it' for any feminine noun.\nPlural: **elles** (all-female group) · **ils** (mixed or all-male group).\nNote: a group of 100 women + 1 man = **ils** in traditional grammar — though modern usage is evolving.",
+      "englishPhrase": "She works here.",
+      "phrase": "Elle travaille ici."
+    },
+    {
+      "id": "good_night",
+      "english": "Good night",
+      "word": "bonne nuit",
+      "grammarNote": "**bonne nuit** = **bonne** (good, fem.) + **nuit** (night, fem.) — **la nuit** is feminine.\nOnly used when someone is going to bed — not as a general evening farewell.\nFor a daytime farewell: **bonne journée** · evening departure: **bonne soirée**.",
+      "englishPhrase": "Good night, sleep well!",
+      "phrase": "Bonne nuit, dors bien !",
+      "literal": [["Bonne","good"],["nuit","night"],["dors","sleep"],["bien","well"]]
+    },
+    {
+      "id": "how_are_you",
+      "english": "How are you?",
+      "word": "comment allez-vous ?",
+      "grammarNote": "**comment allez-vous ?** = formal inversion form (**allez-vous** = are you going).\nInformal: **comment tu vas ?** or just **ça va ?**\n**Comment ça va ?** literally means 'how is it going?' — a very common casual greeting.\nThe standard reply: **ça va bien, merci** (going well, thanks).",
+      "englishPhrase": "How are you? Very well, thanks.",
+      "phrase": "Comment allez-vous ? Très bien, merci.",
+      "literal": [["Comment","how"],["allez-vous","are-you-going"],["Très","very"],["bien","well"],["merci","thanks"]]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you",
+      "word": "enchanté(e)",
+      "grammarNote": "**enchanté(e)** = past participle of **enchanter** (to enchant) — literally 'enchanted'.\nAdjectives agree with the speaker's gender: a man says **enchanté**, a woman says **enchantée**.\n**Enchanté de faire votre connaissance** is the full, formal phrase.",
+      "englishPhrase": "Nice to meet you.",
+      "phrase": "Enchanté de faire votre connaissance.",
+      "literal": [["Enchanté","pleased"],["de","to"],["faire","make"],["votre","your"],["connaissance","acquaintance"]]
+    },
+    {
+      "id": "youre_welcome",
+      "english": "You're welcome",
+      "word": "de rien",
+      "grammarNote": "**de rien** = literally 'of nothing' — the most common informal response to merci.\nMore warm alternatives: **avec plaisir** (with pleasure) · **je vous en prie** (formal, 'I beg of you') · **c'est normal** (it's nothing).\nIn Québec French, **bienvenue** is used for 'you're welcome'.",
+      "englishPhrase": "Thank you! — You're welcome.",
+      "phrase": "Merci ! — De rien.",
+      "literal": [["De","of"],["rien","nothing"]]
+    },
+    {
+      "id": "it",
+      "english": "It",
+      "word": "il",
+      "grammarNote": "French has no neutral pronoun — every noun is masculine (**il**) or feminine (**elle**).\nFor abstract ideas or pointing at things: **ça** (that/it). C'est ça = 'that's it / exactly'.",
+      "englishPhrase": "That's it",
+      "phrase": "C'est ça.",
+      "hidden": true
+    },
+    {
+      "id": "we",
+      "english": "We",
+      "word": "nous",
+      "grammarNote": "**on** is used conversationally to mean 'we' — more common than **nous** in everyday speech.\non takes the same verb form as il/elle: on mange, on va, on est.",
+      "englishPhrase": "We live here.",
+      "phrase": "On habite ici."
+    },
+    {
+      "id": "they",
+      "english": "They",
+      "word": "ils",
+      "grammarNote": "**ils** = masculine or mixed-gender group · **elles** = all-feminine group.\nLiaison: **ils_** and **elles_** link to a following vowel — **ils_ont**, **elles_arrivent**.\nIn spoken French, the subject pronoun is always required unlike in languages like Spanish or Italian.",
+      "englishPhrase": "They eat together.",
+      "phrase": "Ils mangent ensemble."
+    },
+    {
+      "id": "this",
+      "english": "This",
+      "word": "ce",
+      "grammarNote": "**ce** (m.) / **cet** (m. before vowel) / **cette** (f.) + noun:\nce livre · cet homme · cette table\nAs a standalone pronoun: **ceci** (this) · **cela/ça** (that).",
+      "englishPhrase": "This book is good.",
+      "phrase": "Ce livre est bon."
+    },
+    {
+      "id": "that",
+      "english": "That",
+      "word": "ce",
+      "grammarNote": "French uses the same demonstrative adjectives for 'this' and 'that': **ce/cet/cette/ces**.\nTo distinguish this vs. that, add **-ci** (here) or **-là** (there): ce livre**-ci** (this book) vs. ce livre**-là** (that book).\n**Cette** is feminine: **cette** personne, **cette** table.",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "Cette personne est mon amie."
+    },
+    {
+      "id": "my",
+      "english": "My",
+      "word": "mon",
+      "grammarNote": "Possessives agree with the thing possessed, not the owner:\n**mon** livre (m.) · **ma** table (f.) · **mes** livres (pl.)\nBefore a feminine noun starting with a vowel: **mon** amie (not *ma amie*).",
+      "englishPhrase": "My name is Carlos.",
+      "phrase": "Mon prénom est Carlos."
+    },
+    {
+      "id": "who",
+      "english": "Who",
+      "word": "qui",
+      "grammarNote": "**qui** = who (subject) in both questions and relative clauses.\n**Qui est cette personne ?** (question) · **la personne qui parle** (relative clause)\nAs an object: **que** — **la personne que je connais** (the person I know).",
+      "englishPhrase": "Who is that person?",
+      "phrase": "Qui est cette personne ?"
+    },
+    {
+      "id": "what",
+      "english": "What",
+      "word": "quoi",
+      "grammarNote": "**quoi** = what (standalone or after a preposition): de quoi, avec quoi, pour quoi.\nIn questions: **qu'est-ce que** (what, as object) is the most common spoken form.\n**Que** is used in formal inversion: **Que voulez-vous ?**\nNever say *quoi est-ce* — use qu'est-ce que or quoi at the end: Tu veux quoi ?",
+      "englishPhrase": "What do you want?",
+      "phrase": "Qu'est-ce que tu veux ?"
+    },
+    {
+      "id": "when",
+      "english": "When",
+      "word": "quand",
+      "grammarNote": "**quand** = when (question word or conjunction).\nAs a question: **Quand est-ce que tu arrives ?** or informal **Tu arrives quand ?**\nAs a conjunction: **quand il pleut** (when it rains) — note that French uses present or future tense after quand for future meaning, just like English.",
+      "englishPhrase": "When do you arrive?",
+      "phrase": "Quand est-ce que tu arrives ?"
+    },
+    {
+      "id": "where",
+      "english": "Where",
+      "word": "où",
+      "grammarNote": "**où** = where (always with an accent grave to distinguish from the conjunction **ou** = or).\n**Où sont les toilettes ?** (formal) · **Les toilettes, c'est où ?** (casual)\nAlso used in relative clauses: **la ville où j'habite** (the city where I live).",
+      "englishPhrase": "Where are the toilets?",
+      "phrase": "Où sont les toilettes ?"
+    },
+    {
+      "id": "why",
+      "english": "Why",
+      "word": "pourquoi",
+      "grammarNote": "**pourquoi** = **pour** (for) + **quoi** (what) — literally 'for what?'\nThe answer uses **parce que** (because): **Pourquoi ? Parce que…**\nDon't confuse with **car** (for, because) which is more literary.",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "Pourquoi tu ne peux pas venir ?"
+    },
+    {
+      "id": "how",
+      "english": "How",
+      "word": "comment",
+      "grammarNote": "**comment** = how. Also used for 'what did you say?' (politely): **Comment ?**\n**Comment tu vas ?** (informal) · **Comment allez-vous ?** (formal inversion)\n**Comment dit-on… ?** = how do you say…? — a useful learner's phrase.",
+      "englishPhrase": "How are you?",
+      "phrase": "Comment tu vas ?"
+    },
+    {
+      "id": "good_morning",
+      "english": "Good morning",
+      "word": "bonjour",
+      "grammarNote": "**bonjour** covers both 'good morning' and 'good afternoon'. **bonsoir** = good evening (from ~6pm). **bonne nuit** = good night (only when going to bed).\nIn France, saying bonjour when entering a shop is expected.",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "Bonjour ! Vous avez bien dormi ?"
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "chercher",
+      "grammarNote": "**chercher** = to look for (a regular -er verb: je cherche, tu cherches…).\nImportantly, **chercher** already includes 'for' — never say *chercher pour*.\nCompare: **trouver** (to find) · **retrouver** (to find again / to meet up with).",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "Je cherche la sortie."
+    },
+    {
+      "id": "excuse_me",
+      "english": "Excuse me",
+      "word": "excusez-moi",
+      "grammarNote": "**pardon** = excuse me (passing someone or mishearing).\n**excusez-moi** = excuse me (getting attention, more formal).\n**s'il vous plaît** can also open a request: 'S'il vous plaît, où est…?'",
+      "englishPhrase": "Excuse me, where is the main street?",
+      "phrase": "Pardon, où est la rue principale ?"
+    },
+    {
+      "id": "to_be_able_to_can",
+      "english": "To be able to",
+      "word": "pouvoir",
+      "grammarNote": "**pouvoir** (to be able to / can) is irregular: je **peux**, tu **peux**, il **peut**, nous **pouvons**, vous **pouvez**, ils **peuvent**.\n**Vous pouvez m'aider ?** = informal question (rising intonation)\nFormal equivalent: **Pouvez-vous m'aider ?** (inversion).",
+      "englishPhrase": "Can you help me?",
+      "phrase": "Vous pouvez m'aider ?"
+    },
+    {
+      "id": "i_dont_know",
+      "english": "I don't know",
+      "word": "je ne sais pas",
+      "grammarNote": "**ne…pas** wraps the verb in negation: je **ne** sais **pas**.\nIn spoken French, **ne** is very commonly dropped: **Je sais pas où c'est.**\n**Savoir** (to know a fact) vs. **connaître** (to know a person or place) — two different verbs for 'to know'.",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "Je ne sais pas où c'est."
+    },
+    {
+      "id": "to_have",
+      "english": "To have",
+      "word": "avoir",
+      "grammarNote": "**avoir** is used for physical states (not être):\nj'ai faim · j'ai soif · j'ai froid/chaud · j'ai peur\nThese are 'having' a sensation, not 'being' one.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "J'ai faim. Tu as de l'eau ?"
+    },
+    {
+      "id": "to_do_make",
+      "english": "To do",
+      "word": "faire",
+      "grammarNote": "**faire** = to do AND to make — one verb covers both English meanings.\nIrregular: je **fais**, tu **fais**, il **fait**, nous **faisons**, vous **faites**, ils **font**.\nAlso used for weather: **il fait chaud** (it's hot), **il fait beau** (it's nice out).",
+      "englishPhrase": "What are you doing?",
+      "phrase": "Qu'est-ce que tu fais ?"
+    },
+    {
+      "id": "to_eat",
+      "english": "To eat",
+      "word": "manger",
+      "grammarNote": "**manger** is a regular -er verb but adds an **e** before **-ons** to keep the soft g sound: nous mang**e**ons.\nWith partitive articles for food: **je mange du pain**, **je mange de la salade**, **je mange des fruits**.\nAfter negation the partitive becomes **de**: je **ne** mange **pas de** viande.",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "On mange où ?"
+    },
+    {
+      "id": "to_like",
+      "english": "To like",
+      "word": "aimer",
+      "grammarNote": "**aimer** = to love (people) or to like (things).\n**aimer bien** softens it to 'like' rather than 'love': J'aime bien le café. Saying j'aime le café is fine but stronger.",
+      "englishPhrase": "I like coffee.",
+      "phrase": "J'aime bien le café."
+    },
+    {
+      "id": "but",
+      "english": "But",
+      "word": "mais",
+      "grammarNote": "**mais** = but. One of the MAISOB conjunctions (mais, alors, if, so, or, but — a classic mnemonic is **MAISOB**: **m**ais, **a**lors, **i**l, **s**i, **o**u, **b**ien).\nNote: **mais** vs. **mais non** vs. **mais si** — **mais si** is used to contradict a negative: 'Tu n'aimes pas ça ?' → 'Mais si!' (Yes I do!).",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "Je veux y aller, mais je ne peux pas."
+    },
+    {
+      "id": "and",
+      "english": "And",
+      "word": "et",
+      "grammarNote": "**et** = and. The t is never pronounced before a vowel — no liaison: **et_** + vowel does NOT link.\nThis is a key exception to liaison rules: 'un café **et** un thé' — the t is silent.\nNote the partitive articles in the phrase: **de l'**eau (de + l') and **de la** nourriture.",
+      "englishPhrase": "Water and food.",
+      "phrase": "De l'eau et de la nourriture."
+    },
+    {
+      "id": "or",
+      "english": "Or",
+      "word": "ou",
+      "grammarNote": "**ou** (or) must be distinguished from **où** (where) — the accent marks a completely different word.\n**ou bien** = or else / or rather (slightly more emphatic).\nIn questions: **Thé ou café ?** — rising intonation makes it a question without any question word.",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "Thé ou café ?"
+    },
+    {
+      "id": "hungry",
+      "english": "Hungry",
+      "word": "j'ai faim",
+      "grammarNote": "French uses **avoir** for hunger, thirst, and temperature — never être:\n**j'ai faim** (hungry) · **j'ai soif** (thirsty) · **j'ai froid/chaud** (cold/hot)",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "J'ai très faim."
+    },
+    {
+      "id": "thirsty",
+      "english": "Thirsty",
+      "word": "j'ai soif",
+      "grammarNote": "**soif** is a feminine noun (la soif) though you rarely see it with an article in this phrase.\n**J'ai très soif** — note that **très** modifies the noun here, not an adjective, which is unusual in English ('I'm very thirsty') but natural in French.\nRelated: **mourir de soif** (dying of thirst — a common hyperbolic expression).",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "J'ai très soif."
+    },
+    {
+      "id": "person",
+      "english": "Person",
+      "word": "personne",
+      "grammarNote": "**la personne** = person (always feminine, even when referring to a man).\nDouble duty: **personne** also means 'nobody' in negation: **je ne vois personne** (I see nobody).\nContext distinguishes: **une personne** (a person) vs. **ne…personne** (nobody).",
+      "englishPhrase": "Who is that person?",
+      "phrase": "Qui est cette personne ?",
+      "hidden": true
+    },
+    {
+      "id": "place",
+      "english": "Place",
+      "word": "endroit",
+      "grammarNote": "**un endroit** = a place, spot, location (masculine).\n**un lieu** is a more formal synonym: un lieu de rencontre (a meeting place).\n**une place** = a square (public space) or a seat — not a generic 'place': **la place de la Bastille**, **une place dans le train**.",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "Tu connais un bon endroit ?",
+      "hidden": true
+    },
+    {
+      "id": "thing",
+      "english": "Thing",
+      "word": "chose",
+      "grammarNote": "**une chose** = a thing (feminine).\n**quelque chose** = something (invariable): **tu veux quelque chose ?**\n**quelque chose de bon** — after **quelque chose de**, the adjective is always masculine: **quelque chose de délicieux**, **quelque chose d'intéressant**.",
+      "englishPhrase": "What is that thing?",
+      "phrase": "Qu'est-ce que c'est que ça ?",
+      "hidden": true
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "ici",
+      "grammarNote": "**ici** = here (location) · **là** = there, but also used for 'here' in spoken French.\n**Viens ici !** = Come here! (using **tu** form of **venir**: viens).\n**par ici** = this way · **par là** = that way — useful for giving directions.",
+      "englishPhrase": "Come here!",
+      "phrase": "Viens ici !"
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "là",
+      "grammarNote": "**là** = there, but also frequently used to mean 'here' in casual speech: **je suis là** (I'm here).\n**là-bas** = over there (more distant) · **là-haut** = up there · **là-dedans** = in there.\nNote: **là** (there/here) vs. **la** (the, feminine article) — the accent makes all the difference.",
+      "englishPhrase": "The toilets are over there.",
+      "phrase": "Les toilettes sont là-bas."
+    },
+    {
+      "id": "very",
+      "english": "Very",
+      "word": "très",
+      "grammarNote": "**très** = very (modifies adjectives and some adverbs): **très bien**, **très grand**, **très lentement**.\nDon't confuse with **trop** (too/too much): **trop chaud** (too hot) vs. **très chaud** (very hot).\nNote: **très** cannot directly modify a noun — use **beaucoup** instead: **beaucoup de travail** (a lot of work).",
+      "englishPhrase": "It's very good.",
+      "phrase": "C'est très bien."
+    },
+    {
+      "id": "goodbye",
+      "english": "Goodbye",
+      "word": "au revoir",
+      "grammarNote": "**au revoir** = **au** (à + le) + **revoir** (to see again) — literally 'until we see each other again'.\nInformal: **salut** (also used for hello), **ciao**, **à plus** (see ya), **à tout à l'heure** (see you soon).\n**À bientôt** = see you soon · **À demain** = see you tomorrow · **À samedi** = see you Saturday.",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "Au revoir ! À demain."
+    },
+    {
+      "id": "water",
+      "english": "Water",
+      "word": "eau",
+      "grammarNote": "**eau** is feminine. Use the partitive **de l'eau** for an unspecified amount.\nThe partitive (**du** / **de la** / **de l'**) is used when quantity is unspecified — very common with food and drink.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "Un verre d'eau, s'il vous plaît.",
+      "hidden": true
+    },
+    {
+      "id": "food",
+      "english": "Food",
+      "word": "nourriture",
+      "grammarNote": "**la nourriture** = food in general (uncountable, feminine).\nAlternatives: **les aliments** (foodstuffs, more technical) · **à manger** (something to eat, informal): **j'ai acheté à manger**.\nUse the partitive for an unspecified amount: **de la nourriture** (some food).",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "La nourriture est délicieuse.",
+      "hidden": true
+    },
+    {
+      "id": "house_home",
+      "english": "House",
+      "word": "maison",
+      "grammarNote": "**la maison** = house or home (feminine). From Latin **mansio**.\n**chez moi** = at my place/home — much more natural than 'à ma maison' in everyday speech: **je rentre chez moi** (I'm going home).\n**à la maison** = at home (when staying in) · **à la maison** vs. **chez moi** are largely interchangeable.",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "Ma maison est près d'ici.",
+      "hidden": true
+    },
+    {
+      "id": "store_shop",
+      "english": "Store",
+      "word": "magasin",
+      "grammarNote": "**le magasin** = store, shop (general).\n**une boutique** = a small, often fashionable shop.\n**au magasin** — à + le = **au**: je vais **au** magasin.\nSpecific shops: **la boulangerie** (bakery), **la pharmacie** (pharmacy), **l'épicerie** (grocery).",
+      "englishPhrase": "The store is closed.",
+      "phrase": "Le magasin est fermé."
+    },
+    {
+      "id": "cash_credit",
+      "english": "Cash",
+      "word": "espèces",
+      "grammarNote": "**les espèces** = cash (always plural in this sense).\n**en espèces** = in cash · **par carte** = by card.\nNote the formal register of **Vous payez** (are you paying?) — using **vous** to address a customer is standard in shops.",
+      "englishPhrase": "Cash or card?",
+      "phrase": "Vous payez en espèces ou par carte ?"
+    },
+    {
+      "id": "help",
+      "english": "Help",
+      "word": "aide",
+      "grammarNote": "**l'aide** is feminine: **une aide** (a help/an aid).\n**aider** = to help (regular -er verb): **je vous aide ?** (can I help you?)\n**Au secours !** = Help! (emergency) · **à l'aide !** = Help! (less urgent, calling for assistance).",
+      "englishPhrase": "I need help.",
+      "phrase": "J'ai besoin d'aide."
+    },
+    {
+      "id": "bathroom",
+      "english": "Bathroom",
+      "word": "toilettes",
+      "grammarNote": "**les toilettes** = the toilet/restroom (almost always plural in French).\n**la salle de bain** = the bathroom (where you bathe/shower) — the two rooms are often separate in French homes.\nIn public: **les WC** (pronounced 'veh-say') is also common. Never say **la bathroom** — it's an anglicism.",
+      "englishPhrase": "Where are the toilets?",
+      "phrase": "Où sont les toilettes ?"
+    },
+    {
+      "id": "always",
+      "english": "Always",
+      "word": "toujours",
+      "grammarNote": "**toujours** = always OR still (two meanings depending on context).\n**Je prends toujours un café** = I always have a coffee.\n**Il est toujours là** = He's still there.\n**Toujours** comes after the verb in simple tenses and between **avoir/être** and the past participle: **j'ai toujours aimé le café**.",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "Je prends toujours un café le matin."
+    },
+    {
+      "id": "never",
+      "english": "Never",
+      "word": "jamais",
+      "grammarNote": "**jamais** pairs with **ne** to form the negative: ne … jamais.\nIn spoken French the ne is often dropped: J'arrive jamais en retard.\n**Jamais** alone in answer to a question means 'never'.",
+      "englishPhrase": "I never arrive late.",
+      "phrase": "Je n'arrive jamais en retard."
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "aller",
+      "grammarNote": "**aller + infinitive** = the near future (futur proche):\nje vais manger · on va partir · tu vas voir\nThe most common way to talk about immediate future plans in French.",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "Je vais au magasin."
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "venir",
+      "grammarNote": "**venir** is irregular: je **viens**, tu **viens**, il **vient**, nous **venons**, vous **venez**, ils **viennent**.\n**venir de + infinitive** = to have just done something (recent past): **je viens de manger** (I just ate).\n**Tu viens d'où ?** = Where are you from? — literally 'you come from where?'",
+      "englishPhrase": "Where are you coming from?",
+      "phrase": "Tu viens d'où ?"
+    },
+    {
+      "id": "to_understand",
+      "english": "To understand",
+      "word": "comprendre",
+      "grammarNote": "**comprendre** (to understand) is conjugated like **prendre**: je **comprends**, tu **comprends**, il **comprend**, nous **comprenons**.\n**Je ne comprends pas** — full negation with **ne…pas**.\n**Vous comprenez ?** (Do you understand?) uses **vous** for formal/plural address.",
+      "englishPhrase": "I don't understand.",
+      "phrase": "Je ne comprends pas."
+    },
+    {
+      "id": "to_speak_talk",
+      "english": "To speak",
+      "word": "parler",
+      "grammarNote": "**parler** is a regular -er verb: je **parle**, tu **parles**, il **parle**, nous **parlons**, vous **parlez**, ils **parlent**.\nLanguages follow **parler** directly with no article: **parler français**, **parler anglais** — not *parler le français*.\nNote **vous** here — addressing a stranger formally.",
+      "englishPhrase": "Do you speak French?",
+      "phrase": "Vous parlez français ?"
+    },
+    {
+      "id": "to_give",
+      "english": "To give",
+      "word": "donner",
+      "grammarNote": "**donner** is a regular -er verb.\n**Donnez-moi** = give me (imperative + indirect object pronoun **moi**).\nWord order with pronouns changes in imperatives: in statements **me** comes before the verb, but in positive imperatives **moi** follows: **donnez-**moi, **donne-**moi.",
+      "englishPhrase": "Give me the menu, please.",
+      "phrase": "Donnez-moi le menu, s'il vous plaît."
+    },
+    {
+      "id": "to_see",
+      "english": "To see",
+      "word": "voir",
+      "grammarNote": "**voir** is irregular: je **vois**, tu **vois**, il **voit**, nous **voyons**, vous **voyez**, ils **voient**.\n**Je ne peux rien voir** — double object: **ne…rien** (nothing) wraps the verb plus infinitive.\n**rien** in negation replaces a direct object: je ne vois **rien** (I see nothing) vs. je ne vois **pas** de… (I don't see any…).",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "Je ne peux rien voir."
+    },
+    {
+      "id": "with",
+      "english": "With",
+      "word": "avec",
+      "grammarNote": "**avec** = with. Preposition, always followed by a noun or pronoun.\n**Je suis venu** uses **être** in the passé composé because **venir** is a movement verb — past participle **venu** agrees with the subject (masculine singular here).\nA woman would say: **je suis venue** avec mon ami.",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "Je suis venu avec mon ami."
+    },
+    {
+      "id": "without",
+      "english": "Without",
+      "word": "sans",
+      "grammarNote": "**sans** = without. Always followed by a noun with **no article**: **sans sucre**, **sans lait**, **sans problème**.\nWith an indefinite article, the article is dropped after **sans**: *café sans un sucre* → **café sans sucre**.\nContrast: **avec** (with) keeps the article: **avec du lait**.",
+      "englishPhrase": "Coffee without sugar, please.",
+      "phrase": "Café sans sucre, s'il vous plaît."
+    },
+    {
+      "id": "for",
+      "english": "For",
+      "word": "pour",
+      "grammarNote": "**pour** = for (purpose, destination, duration in future).\n**C'est pour toi** — **toi** is the stressed/disjunctive pronoun (moi, toi, lui, elle, nous, vous, eux, elles).\nUsed after prepositions: **pour moi**, **avec toi**, **sans lui**.",
+      "englishPhrase": "This is for you.",
+      "phrase": "C'est pour toi.",
+      "hidden": true
+    },
+    {
+      "id": "in_on_at",
+      "english": "In",
+      "word": "dans",
+      "grammarNote": "**dans** = inside a space (dans le café) · **sur** = on top of (sur la table)\n**en** = in + language/country/material: en français, en France, en coton\n**à** = at/to a specific place: à Paris, au magasin",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "Le livre est sur la table.",
+      "hidden": true
+    },
+    {
+      "id": "from",
+      "english": "From",
+      "word": "de",
+      "grammarNote": "**de** = from, of, about.\n**Je suis de Paris** = I'm from Paris.\n**de** contracts with **le** → **du** and with **les** → **des**: **du magasin**, **des enfants**.\nBefore a vowel: **de l'** — **de l'**école, **de l'**eau.",
+      "englishPhrase": "I'm from Paris.",
+      "phrase": "Je suis de Paris.",
+      "hidden": true
+    },
+    {
+      "id": "good",
+      "english": "Good",
+      "word": "bon",
+      "grammarNote": "**bon** (m.) / **bonne** (f.) — agrees with the noun it modifies.\n**C'est une bonne idée** — **idée** is feminine, so **bonne**.\n**Bien** is also 'good' but as an adverb: **c'est bien** (that's good/nice) vs. **c'est bon** (that tastes good / it's good).",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "C'est une bonne idée."
+    },
+    {
+      "id": "bad",
+      "english": "Bad",
+      "word": "mauvais",
+      "grammarNote": "**mauvais** (m.) / **mauvaise** (f.) — adjective agrees with its noun.\n**C'est une mauvaise nouvelle** — **nouvelle** (news/a piece of news) is feminine.\nAdjective placement: **mauvais** usually precedes the noun: **une mauvaise journée**, **un mauvais signe**.",
+      "englishPhrase": "That's bad news.",
+      "phrase": "C'est une mauvaise nouvelle."
+    },
+    {
+      "id": "big",
+      "english": "Big",
+      "word": "grand",
+      "grammarNote": "**grand** (m.) / **grande** (f.) — precedes the noun (BAGS adjective: Beauty, Age, Goodness, Size).\n**Un grand café** = a large coffee (or a prestigious café — context matters!).\n**Grand** can also mean 'great' or 'tall': **un grand homme** (a great man) vs. **un homme grand** (a tall man). Position changes meaning!",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "Un grand café, s'il vous plaît."
+    },
+    {
+      "id": "small",
+      "english": "Small",
+      "word": "petit",
+      "grammarNote": "**petit** (m.) / **petite** (f.) — precedes the noun, like **grand**.\n**Une petite table** — **table** is feminine, so **petite**.\n**Petit** also carries affectionate meaning: **mon petit** (my little one/dear). **Petit-déjeuner** = breakfast (literally 'small lunch').",
+      "englishPhrase": "A small table, please.",
+      "phrase": "Une petite table, s'il vous plaît."
+    },
+    {
+      "id": "a_lot_much",
+      "english": "A lot",
+      "word": "beaucoup",
+      "grammarNote": "**beaucoup** = a lot, much, many.\n**beaucoup de** + noun (no article): **beaucoup de travail**, **beaucoup d'eau**, **beaucoup de gens**.\nIn negation, keep **pas**: **je ne travaille pas beaucoup** (I don't work much).\n**Beaucoup** cannot directly modify an adjective — use **très** for that: **très grand**, not *beaucoup grand*.",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "J'ai beaucoup de travail.",
+      "hidden": true
+    },
+    {
+      "id": "a_little",
+      "english": "A little",
+      "word": "un peu",
+      "grammarNote": "**un peu** = a little. **un peu de** + noun (no article): **un peu d'eau**, **un peu de temps**.\n**un peu** can soften adjectives: **c'est un peu difficile** (it's a little difficult).\nContrast: **peu de** (without **un**) = little/not much — more negative in tone: **j'ai peu de temps** (I have little time).",
+      "englishPhrase": "A little water, please.",
+      "phrase": "Un peu d'eau, s'il vous plaît.",
+      "hidden": true
+    },
+    {
+      "id": "how_do_you_say",
+      "english": "How do you say ___?",
+      "word": "Comment dit-on ___ ?",
+      "grammarNote": "**Comment dit-on… ?** uses **on** as an impersonal pronoun ('one' / 'you' in general).\nInversion: **dit-on** — the verb comes before the pronoun (formal question structure).\nAlternative: **Comment on dit… ?** (informal, no inversion) is more common in speech.",
+      "englishPhrase": "How do you say 'thank you' in French?",
+      "phrase": "Comment dit-on 'thank you' en français ?"
+    },
+    {
+      "id": "can_you_help_me",
+      "english": "Can you help me?",
+      "word": "Pouvez-vous m'aider ?",
+      "grammarNote": "**Pouvez-vous** is formal inversion — subject **vous** moves after the verb **pouvez**.\n**m'aider** = **me** + **aider** with elision before a vowel: **m'**.\nInformal alternative: **Tu peux m'aider ?** (rising intonation, no inversion needed)."
+    },
+    {
+      "id": "how_much_does_it_cost",
+      "english": "How much does it cost?",
+      "word": "C'est combien ?",
+      "grammarNote": "**C'est combien ?** = casual, very common.\n**Ça coûte combien ?** = more explicit (how much does it cost?).\n**Combien ça fait ?** = how much does that come to? (at a till/register).\n**Quel est le prix ?** = what is the price? (more formal)."
+    },
+    {
+      "id": "im_sorry",
+      "english": "I'm sorry",
+      "word": "je suis désolé(e)",
+      "grammarNote": "**désolé** = past participle of **désoler** (to distress), used as an adjective meaning 'sorry'.\nGender agreement: **désolé** (m.) / **désolée** (f.) — a woman says **je suis désolée**.\n**Je suis vraiment désolé** = I'm really sorry. **Pardon** is used for smaller apologies or interruptions.",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "Je suis vraiment désolé."
+    },
+    {
+      "id": "no_problem",
+      "english": "No problem",
+      "word": "pas de problème",
+      "grammarNote": "**pas de problème** drops the **ne** entirely — a very common ellipsis in French.\nFull form would be: **il n'y a pas de problème** (there's no problem).\n**ne t'inquiète pas** = don't worry (reflexive imperative of **s'inquiéter**) — uses **tu** form, so this phrase is informal.",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "Pas de problème, ne t'inquiète pas."
+    }
+  ]
+}

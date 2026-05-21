@@ -1,0 +1,76 @@
+{
+  "id": "at_the_pharmacy",
+  "name": "At the Pharmacy",
+  "difficulty": "easy",
+  "sentences": [
+    {
+      "base_language": "Hello, is this a pharmacy?",
+      "target_language": "你好，这里是药房吗？",
+      "romanized": "Nǐ hǎo, zhèlǐ shì yàofáng ma?",
+      "literal": [["你好，", "Hello,"], ["这里", "here"], ["是", "is"], ["药房", "pharmacy"], ["吗？", "[question]"]],
+      "grammarNote": "**药房** (yàofáng) = dispensary inside a hospital.\n**药店** (yàodiàn) = standalone street-level pharmacy. Either term is understood everywhere.\n**这里** (zhèlǐ) = here (this place). **这** (this) + **里** (inside/location). Similarly: **那里** (nàlǐ, there), **哪里** (nǎlǐ, where). **是…吗？** is the basic 'Is this…?' question structure."
+    },
+    {
+      "base_language": "Yes. How can I help you?",
+      "target_language": "是的，您有什么需要？",
+      "romanized": "Shì de, nín yǒu shénme xūyào?",
+      "literal": [["是的，", "Yes,"], ["您", "you [formal]"], ["有", "have"], ["什么", "what"], ["需要？", "need?"]],
+      "grammarNote": "**您** (nín) = formal/polite 'you'. Used in service contexts, to elders, or to show respect. Everyday speech uses **你** (nǐ).\n**您有什么需要？** = 'What do you need?' — literally 'You have what need?' **有…需要** (have a need for) is a polite service formula. **什么** (shénme) in questions = 'what / any'."
+    },
+    {
+      "base_language": "I have a cold. I have a runny nose, a sore throat, and a slight fever.",
+      "target_language": "我感冒了。流鼻涕，喉咙疼，还有点发烧。",
+      "romanized": "Wǒ gǎnmào le. Liú bítì, hóulóng téng, hái yǒudiǎn fāshāo.",
+      "literal": [["我", "I"], ["感冒了。", "caught-cold [now]."], ["流鼻涕，", "Running nose,"], ["喉咙疼，", "throat hurt,"], ["还", "also"], ["有点", "a-bit"], ["发烧。", "fever."]],
+      "grammarNote": "**流鼻涕** (liú bítì) = to have a runny nose (literally 'flow nose-mucus'). Symptoms in Chinese use verb + body-product patterns:\n**流眼泪** (shed tears), **流汗** (sweat) — listing symptoms without connectors is natural.\n**有点** (yǒudiǎn) = a bit / slightly (before adjectives, slightly negative connotation): **有点发烧** (a slight fever). **喉咙** (hóulóng) = throat. Body part + **疼** = it hurts there."
+    },
+    {
+      "base_language": "I see. How many days have you had these symptoms?",
+      "target_language": "我知道了。症状有几天了？",
+      "romanized": "Wǒ zhīdào le. Zhèngzhuàng yǒu jǐ tiān le?",
+      "literal": [["我", "I"], ["知道了。", "understand [now]."], ["症状", "Symptoms"], ["有", "have"], ["几天", "several days"], ["了？", "[now]?"]],
+      "grammarNote": "**知道了** (zhīdào le) = 'I see / I understand now' — **了** marks the new state of knowing.\n**几天了？** = 'How many days (has it been)?' — **几** (jǐ) asks about small numbers (roughly 2–9). **了** at the end asks about a duration that has been ongoing: **你等了多久了？** (How long have you been waiting?)\n**症状** (zhèngzhuàng) = symptoms. Medical vocabulary: **症** (illness/symptom) + **状** (condition/state)."
+    },
+    {
+      "base_language": "About two days. It started yesterday morning.",
+      "target_language": "大概两天了，昨天早上开始的。",
+      "romanized": "Dàgài liǎng tiān le, zuótiān zǎoshang kāishǐ de.",
+      "literal": [["大概", "About"], ["两天了，", "two days [now],"], ["昨天", "yesterday"], ["早上", "morning"], ["开始的。", "started [emphasis]."]],
+      "grammarNote": "**大概** (dàgài) = approximately / about. Used before numbers or time estimates: **大概两天** (about two days), **大概三点** (around 3 o'clock).\n**两天了** = it's been two days now. **了** at the end of a time duration means the situation has been going on for that long.\n**开始的** — the sentence-final **的** (de) emphasizes that the detail is a fact/explanation: 'it started [as a matter of fact] yesterday morning.' This explanatory **的** is different from the possessive/modifying **的**."
+    },
+    {
+      "base_language": "I'll give you some cold medicine. This brand is very effective.",
+      "target_language": "我给您拿一盒感冒药。这个牌子效果很好。",
+      "romanized": "Wǒ gěi nín ná yī hé gǎnmào yào. Zhège páizi xiàoguǒ hěn hǎo.",
+      "literal": [["我", "I"], ["给您", "for you [formal]"], ["拿", "bring"], ["一盒", "one box"], ["感冒药。", "cold-medicine."], ["这个", "This"], ["牌子", "brand"], ["效果", "effect"], ["很好。", "very good."]],
+      "grammarNote": "**感冒药** (gǎnmào yào) = cold medicine. Medicine names combine the condition with **药**:\n**咳嗽药** (cough medicine), **退烧药** (fever-reducing medicine), **止痛药** (painkiller).\n**一盒** (yī hé) = one box. **盒** (hé) is the measure word for boxed items: **一盒药** (a box of medicine), **一盒巧克力** (a box of chocolates).\n**效果很好** = works very well / very effective. **效果** (xiàoguǒ) = effect/result."
+    },
+    {
+      "base_language": "How do I take it?",
+      "target_language": "怎么吃？",
+      "romanized": "Zěnme chī?",
+      "grammarNote": "**怎么** (zěnme) = how / in what way. **怎么吃？** = 'How do I take it?' (literally 'how eat?'). Very natural to drop the subject when it's obvious from context.\n**吃** for medicine: Chinese uses 'eat' (**吃**) for oral medicines. Compare **喝** (drink) for liquid medicine. **吃药** = take (oral) medicine."
+    },
+    {
+      "base_language": "Two tablets each time, three times a day. Take it with warm water.",
+      "target_language": "每次两片，一天三次，用温水送服。",
+      "romanized": "Měi cì liǎng piàn, yītiān sān cì, yòng wēn shuǐ sòngfú.",
+      "literal": [["每次", "Each time"], ["两片，", "two tablets,"], ["一天", "one-day"], ["三次，", "three times,"], ["用", "use"], ["温水", "warm water"], ["送服。", "send-take."]],
+      "grammarNote": "**片** (piàn) is the measure word for tablets, slices, and thin flat pieces: **两片药** (two tablets), **一片面包** (a slice of bread).\nMedicine dosage pattern: **每次** (each time) + quantity + **一天** + frequency.\n**送服** (sòngfú) = wash down (medicine) — formal/written term for taking medicine with water. **温水** (wēn shuǐ) = warm water. **用** (yòng) = use/with: **用温水** (with warm water)."
+    },
+    {
+      "base_language": "Make sure to take it on time. Don't skip doses.",
+      "target_language": "一定要按时吃药，不能漏服。",
+      "romanized": "Yīdìng yào ànshí chī yào, bù néng lòufú.",
+      "literal": [["一定要", "Definitely must"], ["按时", "on-time"], ["吃药，", "take medicine,"], ["不能", "cannot"], ["漏服。", "skip-dose."]],
+      "grammarNote": "**按时** (ànshí) = on time / according to schedule. **按** means 'according to / following': **按时吃药** (take medicine on schedule), **按时到达** (arrive on time).\n**一定要** (yīdìng yào) = must / definitely should. **一定** = certainly/definitely; **要** = need to/must. Together they create strong emphasis.\n**漏服** (lòufú) = skip a dose (medical term). **漏** = leak/miss; **服** = take (medicine, formal)."
+    },
+    {
+      "base_language": "Understood. Thank you. I hope I feel better soon.",
+      "target_language": "明白了，谢谢。希望快点好起来。",
+      "romanized": "Míngbai le, xièxie. Xīwàng kuài diǎn hǎo qǐlái.",
+      "literal": [["明白了，", "Understood [now],"], ["谢谢。", "thank-you."], ["希望", "Hope"], ["快点", "quickly a-bit"], ["好起来。", "good rise-up."]],
+      "grammarNote": "**明白了** (míngbai le) = understood / got it. **明白** = understand/be clear; **了** marks the new state of understanding. Compare **知道了** (I know now) — **明白** implies comprehension of instructions, **知道** more general knowledge.\n**好起来** = get better / recover. **好** (good/well) + **起来** (directional complement showing upward change of state — getting better). **快点好起来** = get better quickly. This is a natural expression for wishing someone a speedy recovery."
+    }
+  ]
+}

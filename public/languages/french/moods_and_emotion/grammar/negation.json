@@ -1,0 +1,103 @@
+{
+  "id": "negation",
+  "name": "Negation — ne...pas",
+  "language": "french",
+  "cards": [
+    {
+      "id": "ne_pas_basic",
+      "front": "I don't eat. (basic negation)",
+      "back": "Je ne mange pas.",
+      "grammarNote": "The two-part negative wraps the conjugated verb: ne before, pas after. Subject + ne + verb + pas. The ne elides before vowels: je n'ai pas, il n'est pas."
+    },
+    {
+      "id": "elision_ne",
+      "front": "I'm not hungry.",
+      "back": "Je n'ai pas faim.",
+      "grammarNote": "Ne shortens to n' before a vowel or mute h: je n'ai pas, il n'est pas, on n'habite pas, elle n'aime pas. This elision is mandatory in writing."
+    },
+    {
+      "id": "ne_pas_etre",
+      "front": "He is not here.",
+      "back": "Il n'est pas là.",
+      "grammarNote": "With être: n' + est + pas. Il n'est pas là. Ce n'est pas vrai. N'est-ce pas ? (Isn't it? / Right?)"
+    },
+    {
+      "id": "ne_pas_avoir",
+      "front": "I don't have a car.",
+      "back": "Je n'ai pas de voiture.",
+      "grammarNote": "After negation, un/une/des/du/de la/de l' all change to de/d'. Je n'ai pas de voiture (not 'une voiture'). The definite article does NOT change."
+    },
+    {
+      "id": "modal_negation",
+      "front": "I can't leave.",
+      "back": "Je ne peux pas partir.",
+      "grammarNote": "With modal + infinitive, ne...pas wraps the modal only. Je ne peux pas partir — not 'je peux ne pas partir'. Same for vouloir: elle ne veut pas manger."
+    },
+    {
+      "id": "near_future_neg",
+      "front": "We're not going to come.",
+      "back": "On ne va pas venir.",
+      "grammarNote": "In the futur proche (aller + infinitive), ne...pas wraps aller: on ne va pas venir. The infinitive stays after pas."
+    },
+    {
+      "id": "ne_jamais",
+      "front": "I never eat meat.",
+      "back": "Je ne mange jamais de viande.",
+      "grammarNote": "ne...jamais = never. The structure is ne + verb + jamais. After negation, partitive/indefinite → de: jamais de viande (not 'de la viande')."
+    },
+    {
+      "id": "ne_rien",
+      "front": "I don't see anything.",
+      "back": "Je ne vois rien.",
+      "grammarNote": "ne...rien = nothing / not anything. Je ne vois rien. Je n'ai rien mangé (I didn't eat anything). Rien as subject: Rien ne va. (Nothing is going right.)"
+    },
+    {
+      "id": "ne_personne",
+      "front": "I don't know anyone here.",
+      "back": "Je ne connais personne ici.",
+      "grammarNote": "ne...personne = no one / nobody. Personne goes after the past participle in compound tenses: Je n'ai vu personne. As subject: Personne ne sait."
+    },
+    {
+      "id": "ne_plus",
+      "front": "He no longer works here.",
+      "back": "Il ne travaille plus ici.",
+      "grammarNote": "ne...plus = no longer / not anymore. Je ne fume plus (I don't smoke anymore). After negation with plus: plus de café = no more coffee."
+    },
+    {
+      "id": "ne_que",
+      "front": "I only drink water.",
+      "back": "Je ne bois que de l'eau.",
+      "grammarNote": "ne...que = only. The que goes before the word it restricts (not always right after the verb): Je ne bois que de l'eau. Il ne parle que français."
+    },
+    {
+      "id": "article_change",
+      "front": "I drink milk. → I don't drink milk.",
+      "back": "Je bois du lait. → Je ne bois pas de lait.",
+      "grammarNote": "Partitive du/de la/de l' and indefinite un/une/des all become de/d' after ne...pas. But definite le/la/les stay: Je n'aime pas le lait."
+    },
+    {
+      "id": "definite_no_change",
+      "front": "I don't like coffee. (general dislike)",
+      "back": "Je n'aime pas le café.",
+      "grammarNote": "When talking about a general dislike, the definite article stays: Je n'aime pas le café (I don't like coffee in general). Not 'pas de café' here."
+    },
+    {
+      "id": "spoken_drop_ne",
+      "front": "I don't know. (informal spoken)",
+      "back": "Je sais pas.",
+      "grammarNote": "In spoken informal French, the ne is frequently dropped. Only pas (or jamais, rien, etc.) remains: Je sais pas, C'est pas vrai, Il vient pas. Always write the full form in formal/written French."
+    },
+    {
+      "id": "personne_subject",
+      "front": "Nobody knows.",
+      "back": "Personne ne sait.",
+      "grammarNote": "When personne, rien, jamais, nulle part are the subject, they come first and ne still appears before the verb: Personne ne vient. Rien n'est parfait."
+    },
+    {
+      "id": "ni_ni",
+      "front": "He eats neither meat nor fish.",
+      "back": "Il ne mange ni viande ni poisson.",
+      "grammarNote": "ne...ni...ni = neither...nor. No article is used after ni: ni viande, ni poisson (not 'ni de la viande'). The ne is required."
+    }
+  ]
+}

@@ -1,0 +1,2094 @@
+{
+  "id": "everyday_phrases",
+  "name": "Everyday Phrases",
+  "language": "chinese",
+  "stories": [
+    "morning_routine",
+    "meeting_a_friend",
+    "making_plans",
+    "meet_jeff",
+    "meet_seth",
+    "bad_bunny",
+    "shopping_trip",
+    "phone_call"
+  ],
+  "pictureLessons": [
+    "everyday_phrases_01"
+  ],
+  "grammarLessons": [
+    {
+      "id": "numbers",
+      "name": "Numbers & Counting"
+    },
+    {
+      "id": "time_words",
+      "name": "Time Words & When"
+    },
+    {
+      "id": "shi_sentences",
+      "name": "是 — To Be"
+    },
+    {
+      "id": "ma_questions",
+      "name": "吗 — Yes/No Questions"
+    },
+    {
+      "id": "hen_adjective",
+      "name": "很 + Adjective"
+    },
+    {
+      "id": "you_meiyou",
+      "name": "有 & 没有 — Have / Don't Have"
+    },
+    {
+      "id": "le_particle",
+      "name": "了 — Completed Action & Change of State"
+    },
+    {
+      "id": "question_words",
+      "name": "Question Words — 什么, 谁, 哪里..."
+    },
+    {
+      "id": "zhiyao_jiu",
+      "name": "只要...就... — As Long As"
+    },
+    {
+      "id": "word_patterns",
+      "name": "Word Patterns"
+    }
+  ],
+  "cards": [
+    {
+      "id": "hello",
+      "english": "Hello",
+      "word": "你好",
+      "romanized": "nǐ hǎo",
+      "grammarNote": "**你好** (nǐ hǎo) = hello, lit. 'you good.' It works any time of day.\n**你** (nǐ) = you (2nd tone); **好** (hǎo) = good (3rd tone). Two 3rd tones in a row: the first rises to 2nd tone in natural speech — so it sounds like 'níhǎo.'\n**吗** (ma) at the end of a statement turns it into a yes/no question: 你好吗？= 'Are you well?'",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "你好！你好吗？",
+      "phraseRomanized": "Nǐ hǎo! Nǐ hǎo ma?",
+      "literal": [
+        [
+          "你好！",
+          "Hello!"
+        ],
+        [
+          "你好",
+          "You good"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "please",
+      "english": "Please",
+      "word": "请",
+      "romanized": "qǐng",
+      "grammarNote": "**请** (qǐng) precedes a verb to make a polite request: 请坐 (please sit), 请问 (may I ask).\nFor offering something: 请 alone. To ask for an item: 给我... 好吗? or just 来一个... (bring one...).",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "请给我一杯咖啡。",
+      "phraseRomanized": "Qǐng gěi wǒ yī bēi kāfēi.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "给",
+          "give"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "一杯",
+          "one-cup"
+        ],
+        [
+          "咖啡。",
+          "coffee."
+        ]
+      ]
+    },
+    {
+      "id": "thank_you",
+      "english": "Thank you",
+      "word": "谢谢",
+      "romanized": "xièxie",
+      "grammarNote": "**谢谢** (xièxie) = thank you — the character **谢** means 'to thank.' It's doubled for warmth; doubling a verb or adjective in Chinese is a common softening pattern.\n**非常感谢** (fēicháng gǎnxiè) = thank you very much (more formal). **感谢** (gǎnxiè) = to feel grateful — a more literary word.\nResponse: **不客气** (bù kèqi) or **没事** (méi shì).",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "非常感谢。",
+      "phraseRomanized": "Fēicháng gǎnxiè.",
+      "literal": [
+        [
+          "非常",
+          "extremely"
+        ],
+        [
+          "感谢。",
+          "grateful."
+        ]
+      ]
+    },
+    {
+      "id": "i_want",
+      "english": "I want",
+      "word": "我想要",
+      "romanized": "wǒ xiǎng yào",
+      "grammarNote": "**想要** (xiǎng yào) = would like (softer, more polite)\n**要** (yào) = want/will (more direct, also used for future)\n**想** alone = think/feel like doing\nIn a restaurant, 我要... is common and perfectly natural.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "我想要一杯咖啡。",
+      "phraseRomanized": "Wǒ xiǎng yào yī bēi kāfēi.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "想要",
+          "want"
+        ],
+        [
+          "一杯",
+          "one-cup"
+        ],
+        [
+          "咖啡。",
+          "coffee."
+        ]
+      ]
+    },
+    {
+      "id": "i_need",
+      "english": "I need",
+      "word": "我需要",
+      "romanized": "wǒ xūyào",
+      "grammarNote": "**需要** (xūyào) = need (a genuine necessity): 我需要帮助 (I need help).\n**要** (yào) = need/want (can overlap with need in casual speech): 我要水 (I need/want water).\n**必须** (bìxū) = must / have to (stronger obligation): 你必须来 (You must come).",
+      "englishPhrase": "I need help.",
+      "phrase": "我需要帮助。",
+      "phraseRomanized": "Wǒ xūyào bāngzhù."
+    },
+    {
+      "id": "my_name_is",
+      "english": "My name is",
+      "word": "我叫",
+      "romanized": "wǒ jiào",
+      "grammarNote": "**我叫** (wǒ jiào) = my name is (lit. 'I am called') — more natural in conversation than 我的名字是.\n**我姓**... (wǒ xìng...) = my surname is... — used when giving a last name in formal contexts.",
+      "englishPhrase": "My name is Jeff.",
+      "phrase": "我叫Jeff。",
+      "phraseRomanized": "Wǒ jiào Jeff.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "叫",
+          "am-called"
+        ],
+        [
+          "Jeff。",
+          "Jeff."
+        ]
+      ]
+    },
+    {
+      "id": "i",
+      "english": "I",
+      "word": "我",
+      "romanized": "wǒ",
+      "grammarNote": "**我** (wǒ) = I / me (same form for subject and object — no case distinction).\n**我的** (wǒ de) = my. The particle **的** (de) marks possession.\nNote: in fast speech, 我的 before a close relationship (friend, family) often drops the 的: 我朋友 = my friend, 我妈 = my mom.",
+      "englishPhrase": "I am a student.",
+      "phrase": "我是学生。",
+      "phraseRomanized": "Wǒ shì xuésheng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "是",
+          "am"
+        ],
+        [
+          "学生。",
+          "student."
+        ]
+      ]
+    },
+    {
+      "id": "you",
+      "english": "You",
+      "word": "你",
+      "romanized": "nǐ",
+      "grammarNote": "**你** (nǐ) = you (everyday)\n**您** (nín) = you (formal/respectful) — used with elders, customers, or in formal settings",
+      "englishPhrase": "You speak Chinese well.",
+      "phrase": "你中文说得很好。",
+      "phraseRomanized": "Nǐ zhōngwén shuō de hěn hǎo.",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "中文",
+          "Chinese"
+        ],
+        [
+          "说得",
+          "speak"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "好。",
+          "well."
+        ]
+      ]
+    },
+    {
+      "id": "he",
+      "english": "He",
+      "word": "他",
+      "romanized": "tā",
+      "grammarNote": "**他** (tā) = he/him. In speech, **他** (he), **她** (she), and **它** (it) are all pronounced tā — they are identical in spoken Chinese, distinguished only in writing.\n**他们** (tāmen) = they (male or mixed group); **她们** (tāmen) = they (female group only). Both sound the same when spoken.",
+      "englishPhrase": "He is my friend.",
+      "phrase": "他是我的朋友。",
+      "phraseRomanized": "Tā shì wǒ de péngyou."
+    },
+    {
+      "id": "she",
+      "english": "She",
+      "word": "她",
+      "romanized": "tā",
+      "grammarNote": "**他** (he) and **她** (she) are both pronounced tā — identical in speech, different only in writing. Context makes the meaning clear in conversation.",
+      "englishPhrase": "She works here.",
+      "phrase": "她在这里工作。",
+      "phraseRomanized": "Tā zài zhèlǐ gōngzuò.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "这里",
+          "here"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ]
+    },
+    {
+      "id": "good_night",
+      "english": "Good night",
+      "word": "晚安",
+      "romanized": "wǎn'ān",
+      "grammarNote": "**晚安** (wǎn'ān) = good night — **晚** (wǎn) means evening/late, **安** (ān) means peace/safe. Lit. 'peaceful evening.'\nThe apostrophe in wǎn'ān separates two syllables to avoid ambiguity (wǎnān could be misread as wǎ-nān).\n**好好休息** (hǎohǎo xiūxi) = rest well. Doubling an adjective (好好) turns it into an adverb: 'properly, nicely.'",
+      "englishPhrase": "Good night, sleep well!",
+      "phrase": "晚安，好好休息！",
+      "phraseRomanized": "Wǎn'ān, hǎohǎo xiūxi!",
+      "literal": [
+        [
+          "晚安",
+          "good-night"
+        ],
+        [
+          "好好",
+          "well/nicely"
+        ],
+        [
+          "休息",
+          "rest"
+        ]
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "english": "How are you?",
+      "word": "你好吗？",
+      "romanized": "nǐ hǎo ma",
+      "grammarNote": "**吗** (ma) is the yes/no question particle — add it to the end of any statement to turn it into a question: 你好 → 你好吗？\nAnswer pattern: **我很好** (wǒ hěn hǎo) = I'm good. The **很** (hěn) is required in adjective sentences even when not strongly emphasizing 'very' — dropping it sounds unnatural unless making a contrast.\nMore colloquial: **你怎么样？** (nǐ zěnmeyàng?) = How's it going?",
+      "englishPhrase": "How are you? I'm fine, thanks.",
+      "phrase": "你好吗？我很好，谢谢。",
+      "phraseRomanized": "Nǐ hǎo ma? Wǒ hěn hǎo, xièxie.",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "吗",
+          "[?]"
+        ],
+        [
+          "我",
+          "I"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "谢谢",
+          "thanks"
+        ]
+      ]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you",
+      "word": "很高兴认识你",
+      "romanized": "hěn gāoxìng rènshi nǐ",
+      "grammarNote": "**高兴** (gāoxìng) = happy/pleased — **高** (gāo) = tall/high, **兴** (xīng/xìng) = excitement/interest. Together: 'high spirits.'\n**认识** (rènshi) = to know/meet (a person). Distinguished from **知道** (zhīdào) = to know a fact.\n**很高兴认识你** is the standard first-meeting phrase. After getting to know someone: **很高兴见到你** (nice to see you again).",
+      "englishPhrase": "Nice to meet you!",
+      "phrase": "很高兴认识你！",
+      "phraseRomanized": "Hěn gāoxìng rènshi nǐ!",
+      "literal": [
+        [
+          "很",
+          "very"
+        ],
+        [
+          "高兴",
+          "pleased"
+        ],
+        [
+          "认识",
+          "to meet/know"
+        ],
+        [
+          "你",
+          "you"
+        ]
+      ]
+    },
+    {
+      "id": "youre_welcome",
+      "english": "You're welcome",
+      "word": "不客气",
+      "romanized": "bù kèqi",
+      "grammarNote": "**不客气** (bù kèqi) = you're welcome, lit. 'don't be polite/formal.'\n**客气** (kèqi) = polite, formal, standing on ceremony. Telling someone 不客气 is a warm way to say 'no need to thank me.'\nAlternatives: **没事** (méi shì) = no problem/it's nothing; **不用谢** (bú yòng xiè) = no need to thank me.",
+      "englishPhrase": "You're welcome!",
+      "phrase": "不客气！",
+      "phraseRomanized": "Bù kèqi!",
+      "literal": [
+        [
+          "不",
+          "not"
+        ],
+        [
+          "客气",
+          "polite/formal"
+        ]
+      ]
+    },
+    {
+      "id": "it",
+      "english": "It",
+      "word": "它",
+      "romanized": "tā",
+      "grammarNote": "**它** (tā) = it (for non-human things and animals). Pronounced the same as **他** (he) and **她** (she) — all are tā.\nIn practice, Chinese often drops the pronoun entirely when context is clear: 那是什么？(What is that?) — no 'it' needed.\n**这** (zhè) = this; **那** (nà) = that — often used instead of 'it' to refer to specific things.",
+      "englishPhrase": "What is that?",
+      "phrase": "那是什么？",
+      "phraseRomanized": "Nà shì shénme?",
+      "literal": [
+        [
+          "那",
+          "that"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "什么？",
+          "what?"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "we",
+      "english": "We",
+      "word": "我们",
+      "romanized": "wǒmen",
+      "grammarNote": "**我们** (wǒmen) = we/us — **我** (I) + **们** (men, pluralizing suffix).\nThe suffix **们** (men) makes pronouns plural: 你们 (you all), 他们 (they).\nNote: 咱们 (zánmen) = we including the listener; 我们 can exclude the listener. This distinction is more common in northern dialects.",
+      "englishPhrase": "We live here.",
+      "phrase": "我们住在这里。",
+      "phraseRomanized": "Wǒmen zhù zài zhèlǐ.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "住",
+          "live"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "这里。",
+          "here."
+        ]
+      ]
+    },
+    {
+      "id": "they",
+      "english": "They",
+      "word": "他们",
+      "romanized": "tāmen",
+      "grammarNote": "**他们** (tāmen) = they (male or mixed group). **她们** (tāmen) = they (all female). Both sound identical in speech.\n**一起** (yīqǐ) = together — always placed before the verb: 他们一起吃饭 (they eat together), not *他们吃饭一起.\n**吃饭** (chīfàn) = to eat (a meal). Lit. 'eat rice' — **饭** (fàn) = cooked rice/meal, the staple that represents eating.",
+      "englishPhrase": "They eat together.",
+      "phrase": "他们一起吃饭。",
+      "phraseRomanized": "Tāmen yīqǐ chīfàn.",
+      "literal": [
+        [
+          "他们",
+          "they"
+        ],
+        [
+          "一起",
+          "together"
+        ],
+        [
+          "吃饭。",
+          "eat."
+        ]
+      ]
+    },
+    {
+      "id": "this",
+      "english": "This",
+      "word": "这个",
+      "romanized": "zhège",
+      "grammarNote": "**这** (zhè) = this; **这个** (zhège) = this one (with the measure word 个).\nIn Chinese, a measure word (**量词**) goes between number/demonstrative and noun: 这本书 (this book — 本 is the measure word for books).",
+      "englishPhrase": "This book is good.",
+      "phrase": "这本书很好。",
+      "phraseRomanized": "Zhè běn shū hěn hǎo.",
+      "literal": [
+        [
+          "这本",
+          "this"
+        ],
+        [
+          "书",
+          "book"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "好。",
+          "good."
+        ]
+      ]
+    },
+    {
+      "id": "that",
+      "english": "That",
+      "word": "那个",
+      "romanized": "nàge",
+      "grammarNote": "**那个** (nàge) = that one — **那** (nà) = that + **个** (gè) the general-purpose measure word.\nTone note: **那** (nà) = that (4th tone) vs **哪** (nǎ) = which (3rd tone) — easily confused in speech.\n**那个人是我的朋友** — **的** (de) connects adjectives/possessives to nouns: 我的朋友 = my friend.",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "那个人是我的朋友。",
+      "phraseRomanized": "Nàge rén shì wǒ de péngyou."
+    },
+    {
+      "id": "my",
+      "english": "My",
+      "word": "我的",
+      "romanized": "wǒ de",
+      "grammarNote": "**我的** (wǒ de) = my — the particle **的** (de) marks possession, like 's in English.\nStructure: possessor + 的 + noun: 我的名字 (my name), 他的书 (his book).\nWith close relationships, **的** is often dropped in casual speech: 我妈 (my mom), 我朋友 (my friend).\n**名字** (míngzi) = name — **名** (míng) = fame/name, **字** (zì) = character/word.",
+      "englishPhrase": "My name is Jeff.",
+      "phrase": "我的名字是Jeff。",
+      "phraseRomanized": "Wǒ de míngzi shì Jeff."
+    },
+    {
+      "id": "who",
+      "english": "Who",
+      "word": "谁",
+      "romanized": "shéi",
+      "grammarNote": "**谁** (shéi, also pronounced shuí) = who. Chinese question words stay in the position where the answer would go — they do not move to the front: 那个人是谁？(That person is who?) mirrors the answer 那个人是我朋友 (That person is my friend).\n**谁的** (shéi de) = whose: 这是谁的书？(Whose book is this?)",
+      "englishPhrase": "Who is that person?",
+      "phrase": "那个人是谁？",
+      "phraseRomanized": "Nàge rén shì shéi?",
+      "literal": [
+        [
+          "那个",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "谁？",
+          "who?"
+        ]
+      ]
+    },
+    {
+      "id": "what",
+      "english": "What",
+      "word": "什么",
+      "romanized": "shénme",
+      "grammarNote": "**什么** (shénme) = what — stays in the position of the answer: 你想要什么？(You want what?) mirrors 你想要咖啡 (You want coffee).\n**什么** can also mean 'any' in negative sentences: 我什么都不知道 (I don't know anything — lit. 'whatever, I don't know').\n**什么时候** (shénme shíhou) = when (lit. 'what time').",
+      "englishPhrase": "What do you want?",
+      "phrase": "你想要什么？",
+      "phraseRomanized": "Nǐ xiǎng yào shénme?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "想要",
+          "want"
+        ],
+        [
+          "什么？",
+          "what?"
+        ]
+      ]
+    },
+    {
+      "id": "when",
+      "english": "When",
+      "word": "什么时候",
+      "romanized": "shénme shíhou",
+      "grammarNote": "**什么时候** (shénme shíhou) = when, lit. 'what time/moment.' **时候** (shíhou) = time/moment.\nIn Chinese, time expressions go before the main verb: 你什么时候来？(When are you coming? lit. 'You what-time come?')\nFor clock times use **几点** (jǐ diǎn) = what o'clock: 你几点来？(What time are you coming?)",
+      "englishPhrase": "When are you coming?",
+      "phrase": "你什么时候来？",
+      "phraseRomanized": "Nǐ shénme shíhou lái?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "什么时候",
+          "what-time"
+        ],
+        [
+          "来？",
+          "come?"
+        ]
+      ]
+    },
+    {
+      "id": "where",
+      "english": "Where",
+      "word": "在哪里",
+      "romanized": "zài nǎlǐ",
+      "grammarNote": "**哪里** (nǎlǐ) = where — **哪** (nǎ, 3rd tone) = which + **里** (lǐ) = inside/place.\nTone alert: **那里** (nàlǐ, 4th tone) = there vs **哪里** (nǎlǐ, 3rd tone) = where. One tone makes a big difference!\n**在** (zài) before 哪里 = 'at where' — for location questions the structure is: topic + 在 + 哪里: 洗手间在哪里？\n**洗手间** (xǐshǒujiān) = bathroom, lit. 'wash-hand-room.'",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "洗手间在哪里？",
+      "phraseRomanized": "Xǐshǒujiān zài nǎlǐ?",
+      "literal": [
+        [
+          "洗手间",
+          "bathroom"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里？",
+          "where?"
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "english": "Why",
+      "word": "为什么",
+      "romanized": "wèishénme",
+      "grammarNote": "**为什么** (wèishénme) = why, lit. 'for what.' **为** (wèi) = for/because of + **什么** (shénme) = what.\n**因为** (yīnwèi) = because (to answer why): 因为我有事 (because I'm busy / have something going on).\n**为什么...不能来** — **不能** (bù néng) = cannot. **不** + **能** = not + able. Compare: 不想来 (don't want to come) vs 不能来 (can't come).",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "你为什么不能来？",
+      "phraseRomanized": "Nǐ wèishénme bù néng lái?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "为什么",
+          "why"
+        ],
+        [
+          "不能",
+          "not-can"
+        ],
+        [
+          "来？",
+          "come?"
+        ]
+      ]
+    },
+    {
+      "id": "how",
+      "english": "How",
+      "word": "怎么",
+      "romanized": "zěnme",
+      "grammarNote": "**怎么** (zěnme) = how (in what way): 怎么去？(How do you get there?)\n**怎么样** (zěnmeyàng) = how is it? / what's it like? — asking for an assessment or status.\n**怎么** before a verb asks about the method; **怎么样** at the end asks for an opinion or evaluation.\n**怎么** can also express surprise: 你怎么知道？(How do you know?!)",
+      "englishPhrase": "How are you?",
+      "phrase": "你怎么样？",
+      "phraseRomanized": "Nǐ zěnmeyàng?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "怎么样？",
+          "how?"
+        ]
+      ]
+    },
+    {
+      "id": "good_morning",
+      "english": "Good morning",
+      "word": "早上好",
+      "romanized": "zǎoshang hǎo",
+      "grammarNote": "**早上好** (zǎoshang hǎo) = formal good morning; **早** (zǎo) = casual good morning\n**下午好** (xiàwǔ hǎo) = good afternoon; **晚上好** (wǎnshang hǎo) = good evening\n你好 works any time of day.",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "早上好！睡得好吗？",
+      "phraseRomanized": "Zǎoshang hǎo! Shuì de hǎo ma?",
+      "literal": [
+        [
+          "早上好！",
+          "Morning good!"
+        ],
+        [
+          "睡得",
+          "sleep"
+        ],
+        [
+          "好",
+          "well"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "找",
+      "romanized": "zhǎo",
+      "grammarNote": "**找** (zhǎo) = to look for / to search for. Compare: **看** (kàn) = to look at (not searching).\n**在找** = currently looking for — **在** before a verb marks an ongoing action (like English '-ing').\n**出口** (chūkǒu) = exit, lit. 'go-out mouth.' **入口** (rùkǒu) = entrance, lit. 'enter-mouth.' Both built on **口** (kǒu) = mouth/opening.",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "我在找出口。",
+      "phraseRomanized": "Wǒ zài zhǎo chūkǒu.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "[doing]"
+        ],
+        [
+          "找",
+          "looking-for"
+        ],
+        [
+          "出口。",
+          "exit."
+        ]
+      ]
+    },
+    {
+      "id": "excuse_me",
+      "english": "Excuse me",
+      "word": "不好意思",
+      "romanized": "bù hǎo yìsi",
+      "grammarNote": "**不好意思** (bù hǎo yìsi) = excuse me / I'm embarrassed to ask — the most natural all-purpose attention-getter\n**打扰一下** (dǎrǎo yīxià) = sorry to interrupt\n**请问** (qǐng wèn) = may I ask — great before a question",
+      "englishPhrase": "Excuse me, where is the subway?",
+      "phrase": "不好意思，请问地铁站在哪里？",
+      "phraseRomanized": "Bù hǎo yìsi, qǐngwèn dìtiě zhàn zài nǎlǐ?",
+      "literal": [
+        [
+          "不好意思，",
+          "excuse-me,"
+        ],
+        [
+          "请问",
+          "may-I-ask"
+        ],
+        [
+          "地铁站",
+          "subway-station"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里？",
+          "where?"
+        ]
+      ]
+    },
+    {
+      "id": "to_be_able_to_can",
+      "english": "To be able to",
+      "word": "能",
+      "romanized": "néng",
+      "grammarNote": "**能** (néng) = can (physical ability or circumstance): 我能游泳 (I can swim)\n**可以** (kěyǐ) = may/can (permission or possibility): 我可以进来吗? (May I come in?)\n**会** (huì) = can (learned skill): 我会说中文 (I can speak Chinese)",
+      "englishPhrase": "Can you help me?",
+      "phrase": "你能帮我吗？",
+      "phraseRomanized": "Nǐ néng bāng wǒ ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "帮",
+          "help"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "i_dont_know",
+      "english": "I don't know",
+      "word": "我不知道",
+      "romanized": "wǒ bù zhīdào",
+      "grammarNote": "**知道** (zhīdào) = to know (a fact, information). **知** (zhī) = to know/perceive + **道** (dào) = road/way — 'to know the way of something.'\n**认识** (rènshi) = to know (a person or be familiar with).\nNegation: **不知道** (bù zhīdào) — note that **不** changes from 4th tone to 2nd tone before another 4th-tone syllable: bú zhīdào.",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "我不知道在哪里。",
+      "phraseRomanized": "Wǒ bù zhīdào zài nǎlǐ.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "不",
+          "not"
+        ],
+        [
+          "知道",
+          "know"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里。",
+          "where."
+        ]
+      ]
+    },
+    {
+      "id": "to_have",
+      "english": "To have",
+      "word": "有",
+      "romanized": "yǒu",
+      "grammarNote": "**有** (yǒu) = have or there is/are: 我有钱 (I have money), 这里有咖啡 (There is coffee here).\nNegated: **没有** (méiyǒu) — never 不有, always 没有. 没有 alone = I don't have it / there isn't any.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "我饿了。你有水吗？",
+      "phraseRomanized": "Wǒ è le. Nǐ yǒu shuǐ ma?",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "饿",
+          "hungry"
+        ],
+        [
+          "了。",
+          "[now]."
+        ],
+        [
+          "你",
+          "you"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "水",
+          "water"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_do_make",
+      "english": "To do",
+      "word": "做",
+      "romanized": "zuò",
+      "grammarNote": "**做** (zuò) = to do / to make (a thing or activity): 做饭 (cook), 做作业 (do homework).\n**在做** = currently doing — **在** before a verb indicates an ongoing action.\n**干** (gàn) = to do (colloquial, slightly informal): 你在干什么？(What are you up to?)\n**搞** (gǎo) = to do / get (colloquial): 你在搞什么？(What are you doing? — can sound impatient.)",
+      "englishPhrase": "What are you doing?",
+      "phrase": "你在做什么？",
+      "phraseRomanized": "Nǐ zài zuò shénme?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "在",
+          "[doing]"
+        ],
+        [
+          "做",
+          "doing"
+        ],
+        [
+          "什么？",
+          "what?"
+        ]
+      ]
+    },
+    {
+      "id": "to_eat",
+      "english": "To eat",
+      "word": "吃",
+      "romanized": "chī",
+      "grammarNote": "**吃** (chī) = to eat. **吃饭** (chīfàn) = to eat a meal (lit. 'eat rice/food') — a culturally important phrase; 你吃饭了吗？(Have you eaten?) is a common greeting.\n**在哪里吃饭** — location phrases (在 + place) come before the verb in Chinese: 在哪里吃 = 'at where eat,' not *吃在哪里.",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "我们在哪里吃饭？",
+      "phraseRomanized": "Wǒmen zài nǎlǐ chīfàn?",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里",
+          "where"
+        ],
+        [
+          "吃饭？",
+          "eat?"
+        ]
+      ]
+    },
+    {
+      "id": "to_like",
+      "english": "To like",
+      "word": "喜欢",
+      "romanized": "xǐhuān",
+      "grammarNote": "**喜欢** (xǐhuān) = to like. **喜** (xǐ) = joy/happiness + **欢** (huān) = joyful/welcome. Together they mean 'joyfully welcome.'\n**喜欢** takes a noun or verb directly: 我喜欢咖啡 (I like coffee), 我喜欢喝咖啡 (I like drinking coffee).\n**爱** (ài) = to love (stronger): 我爱你 (I love you). Using 爱 for objects is also natural: 我爱咖啡 (I love coffee).",
+      "englishPhrase": "I like coffee.",
+      "phrase": "我喜欢咖啡。",
+      "phraseRomanized": "Wǒ xǐhuān kāfēi."
+    },
+    {
+      "id": "but",
+      "english": "But",
+      "word": "但是",
+      "romanized": "dànshì",
+      "grammarNote": "**但是** (dànshì) = but (formal/written). **但** (dàn) alone is more common in speech.\n**可是** (kěshì) = but (casual, common in daily speech).\n**虽然...但是** (suīrán...dànshì) = although...but — unlike English, Chinese uses both 'although' AND 'but': 虽然贵，但是很好 (although it's expensive, it's very good).",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "我想去，但是不能。",
+      "phraseRomanized": "Wǒ xiǎng qù, dànshì bù néng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "想",
+          "want-to"
+        ],
+        [
+          "去，",
+          "go,"
+        ],
+        [
+          "但是",
+          "but"
+        ],
+        [
+          "不能。",
+          "not-can."
+        ]
+      ]
+    },
+    {
+      "id": "and",
+      "english": "And",
+      "word": "和",
+      "romanized": "hé",
+      "grammarNote": "**和** (hé) = and, connecting nouns: 水和食物 (water and food).\n**还有** (háiyǒu) = also/and also, adding items: 还有一件事 (and there's one more thing).\n和 does not connect verbs or sentences — use **然后** (ránhòu) for 'and then'.",
+      "englishPhrase": "Water and food.",
+      "phrase": "水和食物。",
+      "phraseRomanized": "Shuǐ hé shíwù."
+    },
+    {
+      "id": "or",
+      "english": "Or",
+      "word": "还是",
+      "romanized": "háishì",
+      "grammarNote": "**还是** (háishì) = or (in questions): 你要茶还是咖啡？(Tea or coffee?)\n**或者** (huòzhě) = or (in statements): 你可以喝茶或者咖啡 (You can have tea or coffee)\nA common mistake is swapping them.",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "你要茶还是咖啡？",
+      "phraseRomanized": "Nǐ yào chá háishì kāfēi?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "要",
+          "want"
+        ],
+        [
+          "茶",
+          "tea"
+        ],
+        [
+          "还是",
+          "or"
+        ],
+        [
+          "咖啡？",
+          "coffee?"
+        ]
+      ]
+    },
+    {
+      "id": "hungry",
+      "english": "Hungry",
+      "word": "饿了",
+      "romanized": "è le",
+      "grammarNote": "**了** (le) after an adjective or verb marks a change of state: 饿了 = have become hungry, 渴了 = have become thirsty.\n我很饿 = I am hungry (general state)\n我饿了 = I've gotten hungry (new state)",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "我很饿。",
+      "phraseRomanized": "Wǒ hěn è.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "饿。",
+          "hungry."
+        ]
+      ]
+    },
+    {
+      "id": "thirsty",
+      "english": "Thirsty",
+      "word": "渴了",
+      "romanized": "kě le",
+      "grammarNote": "**渴** (kě) = thirsty. The character contains the water radical **氵** (sān diǎn shuǐ, three-drop water) on the left — many water-related characters share this component.\n**渴了** = have become thirsty (change of state, with **了**).\n**渴望** (kěwàng) = to crave/yearn — the same 渴 used figuratively for intense desire.",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "我很渴。",
+      "phraseRomanized": "Wǒ hěn kě.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "渴。",
+          "thirsty."
+        ]
+      ]
+    },
+    {
+      "id": "person",
+      "english": "Person",
+      "word": "人",
+      "romanized": "rén",
+      "grammarNote": "**人** (rén) = person/people. One of the simplest Chinese characters — it looks like a person walking (two strokes like two legs).\n**人** is used to form nationalities: **美国人** (měiguó rén) = American (lit. 'beautiful-country person'), **中国人** (zhōngguó rén) = Chinese person.\nAlso used in compounds: **朋友** = friend, but **好人** = a good person, **大人** (dàrén) = adult.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "那个人是谁？",
+      "phraseRomanized": "Nàge rén shì shéi?",
+      "literal": [
+        [
+          "那个",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "谁？",
+          "who?"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "place",
+      "english": "Place",
+      "word": "地方",
+      "romanized": "dìfāng",
+      "grammarNote": "**地方** (dìfāng) = place (general). **地** (dì) = ground/earth + **方** (fāng) = direction/area.\n**地点** (dìdiǎn) = specific location/venue (more formal, used for events).\n**哪里** (nǎlǐ) = where — also used as a humble response to compliments: 哪里哪里！ = 'oh not at all!' (lit. 'where where!').",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "你知道一个好地方吗？",
+      "phraseRomanized": "Nǐ zhīdào yīgè hǎo dìfāng ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "知道",
+          "know"
+        ],
+        [
+          "一个",
+          "one"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "地方",
+          "place"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "thing",
+      "english": "Thing",
+      "word": "东西",
+      "romanized": "dōngxi",
+      "grammarNote": "**东西** (dōngxi) = a physical thing or stuff: 买东西 (buy things / go shopping)\n**事情** (shìqing) = a matter or situation: 有事情 (have something going on / there's a matter)\nDon't mix them up.",
+      "englishPhrase": "What is that thing?",
+      "phrase": "那是什么东西？",
+      "phraseRomanized": "Nà shì shénme dōngxi?",
+      "literal": [
+        [
+          "那",
+          "that"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "什么",
+          "what"
+        ],
+        [
+          "东西？",
+          "thing?"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "这里",
+      "romanized": "zhèlǐ",
+      "grammarNote": "**这里** (zhèlǐ) = here — **这** (zhè, this) + **里** (lǐ, inside/place). Also: **这儿** (zhèr) = here (northern dialect, more casual).\n**那里** (nàlǐ) = there; **哪里** (nǎlǐ) = where.\n**过来** (guòlái) = come over (toward speaker). Compare: **过去** (guòqù) = go over (away from speaker).",
+      "englishPhrase": "Come here!",
+      "phrase": "过来这里！",
+      "phraseRomanized": "Guòlái zhèlǐ!",
+      "literal": [
+        [
+          "过来",
+          "come-over"
+        ],
+        [
+          "这里！",
+          "here!"
+        ]
+      ]
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "那里",
+      "romanized": "nàlǐ",
+      "grammarNote": "**那里** (nàlǐ) = there — **那** (nà, 4th tone) + **里** (lǐ). Also: **那儿** (nàr, northern dialect).\nTone alert: **那里** (nàlǐ, 4th tone) = there vs **哪里** (nǎlǐ, 3rd tone) = where.\nStructure: 洗手间在那里 — the location (那里) follows **在** (zài) at the end: subject + 在 + location.",
+      "englishPhrase": "The bathroom is over there.",
+      "phrase": "洗手间在那里。",
+      "phraseRomanized": "Xǐshǒujiān zài nàlǐ.",
+      "literal": [
+        [
+          "洗手间",
+          "bathroom"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "那里。",
+          "there."
+        ]
+      ]
+    },
+    {
+      "id": "very",
+      "english": "Very",
+      "word": "很",
+      "romanized": "hěn",
+      "grammarNote": "**很** (hěn) = very, but in adjective sentences it's often required even without emphasis: 我很好 (I'm good) — dropping 很 makes it sound like a contrast.\n**非常** (fēicháng) = extremely; **太** (tài) = too/so: 太好了！(So great!)",
+      "englishPhrase": "It's very good.",
+      "phrase": "非常好。",
+      "phraseRomanized": "Fēicháng hǎo.",
+      "literal": [
+        [
+          "非常",
+          "extremely"
+        ],
+        [
+          "好。",
+          "good."
+        ]
+      ]
+    },
+    {
+      "id": "goodbye",
+      "english": "Goodbye",
+      "word": "再见",
+      "romanized": "zàijiàn",
+      "grammarNote": "**再见** (zàijiàn) = goodbye, lit. 'again see.' **再** (zài) = again + **见** (jiàn) = to see/meet.\nThis is why it mirrors English 'see you again.'\n**明天见** (míngtiān jiàn) = see you tomorrow — the pattern [time] + 见 works for any time: 下周见 (see you next week), 一会儿见 (see you in a bit).\n**拜拜** (bāibāi) = bye-bye (casual, borrowed from English).",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "再见！明天见。",
+      "phraseRomanized": "Zàijiàn! Míngtiān jiàn.",
+      "literal": [
+        [
+          "再见！",
+          "Goodbye!"
+        ],
+        [
+          "明天",
+          "tomorrow"
+        ],
+        [
+          "见。",
+          "see."
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "english": "Water",
+      "word": "水",
+      "romanized": "shuǐ",
+      "grammarNote": "**水** (shuǐ) = water. The character is a pictograph of flowing water.\n**一杯水** (yī bēi shuǐ) = a glass/cup of water — **杯** (bēi) is the measure word for cups and glasses.\n**热水** (rèshuǐ) = hot water; **冷水** (lěngshuǐ) = cold water; **开水** (kāishuǐ) = boiled water (very common in China — tap water is typically boiled before drinking).",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "请给我一杯水。",
+      "phraseRomanized": "Qǐng gěi wǒ yī bēi shuǐ.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "给",
+          "give"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "一杯",
+          "one-cup"
+        ],
+        [
+          "水。",
+          "water."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "food",
+      "english": "Food",
+      "word": "食物",
+      "romanized": "shíwù",
+      "grammarNote": "**食物** (shíwù) = food (general/formal). **食** (shí) = to eat/food + **物** (wù) = thing/matter.\n**吃的** (chī de) = food (colloquial, lit. 'things to eat') — more natural in everyday speech.\n**饭** (fàn) = cooked rice/meal — the most common everyday word for food: 吃饭 (eat a meal), 做饭 (cook).\n**好吃** (hǎochī) = delicious, lit. 'good to eat' — a very common compliment for food.",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "食物很好吃。",
+      "phraseRomanized": "Shíwù hěn hǎochī.",
+      "literal": [
+        [
+          "食物",
+          "food"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "好吃。",
+          "delicious."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "house_home",
+      "english": "House",
+      "word": "家",
+      "romanized": "jiā",
+      "grammarNote": "**家** (jiā) = home (warm, where you belong): 回家 (go home), 在家 (at home).\n**房子** (fángzi) = house (the physical building).\n家 also means 'family': 我家有四口人 (My family has four people).",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "我家在附近。",
+      "phraseRomanized": "Wǒ jiā zài fùjìn.",
+      "literal": [
+        [
+          "我家",
+          "my-home"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "附近。",
+          "nearby."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "store_shop",
+      "english": "Store",
+      "word": "商店",
+      "romanized": "shāngdiàn",
+      "grammarNote": "**商店** (shāngdiàn) = store/shop. **商** (shāng) = commerce/trade + **店** (diàn) = shop/establishment.\n**店** appears in many business names: 咖啡店 (coffee shop), 书店 (bookstore), 餐厅 (restaurant — a slightly fancier word).\n**关门** (guānmén) = to close (a door/business), lit. 'close door.' **开门** (kāimén) = to open. **了** marks the new state: 商店关门了 = the store has closed.",
+      "englishPhrase": "The store is closed.",
+      "phrase": "商店关门了。",
+      "phraseRomanized": "Shāngdiàn guānmén le.",
+      "literal": [
+        [
+          "商店",
+          "store"
+        ],
+        [
+          "关门",
+          "closed"
+        ],
+        [
+          "了。",
+          "[now]."
+        ]
+      ]
+    },
+    {
+      "id": "cash_credit",
+      "english": "Cash",
+      "word": "现金",
+      "romanized": "xiànjīn",
+      "grammarNote": "**现金** (xiànjīn) = cash. **现** (xiàn) = present/current + **金** (jīn) = gold/metal/money.\n**刷卡** (shuākǎ) = swipe a card (pay by card), lit. 'swipe card.' **刷** (shuā) = to brush/swipe.\nIn modern China, **微信支付** (Wēixìn zhīfù, WeChat Pay) and **支付宝** (Zhīfùbǎo, Alipay) are far more common than cash or cards.",
+      "englishPhrase": "Cash or card?",
+      "phrase": "付现金还是刷卡？",
+      "phraseRomanized": "Fù xiànjīn háishì shuākǎ?",
+      "literal": [
+        [
+          "付",
+          "pay"
+        ],
+        [
+          "现金",
+          "cash"
+        ],
+        [
+          "还是",
+          "or"
+        ],
+        [
+          "刷卡？",
+          "swipe-card?"
+        ]
+      ]
+    },
+    {
+      "id": "help",
+      "english": "Help",
+      "word": "帮助",
+      "romanized": "bāngzhù",
+      "grammarNote": "**帮助** (bāngzhù) = help (noun or formal verb). **帮** (bāng) alone = to help (casual verb): 帮我 (help me), 帮个忙 (do me a favor).\n**忙** (máng) = busy — contrast 帮忙 (bāngmáng) = to help out (a set phrase, lit. 'help with busyness').\n**救命！** (jiùmìng!) = Help! (emergency, lit. 'save life!').",
+      "englishPhrase": "I need help.",
+      "phrase": "我需要帮助。",
+      "phraseRomanized": "Wǒ xūyào bāngzhù."
+    },
+    {
+      "id": "bathroom",
+      "english": "Bathroom",
+      "word": "洗手间",
+      "romanized": "xǐshǒujiān",
+      "grammarNote": "**洗手间** (xǐshǒujiān) = bathroom/restroom, lit. 'wash-hand-room' — the polite word used in public.\n**厕所** (cèsuǒ) = toilet/restroom (more direct, also common).\n**卫生间** (wèishēngjiān) = bathroom (lit. 'hygiene room') — used in hotels and formal contexts.\nCharacter breakdown: **洗** (xǐ) = wash, **手** (shǒu) = hand, **间** (jiān) = room/space.",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "洗手间在哪里？",
+      "phraseRomanized": "Xǐshǒujiān zài nǎlǐ?",
+      "literal": [
+        [
+          "洗手间",
+          "bathroom"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "哪里？",
+          "where?"
+        ]
+      ]
+    },
+    {
+      "id": "always",
+      "english": "Always",
+      "word": "总是",
+      "romanized": "zǒngshì",
+      "grammarNote": "**总是** (zǒngshì) = always (habitual). **总** (zǒng) = all/total/always.\nFrequency adverbs go before the verb in Chinese: 我早上总是喝咖啡 (I always drink coffee in the morning).\n**经常** (jīngcháng) = often; **有时候** (yǒu shíhou) = sometimes; **偶尔** (ǒu'ěr) = occasionally — all follow the same pre-verb placement rule.",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "我早上总是喝咖啡。",
+      "phraseRomanized": "Wǒ zǎoshang zǒngshì hē kāfēi.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "早上",
+          "morning"
+        ],
+        [
+          "总是",
+          "always"
+        ],
+        [
+          "喝",
+          "drink"
+        ],
+        [
+          "咖啡。",
+          "coffee."
+        ]
+      ]
+    },
+    {
+      "id": "never",
+      "english": "Never",
+      "word": "从不",
+      "romanized": "cóngbù",
+      "grammarNote": "**从不** (cóngbù) = never (habitual)\n**从来不** (cónglái bù) = have never\n**从来没有** (cónglái méiyǒu) = have never done: 我从来没有去过日本 (I've never been to Japan)\nAll three place the negative before the verb.",
+      "englishPhrase": "I'm never late.",
+      "phrase": "我从不迟到。",
+      "phraseRomanized": "Wǒ cóngbù chídào.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "从不",
+          "never"
+        ],
+        [
+          "迟到。",
+          "late-arrive."
+        ]
+      ]
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "去",
+      "romanized": "qù",
+      "grammarNote": "**去** (qù) = to go (away from the speaker). **来** (lái) = to come (toward the speaker). These are direction-dependent: use 去 when moving away, 来 when moving toward.\n**去** + place: 去商店 (go to the store). **去** + verb: 去吃饭 (go eat).\n**回去** (huíqù) = go back; **出去** (chūqù) = go out.",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "我去商店。",
+      "phraseRomanized": "Wǒ qù shāngdiàn.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "商店。",
+          "store."
+        ]
+      ]
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "来",
+      "romanized": "lái",
+      "grammarNote": "**来** (lái) = to come (toward the speaker or a reference point).\n**从...来** (cóng...lái) = come from: 你从哪里来？(Where are you from?)\n**来** also functions as a filler before an action to indicate 'let's do this': 我来 (I'll do it / let me), 来一杯 (bring a cup / let's have a cup).",
+      "englishPhrase": "Where did you come from?",
+      "phrase": "你从哪里来？",
+      "phraseRomanized": "Nǐ cóng nǎlǐ lái?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "从",
+          "from"
+        ],
+        [
+          "哪里",
+          "where"
+        ],
+        [
+          "来？",
+          "come?"
+        ]
+      ]
+    },
+    {
+      "id": "to_understand",
+      "english": "To understand",
+      "word": "明白",
+      "romanized": "míngbai",
+      "grammarNote": "**明白** (míngbai) = to understand (mentally grasp). **明** (míng) = bright/clear + **白** (bái) = white/clear. Together: 'completely clear.'\n**懂** (dǒng) = to understand (comprehend): 我不懂 (I don't get it). More conversational.\n**听懂** (tīng dǒng) = to understand by listening; **看懂** (kàn dǒng) = to understand by reading.",
+      "englishPhrase": "I don't understand.",
+      "phrase": "我不明白。",
+      "phraseRomanized": "Wǒ bù míngbai.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "不",
+          "not"
+        ],
+        [
+          "明白。",
+          "understand."
+        ]
+      ]
+    },
+    {
+      "id": "to_speak_talk",
+      "english": "To speak",
+      "word": "说",
+      "romanized": "shuō",
+      "grammarNote": "**说** (shuō) = to speak/say.\n**会说** (huì shuō) = can speak (learned skill): 你会说中文吗？\n**讲** (jiǎng) = to speak/tell/explain (more formal, also used for lectures): 讲中文, 讲故事 (tell a story).\n**聊** (liáo) = to chat casually: 我们聊聊吧 (let's have a chat).",
+      "englishPhrase": "Do you speak Chinese?",
+      "phrase": "你会说中文吗？",
+      "phraseRomanized": "Nǐ huì shuō zhōngwén ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "会",
+          "can"
+        ],
+        [
+          "说",
+          "speak"
+        ],
+        [
+          "中文",
+          "Chinese"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_give",
+      "english": "To give",
+      "word": "给",
+      "romanized": "gěi",
+      "grammarNote": "**给** (gěi) = to give; also marks the recipient of an action (like 'to' or 'for').\n请给我菜单 = 'please give me the menu.' The structure: 给 + recipient + object.\n**给** as benefactive: 我给你做饭 (I'll cook for you) — 给你 = 'for you.'\nDual-object: 给 takes both a recipient and an object, like 'give someone something.'",
+      "englishPhrase": "Please give me the menu.",
+      "phrase": "请给我菜单。",
+      "phraseRomanized": "Qǐng gěi wǒ càidān.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "给",
+          "give"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "菜单。",
+          "menu."
+        ]
+      ]
+    },
+    {
+      "id": "to_see",
+      "english": "To see",
+      "word": "看",
+      "romanized": "kàn",
+      "grammarNote": "**看** (kàn) = to look at / watch / read: 看书 (read a book), 看电视 (watch TV)\n**见** (jiàn) = to see / meet: 见面 (meet up)\n我看不见 = I can't see it (visibility blocked); 看不到 = can't see it (too far/hidden)",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "我什么都看不见。",
+      "phraseRomanized": "Wǒ shénme dōu kàn bùjiàn.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "什么",
+          "what"
+        ],
+        [
+          "都",
+          "all"
+        ],
+        [
+          "看不见。",
+          "see-not-visible."
+        ]
+      ]
+    },
+    {
+      "id": "with",
+      "english": "With",
+      "word": "和",
+      "romanized": "hé",
+      "grammarNote": "**和** (hé) = and/with (connecting nouns and people). 我和朋友 = me and my friend / with my friend.\n**一起** (yīqǐ) = together — often paired with 和: 和...一起 = together with...\n**的** (de) at the end of this sentence: 我和朋友一起来的 — the sentence-final 的 indicates the sentence explains a past fact or the manner/circumstance of how something happened.",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "我和朋友一起来的。",
+      "phraseRomanized": "Wǒ hé péngyou yīqǐ lái de.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "和",
+          "and"
+        ],
+        [
+          "朋友",
+          "friend"
+        ],
+        [
+          "一起",
+          "together"
+        ],
+        [
+          "来",
+          "came"
+        ],
+        [
+          "的。",
+          "[de]."
+        ]
+      ]
+    },
+    {
+      "id": "without",
+      "english": "Without",
+      "word": "没有",
+      "romanized": "méiyǒu",
+      "grammarNote": "**没有** (méiyǒu) = without / don't have / there is no.\nFor 'without' in a request, Chinese uses 不加 (bù jiā) = 'don't add': 咖啡不加糖 = coffee without sugar (lit. 'coffee don't-add sugar').\n**加** (jiā) = to add. Common in food orders: 不加冰 (no ice), 不加糖 (no sugar), 多加奶 (extra milk).",
+      "englishPhrase": "Coffee without sugar.",
+      "phrase": "咖啡不加糖。",
+      "phraseRomanized": "Kāfēi bù jiā táng.",
+      "literal": [
+        [
+          "咖啡",
+          "coffee"
+        ],
+        [
+          "不",
+          "not"
+        ],
+        [
+          "加",
+          "add"
+        ],
+        [
+          "糖。",
+          "sugar."
+        ]
+      ]
+    },
+    {
+      "id": "for",
+      "english": "For",
+      "word": "为了",
+      "romanized": "wèile",
+      "grammarNote": "**为了** (wèile) = for the purpose of / in order to (indicating purpose or motivation).\n**给** (gěi) = for (beneficiary): 这是给你的 (this is for you — for the benefit of you).\n**这是给你的** — the sentence-final **的** here turns the phrase into a 'it is the case that' emphasis: 'this is indeed for you.'",
+      "englishPhrase": "This is for you.",
+      "phrase": "这是给你的。",
+      "phraseRomanized": "Zhè shì gěi nǐ de.",
+      "hidden": true
+    },
+    {
+      "id": "in_on_at",
+      "english": "In",
+      "word": "在",
+      "romanized": "zài",
+      "grammarNote": "**在** (zài) = at/in/on — covers location: 在家 (at home), 在桌子上 (on the table).\n在…上 (shàng) = on top of; 在…里 (lǐ) = inside; 在…下 (xià) = under\nThe position word follows the place noun.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "书在桌子上。",
+      "phraseRomanized": "Shū zài zhuōzi shàng.",
+      "literal": [
+        [
+          "书",
+          "book"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "桌子",
+          "table"
+        ],
+        [
+          "上。",
+          "on."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "from",
+      "english": "From",
+      "word": "从",
+      "romanized": "cóng",
+      "grammarNote": "**从** (cóng) = from (a starting point in space or time): 从哪里来 (come from where), 从早到晚 (from morning to night).\n**从** vs **离** (lí): 从 = 'starting from'; 离 = 'away from, distance from': 我家离这里不远 (my home isn't far from here).\n**来自** (láizì) = come from / originate from (slightly more formal than 从...来).",
+      "englishPhrase": "Where are you from?",
+      "phrase": "你从哪里来？",
+      "phraseRomanized": "Nǐ cóng nǎlǐ lái?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "从",
+          "from"
+        ],
+        [
+          "哪里",
+          "where"
+        ],
+        [
+          "来？",
+          "come?"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "good",
+      "english": "Good",
+      "word": "好",
+      "romanized": "hǎo",
+      "grammarNote": "**好** (hǎo) = good/well (3rd tone). One of the most versatile characters in Chinese.\n好 as a response = OK / sure: 好，我去 (OK, I'll go).\n**好 + verb** = easy to verb: 好吃 (good to eat = delicious), 好喝 (good to drink = tasty), 好用 (easy to use).\n**好主意** (hǎo zhǔyi) = good idea — **主意** (zhǔyi) = idea/plan.",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "这是个好主意。",
+      "phraseRomanized": "Zhè shì gè hǎo zhǔyi.",
+      "literal": [
+        [
+          "这",
+          "this"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "个",
+          "[measure]"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "主意。",
+          "idea."
+        ]
+      ]
+    },
+    {
+      "id": "bad",
+      "english": "Bad",
+      "word": "不好",
+      "romanized": "bù hǎo",
+      "grammarNote": "**不好** (bù hǎo) = not good. For 'bad' as in terrible: **糟糕** (zāogāo) = awful/terrible.\n**太糟糕了** = 'that's terrible!' — **太...了** is an intensifier (too/so): 太好了！(Great!), 太贵了！(Too expensive!)\n**了** at the end of 太...了 reinforces the exclamation and marks it as a changed or present state.",
+      "englishPhrase": "That's really bad.",
+      "phrase": "那太糟糕了。",
+      "phraseRomanized": "Nà tài zāogāo le.",
+      "literal": [
+        [
+          "那",
+          "that"
+        ],
+        [
+          "太",
+          "too"
+        ],
+        [
+          "糟糕",
+          "terrible"
+        ],
+        [
+          "了。",
+          "[now]."
+        ]
+      ]
+    },
+    {
+      "id": "big",
+      "english": "Big",
+      "word": "大",
+      "romanized": "dà",
+      "grammarNote": "**大** (dà) = big/large (4th tone). One of the simplest and most productive characters.\n**大杯** (dàbēi) = large cup/size; **中杯** (zhōngbēi) = medium; **小杯** (xiǎobēi) = small.\n**来一杯** = 'bring a cup' — **来** used as a filler for ordering: 来一个汉堡 (one hamburger, please). Very natural in ordering contexts.",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "来一杯大杯咖啡。",
+      "phraseRomanized": "Lái yī bēi dàbēi kāfēi.",
+      "literal": [
+        [
+          "来",
+          "bring"
+        ],
+        [
+          "一杯",
+          "one-cup"
+        ],
+        [
+          "大杯",
+          "large-cup"
+        ],
+        [
+          "咖啡。",
+          "coffee."
+        ]
+      ]
+    },
+    {
+      "id": "small",
+      "english": "Small",
+      "word": "小",
+      "romanized": "xiǎo",
+      "grammarNote": "**小** (xiǎo) = small (3rd tone). Often used affectionately as a prefix for names: **小李** (Xiǎo Lǐ) = 'little Li' (friendly nickname for someone younger or close).\n**一张** (yī zhāng) — **张** (zhāng) is the measure word for flat objects: tables, paper, tickets, faces.\nContrast with **杯** (bēi) for cups, **本** (běn) for books, **件** (jiàn) for clothing.",
+      "englishPhrase": "A small table, please.",
+      "phrase": "请给我一张小桌子。",
+      "phraseRomanized": "Qǐng gěi wǒ yī zhāng xiǎo zhuōzi.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "给",
+          "give"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "一张",
+          "one-[measure]"
+        ],
+        [
+          "小",
+          "small"
+        ],
+        [
+          "桌子。",
+          "table."
+        ]
+      ]
+    },
+    {
+      "id": "a_lot_much",
+      "english": "A lot",
+      "word": "很多",
+      "romanized": "hěn duō",
+      "grammarNote": "**很多** (hěn duō) = a lot, many, much — **多** (duō) = many/much. Unlike standalone adjectives, **多** used as a pre-noun modifier doesn't need a measure word: 很多工作 (a lot of work).\n**多少** (duōshǎo) = how much/how many (question word).\n**多** also appears in commands: 多喝水！(drink more water!), 多吃点！(eat more!).",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "我有很多工作。",
+      "phraseRomanized": "Wǒ yǒu hěn duō gōngzuò.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "很多",
+          "very-many"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "a_little",
+      "english": "A little",
+      "word": "一点",
+      "romanized": "yīdiǎn",
+      "grammarNote": "**一点** (yīdiǎn) = a little, a bit — used before a noun (一点水, a little water) or after an adjective to soften it (好一点, a bit better).\n**有点** (yǒudiǎn) = somewhat, a little — used before adjectives/verbs to indicate a mild degree, often with a slightly negative flavor: 有点贵 (a bit expensive), 有点累 (a little tired).\nDifference: 一点 modifies nouns; 有点 modifies adjectives/verbs.",
+      "englishPhrase": "A little water, please.",
+      "phrase": "请给我一点水。",
+      "phraseRomanized": "Qǐng gěi wǒ yīdiǎn shuǐ.",
+      "literal": [
+        [
+          "请",
+          "please"
+        ],
+        [
+          "给",
+          "give"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "一点",
+          "a-little"
+        ],
+        [
+          "水。",
+          "water."
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "how_do_you_say",
+      "english": "How do you say ___?",
+      "word": "___怎么说？",
+      "romanized": "~ zěnme shuō?",
+      "grammarNote": "**用中文怎么说** = 'how do you say [it] in Chinese?' — **用** (yòng) = using, by means of. 用中文 = in Chinese (lit. 'using Chinese').\n**怎么** (zěnme) before a verb = how to (do the verb): 怎么说 = how to say, 怎么写 = how to write, 怎么去 = how to get there.\nThis pattern is extremely useful for language learners!",
+      "englishPhrase": "How do you say 'thank you' in Chinese?",
+      "phrase": "'thank you'用中文怎么说？",
+      "phraseRomanized": "'thank you' yòng zhōngwén zěnme shuō?",
+      "literal": [
+        [
+          "'thank you'",
+          "'thank you'"
+        ],
+        [
+          "用",
+          "using"
+        ],
+        [
+          "中文",
+          "Chinese"
+        ],
+        [
+          "怎么",
+          "how-to"
+        ],
+        [
+          "说？",
+          "say?"
+        ]
+      ]
+    },
+    {
+      "id": "can_you_help_me",
+      "english": "Can you help me?",
+      "word": "你能帮我吗？",
+      "romanized": "Nǐ néng bāng wǒ ma?",
+      "grammarNote": "**帮** (bāng) = to help (verb). Here it takes a double object: 帮 + 我 (me) + 拿 (carry) — 'help me carry.'\n**拿** (ná) = to hold/carry/take with hands. Compare: **带** (dài) = to bring/take along, **搬** (bān) = to move something heavy.\n**吗** (ma) turns any statement into a yes/no question. Without 吗: 你能帮我拿这个 = 'you can help me carry this' (statement).",
+      "englishPhrase": "Can you help me carry this?",
+      "phrase": "你能帮我拿这个吗？",
+      "phraseRomanized": "Nǐ néng bāng wǒ ná zhège ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "帮",
+          "help"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "拿",
+          "carry"
+        ],
+        [
+          "这个",
+          "this"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "how_much_does_it_cost",
+      "english": "How much does it cost?",
+      "word": "多少钱？",
+      "romanized": "Duōshǎo qián?",
+      "grammarNote": "**多少钱** (duōshǎo qián) = how much money? — the standard way to ask a price. Placed at the end: topic + 多少钱？\n**件** (jiàn) is the measure word for upper-body garments (jackets, shirts, coats) and also used with luggage/cases.\n**钱** (qián) = money. **块** (kuài) = the colloquial word for yuan (RMB): 三块钱 = 3 yuan.",
+      "englishPhrase": "How much does this jacket cost?",
+      "phrase": "这件夹克多少钱？",
+      "phraseRomanized": "Zhè jiàn jiākè duōshǎo qián?",
+      "literal": [
+        [
+          "这件",
+          "this-[measure]"
+        ],
+        [
+          "夹克",
+          "jacket"
+        ],
+        [
+          "多少",
+          "how-much"
+        ],
+        [
+          "钱？",
+          "money?"
+        ]
+      ]
+    },
+    {
+      "id": "im_sorry",
+      "english": "I'm sorry",
+      "word": "对不起",
+      "romanized": "duìbuqǐ",
+      "grammarNote": "**对不起** (duìbuqǐ) = I'm sorry (genuine apology — lit. 'I can't face you')\n**不好意思** (bù hǎo yìsi) = excuse me / I'm embarrassed — lighter, more social\n**抱歉** (bàoqiàn) = formal apology",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "非常对不起。",
+      "phraseRomanized": "Fēicháng duìbuqǐ.",
+      "literal": [
+        [
+          "非常",
+          "extremely"
+        ],
+        [
+          "对不起。",
+          "sorry."
+        ]
+      ]
+    },
+    {
+      "id": "no_problem",
+      "english": "No problem",
+      "word": "没问题",
+      "romanized": "méi wèntí",
+      "grammarNote": "**没问题** (méi wèntí) = no problem, lit. 'no question/issue.' **问题** (wèntí) = question or problem.\n**别担心** (bié dānxīn) = don't worry. **别** (bié) = don't (imperative negative, more casual than 不要).\n**担心** (dānxīn) = to worry, lit. 'carry-heart' — **担** (dān) = to carry on a shoulder pole + **心** (xīn) = heart.",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "没问题，别担心。",
+      "phraseRomanized": "Méi wèntí, bié dānxīn.",
+      "literal": [
+        [
+          "没问题，",
+          "no-problem,"
+        ],
+        [
+          "别",
+          "don't"
+        ],
+        [
+          "担心。",
+          "worry."
+        ]
+      ]
+    }
+  ]
+}

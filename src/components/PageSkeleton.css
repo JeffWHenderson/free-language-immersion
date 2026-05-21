@@ -1,0 +1,73 @@
+@keyframes skeleton-shimmer {
+    0%   { background-position: -600px 0; }
+    100% { background-position:  600px 0; }
+}
+
+.skeleton-page {
+    min-height: 100vh;
+    background-color: var(--background-color, #e6e9ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.skeleton-block {
+    background: linear-gradient(
+        90deg,
+        rgba(128, 128, 128, 0.10) 0%,
+        rgba(128, 128, 128, 0.22) 50%,
+        rgba(128, 128, 128, 0.10) 100%
+    );
+    background-size: 600px 100%;
+    animation: skeleton-shimmer 1.4s ease-in-out infinite;
+    border-radius: 10px;
+}
+
+.skeleton-title {
+    width: 180px;
+    height: 22px;
+    margin: 12px 0 6px;
+}
+
+.skeleton-subtitle {
+    width: 90px;
+    height: 14px;
+    margin-bottom: 20px;
+}
+
+.skeleton-card {
+    width: 100%;
+    max-width: 500px;
+    height: 110px;
+    margin-bottom: 12px;
+    border-radius: 14px;
+}
+
+/* ── Course / language-app variant ── */
+.skeleton-course {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.skeleton-section-title {
+    width: 140px;
+    height: 18px;
+    margin: 20px 0 10px 8px;
+}
+
+.skeleton-row {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    padding: 4px 8px;
+}
+
+.skeleton-lesson-card {
+    flex-shrink: 0;
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+}

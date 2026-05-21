@@ -1,0 +1,894 @@
+{
+  "id": "everyday_phrases",
+  "name": "Everyday Phrases",
+  "language": "arabic",
+  "stories": [
+    "meet_jeff",
+    "meet_seth",
+    "morning_routine",
+    "making_plans"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    {
+      "id": "numbers",
+      "name": "Numbers & Counting"
+    },
+    {
+      "id": "time_words",
+      "name": "Time Words & Days"
+    },
+    {
+      "id": "pronouns",
+      "name": "الضمائر — Personal Pronouns"
+    },
+    {
+      "id": "equational",
+      "name": "Equational Sentences — No Verb To Be"
+    },
+    {
+      "id": "la_negation",
+      "name": "لا & ما — Negation"
+    },
+    {
+      "id": "jiddan",
+      "name": "جداً — Intensifiers"
+    },
+    {
+      "id": "madi_past",
+      "name": "الماضي — Past Tense Verbs"
+    },
+    {
+      "id": "possessive_suffixes",
+      "name": "ضمائر الملكية — Possessive Suffixes"
+    },
+    {
+      "id": "dual_forms",
+      "name": "المثنى — The Dual Form"
+    },
+    {
+      "id": "word_patterns",
+      "name": "Word Patterns — The Root System"
+    }
+  ],
+  "cards": [
+    {
+      "id": "hello",
+      "english": "Hello",
+      "word": "مرحباً",
+      "romanized": "marhaban",
+      "grammarNote": "**مرحباً** (marhaban) = hello — from root **رحب** (r-h-b), meaning to be spacious/welcoming.\n**أهلاً** (ahlan) = hello/welcome — from root **أهل** (ahl, family) — lit. 'you are among family'.\n**السلام عليكم** (as-salamu 'alaykum) = peace be upon you — the most common Islamic greeting, replied with **وعليكم السلام** (wa-'alaykum as-salam).",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "مرحباً! كيف حالك؟",
+      "phraseRomanized": "Marhaban! Kayfa halak?"
+    },
+    {
+      "id": "please",
+      "english": "Please",
+      "word": "من فضلك",
+      "romanized": "min fadlak",
+      "grammarNote": "**من فضلك** (min fadlak) = please (lit. 'from your grace').\n**لو سمحت** (law samaht) = if you would permit — slightly softer.\nBoth are natural; the forms change by gender: **من فضلك** (m.) / **من فضلك** (f. = min fadlik).",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "قهوة من فضلك.",
+      "phraseRomanized": "Qahwa min fadlak."
+    },
+    {
+      "id": "thank_you",
+      "english": "Thank you",
+      "word": "شكراً",
+      "romanized": "shukran",
+      "grammarNote": "**شكراً** (shukran) = thank you — from root **شكر** (sh-k-r), meaning gratitude.\n**شكراً جزيلاً** (shukran jazilan) = thank you very much — **جزيل** means abundant/great.\n**ممنون** (mamnun) = grateful — another common expression in dialects.\nResponse: **عفواً** ('afwan) = you're welcome.",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "شكراً جزيلاً.",
+      "phraseRomanized": "Shukran jazilan."
+    },
+    {
+      "id": "i_want",
+      "english": "I want",
+      "word": "أريد",
+      "romanized": "urid",
+      "grammarNote": "**أريد** (urid) = I want, from the root verb **أراد** (arada).\nTo want to do something: **أريد أن** + verb — e.g., **أريد أن أذهب** (I want to go).\nVery direct — soften with **من فضلك** at the end.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "أريد قهوة.",
+      "phraseRomanized": "Urid qahwa."
+    },
+    {
+      "id": "i_need",
+      "english": "I need",
+      "word": "أحتاج إلى",
+      "romanized": "ahtaj ila",
+      "grammarNote": "**أحتاج** (ahtaj) = I need — from root **ح-و-ج** (h-w-j), meaning need/want.\n**أحتاج إلى** + noun means 'I need something': **أحتاج إلى ماء** (I need water).\nAlternative: **أحتاج أن** + verb = 'I need to do something': **أحتاج أن أنام** (I need to sleep).",
+      "englishPhrase": "I need help.",
+      "phrase": "أحتاج إلى مساعدة.",
+      "phraseRomanized": "Ahtaj ila musa'ada."
+    },
+    {
+      "id": "my_name_is",
+      "english": "My name is",
+      "word": "اسمي",
+      "romanized": "ismi",
+      "grammarNote": "**اسمي** (ismi) = my name is (lit. 'my name').\n**اسم** (ism) = name + **ي** (-i) = my. Arabic possessives are suffixes on the noun:\n**اسمك** (your name), **اسمه** (his name), **اسمها** (her name).\nNo verb needed — just say **اسمي** + the name.",
+      "englishPhrase": "My name is Khalid.",
+      "phrase": "اسمي خالد.",
+      "phraseRomanized": "Ismi Khalid."
+    },
+    {
+      "id": "i",
+      "english": "I",
+      "word": "أنا",
+      "romanized": "ana",
+      "grammarNote": "**أنا** (ana) = I — the first-person singular pronoun.\nIn Arabic, the verb already indicates the subject, so **أنا** is often omitted: **أعمل** (I work) is complete on its own.\n**أنا** is used for emphasis or clarity: **أنا أعمل هنا** (I — specifically — work here).\nEquational sentence: **أنا طالب** (ana talib) = I am a student — no verb 'to be' needed in the present tense.",
+      "englishPhrase": "I am a student.",
+      "phrase": "أنا طالب.",
+      "phraseRomanized": "Ana talib."
+    },
+    {
+      "id": "you",
+      "english": "You",
+      "word": "أنتَ",
+      "romanized": "anta",
+      "grammarNote": "Arabic distinguishes gender in 'you': **أنتَ** (anta) = you (m.) / **أنتِ** (anti) = you (f.).\nThis distinction extends to verbs and adjectives throughout the language.\nWhen in doubt: **anta** to a man, **anti** to a woman.",
+      "englishPhrase": "You speak Arabic well.",
+      "phrase": "أنتَ تتكلم العربية جيداً.",
+      "phraseRomanized": "Anta tatakallam al-'arabiyya jayyidan."
+    },
+    {
+      "id": "he",
+      "english": "He",
+      "word": "هو",
+      "romanized": "huwa",
+      "grammarNote": "**هو** (huwa) = he.\nIn Arabic, subject pronouns are often dropped because the verb ending tells you who is acting: **يعمل** (he works) needs no separate 'he'.\n**هو** is used for emphasis or when starting a nominal (verbless) sentence: **هو صديقي** (huwa sadiqi) = he is my friend — no verb needed in the present.",
+      "englishPhrase": "He is my friend.",
+      "phrase": "هو صديقي.",
+      "phraseRomanized": "Huwa sadiqi."
+    },
+    {
+      "id": "she",
+      "english": "She",
+      "word": "هي",
+      "romanized": "hiya",
+      "grammarNote": "**هي** (hiya) = she.\nFeminine verbs take a **ت** (t) prefix or suffix depending on tense — **تعمل** (ta'mal, she works), **عملت** ('amilat, she worked).\nArabic also assigns grammatical gender to all nouns, so **هي** is used for any feminine noun — a city, a car, a table — not just women.",
+      "englishPhrase": "She works here.",
+      "phrase": "هي تعمل هنا.",
+      "phraseRomanized": "Hiya ta'mal huna."
+    },
+    {
+      "id": "good_night",
+      "english": "Good night",
+      "word": "تصبح على خير",
+      "romanized": "tuṣbiḥ ʿalā khayr",
+      "grammarNote": "**تصبح على خير** (tusbih 'ala khayr) = good night (lit. 'may you wake on goodness') — a wish, not a statement.\nResponse: **وأنت من أهل الخير** (wa-anta min ahl al-khayr) = 'and may you be among the good'.\n**تصبح** is from root **صبح** (s-b-h), meaning morning/dawn — the same root as **صباح** (sabah, morning).",
+      "englishPhrase": "Good night, sleep well!",
+      "phrase": "تصبح على خير، نم جيداً!",
+      "phraseRomanized": "Tuṣbiḥ ʿalā khayr, nam jayyidan!",
+      "literal": [
+        [
+          "تصبح على خير",
+          "good night (lit: wake on goodness)"
+        ],
+        [
+          "نم",
+          "sleep"
+        ],
+        [
+          "جيداً",
+          "well"
+        ]
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "english": "How are you?",
+      "word": "كيف حالك؟",
+      "romanized": "kayfa ḥālak",
+      "grammarNote": "**كيف حالك؟** (kayfa halak?) = how are you? (lit. 'how is your condition/state?').\n**حال** (hal) = condition/state + **ك** (-k) = your — a genitive (إضافة) construction.\nFeminine: **كيف حالكِ؟** (kayfa halik?). Plural: **كيف حالكم؟** (kayfa halukum?).\nCommon response: **بخير، شكراً** (bikhayr, shukran) = fine, thanks.",
+      "englishPhrase": "How are you? Fine, thanks.",
+      "phrase": "كيف حالك؟ بخير، شكراً.",
+      "phraseRomanized": "Kayfa ḥālak? Bikhayr, shukran.",
+      "literal": [
+        [
+          "كيف",
+          "how"
+        ],
+        [
+          "حالك",
+          "your condition"
+        ],
+        [
+          "بخير",
+          "well/fine"
+        ],
+        [
+          "شكراً",
+          "thanks"
+        ]
+      ]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you",
+      "word": "يسعدني لقاؤك",
+      "romanized": "yasʿadunī liqāʾuk",
+      "grammarNote": "**يسعدني** (yasa'aduni) = it makes me happy — from root **سعد** (s-'-d), meaning happiness/good fortune.\n**لقاؤك** (liqa'uk) = meeting you — **لقاء** (liqa') = meeting/encounter + **ك** (-k) = your.\nThis is a formal/literary phrase. Colloquial alternatives: **تشرفنا** (tasharrafna) = we are honored, **فرصة سعيدة** (fursa sa'ida) = happy occasion (nice to meet you).",
+      "englishPhrase": "Nice to meet you!",
+      "phrase": "يسعدني لقاؤك!",
+      "phraseRomanized": "Yasʿadunī liqāʾuk!",
+      "literal": [
+        [
+          "يسعدني",
+          "makes me happy"
+        ],
+        [
+          "لقاؤك",
+          "meeting you"
+        ]
+      ]
+    },
+    {
+      "id": "youre_welcome",
+      "english": "You're welcome",
+      "word": "عفواً",
+      "romanized": "ʿafwan",
+      "grammarNote": "**عفواً** ('afwan) = you're welcome / pardon / excuse me — one word for multiple polite functions.\nRoot **عفو** ('afw) = forgiveness, pardon — the same word used to ask for pardon or to give it.\n**لا شكر على واجب** (la shukr 'ala wajib) = 'no thanks needed for a duty' — a more elaborate response to thanks.",
+      "englishPhrase": "You're welcome!",
+      "phrase": "عفواً! لا شكر على واجب.",
+      "phraseRomanized": "ʿAfwan! Lā shukr ʿalā wājib.",
+      "literal": [
+        [
+          "عفواً",
+          "you're welcome/pardon"
+        ],
+        [
+          "لا شكر على واجب",
+          "no thanks needed"
+        ]
+      ]
+    },
+    {
+      "id": "it",
+      "english": "It",
+      "word": "هو",
+      "romanized": "huwa",
+      "grammarNote": "Arabic has no neutral 'it' — every noun is masculine or feminine.\n**هو** (huwa) = it (for masculine nouns), **هي** (hiya) = it (for feminine nouns).\n**الكتاب** (the book) is masculine → **هو**. **الطاولة** (the table) is feminine → **هي**.",
+      "englishPhrase": "What is this?",
+      "phrase": "ما هذا؟",
+      "phraseRomanized": "Ma hatha?",
+      "hidden": true
+    },
+    {
+      "id": "we",
+      "english": "We",
+      "word": "نحن",
+      "romanized": "nahnu",
+      "grammarNote": "**نحن** (nahnu) = we — first-person plural pronoun.\nLike other Arabic pronouns, it can be dropped since the verb form shows 'we': **نعيش** (na'ish) = we live.\nUsed for emphasis: **نحن نعيش هنا** = we (ourselves) live here.\nThe **ن** (n) prefix on verbs signals first-person plural: **نأكل** (we eat), **نذهب** (we go), **نعمل** (we work).",
+      "englishPhrase": "We live here.",
+      "phrase": "نحن نعيش هنا.",
+      "phraseRomanized": "Nahnu na'ish huna."
+    },
+    {
+      "id": "they",
+      "english": "They",
+      "word": "هم",
+      "romanized": "hum",
+      "grammarNote": "**هم** (hum) = they (m. or mixed group). **هن** (hunna) = they (f. only).\nIn practice, **هم** is used for mixed or unspecified groups.\nArabic also has a dual form — **هما** (huma) — for exactly two people.",
+      "englishPhrase": "They eat together.",
+      "phrase": "هم يأكلون معاً.",
+      "phraseRomanized": "Hum ya'kulun ma'an."
+    },
+    {
+      "id": "this",
+      "english": "This",
+      "word": "هذا",
+      "romanized": "hatha",
+      "grammarNote": "**هذا** (hatha) = this (m.) / **هذه** (hathihi) = this (f.) — matches the noun's gender.\n**هذا الكتاب** (this book, m.), **هذه الطاولة** (this table, f.).\nFor 'that': **ذلك** (thalika, m.) / **تلك** (tilka, f.).",
+      "englishPhrase": "This book is good.",
+      "phrase": "هذا الكتاب جيد.",
+      "phraseRomanized": "Hatha al-kitab jayyid."
+    },
+    {
+      "id": "that",
+      "english": "That",
+      "word": "ذلك",
+      "romanized": "thalika",
+      "grammarNote": "**ذلك** (thalika) = that (m.) / **تلك** (tilka) = that (f.).\nThese are the 'far' demonstratives, contrasting with **هذا/هذه** (this, near).\n**ذلك الشخص** = that person (m.). **تلك المرأة** = that woman (f.).\nNote: **ذلك** is also used abstractly for 'that' in general — **لذلك** (li-thalika) = because of that / therefore.",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "ذلك الشخص صديقي.",
+      "phraseRomanized": "Thalika ash-shakhs sadiqi."
+    },
+    {
+      "id": "my",
+      "english": "My",
+      "word": "ـي",
+      "romanized": "-i",
+      "grammarNote": "Possession in Arabic is a suffix added directly to the noun: **كتاب** (kitab) → **كتابي** (kitabi) = my book.\n**ي** (-i) = my, **ك** (-ka/-ki) = your, **ه** (-hu) = his, **ها** (-ha) = her.",
+      "englishPhrase": "My name is Khalid.",
+      "phrase": "اسمي خالد.",
+      "phraseRomanized": "Ismi Khalid."
+    },
+    {
+      "id": "who",
+      "english": "Who",
+      "word": "من",
+      "romanized": "man",
+      "grammarNote": "**من** (man) = who (interrogative pronoun for people).\nNote: **من** (min, with a short 'i') = from — same spelling, different vowel, completely different meaning.\n**من هذا؟** (man hatha?) = who is this? — a complete question with no verb needed.\n**مَن** is always used for people; for things use **ما** (ma) = what.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "من هذا الشخص؟",
+      "phraseRomanized": "Man hatha ash-shakhs?"
+    },
+    {
+      "id": "what",
+      "english": "What",
+      "word": "ماذا",
+      "romanized": "matha",
+      "grammarNote": "**ماذا** (matha) = what — used when asking about actions: **ماذا تريد؟** (what do you want?).\n**ما** (ma) = what — used before nouns and in equational sentences: **ما هذا؟** (what is this?).\nThink of **ماذا** as 'what [are you doing/wanting]' and **ما** as 'what [is/are]' before a noun.",
+      "englishPhrase": "What do you want?",
+      "phrase": "ماذا تريد؟",
+      "phraseRomanized": "Matha turid?"
+    },
+    {
+      "id": "when",
+      "english": "When",
+      "word": "متى",
+      "romanized": "mata",
+      "grammarNote": "**متى** (mata) = when — used for questions: **متى ستأتي؟** (when are you coming?).\nFor 'when' in statements (relative): **عندما** ('indama) or **حين** (hin) = when/at the time that: **عندما وصلت** (when I arrived).\nDon't confuse with **متى** (question) vs **عندما** (subordinating conjunction).",
+      "englishPhrase": "When are you coming?",
+      "phrase": "متى ستأتي؟",
+      "phraseRomanized": "Mata sata'ti?"
+    },
+    {
+      "id": "where",
+      "english": "Where",
+      "word": "أين",
+      "romanized": "ayna",
+      "grammarNote": "**أين** (ayna) = where — one of the most-used question words.\n**أين** + definite noun = complete question with no verb: **أين الحمام؟** (where is the bathroom?).\n**من أين** (min ayna) = where from: **من أين أنت؟** (where are you from?).\n**إلى أين** (ila ayna) = where to: **إلى أين تذهب؟** (where are you going?).",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "أين الحمام؟",
+      "phraseRomanized": "Ayna al-hammam?"
+    },
+    {
+      "id": "why",
+      "english": "Why",
+      "word": "لماذا",
+      "romanized": "limatha",
+      "grammarNote": "**لماذا** (limatha) = why — formed from **لـ** (li, for/because of) + **ماذا** (matha, what).\nAnswer with **لأن** (li'anna) = because: **لأنني مريض** (because I am sick).\n**لماذا لا** (limatha la) = why not — a useful phrase for suggestions: **لماذا لا نذهب؟** (why don't we go?).",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "لماذا لا تستطيع المجيء؟",
+      "phraseRomanized": "Limatha la tastati'u al-maji'?"
+    },
+    {
+      "id": "how",
+      "english": "How",
+      "word": "كيف",
+      "romanized": "kayfa",
+      "grammarNote": "**كيف** (kayfa) = how — used in questions about manner or state.\n**كيف حالك؟** (kayfa halak?) = how are you? (lit. how is your condition?).\n**كيف** can also start indirect questions: **أعرف كيف تفعل هذا** (I know how to do this).\n**كيف تقول...؟** (kayfa taqul...?) = how do you say...? — useful for learners.",
+      "englishPhrase": "How are you?",
+      "phrase": "كيف حالك؟",
+      "phraseRomanized": "Kayfa halak?"
+    },
+    {
+      "id": "good_morning",
+      "english": "Good morning",
+      "word": "صباح الخير",
+      "romanized": "sabah al-khayr",
+      "grammarNote": "**صباح الخير** (sabah al-khayr) = good morning (lit. 'morning of goodness').\nResponse: **صباح النور** (sabah an-nur) = 'morning of light'.\n**مساء الخير** (masa' al-khayr) = good evening → response: **مساء النور**.",
+      "englishPhrase": "Good morning!",
+      "phrase": "صباح الخير!",
+      "phraseRomanized": "Sabah al-khayr!"
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "يبحث عن",
+      "romanized": "yabhath 'an",
+      "grammarNote": "**يبحث عن** (yabhath 'an) = to look for / to search for — from root **بحث** (b-h-th), meaning to search/research.\n**بحث** (bahth) = research, **باحث** (bahith) = researcher — all from the same root.\nThe preposition **عن** ('an, about/for) is required: you cannot drop it — **أبحث عن عمل** (I'm looking for work).",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "أبحث عن المخرج.",
+      "phraseRomanized": "Abhath 'an al-makhraj."
+    },
+    {
+      "id": "excuse_me",
+      "english": "Excuse me",
+      "word": "عفواً",
+      "romanized": "'afwan",
+      "grammarNote": "**عفواً** ('afwan) = excuse me (getting attention) OR you're welcome (after thanks) — one word for both.\n**لو سمحت** (law samaht) = if you please, used before a request.",
+      "englishPhrase": "Excuse me, where is the main street?",
+      "phrase": "عفواً، أين الشارع الرئيسي؟",
+      "phraseRomanized": "'Afwan, ayna ash-shari' ar-ra'isi?"
+    },
+    {
+      "id": "to_be_able_to_can",
+      "english": "To be able to",
+      "word": "يستطيع",
+      "romanized": "yastati'",
+      "grammarNote": "**يمكن** (yumkin) + **أن** + verb = it is possible to: **يمكنني أن أساعدك** (I can help you).\n**يستطيع** (yastati') = to be able to (more direct).\n**هل يمكنك...؟** = Can you...? — natural and polite for requests.",
+      "englishPhrase": "Can you help me?",
+      "phrase": "هل يمكنك مساعدتي؟",
+      "phraseRomanized": "Hal yumkinuka musa'adati?"
+    },
+    {
+      "id": "i_dont_know",
+      "english": "I don't know",
+      "word": "لا أعرف",
+      "romanized": "la a'rif",
+      "grammarNote": "**لا أعرف** (la a'rif) = I don't know — **لا** (la) negates a present-tense verb.\n**أعرف** (a'rif) = I know — from root **عرف** (gh-r-f / '-r-f), meaning to know/recognize.\n**معرفة** (ma'rifa) = knowledge, **تعرّف** (ta'arruf) = to get acquainted — all from the same root.\nAlternative: **لا أدري** (la adri) = I don't know (slightly more formal/literary).",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "لا أعرف أين هو.",
+      "phraseRomanized": "La a'rif ayna huwa."
+    },
+    {
+      "id": "to_have",
+      "english": "To have",
+      "word": "عندي",
+      "romanized": "'indi",
+      "grammarNote": "Arabic has no verb 'to have'. Possession uses **عند** ('inda, lit. 'at') or **لدى** (lada, lit. 'with') + pronoun suffix:\n**عندي** (I have), **عندك** (you have), **عنده** (he has).\n**عندي وقت** = I have time (lit. 'at me is time').",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "أنا جائع. هل عندك ماء؟",
+      "phraseRomanized": "Ana ja'i'. Hal 'indak ma'?"
+    },
+    {
+      "id": "to_do_make",
+      "english": "To do",
+      "word": "يفعل",
+      "romanized": "yaf'al",
+      "grammarNote": "**يفعل** (yaf'al) = he does/makes — from root **فعل** (f-'-l), meaning to do/act.\n**فعل** is also the Arabic linguistic term for 'verb' — so this root literally means 'verb-ness' or 'action'.\n**فاعل** (fa'il) = the doer/subject (grammar term), **مفعول** (maf'ul) = the object acted upon.\nFor 'to make' specifically: **يصنع** (yasna') is more precise.",
+      "englishPhrase": "What are you doing?",
+      "phrase": "ماذا تفعل؟",
+      "phraseRomanized": "Matha taf'al?"
+    },
+    {
+      "id": "to_eat",
+      "english": "To eat",
+      "word": "يأكل",
+      "romanized": "ya'kul",
+      "grammarNote": "**يأكل** (ya'kul) = he eats — from root **أكل** ('-k-l), meaning to eat.\n**أكل** (akl) = eating/food, **مأكولات** (ma'kulat) = foods/edibles — both from the same root.\nThe imperative: **كُل** (kul) = eat! (m.), **كُلي** (kuli) = eat! (f.).\nFirst person: **آكل** (akul) = I eat (the hamza merges with the alif).",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "أين نأكل؟",
+      "phraseRomanized": "Ayna na'kul?"
+    },
+    {
+      "id": "to_like",
+      "english": "To like",
+      "word": "يحب",
+      "romanized": "yuhibb",
+      "grammarNote": "**يحب** (yuhibb) = he likes/loves — from root **حبب** (h-b-b) / **حب** (hubb), meaning love.\n**حبيب** (habib) = beloved, **محبة** (mahabbah) = affection, **حبيبي** (habibi) = my dear — all from the same root.\n**أحب** (uhibb) = I love/like. Used for both strong love and mild preferences: **أحب القهوة** (I like coffee).",
+      "englishPhrase": "I like coffee.",
+      "phrase": "أحب القهوة.",
+      "phraseRomanized": "Uhibb al-qahwa."
+    },
+    {
+      "id": "but",
+      "english": "But",
+      "word": "لكن",
+      "romanized": "lakin",
+      "grammarNote": "**لكن** (lakin) = but — a conjunction linking contrasting clauses.\n**لكنّ** (lakinna) = but (followed by a noun/pronoun in the accusative) — a heavier, more emphatic form.\n**لكنني** (lakinani) = but I — **لكن** + **ني** (me/I suffix).\nThe similar **بل** (bal) = rather/on the contrary — used to correct or contradict a previous statement.",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "أريد أن أذهب، لكن لا أستطيع.",
+      "phraseRomanized": "Urid an adhhab, lakin la astati'."
+    },
+    {
+      "id": "and",
+      "english": "And",
+      "word": "و",
+      "romanized": "wa",
+      "grammarNote": "**و** (wa) = and, written attached to the next word with no space: **ماء وطعام** (water and food).\nIt can also mean 'while' in some contexts — one of the most common words in Arabic.",
+      "englishPhrase": "Water and food.",
+      "phrase": "ماء وطعام.",
+      "phraseRomanized": "Ma' wa ta'am."
+    },
+    {
+      "id": "or",
+      "english": "Or",
+      "word": "أو",
+      "romanized": "aw",
+      "grammarNote": "**أو** (aw) = or — used in open alternatives: **شاي أو قهوة؟** (tea or coffee?).\n**أم** (am) = or — used specifically in questions with two options: **هل تريد شاياً أم قهوة؟** (do you want tea or coffee?).\nRule of thumb: use **أو** in statements and **أم** in yes/no questions with an alternative.",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "شاي أو قهوة؟",
+      "phraseRomanized": "Shay aw qahwa?"
+    },
+    {
+      "id": "hungry",
+      "english": "Hungry",
+      "word": "جائع",
+      "romanized": "ja'i'",
+      "grammarNote": "**جائع** (ja'i') = hungry (formal, from the root **جاع**). **جوعان** (jow'an) = colloquial form heard across dialects.\nArabic adjectives agree in gender: **جائع** (m.) / **جائعة** (f.).",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "أنا جائع جداً.",
+      "phraseRomanized": "Ana ja'i' jiddan."
+    },
+    {
+      "id": "thirsty",
+      "english": "Thirsty",
+      "word": "عطشان",
+      "romanized": "'atshan",
+      "grammarNote": "**عطشان** ('atshan) = thirsty — a colloquial/dialetal form widely understood across Arabic.\nFormal/MSA: **عطش** ('atish, m.) / **عطشى** ('atsha, f.).\nThe **ان-** (-an) ending is characteristic of many colloquial adjectives: **جوعان** (hungry), **تعبان** (tired), **زعلان** (upset).",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "أنا عطشان جداً.",
+      "phraseRomanized": "Ana 'atshan jiddan."
+    },
+    {
+      "id": "person",
+      "english": "Person",
+      "word": "شخص",
+      "romanized": "shakhs",
+      "grammarNote": "**شخص** (shakhs) = person — used for any individual regardless of gender.\nPlural: **أشخاص** (ashkhas) = persons/people — a broken plural pattern **أَفْعَال** applied to the root **ش-خ-ص**.\n**شخصية** (shakhsiyya) = personality/character — from the same root.\n**إنسان** (insan) = human being — a more elevated synonym.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "من هذا الشخص؟",
+      "phraseRomanized": "Man hatha ash-shakhs?",
+      "hidden": true
+    },
+    {
+      "id": "place",
+      "english": "Place",
+      "word": "مكان",
+      "romanized": "makan",
+      "grammarNote": "**مكان** (makan) = place/location — from root **كون** (k-w-n), meaning to be/exist.\n**مكان** follows the pattern **مَفْعَل** / **مَفْعِل** used for places — same as **مطعم** (restaurant, place of eating), **مطبخ** (kitchen, place of cooking), **مكتب** (office/desk).\nPlural: **أماكن** (amakin) — a broken plural.",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "هل تعرف مكاناً جيداً؟",
+      "phraseRomanized": "Hal ta'rif makanan jayyidan?",
+      "hidden": true
+    },
+    {
+      "id": "thing",
+      "english": "Thing",
+      "word": "شيء",
+      "romanized": "shay'",
+      "grammarNote": "**شيء** (shay') = thing — one of the most common nouns in Arabic.\n**شيئاً** (shay'an) = something (indefinite, in case-marked speech).\n**لا شيء** (la shay') = nothing.\n**كل شيء** (kull shay') = everything.\nThe word came into English via Spanish/Portuguese as 'ropa' borrowings — interestingly, the word **شاي** (shay, tea) is a different word entirely despite the similar spelling.",
+      "englishPhrase": "What is this thing?",
+      "phrase": "ما هذا الشيء؟",
+      "phraseRomanized": "Ma hatha ash-shay'?",
+      "hidden": true
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "هنا",
+      "romanized": "huna",
+      "grammarNote": "**هنا** (huna) = here (near location).\n**هناك** (hunak) = there (far location).\nThese words function as adverbs of place and need no verb: **الكتاب هنا** (the book is here) — complete sentence.\n**من هنا** (min huna) = from here. **إلى هنا** (ila huna) = to here / this far.",
+      "englishPhrase": "Come here!",
+      "phrase": "تعال هنا!",
+      "phraseRomanized": "Ta'al huna!"
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "هناك",
+      "romanized": "hunak",
+      "grammarNote": "**هناك** (hunak) = there — used both as 'over there' (location) and as the existential 'there is/are'.\n**هناك مشكلة** (hunak mushkila) = there is a problem.\n**هنالك** (hunalika) = a more formal/literary variant of there.\nContrast with **هنا** (huna) = here.",
+      "englishPhrase": "The bathroom is over there.",
+      "phrase": "الحمام هناك.",
+      "phraseRomanized": "Al-hammam hunak."
+    },
+    {
+      "id": "very",
+      "english": "Very",
+      "word": "جداً",
+      "romanized": "jiddan",
+      "grammarNote": "**جداً** (jiddan) = very — always comes after the adjective it modifies, unlike English.\n**جيد جداً** (jayyid jiddan) = very good. **كبير جداً** (kabir jiddan) = very big.\nThe tanwin ـاً (-an) on **جداً** is a fixed adverbial ending, not a case ending.\n**للغاية** (lil-ghaya) = extremely/to the utmost — a stronger intensifier: **جيد للغاية** (extremely good).",
+      "englishPhrase": "It's very good.",
+      "phrase": "هذا جيد جداً.",
+      "phraseRomanized": "Hatha jayyid jiddan."
+    },
+    {
+      "id": "goodbye",
+      "english": "Goodbye",
+      "word": "مع السلامة",
+      "romanized": "ma' as-salama",
+      "grammarNote": "**مع السلامة** (ma' as-salama) = goodbye (lit. 'go with safety').\n**إلى اللقاء** (ila al-liqa') = see you / until we meet.\n**في أمان الله** (fi aman allah) = 'in God's protection' — common Islamic parting.",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "مع السلامة! إلى اللقاء غداً.",
+      "phraseRomanized": "Ma' as-salama! Ila al-liqa' ghadan."
+    },
+    {
+      "id": "water",
+      "english": "Water",
+      "word": "ماء",
+      "romanized": "ma'",
+      "grammarNote": "**ماء** (ma') = water — one of the most ancient Arabic words, cognate with Hebrew מַיִם (mayim).\nWith the definite article: **الماء** (al-ma') — the ء (hamza) at the end is always written.\n**ماء معدني** (ma' ma'dani) = mineral water, **ماء صالح للشرب** (ma' salih lish-shurb) = drinking water.\n**مائي** (ma'i) = aquatic/water-related — adjective form.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "كوب ماء من فضلك.",
+      "phraseRomanized": "Kub ma' min fadlak.",
+      "hidden": true
+    },
+    {
+      "id": "food",
+      "english": "Food",
+      "word": "طعام",
+      "romanized": "ta'am",
+      "grammarNote": "**طعام** (ta'am) = food — from root **طعم** (t-'-m), meaning taste/flavor and also to eat.\n**مطعم** (mat'am) = restaurant — lit. 'place of eating', using the **مَفْعَل** place pattern.\n**طعم** (ta'm) = taste/flavor — same root, different voweling.\n**أطعمة** (at'ima) = foods (plural) — a broken plural form.",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "الطعام لذيذ.",
+      "phraseRomanized": "At-ta'am ladhith.",
+      "hidden": true
+    },
+    {
+      "id": "house_home",
+      "english": "House",
+      "word": "بيت",
+      "romanized": "bayt",
+      "grammarNote": "**بيت** (bayt) = house/home — one of the earliest Arabic words, appearing in place names like **بيت لحم** (Bethlehem, lit. 'house of meat/bread').\nPlural: **بيوت** (buyut) — a broken plural pattern.\n**منزل** (manzil) = dwelling/home — more formal synonym.\n**بيتي** (bayti) = my house — add **ي** (-i) suffix for 'my'.",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "بيتي قريب من هنا.",
+      "phraseRomanized": "Bayti qarib min huna.",
+      "hidden": true
+    },
+    {
+      "id": "store_shop",
+      "english": "Store",
+      "word": "متجر",
+      "romanized": "matjar",
+      "grammarNote": "**متجر** (matjar) = store/shop — from root **تجر** (t-j-r), meaning trade/commerce.\n**تجارة** (tijara) = commerce/trade, **تاجر** (tajir) = merchant — all from the same root.\nThe **مَفْعَل** prefix pattern creates place nouns: **مَتْجَر** = place of trade.\n**دكان** (dukkan) = small shop — a more colloquial term.",
+      "englishPhrase": "The store is closed.",
+      "phrase": "المتجر مغلق.",
+      "phraseRomanized": "Al-matjar mughlaq."
+    },
+    {
+      "id": "cash_credit",
+      "english": "Cash",
+      "word": "نقداً",
+      "romanized": "naqdan",
+      "grammarNote": "**نقداً** (naqdan) = cash — the adverbial form of **نقد** (naqd, cash/currency).\n**نقد** also means criticism/critique in literary Arabic — same root **نقد** (n-q-d).\n**بطاقة** (bitaqa) = card. **ببطاقة** (bi-bitaqa) = by/with card — the preposition **بـ** (bi-) means 'with' or 'by means of'.\n**أم** (am) = or (in a two-option question): **نقداً أم ببطاقة؟**",
+      "englishPhrase": "Cash or card?",
+      "phrase": "نقداً أم ببطاقة؟",
+      "phraseRomanized": "Naqdan am bi-bitaqa?"
+    },
+    {
+      "id": "help",
+      "english": "Help",
+      "word": "مساعدة",
+      "romanized": "musa'ada",
+      "grammarNote": "**مساعدة** (musa'ada) = help (noun) — from root **ساعد** (sa'ada / s-'-d), meaning to help/assist.\n**يساعد** (yusa'id) = he helps, **ساعدني** (sa'idni) = help me (imperative).\nRoot **سعد** (s-'-d) also means happiness: **سعيد** (sa'id) = happy, **سعادة** (sa'ada) = happiness — a beautiful polysemy.",
+      "englishPhrase": "I need help.",
+      "phrase": "أحتاج إلى مساعدة.",
+      "phraseRomanized": "Ahtaj ila musa'ada."
+    },
+    {
+      "id": "bathroom",
+      "english": "Bathroom",
+      "word": "حمام",
+      "romanized": "hammam",
+      "grammarNote": "**حمام** (hammam) = bathroom — originally meaning bathhouse/hammam, the traditional Arab public bath.\nThe word entered many languages: Turkish hamam, Spanish albañil (via hammam-related routes).\n**دورة المياه** (dawrat al-miyah) = restroom/toilet (lit. 'cycle of the waters') — a more formal term.\n**حمام** can also mean 'dove/pigeon' — same spelling, completely unrelated word.",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "أين الحمام؟",
+      "phraseRomanized": "Ayna al-hammam?"
+    },
+    {
+      "id": "always",
+      "english": "Always",
+      "word": "دائماً",
+      "romanized": "da'iman",
+      "grammarNote": "**دائماً** (da'iman) = always — from root **دوم** (d-w-m), meaning permanence/continuity.\n**دام** (dama) = to last/continue, **مدام** (madam) = as long as, **دوام** (dawam) = continuity/permanence.\nAdverbial **ـاً** (-an) ending: **دائماً** is used as an adverb modifying a verb.\nContrasts: **أحياناً** (ahyanan) = sometimes, **نادراً** (nadiran) = rarely, **أبداً** (abadan) = never.",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "أشرب القهوة دائماً في الصباح.",
+      "phraseRomanized": "Ashrab al-qahwa da'iman fi as-sabah."
+    },
+    {
+      "id": "never",
+      "english": "Never",
+      "word": "أبداً",
+      "romanized": "abadan",
+      "grammarNote": "**أبداً** (abadan) = never/ever, used with a negated verb: **لا أتأخر أبداً** (I never arrive late).\n**لم** + verb + **قط** (qatt) = never did (past): **لم أذهب قط** (I have never gone).\n**أبداً** alone in response to a question means 'never / absolutely not'.",
+      "englishPhrase": "I'm never late.",
+      "phrase": "لا أتأخر أبداً.",
+      "phraseRomanized": "La ata'akhkhar abadan."
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "يذهب",
+      "romanized": "yathhab",
+      "grammarNote": "**يذهب** (yathhab) = he goes — from root **ذهب** (dh-h-b), meaning to go.\n**ذهب** also means gold — same spelling! Context always makes it clear.\n**أذهب** (adhhab) = I go, **اذهب!** (idhhab!) = go! (imperative, m.).\n**ذهاب** (dhahab) = going/departure, used in: **تذكرة ذهاب** (one-way ticket), **ذهاباً وإياباً** (round trip).",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "أذهب إلى المتجر.",
+      "phraseRomanized": "Athhab ila al-matjar."
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "يأتي",
+      "romanized": "ya'ti",
+      "grammarNote": "**يأتي** (ya'ti) = he comes — from root **أتى** ('-t-y), meaning to come/arrive.\n**أتيت** (atayt) = I came (past), **تعال** (ta'al) = come! (imperative) — an irregular imperative.\n**مَأتى** (ma'ta) = approach/way of coming — note the **مَفْعَل** place/source pattern.\nDont confuse with **يجيء** (yaji') — a near-synonym meaning to come, from root **جاء**.",
+      "englishPhrase": "Where did you come from?",
+      "phrase": "من أين أتيت؟",
+      "phraseRomanized": "Min ayna atayt?"
+    },
+    {
+      "id": "to_understand",
+      "english": "To understand",
+      "word": "يفهم",
+      "romanized": "yafham",
+      "grammarNote": "**يفهم** (yafham) = he understands — from root **فهم** (f-h-m), meaning understanding.\n**فهم** (fahm) = understanding/comprehension, **مفهوم** (mafhum) = understood / a concept.\n**هل تفهم؟** (hal tafham?) = do you understand? **لا أفهم** (la afham) = I don't understand.\n**استفهام** (istifham) = interrogation/questioning — note the same root in a derived form.",
+      "englishPhrase": "I don't understand.",
+      "phrase": "لا أفهم.",
+      "phraseRomanized": "La afham."
+    },
+    {
+      "id": "to_speak_talk",
+      "english": "To speak",
+      "word": "يتكلم",
+      "romanized": "yatakallam",
+      "grammarNote": "**يتكلم** (yatakallam) = he speaks — from root **كلم** (k-l-m), meaning word/speech.\n**كلمة** (kalima) = word, **كلام** (kalam) = speech/talk, **تكلّم** (takallam) = he spoke.\nThe **تَ** prefix in **يَتَكَلَّم** signals Form V — a reflexive/intensive verb pattern.\nAlternative: **يتحدث** (yatahadath) = to speak/converse, slightly more formal.",
+      "englishPhrase": "Do you speak Arabic?",
+      "phrase": "هل تتكلم العربية؟",
+      "phraseRomanized": "Hal tatakallam al-'arabiyya?"
+    },
+    {
+      "id": "to_give",
+      "english": "To give",
+      "word": "يعطي",
+      "romanized": "yu'ti",
+      "grammarNote": "**يعطي** (yu'ti) = he gives — from root **عطا** ('-t-w/y), meaning to give.\n**عطاء** ('ata') = a gift/giving, **معطى** (mu'ta) = given.\nImperative: **أعطني** (a'tini) = give me! — the ني suffix = me (direct object).\n**يُعطي** takes two objects: the person (indirect) and the thing (direct): **أعطاه الكتاب** (he gave him the book).",
+      "englishPhrase": "Give me the menu, please.",
+      "phrase": "أعطني القائمة من فضلك.",
+      "phraseRomanized": "A'tini al-qa'ima min fadlak."
+    },
+    {
+      "id": "to_see",
+      "english": "To see",
+      "word": "يرى",
+      "romanized": "yara",
+      "grammarNote": "**يرى** (yara) = he sees — from root **رأى** (r-'-y), meaning to see/think.\n**رأي** (ra'y) = opinion (lit. 'what one sees') — **ما رأيك؟** (what do you think? / what is your opinion?).\n**رؤية** (ru'ya) = vision/seeing, **مرئي** (mar'i) = visible.\nThe verb is irregular — the ء (hamza) in the root creates special conjugation forms.",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "لا أستطيع رؤية أي شيء.",
+      "phraseRomanized": "La astati'u ru'yat ayy shay'."
+    },
+    {
+      "id": "with",
+      "english": "With",
+      "word": "مع",
+      "romanized": "ma'",
+      "grammarNote": "**مع** (ma') = with — used for accompaniment: **جئت مع صديقي** (I came with my friend).\nDon't confuse with **ماء** (ma', water) — the same sound but different meaning and spelling.\n**معاً** (ma'an) = together — the adverbial form.\n**بـ** (bi-) also means 'with' but in the sense of using/by means of: **كتبت بالقلم** (I wrote with a pen).",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "جئت مع صديقي.",
+      "phraseRomanized": "Ji'tu ma' sadiqi."
+    },
+    {
+      "id": "without",
+      "english": "Without",
+      "word": "بدون",
+      "romanized": "bidun",
+      "grammarNote": "**بدون** (bidun) = without — from **دون** (dun), meaning without/below.\n**بلا** (bila) = without — a more literary/poetic variant.\n**بدون سكر** (bidun sukkar) = without sugar — extremely useful in cafes.\n**سكر** (sukkar) = sugar → the English word 'sugar' came through this Arabic root via Old French sucre.",
+      "englishPhrase": "Coffee without sugar, please.",
+      "phrase": "قهوة بدون سكر من فضلك.",
+      "phraseRomanized": "Qahwa bidun sukkar min fadlak."
+    },
+    {
+      "id": "for",
+      "english": "For",
+      "word": "لـ",
+      "romanized": "li",
+      "grammarNote": "**لـ** (li-) = for/to — a prefix preposition attached directly to the following word.\n**لك** (lak) = for you (m.), **لكِ** (laki) = for you (f.), **له** (lahu) = for him, **لها** (laha) = for her.\n**لـ** also expresses purpose: **ذهبت للدراسة** (I went to study / for studying).\n**ل + ال** contracts: **ل + الكتاب** = **للكتاب** (for the book).",
+      "englishPhrase": "This is for you.",
+      "phrase": "هذا لك.",
+      "phraseRomanized": "Hatha lak.",
+      "hidden": true
+    },
+    {
+      "id": "in_on_at",
+      "english": "In",
+      "word": "في",
+      "romanized": "fi",
+      "grammarNote": "**في** (fi) = in / inside / at: **في البيت** (in the house), **في الصباح** (in the morning).\n**على** ('ala) = on top of: **على الطاولة** (on the table).\n**تحت** (tahta) = under. **بجانب** (bi-janib) = next to.\nArabic prepositions are highly specific.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "الكتاب على الطاولة.",
+      "phraseRomanized": "Al-kitab 'ala at-tawila.",
+      "hidden": true
+    },
+    {
+      "id": "from",
+      "english": "From",
+      "word": "من",
+      "romanized": "min",
+      "grammarNote": "**من** (min) = from — a preposition of origin or source.\n**من أين أنت؟** (min ayna anta?) = where are you from?\n**من** also means 'who' (interrogative pronoun) when pronounced with a long 'a' — context makes it clear.\n**من** + a noun: **من مصر** (from Egypt), **من هنا** (from here), **من فضلك** (lit. 'from your grace' = please).",
+      "englishPhrase": "Where are you from?",
+      "phrase": "من أين أنت؟",
+      "phraseRomanized": "Min ayna anta?",
+      "hidden": true
+    },
+    {
+      "id": "good",
+      "english": "Good",
+      "word": "جيد",
+      "romanized": "jayyid",
+      "grammarNote": "**جيد** (jayyid) = good — a common everyday adjective.\nFeminine form: **جيدة** (jayyida) — the **ة** (ta' marbuta) marks the feminine.\n**جيداً** (jayyidan) = well (adverb): **تتكلم العربية جيداً** (you speak Arabic well).\n**ممتاز** (mumtaz) = excellent, **رائع** (ra'i') = wonderful — stronger alternatives.",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "هذه فكرة جيدة.",
+      "phraseRomanized": "Hathihi fikra jayyida."
+    },
+    {
+      "id": "bad",
+      "english": "Bad",
+      "word": "سيئ",
+      "romanized": "sayyi'",
+      "grammarNote": "**سيئ** (sayyi') = bad — from root **سوء** (s-w-') meaning badness/evil.\n**سوء** (su') = badness, **مسيئ** (musi') = one who does wrong, **إساءة** (isa'a) = harm/offense — all from the same root.\nFeminine: **سيئة** (sayyi'a).\n**سيئ الحظ** (sayyi' al-hazz) = unlucky (lit. 'bad of luck') — using the إضافة construction.",
+      "englishPhrase": "That's bad.",
+      "phrase": "هذا سيئ.",
+      "phraseRomanized": "Hatha sayyi'."
+    },
+    {
+      "id": "big",
+      "english": "Big",
+      "word": "كبير",
+      "romanized": "kabir",
+      "grammarNote": "**كبير** (kabir) = big/large — also means 'old/elder' when referring to people.\n**الكبير** (al-kabir) = the elder/the great — used as a title: **عمر الكبير**.\nFeminine: **كبيرة** (kabira). Plural: **كبار** (kibar) — a broken plural.\nThe comparative (bigger): **أكبر** (akbar) — same root, **أَفْعَل** pattern. **الله أكبر** = God is greatest.",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "قهوة كبيرة من فضلك.",
+      "phraseRomanized": "Qahwa kabira min fadlak."
+    },
+    {
+      "id": "small",
+      "english": "Small",
+      "word": "صغير",
+      "romanized": "saghir",
+      "grammarNote": "**صغير** (saghir) = small — also means 'young/junior' for people: **أنا الأصغر** (I am the youngest).\nFeminine: **صغيرة** (saghira). Plural: **صغار** (sighar) — broken plural.\nComparative: **أصغر** (asghar) = smaller/younger — the **أَفْعَل** pattern.\n**صغير الحجم** (saghir al-hajm) = small in size — using the إضافة construction.",
+      "englishPhrase": "A small table, please.",
+      "phrase": "طاولة صغيرة من فضلك.",
+      "phraseRomanized": "Tawila saghira min fadlak."
+    },
+    {
+      "id": "a_lot_much",
+      "english": "A lot",
+      "word": "كثيراً",
+      "romanized": "kathiran",
+      "grammarNote": "**كثيراً** (kathiran) = a lot/much — the adverbial form of **كثير** (kathir, many/much).\n**كثير** (kathir) as adjective: **عندي عمل كثير** (I have a lot of work).\n**كثيراً** as adverb: **أحبك كثيراً** (I love you a lot).\nOpposite: **قليل** (qalil) = little/few, **قليلاً** (qalilan) = a little (adverb).",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "عندي عمل كثير.",
+      "phraseRomanized": "'Indi 'amal kathir.",
+      "hidden": true
+    },
+    {
+      "id": "a_little",
+      "english": "A little",
+      "word": "قليلاً",
+      "romanized": "qalilan",
+      "grammarNote": "**قليلاً** (qalilan) = a little — adverbial form of **قليل** (qalil, few/little).\n**قليل** as adjective: **ماء قليل** (a little water).\nUseful phrase: **قليلاً من فضلك** (a little please) — handy when adding sugar, salt, etc.\n**بعض** (ba'd) = some — another way to express small quantity: **بعض الماء** (some water).",
+      "englishPhrase": "A little water, please.",
+      "phrase": "ماء قليل من فضلك.",
+      "phraseRomanized": "Ma' qalil min fadlak.",
+      "hidden": true
+    },
+    {
+      "id": "how_do_you_say",
+      "english": "How do you say ___?",
+      "word": "كيف تقول ___؟",
+      "romanized": "Kayfa taqul ___?",
+      "grammarNote": "**كيف تقول** (kayfa taqul) = how do you say — **كيف** (how) + **تقول** (you say, present tense m.).\n**تقول** is from root **قول** (q-w-l), meaning to say/speech.\n**قال** (qala) = he said (past), **قيل** (qila) = it was said, **مقولة** (maqula) = saying/quote — all same root.\n**بالعربية** (bil-'arabiyya) = in Arabic — **بـ** (in/with) + **ال** (the) + **عربية** (Arabic).",
+      "englishPhrase": "How do you say 'thank you' in Arabic?",
+      "phrase": "كيف تقول 'thank you' بالعربية؟",
+      "phraseRomanized": "Kayfa taqul 'thank you' bil-'arabiyya?"
+    },
+    {
+      "id": "can_you_help_me",
+      "english": "Can you help me?",
+      "word": "هل يمكنك مساعدتي؟",
+      "romanized": "Hal yumkinuka musa'adati?",
+      "grammarNote": "**هل** (hal) = the yes/no question marker — placed at the start of a question.\n**يمكنك** (yumkinuka) = it is possible for you / you can — lit. 'it enables you', impersonal construction.\n**مساعدتي** (musa'adati) = helping me — verbal noun **مساعدة** + possessive suffix **ي** (my/me).\nAlternative: **هل تستطيع مساعدتي؟** (hal tastati' musa'adati?) = can you help me? (more direct)."
+    },
+    {
+      "id": "how_much_does_it_cost",
+      "english": "How much does it cost?",
+      "word": "بكم هذا؟",
+      "romanized": "Bikam hatha?",
+      "grammarNote": "**بكم** (bikam) = how much? — **بـ** (bi-, for/at) + **كم** (kam, how much).\n**كم** (kam) alone = how many: **كم كتاباً عندك؟** (how many books do you have?).\n**السعر** (as-si'r) = the price: **ما السعر؟** (what is the price?) — a more formal alternative.\n**غالٍ** (ghali) = expensive, **رخيص** (rakhis) = cheap — useful follow-up vocabulary."
+    },
+    {
+      "id": "im_sorry",
+      "english": "I'm sorry",
+      "word": "أنا آسف",
+      "romanized": "ana asif",
+      "grammarNote": "**آسف** (asif) = sorry (m.) / **آسفة** (asifa) = sorry (f.).\n**عفواً** ('afwan) = pardon / excuse me / sorry — lighter and very common.\n**أعتذر** (a'tadhir) = I apologize — more formal.",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "أنا آسف جداً.",
+      "phraseRomanized": "Ana asif jiddan."
+    },
+    {
+      "id": "no_problem",
+      "english": "No problem",
+      "word": "لا مشكلة",
+      "romanized": "la mushkila",
+      "grammarNote": "**لا مشكلة** (la mushkila) = no problem — **لا** (la, no/not) + **مشكلة** (mushkila, problem/issue).\n**مشكلة** comes from root **شكل** (sh-k-l), meaning shape/form — a problem is something that 'forms a complication'.\n**مشكلات** / **مشاكل** (mashakil) = problems (broken plural).\n**لا بأس** (la ba's) = no problem / it's fine — a very common colloquial equivalent.",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "لا مشكلة، لا تقلق.",
+      "phraseRomanized": "La mushkila, la taqluq."
+    }
+  ]
+}

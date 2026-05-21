@@ -1,0 +1,511 @@
+{
+  "id": "human_body",
+  "name": "Human Body",
+  "language": "french",
+  "stories": [
+    "at_the_doctor",
+    "getting_ready",
+    "after_exercise",
+    "catching_a_cold"
+  ],
+  "grammarLessons": [
+    {
+      "id": "avoir_mal",
+      "name": "Avoir mal — To Hurt"
+    },
+    {
+      "id": "reflexive",
+      "name": "Reflexive Verbs — se..."
+    },
+    {
+      "id": "tres_trop",
+      "name": "très & trop — Very & Too"
+    },
+    {
+      "id": "etre",
+      "name": "Être — To Be"
+    },
+    {
+      "id": "imparfait",
+      "name": "L'Imparfait — Imperfect Tense"
+    },
+    {
+      "id": "devoir_falloir",
+      "name": "Devoir & Il Faut — Must / Have To"
+    }
+  ],
+  "cards": [
+    {
+      "id": "head",
+      "english": "head",
+      "word": "la tête",
+      "grammarNote": "To express pain: **avoir mal à** + body part.\nj'ai mal à la tête · j'ai mal au dos · j'ai mal aux pieds\n**à + le = au** · **à + les = aux**",
+      "englishPhrase": "My head hurts.",
+      "phrase": "J'ai mal à la tête."
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "word": "les cheveux (masc.)",
+      "grammarNote": "**les cheveux** is always plural (the collection of hair); one strand = **un cheveu**.\nWith body parts, use the definite article, not a possessive: elle a les cheveux longs (not *ses cheveux longs*).",
+      "englishPhrase": "She has long hair.",
+      "phrase": "Elle a les cheveux longs."
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "word": "le visage",
+      "grammarNote": "**le visage** is masculine: un beau visage, le visage humain.\n**Lave-toi le visage** = wash your face — reflexive verb (**se laver**) + definite article for body part, not a possessive.\nThe reflexive pronoun (te) already tells us whose face it is, so French says **le visage** not *ton visage*.\nAlso common: **la figure** (informal for face) · **le faciès** (medical term).",
+      "englishPhrase": "Wash your face.",
+      "phrase": "Lave-toi le visage."
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "word": "l'œil (masc.)",
+      "grammarNote": "**l'œil** (singular) → **les yeux** (plural) — completely different words, one of the most irregular plurals in French.",
+      "englishPhrase": "He has blue eyes.",
+      "phrase": "Il a les yeux bleus."
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "word": "l'oreille (fem.)",
+      "grammarNote": "**l'oreille** is feminine: une oreille, les oreilles.\nElision: **l'oreille** (not *la oreille*).\n**j'ai mal à l'oreille** = my ear hurts — **à + l'** (before vowel, no contraction needed).\n**l'oreille interne/externe** = inner/outer ear · **avoir de l'oreille** = to have a good ear for music.",
+      "englishPhrase": "My ear hurts.",
+      "phrase": "J'ai mal à l'oreille."
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "word": "le nez",
+      "grammarNote": "**le nez** is masculine: le nez froid, le nez rouge.\n**j'ai le nez froid** = my nose is cold — note this structure: **avoir + article + body part + adjective** (literally 'I have the nose cold').\nThis construction is used for describing body states: j'ai les mains froides, j'ai le dos raide.\n**le nez qui coule** = runny nose (literally 'the nose that runs').",
+      "englishPhrase": "My nose is cold.",
+      "phrase": "J'ai le nez froid."
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "word": "la bouche",
+      "grammarNote": "**la bouche** is feminine: une bouche, la bouche ouverte.\n**Ouvre la bouche** = open your mouth — imperative of **ouvrir** (irregular): j'ouvre, tu ouvres, il ouvre.\n**garder la bouche fermée** = to keep one's mouth shut · **bouche à bouche** = mouth-to-mouth resuscitation.\nDistinguish: **la bouche** (the mouth as opening) vs **la gueule** (informal/rude, animal mouth).",
+      "englishPhrase": "Open your mouth.",
+      "phrase": "Ouvre la bouche."
+    },
+    {
+      "id": "lip",
+      "english": "lip",
+      "word": "la lèvre",
+      "grammarNote": "**la lèvre** (singular) → **les lèvres** (plural, usually used in pairs).\n**elle a les lèvres rouges** = she has red lips — adjective **rouges** agrees with the feminine plural **les lèvres**.\nWith body parts + **avoir**, use the definite article: elle a **les** lèvres (not *ses lèvres*).\n**lire sur les lèvres** = to lip-read · **le baume à lèvres** = lip balm.",
+      "englishPhrase": "She has red lips.",
+      "phrase": "Elle a les lèvres rouges."
+    },
+    {
+      "id": "tooth_teeth",
+      "english": "tooth (teeth)",
+      "word": "la dent (les dents)",
+      "grammarNote": "**la dent** (singular) → **les dents** (plural).\n**j'ai mal aux dents** = I have a toothache — **à + les = aux**.\nBodycare: **se brosser les dents** = to brush one's teeth (reflexive + definite article).\n**une dent de sagesse** = a wisdom tooth · **avoir les dents longues** = to be ambitious (idiom).",
+      "englishPhrase": "I have a toothache.",
+      "phrase": "J'ai mal aux dents."
+    },
+    {
+      "id": "tongue",
+      "english": "tongue",
+      "word": "la langue",
+      "grammarNote": "**la langue** has two key meanings: the tongue (body part) and a language.\nContext: **tirer la langue** (to stick out one's tongue) vs **parler une langue** (to speak a language).\n**Tire la langue** = stick out your tongue — imperative of **tirer** (to pull/stick out), regular -er verb.\n**la langue maternelle** = mother tongue · **une langue étrangère** = a foreign language.",
+      "englishPhrase": "Stick out your tongue.",
+      "phrase": "Tire la langue."
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "word": "le cou",
+      "grammarNote": "**le cou** = the neck (the outer part, from head to shoulders).\nDistinguish from **la gorge** (the throat, interior): j'ai mal à la gorge (sore throat) vs j'ai mal au cou (stiff neck).\n**j'ai le cou raide** = my neck is stiff — **avoir + le + body part + adjective** construction.\n**une écharpe** = a scarf (worn around the neck) · **la nuque** = the back of the neck.",
+      "englishPhrase": "My neck is stiff.",
+      "phrase": "J'ai le cou raide."
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "word": "le bras",
+      "grammarNote": "**le bras** is masculine; the -s is silent in singular: le bras [brɑ].\n**je me suis cassé le bras** = I broke my arm — reflexive passé composé (**se casser**) + definite article (not possessive) for the body part.\nWith reflexive verbs + body parts: use **le/la/les** not **mon/ma/mes**: je me suis lavé **les** mains, il s'est blessé **au** genou.",
+      "englishPhrase": "I broke my arm.",
+      "phrase": "Je me suis cassé le bras."
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "word": "la main",
+      "grammarNote": "With reflexive verbs + body parts, use the definite article (not a possessive):\nLave-toi **les** mains · Je me suis cassé **le** bras\nThe reflexive pronoun (me/te/se) already makes clear whose body part it is.",
+      "englishPhrase": "Wash your hands.",
+      "phrase": "Lave-toi les mains."
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "word": "le doigt",
+      "grammarNote": "**le doigt** = finger (also used for toe in informal speech, though **l'orteil** is precise).\n**il s'est coupé le doigt** = he cut his finger — **se couper** (reflexive: to cut oneself) uses **être** in passé composé.\n**le doigt** takes the definite article after the reflexive (not *son doigt*).\n**montrer du doigt** = to point at · **un coup de doigt** = a touch · **les empreintes digitales** = fingerprints.",
+      "englishPhrase": "He cut his finger.",
+      "phrase": "Il s'est coupé le doigt."
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "word": "la poitrine",
+      "grammarNote": "**la poitrine** = chest/breast area (general term for both men and women).\n**une douleur à la poitrine** = chest pain — **à la** before feminine noun.\n**avoir une douleur** = to have a pain — use **avoir** + indefinite article + douleur.\nAlternative: **j'ai mal à la poitrine** (I have pain in my chest).\nRelated: **le thorax** (thorax, medical term) · **la cage thoracique** = rib cage.",
+      "englishPhrase": "He has chest pain.",
+      "phrase": "Il a une douleur à la poitrine."
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "word": "le dos",
+      "grammarNote": "**le dos** = the back (of the body): j'ai mal au dos · une douleur dans le dos.\n**j'ai mal au dos** = my back hurts — **à + le = au** before masculine noun.\n**le bas du dos** = the lower back · **le haut du dos** = the upper back.\n**dans le dos** = in/on the back · **avoir quelqu'un dans le dos** = to have someone on your back (figurative).",
+      "englishPhrase": "My back hurts.",
+      "phrase": "J'ai mal au dos."
+    },
+    {
+      "id": "heart",
+      "english": "heart",
+      "word": "le cœur",
+      "grammarNote": "**le cœur** = heart (the organ and the emotional/metaphorical heart).\nNote the ligature **œ** (o + e combined) — this is a distinctive French character.\n**mon cœur bat vite** = my heart is beating fast — possessive **mon** used here as a standalone noun (not with a reflexive verb), so **mon** is natural.\nIdioms: **avoir le cœur gros** (to be sad), **de tout cœur** (wholeheartedly), **par cœur** (by heart/from memory).",
+      "englishPhrase": "My heart is beating fast.",
+      "phrase": "Mon cœur bat vite."
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "word": "l'estomac (masc.)",
+      "grammarNote": "**l'estomac** = the stomach (the organ); **le ventre** = the belly/abdomen (broader term).\nNote: to say 'my stomach hurts', French uses **j'ai mal au ventre** (not *à l'estomac*) in everyday speech.\n**le ventre** is more common: j'ai mal au ventre · **le mal de ventre** = stomachache.\nElision: **l'estomac** (not *le estomac*) — the -c is silent: [lɛs.tɔ.ma].",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "J'ai mal au ventre."
+    },
+    {
+      "id": "muscle",
+      "english": "muscle",
+      "word": "le muscle",
+      "grammarNote": "**le muscle** is masculine: un muscle, les muscles.\n**je me suis froissé un muscle** = I pulled a muscle — reflexive passé composé using **être**.\n**se froisser** = to pull/strain (a muscle) · **se déchirer** = to tear (more severe): je me suis déchiré un muscle.\nNote **un** (indefinite article) here instead of **le** — because it's an indefinite injury, not a specific named muscle.",
+      "englishPhrase": "I pulled a muscle.",
+      "phrase": "Je me suis froissé un muscle."
+    },
+    {
+      "id": "waist",
+      "english": "waist",
+      "word": "la taille",
+      "grammarNote": "**la taille** has two meanings: waist (body part) and size (clothing size).\nContext: **avoir la taille fine** (to have a slim waist) vs **quelle est votre taille ?** (what is your size?).\n**la taille fine** — adjective **fine** follows the noun (default position for descriptive adjectives).\n**fine** (fem.) = slim/slender (masc.: **fin**).\n**la taille** also means height for people: **quelle est ta taille ?** (how tall are you?).",
+      "englishPhrase": "She has a slim waist.",
+      "phrase": "Elle a la taille fine."
+    },
+    {
+      "id": "skin",
+      "english": "skin",
+      "word": "la peau",
+      "grammarNote": "**la peau** is feminine: une peau douce, la peau sèche.\nPlural is irregular: **les peaux** (not *les paux*).\n**elle a la peau douce** = her skin is soft — **avoir + la + body part + adjective** construction.\n**doux/douce** = soft (masc./fem.) · **sec/sèche** = dry · **gras/grasse** = oily.\nIdiom: **être dans sa peau** = to be comfortable in one's own skin.",
+      "englishPhrase": "Her skin is soft.",
+      "phrase": "Elle a la peau douce."
+    },
+    {
+      "id": "blood",
+      "english": "blood",
+      "word": "le sang",
+      "grammarNote": "**le sang** is masculine: le sang rouge, une prise de sang.\nThe -g is silent: [sɑ̃].\n**donner son sang** = to donate blood (possessive **son** is natural here — a voluntary act, not reflexive).\n**une prise de sang** = a blood test (blood draw) · **le groupe sanguin** = blood type.\n**avoir du sang froid** = to keep one's cool (idiom: literally 'to have cold blood').",
+      "englishPhrase": "He donated blood.",
+      "phrase": "Il a donné son sang."
+    },
+    {
+      "id": "brain",
+      "english": "brain",
+      "word": "le cerveau",
+      "grammarNote": "**le cerveau** is masculine: un cerveau, le cerveau humain.\nPlural: **les cerveaux** (regular -eau → -eaux pattern: gâteau → gâteaux, bateau → bateaux).\n**le cerveau est complexe** — **est** is the third-person singular of **être** (to be).\nRelated: **le cervelet** (cerebellum) · **le cerveau** (brain/mind figuratively: c'est le cerveau de l'opération = he's the brains of the operation).",
+      "englishPhrase": "The brain is complex.",
+      "phrase": "Le cerveau est complexe."
+    },
+    {
+      "id": "skull",
+      "english": "skull",
+      "word": "le crâne",
+      "grammarNote": "**le crâne** is masculine: un crâne, le crâne humain.\nNote the circumflex accent on the â — a common feature in French, often indicating a historical dropped 's' (Latin *cranium*).\n**protéger** = to protect — **protège** (3rd person singular present): le crâne protège le cerveau.\n**se cogner le crâne** = to bang one's head · **chauve** = bald (describing the skull being visible).",
+      "englishPhrase": "The skull protects the brain.",
+      "phrase": "Le crâne protège le cerveau."
+    },
+    {
+      "id": "breast",
+      "english": "breast",
+      "word": "le sein",
+      "grammarNote": "**le sein** is masculine: un sein, les seins.\n**ressentir une douleur dans** + body location = to feel pain in.\n**elle a ressenti** — passé composé of **ressentir** (to feel/experience), conjugated with **avoir**: j'ai ressenti, tu as ressenti.\n**dans la poitrine** = in the chest — **dans** here indicates location inside the body.\nNote: **la poitrine** is often used as a more general alternative to **le sein** in medical or polite contexts.",
+      "englishPhrase": "She felt pain in her chest.",
+      "phrase": "Elle a ressenti une douleur dans la poitrine."
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "word": "la jambe",
+      "grammarNote": "**la jambe** is feminine: une jambe, les jambes.\n**j'ai la jambe fatiguée** = my leg is tired — **avoir + la + body part + adjective** structure.\n**fatigué(e)** agrees with **la jambe** (feminine) → **fatiguée**.\n**se casser la jambe** = to break one's leg · **les jambes en coton** = weak/shaky legs (idiom: literally 'cotton legs').\n**la jambe** = the whole leg; **la cuisse** = thigh · **le mollet** = calf · **le genou** = knee.",
+      "englishPhrase": "My leg is tired.",
+      "phrase": "J'ai la jambe fatiguée."
+    },
+    {
+      "id": "foot_feet",
+      "english": "foot (feet)",
+      "word": "le pied (les pieds)",
+      "grammarNote": "**le pied** (singular) → **les pieds** (plural, regular).\n**j'ai mal aux pieds** = my feet hurt — **à + les = aux**.\nCommon idioms: **mettre les pieds quelque part** (to set foot somewhere) · **de la tête aux pieds** (from head to toe) · **avoir les pieds sur terre** (to be down-to-earth).\n**le pied** = foot (body) and also used in measurement: un pied (a foot, ~30cm).",
+      "englishPhrase": "My feet hurt.",
+      "phrase": "J'ai mal aux pieds."
+    },
+    {
+      "id": "toe",
+      "english": "toe",
+      "word": "l'orteil (masc.)",
+      "grammarNote": "**l'orteil** is masculine: un orteil, les orteils.\nElision: **l'orteil** (not *le orteil*).\n**il s'est cogné l'orteil** = he stubbed his toe — **se cogner** (reflexive: to bump/stub) uses **être** in passé composé.\n**se cogner** + article + body part: the reflexive already signals whose toe, so use **l'orteil** not *son orteil*.\n**le gros orteil** = the big toe · **le petit orteil** = the little toe.",
+      "englishPhrase": "He stubbed his toe.",
+      "phrase": "Il s'est cogné l'orteil."
+    },
+    {
+      "id": "joint",
+      "english": "joint",
+      "word": "l'articulation (fem.)",
+      "grammarNote": "**l'articulation** is feminine: une articulation, les articulations.\nElision: **l'articulation** (not *la articulation*).\n**mes articulations sont raides** = my joints are stiff — possessive **mes** (my, pl.) + noun + verb **être** + adjective.\n**raide** = stiff (invariable in gender): raide (m./f.) · raides (pl.).\nRelated: **articulaire** (adj.: joint-related) · **l'arthrite** (fem.) = arthritis.",
+      "englishPhrase": "My joints are stiff.",
+      "phrase": "Mes articulations sont raides."
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "word": "le souffle",
+      "grammarNote": "**le souffle** = breath (as air expelled) or a breath of air.\nDistinguish from **la respiration** (breathing as a process) and **un souffle** (a puff of air).\n**retenir sa respiration** = to hold one's breath (literally 'to hold one's breathing').\n**le souffle** is also used figuratively: le souffle de la vie (the breath of life), être à bout de souffle (to be out of breath).\n**couper le souffle** = to take one's breath away.",
+      "englishPhrase": "Hold your breath.",
+      "phrase": "Retiens ta respiration."
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "word": "voir",
+      "grammarNote": "**voir** = to see (irregular verb): je vois, tu vois, il voit, nous voyons, vous voyez, ils voient.\n**je vois clairement** — adverb **clairement** (clearly) formed from adjective **clair** + **-ment**: clear → clearly.\nNote: **voir** vs **regarder**: **voir** = to see (involuntary/natural) · **regarder** = to look at (deliberate): je vois la montagne · je regarde la télé.\n**voire** ≠ **voir** — **voire** means 'or even' (written language).",
+      "englishPhrase": "I can see clearly.",
+      "phrase": "Je vois clairement."
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "word": "entendre",
+      "grammarNote": "**entendre** = to hear (regular -re verb): j'entends, tu entends, il entend, nous entendons.\n**je ne t'entends pas** — negation: **ne … pas** wraps around the verb: je **ne** t'entends **pas**.\nNote: **entendre** vs **écouter**: **entendre** = to hear (passive/natural) · **écouter** = to listen (active): j'entends la musique · j'écoute la musique.\n**s'entendre** = to get along: ils s'entendent bien (they get along well).",
+      "englishPhrase": "I can't hear you.",
+      "phrase": "Je ne t'entends pas."
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "word": "sentir",
+      "grammarNote": "**sentir** = to smell (both: to smell something and to emit a smell).\n**je sens les fleurs** = I can smell the flowers (perceiving the smell).\n**ça sent bon** = it smells good · **ça sent mauvais** = it smells bad.\nNote: **sentir** also means to feel (physical sensations): je sens la chaleur (I feel the heat).\n**se sentir** (reflexive) = to feel a state: je me sens bien.",
+      "englishPhrase": "I can smell the flowers.",
+      "phrase": "Je sens les fleurs."
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "word": "goûter",
+      "grammarNote": "**goûter** = to taste (to sample/try food): goûte cette soupe.\nImperative (tu form): **goûte** — drop the -r from the infinitive for -er verbs.\nDistinguish: **goûter** (to taste/sample) vs **avoir le goût de** (to taste of/like something): ça a le goût de citron (it tastes of lemon).\n**le goût** = taste (the sense) · **un goûter** = an afternoon snack (especially for children).",
+      "englishPhrase": "Taste this soup.",
+      "phrase": "Goûte cette soupe."
+    },
+    {
+      "id": "touch",
+      "english": "touch",
+      "word": "toucher",
+      "grammarNote": "**toucher** = to touch (regular -er verb).\nNegative imperative: **ne touche pas à ça !** — note **à ça** (to that): **toucher à** = to touch something (with the preposition à): ne touche pas aux livres.\nSimpler: **ne touche pas ça** (without à) is also heard informally.\n**toucher** can also mean 'to move emotionally': ce film m'a touché (this film moved me).",
+      "englishPhrase": "Don't touch that!",
+      "phrase": "Ne touche pas à ça !"
+    },
+    {
+      "id": "breathe",
+      "english": "breathe",
+      "word": "respirer",
+      "grammarNote": "**respirer** = to breathe (regular -er verb): je respire, tu respires, il respire.\nImperative: **respire** (tu form) · **respirez** (vous form).\n**respire lentement** — adverb **lentement** (slowly) from **lent** (slow) + **-ment**.\n**une grande respiration** = a deep breath · **retenir sa respiration** = to hold one's breath.\n**respirer** is also used figuratively: respirer la santé (to radiate health).",
+      "englishPhrase": "Breathe slowly.",
+      "phrase": "Respire lentement."
+    },
+    {
+      "id": "bend",
+      "english": "bend",
+      "word": "plier",
+      "grammarNote": "**plier** = to bend/fold (regular -er verb): je plie, tu plies, il plie.\nImperative: **plie** (tu form) — used here: plie les genoux.\n**les genoux** = the knees (plural of **le genou**; note irregular plural: **genou** → **genoux**).\n**plier les genoux** = to bend the knees · **se plier** = to bend oneself/comply: se plier aux règles (to comply with the rules).",
+      "englishPhrase": "Bend your knees.",
+      "phrase": "Plie les genoux."
+    },
+    {
+      "id": "stretch",
+      "english": "stretch",
+      "word": "s'étirer",
+      "grammarNote": "**s'étirer** = to stretch (reflexive verb).\nImperative (positive): **étire** + reflexive pronoun → **étire-toi** (stretch yourself) or **étire les bras** (stretch your arms — without reflexive, as used here).\n**étire les bras** uses the definite article: **les** bras (not *tes* bras), because the instruction is about 'the arms' generically.\n**un étirement** = a stretch (noun) · **les étirements** = stretches (warm-up exercises).",
+      "englishPhrase": "Stretch your arms.",
+      "phrase": "Étire les bras."
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "word": "l'épaule",
+      "grammarNote": "**l'épaule** is feminine: une épaule, les épaules.\nElision: **l'épaule** (not *la épaule*).\n**mon épaule me fait mal** = my shoulder hurts — literally 'my shoulder makes me hurt/pain'.\n**faire mal à** = to hurt (someone): ça me fait mal (it hurts me), mon dos me fait mal.\nThis contrasts with **j'ai mal à l'épaule** (I have pain in my shoulder — another natural phrasing).",
+      "englishPhrase": "My shoulder hurts.",
+      "phrase": "Mon épaule me fait mal.",
+      "literal": [["Mon","my"],["épaule","shoulder"],["me","me"],["fait","makes"],["mal","pain"]]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "word": "le genou",
+      "grammarNote": "**le genou** → plural **les genoux** (irregular: -ou → -oux; same pattern: bijou → bijoux, caillou → cailloux).\n**je me suis fait mal au genou** = I hurt my knee — reflexive passé composé of **se faire mal**.\n**se faire mal** = to hurt oneself (general): je me suis fait mal · **à + le = au**.\nCompare: **j'ai mal au genou** (my knee hurts — current state) vs **je me suis fait mal au genou** (I hurt my knee — event).",
+      "englishPhrase": "I hurt my knee.",
+      "phrase": "Je me suis fait mal au genou.",
+      "literal": [["Je","I"],["me","myself"],["suis","am"],["fait","made"],["mal","hurt"],["au","at-the"],["genou","knee"]]
+    },
+    {
+      "id": "elbow",
+      "english": "elbow",
+      "word": "le coude",
+      "grammarNote": "**le coude** is masculine: un coude, les coudes.\n**il s'est cogné le coude** = he bumped his elbow — **se cogner** (reflexive) uses **être** in passé composé.\nPast participle **cogné** agrees with **il** (masculine singular) — no change needed here.\n**le coude** in idioms: **jouer des coudes** (to elbow one's way through a crowd), **coup de coude** (a nudge with the elbow).",
+      "englishPhrase": "He bumped his elbow.",
+      "phrase": "Il s'est cogné le coude.",
+      "literal": [["Il","he"],["s'est","himself"],["cogné","bumped"],["le","the"],["coude","elbow"]]
+    },
+    {
+      "id": "flex",
+      "english": "flex",
+      "word": "contracter",
+      "grammarNote": "**contracter** = to flex/contract (a muscle).\n**contracte tes muscles** — imperative (tu form): regular -er verb, drop -r.\nNote: possessive **tes** is used here with an imperative directed at a named body action — this is natural when not using a reflexive verb.\n**contracter** also means to contract (a disease or a deal): contracter une maladie, contracter un emprunt.",
+      "englishPhrase": "Flex your muscles.",
+      "phrase": "Contracte tes muscles.",
+      "hidden": true
+    },
+    {
+      "id": "blink",
+      "english": "blink",
+      "word": "cligner des yeux",
+      "grammarNote": "**cligner des yeux** = to blink (literally 'to wink the eyes').\n**des yeux** = of-the eyes — **de + les = des** in this fixed expression.\n**ne cligne pas des yeux** = don't blink — negative imperative: **ne** + verb + **pas**.\n**cligner** is also used for: **cligner de l'œil** (to wink one eye) · **le clignotant** = a car indicator (turn signal).\nNote: the plural **les yeux** (irregular: œil → yeux) appears in many fixed expressions.",
+      "englishPhrase": "Don't blink.",
+      "phrase": "Ne cligne pas des yeux.",
+      "hidden": true
+    },
+    {
+      "id": "sweat",
+      "english": "sweat",
+      "word": "transpirer",
+      "grammarNote": "**transpirer** = to sweat/perspire (regular -er verb): je transpire, tu transpires, il transpire.\n**je transpire quand je cours** — **quand** (when) introduces a time clause in the present tense.\nNote: **suer** is a more colloquial/informal synonym: je sue (I'm sweating).\n**la transpiration** = perspiration/sweat (noun) · **en sueur** = sweaty (adjective phrase): être en sueur.",
+      "englishPhrase": "I sweat when I run.",
+      "phrase": "Je transpire quand je cours."
+    },
+    {
+      "id": "bleed",
+      "english": "bleed",
+      "word": "saigner",
+      "grammarNote": "**saigner** = to bleed (regular -er verb): je saigne, tu saignes, il/elle saigne.\n**la blessure saigne** = the wound is bleeding — in French, the present tense covers both 'bleeds' (simple) and 'is bleeding' (continuous).\n**une blessure** = a wound/injury · **saigner du nez** = to have a nosebleed (literally 'to bleed from the nose').\n**le sang** (blood) is related: saigner → sang.",
+      "englishPhrase": "The wound is bleeding.",
+      "phrase": "La blessure saigne."
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "word": "se sentir",
+      "grammarNote": "**se sentir** = to feel (a state or condition) — always reflexive: je me sens, tu te sens, il se sent.\n**comment tu te sens ?** = how do you feel? — informal **tu** form.\nFormal: **comment vous sentez-vous ?** (inversion for formal question).\n**se sentir** + adjective: je me sens bien/mal/fatigué(e).\nDistinguish: **sentir** (non-reflexive) = to smell or feel a physical sensation: je sens le froid.",
+      "englishPhrase": "How do you feel?",
+      "phrase": "Comment tu te sens ?"
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "word": "penser",
+      "grammarNote": "**penser** = to think (regular -er verb): je pense, tu penses, il pense.\n**à quoi tu penses ?** = what are you thinking about? — **à quoi** (about what) + **penser à**.\nNote: **penser à** (to think about/of): je pense à toi · **penser de** (to think of/have an opinion): qu'est-ce que tu penses de ce film ?\nAlso: **je pense que** + indicative = I think that: je pense que c'est vrai.",
+      "englishPhrase": "What are you thinking about?",
+      "phrase": "À quoi tu penses ?"
+    },
+    {
+      "id": "move",
+      "english": "move",
+      "word": "bouger",
+      "grammarNote": "**bouger** = to move (regular -er verb with a spelling consideration: -ger verbs add e before -ons: nous bougeons).\n**je ne peux pas bouger le bras** — **ne … pas** + **pouvoir** + infinitive = can't do something.\n**pouvoir** is irregular: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent.\n**bouger** = to physically move a part of your body or yourself · **déménager** = to move house.",
+      "englishPhrase": "I can't move my arm.",
+      "phrase": "Je ne peux pas bouger le bras."
+    },
+    {
+      "id": "bony",
+      "english": "bony",
+      "word": "osseux",
+      "grammarNote": "**osseux** = bony (masculine); feminine: **osseuse** (-x → -se).\n**il a les mains osseuses** — body description: **avoir + les + body part + adjective**.\n**osseuse** agrees with **les mains** (feminine plural) → **osseuses**.\n**les os** = bones (singular: **l'os** [lɔs], plural: **les os** [le zo] — liaison makes the s audible in plural).\n**osseux** also appears in medical terms: le tissu osseux (bone tissue).",
+      "englishPhrase": "His hands are bony.",
+      "phrase": "Il a les mains osseuses.",
+      "hidden": true
+    },
+    {
+      "id": "hairy",
+      "english": "hairy",
+      "word": "poilu",
+      "grammarNote": "**poilu** = hairy (masculine); feminine: **poiluе** (regular -e added).\n**il a les bras poilus** — body description with **avoir**: **les bras** (masc. pl.) + **poilus** (masc. pl.).\n**le poil** = body hair (one strand); **les poils** = body hair (collective/plural) — different from **les cheveux** (head hair).\nHistorical note: **un Poilu** (capital P) = a French WWI soldier (nicknamed for their unshaven appearance).",
+      "englishPhrase": "He has hairy arms.",
+      "phrase": "Il a les bras poilus.",
+      "hidden": true
+    },
+    {
+      "id": "soft",
+      "english": "soft",
+      "word": "doux",
+      "grammarNote": "**doux** = soft/gentle (masculine); feminine: **douce** (-x → -ce, irregular).\n**le tissu est doux** = the tissue/fabric is soft — adjective follows **être**.\nNote: **doux/douce** also means gentle, mild, or sweet: une voix douce (a soft voice), un temps doux (mild weather), un caractère doux (a gentle nature).\n**doucement** = gently/softly (adverb) · **la douceur** = softness/gentleness (noun).",
+      "englishPhrase": "The tissue is soft.",
+      "phrase": "Le tissu est doux."
+    },
+    {
+      "id": "sore",
+      "english": "sore",
+      "word": "douloureux",
+      "grammarNote": "**douloureux** = painful/sore (masculine); feminine: **douloureuse** (-x → -se).\n**endolori(e)** = achy/sore (past participle used as adjective): mes muscles sont endoloris.\n**endolori** is often preferred for muscles after exercise; **douloureux** for more intense pain.\n**la douleur** = pain (noun); **douloureusement** = painfully (adverb).\nNote: **endolori** agrees: endolori (m.) · endolorie (f.) · endoloris/endolories (pl.).",
+      "englishPhrase": "My muscles are sore.",
+      "phrase": "Mes muscles sont endoloris."
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "word": "gauche",
+      "grammarNote": "**gauche** = left (invariable adjective: same for masc. and fem.).\n**le genou gauche** = the left knee — adjective follows the noun (most adjectives in French come after).\n**je me suis blessé(e) au genou gauche** — reflexive passé composé of **se blesser** (to injure oneself): **être** auxiliary.\nPast participle **blessé(e)** agrees with the subject.\nOpposite: **droit(e)** = right · **à gauche** = to the left (direction) · **à droite** = to the right.",
+      "englishPhrase": "I hurt my left knee.",
+      "phrase": "Je me suis blessé(e) au genou gauche."
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "word": "droit",
+      "grammarNote": "**droit** = right (direction/side) — adjective: masculine **droit**, feminine **droite**.\n**le bras droit** = the right arm — adjective follows the noun.\n**je me suis cassé le bras droit** — reflexive passé composé of **se casser** using **être**.\nNote: **droit** also means 'straight' (tout droit = straight ahead) and is a homophone of **un droit** (a right/entitlement).\n**à droite** = to the right (directional adverb).",
+      "englishPhrase": "I broke my right arm.",
+      "phrase": "Je me suis cassé le bras droit."
+    },
+    {
+      "id": "upper",
+      "english": "upper",
+      "word": "supérieur",
+      "grammarNote": "**supérieur** = upper/superior — masculine; feminine: **supérieure**.\n**la partie supérieure du corps** = the upper body — **du** = **de + le** (of the).\nAdjective position: **supérieur** follows the noun here: la partie **supérieure**.\n**du corps** = of the body — **de + le corps**.\nOpposite: **inférieur(e)** = lower/inferior.\nAlso used figuratively: un grade supérieur (a higher rank), un air supérieur (a condescending manner).",
+      "englishPhrase": "The upper body is strong.",
+      "phrase": "La partie supérieure du corps est forte."
+    },
+    {
+      "id": "lower",
+      "english": "lower",
+      "word": "inférieur",
+      "grammarNote": "**inférieur** = lower/inferior — masculine; feminine: **inférieure**.\n**le bas du dos** = the lower back — **le bas** (the bottom/lower part) + **du dos** (of the back).\nNote: French uses **le bas du dos** rather than *le dos inférieur* for 'lower back' in everyday speech.\n**avoir mal dans le bas du dos** = to have lower back pain.\n**dans** here = in (location), rather than the usual **à** for body pain.",
+      "englishPhrase": "He has lower back pain.",
+      "phrase": "Il a mal dans le bas du dos."
+    },
+    {
+      "id": "body",
+      "english": "body",
+      "word": "le corps",
+      "grammarNote": "**le corps** is masculine: un corps, le corps humain.\nThe final -s is silent: [kɔʁ].\n**le corps humain** = the human body — adjective **humain** follows the noun.\n**humain(e)** = human (adjective) · **un être humain** = a human being.\n**le corps** in expressions: **garder le corps** (body and soul), **le corps enseignant** (the teaching profession), **le corps d'armée** (army corps).",
+      "englishPhrase": "The human body is amazing.",
+      "phrase": "Le corps humain est incroyable."
+    },
+    {
+      "id": "human_adjective",
+      "english": "human (adjective)",
+      "word": "humain",
+      "grammarNote": "**humain** = human (adjective) — masculine; feminine: **humaine**.\n**la biologie humaine** = human biology — adjective follows the noun, agreeing with **la biologie** (feminine) → **humaine**.\n**Ça fait partie de** = that's part of / it's part of — common phrase: ça fait partie de la vie (it's part of life).\nNote: nationality/descriptive adjectives like **humain** come after the noun; a few common adjectives (beau, grand, etc.) come before.",
+      "englishPhrase": "It's part of human biology.",
+      "phrase": "Ça fait partie de la biologie humaine.",
+      "hidden": true
+    }
+  ]
+}

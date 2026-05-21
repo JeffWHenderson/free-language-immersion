@@ -1,0 +1,2305 @@
+{
+  "id": "jobs_and_hobbies",
+  "name": "Jobs & Hobbies",
+  "language": "chinese",
+  "stories": [
+    "at_work",
+    "weekend_hobbies",
+    "job_interview",
+    "learning_to_cook",
+    "starting_a_side_project"
+  ],
+  "pictureLessons": [
+    "jobs_and_hobbies",
+    "jobs_and_hobbies_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "hui_neng",
+      "name": "会、能、可以 — Can"
+    },
+    {
+      "id": "xihuan",
+      "name": "喜欢 — To Like"
+    },
+    {
+      "id": "shi_sentences",
+      "name": "是 — To Be"
+    },
+    {
+      "id": "yao_xiang",
+      "name": "要 & 想 — Want / Would Like"
+    },
+    {
+      "id": "job_patterns",
+      "name": "Job Title Patterns — 师员家生人"
+    },
+    {
+      "id": "zhengzai_progressive",
+      "name": "正在 — Progressive Aspect"
+    },
+    {
+      "id": "frequency_expressions",
+      "name": "Frequency Expressions — 常常, 有时候, 从来不"
+    },
+    {
+      "id": "bei_passive",
+      "name": "被 — Passive Voice"
+    },
+    {
+      "id": "bi_comparison_adv",
+      "name": "比 — Advanced Comparisons"
+    }
+  ],
+  "cards": [
+    {
+      "id": "doctor",
+      "english": "Doctor",
+      "word": "医生",
+      "romanized": "yīshēng",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "他是医生。",
+      "phraseRomanized": "tā shì yīshēng.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "医生。",
+          "doctor."
+        ]
+      ],
+      "grammarNote": "**医生** (yīshēng) = **医** (yī, medicine/heal) + **生** (shēng, person/born) → doctor.\n**生** as a suffix marks a person in a certain role: **学生** (xuésheng, student), **医生** (doctor).\nContrast with **师** (shī) which marks a skilled professional or teacher: **老师** (teacher), **工程师** (engineer)."
+    },
+    {
+      "id": "nurse",
+      "english": "Nurse",
+      "word": "护士",
+      "romanized": "hùshi",
+      "englishPhrase": "She works as a nurse.",
+      "phrase": "她是一名护士。",
+      "phraseRomanized": "tā shì yī míng hùshi.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "一名",
+          "one [measure]"
+        ],
+        [
+          "护士。",
+          "nurse."
+        ]
+      ],
+      "grammarNote": "**护士** (hùshi) = **护** (hù, protect/care for) + **士** (shì, person/official) → nurse.\n**名** (míng) is the measure word for people, especially in formal or professional contexts: 一名医生, 一名护士, 一名学生.\n**士** here means a person with a defined role — compare **博士** (bóshì, doctor/PhD), **战士** (zhànshì, soldier)."
+    },
+    {
+      "id": "engineer",
+      "english": "Engineer",
+      "word": "工程师",
+      "romanized": "gōngchéngshī",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "我哥哥是工程师。",
+      "phraseRomanized": "wǒ gēgē shì gōngchéngshī.",
+      "literal": [
+        [
+          "我",
+          "my"
+        ],
+        [
+          "哥哥",
+          "older-brother"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "工程师。",
+          "engineer."
+        ]
+      ],
+      "grammarNote": "**工程师** (gōngchéngshī) = **工程** (gōngchéng, engineering) + **师** (shī, master/expert) → engineer.\n**师** is the suffix for skilled professionals and teachers: **老师** (teacher), **厨师** (cook), **律师** (lawyer), **建筑师** (architect).\n**哥哥** (gēgē) = older brother. Chinese distinguishes older vs. younger siblings: **哥哥** (older brother), **弟弟** (younger brother), **姐姐** (older sister), **妹妹** (younger sister)."
+    },
+    {
+      "id": "programmer",
+      "english": "Programmer",
+      "word": "程序员",
+      "romanized": "chéngxùyuán",
+      "englishPhrase": "She is a programmer.",
+      "phrase": "她是一名程序员。",
+      "phraseRomanized": "tā shì yī míng chéngxùyuán.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "一名",
+          "one [measure]"
+        ],
+        [
+          "程序员。",
+          "programmer."
+        ]
+      ],
+      "grammarNote": "**程序员** (chéngxùyuán) = **程序** (chéngxù, program/sequence) + **员** (yuán, member/worker) → programmer.\nThe suffix **员** (yuán) marks a person who is a member of a profession or organization: **服务员** (waiter), **售货员** (sales clerk), **运动员** (athlete), **工作人员** (staff member).\nCompare with **师** (expert) and **家** (master of an art)."
+    },
+    {
+      "id": "cook",
+      "english": "Cook",
+      "word": "厨师",
+      "romanized": "chúshī",
+      "englishPhrase": "The cook made a delicious meal.",
+      "phrase": "厨师做了一顿美味的饭。",
+      "phraseRomanized": "chúshī zuò le yī dùn měiwèi de fàn.",
+      "literal": [
+        [
+          "厨师",
+          "cook"
+        ],
+        [
+          "做",
+          "made"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "一顿",
+          "one [measure]"
+        ],
+        [
+          "美味的",
+          "delicious"
+        ],
+        [
+          "饭。",
+          "meal."
+        ]
+      ],
+      "grammarNote": "**厨师** (chúshī) = **厨** (chú, kitchen) + **师** (shī, master/expert) → cook/chef.\n**顿** (dùn) is the measure word specifically for meals: 一顿饭 (a meal), 三顿饭 (three meals a day).\n**美味** (měiwèi) = **美** (beautiful/good) + **味** (flavor) → delicious. The **的** after it is the structural particle that links an adjective phrase to a noun: 美味的饭 (delicious meal)."
+    },
+    {
+      "id": "waiter_waitress",
+      "english": "Waiter (Waitress)",
+      "word": "服务员",
+      "romanized": "fúwùyuán",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "服务员拿来了菜单。",
+      "phraseRomanized": "fúwùyuán ná lái le càidān.",
+      "literal": [
+        [
+          "服务员",
+          "waiter"
+        ],
+        [
+          "拿",
+          "brought"
+        ],
+        [
+          "来",
+          "come"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "菜单。",
+          "menu."
+        ]
+      ],
+      "grammarNote": "**服务员** (fúwùyuán) = **服务** (fúwù, service) + **员** (yuán, worker/member) → waiter/service staff.\nThe suffix **员** marks a role in a service or organization — it's very productive: **售货员** (sales clerk), **程序员** (programmer), **运动员** (athlete).\n**拿来** = **拿** (take/bring) + **来** (directional: toward the speaker) → bring over. Directional complements like 来/去 attach to verbs to show direction."
+    },
+    {
+      "id": "manager",
+      "english": "Manager",
+      "word": "经理",
+      "romanized": "jīnglǐ",
+      "englishPhrase": "She is a good manager.",
+      "phrase": "她是一位好经理。",
+      "phraseRomanized": "tā shì yī wèi hǎo jīnglǐ.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "一位",
+          "one [measure]"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "经理。",
+          "manager."
+        ]
+      ],
+      "grammarNote": "**经理** (jīnglǐ) = **经** (jīng, manage/pass through) + **理** (lǐ, arrange/reason) → manager.\n**位** (wèi) is a respectful measure word for people, used in formal or polite contexts: 一位经理, 一位老师. Compare with **个** (gè), which is neutral/informal: 一个人.\nIn Chinese, adjectives come directly before the noun: 好经理 (good manager), 大公司 (big company) — no 'a good manager of' structure needed."
+    },
+    {
+      "id": "student",
+      "english": "Student",
+      "word": "学生",
+      "romanized": "xuésheng",
+      "englishPhrase": "He is a university student.",
+      "phrase": "他是一名大学生。",
+      "phraseRomanized": "tā shì yī míng dàxuéshēng.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "一名",
+          "one [measure]"
+        ],
+        [
+          "大学生。",
+          "university-student."
+        ]
+      ],
+      "grammarNote": "**学生** (xuésheng) = **学** (xué, study/learn) + **生** (shēng, person) → student.\n**大学生** = **大学** (dàxué, university) + **生** (shēng, person) → university student. The **生** suffix marks a person by their role.\nContrast **师** vs **生**: **老师** (lǎoshī, teacher) vs **学生** (xuésheng, student) — teacher leads, student learns.\nAlso: **医生** (yīshēng, doctor) uses the same **生** suffix."
+    },
+    {
+      "id": "architect",
+      "english": "Architect",
+      "word": "建筑师",
+      "romanized": "jiànzhùshī",
+      "englishPhrase": "The architect designed the building.",
+      "phrase": "建筑师设计了这栋楼。",
+      "phraseRomanized": "jiànzhùshī shèjì le zhè dòng lóu.",
+      "literal": [
+        [
+          "建筑师",
+          "architect"
+        ],
+        [
+          "设计",
+          "designed"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "这",
+          "this"
+        ],
+        [
+          "栋",
+          "[measure]"
+        ],
+        [
+          "楼。",
+          "building."
+        ]
+      ],
+      "grammarNote": "**建筑师** (jiànzhùshī) = **建筑** (jiànzhù, architecture/construction) + **师** (shī, master/expert) → architect.\n**师** is the professional suffix for skilled specialists: **工程师** (engineer), **厨师** (cook), **律师** (lawyer), **老师** (teacher).\n**栋** (dòng) is the measure word for buildings: 一栋楼 (one building), 两栋房子 (two houses). Chinese has many specific measure words — **栋** is specifically for multi-story structures."
+    },
+    {
+      "id": "lawyer",
+      "english": "Lawyer",
+      "word": "律师",
+      "romanized": "lǜshī",
+      "englishPhrase": "She hired a lawyer.",
+      "phrase": "她请了一位律师。",
+      "phraseRomanized": "tā qǐng le yī wèi lǜshī.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "请",
+          "hired"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "一位",
+          "one [measure]"
+        ],
+        [
+          "律师。",
+          "lawyer."
+        ]
+      ],
+      "grammarNote": "**律师** (lǜshī) = **律** (lǜ, law/rules) + **师** (shī, master/expert) → lawyer.\n**请** (qǐng) means both 'to invite' and 'to hire/engage' — context clarifies which: 请客 (treat someone), 请假 (request leave), 请律师 (hire a lawyer).\n**位** (wèi) is the respectful measure word for people in professional or formal contexts, more polite than **个** (gè)."
+    },
+    {
+      "id": "table_tennis",
+      "english": "table tennis (ping pong)",
+      "word": "乒乓球",
+      "romanized": "pīngpāngqiú",
+      "englishPhrase": "China is famous for table tennis.",
+      "phrase": "中国以乒乓球闻名。",
+      "phraseRomanized": "Zhōngguó yǐ pīngpāngqiú wénmíng.",
+      "literal": [
+        [
+          "中国",
+          "China"
+        ],
+        [
+          "以",
+          "by/for"
+        ],
+        [
+          "乒乓球",
+          "ping pong"
+        ],
+        [
+          "闻名",
+          "famous"
+        ]
+      ],
+      "grammarNote": "**乒乓球** (pīngpāngqiú) is an onomatopoeic word — **乒乓** mimics the sound of the ball, and **球** (qiú) means ball.\nThe suffix **球** appears in many ball sports: **足球** (football/soccer), **篮球** (basketball), **网球** (tennis), **棒球** (baseball).\n**以…闻名** = 'to be famous for…': 中国以乒乓球闻名 = China is famous for table tennis. **以** here means 'by means of / because of'."
+    },
+    {
+      "id": "retired_person",
+      "english": "Retired Person",
+      "word": "退休人员",
+      "romanized": "tuìxiū rényuán",
+      "englishPhrase": "He is a retired person now.",
+      "phrase": "他现在是退休人员了。",
+      "phraseRomanized": "tā xiànzài shì tuìxiū rényuán le.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "现在",
+          "now"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "退休人员",
+          "retired-person"
+        ],
+        [
+          "了。",
+          "[now]."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**退休** (tuìxiū) = **退** (tuì, step back/withdraw) + **休** (xiū, rest) → retire.\n**人员** (rényuán) = **人** (rén, person) + **员** (yuán, member/role) → personnel/person in a role.\nThe sentence-final **了** here signals a change of state: he has now become a retired person (he wasn't before). This is different from the verb-following **了** that marks completed actions."
+    },
+    {
+      "id": "reading",
+      "english": "Reading",
+      "word": "阅读",
+      "romanized": "yuèdú",
+      "englishPhrase": "I enjoy reading in the evening.",
+      "phrase": "我喜欢在晚上阅读。",
+      "phraseRomanized": "wǒ xǐhuān zài wǎnshàng yuèdú.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "晚上",
+          "evening"
+        ],
+        [
+          "阅读。",
+          "read."
+        ]
+      ],
+      "grammarNote": "**阅读** (yuèdú) = **阅** (yuè, look through/review) + **读** (dú, read aloud/study) → to read (formal/literary).\nMore casual: **看书** (kān shū, look at books = read) or **读书** (dúshū, read books).\n**喜欢** + verb directly: 喜欢阅读 (like reading) — no 'to' or '-ing' form needed.\n**在晚上** = in the evening. **在** + time/place sets the context before the main verb."
+    },
+    {
+      "id": "writing",
+      "english": "Writing",
+      "word": "写作",
+      "romanized": "xiězuò",
+      "englishPhrase": "She is good at writing.",
+      "phrase": "她很擅长写作。",
+      "phraseRomanized": "tā hěn shàncháng xiězuò.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "擅长",
+          "good-at"
+        ],
+        [
+          "写作。",
+          "writing."
+        ]
+      ],
+      "grammarNote": "**写作** (xiězuò) = **写** (xiě, write) + **作** (zuò, do/create) → writing (as a craft or profession).\nSimpler: **写字** (xiě zì, write characters) or **写文章** (write an article).\n**擅长** (shàncháng) = 'be good at / be skilled in' — always followed directly by the skill: 擅长写作, 擅长游泳, 擅长烹饪. Compare with **会** (can/know how to) which emphasizes ability, and **喜欢** which emphasizes preference."
+    },
+    {
+      "id": "painting",
+      "english": "Painting",
+      "word": "绘画",
+      "romanized": "huìhuà",
+      "englishPhrase": "Painting is my favorite hobby.",
+      "phrase": "绘画是我最喜欢的爱好。",
+      "phraseRomanized": "huìhuà shì wǒ zuì xǐhuān de àihào.",
+      "literal": [
+        [
+          "绘画",
+          "painting"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "我",
+          "my"
+        ],
+        [
+          "最喜欢的",
+          "most-liked"
+        ],
+        [
+          "爱好。",
+          "hobby."
+        ]
+      ],
+      "grammarNote": "**绘画** (huìhuà) = **绘** (huì, draw/paint) + **画** (huà, picture/painting) → painting (formal/artistic term).\nCasual form: **画画** (huà huà) — reduplication used colloquially for 'doing some painting'.\n**最喜欢的** = **最** (zuì, most) + **喜欢** (like) + **的** → 'most liked/favorite'. The **的** links the adjective phrase to the noun **爱好** (hobby).\n**爱好** (àihào) = **爱** (love) + **好** (good) → hobby/interest."
+    },
+    {
+      "id": "drawing",
+      "english": "Drawing",
+      "word": "素描",
+      "romanized": "sùmiáo",
+      "englishPhrase": "He likes drawing animals.",
+      "phrase": "他喜欢素描动物。",
+      "phraseRomanized": "tā xǐhuān sùmiáo dòngwù.",
+      "hidden": true,
+      "grammarNote": "**素描** (sùmiáo) = **素** (sù, plain/simple/white) + **描** (miáo, trace/sketch) → drawing/sketching (especially pencil or charcoal work).\nContrast with **绘画** (huìhuà), which is painting in general, and **画画** (huà huà), which is the casual word for doing any kind of drawing or painting.\n**动物** (dòngwù) = **动** (dòng, move) + **物** (wù, thing) → animal (literally 'moving thing')."
+    },
+    {
+      "id": "photography",
+      "english": "Photography",
+      "word": "摄影",
+      "romanized": "shèyǐng",
+      "englishPhrase": "She has a talent for photography.",
+      "phrase": "她有摄影天赋。",
+      "phraseRomanized": "tā yǒu shèyǐng tiānfù.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "有",
+          "has"
+        ],
+        [
+          "摄影",
+          "photography"
+        ],
+        [
+          "天赋。",
+          "talent."
+        ]
+      ],
+      "grammarNote": "**摄影** (shèyǐng) = **摄** (shè, capture/absorb) + **影** (yǐng, shadow/image) → photography.\n**摄影师** (shèyǐngshī) = photographer (note the **师** suffix marking a professional).\n**天赋** (tiānfù) = **天** (tiān, sky/heaven) + **赋** (fù, endow/bestow) → natural talent/gift.\n**有天赋** = 'have talent' — the pattern **有** + noun describes having a quality or characteristic: 有意思 (interesting), 有帮助 (helpful), 有创意 (creative)."
+    },
+    {
+      "id": "music",
+      "english": "Music",
+      "word": "音乐",
+      "romanized": "yīnyuè",
+      "englishPhrase": "Music makes me happy.",
+      "phrase": "音乐让我开心。",
+      "phraseRomanized": "yīnyuè ràng wǒ kāixīn.",
+      "grammarNote": "**音乐** (yīnyuè) = **音** (yīn, sound) + **乐** (yuè, music/joy) → music.\nNote: **乐** has two readings — **yuè** (music) and **lè** (happy/joy). In **音乐** it's yuè; in **快乐** (happy) it's lè.\n**让** (ràng) = 'to let/make/allow': 音乐让我开心 = Music makes me happy. This causative pattern is very common: X + 让 + person + feel/do something.\n**开心** (kāixīn) = **开** (open) + **心** (heart) → happy (literally 'open-hearted')."
+    },
+    {
+      "id": "singing",
+      "english": "Singing",
+      "word": "唱歌",
+      "romanized": "chànggē",
+      "englishPhrase": "She loves singing.",
+      "phrase": "她热爱唱歌。",
+      "phraseRomanized": "tā rè'ài chànggē.",
+      "hidden": true,
+      "grammarNote": "**唱歌** (chànggē) = **唱** (chàng, sing) + **歌** (gē, song) → singing. This is a verb-object compound — a very common structure in Chinese hobbies.\nMore verb-object compounds: **跳舞** (tiàowǔ, dance), **游泳** (yóuyǒng, swim), **打球** (dǎ qiú, play ball).\n**热爱** (rè'ài) = **热** (rè, hot/fervent) + **爱** (ài, love) → to love passionately. Stronger than **喜欢** (like) and more intense than plain **爱** (love)."
+    },
+    {
+      "id": "playing_an_instrument",
+      "english": "Playing an instrument",
+      "word": "演奏乐器",
+      "romanized": "yǎnzòu yuèqì",
+      "englishPhrase": "He has been playing an instrument since he was young.",
+      "phrase": "他从小就在演奏乐器。",
+      "phraseRomanized": "tā cóngxiǎo jiù zài yǎnzòu yuèqì.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "从小",
+          "from-young"
+        ],
+        [
+          "就",
+          "already"
+        ],
+        [
+          "在",
+          "is"
+        ],
+        [
+          "演奏",
+          "playing"
+        ],
+        [
+          "乐器。",
+          "instrument."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**演奏** (yǎnzòu) = **演** (yǎn, perform) + **奏** (zòu, play music) → to perform/play (an instrument formally).\n**乐器** (yuèqì) = **乐** (yuè, music) + **器** (qì, instrument/tool) → musical instrument.\n**从小** (cóngxiǎo) = from childhood / since young. **从** (cóng) = from (starting point).\n**就** (jiù) here emphasizes that the action started early and naturally: 从小就… = 'ever since childhood…'."
+    },
+    {
+      "id": "dancing",
+      "english": "Dancing",
+      "word": "跳舞",
+      "romanized": "tiàowǔ",
+      "englishPhrase": "She takes dancing classes.",
+      "phrase": "她上舞蹈课。",
+      "phraseRomanized": "tā shàng wǔdào kè.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "上",
+          "attends"
+        ],
+        [
+          "舞蹈",
+          "dance"
+        ],
+        [
+          "课。",
+          "class."
+        ]
+      ],
+      "grammarNote": "**跳舞** (tiàowǔ) = **跳** (tiào, jump/leap) + **舞** (wǔ, dance) → to dance. A verb-object compound.\n**舞蹈** (wǔdào) is the noun form meaning dance as an art form: 舞蹈课 (dance class), 舞蹈家 (dancer/dance artist).\n**上课** (shàng kè) = attend class — **上** here means 'go to/attend'. Also: 上学 (go to school), 上班 (go to work). Compare **下课** (finish class), **下班** (finish work)."
+    },
+    {
+      "id": "cooking",
+      "english": "Cooking",
+      "word": "烹饪",
+      "romanized": "pēngrèn",
+      "englishPhrase": "Cooking for my family makes me happy.",
+      "phrase": "为家人烹饪让我很开心。",
+      "phraseRomanized": "wèi jiārén pēngrèn ràng wǒ hěn kāixīn.",
+      "literal": [
+        [
+          "为",
+          "for"
+        ],
+        [
+          "家人",
+          "family"
+        ],
+        [
+          "烹饪",
+          "cook"
+        ],
+        [
+          "让",
+          "makes"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "开心。",
+          "happy."
+        ]
+      ],
+      "grammarNote": "**烹饪** (pēngrèn) = **烹** (pēng, cook over fire) + **饪** (rèn, cook food thoroughly) → cooking (formal/culinary term).\nCommon casual alternatives: **做饭** (zuò fàn, make food/cook) or **炒菜** (chǎo cài, stir-fry dishes).\n**为** (wèi) = 'for (the benefit of)': 为家人烹饪 = cook for the family. Distinguish **为** (for/on behalf of) from **给** (gěi, give to/for someone directly).\n**让** (ràng) causative: [action] + 让 + [person] + [feeling] = the action makes the person feel something."
+    },
+    {
+      "id": "gardening",
+      "english": "Gardening",
+      "word": "园艺",
+      "romanized": "yuányì",
+      "englishPhrase": "Gardening is very relaxing.",
+      "phrase": "园艺让人很放松。",
+      "phraseRomanized": "yuányì ràng rén hěn fàngsōng.",
+      "literal": [
+        [
+          "园艺",
+          "gardening"
+        ],
+        [
+          "让",
+          "makes"
+        ],
+        [
+          "人",
+          "people"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "放松。",
+          "relaxed."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**园艺** (yuányì) = **园** (yuán, garden/park) + **艺** (yì, art/skill/craft) → gardening (literally 'garden craft').\n**艺** appears in many 'skill' words: **手艺** (shǒuyì, craftsmanship), **工艺** (gōngyì, craft/technique), **艺术** (yìshù, art).\n**让人** = 'makes people / makes one' — **人** here is a generic pronoun like 'one' in English. 让人放松 = it relaxes people / it's relaxing.\n**放松** (fàngsōng) = **放** (release) + **松** (loose/relax) → to relax/loosen up."
+    },
+    {
+      "id": "hiking",
+      "english": "Hiking",
+      "word": "徒步旅行",
+      "romanized": "túbù lǚxíng",
+      "englishPhrase": "We went hiking last weekend.",
+      "phrase": "上周末我们去徒步了。",
+      "phraseRomanized": "shàng zhōumò wǒmen qù túbù le.",
+      "literal": [
+        [
+          "上周末",
+          "last weekend"
+        ],
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "went"
+        ],
+        [
+          "徒步",
+          "hiking"
+        ],
+        [
+          "了。",
+          "[completed]."
+        ]
+      ],
+      "grammarNote": "**徒步旅行** (túbù lǚxíng) = **徒步** (túbù, on foot/walking) + **旅行** (lǚxíng, travel) → hiking.\nColloquially **徒步** alone is often used: 去徒步 (go hiking). Also common: **爬山** (páshān, climb a mountain).\n**上周末** = last weekend. **上** before a time word means 'last': 上周 (last week), 上个月 (last month), 上午 (morning — 'the last/earlier part of the day'). **下** means 'next': 下周 (next week).\n**去** + verb = 'go do something': 去徒步 (go hiking), 去游泳 (go swimming)."
+    },
+    {
+      "id": "running",
+      "english": "Running",
+      "word": "跑步",
+      "romanized": "pǎobù",
+      "englishPhrase": "I go running every morning.",
+      "phrase": "我每天早上跑步。",
+      "phraseRomanized": "wǒ měitiān zǎoshàng pǎobù.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "每天",
+          "every-day"
+        ],
+        [
+          "早上",
+          "morning"
+        ],
+        [
+          "跑步。",
+          "run."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**跑步** (pǎobù) = **跑** (pǎo, run) + **步** (bù, step) → running/jogging.\nCompare with **慢跑** (màn pǎo, slow run = jogging) and **冲刺** (chōngcì, sprint).\n**每天** (měitiān) = every day. Time expressions in Chinese come early in the sentence, right after the subject: 我每天早上跑步 (I every-day morning run).\n**早上** = morning. Time of day sequence: 早上 (morning), 中午 (noon), 下午 (afternoon), 晚上 (evening)."
+    },
+    {
+      "id": "jogging",
+      "english": "Jogging",
+      "word": "慢跑",
+      "romanized": "màn pǎo",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "他在公园慢跑。",
+      "phraseRomanized": "tā zài gōngyuán màn pǎo.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "公园",
+          "park"
+        ],
+        [
+          "慢跑。",
+          "jog."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**慢跑** (màn pǎo) = **慢** (màn, slow) + **跑** (pǎo, run) → jogging (literally 'slow running').\nThis is a modifier + verb pattern, very common in Chinese: **快走** (quick walk), **慢说** (speak slowly).\n**在** + place before verb sets the location: 在公园慢跑 = jog in the park. Location phrases come before the main verb in Chinese, unlike English where they often come after."
+    },
+    {
+      "id": "biking",
+      "english": "Biking",
+      "word": "骑自行车",
+      "romanized": "qí zìxíngchē",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "我周末骑自行车。",
+      "phraseRomanized": "wǒ zhōumò qí zìxíngchē.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "周末",
+          "weekend"
+        ],
+        [
+          "骑",
+          "ride"
+        ],
+        [
+          "自行车。",
+          "bicycle."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**骑自行车** (qí zìxíngchē) = **骑** (qí, ride/straddle) + **自行车** (zìxíngchē, bicycle) → ride a bicycle.\n**自行车** = **自行** (self-propelling) + **车** (chē, vehicle) → bicycle (literally 'self-propelled vehicle').\n**骑** is specifically used for riding things you straddle: 骑马 (ride a horse), 骑摩托车 (ride a motorbike). For vehicles you sit inside, use **坐** (sit) or **开** (drive): 坐车 (take a car), 开车 (drive a car)."
+    },
+    {
+      "id": "swimming",
+      "english": "Swimming",
+      "word": "游泳",
+      "romanized": "yóuyǒng",
+      "englishPhrase": "She swims every day.",
+      "phrase": "她每天游泳。",
+      "phraseRomanized": "tā měitiān yóuyǒng.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "每天",
+          "every-day"
+        ],
+        [
+          "游泳。",
+          "swim."
+        ]
+      ],
+      "grammarNote": "**游泳** (yóuyǒng) = **游** (yóu, swim/float/travel) + **泳** (yǒng, swimming stroke) → to swim.\nThis is a verb-object compound: **游** is the verb, **泳** is the object/complement. Many Chinese activities follow this pattern: **跑步** (run-steps), **跳舞** (jump-dance), **唱歌** (sing-song).\nNote: you cannot split **游泳** with a duration the way English does — instead say 游了一个小时的泳 (swam for an hour)."
+    },
+    {
+      "id": "yoga",
+      "english": "Yoga",
+      "word": "瑜伽",
+      "romanized": "yújiā",
+      "englishPhrase": "She does yoga in the morning.",
+      "phrase": "她早上练瑜伽。",
+      "phraseRomanized": "tā zǎoshàng liàn yújiā.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "早上",
+          "morning"
+        ],
+        [
+          "练",
+          "practice"
+        ],
+        [
+          "瑜伽。",
+          "yoga."
+        ]
+      ],
+      "grammarNote": "**瑜伽** (yújiā) is a phonetic loan word from Sanskrit/English 'yoga' — the characters were chosen for sound.\n**练** (liàn) = 'to practice/train' — commonly used for physical or skill disciplines: 练瑜伽 (practice yoga), 练功夫 (practice kung fu), 练琴 (practice an instrument). Compare **学** (learn something new) vs **练** (practice/drill something already being learned).\n**早上** (zǎoshàng) = morning. In Chinese, time comes before the verb: 她早上练瑜伽."
+    },
+    {
+      "id": "exercise",
+      "english": "Exercise",
+      "word": "健身",
+      "romanized": "jiànshēn",
+      "englishPhrase": "I exercise three times a week.",
+      "phrase": "我一周锻炼三次。",
+      "phraseRomanized": "wǒ yī zhōu jiànshēn sān cì.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "一周",
+          "one-week"
+        ],
+        [
+          "锻炼",
+          "exercise"
+        ],
+        [
+          "三次。",
+          "three times."
+        ]
+      ],
+      "grammarNote": "**健身** (jiànshēn) = **健** (jiàn, healthy/strong) + **身** (shēn, body) → exercise/work out (literally 'strengthen the body').\n**健身房** (jiànshēnfáng) = gym (literally 'strengthen-body room').\n**次** (cì) is the measure word for number of times/occurrences: 三次 (three times), 一次 (once). Frequency: 一周三次 (three times a week), 每天一次 (once a day).\n**锻炼** (duànliàn) = to exercise/train (general term; more formal than 健身)."
+    },
+    {
+      "id": "traveling",
+      "english": "Traveling",
+      "word": "旅行",
+      "romanized": "lǚxíng",
+      "englishPhrase": "I love traveling to new places.",
+      "phrase": "我喜欢去新地方旅行。",
+      "phraseRomanized": "wǒ xǐhuān qù xīn dìfāng lǚxíng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "新",
+          "new"
+        ],
+        [
+          "地方",
+          "place"
+        ],
+        [
+          "旅行。",
+          "travel."
+        ]
+      ],
+      "grammarNote": "**旅行** (lǚxíng) = **旅** (lǚ, travel/journey) + **行** (xíng, go/walk) → to travel.\nRelated: **旅游** (lǚyóu, tourism/sightseeing, more casual), **旅客** (lǚkè, traveler/passenger), **旅馆** (lǚguǎn, hotel).\n**去 + place + verb**: 去新地方旅行 = go to new places to travel. This verb-serial structure (two verbs in sequence) is very natural in Chinese — no infinitive or 'in order to' needed."
+    },
+    {
+      "id": "camping",
+      "english": "Camping",
+      "word": "露营",
+      "romanized": "lùyíng",
+      "englishPhrase": "We went camping in the mountains.",
+      "phrase": "我们去山里露营了。",
+      "phraseRomanized": "wǒmen qù shān lǐ lùyíng le.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "去",
+          "went"
+        ],
+        [
+          "山里",
+          "mountain-in"
+        ],
+        [
+          "露营",
+          "camp"
+        ],
+        [
+          "了。",
+          "[completed]."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**露营** (lùyíng) = **露** (lù, outdoors/open air) + **营** (yíng, camp/encampment) → to camp.\n**山里** = **山** (shān, mountain) + **里** (lǐ, inside/within) → in the mountains. **里** and **上** are common location suffixes: 桌上 (on the table), 房间里 (inside the room), 公园里 (in the park).\n**了** at the end of a sentence with **去** indicates the trip was completed: 去山里露营了 = went camping in the mountains (and did it)."
+    },
+    {
+      "id": "gaming_video_games",
+      "english": "Gaming (Video games)",
+      "word": "玩电子游戏",
+      "romanized": "wán diànzǐ yóuxì",
+      "englishPhrase": "He spends hours gaming.",
+      "phrase": "他花很多时间玩电子游戏。",
+      "phraseRomanized": "tā huā hěnduō shíjiān wán diànzǐ yóuxì.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "花",
+          "spends"
+        ],
+        [
+          "很多",
+          "very-much"
+        ],
+        [
+          "时间",
+          "time"
+        ],
+        [
+          "玩",
+          "play"
+        ],
+        [
+          "电子游戏。",
+          "video-games."
+        ]
+      ],
+      "grammarNote": "**电子游戏** (diànzǐ yóuxì) = **电子** (diànzǐ, electronic) + **游戏** (yóuxì, game) → video game.\n**玩** (wán) = to play (for fun). Used for games, toys, leisure activities: 玩游戏 (play games), 玩手机 (play on the phone). Compare **打** (dǎ), which is used for ball sports: 打篮球 (play basketball), 打球 (play ball).\n**花时间** (huā shíjiān) = spend time — **花** (huā) literally means 'flower' but also 'to spend (time or money)': 花钱 (spend money), 花时间 (spend time)."
+    },
+    {
+      "id": "watching_tv_movies",
+      "english": "Watching TV",
+      "word": "看电影",
+      "romanized": "kàn diànyǐng",
+      "englishPhrase": "She enjoys watching movies at home.",
+      "phrase": "她喜欢在家看电影。",
+      "phraseRomanized": "tā xǐhuān zài jiā kàn diànyǐng.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "喜欢",
+          "likes"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "家",
+          "home"
+        ],
+        [
+          "看",
+          "watch"
+        ],
+        [
+          "电影。",
+          "movies."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**看电影** (kàn diànyǐng) = **看** (kàn, watch/look) + **电影** (diànyǐng, movie) → watch a movie.\n**电影** = **电** (diàn, electricity) + **影** (yǐng, shadow/image) → movie (literally 'electric shadow').\n**看** is very versatile: 看书 (read a book), 看电视 (watch TV), 看病 (see a doctor), 看朋友 (visit friends).\n**在家** = at home. **在** + location before the verb: 在家看电影 (watch movies at home)."
+    },
+    {
+      "id": "listening_to_music",
+      "english": "Listening to music",
+      "word": "听音乐",
+      "romanized": "tīng yīnyuè",
+      "englishPhrase": "I listen to music while I work.",
+      "phrase": "我工作时听音乐。",
+      "phraseRomanized": "wǒ gōngzuò shí tīng yīnyuè.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "工作时",
+          "work-time"
+        ],
+        [
+          "听",
+          "listen"
+        ],
+        [
+          "音乐。",
+          "music."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**听音乐** (tīng yīnyuè) = **听** (tīng, listen) + **音乐** (yīnyuè, music) → listen to music. Another verb-object compound.\n**工作时** = **工作** (work) + **时** (shí, time/when) → 'when working / while at work'. The **时** suffix turns a verb phrase into a time clause: 吃饭时 (while eating), 睡觉时 (while sleeping).\n**听** vs **看**: 听 for audio (听音乐, 听广播), 看 for visual (看电影, 看书)."
+    },
+    {
+      "id": "crafts",
+      "english": "Crafts",
+      "word": "手工艺",
+      "romanized": "shǒugōngyì",
+      "englishPhrase": "She makes crafts on weekends.",
+      "phrase": "她周末做手工艺。",
+      "phraseRomanized": "tā zhōumò zuò shǒugōngyì.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "周末",
+          "weekend"
+        ],
+        [
+          "做",
+          "make"
+        ],
+        [
+          "手工艺。",
+          "crafts."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**手工艺** (shǒugōngyì) = **手** (shǒu, hand) + **工** (gōng, work/craft) + **艺** (yì, art/skill) → handicrafts/handcraft arts.\nShortened form **手工** (shǒugōng) = handmade work. You'll see 手工制品 (handmade products), 手工制作 (handmade/crafted by hand).\n**做** (zuò) is a versatile verb meaning 'do/make/create': 做饭 (cook), 做作业 (do homework), 做手工 (do crafts), 做生意 (do business)."
+    },
+    {
+      "id": "board_games",
+      "english": "Board games",
+      "word": "桌游",
+      "romanized": "zhuōyóu",
+      "englishPhrase": "We play board games every Friday.",
+      "phrase": "我们每周五玩桌游。",
+      "phraseRomanized": "wǒmen měi zhōuwǔ wán zhuōyóu.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "每周五",
+          "every-Friday"
+        ],
+        [
+          "玩",
+          "play"
+        ],
+        [
+          "桌游。",
+          "board-games."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**桌游** (zhuōyóu) = **桌** (zhuō, table) + **游** (yóu, game/play) → board game (literally 'table game'). A modern abbreviation.\n**每** (měi) + time word = 'every': 每天 (every day), 每周 (every week), 每周五 (every Friday), 每年 (every year).\n**周五** = Friday. Days of the week: 周一 (Mon), 周二 (Tue), 周三 (Wed), 周四 (Thu), 周五 (Fri), 周六 (Sat), 周日/周天 (Sun). **周** and **星期** are interchangeable: 周五 = 星期五."
+    },
+    {
+      "id": "to_work",
+      "english": "To work",
+      "word": "工作",
+      "romanized": "gōngzuò",
+      "englishPhrase": "I work from home.",
+      "phrase": "我在家工作。",
+      "phraseRomanized": "wǒ zài jiā gōngzuò.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "家",
+          "home"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ],
+      "grammarNote": "**工作** (gōngzuò) = **工** (gōng, labor/craft) + **作** (zuò, do/make) → work. It functions as both a noun (the work) and a verb (to work): 我有工作 (I have a job), 我在工作 (I'm working).\n**在家工作** = work at home. **在** + location before verb sets the context: 在家 (at home), 在公司 (at the company), 在外面 (outside).\nNote: 'work from home' in Chinese is literally 'at home work' — location comes before the action."
+    },
+    {
+      "id": "to_earn_a_salary",
+      "english": "To earn (a salary)",
+      "word": "赚钱",
+      "romanized": "zhuànqián",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "他赚的薪水不错。",
+      "phraseRomanized": "tā zhuàn de xīnshuǐ bùcuò.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "赚的",
+          "earns-[de]"
+        ],
+        [
+          "薪水",
+          "salary"
+        ],
+        [
+          "不错。",
+          "not-bad."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**赚钱** (zhuànqián) = **赚** (zhuàn, earn/profit) + **钱** (qián, money) → earn money.\n**赚的薪水** uses the structural particle **的**: verb + **的** + noun creates a noun phrase — 'the salary that he earns'. Compare: 他买的书 (the book he bought), 她做的菜 (the dish she made).\n**不错** (bùcuò) = **不** (not) + **错** (wrong/bad) → not bad = quite good. A common understated compliment in Chinese."
+    },
+    {
+      "id": "to_retire",
+      "english": "To retire",
+      "word": "退休",
+      "romanized": "tuìxiū",
+      "englishPhrase": "She plans to retire next year.",
+      "phrase": "她计划明年退休。",
+      "phraseRomanized": "tā jìhuà míngnián tuìxiū.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "计划",
+          "plans"
+        ],
+        [
+          "明年",
+          "next-year"
+        ],
+        [
+          "退休。",
+          "retire."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**退休** (tuìxiū) = **退** (tuì, retreat/step back) + **休** (xiū, rest) → retire (literally 'step back and rest').\n**计划** (jìhuà) = **计** (jì, plan/calculate) + **划** (huà, divide/plan) → to plan / a plan. It functions as both verb and noun: 我有计划 (I have a plan), 我计划去 (I plan to go).\n**明年** = next year. Time words: 去年 (last year), 今年 (this year), 明年 (next year)."
+    },
+    {
+      "id": "to_have_a_job",
+      "english": "To have a job",
+      "word": "有工作",
+      "romanized": "yǒu gōngzuò",
+      "englishPhrase": "Do you have a job?",
+      "phrase": "你有工作吗？",
+      "phraseRomanized": "nǐ yǒu gōngzuò ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "工作",
+          "job"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**吗** (ma) turns a statement into a yes/no question — just add it to the end: 你有工作。 (You have a job.) → 你有工作吗？ (Do you have a job?). No word order change needed.\n**有** (yǒu) = have. Negated with **没** (méi), not **不**: 我没有工作 (I don't have a job / I'm unemployed). Note: 不有 is incorrect.\n**工作** functions as both noun (a job) and verb (to work): 你有工作吗 (Do you have a job?), 你在工作吗 (Are you working?)."
+    },
+    {
+      "id": "to_be_unemployed",
+      "english": "To be unemployed",
+      "word": "失业",
+      "romanized": "shīyè",
+      "englishPhrase": "He has been unemployed for three months.",
+      "phrase": "他已经失业三个月了。",
+      "phraseRomanized": "tā yǐjīng shīyè sān gè yuè le.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "已经",
+          "already"
+        ],
+        [
+          "失业",
+          "unemployed"
+        ],
+        [
+          "三个月",
+          "three months"
+        ],
+        [
+          "了。",
+          "[now]."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**失业** (shīyè) = **失** (shī, lose) + **业** (yè, profession/occupation) → to lose one's job / be unemployed.\nRelated: **就业** (jiùyè, be employed), **职业** (zhíyè, profession/career), **行业** (hángyè, industry/trade).\n**已经…了** = 'already… (and still in that state)': 他已经失业三个月了 = he has already been unemployed for three months. **已经** emphasizes that the situation has been going on for a while.\n**个** (gè) is the all-purpose measure word for months: 三个月 (three months), 两个星期 (two weeks)."
+    },
+    {
+      "id": "to_study",
+      "english": "To study",
+      "word": "学习",
+      "romanized": "xuéxí",
+      "englishPhrase": "She studies every night.",
+      "phrase": "她每天晚上学习。",
+      "phraseRomanized": "tā měitiān wǎnshàng xuéxí.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "每天",
+          "every-day"
+        ],
+        [
+          "晚上",
+          "evening"
+        ],
+        [
+          "学习。",
+          "study."
+        ]
+      ],
+      "grammarNote": "**学习** (xuéxí) = **学** (xué, learn) + **习** (xí, practice/review) → to study.\n**学** alone means 'to learn' (学中文, learn Chinese). **学习** is broader — study as a sustained activity.\n**习** appears in **练习** (liànxí, practice), **复习** (fùxí, review), **预习** (yùxí, preview/prepare ahead).\n**每天晚上** = every evening. Time stacks from larger to smaller: 每天 (every day) → 晚上 (evening)."
+    },
+    {
+      "id": "to_learn",
+      "english": "To learn",
+      "word": "学",
+      "romanized": "xué",
+      "englishPhrase": "I want to learn Chinese.",
+      "phrase": "我想学中文。",
+      "phraseRomanized": "wǒ xiǎng xué zhōngwén.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "想",
+          "want-to"
+        ],
+        [
+          "学",
+          "learn"
+        ],
+        [
+          "中文。",
+          "Chinese."
+        ]
+      ],
+      "grammarNote": "**学** (xué) = to learn. The full compound is **学习** (xuéxí), but **学** alone is used before a specific subject: 学中文 (learn Chinese), 学游泳 (learn to swim), 学钢琴 (learn piano).\n**想** (xiǎng) = 'want to / would like to' — a softer modal than **要** (yào). 想 expresses a desire or intention, while 要 can sound more urgent or determined.\n**中文** = Chinese language (文 = written language/text). Also: **普通话** (Pǔtōnghuà, Mandarin), **汉语** (Hànyǔ, Chinese language)."
+    },
+    {
+      "id": "to_practice",
+      "english": "To practice",
+      "word": "练习",
+      "romanized": "liànxí",
+      "englishPhrase": "You need to practice every day.",
+      "phrase": "你需要每天练习。",
+      "phraseRomanized": "nǐ xūyào měitiān liànxí.",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "每天",
+          "every-day"
+        ],
+        [
+          "练习。",
+          "practice."
+        ]
+      ],
+      "grammarNote": "**练习** (liànxí) = **练** (liàn, drill/train) + **习** (xí, practice/review) → to practice.\n**练** alone is often used before an activity: 练瑜伽 (practice yoga), 练太极 (practice tai chi), 练琴 (practice an instrument).\n**需要** (xūyào) = need to — stronger than **想** (want to) and more objective than **要** (must). 需要 + verb expresses necessity: 你需要练习 (you need to practice).\n**每天** = every day. Placed before the verb, not after."
+    },
+    {
+      "id": "to_teach",
+      "english": "To teach",
+      "word": "教",
+      "romanized": "jiāo",
+      "englishPhrase": "She teaches mathematics.",
+      "phrase": "她教数学。",
+      "phraseRomanized": "tā jiāo shùxué.",
+      "grammarNote": "**教** (jiāo) = to teach. Note the two readings: **jiāo** (verb: to teach) and **jiào** (noun: education, as in 教育 jiàoyù).\n**数学** (shùxué) = **数** (shù, number) + **学** (xué, study/knowledge) → mathematics. The **学** suffix marks a field of study: 科学 (science), 哲学 (philosophy), 语言学 (linguistics).\n**老师** (lǎoshī, teacher) = **老** (lǎo, old/experienced) + **师** (shī, master) → teacher. The person who teaches uses the **师** suffix."
+    },
+    {
+      "id": "to_build",
+      "english": "To build",
+      "word": "建造",
+      "romanized": "jiànzào",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "他们正在建造一所新学校。",
+      "phraseRomanized": "tāmen zhèngzài jiànzào yī suǒ xīn xuéxiào.",
+      "literal": [
+        [
+          "他们",
+          "they"
+        ],
+        [
+          "正在",
+          "currently"
+        ],
+        [
+          "建造",
+          "building"
+        ],
+        [
+          "一所",
+          "one [measure]"
+        ],
+        [
+          "新",
+          "new"
+        ],
+        [
+          "学校。",
+          "school."
+        ]
+      ],
+      "grammarNote": "**建造** (jiànzào) = **建** (jiàn, establish/build) + **造** (zào, construct/create) → to build/construct.\nRelated: **建筑** (jiànzhù, architecture/building), **建筑师** (architect).\n**正在** (zhèngzài) = progressive marker: 'in the process of doing'. 他们正在建造 = they are (right now) building.\n**所** (suǒ) is the measure word for schools, hospitals, and houses: 一所学校 (one school), 一所医院 (one hospital). Compare with **栋** for multi-story buildings."
+    },
+    {
+      "id": "to_fix",
+      "english": "To fix",
+      "word": "修理",
+      "romanized": "xiūlǐ",
+      "englishPhrase": "Can you fix my phone?",
+      "phrase": "你能修理我的手机吗？",
+      "phraseRomanized": "nǐ néng xiūlǐ wǒ de shǒujī ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "修理",
+          "fix"
+        ],
+        [
+          "我的",
+          "my"
+        ],
+        [
+          "手机",
+          "phone"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**修理** (xiūlǐ) = **修** (xiū, repair/trim) + **理** (lǐ, arrange/put in order) → to repair/fix.\nShortened to just **修** in casual speech: 修车 (fix a car), 修房子 (repair a house).\n**能** (néng) = 'can' in the sense of physical ability or situational possibility. Compare: **会** (huì, can because you've learned how), **可以** (kěyǐ, can because it's permitted). 你能修理 = 'are you able to fix it?'\n**手机** (shǒujī) = **手** (hand) + **机** (machine) → mobile phone (literally 'hand machine')."
+    },
+    {
+      "id": "to_make",
+      "english": "To make",
+      "word": "做",
+      "romanized": "zuò",
+      "englishPhrase": "She makes her own clothes.",
+      "phrase": "她自己制作衣服。",
+      "phraseRomanized": "tā zìjǐ zhìzuò yīfu.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "自己",
+          "herself"
+        ],
+        [
+          "制作",
+          "makes"
+        ],
+        [
+          "衣服。",
+          "clothes."
+        ]
+      ],
+      "grammarNote": "**做** (zuò) = to do/make (general, versatile verb). More formal/crafted making: **制作** (zhìzuò, manufacture/produce) or **制造** (zhìzào, manufacture).\n**自己** (zìjǐ) = self/oneself. It emphasizes that the subject does the action personally: 她自己做 (she makes it herself), 我自己去 (I'll go myself).\n**衣服** (yīfu) = **衣** (yī, clothing) + **服** (fú, garment/serve) → clothes. Note: **服** also appears in **服务** (fúwù, service) and **服务员** (waiter)."
+    },
+    {
+      "id": "to_design",
+      "english": "To design",
+      "word": "设计",
+      "romanized": "shèjì",
+      "englishPhrase": "He designed the new logo.",
+      "phrase": "他设计了新标志。",
+      "phraseRomanized": "tā shèjì le xīn biāozhì.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "设计",
+          "designed"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "新",
+          "new"
+        ],
+        [
+          "标志。",
+          "logo."
+        ]
+      ],
+      "grammarNote": "**设计** (shèjì) = **设** (shè, set up/establish) + **计** (jì, plan/calculate) → to design / design. Works as both verb and noun: 设计师 (designer, with **师** suffix), 设计方案 (design plan).\n**标志** (biāozhì) = **标** (biāo, mark/sign) + **志** (zhì, record/mark) → logo/symbol/sign.\n**了** after the verb marks a completed action: 设计了 = (has) designed. Without **了**: 他设计新标志 would sound like a habitual or ongoing activity."
+    },
+    {
+      "id": "to_sell",
+      "english": "To sell",
+      "word": "卖",
+      "romanized": "mài",
+      "englishPhrase": "She sells handmade jewelry.",
+      "phrase": "她卖手工首饰。",
+      "phraseRomanized": "tā mài shǒugōng shǒushì.",
+      "grammarNote": "**卖** (mài) = to sell. Contrast with **买** (mǎi, to buy) — they look similar but differ in tone (4th vs 3rd) and the radical: **卖** has a cross on top, **买** does not.\nMemory tip: **买** (buy) has fewer strokes — you're getting something; **卖** (sell) has more — you're adding the cross of 'exchanging'.\n**手工首饰** = handmade jewelry: **手工** (shǒugōng, handmade) + **首饰** (shǒushì, jewelry/accessories)."
+    },
+    {
+      "id": "to_buy",
+      "english": "To buy",
+      "word": "买",
+      "romanized": "mǎi",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "我需要买一台新电脑。",
+      "phraseRomanized": "wǒ xūyào mǎi yī tái xīn diànnǎo.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "买",
+          "buy"
+        ],
+        [
+          "一台",
+          "one [measure]"
+        ],
+        [
+          "新",
+          "new"
+        ],
+        [
+          "电脑。",
+          "computer."
+        ]
+      ],
+      "grammarNote": "**买** (mǎi) = to buy. Contrast with **卖** (mài, to sell) — similar characters, different tones.\n**台** (tái) is the measure word for machines and electronic devices: 一台电脑 (one computer), 一台电视 (one TV), 一台冰箱 (one refrigerator).\n**电脑** (diànnǎo) = **电** (diàn, electric) + **脑** (nǎo, brain) → computer (literally 'electric brain'). Compare **手机** (shǒujī, mobile phone = 'hand machine')."
+    },
+    {
+      "id": "to_help",
+      "english": "To help",
+      "word": "帮助",
+      "romanized": "bāngzhù",
+      "englishPhrase": "Can you help me?",
+      "phrase": "你能帮我吗？",
+      "phraseRomanized": "nǐ néng bāng wǒ ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "能",
+          "can"
+        ],
+        [
+          "帮",
+          "help"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "grammarNote": "**帮助** (bāngzhù) is the full compound (noun or formal verb: help/assistance). Colloquially shortened to **帮** (bāng): 帮我 (help me), 帮忙 (help out).\n**帮** + person is a very natural structure: 帮我 (help me), 帮他 (help him), 帮大家 (help everyone). Also: **帮我一个忙** = do me a favor.\n**能** (néng) = 'can' (ability/possibility). The phrase 你能帮我吗 is a polite ability-based request. More polite: 你可以帮我吗 (could you help me?)."
+    },
+    {
+      "id": "to_manage",
+      "english": "To manage",
+      "word": "管理",
+      "romanized": "guǎnlǐ",
+      "englishPhrase": "She manages a team of ten people.",
+      "phrase": "她管理着一个十人团队。",
+      "phraseRomanized": "tā guǎnlǐ zhe yīgè shí rén tuánduì.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "管理着",
+          "is managing"
+        ],
+        [
+          "一个",
+          "one [measure]"
+        ],
+        [
+          "十人",
+          "ten-person"
+        ],
+        [
+          "团队。",
+          "team."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**管理** (guǎnlǐ) = **管** (guǎn, oversee/control) + **理** (lǐ, put in order/reason) → to manage.\n**着** (zhe) after a verb indicates an ongoing or sustained state: 管理着 = 'is managing (an ongoing responsibility)'. It's different from 正在 (active progress) — **着** emphasizes the state persists.\n**十人** = **十** (ten) + **人** (people) → ten-person (used as a compound modifier before 团队). Number + 人 can modify a noun directly: 五人小组 (five-person group)."
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "开会",
+      "romanized": "kāihuì",
+      "englishPhrase": "We have a meeting at three.",
+      "phrase": "我们三点开会。",
+      "phraseRomanized": "wǒmen sān diǎn kāihuì.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "三点",
+          "three o'clock"
+        ],
+        [
+          "开会。",
+          "meet."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**开会** (kāihuì) = **开** (kāi, open/start) + **会** (huì, meeting) → hold/have a meeting. A verb-object compound.\n**开** is very productive: 开始 (start), 开心 (happy), 开车 (drive a car), 开门 (open the door), 开会 (hold a meeting).\n**三点** = three o'clock. **点** (diǎn) is used for o'clock: 一点 (1:00), 三点半 (3:30), 九点十五分 (9:15). Note: time comes before the verb in Chinese."
+    },
+    {
+      "id": "to_start",
+      "english": "To start",
+      "word": "开始",
+      "romanized": "kāishǐ",
+      "englishPhrase": "We start work at nine.",
+      "phrase": "我们九点开始工作。",
+      "phraseRomanized": "wǒmen jiǔ diǎn kāishǐ gōngzuò.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "九点",
+          "nine o'clock"
+        ],
+        [
+          "开始",
+          "start"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ],
+      "grammarNote": "**开始** (kāishǐ) = **开** (kāi, open) + **始** (shǐ, beginning) → to start/begin. Works as both verb and noun: 开始工作 (start working), 在开始的时候 (at the beginning).\nThe opposite is **结束** (jiéshù, end/finish) or **完成** (wánchéng, complete).\nVerb sequence: subject + time + **开始** + verb: 我们九点开始工作 (we start work at nine). Time always comes before the verb in Chinese."
+    },
+    {
+      "id": "to_finish",
+      "english": "To finish",
+      "word": "完成",
+      "romanized": "wánchéng",
+      "englishPhrase": "I need to finish this project today.",
+      "phrase": "我今天需要完成这个项目。",
+      "phraseRomanized": "wǒ jīntiān xūyào wánchéng zhège xiàngmù.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "今天",
+          "today"
+        ],
+        [
+          "需要",
+          "need"
+        ],
+        [
+          "完成",
+          "finish"
+        ],
+        [
+          "这个",
+          "this [measure]"
+        ],
+        [
+          "项目。",
+          "project."
+        ]
+      ],
+      "grammarNote": "**完成** (wánchéng) = **完** (wán, complete/finish) + **成** (chéng, succeed/become) → to complete/finish (with success implied).\n**完** also appears as a verb result complement: 写完 (finish writing), 做完 (finish doing), 吃完 (finish eating).\n**这个** = this + 个 (measure word). **个** (gè) is the default/general measure word used when no specific one applies: 这个项目 (this project), 一个人 (one person)."
+    },
+    {
+      "id": "to_relax",
+      "english": "To relax",
+      "word": "放松",
+      "romanized": "fàngsōng",
+      "englishPhrase": "I relax by reading.",
+      "phrase": "我通过阅读来放松。",
+      "phraseRomanized": "wǒ tōngguò yuèdú lái fàngsōng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "通过",
+          "through"
+        ],
+        [
+          "阅读",
+          "reading"
+        ],
+        [
+          "来",
+          "come"
+        ],
+        [
+          "放松。",
+          "relax."
+        ]
+      ],
+      "grammarNote": "**放松** (fàngsōng) = **放** (fàng, release/let go) + **松** (sōng, loose/slack) → to relax/loosen up.\n**通过…来** = 'by means of… / through… (in order to)': 通过阅读来放松 = relax by reading. **通过** sets the method, **来** links it to the goal.\n**来** before a verb can signal the purpose or means of an action (similar to 'in order to'): 我来帮你 = I'm here to help you."
+    },
+    {
+      "id": "to_spend_time_on",
+      "english": "To spend time (on)",
+      "word": "花时间",
+      "romanized": "huā shíjiān",
+      "englishPhrase": "She spends a lot of time on her hobby.",
+      "phrase": "她在爱好上花很多时间。",
+      "phraseRomanized": "tā zài àihào shàng huā hěnduō shíjiān.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "在",
+          "on"
+        ],
+        [
+          "爱好",
+          "hobby"
+        ],
+        [
+          "上",
+          "[surface]"
+        ],
+        [
+          "花",
+          "spends"
+        ],
+        [
+          "很多",
+          "very-much"
+        ],
+        [
+          "时间。",
+          "time."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**花时间** (huā shíjiān) = **花** (huā, spend) + **时间** (shíjiān, time) → spend time. **花** also means 'flower', but in this context it means 'to spend (a resource)': 花钱 (spend money), 花精力 (spend energy).\n**在…上** = 'on / in the area of': 在爱好上花时间 = spend time on one's hobby. **上** attached to a noun indicates the domain or surface: 在工作上 (in terms of work), 在这件事上 (on this matter)."
+    },
+    {
+      "id": "creative",
+      "english": "Creative",
+      "word": "有创意的",
+      "romanized": "yǒu chuàngyì de",
+      "englishPhrase": "She is very creative.",
+      "phrase": "她很有创意。",
+      "phraseRomanized": "tā hěn yǒu chuàngyì.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "有",
+          "has"
+        ],
+        [
+          "创意。",
+          "creativity."
+        ]
+      ],
+      "grammarNote": "**创意** (chuàngyì) = **创** (chuàng, create/found) + **意** (yì, idea/meaning) → creative idea / creativity.\n**有创意** = 'have creativity' → be creative. Chinese often uses **有** + abstract noun to express a quality: 有意思 (interesting, lit. 'has meaning'), 有帮助 (helpful), 有天赋 (talented), 有创意 (creative).\n**很有创意** — note that **有** takes **很** as its adverb, not as a standalone intensifier on an adjective."
+    },
+    {
+      "id": "stressful",
+      "english": "Stressful",
+      "word": "有压力的",
+      "romanized": "yǒu yālì de",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "我的工作很有压力。",
+      "phraseRomanized": "wǒ de gōngzuò hěn yǒu yālì.",
+      "literal": [
+        [
+          "我的",
+          "my"
+        ],
+        [
+          "工作",
+          "work"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "有",
+          "has"
+        ],
+        [
+          "压力。",
+          "pressure."
+        ]
+      ],
+      "grammarNote": "**压力** (yālì) = **压** (yā, press/squeeze) + **力** (lì, force/power) → pressure/stress.\n**有压力** = 'have pressure' → be stressful/pressured. The **有** + noun pattern for expressing a quality (see also 有创意, 有天赋).\n**力** appears in many compound words: 努力 (nǔlì, work hard), 能力 (nénglì, ability), 体力 (tǐlì, physical strength), 力量 (lìliàng, strength/power)."
+    },
+    {
+      "id": "boring",
+      "english": "Boring",
+      "word": "无聊的",
+      "romanized": "wúliáo de",
+      "englishPhrase": "This meeting is boring.",
+      "phrase": "这个会议很无聊。",
+      "phraseRomanized": "zhège huìyì hěn wúliáo.",
+      "literal": [
+        [
+          "这个",
+          "this [measure]"
+        ],
+        [
+          "会议",
+          "meeting"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "无聊。",
+          "boring."
+        ]
+      ],
+      "grammarNote": "**无聊** (wúliáo) = **无** (wú, without/none) + **聊** (liáo, chat/pass time) → boring / have nothing meaningful to do.\n**无** is a literary/formal negation prefix meaning 'without': 无聊 (boring), 无法 (unable), 无所谓 (doesn't matter), 无奈 (helpless).\n**会议** (huìyì) = **会** (huì, meeting/gathering) + **议** (yì, discuss) → formal meeting. Compare **开会** (kāihuì, hold a meeting, verb form)."
+    },
+    {
+      "id": "interesting",
+      "english": "Interesting",
+      "word": "有趣的",
+      "romanized": "yǒuqù de",
+      "englishPhrase": "This project is very interesting.",
+      "phrase": "这个项目很有趣。",
+      "phraseRomanized": "zhège xiàngmù hěn yǒuqù.",
+      "literal": [
+        [
+          "这个",
+          "this [measure]"
+        ],
+        [
+          "项目",
+          "project"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "有趣。",
+          "interesting."
+        ]
+      ],
+      "grammarNote": "**有趣** (yǒuqù) = **有** (yǒu, have) + **趣** (qù, interest/fun) → interesting (literally 'has interest').\nAlternative: **有意思** (yǒu yìsi, lit. 'has meaning' → interesting/meaningful). Both are common; **有意思** is slightly more colloquial.\n**项目** (xiàngmù) = **项** (xiàng, item/category) + **目** (mù, item/entry) → project/item. Seen in: 项目经理 (project manager), 体育项目 (sports event)."
+    },
+    {
+      "id": "salary",
+      "english": "Salary",
+      "word": "工资",
+      "romanized": "gōngzī",
+      "englishPhrase": "He received a salary increase.",
+      "phrase": "他获得了加薪。",
+      "phraseRomanized": "tā huòdé le jiāxīn.",
+      "literal": [
+        [
+          "他",
+          "he"
+        ],
+        [
+          "获得",
+          "received"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "加薪。",
+          "salary-increase."
+        ]
+      ],
+      "grammarNote": "**工资** (gōngzī) = **工** (gōng, labor/work) + **资** (zī, resources/capital) → wages/salary.\nRelated terms: **薪水** (xīnshuǐ, salary, slightly more formal), **加薪** (jiāxīn, raise/pay increase: **加** add + **薪** salary).\n**获得** (huòdé) = **获** (huò, obtain/win) + **得** (dé, get/achieve) → to receive/obtain. More formal than **得到** (dédào, get/receive).\n**加** appears in many work vocabulary words: 加班 (work overtime), 加薪 (get a raise), 加油 (add oil → cheer on/keep going)."
+    },
+    {
+      "id": "schedule",
+      "english": "Schedule",
+      "word": "日程",
+      "romanized": "rìchéng",
+      "englishPhrase": "I have a busy schedule today.",
+      "phrase": "我今天日程很忙。",
+      "phraseRomanized": "wǒ jīntiān rìchéng hěn máng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "今天",
+          "today"
+        ],
+        [
+          "日程",
+          "schedule"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "忙。",
+          "busy."
+        ]
+      ],
+      "grammarNote": "**日程** (rìchéng) = **日** (rì, day/sun) + **程** (chéng, journey/process) → schedule/daily itinerary.\n**日程表** (rìchéngbiǎo) = schedule table/planner. **表** (biǎo) = table/chart: 时间表 (timetable), 工作表 (worksheet).\n**忙** (máng) = busy. 日程很忙 is a slightly compressed expression — more formally: 日程很满 (schedule is very full) or 今天很忙 (busy today). **忙** can also be used as a verb: 你在忙什么 (what are you busy with?)."
+    },
+    {
+      "id": "vacation",
+      "english": "Vacation",
+      "word": "假期",
+      "romanized": "jiàqī",
+      "englishPhrase": "I'm going on vacation next month.",
+      "phrase": "下个月我去度假。",
+      "phraseRomanized": "xià gè yuè wǒ qù dùjià.",
+      "literal": [
+        [
+          "下个月",
+          "next month"
+        ],
+        [
+          "我",
+          "I"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "度假。",
+          "on-vacation."
+        ]
+      ],
+      "grammarNote": "**假期** (jiàqī) = **假** (jià, holiday/leave) + **期** (qī, period/term) → vacation period/holiday.\n**度假** (dùjià) = **度** (dù, spend/pass time) + **假** (jià, vacation) → go on vacation / spend a holiday. **度** is used for 'spending' time in a meaningful way: 度假 (vacation), 度周末 (spend the weekend), 度过难关 (get through difficult times).\n**下个月** = next month. **下** = next (lower/following): 下个月 (next month), 下周 (next week), 下午 (afternoon — the 'lower/later' part of the day)."
+    },
+    {
+      "id": "break",
+      "english": "Break",
+      "word": "休息",
+      "romanized": "xiūxi",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "我们休息一下吧。",
+      "phraseRomanized": "wǒmen xiūxi yīxià ba.",
+      "literal": [
+        [
+          "我们",
+          "we"
+        ],
+        [
+          "休息",
+          "rest"
+        ],
+        [
+          "一下",
+          "a-moment"
+        ],
+        [
+          "吧。",
+          "[suggestion]."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**休息** (xiūxi) = **休** (xiū, rest/stop) + **息** (xī, breath/rest) → to rest/take a break.\nRelated: **退休** (tuìxiū, retire), **午休** (wǔxiū, midday rest/nap).\n**一下** (yīxià) after a verb softens and shortens the action: 休息一下 (take a little break), 看一下 (take a quick look), 等一下 (wait a moment).\n**吧** (ba) at the end of a sentence softens a suggestion or seeks agreement: 我们走吧 (let's go), 休息一下吧 (let's take a break, shall we?)."
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "办公室",
+      "romanized": "bàngōngshì",
+      "englishPhrase": "I work in a big office.",
+      "phrase": "我在一个大办公室工作。",
+      "phraseRomanized": "wǒ zài yīgè dà bàngōngshì gōngzuò.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "一个",
+          "one [measure]"
+        ],
+        [
+          "大",
+          "big"
+        ],
+        [
+          "办公室",
+          "office"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ],
+      "grammarNote": "**办公室** (bàngōngshì) = **办公** (bàngōng, handle official matters/work) + **室** (shì, room) → office.\n**室** is the suffix for rooms: 教室 (jiàoshì, classroom), 卧室 (wòshì, bedroom), 浴室 (yùshì, bathroom), 办公室 (office).\n**办公** = **办** (bàn, handle/manage) + **公** (gōng, public/official) → handle official business → work in an office. Compare **上班** (go to work, enter work hours) vs **办公** (do office/official work)."
+    },
+    {
+      "id": "outdoors",
+      "english": "Outdoors",
+      "word": "户外",
+      "romanized": "hùwài",
+      "englishPhrase": "I prefer working outdoors.",
+      "phrase": "我更喜欢在户外工作。",
+      "phraseRomanized": "wǒ gèng xǐhuān zài hùwài gōngzuò.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "更",
+          "more"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "在",
+          "in"
+        ],
+        [
+          "户外",
+          "outdoors"
+        ],
+        [
+          "工作。",
+          "work."
+        ]
+      ],
+      "grammarNote": "**户外** (hùwài) = **户** (hù, door/household) + **外** (wài, outside) → outdoors (literally 'outside the door').\nOpposite: **室内** (shìnèi, indoors). Related: **户外运动** (outdoor sports), **野外** (yěwài, open countryside/wilderness).\n**更** (gèng) = even more / more (comparative): 更喜欢 (like more/prefer). Used in comparisons: 这个更好 (this one is better), 我更喜欢户外 (I prefer outdoors). Compare **最** (zuì, most — superlative)."
+    },
+    {
+      "id": "interview",
+      "english": "Interview",
+      "word": "面试",
+      "romanized": "miànshì",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "我明天有一个面试。",
+      "phraseRomanized": "wǒ míngtiān yǒu yīgè miànshì.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "明天",
+          "tomorrow"
+        ],
+        [
+          "有",
+          "have"
+        ],
+        [
+          "一个",
+          "one [measure]"
+        ],
+        [
+          "面试。",
+          "interview."
+        ]
+      ],
+      "grammarNote": "**面试** (miànshì) = **面** (miàn, face/meet) + **试** (shì, test/try) → job interview (literally 'face test').\nRelated: **面试官** (miànshìguān, interviewer), **应聘** (yìngpìn, apply for a job), **求职** (qiúzhí, job seeking).\n**有** = have. Chinese uses 有 for both possessing things and having scheduled events: 有面试 (have an interview), 有课 (have class), 有约 (have an appointment)."
+    },
+    {
+      "id": "colleague",
+      "english": "Colleague",
+      "word": "同事",
+      "romanized": "tóngshì",
+      "englishPhrase": "My colleague helped me a lot.",
+      "phrase": "我的同事帮了我很多。",
+      "phraseRomanized": "wǒ de tóngshì bāng le wǒ hěnduō.",
+      "literal": [
+        [
+          "我的",
+          "my"
+        ],
+        [
+          "同事",
+          "colleague"
+        ],
+        [
+          "帮",
+          "helped"
+        ],
+        [
+          "了",
+          "[completed]"
+        ],
+        [
+          "我",
+          "me"
+        ],
+        [
+          "很多。",
+          "very-much."
+        ]
+      ],
+      "grammarNote": "**同事** (tóngshì) = **同** (tóng, same/together) + **事** (shì, matter/work) → colleague (literally 'same-work person').\n**同** is a productive prefix meaning 'same/shared': 同学 (tóngxué, classmate), 同事 (colleague), 同屋 (tóngwū, roommate), 同行 (tóngháng, person in the same trade).\n**帮了我很多** = helped me a lot. **帮** + person + **了** + degree: 帮了我很多 (helped me a great deal), 帮了很大的忙 (was a great help)."
+    },
+    {
+      "id": "customer",
+      "english": "Customer",
+      "word": "顾客",
+      "romanized": "gùkè",
+      "englishPhrase": "The customer is always right.",
+      "phrase": "顾客永远是对的。",
+      "phraseRomanized": "gùkè yǒngyuǎn shì duì de.",
+      "literal": [
+        [
+          "顾客",
+          "customer"
+        ],
+        [
+          "永远",
+          "always"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "对的。",
+          "right."
+        ]
+      ],
+      "grammarNote": "**顾客** (gùkè) = **顾** (gù, look after/patronize) + **客** (kè, guest/visitor) → customer (literally 'patronizing guest').\nRelated: **客人** (kèrén, guest), **客户** (kèhù, client/customer, more formal/business), **游客** (yóukè, tourist).\n**永远** (yǒngyuǎn) = forever/always: **永** (eternal) + **远** (far). Stronger than **总是** (zǒngshì, always/generally).\n**是…的** (shì…de) in this context emphasizes a quality: 是对的 = is (indeed) right."
+    },
+    {
+      "id": "team",
+      "english": "Team",
+      "word": "团队",
+      "romanized": "tuánduì",
+      "englishPhrase": "Our team works well together.",
+      "phrase": "我们团队合作很好。",
+      "phraseRomanized": "wǒmen tuánduì hézuò hěn hǎo.",
+      "literal": [
+        [
+          "我们",
+          "our"
+        ],
+        [
+          "团队",
+          "team"
+        ],
+        [
+          "合作",
+          "cooperate"
+        ],
+        [
+          "很",
+          "very"
+        ],
+        [
+          "好。",
+          "well."
+        ]
+      ],
+      "grammarNote": "**团队** (tuánduì) = **团** (tuán, group/unit) + **队** (duì, team/row) → team.\nRelated: **团结** (tuánjié, unite/solidarity), **队员** (duìyuán, team member), **球队** (qiúduì, sports team).\n**合作** (hézuò) = **合** (hé, combine/fit) + **作** (zuò, do/work) → cooperate/collaborate. Both a verb (to cooperate) and a noun (cooperation): 合作很好 (cooperate well), 开展合作 (start a collaboration)."
+    },
+    {
+      "id": "project",
+      "english": "Project",
+      "word": "项目",
+      "romanized": "xiàngmù",
+      "englishPhrase": "The project is almost done.",
+      "phrase": "项目快完成了。",
+      "phraseRomanized": "xiàngmù kuài wánchéng le.",
+      "literal": [
+        [
+          "项目",
+          "project"
+        ],
+        [
+          "快",
+          "soon"
+        ],
+        [
+          "完成",
+          "finished"
+        ],
+        [
+          "了。",
+          "[now]."
+        ]
+      ],
+      "hidden": true,
+      "grammarNote": "**项目** (xiàngmù) = **项** (xiàng, item) + **目** (mù, item/entry) → project/item.\n**快…了** = 'almost / soon going to': 快完成了 = almost done / will be done soon. **快** signals imminence: 快到了 (almost arrived), 快下雨了 (it's about to rain). The sentence-final **了** marks an imminent change of state.\nThis is different from **快** meaning 'fast/quick' in other contexts: 他跑得很快 (he runs fast)."
+    },
+    {
+      "id": "meeting",
+      "english": "Meeting",
+      "word": "会议",
+      "romanized": "huìyì",
+      "englishPhrase": "The meeting starts in five minutes.",
+      "phrase": "会议五分钟后开始。",
+      "phraseRomanized": "huìyì wǔ fēnzhōng hòu kāishǐ.",
+      "literal": [
+        [
+          "会议",
+          "meeting"
+        ],
+        [
+          "五分钟",
+          "five minutes"
+        ],
+        [
+          "后",
+          "later"
+        ],
+        [
+          "开始。",
+          "start."
+        ]
+      ],
+      "grammarNote": "**会议** (huìyì) = **会** (huì, gather/meet) + **议** (yì, discuss) → formal meeting/conference.\nCompare: **开会** (kāihuì, hold a meeting — the verb form), **会面** (huìmiàn, meet face-to-face).\n**五分钟后** = **五分钟** (five minutes) + **后** (hòu, after/later) → in five minutes. Time reference: 两小时后 (in two hours), 三天后 (in three days). **后** = after/later; **前** = before/ago: 三天前 (three days ago)."
+    },
+    {
+      "id": "free_time",
+      "english": "Free time",
+      "word": "空闲时间",
+      "romanized": "kòngxián shíjiān",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "你空闲时间做什么？",
+      "phraseRomanized": "nǐ kòngxián shíjiān zuò shénme?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "空闲时间",
+          "free-time"
+        ],
+        [
+          "做",
+          "do"
+        ],
+        [
+          "什么？",
+          "what?"
+        ]
+      ],
+      "grammarNote": "**空闲** (kòngxián) = **空** (kòng, empty/free) + **闲** (xián, idle/leisurely) → free/unoccupied time.\nShorter alternatives: **空闲** alone, or **有空** (yǒu kòng, have free time): 你有空吗 (are you free?)\n**什么** (shénme) = what. Question words in Chinese do not move to the beginning of the sentence — they stay where the answer would go: 你做什么 (you do what?) = What do you do? This is the same position as the answer: 我做运动 (I do exercise)."
+    }
+  ]
+}

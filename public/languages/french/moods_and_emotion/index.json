@@ -1,0 +1,548 @@
+{
+  "id": "moods_and_emotion",
+  "name": "Moods & Emotion",
+  "language": "french",
+  "stories": [
+    "a_bad_day",
+    "good_news",
+    "friendship",
+    "nervous_about_something"
+  ],
+  "grammarLessons": [
+    {
+      "id": "negation",
+      "name": "Negation — ne...pas"
+    },
+    {
+      "id": "tres_trop",
+      "name": "Intensifiers — très, trop, assez"
+    },
+    {
+      "id": "avoir",
+      "name": "Avoir — To Have"
+    },
+    {
+      "id": "aller",
+      "name": "Aller — To Go"
+    },
+    {
+      "id": "subjunctive_basics",
+      "name": "Le Subjonctif — Expressing Wishes & Feelings"
+    },
+    {
+      "id": "adverbes_maniere",
+      "name": "Les Adverbes en -ment — Adverbs of Manner"
+    },
+    {
+      "id": "si_clauses",
+      "name": "Si — If Clauses & Conditionals"
+    }
+  ],
+  "cards": [
+    {
+      "id": "happy",
+      "english": "happy",
+      "word": "heureux",
+      "grammarNote": "**heureux** is masculine; the feminine form is **heureuse** (the -x changes to -se).\nExample: il est heureux · elle est heureuse.\nEtymology: from Latin **augur** (good omen) via Old French **eür** (luck/fortune).\n**très heureux** = very happy · **si heureux** = so happy",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "Je suis très heureux",
+      "literal": [["Je","I"],["suis","am"],["très","very"],["heureux","happy"]]
+    },
+    {
+      "id": "sad",
+      "english": "sad",
+      "word": "triste",
+      "grammarNote": "**triste** is invariable in gender (same form for masculine and feminine): il est triste · elle est triste.\nThe plural adds -s: ils sont tristes.\nEtymology: from Latin **tristis** (sad, gloomy).\nCommon use: **être triste de** + infinitive = to be sad to do something · **tristement** = sadly (adverb).",
+      "englishPhrase": "Why are you sad?",
+      "phrase": "Pourquoi tu es triste ?"
+    },
+    {
+      "id": "love",
+      "english": "love",
+      "word": "l'amour (masc.)",
+      "grammarNote": "**l'amour** is masculine: un grand amour, mon amour.\nNote the elision: **l'amour** (not *le amour*) because **amour** begins with a vowel.\nEtymology: from Latin **amor**.\n**ressentir de l'amour pour** = to feel love for · **par amour** = out of love.\nRelated: **amoureux/amoureuse** (in love), **tomber amoureux** (to fall in love).",
+      "englishPhrase": "I feel a lot of love for my family.",
+      "phrase": "Je ressens beaucoup d'amour pour ma famille."
+    },
+    {
+      "id": "anger",
+      "english": "anger",
+      "word": "la colère",
+      "grammarNote": "**la colère** = anger (the noun) · **être en colère** = to be angry (the state).\nDo not say *être colère* — always use **en colère**: je suis en colère.\n**ressentir de la colère** = to feel anger · **une crise de colère** = a fit of anger.\nRelated verb: **se mettre en colère** (to get angry), **mettre quelqu'un en colère** (to make someone angry).",
+      "englishPhrase": "I felt anger when they lied to me.",
+      "phrase": "J'ai ressenti de la colère quand ils m'ont menti."
+    },
+    {
+      "id": "fear",
+      "english": "fear",
+      "word": "la peur",
+      "grammarNote": "**avoir peur** (no article) = to be afraid: j'ai peur, il a peur.\n**avoir peur de** + noun/infinitive = to be afraid of: j'ai peur du noir, j'ai peur de tomber.\n**la peur** with an article = the fear as a noun: la peur du vide (fear of heights/empty space).\nRelated: **effrayant(e)** (frightening), **faire peur à** (to frighten someone).",
+      "englishPhrase": "I'm afraid of the dark.",
+      "phrase": "J'ai peur du noir."
+    },
+    {
+      "id": "hope",
+      "english": "hope",
+      "word": "l'espoir (masc.)",
+      "grammarNote": "**l'espoir** is masculine: un grand espoir, avoir de l'espoir.\nPartitive article: **avoir de l'espoir** (to have hope) — de + l' before a vowel.\n**espoir** (noun) vs **espérer** (verb to hope): j'espère que tout va bien.\n**mettre son espoir dans** = to place one's hope in · **sans espoir** = hopeless.",
+      "englishPhrase": "I have hope for the future.",
+      "phrase": "J'ai de l'espoir pour l'avenir."
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "word": "le stress",
+      "grammarNote": "**le stress** is a masculine noun borrowed from English.\n**avoir du stress** / **avoir beaucoup de stress** = to have (a lot of) stress.\n**stressé(e)** = the adjective (stressed): je suis stressé(e).\n**stresser quelqu'un** = to stress someone out · **se stresser** = to get stressed.\nNote: after **beaucoup de**, no article: **beaucoup de stress** (not *beaucoup du stress*).",
+      "englishPhrase": "I have a lot of stress at work.",
+      "phrase": "J'ai beaucoup de stress au travail."
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "word": "l'humeur (fem.)",
+      "grammarNote": "**l'humeur** is feminine: une bonne humeur, une mauvaise humeur.\nKey phrases: **être de bonne humeur** (to be in a good mood) · **être de mauvaise humeur** (to be in a bad mood).\nNote the fixed preposition: always **de** bonne/mauvaise humeur — never *en* bonne humeur.\nRelated: **l'humeur** also referred to bodily fluids in medieval medicine (the four humours).",
+      "englishPhrase": "I'm in a good mood today.",
+      "phrase": "Je suis de bonne humeur aujourd'hui."
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "word": "le sentiment",
+      "grammarNote": "**le sentiment** = a feeling or emotion (often deeper/more lasting): un sentiment de joie, un sentiment de culpabilité.\nDistinguish from **la sensation** (physical sensation: une sensation de brûlure) and **l'émotion** (immediate emotional response).\nPlural: **des sentiments** · **avoir des sentiments pour quelqu'un** = to have feelings for someone.",
+      "englishPhrase": "That feeling is normal.",
+      "phrase": "Ce sentiment est normal."
+    },
+    {
+      "id": "emotion_excitement",
+      "english": "emotion",
+      "word": "l'émotion (fem.)",
+      "grammarNote": "**l'émotion** is feminine: une grande émotion, les émotions.\nElision: **l'émotion** (not *la émotion*).\n**cacher son émotion** = to hide one's emotion · **être submergé par l'émotion** = to be overwhelmed by emotion.\nNegation with pouvoir: **je n'ai pas pu** (I couldn't) — passé composé of pouvoir with negation: ne + avoir + pas + pu + infinitive.",
+      "englishPhrase": "I couldn't hide my emotion.",
+      "phrase": "Je n'ai pas pu cacher mon émotion."
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "word": "le calme",
+      "grammarNote": "**le calme** = calm (noun): garder son calme (keep one's calm), le calme de la nuit (the calm of the night).\n**calme** is also an adjective, invariable in gender: il est calme · elle est calme · ils sont calmes.\n**garder son calme** = to keep one's calm · **retrouver son calme** = to regain one's composure.\nRelated: **calmement** (adverb: calmly), **se calmer** (reflexive verb: to calm down).",
+      "englishPhrase": "Try to maintain your calm.",
+      "phrase": "Essaie de garder ton calme."
+    },
+    {
+      "id": "peace",
+      "english": "peace",
+      "word": "la paix",
+      "grammarNote": "**la paix** = peace (both inner peace and peace between nations).\n**avoir besoin de paix** = to need peace · **laisser quelqu'un en paix** = to leave someone in peace.\nNote: **la tranquillité** (tranquillity/quiet) often pairs with **la paix**: paix et tranquillité.\n**faire la paix** = to make peace · **en paix** = at peace (adverbial phrase).",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "J'ai besoin de paix et de tranquillité."
+    },
+    {
+      "id": "worry",
+      "english": "worry",
+      "word": "l'inquiétude (fem.)",
+      "grammarNote": "**l'inquiétude** is feminine: une grande inquiétude, sans inquiétude.\nElision: **l'inquiétude** (not *la inquiétude*).\nRelated verb: **s'inquiéter** (reflexive — to worry): ne t'inquiète pas (don't worry), je m'inquiète.\nThe phrase **ne laisse pas l'inquiétude t'arrêter** uses a causative/negative imperative structure: **ne laisse pas** + object + infinitive.",
+      "englishPhrase": "Don't let worry stop you.",
+      "phrase": "Ne laisse pas l'inquiétude t'arrêter."
+    },
+    {
+      "id": "surprise",
+      "english": "surprise",
+      "word": "la surprise",
+      "grammarNote": "**la surprise** is feminine: une bonne surprise, quelle surprise !\n**Quelle surprise !** = What a surprise! — **quel(le)** is used in exclamations before a noun: quelle chance ! (what luck!), quel dommage ! (what a shame!).\n**surprendre** = the verb (to surprise): tu m'as surpris · **être surpris(e)** = to be surprised.\n**par surprise** = by surprise · **une surprise-partie** = a surprise party.",
+      "englishPhrase": "What a surprise!",
+      "phrase": "Quelle surprise !"
+    },
+    {
+      "id": "passion",
+      "english": "passion",
+      "word": "la passion",
+      "grammarNote": "**la passion** is feminine: une grande passion, avec passion.\n**avec passion** = with passion (no article after **avec** in this fixed adverbial phrase).\n**avoir de la passion pour** = to have a passion for · **passionné(e)** = passionate (adjective).\n**se passionner pour** = to become passionate about: je me passionne pour la musique.",
+      "englishPhrase": "She teaches with passion.",
+      "phrase": "Elle enseigne avec passion."
+    },
+    {
+      "id": "desire",
+      "english": "desire",
+      "word": "le désir",
+      "grammarNote": "**le désir** = desire/wish (slightly formal or intense).\n**une grande envie** = a strong desire/urge (more colloquial): j'ai une grande envie de voyager.\n**avoir envie de** + infinitive is the everyday expression for 'to want to / feel like': j'ai envie de dormir, tu as envie de sortir ?\nCompare: **le désir** (deeper longing), **l'envie** (immediate impulse), **le souhait** (a wish).",
+      "englishPhrase": "I have a strong desire to travel.",
+      "phrase": "J'ai une grande envie de voyager."
+    },
+    {
+      "id": "hate",
+      "english": "hate",
+      "word": "la haine",
+      "grammarNote": "**la haine** = hatred/hate (the noun): la haine est un sentiment fort.\n**haïr** = the corresponding verb (to hate), irregular and rarely used — **détester** is the common everyday verb: je déteste ça.\nNote: **la haine** takes a definite article as a noun used generically: **la** haine est destructrice.\n**haineux/haineuse** = hateful (adjective).",
+      "englishPhrase": "Hate is a strong feeling.",
+      "phrase": "La haine est un sentiment fort."
+    },
+    {
+      "id": "pleasure",
+      "english": "pleasure",
+      "word": "le plaisir",
+      "grammarNote": "**le plaisir** is masculine: un grand plaisir, avec plaisir.\n**C'est un plaisir de** + infinitive = It's a pleasure to: C'est un plaisir de vous rencontrer.\n**avec plaisir** = with pleasure (used to accept invitations, like 'gladly'): Vous venez ? Avec plaisir !\n**faire plaisir à** = to please someone: ça me fait plaisir (that pleases me / I'm glad).",
+      "englishPhrase": "It's a pleasure to meet you.",
+      "phrase": "C'est un plaisir de vous rencontrer."
+    },
+    {
+      "id": "pain",
+      "english": "pain",
+      "word": "la douleur",
+      "grammarNote": "**la douleur** = pain (the noun, physical or emotional): ressentir une douleur (to feel pain).\nTo say something hurts, use **avoir mal à** + body part: j'ai mal à la jambe (my leg hurts).\nOr: **faire mal** = to hurt (physically): ça fait mal, mon genou me fait mal.\n**douloureux/douloureuse** = painful (adjective) · **sans douleur** = painlessly.",
+      "englishPhrase": "I feel pain in my leg.",
+      "phrase": "Je ressens une douleur dans la jambe."
+    },
+    {
+      "id": "energy",
+      "english": "energy",
+      "word": "l'énergie (fem.)",
+      "grammarNote": "**l'énergie** is feminine: une grande énergie, plein(e) d'énergie.\nElision: **l'énergie** (not *la énergie*).\n**avoir beaucoup d'énergie** — note **de** (not **des**) after a quantity: beaucoup de, plein de, trop de.\n**être plein(e) d'énergie** = to be full of energy · **manquer d'énergie** = to lack energy.\n**énergique** = energetic (adjective), invariable in gender.",
+      "englishPhrase": "I have a lot of energy today.",
+      "phrase": "J'ai beaucoup d'énergie aujourd'hui."
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "word": "le soulagement",
+      "grammarNote": "**le soulagement** is masculine: un grand soulagement, avec soulagement.\n**Quel soulagement !** = What a relief! — **quel** in exclamations agrees with the gender of the noun: **quel** (masc.), **quelle** (fem.).\n**soulager** = the verb (to relieve/ease): ce médicament soulage la douleur.\n**soupirer de soulagement** = to sigh with relief · **un soulagement immense** = an immense relief.",
+      "englishPhrase": "What a relief!",
+      "phrase": "Quel soulagement !"
+    },
+    {
+      "id": "comfort",
+      "english": "comfort",
+      "word": "le réconfort",
+      "grammarNote": "**le réconfort** = comfort/consolation (emotional support): ses mots étaient un réconfort.\nDistinguish from **le confort** (physical comfort, convenience): cet appartement est très confortable.\n**réconforter** = the verb (to comfort/console): elle a réconforté son amie.\n**apporter du réconfort** = to bring comfort · **trouver du réconfort dans** = to find comfort in.",
+      "englishPhrase": "Her words were a comfort.",
+      "phrase": "Ses mots étaient un réconfort."
+    },
+    {
+      "id": "feel_to_feel",
+      "english": "feel (to feel)",
+      "word": "se sentir",
+      "grammarNote": "**se sentir** = to feel a certain way (state): Je me sens bien · Je me sens fatigué.\n**ressentir** = to experience an emotion: Je ressens de la joie · Il ressent de la colère.",
+      "englishPhrase": "I feel good today.",
+      "phrase": "Je me sens bien aujourd'hui."
+    },
+    {
+      "id": "love_to_love",
+      "english": "love (to love)",
+      "word": "aimer",
+      "grammarNote": "**aimer** covers both 'to love' and 'to like' depending on context and intensity.\n**aimer** + person = to love: je t'aime (I love you).\n**aimer bien** + person = to like (softened): je t'aime bien (I like you a lot — not romantic).\n**aimer** + activity = to like/love doing: j'aime cuisiner.\n**adorer** = a stronger version for things: j'adore le chocolat.",
+      "englishPhrase": "I love you very much.",
+      "phrase": "Je t'aime beaucoup."
+    },
+    {
+      "id": "hate_to_hate",
+      "english": "hate (to hate)",
+      "word": "détester",
+      "grammarNote": "**détester** = to hate/dislike strongly (the everyday verb; **haïr** is more intense and rarely used).\n**détester** + infinitive = to hate doing: je déteste attendre, il déteste mentir.\n**détester** + noun: je déteste le bruit.\nNote: no preposition before the infinitive with **détester** — unlike in English ('hate to wait' → je déteste attendre, no *de*).",
+      "englishPhrase": "I hate waiting.",
+      "phrase": "Je déteste attendre."
+    },
+    {
+      "id": "like_to_like",
+      "english": "like (to like)",
+      "word": "aimer",
+      "grammarNote": "**aimer bien** = to like (less intense than aimer alone for people).\nWith things: **J'aime la musique** (I like/love music) · **J'aime bien la musique** (I quite like music — slightly softened).\nWith people: **je t'aime** = I love you · **je t'aime bien** = I like you (friendly, not romantic).\nSo **bien** tones down the intensity when talking about people.",
+      "englishPhrase": "I like music.",
+      "phrase": "J'aime bien la musique."
+    },
+    {
+      "id": "enjoy",
+      "english": "enjoy",
+      "word": "apprécier",
+      "grammarNote": "**apprécier** = to appreciate/enjoy (formal or measured enjoyment).\n**profiter de** = to take advantage of / make the most of (more colloquial for enjoying the moment): je profite du week-end.\n**se régaler** = to thoroughly enjoy food or an experience: je me régale !\n**jouir de** = to enjoy (formal/literary): jouir de la vie.\n**s'amuser** = to enjoy oneself/have fun: on s'amuse bien ici.",
+      "englishPhrase": "I enjoy the weekend.",
+      "phrase": "Je profite du week-end."
+    },
+    {
+      "id": "fear_dread_to_fear",
+      "english": "fear",
+      "word": "craindre",
+      "grammarNote": "**craindre** = to fear/dread (somewhat literary; more formal than avoir peur).\nIrregular verb: je crains, tu crains, il craint, nous craignons, vous craignez, ils craignent.\n**craindre** + noun: je crains le pire (I fear the worst).\n**avoir peur de** is the everyday equivalent: j'ai peur du pire.\nNote: **je crains que** triggers the **subjunctive**: je crains qu'il soit malade.",
+      "englishPhrase": "I fear the worst.",
+      "phrase": "Je crains le pire."
+    },
+    {
+      "id": "hope_to_hope",
+      "english": "hope (to hope)",
+      "word": "espérer",
+      "grammarNote": "**espérer** = to hope.\nConjugation note: **espérer** has a stem change — the é changes to è before a silent ending: j'espère, tu espères, il espère · but nous espérons, vous espérez.\n**espérer que** + indicative (not subjunctive): j'espère que tout se passe bien.\nThis differs from many emotion verbs — **espérer** takes the indicative because hope implies belief, not doubt.",
+      "englishPhrase": "I hope everything goes well.",
+      "phrase": "J'espère que tout se passe bien."
+    },
+    {
+      "id": "worry_to_worry",
+      "english": "worry (to worry)",
+      "word": "s'inquiéter",
+      "grammarNote": "**s'inquiéter** is a reflexive verb: je m'inquiète, tu t'inquiètes, il s'inquiète.\nStem-change: é → è before a silent ending: je m'inquiète (not *je m'inquiéte*).\nImperative: **ne t'inquiète pas** (don't worry — tu form) · **ne vous inquiétez pas** (formal/plural).\n**s'inquiéter pour / de** = to worry about: je m'inquiète pour toi, il s'inquiète de sa santé.",
+      "englishPhrase": "Don't worry about it.",
+      "phrase": "Ne t'inquiète pas pour ça."
+    },
+    {
+      "id": "calm_soothe_to_calm",
+      "english": "calm",
+      "word": "calmer",
+      "grammarNote": "**calmer** = to calm (someone/something down): calmer la douleur, calmer les esprits.\n**se calmer** = reflexive, to calm down (yourself): calme-toi, je me calme.\nImperative of reflexive verbs: the reflexive pronoun follows and is attached with a hyphen: **calme-toi** (calm down — tu) · **calmez-vous** (formal/plural).\n**te** → **toi** in positive imperatives: lève-toi, assieds-toi, calme-toi.",
+      "englishPhrase": "Calm down, please.",
+      "phrase": "Calme-toi, s'il te plaît."
+    },
+    {
+      "id": "comfort_to_comfort",
+      "english": "comfort (to comfort)",
+      "word": "réconforter",
+      "grammarNote": "**réconforter** = to comfort/console (someone emotionally).\nPassé composé with **avoir**: elle **a réconforté** son amie — the past participle **réconforté** agrees with a preceding direct object (if any): il l'a réconfortée (he comforted her — the -e agrees with the feminine l').\n**réconforter** vs **consoler**: both mean to console; **réconforter** emphasises restoring warmth/hope, **consoler** emphasises soothing grief.",
+      "englishPhrase": "She comforted her friend.",
+      "phrase": "Elle a réconforté son amie."
+    },
+    {
+      "id": "excite_thrill",
+      "english": "excite",
+      "word": "enthousiasmer",
+      "grammarNote": "**enthousiasmer** = to fill with enthusiasm/excite (somewhat formal).\n**Le voyage m'enthousiasme** — here the object **m'** (me) is the one being excited, while the subject **le voyage** does the exciting. This is the reverse of English word order: 'the trip excites me'.\nMore colloquial alternatives: **emballer** (ce projet m'emballe — this project gets me excited) · **enchanter** (ça m'enchante).\n**enthousiaste** = enthusiastic (adjective).",
+      "englishPhrase": "The trip excites me.",
+      "phrase": "Le voyage m'enthousiasme."
+    },
+    {
+      "id": "annoy",
+      "english": "annoy",
+      "word": "agacer",
+      "grammarNote": "**agacer** = to annoy/irritate (mild to moderate annoyance).\n**Ce bruit m'agace** — like **enthousiasmer**, the thing causing the feeling is the subject: ce bruit (this noise) agaces me.\nRelated verbs by intensity: **agacer** (mildly irritate) → **énerver** (to get on someone's nerves) → **mettre en colère** (to anger).\n**s'énerver** = reflexive, to get annoyed: je m'énerve facilement.",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "Ce bruit m'agace."
+    },
+    {
+      "id": "embarrassment",
+      "english": "embarrassment",
+      "word": "la honte",
+      "grammarNote": "**avoir honte** = to be embarrassed/ashamed · **la gêne** = mild embarrassment/awkwardness · **Quelle honte !** = How embarrassing!",
+      "englishPhrase": "I feel embarrassed.",
+      "phrase": "J'ai honte.",
+      "literal": [["J'ai","I-have"],["honte","shame/embarrassment"]]
+    },
+    {
+      "id": "jealousy",
+      "english": "jealousy / envy",
+      "word": "la jalousie",
+      "grammarNote": "**jalousie** = jealousy (fear of losing what you have) · **l'envie** = envy (wanting what others have) · **être jaloux/jalouse de** = to be jealous of",
+      "englishPhrase": "He feels jealous.",
+      "phrase": "Il ressent de la jalousie.",
+      "literal": [["Il","he"],["ressent","feels"],["de la","some"],["jalousie","jealousy"]]
+    },
+    {
+      "id": "irritate",
+      "english": "irritate",
+      "word": "irriter",
+      "grammarNote": "**irriter** = to irritate (stronger than **agacer**; can be physical or emotional).\n**Attendre m'irrite** — the infinitive **attendre** acts as the subject: 'waiting irritates me'.\nInfinitives can be subjects in French just as in English: travailler fatigue, manger trop nuit à la santé.\n**être irrité(e) par** = to be irritated by · **irritant(e)** = irritating (adjective).",
+      "englishPhrase": "Waiting irritates me.",
+      "phrase": "Attendre m'irrite.",
+      "hidden": true
+    },
+    {
+      "id": "anger_to_anger",
+      "english": "anger (to anger)",
+      "word": "mettre en colère",
+      "grammarNote": "**mettre quelqu'un en colère** = to make someone angry (literally 'to put someone into anger').\n**m'a mis en colère** — passé composé of **mettre** (irregular past participle: **mis**): j'ai mis, il a mis.\nNote: **se mettre en colère** = to get angry (reflexive): il s'est mis en colère.\n**colère** = anger (fem.): **la colère** with article, but no article in the fixed phrase **en colère**.",
+      "englishPhrase": "That comment angered me.",
+      "phrase": "Ce commentaire m'a mis en colère."
+    },
+    {
+      "id": "delight",
+      "english": "delight",
+      "word": "ravir",
+      "grammarNote": "**ravir** = to delight/enchant (fairly formal or literary).\n**a ravi** — passé composé, regular -ir past participle: **ravi**.\nNote the subject-object structure: **la musique a ravi tout le monde** — the music is the subject doing the delighting.\n**ravi(e)** is also a common adjective meaning 'delighted': je suis ravi(e) de vous rencontrer (I'm delighted to meet you).",
+      "englishPhrase": "The music delighted everyone.",
+      "phrase": "La musique a ravi tout le monde."
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "word": "sourire",
+      "grammarNote": "**sourire** = to smile (verb) and **le sourire** = the smile (noun).\nIrregular conjugation (like **rire**): je souris, tu souris, il sourit, nous sourions, vous souriez, ils sourient.\nPresent tense here: **elle sourit toujours** — the -t in il/elle sourit is silent.\n**sourire à quelqu'un** = to smile at someone: elle lui sourit (she smiles at him).",
+      "englishPhrase": "She always smiles.",
+      "phrase": "Elle sourit toujours."
+    },
+    {
+      "id": "laugh",
+      "english": "laugh",
+      "word": "rire",
+      "grammarNote": "**rire** = to laugh (irregular verb): je ris, tu ris, il rit, nous rions, vous riez, ils rient.\nPast participle: **ri** (invariable) — passé composé: on **a ri**.\n**on** here means 'we' (very common in spoken French instead of **nous**).\n**rire de** = to laugh at: ils ont ri de moi · **éclater de rire** = to burst out laughing · **fou rire** = fit of laughter.",
+      "englishPhrase": "We laughed a lot.",
+      "phrase": "On a beaucoup ri."
+    },
+    {
+      "id": "cry_weep_mourn",
+      "english": "cry",
+      "word": "pleurer",
+      "grammarNote": "**pleurer** = to cry/weep (regular -er verb): je pleure, tu pleures, il/elle pleure.\nPresent tense: **le bébé pleure** — the -e in il/elle pleure is silent, distinguishing it from nous pleurons.\n**pleurer de joie** = to cry with joy · **pleurer sur** = to mourn/lament.\n**les larmes** = tears · **avoir les larmes aux yeux** = to have tears in one's eyes.",
+      "englishPhrase": "The baby is crying.",
+      "phrase": "Le bébé pleure."
+    },
+    {
+      "id": "sigh",
+      "english": "sigh",
+      "word": "soupirer",
+      "grammarNote": "**soupirer** = to sigh (regular -er verb).\nPassé composé with **avoir**: elle **a soupiré**.\n**soupirer de** + noun = to sigh with: soupirer de soulagement (sigh with relief), soupirer de fatigue.\n**un soupir** = a sigh (noun): pousser un soupir (to heave a sigh) · **un grand soupir de soulagement** = a big sigh of relief.",
+      "englishPhrase": "She sighed with relief.",
+      "phrase": "Elle a soupiré de soulagement.",
+      "hidden": true
+    },
+    {
+      "id": "frown",
+      "english": "frown",
+      "word": "froncer les sourcils",
+      "grammarNote": "**froncer les sourcils** = to frown (literally 'to furrow the eyebrows').\nPassé composé with **avoir**: il **a froncé** les sourcils.\n**le sourcil** = eyebrow · **les sourcils** = eyebrows.\n**en entendant** = upon hearing (gérondif: **en** + present participle) — used to describe a simultaneous or triggered action.\nRelated: **un froncement de sourcils** = a frown.",
+      "englishPhrase": "He frowned when he heard the news.",
+      "phrase": "Il a froncé les sourcils en entendant la nouvelle.",
+      "hidden": true
+    },
+    {
+      "id": "scream_shout",
+      "english": "scream",
+      "word": "crier",
+      "grammarNote": "**crier** = to shout/scream (regular -er verb): je crie, tu cries, il crie.\nNegative imperative: **ne crie pas** — structure: **ne** + verb (imperative) + **pas**.\nWith reflexive imperatives: ne te lève pas, ne t'inquiète pas (the reflexive **te** stays in place).\n**crier sur** = to shout at someone: ne crie pas sur moi · **un cri** = a shout/scream (noun).",
+      "englishPhrase": "Don't shout, please.",
+      "phrase": "Ne crie pas, s'il te plaît.",
+      "hidden": true
+    },
+    {
+      "id": "relax",
+      "english": "relax",
+      "word": "se détendre",
+      "grammarNote": "**se détendre** = to relax/unwind (reflexive verb: literally 'to un-tense oneself').\nImperative: **détends-toi** (tu form) · **détendez-vous** (formal/plural).\nNote: in positive imperatives, reflexive **te** becomes **toi** and follows the verb with a hyphen.\nRelated: **la détente** = relaxation · **détendu(e)** = relaxed (adjective) · **se reposer** = to rest (a different but related word).",
+      "englishPhrase": "Relax, there's no rush.",
+      "phrase": "Détends-toi, il n'y a pas d'urgence."
+    },
+    {
+      "id": "angry",
+      "english": "angry",
+      "word": "en colère",
+      "grammarNote": "**en colère** = angry (the adjective phrase; literally 'in anger').\nAlways used with **être**: je suis en colère, il est en colère — never *j'ai colère*.\n**en colère contre** = angry with/at someone: je suis en colère contre toi.\nSynonym: **fâché(e)** = angry/upset (also common): je suis fâché(e) contre toi.",
+      "englishPhrase": "I'm angry with you.",
+      "phrase": "Je suis en colère contre toi."
+    },
+    {
+      "id": "mad",
+      "english": "mad",
+      "word": "furieux",
+      "grammarNote": "**furieux** = furious/mad (masculine form); feminine: **furieuse**.\n**si furieux** = so furious — **si** is used as an intensifier before adjectives and adverbs (not before nouns): il est si beau, c'est si difficile.\nNote: **si** means 'so' as an intensifier and 'if' as a conjunction — context makes it clear.\nRelated: **la fureur** = fury · **avec fureur** = furiously.",
+      "englishPhrase": "Why are you so mad?",
+      "phrase": "Pourquoi tu es si furieux",
+      "hidden": true
+    },
+    {
+      "id": "afraid_scared",
+      "english": "afraid",
+      "word": "effrayé(e)",
+      "grammarNote": "**effrayé(e)** = frightened/scared (past participle of **effrayer**, used as adjective).\nAdjective agreement: **effrayé** (masc.) · **effrayée** (fem.): l'enfant était effrayé · la petite était effrayée.\n**effrayer** = the verb (to frighten): ce bruit m'effraie.\nSynonyms: **avoir peur** (to be afraid — most common), **apeuré(e)** (scared), **terrorisé(e)** (terrified).",
+      "englishPhrase": "The child was scared.",
+      "phrase": "L'enfant était effrayé."
+    },
+    {
+      "id": "anxious",
+      "english": "anxious",
+      "word": "anxieux",
+      "grammarNote": "**anxieux** = anxious (masculine); feminine: **anxieuse** (-x → -se pattern, like heureux/heureuse).\n**Je suis anxieux** — être is always used with these emotion adjectives, not avoir.\n**être anxieux à propos de / pour** = to be anxious about: je suis anxieux pour l'examen.\n**l'anxiété** (fem.) = anxiety · **un trouble anxieux** = an anxiety disorder.",
+      "englishPhrase": "I'm anxious about the exam.",
+      "phrase": "Je suis anxieux"
+    },
+    {
+      "id": "nervous",
+      "english": "nervous",
+      "word": "nerveux",
+      "grammarNote": "**nerveux** = nervous (masculine); feminine: **nerveuse** (-x → -se).\n**nerveux** can also mean 'fidgety' or 'highly strung' as a character trait, beyond just situational nerves.\n**être nerveux** = to be nervous · **les nerfs** = nerves (noun): avoir les nerfs à vif (to be on edge).\n**un système nerveux** = nervous system · **nerveusement** = nervously (adverb).",
+      "englishPhrase": "I'm nervous today.",
+      "phrase": "Je suis nerveux"
+    },
+    {
+      "id": "excited",
+      "english": "excited",
+      "word": "enthousiaste",
+      "grammarNote": "**enthousiaste** = enthusiastic/excited (invariable — same form for masculine and feminine).\nNote that **excité(e)** exists but can have a more intense/agitated connotation; **enthousiaste** or **impatient(e)** is safer for everyday excitement.\n**être enthousiaste pour / à propos de** = to be excited about.\n**l'enthousiasme** (masc.) = enthusiasm · **avec enthousiasme** = enthusiastically.",
+      "englishPhrase": "I'm excited about the trip.",
+      "phrase": "Je suis enthousiaste pour le voyage."
+    },
+    {
+      "id": "joyful_cheerful",
+      "english": "joyful",
+      "word": "joyeux",
+      "grammarNote": "**joyeux** = joyful/cheerful (masculine); feminine: **joyeuse** (-x → -se).\nNote the sentence: **elle est toujours joyeuse** — the adjective agrees with **elle** (feminine) → **joyeuse**.\n**Joyeux Noël !** = Merry Christmas! · **Joyeux anniversaire !** = Happy birthday!\nEtymology: from **la joie** (joy), itself from Latin **gaudium**.",
+      "englishPhrase": "She is always cheerful.",
+      "phrase": "Elle est toujours joyeuse."
+    },
+    {
+      "id": "proud",
+      "english": "proud",
+      "word": "fier",
+      "grammarNote": "**fier** = proud (masculine); feminine: **fière** (note the grave accent added).\n**être fier/fière de** = to be proud of: je suis fier de toi · elle est fière de son travail.\n**la fierté** = pride (noun): avec fierté (with pride).\nNote: **fier** can also mean 'haughty/arrogant' in older usage, but in modern French it almost always means 'proud'.",
+      "englishPhrase": "I'm proud of you.",
+      "phrase": "Je suis fier"
+    },
+    {
+      "id": "content_contented",
+      "english": "content",
+      "word": "content(e)",
+      "grammarNote": "**content** = content/happy/pleased (masculine); feminine: **contente** (regular -e added).\n**être content(e) de** + noun or infinitive = to be happy with/about: je suis content de ma vie · je suis contente de te voir.\nSynonym: **satisfait(e)** (satisfied) — slightly more formal.\n**content(e)** is very common in spoken French for general happiness: tu es content ? (are you happy/pleased?).",
+      "englishPhrase": "I'm content with my life.",
+      "phrase": "Je suis content(e) de ma vie."
+    },
+    {
+      "id": "calm_2",
+      "english": "calm",
+      "word": "calme",
+      "grammarNote": "**calme** as an adjective is invariable in gender: il est calme · elle est calme · ils sont calmes (only changes for plural).\n**reste calme** = stay calm — imperative of **rester** (to stay/remain), regular -er verb.\n**tout va bien** = everything is fine — **aller** is used to express states of being: comment ça va ? ça va bien.\nNote: **calme** (adjective) vs **le calme** (noun): both common.",
+      "englishPhrase": "Stay calm, everything is fine.",
+      "phrase": "Reste calme, tout va bien.",
+      "hidden": true
+    },
+    {
+      "id": "stressed",
+      "english": "stressed",
+      "word": "stressé(e)",
+      "grammarNote": "**stressé(e)** = stressed (adjective, from the English borrowing **le stress**).\nAdjective agreement: **stressé** (masc.) · **stressée** (fem.) · **stressés** (masc. pl.) · **stressées** (fem. pl.).\nThe (e) notation in **stressé(e)** signals that women add the -e: je suis stressé (man) · je suis stressée (woman).\n**être très stressé(e)** = to be very stressed · **un travail stressant** = a stressful job.",
+      "englishPhrase": "I'm very stressed this week.",
+      "phrase": "Je suis très stressé(e) cette semaine."
+    },
+    {
+      "id": "overwhelmed",
+      "english": "overwhelmed",
+      "word": "dépassé(e)",
+      "grammarNote": "**dépassé(e)** = overwhelmed/out of one's depth (literally 'overtaken/exceeded').\n**se sentir dépassé(e) par** = to feel overwhelmed by: je me sens dépassé(e) par le travail.\n**se sentir** is reflexive and uses **être** in the passé composé: je me suis senti(e) dépassé(e).\nSynonyms: **submergé(e)** (submerged/overwhelmed), **débordé(e)** (swamped — common for workload).",
+      "englishPhrase": "I feel overwhelmed by the work.",
+      "phrase": "Je me sens dépassé(e) par le travail."
+    },
+    {
+      "id": "energetic",
+      "english": "energetic",
+      "word": "énergique",
+      "grammarNote": "**énergique** = energetic (adjective, invariable in gender: same for masc. and fem.).\n**très énergique** = very energetic · **une personne énergique** = an energetic person.\nAdverb: **énergiquement** = energetically.\nRelated: **l'énergie** (fem., energy noun) · **dynamique** (dynamic — a close synonym): elle est très dynamique.",
+      "englishPhrase": "She is very energetic.",
+      "phrase": "Elle est très énergique."
+    },
+    {
+      "id": "tired",
+      "english": "tired",
+      "word": "fatigué(e)",
+      "grammarNote": "**fatigué(e)** = tired (adjective, past participle of **fatiguer** used as adjective).\n**être fatigué(e)** = to be tired — uses **être**, not avoir.\n**très fatigué(e)** = very tired · **épuisé(e)** = exhausted (stronger).\n**se fatiguer** = reflexive, to get tired: je me fatigue vite.\n**la fatigue** = tiredness/fatigue (noun) · **fatigant(e)** = tiring (adjective for something that tires you).",
+      "englishPhrase": "I'm very tired today.",
+      "phrase": "Je suis très fatigué(e) aujourd'hui."
+    },
+    {
+      "id": "exhausted",
+      "english": "exhausted",
+      "word": "épuisé(e)",
+      "grammarNote": "**épuisé(e)** = exhausted (past participle of **épuiser**, used as adjective).\n**être épuisé(e)** = to be exhausted · **après** + noun = after: après la course (after the run).\nNote the **après** + definite article construction: après **la** course, après **le** travail.\n**s'épuiser** = reflexive, to exhaust oneself: ne t'épuise pas !\n**l'épuisement** (masc.) = exhaustion · **épuisant(e)** = exhausting.",
+      "englishPhrase": "I'm exhausted after the run.",
+      "phrase": "Je suis épuisé(e) après la course."
+    },
+    {
+      "id": "curious",
+      "english": "curious",
+      "word": "curieux",
+      "grammarNote": "**curieux** = curious (masculine); feminine: **curieuse** (-x → -se).\n**être curieux/curieuse de** + infinitive = to be curious about doing: je suis curieux de savoir.\n**je suis curieux** (without complement) = I'm curious — a standalone state.\n**la curiosité** = curiosity · **curieusement** = curiously/oddly.\nNote: **curieux** can also mean 'strange/odd': c'est curieux = that's strange.",
+      "englishPhrase": "I'm curious about that.",
+      "phrase": "Je suis curieux"
+    }
+  ]
+}

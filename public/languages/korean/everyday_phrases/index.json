@@ -1,0 +1,1962 @@
+{
+  "id": "everyday_phrases",
+  "name": "Everyday Phrases",
+  "language": "korean",
+  "stories": [
+    "morning_routine",
+    "meeting_a_friend",
+    "making_plans",
+    "meet_jeff",
+    "a_phone_call"
+  ],
+  "grammarLessons": [
+    {
+      "id": "numbers",
+      "name": "Numbers — Two Systems"
+    },
+    {
+      "id": "time_words",
+      "name": "Time Words & Days"
+    },
+    {
+      "id": "eun_neun_i_ga",
+      "name": "은/는 vs 이/가 — Topic vs Subject"
+    },
+    {
+      "id": "ibnida_iseyo",
+      "name": "입니다 vs 이에요 — To Be"
+    },
+    {
+      "id": "ayo_eoyo",
+      "name": "-아요 / -어요 — Polite Present Tense"
+    },
+    {
+      "id": "adjective_verbs",
+      "name": "형용사 — Adjective Verbs"
+    },
+    {
+      "id": "future_geoyeyo",
+      "name": "-(으)ㄹ 거예요 — Future & Intention"
+    },
+    {
+      "id": "past_tense",
+      "name": "Past Tense — 았어요/었어요"
+    },
+    {
+      "id": "speech_levels",
+      "name": "Speech Levels — Formal, Polite & Casual"
+    },
+    {
+      "id": "aseo_cause",
+      "name": "-아서/어서 — Because / So"
+    },
+    {
+      "id": "word_patterns",
+      "name": "Word Patterns"
+    }
+  ],
+  "cards": [
+    {
+      "id": "hello",
+      "english": "Hello",
+      "word": "안녕하세요",
+      "romanized": "annyeonghaseyo",
+      "grammarNote": "**안녕하세요** (annyeonghaseyo) is the standard polite greeting at any time of day.\n**안녕** alone is casual — only use with close friends.\nThe **-세요** ending is an honorific imperative/polite form from **하다** (to do) — literally 'do peacefully'.\nFormal: **안녕하십니까** (annyeonghasimnikka) — used in formal speeches or broadcasting.",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "안녕하세요! 잘 지내요?",
+      "phraseRomanized": "Annyeonghaseyo! Jal jinaeyo?",
+      "literal": [
+        [
+          "안녕하세요",
+          "hello"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "지내요",
+          "getting-along"
+        ]
+      ]
+    },
+    {
+      "id": "please",
+      "english": "Please",
+      "word": "부탁해요",
+      "romanized": "butakhaeyo",
+      "grammarNote": "**부탁하다** = to ask a favor / to request.\n**부탁해요** at the end of a request softens it politely.\nAlternative: **~주세요** (juseyo) — also very common: **커피 주세요** (coffee please).",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "커피 한 잔 부탁해요.",
+      "phraseRomanized": "Keopi han jan butakhaeyo.",
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "cup"
+        ],
+        [
+          "부탁해요",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "thank_you",
+      "english": "Thank you",
+      "word": "감사합니다",
+      "romanized": "gamsahamnida",
+      "grammarNote": "**감사합니다** (gamsahamnida) is the formal thank-you — used with strangers, elders, or in professional settings.\n**감사해요** (gamsahaeyo) is the polite but less formal version.\n**고마워요** (gomawoyo) = casual thanks, fine with friends.\n**감사** (感謝, gamsa) is Sino-Korean: **감** = feel + **사** = gratitude.\n**-합니다/-ㅂ니다** is the formal speech ending, more formal than **-해요**.",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "정말 감사합니다.",
+      "phraseRomanized": "Jeongmal gamsahamnida.",
+      "literal": [
+        [
+          "정말",
+          "truly"
+        ],
+        [
+          "감사합니다",
+          "thank you"
+        ]
+      ]
+    },
+    {
+      "id": "i_want",
+      "english": "I want",
+      "word": "원해요",
+      "romanized": "wonhaeyo",
+      "grammarNote": "Wanting a thing: **원해요** (wonhaeyo).\nWanting to do something: verb stem + **고 싶어요**: **먹고 싶어요** (I want to eat), **가고 싶어요** (I want to go).\n**-고 싶어요** is one of the most useful endings to learn.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "커피를 마시고 싶어요.",
+      "phraseRomanized": "Keopireul masigo sipeoyo.",
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "마시고 싶어요",
+          "want to drink"
+        ]
+      ]
+    },
+    {
+      "id": "i_need",
+      "english": "I need",
+      "word": "필요해요",
+      "romanized": "piryohaeyo",
+      "grammarNote": "**필요하다** (piryohada) = to be necessary / to need.\n**필요** (必要, piryo) is Sino-Korean: **필** = must + **요** = need — same characters as Japanese 必要 (hitsuyō).\nStructure: [thing needed] + **이/가 필요해요** — the needed item takes the subject particle **이/가**, not the object particle.\n**도움이 필요해요** = I need help (lit. 'help is needed').",
+      "englishPhrase": "I need help.",
+      "phrase": "도움이 필요해요.",
+      "phraseRomanized": "Doumi piryohaeyo.",
+      "literal": [
+        [
+          "도움",
+          "help"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ]
+    },
+    {
+      "id": "my_name_is",
+      "english": "My name is",
+      "word": "제 이름은 〜이에요",
+      "romanized": "Je ireumeun ~ ieyo",
+      "grammarNote": "**이에요** after a consonant, **예요** after a vowel: **제 이름은 Ana예요** (Ana ends in a vowel).\nFormal: **제 이름은 ~입니다**.\nCasual: **나 ~야**.",
+      "englishPhrase": "My name is Jeff.",
+      "phrase": "제 이름은 Jeff예요.",
+      "phraseRomanized": "Je ireumeun Jeff yeyo.",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "이름",
+          "name"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "Jeff예요",
+          "Jeff is"
+        ]
+      ]
+    },
+    {
+      "id": "i",
+      "english": "I",
+      "word": "저",
+      "romanized": "jeo",
+      "grammarNote": "**저** = formal/polite 'I' (with strangers or elders).\n**나** = casual 'I' (with friends).\n**저는** pairs with **해요**-style verbs; **나는** pairs with casual speech.",
+      "englishPhrase": "I am a student.",
+      "phrase": "저는 학생이에요.",
+      "phraseRomanized": "Jeoneun haksaengieyo.",
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "학생",
+          "student"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "you",
+      "english": "You",
+      "word": "당신",
+      "romanized": "dangsin",
+      "grammarNote": "**당신** = formal 'you', but often avoided — sounds cold between strangers, awkward between friends.\nKoreans usually use the person's name or title instead.\n**너** = casual 'you' with close friends only.",
+      "englishPhrase": "You speak Korean well.",
+      "phrase": "한국어를 잘 하시네요.",
+      "phraseRomanized": "Hangugeoreul jal hasineyo.",
+      "literal": [
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "하시네요",
+          "do[I see/right?]"
+        ]
+      ]
+    },
+    {
+      "id": "he",
+      "english": "He",
+      "word": "그",
+      "romanized": "geu",
+      "grammarNote": "**그** = he (also 'that' as a demonstrative).\n**그녀** (geunyeo) = she — but both pronouns are rare in natural speech.\nKoreans typically use the person's name, a title, or just drop the subject entirely when context is clear.\n**그는** (topic) = as for him; **그가** (subject) = he [as subject].",
+      "englishPhrase": "He is my friend.",
+      "phrase": "그는 제 친구예요.",
+      "phraseRomanized": "Geuneun je chinguye yo.",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "제",
+          "my"
+        ],
+        [
+          "친구",
+          "friend"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "she",
+      "english": "She",
+      "word": "그녀",
+      "romanized": "geunyeo",
+      "grammarNote": "**그녀** (geunyeo) = she — a literary/written form, rarely used in spoken Korean.\nIn speech, Koreans use the person's name, a title (**언니**, **누나**, **선생님**), or simply drop the pronoun.\n**여기서** = 'here at / from here' — the particle **서** attached to a location word marks where an action takes place.",
+      "englishPhrase": "She works here.",
+      "phrase": "그녀는 여기서 일해요.",
+      "phraseRomanized": "Geunyeoneun yeogiseo ilhaeyo.",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "여기서",
+          "here[at/from]"
+        ],
+        [
+          "일해요",
+          "works"
+        ]
+      ]
+    },
+    {
+      "id": "good_night",
+      "english": "Good night",
+      "word": "안녕히 주무세요",
+      "romanized": "annyeonghi jumuseyo",
+      "grammarNote": "**주무세요** is the honorific form of **자다** (to sleep) — always use it with elders or anyone you show respect to.\n**잘 자요** (jal jayo) = casual 'sleep well' — use with friends.\n**안녕히** (annyeonghi) = peacefully — the same root as **안녕하세요**.",
+      "englishPhrase": "Good night! Sleep well.",
+      "phrase": "안녕히 주무세요. 잘 주무세요.",
+      "phraseRomanized": "Annyeonghi jumuseyo. Jal jumuseyo.",
+      "literal": [
+        [
+          "안녕히",
+          "peacefully"
+        ],
+        [
+          "주무세요",
+          "please sleep"
+        ]
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "english": "How are you?",
+      "word": "잘 지내요?",
+      "romanized": "jal jinaeyo",
+      "grammarNote": "**잘 지내요?** = How are you? (polite, casual)\n**잘** = well, **지내다** = to get along / to be doing.\nCommon response: **잘 지내요** (I'm doing well).",
+      "englishPhrase": "How are you? I'm doing well, thanks.",
+      "phrase": "잘 지내요? 네, 잘 지내요, 감사해요.",
+      "phraseRomanized": "Jal jinaeyo? Ne, jal jinaeyo, gamsahaeyo.",
+      "literal": [
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "지내요",
+          "getting-along"
+        ]
+      ]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you",
+      "word": "처음 뵙겠습니다",
+      "romanized": "cheoeum boepgesseumnida",
+      "grammarNote": "**처음 뵙겠습니다** = nice to meet you (very formal).\n**반갑습니다** (bangapseumnida) = nice to meet you / glad to meet you — also common.\n**처음** = first time, **뵙다** = humble form of 'to see/meet'.",
+      "englishPhrase": "Nice to meet you. I'm Jeff.",
+      "phrase": "처음 뵙겠습니다. 저는 Jeff예요.",
+      "phraseRomanized": "Cheoeum boepgesseumnida. Jeoneun Jeff yeyo.",
+      "literal": [
+        [
+          "처음",
+          "first time"
+        ],
+        [
+          "뵙겠습니다",
+          "I will meet [humble]"
+        ]
+      ]
+    },
+    {
+      "id": "youre_welcome",
+      "english": "You're welcome",
+      "word": "천만에요",
+      "romanized": "cheonmaneyo",
+      "grammarNote": "**천만에요** (cheonmaneyo) = 'not at all / don't mention it' — literally 'ten million [no]'.\nMore common in modern speech: **아니에요** (anieyo) = 'it's nothing'.\n**별말씀을요** (byeolmalsseumeulyo) = 'not at all / it was nothing' — more natural and humble.",
+      "englishPhrase": "You're welcome! It was nothing.",
+      "phrase": "천만에요. 별말씀을요.",
+      "phraseRomanized": "Cheonmaneyo. Byeolmalsseumeulyo.",
+      "literal": [
+        [
+          "천만에요",
+          "not at all"
+        ]
+      ]
+    },
+    {
+      "id": "it",
+      "hidden": true,
+      "english": "It",
+      "word": "그것",
+      "romanized": "geugeot",
+      "grammarNote": "**그것** = that thing / it.\nIn speech: **그게** (subject form), **그걸** (object form).\nKoreans often drop the pronoun entirely when context is clear.",
+      "englishPhrase": "What is that?",
+      "phrase": "그게 뭐예요?",
+      "phraseRomanized": "Geuge mwoyeyo?",
+      "literal": [
+        [
+          "그게",
+          "that[subj]"
+        ],
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "we",
+      "english": "We",
+      "word": "우리",
+      "romanized": "uri",
+      "grammarNote": "**우리** = we, but also used where English says 'my': **우리 집** (my house), **우리 엄마** (my mom).\nThis 'our' for 'my' reflects a cultural sense of shared belonging — very natural in Korean.",
+      "englishPhrase": "We live here.",
+      "phrase": "우리는 여기 살아요.",
+      "phraseRomanized": "Urineun yeogi sarayo.",
+      "literal": [
+        [
+          "우리",
+          "we"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ]
+    },
+    {
+      "id": "they",
+      "english": "They",
+      "word": "그들",
+      "romanized": "geudeul",
+      "grammarNote": "**그들** (geudeul) = they — **들** is the Korean plural suffix.\n**들** can be added to many nouns: **학생들** (students), **친구들** (friends).\nKorean doesn't require plural marking — it's optional and context often makes it clear.\nLike **그/그녀**, **그들** is more literary; in conversation, Koreans name people directly.",
+      "englishPhrase": "They eat together.",
+      "phrase": "그들은 같이 먹어요.",
+      "phraseRomanized": "Geudeureun gachi meogeoyo.",
+      "literal": [
+        [
+          "그들",
+          "they"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "같이",
+          "together"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "this",
+      "english": "This",
+      "word": "이것",
+      "romanized": "igeot",
+      "grammarNote": "**이것** = this thing (stands alone); **이** = this + noun: **이 책** (this book).\nSame distance pattern: **그것/그** (that, near listener), **저것/저** (that over there, far from both).",
+      "englishPhrase": "This book is good.",
+      "phrase": "이 책이 좋아요.",
+      "phraseRomanized": "I chaegi joayo.",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "책",
+          "book"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "that",
+      "english": "That",
+      "word": "그것",
+      "romanized": "geugeot",
+      "grammarNote": "Korean has a three-way demonstrative system:\n**이** = this (near speaker), **그** = that (near listener), **저** = that (far from both).\n**저 사람** = that person over there — notice the phrase uses **저**, not **그**.\nIn the example sentence, **저** is used as a demonstrative adjective before **사람**, not as the pronoun 'I'.",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "저 사람은 제 친구예요.",
+      "phraseRomanized": "Jeo sarameun je chinguyeyo.",
+      "literal": [
+        [
+          "저",
+          "that"
+        ],
+        [
+          "사람",
+          "person"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "제",
+          "my"
+        ],
+        [
+          "친구",
+          "friend"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "my",
+      "english": "My",
+      "word": "제",
+      "romanized": "je",
+      "grammarNote": "**제** (je) = polite/formal 'my' — a contracted form of **저의** (jeoui).\n**내** (nae) = casual 'my' — contracted from **나의** (naui).\nUse **제** with strangers and elders; **내** with friends.\n**이름은** — the topic particle **은/는** is used here because the name is being presented/introduced, setting it up as the topic.",
+      "englishPhrase": "My name is Jeff.",
+      "phrase": "제 이름은 Jeff예요.",
+      "phraseRomanized": "Je ireumeun Jeff yeyo.",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "이름",
+          "name"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "Jeff예요",
+          "Jeff is"
+        ]
+      ]
+    },
+    {
+      "id": "who",
+      "english": "Who",
+      "word": "누구",
+      "romanized": "nugu",
+      "grammarNote": "**누구** (nugu) = who.\nWith the subject particle it becomes **누가** (nuga), not **누구가**: **누가 왔어요?** (who came?).\nWith the topic particle: **누구는** — rarely used; context usually makes it clear.\n**저 사람은 누구예요?** — note the topic particle **은** on **사람**, framing 'that person' as the topic being identified.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "저 사람은 누구예요?",
+      "phraseRomanized": "Jeo sarameun nuguyeyo?",
+      "literal": [
+        [
+          "저",
+          "that"
+        ],
+        [
+          "사람",
+          "person"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "누구",
+          "who"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "what",
+      "english": "What",
+      "word": "뭐",
+      "romanized": "mwo",
+      "grammarNote": "**뭐** (mwo) = what — the colloquial spoken form of **무엇** (mueot).\nWith the subject particle: **뭐가** (mwoga) — e.g., **뭐가 좋아요?** (what's good?).\nWith the object particle: **뭘** (mwol) — contraction of **뭐를**: **뭘 먹어요?** (what are you eating?).\nIn casual speech, **뭐** often stands alone without a particle.",
+      "englishPhrase": "What do you want?",
+      "phrase": "뭐 원해요?",
+      "phraseRomanized": "Mwo wonhaeyo?",
+      "literal": [
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
+    },
+    {
+      "id": "when",
+      "english": "When",
+      "word": "언제",
+      "romanized": "eonje",
+      "grammarNote": "**언제** (eonje) = when — used both as a question word and in embedded clauses.\n**언제 와요?** = When are you coming? (question)\n**언제 오는지 몰라요** = I don't know when they're coming (embedded clause).\nTime question words: **언제** (when), **몇 시** (what time), **며칠** (what day of the month).",
+      "englishPhrase": "When are you coming?",
+      "phrase": "언제 와요?",
+      "phraseRomanized": "Eonje wayo?",
+      "literal": [
+        [
+          "언제",
+          "when"
+        ],
+        [
+          "와요",
+          "coming"
+        ]
+      ]
+    },
+    {
+      "id": "where",
+      "english": "Where",
+      "word": "어디",
+      "romanized": "eodi",
+      "grammarNote": "**어디** (eodi) = where.\nWith **예요/이에요** it means 'where is': **화장실이 어디예요?** (where is the bathroom?)\n**어디서** = where (at/from) — marks location of an action: **어디서 왔어요?** (where are you from?)\n**화장실** (化粧室, hwajangsil) is Sino-Korean: **화장** = makeup/adornment + **실** = room.",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "화장실이 어디예요?",
+      "phraseRomanized": "Hwajangshiri eodiyeyo?",
+      "literal": [
+        [
+          "화장실",
+          "bathroom"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "english": "Why",
+      "word": "왜",
+      "romanized": "wae",
+      "grammarNote": "**왜** (wae) = why.\n**못** (mot) = cannot (inability) — different from **안** (an) which means 'not' (choice/habit).\n**왜 못 와요?** = Why can't you come? (inability — e.g., stuck at work)\n**왜 안 와요?** = Why aren't you coming? (choice — suggests they could but aren't).\nThe **못** vs **안** distinction is important in Korean negation.",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "왜 못 와요?",
+      "phraseRomanized": "Wae mot wayo?",
+      "literal": [
+        [
+          "왜",
+          "why"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "와요",
+          "come"
+        ]
+      ]
+    },
+    {
+      "id": "how",
+      "english": "How",
+      "word": "어떻게",
+      "romanized": "eotteoke",
+      "grammarNote": "**어떻게** (eotteoke) = how — the adverb form of **어떻다** (eotteota, to be how/like what).\n**어떻게 지내요?** = How are you? (literally 'how are you passing time?')\n**어때요?** (eottaeyo) = 'how about it? / how is it?' — used to propose things or ask opinions.\n**어떻게** describes the manner of an action; **어때요** asks for a judgment or preference.",
+      "englishPhrase": "How are you?",
+      "phrase": "어떻게 지내요?",
+      "phraseRomanized": "Eotteoke jinaeyo?",
+      "literal": [
+        [
+          "어떻게",
+          "how"
+        ],
+        [
+          "지내요",
+          "getting-along"
+        ]
+      ]
+    },
+    {
+      "id": "good_morning",
+      "english": "Good morning",
+      "word": "좋은 아침이에요",
+      "romanized": "joeun achimieyo",
+      "grammarNote": "**안녕하세요** works at any time of day — the most natural all-purpose greeting.\n**좋은 아침이에요** is understood but less common in daily speech.\n**안녕히 주무셨어요?** = 'did you sleep well?' (honorific morning greeting).",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "좋은 아침이에요! 잘 잤어요?",
+      "phraseRomanized": "Joeun achimieyo! Jal jasseoyo?",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "아침이에요",
+          "morning is"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "잤어요",
+          "slept"
+        ]
+      ]
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "찾다",
+      "romanized": "chatda",
+      "grammarNote": "**찾다** (chatda) = to look for / to find.\n**-고 있어요** (-go isseoyo) forms the present progressive: **찾고 있어요** = 'am looking for' (actively searching right now).\n**출구** (出口, chulgu) is Sino-Korean: **출** = exit + **구** = opening/door — same characters as Japanese 出口 (deguchi).\nThe object particle **를** (reul) follows **출구** because it ends in a vowel.",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "출구를 찾고 있어요.",
+      "phraseRomanized": "Chulkureul chatgo isseoyo.",
+      "literal": [
+        [
+          "출구",
+          "exit"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "찾고 있어요",
+          "looking for"
+        ]
+      ]
+    },
+    {
+      "id": "excuse_me",
+      "english": "Excuse me",
+      "word": "실례합니다",
+      "romanized": "sillyehamnida",
+      "grammarNote": "**저기요** = 'excuse me!' for getting a stranger's or server's attention — very common in everyday speech.\n**실례합니다** = 'excuse me' in more formal contexts (e.g., passing someone in a hallway).",
+      "englishPhrase": "Excuse me, where is the station?",
+      "phrase": "저기요, 역이 어디예요?",
+      "phraseRomanized": "Jeogiyo, yeogi eodiyeyo?",
+      "literal": [
+        [
+          "저기요",
+          "excuse me"
+        ],
+        [
+          "역",
+          "station"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "to_be_able_to_can",
+      "english": "To be able to",
+      "word": "할 수 있다",
+      "romanized": "hal su itda",
+      "grammarNote": "verb stem + **(으)ㄹ 수 있다** = can/be able to.\n**갈 수 있어요** (can go), **먹을 수 있어요** (can eat).\nNegative: **(으)ㄹ 수 없다** = can't.\nOne of the most important patterns in Korean.",
+      "englishPhrase": "Can you help me?",
+      "phrase": "도와줄 수 있어요?",
+      "phraseRomanized": "Dowajul su isseoyo?",
+      "literal": [
+        [
+          "도와줄 수 있어요",
+          "help-give can"
+        ]
+      ]
+    },
+    {
+      "id": "i_dont_know",
+      "english": "I don't know",
+      "word": "몰라요",
+      "romanized": "mollayo",
+      "grammarNote": "**모르다** (moreuda) = to not know — an irregular verb: the **르** becomes **ㄹㄹ** before vowels: **몰라요** (present), **몰랐어요** (past).\n**어디 있는지 몰라요** = I don't know where it is — **-는지** is the indirect question ending, turning the question ('where is it?') into an embedded clause.\n**알아요** (arayo) = I know; **몰라요** = I don't know — opposites.",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "어디 있는지 몰라요.",
+      "phraseRomanized": "Eodi inneunji mollayo.",
+      "literal": [
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "있는지",
+          "is[whether]"
+        ],
+        [
+          "몰라요",
+          "don't know"
+        ]
+      ]
+    },
+    {
+      "id": "to_have",
+      "english": "To have",
+      "word": "있다",
+      "romanized": "itda",
+      "grammarNote": "**있다** handles both 'to have' and 'to exist/there is'.\n**돈이 있어요** = I have money (lit. 'money exists').\nOpposite: **없다** (eopda) = don't have / doesn't exist.\nNo separate 'have' verb is needed.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "배고파요. 물 있어요?",
+      "phraseRomanized": "Baegopayo. Mul isseoyo?",
+      "literal": [
+        [
+          "배고파요",
+          "hungry"
+        ],
+        [
+          "물",
+          "water"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
+    },
+    {
+      "id": "to_do_make",
+      "english": "To do",
+      "word": "하다",
+      "romanized": "hada",
+      "grammarNote": "**하다** (hada) = to do — the most versatile verb in Korean.\nMany Sino-Korean nouns become verbs simply by adding **하다**: **공부하다** (to study), **전화하다** (to call), **요리하다** (to cook).\n**뭐 해요?** = What are you doing? — **해요** is the polite present of **하다**.\n**뭐 했어요?** = What did you do? — **했어요** is the past tense.",
+      "englishPhrase": "What are you doing?",
+      "phrase": "뭐 해요?",
+      "phraseRomanized": "Mwo haeyo?",
+      "literal": [
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "해요",
+          "doing"
+        ]
+      ]
+    },
+    {
+      "id": "to_eat",
+      "english": "To eat",
+      "word": "먹다",
+      "romanized": "meokda",
+      "grammarNote": "**먹다** (meokda) = to eat (neutral/informal register).\n**드시다** (deusida) = the honorific form — use with elders: **드세요** (please eat).\n**먹어요** = polite present; **먹었어요** = polite past.\n**어디서** = 'where (at)' — the **서** particle on a location word marks where an action is performed, not just where something exists.",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "어디서 먹어요?",
+      "phraseRomanized": "Eodiseo meogeoyo.",
+      "literal": [
+        [
+          "어디서",
+          "where[at/from]"
+        ],
+        [
+          "먹어요",
+          "eating"
+        ]
+      ]
+    },
+    {
+      "id": "to_like",
+      "english": "To like",
+      "word": "좋아하다",
+      "romanized": "joahada",
+      "grammarNote": "**좋아하다** (joahada) = to like (an active feeling toward something).\n**좋다** (jota) = to be good / to like (a state — the thing IS good to you).\n**커피를 좋아해요** = I like coffee (**좋아하다**, active).\n**커피가 좋아요** = Coffee is good / I like coffee (**좋다**, state).\nBoth mean roughly the same in English, but structurally they differ.",
+      "englishPhrase": "I like coffee.",
+      "phrase": "커피를 좋아해요.",
+      "phraseRomanized": "Keopireul joahaeyo.",
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "but",
+      "english": "But",
+      "word": "하지만",
+      "romanized": "hajiman",
+      "grammarNote": "**하지만** (hajiman) = but — a standalone conjunction between sentences.\n**-지만** can also attach directly to a verb stem: **가고 싶지만** = 'I want to go, but...'.\n**그런데** (geureonde) = 'but / however / by the way' — softer contrast or topic shift.\n**못** before a verb = cannot: **못 가요** = can't go.",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "가고 싶지만 못 가요.",
+      "phraseRomanized": "Gago sipjiman mot gayo.",
+      "literal": [
+        [
+          "가고 싶지만",
+          "want to go but"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "and",
+      "english": "And",
+      "word": "그리고",
+      "romanized": "geurigo",
+      "grammarNote": "**그리고** = 'and' between sentences.\n**와/과** = 'and' between nouns: **와** after a vowel, **과** after a consonant.\nCasual alternative: **이랑/랑** — more colloquial.",
+      "englishPhrase": "Water and food.",
+      "phrase": "물이랑 음식.",
+      "phraseRomanized": "Mulirang eumsik."
+    },
+    {
+      "id": "or",
+      "english": "Or",
+      "word": "아니면",
+      "romanized": "animyeon",
+      "grammarNote": "**아니면** (animyeon) = or — literally 'if not'.\n**또는** (ttoneun) = or — slightly more formal/written.\n**차 아니면 커피?** = tea or coffee? — the **아니면** sits between the two options, just like English 'or'.\n**아니** = no/not — so **아니면** literally means 'if [it is] not [the first thing], then...'.",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "차 아니면 커피?",
+      "phraseRomanized": "Cha animyeon keopi?"
+    },
+    {
+      "id": "hungry",
+      "english": "Hungry",
+      "word": "배고프다",
+      "romanized": "baegopuda",
+      "grammarNote": "**배고프다** = to be hungry (**배** = stomach/belly) → **배고파요** in speech.\nCompare: **배부르다** = to be full.\nKorean uses its own adjective — not a 'have hunger' construction like Spanish or French.",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "너무 배고파요.",
+      "phraseRomanized": "Neomu baegopayo.",
+      "literal": [
+        [
+          "너무",
+          "too-much"
+        ],
+        [
+          "배고파요",
+          "hungry"
+        ]
+      ]
+    },
+    {
+      "id": "thirsty",
+      "english": "Thirsty",
+      "word": "목이 마르다",
+      "romanized": "mogi mareuda",
+      "grammarNote": "**목이 마르다** = literally 'throat is dry' → to be thirsty.\n**목** = throat/neck; **마르다** = to be dry/to dry out.\nThe subject particle **이** follows **목** because it ends in a consonant.\nCompare: **배고프다** (hungry) also builds hunger as a body-state, not a possession.",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "목이 너무 말라요.",
+      "phraseRomanized": "Mogi neomu mallayo.",
+      "literal": [
+        [
+          "목",
+          "throat"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "너무",
+          "too-much"
+        ],
+        [
+          "말라요",
+          "dry"
+        ]
+      ]
+    },
+    {
+      "id": "person",
+      "english": "Person",
+      "word": "사람",
+      "romanized": "saram",
+      "grammarNote": "**사람** (saram) = person (native Korean word).\n**분** (bun) = person (honorific counter) — use when referring to someone you respect: **한 분** (one person [honorific]).\n**명** (myeong) = person (counter for people in general): **두 명** (two people).\n**저 사람** = that person over there — **저** here is the far demonstrative, not the pronoun 'I'.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "저 사람은 누구예요?",
+      "phraseRomanized": "Jeo sarameun nuguyeyo?",
+      "literal": [
+        [
+          "저",
+          "that"
+        ],
+        [
+          "사람",
+          "person"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "누구",
+          "who"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "place",
+      "english": "Place",
+      "word": "장소",
+      "romanized": "jangso",
+      "grammarNote": "**장소** (場所, jangso) is Sino-Korean: **장** = place + **소** = location — same characters as Japanese 場所 (basho).\n**곳** (got) = place (native Korean) — used more naturally in everyday speech: **좋은 곳** (a good place).\n**알아요?** = do you know? — **알다** is an irregular ㄹ verb; the **ㄹ** drops before **아요**: **알아요**, not **알라요**.",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "좋은 곳 알아요?",
+      "phraseRomanized": "Joeun got arayo?",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "곳",
+          "place"
+        ],
+        [
+          "알아요",
+          "know"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "thing",
+      "english": "Thing",
+      "word": "것",
+      "romanized": "geot",
+      "grammarNote": "**것** (geot) = thing — extremely common in Korean grammar.\nIn speech it contracts: **이것 → 이게** (this[subj]), **그것 → 그게** (that[subj]).\n**것** also nominalizes verbs: **먹는 것** (the thing of eating = eating), **좋은 것** (a good thing).\nIn casual speech, **거** is used instead of **것**: **좋은 거예요** (it's a good thing).",
+      "englishPhrase": "What is that thing?",
+      "phrase": "그게 뭐예요?",
+      "phraseRomanized": "Geuge mwoyeyo?",
+      "literal": [
+        [
+          "그게",
+          "that[subj]"
+        ],
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "여기",
+      "romanized": "yeogi",
+      "grammarNote": "**여기** (yeogi) = here (near speaker).\n**거기** (geogi) = there (near listener).\n**저기** (jeogi) = over there (far from both).\n**여기 와요!** = Come here! — **와요** is the polite present of **오다** (to come); it works as both a statement and a mild imperative from context.",
+      "englishPhrase": "Come here!",
+      "phrase": "여기 와요!",
+      "phraseRomanized": "Yeogi wayo!",
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "와요",
+          "come"
+        ]
+      ]
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "거기",
+      "romanized": "geogi",
+      "grammarNote": "**거기** (geogi) = there (near the listener); **저기** (jeogi) = over there (far from both).\nIn the example, **저기예요** uses **저기** (over there) — the bathroom is far from both speakers.\n**화장실은** — the topic particle **은** on **화장실** frames it as something already established in the conversation: 'as for the bathroom'.",
+      "englishPhrase": "The bathroom is over there.",
+      "phrase": "화장실은 저기예요.",
+      "phraseRomanized": "Hwajangshireun jeogieyeo.",
+      "literal": [
+        [
+          "화장실",
+          "bathroom"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "저기",
+          "over there"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "very",
+      "english": "Very",
+      "word": "매우",
+      "romanized": "maeu",
+      "grammarNote": "**너무** = originally 'too much', but used colloquially as 'very/so': **너무 좋아요** (so good!).\n**매우** = the more formal 'very'.\n**정말** = 'really/truly' — very common in speech.",
+      "englishPhrase": "It's very good.",
+      "phrase": "너무 좋아요.",
+      "phraseRomanized": "Neomu joayo.",
+      "literal": [
+        [
+          "너무",
+          "too-much"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "goodbye",
+      "english": "Goodbye",
+      "word": "안녕히 가세요",
+      "romanized": "annyeonghi gaseyo",
+      "grammarNote": "Two goodbye forms depending on who is leaving:\n**안녕히 가세요** — said to the person leaving ('go peacefully').\n**안녕히 계세요** — said by the person leaving to whoever stays ('stay peacefully').\nCasual: **잘 가** / **잘 있어**.",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "잘 가요! 내일 봐요.",
+      "phraseRomanized": "Jal gayo! Naeil bwayo.",
+      "literal": [
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "가요",
+          "go"
+        ],
+        [
+          "내일",
+          "tomorrow"
+        ],
+        [
+          "봐요",
+          "see"
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "english": "Water",
+      "word": "물",
+      "romanized": "mul",
+      "grammarNote": "**물** (mul) = water — a native Korean word.\n**한 잔** = one glass/cup — **잔** is the counter for cups of liquid. Native Korean numbers are used: **한** (one), **두** (two), **세** (three).\n**주세요** (juseyo) = please give me — the standard polite request at restaurants and cafés.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "물 한 잔 주세요.",
+      "phraseRomanized": "Mul han jan juseyo.",
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "glass"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "food",
+      "english": "Food",
+      "word": "음식",
+      "romanized": "eumsik",
+      "grammarNote": "**음식** (飮食, eumsik) is Sino-Korean: **음** = drink + **식** = food — same characters as Japanese 飲食 (inshoku).\n**맛있어요** (masisseoyo) = delicious — from **맛** (taste) + **있다** (to have/exist): 'to have taste'.\n**음식이** — the subject particle **이** follows because **음식** ends in a consonant **ㄱ**.",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "음식이 맛있어요.",
+      "phraseRomanized": "Eumsigi masisseoyo.",
+      "literal": [
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "house_home",
+      "english": "House",
+      "word": "집",
+      "romanized": "jib",
+      "grammarNote": "**집** (jib) = house/home — native Korean.\n**우리 집** = my house — Koreans say 'our house' (**우리**) even when meaning 'my house', reflecting a collective cultural identity.\n**가까워요** is the polite present of **가깝다** (to be close/near) — a **ㅂ** irregular adjective: **ㅂ** changes to **우** before a vowel ending.",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "우리 집이 가까워요.",
+      "phraseRomanized": "Uri jibi gakkawoyo.",
+      "literal": [
+        [
+          "우리",
+          "our"
+        ],
+        [
+          "집",
+          "house"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "가까워요",
+          "nearby"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "store_shop",
+      "english": "Store",
+      "word": "가게",
+      "romanized": "gage",
+      "grammarNote": "**가게** (gage) = store/shop (general).\n**상점** (商店, sangjeom) = store (more formal/Sino-Korean).\n**가게가** — the subject particle **가** follows because **가게** ends in a vowel.\n**닫았어요** = closed (past tense) — **닫다** (to close) + **았어요** (past polite). Compare: **열었어요** = opened.",
+      "englishPhrase": "The store is closed.",
+      "phrase": "가게가 닫았어요.",
+      "phraseRomanized": "Gagega dad-asseoyo.",
+      "literal": [
+        [
+          "가게",
+          "store"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "닫았어요",
+          "closed"
+        ]
+      ]
+    },
+    {
+      "id": "cash_credit",
+      "english": "Cash",
+      "word": "현금",
+      "romanized": "hyeongeum",
+      "grammarNote": "**현금** (現金, hyeongeum) = cash — Sino-Korean: **현** = present/current + **금** = gold/money.\n**카드** (kadeu) = card — an English loanword (phonetic borrowing).\n**현금이에요, 카드예요?** = Cash or card? — notice **이에요** after **현금** (ends in consonant **ㅁ**) and **예요** after **카드** (ends in vowel).\nKorea is a highly digital society — most transactions are by card or phone payment.",
+      "englishPhrase": "Cash or card?",
+      "phrase": "현금이에요, 카드예요?",
+      "phraseRomanized": "Hyeongeumieyo, kadeuyeyo?",
+      "literal": [
+        [
+          "현금",
+          "cash"
+        ],
+        [
+          "이에요",
+          "is"
+        ],
+        [
+          "카드",
+          "card"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "help",
+      "english": "Help",
+      "word": "도움",
+      "romanized": "doum",
+      "grammarNote": "**도움** (doum) = help (noun).\n**돕다** (dopda) = to help (verb) — a **ㅂ** irregular: **도와요** (helps), **도와줘요** (please help).\n**도움이 필요해요** = I need help — literally 'help is needed'. The needed thing takes **이/가**, not the object particle.\nCommon phrase: **도와주세요** (dowajuseyo) = please help me.",
+      "englishPhrase": "I need help.",
+      "phrase": "도움이 필요해요.",
+      "phraseRomanized": "Doumi piryohaeyo.",
+      "literal": [
+        [
+          "도움",
+          "help"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ]
+    },
+    {
+      "id": "bathroom",
+      "english": "Bathroom",
+      "word": "화장실",
+      "romanized": "hwajangsil",
+      "grammarNote": "**화장실** (化粧室, hwajangsil) = bathroom/restroom — Sino-Korean: **화장** = makeup/adornment + **실** = room.\nIn Korea, **화장실** refers to the toilet room (not a room with a bath); asking for it is perfectly natural.\n**공중화장실** (gongjung hwajangsil) = public restroom.\n**화장실이** — subject particle **이** after consonant **ㄹ**.",
+      "englishPhrase": "Where is the bathroom?",
+      "phrase": "화장실이 어디예요?",
+      "phraseRomanized": "Hwajangshiri eodiyeyo?",
+      "literal": [
+        [
+          "화장실",
+          "bathroom"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "always",
+      "english": "Always",
+      "word": "항상",
+      "romanized": "hangsang",
+      "grammarNote": "**항상** (hangsang) = always — a Sino-Korean adverb.\n**언제나** (eonjena) = always (native Korean equivalent, slightly softer).\n**아침에** = in the morning — the particle **에** marks a time point.\n**커피를** — object particle **를** after **커피** (ends in vowel).\n**마셔요** = polite present of **마시다** (to drink).",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "항상 아침에 커피를 마셔요.",
+      "phraseRomanized": "Hangsang achime keopireul masyeoyo.",
+      "literal": [
+        [
+          "항상",
+          "always"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "마셔요",
+          "drink"
+        ]
+      ]
+    },
+    {
+      "id": "never",
+      "english": "Never",
+      "word": "절대로 〜않다",
+      "romanized": "jeoldaero ~ anta",
+      "grammarNote": "**절대로** = absolutely/never — must be paired with a negative verb: **절대로 안 가요** (I never go).\n**한 번도 ~않다** = not even once.\nThe negative marker **안** or **~지 않다** is required.",
+      "englishPhrase": "I'm never late.",
+      "phrase": "절대로 늦지 않아요.",
+      "phraseRomanized": "Jeoldaero neutji anayo.",
+      "literal": [
+        [
+          "절대로",
+          "never"
+        ],
+        [
+          "늦지 않아요",
+          "late[not]"
+        ]
+      ]
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "가다",
+      "romanized": "gada",
+      "grammarNote": "**가다** (gada) = to go — one of the most fundamental Korean verbs.\n**가게에** = to the store — the particle **에** marks the destination.\n**가게에 가다** = go to the store (note: **에** is repeated because **가게** itself ends in **에** coincidentally — they are different **에**).\n**오다** (oda) = to come — the opposite of **가다**.",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "가게에 가요.",
+      "phraseRomanized": "Gagee gayo.",
+      "literal": [
+        [
+          "가게",
+          "store"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "오다",
+      "romanized": "oda",
+      "grammarNote": "**오다** (oda) = to come — the opposite of **가다** (to go).\n**왔어요** = came (past polite) — **오** + **았어요** contracts to **왔어요**.\n**어디서** = from where — **서** attached to a location marks origin or the place of action.\n**어디서 왔어요?** = Where are you from? (lit. 'from where did you come?') — a very common question when meeting someone.",
+      "englishPhrase": "Where did you come from?",
+      "phrase": "어디서 왔어요?",
+      "phraseRomanized": "Eodiseo wasseoyo?",
+      "literal": [
+        [
+          "어디서",
+          "where[at/from]"
+        ],
+        [
+          "왔어요",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "to_understand",
+      "english": "To understand",
+      "word": "이해하다",
+      "romanized": "ihaehada",
+      "grammarNote": "**이해하다** (理解, ihaehada) = to understand — Sino-Korean: **이** = reason + **해** = untangle/explain.\n**이해 못 해요** = I can't understand — **못** before **하다** expresses inability.\nAlternative: **이해가 안 돼요** (I don't understand — lit. 'understanding doesn't become').\nAlso common: **모르겠어요** (moreugesseoyo) = I don't know / I can't figure it out.",
+      "englishPhrase": "I don't understand.",
+      "phrase": "이해 못 해요.",
+      "phraseRomanized": "Ihae mot haeyo.",
+      "literal": [
+        [
+          "이해",
+          "understanding"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "to_speak_talk",
+      "english": "To speak",
+      "word": "말하다",
+      "romanized": "malhada",
+      "grammarNote": "**말하다** (malhada) = to speak/talk.\n**말** (mal) = word/speech — native Korean.\n**한국어** = Korean language — **한국** (Korea) + **어** (language); similarly **영어** (English), **일본어** (Japanese), **중국어** (Chinese).\n**한국어 말해요?** = Do you speak Korean? — no subject particle on **한국어** in casual speech; in formal speech: **한국어를 하세요?**",
+      "englishPhrase": "Do you speak Korean?",
+      "phrase": "한국어 말해요?",
+      "phraseRomanized": "Hangueo malhaeyo?",
+      "literal": [
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "말해요",
+          "speak"
+        ]
+      ]
+    },
+    {
+      "id": "to_give",
+      "english": "To give",
+      "word": "주다",
+      "romanized": "juda",
+      "grammarNote": "**주다** = to give.\n**~아/어 주세요** = please do [something] for me: **도와주세요** (please help me), **가르쳐 주세요** (please teach me).\n**~아/어 주다** frames actions as favors — very common in polite requests.",
+      "englishPhrase": "Please give me the menu.",
+      "phrase": "메뉴 주세요.",
+      "phraseRomanized": "Menyu juseyo.",
+      "literal": [
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "to_see",
+      "english": "To see",
+      "word": "보다",
+      "romanized": "boda",
+      "grammarNote": "**보다** (boda) = to see / to look at / to watch.\n**아무것도** = anything / nothing at all — **아무것** (anything) + **도** (also/even) in a negative sentence means 'nothing at all'.\n**못** before a verb = cannot (inability).\n**아무것도 못 봐요** = I can't see anything (lit. 'even anything cannot see').\n**봐요** = polite present of **보다**; the **오** vowel contracts with **아**: **보 + 아요 → 봐요**.",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "아무것도 못 봐요.",
+      "phraseRomanized": "Amugeotdo mot bwayo.",
+      "literal": [
+        [
+          "아무것",
+          "anything"
+        ],
+        [
+          "도",
+          "[also]"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "봐요",
+          "see"
+        ]
+      ]
+    },
+    {
+      "id": "with",
+      "english": "With",
+      "word": "〜와 함께",
+      "romanized": "~ wa",
+      "grammarNote": "**와/과** (wa/gwa) = and/with — **와** after a vowel, **과** after a consonant.\n**함께** (hamkke) = together — slightly formal; **같이** (gachi) is the casual equivalent.\n**친구와 함께 왔어요** = came with a friend.\n**왔어요** = came (past polite) — **오다** + **았어요** → **왔어요** (irregular contraction).",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "친구와 함께 왔어요.",
+      "phraseRomanized": "Chinguwa hamkke wasseoyo.",
+      "literal": [
+        [
+          "친구",
+          "friend"
+        ],
+        [
+          "와",
+          "[and/with]"
+        ],
+        [
+          "함께",
+          "together"
+        ],
+        [
+          "왔어요",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "without",
+      "english": "Without",
+      "word": "없이",
+      "romanized": "eopsi",
+      "grammarNote": "**없이** (eopsi) = without — derived from **없다** (to not have/not exist) + the adverb-forming suffix **이**.\n**설탕 없이** = without sugar — the noun comes directly before **없이**.\nContrast: **설탕이 없어요** = there is no sugar (statement); **설탕 없이** = without sugar (adverbial modifier).\n**주세요** = please give me — the standard polite ordering phrase.",
+      "englishPhrase": "Coffee without sugar, please.",
+      "phrase": "설탕 없이 커피 주세요.",
+      "phraseRomanized": "Seoltang eopsi keopi juseyo.",
+      "literal": [
+        [
+          "설탕",
+          "sugar"
+        ],
+        [
+          "없이",
+          "without"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "for",
+      "english": "For",
+      "word": "〜을 위해",
+      "romanized": "~ eul",
+      "grammarNote": "**위해** (wihae) / **위한** (wihan) = for (the benefit/sake of).\n**당신을 위한 거예요** = 'it's a thing for you' — **위한** modifies a following noun (**거/것**).\n**이건** = **이것은** contracted — 'this thing [topic]'.\n**거예요** = **것이에요** contracted — 'is a thing'.\n**을 위해** takes the object particle **을/를** before it.",
+      "englishPhrase": "This is for you.",
+      "phrase": "이건 당신을 위한 거예요.",
+      "phraseRomanized": "Igeon dangsineul wihan geoyeyo.",
+      "literal": [
+        [
+          "이건",
+          "this[topic]"
+        ],
+        [
+          "당신",
+          "you"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "위한",
+          "for"
+        ],
+        [
+          "거예요",
+          "thing is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "in_on_at",
+      "english": "In",
+      "word": "〜에서",
+      "romanized": "~ eseo",
+      "grammarNote": "**에** = direction or static location: **학교에 가요** (go to school), **집에 있어요** (at home).\n**에서** = where an action takes place: **카페에서 먹어요** (eat at the café).\nRule: use **에** for 'where something is', **에서** for 'where you do something'.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "책이 테이블 위에 있어요.",
+      "phraseRomanized": "Chaegi teibeul wie isseoyo.",
+      "literal": [
+        [
+          "책",
+          "book"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "위에",
+          "on-top[at/to]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "from",
+      "english": "From",
+      "word": "〜에서",
+      "romanized": "~ eseo",
+      "grammarNote": "**에서** (eseo) serves double duty: it marks the place of an action AND origin/source.\n**어디서 왔어요?** = Where are you from? (**에서** = from).\n**카페에서 먹어요** = eating at the café (**에서** = location of action).\nContext makes the meaning clear — both uses share the same particle.",
+      "englishPhrase": "Where are you from?",
+      "phrase": "어디서 왔어요?",
+      "phraseRomanized": "Eodiseo wasseoyo?",
+      "literal": [
+        [
+          "어디서",
+          "where[at/from]"
+        ],
+        [
+          "왔어요",
+          "came"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "good",
+      "english": "Good",
+      "word": "좋다",
+      "romanized": "jota",
+      "grammarNote": "**좋다** (jota) = to be good — a Korean adjective verb (acts as both adjective and predicate).\n**좋은** (joeun) = good (modifier form before a noun): **좋은 생각** (good idea).\n**좋아요** = it's good (predicate form).\n**생각** (saenggak) = thought/idea — native Korean.\n**이에요** after **생각** (ends in consonant **ㄱ**) — not **예요**.",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "좋은 생각이에요.",
+      "phraseRomanized": "Joeun saenggagieyo.",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "생각",
+          "idea"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bad",
+      "english": "Bad",
+      "word": "나쁘다",
+      "romanized": "nappeuda",
+      "grammarNote": "**나쁘다** (nappeuda) = to be bad — an adjective verb.\n**나빠요** = polite present — **나쁘** + **아요**: the **으** drops before a vowel ending.\n**그건** = **그것은** contracted — 'that thing [topic]'.\n**나쁜** = bad (modifier before a noun): **나쁜 습관** (bad habit).\nOpposite: **좋다** (good) → **좋아요**.",
+      "englishPhrase": "That's bad.",
+      "phrase": "그건 나빠요.",
+      "phraseRomanized": "Geugeon nappayo.",
+      "literal": [
+        [
+          "그건",
+          "that[topic]"
+        ],
+        [
+          "나빠요",
+          "bad"
+        ]
+      ]
+    },
+    {
+      "id": "big",
+      "english": "Big",
+      "word": "크다",
+      "romanized": "keuda",
+      "grammarNote": "**크다** (keuda) = to be big/large — an adjective verb.\n**큰** (keun) = big (modifier form): **큰 커피** (a large coffee).\n**커요** = it's big (predicate, present polite) — **크** + **어요**: the **으** drops.\n**커피** (keopi) = coffee — an English loanword. Many food and drink words in Korean come from English or other Western languages.",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "큰 커피 주세요.",
+      "phraseRomanized": "Keun keopi juseyo.",
+      "literal": [
+        [
+          "큰",
+          "large"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "small",
+      "english": "Small",
+      "word": "작다",
+      "romanized": "jakda",
+      "grammarNote": "**작다** (jakda) = to be small — an adjective verb.\n**작은** (jageun) = small (modifier before a noun): **작은 테이블** (a small table).\n**작아요** = it's small (predicate, present polite).\n**테이블** (teibeul) = table — an English loanword. Korean uses the honorific form with customers: **주세요** (please give/provide).",
+      "englishPhrase": "A small table, please.",
+      "phrase": "작은 테이블 주세요.",
+      "phraseRomanized": "Jageun teibeul juseyo.",
+      "literal": [
+        [
+          "작은",
+          "small"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "a_lot_much",
+      "english": "A lot",
+      "word": "많이",
+      "romanized": "mani",
+      "grammarNote": "**많이** (mani) = a lot, much — the adverb form of the adjective **많다** (manta, to be many/much).\n**많아요** = there is a lot (predicate form).\n**할 일이 많아요** = I have a lot of work to do — literally 'work-to-do is many'.\n**할 일** = work to do — **할** is the modifier form of **하다** (to do) on the noun **일** (work): 'work [that one] will do'.",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "할 일이 많아요.",
+      "phraseRomanized": "Hal iri manayo.",
+      "literal": [
+        [
+          "할",
+          "do-to-do"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "many"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "a_little",
+      "english": "A little",
+      "word": "조금",
+      "romanized": "jogeum",
+      "grammarNote": "**조금** (jogeum) = a little / a small amount — used both as an adverb and before nouns.\n**좀** (jom) = a slightly more casual, shorter form of **조금** — also common as a softener in requests: **좀 도와주세요** (could you help me a little?).\n**물 조금 주세요** = please give me a little water — **주세요** without an object particle is natural in informal ordering.",
+      "englishPhrase": "A little water, please.",
+      "phrase": "물 조금 주세요.",
+      "phraseRomanized": "Mul jogeum juseyo.",
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "조금",
+          "a-little"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "how_do_you_say",
+      "english": "How do you say ___?",
+      "word": "___는 어떻게 말해요?",
+      "romanized": "~ neun eotteoke malhaeyo?",
+      "grammarNote": "**어떻게** = how (adverb of manner).\n**한국어로** = in Korean — **로** after **어** (vowel) marks the language or means: **영어로** (in English), **한국어로** (in Korean).\n**말해요** = present polite of **말하다** (to say/speak).\nThe topic particle **는** is used on the foreign phrase being asked about — it sets it up as the subject of inquiry.",
+      "englishPhrase": "How do you say 'thank you' in Korean?",
+      "phrase": "'thank you'는 한국어로 어떻게 말해요?",
+      "phraseRomanized": "'thank you' neun hangugeoro eotteoke malhaeyo?",
+      "literal": [
+        [
+          "'thank you'",
+          "thank you"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "어떻게",
+          "how"
+        ],
+        [
+          "말해요",
+          "say"
+        ]
+      ]
+    },
+    {
+      "id": "can_you_help_me",
+      "english": "Can you help me?",
+      "word": "도와줄 수 있어요?",
+      "romanized": "Dowajul su isseoyo?",
+      "grammarNote": "**도와줄 수 있어요?** = Can you help me? — literally 'do you have the ability to help-give?'\n**도와** = stem of **돕다** (to help) after the **ㅂ** → **우** irregular change.\n**줄** = modifier form of **주다** (to give/do for).\n**수 있다** = can/be able to — the key ability pattern: verb stem + **(으)ㄹ 수 있어요**.\nThe **주다** adds the nuance of 'doing something as a favor for me'."
+    },
+    {
+      "id": "how_much_does_it_cost",
+      "english": "How much does it cost?",
+      "word": "얼마예요?",
+      "romanized": "Eolmayeyo?",
+      "grammarNote": "**얼마예요?** (eolmayeyo) = How much is it? — the essential shopping phrase.\n**얼마** = how much — a question word for price or quantity.\n**예요** after **얼마** (ends in vowel): **이에요** after a consonant, **예요** after a vowel.\nAlternative: **얼마입니까?** (formal); **얼마야?** (very casual).\nKorean prices use Sino-Korean numbers: **천 원** (1,000 won), **만 원** (10,000 won)."
+    },
+    {
+      "id": "im_sorry",
+      "english": "I'm sorry",
+      "word": "죄송해요",
+      "romanized": "joesonghaeyo",
+      "grammarNote": "**죄송해요** = formal apology (with strangers or elders).\n**미안해요** = casual sorry (with friends).\n**미안해** = very casual.\nKoreans apologize frequently as a sign of social consideration.",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "정말 죄송해요.",
+      "phraseRomanized": "Jeongmal joesonghaeyo.",
+      "literal": [
+        [
+          "정말",
+          "truly"
+        ],
+        [
+          "죄송해요",
+          "sorry"
+        ]
+      ]
+    },
+    {
+      "id": "no_problem",
+      "english": "No problem",
+      "word": "괜찮아요",
+      "romanized": "gwaenchanayo",
+      "grammarNote": "**괜찮아요** (gwaenchanayo) = it's okay / no problem / are you alright?\n**괜찮다** functions as both 'it's fine' (reassurance) and 'are you okay?' (concern) — context determines the meaning.\n**걱정 마세요** = don't worry — **걱정** (worry, noun) + **마세요** (please don't, negative polite imperative from **말다**).\n**마세요** = please don't [do something] — a very useful polite negative command.",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "괜찮아요, 걱정 마세요.",
+      "phraseRomanized": "Gwaenchanayo, geokjeong maseyo.",
+      "literal": [
+        [
+          "괜찮아요",
+          "OK"
+        ],
+        [
+          "걱정",
+          "worry"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
+    }
+  ]
+}

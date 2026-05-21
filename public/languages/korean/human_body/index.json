@@ -1,0 +1,1604 @@
+{
+  "id": "human_body",
+  "name": "Human Body",
+  "language": "korean",
+  "stories": [
+    "at_the_doctor",
+    "getting_ready",
+    "after_exercise",
+    "catching_a_cold"
+  ],
+  "grammarLessons": [
+    {
+      "id": "ga_apayo",
+      "name": "이/가 아파요 — Expressing Pain"
+    },
+    {
+      "id": "nae_je",
+      "name": "내 vs 제 — My (Informal vs Formal)"
+    },
+    {
+      "id": "an_mot",
+      "name": "안 & 못 — Negation & Inability"
+    },
+    {
+      "id": "adjective_verbs",
+      "name": "형용사 — Adjective Verbs"
+    },
+    {
+      "id": "pyeoni_haeyo",
+      "name": "-(으)면 좋겠어요 — I'd Better"
+    },
+    {
+      "id": "aseo_cause",
+      "name": "-아서/어서 — Because / So"
+    }
+  ],
+  "cards": [
+    {
+      "id": "head",
+      "english": "head",
+      "word": "머리",
+      "romanized": "meori",
+      "grammarNote": "Pain is expressed with **아프다** (to hurt/be sick).\nThe body part takes the subject particle **이/가**: **머리가 아파요** = my head hurts.\nThis construction is used for all body pain.",
+      "englishPhrase": "My head hurts.",
+      "phrase": "머리가 아파요.",
+      "phraseRomanized": "meoriga apayo",
+      "literal": [
+        [
+          "머리",
+          "head"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "word": "머리카락",
+      "romanized": "meorikaraк",
+      "grammarNote": "**머리카락** (meorikaraк) = hair strand — compound: **머리** (head) + **카락** (strand/piece).\n**머리** alone can mean both 'head' and 'hair' in casual speech; **머리카락** is specifically a hair strand.\n**머리카락이 길어요** = her hair is long — **이** is the subject particle after consonant-final **락**.\n**길다** (gilda) = to be long → **길어요** (gireoyo) in polite speech (ㄹ stem + 어요).",
+      "englishPhrase": "She has long hair.",
+      "phrase": "그녀는 머리카락이 길어요.",
+      "phraseRomanized": "geunyeoneun meorikaragi gireoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "머리카락",
+          "hair"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "길어요",
+          "long"
+        ]
+      ]
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "word": "얼굴",
+      "romanized": "eolgul",
+      "grammarNote": "**얼굴** (eolgul) = face — pure Korean noun.\n**얼굴을 씻다** = to wash one's face — **씻다** (ssitda) = to wash; **을** is the object particle.\n**씻으세요** = please wash — **씻다** + **으세요** (polite imperative after consonant-final stem).\nRelated: **얼굴색** (eolgulsaek) = facial complexion; **인상** (insang) = facial impression.",
+      "englishPhrase": "Wash your face.",
+      "phrase": "얼굴을 씻으세요.",
+      "phraseRomanized": "eolgureul ssiseuseyo",
+      "literal": [
+        [
+          "얼굴",
+          "face"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "씻으세요",
+          "please wash"
+        ]
+      ]
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "word": "눈",
+      "romanized": "nun",
+      "grammarNote": "**눈** (nun) = eye — pure Korean; also means 'snow' (same spelling, different context).\nKorean does not mark grammatical plurality: **눈** = eye or eyes depending on context.\n**눈을 감다** = to close one's eyes; **눈을 뜨다** = to open one's eyes.\nRelated compound: **눈물** (nunmul) = tears (lit. eye-water); **눈썹** (nunsseop) = eyebrow.",
+      "englishPhrase": "He has blue eyes.",
+      "phrase": "그는 파란 눈을 가졌어요.",
+      "phraseRomanized": "geuneun paran nuneul gajyeosseoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "파란",
+          "blue"
+        ],
+        [
+          "눈",
+          "eyes"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "가졌어요",
+          "had"
+        ]
+      ]
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "word": "귀",
+      "romanized": "gwi",
+      "grammarNote": "**귀** (gwi) = ear — pure Korean noun.\n**귀가 아파요** = my ear hurts — **가** is the subject particle after vowel-final **귀**.\nPain expression pattern: body part + **이/가** + **아파요** (from **아프다**, to hurt/be sick).\nRelated: **귀걸이** (gwigeolli) = earring (lit. ear-hanger); **귀머거리** = deaf person (informal/old).",
+      "englishPhrase": "My ear hurts.",
+      "phrase": "귀가 아파요.",
+      "phraseRomanized": "gwiga apayo",
+      "literal": [
+        [
+          "귀",
+          "ear"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "word": "코",
+      "romanized": "ko",
+      "grammarNote": "**코** (ko) = nose — pure Korean noun.\n**코가 차가워요** = my nose is cold — **가** is the subject particle; **차갑다** (chagapda) = to be cold (to the touch).\n**차갑다** → **차가워요** (chagawoyo) in polite speech — ㅂ irregular.\nRelated: **코막힘** (komakiм) = nasal congestion (lit. nose-blockage); **콧물** (konmul) = runny nose/mucus.",
+      "englishPhrase": "My nose is cold.",
+      "phrase": "코가 차가워요.",
+      "phraseRomanized": "koga chagawoyo",
+      "literal": [
+        [
+          "코",
+          "nose"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "차가워요",
+          "cold"
+        ]
+      ]
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "word": "입",
+      "romanized": "ip",
+      "grammarNote": "**입** (ip) = mouth — pure Korean noun.\n**입을 벌리다** = to open one's mouth — **벌리다** (beollida) = to spread apart/open wide.\n**벌리세요** = please open — **벌리다** + **세요** (polite imperative after vowel-final stem).\nRelated: **입술** (ipsul) = lips; **입맛** (immат) = taste/appetite (lit. mouth-taste).",
+      "englishPhrase": "Open your mouth.",
+      "phrase": "입을 벌리세요.",
+      "phraseRomanized": "ibeul beolliseyo",
+      "literal": [
+        [
+          "입",
+          "mouth"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "벌리세요",
+          "please open"
+        ]
+      ]
+    },
+    {
+      "id": "lip",
+      "english": "lip",
+      "word": "입술",
+      "romanized": "ipsul",
+      "grammarNote": "**입술** (ipsul) = lip/lips — compound: **입** (ip, mouth) + **술** (old word for edge/border).\nKorean uses the same word **입술** for one lip or both lips — number is inferred from context.\n**빨갛다** (ppalgatda) = to be red → **빨개요** (ppalg aeyo) in polite speech — ㅎ irregular.\n**이** after **입술** is the subject particle (consonant-final **술**).",
+      "englishPhrase": "She has red lips.",
+      "phrase": "그녀는 입술이 빨개요.",
+      "phraseRomanized": "geunyeoneun ipsuri ppalg aeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "입술",
+          "lips"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "빨개요",
+          "red"
+        ]
+      ]
+    },
+    {
+      "id": "tooth_teeth",
+      "english": "tooth (teeth)",
+      "word": "이",
+      "romanized": "i",
+      "grammarNote": "**이** (i) = tooth/teeth — pure Korean; same as the subject particle **이**, so context is key.\n**이가 아파요** = I have a toothache (lit. 'tooth hurts') — the subject particle **가** follows vowel-final **이**.\nAlternative word: **치아** (chia, 齒牙) — Sino-Korean, used in formal/medical contexts (e.g. at the dentist).\nRelated: **이를 닦다** (ireul dakda) = to brush one's teeth; **충치** (chungchi) = cavity (Sino-Korean).",
+      "englishPhrase": "I have a toothache.",
+      "phrase": "이가 아파요.",
+      "phraseRomanized": "iga apayo",
+      "literal": [
+        [
+          "이",
+          "tooth"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "tongue",
+      "english": "tongue",
+      "word": "혀",
+      "romanized": "hyeo",
+      "grammarNote": "**혀** (hyeo) = tongue — pure Korean noun.\n**혀를 내밀다** = to stick out one's tongue — **내밀다** (naemilda) = to extend/stick out.\n**내미세요** = please stick out — polite imperative; **를** is the object particle after vowel-final **혀**.\nRelated: **혓바늘** (hyeotbaneul) = tongue sore/ulcer; **혀가 꼬이다** = to get tongue-tied.",
+      "englishPhrase": "Stick out your tongue.",
+      "phrase": "혀를 내미세요.",
+      "phraseRomanized": "hyeoreul naemiseyo",
+      "literal": [
+        [
+          "혀",
+          "tongue"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "내미세요",
+          "please stick out"
+        ]
+      ]
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "word": "목",
+      "romanized": "mok",
+      "grammarNote": "**목** (mok) = neck — pure Korean; also means 'throat' in some contexts.\n**목이 뻣뻣해요** = my neck is stiff — **이** is the subject particle; **뻣뻣하다** = to be stiff/rigid.\n**목소리** (moksori) = voice — compound: **목** (throat) + **소리** (sound).\nFor throat pain: **목이 아파요** = my throat hurts; **목감기** (mokkamgi) = throat cold.",
+      "englishPhrase": "My neck is stiff.",
+      "phrase": "목이 뻣뻣해요.",
+      "phraseRomanized": "mogi ppyeotppyeothaeyo",
+      "literal": [
+        [
+          "목",
+          "neck"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뻣뻣해요",
+          "stiff"
+        ]
+      ]
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "word": "팔",
+      "romanized": "pal",
+      "grammarNote": "**팔** (pal) = arm — pure Korean noun (also means 'eight' — a homonym).\n**팔이 골절됐어요** = I broke my arm — **골절** (goljeol, 骨折) = fracture; Sino-Korean.\n**골절되다** (goljeol-doeda) = to be fractured — **되다** makes it passive; past: **됐어요**.\nRelated: **팔꿈치** (palkkumchi) = elbow; **오른팔** (oreunpal) = right arm (compound).",
+      "englishPhrase": "I broke my arm.",
+      "phrase": "팔이 골절됐어요.",
+      "phraseRomanized": "pari goljeoldwaesseoyo",
+      "literal": [
+        [
+          "팔",
+          "arm"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "골절됐어요",
+          "fractured"
+        ]
+      ]
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "word": "손",
+      "romanized": "son",
+      "grammarNote": "**손** (son) = hand/hands — pure Korean; no plural marking needed in Korean.\n**손을 씻다** = to wash one's hands — **씻다** (ssitda) = to wash; **을** is the object particle.\nCompounds: **손가락** (songarak) = finger (hand-branch); **손목** (sonmok) = wrist (hand-neck).\nRelated: **악수하다** (aksuhada) = to shake hands — Sino-Korean 握手.",
+      "englishPhrase": "Wash your hands.",
+      "phrase": "손을 씻으세요.",
+      "phraseRomanized": "soneul ssiseuseyo",
+      "literal": [
+        [
+          "손",
+          "hands"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "씻으세요",
+          "please wash"
+        ]
+      ]
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "word": "손가락",
+      "romanized": "songarak",
+      "grammarNote": "**손가락** (songarak) = finger — compound: **손** (son, hand) + **가락** (garak, long slender object).\nToe is **발가락** (balgarak): **발** (bal, foot) + **가락** — parallel compound structure.\n**베다** (beda) = to cut/slice; **베었어요** = cut (past tense) — **베다** + **었어요**.\nFinger joints: **손가락 마디** (songarak madi); fingernail: **손톱** (sontop, hand-shell).",
+      "englishPhrase": "He cut his finger.",
+      "phrase": "그는 손가락을 베었어요.",
+      "phraseRomanized": "geuneun songarageul beeoisseoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "손가락",
+          "finger"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "베었어요",
+          "cut"
+        ]
+      ]
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "word": "가슴",
+      "romanized": "gaseum",
+      "grammarNote": "**가슴** (gaseum) = chest — pure Korean; covers both chest and breast/heart area emotionally.\n**가슴이 아파요** = chest hurts — **이** is the subject particle after consonant-final **슴**.\n**가슴이 뛰다** = heart is beating/chest is pounding — idiomatic for excitement or fear.\nMedical term for chest: **흉부** (hyungbu, 胸部) — Sino-Korean used in clinical settings.",
+      "englishPhrase": "He has chest pain.",
+      "phrase": "그는 가슴이 아파요.",
+      "phraseRomanized": "geuneun gaseumi apayo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "가슴",
+          "chest"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "word": "등",
+      "romanized": "deung",
+      "grammarNote": "**등** (deung) = back (of the body) — pure Korean noun.\n**등이 아파요** = my back hurts — **이** is the subject particle after consonant-final **등**.\nLower back is **허리** (heori); **등** refers specifically to the upper/mid back.\nRelated: **등뼈** (deungppyeo) = spine (lit. back-bone); **척추** (cheokchu) = spine (Sino-Korean medical term).",
+      "englishPhrase": "My back hurts.",
+      "phrase": "등이 아파요.",
+      "phraseRomanized": "deungi apayo",
+      "literal": [
+        [
+          "등",
+          "back"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "heart",
+      "english": "heart",
+      "word": "심장",
+      "romanized": "simjang",
+      "grammarNote": "**심장** (simjang) is Sino-Korean: 心臟 — the physical heart organ.\nFor emotional 'heart', use **마음** (maeum) = heart/mind (pure Korean).\n**심장이 뛰다** = heart is beating — **뛰다** (ttwida) = to beat/jump/run.\n**빨리** (ppalli) = quickly/fast — common adverb; **심장이 빨리 뛰어요** = heart is beating fast.",
+      "englishPhrase": "My heart is beating fast.",
+      "phrase": "심장이 빨리 뛰어요.",
+      "phraseRomanized": "simjangi ppalli ttwieoyo",
+      "literal": [
+        [
+          "심장",
+          "heart"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "빨리",
+          "fast"
+        ],
+        [
+          "뛰어요",
+          "beating"
+        ]
+      ]
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "word": "배",
+      "romanized": "bae",
+      "grammarNote": "**배** (bae) = stomach/belly/abdomen — pure Korean; also means 'ship/boat' and 'pear' (homonyms).\n**배가 아파요** = my stomach hurts — **가** is the subject particle after vowel-final **배**.\nThe internal organ (stomach) is **위** (wi, 胃) in medical/Sino-Korean; **배** is the colloquial term.\nRelated: **배가 고프다** (bae-ga gopda) = to be hungry (lit. stomach is empty).",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "배가 아파요.",
+      "phraseRomanized": "baega apayo",
+      "literal": [
+        [
+          "배",
+          "stomach"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "muscle",
+      "english": "muscle",
+      "word": "근육",
+      "romanized": "geunyuk",
+      "grammarNote": "**근육** (geunyuk) is Sino-Korean: 筋肉 — muscle/musculature.\n**근육을 다치다** = to injure a muscle — **다치다** (dachida) = to get hurt/injured.\n**다쳤어요** = was injured (past tense): **다치다** + **었어요** → **다쳤어요**.\nRelated: **근육통** (geunyuktong) = muscle pain/soreness; **통** (通/痛) = pain/ache (Sino-Korean suffix).",
+      "englishPhrase": "I pulled a muscle.",
+      "phrase": "근육을 다쳤어요.",
+      "phraseRomanized": "geunyugeul dachyeosseoyo",
+      "literal": [
+        [
+          "근육",
+          "muscle"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "다쳤어요",
+          "injured"
+        ]
+      ]
+    },
+    {
+      "id": "waist",
+      "english": "waist",
+      "word": "허리",
+      "romanized": "heori",
+      "grammarNote": "**허리** (heori) = waist/lower back — pure Korean noun.\n**허리가 가늘다** = waist is slim — **가늘다** (ganeulda) = to be thin/slender → **가늘어요**.\n**허리가 아파요** = my lower back hurts — **허리** also refers to the lower back area.\nRelated: **허리띠** (heoriddi) = belt (lit. waist-band); **요통** (yotong) = lower back pain (Sino-Korean medical term).",
+      "englishPhrase": "She has a slim waist.",
+      "phrase": "그녀는 허리가 가늘어요.",
+      "phraseRomanized": "geunyeoneun heoriga ganeureoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "허리",
+          "waist"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "가늘어요",
+          "slim"
+        ]
+      ]
+    },
+    {
+      "id": "skin",
+      "english": "skin",
+      "word": "피부",
+      "romanized": "pibu",
+      "grammarNote": "**피부** (pibu) is Sino-Korean: 皮膚 — skin (the standard word in both everyday and medical use).\n**피부가 부드럽다** = skin is soft — **부드럽다** (budeureopda) = to be soft → **부드러워요** (ㅂ irregular).\n**피부과** (pibugwa) = dermatology clinic — **과** (科) = department/specialty (Sino-Korean).\nRelated: **피부색** (pibusaek) = skin color/complexion; **살** (sal) = flesh/skin (pure Korean, informal).",
+      "englishPhrase": "Her skin is soft.",
+      "phrase": "그녀의 피부가 부드러워요.",
+      "phraseRomanized": "geunyeoui pibuga budeureowoyo",
+      "literal": [
+        [
+          "그녀",
+          "her"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "피부",
+          "skin"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "부드러워요",
+          "soft"
+        ]
+      ]
+    },
+    {
+      "id": "blood",
+      "english": "blood",
+      "word": "피",
+      "romanized": "pi",
+      "grammarNote": "**피** (pi) = blood — pure Korean noun.\nThe medical/formal term is **혈액** (hyeolaek, 血液) — Sino-Korean, used in clinical contexts.\n**헌혈하다** (heonhyeolhada) = to donate blood — **헌** (heon, 獻) = to donate; **혈** (hyeol, 血) = blood.\n**피가 나다** = blood comes out (to bleed); **피를 흘리다** = to shed blood.",
+      "englishPhrase": "He donated blood.",
+      "phrase": "그는 헌혈했어요.",
+      "phraseRomanized": "geuneun heonhyeolhaesseoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "헌혈했어요",
+          "blood-donated"
+        ]
+      ]
+    },
+    {
+      "id": "brain",
+      "english": "brain",
+      "word": "뇌",
+      "romanized": "noe",
+      "grammarNote": "**뇌** (noe) is Sino-Korean: 腦 — brain (both everyday and medical usage).\n**뇌는 복잡해요** = the brain is complex — **는** is the topic particle after vowel-final **뇌**.\n**복잡하다** (bokjapada) = to be complex/complicated → **복잡해요**.\nRelated: **뇌졸중** (noejoljung) = stroke; **뇌파** (noepa) = brain waves — common compound words.",
+      "englishPhrase": "The brain is complex.",
+      "phrase": "뇌는 복잡해요.",
+      "phraseRomanized": "noeneun bokjaphaeyo",
+      "literal": [
+        [
+          "뇌",
+          "brain"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "복잡해요",
+          "complex"
+        ]
+      ]
+    },
+    {
+      "id": "skull",
+      "english": "skull",
+      "word": "두개골",
+      "romanized": "dugaegol",
+      "grammarNote": "**두개골** (dugaegol) is Sino-Korean: 頭蓋骨 — skull; lit. 'head-cover-bone'.\nBreakdown: **두** (頭, head) + **개** (蓋, cover/lid) + **골** (骨, bone).\n**보호하다** (bohohada) = to protect — **보호** (保護) is Sino-Korean; **해요** form in polite speech.\n**뼈** (ppyeo) = bone (pure Korean); **골** (骨) = bone only in Sino-Korean compound words.",
+      "englishPhrase": "The skull protects the brain.",
+      "phrase": "두개골은 뇌를 보호해요.",
+      "phraseRomanized": "dugaegoreun noereul bohohaeyo",
+      "literal": [
+        [
+          "두개골",
+          "skull"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "뇌",
+          "brain"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "보호해요",
+          "protects"
+        ]
+      ]
+    },
+    {
+      "id": "breast",
+      "english": "breast",
+      "word": "가슴",
+      "romanized": "gaseum",
+      "grammarNote": "**가슴** (gaseum) covers both chest and breast — context determines the specific meaning.\n**통증** (tongjeung, 痛症) = pain/ache — Sino-Korean medical term; more clinical than **아픔**.\n**통증을 느끼다** = to feel pain — **느끼다** (neukkida) = to feel/sense; **을** is the object particle.\n**느꼈어요** = felt (past tense): **느끼다** + **었어요** → **느꼈어요** (ㅣ + 어 contracts).",
+      "englishPhrase": "She felt pain in her chest.",
+      "phrase": "그녀는 가슴에 통증을 느꼈어요.",
+      "phraseRomanized": "geunyeoneun gaseume tongjeungeul neukkkyeosseoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "가슴",
+          "chest"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "통증",
+          "pain"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "느꼈어요",
+          "felt"
+        ]
+      ]
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "word": "다리",
+      "romanized": "dari",
+      "grammarNote": "**다리** (dari) = leg — pure Korean noun; also means 'bridge' (same spelling, different context).\n**다리가 피곤해요** = my legs are tired — **가** is the subject particle after vowel-final **다리**.\n**피곤하다** (pigonhada) = to be tired/fatigued — Sino-Korean 疲困 → **피곤해요**.\nRelated: **다리뼈** (darippyeo) = leg bone; **무릎** (mureup) = knee; **발** (bal) = foot.",
+      "englishPhrase": "My leg is tired.",
+      "phrase": "다리가 피곤해요.",
+      "phraseRomanized": "dariga pigonhaeyo",
+      "literal": [
+        [
+          "다리",
+          "leg"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "피곤해요",
+          "tired"
+        ]
+      ]
+    },
+    {
+      "id": "foot_feet",
+      "english": "foot (feet)",
+      "word": "발",
+      "romanized": "bal",
+      "grammarNote": "**발** (bal) = foot/feet — pure Korean; no separate plural form in Korean.\n**발이 아파요** = my feet hurt — **이** is the subject particle after consonant-final **발**.\nCompounds: **발가락** (balgarak) = toe (foot-branch); **발목** (balmok) = ankle (foot-neck).\nRelated: **맨발** (maenbal) = bare feet (lit. plain-feet); **발바닥** (balbadak) = sole of the foot.",
+      "englishPhrase": "My feet hurt.",
+      "phrase": "발이 아파요.",
+      "phraseRomanized": "bari apayo",
+      "literal": [
+        [
+          "발",
+          "feet"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "toe",
+      "english": "toe",
+      "word": "발가락",
+      "romanized": "balgarak",
+      "grammarNote": "**발가락** (balgarak) = toe — compound: **발** (bal, foot) + **가락** (garak, slender appendage).\nParallel to **손가락** (songarak, finger): the **가락** root applies to both fingers and toes.\n**부딪히다** (budichiда) = to bump into/stub — passive form of **부딪다** (to bump).\n**발톱** (baltop) = toenail (lit. foot-claw); **손톱** (sontop) = fingernail (lit. hand-claw).",
+      "englishPhrase": "He stubbed his toe.",
+      "phrase": "그는 발가락을 부딪혔어요.",
+      "phraseRomanized": "geuneun balgarageul budichyeosseoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "발가락",
+          "toe"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "부딪혔어요",
+          "bumped"
+        ]
+      ]
+    },
+    {
+      "id": "joint",
+      "english": "joint",
+      "word": "관절",
+      "romanized": "gwanjeol",
+      "grammarNote": "**관절** (gwanjeol) is Sino-Korean: 關節 — joint (where bones connect).\n**관절이 뻣뻣해요** = my joints are stiff — **이** is the subject particle; **뻣뻣하다** = to be rigid/stiff.\nRelated: **관절염** (gwanjeoryeom) = arthritis — **염** (炎) = inflammation (common medical suffix).\n**연골** (yeongol) = cartilage (Sino-Korean: 軟骨 = soft-bone); **인대** (indae) = ligament.",
+      "englishPhrase": "My joints are stiff.",
+      "phrase": "관절이 뻣뻣해요.",
+      "phraseRomanized": "gwanjeori ppyeotppyeothaeyo",
+      "literal": [
+        [
+          "관절",
+          "joints"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뻣뻣해요",
+          "stiff"
+        ]
+      ]
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "word": "숨",
+      "romanized": "sum",
+      "grammarNote": "**숨** (sum) = breath — pure Korean noun.\n**숨을 참다** = to hold one's breath — **참다** (chamda) = to endure/hold back.\n**참으세요** = please hold — **참다** + **으세요** (polite imperative after consonant-final **참**).\nRelated: **숨을 쉬다** = to breathe; **호흡** (hohup, 呼吸) = breathing/respiration (Sino-Korean medical term).",
+      "englishPhrase": "Hold your breath.",
+      "phrase": "숨을 참으세요.",
+      "phraseRomanized": "sumeul chameuseyo",
+      "literal": [
+        [
+          "숨",
+          "breath"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "참으세요",
+          "please hold"
+        ]
+      ]
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "word": "보다",
+      "romanized": "boda",
+      "grammarNote": "**보다** (boda) = to see/look/watch — pure Korean verb.\n**보이다** (boida) = to be visible/to appear — passive/spontaneous form of **보다**.\nThe phrase **선명하게 보여요** = can be seen clearly — **보여요** is the polite form of **보이다**.\n**선명하게** (seonmyeonghage) = clearly — adverb from **선명하다** (to be clear/vivid).",
+      "englishPhrase": "I can see clearly.",
+      "phrase": "선명하게 보여요.",
+      "phraseRomanized": "seonmyeonghage boyeoyo",
+      "literal": [
+        [
+          "선명하게",
+          "clearly"
+        ],
+        [
+          "보여요",
+          "visible"
+        ]
+      ]
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "word": "듣다",
+      "romanized": "deutda",
+      "grammarNote": "**듣다** (deutda) = to hear/listen — pure Korean verb with ㄷ irregular.\n**듣다** → **들어요** (deureoyo) in polite speech — ㄷ changes to ㄹ before vowels.\nPassive/spontaneous: **들리다** (deullida) = to be heard/audible → **들려요** (deullyeoyo).\n**들리지 않아요** = cannot be heard — **-지 않다** is the standard negation pattern.",
+      "englishPhrase": "I can't hear you.",
+      "phrase": "들리지 않아요.",
+      "phraseRomanized": "deulliji anayo",
+      "literal": [
+        [
+          "들리지 않아요",
+          "heard-not"
+        ]
+      ]
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "word": "냄새 맡다",
+      "romanized": "naemse matda",
+      "grammarNote": "**냄새** (naemse) = smell/scent — pure Korean noun; **맡다** (matda) = to smell (actively sniff).\nThe phrase uses **냄새가 나다** = a smell comes out — spontaneous sense perception (passive).\n**꽃 냄새가 나요** = the flower smell comes/there is a flower scent.\nRelated: **향기** (hyanggi) = fragrance/aroma (pleasant smell); **악취** (akchwi) = bad smell/stench.",
+      "englishPhrase": "I can smell the flowers.",
+      "phrase": "꽃 냄새가 나요.",
+      "phraseRomanized": "kkot naemssaega nayo",
+      "literal": [
+        [
+          "꽃",
+          "flower"
+        ],
+        [
+          "냄새",
+          "smell"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "나요",
+          "comes-out"
+        ]
+      ]
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "word": "맛보다",
+      "romanized": "matboda",
+      "grammarNote": "**맛보다** (matboda) = to taste — compound: **맛** (mat, taste) + **보다** (to see/try).\n**맛보세요** = please taste — polite imperative: **맛보** + **세요**.\n**맛** alone = flavor/taste (noun); **맛있다** (masitda) = to be delicious; **맛없다** = to taste bad.\nRelated: **미각** (migak, 味覺) = the sense of taste — Sino-Korean medical/formal term.",
+      "englishPhrase": "Taste this soup.",
+      "phrase": "이 국을 맛보세요.",
+      "phraseRomanized": "i gugeul matboseyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "맛보세요",
+          "please taste"
+        ]
+      ]
+    },
+    {
+      "id": "touch",
+      "english": "touch",
+      "word": "만지다",
+      "romanized": "manjida",
+      "grammarNote": "**만지다** (manjida) = to touch/handle — pure Korean verb.\n**만지지 마세요** = please don't touch — **-지 마세요** is the polite negative imperative.\n**만지다** vs **닿다** (datda): **만지다** = to touch with intent; **닿다** = to come into contact with.\nRelated: **촉각** (chokgak, 觸覺) = the sense of touch — Sino-Korean; **감촉** (gamchok) = texture/feel.",
+      "englishPhrase": "Don't touch that!",
+      "phrase": "그것을 만지지 마세요!",
+      "phraseRomanized": "geugeoseul manjiji maseyo",
+      "literal": [
+        [
+          "그것",
+          "that"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "만지지",
+          "touch[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
+    },
+    {
+      "id": "breathe",
+      "english": "breathe",
+      "word": "숨을 쉬다",
+      "romanized": "sumeul swida",
+      "grammarNote": "**숨을 쉬다** (sumeul swida) = to breathe — lit. 'to breathe/rest one's breath'.\n**숨** (sum) = breath (noun); **쉬다** (swida) = to rest/breathe; **을** is the object particle.\n**쉬세요** = please breathe — **쉬다** + **세요** (polite imperative after vowel-final stem).\nAlternative: **호흡하다** (hohupada) = to breathe (Sino-Korean, more formal/medical).",
+      "englishPhrase": "Breathe slowly.",
+      "phrase": "천천히 숨을 쉬세요.",
+      "phraseRomanized": "cheoncheonhi sumeul swiseyo",
+      "literal": [
+        [
+          "천천히",
+          "slowly"
+        ],
+        [
+          "숨",
+          "breath"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "쉬세요",
+          "please breathe"
+        ]
+      ]
+    },
+    {
+      "id": "bend",
+      "english": "bend",
+      "word": "구부리다",
+      "romanized": "gubeurida",
+      "grammarNote": "**구부리다** (gubeurida) = to bend/curve — pure Korean verb.\n**구부리세요** = please bend — polite imperative: stem **구부리** + **세요**.\n**무릎을 구부리다** = to bend one's knees — **을** is the object particle after **무릎**.\nRelated: **구부러지다** (gubureojida) = to be bent/curved (intransitive/passive form).",
+      "englishPhrase": "Bend your knees.",
+      "phrase": "무릎을 구부리세요.",
+      "phraseRomanized": "mureuppeul gubeuriseyo",
+      "literal": [
+        [
+          "무릎",
+          "knees"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "구부리세요",
+          "please bend"
+        ]
+      ]
+    },
+    {
+      "id": "stretch",
+      "english": "stretch",
+      "word": "늘이다",
+      "romanized": "neurida",
+      "grammarNote": "**늘이다** (neurida) = to stretch/lengthen — pure Korean verb (transitive).\nThe phrase uses **뻗다** (ppeotda) = to extend/stretch out — more natural for extending limbs.\n**팔을 쭉 뻗으세요** = please stretch your arms straight — **쭉** = fully/straight (adverb).\n**뻗으세요** = please stretch — **뻗다** + **으세요** (polite imperative after consonant-final stem).",
+      "englishPhrase": "Stretch your arms.",
+      "phrase": "팔을 쭉 뻗으세요.",
+      "phraseRomanized": "pareul jjuk ppeodseuseyo",
+      "literal": [
+        [
+          "팔",
+          "arms"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "쭉",
+          "straight"
+        ],
+        [
+          "뻗으세요",
+          "please stretch"
+        ]
+      ]
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "word": "어깨",
+      "romanized": "eokkae",
+      "grammarNote": "**어깨** (eokkae) = shoulder — pure Korean noun.\n**어깨가 아파요** = my shoulder hurts — **가** is the subject particle after vowel-final **어깨**.\nIdiom: **어깨가 무겁다** = to feel a heavy burden (lit. shoulders are heavy) — figurative use.\nRelated: **어깨동무** (eokkaedongmu) = putting arms around each other's shoulders (friendship gesture).",
+      "englishPhrase": "My shoulder hurts.",
+      "phrase": "어깨가 아파요.",
+      "phraseRomanized": "eokkae ga apayo",
+      "literal": [
+        [
+          "어깨",
+          "shoulder"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "word": "무릎",
+      "romanized": "mureup",
+      "grammarNote": "**무릎** (mureup) = knee — pure Korean noun.\n**무릎을 다치다** = to hurt one's knee — **다치다** (dachida) = to get hurt; **을** is the object particle.\n**무릎을 꿇다** (mureupеul kkultda) = to kneel (lit. to bend the knee) — a common idiom.\nRelated: **무릎뼈** (mureupppyeo) = kneecap; **슬개골** (seulgaegol) = patella (Sino-Korean medical term).",
+      "englishPhrase": "I hurt my knee.",
+      "phrase": "무릎을 다쳤어요.",
+      "phraseRomanized": "mureupeul dachyeosseoyo",
+      "literal": [
+        [
+          "무릎을",
+          "knee-[obj]"
+        ],
+        [
+          "다쳤어요",
+          "hurt/injured"
+        ]
+      ]
+    },
+    {
+      "id": "elbow",
+      "english": "elbow",
+      "word": "팔꿈치",
+      "romanized": "palkkumchi",
+      "grammarNote": "**팔꿈치** (palkkumchi) = elbow — compound: **팔** (pal, arm) + **꿈치** (kkumchi, bent tip/end).\nParallel to **발꿈치** (balkkumchi) = heel — **꿈치** is the pure Korean word for a protrusion/tip.\n**팔꿈치가 아파요** = my elbow hurts — **가** is the subject particle after vowel-final **치**.\nRelated: **팔씨름** (palssireum) = arm wrestling; **팔꿈치를 짚다** = to prop oneself on one's elbow.",
+      "englishPhrase": "My elbow is sore.",
+      "phrase": "팔꿈치가 아파요.",
+      "phraseRomanized": "palkkumchi ga apayo",
+      "literal": [
+        [
+          "팔꿈치",
+          "elbow"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "flex",
+      "english": "flex",
+      "word": "근육을 긴장시키다",
+      "romanized": "geunyugeul ginjangssikida",
+      "grammarNote": "**근육을 긴장시키다** = to flex muscles — lit. 'to tense the muscles'.\n**긴장시키다** = causative: **긴장** (tension) + **시키다** (to cause/make do).\nThe phrase uses **근육에 힘을 주다** = to put strength into muscles — more natural in speech.\n**힘을 주다** = to exert force/flex — **힘** (him) = strength/force; **주다** = to give.",
+      "englishPhrase": "Flex your muscles.",
+      "phrase": "근육에 힘을 주세요.",
+      "phraseRomanized": "geunyuge himeul juseyo",
+      "literal": [
+        [
+          "근육",
+          "muscles"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "힘",
+          "strength"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "blink",
+      "english": "blink",
+      "word": "눈을 깜빡이다",
+      "romanized": "nuneul kkamppagida",
+      "grammarNote": "**눈을 깜빡이다** = to blink — lit. 'to flicker one's eyes'.\n**깜빡이다** (kkamppagida) = to blink/flicker — pure Korean verb (reduplicated sound-imitative root).\n**눈을 깜빡이지 마세요** = please don't blink — **-지 마세요** is the polite negative imperative.\nRelated: **깜빡** (kkamppak) = flash/blink (onomatopoeia); **눈을 깜빡하다** = informal variant.",
+      "englishPhrase": "Don't blink.",
+      "phrase": "눈을 깜빡이지 마세요.",
+      "phraseRomanized": "nuneul kkamppagiji maseyo",
+      "literal": [
+        [
+          "눈",
+          "eyes"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "깜빡이지",
+          "blink[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "sweat",
+      "english": "sweat",
+      "word": "땀을 흘리다",
+      "romanized": "ttameul heullida",
+      "grammarNote": "**땀을 흘리다** = to sweat — lit. 'to shed/flow sweat'; **땀** (ttam) = sweat; **흘리다** = to spill/shed.\n**흘리다** is used for liquids flowing: **눈물을 흘리다** = to shed tears; **피를 흘리다** = to shed blood.\n**달릴 때** = when running — **-ㄹ/을 때** expresses 'when [doing something]'.\nRelated: **땀띠** (ttamddi) = heat rash; **식은땀** (sigeun-ttam) = cold sweat.",
+      "englishPhrase": "I sweat when I run.",
+      "phrase": "달릴 때 땀을 흘려요.",
+      "phraseRomanized": "dallil ttae ttameul heullyeoyo",
+      "literal": [
+        [
+          "달릴 때",
+          "when running"
+        ],
+        [
+          "땀",
+          "sweat"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "흘려요",
+          "shed"
+        ]
+      ]
+    },
+    {
+      "id": "bleed",
+      "english": "bleed",
+      "word": "피가 나다",
+      "romanized": "piga nada",
+      "grammarNote": "**피가 나다** = to bleed — lit. 'blood comes out'; **나다** (nada) = to emerge/come out.\n**가** is the subject particle after vowel-final **피**: **피가 나요** = blood is coming out.\n**상처** (sangcheo, 傷處) = wound — Sino-Korean; **에서** = from (location of origin).\nRelated: **출혈** (chulhyeol, 出血) = bleeding/hemorrhage — Sino-Korean medical term.",
+      "englishPhrase": "The wound is bleeding.",
+      "phrase": "상처에서 피가 나요.",
+      "phraseRomanized": "sangcheoseo piga nayo",
+      "literal": [
+        [
+          "상처",
+          "wound"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "피",
+          "blood"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "나요",
+          "comes-out"
+        ]
+      ]
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "word": "느끼다",
+      "romanized": "neukkida",
+      "grammarNote": "**느끼다** (neukkida) = to feel/sense — pure Korean verb.\n**기분이 어때요?** = How do you feel? — lit. 'how is your mood?' — uses **기분** + **이/가** + state question.\n**어때요** (eottaeyo) = how is it? — from **어떻다** (eotteohda), a common question form.\nRelated: **느낌** (neukkum) = feeling/sense/impression (noun form of **느끼다**).",
+      "englishPhrase": "How do you feel?",
+      "phrase": "기분이 어때요?",
+      "phraseRomanized": "gibuni eottaeyo",
+      "literal": [
+        [
+          "기분",
+          "feeling"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "어때요",
+          "how is"
+        ]
+      ]
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "word": "생각하다",
+      "romanized": "saenggakhada",
+      "grammarNote": "**생각하다** (saenggakhada) = to think — **생각** (saenggak, thought/idea) + **하다**.\n**생각하고 있어요** = is thinking — **-고 있다** is the progressive pattern (to be doing).\n**무슨 생각** = what thought/what are you thinking — **무슨** (museun) = what kind of.\nRelated: **생각나다** (saenggaknada) = to come to mind; **생각하다** vs **생각나다** is active vs. spontaneous.",
+      "englishPhrase": "What are you thinking about?",
+      "phrase": "무슨 생각 하고 있어요?",
+      "phraseRomanized": "museun saenggak hago isseoyo",
+      "literal": [
+        [
+          "무슨",
+          "what"
+        ],
+        [
+          "생각",
+          "thought"
+        ],
+        [
+          "하고 있어요",
+          "doing"
+        ]
+      ]
+    },
+    {
+      "id": "move",
+      "english": "move",
+      "word": "움직이다",
+      "romanized": "umjigida",
+      "grammarNote": "**움직이다** (umjigida) = to move — pure Korean verb.\n**팔을 움직일 수 없어요** = I can't move my arm — **-ㄹ/을 수 없다** = cannot (lit. 'there is no way to').\n**움직이다** → **움직여요** (umjigyeoyo) in polite speech.\nRelated: **움직임** (umjigim) = movement (noun); **꼼짝도 못하다** = cannot move at all (idiomatic).",
+      "englishPhrase": "I can't move my arm.",
+      "phrase": "팔을 움직일 수 없어요.",
+      "phraseRomanized": "pareul umjigil su eopseoyo",
+      "literal": [
+        [
+          "팔",
+          "arm"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "움직일 수 없어요",
+          "move cannot"
+        ]
+      ]
+    },
+    {
+      "id": "bony",
+      "english": "bony",
+      "word": "뼈가 앙상한",
+      "romanized": "ppyeoga angsanghan",
+      "grammarNote": "**뼈가 앙상한** = bony — lit. 'bones are gaunt/bare'; **앙상하다** = to be gaunt/bony.\n**뼈** (ppyeo) = bone — pure Korean; medical term is **골** (骨, gol) in Sino-Korean compounds.\n**앙상하다** → **앙상해요** (angsanghaeyo) in polite speech.\nThe phrase structure **의 손이 앙상해요** = possessive **의** + body part + state adjective.",
+      "englishPhrase": "His hands are bony.",
+      "phrase": "그의 손이 앙상해요.",
+      "phraseRomanized": "geuui soni angsanghaeyo",
+      "literal": [
+        [
+          "그",
+          "his"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "손",
+          "hands"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "앙상해요",
+          "bony"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hairy",
+      "english": "hairy",
+      "word": "털이 많은",
+      "romanized": "teori manheun",
+      "grammarNote": "**털이 많은** = hairy — lit. 'having many hairs'; **털** (teol) = body hair/fur/feather.\n**털** is the pure Korean word for body/animal hair; **머리카락** is specifically head hair.\n**많다** (manta) = to be many/much → modifier form **많은** (manheun) before nouns.\n**팔에 털이 많아요** = has a lot of hair on the arms — **에** marks the location (on the arms).",
+      "englishPhrase": "He has hairy arms.",
+      "phrase": "그는 팔에 털이 많아요.",
+      "phraseRomanized": "geuneun pare teori manayo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "팔",
+          "arms"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "털",
+          "hair"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "many"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "soft",
+      "english": "soft",
+      "word": "부드러운",
+      "romanized": "budeuroun",
+      "grammarNote": "**부드러운** (budeuroun) is the modifier form of **부드럽다** (budeureopda, to be soft) — ㅂ irregular.\n**부드럽다** → **부드러워요** (budeureowoyo) in polite speech (ㅂ → 워 before vowels).\n**티슈** (tisyu) = tissue — loanword from English; **가** is the subject particle after vowel-final **슈**.\nRelated: **말랑하다** (mallangada) = to be soft/squishy (for squishy textures); **촉촉하다** = to be moist.",
+      "englishPhrase": "The tissue is soft.",
+      "phrase": "티슈가 부드러워요.",
+      "phraseRomanized": "tisyuga budeureowoyo",
+      "literal": [
+        [
+          "티슈",
+          "tissue"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "부드러워요",
+          "soft"
+        ]
+      ]
+    },
+    {
+      "id": "sore",
+      "english": "sore",
+      "word": "아픈",
+      "romanized": "apeun",
+      "grammarNote": "**아픈** (apeun) is the modifier form of **아프다** (apeuda, to hurt/be sick) — ㅡ irregular.\n**아프다** → **아파요** (apayo) in polite speech (ㅡ drops before 아).\nThe phrase uses **쑤시다** (ssusida) = to ache/throb — specifically for muscle soreness or dull aching pain.\n**근육이 쑤셔요** = muscles ache/are sore — a more specific term than the general **아파요**.",
+      "englishPhrase": "My muscles are sore.",
+      "phrase": "근육이 쑤셔요.",
+      "phraseRomanized": "geunyugi ssusyeoyo",
+      "literal": [
+        [
+          "근육",
+          "muscles"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "쑤셔요",
+          "aching"
+        ]
+      ]
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "word": "왼쪽",
+      "romanized": "oenjjok",
+      "grammarNote": "**왼쪽** (oenjjok) = left side — compound: **왼** (oen, left) + **쪽** (jjok, side/direction).\n**왼** alone means left; adding **쪽** specifies direction: **왼쪽으로** = to the left.\n**왼쪽 무릎** = left knee — **왼쪽** directly modifies the body part as an adjective.\nOpposite: **오른쪽** (oreunjjok) = right side; **왼손** (oenson) = left hand; **오른손** = right hand.",
+      "englishPhrase": "I hurt my left knee.",
+      "phrase": "왼쪽 무릎을 다쳤어요.",
+      "phraseRomanized": "oenjjok mureuppeul dachyeosseoyo",
+      "literal": [
+        [
+          "왼쪽",
+          "left"
+        ],
+        [
+          "무릎",
+          "knee"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "다쳤어요",
+          "injured"
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "word": "오른쪽",
+      "romanized": "oreunjjok",
+      "grammarNote": "**오른쪽** (oreunjjok) = right side — compound: **오른** (oreun, right) + **쪽** (jjok, side/direction).\n**오른팔** (oreunpal) = right arm — **오른** directly combines with the body part (no 쪽 needed).\n**골절되다** (goljeol-doeda) = to be fractured — **골절** (骨折) is Sino-Korean; **되다** = to become.\n**됐어요** = past tense of **되다**: **되다** + **었어요** → **됐어요** (contracted form).",
+      "englishPhrase": "I broke my right arm.",
+      "phrase": "오른팔이 골절됐어요.",
+      "phraseRomanized": "oreunpari goljeoldwaesseoyo",
+      "literal": [
+        [
+          "오른팔",
+          "right-arm"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "골절됐어요",
+          "fractured"
+        ]
+      ]
+    },
+    {
+      "id": "upper",
+      "english": "upper",
+      "word": "상체",
+      "romanized": "sangche",
+      "grammarNote": "**상체** (sangche) is Sino-Korean: 上體 — upper body; lit. 'upper-body'.\n**상** (上) = upper/above; **체** (體) = body — common in anatomical compounds.\nOpposite: **하체** (hache, 下體) = lower body; **전신** (jeonsin) = whole body.\n**강하다** (ganghada) = to be strong — **강해요** (ganghaeyo) in polite speech.",
+      "englishPhrase": "The upper body is strong.",
+      "phrase": "상체가 강해요.",
+      "phraseRomanized": "sangchega ganghaeyo",
+      "literal": [
+        [
+          "상체",
+          "upper-body"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "강해요",
+          "strong"
+        ]
+      ]
+    },
+    {
+      "id": "lower",
+      "english": "lower",
+      "word": "하체",
+      "romanized": "hache",
+      "grammarNote": "**하체** (hache) is Sino-Korean: 下體 — lower body; **하** (下) = lower/below; **체** (體) = body.\nThe phrase uses **허리가 아파요** for lower back pain — **허리** is more specific than **하체**.\n**요통** (yotong, 腰痛) = lower back pain — Sino-Korean medical term: **요** (腰, waist) + **통** (痛, pain).\nRelated: **하체 운동** (hache undong) = lower body exercise; **다리** and **발** are parts of **하체**.",
+      "englishPhrase": "He has lower back pain.",
+      "phrase": "그는 허리가 아파요.",
+      "phraseRomanized": "geuneun heoriga apayo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "허리",
+          "lower-back"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
+    },
+    {
+      "id": "body",
+      "english": "body",
+      "word": "몸",
+      "romanized": "mom",
+      "grammarNote": "**몸** (mom) = body — pure Korean noun; used in everyday speech.\nThe phrase uses **인체** (inche, 人體) = human body — Sino-Korean, more formal/scientific.\n**몸이 좋다/나쁘다** = to feel well/unwell (lit. body is good/bad) — common health expression.\nRelated: **몸무게** (mommuge) = body weight; **몸살** (momsal) = body ache (lit. body-flesh pain).",
+      "englishPhrase": "The human body is amazing.",
+      "phrase": "인체는 놀라워요.",
+      "phraseRomanized": "incheneun nollawayo",
+      "literal": [
+        [
+          "인체",
+          "human-body"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "놀라워요",
+          "amazing"
+        ]
+      ]
+    },
+    {
+      "id": "human_adjective",
+      "english": "human (adjective)",
+      "word": "인간의",
+      "romanized": "ingan-ui",
+      "grammarNote": "**인간** (ingan) is Sino-Korean: 人間 — human being; **의** (ui) = possessive/genitive particle.\n**인간의** = human's/of human — used attributively before nouns: **인간의 몸** = the human body.\nAlternative: **인체** (inche) = the human body; **인류** (illyu) = humankind/humanity.\n**생물학** (saengmulhak) = biology — Sino-Korean: 生物學; **의** links it to **인간**.",
+      "englishPhrase": "It's part of human biology.",
+      "phrase": "인간 생물학의 일부예요.",
+      "phraseRomanized": "ingan saengmulhagui ilbuyeyo",
+      "literal": [
+        [
+          "인간",
+          "human"
+        ],
+        [
+          "생물학",
+          "biology"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "일부",
+          "part"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}

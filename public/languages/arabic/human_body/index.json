@@ -1,0 +1,657 @@
+{
+  "id": "human_body",
+  "name": "Human Body",
+  "language": "arabic",
+  "stories": [
+    "at_the_doctor",
+    "getting_ready"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    {
+      "id": "indi_waja3",
+      "name": "عندي وجع — Expressing Pain"
+    },
+    {
+      "id": "plurals",
+      "name": "Broken Plurals — Intro"
+    },
+    {
+      "id": "adjective_agreement",
+      "name": "Adjective Agreement"
+    },
+    {
+      "id": "la_negation",
+      "name": "لا & ما — Negation"
+    },
+    {
+      "id": "dual_forms",
+      "name": "المثنى — The Dual Form"
+    },
+    {
+      "id": "yajib_lazim",
+      "name": "يَجِبُ / لَازِم — Must / Should"
+    }
+  ],
+  "cards": [
+    {
+      "id": "head",
+      "english": "head",
+      "word": "رأس",
+      "romanized": "ra's",
+      "grammarNote": "To express pain: **[body part] يؤلمني** (yu'limuni) = '[body part] hurts me' (masculine nouns) / **تؤلمني** (tu'limuni) (feminine nouns).\nAlternatively: **عندي ألم في** [body part] (indi alam fi...) = I have pain in [body part].",
+      "englishPhrase": "My head hurts.",
+      "phrase": "رأسي يؤلمني.",
+      "phraseRomanized": "ra'si yu'limuni."
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "word": "شعر",
+      "romanized": "sha'r",
+      "grammarNote": "**شَعر** (shaʿr, hair) is a collective noun — it refers to hair as a mass. For a single strand: **شَعرَة** (shaʿra). Root **ش-ع-ر** (sh-ʿ-r, to feel/be aware/have hair). Same root as **شِعر** (shiʿr, poetry) and **شَاعِر** (shāʿir, poet) — the overlap of sensitivity and hair.\n**لَدَيهَا** (ladayhā) = she has — possessive preposition **لَدَى** + feminine suffix **ـهَا** (hā, her). **شَعر طَوِيل** — indefinite noun + adjective, no article.",
+      "englishPhrase": "She has long hair.",
+      "phrase": "لديها شعر طويل.",
+      "phraseRomanized": "ladayha sha'r tawil."
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "word": "وجه",
+      "romanized": "wajh",
+      "grammarNote": "**وَجه** (wajh, face) from root **و-ج-ه** (w-j-h, to face/direct). **وَجَّهَ** (wajjaha, to direct — Form II), **اِتَّجَهَ** (ittajaha, to head toward — Form VIII), **وِجهَة** (wijha, direction/viewpoint), **وُجِهَ إِليهِ** (to be directed at).\nPossessive: **وَجهُكَ** (wajhuka, your face m.) — suffix **ـكَ** (-ka). Imperative **اِغسِل** (ighsil, wash!) from root **غ-س-ل** (gh-s-l, to wash) — Form I imperative.",
+      "englishPhrase": "Wash your face.",
+      "phrase": "اغسل وجهك.",
+      "phraseRomanized": "ighsil wajhak."
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "word": "عين",
+      "romanized": "ayn",
+      "grammarNote": "**عَين** (ʿayn, eye) is feminine. Dual: **عَينَان** (ʿaynān, two eyes). The phrase **عَينَاهُ زَرقَاوَان** uses the dual subject + dual adjective. **زَرقَاء** (zarqāʾ, blue, feminine) → dual **زَرقَاوَان** (zarqāwān).\nNote: **عَين** also means 'spring of water' and 'essence/self' — a beautifully polysemous root. The letter **ع** itself is named *ʿayn* because it was associated with the shape of an eye in ancient Semitic scripts.",
+      "englishPhrase": "He has blue eyes.",
+      "phrase": "عيناه زرقاوان.",
+      "phraseRomanized": "aynahu zarqawan."
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "word": "أذن",
+      "romanized": "udhn",
+      "grammarNote": "**أُذن** (udhn, ear) is feminine. Dual: **أُذُنَان** (udhunan, two ears). The verb **تُؤلِمُني** uses the feminine form **تُـ** because the ear is feminine — **يُؤلِمُني** would be used for masculine body parts.\nRoot **أ-ذ-ن** (ʾ-dh-n, to permit/give ear): **أَذِنَ** (adhina, to allow), **أَذَان** (adhān, call to prayer — the announcement one 'gives ear' to). **مَأذُون** (maʾdhūn, authorized person).",
+      "englishPhrase": "My ear hurts.",
+      "phrase": "أذني تؤلمني.",
+      "phraseRomanized": "udhni tu'limuni."
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "word": "أنف",
+      "romanized": "anf",
+      "grammarNote": "**أَنف** (anf, nose) is masculine. Root **أ-ن-ف** (ʾ-n-f, nose/pride/reluctance). **أَنِفَ** (anifa, to disdain — literally 'to be nose-proud'), **أَنَفَة** (anafa, pride/disdain). The same root gives us pride idioms: **شَامِخ الأَنف** (nose held high = arrogant).\nThe adjective **بَارِد** (bārid, cold) is masculine and agrees with **أَنف** (masculine). Compare: **رَقبَتِي بَارِدَة** (my neck is cold) — feminine **ة** because neck is feminine.",
+      "englishPhrase": "My nose is cold.",
+      "phrase": "أنفي بارد.",
+      "phraseRomanized": "anfi barid."
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "word": "فم",
+      "romanized": "fam",
+      "grammarNote": "**فَم** (fam, mouth) — an unusual word: it is one of the few Arabic nouns with no clear trilateral root. In possessive constructions the **م** changes: **فَمِي** (famī, my mouth), **فَمُكَ** (famuka, your mouth), but **فُو** (fū) in construct: **فُو الإِنسَان** (fū al-insān, the human mouth) — a classical form.\n**اِفتَح** (iftaḥ, open! — imperative Form I) from root **ف-ت-ح** (f-t-ḥ, to open). **فَتح** also means 'conquest/opening' — Saladin's conquest of Jerusalem was called **الفَتح**.",
+      "englishPhrase": "Open your mouth.",
+      "phrase": "افتح فمك.",
+      "phraseRomanized": "iftah famak."
+    },
+    {
+      "id": "lip",
+      "english": "lip",
+      "word": "شفة",
+      "romanized": "shafa",
+      "grammarNote": "**شَفة** (shafa, lip) — tā marbūṭa **ة** signals a feminine noun. Dual: **شَفَتَان** (shafatān, two lips). In the phrase, **شَفَتَاهَا** = her two lips (dual possessive). The color adjective **حَمرَاء** (ḥamrāʾ, red, feminine) → dual **حَمرَاوَان** (ḥamrāwān).\nNote: tā marbūṭa (**ة**) appears at the end of many feminine nouns and adjectives. It is pronounced **ة** (a) in pause but **ت** (t) when followed by another word.",
+      "englishPhrase": "She has red lips.",
+      "phrase": "شفتاها حمراوان.",
+      "phraseRomanized": "shafataha hamrawan."
+    },
+    {
+      "id": "tooth_teeth",
+      "english": "tooth (teeth)",
+      "word": "سن",
+      "romanized": "sinn",
+      "grammarNote": "**سِنّ** (sinn, tooth) is feminine. Dual: **سِنَّان** (sinnān, two teeth). Broken plural: **أَسنَان** (asnān, teeth — pattern **أَفعَال**). Root **س-ن-ن** (s-n-n, to sharpen/set). **سِنّ** also means 'age/year': **كَم سِنُّهُ؟** = how old is he?\nThe verb **تُؤلِمُني** is feminine to agree with **سِنّ** (feminine). The phrase **أَسنَان** (teeth, plural) is used in dental contexts: **طَبِيب الأَسنَان** (dentist — literally 'doctor of teeth').",
+      "englishPhrase": "I have a toothache.",
+      "phrase": "سني تؤلمني.",
+      "phraseRomanized": "sinni tu'limuni."
+    },
+    {
+      "id": "tongue",
+      "english": "tongue",
+      "word": "لسان",
+      "romanized": "lisan",
+      "grammarNote": "**لِسَان** (lisān, tongue/language) is masculine. Root **ل-س-ن** (l-s-n, tongue/language). The word covers both the physical tongue and 'language/tongue' in a linguistic sense: **اللِّسَان العَرَبِيّ** = the Arabic tongue/language. Plural: **أَلسِنة** (alsina, tongues — broken plural **أَفعِلة**).\n**أَخرِج** (akhrij, take out! — imperative Form IV) from root **خ-ر-ج** (kh-r-j, to exit). Form IV imperative = causative command: 'cause to come out.'",
+      "englishPhrase": "Stick out your tongue.",
+      "phrase": "أخرج لسانك.",
+      "phraseRomanized": "akhrij lisanak."
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "word": "رقبة",
+      "romanized": "raqaba",
+      "grammarNote": "**رَقَبة** (raqaba, neck) — tā marbūṭa **ة** marks it as feminine. Root **ر-ق-ب** (r-q-b, to watch/guard). **رَقِيب** (raqīb, watchman/guard — **فَعِيل**), **مُرَاقَبة** (murāqaba, surveillance/observation — Form III verbal noun). The neck was linked to watching/looking out.\n**مُتَصَلِّبة** (mutaṣalliba, stiff, feminine) — Form V active participle from root **ص-ل-ب** (ṣ-l-b, to be hard/rigid). Feminine agrees with **رَقَبة** (feminine).",
+      "englishPhrase": "My neck is stiff.",
+      "phrase": "رقبتي متصلبة.",
+      "phraseRomanized": "raqabati mutasallaba."
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "word": "ذراع",
+      "romanized": "dhira'",
+      "grammarNote": "**ذِرَاع** (dhirāʿ, arm/forearm) is both masculine and feminine — classical Arabic allows both genders. Dual: **ذِرَاعَان** (dhirāʿān, two arms). Root **ذ-ر-ع** (dh-r-ʿ, forearm/measure). **ذِرَاع** was also a unit of length (cubit = forearm length).\n**كَسَرتُ** (kasartu, I broke) from root **ك-س-ر** (k-s-r, to break). Past tense first-person singular ends in **ـتُ** (-tu): **ذَهَبتُ** (I went), **أَكَلتُ** (I ate).",
+      "englishPhrase": "I broke my arm.",
+      "phrase": "كسرت ذراعي.",
+      "phraseRomanized": "kasartu dhira'i."
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "word": "يد",
+      "romanized": "yad",
+      "grammarNote": "Arabic has a dual form for pairs: **يد** (yad = hand) → **يدان** (yadan = two hands).\nIn **اغسل يديك** (ighsil yadayk), **يديك** is the dual possessive.\nDual forms apply across paired body parts: **عينان** (two eyes), **رجلان** (two legs).",
+      "englishPhrase": "Wash your hands.",
+      "phrase": "اغسل يديك.",
+      "phraseRomanized": "ighsil yadayk."
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "word": "إصبع",
+      "romanized": "isba'",
+      "grammarNote": "**إِصبَع** (iṣbaʿ, finger/toe) can be masculine or feminine. Broken plural: **أَصَابِع** (aṣābiʿ — pattern **أَفَاعِل**). Root **ص-ب-ع** (ṣ-b-ʿ, finger). **إِصبَع القَدَم** = toe (literally 'finger of the foot').\n**قَطَعَ** (qaṭaʿa, to cut) from root **ق-ط-ع** (q-ṭ-ʿ, to cut/sever). A productive root: **قَطِيعة** (qaṭīʿa, estrangement), **اِنقِطَاع** (inqiṭāʿ, interruption — Form VII verbal noun).",
+      "englishPhrase": "He cut his finger.",
+      "phrase": "قطع إصبعه.",
+      "phraseRomanized": "qata'a isba'ahu."
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "word": "صدر",
+      "romanized": "sadr",
+      "grammarNote": "**صَدر** (ṣadr, chest/breast) is masculine. Root **ص-د-ر** (ṣ-d-r, to issue from/chest). **صَدَرَ** (ṣadara, to issue/be issued), **صُدُور** (ṣudūr, chests — broken plural **فُعُول**), **مَصدَر** (maṣdar, source/verbal noun — the 'issuing point' of action).\n**عِندَهُ** (ʿindahu, he has — literally 'at him') + **أَلَم** (ʾalam, pain): **عِندَهُ أَلَم فِي الصَّدر** = he has pain in the chest. **الصَّدر** — sun letter **ص** causes assimilation.",
+      "englishPhrase": "He has chest pain.",
+      "phrase": "عنده ألم في الصدر.",
+      "phraseRomanized": "indahu alam fi as-sadr."
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "word": "ظهر",
+      "romanized": "dahr",
+      "grammarNote": "**ظَهر** (ẓahr, back) is masculine. Root **ظ-ه-ر** (ẓ-h-r, to appear/back). **ظَهَرَ** (ẓahara, to appear/become visible), **ظَاهِرة** (ẓāhira, phenomenon — 'something that appears'), **ظُهُور** (ẓuhūr, appearance/back — verbal noun). The verb **يُؤلِمُني** is masculine (**يُـ** prefix) to agree with **ظَهر** (masculine).\n**أَسفَل الظَّهر** (asfal aẓ-ẓahr, lower back) — **أَسفَل** (asfal, lower/bottom) + definite **الظَّهر** in an iḍāfa chain. Sun letter **ظ**: *aẓ-ẓahr*.",
+      "englishPhrase": "My back hurts.",
+      "phrase": "ظهري يؤلمني.",
+      "phraseRomanized": "dahri yu'limuni."
+    },
+    {
+      "id": "heart",
+      "english": "heart",
+      "word": "قلب",
+      "romanized": "qalb",
+      "grammarNote": "**قَلب** (qalb, heart) is masculine. Root **ق-ل-ب** (q-l-b, to turn/flip). **قَلَبَ** (qalaba, to flip/overturn), **اِنقَلَبَ** (inqalaba, to be overturned/revolution — Form VII), **تَقَلُّب** (taqallub, fluctuation/turning). The heart was called **قَلب** because it 'turns over' (beats/changes states).\n**يَدُقُّ** (yaduqqu, it beats) from root **د-ق-ق** (d-q-q, to beat/knock/be precise). **دَقَّة** (daqqa, a beat/knock), **دَقِيق** (daqīq, precise/minute — also flour!).",
+      "englishPhrase": "My heart is beating fast.",
+      "phrase": "قلبي يدق بسرعة.",
+      "phraseRomanized": "qalbi yaduqq bi-sur'a."
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "word": "بطن",
+      "romanized": "batn",
+      "grammarNote": "**بَطن** (baṭn, stomach/belly) is masculine. Root **ب-ط-ن** (b-ṭ-n, inside/belly). **بَاطِن** (bāṭin, inner/hidden — **فَاعِل**), **بَاطِنِيَّة** (bāṭiniyya, internal medicine), **بُطُون** (buṭūn, bellies — broken plural **فُعُول**). The inner/hidden sense of the root extends to: **عِلم البَاطِن** = esoteric knowledge.\nVerb **يُؤلِمُني** is masculine (prefix **يُـ**) agreeing with **بَطن** (masculine).",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "بطني يؤلمني.",
+      "phraseRomanized": "batni yu'limuni."
+    },
+    {
+      "id": "muscle",
+      "english": "muscle",
+      "word": "عضلة",
+      "romanized": "'adala",
+      "grammarNote": "**عَضَلة** (ʿaḍala, muscle) — tā marbūṭa **ة** marks it as feminine. Root **ع-ض-ل** (ʿ-ḍ-l, muscle/difficulty). **عَضَّلَ** (ʿaḍḍala, to make difficult — Form II), **مُعضِلة** (muʿḍila, dilemma/difficult problem — literally 'a muscular/knotty thing'). Plural: **عَضَلَات** (ʿaḍalāt, muscles — sound feminine plural).\n**شَدَدتُ** (shadadtu, I pulled) from root **ش-د-د** (sh-d-d, to pull/tighten). Geminated root: **شَدَّ** → past 1st person **شَدَدتُ**.",
+      "englishPhrase": "I pulled a muscle.",
+      "phrase": "شددت عضلة.",
+      "phraseRomanized": "shadadtu 'adala."
+    },
+    {
+      "id": "waist",
+      "english": "waist",
+      "word": "خصر",
+      "romanized": "khasr",
+      "grammarNote": "**خَصر** (khaṣr, waist) is masculine. Root **خ-ص-ر** (kh-ṣ-r, to narrow/be slim). **خَاصِرة** (khāṣira, flank/side — **فَاعِلة** pattern), **اِختَصَرَ** (ikhtaṣara, to abbreviate/shorten — Form VIII), **مُختَصَر** (mukhtaṣar, summary/abbreviation). The 'narrowing' sense connects waist, abbreviation, and the flank.\n**رَفِيع** (rafīʿ, slim/slender/noble — **فَعِيل** pattern) from root **ر-ف-ع** (r-f-ʿ, to raise/elevate). Masculine because it agrees with **خَصر** (masculine).",
+      "englishPhrase": "She has a slim waist.",
+      "phrase": "لديها خصر رفيع.",
+      "phraseRomanized": "ladayha khasr rafi'."
+    },
+    {
+      "id": "skin",
+      "english": "skin",
+      "word": "جلد",
+      "romanized": "jild",
+      "grammarNote": "**جِلد** (jild, skin/hide/leather) is masculine. Root **ج-ل-د** (j-l-d, skin/to flog). **جِلدِيَّة** (jildiyya, dermatology — nisba adjective), **جِلدِيّ** (jildī, dermatological), **مُجَلَّد** (mujallad, bound book — 'covered in skin/leather').\n**نَاعِم** (nāʿim, soft/smooth — **فَاعِل** pattern) from root **ن-ع-م** (n-ʿ-m, to be soft/pleasant). **نِعمَة** (niʿma, blessing/grace) and **نَعَم** (naʿam, yes/domestic animals) share this root.",
+      "englishPhrase": "Her skin is soft.",
+      "phrase": "جلدها ناعم.",
+      "phraseRomanized": "jilduha na'im."
+    },
+    {
+      "id": "blood",
+      "english": "blood",
+      "word": "دم",
+      "romanized": "dam",
+      "grammarNote": "**دَم** (dam, blood) is masculine. Root **د-م-و/ي** (d-m-w, blood). **دَمَوِيّ** (damawī, bloody/blood-related), **ضَغط الدَّم** (blood pressure). Note: **دَم** is a defective noun — its full form would be **دَمَو** or **دَمَي**, but only the base form **دَم** is used.\n**تَبَرَّعَ بِـ** (tabarraʿa bi-, to donate — Form V): **بَرَّعَ** (barraʿa, to give generously) → **تَبَرَّعَ** (tabarraʿa, to donate/volunteer). **تَبَرُّع** (tabarruʿ, donation). The **بِـ** preposition introduces what is donated.",
+      "englishPhrase": "He donated blood.",
+      "phrase": "تبرّع بالدم.",
+      "phraseRomanized": "tabarra'a bil-dam."
+    },
+    {
+      "id": "brain",
+      "english": "brain",
+      "word": "دماغ",
+      "romanized": "dimagh",
+      "grammarNote": "**دِمَاغ** (dimāgh, brain) is masculine. MSA also uses **مُخّ** (mukhkh, brain/marrow) from root **م-خ-خ** (m-kh-kh). **دِمَاغ** from root **د-م-غ** (d-m-gh, brain/to crush). **دَمَغَ** (damagha, to crush/stamp), **دَامِغ** (dāmigh, crushing/decisive — **فَاعِل**).\n**مُعَقَّد** (muʿaqqad, complex/complicated) — Form II passive participle from root **ع-ق-د** (ʿ-q-d, to knot/contract). Literally 'knotted.' **عَقد** (ʿaqd, knot/contract), **مَعقُود** (contracted).",
+      "englishPhrase": "The brain is complex.",
+      "phrase": "الدماغ معقد.",
+      "phraseRomanized": "ad-dimagh mu'aqqad."
+    },
+    {
+      "id": "skull",
+      "english": "skull",
+      "word": "جمجمة",
+      "romanized": "jumjuma",
+      "grammarNote": "**جُمجُمة** (jumjuma, skull) — a quadriliteral root **ج-م-ج-م** showing reduplication. Feminine (tā marbūṭa **ة**). Plural: **جَمَاجِم** (jamājim — broken plural **فَعَالِل**).\n**تَحمِي** (taḥmī, it protects — feminine verb prefix **تَـ**) from root **ح-م-ي** (ḥ-m-y, to protect). The verb is feminine because its subject **الجُمجُمة** is feminine. Defective verb: present tense ends in **ي** → **يَحمِي / تَحمِي** (he/she protects).",
+      "englishPhrase": "The skull protects the brain.",
+      "phrase": "الجمجمة تحمي الدماغ.",
+      "phraseRomanized": "al-jumjuma tahmi ad-dimagh."
+    },
+    {
+      "id": "breast",
+      "english": "breast",
+      "word": "صدر",
+      "romanized": "sadr",
+      "grammarNote": "**صَدر** (ṣadr) serves as both 'chest' (general) and 'breast' — context distinguishes. The word is masculine despite often referring to female anatomy. Root **ص-د-ر** (ṣ-d-r, to issue/chest). **شَعَرَت** (shaʿarat) — past feminine: root **ش-ع-ر** + feminine suffix **ـت** (-at).\n**بِأَلَمٍ** (bi-alamin, with/of pain) — the **بِـ** preposition after **شَعَرَ** is obligatory. **صَدرِهَا** = her chest — possessive suffix **ـهَا** (hā, her/its).",
+      "englishPhrase": "She felt pain in her chest.",
+      "phrase": "شعرت بألم في صدرها.",
+      "phraseRomanized": "sha'arat bi-alam fi sadriha."
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "word": "ساق",
+      "romanized": "saq",
+      "grammarNote": "**سَاق** (sāq, leg/shin) is feminine. Dual: **سَاقَان** (sāqān, two legs). Root **س-و-ق** (s-w-q, to drive/leg). **سَوَّقَ** (sawwaqa, to market — Form II), **سُوق** (sūq, market — 'the place one drives/goes to'). All from the same root!\n**مُتعَبة** (mutʿaba, tired, feminine) agrees with **سَاق** (feminine). The predicate adjective must match the noun: feminine noun → feminine adjective.",
+      "englishPhrase": "My leg is tired.",
+      "phrase": "ساقي متعبة.",
+      "phraseRomanized": "saqi muta'aba."
+    },
+    {
+      "id": "foot_feet",
+      "english": "foot (feet)",
+      "word": "قدم",
+      "romanized": "qadam",
+      "grammarNote": "**قَدَم** (qadam, foot) is feminine. Dual: **قَدَمَان** (qadamān). Possessive dual: **قَدَمَايَ** (qadamāya, my two feet). Root **ق-د-م** (q-d-m, foot/to come forward): **قَدِيم** (qadīm, old/ancient), **مُقَدِّمة** (muqaddima, introduction — 'what comes first'), **قَدَّمَ** (qaddama, to present — Form II).\n**تُؤلِمَانِّي** — dual feminine verb (prefix **تُـ** + dual suffix **ـَان**) + object suffix **ـِّي** (me). This is the dual verb form matching dual subject **قَدَمَاي**.",
+      "englishPhrase": "My feet hurt.",
+      "phrase": "قدماي تؤلمانني.",
+      "phraseRomanized": "qadamay tu'limanini."
+    },
+    {
+      "id": "toe",
+      "english": "toe",
+      "word": "إصبع القدم",
+      "romanized": "isba' al-qadam",
+      "grammarNote": "**إِصبَع القَدَم** (iṣbaʿ al-qadam) = toe, literally 'finger of the foot' — an iḍāfa chain. Arabic uses the same word for finger and toe, distinguished only by adding **القَدَم** (the foot). Plural: **أَصَابِع القَدَم** (aṣābiʿ al-qadam, toes).\n**اِصطَدَمَ بِـ** (iṣṭadama bi-, to collide with/stub against — Form VIII): root **ص-د-م** (ṣ-d-m, to crash/collide). Form VIII inserts **ت** after the first radical: **ص** + **ط** (assimilation of ت after ص) → **اِصطَدَمَ**.",
+      "englishPhrase": "He stubbed his toe.",
+      "phrase": "اصطدم بإصبع قدمه.",
+      "phraseRomanized": "istadama bi-isba' qadamihi."
+    },
+    {
+      "id": "joint",
+      "english": "joint",
+      "word": "مفصل",
+      "romanized": "mifsal",
+      "grammarNote": "**مِفصَل** (mifṣal, joint) — **مِفعَل** instrument-noun pattern from root **ف-ص-ل** (f-ṣ-l, to separate/join). Literally 'the place of separation/articulation.' **فَصَلَ** (faṣala, to separate), **فَصل** (faṣl, chapter/separation/season), **تَفصِيل** (tafṣīl, detail — 'separating out').\nBroken plural: **مَفَاصِل** (mafāṣil — **مَفَاعِل**). **مُتَصَلِّبَة** (mutaṣalliba, stiff, plural feminine) agrees with **مَفَاصِل** — non-human plurals take feminine singular agreement.",
+      "englishPhrase": "My joints are stiff.",
+      "phrase": "مفاصلي متصلبة.",
+      "phraseRomanized": "mafasili mutasallaba."
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "word": "نَفَس",
+      "romanized": "nafas",
+      "grammarNote": "**نَفَس** (nafas, breath) is masculine. Root **ن-ف-س** (n-f-s, breath/self/soul). One of the richest roots: **نَفس** = breath AND self/soul (same word, different vowels in context). **نَفسِي** = myself / my soul / my breath. **تَنَفَّسَ** (tanaffasa, to breathe — Form V), **اِنفُس** (unfus, souls — plural).\n**اِحبِس** (iḥbis, hold! — imperative Form I) from root **ح-ب-س** (ḥ-b-s, to imprison/hold back). **حَبس** (ḥabs, imprisonment/holding).",
+      "englishPhrase": "Hold your breath.",
+      "phrase": "احبس نَفَسك.",
+      "phraseRomanized": "ihbis nafasak."
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "word": "يرى",
+      "romanized": "yara",
+      "grammarNote": "**يَرَى** (yarā, he sees) — defective verb from root **ر-أ-ي** (r-ʾ-y, to see/think). The hamza drops in many forms: present **يَرَى**, past **رَأَى** (raʾā). **رُؤيَة** (ruʾya, sight/vision — verbal noun), **رَأي** (raʾy, opinion — 'what one sees').\n**أَستَطِيع** (astaṭīʿ, I can/am able) — Form X of root **ط-و-ع** (ṭ-w-ʿ, to obey/be capable). Form X = to seek the ability. **بِوُضُوح** (bi-wuḍūḥ, clearly) — root **و-ض-ح** (w-ḍ-ḥ, to be clear).",
+      "englishPhrase": "I can see clearly.",
+      "phrase": "أستطيع الرؤية بوضوح.",
+      "phraseRomanized": "astati' ar-ru'ya bi-wuduh."
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "word": "يسمع",
+      "romanized": "yasma'",
+      "grammarNote": "**يَسمَع** (yasmaʿ, he hears) from root **س-م-ع** (s-m-ʿ, to hear). **سَمِعَ** (samiʿa, to hear — Form I), **سَمَاع** (samāʿ, hearing/listening to music), **اِستَمَعَ** (istamaʿa, to listen attentively — Form X). Distinguish: **سَمِعَ** = passive hearing; **اِستَمَعَ** = active listening.\n**لَا أَسمَعُكَ** — **لَا** + present tense = present negation: 'I don't/can't hear you.' The suffix **ـكَ** (ka) = you (masculine). For a woman: **لَا أَسمَعُكِ** (-ki).",
+      "englishPhrase": "I can't hear you.",
+      "phrase": "لا أسمعك.",
+      "phraseRomanized": "la asma'uk."
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "word": "يشمّ",
+      "romanized": "yashamm",
+      "grammarNote": "**يَشُمّ** (yashumm, he smells) from root **ش-م-م** (sh-m-m, to smell). A geminate root: the last two radicals are the same (**م-م**). Present: **يَشُمّ** (yashumm), past: **شَمَّ** (shamma). **رَائِحة** (rāʾiḥa, smell/scent — **فَاعِلة** feminine active participle) from root **ر-و-ح** (r-w-ḥ, breath/rest).\n**الزُّهُور** (az-zuhūr, flowers) — broken plural of **زَهرَة** (zahra, flower) — pattern **فُعُول**. Sun letter **ز** causes assimilation: *az-zuhūr*.",
+      "englishPhrase": "I can smell the flowers.",
+      "phrase": "أشمّ رائحة الزهور.",
+      "phraseRomanized": "ashamm ra'ihat az-zuhur."
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "word": "يتذوّق",
+      "romanized": "yadhadhawwaq",
+      "grammarNote": "**يَتَذَوَّق** (yatadhawwaq, he tastes) — Form V of root **ذ-و-ق** (dh-w-q, to taste). Form V (**تَفَعَّلَ**): **ذَاقَ** (dhāqa, to taste briefly) → **تَذَوَّقَ** (tadhawwaqa, to taste carefully/appreciate). **ذَوق** (dhawq, taste/aesthetic sense), **ذَوَّاق** (dhawwāq, one with refined taste — **فَعَّال** intensive).\n**الحِسَاء** (al-ḥisāʾ, soup/broth) from root **ح-س-و** (ḥ-s-w, to sip). The imperative **تَذَوَّق** drops the initial **تَـ** prefix: Form V imperative.",
+      "englishPhrase": "Taste this soup.",
+      "phrase": "تذوّق هذا الحساء.",
+      "phraseRomanized": "tadhawwaq hadha al-hisa'."
+    },
+    {
+      "id": "touch",
+      "english": "touch",
+      "word": "يلمس",
+      "romanized": "yalmas",
+      "grammarNote": "**يَلمَس** (yalmas, he touches) from root **ل-م-س** (l-m-s, to touch). **لَمسَة** (lamsa, a touch/stroke), **مَلمَس** (malmas, texture/feel — **مَفعَل** place/instrument noun), **لَامَسَ** (lāmasa, to touch/be in contact with — Form III).\n**لَا تَلمَس** = don't touch — prohibition: **لَا** + jussive present tense. **ذلِك** (dhālika, that) is the demonstrative for distant/removed objects. Nearby: **هَذَا** (hādhā, this).",
+      "englishPhrase": "Don't touch that!",
+      "phrase": "لا تلمس ذلك!",
+      "phraseRomanized": "la talmas dhalika!"
+    },
+    {
+      "id": "breathe",
+      "english": "breathe",
+      "word": "يتنفس",
+      "romanized": "yatanaffas",
+      "grammarNote": "**يَتَنَفَّس** (yatanaffas, he breathes) — Form V of root **ن-ف-س** (n-f-s, breath/soul). Form V implies a continuous/repeated action: **نَفَّسَ** (naffasa, to relieve) → **تَنَفَّسَ** (tanaffasa, to breathe steadily). **تَنَفُّس** (tanaffus, breathing — verbal noun).\n**بِبُطء** (bi-buṭʾ, slowly) — **بِـ** + **بُطء** (buṭʾ, slowness) from root **ب-ط-أ** (b-ṭ-ʾ, to be slow). This **بِـ + noun** pattern creates adverbial phrases: **بِسُرعَة** (quickly), **بِهُدُوء** (calmly).",
+      "englishPhrase": "Breathe slowly.",
+      "phrase": "تنفّس ببطء.",
+      "phraseRomanized": "tanaffas bi-but'."
+    },
+    {
+      "id": "bend",
+      "english": "bend",
+      "word": "ينحني",
+      "romanized": "yankhani",
+      "grammarNote": "**يَنحَنِي** (yanḥanī, he bends) — Form VII of root **ح-ن-و/ي** (ḥ-n-w, to bend/curve). Form VII (**اِنفَعَلَ**) is reflexive/passive: **حَنَا** (ḥanā, to bend something) → **اِنحَنَى** (inḥanā, to bend oneself/bow). **حَنِين** (ḥanīn, longing/yearning — literally 'a bending of the soul toward something').\n**رُكبَتَيكَ** (rukbatayka, your two knees) — dual possessive: **رُكبَتَان** (dual) → **رُكبَتَي** (construct) + **ـكَ** (your).",
+      "englishPhrase": "Bend your knees.",
+      "phrase": "انحنِ ركبتيك.",
+      "phraseRomanized": "inkhani rukbatayk."
+    },
+    {
+      "id": "stretch",
+      "english": "stretch",
+      "word": "يمدّ",
+      "romanized": "yamudd",
+      "grammarNote": "**يَمُدّ** (yamudd, he stretches/extends) from root **م-د-د** (m-d-d, to extend). Geminate root: **مَدَّ** (madda, to stretch). **مَدَّة** (madda, a stretch/duration), **إِمدَاد** (imdād, supply/reinforcement — Form IV verbal noun), **مَدِينة** (madīna, city — literally 'the extended place').\n**ذِرَاعَيكَ** (dhirāʿayka, your two arms) — dual possessive. Imperative **مُدَّ** = stretch! — geminate verb: the doubled **د** is written with shadda: مُدَّ.",
+      "englishPhrase": "Stretch your arms.",
+      "phrase": "مدّ ذراعيك.",
+      "phraseRomanized": "mudd dhira'ayk."
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "word": "كتف",
+      "romanized": "katif",
+      "grammarNote": "**كَتِف** (katif, shoulder) can be masculine or feminine — both genders are used in classical Arabic. Root **ك-ت-ف** (k-t-f, shoulder/to bind the arms). Dual: **كَتِفَان** (katifān). Broken plural: **أَكتَاف** (aktāf — pattern **أَفعَال**).\n**يُؤلِمُني** (yuʾlimunī, hurts me) — masculine verb form agreeing with **كَتِف** when treated as masculine. The suffix **ـنِي** (-nī) = me (object pronoun attached to verb).",
+      "englishPhrase": "My shoulder hurts.",
+      "phrase": "كتفي يؤلمني.",
+      "phraseRomanized": "katifī yuʾlimanī.",
+      "literal": [
+        [
+          "كتفي",
+          "my shoulder"
+        ],
+        [
+          "يؤلمني",
+          "hurts me"
+        ]
+      ]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "word": "ركبة",
+      "romanized": "rukba",
+      "grammarNote": "**رُكبَة** (rukba, knee) — tā marbūṭa **ة** marks it as feminine. Dual: **رُكبَتَان** (rukbatān, two knees). Root **ر-ك-ب** (r-k-b, to ride/kneel). **رَكَبَ** (rakaba, to kneel/ride), **رَاكِب** (rākib, rider — **فَاعِل**), **مَركَبة** (markaba, vehicle — **مَفعَلة** pattern).\n**أَصَبتُ فِي** (aṣabtu fī, I hurt/injured in) from root **ص-و-ب** (ṣ-w-b, to hit/be correct): **أَصَابَ** (aṣāba, to hit/injure — Form IV). Past tense 1st person: **أَصَبتُ**.",
+      "englishPhrase": "I hurt my knee.",
+      "phrase": "أصبت في ركبتي.",
+      "phraseRomanized": "aṣabtu fī rukbatī.",
+      "literal": [
+        [
+          "أصبت",
+          "I hurt"
+        ],
+        [
+          "في",
+          "in"
+        ],
+        [
+          "ركبتي",
+          "my knee"
+        ]
+      ]
+    },
+    {
+      "id": "elbow",
+      "english": "elbow",
+      "word": "مرفق",
+      "romanized": "mirfaq",
+      "grammarNote": "**مِرفَق** (mirfaq, elbow) — **مِفعَل** instrument/place pattern from root **ر-ف-ق** (r-f-q, to accompany/be gentle). Literally 'the place of companionship' (the elbow bends toward the body, or the arm bends to accompany a companion). **رِفق** (rifq, gentleness), **رَفِيق** (rafīq, companion/comrade — **فَعِيل**), **مُرَافِق** (murāfiq, escort/accompanying).\nBroken plural: **مَرَافِق** (marāfiq — **مَفَاعِل**). Masculine noun: verb **يُؤلِمُنِي** agrees.",
+      "englishPhrase": "My elbow is sore.",
+      "phrase": "مرفقي يؤلمني.",
+      "phraseRomanized": "mirfaqī yuʾlimanī.",
+      "literal": [
+        [
+          "مرفقي",
+          "my elbow"
+        ],
+        [
+          "يؤلمني",
+          "hurts me"
+        ]
+      ]
+    },
+    {
+      "id": "flex",
+      "english": "flex",
+      "word": "يثني",
+      "romanized": "yathni",
+      "grammarNote": "**يَثنِي** (yathnī, he flexes/bends) from root **ث-ن-ي** (th-n-y, to fold/bend/praise). **ثَنَى** (thanā, to fold/bend), **مَثنَى** (mathnā, the act of doubling — related to **اِثنَان**, two), **اِستَثنَاء** (isthnaʾ, exception — 'folding out').\n**عَضَلَاتِكَ** (ʿaḍalātika, your muscles) — sound feminine plural **ـَات** + possessive **ـكَ** (your). Non-human plurals are grammatically treated as feminine singular in verb agreement, but plural forms are used with possessives normally.",
+      "englishPhrase": "Flex your muscles.",
+      "phrase": "اثنِ عضلاتك.",
+      "phraseRomanized": "ithni 'adalatik.",
+      "hidden": true
+    },
+    {
+      "id": "blink",
+      "english": "blink",
+      "word": "يرمش",
+      "romanized": "yarmish",
+      "grammarNote": "**يَرمُش** (yarumsh, he blinks) from root **ر-م-ش** (r-m-sh, to blink/eyelash). **رَمش** (ramsh, eyelash/blink) — the same word covers both the action and the eyelash. In colloquial Arabic (Egyptian/Levantine) **يَرمُش** is common; MSA also uses **يَرفُّ** (yaruffu, from **ر-ف-ف**, to flutter).\n**لَا تَرمُش** = don't blink — **لَا** + jussive (the vowel of the final consonant often changes or drops in jussive). A useful construction in medical or photography contexts.",
+      "englishPhrase": "Don't blink.",
+      "phrase": "لا ترمش.",
+      "phraseRomanized": "la tarmish.",
+      "hidden": true
+    },
+    {
+      "id": "sweat",
+      "english": "sweat",
+      "word": "يتعرّق",
+      "romanized": "yata'arraq",
+      "grammarNote": "**يَتَعَرَّق** (yataʿarraq, he sweats) — Form V of root **ع-ر-ق** (ʿ-r-q, sweat/vein). Form V = to undergo the process: **عَرِقَ** (ʿariqa, to sweat — Form I stative) or **تَعَرَّقَ** (taʿarraqa, to perspire). **عَرَق** (ʿaraq, sweat — noun; also the anise liquor), **عِرق** (ʿirq, vein/nerve/root — same root!).\n**عِندَمَا** (ʿindamā, when — subordinating conjunction) = at the time that.",
+      "englishPhrase": "I sweat when I run.",
+      "phrase": "أتعرّق عندما أركض.",
+      "phraseRomanized": "ata'arraq indama arkud."
+    },
+    {
+      "id": "bleed",
+      "english": "bleed",
+      "word": "ينزف",
+      "romanized": "yanzif",
+      "grammarNote": "**يَنزِف** (yanzif, it/he bleeds) from root **ن-ز-ف** (n-z-f, to bleed/drain). **نَزَفَ** (nazafa, to bleed), **نَزِيف** (nazīf, hemorrhage — **فَعِيل** noun/adjective), **نَازِف** (nāzif, bleeding — **فَاعِل**).\n**الجُرح** (al-jurḥ, the wound) is masculine; hence **يَنزِف** uses masculine prefix **يَـ**. Root **ج-ر-ح** (j-r-ḥ, to wound): **جَرَحَ** (jaraḥa, to wound), **جَرَّاح** (jarrāḥ, surgeon — **فَعَّال** intensive: 'one who wounds/cuts expertly').",
+      "englishPhrase": "The wound is bleeding.",
+      "phrase": "الجرح ينزف.",
+      "phraseRomanized": "al-jurh yanzif."
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "word": "يشعر",
+      "romanized": "yash'ur",
+      "grammarNote": "**يَشعُر** (yashʿur, he feels) from root **ش-ع-ر** (sh-ʿ-r, to feel/perceive). Always used with **بِـ** when feeling an emotion: **شَعَرَ بِـ** = to feel [noun]. In medical contexts, **كيفَ تَشعُر؟** = how do you feel? Note: physical sensation often uses **يُؤلِمُني** (hurts me) or **عِندِي** (I have [symptom]) instead.\n**كَيفَ** (kayfa, how) introduces the question. No verb 'to be' is needed in the question.",
+      "englishPhrase": "How do you feel?",
+      "phrase": "كيف تشعر؟",
+      "phraseRomanized": "kayfa tash'ur?"
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "word": "يفكّر",
+      "romanized": "yufakkir",
+      "grammarNote": "**يُفَكِّر** (yufakkir, he thinks) — Form II of root **ف-ك-ر** (f-k-r, to think). Form II intensifies: **فَكَرَ** (fakara, to think once) → **فَكَّرَ** (fakkara, to think carefully/reflect). **فِكر** (fikr, thought), **فِكرَة** (fikra, idea), **تَفكِير** (tafkīr, thinking — Form II verbal noun).\n**بِمَ** (bi-mā) = about what? — **بِـ** (about) + **مَا** (what). The **ما** loses its final **ا** before another word in classical style. **تُفَكِّر فِي** or **تُفَكِّر بِـ** = to think about.",
+      "englishPhrase": "What are you thinking about?",
+      "phrase": "بمَ تفكّر؟",
+      "phraseRomanized": "bi-ma tufakkir?"
+    },
+    {
+      "id": "move",
+      "english": "move",
+      "word": "يتحرّك",
+      "romanized": "yataharrak",
+      "grammarNote": "**يَتَحَرَّك** (yataḥarrak, he moves) — Form V of root **ح-ر-ك** (ḥ-r-k, to move). Form V is reflexive: **حَرَّكَ** (ḥarraka, to move something — Form II) → **تَحَرَّكَ** (taḥarraka, to move oneself). **تَحرِيك** (taḥrīk, moving something — Form II verbal noun), **حَرَكَة** (ḥaraka, movement/vowel mark in Arabic script).\n**لَا أَستَطِيع + verbal noun** = I can't [do action]. **تَحرِيك** is the verbal noun used as direct object here.",
+      "englishPhrase": "I can't move my arm.",
+      "phrase": "لا أستطيع تحريك ذراعي.",
+      "phraseRomanized": "la astati' tahrik dhira'i."
+    },
+    {
+      "id": "bony",
+      "english": "bony",
+      "word": "ذو عظام بارزة",
+      "romanized": "dhu 'izam bariza",
+      "grammarNote": "**ذُو عِظَام بَارِزَة** = having prominent bones. **ذُو** (dhū, possessor of) is one of the 'five nouns' (*al-asmāʾ al-khamsa*) that change form: **ذُو** (nominative), **ذَا** (accusative), **ذِي** (genitive). Dual: **ذَوَا** (dhawā, nominative dual).\n**عِظَام** (ʿiẓām, bones) — broken plural of **عَظم** (ʿaẓm, bone) — pattern **فِعَال**. **بَارِزَة** (bāriza, prominent — **فَاعِلة**) from root **ب-ر-ز** (b-r-z, to protrude/appear).",
+      "englishPhrase": "His hands are bony.",
+      "phrase": "يداه ذواتا عظام بارزة.",
+      "phraseRomanized": "yadahu dhawata 'izam bariza.",
+      "hidden": true
+    },
+    {
+      "id": "hairy",
+      "english": "hairy",
+      "word": "كثيف الشعر",
+      "romanized": "kathif ash-sha'r",
+      "grammarNote": "**كَثِيف الشَّعر** (kathīf ash-shaʿr) = dense-haired/hairy — an iḍāfa adjective phrase: **كَثِيف** (dense — **فَعِيل**) + **الشَّعر** (the hair). Root **ك-ث-ف** (k-th-f, to be dense/thick). **كَثَافة** (kathāfa, density), **تَكَاثَفَ** (takāthafa, to condense — Form VI).\nDual adjective: **كَثِيفَا الشَّعر** (kathīfā ash-shaʿr) in the nominative dual, as it modifies the dual subject **ذِرَاعَان**. Dual adjective endings: nominative **ـَا**, accusative/genitive **ـَي**.",
+      "englishPhrase": "He has hairy arms.",
+      "phrase": "لديه ذراعان كثيفا الشعر.",
+      "phraseRomanized": "ladayhi dhira'an kathifa ash-sha'r.",
+      "hidden": true
+    },
+    {
+      "id": "soft",
+      "english": "soft",
+      "word": "ناعم",
+      "romanized": "na'im",
+      "grammarNote": "**نَاعِم** (nāʿim, soft/smooth) — **فَاعِل** active participle from root **ن-ع-م** (n-ʿ-m, to be gentle/soft). Feminine: **نَاعِمة** (nāʿima). Related words: **نِعمَة** (niʿma, blessing), **نَعَم** (naʿam, yes — agreement/acceptance), **أَنعَم** (anʿama, to bestow blessings — Form IV).\n**النَّسِيج** (an-nasīj, the tissue/fabric) — sun letter **ن** causes assimilation. **نَسَجَ** (nasaja, to weave), **نَسِيج** (nasīj, fabric/tissue — **فَعِيل**) from root **ن-س-ج**.",
+      "englishPhrase": "The tissue is soft.",
+      "phrase": "النسيج ناعم.",
+      "phraseRomanized": "an-nasij na'im."
+    },
+    {
+      "id": "sore",
+      "english": "sore",
+      "word": "مؤلم",
+      "romanized": "mu'lim",
+      "grammarNote": "**مُؤلِم** (muʾlim, painful/sore) — Form IV active participle from root **أ-ل-م** (ʾ-l-m, to hurt). **أَلَمَ** → **أَلَّمَ** / **أَوجَعَ** = to cause pain. Feminine: **مُؤلِمة** (muʾlima).\n**عَضَلَاتِي مُؤلِمَة** — non-human plurals (here **عَضَلَات**, muscles) take a **feminine singular** predicate adjective in classical Arabic: **مُؤلِمَة** (not **مُؤلِمُون**). This is the famous rule: 'broken and sound feminine plurals of non-humans are treated as feminine singular.'",
+      "englishPhrase": "My muscles are sore.",
+      "phrase": "عضلاتي مؤلمة.",
+      "phraseRomanized": "'adalati mu'lima."
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "word": "أيسر",
+      "romanized": "aysar",
+      "grammarNote": "**أَيسَر** (aysar, left — masculine superlative-form adjective) from root **ي-س-ر** (y-s-r, to be easy/left). **يُسرَى** (yusr ā, left, feminine) / **أَيسَر** (aysar, left, masculine). Ironically the root **ي-س-ر** means 'easy' — the left hand was the 'easier' in ancient usage.\nFeminine form **اليُسرَى** (al-yusr ā) is used here because **رُكبَة** (knee) is feminine. Compare: **اليَمِين** / **اليُمنَى** (right, masculine/feminine) from root **ي-م-ن** (y-m-n, right/blessing).",
+      "englishPhrase": "I hurt my left knee.",
+      "phrase": "ركبتي اليسرى تؤلمني.",
+      "phraseRomanized": "rukbati al-yusra tu'limuni."
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "word": "أيمن",
+      "romanized": "ayman",
+      "grammarNote": "**أَيمَن** (aymayn, right — masculine) / **اليُمنَى** (al-yumnā, the right, feminine) from root **ي-م-ن** (y-m-n, right/blessing/south). **يَمِين** (yamīn, right side/oath), **يُمنَى** (yumnā, right — feminine form), **يَمَن** (Yaman, Yemen — the land to the right when facing Mecca from Arabia).\nThe phrase uses **اليُمنَى** (feminine) because **ذِرَاع** (arm) is feminine. The adjective follows the noun and takes the definite article to match: **ذِرَاعِي اليُمنَى** = my right arm.",
+      "englishPhrase": "I broke my right arm.",
+      "phrase": "كسرت ذراعي اليمنى.",
+      "phraseRomanized": "kasartu dhira'i al-yumna."
+    },
+    {
+      "id": "upper",
+      "english": "upper",
+      "word": "علوي",
+      "romanized": "ulwi",
+      "grammarNote": "**عُلوِيّ** (ʿulwī, upper/elevated) — nisba adjective from **عُلوّ** (ʿuluww, height/elevation) from root **ع-ل-و** (ʿ-l-w, to be high). **عَالٍ** (ʿālin, high — **فَاعِل**), **أَعلَى** (aʿlā, higher/highest), **عَلِيّ** (ʿAlī, the name meaning 'exalted').\n**الجُزء** (al-juzʾ, the part) from root **ج-ز-أ** (j-z-ʾ, to divide). **جُزء** = part/portion; plural **أَجزَاء** (ajzāʾ — pattern **أَفعَال**).",
+      "englishPhrase": "The upper body is strong.",
+      "phrase": "الجزء العلوي من الجسم قوي.",
+      "phraseRomanized": "al-juz' al-ulwi min al-jism qawi."
+    },
+    {
+      "id": "lower",
+      "english": "lower",
+      "word": "سفلي",
+      "romanized": "sufli",
+      "grammarNote": "**سُفلِيّ** (suflī, lower) — nisba adjective from **سُفل** (sufl, bottom/below) from root **س-ف-ل** (s-f-l, to be low). **أَسفَل** (asfal, lower/bottom — elative **أَفعَل** pattern), **سُفلِيَّات** (sufliyyāt, lower things).\n**أَسفَل الظَّهر** (asfal aẓ-ẓahr) = the lower back — iḍāfa: **أَسفَل** (the lower part) + **الظَّهر** (the back). Sun letter **ظ** in **الظَّهر**: *aẓ-ẓahr*. Note **عِندَهُ أَلَم** = he has pain (possession construction).",
+      "englishPhrase": "He has lower back pain.",
+      "phrase": "عنده ألم في أسفل الظهر.",
+      "phraseRomanized": "indahu alam fi asfal adh-dahr."
+    },
+    {
+      "id": "body",
+      "english": "body",
+      "word": "جسم",
+      "romanized": "jism",
+      "grammarNote": "**جِسم** (jism, body) is masculine. Root **ج-س-م** (j-s-m, body/to be corporeal). **جَسَد** (jasad, body — especially with spiritual connotation), **مُجَسَّم** (mujassam, three-dimensional/embodied — Form II passive participle). Arabic has two body words: **جِسم** (physical body as a whole) and **جَسَد** (body esp. as vessel of the soul).\n**البَشَرِيّ** (al-basharī, human — nisba adjective) from **بَشَر** (bashar, human/mankind): **بَشَر** is the collective noun for humanity.",
+      "englishPhrase": "The human body is amazing.",
+      "phrase": "الجسم البشري رائع.",
+      "phraseRomanized": "al-jism al-bashari ra'i'."
+    },
+    {
+      "id": "human_adjective",
+      "english": "human (adjective)",
+      "word": "بشري",
+      "romanized": "bashari",
+      "grammarNote": "**بَشَرِيّ** (basharī, human) — nisba adjective from **بَشَر** (bashar, mankind). The **ـِيّ** (ī) suffix creates adjectives from nouns: **مِصرِيّ** (Egyptian), **عَرَبِيّ** (Arabic/Arab), **بَشَرِيّ** (human).\n**عِلم الأَحيَاء** (ʿilm al-aḥyāʾ, biology) = science of living things — iḍāfa: **عِلم** (science) + **الأَحيَاء** (the living beings — broken plural of **حَيّ**, living, from root **ح-ي-ي**). **إِنَّهُ** (innahu) = indeed it is — emphatic particle **إِنَّ** + pronoun suffix **ـهُ**.",
+      "englishPhrase": "It's part of human biology.",
+      "phrase": "إنه جزء من علم الأحياء البشري.",
+      "phraseRomanized": "innahu juz' min 'ilm al-ahya' al-bashari.",
+      "hidden": true
+    }
+  ]
+}

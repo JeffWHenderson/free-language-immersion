@@ -1,0 +1,2588 @@
+{
+  "id": "jobs_and_hobbies",
+  "name": "Jobs & Hobbies",
+  "language": "japanese",
+  "stories": [
+    "at_work",
+    "job_interview",
+    "weekend_hobbies",
+    "audrey",
+    "working_from_home"
+  ],
+  "pictureLessons": [
+    "jobs_and_hobbies",
+    "jobs_and_hobbies_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "masu_form",
+      "name": "〜ます Verb Form"
+    },
+    {
+      "id": "dekimasu",
+      "name": "できます — Can / To Be Able To"
+    },
+    {
+      "id": "na_adjectives",
+      "name": "な Adjectives"
+    },
+    {
+      "id": "suki_kirai",
+      "name": "好き & 嫌い — Like & Dislike"
+    },
+    {
+      "id": "tari_tari",
+      "name": "〜たり〜たりします — Listing Activities"
+    },
+    {
+      "id": "koto_ga_suki",
+      "name": "〜ことが好き / 得意 — Likes & Skills"
+    },
+    {
+      "id": "yori_houga",
+      "name": "〜より / 〜のほうが — Comparisons"
+    },
+    {
+      "id": "rareru_passive",
+      "name": "〜られる — Passive Voice"
+    }
+  ],
+  "cards": [
+    {
+      "id": "doctor",
+      "english": "Doctor",
+      "word": "医者",
+      "romanized": "isha",
+      "grammarNote": "Professions need no article: **私は医者です** (I am a doctor) — no 'a' or 'an'.\n**医者** (isha) = the common everyday word; **医師** (ishi) = the formal/official term.",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "彼は医者です。",
+      "phraseRomanized": "kare wa isha desu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "医者",
+          "doctor"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "nurse",
+      "english": "Nurse",
+      "word": "看護師",
+      "romanized": "kangoshi",
+      "grammarNote": "**看護師** (kangoshi) = **看護** (kango, nursing/care) + **師** (shi, master/specialist) → nursing specialist.\n**師** (shi) is a suffix for skilled professionals: **医師** (ishi, doctor), **教師** (kyōshi, teacher), **美容師** (biyōshi, hairstylist).\nCompare **〜者** (sha) for practitioners and **〜員** (in) for staff members.",
+      "englishPhrase": "She is a nurse.",
+      "phrase": "彼女は看護師です。",
+      "phraseRomanized": "kanojo wa kangoshi desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "看護師",
+          "nurse"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "engineer",
+      "english": "Engineer",
+      "word": "エンジニア",
+      "romanized": "enjinia",
+      "grammarNote": "**エンジニア** (enjinia) is a loanword for engineer.\nAlternative: **技術者** (gijutsusha) = **技術** (gijutsu, technology/technique) + **者** (sha, person) → technical person.\n**〜者** (sha) is the profession suffix for practitioners: **技術者**, **医者** (isha, doctor).\n**兄** (ani) = older brother — Japanese has distinct words for older/younger siblings.",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "兄はエンジニアです。",
+      "phraseRomanized": "ani wa enjinia desu",
+      "literal": [
+        [
+          "兄",
+          "older brother"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "エンジニア",
+          "engineer"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "programmer",
+      "english": "Programmer",
+      "word": "プログラマー",
+      "romanized": "puroguramā",
+      "grammarNote": "**プログラマー** (puroguramā) = loanword for programmer.\n**〜として** (to shite) = 'as / in the capacity of': **プログラマーとして働く** = work as a programmer.\nThis marks a role or capacity, very natural in professional contexts: **学生として** (as a student), **友人として** (as a friend).",
+      "englishPhrase": "I work as a programmer.",
+      "phrase": "私はプログラマーとして働いています。",
+      "phraseRomanized": "watashi wa puroguramā to shite hataraite imasu",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "プログラマー",
+          "programmer"
+        ],
+        [
+          "として",
+          "as"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "Cook",
+      "word": "料理人",
+      "romanized": "ryōrinin",
+      "grammarNote": "**料理人** (ryōrinin) = **料理** (ryōri, cooking/cuisine) + **人** (nin/hito, person) → cooking person.\n**〜人** (nin/jin) is a suffix meaning 'person who does ~': **料理人** (cook), **外国人** (foreigner), **日本人** (Japanese person).\n**キッチンで働く** — **で** marks where the work (an action) takes place.",
+      "englishPhrase": "The cook works in the kitchen.",
+      "phrase": "料理人はキッチンで働いています。",
+      "phraseRomanized": "ryōrinin wa kicchin de hataraite imasu",
+      "literal": [
+        [
+          "料理人",
+          "cook"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "キッチン",
+          "kitchen"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "waiter_waitress",
+      "english": "Waiter (Waitress)",
+      "word": "ウェイター",
+      "romanized": "weitā",
+      "grammarNote": "**ウェイター** (weitā) = loanword for waiter. Female form: **ウェイトレス** (weitoresu).\nIn many Japanese restaurants, gender-neutral **店員** (ten'in, shop/restaurant staff) is more common.\n**持ってきました** = brought — combining **持つ** (motsu, hold/carry) + **くる** (kuru, come): **持ってくる** = to bring (carry and come).",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "ウェイターがメニューを持ってきました。",
+      "phraseRomanized": "weitā ga menyū wo motte kimashita",
+      "literal": [
+        [
+          "ウェイター",
+          "waiter"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "持って",
+          "holding"
+        ],
+        [
+          "きました",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "manager",
+      "english": "Manager",
+      "word": "マネージャー",
+      "romanized": "manēja",
+      "grammarNote": "**マネージャー** (manēja) = loanword for manager (especially in business or entertainment contexts).\n**部長** (buchō) = department manager/section chief — a common corporate title.\n**課長** (kachō) = section chief (lower than 部長).\nJapanese corporate hierarchy titles are very specific and important in workplace culture.",
+      "englishPhrase": "She is a manager.",
+      "phrase": "彼女はマネージャーです。",
+      "phraseRomanized": "kanojo wa manēja desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "マネージャー",
+          "manager"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "student",
+      "english": "Student",
+      "word": "学生",
+      "romanized": "gakusei",
+      "grammarNote": "**学生** (gakusei) = **学** (gaku, study) + **生** (sei, life/student) → studying life-person.\n**生徒** (seito) = a student at a school (elementary through high school).\n**学生** is typically used for university students; **生徒** for younger school students.",
+      "englishPhrase": "I am a student.",
+      "phrase": "私は学生です。",
+      "phraseRomanized": "watashi wa gakusei desu",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学生",
+          "student"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "architect",
+      "english": "Architect",
+      "word": "建築家",
+      "romanized": "kenchikuka",
+      "grammarNote": "**建築家** (kenchikuka) = **建築** (kenchiku, architecture/construction) + **家** (ka, specialist/expert) → architecture expert.\n**〜家** (ka) is the suffix for skilled practitioners and experts: **音楽家** (ongakuka, musician), **作家** (sakka, writer), **画家** (gaka, painter), **科学者** is different (sha suffix for scientist).",
+      "englishPhrase": "He is an architect.",
+      "phrase": "彼は建築家です。",
+      "phraseRomanized": "kare wa kenchikuka desu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "建築家",
+          "architect"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "lawyer",
+      "english": "Lawyer",
+      "word": "弁護士",
+      "romanized": "bengoshi",
+      "grammarNote": "**弁護士** (bengoshi) = **弁護** (benko, defense/advocacy) + **士** (shi, samurai/qualified person) → qualified defender.\n**士** (shi) is a suffix for licensed/qualified professionals: **弁護士** (lawyer), **医師** (doctor), **建築士** (architectural engineer).\n**姉** (ane) = older sister — distinct from **妹** (imōto, younger sister).",
+      "englishPhrase": "My sister is a lawyer.",
+      "phrase": "姉は弁護士です。",
+      "phraseRomanized": "ane wa bengoshi desu",
+      "literal": [
+        [
+          "姉",
+          "older sister"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "弁護士",
+          "lawyer"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "baseball",
+      "english": "baseball",
+      "word": "野球",
+      "romanized": "yakyū",
+      "grammarNote": "**野球** (yakyū) = **野** (ya, field/wild) + **球** (kyū, ball) → field ball — the Japanese word coined for baseball.\n**〜を見るのが好き** = like watching ~. **の** nominalizes **見る** (to watch) so **が好き** can follow: 野球を見るのが好き = like the act of watching baseball.",
+      "englishPhrase": "I like watching baseball.",
+      "phrase": "野球を見るのが好きです。",
+      "phraseRomanized": "yakyū wo miru no ga suki desu",
+      "literal": [
+        [
+          "野球",
+          "baseball"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "見る",
+          "watch"
+        ],
+        [
+          "の",
+          "[nominalizer]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "retired_person",
+      "english": "Retired Person",
+      "word": "退職者",
+      "romanized": "taishokusha",
+      "grammarNote": "**退職者** (taishokusha) = **退職** (taishoku, retirement) + **者** (sha, person).\n**退職** = **退** (tai, retreat/leave) + **職** (shoku, employment/position) → leaving one's position.\n**退職しています** (taishoku shite imasu) — the **〜ている** form describes the ongoing state of being retired.",
+      "englishPhrase": "My father is retired.",
+      "phrase": "父は退職しています。",
+      "phraseRomanized": "chichi wa taishoku shite imasu",
+      "literal": [
+        [
+          "父",
+          "father"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "退職して",
+          "retired"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "reading",
+      "english": "Reading",
+      "word": "読書",
+      "romanized": "dokusho",
+      "grammarNote": "**読書** (dokusho) = **読** (doku/yomu, read) + **書** (sho/kaku, write/book) → book reading.\nUsed as a noun for the hobby of reading: **読書が好き** (I like reading).\nCompare **本を読む** (hon wo yomu, read a book) — the activity with a specific object — vs **読書** as the hobby concept.",
+      "englishPhrase": "I like reading.",
+      "phrase": "読書が好きです。",
+      "phraseRomanized": "dokusho ga suki desu",
+      "literal": [
+        [
+          "読書",
+          "reading"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "writing",
+      "english": "Writing",
+      "word": "書くこと",
+      "romanized": "kaku koto",
+      "grammarNote": "**書くこと** (kaku koto) = the act of writing — **こと** nominalizes the verb **書く** (kaku, to write).\n**こと** vs **の** as nominalizers: both work in **〜が好き**, but **こと** is slightly more formal/written.\n**物語** (monogatari) = story/tale: **物** (mono, thing) + **語** (gatari/katari, telling/narrative).",
+      "englishPhrase": "She likes writing stories.",
+      "phrase": "彼女は物語を書くのが好きです。",
+      "phraseRomanized": "kanojo wa monogatari wo kaku no ga suki desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "物語",
+          "stories"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "書く",
+          "writing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "painting",
+      "english": "Painting",
+      "word": "絵を描くこと",
+      "romanized": "e wo kaku koto",
+      "grammarNote": "**絵を描く** (e wo kaku) = to draw/paint pictures.\n**絵** (e) = picture/painting; **描く** (kaku/egaku) = to draw/paint.\nNote: **書く** (kaku) = to write, while **描く** (also kaku, but written differently) = to draw. The kanji differ but pronunciation is the same.\n**大好き** (daisuki) = love/really like — **大** intensifies **好き**.",
+      "englishPhrase": "He loves painting.",
+      "phrase": "彼は絵を描くのが大好きです。",
+      "phraseRomanized": "kare wa e wo kaku no ga daisuki desu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "絵",
+          "pictures"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "描く",
+          "drawing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "drawing",
+      "english": "Drawing",
+      "word": "お絵描き",
+      "romanized": "oekaki",
+      "grammarNote": "**お絵描き** (oekaki) = casual word for drawing/sketching — the **お** prefix gives it a light, friendly tone.\n**絵** (e, picture) + **描き** (kaki, drawing) → picture-drawing.\nMore formal: **絵を描くこと** (e wo kaku koto). **お絵描き** is especially used for casual, recreational drawing.",
+      "englishPhrase": "I like drawing.",
+      "phrase": "お絵描きが好きです。",
+      "phraseRomanized": "oekaki ga suki desu",
+      "literal": [
+        [
+          "お絵描き",
+          "drawing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "photography",
+      "english": "Photography",
+      "word": "写真撮影",
+      "romanized": "shashin satsuei",
+      "grammarNote": "**写真撮影** (shashin satsuei) = **写真** (shashin, photograph) + **撮影** (satsuei, filming/shooting).\n**写真** = **写** (sha, copy/reflect) + **真** (shin, truth/real) → real reflection.\n**趣味** (shumi) = hobby. To say what your hobby is: **〜が趣味です** (~ is my hobby) or **趣味は〜です** (my hobby is ~).",
+      "englishPhrase": "Photography is my hobby.",
+      "phrase": "写真撮影が趣味です。",
+      "phraseRomanized": "shashin satsuei ga shumi desu",
+      "literal": [
+        [
+          "写真撮影",
+          "photography"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "趣味",
+          "hobby"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "music",
+      "english": "Music",
+      "word": "音楽",
+      "romanized": "ongaku",
+      "grammarNote": "**音楽** (ongaku) = **音** (on/oto, sound) + **楽** (gaku/raku, music/pleasure) → sound-pleasure.\n**音楽家** (ongakuka) = musician — the **〜家** (ka) suffix for skilled practitioners.\n**聴く** (kiku) = to listen (to music/sounds) — note the specific kanji **聴**, which emphasizes attentive listening. Compare **聞く** (kiku) = to hear/ask (more general).",
+      "englishPhrase": "I listen to music every day.",
+      "phrase": "毎日音楽を聴きます。",
+      "phraseRomanized": "mainichi ongaku wo kikimasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "聴きます",
+          "listen"
+        ]
+      ]
+    },
+    {
+      "id": "singing",
+      "english": "Singing",
+      "word": "歌うこと",
+      "romanized": "utau koto",
+      "grammarNote": "**歌う** (utau) = to sing. **歌うこと** or **歌うの** = the act of singing (nominalizer turns verb into noun).\n**歌** (uta) = song/singing — as a noun: **歌が上手** (good at singing).\n**大好き** (daisuki) = love. Pattern: **〜のが大好きです** = love doing ~.",
+      "englishPhrase": "She loves singing.",
+      "phrase": "彼女は歌うのが大好きです。",
+      "phraseRomanized": "kanojo wa utau no ga daisuki desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "歌う",
+          "singing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "playing_an_instrument_e_g_guitar",
+      "english": "Playing an instrument (e.g., Guitar)",
+      "word": "楽器を弾くこと",
+      "romanized": "gakki wo hiku koto",
+      "grammarNote": "The verb for playing an instrument depends on the type:\n**弾く** (hiku) for strings/keyboard: **ギターを弾く** (play guitar).\n**吹く** (fuku) for wind: **フルートを吹く** (play flute).\n**叩く** (tataku) for percussion: **ドラムを叩く** (play drums).",
+      "englishPhrase": "I play the guitar.",
+      "phrase": "ギターを弾きます。",
+      "phraseRomanized": "gitā wo hikimasu",
+      "literal": [
+        [
+          "ギター",
+          "guitar"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "弾きます",
+          "play"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "dancing",
+      "english": "Dancing",
+      "word": "ダンス",
+      "romanized": "dansu",
+      "grammarNote": "**ダンス** (dansu) = loanword from English 'dance'.\n**ダンスが大好き** = love dancing — **ダンス** is used directly as a noun subject with **が大好き**.\nAlternative: **踊り** (odori) = traditional dance/dancing (Japanese word): **日本舞踊** (nihon buyō, Japanese classical dance).\n**踊る** (odoru) = to dance (the verb).",
+      "englishPhrase": "We love dancing.",
+      "phrase": "私たちはダンスが大好きです。",
+      "phraseRomanized": "watashitachi wa dansu ga daisuki desu",
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ダンス",
+          "dancing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "cooking",
+      "english": "Cooking",
+      "word": "料理",
+      "romanized": "ryōri",
+      "grammarNote": "**料理** (ryōri) = cooking/cuisine/dish.\n**料理する** or **料理をする** = to cook — many hobbies use **〜をする**: **料理をする**, **サッカーをする**.\n**料理するのが好き** — **の** nominalizes **料理する** so **が好き** can follow.",
+      "englishPhrase": "I enjoy cooking.",
+      "phrase": "料理するのが好きです。",
+      "phraseRomanized": "ryōri suru no ga suki desu",
+      "literal": [
+        [
+          "料理する",
+          "cooking"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "gardening",
+      "english": "Gardening",
+      "word": "ガーデニング",
+      "romanized": "gādeningu",
+      "grammarNote": "**ガーデニング** (gādeningu) = loanword from English 'gardening'.\nTraditional Japanese garden work: **庭いじり** (niwa ijiri, tending the garden — informal).\n**リラックスできます** = can relax — **できます** is the polite potential form of **できる** (can/be able to).",
+      "englishPhrase": "Gardening is relaxing.",
+      "phrase": "ガーデニングはリラックスできます。",
+      "phraseRomanized": "gādeningu wa rirakkusu dekimasu",
+      "literal": [
+        [
+          "ガーデニング",
+          "gardening"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "リラックス",
+          "relax"
+        ],
+        [
+          "できます",
+          "can"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hiking",
+      "english": "Hiking",
+      "word": "ハイキング",
+      "romanized": "haikingu",
+      "grammarNote": "**ハイキング** (haikingu) = loanword from English 'hiking'.\n**山でハイキングする** — **で** marks the location where the activity (hiking) happens.\n**〜するのが好き** — **の** nominalizes the verb phrase: 'like the act of doing ~'.",
+      "englishPhrase": "I like hiking in the mountains.",
+      "phrase": "山でハイキングするのが好きです。",
+      "phraseRomanized": "yama de haikingu suru no ga suki desu",
+      "literal": [
+        [
+          "山",
+          "mountains"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "ハイキングする",
+          "hiking"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "running",
+      "english": "Running",
+      "word": "ランニング",
+      "romanized": "ran'ningu",
+      "grammarNote": "**ランニング** (ran'ningu) = loanword from English 'running'.\nAlso: **走る** (hashiru) = to run (the verb).\n**毎朝ランニングする** = run every morning — **毎朝** (maiasa, every morning) is a time adverb placed before the verb.\n**します** after a loanword: many sports and activities use noun + **する**: **ランニングする**, **ジョギングする**.",
+      "englishPhrase": "I run every morning.",
+      "phrase": "毎朝ランニングします。",
+      "phraseRomanized": "maiasa ran'ningu shimasu",
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "ランニング",
+          "running"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "jogging",
+      "english": "Jogging",
+      "word": "ジョギング",
+      "romanized": "jogingu",
+      "grammarNote": "**ジョギング** (jogingu) = loanword from English 'jogging'.\n**公園でジョギングする** — **で** marks where the jogging (an action) takes place.\nMany physical activities follow the pattern: [place] + **で** + [activity] + **します/する**: **公園でジョギングする**, **山でハイキングする**.",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "彼は公園でジョギングします。",
+      "phraseRomanized": "kare wa kōen de jogingu shimasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "ジョギングします",
+          "jogging does"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "biking",
+      "english": "Biking",
+      "word": "サイクリング",
+      "romanized": "saikuringu",
+      "grammarNote": "**サイクリング** (saikuringu) = loanword from English 'cycling'.\n**週末に** — **に** marks a specific time period: **週末に** (on weekends), **毎朝に** (every morning).\n**自転車** (jitensha) = bicycle — the Japanese word: **自** (self) + **転** (roll) + **車** (vehicle) → self-rolling vehicle.",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "週末にサイクリングします。",
+      "phraseRomanized": "shūmatsu ni saikuringu shimasu",
+      "literal": [
+        [
+          "週末",
+          "weekends"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "サイクリング",
+          "cycling"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "swimming",
+      "english": "Swimming",
+      "word": "水泳",
+      "romanized": "suiei",
+      "grammarNote": "**水泳** (suiei) = **水** (sui/mizu, water) + **泳** (ei/oyogu, swimming) → water swimming.\n**泳ぐ** (oyogu) = the verb 'to swim'.\n**水泳が好き** — the noun **水泳** (swimming as a sport/hobby) directly takes **が好き**. Compare: **泳ぐのが好き** (like the act of swimming) — either is natural.",
+      "englishPhrase": "I like swimming.",
+      "phrase": "水泳が好きです。",
+      "phraseRomanized": "suiei ga suki desu",
+      "literal": [
+        [
+          "水泳",
+          "swimming"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "yoga",
+      "english": "Yoga",
+      "word": "ヨガ",
+      "romanized": "yoga",
+      "grammarNote": "**ヨガ** (yoga) = loanword for yoga.\n**ヨガをする** = do yoga — **をする** is the standard pattern for many hobby/activity nouns.\nCompare: **ヨガをする** (do yoga), **料理をする** (cook), **サッカーをする** (play soccer).\n**毎朝** (maiasa) = every morning; **毎日** (mainichi) = every day; **毎週** (maishū) = every week.",
+      "englishPhrase": "She does yoga every morning.",
+      "phrase": "彼女は毎朝ヨガをします。",
+      "phraseRomanized": "kanojo wa maiasa yoga wo shimasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "ヨガ",
+          "yoga"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "does"
+        ]
+      ]
+    },
+    {
+      "id": "exercise",
+      "english": "Exercise",
+      "word": "運動",
+      "romanized": "undō",
+      "grammarNote": "**運動** (undō) = **運** (un, move/carry) + **動** (dō, move/motion) → physical movement.\n**運動する** = to exercise.\n**〜のために** (no tame ni) = for the sake of / for the purpose of: **運動のためにジムに行く** = go to the gym for exercise.",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "運動のためにジムに行きます。",
+      "phraseRomanized": "undō no tame ni jimu ni ikimasu",
+      "literal": [
+        [
+          "運動",
+          "exercise"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "ために",
+          "for sake of"
+        ],
+        [
+          "ジム",
+          "gym"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "traveling",
+      "english": "Traveling",
+      "word": "旅行",
+      "romanized": "ryokō",
+      "grammarNote": "**旅行** (ryokō) = **旅** (tabi/ryo, journey) + **行** (kō, go/travel) → traveling.\n**旅行が大好き** — the noun **旅行** directly takes **が大好き** (love it).\n**旅** (tabi) alone means a journey or trip and is often more poetic: **旅に出る** (set out on a journey).",
+      "englishPhrase": "I love traveling.",
+      "phrase": "旅行が大好きです。",
+      "phraseRomanized": "ryokō ga daisuki desu",
+      "literal": [
+        [
+          "旅行",
+          "traveling"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "camping",
+      "english": "Camping",
+      "word": "キャンプ",
+      "romanized": "kyanpu",
+      "grammarNote": "**キャンプ** (kyanpu) = loanword from English 'camp'.\n**キャンプに行く** = go camping — **に行く** after an activity noun means 'go to do ~': **買い物に行く** (go shopping), **キャンプに行く** (go camping).\n**夏に** — **に** marks the season/time: in summer.",
+      "englishPhrase": "We go camping in the summer.",
+      "phrase": "夏にキャンプに行きます。",
+      "phraseRomanized": "natsu ni kyanpu ni ikimasu",
+      "literal": [
+        [
+          "夏",
+          "summer"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "キャンプ",
+          "camping"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "gaming_video_games",
+      "english": "Gaming (Video games)",
+      "word": "ゲーム",
+      "romanized": "gēmu",
+      "grammarNote": "**ゲーム** (gēmu) = game (loanword). **テレビゲーム** (terebi gēmu) = video game (TV game).\nAlso: **ビデオゲーム** (bideo gēmu).\n**テレビゲームをする** — **をする** is the standard pattern for playing games: **チェスをする** (play chess), **ゲームをする** (play a game).",
+      "englishPhrase": "He plays video games at night.",
+      "phrase": "彼は夜にテレビゲームをします。",
+      "phraseRomanized": "kare wa yoru ni terebi gēmu wo shimasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "夜",
+          "night"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "テレビゲーム",
+          "video games"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "does"
+        ]
+      ]
+    },
+    {
+      "id": "watching_tv",
+      "english": "Watching TV",
+      "word": "テレビを見ること",
+      "romanized": "terebi wo miru koto",
+      "grammarNote": "**テレビを見ること** = the act of watching TV — **こと** nominalizes the verb phrase.\n**映画を見るのが好き** in the example — **の** nominalizes here instead of **こと**. Both work in conversational Japanese.\n**映画** (eiga) = movie: **映** (project/reflect) + **画** (picture) → projected picture.",
+      "englishPhrase": "I like watching movies.",
+      "phrase": "映画を見るのが好きです。",
+      "phraseRomanized": "eiga wo miru no ga suki desu",
+      "literal": [
+        [
+          "映画",
+          "movies"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "見る",
+          "watching"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "listening_to_music",
+      "english": "Listening to music",
+      "word": "音楽を聴くこと",
+      "romanized": "ongaku wo kiku koto",
+      "grammarNote": "**聴く** (kiku) = to listen (attentively, to music/audio). The kanji **聴** shows the ear **耳** plus attention.\n**聞く** (kiku, same pronunciation) = to hear or to ask — broader and less deliberate.\n**〜のが好き** pattern: **音楽を聴くのが好き** = like the act of listening to music.",
+      "englishPhrase": "She likes listening to music.",
+      "phrase": "彼女は音楽を聴くのが好きです。",
+      "phraseRomanized": "kanojo wa ongaku wo kiku no ga suki desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "聴く",
+          "listening"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "crafts",
+      "english": "Crafts",
+      "word": "工作",
+      "romanized": "kōsaku",
+      "grammarNote": "**工作** (kōsaku) = **工** (kō, craft/work) + **作** (saku, make/create) → making things by hand.\n**手芸** (shugei) = needlework/handicrafts (typically sewing, knitting).\n**工作をしています** — **〜をしている** = is doing ~, an ongoing action in progress.",
+      "englishPhrase": "The children are making crafts.",
+      "phrase": "子どもたちは工作をしています。",
+      "phraseRomanized": "kodomotachi wa kōsaku wo shite imasu",
+      "literal": [
+        [
+          "子どもたち",
+          "children"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "工作",
+          "crafts"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "して",
+          "doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chess",
+      "english": "Chess",
+      "word": "チェス",
+      "romanized": "chesu",
+      "grammarNote": "**チェス** (chesu) = loanword from English 'chess'.\n**チェスをする** — **〜をする** is the standard pattern for playing board games and many hobbies.\n**〜をしますか** = do you ~? / would you ~? — a yes/no question about habits or invitations.",
+      "englishPhrase": "Do you play chess?",
+      "phrase": "チェスをしますか？",
+      "phraseRomanized": "chesu wo shimasu ka",
+      "literal": [
+        [
+          "チェス",
+          "chess"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "do"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "board_games",
+      "english": "Board games",
+      "word": "ボードゲーム",
+      "romanized": "bōdo gēmu",
+      "grammarNote": "**ボードゲーム** (bōdo gēmu) = loanword from English 'board game'.\n**週末に** + activity: **に** marks the recurring time (on weekends).\n**ボードゲームをする** — **〜をする** with game nouns: **チェスをする**, **ボードゲームをする**, **将棋をする** (play shogi).",
+      "englishPhrase": "We play board games on weekends.",
+      "phrase": "週末にボードゲームをします。",
+      "phraseRomanized": "shūmatsu ni bōdo gēmu wo shimasu",
+      "literal": [
+        [
+          "週末",
+          "weekends"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "ボードゲーム",
+          "board games"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_work_in_for_as",
+      "english": "To work (in)",
+      "word": "働く",
+      "romanized": "hataraku",
+      "grammarNote": "**働く** (hataraku) = to work (physical or professional labor). Polite: **働きます**.\n**病院で働く** — **で** marks where the work takes place: an action at a location.\n**仕事をする** (shigoto wo suru) is also common: to do one's job.\n**〜ています** describes the ongoing state of being employed: **病院で働いています** = I work at (am employed at) a hospital.",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "病院で働いています。",
+      "phraseRomanized": "byōin de hataraite imasu",
+      "literal": [
+        [
+          "病院",
+          "hospital"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_earn_a_salary",
+      "english": "To earn (a salary)",
+      "word": "稼ぐ",
+      "romanized": "kasegu",
+      "grammarNote": "**稼ぐ** (kasegu) = to earn money. The natural verb for earning income.\n**もらう** (morau) = to receive — used in the example: **給料をもらう** = receive a salary.\n**給料** (kyūryō) = salary: **給** (kyū, provide/supply) + **料** (ryō, fee/amount) → provided amount.",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "彼はいい給料をもらっています。",
+      "phraseRomanized": "kare wa ii kyūryō wo moratte imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "給料",
+          "salary"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "もらって",
+          "receiving"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_retire",
+      "english": "To retire",
+      "word": "退職する",
+      "romanized": "taishoku suru",
+      "grammarNote": "**退職する** (taishoku suru) = to retire/resign from a position.\n**去年** (kyonen) = last year. Time words for recent past: **昨日** (kinō, yesterday), **先週** (senshū, last week), **先月** (sengetsu, last month), **去年** (kyonen, last year).\n**退職しました** is the polite past — the completed action of retiring.",
+      "englishPhrase": "She retired last year.",
+      "phrase": "彼女は去年退職しました。",
+      "phraseRomanized": "kanojo wa kyonen taishoku shimashita",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "去年",
+          "last year"
+        ],
+        [
+          "退職しました",
+          "retired"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_have_a_job",
+      "english": "To have a job",
+      "word": "仕事がある",
+      "romanized": "shigoto ga aru",
+      "grammarNote": "**仕事がある** = have a job — **がある** expresses possession or existence of an inanimate thing.\n**仕事** (shigoto) = work/job: **仕** (ji/shi, serve) + **事** (koto, thing/matter) → serving matter.\nCompare: **いい仕事がある** (have a good job) vs **仕事をしている** (am working) — the first is about possession, the second about the ongoing activity.",
+      "englishPhrase": "I have a good job.",
+      "phrase": "いい仕事があります。",
+      "phraseRomanized": "ii shigoto ga arimasu",
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_be_unemployed",
+      "english": "To be unemployed",
+      "word": "失業している",
+      "romanized": "shitsugyō shite iru",
+      "grammarNote": "**失業** (shitsugyō) = **失** (shitsu, lose) + **業** (gyō, occupation/business) → losing one's occupation.\n**失業している** — the **〜ている** form describes the ongoing state of being unemployed.\n**現在** (genzai) = currently/at present — a more formal adverb. Casual: **今** (ima, now).",
+      "englishPhrase": "He is currently unemployed.",
+      "phrase": "彼は現在失業しています。",
+      "phraseRomanized": "kare wa genzai shitsugyō shite imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "現在",
+          "currently"
+        ],
+        [
+          "失業して",
+          "unemployed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_study",
+      "english": "To study",
+      "word": "勉強する",
+      "romanized": "benkyō suru",
+      "grammarNote": "**勉強** (benkyō) = **勉** (ben, diligence/effort) + **強** (kyō, strong/force) → forcing oneself to be diligent.\n**勉強する** = to study — a **する** verb (noun + する).\n**毎日勉強します** — **毎日** (mainichi) precedes the verb as a time adverb.",
+      "englishPhrase": "I study every day.",
+      "phrase": "毎日勉強します。",
+      "phraseRomanized": "mainichi benkyō shimasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "勉強",
+          "study"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "to_learn",
+      "english": "To learn",
+      "word": "学ぶ",
+      "romanized": "manabu",
+      "grammarNote": "**学ぶ** (manabu) = to learn/study (often more profound or deliberate than **勉強する**).\n**習う** (narau) = to learn from a teacher (by being taught).\n**日本語を勉強しています** in the example uses **勉強する** (study) rather than **学ぶ** — both are correct for language learning.",
+      "englishPhrase": "I'm learning Japanese.",
+      "phrase": "日本語を勉強しています。",
+      "phraseRomanized": "nihongo wo benkyō shite imasu",
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "勉強して",
+          "studying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_practice",
+      "english": "To practice",
+      "word": "練習する",
+      "romanized": "renshū suru",
+      "grammarNote": "**練習** (renshū) = **練** (ren, knead/train) + **習** (shū, learn/practice) → training through repetition.\n**練習する** = to practice — used for skills, music, sports, and language.\n**毎日練習します** — practice described as a regular habit using the **ます** form.",
+      "englishPhrase": "I practice every day.",
+      "phrase": "毎日練習します。",
+      "phraseRomanized": "mainichi renshū shimasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "練習",
+          "practice"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "to_teach",
+      "english": "To teach",
+      "word": "教える",
+      "romanized": "oshieru",
+      "grammarNote": "**教える** (oshieru) = to teach/tell/show. Polite: **教えます** (oshiemasu).\n**教師** (kyōshi) = teacher (as a profession): **教** (kyō, teach) + **師** (shi, master).\n**〜を教える** — the subject being taught takes **を**: **日本語を教える** (teach Japanese).",
+      "englishPhrase": "She teaches Japanese.",
+      "phrase": "彼女は日本語を教えています。",
+      "phraseRomanized": "kanojo wa nihongo wo oshiete imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "教えて",
+          "teaching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_build",
+      "english": "To build",
+      "word": "建てる",
+      "romanized": "tateru",
+      "grammarNote": "**建てる** (tateru) = to build/construct (buildings). Transitive — you build something.\n**建つ** (tatsu) = to be built / to stand (intransitive — a building comes to stand).\n**建設する** (kensetsu suru) = to construct (more formal/large-scale).\n**新しい** (atarashii) = new — an **い**-adjective modifying **学校** directly.",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "新しい学校を建てています。",
+      "phraseRomanized": "atarashii gakkō wo tatete imasu",
+      "literal": [
+        [
+          "新しい",
+          "new"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "建てて",
+          "building"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_fix",
+      "english": "To fix",
+      "word": "直す",
+      "romanized": "naosu",
+      "grammarNote": "**直す** (naosu) = to fix/repair/correct (transitive — you fix something).\n**直る** (naoru) = to be fixed / to get better (intransitive — something fixes itself).\n**直せますか** = can you fix ~? — the potential form **直せる** (naoseru) + **ますか**.\n**これを** — **これ** (this) + **を** marks what is being fixed.",
+      "englishPhrase": "Can you fix this?",
+      "phrase": "これを直せますか？",
+      "phraseRomanized": "kore wo naosemasu ka",
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "直せます",
+          "can fix"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_make",
+      "english": "To make",
+      "word": "作る",
+      "romanized": "tsukuru",
+      "grammarNote": "**作る** (tsukuru) = to make/create. Very versatile — used for food, objects, music, etc.\n**作る** vs **造る** (tsukuru) — same pronunciation, different kanji: **作る** is general; **造る** is for large structures (ships, buildings).\n**コーヒーを作る** — for beverages, **淹れる** (ireru, to brew) is actually more natural than **作る**, but both are understandable.",
+      "englishPhrase": "I make coffee every morning.",
+      "phrase": "毎朝コーヒーを作ります。",
+      "phraseRomanized": "maiasa kōhī wo tsukurimasu",
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "作ります",
+          "make"
+        ]
+      ]
+    },
+    {
+      "id": "to_design",
+      "english": "To design",
+      "word": "デザインする",
+      "romanized": "dezain suru",
+      "grammarNote": "**デザインする** (dezain suru) = to design — a **する** verb using the loanword **デザイン** (design).\n**ウェブサイトをデザインする** — **を** marks what is being designed.\n**〜しています** — the ongoing **〜ている** form: he is designing websites (as his current work).",
+      "englishPhrase": "He designs websites.",
+      "phrase": "彼はウェブサイトをデザインしています。",
+      "phraseRomanized": "kare wa uebusaito wo dezain shite imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ウェブサイト",
+          "websites"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "デザインして",
+          "designing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_sell",
+      "english": "To sell",
+      "word": "売る",
+      "romanized": "uru",
+      "grammarNote": "**売る** (uru) = to sell (transitive). Opposite: **買う** (kau, to buy).\n**売っています** — the **〜ている** form: describes an ongoing occupation (he sells cars as his work).\n**売れる** (ureru) = to sell well / be sold (intransitive): **この車はよく売れる** (this car sells well).",
+      "englishPhrase": "He sells cars.",
+      "phrase": "彼は車を売っています。",
+      "phraseRomanized": "kare wa kuruma wo utte imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "車",
+          "cars"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "売って",
+          "selling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_buy",
+      "english": "To buy",
+      "word": "買う",
+      "romanized": "kau",
+      "grammarNote": "**買う** (kau) = to buy. Polite: **買います** (kaimasu).\n**必要があります** = need to / it is necessary — literally 'the necessity exists'.\nPattern: [verb dictionary form] + **必要があります**: **買う必要があります** = need to buy.",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "新しいコンピューターを買う必要があります。",
+      "phraseRomanized": "atarashii konpyūtā wo kau hitsuyō ga arimasu",
+      "literal": [
+        [
+          "新しい",
+          "new"
+        ],
+        [
+          "コンピューター",
+          "computer"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "買う",
+          "buy"
+        ],
+        [
+          "必要",
+          "necessity"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "to_help",
+      "english": "To help",
+      "word": "助ける",
+      "romanized": "tasukeru",
+      "grammarNote": "**助ける** (tasukeru) = to help/save/rescue (often in emergencies or from difficulty).\n**手伝う** (tetsudau) = to help/assist (with a task) — more everyday assistance.\n**お手伝いしましょうか** = shall I help you? — **お手伝い** is the honorific/polite form of **手伝い** (help/assistance). **しましょうか** = shall I do ~?",
+      "englishPhrase": "Can I help you?",
+      "phrase": "お手伝いしましょうか？",
+      "phraseRomanized": "otetsudai shimashō ka",
+      "literal": [
+        [
+          "お手伝い",
+          "helping"
+        ],
+        [
+          "しましょう",
+          "shall do"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_manage",
+      "english": "To manage",
+      "word": "管理する",
+      "romanized": "kanri suru",
+      "grammarNote": "**管理** (kanri) = **管** (kan, pipe/control) + **理** (ri, reason/manage) → to oversee and control.\n**管理する** = to manage/administer.\n**チームを管理する** — **を** marks what is managed.",
+      "englishPhrase": "She manages the team.",
+      "phrase": "彼女はチームを管理しています。",
+      "phraseRomanized": "kanojo wa chīmu wo kanri shite imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "チーム",
+          "team"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "管理して",
+          "managing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "会う",
+      "romanized": "au",
+      "grammarNote": "**会う** (au) = to meet/encounter. **集まる** (atsumaru) is used in the example — to gather/assemble.\n**毎週月曜日に** — **に** marks the recurring specific day: on Mondays every week.\n**集まります** = gather — used when a group meets as a collective.",
+      "englishPhrase": "We meet every Monday.",
+      "phrase": "毎週月曜日に集まります。",
+      "phraseRomanized": "maishū getsuyōbi ni atsumarimasu",
+      "literal": [
+        [
+          "毎週",
+          "every week"
+        ],
+        [
+          "月曜日",
+          "Monday"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "集まります",
+          "gather"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_start",
+      "english": "To start",
+      "word": "始める",
+      "romanized": "hajimeru",
+      "grammarNote": "**始める** (hajimeru) = to start/begin something (transitive).\n**始まる** (hajimaru) = to start/begin (intransitive — something begins on its own).\n**8時に仕事を始める** — **に** marks the specific time; **を** marks what is being started.",
+      "englishPhrase": "I start work at eight.",
+      "phrase": "8時に仕事を始めます。",
+      "phraseRomanized": "hachiji ni shigoto wo hajimemasu",
+      "literal": [
+        [
+          "8時",
+          "8 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "始めます",
+          "begin"
+        ]
+      ]
+    },
+    {
+      "id": "to_finish",
+      "english": "To finish",
+      "word": "終わる",
+      "romanized": "owaru",
+      "grammarNote": "**終わる** (owaru) = to finish/end (intransitive — the work finishes by itself).\n**終える** (oeru) = to finish something (transitive — you finish it).\n**5時に仕事が終わります** — **が** marks **仕事** (work) as the subject that finishes; the speaker is not finishing it, it finishes on its own.",
+      "englishPhrase": "I finish work at five.",
+      "phrase": "5時に仕事が終わります。",
+      "phraseRomanized": "goji ni shigoto ga owarimasu",
+      "literal": [
+        [
+          "5時",
+          "5 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "終わります",
+          "finishes"
+        ]
+      ]
+    },
+    {
+      "id": "to_like_to_enjoy",
+      "english": "To like",
+      "word": "好き",
+      "romanized": "suki",
+      "grammarNote": "**好き** (suki) is an adjective, not a verb. Pattern: **Xが好きです** (I like X).\n**楽しむ** (tanoshimu) = to enjoy.\nFor activities: **Xするのが好きです** (I like doing X).",
+      "englishPhrase": "I like reading. She likes singing.",
+      "phrase": "読書が好きです。彼女は歌うのが好きです。",
+      "phraseRomanized": "dokusho ga suki desu. kanojo wa utau no ga suki desu",
+      "literal": [
+        [
+          "読書",
+          "reading"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "歌う",
+          "singing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "to_relax",
+      "english": "To relax",
+      "word": "リラックスする",
+      "romanized": "rirakkusu suru",
+      "grammarNote": "**リラックスする** (rirakkusu suru) = to relax — loanword from English 'relax' + **する**.\nNative Japanese equivalent: **くつろぐ** (kutsurogu) = to relax/feel at ease.\n**週末はリラックスします** — **は** marks **週末** (weekends) as the topic: 'as for weekends, I relax'.",
+      "englishPhrase": "I relax on weekends.",
+      "phrase": "週末はリラックスします。",
+      "phraseRomanized": "shūmatsu wa rirakkusu shimasu",
+      "literal": [
+        [
+          "週末",
+          "weekends"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "リラックス",
+          "relax"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "to_spend_time_on",
+      "english": "To spend time (on)",
+      "word": "時間を過ごす",
+      "romanized": "jikan wo sugosu",
+      "grammarNote": "**過ごす** (sugosu) = to spend time / pass time.\n**時間を使う** (jikan wo tsukau) is used in the example: **時間を使う** = use time (spend time on something).\n**読書に** — **に** marks what the time is devoted to: **読書に時間を使う** = use time on reading.",
+      "englishPhrase": "I spend a lot of time reading.",
+      "phrase": "読書にたくさんの時間を使います。",
+      "phraseRomanized": "dokusho ni takusan no jikan wo tsukaimasu",
+      "literal": [
+        [
+          "読書",
+          "reading"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "たくさんの",
+          "much of"
+        ],
+        [
+          "時間",
+          "time"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "使います",
+          "use"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "creative",
+      "english": "Creative",
+      "word": "クリエイティブな",
+      "romanized": "kurietibu na",
+      "grammarNote": "**クリエイティブ** (kurietibu) = loanword for 'creative' — a **な**-adjective.\nNative equivalent: **創造的な** (sōzōteki na) = creative/imaginative — **創造** (sōzō, creation) + **的** (teki, -ive/-al suffix).\nBefore **です** in a predicate, no **な** is needed: **クリエイティブです** (she is creative).",
+      "englishPhrase": "She is very creative.",
+      "phrase": "彼女はとてもクリエイティブです。",
+      "phraseRomanized": "kanojo wa totemo kurietibu desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "クリエイティブ",
+          "creative"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "interesting",
+      "english": "Interesting",
+      "word": "面白い",
+      "romanized": "omoshiroi",
+      "grammarNote": "**面白い** (omoshiroi) = interesting/funny/amusing — an **い**-adjective.\n**面白** = **面** (men, face/surface) + **白** (shiro, white) — etymologically 'bright face', but now means interesting/enjoyable.\n**興味深い** (kyōmi-bukai) = intellectually fascinating/interesting — a more formal synonym.",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "私の仕事は面白いです。",
+      "phraseRomanized": "watashi no shigoto wa omoshiroi desu",
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "面白い",
+          "interesting"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "stressful",
+      "english": "Stressful",
+      "word": "ストレスが多い",
+      "romanized": "sutoresu ga ōi",
+      "grammarNote": "**ストレスが多い** (sutoresu ga ōi) = literally 'stress is much/many' → stressful.\n**多い** (ōi) = many/much — an **い**-adjective used for countable and uncountable quantities.\n**ストレスが多い** is more natural than **ストレスフルな** (loanword stressful) in Japanese speech.",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "私の仕事はストレスが多いです。",
+      "phraseRomanized": "watashi no shigoto wa sutoresu ga ōi desu",
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "多い",
+          "much"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "boring",
+      "english": "Boring",
+      "word": "退屈な",
+      "romanized": "taikutsu na",
+      "grammarNote": "**退屈** (taikutsu) = **退** (tai, retreat/idle) + **屈** (kutsu, bend/submit) → having nothing to do.\n**退屈な** = boring (as a **な**-adjective before a noun).\nIn a predicate: **退屈です** / **退屈でした** (past). Note: in the example, **退屈でした** uses **で** (connective form of **だ**) + **した** (past).",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "会議は退屈でした。",
+      "phraseRomanized": "kaigi wa taikutsu deshita",
+      "literal": [
+        [
+          "会議",
+          "meeting"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "退屈",
+          "boring"
+        ],
+        [
+          "でした",
+          "was"
+        ]
+      ]
+    },
+    {
+      "id": "salary",
+      "english": "Salary",
+      "word": "給料",
+      "romanized": "kyūryō",
+      "grammarNote": "**給料** (kyūryō) = **給** (kyū, supply/provide) + **料** (ryō, fee/amount) → provided payment.\n**いくら** (ikura) = how much (money) — the standard question word for prices and amounts.\n**給料はいくらですか** = what is the salary? (literally: as for salary, how much is it?).",
+      "englishPhrase": "What is the salary?",
+      "phrase": "給料はいくらですか？",
+      "phraseRomanized": "kyūryō wa ikura desu ka",
+      "literal": [
+        [
+          "給料",
+          "salary"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いくら",
+          "how much"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "Schedule",
+      "word": "スケジュール",
+      "romanized": "sukejūru",
+      "grammarNote": "**スケジュール** (sukejūru) = loanword for schedule.\nNative Japanese equivalent: **予定** (yotei) = plan/schedule: **予** (yo, beforehand) + **定** (tei, decide) → advance decision.\n**柔軟** (jūnan) = flexible — a **な**-adjective: **柔** (jū, soft) + **軟** (nan, soft/flexible).",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "私のスケジュールは柔軟です。",
+      "phraseRomanized": "watashi no sukejūru wa jūnan desu",
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "スケジュール",
+          "schedule"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "柔軟",
+          "flexible"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "vacation",
+      "english": "Vacation",
+      "word": "休暇",
+      "romanized": "kyūka",
+      "grammarNote": "**休暇** (kyūka) = **休** (kyū, rest) + **暇** (ka/hima, free time) → rest time/vacation.\n**お盆** (obon) and **年末年始** (nenmatsu nenshi, New Year period) are the major Japanese vacation periods.\n**休暇を取る** = take a vacation — **取る** (toru) here means 'to take' in the sense of taking time off.",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "来週休暇を取ります。",
+      "phraseRomanized": "raishū kyūka wo torimasu",
+      "literal": [
+        [
+          "来週",
+          "next week"
+        ],
+        [
+          "休暇",
+          "vacation"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "取ります",
+          "take"
+        ]
+      ]
+    },
+    {
+      "id": "break",
+      "english": "Break",
+      "word": "休憩",
+      "romanized": "kyūkei",
+      "grammarNote": "**休憩** (kyūkei) = **休** (kyū, rest) + **憩** (kei, relax/rest) → a rest break.\n**休憩する** = to take a break.\n**〜しましょう** = let's do ~: **休憩しましょう** = let's take a break. The **〜ましょう** form invites or proposes an action.",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "休憩しましょう。",
+      "phraseRomanized": "kyūkei shimashō",
+      "literal": [
+        [
+          "休憩",
+          "break"
+        ],
+        [
+          "しましょう",
+          "shall do"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "オフィス",
+      "romanized": "ofisu",
+      "grammarNote": "**オフィス** (ofisu) = loanword for office.\n**オフィスで働く** — **で** marks where the working (an action) happens.\n**会社** (kaisha) = company/firm (the organization); **オフィス** = the physical space.\n**〜ています** describes the ongoing state of employment.",
+      "englishPhrase": "I work in an office.",
+      "phrase": "オフィスで働いています。",
+      "phraseRomanized": "ofisu de hataraite imasu",
+      "literal": [
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "outdoors",
+      "english": "Outdoors",
+      "word": "屋外",
+      "romanized": "okugai",
+      "grammarNote": "**屋外** (okugai) = **屋** (oku/ya, house/roof) + **外** (gai/soto, outside) → outside the building.\nCompare **室内** (shitsunai) = indoors/inside a room.\n**外** (soto) is the casual word for 'outside': **外で遊ぶ** (play outside) — simpler than **屋外**.",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "彼女は屋外で働いています。",
+      "phraseRomanized": "kanojo wa okugai de hataraite imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "屋外",
+          "outdoors"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "interview",
+      "english": "Interview",
+      "word": "面接",
+      "romanized": "mensetsu",
+      "grammarNote": "**面接** (mensetsu) = **面** (men, face) + **接** (setsu, meet/contact) → face-to-face meeting.\n**就職面接** (shūshoku mensetsu) = job interview: **就職** (shūshoku, getting a job).\n**面接があります** = have an interview — **ある** expresses the existence of an event/appointment.",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "明日就職面接があります。",
+      "phraseRomanized": "ashita shūshoku mensetsu ga arimasu",
+      "literal": [
+        [
+          "明日",
+          "tomorrow"
+        ],
+        [
+          "就職面接",
+          "job interview"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "colleague",
+      "english": "Colleague",
+      "word": "同僚",
+      "romanized": "dōryō",
+      "grammarNote": "**同僚** (dōryō) = **同** (dō, same) + **僚** (ryō, colleague/official) → same-rank colleague.\n**たち** (tachi) added to make plural: **同僚たち** (colleagues).\n**親切** (shinsetsu) = kind/friendly — a **な**-adjective: **親切な人** (a kind person), **親切です** (is kind).",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "同僚たちは親切です。",
+      "phraseRomanized": "dōryōtachi wa shinsetsu desu",
+      "literal": [
+        [
+          "同僚たち",
+          "colleagues"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "親切",
+          "friendly"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "Customer",
+      "word": "お客様",
+      "romanized": "okyakusama",
+      "grammarNote": "**お客様** (okyakusama) = **お** (honorific prefix) + **客** (kyaku, guest/customer) + **様** (sama, honorific suffix) → highly honored guest.\n**お客さん** (okyakusan) is less formal but still polite.\n**満足している** (manzoku shite iru) = is satisfied — **満足** (manzoku, satisfaction) + **〜している**.",
+      "englishPhrase": "The client is happy.",
+      "phrase": "お客様は満足しています。",
+      "phraseRomanized": "okyakusama wa manzoku shite imasu",
+      "literal": [
+        [
+          "お客様",
+          "customer"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "満足して",
+          "satisfied"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "team",
+      "english": "Team",
+      "word": "チーム",
+      "romanized": "chīmu",
+      "grammarNote": "**チーム** (chīmu) = loanword from English 'team'.\n**素晴らしい** (subarashii) = wonderful/great — an **い**-adjective.\n**チームで働く** — **で** marks the team as the means/context of working: 'work within a team'.",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "素晴らしいチームで働いています。",
+      "phraseRomanized": "subarashii chīmu de hataraite imasu",
+      "literal": [
+        [
+          "素晴らしい",
+          "wonderful"
+        ],
+        [
+          "チーム",
+          "team"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "project",
+      "english": "Project",
+      "word": "プロジェクト",
+      "romanized": "purojekuto",
+      "grammarNote": "**プロジェクト** (purojekuto) = loanword from English 'project'.\n**もうすぐ** (mōsugu) = soon/almost — a very common temporal adverb.\n**終わります** — the intransitive **終わる** (owaru): the project finishes on its own. Compare: **終えます** (transitive, you finish it).",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "プロジェクトはもうすぐ終わります。",
+      "phraseRomanized": "purojekuto wa mōsugu owarimasu",
+      "literal": [
+        [
+          "プロジェクト",
+          "project"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "もうすぐ",
+          "soon"
+        ],
+        [
+          "終わります",
+          "finishes"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "meeting",
+      "english": "Meeting",
+      "word": "会議",
+      "romanized": "kaigi",
+      "grammarNote": "**会議** (kaigi) = **会** (kai, meeting/gathering) + **議** (gi, deliberate/discuss) → a gathering to deliberate.\n**会議があります** = have a meeting — **ある** expresses the existence of an event.\n**10時に** — **に** marks the specific time: at ten o'clock.",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "10時に会議があります。",
+      "phraseRomanized": "jūji ni kaigi ga arimasu",
+      "literal": [
+        [
+          "10時",
+          "10 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "会議",
+          "meeting"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "free_time",
+      "english": "Free time",
+      "word": "自由時間",
+      "romanized": "jiyū jikan",
+      "grammarNote": "**自由** (jiyū) = **自** (ji, self) + **由** (yū, reason/cause) → self-determined → freedom/liberty.\n**自由な時間** = free time (using **な** since **自由** is a **な**-adjective).\n**自由時間** (as a compound noun) is also used.\n**〜に何をしますか** = what do you do during ~? — **に** marks when the activity occurs.",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "自由な時間に何をしますか？",
+      "phraseRomanized": "jiyū na jikan ni nani wo shimasu ka",
+      "literal": [
+        [
+          "自由な",
+          "free"
+        ],
+        [
+          "時間",
+          "time"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "do"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    }
+  ]
+}

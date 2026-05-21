@@ -1,0 +1,2327 @@
+{
+  "id": "jobs_and_hobbies",
+  "name": "Jobs & Hobbies",
+  "language": "korean",
+  "stories": [
+    "at_work",
+    "weekend_hobbies",
+    "job_interview",
+    "learning_korean"
+  ],
+  "grammarLessons": [
+    {
+      "id": "ayo_eoyo",
+      "name": "아요/어요 — Polite Verb Ending"
+    },
+    {
+      "id": "hal_su_isseoyo",
+      "name": "할 수 있어요 — Can / Able To"
+    },
+    {
+      "id": "eun_neun_i_ga",
+      "name": "은/는 & 이/가 — Topic & Subject Markers"
+    },
+    {
+      "id": "isseoyo_eopseoyo",
+      "name": "있어요 & 없어요 — Have / Don't Have"
+    },
+    {
+      "id": "go_connector",
+      "name": "-고 — And / And Then"
+    },
+    {
+      "id": "ayahaeyo",
+      "name": "-아야/어야 해요 — Must / Have To"
+    },
+    {
+      "id": "boda_comparison",
+      "name": "보다 / 더 — Comparisons"
+    },
+    {
+      "id": "future_geoyeyo",
+      "name": "-(으)ㄹ 거예요 — Future & Intention"
+    }
+  ],
+  "cards": [
+    {
+      "id": "doctor",
+      "english": "Doctor",
+      "word": "의사",
+      "romanized": "uisa",
+      "grammarNote": "Professions are stated directly — no article needed.\n**저는 의사예요** = I am a doctor.\nThe copula **이에요/예요** attaches to the noun: **이에요** after a consonant, **예요** after a vowel.",
+      "englishPhrase": "He is a doctor.",
+      "phrase": "그는 의사예요.",
+      "phraseRomanized": "geuneun uisayeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "의사",
+          "doctor"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "nurse",
+      "english": "Nurse",
+      "word": "간호사",
+      "romanized": "ganhosa",
+      "grammarNote": "**간호사** (ganhosa) = nurse — Sino-Korean: **간호** (看護, care/nursing) + **사** (士, specialist).\nThe **-사** suffix marks many professional titles: **의사** (doctor), **변호사** (lawyer), **요리사** (cook).\n**예요** = copula after a vowel: **간호사예요** = 'is a nurse'.",
+      "englishPhrase": "She is a nurse.",
+      "phrase": "그녀는 간호사예요.",
+      "phraseRomanized": "geunyeoneun ganhosayeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "간호사",
+          "nurse"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "engineer",
+      "english": "Engineer",
+      "word": "엔지니어",
+      "romanized": "enjinieo",
+      "grammarNote": "**엔지니어** (enjinieo) is a loanword from English — the most common term in modern Korean.\nThe native Sino-Korean term is **기술자** (gisulcha) = technician/engineer.\n**오빠** (oppa) = older brother (used by females) — the term differs by gender of speaker.\n**예요** = copula after a vowel ending: **엔지니어예요**.",
+      "englishPhrase": "My brother is an engineer.",
+      "phrase": "오빠는 엔지니어예요.",
+      "phraseRomanized": "oppaneun enjinieoyeyo",
+      "literal": [
+        [
+          "오빠",
+          "older-brother"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "엔지니어",
+          "engineer"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "programmer",
+      "english": "Programmer",
+      "word": "프로그래머",
+      "romanized": "peurogeuraeмео",
+      "grammarNote": "**프로그래머** (peurogeuraeмео) is a loanword from English.\n**로/으로** = 'as / in the role of': **프로그래머로 일해요** = 'work as a programmer'.\nUse **으로** after a consonant and **로** after a vowel or ㄹ — **프로그래머** ends in a vowel, so **로**.\n**일하다** (ilhada) = to work — a **하다** compound verb: **일** (work) + **하다** (to do).",
+      "englishPhrase": "I work as a programmer.",
+      "phrase": "저는 프로그래머로 일해요.",
+      "phraseRomanized": "jeoneun peuroguraemerо ilhaeyo",
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "프로그래머",
+          "programmer"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "Cook",
+      "word": "요리사",
+      "romanized": "yorisa",
+      "grammarNote": "**요리사** (yorisa) = cook/chef — **요리** (cooking) + **사** (士, specialist).\n**주방** (jubang) = kitchen (formal/professional setting); **부엌** (bueok) = kitchen (home setting).\n**에서** after a place = where an action takes place: **주방에서 일해요** = 'works in the kitchen'.\n**요리** also means 'cuisine/dish' — context clarifies: **한국 요리** (Korean cuisine), **요리사** (the cook).",
+      "englishPhrase": "The cook works in the kitchen.",
+      "phrase": "요리사는 주방에서 일해요.",
+      "phraseRomanized": "yorisaneun jubangeseo ilhaeyo",
+      "literal": [
+        [
+          "요리사",
+          "cook"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "주방",
+          "kitchen"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "waiter_waitress",
+      "english": "Waiter (Waitress)",
+      "word": "웨이터",
+      "romanized": "weiteo",
+      "grammarNote": "**웨이터** (weiteo) is a loanword — common for upscale restaurants.\nIn everyday Korean eateries, use **직원** (jigwon, staff) or call out **저기요!** (jeogiyo, excuse me!).\n**가** = subject marker after a vowel: **웨이터가**.\n**가져오다** = to bring: **가** (go) + **져** + **오다** (come) — come bringing something.",
+      "englishPhrase": "The waiter brought the menu.",
+      "phrase": "웨이터가 메뉴를 가져왔어요.",
+      "phraseRomanized": "weiteo-ga menyureul gajyeowasseoyo",
+      "literal": [
+        [
+          "웨이터",
+          "waiter"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가져왔어요",
+          "brought"
+        ]
+      ]
+    },
+    {
+      "id": "manager",
+      "english": "Manager",
+      "word": "매니저",
+      "romanized": "maeniжео",
+      "grammarNote": "**매니저** (maeniжео) is a loanword from English — used in business and entertainment.\nThe Sino-Korean equivalent is **관리자** (gwallija) = administrator/manager.\n**예요** = copula after a vowel: **매니저예요** = 'is a manager'.\n**그녀** (geunyeo) = 'she' — a pronoun used mainly in writing; in speech, Koreans often omit the pronoun when context is clear.",
+      "englishPhrase": "She is a manager.",
+      "phrase": "그녀는 매니저예요.",
+      "phraseRomanized": "geunyeoneun maenijyeoyeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매니저",
+          "manager"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "student",
+      "english": "Student",
+      "word": "학생",
+      "romanized": "haksaeng",
+      "grammarNote": "**학생** (haksaeng) = student — Sino-Korean: **학** (學, study/learn) + **생** (生, person/born).\n**이에요** = copula after a consonant: **학생이에요** = 'is a student'.\n**대학생** (daehaksaeng) = university student; **고등학생** = high school student; **중학생** = middle school student.\nStudents are addressed respectfully in Korean — even a young student receives **씨** in formal contexts.",
+      "englishPhrase": "I am a student.",
+      "phrase": "저는 학생이에요.",
+      "phraseRomanized": "jeoneun haksaengieyo",
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "학생",
+          "student"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "architect",
+      "english": "Architect",
+      "word": "건축가",
+      "romanized": "geonchukga",
+      "grammarNote": "**건축가** (geonchukga) = architect — Sino-Korean: **건축** (建築, construction/architecture) + **가** (家, expert/specialist).\nThe **-가** suffix marks artistic or intellectual experts: **음악가** (musician), **작가** (writer), **화가** (painter).\nContrast with **-사** (士) used for licensed professionals: **의사**, **변호사**.\n**예요** = copula after a vowel: **건축가예요**.",
+      "englishPhrase": "He is an architect.",
+      "phrase": "그는 건축가예요.",
+      "phraseRomanized": "geuneun geonchukgayeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "건축가",
+          "architect"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "lawyer",
+      "english": "Lawyer",
+      "word": "변호사",
+      "romanized": "byeonhosa",
+      "grammarNote": "**변호사** (byeonhosa) = lawyer — Sino-Korean: **변호** (辯護, defense/advocacy) + **사** (士, specialist).\n**언니** (eonni) = older sister (used by females); **누나** (nuna) = older sister (used by males).\nIn Korean, sibling terms depend on both the older sibling's gender AND the speaker's gender.\n**예요** = copula after a vowel: **변호사예요**.",
+      "englishPhrase": "My sister is a lawyer.",
+      "phrase": "언니는 변호사예요.",
+      "phraseRomanized": "eonnineun byeonhosayeyo",
+      "literal": [
+        [
+          "언니",
+          "older-sister"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "변호사",
+          "lawyer"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "baseball",
+      "english": "baseball",
+      "word": "야구",
+      "romanized": "yagu",
+      "grammarNote": "**야구** (yagu) = baseball — Sino-Korean: **야** (野, field) + **구** (球, ball).\nBaseball is one of Korea's most popular sports — Korean pro league is **KBO**.\n**보는 걸** = 'watching (as an object)': **보다** (watch) nominalised with **-는 것** → contracted to **-는 걸**.\n**좋아하다** = to like: **보는 걸 좋아해요** = 'like watching'.",
+      "englishPhrase": "I enjoy watching baseball.",
+      "phrase": "야구 보는 걸 좋아해요.",
+      "phraseRomanized": "yagu boneun geol joahaeyo",
+      "literal": [
+        [
+          "야구",
+          "baseball"
+        ],
+        [
+          "보는",
+          "watching"
+        ],
+        [
+          "걸",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "retired_person",
+      "english": "Retired Person",
+      "word": "은퇴자",
+      "romanized": "euntoeja",
+      "grammarNote": "**은퇴자** (euntoeja) = retired person: **은퇴** (隱退, retirement) + **자** (者, person).\n**은퇴하다** (euntoehada) = to retire — a **하다** verb.\n**아버지** (abeoji) = father (formal); **아빠** (appa) = dad (casual/affectionate).\n**은퇴했어요** = 'has retired' — past tense expressing a completed state change.",
+      "englishPhrase": "My father is retired.",
+      "phrase": "아버지는 은퇴했어요.",
+      "phraseRomanized": "abeojineun euntoehaesseoyo",
+      "literal": [
+        [
+          "아버지",
+          "father"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "은퇴했어요",
+          "retired"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "reading",
+      "english": "Reading",
+      "word": "독서",
+      "romanized": "dokseo",
+      "grammarNote": "**독서** (dokseo) = reading (as a hobby) — Sino-Korean: **독** (讀, read) + **서** (書, book).\n**책을 읽다** (chaegeul ikda) = to read a book — the verb-based phrase, more common in speech.\n**독서를 좋아해요** = 'like reading' — **를** = object marker after a vowel.\n**독서실** (dokseosil) = study room — a very common paid quiet-study space in Korea.",
+      "englishPhrase": "I like reading.",
+      "phrase": "독서를 좋아해요.",
+      "phraseRomanized": "dokseoreul joahaeyo",
+      "literal": [
+        [
+          "독서",
+          "reading"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "writing",
+      "english": "Writing",
+      "word": "글쓰기",
+      "romanized": "geulsseuggi",
+      "grammarNote": "**글쓰기** (geulsseuggi) = writing — compound: **글** (text/writing) + **쓰기** (the act of writing, from **쓰다**).\n**글** = any piece of writing; **글쓰기** = the activity/hobby of writing.\n**이야기 쓰는 걸 좋아해요** = 'likes writing stories' — **쓰는 걸** nominalises the action.\n**-기** and **-는 것/걸** both nominalise verbs; **-는 걸** is more common with **좋아하다**.",
+      "englishPhrase": "She likes writing stories.",
+      "phrase": "그녀는 이야기 쓰는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun iyagi sseuneun geol joahaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "이야기",
+          "story"
+        ],
+        [
+          "쓰는 걸",
+          "writing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "painting",
+      "english": "Painting",
+      "word": "그림 그리기",
+      "romanized": "geurim geurigi",
+      "grammarNote": "**그림 그리기** (geurim geurigi) = painting/drawing — literally 'the drawing of pictures'.\n**그림** (geurim) = picture/painting; **그리기** = the act of drawing (nominalised **그리다**).\n**그림을 그리다** = to draw/paint a picture — **그리다** means both draw and paint.\n**그리는 걸 좋아해요** = 'likes drawing' — nominalised with **-는 걸** for use with **좋아하다**.",
+      "englishPhrase": "He loves painting.",
+      "phrase": "그는 그림 그리는 걸 좋아해요.",
+      "phraseRomanized": "geuneun geurim geurineun geol joahaeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "그림",
+          "picture"
+        ],
+        [
+          "그리는 걸",
+          "drawing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "drawing",
+      "english": "Drawing",
+      "word": "그림 그리기",
+      "romanized": "geurim geurigi",
+      "grammarNote": "**그림 그리기** (geurim geurigi) = drawing — identical word to 'painting' in Korean.\n**스케치하다** (seukechiada) = to sketch — a loanword used for pencil/line drawing.\n**그림 그리는 걸 좋아해요** = 'I like drawing' — **-는 걸** nominalises the action for use after **좋아하다**.\nKorea has a strong webtoon (웹툰) culture — **웹툰 작가** = webtoon artist.",
+      "englishPhrase": "I like drawing.",
+      "phrase": "그림 그리는 걸 좋아해요.",
+      "phraseRomanized": "geurim geurineun geol joahaeyo",
+      "literal": [
+        [
+          "그림",
+          "picture"
+        ],
+        [
+          "그리는 걸",
+          "drawing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "photography",
+      "english": "Photography",
+      "word": "사진 촬영",
+      "romanized": "sajin chwallyeong",
+      "grammarNote": "**사진 촬영** (sajin chwallyeong) = photography — **사진** (photograph) + **촬영** (shooting/filming).\n**사진 찍기** (sajin jjikgi) = the act of taking photos — **찍다** (to take a photo/stamp).\n**사진을 찍다** = to take a photo; **사진이 잘 나오다** = 'the photo came out well'.\n**취미** (chwimi) = hobby: **취미예요** = 'it is my hobby'.",
+      "englishPhrase": "Photography is my hobby.",
+      "phrase": "사진 찍기가 취미예요.",
+      "phraseRomanized": "sajin jjikgiga chwimiyeyo",
+      "literal": [
+        [
+          "사진",
+          "photo"
+        ],
+        [
+          "찍기",
+          "taking"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "취미",
+          "hobby"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "music",
+      "english": "Music",
+      "word": "음악",
+      "romanized": "eumak",
+      "grammarNote": "**음악** (eumak) = music — Sino-Korean: **음** (音, sound) + **악** (樂, music/pleasure).\n**음악을 듣다** = to listen to music — **듣다** (to listen) is an irregular ㄷ verb: **들어요**.\n**음악을 하다** = to play/make music (more general); **악기를 연주하다** = to play an instrument.\n**매일** = every day — does not take the **에** particle.",
+      "englishPhrase": "I listen to music every day.",
+      "phrase": "매일 음악을 들어요.",
+      "phraseRomanized": "maeil eumag-eul deoreoyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "들어요",
+          "listen"
+        ]
+      ]
+    },
+    {
+      "id": "singing",
+      "english": "Singing",
+      "word": "노래",
+      "romanized": "norae",
+      "grammarNote": "**노래** (norae) = song OR singing — the word covers both the noun (a song) and the activity.\n**노래를 부르다** = to sing — **부르다** (to call/sing) is the specific verb for singing.\n**노래하다** = to sing (as a verb, slightly more formal).\n**노래방** (noraebangs) = karaoke room — **노래** (song) + **방** (room) — a quintessential Korean social activity.",
+      "englishPhrase": "She loves singing.",
+      "phrase": "그녀는 노래 부르는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun norae bureoneun geol joahaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "노래",
+          "singing"
+        ],
+        [
+          "부르는 걸",
+          "singing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "playing_an_instrument_e_g_guitar",
+      "english": "Playing an instrument (e.g., Guitar)",
+      "word": "악기 연주",
+      "romanized": "akgi yeonju",
+      "grammarNote": "The verb 'to play' varies by instrument type:\n**치다** for string/keyboard: **기타를 쳐요** (I play guitar), **드럼을 쳐요** (I play drums).\n**불다** for wind instruments: **플루트를 불어요** (I play flute).",
+      "englishPhrase": "I play the guitar.",
+      "phrase": "기타를 쳐요.",
+      "phraseRomanized": "gitareul chyeoyo",
+      "literal": [
+        [
+          "기타",
+          "guitar"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "쳐요",
+          "play"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "dancing",
+      "english": "Dancing",
+      "word": "춤",
+      "romanized": "chum",
+      "grammarNote": "**춤** (chum) = dance (the noun); **춤을 추다** = to dance — **추다** is the dedicated verb for dancing.\n**춤추는 걸 좋아해요** = 'like dancing' — **-는 걸** nominalises the action for **좋아하다**.\n**저희** (jeohui) = 'we/our' — the humble/formal form of **우리** (uri), used in polite contexts.\nK-pop idol dance culture has made **댄스** (daenseu, dance loanword) equally common.",
+      "englishPhrase": "We love dancing.",
+      "phrase": "저희는 춤 추는 걸 좋아해요.",
+      "phraseRomanized": "jeohuineun chum chuneun geol joahaeyo",
+      "literal": [
+        [
+          "저희",
+          "we"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "춤",
+          "dancing"
+        ],
+        [
+          "추는 걸",
+          "dancing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "cooking",
+      "english": "Cooking",
+      "word": "요리",
+      "romanized": "yori",
+      "grammarNote": "**요리** (yori) = cooking (noun) OR a cooked dish — **요리하다** (to cook) adds **하다**.\n**요리하는 걸 좋아해요** = 'I enjoy cooking' — nominalised with **-하는 걸** for use with **좋아하다**.\n**요리사** (yorisa) = cook/chef: **요리** + **사** (specialist suffix).\n**집밥** (jipbap) = home cooking — one of the most culturally warm food words in Korean.",
+      "englishPhrase": "I enjoy cooking.",
+      "phrase": "요리하는 걸 좋아해요.",
+      "phraseRomanized": "yorihaneun geol joahaeyo",
+      "literal": [
+        [
+          "요리하는 걸",
+          "cooking[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "gardening",
+      "english": "Gardening",
+      "word": "원예",
+      "romanized": "wonyе",
+      "grammarNote": "**원예** (wonye) = horticulture/gardening — Sino-Korean: **원** (園, garden) + **예** (藝, art/skill).\n**텃밭 가꾸기** = vegetable garden tending — a common hobby phrase.\n**힐링이 돼요** = 'becomes healing / is therapeutic' — **힐링** (healing loanword) + **되다** (to become).\n**은** = topic marker after a consonant: **원예는** sets gardening as the topic.",
+      "englishPhrase": "Gardening is relaxing.",
+      "phrase": "원예는 힐링이 돼요.",
+      "phraseRomanized": "wonyeneun hilring-i dwaeyo",
+      "literal": [
+        [
+          "원예",
+          "gardening"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "힐링",
+          "healing"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "돼요",
+          "becomes"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hiking",
+      "english": "Hiking",
+      "word": "하이킹",
+      "romanized": "haiking",
+      "grammarNote": "**하이킹** (haiking) is a loanword from English.\n**등산** (deungsan) = mountain hiking — native Sino-Korean: **등** (登, climb) + **산** (山, mountain). More common in Korean for serious hiking.\n**에서** after a location = where an action takes place: **산에서 하이킹하는 걸** = 'hiking in the mountains'.\nKorea is about 70% mountainous — hiking is one of the most popular national pastimes.",
+      "englishPhrase": "I like hiking in the mountains.",
+      "phrase": "산에서 하이킹하는 걸 좋아해요.",
+      "phraseRomanized": "saneseo haikinghaneun geol joahaeyo",
+      "literal": [
+        [
+          "산",
+          "mountain"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "하이킹하는 걸",
+          "hiking[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "running",
+      "english": "Running",
+      "word": "달리기",
+      "romanized": "dalligi",
+      "grammarNote": "**달리기** (dalligi) = running (the activity) — **달리다** (to run) + **-기** (nominaliser).\n**달려요** = 'run' (polite present) — the verb form of **달리다**.\n**뛰다** (ttwida) = to jump/run — a more general verb; **달리다** is specifically for sustained running.\n**매일 아침** = every morning — **매일** (every day) + **아침** (morning), no particle needed.",
+      "englishPhrase": "I run every morning.",
+      "phrase": "매일 아침 달려요.",
+      "phraseRomanized": "maeil achim dallyeoyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "달려요",
+          "run"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "jogging",
+      "english": "Jogging",
+      "word": "조깅",
+      "romanized": "joging",
+      "grammarNote": "**조깅** (joging) is a loanword from English.\n**조깅하다** = to jog — a **하다** compound: **조깅** + **하다**.\n**에서** after a location = where an action takes place: **공원에서 조깅해요** = 'jogs in the park'.\n**공원** (gongwon) = park — Sino-Korean: **공** (公, public) + **원** (園, garden).",
+      "englishPhrase": "He jogs in the park.",
+      "phrase": "그는 공원에서 조깅해요.",
+      "phraseRomanized": "geuneun gongwoneseo joginghaeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "조깅해요",
+          "jog"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "biking",
+      "english": "Biking",
+      "word": "자전거 타기",
+      "romanized": "jajeongeo tagi",
+      "grammarNote": "**자전거** (jajeongeo) = bicycle — Sino-Korean: **자** (自, self) + **전** (轉, turn) + **거** (車, vehicle) — 'self-turning vehicle'.\n**타다** (tada) = to ride — used for all vehicles: **자전거를 타다** (ride a bike), **버스를 타다** (take a bus).\n**주말에** = 'on weekends' — **에** marks a recurring time point.\n**타기** = the act of riding (nominalised).",
+      "englishPhrase": "I go biking on weekends.",
+      "phrase": "주말에 자전거를 타요.",
+      "phraseRomanized": "jumare jajeongeo reul tayo",
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "자전거",
+          "bicycle"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "타요",
+          "ride"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "swimming",
+      "english": "Swimming",
+      "word": "수영",
+      "romanized": "suyeong",
+      "grammarNote": "**수영** (suyeong) = swimming — Sino-Korean: **수** (水, water) + **영** (泳, swim).\n**수영하다** = to swim; **수영을 좋아해요** = 'like swimming' — **을** = object marker after a consonant.\n**수영장** (suyeongjang) = swimming pool — **수영** + **장** (場, place/venue).\n**수영복** (suyeongbok) = swimsuit — **수영** + **복** (服, clothing).",
+      "englishPhrase": "I like swimming.",
+      "phrase": "수영을 좋아해요.",
+      "phraseRomanized": "suyeong-eul joahaeyo",
+      "literal": [
+        [
+          "수영",
+          "swimming"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "yoga",
+      "english": "Yoga",
+      "word": "요가",
+      "romanized": "yoga",
+      "grammarNote": "**요가** (yoga) is a loanword from Sanskrit/English.\n**요가를 하다** = to do yoga — **하다** is used with many sport/activity loanwords.\n**매일 아침** = every morning — time adverb compound, no particle needed.\n**요가복** (yogabok) = yoga wear — **요가** + **복** (服, clothing).",
+      "englishPhrase": "She does yoga every morning.",
+      "phrase": "그녀는 매일 아침 요가를 해요.",
+      "phraseRomanized": "geunyeoneun maeil achim yogareul haeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "요가",
+          "yoga"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "exercise",
+      "english": "Exercise",
+      "word": "운동",
+      "romanized": "undong",
+      "grammarNote": "**운동** (undong) = exercise/sports — Sino-Korean: **운** (運, move) + **동** (動, motion).\n**운동하러** = 'in order to exercise' — **-하러** is the purposive form: going somewhere to do something.\n**헬스장** (helseujanг) = gym/health club — **헬스** (health loanword) + **장** (場, place).\n**운동하다** (to exercise) is a **하다** verb: **운동해요** (I exercise).",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "운동하러 헬스장에 가요.",
+      "phraseRomanized": "undonghareo helseujanге gayo",
+      "literal": [
+        [
+          "운동하러",
+          "exercise-to"
+        ],
+        [
+          "헬스장",
+          "gym"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "traveling",
+      "english": "Traveling",
+      "word": "여행",
+      "romanized": "yeohaeng",
+      "grammarNote": "**여행** (yeohaeng) = travel — Sino-Korean: **여** (旅, journey) + **행** (行, go/travel).\n**여행하다** = to travel; **여행을 가다** = to go on a trip.\n**여행을 정말 좋아해요** = 'I really love traveling' — **을** = object marker after a consonant.\n**여행사** (yeohaengsa) = travel agency — **여행** + **사** (社, company).",
+      "englishPhrase": "I love traveling.",
+      "phrase": "여행을 정말 좋아해요.",
+      "phraseRomanized": "yeohaeng-eul jeongmal joahaeyo",
+      "literal": [
+        [
+          "여행",
+          "travel"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "camping",
+      "english": "Camping",
+      "word": "캠핑",
+      "romanized": "kaemping",
+      "grammarNote": "**캠핑** (kaemping) is a loanword from English — extremely popular in modern Korea.\n**캠핑을 가다** = to go camping — **을** = object marker after a consonant.\n**여름에** = 'in summer' — **여름** (summer) + **에** (time marker for seasons).\n**글램핑** (geullaemping) = glamping — also common, mixing luxury with outdoor camping.",
+      "englishPhrase": "We go camping in the summer.",
+      "phrase": "여름에 캠핑을 가요.",
+      "phraseRomanized": "yeoreume kaemping-eul gayo",
+      "literal": [
+        [
+          "여름",
+          "summer"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "캠핑",
+          "camping"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "gaming_video_games",
+      "english": "Gaming (Video games)",
+      "word": "게임",
+      "romanized": "geim",
+      "grammarNote": "**게임** (geim) is a loanword from English — Korea is a global leader in esports and gaming culture.\n**게임을 하다** = to play games — **하다** is used with activity loanwords.\n**밤에** = 'at night' — **밤** (night) + **에** (time particle for specific times).\n**PC방** (pissi bang) = PC café — **방** (room) — a uniquely Korean gaming social space.",
+      "englishPhrase": "He plays video games at night.",
+      "phrase": "그는 밤에 비디오 게임을 해요.",
+      "phraseRomanized": "geuneun bame bidio geim-eul haeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "밤",
+          "night"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "비디오 게임",
+          "video game"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "watching_tv",
+      "english": "Watching TV",
+      "word": "TV 보기",
+      "romanized": "tivi bogi",
+      "grammarNote": "**TV 보기** = watching TV — **보기** is the nominalised form of **보다** (to watch/see).\n**영화** (yeonghwa) = movie — Sino-Korean: **영** (映, reflect/project) + **화** (畵, picture).\n**보는 걸 좋아해요** = 'like watching' — **-는 걸** nominalises **보다** for use with **좋아하다**.\n**OTT** services like Netflix are called **OTT** or **온라인 동영상 서비스** in Korean.",
+      "englishPhrase": "I like watching movies.",
+      "phrase": "영화 보는 걸 좋아해요.",
+      "phraseRomanized": "yeonghwa boneun geol joahaeyo",
+      "literal": [
+        [
+          "영화",
+          "movie"
+        ],
+        [
+          "보는 걸",
+          "watching[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "listening_to_music",
+      "english": "Listening to music",
+      "word": "음악 듣기",
+      "romanized": "eumak deutgi",
+      "grammarNote": "**음악 듣기** = listening to music — **듣기** is the nominalised form of **듣다** (to listen).\n**듣다** is an irregular ㄷ verb: the ㄷ changes to 르 before vowels — **들어요** (listen), **들었어요** (listened).\n**듣는 걸 좋아해요** = 'likes listening' — **-는 걸** nominalises for use with **좋아하다**.\n**K-pop** = **케이팝** — Korea's globally exported music genre.",
+      "englishPhrase": "She likes listening to music.",
+      "phrase": "그녀는 음악 듣는 걸 좋아해요.",
+      "phraseRomanized": "geunyeoneun eumak deutneun geol joahaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "듣는 걸",
+          "listening[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "crafts",
+      "english": "Crafts",
+      "word": "공예",
+      "romanized": "gongye",
+      "grammarNote": "**공예** (gongye) = crafts/handicrafts — Sino-Korean: **공** (工, work/craft) + **예** (藝, art/skill).\n**공예품** (gongyepum) = craft item/handmade product — **공예** + **품** (品, item).\n**하고 있어요** = 'is doing' — present progressive: **하다** + **-고 있다**.\n**아이들이** — **들** = plural suffix; **이** = subject marker after a consonant.",
+      "englishPhrase": "The children are making crafts.",
+      "phrase": "아이들이 공예 활동을 하고 있어요.",
+      "phraseRomanized": "aideuri gongye hwaldong-eul hago isseoyo",
+      "literal": [
+        [
+          "아이들",
+          "children"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "공예",
+          "craft"
+        ],
+        [
+          "활동",
+          "activity"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "하고 있어요",
+          "doing"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chess",
+      "english": "Chess",
+      "word": "체스",
+      "romanized": "cheseu",
+      "grammarNote": "**체스** (cheseu) is a loanword from English.\nThe Korean board game equivalent is **바둑** (baduk) = Go — a deeply traditional Korean strategy game.\n**두다** (duda) = to play (board games) — the specific verb for chess, Go, and checkers.\n**두세요?** = 'do you play?' — **-세요** is the honorific imperative/question form of **하다**-type verbs here.",
+      "englishPhrase": "Do you play chess?",
+      "phrase": "체스 두세요?",
+      "phraseRomanized": "cheseu duseyo",
+      "literal": [
+        [
+          "체스",
+          "chess"
+        ],
+        [
+          "두세요",
+          "play"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "board_games",
+      "english": "Board games",
+      "word": "보드게임",
+      "romanized": "bodeugeim",
+      "grammarNote": "**보드게임** (bodeugeim) is a loanword compound: **보드** (board) + **게임** (game).\n**보드게임을 하다** = to play board games — **하다** is used with most game loanwords.\n**주말에** = 'on weekends' — **에** marks a recurring time point.\n**을** = object marker after a consonant: **보드게임을**.",
+      "englishPhrase": "We play board games on weekends.",
+      "phrase": "주말에 보드게임을 해요.",
+      "phraseRomanized": "jumare bodeugeim-eul haeyo",
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "보드게임",
+          "board-game"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_work_in_for_as",
+      "english": "To work (in)",
+      "word": "일하다",
+      "romanized": "ilhada",
+      "grammarNote": "**일하다** (ilhada) = to work — **일** (work) + **하다** (to do).\n**에서** after a workplace = where an action takes place: **병원에서 일해요** = 'work at a hospital'.\n**로/으로** after a job = 'as a': **의사로 일해요** = 'work as a doctor'.\n**일** alone = work (noun): **일이 많아요** (there is a lot of work).",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "병원에서 일해요.",
+      "phraseRomanized": "byeongwoneseo ilhaeyo",
+      "literal": [
+        [
+          "병원",
+          "hospital"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "to_earn_a_salary",
+      "english": "To earn (a salary)",
+      "word": "벌다",
+      "romanized": "beolda",
+      "grammarNote": "**벌다** (beolda) = to earn (money) — used specifically for earning income.\n**월급을 받다** (wolgebeul batda) = to receive a salary — **받다** (receive) is actually more natural than **벌다** in this context.\n**월급** (wolgeup) = monthly salary — Sino-Korean: **월** (月, month) + **급** (給, pay).\n**잘** = well: **잘 받아요** = 'receives well / earns well'.",
+      "englishPhrase": "He earns a good salary.",
+      "phrase": "그는 월급을 잘 받아요.",
+      "phraseRomanized": "geuneun wolgeub-eul jal badayo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "월급",
+          "salary"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "받아요",
+          "receive"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_retire",
+      "english": "To retire",
+      "word": "은퇴하다",
+      "romanized": "euntoehada",
+      "grammarNote": "**은퇴하다** (euntoehada) = to retire — **은퇴** (隱退, stepping back/retiring) + **하다**.\n**작년** (jangnyeon) = last year — Sino-Korean: **작** (昨, last/previous) + **년** (年, year).\n**에** after a time period = 'in/during': **작년에** = 'last year'.\n**은퇴했어요** = 'retired' — past tense of **은퇴하다**.",
+      "englishPhrase": "She retired last year.",
+      "phrase": "그녀는 작년에 은퇴했어요.",
+      "phraseRomanized": "geunyeoneun jangnyeone euntoehaesseoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "작년",
+          "last-year"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "은퇴했어요",
+          "retired"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_have_a_job",
+      "english": "To have a job",
+      "word": "직업이 있다",
+      "romanized": "jigeob-i itda",
+      "grammarNote": "**직업** (jigeoб) = job/occupation — Sino-Korean: **직** (職, position/duty) + **업** (業, work/business).\n**있다** (itda) = to exist/have — **직업이 있다** = 'a job exists' = 'I have a job'.\n**좋은 직업이 있어요** = 'I have a good job' — **이** = subject marker after a consonant.\n**직업** is more formal than **일** (work); use **직업이 뭐예요?** = 'what is your occupation?'",
+      "englishPhrase": "I have a good job.",
+      "phrase": "좋은 직업이 있어요.",
+      "phraseRomanized": "joeun jigeob-i isseoyo",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "직업",
+          "job"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_be_unemployed",
+      "english": "To be unemployed",
+      "word": "실직 상태이다",
+      "romanized": "siljik sangtaeidа",
+      "grammarNote": "**실직** (siljik) = unemployment/job loss — Sino-Korean: **실** (失, lose) + **직** (職, position).\n**상태** (sangtae) = state/condition — **실직 상태** = 'state of being unemployed'.\n**현재** (hyeonjae) = currently/at present — Sino-Korean: **현** (現, present) + **재** (在, exist).\n**취업** (chwieop) = employment/getting a job — the positive counterpart: **취업했어요** = 'got a job'.",
+      "englishPhrase": "He is currently unemployed.",
+      "phrase": "그는 현재 실직 상태예요.",
+      "phraseRomanized": "geuneun hyeonjae siljik sangtaeyeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "현재",
+          "currently"
+        ],
+        [
+          "실직",
+          "unemployed"
+        ],
+        [
+          "상태",
+          "state"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_study",
+      "english": "To study",
+      "word": "공부하다",
+      "romanized": "gongbuhada",
+      "grammarNote": "**공부하다** (gongbuhada) = to study — **공부** (工夫/工夫, study effort) + **하다**.\n**공부해요** = polite present form — **하다** verbs follow the **해요** pattern.\n**공부** alone = studying (noun): **공부가 힘들어요** = 'studying is hard'.\n**매일 공부해요** = 'I study every day' — **매일** = every day (no particle needed).",
+      "englishPhrase": "I study every day.",
+      "phrase": "매일 공부해요.",
+      "phraseRomanized": "maeil gongbuhaeyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ]
+    },
+    {
+      "id": "to_learn",
+      "english": "To learn",
+      "word": "배우다",
+      "romanized": "baeuda",
+      "grammarNote": "**배우다** (baeuda) = to learn — native Korean verb.\n**공부하다** = to study (emphasises effort); **배우다** = to learn (emphasises acquisition).\n**배우고 있어요** = 'am learning' — present progressive: **배우다** + **-고 있다**.\n**한국어** (hangugeo) = Korean language — **를** = object marker after a vowel.",
+      "englishPhrase": "I'm learning Korean.",
+      "phrase": "한국어를 배우고 있어요.",
+      "phraseRomanized": "hangugеoreul baeуgo isseoyo",
+      "literal": [
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "배우고 있어요",
+          "learning"
+        ]
+      ]
+    },
+    {
+      "id": "to_practice",
+      "english": "To practice",
+      "word": "연습하다",
+      "romanized": "yeonseupada",
+      "grammarNote": "**연습하다** (yeonseuphada) = to practice — Sino-Korean: **연습** (練習, practice/drill) + **하다**.\n**연습** alone is the noun: **연습이 필요해요** = 'practice is needed'.\n**매일 연습해요** = 'I practice every day' — **매일** stands alone without a particle.\n**연습 문제** (yeonseup munje) = practice problem — common in Korean study materials.",
+      "englishPhrase": "I practice every day.",
+      "phrase": "매일 연습해요.",
+      "phraseRomanized": "maeil yeonseuphaeyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "연습해요",
+          "practice"
+        ]
+      ]
+    },
+    {
+      "id": "to_teach",
+      "english": "To teach",
+      "word": "가르치다",
+      "romanized": "gareuchida",
+      "grammarNote": "**가르치다** (gareuchida) = to teach — native Korean verb.\nDo not confuse with **가르키다** (garukkida) = to point at — they sound similar but mean different things.\n**가르쳐요** = polite present form of **가르치다**.\n**선생님** (seonsaengnim) = teacher — the **-님** suffix adds honorific respect.",
+      "englishPhrase": "She teaches Korean.",
+      "phrase": "그녀는 한국어를 가르쳐요.",
+      "phraseRomanized": "geunyeoneun hangugeo reul gareucho ayo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가르쳐요",
+          "teach"
+        ]
+      ]
+    },
+    {
+      "id": "to_build",
+      "english": "To build",
+      "word": "짓다",
+      "romanized": "jitda",
+      "grammarNote": "**짓다** (jitda) = to build (structures) OR to cook rice — the same verb for both!\n**집을 짓다** = to build a house; **밥을 짓다** = to cook/make rice.\nIrregular ㅅ verb: the ㅅ drops before vowels — **지어요** (build), **지었어요** (built).\n**짓고 있어요** = 'is being built' — present progressive.",
+      "englishPhrase": "They are building a new school.",
+      "phrase": "새 학교를 짓고 있어요.",
+      "phraseRomanized": "sae hakgyoreul jitgo isseoyo",
+      "literal": [
+        [
+          "새",
+          "new"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "짓고 있어요",
+          "building"
+        ]
+      ]
+    },
+    {
+      "id": "to_fix",
+      "english": "To fix",
+      "word": "고치다",
+      "romanized": "gochida",
+      "grammarNote": "**고치다** (gochida) = to fix/repair — also means to correct (mistakes, habits).\n**수리하다** (surihada) = to repair — more technical, used for machines and appliances.\n**고칠 수 있어요?** = 'can you fix this?' — **-ㄹ 수 있다** = 'can / be able to'.\n**이거** = this (casual, contracted from **이것** = this thing).",
+      "englishPhrase": "Can you fix this?",
+      "phrase": "이거 고칠 수 있어요?",
+      "phraseRomanized": "igeo gochil su isseoyo",
+      "literal": [
+        [
+          "이거",
+          "this"
+        ],
+        [
+          "고칠 수 있어요",
+          "fix can"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_make",
+      "english": "To make",
+      "word": "만들다",
+      "romanized": "mandeulda",
+      "grammarNote": "**만들다** (mandeulda) = to make/create — an irregular ㄹ verb: the ㄹ drops before consonants.\n**만들어요** = polite present; **만들었어요** = past tense.\n**만든** = past modifier form: **집에서 만든 빵** (homemade bread).\n**커피를 만들다** = to make coffee — **를** = object marker after a vowel.",
+      "englishPhrase": "I make coffee every morning.",
+      "phrase": "매일 아침 커피를 만들어요.",
+      "phraseRomanized": "maeil achim keopireul mandeuleoyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "만들어요",
+          "make"
+        ]
+      ]
+    },
+    {
+      "id": "to_design",
+      "english": "To design",
+      "word": "디자인하다",
+      "romanized": "dijainhada",
+      "grammarNote": "**디자인하다** (dijainhada) = to design — **디자인** (design loanword) + **하다**.\n**디자인** alone = design (noun): **디자인이 예뻐요** = 'the design is pretty'.\n**웹사이트** (wepsaiteu) = website — loanword from English.\n**그래픽 디자이너** (graepik dijaino) = graphic designer — a common loanword profession title.",
+      "englishPhrase": "He designs websites.",
+      "phrase": "그는 웹사이트를 디자인해요.",
+      "phraseRomanized": "geuneun wepsaiteuреул dijаinhaeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "웹사이트",
+          "website"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "디자인해요",
+          "design"
+        ]
+      ]
+    },
+    {
+      "id": "to_sell",
+      "english": "To sell",
+      "word": "팔다",
+      "romanized": "palda",
+      "grammarNote": "**팔다** (palda) = to sell — an irregular ㄹ verb: the ㄹ drops before ㄴ/ㅂ/시.\n**팔아요** = polite present; **팔았어요** = past tense.\n**자동차** (jadongcha) = car — Sino-Korean: **자** (自, self) + **동** (動, move) + **차** (車, vehicle).\nOpposite: **사다** (sada) = to buy.",
+      "englishPhrase": "He sells cars.",
+      "phrase": "그는 자동차를 팔아요.",
+      "phraseRomanized": "geuneun jadongcharеул parayo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "자동차",
+          "car"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "팔아요",
+          "sell"
+        ]
+      ]
+    },
+    {
+      "id": "to_buy",
+      "english": "To buy",
+      "word": "사다",
+      "romanized": "sada",
+      "grammarNote": "**사다** (sada) = to buy — a simple vowel-stem verb.\n**사야 해요** = 'must buy' — **-아야 하다** expresses obligation: **사다** → **사야 해요**.\n**컴퓨터** (keompyuteo) = computer — loanword.\n**새** (sae) = new (used only as a modifier before nouns, not as a predicate); **새 컴퓨터** = new computer.",
+      "englishPhrase": "I need to buy a new computer.",
+      "phrase": "새 컴퓨터를 사야 해요.",
+      "phraseRomanized": "sae keompyuteoreul saya haeyo",
+      "literal": [
+        [
+          "새",
+          "new"
+        ],
+        [
+          "컴퓨터",
+          "computer"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "사야 해요",
+          "must-buy"
+        ]
+      ]
+    },
+    {
+      "id": "to_help",
+      "english": "To help",
+      "word": "돕다",
+      "romanized": "dopda",
+      "grammarNote": "**돕다** (dopda) = to help — irregular ㅂ verb: **도와요** (help), **도왔어요** (helped).\n**도와드릴까요?** = 'shall I help you?' — **도와드리다** is the humble/honorific form: 'help (upward)'.\n**드리다** (deurida) = humble form of **주다** (give) — used when giving/offering to a superior.\nCompare: **도와줄까요?** (shall I help you? — equal level) vs. **도와드릴까요?** (shall I help you? — respectful).",
+      "englishPhrase": "Can I help you?",
+      "phrase": "도와드릴까요?",
+      "phraseRomanized": "dowadeurillkkayo",
+      "literal": [
+        [
+          "도와드릴까요",
+          "help- shall-I"
+        ]
+      ]
+    },
+    {
+      "id": "to_manage",
+      "english": "To manage",
+      "word": "관리하다",
+      "romanized": "gwallihada",
+      "grammarNote": "**관리하다** (gwallihada) = to manage/administer — Sino-Korean: **관리** (管理, management) + **하다**.\n**관리** alone = management (noun): **관리가 필요해요** = 'management is needed'.\n**팀을 관리하다** = to manage a team — **을** = object marker after a consonant.\n**관리자** (gwallija) = manager/administrator — the person who does **관리**.",
+      "englishPhrase": "She manages the team.",
+      "phrase": "그녀는 팀을 관리해요.",
+      "phraseRomanized": "geunyeoneun timeul gwallihaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "팀",
+          "team"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "관리해요",
+          "manage"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "만나다",
+      "romanized": "mannada",
+      "grammarNote": "**만나다** (mannada) = to meet — a simple vowel-stem verb: **만나요** (meet), **만났어요** (met).\n**만남** (mannam) = a meeting/encounter — the noun form of **만나다**.\n**매주** (maeju) = every week — **매주 월요일에** = 'every Monday'.\n**처음 뵙겠습니다** = 'nice to meet you (for the first time)' — the formal first-meeting phrase.",
+      "englishPhrase": "We meet every Monday.",
+      "phrase": "매주 월요일에 만나요.",
+      "phraseRomanized": "maeju woryoile mannayo",
+      "literal": [
+        [
+          "매주",
+          "every-week"
+        ],
+        [
+          "월요일",
+          "Monday"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_start",
+      "english": "To start",
+      "word": "시작하다",
+      "romanized": "sijaghada",
+      "grammarNote": "**시작하다** (sijaghada) = to start/begin — **시작** (始作, start) + **하다**.\n**시작하다** is transitive (takes an object): **일을 시작해요** = 'start work'.\n**시작되다** (sijakdoeda) = to begin (intransitive/passive): **회의가 시작돼요** = 'the meeting starts'.\n**여덟 시에** = 'at eight o'clock' — native Korean number **여덟** (eight) + **시** (時, o'clock) + **에**.",
+      "englishPhrase": "I start work at eight.",
+      "phrase": "여덟 시에 일을 시작해요.",
+      "phraseRomanized": "yeodeol sie ireul sijаghaeyo",
+      "literal": [
+        [
+          "여덟 시",
+          "eight o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "시작해요",
+          "start"
+        ]
+      ]
+    },
+    {
+      "id": "to_finish",
+      "english": "To finish",
+      "word": "끝나다",
+      "romanized": "kkeunnada",
+      "grammarNote": "**끝나다** (kkeunnada) = to end/finish (intransitive) — 'the work ends'.\n**끝내다** (kkeunnaeda) = to finish/complete (transitive) — 'I finish the work'.\n**일이 끝나요** = 'work ends' — **이** = subject marker after a consonant.\n**퇴근하다** (toegeunhada) = to leave work — a more specific and commonly used workplace verb.",
+      "englishPhrase": "I finish work at five.",
+      "phrase": "다섯 시에 일이 끝나요.",
+      "phraseRomanized": "daseot sie iri kkeunnayo",
+      "literal": [
+        [
+          "다섯 시",
+          "five o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "끝나요",
+          "finish"
+        ]
+      ]
+    },
+    {
+      "id": "to_like_to_enjoy",
+      "english": "To like",
+      "word": "좋아하다",
+      "romanized": "joahada",
+      "grammarNote": "**좋아하다** = to like.\nLiking a thing: **X를/을 좋아해요** (I like X).\nLiking an activity: **X하는 걸 좋아해요** (I like doing X).\n**즐기다** = to enjoy (implies stronger, more active enjoyment).",
+      "englishPhrase": "I like reading. She likes singing.",
+      "phrase": "독서를 좋아해요. 그녀는 노래를 좋아해요.",
+      "phraseRomanized": "dokseoreul joahaeyo. geunyeoneun noraereul joahaeyo",
+      "literal": [
+        [
+          "독서",
+          "reading"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ],
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "노래",
+          "song"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "to_relax",
+      "english": "To relax",
+      "word": "쉬다",
+      "romanized": "swida",
+      "grammarNote": "**쉬다** (swida) = to rest/relax — a basic, essential verb.\n**쉬어요** = polite present; **쉬었어요** = past tense.\n**휴식을 취하다** (hyusigeul chwihada) = to take a rest — more formal expression.\n**주말에 쉬어요** = 'I rest on weekends' — **에** after **주말** marks a recurring time.",
+      "englishPhrase": "I relax on weekends.",
+      "phrase": "주말에 쉬어요.",
+      "phraseRomanized": "jumare swieoyo",
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "쉬어요",
+          "rest"
+        ]
+      ]
+    },
+    {
+      "id": "to_spend_time_on",
+      "english": "To spend time (on)",
+      "word": "시간을 보내다",
+      "romanized": "siganeul bonaeda",
+      "grammarNote": "**시간을 보내다** (siganeul bonaeda) = to spend time — **시간** (time) + **을** (obj) + **보내다** (send/spend).\n**보내다** also means 'to send': **메시지를 보내다** (send a message) — context clarifies.\n**에** after an activity = 'on': **독서에 시간을 보내요** = 'spend time on reading'.\n**많은 시간** = a lot of time — adjective modifier form of **많다**.",
+      "englishPhrase": "I spend a lot of time reading.",
+      "phrase": "독서에 많은 시간을 보내요.",
+      "phraseRomanized": "dokseoe manheun siganeul bonaeyo",
+      "literal": [
+        [
+          "독서",
+          "reading"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "많은",
+          "much"
+        ],
+        [
+          "시간",
+          "time"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "보내요",
+          "spend"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "creative",
+      "english": "Creative",
+      "word": "창의적인",
+      "romanized": "changruijeog-in",
+      "grammarNote": "**창의적이다** (changruijeogida) = to be creative — **창의** (創意, creative idea) + **적이다** (-적 = adjectival suffix).\n**-적이다** turns Sino-Korean nouns into adjectives: **창의적** (creative), **효율적** (efficient), **전통적** (traditional).\n**창의적이에요** = polite present; **창의적인** = modifier form before nouns.\n**매우** (maeu) = very — a formal intensifier; **너무** is more casual.",
+      "englishPhrase": "She is very creative.",
+      "phrase": "그녀는 매우 창의적이에요.",
+      "phraseRomanized": "geunyeoneun maeu changruijeogieyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "창의적이에요",
+          "creative"
+        ]
+      ]
+    },
+    {
+      "id": "interesting",
+      "english": "Interesting",
+      "word": "흥미로운",
+      "romanized": "heungmiroun",
+      "grammarNote": "**흥미롭다** (heungmiropda) = to be interesting — irregular ㅂ verb: **흥미로워요** in speech.\n**흥미** (heungmi) = interest — Sino-Korean: **흥** (興, excitement) + **미** (味, taste/flavor).\n**흥미로운** = modifier form before nouns: **흥미로운 일** (interesting work).\n**재미있다** (jaemiitda) = to be fun/interesting (more casual, about enjoyment).",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "제 일은 흥미로워요.",
+      "phraseRomanized": "je ireun heungmirowayo",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "흥미로워요",
+          "interesting"
+        ]
+      ]
+    },
+    {
+      "id": "stressful",
+      "english": "Stressful",
+      "word": "스트레스가 많은",
+      "romanized": "seuteuresi-ga manheun",
+      "grammarNote": "**스트레스** (seuteuresse) is a loanword from English.\n**스트레스가 많다** = 'there is a lot of stress' — **가** = subject marker after a vowel.\n**스트레스를 받다** = 'to receive/feel stress' — a common fixed expression.\n**스트레스가 많은** = modifier form: **스트레스가 많은 일** (stressful work).",
+      "englishPhrase": "My job is stressful.",
+      "phrase": "제 일은 스트레스가 많아요.",
+      "phraseRomanized": "je ireun seuteurese-ga manayo",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "스트레스",
+          "stress"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "much"
+        ]
+      ]
+    },
+    {
+      "id": "boring",
+      "english": "Boring",
+      "word": "지루한",
+      "romanized": "jiruahn",
+      "grammarNote": "**지루하다** (jiruhada) = to be boring/tedious — a **하다** adjective.\n**지루한** = modifier form before nouns: **지루한 회의** (boring meeting).\n**재미없다** (jaemieopda) = to be uninteresting/boring — literally 'fun doesn't exist'.\n**지루하다** implies something drags on; **재미없다** simply means it isn't enjoyable.",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "회의가 지루했어요.",
+      "phraseRomanized": "hoeui-ga jiruhaesseoyo",
+      "literal": [
+        [
+          "회의",
+          "meeting"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "지루했어요",
+          "boring"
+        ]
+      ]
+    },
+    {
+      "id": "salary",
+      "english": "Salary",
+      "word": "월급",
+      "romanized": "wolgeup",
+      "grammarNote": "**월급** (wolgeup) = monthly salary — Sino-Korean: **월** (月, month) + **급** (給, pay/give).\n**연봉** (yeonbong) = annual salary — **연** (年, year) + **봉** (俸, stipend).\n**월급이 얼마예요?** = 'what is the salary?' — **이** = subject marker after a consonant.\n**월급날** (wolgeupnal) = payday — a beloved compound: **월급** + **날** (day).",
+      "englishPhrase": "What is the salary?",
+      "phrase": "월급이 얼마예요?",
+      "phraseRomanized": "wolgeubi eolmayeyo",
+      "literal": [
+        [
+          "월급",
+          "salary"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "얼마예요",
+          "how-much is"
+        ]
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "Schedule",
+      "word": "일정",
+      "romanized": "iljeong",
+      "grammarNote": "**일정** (iljeong) = schedule/itinerary — Sino-Korean: **일** (日, day) + **정** (程, extent/program).\n**스케줄** (seukejeul) is a loanword alternative — both are common in modern Korean.\n**유연하다** (yuyeonhada) = to be flexible — **유연한 일정** (flexible schedule).\n**제 일정은** — **제** = my (polite); **은** = topic marker after a consonant.",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "제 일정은 유연해요.",
+      "phraseRomanized": "je iljeong-eun yuyeonhaeyo",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일정",
+          "schedule"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "유연해요",
+          "flexible"
+        ]
+      ]
+    },
+    {
+      "id": "vacation",
+      "english": "Vacation",
+      "word": "휴가",
+      "romanized": "hyuga",
+      "grammarNote": "**휴가** (hyuga) = vacation/leave — Sino-Korean: **휴** (休, rest) + **가** (暇, free time).\n**휴가를 가다** = to go on vacation — the standard expression.\n**연차** (yeoncha) = annual leave (paid time off from work).\n**다음 주에** = 'next week' — **다음** (next) + **주** (week) + **에** (time particle).",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "다음 주에 휴가를 가요.",
+      "phraseRomanized": "daeum jue hyugareul gayo",
+      "literal": [
+        [
+          "다음 주",
+          "next week"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "휴가",
+          "vacation"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "break",
+      "english": "Break",
+      "word": "휴식",
+      "romanized": "hyusik",
+      "grammarNote": "**휴식** (hyusik) = rest/break — Sino-Korean: **휴** (休, rest) + **식** (息, breath/pause).\n**휴식을 취하다** = 'to take a rest' — the formal compound expression.\n**잠깐 쉬어요** = 'let's rest briefly' — **잠깐** (briefly/a moment) + **쉬다** (to rest).\n**쉬다** (swida) is the everyday verb; **휴식** is the more formal noun.",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "잠깐 쉬어요.",
+      "phraseRomanized": "jamkkan swieoyo",
+      "literal": [
+        [
+          "잠깐",
+          "briefly"
+        ],
+        [
+          "쉬어요",
+          "rest"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "사무실",
+      "romanized": "samusil",
+      "grammarNote": "**사무실** (samusil) = office — Sino-Korean: **사무** (事務, office affairs) + **실** (室, room).\n**회사** (hoesa) = company — the broader workplace; **사무실** = the specific office room.\n**에서** after a workplace = location of action: **사무실에서 일해요** = 'work in an office'.\n**재택근무** (jaetaekgeunmu) = working from home — a very topical modern compound.",
+      "englishPhrase": "I work in an office.",
+      "phrase": "사무실에서 일해요.",
+      "phraseRomanized": "samusilleseo ilhaeyo",
+      "literal": [
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "outdoors",
+      "english": "Outdoors",
+      "word": "야외",
+      "romanized": "yaoe",
+      "grammarNote": "**야외** (yaoe) = outdoors/open air — Sino-Korean: **야** (野, field/outdoors) + **외** (外, outside).\n**야외 활동** = outdoor activities — **활동** (活動, activity).\n**에서** after a location = where an action takes place: **야외에서 일해요** = 'works outdoors'.\nContrast: **실내** (silnae) = indoors — **실** (室, room) + **내** (內, inside).",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "그녀는 야외에서 일해요.",
+      "phraseRomanized": "geunyeoneun yaoeseo ilhaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "야외",
+          "outdoors"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "interview",
+      "english": "Interview",
+      "word": "면접",
+      "romanized": "myeonjeop",
+      "grammarNote": "**면접** (myeonjeop) = job interview — Sino-Korean: **면** (面, face) + **접** (接, meet/receive).\n**취업 면접** = job interview — **취업** (就業, employment).\n**면접을 보다** = to have/sit a job interview — the standard fixed expression.\n**면접관** (myeonjeokgwan) = interviewer; **면접자** (myeonjeopja) = interviewee.",
+      "englishPhrase": "I have a job interview tomorrow.",
+      "phrase": "내일 취업 면접이 있어요.",
+      "phraseRomanized": "naeil chwieop myeonjeobi isseoyo",
+      "literal": [
+        [
+          "내일",
+          "tomorrow"
+        ],
+        [
+          "취업",
+          "job"
+        ],
+        [
+          "면접",
+          "interview"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ]
+    },
+    {
+      "id": "colleague",
+      "english": "Colleague",
+      "word": "동료",
+      "romanized": "dongnyo",
+      "grammarNote": "**동료** (dongnyo) = colleague/peer — Sino-Korean: **동** (同, same) + **료** (僚, official/colleague).\n**직장 동료** = coworker — **직장** (職場, workplace).\n**들** = plural suffix: **동료들** = colleagues.\n**친하다** (chinhada) = to be close/friendly — **친한 동료** = a close colleague.",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "직장 동료들이 친해요.",
+      "phraseRomanized": "jikjang dongnyodeuri chinhaeyo",
+      "literal": [
+        [
+          "직장",
+          "workplace"
+        ],
+        [
+          "동료들",
+          "colleagues"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "친해요",
+          "friendly"
+        ]
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "Customer",
+      "word": "고객",
+      "romanized": "gogaek",
+      "grammarNote": "**고객** (gogaek) = customer/client — Sino-Korean: **고** (顧, look after) + **객** (客, guest).\n**손님** (sonnim) = customer/guest — native Korean, more warmly used in shops and restaurants.\n**고객 서비스** = customer service — **서비스** (service loanword).\n**만족하다** (manjokada) = to be satisfied — **만족해요** = 'is satisfied'.",
+      "englishPhrase": "The client is happy.",
+      "phrase": "고객이 만족해요.",
+      "phraseRomanized": "gogaegi manjokaeyo",
+      "literal": [
+        [
+          "고객",
+          "client"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "만족해요",
+          "satisfied"
+        ]
+      ]
+    },
+    {
+      "id": "team",
+      "english": "Team",
+      "word": "팀",
+      "romanized": "tim",
+      "grammarNote": "**팀** (tim) is a loanword from English — universally used in Korean workplaces.\n**팀원** (timwon) = team member — **팀** + **원** (員, member).\n**팀장** (timjang) = team leader — **팀** + **장** (長, head/leader).\n**에서** after a group = where one belongs/acts: **훌륭한 팀에서 일해요** = 'work in a great team'.",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "훌륭한 팀에서 일해요.",
+      "phraseRomanized": "hullyunghan time seo ilhaeyo",
+      "literal": [
+        [
+          "훌륭한",
+          "excellent"
+        ],
+        [
+          "팀",
+          "team"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "project",
+      "english": "Project",
+      "word": "프로젝트",
+      "romanized": "peurojegteu",
+      "grammarNote": "**프로젝트** (peurojekteu) is a loanword from English — standard in Korean workplaces.\n**프로젝트가** — **가** = subject marker after a vowel.\n**거의 다 끝났어요** = 'is almost finished' — **거의** (almost) + **다** (all/completely) + **끝나다** (to finish) in past tense.\n**업무** (eommu) = work/duties — a more formal synonym for **일** in business contexts.",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "프로젝트가 거의 다 끝났어요.",
+      "phraseRomanized": "peurojegteu-ga geoui da kkeunnasseoyo",
+      "literal": [
+        [
+          "프로젝트",
+          "project"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "거의",
+          "almost"
+        ],
+        [
+          "다",
+          "all"
+        ],
+        [
+          "끝났어요",
+          "finished"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "meeting",
+      "english": "Meeting",
+      "word": "회의",
+      "romanized": "hoeui",
+      "grammarNote": "**회의** (hoeui) = meeting/conference — Sino-Korean: **회** (會, gather) + **의** (議, discuss).\n**회의가 있어요** = 'there is a meeting / I have a meeting' — **있다** handles both existence and possession.\n**회의실** (hoeuisil) = conference room — **회의** + **실** (室, room).\n**회의를 하다** = to hold a meeting; **회의에 참석하다** = to attend a meeting.",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "열 시에 회의가 있어요.",
+      "phraseRomanized": "yeol sie hoeui-ga isseoyo",
+      "literal": [
+        [
+          "열 시",
+          "ten o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "회의",
+          "meeting"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ]
+    },
+    {
+      "id": "free_time",
+      "english": "Free time",
+      "word": "자유 시간",
+      "romanized": "jayu sigan",
+      "grammarNote": "**자유 시간** (jayu sigan) = free time — **자유** (自由, freedom) + **시간** (時間, time).\n**여가 시간** (yeoga sigan) = leisure time — **여가** (餘暇, leisure) is also common.\n**여가 시간에 뭐 해요?** = 'what do you do in your free time?' — **에** = 'during'.\n**취미가 뭐예요?** = 'what is your hobby?' — a very common Korean conversation opener.",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "여가 시간에 뭐 해요?",
+      "phraseRomanized": "yeoga sigane mwo haeyo",
+      "literal": [
+        [
+          "여가 시간",
+          "free time"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
+    }
+  ]
+}

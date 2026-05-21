@@ -1,0 +1,907 @@
+{
+  "id": "food_and_drink",
+  "name": "Food & Drink",
+  "language": "french",
+  "stories": [
+    "at_the_restaurant",
+    "at_the_market",
+    "cooking_at_home",
+    "a_nice_restaurant",
+    "at_the_bakery",
+    "a_picnic"
+  ],
+  "grammarLessons": [
+    {
+      "id": "avoir",
+      "name": "Avoir — To Have"
+    },
+    {
+      "id": "du_de_la",
+      "name": "Partitive Articles — du, de la"
+    },
+    {
+      "id": "verbes_er",
+      "name": "Verbes en -ER — Regular Verbs"
+    },
+    {
+      "id": "negation",
+      "name": "La Négation — ne...pas"
+    },
+    {
+      "id": "passe_compose",
+      "name": "Le Passé Composé — Past Tense"
+    },
+    {
+      "id": "adverbs_quantity",
+      "name": "Les Adverbes de Quantité — beaucoup, peu, assez"
+    }
+  ],
+  "cards": [
+    {
+      "id": "water",
+      "english": "water",
+      "word": "l'eau (fem.)",
+      "grammarNote": "**l'eau** is feminine. Use the partitive **de l'eau** for an unspecified amount: Je bois de l'eau.\nA definite quantity uses un verre d'eau, une bouteille d'eau, etc.\nThe partitive (**du** / **de la** / **de l'**) is essential with food and drink.",
+      "englishPhrase": "The water is cold.",
+      "phrase": "L'eau est froide."
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "word": "le pain",
+      "grammarNote": "**le pain** is masculine. Use the partitive **du pain** for an unspecified amount: **Je voudrais du pain**.\nAfter negation the partitive becomes **de**: **je ne mange pas de pain**.\nFrench bread culture: **une baguette**, **un pain de campagne** (country loaf), **une ficelle** (thin baguette).",
+      "englishPhrase": "I'd like some bread.",
+      "phrase": "Je voudrais du pain."
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "word": "le riz",
+      "grammarNote": "**le riz** is masculine. The z is silent in **le riz** but can be heard in liaison before a vowel: **du riz_au lait** (rice pudding).\nPartitive: **du riz** (some rice) — not *un riz* because rice is uncountable.\nAdjective agreement: **des légumes** (plural) — the verb **aimer** with a definite article means a general preference.",
+      "englishPhrase": "I like rice with vegetables.",
+      "phrase": "J'aime le riz avec des légumes."
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "word": "le lait",
+      "grammarNote": "**le lait** is masculine (from Latin **lac/lactis**, root of English 'lactose').\nPartitive: **du lait** — **Tu veux du lait ?** asks 'do you want some milk?'\nAfter negation: **je ne veux pas de lait** (no article after **de** in negation).",
+      "englishPhrase": "Do you want milk?",
+      "phrase": "Tu veux du lait ?"
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "word": "l'œuf (masc.)",
+      "grammarNote": "Singular: **l'œuf** — the f is pronounced.\nPlural: **les œufs** — the f goes silent! Pronounced 'leh-ZUH'. A classic French pronunciation trap.",
+      "englishPhrase": "I eat two eggs for breakfast.",
+      "phrase": "Je mange deux œufs au petit-déjeuner."
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "word": "le fromage",
+      "grammarNote": "**le fromage** is masculine. Use partitive **du fromage** for an unspecified quantity.\nFrance has over 1,000 cheese varieties — **le fromage** is culturally significant.\n**a du fromage** in the example — this is the partitive, meaning the sandwich contains some cheese (not a whole cheese).",
+      "englishPhrase": "The sandwich has cheese.",
+      "phrase": "Le sandwich a du fromage."
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "word": "le poulet",
+      "grammarNote": "**le poulet** = chicken (as food). As a live animal: **la poule** (hen) or **le coq** (rooster).\nDefinite article **le** here: **le poulet est délicieux** — a general statement about this chicken.\nPartitive for unspecified amount: **Je mange du poulet** (I'm eating [some] chicken).",
+      "englishPhrase": "The chicken is delicious.",
+      "phrase": "Le poulet est délicieux."
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "word": "la viande",
+      "grammarNote": "**la viande** is feminine. Partitive would be **de la viande**.\nNegation changes partitive to **de**: **il ne mange pas de viande** — the article drops after **ne…pas**.\nThis rule applies to all partitives and indefinite articles in negation: **du pain** → **pas de pain**, **une pomme** → **pas de pomme**.",
+      "englishPhrase": "He doesn't eat meat.",
+      "phrase": "Il ne mange pas de viande."
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "word": "le poisson",
+      "grammarNote": "**le poisson** = fish (food or animal). **la poissonnerie** = fishmonger's shop.\n**J'aime le poisson** — the definite article **le** with **aimer** expresses a general preference, not a specific fish.\nNasal vowel: **poisson** contains the nasal **on** — pronounced like the end of 'song' in English.",
+      "englishPhrase": "I like fish.",
+      "phrase": "J'aime le poisson."
+    },
+    {
+      "id": "baguette",
+      "english": "baguette",
+      "word": "la baguette",
+      "grammarNote": "**la baguette** is feminine — literally 'a little rod/wand' (same word used for a conductor's baton and magic wand).\n**Je voudrais** = I would like — the conditional of **vouloir**, used for polite requests.\n**une baguette** uses the indefinite article (one specific baguette), not the partitive.",
+      "englishPhrase": "I'd like a baguette, please.",
+      "phrase": "Je voudrais une baguette, s'il vous plaît.",
+      "literal": [["Je","I"],["voudrais","would-like"],["une","a"],["baguette","baguette"],["s'il vous plaît","please"]]
+    },
+    {
+      "id": "croissant",
+      "english": "croissant",
+      "word": "le croissant",
+      "grammarNote": "**le croissant** = crescent (its shape). From French **croître** (to grow), related to the crescent moon shape.\n**Je prends** (I'm having/taking) is a common way to order at a café — more casual than **je voudrais**.\n**au beurre** = with butter — **au** is **à + le** (contraction). A **croissant au beurre** is made with real butter (richer and flakier than a plain croissant).",
+      "englishPhrase": "I'll have a butter croissant.",
+      "phrase": "Je prends un croissant au beurre.",
+      "literal": [["Je","I"],["prends","take/have"],["un","a"],["croissant","croissant"],["au","with"],["beurre","butter"]]
+    },
+    {
+      "id": "crepe",
+      "english": "crêpe",
+      "word": "la crêpe",
+      "grammarNote": "**la crêpe** is feminine. The circumflex on the **ê** indicates a historical 's' (Old French: **crespe**) — compare English 'crisp'.\n**au chocolat** = with chocolate — **au** is **à + le** (**le chocolat** is masculine).\n**Je veux** here is direct — in a casual context acceptable. For a shop, **je voudrais** is more polite.",
+      "englishPhrase": "I want a chocolate crêpe.",
+      "phrase": "Je veux une crêpe au chocolat.",
+      "literal": [["Je","I"],["veux","want"],["une","a"],["crêpe","crêpe"],["au","with"],["chocolat","chocolate"]]
+    },
+    {
+      "id": "pork",
+      "english": "pork",
+      "word": "le porc",
+      "grammarNote": "**le porc** = pork (food). The c is silent: pronounced 'por'.\nNegation: **je ne mange pas de porc** — the partitive **du** drops to **de** after **ne…pas**.\nAnimal: **le cochon** or **le porc** — in English 'pig' and 'pork' differ (Germanic vs. Latin roots); French uses **le porc** for both.",
+      "englishPhrase": "I don't eat pork.",
+      "phrase": "Je ne mange pas de porc.",
+      "hidden": true
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "word": "le fruit",
+      "grammarNote": "**le fruit** (singular) / **les fruits** (plural). **Des fruits** = the partitive/indefinite plural for some fruit.\n**Tous les jours** = every day — **tous** (m. pl.) agrees with **les jours** (m. pl.). Compare: **toutes les semaines** (f. pl.).\nIn English 'fruit' is typically uncountable; in French, individual fruits are counted: **un fruit**, **deux fruits**.",
+      "englishPhrase": "I eat fruit every day.",
+      "phrase": "Je mange des fruits tous les jours."
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "word": "la pomme",
+      "grammarNote": "**la pomme** is feminine. Literally means 'apple' but appears in: **la pomme de terre** (potato — lit. 'apple of the earth') and **la pomme d'Adam** (Adam's apple).\n**par jour** = per day — **par** is used for rates and frequencies.\n**la santé** = health (feminine). The phrase **c'est bon pour la santé** is very commonly used.",
+      "englishPhrase": "An apple a day is healthy.",
+      "phrase": "Une pomme par jour, c'est bon pour la santé."
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "word": "la banane",
+      "grammarNote": "**la banane** is feminine. An easy gender rule: most nouns ending in **-ane** are feminine.\n**Les bananes sont mûres** — adjective **mûr** agrees with the feminine plural noun: **mûres**.\nIn French slang, **une banane** can mean a big grin (un grand sourire en forme de banane).",
+      "englishPhrase": "The bananas are ripe.",
+      "phrase": "Les bananes sont mûres."
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "word": "l'orange (fem.)",
+      "grammarNote": "**l'orange** is feminine — unusual because words ending in a consonant sound are often masculine.\n**jus d'orange** — note no article after **de** when combining nouns: **jus de** + orange (not *jus de l'orange*).\n**Je veux un jus d'orange** — here **un jus** = one glass/serving of juice (countable).",
+      "englishPhrase": "I want an orange juice.",
+      "phrase": "Je veux un jus d'orange."
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "word": "le légume",
+      "grammarNote": "**le légume** is masculine (despite the feminine-looking **-e** ending).\n**Mange tes légumes !** — imperative of **manger** (tu form: **mange**) + possessive **tes** (your, plural object).\n**Tes** = plural of **ton/ta** — used because **légumes** is plural.",
+      "englishPhrase": "Eat your vegetables!",
+      "phrase": "Mange tes légumes !"
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "word": "la pomme de terre",
+      "grammarNote": "**la pomme de terre** = potato, literally 'apple of the earth'. Always feminine.\nPlural: **les pommes de terre** — the whole compound pluralises.\n**de la purée** — partitive article for the mashed potato (uncountable quantity).",
+      "englishPhrase": "I want mashed potatoes.",
+      "phrase": "Je veux de la purée de pommes de terre."
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "word": "la tomate",
+      "grammarNote": "**la tomate** is feminine (ending in **-ate**, a common feminine pattern).\n**des tomates** — partitive/indefinite plural: the salad has some tomatoes (unspecified quantity).\n**a des tomates** — **avoir** + partitive for 'has/contains some': the salad has [some] tomatoes.",
+      "englishPhrase": "The salad has tomatoes.",
+      "phrase": "La salade a des tomates."
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "word": "l'oignon (masc.)",
+      "grammarNote": "**l'oignon** is masculine. The spelling is irregular — the **oi** is not pronounced as usual; it sounds like 'on-yon'.\nNegation: **je n'aime pas les oignons** — **ne** elides to **n'** before a vowel.\n**les oignons** — definite article **les** with **aimer** expresses general dislike.",
+      "englishPhrase": "I don't like onions.",
+      "phrase": "Je n'aime pas les oignons."
+    },
+    {
+      "id": "salad",
+      "english": "salad",
+      "word": "la salade",
+      "grammarNote": "**la salade** is feminine. Can mean the salad dish OR the lettuce plant itself.\n**Je vais prendre** = I'm going to have — **aller + infinitive** is the near future (futur proche).\n**une salade** — indefinite article because it's a specific order (one salad), not a partitive.",
+      "englishPhrase": "I'll have a salad.",
+      "phrase": "Je vais prendre une salade."
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "word": "la soupe",
+      "grammarNote": "**la soupe** is feminine. From Old French **soupe** (bread soaked in broth) — same root as 'supper'.\nAdjective agreement: **chaude** is the feminine form of **chaud** (hot), agreeing with **la soupe**.\nPartitive for serving: **de la soupe** (some soup) — useful when asking for or offering.",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "La soupe est chaude."
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "word": "le sandwich",
+      "grammarNote": "**le sandwich** is masculine (borrowed English word, keeps the masculine gender by default for foreign borrowings in French).\n**j'ai fait** = passé composé of **faire** (to make/do): **avoir** + past participle **fait**.\n**pour le déjeuner** — meals take the definite article: **le déjeuner**, **le dîner**, **le petit-déjeuner**.",
+      "englishPhrase": "I made a sandwich for lunch.",
+      "phrase": "J'ai fait un sandwich pour le déjeuner."
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "word": "le gâteau",
+      "grammarNote": "**le gâteau** is masculine. Plural: **les gâteaux** (the x replaces s in the plural — a pattern for words ending in **-eau**: bateau → bateaux, chapeau → chapeaux).\n**du gâteau** — partitive: do you want some cake? (unspecified amount, not a whole cake).",
+      "englishPhrase": "Do you want cake?",
+      "phrase": "Tu veux du gâteau ?",
+      "hidden": true
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "word": "le biscuit",
+      "grammarNote": "**le biscuit** = biscuit/cookie. From Latin **bis coctus** (twice cooked) — same etymology as English 'biscuit'.\n**ces biscuits** — demonstrative adjective **ces** (these/those, plural) agrees with the masculine plural noun.\n**sont délicieux** — adjective **délicieux** is masculine plural, agreeing with **les biscuits**.",
+      "englishPhrase": "These cookies are delicious.",
+      "phrase": "Ces biscuits sont délicieux.",
+      "hidden": true
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "word": "le chocolat",
+      "grammarNote": "**le chocolat** is masculine. From Nahuatl **xocolātl** via Spanish.\n**J'adore** = I love (stronger than **j'aime**) — no partitive needed with **adorer/aimer** + definite article for general statements.\n**le chocolat** here = chocolate in general (definite article for category love).",
+      "englishPhrase": "I love chocolate.",
+      "phrase": "J'adore le chocolat."
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "word": "le sucre",
+      "grammarNote": "**le sucre** is masculine. **sans sucre** — the preposition **sans** (without) always drops the article: **sans sucre**, **sans lait**, **sans gluten**.\nIn a café or restaurant, 'un sucre' can mean one sugar cube: **un café avec un sucre**.",
+      "englishPhrase": "No sugar, please.",
+      "phrase": "Sans sucre, s'il vous plaît."
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "word": "le sel",
+      "grammarNote": "**le sel** is masculine. From Latin **sal** — root of 'salary' (Roman soldiers were sometimes paid in salt).\n**Tu peux me passer le sel ?** — indirect object pronoun **me** (to me) before the verb: **me passer**.\nThis is a polite way to ask — more direct: **Passe-moi le sel !** (imperative).",
+      "englishPhrase": "Can you pass the salt?",
+      "phrase": "Tu peux me passer le sel ?"
+    },
+    {
+      "id": "pepper",
+      "english": "pepper",
+      "word": "le poivre",
+      "grammarNote": "**le poivre** = pepper (the spice, masculine). **le poivron** = bell pepper (a different word).\n**Tu peux me passer** — same indirect object pronoun structure as with **le sel**.\nNote: in French cooking, **sel et poivre** (salt and pepper) is the standard order, same as English.",
+      "englishPhrase": "Can you pass the pepper?",
+      "phrase": "Tu peux me passer le poivre ?"
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "word": "le beurre",
+      "grammarNote": "**le beurre** is masculine. From Latin **butyrum**, from Greek **βούτυρον**.\n**du beurre** — partitive article: I put some butter (unspecified amount) on my bread.\n**sur mon pain** — possessive **mon** (my, masculine) + **pain** (m.). **mets** = present tense of **mettre** (to put), an irregular verb.",
+      "englishPhrase": "I put butter on my bread.",
+      "phrase": "Je mets du beurre sur mon pain."
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "word": "l'huile (fem.)",
+      "grammarNote": "**l'huile** is feminine — the h is aspirate so liaison/elision applies: **de l'huile**, not *de la huile*.\n**de l'huile d'olive** — partitive (de + l') then a noun+de+noun compound without article.\n**Cuisinez** = the vous imperative of **cuisiner** (to cook, a regular -er verb).",
+      "englishPhrase": "Cook with olive oil.",
+      "phrase": "Cuisinez avec de l'huile d'olive."
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "word": "le café",
+      "grammarNote": "**le café** = coffee (the drink) AND the café (the establishment).\n**le matin** = in the morning (definite article with time expressions for habitual action: **le soir**, **le week-end**).\n**J'aime le café** — definite article **le** with **aimer** = general preference (I like coffee in general).",
+      "englishPhrase": "I like coffee in the morning.",
+      "phrase": "J'aime le café le matin."
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "word": "le thé",
+      "grammarNote": "**le thé** is masculine. The accent aigu (é) indicates the /e/ vowel sound.\n**du thé** — partitive article: **Tu veux du thé ?** = would you like some tea?\nTea is less embedded in French daily culture than coffee — **un thé** is typically offered after dinner or for medicinal purposes.",
+      "englishPhrase": "Would you like some tea?",
+      "phrase": "Tu veux du thé ?"
+    },
+    {
+      "id": "wine",
+      "english": "wine",
+      "word": "le vin",
+      "grammarNote": "**le vin** is masculine. Nasal vowel: **in** — the n is not pronounced, the vowel is nasalised.\n**un verre de vin rouge** — a countable serving (un verre = one glass). No partitive here because 'a glass of' specifies the quantity.\nTypes: **le vin rouge** (red), **le vin blanc** (white), **le vin rosé** (rosé).",
+      "englishPhrase": "A glass of red wine, please.",
+      "phrase": "Un verre de vin rouge, s'il vous plaît."
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "la bière",
+      "grammarNote": "**la bière** is feminine. The grave accent on **è** signals the open /ɛ/ sound.\n**Deux bières** — indefinite plural for two specific beers (countable order).\nIn a café: **une pression** = a draught beer (pint) · **une bouteille** = a bottled beer.",
+      "englishPhrase": "Two beers, please.",
+      "phrase": "Deux bières, s'il vous plaît."
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "word": "le jus",
+      "grammarNote": "**le jus** is masculine. The s is silent in isolation but heard in liaison: **le jus_orange** (no liaison needed here since it's **jus d'orange**).\n**du jus d'orange** — partitive **du** (de + le) for an unspecified quantity of juice.\n**jus de** + fruit name: **jus de pomme** (apple juice), **jus d'orange** (orange juice).",
+      "englishPhrase": "I want orange juice.",
+      "phrase": "Je veux du jus d'orange."
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "word": "le petit-déjeuner",
+      "grammarNote": "**le petit-déjeuner** = breakfast, literally 'the little lunch'.\n**prendre le petit-déjeuner** = to have breakfast — meals are 'taken' (**prendre**) in French, not 'eaten' or 'had'.\n**à sept heures** — time with **à**: note no contraction since **heures** is feminine (à + la = à la, but **heures** doesn't need an article here).",
+      "englishPhrase": "I have breakfast at seven.",
+      "phrase": "Je prends le petit-déjeuner à sept heures."
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "word": "le déjeuner",
+      "grammarNote": "**le déjeuner** = lunch (also the verb **déjeuner** = to have lunch).\n**On déjeune** — here **déjeuner** is used as a verb, not a noun. Same word does double duty.\n**à deux heures** — France typically lunches between 12h and 14h; 'two o'clock' is late but not unusual on weekends.",
+      "englishPhrase": "We have lunch at two.",
+      "phrase": "On déjeune à deux heures."
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "word": "le dîner",
+      "grammarNote": "**le dîner** = dinner/evening meal (also the verb **dîner** = to dine).\nThe circumflex on **î** reflects a historical **s**: Old French **disner**.\n**Le dîner est prêt** — adjective **prêt** (ready, m.) agrees with **le dîner** (m.). Feminine: **la soupe est prête**.",
+      "englishPhrase": "Dinner is ready.",
+      "phrase": "Le dîner est prêt."
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "word": "le goûter",
+      "grammarNote": "**le goûter** specifically refers to the afternoon snack (~4pm), a French institution especially for children.\nFor a snack at any time, **un snack** or **un encas** is more common among adults.",
+      "englishPhrase": "I have a snack in the afternoon.",
+      "phrase": "Je prends un goûter l'après-midi."
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "word": "le repas",
+      "grammarNote": "**le repas** = meal (masculine). Plural: **les repas** — the s is already there, so the plural looks identical in writing.\n**un repas délicieux** — adjective follows the noun here (most adjectives do in French).\nThe traditional French meal is sacred — **le repas** often refers to the structured, multi-course event.",
+      "englishPhrase": "This is a delicious meal.",
+      "phrase": "C'est un repas délicieux."
+    },
+    {
+      "id": "recipe",
+      "english": "recipe",
+      "word": "la recette",
+      "grammarNote": "**la recette** is feminine (ending in **-ette**, a diminutive suffix, always feminine).\n**une bonne recette** — adjective **bonne** precedes the noun (BAGS adjective rule: Goodness/quality).\n**La recette** also means 'revenue' or 'receipts' in financial French — a false friend to watch for.",
+      "englishPhrase": "Do you have a good recipe?",
+      "phrase": "Tu as une bonne recette ?",
+      "hidden": true
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "word": "la saveur",
+      "grammarNote": "**la saveur** = flavor/taste (literary/formal). More everyday: **le goût**.\n**Quel goût tu veux ?** — **quel** (which/what, masculine) agrees with **goût** (m.).\n**La saveur** is feminine (-eur words are mostly feminine, though **le bonheur**, **le malheur**, **le labeur** are exceptions).",
+      "englishPhrase": "What flavor do you want?",
+      "phrase": "Quel goût tu veux ?",
+      "hidden": true
+    },
+    {
+      "id": "ingredient",
+      "english": "ingredient",
+      "word": "l'ingrédient (masc.)",
+      "grammarNote": "**l'ingrédient** is masculine. Words ending in **-ient** are typically masculine.\n**De quels ingrédients** — **quels** is the plural of **quel** (which/what), agreeing with the masculine plural **ingrédients**.\n**tu as besoin de** = you need (avoir besoin de + noun) — note **de quels** for 'which' in a partitive context.",
+      "englishPhrase": "What ingredients do you need?",
+      "phrase": "De quels ingrédients tu as besoin ?",
+      "hidden": true
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "word": "la carte",
+      "grammarNote": "**la carte** = the full menu (order anything you like).\n**le menu** in France = a set-price meal: entrée + plat + dessert.\nAlways ask for la carte to order freely.",
+      "englishPhrase": "Can I see the menu?",
+      "phrase": "Je peux voir la carte ?"
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "word": "le restaurant",
+      "grammarNote": "**le restaurant** is masculine. From **restaurer** (to restore) — originally a restorative broth sold in Paris in the 18th century.\n**Ce restaurant** — demonstrative adjective **ce** (this/that, masculine singular).\n**est bien** vs. **est bon** — **bien** here means 'good' in quality/service; **bon** would imply good taste.",
+      "englishPhrase": "This restaurant is good.",
+      "phrase": "Ce restaurant est bien."
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "word": "la cuisine",
+      "grammarNote": "**la cuisine** = the kitchen (room) AND cooking/cuisine.\n**La cuisine française** = French cuisine (cooking). **la cuisine** (room in the house).\n**propre** = clean. Note: **propre** before a noun means 'own' (**ma propre voiture** = my own car), but after être it means 'clean'.",
+      "englishPhrase": "The kitchen is clean.",
+      "phrase": "La cuisine est propre."
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "word": "le four",
+      "grammarNote": "**le four** is masculine. From Latin **furnus** — also the root of **la fournée** (a batch of baked goods).\n**au four** = in the oven — **à + le = au**: **faire cuire au four** (to bake/roast in the oven).\nAdjective agreement: **chaud** (hot, masculine) agrees with **le four** (m.).",
+      "englishPhrase": "The oven is hot.",
+      "phrase": "Le four est chaud.",
+      "hidden": true
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "word": "la cuisinière",
+      "grammarNote": "**la cuisinière** = the stove/cooker (feminine). Also means 'female cook'.\n**Faites-le cuire** = imperative of **faire** (vous form) + direct object pronoun **le** before the infinitive **cuire**.\n**sur les plaques** = on the burners/hobs — **les plaques** (f. pl.) means hobs/rings on a cooktop.",
+      "englishPhrase": "Cook it on the stove.",
+      "phrase": "Faites-le cuire sur les plaques.",
+      "hidden": true
+    },
+    {
+      "id": "knife",
+      "english": "knife",
+      "word": "le couteau",
+      "grammarNote": "**le couteau** is masculine. Plural: **les couteaux** (x replaces s, like **gâteaux**).\n**bien aiguisé** = well-sharpened — **bien** modifies the past participle **aiguisé** (used as adjective).\n**avoir besoin d'un** — **de + un = d'un** (elision before vowel in **un**).",
+      "englishPhrase": "I need a sharp knife.",
+      "phrase": "J'ai besoin d'un couteau bien aiguisé.",
+      "hidden": true
+    },
+    {
+      "id": "fork",
+      "english": "fork",
+      "word": "la fourchette",
+      "grammarNote": "**la fourchette** is feminine. Diminutive of **la fourche** (pitchfork) — a small fork.\nThe **-ette** suffix is always feminine: **la fourchette**, **la baguette**, **la serviette**.\n**Je peux avoir** = can I have — **pouvoir + infinitive** (informal question by rising intonation, no inversion).",
+      "englishPhrase": "Can I have a fork?",
+      "phrase": "Je peux avoir une fourchette ?",
+      "hidden": true
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "word": "la cuillère",
+      "grammarNote": "**la cuillère** is feminine. Also spelled **cuiller** (an older form).\n**une cuillère à café** = a teaspoon (literally 'a coffee spoon') · **une cuillère à soupe** = a tablespoon.\n**j'ai besoin d'une** — elision: **de + une** becomes **d'une** before vowel.",
+      "englishPhrase": "I need a spoon.",
+      "phrase": "J'ai besoin d'une cuillère.",
+      "hidden": true
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "word": "l'assiette (fem.)",
+      "grammarNote": "**l'assiette** is feminine. From Old French **asseoir** (to sit/set) — a plate is something that is 'set'.\n**sale** = dirty (adjective following the noun via **être**). Before a noun **sale** also means dirty: **une sale affaire** (a dirty business).\n**l'assiette** — the l' before a vowel is elision of **le** or **la** (can't tell gender from this form alone — but it's feminine).",
+      "englishPhrase": "The plate is dirty.",
+      "phrase": "L'assiette est sale.",
+      "hidden": true
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "word": "le bol",
+      "grammarNote": "**le bol** is masculine. In French, a bowl is used especially for breakfast (café au lait in a bowl is classic).\n**Remplis le bol** — imperative of **remplir** (tu form: **remplis**), a regular -ir verb.\n**de soupe** — after **remplir de** the noun has no article: **rempli de soupe**, **rempli d'eau**.",
+      "englishPhrase": "Fill the bowl with soup.",
+      "phrase": "Remplis le bol de soupe.",
+      "hidden": true
+    },
+    {
+      "id": "glass",
+      "english": "glass",
+      "word": "le verre",
+      "grammarNote": "**le verre** = a glass (drinking vessel) AND the material 'glass'. Masculine.\n**un verre d'eau** — the **de** after a container word drops the article: un verre **de** vin, une tasse **de** café, une bouteille **d'**eau.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "Un verre d'eau, s'il vous plaît.",
+      "hidden": true
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "word": "la bouteille",
+      "grammarNote": "**la bouteille** is feminine. The **-eille** ending is always feminine: **la bouteille**, **la corbeille**, **la groseille**.\n**une bouteille de vin** — container + **de** + noun (no article): **une bouteille de vin**, **un verre d'eau**, **une tasse de café**.",
+      "englishPhrase": "A bottle of wine, please.",
+      "phrase": "Une bouteille de vin, s'il vous plaît.",
+      "hidden": true
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "word": "la table",
+      "grammarNote": "**la table** is feminine (from Latin **tabula**, feminine).\n**Notre table** = our table — **notre** is the possessive adjective for 'our' (same form for m. and f. singular).\n**est prête** — adjective **prêt** agrees with the feminine noun **la table**: **prête**.",
+      "englishPhrase": "Our table is ready.",
+      "phrase": "Notre table est prête."
+    },
+    {
+      "id": "waiter",
+      "english": "waiter",
+      "word": "le serveur",
+      "grammarNote": "**le serveur** = waiter (m.) / **la serveuse** = waitress (f.).\nTo get a waiter's attention: **Monsieur !** (not 'garçon' — that is now considered rude).\n**l'addition** = the bill (la addition → l'addition). In a café: **l'addition, s'il vous plaît** or just **vous pouvez nous apporter l'addition ?**",
+      "englishPhrase": "Waiter, the bill please.",
+      "phrase": "Monsieur, l'addition s'il vous plaît."
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "word": "avoir faim",
+      "grammarNote": "French uses **avoir** for hunger, thirst, and physical sensations — never être:\n**avoir faim** (hungry) · **avoir soif** (thirsty) · **avoir froid/chaud** (cold/hot) · **avoir peur** (afraid)",
+      "englishPhrase": "I'm hungry. Are you thirsty?",
+      "phrase": "J'ai faim. Tu as soif ?",
+      "hidden": true
+    },
+    {
+      "id": "thirsty",
+      "english": "thirsty",
+      "word": "avoir soif",
+      "grammarNote": "**soif** (thirst) is feminine — **la soif**. In the expression **avoir soif** it appears without an article.\n**Tu as soif ?** — informal question by rising intonation; no inversion needed.\nRelated: **mourir de soif** (to be dying of thirst) — a very common hyperbolic expression in French.",
+      "englishPhrase": "I'm thirsty.",
+      "phrase": "J'ai soif.",
+      "hidden": true
+    },
+    {
+      "id": "eat",
+      "english": "eat",
+      "word": "manger",
+      "grammarNote": "**manger** is a regular -er verb with a spelling change: **nous mangeons** (adds **e** to keep the soft g sound before **-ons**).\n**On mange !** = Let's eat! — **on** used for 'we' in casual French, takes the same verb form as **il/elle**.\nWith partitives: **je mange du pain**, **de la salade**, **des légumes** (some bread/salad/vegetables).",
+      "englishPhrase": "Let's eat!",
+      "phrase": "On mange !"
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "boire",
+      "grammarNote": "**boire** is irregular: je **bois**, tu **bois**, il **boit**, nous **buvons**, vous **buvez**, ils **boivent**.\n**quelque chose à boire** = something to drink — **à + infinitive** expresses purpose after **quelque chose**.\nWith partitives: **boire du vin**, **boire de la bière**, **boire de l'eau**.",
+      "englishPhrase": "Would you like something to drink?",
+      "phrase": "Tu veux quelque chose à boire ?"
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "word": "cuisiner",
+      "grammarNote": "**cuisiner** = to cook (general). **faire la cuisine** is an equivalent common expression.\n**Elle cuisine très bien** — adverb **bien** (well) modifies the verb directly.\n**Le cuisinier / la cuisinière** = the cook (person). **La cuisinière** also means the stove — same word, two meanings.",
+      "englishPhrase": "She cooks very well.",
+      "phrase": "Elle cuisine très bien."
+    },
+    {
+      "id": "bake",
+      "english": "bake",
+      "word": "faire cuire au four",
+      "grammarNote": "French has no single verb equivalent to 'bake' — it uses **faire cuire au four** (to cook in the oven).\n**du pain** — partitive article: I bake some bread (unspecified amount).\n**le dimanche** — definite article with days of the week for habitual actions: **le lundi** (every Monday), **le dimanche** (every Sunday). No article = a specific day: **dimanche** (this Sunday).",
+      "englishPhrase": "I bake bread on Sundays.",
+      "phrase": "Je fais cuire du pain au four le dimanche.",
+      "hidden": true
+    },
+    {
+      "id": "fry",
+      "english": "fry",
+      "word": "frire",
+      "grammarNote": "**frire** (to deep fry) is defective — it has limited forms and is rarely used in everyday speech.\n**Faire revenir** is the preferred expression for sautéing onions in oil: **faites revenir** (vous imperative).\n**dans l'huile** — preposition **dans** (in/into) for the medium you're cooking in.",
+      "englishPhrase": "Fry the onions in oil.",
+      "phrase": "Faites revenir les oignons dans l'huile.",
+      "hidden": true
+    },
+    {
+      "id": "roast",
+      "english": "roast",
+      "word": "rôtir",
+      "grammarNote": "**rôtir** = to roast. The circumflex on **ô** signals a historical 's' (Old French **rostir**).\n**Faites rôtir** = vous imperative of **faire** + infinitive **rôtir** (causative construction: make it roast).\n**pendant une heure** — **pendant** (during/for) expresses duration of a completed or ongoing action.",
+      "englishPhrase": "Roast the chicken for one hour.",
+      "phrase": "Faites rôtir le poulet pendant une heure.",
+      "hidden": true
+    },
+    {
+      "id": "chop",
+      "english": "chop",
+      "word": "couper",
+      "grammarNote": "**couper** = to cut (general). **Hacher** = to chop/mince finely (as in **Hachez les oignons**).\nNote the example uses **hachez** not **coupez** — in culinary contexts **hacher** implies finely chopping.\n**Hachez** = vous imperative of **hacher** (regular -er verb).",
+      "englishPhrase": "Chop the onions.",
+      "phrase": "Hachez les oignons.",
+      "hidden": true
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "word": "couper en tranches",
+      "grammarNote": "**couper en tranches** = to cut into slices. **une tranche** = a slice (feminine).\n**Tranchez** = vous imperative of **trancher** (to slice) — a more specific verb than **couper**.\n**le pain** — definite article: slice the (specific) bread (already established in context).",
+      "englishPhrase": "Slice the bread.",
+      "phrase": "Tranchez le pain.",
+      "hidden": true
+    },
+    {
+      "id": "mix",
+      "english": "mix",
+      "word": "mélanger",
+      "grammarNote": "**mélanger** = to mix. Like **manger**, it adds **e** before **-ons**: **nous mélangeons**.\n**Mélangez** = vous imperative.\n**tous les ingrédients** — **tous** (all, masculine plural) + **les ingrédients**. Pronounced 'tooss': the s is pronounced before a vowel in **tous** when it's a pronoun, but silent when it's an adjective.",
+      "englishPhrase": "Mix all the ingredients.",
+      "phrase": "Mélangez tous les ingrédients.",
+      "hidden": true
+    },
+    {
+      "id": "stir",
+      "english": "stir",
+      "word": "remuer",
+      "grammarNote": "**remuer** = to stir, to move, to shake. A regular -er verb.\n**Remuez** = vous imperative.\n**la soupe** — definite article: referring to a specific soup (the one you're making).",
+      "englishPhrase": "Stir the soup.",
+      "phrase": "Remuez la soupe.",
+      "hidden": true
+    },
+    {
+      "id": "whisk",
+      "english": "whisk",
+      "word": "fouetter",
+      "grammarNote": "**fouetter** = to whisk, to beat, to whip. Also used figuratively: **la pluie fouette les vitres** (the rain lashes the windows).\n**Battez** = vous imperative of **battre** (to beat) — a more common alternative to **fouetter** for eggs.\n**les œufs** — plural of **l'œuf**: note the silent f in the plural.",
+      "englishPhrase": "Whisk the eggs.",
+      "phrase": "Battez les œufs.",
+      "hidden": true
+    },
+    {
+      "id": "pour",
+      "english": "pour",
+      "word": "verser",
+      "grammarNote": "**verser** = to pour. A regular -er verb.\n**Versez l'eau** — direct object **l'eau** (definite article — the specific water you have).\n**dans le verre** — **dans** (into/in) for pouring into a container. Compare: **sur** (onto): **versez sur le gâteau**.",
+      "englishPhrase": "Pour the water into the glass.",
+      "phrase": "Versez l'eau dans le verre.",
+      "hidden": true
+    },
+    {
+      "id": "serve",
+      "english": "serve",
+      "word": "servir",
+      "grammarNote": "**servir** = to serve. Irregular -ir verb: je **sers**, tu **sers**, il **sert**, nous **servons**.\n**a servi** = passé composé with **avoir**: **avoir** + past participle **servi**.\n**le serveur** (waiter) comes from **servir** — the person who serves.",
+      "englishPhrase": "The waiter served the food.",
+      "phrase": "Le serveur a servi la nourriture.",
+      "hidden": true
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "word": "nourrir",
+      "grammarNote": "**nourrir** = to feed, to nourish. From Latin **nutrire** — same root as English 'nutrition'.\nThe example uses **donner à manger à** = to give food to (a more colloquial alternative to **nourrir**).\n**au bébé** — indirect object with **à**: gives food **to** the baby. **à + le = au**.",
+      "englishPhrase": "She feeds the baby.",
+      "phrase": "Elle donne à manger au bébé.",
+      "hidden": true
+    },
+    {
+      "id": "dine",
+      "english": "dine",
+      "word": "dîner",
+      "grammarNote": "**dîner** = to dine / to have dinner. Also the noun **le dîner** (dinner).\n**on a dîné** = passé composé with **avoir** + past participle **dîné**.\n**dans un beau restaurant** — **dans** (in) for being inside an establishment. Note **beau** (beautiful, masculine) precedes the noun.",
+      "englishPhrase": "We dined at a nice restaurant.",
+      "phrase": "On a dîné dans un beau restaurant.",
+      "hidden": true
+    },
+    {
+      "id": "chew",
+      "english": "chew",
+      "word": "mâcher",
+      "grammarNote": "**mâcher** = to chew. The circumflex on **â** reflects a historical long vowel.\n**Mâche** = tu imperative of **mâcher**.\n**lentement** = slowly — adverb formed by adding **-ment** to the feminine adjective **lente** (slow, f.).",
+      "englishPhrase": "Chew your food slowly.",
+      "phrase": "Mâche ta nourriture lentement.",
+      "hidden": true
+    },
+    {
+      "id": "swallow",
+      "english": "swallow",
+      "word": "avaler",
+      "grammarNote": "**avaler** = to swallow. A regular -er verb.\n**Avalez** = vous imperative.\n**avec de l'eau** — partitive **de l'** (de + l') for an unspecified amount of water. Used to take a pill with water.",
+      "englishPhrase": "Swallow the pill with water.",
+      "phrase": "Avalez le comprimé avec de l'eau.",
+      "hidden": true
+    },
+    {
+      "id": "season",
+      "english": "season",
+      "word": "assaisonner",
+      "grammarNote": "**assaisonner** = to season (food). Related to **la saison** (season), but in cooking it means to add seasoning.\n**Assaisonnez** = vous imperative.\n**du sel et du poivre** — partitive **du** (de + le) for both salt and pepper (uncountable/unspecified amounts).",
+      "englishPhrase": "Season with salt and pepper.",
+      "phrase": "Assaisonnez avec du sel et du poivre.",
+      "hidden": true
+    },
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "word": "frais",
+      "grammarNote": "**frais** (m.) / **fraîche** (f.) — an irregular feminine form.\n**Le pain est frais** — adjective after **être** agrees with subject: **le pain** (m.) → **frais**.\nFor a woman or feminine noun: **la crème est fraîche**. **Frais** also means 'cool' in weather: **il fait frais** (it's cool/fresh outside).",
+      "englishPhrase": "The bread is fresh.",
+      "phrase": "Le pain est frais."
+    },
+    {
+      "id": "ripe",
+      "english": "ripe",
+      "word": "mûr",
+      "grammarNote": "**mûr** (m.) / **mûre** (f.) — the circumflex on **û** marks a historical vowel length.\n**Les tomates sont mûres** — feminine plural agreement: **mûre** + **s**.\n**Mûr** can also mean 'mature' of a person: **un homme mûr** (a mature man).",
+      "englishPhrase": "The tomatoes are ripe.",
+      "phrase": "Les tomates sont mûres.",
+      "hidden": true
+    },
+    {
+      "id": "cooked",
+      "english": "cooked",
+      "word": "cuit",
+      "grammarNote": "**cuit** = past participle of **cuire** (to cook), used as an adjective meaning 'cooked'.\n**Le poulet est cuit ?** — **cuit** is masculine, agreeing with **le poulet**. Feminine: **la viande est cuite**.\nDegrees of doneness: **bien cuit** (well-done), **à point** (medium), **saignant** (rare — literally 'bleeding').",
+      "englishPhrase": "Is the chicken cooked?",
+      "phrase": "Le poulet est cuit ?",
+      "hidden": true
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "word": "chaud",
+      "grammarNote": "**chaud** (m.) / **chaude** (f.) — adjective agrees with its noun.\n**La soupe est chaude** — feminine agreement with **la soupe**.\nFor people and sensations use **avoir**: **j'ai chaud** (I'm hot), not *je suis chaud* (which has slang meanings to avoid).",
+      "englishPhrase": "Be careful, the soup is hot.",
+      "phrase": "Attention, la soupe est chaude."
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "word": "froid",
+      "grammarNote": "**froid** (m.) / **froide** (f.) — adjective agrees with its noun.\n**Mon café est froid** — **froid** is masculine, agreeing with **le café** (m.).\nFor body temperature use **avoir**: **j'ai froid** (I'm cold). For weather: **il fait froid** (it's cold). Never *je suis froid* for temperature.",
+      "englishPhrase": "My coffee is cold.",
+      "phrase": "Mon café est froid."
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "word": "sucré",
+      "grammarNote": "**sucré** = sweet (literally 'sugared') — past participle of **sucrer** used as adjective.\n**Ce gâteau est très sucré** — **sucré** is masculine, agreeing with **le gâteau** (m.).\nContrast: **le sucre** (the noun, sugar) vs. **sucré** (the adjective, sweet/sugary). **Un dessert sucré** = a sweet dessert.",
+      "englishPhrase": "This cake is very sweet.",
+      "phrase": "Ce gâteau est très sucré."
+    },
+    {
+      "id": "sour",
+      "english": "sour",
+      "word": "aigre",
+      "grammarNote": "**aigre** = sour/sharp (same form for m. and f.). **acide** is used in the example (acidic/sour).\n**Ce citron** — demonstrative **ce** (masculine singular before consonant).\nFlavour vocabulary: **aigre** (sour) · **acide** (acidic) · **amer** (bitter) · **sucré** (sweet) · **salé** (salty) · **épicé** (spicy).",
+      "englishPhrase": "This lemon is sour.",
+      "phrase": "Ce citron est acide."
+    },
+    {
+      "id": "bitter",
+      "english": "bitter",
+      "word": "amer",
+      "grammarNote": "**amer** (m.) / **amère** (f.) — an irregular feminine form with a grave accent.\n**Ce café est amer** — **amer** is masculine, agreeing with **le café** (m.).\nFeminine example: **la bière est amère** (the beer is bitter). **L'amertume** = bitterness (noun, feminine).",
+      "englishPhrase": "This coffee is bitter.",
+      "phrase": "Ce café est amer.",
+      "hidden": true
+    },
+    {
+      "id": "spicy",
+      "english": "spicy",
+      "word": "épicé",
+      "grammarNote": "**épicé** (m.) / **épicée** (f.) — past participle of **épicer** (to spice) used as an adjective.\n**La cuisine mexicaine est souvent épicée** — feminine agreement: **cuisine** (f.) → **épicée**.\n**souvent** (often) = adverb modifying the verb/adjective. Note **-tion** words like **la cuisine** are not **-tion** words — but all **-tion** nouns are feminine in French.",
+      "englishPhrase": "Mexican food is often spicy.",
+      "phrase": "La cuisine mexicaine est souvent épicée."
+    },
+    {
+      "id": "tender",
+      "english": "tender",
+      "word": "tendre",
+      "grammarNote": "**tendre** = tender/soft (same form for masculine and feminine — adjectives ending in **-e** don't change for gender).\n**La viande est tendre** — no gender change needed here.\n**Tendre** can also mean 'to hold out' or 'tender-hearted' as an adjective of character: **un regard tendre** (a tender look).",
+      "englishPhrase": "The meat is tender.",
+      "phrase": "La viande est tendre.",
+      "hidden": true
+    },
+    {
+      "id": "delicious",
+      "english": "delicious",
+      "word": "délicieux",
+      "grammarNote": "**délicieux** (m.) / **délicieuse** (f.) — adjectives ending in **-eux** change to **-euse** in the feminine.\n**C'est délicieux !** — **c'est** + adjective: when commenting on something without naming it, use the invariable **c'est** + masculine adjective.\nFor a named feminine noun: **cette tarte est délicieuse**.",
+      "englishPhrase": "This is delicious!",
+      "phrase": "C'est délicieux !"
+    },
+    {
+      "id": "tasty",
+      "english": "tasty",
+      "word": "savoureux",
+      "grammarNote": "**savoureux** (m.) / **savoureuse** (f.) — follows the **-eux/-euse** pattern.\n**La soupe est très savoureuse** — feminine agreement with **la soupe** (f.).\n**Savoureux** comes from **la saveur** (flavor). Related English words: 'savory', 'savor'.",
+      "englishPhrase": "The soup is very tasty.",
+      "phrase": "La soupe est très savoureuse.",
+      "hidden": true
+    },
+    {
+      "id": "bland",
+      "english": "bland",
+      "word": "fade",
+      "grammarNote": "**fade** = bland/tasteless (same form for m. and f. — ends in **-e** so no gender change).\n**Le riz est fade** — **fade** is invariable for gender; for plural: **les légumes sont fades**.\n**Insipide** is a more formal/literary synonym. In everyday speech **ça manque de goût** (it lacks flavor) is also common.",
+      "englishPhrase": "The rice is bland.",
+      "phrase": "Le riz est fade.",
+      "hidden": true
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "word": "sain",
+      "grammarNote": "**sain** (m.) / **saine** (f.) = healthy.\nThe example uses **bons pour la santé** (good for health) — a very common alternative to **sains**.\n**la santé** = health (feminine). **Être en bonne santé** = to be in good health. **À votre santé !** = Cheers! (literally 'to your health!').",
+      "englishPhrase": "Fruit is healthy.",
+      "phrase": "Les fruits sont bons pour la santé."
+    },
+    {
+      "id": "unhealthy",
+      "english": "unhealthy",
+      "word": "mauvais pour la santé",
+      "grammarNote": "**mauvais pour la santé** = unhealthy, literally 'bad for health'.\n**La restauration rapide** = fast food — a formal/official term. **Le fast-food** (borrowed) is also used informally.\n**mauvaise** — feminine agreement: **la restauration** (f.) → **mauvaise**.",
+      "englishPhrase": "Fast food is unhealthy.",
+      "phrase": "La restauration rapide est mauvaise pour la santé.",
+      "hidden": true
+    },
+    {
+      "id": "vegetarian",
+      "english": "vegetarian",
+      "word": "végétarien",
+      "grammarNote": "**végétarien** (m.) / **végétarienne** (f.) — double n in the feminine form.\n**Je suis végétarien(ne)** — with **être**, nationality/religion/profession adjectives have no article.\nCompare: **je suis médecin** (I'm a doctor) — no article before profession after **être**.",
+      "englishPhrase": "I am vegetarian.",
+      "phrase": "Je suis végétarien(ne).",
+      "hidden": true
+    },
+    {
+      "id": "vegan",
+      "english": "vegan",
+      "word": "vegan",
+      "grammarNote": "**vegan** is borrowed from English and used in French without change. Pronounced approximately 'veh-gan'.\n**Elle est vegan** — no article after **être** with borrowed lifestyle adjectives.\nA French alternative: **végétalien(ne)** (plant-based, no animal products at all). **Vegan** is more colloquial.",
+      "englishPhrase": "She is vegan.",
+      "phrase": "Elle est vegan.",
+      "hidden": true
+    },
+    {
+      "id": "frozen",
+      "english": "frozen",
+      "word": "congelé",
+      "grammarNote": "**congelé** (m.) / **congelée** (f.) — past participle of **congeler** (to freeze), used as adjective.\nNote the example uses **surgelé** — a more specific term for commercially frozen food. **Congelé** is food you froze at home.\n**Sors** = tu imperative of **sortir** (to take out/go out), an irregular -ir verb.",
+      "englishPhrase": "Take the frozen food out.",
+      "phrase": "Sors la nourriture surgelée.",
+      "hidden": true
+    },
+    {
+      "id": "organic",
+      "english": "organic",
+      "word": "bio",
+      "grammarNote": "**bio** = organic (abbreviation of **biologique**). Invariable — does not change for gender or number: **des légumes bio**, **une pomme bio**.\n**Je préfère** = I prefer — regular -er verb. Accent changes: **préfère** (I prefer), **préférons** (we prefer).\nIn France, **le label AB** (Agriculture Biologique) certifies organic products.",
+      "englishPhrase": "I prefer organic vegetables.",
+      "phrase": "Je préfère les légumes bio.",
+      "hidden": true
+    },
+    {
+      "id": "homemade",
+      "english": "homemade",
+      "word": "fait maison",
+      "grammarNote": "**fait maison** = homemade, literally 'made [at] home'. Invariable — never changes form.\nIn France, restaurants are legally required to mark dishes as **fait maison** when made from scratch on the premises.\n**J'adore** = I love (stronger than **j'aime**). **le pain fait maison** — definite article for the concept in general.",
+      "englishPhrase": "I love homemade bread.",
+      "phrase": "J'adore le pain fait maison.",
+      "hidden": true
+    },
+    {
+      "id": "daily",
+      "english": "daily",
+      "word": "quotidien",
+      "grammarNote": "**quotidien** (m.) / **quotidienne** (f.) = daily. From Latin **quotidianus**.\n**tous les jours** is used in the example (every day) — more natural in speech than **quotidiennement** (daily, as an adverb).\n**Je mange des fruits** — partitive/indefinite plural **des** (some fruits — unspecified quantity).",
+      "englishPhrase": "I eat fruit daily.",
+      "phrase": "Je mange des fruits tous les jours.",
+      "hidden": true
+    },
+    {
+      "id": "almost",
+      "english": "almost",
+      "word": "presque",
+      "grammarNote": "**presque** = almost, nearly. Invariable adverb.\n**Le déjeuner est presque prêt** — **presque** modifies the adjective **prêt** (ready).\n**prêt** is masculine, agreeing with **le déjeuner** (m.). Feminine: **la quiche est presque prête**.",
+      "englishPhrase": "Lunch is almost ready.",
+      "phrase": "Le déjeuner est presque prêt.",
+      "hidden": true
+    },
+    {
+      "id": "too_too_much",
+      "english": "too (too much)",
+      "word": "trop",
+      "grammarNote": "**trop** = too / too much. **trop de** + noun (no article): **trop de sel**, **trop d'eau**, **trop de sucre**.\n**il y a trop de sel** — **il y a** = there is/are (invariable expression).\nContrast: **trop** (too much) vs. **très** (very): **très salé** (very salty) vs. **trop salé** (too salty).",
+      "englishPhrase": "There is too much salt.",
+      "phrase": "Il y a trop de sel.",
+      "hidden": true
+    }
+  ]
+}

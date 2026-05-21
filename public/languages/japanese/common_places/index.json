@@ -1,0 +1,2729 @@
+{
+  "id": "common_places",
+  "name": "Common Places",
+  "language": "japanese",
+  "stories": [
+    "a_day_out",
+    "at_the_hotel",
+    "getting_around",
+    "a_day_in_the_city",
+    "at_the_pharmacy"
+  ],
+  "pictureLessons": [
+    "common_places"
+  ],
+  "grammarLessons": [
+    {
+      "id": "ni_de_particles",
+      "name": "に vs で — Location Particles"
+    },
+    {
+      "id": "imasu_arimasu",
+      "name": "います vs あります — To Exist"
+    },
+    {
+      "id": "masu_form",
+      "name": "〜ます Verb Form"
+    },
+    {
+      "id": "ka_questions",
+      "name": "Questions with か"
+    },
+    {
+      "id": "ni_ikimasu",
+      "name": "〜に行きます — Going To (Purpose)"
+    },
+    {
+      "id": "navigation_grammar",
+      "name": "Direction & Location — Right, Left, Straight"
+    }
+  ],
+  "cards": [
+    {
+      "id": "home",
+      "english": "Home",
+      "word": "家",
+      "romanized": "ie",
+      "grammarNote": "**家** has two readings: **ie** (the building) and **uchi** (home, my place).\n**家に帰る** — to return home.\n**uchi** is the warmer, more casual form, often meaning 'my home' or 'my household'.",
+      "englishPhrase": "I'm going home.",
+      "phrase": "家に帰ります。",
+      "phraseRomanized": "ie ni kaerimasu",
+      "literal": [
+        [
+          "家",
+          "home"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "帰ります",
+          "return"
+        ]
+      ]
+    },
+    {
+      "id": "apartment",
+      "english": "Apartment",
+      "word": "アパート",
+      "romanized": "apāto",
+      "grammarNote": "**アパート** (apāto) = a smaller wooden or lightweight building.\n**マンション** (manshon) = a larger reinforced concrete apartment — despite sounding like 'mansion' in English.",
+      "englishPhrase": "I live in an apartment.",
+      "phrase": "アパートに住んでいます。",
+      "phraseRomanized": "apāto ni sunde imasu",
+      "literal": [
+        [
+          "アパート",
+          "apartment"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "school",
+      "english": "School",
+      "word": "学校",
+      "romanized": "gakkō",
+      "grammarNote": "**学校** (gakkō) = **学** (gaku, study/learning) + **校** (kō, school/institution).\nUse **に行く** for going to school as a destination: **学校に行く**.\nUse **で** for what happens there: **学校で勉強する** (study at school).",
+      "englishPhrase": "The children go to school.",
+      "phrase": "子どもたちは学校に行きます。",
+      "phraseRomanized": "kodomotachi wa gakkō ni ikimasu",
+      "literal": [
+        [
+          "子どもたち",
+          "children"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "university",
+      "english": "University",
+      "word": "大学",
+      "romanized": "daigaku",
+      "grammarNote": "**大学** (daigaku) = **大** (dai, big/great) + **学** (gaku, learning) → great place of learning.\n**大学院** (daigakuin) = graduate school (adds **院**, institution).\nNote: **大学で勉強する** — use **で** because studying is an action taking place there.",
+      "englishPhrase": "She studies at the university.",
+      "phrase": "彼女は大学で勉強しています。",
+      "phraseRomanized": "kanojo wa daigaku de benkyō shite imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "大学",
+          "university"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "勉強して",
+          "studying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "オフィス",
+      "romanized": "ofisu",
+      "grammarNote": "**オフィス** (ofisu) is the general loanword for office.\n**会社** (kaisha) = company/firm — the whole organization.\n**職場** (shokuba) = workplace — a more general term for any place you work.\nThe particle **で** is used here: **オフィスで働く** — working is an action happening at the location.",
+      "englishPhrase": "He works in an office.",
+      "phrase": "彼はオフィスで働いています。",
+      "phraseRomanized": "kare wa ofisu de hataraite imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "hospital",
+      "english": "Hospital",
+      "word": "病院",
+      "romanized": "byōin",
+      "grammarNote": "**病院** (byōin) = **病** (byō, illness/sickness) + **院** (in, institution) → place for the sick.\nCompare: **医院** (iin) = a smaller clinic or doctor's office.\n**病院に行く** uses **に** for destination. **病院で診てもらう** uses **で** for where the examination happens.",
+      "englishPhrase": "I'm going to the hospital.",
+      "phrase": "病院に行きます。",
+      "phraseRomanized": "byōin ni ikimasu",
+      "literal": [
+        [
+          "病院",
+          "hospital"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "grocery_store",
+      "english": "Grocery store",
+      "word": "スーパーマーケット",
+      "romanized": "sūpāmāketto",
+      "grammarNote": "Often shortened to **スーパー** (sūpā) in everyday speech.\n**〜なければなりません** (nakerebanarimasen) = 'must / have to'. It's the formal obligation form.\nCasual equivalents: **〜なきゃ** or **〜ないといけない**.",
+      "englishPhrase": "I need to go to the supermarket.",
+      "phrase": "スーパーに行かなければなりません。",
+      "phraseRomanized": "sūpā ni ikanakereba narimasen",
+      "literal": [
+        [
+          "スーパー",
+          "supermarket"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行かなければなりません",
+          "must go"
+        ]
+      ]
+    },
+    {
+      "id": "bank",
+      "english": "Bank",
+      "word": "銀行",
+      "romanized": "ginkō",
+      "grammarNote": "**銀行** (ginkō) = **銀** (gin, silver) + **行** (kō, go/row/institution) → silver institution.\nThe particle **から** (kara) means 'from': **銀行から来ました** = came from the bank.\nCompare **に** (destination) vs **から** (origin): **銀行に行く** (go to the bank) vs **銀行から来る** (come from the bank).",
+      "englishPhrase": "I'm coming from the bank.",
+      "phrase": "銀行から来ました。",
+      "phraseRomanized": "ginkō kara kimashita",
+      "literal": [
+        [
+          "銀行",
+          "bank"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "library",
+      "english": "Library",
+      "word": "図書館",
+      "romanized": "toshokan",
+      "grammarNote": "**図書館** (toshokan) = **図書** (tosho, books/documents) + **館** (kan, building/hall) → building of books.\n**館** appears in many public buildings: **映画館** (cinema), **博物館** (museum), **水族館** (aquarium).\n**で** is used here: **図書館で勉強する** — studying is an action, so **で** marks the location.",
+      "englishPhrase": "I study in the library.",
+      "phrase": "図書館で勉強します。",
+      "phraseRomanized": "toshokan de benkyō shimasu",
+      "literal": [
+        [
+          "図書館",
+          "library"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "勉強",
+          "study"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "Restaurant",
+      "word": "レストラン",
+      "romanized": "resutoran",
+      "grammarNote": "**レストラン** (resutoran) is the loanword for a Western-style restaurant.\n**食堂** (shokudō) = a casual dining hall or canteen.\n**居酒屋** (izakaya) = a Japanese-style pub with food.\n**満席** (manseki) = **満** (full) + **席** (seats) → all seats full.",
+      "englishPhrase": "The restaurant is full.",
+      "phrase": "レストランは満席です。",
+      "phraseRomanized": "resutoran wa manseki desu",
+      "literal": [
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "満席",
+          "full seats"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "cafe",
+      "english": "Cafe",
+      "word": "カフェ",
+      "romanized": "kafe",
+      "grammarNote": "**カフェ** (kafe) is the modern loanword for cafe.\n**喫茶店** (kissaten) is a traditional Japanese-style coffee shop — often quieter and more old-fashioned.",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "カフェで会いましょう。",
+      "phraseRomanized": "kafe de aimashō",
+      "literal": [
+        [
+          "カフェ",
+          "cafe"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "会いましょう",
+          "let's meet"
+        ]
+      ]
+    },
+    {
+      "id": "hotel",
+      "english": "Hotel",
+      "word": "ホテル",
+      "romanized": "hoteru",
+      "grammarNote": "**ホテル** (hoteru) is the Western-style hotel loanword.\n**旅館** (ryokan) is a traditional Japanese inn with tatami floors and communal baths.\n**市内** (shinai) = **市** (shi, city) + **内** (nai, inside) → within the city.\n**ホテルは市内にあります** — **に** + **あります** marks where an inanimate thing exists.",
+      "englishPhrase": "The hotel is downtown.",
+      "phrase": "ホテルは市内にあります。",
+      "phraseRomanized": "hoteru wa shinai ni arimasu",
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "市内",
+          "downtown"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "airport",
+      "english": "Airport",
+      "word": "空港",
+      "romanized": "kūkō",
+      "grammarNote": "**空港** (kūkō) = **空** (kū, sky/air) + **港** (kō, port/harbor) → sky port.\nCompare **港** (minato) = seaport.\n**から** marks origin/starting point: **ここから** = from here.\n**遠い** (tōi) is an **い**-adjective meaning 'far'; its opposite is **近い** (chikai, near).",
+      "englishPhrase": "The airport is far from here.",
+      "phrase": "空港はここから遠いです。",
+      "phraseRomanized": "kūkō wa koko kara tōi desu",
+      "literal": [
+        [
+          "空港",
+          "airport"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "遠い",
+          "far"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "station",
+      "english": "Station",
+      "word": "駅",
+      "romanized": "eki",
+      "grammarNote": "**駅** (eki) — a single kanji meaning station. Its left-hand radical **馬** (horse) recalls the era of horse-drawn travel before trains.\n**の近く** (no chikaku) = 'near ~' — a common location expression: **ホテルの近く** = near the hotel.\n**駅にあります** — **に** + **あります** for where a thing exists.",
+      "englishPhrase": "The station is near the hotel.",
+      "phrase": "駅はホテルの近くにあります。",
+      "phraseRomanized": "eki wa hoteru no chikaku ni arimasu",
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "bus_stop",
+      "english": "Bus stop",
+      "word": "バス停",
+      "romanized": "basutei",
+      "grammarNote": "**バス停** (basutei) = **バス** (loanword, bus) + **停** (tei, stopping place).\n**〜で待つ** — use **で** because waiting is an action happening at the location.\nCompare: **バス停にいる** (to be at the bus stop, existence) vs **バス停で待つ** (to wait at the bus stop, action).",
+      "englishPhrase": "Wait at the bus stop.",
+      "phrase": "バス停で待ってください。",
+      "phraseRomanized": "basutei de matte kudasai",
+      "literal": [
+        [
+          "バス停",
+          "bus stop"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "待って",
+          "wait"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "park",
+      "english": "Park",
+      "word": "公園",
+      "romanized": "kōen",
+      "grammarNote": "**公園** (kōen) = **公** (kō, public) + **園** (en, garden/park) → public garden.\n**〜で遊ぶ** — **で** marks where an activity happens. Children play **in** the park.\n**遊ぶ** (asobu) = to play/have fun — used for both children and adults enjoying leisure.",
+      "englishPhrase": "The children play in the park.",
+      "phrase": "子どもたちは公園で遊びます。",
+      "phraseRomanized": "kodomotachi wa kōen de asobimasu",
+      "literal": [
+        [
+          "子どもたち",
+          "children"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "遊びます",
+          "play"
+        ]
+      ]
+    },
+    {
+      "id": "square",
+      "english": "Square",
+      "word": "広場",
+      "romanized": "hiroba",
+      "grammarNote": "**広場** (hiroba) = **広** (hiro, wide/broad) + **場** (ba, place/ground) → open wide place.\n**に** + **あります** marks where an inanimate thing exists: **噴水があります** = there is a fountain.\n**が** (ga) marks the grammatical subject when introducing something new into the conversation.",
+      "englishPhrase": "There's a fountain in the square.",
+      "phrase": "広場に噴水があります。",
+      "phraseRomanized": "hiroba ni funsui ga arimasu",
+      "literal": [
+        [
+          "広場",
+          "square"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "噴水",
+          "fountain"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "street",
+      "english": "Street",
+      "word": "通り",
+      "romanized": "tōri",
+      "grammarNote": "**通り** (tōri) = street/avenue. Also read as **どおり** in compounds: **大通り** (ōdōri, main street).\n**この通りに** = on this street — **に** + **あります** for location of an inanimate thing.\n**道** (michi) is a more general word for road/path.",
+      "englishPhrase": "The restaurant is on this street.",
+      "phrase": "レストランはこの通りにあります。",
+      "phraseRomanized": "resutoran wa kono tōri ni arimasu",
+      "literal": [
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "この",
+          "this"
+        ],
+        [
+          "通り",
+          "street"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "crosswalk",
+      "english": "Crosswalk",
+      "word": "横断歩道",
+      "romanized": "ōdan hodō",
+      "grammarNote": "**横断歩道** (ōdan hodō) = **横断** (ōdan, crossing/traversing) + **歩道** (hodō, footpath/sidewalk).\n**横断** = **横** (yoko, side/horizontal) + **断** (dan, cut across).\n**を渡る** — **を** marks the thing being crossed. **渡る** (wataru) = to cross/traverse.",
+      "englishPhrase": "Cross at the crosswalk.",
+      "phrase": "横断歩道を渡ってください。",
+      "phraseRomanized": "ōdan hodō wo watatte kudasai",
+      "literal": [
+        [
+          "横断歩道",
+          "crosswalk"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "渡って",
+          "cross"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "intersection",
+      "english": "Intersection",
+      "word": "交差点",
+      "romanized": "kōsaten",
+      "grammarNote": "**交差点** (kōsaten) = **交差** (kōsa, crossing/intersection) + **点** (ten, point) → crossing point.\n**で** marks where the action (turning) happens.\n**左に曲がる** = turn left — **に** here marks the direction of the turn.",
+      "englishPhrase": "Turn left at the intersection.",
+      "phrase": "交差点で左に曲がってください。",
+      "phraseRomanized": "kōsaten de hidari ni magatte kudasai",
+      "literal": [
+        [
+          "交差点",
+          "intersection"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bridge",
+      "english": "Bridge",
+      "word": "橋",
+      "romanized": "hashi",
+      "grammarNote": "**橋** (hashi) = bridge — a single kanji. Be careful: **橋** (hashi, bridge) vs **箸** (hashi, chopsticks) — context and pitch accent differentiate them.\n**を渡る** — **を** marks the thing being traversed. **渡る** (wataru) = cross/traverse.\n**渡りました** is the polite past tense of **渡る**.",
+      "englishPhrase": "We crossed the bridge.",
+      "phrase": "私たちは橋を渡りました。",
+      "phraseRomanized": "watashitachi wa hashi wo watarimashita",
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "橋",
+          "bridge"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "渡りました",
+          "crossed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "corner",
+      "english": "Corner",
+      "word": "角",
+      "romanized": "kado",
+      "grammarNote": "**角** (kado) = corner of a street — a single kanji.\n**で** marks where the action (turning, stopping) occurs.\n**右に曲がる** = turn right — **に** marks direction of the turn.\nAlternative: **角を曲がる** (turn at the corner) — **を** marks the corner itself as what is navigated.",
+      "englishPhrase": "Turn right at the corner.",
+      "phrase": "角で右に曲がってください。",
+      "phraseRomanized": "kado de migi ni magatte kudasai",
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "右",
+          "right"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "city_centre_downtown",
+      "english": "City centre",
+      "word": "市内",
+      "romanized": "shinai",
+      "grammarNote": "**市内** (shinai) = **市** (shi, city) + **内** (nai, inside) → within the city.\n**都心** (toshin) = city center/downtown (more specific — the central business district).\n**博物館** (hakubutsukan) = **博物** (hakubutsu, natural history/wide knowledge) + **館** (kan, building).",
+      "englishPhrase": "The museum is downtown.",
+      "phrase": "博物館は市内にあります。",
+      "phraseRomanized": "hakubutsukan wa shinai ni arimasu",
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "市内",
+          "downtown"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "neighbourhood",
+      "english": "Neighbourhood",
+      "word": "近所",
+      "romanized": "kinjo",
+      "grammarNote": "**近所** (kinjo) = **近** (kin, near) + **所** (sho, place) → nearby places.\n**静かな** (shizuka na) = quiet — a **な**-adjective. It needs **な** before a noun: **静かな近所** (quiet neighbourhood).\n**住んでいます** (sunde imasu) — the **〜ている** form of **住む** describes an ongoing state of residence.",
+      "englishPhrase": "I live in a quiet neighbourhood.",
+      "phrase": "静かな近所に住んでいます。",
+      "phraseRomanized": "shizuka na kinjo ni sunde imasu",
+      "literal": [
+        [
+          "静かな",
+          "quiet"
+        ],
+        [
+          "近所",
+          "neighbourhood"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "beach",
+      "english": "Beach",
+      "word": "海岸",
+      "romanized": "kaigan",
+      "grammarNote": "**海岸** (kaigan) = **海** (kai/umi, sea) + **岸** (kishi/gan, shore/bank) → seashore.\n**浜** (hama) or **砂浜** (sunahama) = sandy beach — a more casual, pictorial word.\n**きれい** (kirei) = beautiful/clean — a **な**-adjective despite not ending in い in its base form.",
+      "englishPhrase": "The beach is beautiful.",
+      "phrase": "海岸はきれいです。",
+      "phraseRomanized": "kaigan wa kirei desu",
+      "literal": [
+        [
+          "海岸",
+          "beach"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "きれい",
+          "beautiful"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "mountain",
+      "english": "Mountain",
+      "word": "山",
+      "romanized": "yama",
+      "grammarNote": "**山** (yama) = mountain — a single pictographic kanji that looks like a mountain profile.\nAlso read as **さん** (san) in compounds: **富士山** (Fujisan, Mt. Fuji).\n**高い** (takai) = tall/high/expensive — an **い**-adjective. Context determines which meaning.",
+      "englishPhrase": "The mountain is very high.",
+      "phrase": "山はとても高いです。",
+      "phraseRomanized": "yama wa totemo takai desu",
+      "literal": [
+        [
+          "山",
+          "mountain"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "高い",
+          "high"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "museum",
+      "english": "Museum",
+      "word": "博物館",
+      "romanized": "hakubutsukan",
+      "grammarNote": "**博物館** (hakubutsukan) = a general museum (history, science, etc.).\n**美術館** (bijutsukan) = an art museum specifically.",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "博物館を訪れたいです。",
+      "phraseRomanized": "hakubutsukan wo otozuretai desu",
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "訪れたい",
+          "want to visit"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "movie_theater",
+      "english": "Movie theater",
+      "word": "映画館",
+      "romanized": "eigakan",
+      "grammarNote": "**映画館** (eigakan) = **映画** (eiga, movie/film) + **館** (kan, building) → movie building.\n**映画** = **映** (ei, reflect/project) + **画** (ga, picture) → projected pictures.\nUse **に行きます** for going to the cinema as a destination: **映画館に行く**.",
+      "englishPhrase": "We're going to the cinema tonight.",
+      "phrase": "今夜映画館に行きます。",
+      "phraseRomanized": "kon'ya eigakan ni ikimasu",
+      "literal": [
+        [
+          "今夜",
+          "tonight"
+        ],
+        [
+          "映画館",
+          "cinema"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "map",
+      "english": "Map",
+      "word": "地図",
+      "romanized": "chizu",
+      "grammarNote": "**地図** (chizu) = **地** (chi, earth/land) + **図** (zu, diagram/plan) → land diagram.\n**持っています** (motte imasu) = 'to have / to be holding' (ongoing state of possession).\nThis is the standard way to say you have something on your person: **地図を持っていますか** (do you have a map with you?).",
+      "englishPhrase": "Do you have a map?",
+      "phrase": "地図を持っていますか？",
+      "phraseRomanized": "chizu wo motte imasu ka",
+      "literal": [
+        [
+          "地図",
+          "map"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "持って",
+          "holding"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "Direction",
+      "word": "方向",
+      "romanized": "hōkō",
+      "grammarNote": "**方向** (hōkō) = **方** (hō, direction/way) + **向** (kō, facing) → the direction faced.\n**どの方向** = which direction — **どの** is 'which' before a noun.\nAlternative: **方面** (hōmen) = direction/area (used for train destinations: **新宿方面** = toward Shinjuku).",
+      "englishPhrase": "Which direction is the station?",
+      "phrase": "駅はどの方向ですか？",
+      "phraseRomanized": "eki wa dono hōkō desu ka",
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どの",
+          "which"
+        ],
+        [
+          "方向",
+          "direction"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "distance",
+      "english": "Distance",
+      "word": "距離",
+      "romanized": "kyori",
+      "grammarNote": "**距離** (kyori) = **距** (kyo, distance) + **離** (ri, separate/apart) → the space between.\n**まで** (made) = 'until/as far as': **ホテルまで** = as far as / to the hotel.\n**どのくらい** = 'how much / how long / approximately how far' — a common question word for quantities.",
+      "englishPhrase": "What's the distance to the hotel?",
+      "phrase": "ホテルまでの距離はどのくらいですか？",
+      "phraseRomanized": "hoteru made no kyori wa dono kurai desu ka",
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "まで",
+          "[until]"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "距離",
+          "distance"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どのくらい",
+          "how much"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "行く",
+      "romanized": "iku",
+      "grammarNote": "**行く** (iku) means to go (away from the speaker); polite form: **行きます**.\nUse **に** or **へ** for destination: **スーパーに行きます** — I'm going to the supermarket.\nOpposite: **来る** (kuru) = to come (toward the speaker).",
+      "englishPhrase": "I'm going to the supermarket.",
+      "phrase": "スーパーに行きます。",
+      "phraseRomanized": "sūpā ni ikimasu",
+      "literal": [
+        [
+          "スーパー",
+          "supermarket"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "来る",
+      "romanized": "kuru",
+      "grammarNote": "**来る** (kuru) = to come (toward the speaker's location). Irregular verb — polite form: **来ます** (kimasu).\n**〜に来る** = come to [a place]. Compare: **行く** (iku, go away) vs **来る** (kuru, come here).\n**来てください** = please come — the **て**-form + **ください** makes a polite request.",
+      "englishPhrase": "Come to my house.",
+      "phrase": "私の家に来てください。",
+      "phraseRomanized": "watashi no ie ni kite kudasai",
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "to_travel",
+      "english": "To travel",
+      "word": "旅行する",
+      "romanized": "ryokō suru",
+      "grammarNote": "**旅行** (ryokō) = **旅** (tabi/ryo, journey/trip) + **行** (kō, go/travel) → traveling.\n**旅行するのが大好き** — **の** nominalizes the verb phrase, turning 'to travel' into a noun so **が好き** can follow.\n**大好き** (daisuki) = **大** (great) + **好き** (like) → love/really like.",
+      "englishPhrase": "I love to travel.",
+      "phrase": "旅行するのが大好きです。",
+      "phraseRomanized": "ryokō suru no ga daisuki desu",
+      "literal": [
+        [
+          "旅行する",
+          "traveling"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "love"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "to_walk",
+      "english": "To walk",
+      "word": "歩く",
+      "romanized": "aruku",
+      "grammarNote": "**歩く** (aruku) = to walk. Polite: **歩きます** (arukimasu).\n**歩いて** (aruite) — the **て**-form used as a manner adverb: 'by walking / on foot': **歩いて仕事に行く** = go to work on foot.\nCompare transport manner expressions: **電車で** (by train), **バスで** (by bus), **歩いて** (on foot — notably without **で**).",
+      "englishPhrase": "I walk to work every day.",
+      "phrase": "毎日歩いて仕事に行きます。",
+      "phraseRomanized": "mainichi aruite shigoto ni ikimasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "歩いて",
+          "walking"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "to_drive",
+      "english": "To drive",
+      "word": "運転する",
+      "romanized": "unten suru",
+      "grammarNote": "**運転** (unten) = **運** (un, carry/transport) + **転** (ten, turn/roll) → operating a vehicle.\n**まで** (made) = 'up to/as far as': **オフィスまで** = as far as the office.\nCompare: **に** (destination point) vs **まで** (covering the distance to a point): **オフィスに行く** (go to the office) vs **オフィスまで運転する** (drive all the way to the office).",
+      "englishPhrase": "She drives to the office.",
+      "phrase": "彼女はオフィスまで運転します。",
+      "phraseRomanized": "kanojo wa ofisu made unten shimasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "まで",
+          "[until]"
+        ],
+        [
+          "運転します",
+          "drives"
+        ]
+      ]
+    },
+    {
+      "id": "to_turn",
+      "english": "To turn",
+      "word": "曲がる",
+      "romanized": "magaru",
+      "grammarNote": "**曲がる** (magaru) = to turn/bend (intransitive — the subject itself turns).\nDirection + **に** before **曲がる**: **左に曲がる** (turn left), **右に曲がる** (turn right).\n**で** marks the location of the turn: **角で曲がる** (turn at the corner).\n**て**-form + **ください** makes a polite instruction: **曲がってください** (please turn).",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "角で左に曲がってください。",
+      "phraseRomanized": "kado de hidari ni magatte kudasai",
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_cross",
+      "english": "To cross",
+      "word": "渡る",
+      "romanized": "wataru",
+      "grammarNote": "**渡る** (wataru) = to cross/traverse (intransitive). Used for crossing roads, bridges, etc.\n**道を渡る** — **を** marks the thing being crossed.\n**注意して** (chūi shite) = carefully/with attention — **注意する** in **て**-form used as an adverb.",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "注意して道を渡ってください。",
+      "phraseRomanized": "chūi shite michi wo watatte kudasai",
+      "literal": [
+        [
+          "注意して",
+          "carefully"
+        ],
+        [
+          "道",
+          "road"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "渡って",
+          "cross"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_follow",
+      "english": "To follow",
+      "word": "従う",
+      "romanized": "shitagau",
+      "grammarNote": "**従う** (shitagau) = to follow/obey (a rule, person, or path).\nFor following a physical path, **沿って** (sotte, along) is more natural: **この通りに沿って進む** (proceed along this street).\n**進む** (susumu) = to proceed/advance. The phrase in the example is more natural than literally using **従う** for directions.",
+      "englishPhrase": "Follow this street.",
+      "phrase": "この通りに沿って進んでください。",
+      "phraseRomanized": "kono tōri ni sotte susunde kudasai",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "通り",
+          "street"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "沿って",
+          "along"
+        ],
+        [
+          "進んで",
+          "proceed"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_reach",
+      "english": "To reach",
+      "word": "着く",
+      "romanized": "tsuku",
+      "grammarNote": "**着く** (tsuku) = to arrive at / reach a destination. Polite: **着きます** (tsukimasu).\nCompare **到着する** (tōchaku suru) = a more formal word for arriving (e.g., a train or plane arriving).\n**どうやって** (dō yatte) = 'how / by what means' — a natural colloquial question word for asking about methods.",
+      "englishPhrase": "How do I reach the station?",
+      "phrase": "駅にはどうやって着きますか？",
+      "phraseRomanized": "eki ni wa dō yatte tsukimasu ka",
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どうやって",
+          "how"
+        ],
+        [
+          "着きます",
+          "arrive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_enter",
+      "english": "To enter",
+      "word": "入る",
+      "romanized": "hairu",
+      "grammarNote": "**入る** (hairu) = to enter/go in (intransitive — the subject enters). Polite: **入ります**.\n**から** marks origin/starting point: **正面玄関から入る** = enter from the main entrance.\n**玄関** (genkan) = the entryway/foyer of a Japanese building — a key cultural space where shoes are removed.",
+      "englishPhrase": "Enter through the main door.",
+      "phrase": "正面玄関から入ってください。",
+      "phraseRomanized": "shōmen genkan kara haitte kudasai",
+      "literal": [
+        [
+          "正面玄関",
+          "main entrance"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "入って",
+          "enter"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "to_leave",
+      "english": "To leave",
+      "word": "出る",
+      "romanized": "deru",
+      "grammarNote": "**出る** (deru) = to leave/exit/come out (intransitive).\n**仕事を出る** = leave work. Here **を** marks the place being exited — a special use of **を** with verbs of separation and movement away.\nCompare: **出発する** (shuppatsu suru) = depart (more formal, for trips/travel).",
+      "englishPhrase": "I leave work at five.",
+      "phrase": "5時に仕事を出ます。",
+      "phraseRomanized": "goji ni shigoto wo demasu",
+      "literal": [
+        [
+          "5時",
+          "five o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "出ます",
+          "leave"
+        ]
+      ]
+    },
+    {
+      "id": "to_depart",
+      "english": "To depart",
+      "word": "出発する",
+      "romanized": "shuppatsu suru",
+      "grammarNote": "**出発** (shuppatsu) = **出** (shutsu, exit/leave) + **発** (hatsu, start/depart) → departing.\n**発** also appears in train vocabulary: **発車** (hassha, train departure), **出発時刻** (shuppatsu jikoku, departure time).\n**電車は9時に出発します** — **に** marks the specific time of departure.",
+      "englishPhrase": "The train departs at nine.",
+      "phrase": "電車は9時に出発します。",
+      "phraseRomanized": "densha wa kuji ni shuppatsu shimasu",
+      "literal": [
+        [
+          "電車",
+          "train"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "9時",
+          "nine o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "出発します",
+          "departs"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_arrive",
+      "english": "To arrive",
+      "word": "到着する",
+      "romanized": "tōchaku suru",
+      "grammarNote": "**到着** (tōchaku) = **到** (tō, reach/arrive) + **着** (chaku, attach/arrive) → reaching and settling.\nMore casual: **着く** (tsuku) = arrive.\n**明日到着します** — no particle is needed before **到着します** when the time word is the subject's arrival time.",
+      "englishPhrase": "We arrive tomorrow.",
+      "phrase": "明日到着します。",
+      "phraseRomanized": "ashita tōchaku shimasu",
+      "literal": [
+        [
+          "明日",
+          "tomorrow"
+        ],
+        [
+          "到着します",
+          "arrive"
+        ]
+      ]
+    },
+    {
+      "id": "to_visit",
+      "english": "To visit",
+      "word": "訪れる",
+      "romanized": "otozureru",
+      "grammarNote": "**訪れる** (otozureru) = to visit (a place) — slightly literary/formal.\n**訪ねる** (tazuneru) = to visit (a person or place) — more neutral.\n**〜たい** (tai) = want to ~: **訪れたい** = want to visit. It attaches to the verb stem and makes the verb into an い-adjective.",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "博物館を訪れたいです。",
+      "phraseRomanized": "hakubutsukan wo otozuretai desu",
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "訪れたい",
+          "want to visit"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "in",
+      "english": "In",
+      "word": "の中に",
+      "romanized": "no naka ni",
+      "grammarNote": "Japanese uses postpositions rather than prepositions.\n**に** = at/in (for existence); **で** = at/in (for actions).\n**の中に** (inside), **の上に** (on top of), **の下に** (under).",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "鍵はバッグの中にあります。",
+      "phraseRomanized": "kagi wa baggu no naka ni arimasu",
+      "literal": [
+        [
+          "鍵",
+          "keys"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "バッグ",
+          "bag"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "中",
+          "inside"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "on",
+      "english": "On",
+      "word": "の上に",
+      "romanized": "no ue ni",
+      "grammarNote": "**の上に** (no ue ni) = on top of / above.\n**上** (ue) = above/top; **下** (shita) = below/under; **中** (naka) = inside; **前** (mae) = in front of; **後ろ** (ushiro) = behind.\nAll use the pattern: [reference noun] + **の** + [direction word] + **に** + **あります/います**.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "本はテーブルの上にあります。",
+      "phraseRomanized": "hon wa tēburu no ue ni arimasu",
+      "literal": [
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "上",
+          "top"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "at",
+      "english": "At",
+      "word": "に",
+      "romanized": "ni",
+      "grammarNote": "**に** (ni) as a location particle marks where something or someone exists.\n**オフィスにいます** = I am at the office — **います** for living beings.\nContrast: **オフィスで働く** = work at the office — **で** when an action is performed there.\nKey rule: **に** = existence; **で** = activity.",
+      "englishPhrase": "I'm at the office.",
+      "phrase": "オフィスにいます。",
+      "phraseRomanized": "ofisu ni imasu",
+      "literal": [
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "under",
+      "english": "Under",
+      "word": "の下に",
+      "romanized": "no shita ni",
+      "grammarNote": "**の下に** (no shita ni) = under/beneath.\n**猫はテーブルの下にいます** — **います** is used because the cat is alive.\nContrast: **本はテーブルの下にあります** (book under table) — **あります** for inanimate objects.\nThis **います** vs **あります** distinction is one of the most important rules in Japanese.",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "猫はテーブルの下にいます。",
+      "phraseRomanized": "neko wa tēburu no shita ni imasu",
+      "literal": [
+        [
+          "猫",
+          "cat"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "下",
+          "beneath"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "next_to",
+      "english": "Next to",
+      "word": "の隣に",
+      "romanized": "no tonari ni",
+      "grammarNote": "**隣** (tonari) = next door / immediately adjacent.\n**近く** (chikaku) = nearby (a broader nearby area).\n**横** (yoko) = beside/to the side (physical side).\n**銀行はカフェの隣にあります** — **に** + **あります** for locating an inanimate object.",
+      "englishPhrase": "The bank is next to the cafe.",
+      "phrase": "銀行はカフェの隣にあります。",
+      "phraseRomanized": "ginkō wa kafe no tonari ni arimasu",
+      "literal": [
+        [
+          "銀行",
+          "bank"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "カフェ",
+          "cafe"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "隣",
+          "next to"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "between",
+      "english": "Between",
+      "word": "の間に",
+      "romanized": "no aida ni",
+      "grammarNote": "**の間に** (no aida ni) = between / in the gap of.\n**A と B の間に** = between A and B — **と** links the two reference points.\n**間** (aida/ma) = gap/interval/between. Also used for time: **昼と夜の間** (between noon and night).",
+      "englishPhrase": "The park is between the school and the library.",
+      "phrase": "公園は学校と図書館の間にあります。",
+      "phraseRomanized": "kōen wa gakkō to toshokan no aida ni arimasu",
+      "literal": [
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "図書館",
+          "library"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "間",
+          "between"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "in_front_of",
+      "english": "In front of",
+      "word": "の前に",
+      "romanized": "no mae ni",
+      "grammarNote": "**の前に** (no mae ni) = in front of.\n**前** (mae) = front/before. Also used for time: **食事の前に** (before the meal).\n**タクシーはホテルの前にいます** — notice **います** (not **あります**) because a taxi is treated as a vehicle with a driver/agent, making it animate-ish in context. (Some speakers use **あります** too; **います** is more common for vehicles in motion or waiting.)",
+      "englishPhrase": "The taxi is in front of the hotel.",
+      "phrase": "タクシーはホテルの前にいます。",
+      "phraseRomanized": "takushī wa hoteru no mae ni imasu",
+      "literal": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "前",
+          "front"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "behind",
+      "english": "Behind",
+      "word": "の後ろに",
+      "romanized": "no ushiro ni",
+      "grammarNote": "**の後ろに** (no ushiro ni) = behind/at the back of.\n**後ろ** (ushiro) = behind/back (spatial). Don't confuse with **後** (ato/go) = after (temporal): **食事の後** (after the meal) vs **家の後ろ** (behind the house).\n**庭** (niwa) = garden — a common Japanese home feature.",
+      "englishPhrase": "The garden is behind the house.",
+      "phrase": "庭は家の後ろにあります。",
+      "phraseRomanized": "niwa wa ie no ushiro ni arimasu",
+      "literal": [
+        [
+          "庭",
+          "garden"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "後ろ",
+          "behind"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "near",
+      "english": "Near",
+      "word": "近くに",
+      "romanized": "chikaku ni",
+      "grammarNote": "**近く** (chikaku) = the nearby area/vicinity — it's a noun derived from the adjective **近い** (chikai, near).\n**この近くに** = in the vicinity of here.\n**〜はありますか** = is there a ~? — this pattern with **あります** + **か** is essential for asking if something exists or is available nearby.",
+      "englishPhrase": "Is there a restaurant near here?",
+      "phrase": "この近くにレストランはありますか？",
+      "phraseRomanized": "kono chikaku ni resutoran wa arimasu ka",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "far",
+      "english": "Far",
+      "word": "遠い",
+      "romanized": "tōi",
+      "grammarNote": "**遠い** (tōi) = far — an **い**-adjective. Opposite: **近い** (chikai, near).\n**空港は遠いですか** — notice the long vowel: **遠い** is tō-i, not to-i. The macron (ō) in **tōi** marks this.\nTo say 'far from ~', use: **[place]から遠い**: **駅から遠い** = far from the station.",
+      "englishPhrase": "Is the airport far?",
+      "phrase": "空港は遠いですか？",
+      "phraseRomanized": "kūkō wa tōi desu ka",
+      "literal": [
+        [
+          "空港",
+          "airport"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "遠い",
+          "far"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "ここ",
+      "romanized": "koko",
+      "grammarNote": "Japanese has three levels of distance: **ここ** (koko, here — near speaker), **そこ** (soko, there — near listener), **あそこ** (asoko, over there — far from both).\nThis three-way system is called **こそあ** (ko-so-a).",
+      "englishPhrase": "Come here, please.",
+      "phrase": "ここに来てください。",
+      "phraseRomanized": "koko ni kite kudasai",
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "そこ",
+      "romanized": "soko",
+      "grammarNote": "**そこ** (soko) = there (near the listener). Part of the **こそあど** system:\n**ここ** (here, near me) / **そこ** (there, near you) / **あそこ** (over there, away from both).\nNote: the example sentence uses **あそこ** (asoko) because the taxi is far from both speakers.",
+      "englishPhrase": "The taxi is over there.",
+      "phrase": "タクシーはあそこにいます。",
+      "phraseRomanized": "takushī wa asoko ni imasu",
+      "literal": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あそこ",
+          "over there"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "everywhere",
+      "english": "Everywhere",
+      "word": "どこにでも",
+      "romanized": "doko ni demo",
+      "grammarNote": "**どこにでも** (doko ni demo) = everywhere / anywhere.\n**どこ** (doko, where) + **に** + **でも** (demo, even/too/any) → 'even at any where' → everywhere.\nCompare: **どこでも** (doko demo, anywhere) — similar but **どこにでも** emphasizes 'at every location'.",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "どこにでも観光客がいます。",
+      "phraseRomanized": "doko ni demo kankōkyaku ga imasu",
+      "literal": [
+        [
+          "どこにでも",
+          "everywhere"
+        ],
+        [
+          "観光客",
+          "tourists"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "somewhere",
+      "english": "Somewhere",
+      "word": "どこかに",
+      "romanized": "doko ka ni",
+      "grammarNote": "**どこかに** (doko ka ni) = somewhere/to somewhere.\n**どこか** (doko ka) = somewhere (indefinite). Adding **か** to a question word makes it indefinite: **何か** (nanika, something), **誰か** (dareka, someone), **どこか** (dokoka, somewhere).\n**行きましょう** = let's go — **〜ましょう** is the volitional polite form.",
+      "englishPhrase": "Let's go somewhere quiet.",
+      "phrase": "どこか静かなところに行きましょう。",
+      "phraseRomanized": "doko ka shizuka na tokoro ni ikimashō",
+      "literal": [
+        [
+          "どこか",
+          "somewhere"
+        ],
+        [
+          "静かな",
+          "quiet"
+        ],
+        [
+          "ところ",
+          "place"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きましょう",
+          "let's go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "nowhere",
+      "english": "Nowhere",
+      "word": "どこにもない",
+      "romanized": "doko ni mo nai",
+      "grammarNote": "**どこにも〜ない** (doko ni mo ~nai) = nowhere / not anywhere.\n**も** with a negative verb creates a total negation: **どこにも** + **ありません** = 'not exist anywhere'.\nCompare: **どこにも行かない** (not going anywhere) — the same pattern with a different verb.",
+      "englishPhrase": "There is nowhere to sit.",
+      "phrase": "座るところがどこにもありません。",
+      "phraseRomanized": "suwaru tokoro ga doko ni mo arimasen",
+      "literal": [
+        [
+          "座る",
+          "sitting"
+        ],
+        [
+          "ところ",
+          "place"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "どこにも",
+          "nowhere"
+        ],
+        [
+          "ありません",
+          "not exist"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "left",
+      "english": "Left",
+      "word": "左",
+      "romanized": "hidari",
+      "grammarNote": "**左** (hidari) = left. A single kanji with no special compound note, but note its use in directions:\n**左に曲がる** = turn left — **に** marks the direction of the turn.\n**左側** (hidarigawa) = the left side — **側** (gawa) turns a direction into a side/flank.",
+      "englishPhrase": "Turn left.",
+      "phrase": "左に曲がってください。",
+      "phraseRomanized": "hidari ni magatte kudasai",
+      "literal": [
+        [
+          "左",
+          "left"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "english": "Right",
+      "word": "右",
+      "romanized": "migi",
+      "grammarNote": "**右** (migi) = right. Pair it with **左** (hidari, left).\n**右に曲がる** = turn right — **に** marks direction.\n**右側** (migigawa) = the right side.\nIn Japanese signs and directions, **右** and **左** are far more common than compass directions for everyday navigation.",
+      "englishPhrase": "Turn right.",
+      "phrase": "右に曲がってください。",
+      "phraseRomanized": "migi ni magatte kudasai",
+      "literal": [
+        [
+          "右",
+          "right"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "straight_ahead",
+      "english": "Straight (ahead)",
+      "word": "まっすぐ",
+      "romanized": "massugu",
+      "grammarNote": "**まっすぐ** (massugu) = straight ahead — an adverb.\n**進む** (susumu) = to proceed/advance — often used in directions: **まっすぐ進む** (go straight).\nAlternative: **まっすぐ行く** (massugu iku) = go straight — more casual.\nNote the double **す** (ss) in **まっすぐ** — the small **っ** doubles the following consonant.",
+      "englishPhrase": "Go straight ahead.",
+      "phrase": "まっすぐ進んでください。",
+      "phraseRomanized": "massugu susunde kudasai",
+      "literal": [
+        [
+          "まっすぐ",
+          "straight"
+        ],
+        [
+          "進んで",
+          "proceed"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "north",
+      "english": "North",
+      "word": "北",
+      "romanized": "kita",
+      "grammarNote": "**北** (kita) = north. The four compass directions: **北** (kita, north), **南** (minami, south), **東** (higashi, east), **西** (nishi, west).\nIn station names, directions appear as suffixes: **北口** (kita-guchi, north exit), **南口** (minami-guchi, south exit).",
+      "englishPhrase": "The city is to the north.",
+      "phrase": "町は北にあります。",
+      "phraseRomanized": "machi wa kita ni arimasu",
+      "literal": [
+        [
+          "町",
+          "city"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "北",
+          "north"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "south",
+      "english": "South",
+      "word": "南",
+      "romanized": "minami",
+      "grammarNote": "**南** (minami) = south. The four directions: **北** (kita), **南** (minami), **東** (higashi), **西** (nishi).\n**南に** = to the south — **に** marks the directional location.\n**南国** (nangoku) = southern lands/tropics — **南** frequently compounds with other kanji.",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "海岸は南にあります。",
+      "phraseRomanized": "kaigan wa minami ni arimasu",
+      "literal": [
+        [
+          "海岸",
+          "beach"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "南",
+          "south"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "east",
+      "english": "East",
+      "word": "東",
+      "romanized": "higashi",
+      "grammarNote": "**東** (higashi) = east. Also read as **とう** (tō) in compounds: **東京** (Tōkyō) = **東** (east) + **京** (kyō, capital) → eastern capital.\n**から昇る** = rise from — **から** marks origin: the sun rises from the east.",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "太陽は東から昇ります。",
+      "phraseRomanized": "taiyō wa higashi kara noborimasu",
+      "literal": [
+        [
+          "太陽",
+          "sun"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "東",
+          "east"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "昇ります",
+          "rises"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "west",
+      "english": "West",
+      "word": "西",
+      "romanized": "nishi",
+      "grammarNote": "**西** (nishi) = west. Also read as **さい/せい** (sai/sei) in compounds: **関西** (Kansai, western Japan).\n**沈む** (shizumu) = to sink/set (of the sun). Opposite: **昇る** (noboru, to rise).\n**西に沈む** — **に** marks direction: sinking toward the west.",
+      "englishPhrase": "The sun sets in the west.",
+      "phrase": "太陽は西に沈みます。",
+      "phraseRomanized": "taiyō wa nishi ni shizumimasu",
+      "literal": [
+        [
+          "太陽",
+          "sun"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "西",
+          "west"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "沈みます",
+          "sets"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_live",
+      "english": "To live",
+      "word": "住む",
+      "romanized": "sumu",
+      "grammarNote": "**住む** (sumu) = to live/reside. Always used in the **〜ている** form for residence: **住んでいます** (I live there — ongoing state).\n**住む** takes **に** for location: **市内の近くに住む** = live near the city center.\nContrast: **いる** (iru) = to be (at a location temporarily); **住む** = to reside (permanently or long-term).",
+      "englishPhrase": "I live near the city centre.",
+      "phrase": "市内の近くに住んでいます。",
+      "phraseRomanized": "shinai no chikaku ni sunde imasu",
+      "literal": [
+        [
+          "市内",
+          "city centre"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_stay",
+      "english": "To stay",
+      "word": "泊まる",
+      "romanized": "tomaru",
+      "grammarNote": "**泊まる** (tomaru) = stay overnight at a hotel or someone's house — the most natural word for hotels.\n**滞在する** (taizai suru) implies a longer stay or more formal residence.",
+      "englishPhrase": "We're staying at a hotel.",
+      "phrase": "ホテルに泊まっています。",
+      "phraseRomanized": "hoteru ni tomatte imasu",
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "泊まって",
+          "staying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_wait",
+      "english": "To wait",
+      "word": "待つ",
+      "romanized": "matsu",
+      "grammarNote": "**待つ** (matsu) = to wait. Polite form: **待ちます** (machimasu).\n**ここで待つ** — **で** marks where the waiting (an action) happens.\n**あなたを待つ** — **を** marks the person being waited for. The person is the 'object' of waiting.",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "ここであなたを待ちます。",
+      "phraseRomanized": "koko de anata wo machimasu",
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "待ちます",
+          "wait"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "会う",
+      "romanized": "au",
+      "grammarNote": "**会う** (au) = to meet (a person). Polite: **会います** (aimasu).\n**公園で会う** — **で** marks where the meeting (an action) takes place.\n**〜ましょう** is the volitional polite ending: **会いましょう** = let's meet.\nNote: **会う** takes **に** or **と** for the person met: **友達に会う** / **友達と会う** (meet a friend).",
+      "englishPhrase": "Let's meet at the park.",
+      "phrase": "公園で会いましょう。",
+      "phraseRomanized": "kōen de aimashō",
+      "literal": [
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "会いましょう",
+          "let's meet"
+        ]
+      ]
+    },
+    {
+      "id": "to_get_lost",
+      "english": "To get lost",
+      "word": "迷う",
+      "romanized": "mayou",
+      "grammarNote": "**迷う** (mayou) = to get lost / to be confused / to wander.\n**迷子** (maigo) = a lost child — the noun form.\n**〜ないでください** = please don't ~: **迷わないでください** = please don't get lost.\n**道に迷う** (michi ni mayou) = to get lost on the road — the natural set phrase.",
+      "englishPhrase": "Don't get lost!",
+      "phrase": "迷わないでください！",
+      "phraseRomanized": "mayowanaide kudasai",
+      "literal": [
+        [
+          "迷わないで",
+          "don't get lost"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "to_find",
+      "english": "To find",
+      "word": "見つける",
+      "romanized": "mitsukeru",
+      "grammarNote": "**見つける** (mitsukeru) = to find (transitive — you actively find something).\n**見つかる** (mitsukaru) = to be found / to turn up (intransitive — something is found).\nThe example uses **見つかりません** — the intransitive form with a negative: the hotel 'cannot be found' (it won't turn up). This distinction between transitive and intransitive verb pairs is fundamental in Japanese.",
+      "englishPhrase": "I can't find the hotel.",
+      "phrase": "ホテルが見つかりません。",
+      "phraseRomanized": "hoteru ga mitsukarimasen",
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "見つかりません",
+          "not found"
+        ]
+      ]
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "探す",
+      "romanized": "sagasu",
+      "grammarNote": "**探す** (sagasu) = to search for / look for (transitive).\n**薬局を探す** — **を** marks what is being searched for.\n**〜ています** here describes an action currently in progress: **探しています** = I am looking for ~.\n**薬局** (yakkyoku) = pharmacy: **薬** (yaku/kusuri, medicine) + **局** (kyoku, bureau/office).",
+      "englishPhrase": "I'm looking for the pharmacy.",
+      "phrase": "薬局を探しています。",
+      "phraseRomanized": "yakkyoku wo sagashite imasu",
+      "literal": [
+        [
+          "薬局",
+          "pharmacy"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "探して",
+          "searching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "to_head",
+      "english": "To head",
+      "word": "向かう",
+      "romanized": "mukau",
+      "grammarNote": "**向かう** (mukau) = to head toward / face toward.\n**駅に向かう** = head toward the station — **に** marks the destination.\n**向かい** (mukai) = across from / facing: **駅の向かい** = across from the station — a useful location word.",
+      "englishPhrase": "Head towards the station.",
+      "phrase": "駅に向かってください。",
+      "phraseRomanized": "eki ni mukatte kudasai",
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "向かって",
+          "head toward"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_continue",
+      "english": "To continue",
+      "word": "続ける",
+      "romanized": "tsuzukeru",
+      "grammarNote": "**続ける** (tsuzukeru) = to continue (transitive — you continue something).\n**続く** (tsuzuku) = to continue/go on (intransitive — something continues by itself).\nIn directions, **進む** (susumu, proceed) or **まっすぐ行く** (go straight) is more natural than **続ける**.",
+      "englishPhrase": "Continue straight ahead.",
+      "phrase": "まっすぐ進んでください。",
+      "phraseRomanized": "massugu susunde kudasai",
+      "literal": [
+        [
+          "まっすぐ",
+          "straight"
+        ],
+        [
+          "進んで",
+          "proceed"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_stop",
+      "english": "To stop",
+      "word": "止まる",
+      "romanized": "tomaru",
+      "grammarNote": "**止まる** (tomaru) = to stop (intransitive — the subject itself stops).\n**止める** (tomeru) = to stop something (transitive — you stop an object).\n**で** marks where the stopping action occurs: **角で止まる** = stop at the corner.",
+      "englishPhrase": "Stop at the corner.",
+      "phrase": "角で止まってください。",
+      "phraseRomanized": "kado de tomatte kudasai",
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "止まって",
+          "stop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_park",
+      "english": "To park",
+      "word": "駐車する",
+      "romanized": "chūsha suru",
+      "grammarNote": "**駐車** (chūsha) = **駐** (chū, stop/stay) + **車** (sha/kuruma, vehicle) → stopping a vehicle.\n**駐車場** (chūshajō) = parking lot — adds **場** (jō, place/lot).\n**どこに駐車できますか** — **できます** = can/be able to: the potential form **できる** added to a noun+する verb.",
+      "englishPhrase": "Where can I park?",
+      "phrase": "どこに駐車できますか？",
+      "phraseRomanized": "doko ni chūsha dekimasu ka",
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "駐車",
+          "park"
+        ],
+        [
+          "できます",
+          "can"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_book_to_reserve",
+      "english": "To book",
+      "word": "予約する",
+      "romanized": "yoyaku suru",
+      "grammarNote": "**予約** (yoyaku) = **予** (yo, in advance/beforehand) + **約** (yaku, promise/appointment) → advance promise.\n**予約する** is used for reserving hotels, restaurants, doctors, and more.\n**部屋を予約しました** — **しました** is the polite past tense of **する**.",
+      "englishPhrase": "I booked a room.",
+      "phrase": "部屋を予約しました。",
+      "phraseRomanized": "heya wo yoyaku shimashita",
+      "literal": [
+        [
+          "部屋",
+          "room"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "予約しました",
+          "reserved"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_check_in",
+      "english": "To check in",
+      "word": "チェックインする",
+      "romanized": "chekkuin suru",
+      "grammarNote": "**チェックイン** (chekkuin) is the loanword from English 'check in'.\n**〜しました** = the polite past tense of **〜する**.\n**3時に** — **に** marks a specific time point. For hotels, check-in time is **チェックイン時間** (chekkuin jikan).",
+      "englishPhrase": "We checked in at three.",
+      "phrase": "3時にチェックインしました。",
+      "phraseRomanized": "sanji ni chekkuin shimashita",
+      "literal": [
+        [
+          "3時",
+          "three o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "チェックインしました",
+          "checked in"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_check_out",
+      "english": "To check out",
+      "word": "チェックアウトする",
+      "romanized": "chekkuauto suru",
+      "grammarNote": "**チェックアウト** (chekkuauto) = loanword from English 'check out'.\n**チェックアウトは11時です** — this sentence states what time check-out is, using **は** (topic marker) + **です**.\n**11時** (jūichi-ji) = 11 o'clock — note the counter **時** (ji) for hours of the day.",
+      "englishPhrase": "Check out is at eleven.",
+      "phrase": "チェックアウトは11時です。",
+      "phraseRomanized": "chekkuauto wa jūichiji desu",
+      "literal": [
+        [
+          "チェックアウト",
+          "check-out"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "11時",
+          "eleven o'clock"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "nearby",
+      "english": "Nearby",
+      "word": "近くに",
+      "romanized": "chikaku ni",
+      "grammarNote": "**近く** (chikaku) = the nearby area. Derived from the adjective **近い** (chikai, near) by changing to **く** form.\n**近くに〜はありますか** = 'is there a ~ nearby?' — a very useful phrase for asking about local services.\nCompare: **この近くに** (near here) vs **駅の近くに** (near the station).",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "近くに薬局はありますか？",
+      "phraseRomanized": "chikaku ni yakkyoku wa arimasu ka",
+      "literal": [
+        [
+          "近く",
+          "nearby"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "薬局",
+          "pharmacy"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "busy_crowded",
+      "english": "Busy",
+      "word": "混んでいる",
+      "romanized": "konde iru",
+      "grammarNote": "**混む** (komu) = to become crowded. In the **〜ている** form, it describes the resulting state: **混んでいる** = is crowded.\n**混雑している** (konzatsu shite iru) = is congested — a more formal/written synonym.\n**とても** (totemo) = very — the common intensifier before い-adjectives and な-adjectives.",
+      "englishPhrase": "The market is very crowded.",
+      "phrase": "市場はとても混んでいます。",
+      "phraseRomanized": "ichiba wa totemo konde imasu",
+      "literal": [
+        [
+          "市場",
+          "market"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "混んで",
+          "crowded"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "quiet",
+      "english": "Quiet",
+      "word": "静かな",
+      "romanized": "shizuka na",
+      "grammarNote": "**静か** (shizuka) = quiet/calm — a **な**-adjective. Needs **な** before nouns: **静かな近所** (quiet neighbourhood).\n**〜の方が好き** = prefer ~ (literally 'the side of ~ is liked'): **静かな近所の方が好き** = I prefer a quiet neighbourhood.\n**の方が** (no hō ga) sets up a comparison or preference.",
+      "englishPhrase": "I prefer a quiet neighbourhood.",
+      "phrase": "静かな近所の方が好きです。",
+      "phraseRomanized": "shizuka na kinjo no hō ga suki desu",
+      "literal": [
+        [
+          "静かな",
+          "quiet"
+        ],
+        [
+          "近所",
+          "neighbourhood"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "方",
+          "side"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "preferred"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "lost",
+      "english": "Lost",
+      "word": "迷子",
+      "romanized": "maigo",
+      "grammarNote": "**迷子** (maigo) = a lost child — literally **迷** (mayou, wander/lose way) + **子** (ko, child).\nThe natural phrase for being lost as an adult is **道に迷う** (michi ni mayou) = get lost on the road.\n**道に迷いました** = I got lost — the polite past tense, a very common phrase for travelers.",
+      "englishPhrase": "I'm lost.",
+      "phrase": "道に迷いました。",
+      "phraseRomanized": "michi ni mayoimashita",
+      "literal": [
+        [
+          "道",
+          "road"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "迷いました",
+          "got lost"
+        ]
+      ]
+    }
+  ]
+}

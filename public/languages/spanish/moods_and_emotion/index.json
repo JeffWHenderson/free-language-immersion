@@ -1,0 +1,1632 @@
+{
+  "id": "moods_and_emotion",
+  "name": "Moods & Emotion",
+  "language": "spanish",
+  "stories": [
+    "a_bad_day",
+    "good_news",
+    "friendship",
+    "sean",
+    "la_conversacion",
+    "nervous_about_something",
+    "un_gran_logro"
+  ],
+  "pictureLessons": [
+    "moods_and_emotion",
+    "moods_and_emotion_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "estar_emotions",
+      "name": "Estar + Emotions"
+    },
+    {
+      "id": "ser_vs_estar",
+      "name": "Ser vs. Estar"
+    },
+    {
+      "id": "tener_expressions",
+      "name": "Tener Expressions"
+    },
+    {
+      "id": "gustar",
+      "name": "Gustar — I Like"
+    },
+    {
+      "id": "porque",
+      "name": "Porque / Por qué — Because & Why"
+    },
+    {
+      "id": "subjunctive_intro",
+      "name": "Subjunctive Intro — espero que, quiero que"
+    },
+    {
+      "id": "imperfecto",
+      "name": "Imperfecto — Was / Used To"
+    },
+    {
+      "id": "si_clauses",
+      "name": "Si — If Clauses & Conditionals"
+    }
+  ],
+  "cards": [
+    {
+      "id": "happy",
+      "english": "happy",
+      "word": "feliz",
+      "grammarNote": "Adverb form: **felizmente** (happily) — add **-mente** to the feminine adjective\n**feliz** has no gender change: feliz + mente → **felizmente** · **Ella sonrió felizmente.**",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "Estoy muy feliz hoy.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "muy",
+          "very"
+        ],
+        [
+          "feliz",
+          "happy"
+        ],
+        [
+          "hoy",
+          "today"
+        ]
+      ]
+    },
+    {
+      "id": "sad",
+      "english": "sad",
+      "word": "triste",
+      "grammarNote": "Adverb form: **tristemente** (sadly) — **triste** has no gender change: triste + mente → **tristemente** · **Habló tristemente.**",
+      "englishPhrase": "Why are you sad?",
+      "phrase": "¿Por qué estás triste?",
+      "literal": [
+        [
+          "Por",
+          "why"
+        ],
+        [
+          "qué",
+          "[?]"
+        ],
+        [
+          "estás",
+          "are"
+        ],
+        [
+          "triste",
+          "sad"
+        ]
+      ]
+    },
+    {
+      "id": "love",
+      "english": "love",
+      "word": "amor",
+      "grammarNote": "**amor** comes from Latin **amor** (love, desire) — the same root as English *amorous*.\nVerb forms: **amar** (to love deeply), **querer** (to love/want — more everyday).\n**Te quiero** (I love you — common between family/friends) vs **Te amo** (I love you — more intense/romantic).",
+      "englishPhrase": "I feel a lot of love for my family.",
+      "phrase": "Siento mucho amor por mi familia.",
+      "literal": [
+        [
+          "Siento",
+          "feel"
+        ],
+        [
+          "mucho",
+          "much"
+        ],
+        [
+          "amor",
+          "love"
+        ],
+        [
+          "por",
+          "for"
+        ],
+        [
+          "mi",
+          "my"
+        ],
+        [
+          "familia",
+          "family"
+        ]
+      ]
+    },
+    {
+      "id": "anger",
+      "english": "anger",
+      "word": "ira",
+      "grammarNote": "**ira** (anger, wrath) is a strong, formal word — from Latin **ira**.\nEveryday equivalents: **enojo** (anger, annoyance) and **enfado** (more Spain).\nTo express becoming angry: **ponerse furioso** or **enojarse** (reflexive) — **me enojé** (I got angry).",
+      "englishPhrase": "I felt anger when they lied to me.",
+      "phrase": "Sentí ira cuando me mintieron.",
+      "literal": [
+        [
+          "Sentí",
+          "felt"
+        ],
+        [
+          "ira",
+          "anger"
+        ],
+        [
+          "cuando",
+          "when"
+        ],
+        [
+          "me",
+          "[to-me]"
+        ],
+        [
+          "mintieron",
+          "lied"
+        ]
+      ]
+    },
+    {
+      "id": "fear",
+      "english": "fear",
+      "word": "miedo",
+      "grammarNote": "**tener miedo** = to be afraid (literally *to have fear*) — Spanish uses **tener** + noun for many states.\n**tener miedo de/a + infinitive**: **tengo miedo de caer** (I'm afraid of falling).\nAlso: **dar miedo** = to frighten — **me da miedo** (it frightens me / it scares me).",
+      "englishPhrase": "I'm afraid of the dark.",
+      "phrase": "Tengo miedo de la oscuridad.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "miedo",
+          "fear"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "oscuridad",
+          "darkness"
+        ]
+      ]
+    },
+    {
+      "id": "hope",
+      "english": "hope",
+      "word": "esperanza",
+      "grammarNote": "**esperanza** (hope) is a noun; the verb is **esperar** (to hope, to wait, to expect).\nNote the suffix **-anza** forming abstract nouns: **confianza** (trust), **enseñanza** (teaching), **esperanza** (hope).\n**Espero que + subjunctive**: **espero que todo salga bien** (I hope everything goes well).",
+      "englishPhrase": "I have hope for the future.",
+      "phrase": "Tengo esperanza en el futuro.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "esperanza",
+          "hope"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "futuro",
+          "future"
+        ]
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "word": "estrés",
+      "grammarNote": "**estrés** is a borrowed word from English *stress* — note the accent on the final syllable.\nThe adjective is **estresado/a** (stressed): **estoy estresado** (I'm stressed) — uses **estar** for the temporary state.\nAlso: **estresante** (stressful) — **un trabajo estresante** (a stressful job).",
+      "englishPhrase": "I have a lot of stress at work.",
+      "phrase": "Tengo mucho estrés en el trabajo.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "mucho",
+          "much"
+        ],
+        [
+          "estrés",
+          "stress"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "trabajo",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "word": "estado de ánimo",
+      "grammarNote": "**estado de ánimo** = mood (literally *state of spirit/soul*).\n**ánimo** alone means spirit, cheer, courage — **¡Ánimo!** = Cheer up! / Come on!\nAlso common: **estar de buen humor** (to be in a good mood) and **estar de mal humor** (to be in a bad mood).",
+      "englishPhrase": "I'm in a good mood today.",
+      "phrase": "Hoy estoy de buen estado de ánimo.",
+      "literal": [
+        [
+          "Hoy",
+          "today"
+        ],
+        [
+          "estoy",
+          "am"
+        ],
+        [
+          "de",
+          "in"
+        ],
+        [
+          "buen",
+          "good"
+        ],
+        [
+          "estado",
+          "state"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "ánimo",
+          "spirit"
+        ]
+      ]
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "word": "sentimiento",
+      "grammarNote": "**sentimiento** (feeling, emotion) comes from **sentir** (to feel).\nThe suffix **-miento** forms nouns from verbs: **sentir → sentimiento**, **conocer → conocimiento** (knowledge), **pensar → pensamiento** (thought).\nAlso related: **sentido** = sense (as in the five senses, or *meaning*).",
+      "englishPhrase": "That feeling is normal.",
+      "phrase": "Ese sentimiento es normal."
+    },
+    {
+      "id": "emotion_excitement",
+      "english": "emotion",
+      "word": "emoción",
+      "grammarNote": "**emoción** = emotion, but also *excitement* — context determines the meaning.\nThe verb **emocionar** = to move emotionally / to excite: **me emociona** (it moves me / it excites me).\nReflexive **emocionarse** = to get emotional: **se emocionó** (he/she got emotional / teared up).",
+      "englishPhrase": "I couldn't hide my emotion.",
+      "phrase": "No pude ocultar mi emoción.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "pude",
+          "could"
+        ],
+        [
+          "ocultar",
+          "hide"
+        ],
+        [
+          "mi",
+          "my"
+        ],
+        [
+          "emoción",
+          "emotion"
+        ]
+      ]
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "word": "calma",
+      "grammarNote": "**calma** (noun) = calm, calmness.\nAdjective form: **tranquilo/a** or **calmado/a** (calm, relaxed).\nUse **estar** for the temporary state: **estoy tranquilo** (I'm calm right now) vs **soy tranquilo** (I'm a calm person by nature).\nAlso: **mantener la calma** (to keep calm) — a very common phrase.",
+      "englishPhrase": "Try to maintain your calm.",
+      "phrase": "Intenta mantener la calma.",
+      "literal": [
+        [
+          "Intenta",
+          "try"
+        ],
+        [
+          "mantener",
+          "to-maintain"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "calma",
+          "calm"
+        ]
+      ]
+    },
+    {
+      "id": "peace",
+      "english": "peace",
+      "word": "paz",
+      "grammarNote": "**paz** (peace) — from Latin **pax** (same root as English *pacify*, *pacific*).\nNote the plural: **paces** (though rarely used). The phrase **hacer las paces** = to make peace / to make up.\n**tranquilidad** (quiet, tranquility) is a close synonym — **necesito paz y tranquilidad** (I need peace and quiet).",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "Necesito paz y tranquilidad.",
+      "literal": [
+        [
+          "Necesito",
+          "need"
+        ],
+        [
+          "paz",
+          "peace"
+        ],
+        [
+          "y",
+          "and"
+        ],
+        [
+          "tranquilidad",
+          "quiet"
+        ]
+      ]
+    },
+    {
+      "id": "worry",
+      "english": "worry",
+      "word": "preocupación",
+      "grammarNote": "**preocupación** (worry, concern) — noun from **preocupar** (to worry/concern).\nThe reflexive **preocuparse** = to worry oneself: **me preocupo** (I worry), **no te preocupes** (don't worry).\nThe suffix **-ción** forms feminine nouns from verbs: **preocupar → preocupación**, **emocionar → emoción**.",
+      "englishPhrase": "Don't let worry stop you.",
+      "phrase": "No dejes que la preocupación te detenga.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "dejes",
+          "let"
+        ],
+        [
+          "que",
+          "that"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "preocupación",
+          "worry"
+        ],
+        [
+          "te",
+          "[you]"
+        ],
+        [
+          "detenga",
+          "stops"
+        ]
+      ]
+    },
+    {
+      "id": "surprise",
+      "english": "surprise",
+      "word": "sorpresa",
+      "grammarNote": "**sorpresa** (surprise) — from **sorprender** (to surprise).\n**¡Qué sorpresa!** = What a surprise! — the **¡Qué + noun!** structure expresses exclamation.\nAdjective: **sorprendido/a** (surprised) — use **estar**: **estoy sorprendido** (I'm surprised).\nAlso: **me sorprendió** (it surprised me) — verb used like **gustar** with indirect object pronouns.",
+      "englishPhrase": "What a surprise!",
+      "phrase": "¡Qué sorpresa!"
+    },
+    {
+      "id": "passion",
+      "english": "passion",
+      "word": "pasión",
+      "grammarNote": "**pasión** (passion) — from Latin **passio** (suffering, strong feeling), same root as English *passion*.\nAdjective: **apasionado/a** (passionate, passionate about): **es apasionado por la música** (he's passionate about music).\n**con pasión** = with passion — preposition **con** + noun is common for manner: **habla con entusiasmo** (he speaks with enthusiasm).",
+      "englishPhrase": "She teaches with passion.",
+      "phrase": "Ella enseña con pasión."
+    },
+    {
+      "id": "desire",
+      "english": "desire",
+      "word": "deseo",
+      "grammarNote": "**deseo** (desire, wish) — noun from **desear** (to desire, to wish).\n**tener deseo de + infinitive** = to have a desire to do something: **tengo un gran deseo de viajar**.\nAlso: **desear** = to wish — **te deseo lo mejor** (I wish you the best).",
+      "englishPhrase": "I have a strong desire to travel.",
+      "phrase": "Tengo un gran deseo de viajar.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "gran",
+          "great"
+        ],
+        [
+          "deseo",
+          "desire"
+        ],
+        [
+          "de",
+          "to"
+        ],
+        [
+          "viajar",
+          "travel"
+        ]
+      ]
+    },
+    {
+      "id": "hate",
+      "english": "hate",
+      "word": "odio",
+      "grammarNote": "**odio** = hate (noun) — also the yo form of **odiar** (to hate): **yo odio** (I hate).\nNote that **odio** as a noun takes a definite article: **el odio es destructivo** (hate is destructive).\nCompare: **ira** (wrath/anger — more formal), **rencor** (resentment, grudge), **enojo** (everyday anger).",
+      "englishPhrase": "Hate is a strong feeling.",
+      "phrase": "El odio es un sentimiento fuerte.",
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "odio",
+          "hate"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "sentimiento",
+          "feeling"
+        ],
+        [
+          "fuerte",
+          "strong"
+        ]
+      ]
+    },
+    {
+      "id": "pleasure",
+      "english": "pleasure",
+      "word": "placer",
+      "grammarNote": "**placer** (pleasure) — from Latin **placere** (to please), same root as English *placid*, *please*.\n**Es un placer** = It's a pleasure — used as a polite greeting when meeting someone.\n**con placer** = with pleasure — a polite response to a request.\nRelated: **agradable** (pleasant, agreeable) — **una experiencia agradable**.",
+      "englishPhrase": "It's a pleasure to meet you.",
+      "phrase": "Es un placer conocerte.",
+      "literal": [
+        [
+          "Es",
+          "is"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "placer",
+          "pleasure"
+        ],
+        [
+          "conocerte",
+          "to-meet-you"
+        ]
+      ]
+    },
+    {
+      "id": "pain",
+      "english": "pain",
+      "word": "dolor",
+      "grammarNote": "**dolor** (pain) — from Latin **dolor**, same root as English *dolorous*.\n**tener dolor de + body part**: **tengo dolor de cabeza** (I have a headache), **tengo dolor de estómago** (I have a stomachache).\nVerb: **doler** (to hurt/ache) — works like **gustar**: **me duele la cabeza** (my head hurts — lit. the head hurts me).",
+      "englishPhrase": "I feel pain in my leg.",
+      "phrase": "Siento dolor en la pierna.",
+      "literal": [
+        [
+          "Siento",
+          "feel"
+        ],
+        [
+          "dolor",
+          "pain"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "pierna",
+          "leg"
+        ]
+      ]
+    },
+    {
+      "id": "energy",
+      "english": "energy",
+      "word": "energía",
+      "grammarNote": "**energía** (energy) — note the accent on the **í** (énfasis on the third syllable from the end).\n**tener energía** = to have energy — using **tener** for states: **tengo mucha energía** (I have a lot of energy).\nAdjective: **enérgico/a** (energetic) — use **ser** for a personality trait: **es muy enérgico** (he's very energetic).",
+      "englishPhrase": "I have a lot of energy today.",
+      "phrase": "Hoy tengo mucha energía.",
+      "literal": [
+        [
+          "Hoy",
+          "today"
+        ],
+        [
+          "tengo",
+          "have"
+        ],
+        [
+          "mucha",
+          "much"
+        ],
+        [
+          "energía",
+          "energy"
+        ]
+      ]
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "word": "alivio",
+      "grammarNote": "**alivio** (relief) — from **aliviar** (to relieve, to ease).\n**¡Qué alivio!** = What a relief! — the **¡Qué + noun!** pattern expresses strong emotion.\n**suspirar de alivio** = to sigh with relief — a very natural collocation.\nAlso: **aliviar el dolor** (to relieve pain), **me alivió saber eso** (it was a relief to know that).",
+      "englishPhrase": "What a relief!",
+      "phrase": "¡Qué alivio!"
+    },
+    {
+      "id": "comfort",
+      "english": "comfort",
+      "word": "consuelo",
+      "grammarNote": "**consuelo** (comfort, consolation) — from **consolar** (to console, to comfort).\nNote: **consuelo** implies emotional comfort after grief or hardship — more specific than English *comfort*.\nFor physical comfort, use **comodidad**: **este sofá es muy cómodo** (this sofa is very comfortable).\nPhrase: **ser un consuelo** = to be a comfort: **sus palabras fueron un consuelo** (her words were a comfort).",
+      "englishPhrase": "Her words were a comfort.",
+      "phrase": "Sus palabras fueron un consuelo.",
+      "literal": [
+        [
+          "Sus",
+          "her/his"
+        ],
+        [
+          "palabras",
+          "words"
+        ],
+        [
+          "fueron",
+          "were"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "consuelo",
+          "comfort"
+        ]
+      ]
+    },
+    {
+      "id": "feel_to_feel",
+      "english": "feel (to feel)",
+      "word": "sentir",
+      "grammarNote": "**sentir** = to feel/perceive something · **sentirse** (reflexive) = to feel a certain way\n**Me siento bien** (I feel good) · **Siento dolor** (I feel pain)",
+      "englishPhrase": "I feel good today.",
+      "phrase": "Me siento bien hoy.",
+      "literal": [
+        [
+          "Me",
+          "[myself]"
+        ],
+        [
+          "siento",
+          "feel"
+        ],
+        [
+          "bien",
+          "well"
+        ],
+        [
+          "hoy",
+          "today"
+        ]
+      ]
+    },
+    {
+      "id": "love_to_love",
+      "english": "love (to love)",
+      "word": "amar",
+      "grammarNote": "**amar** = to love (deeply, often romantic or profound love).\nCompare **querer** = to love/want — more versatile and common in everyday speech: **te quiero** (I love you) is used between family and close friends.\n**Te amo** is more intense and typically romantic; **te quiero** is warmer and more common day-to-day.",
+      "englishPhrase": "I love you very much.",
+      "phrase": "Te amo mucho.",
+      "literal": [
+        [
+          "Te",
+          "[you]"
+        ],
+        [
+          "amo",
+          "love"
+        ],
+        [
+          "mucho",
+          "much"
+        ]
+      ]
+    },
+    {
+      "id": "hate_to_hate",
+      "english": "hate (to hate)",
+      "word": "odiar",
+      "grammarNote": "**odiar** = to hate — a regular -ar verb: **odio, odias, odia, odiamos, odiáis, odian**.\n**odiar + infinitive** = to hate doing something: **odio esperar** (I hate waiting), **odia llegar tarde** (he hates being late).\nLess intense alternatives: **no soportar** (can't stand), **detestar** (to detest).",
+      "englishPhrase": "I hate waiting.",
+      "phrase": "Odio esperar.",
+      "literal": [
+        [
+          "Odio",
+          "hate"
+        ],
+        [
+          "esperar",
+          "to-wait"
+        ]
+      ]
+    },
+    {
+      "id": "like_to_like",
+      "english": "like (to like)",
+      "word": "gustar",
+      "grammarNote": "**gustar** works opposite to English — the subject is what is liked, not the person.\n**Me gusta la música** = Music pleases me (I like music).\nIndirect object pronouns: **me** (to me), **te** (to you), **le** (to him/her), **nos** (to us), **les** (to them).\n**Me gustan** (plural) vs **me gusta** (singular): **me gustan los libros** (I like books).",
+      "englishPhrase": "I like music.",
+      "phrase": "Me gusta la música.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "gusta",
+          "pleases"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "música",
+          "music"
+        ]
+      ]
+    },
+    {
+      "id": "enjoy",
+      "english": "enjoy",
+      "word": "disfrutar",
+      "grammarNote": "**disfrutar** = to enjoy — can take **de** or a direct object: **disfrutar de la vida** or **disfrutar la vida**.\nBoth are correct; **disfrutar de** is slightly more formal.\nAlso reflexive: **disfrutarse** is used in some Latin American countries — **¡disfrútalo!** (enjoy it!).",
+      "englishPhrase": "I enjoy the weekend.",
+      "phrase": "Disfruto el fin de semana.",
+      "literal": [
+        [
+          "Disfruto",
+          "enjoy"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "fin",
+          "end"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "semana",
+          "week"
+        ]
+      ]
+    },
+    {
+      "id": "fear_dread_to_fear",
+      "english": "fear",
+      "word": "temer",
+      "grammarNote": "**temer** = to fear (formal/literary) — a regular -er verb.\nMore colloquial: **tener miedo de** (to be afraid of) — **tengo miedo de lo desconocido** (I'm afraid of the unknown).\n**temer que + subjunctive** = to fear that: **temo que sea demasiado tarde** (I fear it may be too late).\nNote: **lo peor** = the worst (neuter article **lo** + adjective forms a noun phrase).",
+      "englishPhrase": "I fear the worst.",
+      "phrase": "Temo lo peor.",
+      "literal": [
+        [
+          "Temo",
+          "fear"
+        ],
+        [
+          "lo",
+          "the"
+        ],
+        [
+          "peor",
+          "worst"
+        ]
+      ]
+    },
+    {
+      "id": "hope_to_hope",
+      "english": "hope (to hope)",
+      "word": "esperar",
+      "grammarNote": "**esperar** has three meanings: to hope, to wait, and to expect.\n**esperar que + subjunctive** = to hope that: **espero que todo salga bien** (I hope everything goes well).\n**esperar a + infinitive** = to wait to do something: **espero a ver** (I'll wait and see).\nContext clarifies which meaning is intended — often all three blend together.",
+      "englishPhrase": "I hope everything goes well.",
+      "phrase": "Espero que todo salga bien.",
+      "literal": [
+        [
+          "Espero",
+          "hope"
+        ],
+        [
+          "que",
+          "that"
+        ],
+        [
+          "todo",
+          "everything"
+        ],
+        [
+          "salga",
+          "goes"
+        ],
+        [
+          "bien",
+          "well"
+        ]
+      ]
+    },
+    {
+      "id": "worry_to_worry",
+      "english": "worry (to worry)",
+      "word": "preocuparse",
+      "grammarNote": "**preocuparse** is a reflexive verb — to worry oneself.\nFull conjugation: **me preocupo, te preocupas, se preocupa, nos preocupamos**.\n**No te preocupes** = Don't worry — the **te** is the reflexive pronoun (tú form).\nNon-reflexive **preocupar** = to worry someone else: **me preocupa** (it worries me / I'm worried about it).",
+      "englishPhrase": "Don't worry about it.",
+      "phrase": "No te preocupes por eso.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "te",
+          "[yourself]"
+        ],
+        [
+          "preocupes",
+          "worry"
+        ],
+        [
+          "por",
+          "about"
+        ],
+        [
+          "eso",
+          "that"
+        ]
+      ]
+    },
+    {
+      "id": "calm_soothe_to_calm",
+      "english": "calm",
+      "word": "calmar",
+      "grammarNote": "**calmar** = to calm (someone else) — transitive: **calmé a mi hermana** (I calmed my sister).\nReflexive **calmarse** = to calm down: **cálmate** (calm down! — tú command).\nSimilar: **tranquilizarse** (to calm down), **relajarse** (to relax) — all reflexive for self-directed action.\n**Cálmate** in the example is an affirmative tú command formed by dropping the **-s** from **te calmas**.",
+      "englishPhrase": "Calm down, please.",
+      "phrase": "Cálmate, por favor.",
+      "literal": [
+        [
+          "Cálmate",
+          "calm-yourself"
+        ],
+        [
+          "por",
+          "please"
+        ],
+        [
+          "favor",
+          "[favor]"
+        ]
+      ]
+    },
+    {
+      "id": "comfort_to_comfort",
+      "english": "comfort (to comfort)",
+      "word": "consolar",
+      "grammarNote": "**consolar** = to console, to comfort — a stem-changing verb (o → ue): **consuelo, consuelas, consuela**.\nThe personal **a** is required before direct object people: **consoló a su amiga** (she comforted her friend).\nNoun form: **consuelo** (consolation, comfort) — **fue un gran consuelo** (it was a great comfort).",
+      "englishPhrase": "She comforted her friend.",
+      "phrase": "Ella consoló a su amiga.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "consoló",
+          "comforted"
+        ],
+        [
+          "a",
+          "[to]"
+        ],
+        [
+          "su",
+          "her"
+        ],
+        [
+          "amiga",
+          "friend"
+        ]
+      ]
+    },
+    {
+      "id": "excite_thrill",
+      "english": "excite",
+      "word": "emocionar",
+      "grammarNote": "**emocionar** = to excite, to move emotionally — works like **gustar**: the thing that excites is the subject.\n**El viaje me emociona** = The trip excites me (lit. the trip moves me).\nReflexive **emocionarse** = to get excited / to become emotional: **me emociono cuando escucho esa canción** (I get emotional when I hear that song).\nNote: **emocionado/a** (excited/moved) uses **estar** — a temporary state.",
+      "englishPhrase": "The trip excites me.",
+      "phrase": "El viaje me emociona.",
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "viaje",
+          "trip"
+        ],
+        [
+          "me",
+          "[me]"
+        ],
+        [
+          "emociona",
+          "excites"
+        ]
+      ]
+    },
+    {
+      "id": "annoy",
+      "english": "annoy",
+      "word": "molestar",
+      "grammarNote": "**molestar** = to bother, to annoy — works like **gustar**: the annoying thing is the subject.\n**Ese ruido me molesta** = That noise bothers me (lit. that noise molests/disturbs me).\nReflexive **molestarse** = to be bothered / to take the trouble: **no te molestes** (don't bother).\nNote: **molestar** is not as strong as English *molest* — it simply means to disturb or annoy.",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "Ese ruido me molesta.",
+      "literal": [
+        [
+          "Ese",
+          "that"
+        ],
+        [
+          "ruido",
+          "noise"
+        ],
+        [
+          "me",
+          "[me]"
+        ],
+        [
+          "molesta",
+          "bothers"
+        ]
+      ]
+    },
+    {
+      "id": "embarrassment",
+      "english": "embarrassment",
+      "word": "la vergüenza",
+      "grammarNote": "**¡Qué vergüenza!** = How embarrassing! / What a shame! · **vergüenza** can mean both embarrassment and shame",
+      "englishPhrase": "I feel so embarrassed.",
+      "phrase": "Siento mucha vergüenza.",
+      "literal": [
+        [
+          "Siento",
+          "feel"
+        ],
+        [
+          "mucha",
+          "much"
+        ],
+        [
+          "vergüenza",
+          "shame/embarrassment"
+        ]
+      ]
+    },
+    {
+      "id": "jealousy",
+      "english": "jealousy / envy",
+      "word": "los celos",
+      "grammarNote": "**celos** is typically plural · **tener celos** = to be jealous · **envidia** = envy (wanting what someone else has)",
+      "englishPhrase": "She feels jealous.",
+      "phrase": "Ella siente celos.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "siente",
+          "feels"
+        ],
+        [
+          "celos",
+          "jealousy"
+        ]
+      ]
+    },
+    {
+      "id": "irritate",
+      "english": "irritate",
+      "word": "irritar",
+      "grammarNote": "**irritar** = to irritate, to annoy — works like **gustar** and **molestar**: the irritating thing is the subject.\n**Esperar me irrita** = Waiting irritates me (lit. waiting irritates me).\nReflexive **irritarse** = to get irritated: **se irrita con facilidad** (he gets irritated easily).\nAdjective: **irritante** (irritating) — **es muy irritante** (it's very irritating).",
+      "englishPhrase": "Waiting irritates me.",
+      "phrase": "Esperar me irrita.",
+      "literal": [
+        [
+          "Esperar",
+          "to-wait"
+        ],
+        [
+          "me",
+          "[me]"
+        ],
+        [
+          "irrita",
+          "irritates"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "anger_to_anger",
+      "english": "anger (to anger)",
+      "word": "enojar",
+      "grammarNote": "**enojar** = to anger (someone else) — transitive: **ese comentario me enojó** (that comment angered me).\nReflexive **enojarse** = to get angry: **me enojé** (I got angry), **se enoja fácilmente** (he gets angry easily).\n**ponerse enojado/a** = to become angry — **se puso enojada** (she became angry).\nNote: **enojado** uses **estar** — **estoy enojado** (I'm angry right now).",
+      "englishPhrase": "That comment angered me.",
+      "phrase": "Ese comentario me enojó.",
+      "literal": [
+        [
+          "Ese",
+          "that"
+        ],
+        [
+          "comentario",
+          "comment"
+        ],
+        [
+          "me",
+          "[me]"
+        ],
+        [
+          "enojó",
+          "angered"
+        ]
+      ]
+    },
+    {
+      "id": "delight",
+      "english": "delight",
+      "word": "deleitar",
+      "grammarNote": "**deleitar** = to delight — works like **gustar**: the delightful thing is the subject.\n**La música deleitó a todos** = The music delighted everyone — note the personal **a** before **todos** (people as direct object).\nNoun form: **deleite** (delight, pleasure) — **fue un deleite** (it was a delight).\nReflexive **deleitarse en/con** = to delight in: **se deleita en leer** (he delights in reading).",
+      "englishPhrase": "The music delighted everyone.",
+      "phrase": "La música deleitó a todos.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "música",
+          "music"
+        ],
+        [
+          "deleitó",
+          "delighted"
+        ],
+        [
+          "a",
+          "[to]"
+        ],
+        [
+          "todos",
+          "everyone"
+        ]
+      ]
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "word": "sonreír",
+      "grammarNote": "**sonreír** = to smile — a compound of **son-** (sound/tone) + **reír** (to laugh).\n**sonreír** is an irregular e→i stem-changing verb: **sonrío, sonríes, sonríe, sonreímos, sonreís, sonríen**.\nNoun: **la sonrisa** (the smile) — **tiene una sonrisa hermosa** (she has a beautiful smile).\nNote the written accent on **sonríe** to separate the two vowels.",
+      "englishPhrase": "She always smiles.",
+      "phrase": "Ella siempre sonríe."
+    },
+    {
+      "id": "laugh",
+      "english": "laugh",
+      "word": "reír",
+      "grammarNote": "**reír** = to laugh — irregular e→i stem-changing verb: **río, ríes, ríe, reímos, reís, ríen**.\nReflexive **reírse** is also common and essentially interchangeable: **nos reímos** (we laughed).\n**reírse de** = to laugh at: **se ríen de mí** (they're laughing at me).\nNoun: **la risa** (the laugh, laughter) — **me dio risa** (it made me laugh).",
+      "englishPhrase": "We laughed a lot.",
+      "phrase": "Nos reímos mucho.",
+      "literal": [
+        [
+          "Nos",
+          "[ourselves]"
+        ],
+        [
+          "reímos",
+          "laughed"
+        ],
+        [
+          "mucho",
+          "much"
+        ]
+      ]
+    },
+    {
+      "id": "cry_weep_mourn",
+      "english": "cry",
+      "word": "llorar",
+      "grammarNote": "**llorar** = to cry — a regular -ar verb: **lloro, lloras, llora, lloramos, lloráis, lloran**.\nThe present progressive **está llorando** (is crying) uses **estar** + gerund (-ando/-iendo).\n**hacerse llorar** = to make someone cry: **me hizo llorar** (it made me cry).\nNote: **llover** (to rain) sounds similar but is unrelated — **llueve** (it's raining).",
+      "englishPhrase": "The baby is crying.",
+      "phrase": "El bebé está llorando."
+    },
+    {
+      "id": "sigh",
+      "english": "sigh",
+      "word": "suspirar",
+      "grammarNote": "**suspirar** = to sigh — a regular -ar verb.\n**suspirar de alivio** = to sigh with/of relief — **de** links the action to its emotional cause.\nNoun: **el suspiro** (the sigh) — **lanzó un suspiro** (he let out a sigh), **un suspiro de alivio** (a sigh of relief).\nAlso figurative: **en un suspiro** = in the blink of an eye / in no time at all.",
+      "englishPhrase": "She sighed with relief.",
+      "phrase": "Ella suspiró de alivio.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "suspiró",
+          "sighed"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "alivio",
+          "relief"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "frown",
+      "english": "frown",
+      "word": "fruncir el ceño",
+      "grammarNote": "**fruncir el ceño** = to frown (literally *to furrow/wrinkle the brow*).\n**fruncir** = to wrinkle, to knit — **fruncir los labios** (to purse one's lips).\n**el ceño** = the brow/furrowed expression — not to be confused with **la ceja** (eyebrow).\nPast tense: **frunció el ceño** — regular -ir verb in the preterite, third person singular: **frunció**.",
+      "englishPhrase": "He frowned when he heard the news.",
+      "phrase": "Frunció el ceño cuando escuchó la noticia.",
+      "literal": [
+        [
+          "Frunció",
+          "furrowed"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "ceño",
+          "brow"
+        ],
+        [
+          "cuando",
+          "when"
+        ],
+        [
+          "escuchó",
+          "heard"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "noticia",
+          "news"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "scream_shout",
+      "english": "scream",
+      "word": "gritar",
+      "grammarNote": "**gritar** = to shout, to scream — a regular -ar verb.\n**No grites** = Don't shout — negative tú command: use the present subjunctive (**grites**).\nNoun: **el grito** (the shout, scream) — **un grito de alegría** (a cry of joy), **a voces / a gritos** (shouting, at the top of one's voice).\nAlso: **dar un grito** = to let out a shout.",
+      "englishPhrase": "Don't shout, please.",
+      "phrase": "No grites, por favor.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "grites",
+          "shout"
+        ],
+        [
+          "por",
+          "please"
+        ],
+        [
+          "favor",
+          "[favor]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "relax",
+      "english": "relax",
+      "word": "relajarse",
+      "grammarNote": "**relajarse** is a reflexive verb — to relax (oneself).\n**Relájate** = Relax! — affirmative tú command of the reflexive: drop **-s** from **te relajas**, then attach **-te**: **relájate** (note the accent to preserve stress).\nFull conjugation: **me relajo, te relajas, se relaja, nos relajamos**.\nAlso: **estar relajado/a** = to be relaxed (state) — **estoy muy relajado** (I'm very relaxed).",
+      "englishPhrase": "Relax, there's no rush.",
+      "phrase": "Relájate, no hay prisa.",
+      "literal": [
+        [
+          "Relájate",
+          "relax-yourself"
+        ],
+        [
+          "no",
+          "not"
+        ],
+        [
+          "hay",
+          "there-is"
+        ],
+        [
+          "prisa",
+          "rush"
+        ]
+      ]
+    },
+    {
+      "id": "angry",
+      "english": "angry",
+      "word": "enojado",
+      "grammarNote": "Adverb form: **enojadamente** (angrily) — feminine: enojada + mente → **enojadamente** · **Respondió enojadamente.**",
+      "englishPhrase": "I'm angry with you.",
+      "phrase": "Estoy enojado contigo.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "enojado",
+          "angry"
+        ],
+        [
+          "contigo",
+          "with-you"
+        ]
+      ]
+    },
+    {
+      "id": "mad",
+      "english": "mad",
+      "word": "enfadado",
+      "grammarNote": "**enfadado** = mad, angry — more common in Spain; **enojado** is preferred in Latin America.\nBoth use **estar** for a temporary emotional state: **estoy enfadado** (I'm mad right now).\nVerb: **enfadarse** (reflexive) = to get angry: **me enfado** (I get angry), **se enfadó** (he/she got angry).\n**ponerse enfadado** = to become mad — **se puso enfadada** (she got angry).",
+      "englishPhrase": "Why are you so mad?",
+      "phrase": "¿Por qué estás tan enfadado?",
+      "literal": [
+        [
+          "Por",
+          "why"
+        ],
+        [
+          "qué",
+          "[?]"
+        ],
+        [
+          "estás",
+          "are"
+        ],
+        [
+          "tan",
+          "so"
+        ],
+        [
+          "enfadado",
+          "mad"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "afraid_scared",
+      "english": "afraid",
+      "word": "asustado",
+      "grammarNote": "**asustado/a** = scared, frightened — past participle of **asustar** (to frighten) used as an adjective.\nAlways use **estar**: **estaba asustado** (he was scared) — a temporary emotional state.\nVerb: **asustarse** (reflexive) = to get scared: **me asusté** (I got scared), **no te asustes** (don't get scared).\nAlso: **tener miedo** (to be afraid) and **asustado** often overlap — **tenía miedo** vs **estaba asustado**.",
+      "englishPhrase": "The child was scared.",
+      "phrase": "El niño estaba asustado."
+    },
+    {
+      "id": "anxious",
+      "english": "anxious",
+      "word": "ansioso",
+      "grammarNote": "Adverb form: **ansiosamente** (anxiously) — feminine: ansiosa + mente → **ansiosamente** · **Esperaba ansiosamente.**",
+      "englishPhrase": "I'm anxious about the exam.",
+      "phrase": "Estoy ansioso por el examen.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "ansioso",
+          "anxious"
+        ],
+        [
+          "por",
+          "about"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "examen",
+          "exam"
+        ]
+      ]
+    },
+    {
+      "id": "nervous",
+      "english": "nervous",
+      "word": "nervioso",
+      "grammarNote": "Adverb form: **nerviosamente** (nervously) — feminine: nerviosa + mente → **nerviosamente** · **Habló nerviosamente.**",
+      "englishPhrase": "I'm nervous today.",
+      "phrase": "Estoy nervioso hoy.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "nervioso",
+          "nervous"
+        ],
+        [
+          "hoy",
+          "today"
+        ]
+      ]
+    },
+    {
+      "id": "excited",
+      "english": "excited",
+      "word": "emocionado",
+      "grammarNote": "Adverb form: **emocionadamente** (excitedly) — feminine: emocionada + mente → **emocionadamente** · **Gritó emocionadamente.**",
+      "englishPhrase": "I'm excited about the trip.",
+      "phrase": "Estoy emocionado por el viaje.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "emocionado",
+          "excited"
+        ],
+        [
+          "por",
+          "about"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "viaje",
+          "trip"
+        ]
+      ]
+    },
+    {
+      "id": "joyful_cheerful",
+      "english": "joyful",
+      "word": "alegre",
+      "grammarNote": "**alegre** (joyful, cheerful) — from Latin **alacer** (lively, brisk), the same root as **alegría** (joy).\nThe suffix **-ía** forms abstract nouns: **alegre → alegría** (joy), **cortés → cortesía** (courtesy).\nNote the use of **estar**: **siempre está alegre** (she's always cheerful) — even with *siempre*, **estar** is used because it describes a perceived/observed state.\n**ponerse alegre** = to become cheerful/tipsy — **me pongo alegre con el vino** (wine makes me happy/tipsy).",
+      "englishPhrase": "She is always cheerful.",
+      "phrase": "Ella siempre está alegre.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "siempre",
+          "always"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "alegre",
+          "cheerful"
+        ]
+      ]
+    },
+    {
+      "id": "proud",
+      "english": "proud",
+      "word": "orgulloso",
+      "grammarNote": "Adverb form: **orgullosamente** (proudly) — feminine: orgullosa + mente → **orgullosamente** · **Sonrió orgullosamente.**",
+      "englishPhrase": "I'm proud of you.",
+      "phrase": "Estoy orgulloso de ti.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "orgulloso",
+          "proud"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "ti",
+          "you"
+        ]
+      ]
+    },
+    {
+      "id": "content_contented",
+      "english": "content",
+      "word": "contento",
+      "grammarNote": "**contento/a** = content, happy, pleased — always use **estar**: **estoy contento** (I'm content/pleased).\nDo not confuse with **contento** as a noun (rarely used) or **contenido** (content, as in the content of a book).\n**sentirse contento** = to feel content: **me siento contento con mi vida** (I feel content with my life).\nRelated: **satisfecho/a** (satisfied) — **estoy satisfecho** (I'm satisfied).",
+      "englishPhrase": "I'm content with my life.",
+      "phrase": "Estoy contento con mi vida.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "contento",
+          "content"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "mi",
+          "my"
+        ],
+        [
+          "vida",
+          "life"
+        ]
+      ]
+    },
+    {
+      "id": "calm_2",
+      "english": "calm",
+      "word": "tranquilo",
+      "grammarNote": "Adverb form: **tranquilamente** (calmly) — feminine: tranquila + mente → **tranquilamente** · **Respondió tranquilamente.**",
+      "englishPhrase": "Stay calm, everything is fine.",
+      "phrase": "Mantente tranquilo, todo está bien.",
+      "literal": [
+        [
+          "Mantente",
+          "keep-yourself"
+        ],
+        [
+          "tranquilo",
+          "calm"
+        ],
+        [
+          "todo",
+          "everything"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "bien",
+          "fine"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stressed",
+      "english": "stressed",
+      "word": "estresado",
+      "grammarNote": "**estresado/a** = stressed — past participle of **estresar** used as an adjective.\nAlways use **estar**: **estoy muy estresado** (I'm very stressed) — a temporary state, not a permanent personality trait.\n**ponerse estresado** = to become stressed: **me pongo estresado cuando hay mucho trabajo** (I get stressed when there's a lot of work).\nThe noun **estrés** is a loanword from English — note the accent on the final syllable.",
+      "englishPhrase": "I'm very stressed this week.",
+      "phrase": "Estoy muy estresado esta semana.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "muy",
+          "very"
+        ],
+        [
+          "estresado",
+          "stressed"
+        ],
+        [
+          "esta",
+          "this"
+        ],
+        [
+          "semana",
+          "week"
+        ]
+      ]
+    },
+    {
+      "id": "overwhelmed",
+      "english": "overwhelmed",
+      "word": "abrumado",
+      "grammarNote": "**abrumado/a** = overwhelmed — from **abrumar** (to overwhelm, to weigh down).\n**sentirse abrumado** uses the reflexive **sentirse**: **me siento abrumado** (I feel overwhelmed).\nUse **estar** for the resulting state: **estoy abrumado** (I'm overwhelmed).\nThe preposition **por** marks the cause: **abrumado por el trabajo** (overwhelmed by the work).",
+      "englishPhrase": "I feel overwhelmed by the work.",
+      "phrase": "Me siento abrumado por el trabajo.",
+      "literal": [
+        [
+          "Me",
+          "[myself]"
+        ],
+        [
+          "siento",
+          "feel"
+        ],
+        [
+          "abrumado",
+          "overwhelmed"
+        ],
+        [
+          "por",
+          "by"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "trabajo",
+          "work"
+        ]
+      ]
+    },
+    {
+      "id": "energetic",
+      "english": "energetic",
+      "word": "energético",
+      "grammarNote": "**energético/a** = energetic — adjective from **energía** (energy).\nUse **ser** for a personality trait: **es muy energética** (she's very energetic by nature).\nContrast with **estar lleno/a de energía** (to be full of energy — a current state): **hoy estoy lleno de energía**.\nNote gender agreement: **energético** (masculine), **energética** (feminine).",
+      "englishPhrase": "She is very energetic.",
+      "phrase": "Ella es muy energética."
+    },
+    {
+      "id": "tired",
+      "english": "tired",
+      "word": "cansado",
+      "grammarNote": "Adverb form: **cansadamente** (wearily) — feminine: cansada + mente → **cansadamente** · **Arrastró los pies cansadamente.**",
+      "englishPhrase": "I'm very tired today.",
+      "phrase": "Estoy muy cansado hoy.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "muy",
+          "very"
+        ],
+        [
+          "cansado",
+          "tired"
+        ],
+        [
+          "hoy",
+          "today"
+        ]
+      ]
+    },
+    {
+      "id": "exhausted",
+      "english": "exhausted",
+      "word": "agotado",
+      "grammarNote": "**agotado/a** = exhausted, depleted — from **agotar** (to exhaust, to drain, to use up).\nAlways use **estar**: **estoy agotado** (I'm exhausted) — a temporary physical/emotional state.\n**agotado** can also mean *sold out*: **las entradas están agotadas** (the tickets are sold out) — same verb, different context.\n**agotador/a** = exhausting: **fue un día agotador** (it was an exhausting day).",
+      "englishPhrase": "I'm exhausted after the run.",
+      "phrase": "Estoy agotado después de correr.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "agotado",
+          "exhausted"
+        ],
+        [
+          "después",
+          "after"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "correr",
+          "running"
+        ]
+      ]
+    },
+    {
+      "id": "curious",
+      "english": "curious",
+      "word": "curioso",
+      "grammarNote": "**curioso/a** = curious — can describe a person or a thing (meaning *strange/interesting*).\nUse **estar** for the current emotional state: **estoy curioso por eso** (I'm curious about that).\nUse **ser** for personality: **es una persona muy curiosa** (she's a very curious person).\nAlso: **tener curiosidad** = to be curious: **tengo mucha curiosidad por saber** (I'm very curious to know).",
+      "englishPhrase": "I'm curious about that.",
+      "phrase": "Estoy curioso por eso.",
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "curioso",
+          "curious"
+        ],
+        [
+          "por",
+          "about"
+        ],
+        [
+          "eso",
+          "that"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2327 @@
+{
+  "id": "food_and_drink",
+  "name": "Food & Drink",
+  "language": "spanish",
+  "stories": [
+    "at_the_restaurant",
+    "cooking_at_home",
+    "at_the_market",
+    "a_nice_restaurant",
+    "bean_ate_chocolate",
+    "paella",
+    "tacos_or_pizza",
+    "at_the_bakery",
+    "cooking_together"
+  ],
+  "pictureLessons": [
+    "food_and_drink",
+    "food_and_drink_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "past_tense",
+      "name": "Past Tense"
+    },
+    {
+      "id": "gustar",
+      "name": "Gustar — I Like"
+    },
+    {
+      "id": "present_tense",
+      "name": "Present Tense — Regular Verbs"
+    },
+    {
+      "id": "hay",
+      "name": "Hay — There Is / There Are"
+    },
+    {
+      "id": "adjective_agreement",
+      "name": "Adjective Agreement — Gender & Number"
+    },
+    {
+      "id": "quisiera",
+      "name": "Quisiera — Polite Ordering"
+    }
+  ],
+  "cards": [
+    {
+      "id": "water",
+      "english": "water",
+      "word": "el agua",
+      "grammarNote": "**agua** is feminine but takes **el** in the singular (starts with stressed 'a')\nAdjectives still agree feminine: **el agua fría** (cold water) · Plural: **las aguas**",
+      "englishPhrase": "The water is cold.",
+      "phrase": "El agua está fría."
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "word": "pan",
+      "grammarNote": "**pan** is masculine: **el pan** · **Quisiera** is the imperfect subjunctive of **querer** used as a polite 'I would like' — softer than **quiero** (I want)\nCommon in restaurants throughout the Spanish-speaking world",
+      "englishPhrase": "I'd like some bread.",
+      "phrase": "Quisiera pan.",
+      "literal": [
+        [
+          "Quisiera",
+          "would-want"
+        ],
+        [
+          "pan",
+          "bread"
+        ]
+      ]
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "word": "arroz",
+      "grammarNote": "**arroz** is masculine: **el arroz** · Comes from Arabic **al-ruzz** — one of many Arabic food words in Spanish\n**Me gusta** (it pleases me) is how Spanish expresses liking: the thing liked is the grammatical subject, so singular items use **gusta** and plural items use **gustan**: **me gustan las verduras**",
+      "englishPhrase": "I like rice with vegetables.",
+      "phrase": "Me gusta el arroz con verduras.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "gusta",
+          "pleases"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "arroz",
+          "rice"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "verduras",
+          "vegetables"
+        ]
+      ]
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "word": "leche",
+      "grammarNote": "**leche** is feminine: **la leche** · **¿Quieres?** is the tú (informal) form of **querer** — an e→ie stem-changing verb\nFull present: **quiero, quieres, quiere, queremos, queréis, quieren**",
+      "englishPhrase": "Do you want milk?",
+      "phrase": "¿Quieres leche?",
+      "literal": [
+        [
+          "Quieres",
+          "want"
+        ],
+        [
+          "leche",
+          "milk"
+        ]
+      ]
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "word": "huevo",
+      "grammarNote": "**huevo** is masculine: **el huevo**, plural **los huevos** · **desayuno** doubles as both the noun (breakfast) and the yo-form verb **desayunar** (to have breakfast)\n**Como** (I eat) is the yo form of **comer** — a regular -er verb: como, comes, come, comemos, coméis, comen",
+      "englishPhrase": "I eat two eggs for breakfast.",
+      "phrase": "Como dos huevos en el desayuno.",
+      "literal": [
+        [
+          "Como",
+          "eat"
+        ],
+        [
+          "dos",
+          "two"
+        ],
+        [
+          "huevos",
+          "eggs"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "desayuno",
+          "breakfast"
+        ]
+      ]
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "word": "queso",
+      "grammarNote": "**queso** is masculine: **el queso** · **sándwich** is an English borrowing fully adopted into Spanish, written with an accent: **el sándwich**\n**tiene** is the él/ella form of **tener** (to have): tengo, tienes, tiene, tenemos, tenéis, tienen",
+      "englishPhrase": "The sandwich has cheese.",
+      "phrase": "El sándwich tiene queso."
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "word": "pollo",
+      "grammarNote": "**pollo** is masculine: **el pollo** · **está delicioso** uses **estar** rather than **ser** because food quality is a temporary, subjective condition\nCompare: **La manzana es verde** (ser — inherent color) vs **La sopa está caliente** (estar — current temperature)",
+      "englishPhrase": "The chicken is delicious.",
+      "phrase": "El pollo está delicioso."
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "word": "carne",
+      "grammarNote": "**carne** is feminine: **la carne** · The subject pronoun **Él** (he) is optional in Spanish — it is included here for emphasis or clarity\nNote: **él** (he) carries an accent to distinguish it from **el** (the)",
+      "englishPhrase": "He doesn't eat meat.",
+      "phrase": "Él no come carne.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "no",
+          "not"
+        ],
+        [
+          "come",
+          "eats"
+        ],
+        [
+          "carne",
+          "meat"
+        ]
+      ]
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "word": "pescado",
+      "grammarNote": "**pescado** (cooked/caught fish, food) vs **pez** (live fish in water) — the same distinction as English 'fish (to eat)' vs 'fish (the animal)'\n**pescado** is masculine: **el pescado**",
+      "englishPhrase": "I like fish.",
+      "phrase": "Me gusta el pescado.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "gusta",
+          "pleases"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pescado",
+          "fish"
+        ]
+      ]
+    },
+    {
+      "id": "churros",
+      "english": "churros",
+      "word": "los churros",
+      "grammarNote": "**churros** are always masculine plural: **los churros** · Traditionally served with thick hot **chocolate** for dipping — a classic Spanish breakfast\n**Quiero** (I want) is the yo form of the stem-changing verb **querer** (e→ie): quiero, quieres, quiere…",
+      "englishPhrase": "I want churros with hot chocolate.",
+      "phrase": "Quiero churros con chocolate caliente.",
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "churros",
+          "churros"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "chocolate",
+          "chocolate"
+        ],
+        [
+          "caliente",
+          "hot"
+        ]
+      ]
+    },
+    {
+      "id": "paella",
+      "english": "paella",
+      "word": "la paella",
+      "grammarNote": "**paella** is feminine: **la paella** · A Valencian dish — **valenciana** is a feminine adjective agreeing with **paella** (adjectives must match the gender and number of the noun)\n**mariscos** (seafood) is typically masculine plural: **los mariscos**\nThe word **paella** comes from the Latin **patella** (pan) via the Valencian language",
+      "englishPhrase": "Valencia paella has rice and seafood.",
+      "phrase": "La paella valenciana tiene arroz y mariscos.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "paella",
+          "paella"
+        ],
+        [
+          "valenciana",
+          "Valencian"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "arroz",
+          "rice"
+        ],
+        [
+          "y",
+          "and"
+        ],
+        [
+          "mariscos",
+          "seafood"
+        ]
+      ]
+    },
+    {
+      "id": "tapas",
+      "english": "tapas",
+      "word": "las tapas",
+      "grammarNote": "**tapas** are feminine plural: **las tapas** · From **tapar** (to cover) — legend says a slice of bread or ham was placed on top of a drink to keep flies out\n**pedir** (to order/ask for) is a stem-changing e→i verb: **pido, pides, pide, pedimos, pedís, piden** — used for ordering food and requesting things\n**Vamos a + infinitive** is the 'let's' construction: **vamos a pedir** = let's order",
+      "englishPhrase": "Let's order some tapas.",
+      "phrase": "Vamos a pedir unas tapas.",
+      "literal": [
+        [
+          "Vamos",
+          "let's-go"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "pedir",
+          "order"
+        ],
+        [
+          "unas",
+          "some"
+        ],
+        [
+          "tapas",
+          "tapas"
+        ]
+      ]
+    },
+    {
+      "id": "pork",
+      "english": "pork",
+      "word": "cerdo",
+      "grammarNote": "**cerdo** is masculine: **el cerdo** · Also means 'pig' (the animal) — context makes the meaning clear\nIn Spain, **jamón** (cured ham from pork) is central to culinary culture; **jamón ibérico** and **jamón serrano** are famous regional varieties",
+      "englishPhrase": "I don't eat pork.",
+      "phrase": "No como cerdo.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "como",
+          "eat"
+        ],
+        [
+          "cerdo",
+          "pork"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "word": "fruta",
+      "grammarNote": "**fruta** is feminine: **la fruta** (uncountable, as a category) · Individual pieces: **una fruta** (a piece of fruit)\n**todos los días** = every day — literally 'all the days'; **día** is masculine despite ending in -a: **el día**",
+      "englishPhrase": "I eat fruit every day.",
+      "phrase": "Como fruta todos los días.",
+      "literal": [
+        [
+          "Como",
+          "eat"
+        ],
+        [
+          "fruta",
+          "fruit"
+        ],
+        [
+          "todos",
+          "every"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "días",
+          "days"
+        ]
+      ]
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "word": "manzana",
+      "grammarNote": "**manzana** is feminine: **la manzana** · Also means 'city block' in Latin America — context distinguishes the two meanings\n**al día** = per day / a day — **al** is the contraction of **a + el**",
+      "englishPhrase": "An apple a day is healthy.",
+      "phrase": "Una manzana al día es saludable.",
+      "literal": [
+        [
+          "Una",
+          "an"
+        ],
+        [
+          "manzana",
+          "apple"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "día",
+          "day"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "saludable",
+          "healthy"
+        ]
+      ]
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "word": "plátano",
+      "grammarNote": "**plátano** is masculine: **el plátano** · Regional variation: in many Latin American countries the word **banano** or **banana** is preferred for the sweet fruit; **plátano** may specifically mean the larger cooking plantain\n**maduros** (ripe) — adjective agrees masculine plural with **plátanos**: maduro → maduros",
+      "englishPhrase": "The bananas are ripe.",
+      "phrase": "Los plátanos están maduros."
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "word": "naranja",
+      "grammarNote": "**naranja** is feminine: **la naranja** · Etymology: from Sanskrit **nāranga** → Persian → Arabic **nāranja** → Spanish **naranja** — a classic Arabic food borrowing\nIn Latin America **jugo** = juice; in Spain **zumo** is more common: **zumo de naranja**\nDiminutive of affection: **naranjita** (little orange / dear orange)",
+      "englishPhrase": "I want an orange juice.",
+      "phrase": "Quiero un jugo de naranja.",
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "jugo",
+          "juice"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "naranja",
+          "orange"
+        ]
+      ]
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "word": "verdura",
+      "grammarNote": "**verdura** is feminine: **la verdura** · Comes from **verde** (green) — originally meant 'green things'\nAlso common: **vegetal** or **hortaliza** for individual vegetables · **¡Come las verduras!** is a tú imperative (informal command): the tú imperative of -er verbs uses the él/ella form: **come** (from comer)",
+      "englishPhrase": "Eat your vegetables!",
+      "phrase": "¡Come las verduras!",
+      "literal": [
+        [
+          "Come",
+          "eat"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "verduras",
+          "vegetables"
+        ]
+      ]
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "word": "papa",
+      "grammarNote": "**papa** is feminine: **la papa** (used throughout Latin America) · In Spain: **patata** — same vegetable, different word\nBoth come from Quechua **papa** — the potato is native to the Andes\n**puré de papas** (mashed potatoes) — **puré** is masculine: **el puré**",
+      "englishPhrase": "I want mashed potatoes.",
+      "phrase": "Quiero puré de papas.",
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "puré",
+          "purée"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "papas",
+          "potatoes"
+        ]
+      ]
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "word": "tomate",
+      "grammarNote": "**tomate** is masculine: **el tomate** · From Nahuatl **tomatl** — a word borrowed into Spanish during the colonial period\n**ensalada** is feminine: **la ensalada** · **tiene** = has (él/ella form of **tener**)",
+      "englishPhrase": "The salad has tomatoes.",
+      "phrase": "La ensalada tiene tomates."
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "word": "cebolla",
+      "grammarNote": "**cebolla** is feminine: **la cebolla** · **No me gustan** — note the verb is plural (**gustan**) because the subject is **las cebollas** (plural)\nWith **gustar**, the verb agrees with what is liked, not the person: **me gusta el café** but **me gustan las cebollas**",
+      "englishPhrase": "I don't like onions.",
+      "phrase": "No me gustan las cebollas.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "me",
+          "[to-me]"
+        ],
+        [
+          "gustan",
+          "please"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "cebollas",
+          "onions"
+        ]
+      ]
+    },
+    {
+      "id": "salad",
+      "english": "salad",
+      "word": "ensalada",
+      "grammarNote": "**ensalada** is feminine: **la ensalada** · From **sal** (salt) — originally 'salted greens'\n**Voy a tomar** uses **ir a + infinitive** for the near future: 'I'm going to have…'\n**tomar** literally means 'to take' but is widely used for eating/drinking: **tomar un café**, **tomar una ensalada**",
+      "englishPhrase": "I'll have a salad.",
+      "phrase": "Voy a tomar una ensalada.",
+      "literal": [
+        [
+          "Voy",
+          "go"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "tomar",
+          "take"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "ensalada",
+          "salad"
+        ]
+      ]
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "word": "sopa",
+      "grammarNote": "**sopa** is feminine: **la sopa** · **está caliente** uses **estar** (not **ser**) for the temporary state of being hot — food temperature is always expressed with **estar**\nDiminutive: **sopita** (a nice little soup / soup served affectionately)",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "La sopa está caliente."
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "word": "sándwich",
+      "grammarNote": "**sándwich** is an English borrowing: **el sándwich** — note the written accent on the first syllable following Spanish stress rules\nIn Mexico a long sandwich roll is called a **torta**; in Cuba **medianoche** or **pan con** varieties are common — regional vocabulary varies widely\n**Hice** is the irregular preterite (past tense) yo form of **hacer** (to make/do): hice, hiciste, hizo, hicimos, hicisteis, hicieron",
+      "englishPhrase": "I made a sandwich for lunch.",
+      "phrase": "Hice un sándwich para el almuerzo.",
+      "literal": [
+        [
+          "Hice",
+          "made"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "sándwich",
+          "sandwich"
+        ],
+        [
+          "para",
+          "for"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "almuerzo",
+          "lunch"
+        ]
+      ]
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "word": "pastel",
+      "grammarNote": "**pastel** is masculine: **el pastel** · In Mexico and Central America **pastel** = cake; in Spain **tarta** is more common for layer cakes\n**pastel** also means 'pastel (color)' and 'pie' depending on context — a versatile word!",
+      "englishPhrase": "Do you want cake?",
+      "phrase": "¿Quieres pastel?",
+      "literal": [
+        [
+          "Quieres",
+          "want"
+        ],
+        [
+          "pastel",
+          "cake"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "word": "galleta",
+      "grammarNote": "**galleta** is feminine: **la galleta** · **galleta** covers both cookies (sweet) and crackers (savory) — context or a modifier clarifies: **galleta salada** (cracker), **galleta dulce** (sweet cookie)\n**estas galletas** — **estas** is the feminine plural demonstrative: esta → estas (this/these)",
+      "englishPhrase": "These cookies are delicious.",
+      "phrase": "Estas galletas están deliciosas.",
+      "hidden": true
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "word": "chocolate",
+      "grammarNote": "**chocolate** is masculine: **el chocolate** · From Nahuatl **xocolātl** (bitter water) — brought to Europe from Mesoamerica in the 16th century\n**Me encanta** = I love it (literally 'it enchants me') — **encantar** works exactly like **gustar**: the thing loved is the grammatical subject",
+      "englishPhrase": "I love chocolate.",
+      "phrase": "Me encanta el chocolate.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "encanta",
+          "enchants"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "chocolate",
+          "chocolate"
+        ]
+      ]
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "word": "azúcar",
+      "grammarNote": "**azúcar** from Arabic **al-sukkar** (itself from Sanskrit **śarkarā**) — one of the clearest Arabic food etymologies in Spanish\n**azúcar** is unusual: it is used with both **el** and **la** — **el azúcar** is more common in Spain, **la azúcar** in parts of Latin America\n**sin** = without — used before a noun with no article: **sin azúcar** (no sugar), **sin sal** (no salt), **sin leche** (no milk)",
+      "englishPhrase": "No sugar, please.",
+      "phrase": "Sin azúcar, por favor.",
+      "literal": [
+        [
+          "Sin",
+          "without"
+        ],
+        [
+          "azúcar",
+          "sugar"
+        ],
+        [
+          "por",
+          "please"
+        ],
+        [
+          "favor",
+          "[favor]"
+        ]
+      ]
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "word": "sal",
+      "grammarNote": "**sal** is feminine: **la sal** · **¿Me pasas la sal?** is an indirect request using the present tense — more natural in Spanish than the English-style 'could you pass?'\nThe indirect object pronoun **me** (to me) is placed before the conjugated verb",
+      "englishPhrase": "Can you pass the salt?",
+      "phrase": "¿Me pasas la sal?",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "pasas",
+          "pass"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "sal",
+          "salt"
+        ]
+      ]
+    },
+    {
+      "id": "pepper",
+      "english": "pepper",
+      "word": "pimienta",
+      "grammarNote": "**pimienta** is feminine: **la pimienta** · Refers to ground black/white pepper (the spice)\nDistinguish from **pimiento** (masculine: **el pimiento**) = bell pepper or chile pepper — the vegetable\nFrom Latin **pigmentum** (pigment, substance) via medieval cooking vocabulary",
+      "englishPhrase": "Can you pass the pepper?",
+      "phrase": "¿Me pasas la pimienta?",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "pasas",
+          "pass"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "pimienta",
+          "pepper"
+        ]
+      ]
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "word": "mantequilla",
+      "grammarNote": "**mantequilla** is feminine: **la mantequilla** · From **manteca** (lard/fat) + diminutive **-illa** — literally 'little fat'\nIn Spain **mantequilla** = butter; **manteca** = lard · In Argentina **manteca** can mean butter\n**Pongo** is the irregular yo form of **poner** (to put): pongo, pones, pone, ponemos, ponéis, ponen",
+      "englishPhrase": "I put butter on my bread.",
+      "phrase": "Pongo mantequilla en el pan.",
+      "literal": [
+        [
+          "Pongo",
+          "put"
+        ],
+        [
+          "mantequilla",
+          "butter"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pan",
+          "bread"
+        ]
+      ]
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "word": "aceite",
+      "grammarNote": "**aceite** is masculine: **el aceite** · From Arabic **az-zayt** (the olive oil) — another key Arabic culinary borrowing\nSpain is one of the world's largest olive oil producers; **aceite de oliva virgen extra** (extra virgin olive oil) is a staple\n**oliva** = the olive (fruit/tree); **aceituna** is the more common word for the olive you eat",
+      "englishPhrase": "Cook with olive oil.",
+      "phrase": "Cocina con aceite de oliva.",
+      "literal": [
+        [
+          "Cocina",
+          "cook"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "aceite",
+          "oil"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "oliva",
+          "olive"
+        ]
+      ]
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "word": "café",
+      "grammarNote": "**café** is masculine: **el café** · From Arabic **qahwa** → Turkish **kahve** → Spanish **café**\nDiminutive of affection: **cafecito** — very common in Latin America, used to warmly offer coffee: **¿Un cafecito?**\n**por la mañana** = in the morning; also: **por la tarde** (in the afternoon), **por la noche** (in the evening/at night)",
+      "englishPhrase": "I like coffee in the morning.",
+      "phrase": "Me gusta el café por la mañana.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "gusta",
+          "pleases"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "café",
+          "coffee"
+        ],
+        [
+          "por",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "mañana",
+          "morning"
+        ]
+      ]
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "word": "té",
+      "grammarNote": "**té** is masculine: **el té** · Written with an accent to distinguish it from **te** (the indirect object pronoun 'you/to you')\n**¿Quieres un té?** — note the indefinite article **un** before **té**; in English we often omit the article ('some tea'), but Spanish commonly uses **un/una**",
+      "englishPhrase": "Would you like some tea?",
+      "phrase": "¿Quieres un té?",
+      "literal": [
+        [
+          "Quieres",
+          "want"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "té",
+          "tea"
+        ]
+      ]
+    },
+    {
+      "id": "wine",
+      "english": "wine",
+      "word": "vino",
+      "grammarNote": "**vino** is masculine: **el vino** · Color terms for wine differ from English: **vino tinto** (red wine — literally 'dyed/tinted wine'), **vino blanco** (white wine), **vino rosado** (rosé)\n**copa** = wine glass (stemmed glass); **vaso** = regular drinking glass — use **copa** for wine, **vaso** for water/juice",
+      "englishPhrase": "A glass of red wine, please.",
+      "phrase": "Una copa de vino tinto, por favor.",
+      "literal": [
+        [
+          "Una",
+          "a"
+        ],
+        [
+          "copa",
+          "glass"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "vino",
+          "wine"
+        ],
+        [
+          "tinto",
+          "red"
+        ],
+        [
+          "por",
+          "please"
+        ],
+        [
+          "favor",
+          "[favor]"
+        ]
+      ]
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "cerveza",
+      "grammarNote": "**cerveza** is feminine: **la cerveza** · From Latin **cervesia** — a Gaulish/Celtic word that entered Latin\nIn Spain, a small beer on tap is called a **caña**; a larger glass is a **jarra** · In Latin America ordering **una chela** (informal) is common in Mexico",
+      "englishPhrase": "Two beers, please.",
+      "phrase": "Dos cervezas, por favor."
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "word": "jugo",
+      "grammarNote": "**jugo** is masculine: **el jugo** · Used throughout Latin America; in Spain the preferred word is **zumo**: **zumo de naranja**\nDiminutive: **jugito** — used affectionately, especially when offering juice to children: **¿Quieres un jugito?**",
+      "englishPhrase": "I want orange juice.",
+      "phrase": "Quiero jugo de naranja.",
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "jugo",
+          "juice"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "naranja",
+          "orange"
+        ]
+      ]
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "word": "desayuno",
+      "grammarNote": "**desayuno** is masculine: **el desayuno** · From **des-** (un-) + **ayuno** (fast) — 'breaking the fast,' just like English 'breakfast'\n**Desayuno** (I have breakfast) — the verb **desayunar** is also regular: desayuno, desayunas, desayuna…\n**a las siete** = at seven — times use **a la/las** (at one o'clock: **a la una**; other hours: **a las dos/tres**…)",
+      "englishPhrase": "I have breakfast at seven.",
+      "phrase": "Desayuno a las siete.",
+      "literal": [
+        [
+          "Desayuno",
+          "breakfast"
+        ],
+        [
+          "a",
+          "at"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "siete",
+          "seven"
+        ]
+      ]
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "word": "almuerzo",
+      "grammarNote": "**almuerzo** is masculine: **el almuerzo** · **almorzar** (to have lunch) is an o→ue stem-changing verb: **almuerzo, almuerzas, almuerza, almorzamos, almorzáis, almuerzan**\nIn Spain, **la comida** (the meal) typically refers to lunch — the main meal of the day, eaten around 2–3 pm",
+      "englishPhrase": "We have lunch at two.",
+      "phrase": "Almorzamos a las dos.",
+      "literal": [
+        [
+          "Almorzamos",
+          "lunch"
+        ],
+        [
+          "a",
+          "at"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "dos",
+          "two"
+        ]
+      ]
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "word": "cena",
+      "grammarNote": "**cena** is feminine: **la cena** · **cenar** = to have dinner (regular -ar verb)\n**está lista** — **estar** for the current state (readiness) and **lista** agrees feminine with **la cena**\nIn Spain dinner (**la cena**) is typically light and eaten late, around 9–10 pm",
+      "englishPhrase": "Dinner is ready.",
+      "phrase": "La cena está lista.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "cena",
+          "dinner"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "lista",
+          "ready"
+        ]
+      ]
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "word": "merienda",
+      "grammarNote": "**merienda** is feminine: **la merienda** · The mid-afternoon snack, typically around 5–6 pm — particularly important for children in Spain and Latin America\n**como una merienda** — here **como** = I eat (from **comer**), not 'like/as'\n**por la tarde** = in the afternoon — compare **por la mañana** (morning) / **por la noche** (evening)",
+      "englishPhrase": "I have a snack in the afternoon.",
+      "phrase": "Como una merienda por la tarde.",
+      "literal": [
+        [
+          "Como",
+          "eat"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "merienda",
+          "snack"
+        ],
+        [
+          "por",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "tarde",
+          "afternoon"
+        ]
+      ]
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "word": "comida",
+      "grammarNote": "**comida** is feminine: **la comida** · From **comer** (to eat) — literally 'what is eaten'\n**comida** has multiple meanings: food in general, a meal, or specifically lunch (in Spain)\n**Esta es una comida deliciosa** — note **deliciosa** agrees feminine with **comida**",
+      "englishPhrase": "This is a delicious meal.",
+      "phrase": "Esta es una comida deliciosa.",
+      "literal": [
+        [
+          "Esta",
+          "this"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "comida",
+          "meal"
+        ],
+        [
+          "deliciosa",
+          "delicious"
+        ]
+      ]
+    },
+    {
+      "id": "recipe",
+      "english": "recipe",
+      "word": "receta",
+      "grammarNote": "**receta** is feminine: **la receta** · Doubles as both 'recipe' and 'prescription' (medical) — context makes it clear\n**¿Tienes una buena receta?** — **buena** (feminine) agrees with **receta** · Adjectives that end in -o/-a change for gender: **bueno/buena**, **delicioso/deliciosa**",
+      "englishPhrase": "Do you have a good recipe?",
+      "phrase": "¿Tienes una buena receta?",
+      "literal": [
+        [
+          "Tienes",
+          "have"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "buena",
+          "good"
+        ],
+        [
+          "receta",
+          "recipe"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "word": "sabor",
+      "grammarNote": "**sabor** is masculine: **el sabor** · Related to **saber** (to know, but also 'to taste'): **saber a** = to taste like: **Sabe a chocolate** (It tastes like chocolate)\nBasic taste vocabulary: **dulce** (sweet), **amargo** (bitter), **ácido/agrio** (sour), **salado** (salty), **picante** (spicy), **umami** (umami)",
+      "englishPhrase": "What flavor do you want?",
+      "phrase": "¿Qué sabor quieres?",
+      "literal": [
+        [
+          "Qué",
+          "what"
+        ],
+        [
+          "sabor",
+          "flavor"
+        ],
+        [
+          "quieres",
+          "want"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "ingredient",
+      "english": "ingredient",
+      "word": "ingrediente",
+      "grammarNote": "**ingrediente** is masculine: **el ingrediente**, plural **los ingredientes** · Nouns ending in -nte are usually masculine\n**necesitas** is the tú form of **necesitar** (to need) — a regular -ar verb: necesito, necesitas, necesita, necesitamos, necesitáis, necesitan",
+      "englishPhrase": "What ingredients do you need?",
+      "phrase": "¿Qué ingredientes necesitas?",
+      "literal": [
+        [
+          "Qué",
+          "what"
+        ],
+        [
+          "ingredientes",
+          "ingredients"
+        ],
+        [
+          "necesitas",
+          "need"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "word": "menú",
+      "grammarNote": "**menú** is masculine: **el menú** · Written with an accent on the **ú** — borrowed from French **menu**\n**¿Puedo ver…?** = Can I see…? — **poder** (can/to be able) is an o→ue stem-changing verb: **puedo, puedes, puede, podemos, podéis, pueden**\nAlso common in restaurants: **la carta** = the menu (the physical card listing dishes)",
+      "englishPhrase": "Can I see the menu?",
+      "phrase": "¿Puedo ver el menú?",
+      "literal": [
+        [
+          "Puedo",
+          "can"
+        ],
+        [
+          "ver",
+          "see"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "menú",
+          "menu"
+        ]
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "word": "restaurante",
+      "grammarNote": "**restaurante** is masculine: **el restaurante** · From French **restaurant** ('restoring') — the original French restaurants advertised 'restorative broths'\n**está bien** uses **estar** for a current quality (how things are going) rather than **es bueno** (ser) which would state an inherent permanent characteristic",
+      "englishPhrase": "This restaurant is good.",
+      "phrase": "Este restaurante está bien.",
+      "literal": [
+        [
+          "Este",
+          "this"
+        ],
+        [
+          "restaurante",
+          "restaurant"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "bien",
+          "fine"
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "word": "cocina",
+      "grammarNote": "**cocina** is feminine: **la cocina** · **cocina** is a versatile word: it means 'kitchen' (the room), 'stove/cooker' (the appliance), and is also the él/ella/usted form of **cocinar** (to cook)\n**está limpia** — **estar** for condition; **limpia** (clean) agrees feminine with **cocina**",
+      "englishPhrase": "The kitchen is clean.",
+      "phrase": "La cocina está limpia."
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "word": "horno",
+      "grammarNote": "**horno** is masculine: **el horno** · **al horno** = baked/roasted (in the oven): **pollo al horno** (roast chicken), **papas al horno** (baked potatoes)\nFrom Latin **furnus** — the Spanish word underwent sound change f→h at the start of words (also: **farina** → **harina**, **filium** → **hijo**)",
+      "englishPhrase": "The oven is hot.",
+      "phrase": "El horno está caliente.",
+      "hidden": true
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "word": "estufa",
+      "grammarNote": "**estufa** is feminine: **la estufa** · In Latin America **estufa** = kitchen stove/cooker; in Spain the stove/hob is usually **la cocina** or **los fogones**\n**Cocínalo** is a command (tú imperative) with a direct object pronoun attached: **cocina + lo** (cook + it) — pronouns attach to the end of affirmative commands",
+      "englishPhrase": "Cook it on the stove.",
+      "phrase": "Cocínalo en la estufa.",
+      "literal": [
+        [
+          "Cocínalo",
+          "cook-it"
+        ],
+        [
+          "en",
+          "on"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "estufa",
+          "stove"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "knife",
+      "english": "knife",
+      "word": "cuchillo",
+      "grammarNote": "**cuchillo** is masculine: **el cuchillo** · Related to **cuchilla** (blade) and **cuchara** (spoon) — all from Latin **cochlearium** (ladle/spoon), which spawned a family of eating utensil words\n**afilado** (sharp) agrees masculine with **cuchillo** — feminine would be **afilada**",
+      "englishPhrase": "I need a sharp knife.",
+      "phrase": "Necesito un cuchillo afilado.",
+      "literal": [
+        [
+          "Necesito",
+          "need"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "cuchillo",
+          "knife"
+        ],
+        [
+          "afilado",
+          "sharp"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fork",
+      "english": "fork",
+      "word": "tenedor",
+      "grammarNote": "**tenedor** is masculine: **el tenedor** · From **tener** (to hold/have) — literally 'the holder'\n**¿Me da un tenedor?** uses the usted form **da** (gives) — polite register appropriate for asking a waiter\nCompare tú form: **¿Me das un tenedor?** (more informal)",
+      "englishPhrase": "Can I have a fork?",
+      "phrase": "¿Me da un tenedor?",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "da",
+          "give"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "tenedor",
+          "fork"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "word": "cuchara",
+      "grammarNote": "**cuchara** is feminine: **la cuchara** · Diminutive **cucharita** = teaspoon; **cucharada** = a spoonful (a common unit in recipes)\n**cucharón** (augmentative) = a large ladle/serving spoon — Spanish uses suffixes to indicate size: -ito/-ita (small), -ón/-ona (large)",
+      "englishPhrase": "I need a spoon.",
+      "phrase": "Necesito una cuchara.",
+      "literal": [
+        [
+          "Necesito",
+          "need"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "cuchara",
+          "spoon"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "word": "plato",
+      "grammarNote": "**plato** is masculine: **el plato** · **plato** also means 'dish' (a prepared food item): **el plato del día** (dish of the day), **un plato de pasta** (a plate of pasta)\n**está sucio** — **estar** for condition; **sucio** (dirty) agrees masculine with **plato**",
+      "englishPhrase": "The plate is dirty.",
+      "phrase": "El plato está sucio.",
+      "hidden": true
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "word": "tazón",
+      "grammarNote": "**tazón** is masculine: **el tazón** · Augmentative of **taza** (cup) — **-ón** suffix makes it bigger: **taza** (cup) → **tazón** (large cup / bowl)\n**Llena** is the tú imperative of **llenar** (to fill) — regular -ar verb imperative: llena, compra, habla…\n**Llena el tazón de sopa** — **de** here means 'with' (filled with)",
+      "englishPhrase": "Fill the bowl with soup.",
+      "phrase": "Llena el tazón de sopa.",
+      "literal": [
+        [
+          "Llena",
+          "fill"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "tazón",
+          "bowl"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "sopa",
+          "soup"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "glass",
+      "english": "glass",
+      "word": "vaso",
+      "grammarNote": "**vaso** is masculine: **el vaso** · **vaso** = everyday drinking glass; **copa** = stemmed glass (wine, champagne)\n**un vaso de agua** — the construction **un/una [container] de [contents]** is the standard way to order drinks: **un vaso de agua**, **una taza de café**, **una copa de vino**",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "Un vaso de agua, por favor.",
+      "hidden": true
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "word": "botella",
+      "grammarNote": "**botella** is feminine: **la botella** · From Old French **boteille** (bottle)\n**una botella de vino** — same [container] de [contents] pattern · Useful in restaurants: **una botella de agua mineral** (a bottle of mineral water), **con gas** (sparkling) or **sin gas** (still)",
+      "englishPhrase": "A bottle of wine, please.",
+      "phrase": "Una botella de vino, por favor.",
+      "hidden": true
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "word": "mesa",
+      "grammarNote": "**mesa** is feminine: **la mesa** · From Latin **mensa** (table, also altar)\n**Nuestra mesa está lista** — **nuestra** (our) is a possessive adjective agreeing feminine with **mesa**: nuestro/nuestra, vuestro/vuestra\n**está lista** — **lista** (ready) agrees feminine here; note **lista** also means 'list' and 'clever'",
+      "englishPhrase": "Our table is ready.",
+      "phrase": "Nuestra mesa está lista."
+    },
+    {
+      "id": "waiter",
+      "english": "waiter",
+      "word": "camarero",
+      "grammarNote": "**camarero** (masculine) / **camarera** (feminine) = waiter/waitress · Primarily used in Spain\nRegional alternatives: **mesero/mesera** (Mexico, Colombia), **mozo/moza** (Argentina, Peru), **garzón** (Chile)\n**la cuenta** (the bill/check) is feminine: remember to say **¿Me trae la cuenta?** (Can you bring me the bill?)",
+      "englishPhrase": "Waiter, the bill please.",
+      "phrase": "Camarero, la cuenta por favor."
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "word": "hambre",
+      "grammarNote": "Use **tener** (to have) for hunger, thirst, and other physical states:\n**tener hambre** (hungry) · **tener sed** (thirsty) · **tener frío/calor** (cold/hot) · **tener miedo** (afraid) · **tener sueño** (sleepy)\nThese are expressed with **tener**, not **estar**",
+      "englishPhrase": "I'm hungry. Are you thirsty?",
+      "phrase": "Tengo hambre. ¿Tienes sed?",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "hambre",
+          "hunger"
+        ],
+        [
+          "Tienes",
+          "have"
+        ],
+        [
+          "sed",
+          "thirst"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "thirsty",
+      "english": "thirsty",
+      "word": "sed",
+      "grammarNote": "**sed** (thirst) is feminine: **la sed** — though the article is rarely used in the **tener sed** construction\n**el hambre** and **la sed** are both feminine nouns used in the same pattern: **tener hambre/sed** (to be hungry/thirsty — literally 'to have hunger/thirst')\nNote the gender surprise: **el hambre** is actually feminine — it uses **el** only to avoid the vowel clash **la hambre → el hambre**",
+      "englishPhrase": "I'm thirsty.",
+      "phrase": "Tengo sed.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "sed",
+          "thirst"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "eat",
+      "english": "eat",
+      "word": "comer",
+      "grammarNote": "**comer** is a regular -er verb: **como, comes, come, comemos, coméis, comen**\n**¡Vamos a comer!** — **vamos a + infinitive** = let's [do something] (also functions as near future: 'we are going to eat')\n**comer** can be used as a noun with the article: **la comida** or informally **el comer**: **El comer sano es importante**",
+      "englishPhrase": "Let's eat!",
+      "phrase": "¡Vamos a comer!",
+      "literal": [
+        [
+          "Vamos",
+          "go"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "comer",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "beber",
+      "grammarNote": "**beber** is a regular -er verb: **bebo, bebes, bebe, bebemos, bebéis, beben**\nSynonym: **tomar** (to take/drink) — widely used for beverages: **tomar agua**, **tomar café**; **beber** is slightly more formal/literary\n**algo de beber** = something to drink — **algo de + infinitive** = something to [do]",
+      "englishPhrase": "Would you like something to drink?",
+      "phrase": "¿Quieres algo de beber?",
+      "literal": [
+        [
+          "Quieres",
+          "want"
+        ],
+        [
+          "algo",
+          "something"
+        ],
+        [
+          "de",
+          "to"
+        ],
+        [
+          "beber",
+          "drink"
+        ]
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "word": "cocinar",
+      "grammarNote": "**cocinar** is a regular -ar verb: **cocino, cocinas, cocina, cocinamos, cocináis, cocinan**\nThe person who cooks is **el/la cocinero/a** (cook/chef); a more skilled chef: **el/la chef** (borrowed from French)\n**cocina muy bien** — adverbs like **bien** (well) and **mal** (badly) don't change form",
+      "englishPhrase": "She cooks very well.",
+      "phrase": "Ella cocina muy bien."
+    },
+    {
+      "id": "bake",
+      "english": "bake",
+      "word": "hornear",
+      "grammarNote": "**hornear** (to bake) comes from **horno** (oven) — a regular -ar verb\nAlternative: **cocer al horno** (to cook in the oven) is also common\n**los domingos** = on Sundays (every Sunday) — using the plural definite article with a day of the week expresses habitual action",
+      "englishPhrase": "I bake bread on Sundays.",
+      "phrase": "Horneo pan los domingos.",
+      "literal": [
+        [
+          "Horneo",
+          "bake"
+        ],
+        [
+          "pan",
+          "bread"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "domingos",
+          "Sundays"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fry",
+      "english": "fry",
+      "word": "freír",
+      "grammarNote": "**freír** is an e→i stem-changing verb (like **pedir**): **frío, fríes, fríe, freímos, freís, fríen**\nNote the written accent on **fríe** (command/present) to distinguish it from **frie** (uncommon)\n**sofreír** = to sauté (lightly fry) — a useful cooking verb",
+      "englishPhrase": "Fry the onions in oil.",
+      "phrase": "Fríe las cebollas en aceite.",
+      "literal": [
+        [
+          "Fríe",
+          "fry"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "cebollas",
+          "onions"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "aceite",
+          "oil"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "roast",
+      "english": "roast",
+      "word": "asar",
+      "grammarNote": "**asar** is a regular -ar verb meaning to roast or grill over fire\n**Asa el pollo** — **asa** is the tú imperative form\n**durante** = for (a duration of time): **durante una hora** (for one hour) — use **durante** for duration, not **por** when timing a cooking step",
+      "englishPhrase": "Roast the chicken for one hour.",
+      "phrase": "Asa el pollo durante una hora.",
+      "literal": [
+        [
+          "Asa",
+          "roast"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pollo",
+          "chicken"
+        ],
+        [
+          "durante",
+          "during"
+        ],
+        [
+          "una",
+          "an"
+        ],
+        [
+          "hora",
+          "hour"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chop",
+      "english": "chop",
+      "word": "picar",
+      "grammarNote": "**picar** means to chop, mince, or dice — and also 'to sting/bite' and 'to be spicy'\n**picar** is a regular -ar verb but has a spelling change in the preterite yo form: **piqué** (not picé) — c→qu before e to preserve the hard /k/ sound\n**Pica las cebollas** — **pica** is the tú imperative",
+      "englishPhrase": "Chop the onions.",
+      "phrase": "Pica las cebollas.",
+      "literal": [
+        [
+          "Pica",
+          "chop"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "cebollas",
+          "onions"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "word": "rebanar",
+      "grammarNote": "**rebanar** (to slice) is a regular -ar verb · From **rebana** (a slice of bread)\nAlternatives: **cortar** (to cut, more general), **laminar** (to slice thinly)\n**Rebana el pan** — **rebana** is the tú imperative of a regular -ar verb",
+      "englishPhrase": "Slice the bread.",
+      "phrase": "Rebana el pan.",
+      "literal": [
+        [
+          "Rebana",
+          "slice"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pan",
+          "bread"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "mix",
+      "english": "mix",
+      "word": "mezclar",
+      "grammarNote": "**mezclar** is a regular -ar verb · **mezcla** = the mix/mixture (noun, feminine)\n**Mezcla todos los ingredientes** — **mezcla** is both the tú imperative and the él/ella present tense form (context distinguishes them)\n**todos los ingredientes** — **todos** (all/every, masculine plural) agrees with the masculine plural **ingredientes**",
+      "englishPhrase": "Mix all the ingredients.",
+      "phrase": "Mezcla todos los ingredientes.",
+      "literal": [
+        [
+          "Mezcla",
+          "mix"
+        ],
+        [
+          "todos",
+          "all"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "ingredientes",
+          "ingredients"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stir",
+      "english": "stir",
+      "word": "revolver",
+      "grammarNote": "**revolver** is an o→ue stem-changing verb: **revuelvo, revuelves, revuelve, revolvemos, revolvéis, revuelven**\nNote: **revolver** also means 'to rummage through' or refers to the firearm (revólver) — an accent on the noun distinguishes them\n**Revuelve la sopa** — **revuelve** is both the tú imperative and the él/ella form",
+      "englishPhrase": "Stir the soup.",
+      "phrase": "Revuelve la sopa.",
+      "literal": [
+        [
+          "Revuelve",
+          "stir"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "sopa",
+          "soup"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "whisk",
+      "english": "whisk",
+      "word": "batir",
+      "grammarNote": "**batir** is a regular -ir verb: **bato, bates, bate, batimos, batís, baten**\n**batir** also means to beat, to whip, and to defeat — the same word covers whisking eggs, whipping cream, and beating an opponent\n**Bate los huevos** — **bate** is the tú imperative of **batir**",
+      "englishPhrase": "Whisk the eggs.",
+      "phrase": "Bate los huevos.",
+      "literal": [
+        [
+          "Bate",
+          "whisk"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "huevos",
+          "eggs"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "pour",
+      "english": "pour",
+      "word": "verter",
+      "grammarNote": "**verter** is an e→ie stem-changing verb: **vierto, viertes, vierte, vertemos, vertéis, vierten**\nAlternative: **echar** is the everyday word for pouring/adding liquids in cooking: **échale agua** (pour in some water)\n**Vierte el agua en el vaso** — note **el agua** (feminine noun with masculine article for vowel harmony)",
+      "englishPhrase": "Pour the water into the glass.",
+      "phrase": "Vierte el agua en el vaso.",
+      "literal": [
+        [
+          "Vierte",
+          "pour"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "agua",
+          "water"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "vaso",
+          "glass"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "serve",
+      "english": "serve",
+      "word": "servir",
+      "grammarNote": "**servir** is an e→i stem-changing verb (same pattern as **pedir**): **sirvo, sirves, sirve, servimos, servís, sirven**\n**sirvió** is the él/ella preterite (past) form — note the e→i stem change carries into the preterite for -ir verbs: sirvió, sirvieron\n**servir** also means 'to be useful': **¿Para qué sirve?** (What is it good for?)",
+      "englishPhrase": "The waiter served the food.",
+      "phrase": "El camarero sirvió la comida.",
+      "hidden": true
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "word": "alimentar",
+      "grammarNote": "**alimentar** is a regular -ar verb · Related noun: **el alimento** (food/nourishment), **la alimentación** (diet/nutrition)\n**alimenta al bebé** — the **a** before **bebé** is the 'personal a' required before specific human direct objects: **Veo al médico** (I see the doctor), **Llamo a mi madre** (I call my mother)\n**al** = **a + el** (mandatory contraction)",
+      "englishPhrase": "She feeds the baby.",
+      "phrase": "Ella alimenta al bebé.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "alimenta",
+          "feeds"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "bebé",
+          "baby"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "dine",
+      "english": "dine",
+      "word": "cenar",
+      "grammarNote": "**cenar** is a regular -ar verb · **Cenamos** is both the present tense (we dine) and the preterite (we dined) — context determines tense\nHere it is preterite: **Cenamos** = we dined · The nosotros present and preterite of -ar verbs are identical: **hablamos** = we speak / we spoke\n**restaurante agradable** — adjective **agradable** (pleasant) doesn't change for gender (same ending for masculine and feminine)",
+      "englishPhrase": "We dined at a nice restaurant.",
+      "phrase": "Cenamos en un restaurante agradable.",
+      "literal": [
+        [
+          "Cenamos",
+          "dined"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "restaurante",
+          "restaurant"
+        ],
+        [
+          "agradable",
+          "pleasant"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chew",
+      "english": "chew",
+      "word": "masticar",
+      "grammarNote": "**masticar** is a regular -ar verb with a spelling change in the preterite yo form: **mastiqué** (c→qu before e)\n**Mastica la comida despacio** — **mastica** is the tú imperative\n**despacio** (slowly) is an adverb — adverbs are invariable (no gender/number agreement): mastica despacio, come despacio",
+      "englishPhrase": "Chew your food slowly.",
+      "phrase": "Mastica la comida despacio.",
+      "literal": [
+        [
+          "Mastica",
+          "chew"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "comida",
+          "food"
+        ],
+        [
+          "despacio",
+          "slowly"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "swallow",
+      "english": "swallow",
+      "word": "tragar",
+      "grammarNote": "**tragar** is a regular -ar verb with a spelling change in the preterite yo form: **tragué** (g→gu before e)\n**Traga la pastilla** — **traga** is the tú imperative\n**pastilla** is feminine: **la pastilla** · Note **agua** in the phrase: **el agua** (feminine noun, masculine article) — see the 'water' card",
+      "englishPhrase": "Swallow the pill with water.",
+      "phrase": "Traga la pastilla con agua.",
+      "literal": [
+        [
+          "Traga",
+          "swallow"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "pastilla",
+          "pill"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "agua",
+          "water"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "season",
+      "english": "season",
+      "word": "sazonar",
+      "grammarNote": "**sazonar** is a regular -ar verb · Related: **el sazón** (seasoning/flavor), **la sazón** in the Caribbean means 'the knack for cooking' or a spice blend\n**Sazona con sal y pimienta** — **sazona** is the tú imperative\n**y** (and) becomes **e** before words starting with i- or hi-: **sal e hierbas** (salt and herbs)",
+      "englishPhrase": "Season with salt and pepper.",
+      "phrase": "Sazona con sal y pimienta.",
+      "literal": [
+        [
+          "Sazona",
+          "season"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "sal",
+          "salt"
+        ],
+        [
+          "y",
+          "and"
+        ],
+        [
+          "pimienta",
+          "pepper"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "word": "fresco",
+      "grammarNote": "**fresco** is an adjective that changes for gender and number: **fresco** (m. sg.), **fresca** (f. sg.), **frescos** (m. pl.), **frescas** (f. pl.)\n**El pan está fresco** — **estar** for current condition (freshness is temporary)\n**fresco** also means 'cool' (weather): **Está fresco afuera** (It's cool outside)",
+      "englishPhrase": "The bread is fresh.",
+      "phrase": "El pan está fresco."
+    },
+    {
+      "id": "ripe",
+      "english": "ripe",
+      "word": "maduro",
+      "grammarNote": "**maduro** (ripe) changes for gender and number: **maduro/madura/maduros/maduras**\n**maduro** also means 'mature' for people: **una persona madura** (a mature person)\n**Los tomates están maduros** — **estar** because ripeness is a temporary condition",
+      "englishPhrase": "The tomatoes are ripe.",
+      "phrase": "Los tomates están maduros.",
+      "hidden": true
+    },
+    {
+      "id": "cooked",
+      "english": "cooked",
+      "word": "cocido",
+      "grammarNote": "**cocido** is the past participle of **cocer** (to cook/boil), used here as an adjective\nAs an adjective it must agree: **cocido/cocida/cocidos/cocidas** — here **cocido** agrees masculine with **el pollo**\n**¿Está cocido el pollo?** — **estar** for the current state; the subject (**el pollo**) comes after the verb (common in questions and when adding emphasis)",
+      "englishPhrase": "Is the chicken cooked?",
+      "phrase": "¿Está cocido el pollo?",
+      "literal": [
+        [
+          "Está",
+          "is"
+        ],
+        [
+          "cocido",
+          "cooked"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pollo",
+          "chicken"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "word": "caliente",
+      "grammarNote": "Use **estar** for food and drink temperatures — they are temporary states\n**La sopa está caliente** · **El café está frío**\nCompare with **ser** for inherent qualities: **El chile es picante** (chili is always spicy)",
+      "englishPhrase": "Be careful, the soup is hot.",
+      "phrase": "Cuidado, la sopa está caliente.",
+      "literal": [
+        [
+          "Cuidado",
+          "careful"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "sopa",
+          "soup"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "caliente",
+          "hot"
+        ]
+      ]
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "word": "frío",
+      "grammarNote": "**frío** (cold) changes for gender: **frío/fría/fríos/frías**\n**Mi café está frío** — **estar** for the temporary condition of being cold\n**frío** is also the noun: **el frío** (the cold); **tener frío** = to be cold (of a person): **Tengo frío** (I'm cold) — same **tener** pattern as hunger and thirst",
+      "englishPhrase": "My coffee is cold.",
+      "phrase": "Mi café está frío."
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "word": "dulce",
+      "grammarNote": "**dulce** doesn't change for gender (same ending for masculine and feminine): **el café dulce**, **la limonada dulce**\n**Este pastel está muy dulce** — **estar** for the current subjective taste experience\n**dulce** is also a noun: **el dulce** = candy/sweet treat, especially in Mexico and Central America · **los dulces** = candies",
+      "englishPhrase": "This cake is very sweet.",
+      "phrase": "Este pastel está muy dulce."
+    },
+    {
+      "id": "sour",
+      "english": "sour",
+      "word": "agrio",
+      "grammarNote": "**agrio** (sour) changes for gender: **agrio/agria** · Also common: **ácido/ácida** (acidic/sour)\n**Este limón está agrio** — **estar** for the current taste condition\nNote: **limón** in Latin America usually means lime (the small green citrus); **limón amarillo** or **lima** may be used for the yellow lemon",
+      "englishPhrase": "This lemon is sour.",
+      "phrase": "Este limón está agrio."
+    },
+    {
+      "id": "bitter",
+      "english": "bitter",
+      "word": "amargo",
+      "grammarNote": "**amargo** (bitter) changes for gender: **amargo/amarga/amargos/amargas**\n**Este café está amargo** — **estar** for taste as a current condition\n**amargo** is also used figuratively: **una experiencia amarga** (a bitter experience), **palabras amargas** (bitter words)",
+      "englishPhrase": "This coffee is bitter.",
+      "phrase": "Este café está amargo.",
+      "hidden": true
+    },
+    {
+      "id": "spicy",
+      "english": "spicy",
+      "word": "picante",
+      "grammarNote": "**picante** doesn't change for gender: **el chile picante**, **la salsa picante**\n**suele ser picante** — **soler + infinitive** means 'to usually do' (habitual action): **suelo comer** (I usually eat)\n**ser** (not **estar**) because spiciness is an inherent characteristic of Mexican food — compare with **La sopa está caliente** (temporary state) vs **El chile es picante** (permanent trait)",
+      "englishPhrase": "Mexican food is often spicy.",
+      "phrase": "La comida mexicana suele ser picante.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "comida",
+          "food"
+        ],
+        [
+          "mexicana",
+          "Mexican"
+        ],
+        [
+          "suele",
+          "tends"
+        ],
+        [
+          "ser",
+          "to-be"
+        ],
+        [
+          "picante",
+          "spicy"
+        ]
+      ]
+    },
+    {
+      "id": "tender",
+      "english": "tender",
+      "word": "tierno",
+      "grammarNote": "**tierno** (tender) changes for gender: **tierno/tierna/tiernos/tiernas**\n**La carne está tierna** — **estar** for the current condition of the meat after cooking\n**tierno** also means 'young/fresh' (for bread, cheese) and 'tender/affectionate' for people: **un niño tierno** (a sweet/tender child)",
+      "englishPhrase": "The meat is tender.",
+      "phrase": "La carne está tierna.",
+      "hidden": true
+    },
+    {
+      "id": "delicious",
+      "english": "delicious",
+      "word": "delicioso",
+      "grammarNote": "**delicioso** changes for gender: **delicioso/deliciosa/deliciosos/deliciosas**\n**¡Esto está delicioso!** — **esto** (this) is a neuter demonstrative used when the item hasn't been specified or is abstract · **está** (not **es**) because deliciousness is a subjective sensory experience\nAlternatives for 'delicious': **riquísimo** (super tasty), **buenísimo** (really good), **¡qué rico!** (how tasty!)",
+      "englishPhrase": "This is delicious!",
+      "phrase": "¡Esto está delicioso!"
+    },
+    {
+      "id": "tasty",
+      "english": "tasty",
+      "word": "sabroso",
+      "grammarNote": "**sabroso** (tasty) changes for gender: **sabroso/sabrosa** · From **sabor** (flavor)\n**La sopa está muy sabrosa** — **sabrosa** agrees feminine with **sopa**; **estar** for the subjective taste quality\nSynonyms: **rico/rica** (common in everyday speech: **¡Qué rico!**), **bueno/buena** (**¡Está buenísimo!**)",
+      "englishPhrase": "The soup is very tasty.",
+      "phrase": "La sopa está muy sabrosa.",
+      "hidden": true
+    },
+    {
+      "id": "bland",
+      "english": "bland",
+      "word": "soso",
+      "grammarNote": "**soso** (bland/tasteless) changes for gender: **soso/sosa**\n**El arroz está soso** — **estar** for the current condition; **soso** agrees masculine with **arroz**\n**soso** also means 'dull/boring' for people or situations: **una persona sosa** (a boring person) · Antonym: **sabroso** (tasty), **sazonado** (well-seasoned)",
+      "englishPhrase": "The rice is bland.",
+      "phrase": "El arroz está soso.",
+      "hidden": true
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "word": "saludable",
+      "grammarNote": "**saludable** doesn't change for gender: **el desayuno saludable**, **la comida saludable**\n**La fruta es saludable** — **ser** (not estar) because healthiness is an inherent characteristic, not a temporary state\nRelated words: **la salud** (health), **sano/sana** (healthy, as an adjective for people and food — more colloquial than **saludable**)",
+      "englishPhrase": "Fruit is healthy.",
+      "phrase": "La fruta es saludable.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "fruta",
+          "fruit"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "saludable",
+          "healthy"
+        ]
+      ]
+    },
+    {
+      "id": "unhealthy",
+      "english": "unhealthy",
+      "word": "insalubre",
+      "grammarNote": "**insalubre** doesn't change for gender: **el hábito insalubre**, **la comida insalubre**\n**La comida rápida es insalubre** — **ser** because unhealthiness is an inherent trait of fast food\nMore common in everyday speech: **no es sano/a** or **es malo/a para la salud** (it's bad for health)\n**comida rápida** = fast food — a calque (loan translation) of the English term",
+      "englishPhrase": "Fast food is unhealthy.",
+      "phrase": "La comida rápida es insalubre.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "comida",
+          "food"
+        ],
+        [
+          "rápida",
+          "fast"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "insalubre",
+          "unhealthy"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegetarian",
+      "english": "vegetarian",
+      "word": "vegetariano",
+      "grammarNote": "**vegetariano/vegetariana** — the adjective agrees with the person: a woman says **Soy vegetariana**\n**Soy** (I am, from **ser**) is used for identity and defining characteristics — being vegetarian is a permanent choice/identity, so **ser** is correct\nNote: **¿Hay opciones vegetarianas?** (Are there vegetarian options?) — useful restaurant phrase",
+      "englishPhrase": "I am vegetarian.",
+      "phrase": "Soy vegetariano.",
+      "literal": [
+        [
+          "Soy",
+          "am"
+        ],
+        [
+          "vegetariano",
+          "vegetarian"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegan",
+      "english": "vegan",
+      "word": "vegano",
+      "grammarNote": "**vegano/vegana** agrees with the person: **Ella es vegana** (she is vegan)\n**Soy vegano/vegana** uses **ser** for identity — same pattern as **vegetariano**\nUseful phrases: **sin lácteos** (dairy-free), **sin huevo** (egg-free), **sin productos animales** (no animal products)",
+      "englishPhrase": "She is vegan.",
+      "phrase": "Ella es vegana.",
+      "hidden": true
+    },
+    {
+      "id": "frozen",
+      "english": "frozen",
+      "word": "congelado",
+      "grammarNote": "**congelado** is the past participle of **congelar** (to freeze), used here as an adjective\nIt agrees: **congelado/congelada/congelados/congeladas** — here **congelada** agrees feminine with **comida**\n**Saca** is the tú imperative of **sacar** (to take out) — spelling change in preterite: **saqué** (c→qu before e)",
+      "englishPhrase": "Take the frozen food out.",
+      "phrase": "Saca la comida congelada.",
+      "literal": [
+        [
+          "Saca",
+          "take-out"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "comida",
+          "food"
+        ],
+        [
+          "congelada",
+          "frozen"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "organic",
+      "english": "organic",
+      "word": "orgánico",
+      "grammarNote": "**orgánico** changes for gender: **orgánico/orgánica/orgánicos/orgánicas** — here **orgánicas** agrees feminine plural with **verduras**\n**Prefiero** is the yo form of **preferir** (to prefer) — an e→ie stem-changing verb: **prefiero, prefieres, prefiere, preferimos, preferís, prefieren**\nIn Latin America the term **ecológico/a** (organic/ecological) is also widely used",
+      "englishPhrase": "I prefer organic vegetables.",
+      "phrase": "Prefiero las verduras orgánicas.",
+      "literal": [
+        [
+          "Prefiero",
+          "prefer"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "verduras",
+          "vegetables"
+        ],
+        [
+          "orgánicas",
+          "organic"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "homemade",
+      "english": "homemade",
+      "word": "casero",
+      "grammarNote": "**casero** (homemade/homestyle) comes from **casa** (house) — literally 'house-made'\nIt changes for gender: **casero/casera/caseros/caseras** — here **casero** agrees masculine with **pan**\n**Me encanta** = I love it — **encantar** (to love/enchant) works like **gustar**: singular subject → **encanta**, plural → **encantan**: **me encantan las galletas caseras**",
+      "englishPhrase": "I love homemade bread.",
+      "phrase": "Me encanta el pan casero.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "encanta",
+          "enchants"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pan",
+          "bread"
+        ],
+        [
+          "casero",
+          "homemade"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "daily",
+      "english": "daily",
+      "word": "diario",
+      "grammarNote": "**diario** (daily) can be an adjective or adverb · As an adjective it changes for gender: **el periódico diario** (the daily newspaper)\n**a diario** = daily/on a daily basis — a fixed adverbial phrase\nNote the difference: **todos los días** (every day — more common in speech) vs **a diario** (daily — slightly more formal)",
+      "englishPhrase": "I eat fruit daily.",
+      "phrase": "Como fruta a diario.",
+      "literal": [
+        [
+          "Como",
+          "eat"
+        ],
+        [
+          "fruta",
+          "fruit"
+        ],
+        [
+          "a",
+          "at"
+        ],
+        [
+          "diario",
+          "daily"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "almost",
+      "english": "almost",
+      "word": "casi",
+      "grammarNote": "**casi** is an invariable adverb (no gender/number change)\n**El almuerzo está casi listo** — **listo** (ready) agrees masculine with **almuerzo** here; note **listo** also means 'clever' when used with **ser**: **Eres muy listo** (You're very clever)\n**casi** + number expressions: **casi las dos** (almost two o'clock), **casi un kilo** (almost a kilo)",
+      "englishPhrase": "Lunch is almost ready.",
+      "phrase": "El almuerzo está casi listo.",
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "almuerzo",
+          "lunch"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "casi",
+          "almost"
+        ],
+        [
+          "listo",
+          "ready"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "too_too_much",
+      "english": "too (too much)",
+      "word": "demasiado",
+      "grammarNote": "**demasiado** agrees in gender and number when used as an adjective before a noun\n**demasiada sal** (too much salt) — feminine to match **sal** (feminine)\nAs an adverb before adjectives/other adverbs it is invariable: **demasiado picante** (too spicy), **demasiado rápido** (too fast)\n**Hay** = there is/there are — invariable form of **haber** used to state existence",
+      "englishPhrase": "There is too much salt.",
+      "phrase": "Hay demasiada sal.",
+      "literal": [
+        [
+          "Hay",
+          "there-is"
+        ],
+        [
+          "demasiada",
+          "too-much"
+        ],
+        [
+          "sal",
+          "salt"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}

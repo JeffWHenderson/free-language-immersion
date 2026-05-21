@@ -1,0 +1,77 @@
+{
+  "id": "shopping_trip",
+  "name": "Shopping Trip",
+  "difficulty": "easy",
+  "sentences": [
+    {
+      "base_language": "I want to go to the market to buy some things.",
+      "target_language": "我想去市场买一些东西。",
+      "romanized": "Wǒ xiǎng qù shìchǎng mǎi yīxiē dōngxi.",
+      "literal": [["我", "I"], ["想", "want"], ["去", "go"], ["市场", "market"], ["买", "buy"], ["一些", "some"], ["东西。", "things."]],
+      "grammarNote": "**买** (mǎi) = to buy. Notice the sentence structure: subject + 想 + go to place + do action. Chinese places the destination before the action, unlike English word order."
+    },
+    {
+      "base_language": "Excuse me, how much is this jacket?",
+      "target_language": "不好意思，这件夹克多少钱？",
+      "romanized": "Bù hǎo yìsi, zhè jiàn jiākè duōshǎo qián?",
+      "literal": [["不好意思，", "Excuse-me,"], ["这", "this"], ["件", "[measure]"], ["夹克", "jacket"], ["多少钱？", "how-much money?"]],
+      "grammarNote": "**件** (jiàn) is the measure word for clothing items like jackets, shirts, and coats. Chinese requires a measure word between a demonstrative (这/那) or number and the noun."
+    },
+    {
+      "base_language": "It's three hundred and eighty yuan.",
+      "target_language": "三百八十块钱。",
+      "romanized": "Sān bǎi bāshí kuài qián.",
+      "literal": [["三百八十", "Three hundred eighty"], ["块", "[measure]"], ["钱。", "money."]],
+      "grammarNote": "**块** (kuài) is the colloquial measure word for yuan (the basic Chinese currency unit). Formal: **元** (yuán). In speech, 三百八十块 can shorten to 三百八 — the final unit is often dropped when context is clear. **钱** (qián) = money."
+    },
+    {
+      "base_language": "That's a bit expensive. Can you give me a discount?",
+      "target_language": "有点贵。可以便宜一点吗？",
+      "romanized": "Yǒudiǎn guì. Kěyǐ piányí yīdiǎn ma?",
+      "literal": [["有点", "A-little"], ["贵。", "expensive."], ["可以", "Can"], ["便宜", "cheap"], ["一点", "a-little"], ["吗？", "?"]],
+      "grammarNote": "**便宜** (piányí) = cheap / inexpensive.\n**可以...吗** is a polite way to ask for permission or make a request: 'Is it possible to...?' It's softer than 你能...吗."
+    },
+    {
+      "base_language": "The best I can do is three hundred and fifty.",
+      "target_language": "最低三百五十块，不能再少了。",
+      "romanized": "Zuì dī sān bǎi wǔshí kuài, bù néng zài shǎo le.",
+      "literal": [["最低", "Lowest"], ["三百五十", "three hundred fifty"], ["块，", "[measure],"], ["不能", "cannot"], ["再", "again"], ["少了。", "less [now]."]],
+      "grammarNote": "**再...了** expresses 'any more' or 'further': 不能再少了 = can't go any lower. **再** before a verb or adjective emphasizes that something can't continue further."
+    },
+    {
+      "base_language": "Okay, I'll take it. I also need two pairs of socks.",
+      "target_language": "好吧，我买了。我还需要两双袜子。",
+      "romanized": "Hǎo ba, wǒ mǎi le. Wǒ hái xūyào liǎng shuāng wàzi.",
+      "literal": [["好吧，", "Okay [acceptance],"], ["我", "I"], ["买了。", "buy [completed]."], ["我", "I"], ["还", "also"], ["需要", "need"], ["两双", "two pairs"], ["袜子。", "socks."]],
+      "grammarNote": "**双** (shuāng) is the measure word for things that come in pairs: socks, shoes, chopsticks, gloves.\n**双** vs **件** (piece of clothing) vs **条** (pants, scarves, rivers) — each noun takes its own measure word."
+    },
+    {
+      "base_language": "Will you pay with cash or mobile pay?",
+      "target_language": "你用现金还是手机支付？",
+      "romanized": "Nǐ yòng xiànjīn háishì shǒujī zhīfù?",
+      "literal": [["你", "You"], ["用", "use"], ["现金", "cash"], ["还是", "or"], ["手机", "mobile"], ["支付？", "payment?"]],
+      "grammarNote": "**还是** (háishì) = or — used in choice questions between two options: A还是B? Compare **或者** (huòzhě) = or (used in statements). **现金** (xiànjīn) = cash: **现** (present/current) + **金** (gold/money). **手机支付** (shǒujī zhīfù) = mobile payment — ubiquitous in China via WeChat Pay and Alipay."
+    },
+    {
+      "base_language": "I'll use WeChat Pay.",
+      "target_language": "我用微信支付。",
+      "romanized": "Wǒ yòng Wēixìn zhīfù.",
+      "literal": [["我", "I"], ["用", "use"], ["微信", "WeChat"], ["支付。", "pay."]],
+      "grammarNote": "**微信** (Wēixìn) = WeChat: **微** (wēi, micro/tiny) + **信** (xìn, message). **支付** (zhīfù) = to pay: **支** (branch out/disburse) + **付** (pay). WeChat Pay (微信支付) and Alipay (支付宝) dominate cashless payments in China — more common than credit cards."
+    },
+    {
+      "base_language": "Here's your receipt. Thank you for shopping!",
+      "target_language": "这是您的收据。谢谢惠顾！",
+      "romanized": "Zhè shì nín de shōujù. Xièxie huìgù!",
+      "literal": [["这", "This"], ["是", "is"], ["您的", "your [formal]"], ["收据。", "receipt."], ["谢谢", "Thank-you"], ["惠顾！", "for-patronizing!"]],
+      "grammarNote": "**您** (nín) is the formal, respectful form of 你. Shopkeepers and service workers use 您 with customers as a courtesy.\n**谢谢惠顾** is a set phrase meaning 'thank you for your patronage.'"
+    },
+    {
+      "base_language": "Thanks! I'll come again next time.",
+      "target_language": "谢谢！下次再来。",
+      "romanized": "Xièxie! Xià cì zài lái.",
+      "literal": [["谢谢！", "Thank-you!"], ["下次", "Next time"], ["再", "again"], ["来。", "come."]],
+      "grammarNote": "**下次** (xià cì) = next time: **下** (next/below) + **次** (time/occurrence). **再** (zài) = again — used for future repeated actions (再来 = come again). Compare **又** (yòu) = again, which is used for past repeated actions (又来了 = came again)."
+    }
+  ]
+}

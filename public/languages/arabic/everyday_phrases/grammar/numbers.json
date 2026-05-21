@@ -1,0 +1,88 @@
+{
+  "id": "numbers",
+  "name": "Numbers & Counting",
+  "language": "arabic",
+  "cards": [
+    {
+      "id": "zero_to_five",
+      "front": "Count from zero to five in Arabic.",
+      "back": "صفر، واحد، اثنان، ثلاثة، أربعة، خمسة",
+      "romanized": "sifr, wāḥid, ithnān, thalātha, arbaʿa, khamsa.",
+      "grammarNote": "These are the cardinal numbers. 1 and 2 agree in gender with the noun they count. 3–10 use the opposite gender — that rule starts with ثلاثة/ثلاث."
+    },
+    {
+      "id": "six_to_ten",
+      "front": "Count from six to ten in Arabic.",
+      "back": "ستة، سبعة، ثمانية، تسعة، عشرة",
+      "romanized": "sitta, sabʿa, thamāniya, tisʿa, ʿashara."
+    },
+    {
+      "id": "gender_reversal_rule",
+      "front": "What is the gender reversal rule for Arabic numbers 3–10?",
+      "back": "Numbers 3–10 use the OPPOSITE gender of the noun they count.",
+      "grammarNote": "Masculine noun → feminine number (with ة). Feminine noun → masculine number (without ة). Example: ثلاثة كتب (three books, masc. noun → fem. number) vs. ثلاث بنات (three girls, fem. noun → masc. number)."
+    },
+    {
+      "id": "three_books",
+      "front": "Three books (كتاب is masculine)",
+      "back": "ثلاثة كتب",
+      "romanized": "thalātha kutub.",
+      "grammarNote": "كتاب (kitāb = book) is masculine, so the number takes the feminine form ثلاثة (with ة). The counted noun appears in the plural: كتب (kutub)."
+    },
+    {
+      "id": "three_girls",
+      "front": "Three girls (بنت is feminine)",
+      "back": "ثلاث بنات",
+      "romanized": "thalāth banāt.",
+      "grammarNote": "بنت (bint = girl) is feminine, so the number takes the masculine form ثلاث (without ة). The counted noun is plural: بنات (banāt)."
+    },
+    {
+      "id": "five_friends",
+      "front": "I have five friends.",
+      "back": "عندي خمسة أصدقاء.",
+      "romanized": "ʿindī khamsa aṣdiqāʾ.",
+      "grammarNote": "أصدقاء (aṣdiqāʾ = friends) is masculine plural, so the number is feminine: خمسة (khamsa, with ة)."
+    },
+    {
+      "id": "twenty_one",
+      "front": "Twenty-one",
+      "back": "واحد وعشرون",
+      "romanized": "wāḥid wa-ʿishrūn.",
+      "grammarNote": "Compound numbers above 20 put the unit first: واحد وعشرون = 'one and twenty' = 21. The و (wa = and) connects them."
+    },
+    {
+      "id": "hundred_thousand",
+      "front": "One hundred / One thousand",
+      "back": "مئة / ألف",
+      "romanized": "miʾa / alf.",
+      "grammarNote": "مئة (miʾa) = 100. ألف (alf) = 1000. To say 200: مئتان (miʾatān, dual form). To say 2000: ألفان (alfān)."
+    },
+    {
+      "id": "what_time_is_it",
+      "front": "It is 2 o'clock.",
+      "back": "الساعة الثانية.",
+      "romanized": "al-sāʿa al-thāniya.",
+      "grammarNote": "Time uses ordinal numbers: الثانية (the second), الثالثة (the third), etc. الساعة (al-sāʿa) = the clock/hour. No verb needed — this is an equational sentence."
+    },
+    {
+      "id": "three_thirty",
+      "front": "3:30 (three-thirty)",
+      "back": "الساعة الثالثة والنصف",
+      "romanized": "al-sāʿa al-thālitha wa-n-niṣf.",
+      "grammarNote": "النصف (al-niṣf) = the half. الربع (al-rubʿ) = the quarter. So: الثالثة والربع = 3:15 (three and a quarter)."
+    },
+    {
+      "id": "store_opens_at_nine",
+      "front": "The store opens at 9 o'clock.",
+      "back": "المتجر يفتح الساعة التاسعة.",
+      "romanized": "al-matjar yaftaḥ al-sāʿa al-tāsiʿa."
+    },
+    {
+      "id": "three_tickets",
+      "front": "I want three tickets, please.",
+      "back": "أريد ثلاث تذاكر من فضلك.",
+      "romanized": "urīd thalāth tadhākir min faḍlak.",
+      "grammarNote": "تذاكر (tadhākir = tickets) is feminine, so the number is masculine: ثلاث (thalāth, without ة)."
+    }
+  ]
+}
