@@ -1,0 +1,109 @@
+{
+  "id": "articles",
+  "name": "Articles — le, la, les, un, une",
+  "language": "french",
+  "cards": [
+    {
+      "id": "le",
+      "front": "the (masculine singular)",
+      "back": "le",
+      "grammarNote": "Used before masculine singular nouns: le café, le livre, le pain. Contracts with à → au and with de → du."
+    },
+    {
+      "id": "la",
+      "front": "the (feminine singular)",
+      "back": "la",
+      "grammarNote": "Used before feminine singular nouns: la table, la maison, la ville. No contraction with à or de."
+    },
+    {
+      "id": "l_elision",
+      "front": "the (before a vowel or mute h)",
+      "back": "l'",
+      "grammarNote": "le and la both shorten to l' before a vowel or mute h: l'eau, l'ami, l'hôtel, l'amie. This is called elision."
+    },
+    {
+      "id": "les",
+      "front": "the (plural, all genders)",
+      "back": "les",
+      "grammarNote": "Used for all plural nouns, regardless of gender: les livres, les tables, les amis. Contracts with à → aux and with de → des."
+    },
+    {
+      "id": "un",
+      "front": "a",
+      "back": "un",
+      "grammarNote": "Indefinite article for masculine singular nouns: un café, un livre, un ami. In negation, changes to de: Je n'ai pas de livre."
+    },
+    {
+      "id": "une",
+      "front": "a",
+      "back": "une",
+      "grammarNote": "Indefinite article for feminine singular nouns: une table, une maison, une pomme. In negation, changes to de."
+    },
+    {
+      "id": "des",
+      "front": "some (plural indefinite)",
+      "back": "des",
+      "grammarNote": "Plural indefinite article: des livres (some books), des amis (some friends). In negation, changes to de: Je n'ai pas de livres."
+    },
+    {
+      "id": "au",
+      "front": "to the",
+      "back": "au",
+      "grammarNote": "Mandatory contraction: à + le = au. Je vais au café. Le prix du café (de + le = du). Never write 'à le'."
+    },
+    {
+      "id": "aux",
+      "front": "to the",
+      "back": "aux",
+      "grammarNote": "Mandatory contraction: à + les = aux. Je parle aux enfants. Also de + les = des (in possession sense)."
+    },
+    {
+      "id": "gender_masc",
+      "front": "the book (masculine noun example)",
+      "back": "le livre",
+      "grammarNote": "Nouns ending in -ment, -age, -isme are usually masculine. The gender must often be memorized — look it up when learning new vocabulary."
+    },
+    {
+      "id": "gender_fem",
+      "front": "the city (feminine noun example)",
+      "back": "la ville",
+      "grammarNote": "Nouns ending in -tion, -sion, -ure, -ette, -ance are usually feminine: la nation, la lecture, la boulangette."
+    },
+    {
+      "id": "general_statement",
+      "front": "I like coffee. (general liking)",
+      "back": "J'aime le café.",
+      "grammarNote": "In French, general likes/dislikes use the definite article: J'aime le café, J'aime les chats. English omits the article ('I like coffee'), but French does not."
+    },
+    {
+      "id": "specific_noun",
+      "front": "I want a coffee. (one specific item)",
+      "back": "Je veux un café.",
+      "grammarNote": "When ordering or requesting a single item, use the indefinite article: un/une. Je veux un café = I want a (one) coffee."
+    },
+    {
+      "id": "negation_de",
+      "front": "I don't have a book.",
+      "back": "Je n'ai pas de livre.",
+      "grammarNote": "After negation (ne...pas), un/une/des all change to de (or d' before a vowel). The definite article (le/la/les) does NOT change after negation."
+    },
+    {
+      "id": "profession_no_article",
+      "front": "She is a doctor. (profession after être)",
+      "back": "Elle est médecin.",
+      "grammarNote": "After être, professions drop the article: Elle est médecin (not 'une médecin'). But if the noun is modified: Elle est une bonne médecin."
+    },
+    {
+      "id": "vowel_elision_example",
+      "front": "the water",
+      "back": "l'eau",
+      "grammarNote": "Eau is feminine, so 'la eau' would be expected — but the vowel causes elision: l'eau. The gender still matters for agreement: l'eau est froide (fem. adjective)."
+    },
+    {
+      "id": "plural_contraction",
+      "front": "the price of the books",
+      "back": "le prix des livres",
+      "grammarNote": "de + les = des. This des is different from the plural indefinite article des — context makes the meaning clear."
+    }
+  ]
+}

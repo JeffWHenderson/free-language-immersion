@@ -1,0 +1,94 @@
+/* ── Story list grid ── */
+.srs-story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.srs-story-card {
+    text-align: left;
+    background: var(--card-color, #fff);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.srs-story-card:hover {
+    border-color: #2980b9;
+    box-shadow: 0 2px 8px rgba(41, 128, 185, 0.12);
+}
+
+.srs-story-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color, #222);
+    margin-bottom: 8px;
+}
+
+.srs-story-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.srs-story-card-deck {
+    font-size: 0.78rem;
+    color: #888;
+}
+
+.srs-story-card-diff {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.srs-story-card-diff.diff-easy {
+    background: #eafaf1;
+    color: #27ae60;
+}
+
+.srs-story-card-diff.diff-medium {
+    background: #fef6e9;
+    color: #e67e22;
+}
+
+.srs-story-card-diff.diff-hard {
+    background: #fdedec;
+    color: #c0392b;
+}
+
+/* ── Cross-section section divider ── */
+.srs-cross-section-header {
+    width: 100%;
+    max-width: 640px;
+    margin: 28px auto 12px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.srs-cross-section-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color, #222);
+    margin: 0 0 4px;
+}
+
+.srs-cross-section-header p {
+    font-size: 0.82rem;
+    color: #888;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .srs-cross-section-header {
+        border-top-color: rgba(255, 255, 255, 0.12);
+    }
+}

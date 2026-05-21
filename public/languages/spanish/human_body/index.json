@@ -1,0 +1,1512 @@
+{
+  "id": "human_body",
+  "name": "Human Body",
+  "language": "spanish",
+  "stories": [
+    "at_the_doctor",
+    "after_exercise",
+    "getting_ready",
+    "catching_a_cold",
+    "at_the_dentist"
+  ],
+  "pictureLessons": [
+    "human_body"
+  ],
+  "grammarLessons": [
+    {
+      "id": "tener_expressions",
+      "name": "Tener Expressions"
+    },
+    {
+      "id": "doler",
+      "name": "Doler — To Hurt"
+    },
+    {
+      "id": "ser_vs_estar",
+      "name": "Ser vs. Estar"
+    },
+    {
+      "id": "hay",
+      "name": "Hay — There Is / There Are"
+    },
+    {
+      "id": "reflexive_verbs",
+      "name": "Reflexive Verbs — se, me, te"
+    },
+    {
+      "id": "imperatives",
+      "name": "Imperatives — Commands"
+    }
+  ],
+  "cards": [
+    {
+      "id": "head",
+      "english": "head",
+      "word": "la cabeza",
+      "grammarNote": "**doler** (to hurt) works like **gustar** — the body part is the grammatical subject\n**Me duele la cabeza** (singular) · **Me duelen los pies** (plural)\nThe pronoun **me/te/le** indicates who is hurting",
+      "englishPhrase": "My head hurts.",
+      "phrase": "Me duele la cabeza.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "cabeza",
+          "head"
+        ]
+      ]
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "word": "el pelo",
+      "grammarNote": "**el pelo** is the everyday word for hair (on the head); **el cabello** is more formal/literary.\nIn the phrase **Ella tiene el pelo largo**, the definite article **el** is used instead of a possessive — Spanish describes physical characteristics this way: **tiene los ojos azules** (she has blue eyes), **tiene la nariz pequeña** (he has a small nose).",
+      "englishPhrase": "She has long hair.",
+      "phrase": "Ella tiene el pelo largo.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pelo",
+          "hair"
+        ],
+        [
+          "largo",
+          "long"
+        ]
+      ]
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "word": "la cara",
+      "grammarNote": "**Lávate la cara** is a reflexive command (tú form): **lávate** = wash yourself.\nWith body-care reflexive verbs, use the **definite article** (**la cara**, **las manos**) not a possessive (**tu cara**).\nThe reflexive pronoun **te** already shows whose face it is.\nFormal command (usted): **Lávese la cara**.",
+      "englishPhrase": "Wash your face.",
+      "phrase": "Lávate la cara.",
+      "literal": [
+        [
+          "Lávate",
+          "wash-yourself"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "cara",
+          "face"
+        ]
+      ]
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "word": "el ojo",
+      "grammarNote": "Paired body parts use the plural with the definite article: **los ojos** (eyes), **las manos** (hands), **los pies** (feet), **los oídos** (ears).\nSpanish describes eye color with **tener + los + body part + adjective**: **Él tiene los ojos azules** — literally 'he has the eyes blue.' The adjective follows the noun and agrees in gender and number.",
+      "englishPhrase": "He has blue eyes.",
+      "phrase": "Él tiene los ojos azules.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "ojos",
+          "eyes"
+        ],
+        [
+          "azules",
+          "blue"
+        ]
+      ]
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "word": "la oreja (outer)",
+      "grammarNote": "Spanish has two words for ear: **la oreja** (the outer, visible ear) and **el oído** (the inner ear / sense of hearing).\n**Me duele la oreja** = my outer ear hurts · **Tengo el oído tapado** = my inner ear is blocked.\n**doler** works like **gustar**: the body part is the subject, **me** is the indirect object pronoun.",
+      "englishPhrase": "My ear hurts.",
+      "phrase": "Me duele la oreja.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "oreja",
+          "ear"
+        ]
+      ]
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "word": "la nariz",
+      "grammarNote": "**Tengo la nariz fría** uses **tener + definite article + body part + adjective** to describe a physical state.\nThis pattern is very common: **tengo el cuello rígido** (my neck is stiff), **tengo la pierna cansada** (my leg is tired).\nContrast with **me duele** for pain: **me duele la nariz** (my nose hurts).",
+      "englishPhrase": "My nose is cold.",
+      "phrase": "Tengo la nariz fría.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "nariz",
+          "nose"
+        ],
+        [
+          "fría",
+          "cold"
+        ]
+      ]
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "word": "la boca",
+      "grammarNote": "**Abre la boca** is an informal (tú) imperative. Regular -ar verbs form the tú command with the él/ella present form: **abr-e**.\nThe formal (usted) command is **Abra la boca** — note the vowel switch: -ar verbs use -e for formal commands.\nNote the definite article **la** — not *tu boca*.",
+      "englishPhrase": "Open your mouth.",
+      "phrase": "Abre la boca.",
+      "literal": [
+        [
+          "Abre",
+          "open"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "boca",
+          "mouth"
+        ]
+      ]
+    },
+    {
+      "id": "lip",
+      "english": "lip",
+      "word": "el labio",
+      "grammarNote": "Paired body parts use the plural with definite article: **los labios** (lips), not *sus labios* when describing a person's physical features.\n**Tiene los labios rojos** — the adjective **rojos** agrees in gender (masculine) and number (plural) with **labios**.\nThis **tener + los/las + body part + adjective** structure describes physical appearance.",
+      "englishPhrase": "She has red lips.",
+      "phrase": "Tiene los labios rojos.",
+      "literal": [
+        [
+          "Tiene",
+          "has"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "labios",
+          "lips"
+        ],
+        [
+          "rojos",
+          "red"
+        ]
+      ]
+    },
+    {
+      "id": "tooth_teeth",
+      "english": "tooth (teeth)",
+      "word": "el diente (los dientes)",
+      "grammarNote": "**doler** works like **gustar** — the tooth is the grammatical subject: **Me duele un diente** (a tooth is hurting me).\nNote **un** (indefinite article) instead of **el** here — 'a tooth' (one in particular, but not previously specified).\nFor general toothache: **tener dolor de muelas** (to have a toothache) — **muela** refers specifically to a molar.",
+      "englishPhrase": "I have a toothache.",
+      "phrase": "Me duele un diente.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "diente",
+          "tooth"
+        ]
+      ]
+    },
+    {
+      "id": "tongue",
+      "english": "tongue",
+      "word": "la lengua",
+      "grammarNote": "**la lengua** means both 'tongue' (body part) and 'language' in Spanish: **hablar una lengua** (to speak a language).\n**Saca la lengua** — **sacar** (to take out / stick out) is an informal tú command. Note the definite article **la** instead of a possessive.\nFor the formal command: **Saque la lengua**.",
+      "englishPhrase": "Stick out your tongue.",
+      "phrase": "Saca la lengua.",
+      "literal": [
+        [
+          "Saca",
+          "take-out"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "lengua",
+          "tongue"
+        ]
+      ]
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "word": "el cuello",
+      "grammarNote": "**el cuello** means both 'neck' (body part) and 'collar/neckline' of a garment.\n**Tengo el cuello rígido** uses **tener + el + body part + adjective** for physical states.\nFor pain: **Me duele el cuello** (my neck hurts) using the **doler** + gustar pattern.\n**rígido** (stiff/rigid) agrees in gender with **cuello** (masculine).",
+      "englishPhrase": "My neck is stiff.",
+      "phrase": "Tengo el cuello rígido.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "cuello",
+          "neck"
+        ],
+        [
+          "rígido",
+          "stiff"
+        ]
+      ]
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "word": "el brazo",
+      "grammarNote": "**Me rompí el brazo** — reflexive verb (**romper** → **romperse**) with the definite article, not a possessive.\nThe reflexive pronoun **me** shows it's my own arm; **el** replaces *mi*.\nThis pattern applies to all injury verbs: **me torcí el tobillo** (I sprained my ankle), **me corté el dedo** (I cut my finger).\n**rompí** is preterite (past): **romper** → rompí, rompiste, rompió, rompimos, rompieron.",
+      "englishPhrase": "I broke my arm.",
+      "phrase": "Me rompí el brazo.",
+      "literal": [
+        [
+          "Me",
+          "[myself]"
+        ],
+        [
+          "rompí",
+          "broke"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "brazo",
+          "arm"
+        ]
+      ]
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "word": "la mano",
+      "grammarNote": "With reflexive verbs and body parts, use the definite article instead of a possessive:\n**Lávate las manos** (not *lava tus manos*) · **Me rompí el brazo** (I broke my arm)\nThe reflexive pronoun **me/te/se** makes clear whose body part it is",
+      "englishPhrase": "Wash your hands.",
+      "phrase": "Lávate las manos.",
+      "literal": [
+        [
+          "Lávate",
+          "wash-yourself"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "manos",
+          "hands"
+        ]
+      ]
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "word": "el dedo (de la mano)",
+      "grammarNote": "Spanish uses **el dedo** for both finger and toe. To distinguish:\n**el dedo de la mano** (finger) · **el dedo del pie** (toe).\n**Se cortó el dedo** — reflexive **cortarse** (to cut oneself) with definite article instead of possessive.\nThe reflexive pronoun **se** shows it was his own finger; **el** replaces *su*.",
+      "englishPhrase": "He cut his finger.",
+      "phrase": "Se cortó el dedo.",
+      "literal": [
+        [
+          "Se",
+          "[himself]"
+        ],
+        [
+          "cortó",
+          "cut"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "dedo",
+          "finger"
+        ]
+      ]
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "word": "el pecho",
+      "grammarNote": "**tener dolor en** + body part = to have pain in a body part: **tiene dolor en el pecho** (he has chest pain).\nAlternative: **tener dolor de** + body part for common ailments: **dolor de cabeza** (headache), **dolor de espalda** (back pain), **dolor de estómago** (stomachache).\n**el pecho** can also refer to the breast area generally; **el seno** is more specific for breast.",
+      "englishPhrase": "He has chest pain.",
+      "phrase": "Él tiene dolor en el pecho.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "dolor",
+          "pain"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pecho",
+          "chest"
+        ]
+      ]
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "word": "la espalda",
+      "grammarNote": "**doler** works like **gustar**: **Me duele la espalda** — literally 'the back hurts to me.'\nFor specific regions: **la parte baja de la espalda** (lower back) · **la parte alta de la espalda** (upper back).\nCommon compound: **dolor de espalda** (back pain) — used with **tener**: **tengo dolor de espalda**.",
+      "englishPhrase": "My back hurts.",
+      "phrase": "Me duele la espalda.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "espalda",
+          "back"
+        ]
+      ]
+    },
+    {
+      "id": "heart",
+      "english": "heart",
+      "word": "el corazón",
+      "grammarNote": "**corazón** comes from Latin **cor** (heart) — the same root as English 'courage,' 'cordial,' 'core,' and 'accord.'\n**late** (beats/throbs) comes from **latir** — used specifically for heartbeat: **el corazón late rápido**.\nNote the possessive **Mi corazón** here — used because this is a statement about the subject's own heart without a reflexive verb.",
+      "englishPhrase": "My heart is beating fast.",
+      "phrase": "Mi corazón late rápido.",
+      "literal": [
+        [
+          "Mi",
+          "my"
+        ],
+        [
+          "corazón",
+          "heart"
+        ],
+        [
+          "late",
+          "beats"
+        ],
+        [
+          "rápido",
+          "fast"
+        ]
+      ]
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "word": "el estómago",
+      "grammarNote": "**doler** works like **gustar**: **Me duele el estómago** — the stomach is the grammatical subject.\nCommon alternatives: **tener dolor de estómago** · **tener el estómago revuelto** (to have an upset stomach).\nNote: **el estómago** (stomach organ) vs. **el vientre/la barriga** (belly, more colloquial).",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "Me duele el estómago.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "estómago",
+          "stomach"
+        ]
+      ]
+    },
+    {
+      "id": "muscle",
+      "english": "muscle",
+      "word": "el músculo",
+      "grammarNote": "**Me jalé un músculo** — **jalarse** (to pull, strain) is primarily used in Latin America; in Spain the equivalent is **me estiré un músculo**.\nThe reflexive **me** shows the action happened to the speaker's own body; **un** (not **el**) because it's 'a muscle' — one unspecified one.\nFor generalized soreness: **tengo los músculos doloridos** (my muscles are sore).",
+      "englishPhrase": "I pulled a muscle.",
+      "phrase": "Me jalé un músculo.",
+      "literal": [
+        [
+          "Me",
+          "[myself]"
+        ],
+        [
+          "jalé",
+          "pulled"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "músculo",
+          "muscle"
+        ]
+      ]
+    },
+    {
+      "id": "waist",
+      "english": "waist",
+      "word": "la cintura",
+      "grammarNote": "**Ella tiene la cintura delgada** — **tener + la + body part + adjective** describes physical features.\nThe adjective **delgada** agrees in gender (feminine) with **la cintura**.\nRelated: **la talla de cintura** (waist size) · **ceñir** (to cinch/hug the waist) — **cintura** shares its Latin root with English 'cincture.'",
+      "englishPhrase": "She has a slim waist.",
+      "phrase": "Ella tiene la cintura delgada.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "cintura",
+          "waist"
+        ],
+        [
+          "delgada",
+          "slim"
+        ]
+      ]
+    },
+    {
+      "id": "skin",
+      "english": "skin",
+      "word": "la piel",
+      "grammarNote": "**Ella tiene la piel suave** — **tener + la + body part + adjective** for physical descriptions.\n**la piel** (skin) also means leather/hide — a shared literal meaning: **una chaqueta de piel** (a leather jacket).\nWith **estar**: **estar en la piel de alguien** = to be in someone's shoes (idiomatic).\n**suave** is invariable for gender — same form for masculine and feminine.",
+      "englishPhrase": "Her skin is soft.",
+      "phrase": "Ella tiene la piel suave.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "piel",
+          "skin"
+        ],
+        [
+          "suave",
+          "soft"
+        ]
+      ]
+    },
+    {
+      "id": "blood",
+      "english": "blood",
+      "word": "la sangre",
+      "grammarNote": "**la sangre** (blood) is feminine — used without article after **donar**: **donó sangre** (donated blood), like **donar tiempo** (to donate time).\nRelated vocabulary: **sangrar** (to bleed) · **el análisis de sangre** (blood test) · **la presión arterial** (blood pressure).\n**sangriento** (bloody) and **ensangrentado** (bloodied) are common adjectives.",
+      "englishPhrase": "He donated blood.",
+      "phrase": "Él donó sangre.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "donó",
+          "donated"
+        ],
+        [
+          "sangre",
+          "blood"
+        ]
+      ]
+    },
+    {
+      "id": "brain",
+      "english": "brain",
+      "word": "el cerebro",
+      "grammarNote": "**cerebro** comes from Latin **cerebrum** — directly related to English 'cerebral' and 'cerebellum' (the little brain).\nWith **ser** (permanent characteristic): **El cerebro es complejo** — use **ser** for inherent properties of things.\nContrast: **estar** would suggest a temporary state — **el cerebro está activo** (the brain is [currently] active).",
+      "englishPhrase": "The brain is complex.",
+      "phrase": "El cerebro es complejo."
+    },
+    {
+      "id": "skull",
+      "english": "skull",
+      "word": "el cráneo",
+      "grammarNote": "**el cráneo** comes from Greek **kranion** — related to English 'cranium' and 'cranial.'\n**protege** (protects) — from **proteger**, a -ger verb: the **g** softens to **j** before **o/a**: **protejo** (I protect), but **proteges, protege, protegemos**.\n**El cráneo protege el cerebro** — both nouns use definite articles for generic reference (the skull as a concept).",
+      "englishPhrase": "The skull protects the brain.",
+      "phrase": "El cráneo protege el cerebro."
+    },
+    {
+      "id": "breast",
+      "english": "breast",
+      "word": "el seno",
+      "grammarNote": "**el seno** (breast) — also used in the plural **los senos**. **el pecho** is used more broadly for chest/breast area.\n**sintió** is the preterite of **sentir** (to feel) — an e→i stem-changing verb in the preterite: **sentí, sentiste, sintió, sentimos, sentisteis, sintieron**.\n**tener dolor en** + body part: **tuvo dolor en el pecho** (she had chest pain).",
+      "englishPhrase": "She felt pain in her chest.",
+      "phrase": "Ella sintió dolor en el pecho.",
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "sintió",
+          "felt"
+        ],
+        [
+          "dolor",
+          "pain"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "pecho",
+          "chest"
+        ]
+      ]
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "word": "la pierna",
+      "grammarNote": "**Tengo la pierna cansada** — **tener + la + body part + adjective** for physical states.\nThe adjective **cansada** agrees in gender (feminine) with **la pierna**.\nFor pain: **Me duele la pierna** (my leg hurts) — using the **doler** + gustar pattern.\nPaired form: **tengo las piernas cansadas** (my legs are tired) — plural adjective agrees with plural noun.",
+      "englishPhrase": "My leg is tired.",
+      "phrase": "Tengo la pierna cansada.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "pierna",
+          "leg"
+        ],
+        [
+          "cansada",
+          "tired"
+        ]
+      ]
+    },
+    {
+      "id": "foot_feet",
+      "english": "foot (feet)",
+      "word": "el pie (los pies)",
+      "grammarNote": "Paired body parts use the plural: **los pies** (feet) — **Me duelen los pies** (my feet hurt).\n**doler** agrees with the plural subject: **me duele** (singular) · **me duelen** (plural).\nCommon expression: **estar de pie** (to be standing) · **ponerse de pie** (to stand up) · **a pie** (on foot).",
+      "englishPhrase": "My feet hurt.",
+      "phrase": "Me duelen los pies.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duelen",
+          "hurt"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "pies",
+          "feet"
+        ]
+      ]
+    },
+    {
+      "id": "toe",
+      "english": "toe",
+      "word": "el dedo (del pie)",
+      "grammarNote": "**el dedo del pie** (toe) — **del** is a contraction of **de + el**. This distinguishes toe from finger (**el dedo de la mano**).\n**Se golpeó el dedo del pie** — reflexive **golpearse** with definite article: the reflexive **se** shows it was his own toe.\n**golpear** (to hit/strike) → **golpearse** (to hit/bang oneself). Preterite: **golpeó**.",
+      "englishPhrase": "He stubbed his toe.",
+      "phrase": "Se golpeó el dedo del pie.",
+      "literal": [
+        [
+          "Se",
+          "[himself]"
+        ],
+        [
+          "golpeó",
+          "hit"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "dedo",
+          "toe"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "pie",
+          "foot"
+        ]
+      ]
+    },
+    {
+      "id": "joint",
+      "english": "joint",
+      "word": "la articulación",
+      "grammarNote": "**Tengo las articulaciones rígidas** — **tener + las + body part (plural) + adjective** for physical states.\nThe adjective **rígidas** agrees in gender (feminine) and number (plural) with **las articulaciones**.\n**la articulación** also means 'articulation' in speech/language — related English cognate: 'articulate.'\nRelated: **articular** (to articulate) · **articulado** (articulated/jointed).",
+      "englishPhrase": "My joints are stiff.",
+      "phrase": "Tengo las articulaciones rígidas.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "articulaciones",
+          "joints"
+        ],
+        [
+          "rígidas",
+          "stiff"
+        ]
+      ]
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "word": "el aliento",
+      "grammarNote": "Note the vocabulary distinction: **el aliento** (breath as air breathed out, including breath odor) · **la respiración** (the act/process of breathing).\nThe phrase uses **la respiración** rather than **el aliento**: **Aguanta la respiración** (hold your breath — the act of breathing).\n**aguantar** (to hold, to bear, to endure) — tú command: **aguanta**. Also used: **tener mal aliento** (to have bad breath).",
+      "englishPhrase": "Hold your breath.",
+      "phrase": "Aguanta la respiración.",
+      "literal": [
+        [
+          "Aguanta",
+          "hold"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "respiración",
+          "breath"
+        ]
+      ]
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "word": "ver",
+      "grammarNote": "**ver** (to see) is irregular in the present: **veo, ves, ve, vemos, veis, ven**.\n**Puedo ver con claridad** — **poder + infinitive** (can/to be able to + verb).\n**poder** is an o→ue stem-changer: **puedo, puedes, puede, podemos, podéis, pueden**.\nDistinction: **ver** (to see, passive perception) vs. **mirar** (to look at, active attention): **Mira** ese pájaro · **Veo** la luna.",
+      "englishPhrase": "I can see clearly.",
+      "phrase": "Puedo ver con claridad.",
+      "literal": [
+        [
+          "Puedo",
+          "can"
+        ],
+        [
+          "ver",
+          "see"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "claridad",
+          "clarity"
+        ]
+      ]
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "word": "oír",
+      "grammarNote": "Spanish has two verbs for hearing: **oír** (to hear, passive) and **escuchar** (to listen, active).\nThe phrase uses **escucho** — 'I'm not listening to you / I can't hear you' (active attention).\n**No te escucho** — **te** is an indirect object pronoun here ('you' as the one being heard).\n**oír** is highly irregular: **oigo, oyes, oye, oímos, oís, oyen**.",
+      "englishPhrase": "I can't hear you.",
+      "phrase": "No te escucho.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "te",
+          "[you]"
+        ],
+        [
+          "escucho",
+          "listen-to"
+        ]
+      ]
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "word": "oler",
+      "grammarNote": "**oler** (to smell) is an o→hue stem-changing verb — uniquely, it adds an **h** before the diphthong: **huelo, hueles, huele, olemos, oléis, huelen**.\nThis spelling preserves the /w/ sound — Spanish doesn't begin a syllable with 'ue' without 'h' when it could be confused.\n**Puedo oler las flores** — **poder + infinitive** for ability.",
+      "englishPhrase": "I can smell the flowers.",
+      "phrase": "Puedo oler las flores.",
+      "literal": [
+        [
+          "Puedo",
+          "can"
+        ],
+        [
+          "oler",
+          "smell"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "flores",
+          "flowers"
+        ]
+      ]
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "word": "saborear",
+      "grammarNote": "Two verbs for tasting: **saborear** (to savor, taste slowly) and **probar** (to taste/try).\nThe phrase uses **Prueba** (try/taste this) — an informal tú command of **probar** (o→ue stem-changer).\n**probar** also means 'to try on' (clothing) and 'to prove': **¿Probaste el vestido?** (Did you try on the dress?)\n**saborear** is from **sabor** (flavor/taste) — related to 'savor' in English.",
+      "englishPhrase": "Taste this soup.",
+      "phrase": "Prueba esta sopa.",
+      "literal": [
+        [
+          "Prueba",
+          "taste"
+        ],
+        [
+          "esta",
+          "this"
+        ],
+        [
+          "sopa",
+          "soup"
+        ]
+      ]
+    },
+    {
+      "id": "touch",
+      "english": "touch",
+      "word": "tocar",
+      "grammarNote": "**¡No toques eso!** — **toques** is the negative tú subjunctive command (present subjunctive) of **tocar**.\nNegative tú commands always use the present subjunctive: **no hables, no comas, no toques**.\n**tocar** has a spelling change in the subjunctive: c→qu before **e** to preserve the /k/ sound: **toque, toques, toque**.\n**tocar** also means 'to play' (an instrument): **toco la guitarra**.",
+      "englishPhrase": "Don't touch that!",
+      "phrase": "¡No toques eso!",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "toques",
+          "touch"
+        ],
+        [
+          "eso",
+          "that"
+        ]
+      ]
+    },
+    {
+      "id": "breathe",
+      "english": "breathe",
+      "word": "respirar",
+      "grammarNote": "**Respira despacio** — informal (tú) imperative of **respirar** (regular -ar verb): drop the -r and the form is identical to the third-person present.\nFormal command: **Respire despacio** — note vowel switch (-ar → -e ending for usted).\n**despacio** (slowly) is an adverb — invariable, never changes form.\nRelated: **la respiración** (breathing/respiration) · **respiratorio** (respiratory).",
+      "englishPhrase": "Breathe slowly.",
+      "phrase": "Respira despacio.",
+      "literal": [
+        [
+          "Respira",
+          "breathe"
+        ],
+        [
+          "despacio",
+          "slowly"
+        ]
+      ]
+    },
+    {
+      "id": "bend",
+      "english": "bend",
+      "word": "doblar",
+      "grammarNote": "**Dobla las rodillas** — informal (tú) imperative of **doblar** (regular -ar).\n**la rodilla** (knee) comes from Latin **rotella** (little wheel) — the kneecap's circular shape. Related English cognate: 'rotella' → 'rotula' (medical term for kneecap).\nNote definite article **las** instead of possessive — 'bend the knees' (understood as yours).\n**doblar** also means 'to fold,' 'to turn' (a corner), and 'to dub' (a film).",
+      "englishPhrase": "Bend your knees.",
+      "phrase": "Dobla las rodillas.",
+      "literal": [
+        [
+          "Dobla",
+          "bend"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "rodillas",
+          "knees"
+        ]
+      ]
+    },
+    {
+      "id": "stretch",
+      "english": "stretch",
+      "word": "estirar",
+      "grammarNote": "**Estira los brazos** — informal (tú) imperative of **estirar** (regular -ar).\nNote **los brazos** (the arms) with definite article, not *tus brazos*.\n**estirar** vs. **extender**: **estirar** suggests pulling/stretching something out; **extender** (to extend/spread) is used for more formal contexts.\nRelated: **el estiramiento** (the stretch/stretching) · **estirarse** (to stretch oneself — reflexive).",
+      "englishPhrase": "Stretch your arms.",
+      "phrase": "Estira los brazos.",
+      "literal": [
+        [
+          "Estira",
+          "stretch"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "brazos",
+          "arms"
+        ]
+      ]
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "word": "el hombro",
+      "grammarNote": "**doler** works like **gustar**: **Me duele el hombro** — literally 'the shoulder hurts to me.'\nCommon expressions: **encogerse de hombros** (to shrug — literally 'to shrink from the shoulders') · **cargar con algo sobre los hombros** (to carry something on one's shoulders — literal and figurative).\nFor injury: **me hice daño en el hombro** or **me lesioné el hombro** (I hurt my shoulder).",
+      "englishPhrase": "My shoulder hurts.",
+      "phrase": "Me duele el hombro.",
+      "literal": [
+        [
+          "Me",
+          "me"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "hombro",
+          "shoulder"
+        ]
+      ]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "word": "la rodilla",
+      "grammarNote": "**la rodilla** comes from Latin **rotella** (little wheel) — referring to the round kneecap. Related medical term: **la rótula** (kneecap/patella).\n**Me lastimé la rodilla** — reflexive **lastimarse** (to hurt oneself) with definite article instead of possessive.\nAlternative: **me hice daño en la rodilla** (I hurt myself on the knee) — **hacerse daño en** + body part is a very common injury expression.",
+      "englishPhrase": "I hurt my knee.",
+      "phrase": "Me lastimé la rodilla.",
+      "literal": [
+        [
+          "Me",
+          "myself"
+        ],
+        [
+          "lastimé",
+          "hurt"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "rodilla",
+          "knee"
+        ]
+      ]
+    },
+    {
+      "id": "elbow",
+      "english": "elbow",
+      "word": "el codo",
+      "grammarNote": "**Se golpeó el codo** — reflexive **golpearse** (to bump/hit oneself) with definite article.\nThe reflexive **se** shows the action happened to his own body; **el** replaces *su*.\n**el codo** also appears in the idiom **hablar por los codos** (to talk someone's ear off — literally 'to talk through the elbows').\nFor pain: **me duele el codo** (my elbow hurts) — **doler** + gustar pattern.",
+      "englishPhrase": "He bumped his elbow.",
+      "phrase": "Se golpeó el codo.",
+      "literal": [
+        [
+          "Se",
+          "himself"
+        ],
+        [
+          "golpeó",
+          "hit/bumped"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "codo",
+          "elbow"
+        ]
+      ]
+    },
+    {
+      "id": "flex",
+      "english": "flex",
+      "word": "flexionar",
+      "grammarNote": "**Flexiona los músculos** — informal (tú) imperative of **flexionar** (regular -ar).\n**flexionar** is a direct borrowing from Latin **flexio** (bending) — related to English 'flex,' 'flexible,' 'deflect.'\nNote **los músculos** with definite article instead of possessive.\nAlternative: **doblar** (to bend/flex) is more colloquial; **flexionar** is the medical/exercise term.",
+      "englishPhrase": "Flex your muscles.",
+      "phrase": "Flexiona los músculos.",
+      "literal": [
+        [
+          "Flexiona",
+          "flex"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "músculos",
+          "muscles"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "blink",
+      "english": "blink",
+      "word": "parpadear",
+      "grammarNote": "**No parpadees** — negative tú subjunctive command of **parpadear** (regular -ar).\nNegative tú commands always use the present subjunctive: no hables, no comas, no **parpadees**.\n**parpadear** comes from **el párpado** (eyelid) — the verb literally means 'to do the eyelid thing.'\nRelated: **el parpadeo** (a blink/blinking) · **parpadear** also describes a flickering light: **la luz parpadeaba** (the light was flickering).",
+      "englishPhrase": "Don't blink.",
+      "phrase": "No parpadees.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "parpadees",
+          "blink"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "sweat",
+      "english": "sweat",
+      "word": "sudar",
+      "grammarNote": "**Sudo cuando corro** — both verbs are present tense, expressing habitual action (I sweat [whenever] I run).\nSpanish uses present indicative in **cuando** clauses for habitual/repeated events.\nContrast: for future events, **cuando** takes the subjunctive: **Cuando corra mañana, sudaré** (When I run tomorrow, I'll sweat).\n**sudar** (to sweat) · **el sudor** (sweat/perspiration) · **sudoroso** (sweaty).",
+      "englishPhrase": "I sweat when I run.",
+      "phrase": "Sudo cuando corro.",
+      "literal": [
+        [
+          "Sudo",
+          "sweat"
+        ],
+        [
+          "cuando",
+          "when"
+        ],
+        [
+          "corro",
+          "run"
+        ]
+      ]
+    },
+    {
+      "id": "bleed",
+      "english": "bleed",
+      "word": "sangrar",
+      "grammarNote": "**La herida está sangrando** — **estar + gerund** for an action in progress right now (present progressive).\nThe gerund **sangrando** is formed by dropping -ar and adding **-ando**: sangr- + ando.\nContrast with simple present **sangra** (bleeds/is bleeding — habitual or general): **La herida sangra fácilmente** (the wound bleeds easily).\n**la herida** (wound/injury) — related: **herir** (to wound/injure), **herido** (wounded).",
+      "englishPhrase": "The wound is bleeding.",
+      "phrase": "La herida está sangrando."
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "word": "sentir",
+      "grammarNote": "**¿Cómo te sientes?** uses **sentirse** (reflexive) for emotional/physical feeling: **me siento bien** (I feel well).\nContrast with non-reflexive **sentir** (to feel/sense something): **Siento un dolor** (I feel a pain).\n**sentirse** conjugates like a reflexive: **me siento, te sientes, se siente, nos sentimos, os sentís, se sienten**.\n**sentir** is an e→ie stem-changer in the present: **siento, sientes, siente**.",
+      "englishPhrase": "How do you feel?",
+      "phrase": "¿Cómo te sientes?",
+      "literal": [
+        [
+          "Cómo",
+          "how"
+        ],
+        [
+          "te",
+          "[yourself]"
+        ],
+        [
+          "sientes",
+          "feel"
+        ]
+      ]
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "word": "pensar",
+      "grammarNote": "**pensar** is an e→ie stem-changing verb — changes in all forms except nosotros/vosotros:\n**pienso · piensas · piensa · pensamos · pensáis · piensan**\nOther e→ie verbs: **querer** (quiero) · **entender** (entiendo) · **empezar** (empiezo) · **perder** (pierdo)",
+      "englishPhrase": "What are you thinking about?",
+      "phrase": "¿En qué piensas?",
+      "literal": [
+        [
+          "En",
+          "in"
+        ],
+        [
+          "qué",
+          "what"
+        ],
+        [
+          "piensas",
+          "think"
+        ]
+      ]
+    },
+    {
+      "id": "move",
+      "english": "move",
+      "word": "mover",
+      "grammarNote": "**mover** is an o→ue stem-changing verb: **muevo, mueves, mueve, movemos, movéis, mueven**.\n**No puedo mover el brazo** — note **el brazo** (the arm) with definite article, not *mi brazo*.\n**poder** (can/to be able to) is also o→ue: **puedo, puedes, puede**.\nReflexive **moverse** = to move (oneself): **No puedo moverme** (I can't move).",
+      "englishPhrase": "I can't move my arm.",
+      "phrase": "No puedo mover el brazo.",
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "puedo",
+          "can"
+        ],
+        [
+          "mover",
+          "move"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "brazo",
+          "arm"
+        ]
+      ]
+    },
+    {
+      "id": "bony",
+      "english": "bony",
+      "word": "huesudo",
+      "grammarNote": "**Tiene las manos huesudas** — **tener + las + body part + adjective** for physical descriptions.\n**huesudo** is formed from **el hueso** (bone) + **-udo** suffix (meaning 'having a lot of' something): compare **peludo** (hairy, from pelo), **barbudo** (bearded, from barba), **musculoso** (muscular).\nThe adjective **huesudas** agrees in gender (feminine) and number (plural) with **las manos**.",
+      "englishPhrase": "His hands are bony.",
+      "phrase": "Tiene las manos huesudas.",
+      "literal": [
+        [
+          "Tiene",
+          "has"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "manos",
+          "hands"
+        ],
+        [
+          "huesudas",
+          "bony"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hairy",
+      "english": "hairy",
+      "word": "peludo",
+      "grammarNote": "**peludo** is formed from **el pelo** (hair) + **-udo** suffix (meaning 'having a lot of'): **peludo** (hairy), **huesudo** (bony), **barbudo** (bearded), **barrigudo** (pot-bellied).\n**Él tiene los brazos peludos** — **tener + los + body part (plural) + adjective** for physical description.\n**peludos** agrees in gender (masculine) and number (plural) with **los brazos**.",
+      "englishPhrase": "He has hairy arms.",
+      "phrase": "Él tiene los brazos peludos.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "brazos",
+          "arms"
+        ],
+        [
+          "peludos",
+          "hairy"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "soft",
+      "english": "soft",
+      "word": "suave",
+      "grammarNote": "**suave** is invariable for gender — same form for masculine and feminine: **el tejido suave** / **la piel suave**.\n**ser** vs. **estar** with **suave**: **El tejido es suave** (the tissue is soft — inherent property, use **ser**) vs. **El tejido está suave** (the tissue feels soft — current/perceived state, use **estar**).\nRelated: **suavidad** (softness) · **suavizar** (to soften) · **suavemente** (softly, gently).",
+      "englishPhrase": "The tissue is soft.",
+      "phrase": "El tejido es suave."
+    },
+    {
+      "id": "sore",
+      "english": "sore",
+      "word": "dolorido",
+      "grammarNote": "**Tengo los músculos doloridos** — **tener + los + body part (plural) + adjective** for physical states.\n**dolorido** (sore/aching) comes from **dolor** (pain) — related to **doler** (to hurt) and **doloroso** (painful).\nThe adjective **doloridos** agrees in gender (masculine) and number (plural) with **los músculos**.\nCommon after exercise: **tengo las piernas doloridas** (my legs are sore).",
+      "englishPhrase": "My muscles are sore.",
+      "phrase": "Tengo los músculos doloridos.",
+      "literal": [
+        [
+          "Tengo",
+          "have"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "músculos",
+          "muscles"
+        ],
+        [
+          "doloridos",
+          "sore"
+        ]
+      ]
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "word": "izquierdo",
+      "grammarNote": "**izquierdo/izquierda** (left) comes from Basque **ezker** — one of the few Basque loanwords in Spanish.\nAdjectives of direction follow the noun: **la rodilla izquierda** (the left knee), **el brazo derecho** (the right arm).\n**izquierda** agrees in gender (feminine) with **la rodilla**.\nCommon expressions: **a la izquierda** (to the left) · **de izquierdas** (left-wing, politically).",
+      "englishPhrase": "I hurt my left knee.",
+      "phrase": "Me duele la rodilla izquierda.",
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "duele",
+          "hurts"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "rodilla",
+          "knee"
+        ],
+        [
+          "izquierda",
+          "left"
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "word": "derecho",
+      "grammarNote": "**derecho/derecha** (right direction) also means 'straight' and 'right' (legal/moral): **los derechos humanos** (human rights), **ir derecho** (to go straight).\n**Me rompí el brazo derecho** — reflexive injury pattern with definite article: the **me** shows whose arm, so **el** not *mi*.\n**derecho** agrees in gender (masculine) with **el brazo**.\nDistinction: **derecho** (adjective, right/straight) vs. **a la derecha** (to the right — directional phrase).",
+      "englishPhrase": "I broke my right arm.",
+      "phrase": "Me rompí el brazo derecho.",
+      "literal": [
+        [
+          "Me",
+          "[myself]"
+        ],
+        [
+          "rompí",
+          "broke"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "brazo",
+          "arm"
+        ],
+        [
+          "derecho",
+          "right"
+        ]
+      ]
+    },
+    {
+      "id": "upper",
+      "english": "upper",
+      "word": "superior",
+      "grammarNote": "**superior** is invariable for gender — same form for masculine and feminine nouns.\n**la parte superior del cuerpo** — **del** is a contraction of **de + el**: *de el* → **del**.\n**ser** is used here (**es fuerte**) because strength is an inherent characteristic of the upper body — not a temporary state.\nOpposite: **inferior** (lower) — both are Latin-derived adjectives, same in English.",
+      "englishPhrase": "The upper body is strong.",
+      "phrase": "La parte superior del cuerpo es fuerte.",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "parte",
+          "part"
+        ],
+        [
+          "superior",
+          "upper"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "cuerpo",
+          "body"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "fuerte",
+          "strong"
+        ]
+      ]
+    },
+    {
+      "id": "lower",
+      "english": "lower",
+      "word": "inferior",
+      "grammarNote": "**inferior** is invariable for gender — same form for masculine and feminine nouns.\n**tener dolor en la parte inferior de la espalda** — note **en** (in/at) before the specific location; compare **tener dolor de espalda** (general back pain) without **en**.\n**del** (de + el) is used for contractions, but here the article is **la** (feminine), so no contraction: **de la espalda**.\nOpposite: **superior** (upper) — both invariable adjectives from Latin.",
+      "englishPhrase": "He has lower back pain.",
+      "phrase": "Él tiene dolor en la parte inferior de la espalda.",
+      "literal": [
+        [
+          "Él",
+          "he"
+        ],
+        [
+          "tiene",
+          "has"
+        ],
+        [
+          "dolor",
+          "pain"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "parte",
+          "part"
+        ],
+        [
+          "inferior",
+          "lower"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "espalda",
+          "back"
+        ]
+      ]
+    },
+    {
+      "id": "body",
+      "english": "body",
+      "word": "el cuerpo",
+      "grammarNote": "**El cuerpo humano es asombroso** — **ser** is used (**es**) because this describes an inherent, permanent quality.\n**asombroso** (amazing/astonishing) comes from **asombrar** (to astonish) — related to English 'umbra' (shadow), from the idea of being 'overshadowed' by awe.\n**el cuerpo** appears in many expressions: **en cuerpo y alma** (body and soul) · **a cuerpo de rey** (in the lap of luxury — literally 'at a king's body') · **hacer del cuerpo** (to go to the bathroom, euphemistic).",
+      "englishPhrase": "The human body is amazing.",
+      "phrase": "El cuerpo humano es asombroso.",
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "cuerpo",
+          "body"
+        ],
+        [
+          "humano",
+          "human"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "asombroso",
+          "amazing"
+        ]
+      ]
+    },
+    {
+      "id": "human_adjective",
+      "english": "human (adjective)",
+      "word": "humano",
+      "grammarNote": "**humano/humana** (human) is a regular adjective that agrees in gender and number: **el cuerpo humano** · **la biología humana** · **los derechos humanos**.\nIn **Es parte de la biología humana**, **es** (ser) describes a permanent category — biology is inherently human here.\n**humano** comes from Latin **humanus** — related to English 'humane,' 'humanity,' 'humility,' and even 'humble' (all from Latin *humus*, earth — humans as earthly beings).",
+      "englishPhrase": "It's part of human biology.",
+      "phrase": "Es parte de la biología humana.",
+      "literal": [
+        [
+          "Es",
+          "is"
+        ],
+        [
+          "parte",
+          "part"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "biología",
+          "biology"
+        ],
+        [
+          "humana",
+          "human"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+.grammar-html {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+  line-height: 1.7;
+  font-size: 0.97rem;
+}
+
+.grammar-html h2 {
+  font-size: 1.4rem;
+  margin: 24px 0 8px;
+}
+
+.grammar-html h3 {
+  font-size: 1.05rem;
+  margin: 24px 0 8px;
+  color: var(--color-accent, #4a7fa5);
+  border-bottom: 1px solid var(--color-border, #ddd);
+  padding-bottom: 4px;
+}
+
+.grammar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 16px;
+  font-size: 0.92rem;
+}
+
+.grammar-table th {
+  background: var(--color-surface, #f5f5f5);
+  text-align: left;
+  padding: 8px 10px;
+  border: 1px solid var(--color-border, #ddd);
+  font-weight: 600;
+}
+
+.grammar-table td {
+  padding: 7px 10px;
+  border: 1px solid var(--color-border, #ddd);
+  vertical-align: top;
+}
+
+.grammar-table tr:nth-child(even) td {
+  background: var(--color-surface-alt, #fafafa);
+}
+
+.grammar-note {
+  font-size: 0.8rem;
+  color: var(--color-muted, #888);
+  font-style: italic;
+}
+
+.grammar-examples {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 16px;
+}
+
+.grammar-examples li {
+  padding: 8px 10px;
+  border-left: 3px solid var(--color-accent, #4a7fa5);
+  margin-bottom: 8px;
+  background: var(--color-surface, #f5f5f5);
+  border-radius: 0 6px 6px 0;
+}
+
+.grammar-es {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.grammar-en {
+  display: block;
+  color: var(--color-muted, #666);
+  font-size: 0.88rem;
+}
+
+.grammar-markers {
+  margin: 8px 0 16px;
+  padding-left: 20px;
+}
+
+.grammar-markers li {
+  margin-bottom: 6px;
+}
+
+.grammar-compare {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0 16px;
+  flex-wrap: wrap;
+}
+
+.grammar-compare-item {
+  flex: 1;
+  min-width: 200px;
+  border: 1px solid var(--color-border, #ddd);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--color-surface, #f5f5f5);
+}
+
+.grammar-compare-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  color: var(--color-accent, #4a7fa5);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.grammar-review-cta {
+  max-width: 640px;
+  margin: 24px auto 40px;
+  padding: 20px 16px;
+  text-align: center;
+  border-top: 1px solid var(--color-border, #ddd);
+}
+
+.grammar-review-cta p {
+  margin: 0 0 12px;
+  color: var(--color-muted, #666);
+}

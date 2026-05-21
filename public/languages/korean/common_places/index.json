@@ -1,0 +1,2401 @@
+{
+  "id": "common_places",
+  "name": "Common Places",
+  "language": "korean",
+  "stories": [
+    "a_day_in_the_city",
+    "at_the_hotel",
+    "getting_around",
+    "a_day_out"
+  ],
+  "grammarLessons": [
+    {
+      "id": "e_eseo",
+      "name": "에 vs 에서 — Location Particles"
+    },
+    {
+      "id": "gayo_wayo",
+      "name": "가요 & 와요 — Go & Come"
+    },
+    {
+      "id": "ibnida_iseyo",
+      "name": "입니다 & 이에요/예요 — Formal & Polite 'To Be'"
+    },
+    {
+      "id": "isseoyo_eopseoyo",
+      "name": "있어요 & 없어요 — There Is / There Isn't"
+    },
+    {
+      "id": "euro_particle",
+      "name": "-(으)로 — Direction & Means"
+    },
+    {
+      "id": "past_tense",
+      "name": "Past Tense — 았어요/었어요"
+    }
+  ],
+  "cards": [
+    {
+      "id": "home",
+      "english": "Home",
+      "word": "집",
+      "romanized": "jip",
+      "grammarNote": "**집** = the physical house or home.\n**집에 가다** (jibe gada) = to go home.\nLocation particles: **에** for direction/existence, **에서** for actions taking place somewhere.",
+      "englishPhrase": "I'm going home.",
+      "phrase": "집에 가요.",
+      "phraseRomanized": "jibe gayo",
+      "literal": [
+        [
+          "집",
+          "home"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "apartment",
+      "english": "Apartment",
+      "word": "아파트",
+      "romanized": "apateu",
+      "grammarNote": "Korea has some of the world's highest rates of apartment living. '아파트' (apateu) refers to large high-rise apartment complexes (different from the Western sense of 'apartment'). Complexes are often called '단지' (danji).",
+      "englishPhrase": "I live in an apartment.",
+      "phrase": "아파트에 살아요.",
+      "phraseRomanized": "apateue sarayo",
+      "literal": [
+        [
+          "아파트",
+          "apartment"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ]
+    },
+    {
+      "id": "school",
+      "english": "School",
+      "word": "학교",
+      "romanized": "hakgyo",
+      "grammarNote": "**학교** (hakgyo) is a Hanja compound: **학** (學) = study + **교** (校) = institution.\nUse **에** for destination (going to school): **학교에 가요**.\nUse **에서** for where an action takes place: **학교에서 공부해요** (I study at school).\nSubject particle: **아이들이** — **이** attaches after a consonant-ending word.",
+      "englishPhrase": "The children go to school.",
+      "phrase": "아이들이 학교에 가요.",
+      "phraseRomanized": "aideuri hakgyoe gayo",
+      "literal": [
+        [
+          "아이들",
+          "children"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "university",
+      "english": "University",
+      "word": "대학교",
+      "romanized": "daehakgyo",
+      "grammarNote": "**대학교** (daehakgyo) = **대** (大, great/big) + **학** (學, study) + **교** (校, institution).\n**대학교에서 공부해요** — note **에서**, not **에**, because studying is an action happening at the location, not a destination.\nThe verb **공부하다** (gongbuhada) = to study, follows the **-하다** pattern: noun **공부** + **하다**.",
+      "englishPhrase": "She studies at the university.",
+      "phrase": "그녀는 대학교에서 공부해요.",
+      "phraseRomanized": "geunyeoneun daehakgyoeseo gongbuhaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "대학교",
+          "university"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "공부해요",
+          "studies"
+        ]
+      ]
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "사무실",
+      "romanized": "samusil",
+      "grammarNote": "**사무실** (samusil) = **사무** (事務, office work/affairs) + **실** (室, room).\n**에서** is used because working is an action happening at the location: **사무실에서 일해요**.\n**일하다** (ilhada) = to work — another **-하다** verb. The stem is **일** (work) + **하다**.",
+      "englishPhrase": "He works in an office.",
+      "phrase": "그는 사무실에서 일해요.",
+      "phraseRomanized": "geuneun samusilleseo ilhaeyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "works"
+        ]
+      ]
+    },
+    {
+      "id": "hospital",
+      "english": "Hospital",
+      "word": "병원",
+      "romanized": "byeongwon",
+      "grammarNote": "**병원** (byeongwon) is a Hanja compound: **병** (病) = illness + **원** (院) = institution/yard.\nThe suffix **-원** (院) appears in many institutional words: **학원** (hagwon, academy), **고아원** (orphanage).\n**에 가요** = going to the hospital (destination). If you were saying you are *at* the hospital, you'd say **병원에 있어요** (I am at the hospital).",
+      "englishPhrase": "I'm going to the hospital.",
+      "phrase": "병원에 가요.",
+      "phraseRomanized": "byeongwone gayo",
+      "literal": [
+        [
+          "병원",
+          "hospital"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "grocery_store",
+      "english": "Grocery store",
+      "word": "슈퍼마켓",
+      "romanized": "syupeomaket",
+      "grammarNote": "**슈퍼마켓** (syupeomaket) is a loanword from English.\n**가야 해요** = must go / have to go. This uses the pattern **verb stem + 아야/어야 하다** to express obligation.\n**가다** → stem **가** + **야 해요** → **가야 해요** (must go). A very common pattern for necessity.",
+      "englishPhrase": "I need to go to the supermarket.",
+      "phrase": "슈퍼마켓에 가야 해요.",
+      "phraseRomanized": "syupeomakete gaya haeyo",
+      "literal": [
+        [
+          "슈퍼마켓",
+          "supermarket"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가야 해요",
+          "must go"
+        ]
+      ]
+    },
+    {
+      "id": "bank",
+      "english": "Bank",
+      "word": "은행",
+      "romanized": "eunhaeng",
+      "grammarNote": "**은행** (eunhaeng) = Hanja **은** (銀, silver) + **행** (行, row/institution) — originally referred to silver exchange institutions.\n**에서 왔어요** = came from. **에서** marks the starting point of movement (source), not just the location of action. **왔어요** = came (past tense of **오다**, to come).",
+      "englishPhrase": "I'm coming from the bank.",
+      "phrase": "은행에서 왔어요.",
+      "phraseRomanized": "eunhaengeseo wasseoyo",
+      "literal": [
+        [
+          "은행",
+          "bank"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "왔어요",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "library",
+      "english": "Library",
+      "word": "도서관",
+      "romanized": "doseogwan",
+      "grammarNote": "**도서관** (doseogwan) = **도서** (圖書, books/documents) + **관** (館, hall/building).\nThe suffix **-관** appears in many public buildings: **박물관** (museum), **영화관** (cinema), **미술관** (art gallery).\n**에서** marks where the action of studying happens: **도서관에서 공부해요** (I study at the library).",
+      "englishPhrase": "I study in the library.",
+      "phrase": "도서관에서 공부해요.",
+      "phraseRomanized": "doseogwaneseo gongbuhaeyo",
+      "literal": [
+        [
+          "도서관",
+          "library"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "Restaurant",
+      "word": "식당",
+      "romanized": "sikdang",
+      "grammarNote": "**식당** (sikdang) = **식** (食, eat/food) + **당** (堂, hall). A more informal word than **레스토랑** (restaurant, loanword).\n**식당이 꽉 찼어요**: **이** is the subject particle (after consonant). **꽉** = completely/tightly. **찼어요** = past tense of **차다** (to be full/filled).",
+      "englishPhrase": "The restaurant is full.",
+      "phrase": "식당이 꽉 찼어요.",
+      "phraseRomanized": "sikdangi kkwak chasseoyo",
+      "literal": [
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "꽉",
+          "completely"
+        ],
+        [
+          "찼어요",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "cafe",
+      "english": "Cafe",
+      "word": "카페",
+      "romanized": "kape",
+      "grammarNote": "**카페** (kape) is a loanword from French/English. Korea has an extremely dense cafe culture — some cities have more cafes per capita than any country in the world.\n**에서 만나요** — **에서** because meeting is an action performed *at* the location. Compare: **카페에 가요** (going to the cafe, destination) vs. **카페에서 만나요** (meeting at the cafe, action location).",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "카페에서 만나요.",
+      "phraseRomanized": "kapeeseo mannayo",
+      "literal": [
+        [
+          "카페",
+          "cafe"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ]
+    },
+    {
+      "id": "hotel",
+      "english": "Hotel",
+      "word": "호텔",
+      "romanized": "hotel",
+      "grammarNote": "**호텔이 시내에 있어요**: the structure is subject + location + **있어요**.\n**있어요** (isseoyo) expresses existence and location: X**에 있어요** = X is at/in [place].\n**시내** (sinai) = downtown/city center. **이** is the subject particle after the consonant-ending **호텔**.",
+      "englishPhrase": "The hotel is downtown.",
+      "phrase": "호텔이 시내에 있어요.",
+      "phraseRomanized": "hoteli sinaee isseoyo",
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "airport",
+      "english": "Airport",
+      "word": "공항",
+      "romanized": "gonghang",
+      "grammarNote": "**공항** (gonghang) = **공** (空, sky/air) + **항** (港, port/harbor).\n**여기서** = **여기** (here) + **서** (abbreviated form of **에서**). Short forms **여기서**, **거기서**, **저기서** are common in speech.\n**멀어요** = is far (adjective used as predicate, standard in Korean — no need for a copula).",
+      "englishPhrase": "The airport is far from here.",
+      "phrase": "공항은 여기서 멀어요.",
+      "phraseRomanized": "gonghang-eun yeogiseo meoreoyo",
+      "literal": [
+        [
+          "공항",
+          "airport"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "여기서",
+          "here[at/from]"
+        ],
+        [
+          "멀어요",
+          "far"
+        ]
+      ]
+    },
+    {
+      "id": "station",
+      "english": "Station",
+      "word": "역",
+      "romanized": "yeok",
+      "grammarNote": "**역** (yeok) = train/subway station. The Chinese character is **驛**.\n**가까이에 있어요** = is near. **가까이** (nearby) + **에** (location particle) + **있어요** (exists/is).\nStation names in Korean just add **역**: **강남역** (Gangnam Station), **서울역** (Seoul Station).",
+      "englishPhrase": "The station is near the hotel.",
+      "phrase": "역이 호텔 가까이에 있어요.",
+      "phraseRomanized": "yeogi hotel gakkaie isseoyo",
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "가까이에",
+          "near[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bus_stop",
+      "english": "Bus stop",
+      "word": "버스 정류장",
+      "romanized": "beoseu jeongnyujang",
+      "grammarNote": "**정류장** (jeongnyujang) = **정류** (停留, stopping/pausing) + **장** (場, place/ground).\n**에서 기다리세요** — **에서** because waiting is an action at the location.\n**-세요** is the polite imperative: **기다리세요** = please wait. **기다리다** (gidarida) = to wait.",
+      "englishPhrase": "Wait at the bus stop.",
+      "phrase": "버스 정류장에서 기다리세요.",
+      "phraseRomanized": "beoseu jeongnyujangeseo gidariseyo",
+      "literal": [
+        [
+          "버스 정류장",
+          "bus stop"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "기다리세요",
+          "please wait"
+        ]
+      ]
+    },
+    {
+      "id": "park",
+      "english": "Park",
+      "word": "공원",
+      "romanized": "gongwon",
+      "grammarNote": "**공원** (gongwon) = **공** (公, public) + **원** (園, garden/park).\n**에서 놀아요** — **에서** because playing is an action at the location. Children **play** (verb) in the park, so **에서** is correct.\n**아이들이** = children + subject particle **이**. The plural suffix **들** (deul) is optional but common.",
+      "englishPhrase": "The children play in the park.",
+      "phrase": "아이들이 공원에서 놀아요.",
+      "phraseRomanized": "aideuri gongwoneseo norayo",
+      "literal": [
+        [
+          "아이들",
+          "children"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "놀아요",
+          "play"
+        ]
+      ]
+    },
+    {
+      "id": "square",
+      "english": "Square",
+      "word": "광장",
+      "romanized": "gwangjang",
+      "grammarNote": "**광장** (gwangjang) = **광** (廣, wide/broad) + **장** (場, place/ground).\n**분수가 있어요** = there is a fountain. **있어요** + subject marks existence: **분수가** (fountain + subject particle **가** after vowel).\n**광장에** uses **에** for static existence — the fountain simply *is* there.",
+      "englishPhrase": "There's a fountain in the square.",
+      "phrase": "광장에 분수가 있어요.",
+      "phraseRomanized": "gwangjanге bunsuga isseoyo",
+      "literal": [
+        [
+          "광장",
+          "square"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "분수",
+          "fountain"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "street",
+      "english": "Street",
+      "word": "거리",
+      "romanized": "geori",
+      "grammarNote": "**거리** (geori) means both 'street' and 'distance' — two different words written identically.\n**이 거리에 있어요** = is on this street. **에** + **있어요** for static location.\n**식당이** — subject particle **이** after consonant. The demonstrative **이** (this) comes just before the noun it modifies.",
+      "englishPhrase": "The restaurant is on this street.",
+      "phrase": "식당이 이 거리에 있어요.",
+      "phraseRomanized": "sikdangi i georie isseoyo",
+      "literal": [
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "이",
+          "this"
+        ],
+        [
+          "거리",
+          "street"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "crosswalk",
+      "english": "Crosswalk",
+      "word": "횡단보도",
+      "romanized": "hoengdanbodo",
+      "grammarNote": "**횡단보도** (hoengdanbodo) = **횡단** (橫斷, crossing/traversing) + **보도** (步道, walking path).\n**에서 건너세요** — **에서** because crossing is an action *at* the crosswalk.\n**건너세요** = please cross (polite imperative of **건너다**, to cross).",
+      "englishPhrase": "Cross at the crosswalk.",
+      "phrase": "횡단보도에서 건너세요.",
+      "phraseRomanized": "hoengdanbodoeeseo geonneoseyo",
+      "literal": [
+        [
+          "횡단보도",
+          "crosswalk"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "건너세요",
+          "please cross"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "intersection",
+      "english": "Intersection",
+      "word": "교차로",
+      "romanized": "gyocharo",
+      "grammarNote": "**교차로** (gyocharo) = **교차** (交叉, crossing/intersecting) + **로** (路, road).\n**에서** marks where the turning action happens.\n**왼쪽으로** = to the left: **왼쪽** (left side) + **으로** (direction particle, used after consonants). The particle **-(으)로** expresses direction of movement.",
+      "englishPhrase": "Turn left at the intersection.",
+      "phrase": "교차로에서 왼쪽으로 도세요.",
+      "phraseRomanized": "gyocharoeseo oenjjogeuro doseyo",
+      "literal": [
+        [
+          "교차로",
+          "intersection"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "왼쪽",
+          "left-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bridge",
+      "english": "Bridge",
+      "word": "다리",
+      "romanized": "dari",
+      "grammarNote": "**다리** (dari) is a homophone meaning both 'bridge' and 'leg'. Context makes it clear.\n**다리를 건넜어요** = crossed the bridge. **를** is the object particle after a vowel-ending word.\n**건넜어요** = past tense of **건너다** (to cross). Past tense is formed by adding **았어요/었어요** to the verb stem.",
+      "englishPhrase": "We crossed the bridge.",
+      "phrase": "다리를 건넜어요.",
+      "phraseRomanized": "darireul geonneosseoyo",
+      "literal": [
+        [
+          "다리",
+          "bridge"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "건넜어요",
+          "crossed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "corner",
+      "english": "Corner",
+      "word": "모퉁이",
+      "romanized": "motungi",
+      "grammarNote": "**모퉁이** (motungi) = corner (of a road or building).\n**에서 도세요** — **에서** marks where the turning action occurs.\n**오른쪽으로** = to the right: **오른쪽** + direction particle **으로** (after consonant). **으로** vs. **로**: use **으로** after consonants (except ㄹ), **로** after vowels or ㄹ.",
+      "englishPhrase": "Turn right at the corner.",
+      "phrase": "모퉁이에서 오른쪽으로 도세요.",
+      "phraseRomanized": "motungieseo oreunjjogeuro doseyo",
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "오른쪽",
+          "right-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "city_centre_downtown",
+      "english": "City centre",
+      "word": "시내",
+      "romanized": "sinai",
+      "grammarNote": "**시내** (sinai) = city interior/downtown; **시** (市, city) + **내** (內, inside).\n**박물관이 시내에 있어요** — location + **있어요** expresses where something is. **박물관** (bakmulgwan) = **박** (博, broad) + **물** (物, things) + **관** (館, hall) — museum.",
+      "englishPhrase": "The museum is downtown.",
+      "phrase": "박물관이 시내에 있어요.",
+      "phraseRomanized": "bakmulgwani sinaee isseoyo",
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "neighbourhood",
+      "english": "Neighbourhood",
+      "word": "동네",
+      "romanized": "dongne",
+      "grammarNote": "**동네** (dongne) = neighbourhood/local area. A warm, informal word for one's immediate community.\n**조용한 동네에 살아요** — **에 살다** = to live in/at a place. The particle **에** is used with **살다** (to live) — this is an exception where **에** (not **에서**) is used with this specific verb of residence.",
+      "englishPhrase": "I live in a quiet neighbourhood.",
+      "phrase": "조용한 동네에 살아요.",
+      "phraseRomanized": "joyonghan dongnee sarayo",
+      "literal": [
+        [
+          "조용한",
+          "quiet"
+        ],
+        [
+          "동네",
+          "neighbourhood"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ]
+    },
+    {
+      "id": "beach",
+      "english": "Beach",
+      "word": "해변",
+      "romanized": "haebyeon",
+      "grammarNote": "**해변** (haebyeon) = **해** (海, sea) + **변** (邊, edge/side). Literally 'sea-side'.\n**아름다워요** = is beautiful. Korean adjectives function directly as predicates: no need for 'is' + adjective as in English. **아름답다** (areumdapda) → **아름다워요** (irregular ㅂ conjugation).",
+      "englishPhrase": "The beach is beautiful.",
+      "phrase": "해변이 아름다워요.",
+      "phraseRomanized": "haebyeoni areumdawoyo",
+      "literal": [
+        [
+          "해변",
+          "beach"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아름다워요",
+          "beautiful"
+        ]
+      ]
+    },
+    {
+      "id": "mountain",
+      "english": "Mountain",
+      "word": "산",
+      "romanized": "san",
+      "grammarNote": "**산** (san) = mountain. Also the Hanja **山**. Korea is about 70% mountainous — hiking is one of the most popular national pastimes.\n**높아요** = is high/tall. Again, the adjective **높다** (nopda) directly functions as the predicate: **산이 높아요** = the mountain is tall. No separate 'to be' verb needed.",
+      "englishPhrase": "The mountain is very high.",
+      "phrase": "산이 매우 높아요.",
+      "phraseRomanized": "sani maeu nopayo",
+      "literal": [
+        [
+          "산",
+          "mountain"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "높아요",
+          "high"
+        ]
+      ]
+    },
+    {
+      "id": "museum",
+      "english": "Museum",
+      "word": "박물관",
+      "romanized": "bakmulgwan",
+      "grammarNote": "**방문하고 싶어요** = want to visit. The pattern **verb stem + -고 싶다** expresses desire: **가고 싶어요** (want to go), **먹고 싶어요** (want to eat), **방문하고 싶어요** (want to visit).\n**박물관을** — **을** is the object particle after a consonant-ending word.",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "박물관을 방문하고 싶어요.",
+      "phraseRomanized": "bakmulgwaneul bangmunhago sipeoyo",
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "방문하고 싶어요",
+          "want to visit"
+        ]
+      ]
+    },
+    {
+      "id": "movie_theater",
+      "english": "Movie theater",
+      "word": "영화관",
+      "romanized": "yeonghwagwan",
+      "grammarNote": "**영화관** (yeonghwagwan) = **영화** (映畫, movie/film) + **관** (館, hall/building).\n**영화관에 가요** — destination uses **에**: going *to* the cinema.\n**오늘 밤** = tonight. Time words in Korean appear at the beginning of the sentence or before the main verb, not at the end as in English.",
+      "englishPhrase": "We're going to the cinema tonight.",
+      "phrase": "오늘 밤 영화관에 가요.",
+      "phraseRomanized": "oneul bam yeonghwagwane gayo",
+      "literal": [
+        [
+          "오늘 밤",
+          "tonight"
+        ],
+        [
+          "영화관",
+          "cinema"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "map",
+      "english": "Map",
+      "word": "지도",
+      "romanized": "jido",
+      "grammarNote": "**지도** (jido) = **지** (地, earth/land) + **도** (圖, diagram/map).\n**지도 있어요?** = Do you have a map? In Korean, **있어요** covers both 'to be' (existence) and 'to have' (possession). The subject/topic is often dropped when it is clear from context — here 'you' is implied.",
+      "englishPhrase": "Do you have a map?",
+      "phrase": "지도 있어요?",
+      "phraseRomanized": "jido isseoyo",
+      "literal": [
+        [
+          "지도",
+          "map"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "Direction",
+      "word": "방향",
+      "romanized": "banghyang",
+      "grammarNote": "**방향** (banghyang) = **방** (方, direction/side) + **향** (向, facing/toward).\n**이에요** is the copula 'is/am/are' after a consonant-ending noun: **방향이에요** = is a direction.\n**어느** (eoneu) = which (of known options), used before nouns. Compare **무슨** (museun) = what kind of.",
+      "englishPhrase": "Which direction is the station?",
+      "phrase": "역은 어느 방향이에요?",
+      "phraseRomanized": "yeogeun eoneu bangyangiеyo",
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "어느",
+          "which"
+        ],
+        [
+          "방향",
+          "direction"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "distance",
+      "english": "Distance",
+      "word": "거리",
+      "romanized": "geori",
+      "grammarNote": "**거리** (geori) meaning 'distance' shares spelling with **거리** (geori) 'street' — context distinguishes them.\n**까지** (kkaji) = until/up to: **호텔까지** = to the hotel / as far as the hotel.\n**얼마예요?** = how much is it? **얼마** (eolma) = how much, **예요** = is (copula after vowel).",
+      "englishPhrase": "What's the distance to the hotel?",
+      "phrase": "호텔까지 거리가 얼마예요?",
+      "phraseRomanized": "hotelkkaji georiga eolmayeyo",
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "까지",
+          "[until]"
+        ],
+        [
+          "거리",
+          "distance"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "얼마예요",
+          "how-much is"
+        ]
+      ]
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "가다",
+      "romanized": "gada",
+      "grammarNote": "Korean verbs come at the end of the sentence.\n**가다** (to go) → **가요** in polite present tense.\nDestination uses **에**: **슈퍼에 가요** = I'm going to the supermarket.\nOpposite direction: **오다** (oda) = to come.",
+      "englishPhrase": "I'm going to the supermarket.",
+      "phrase": "슈퍼마켓에 가요.",
+      "phraseRomanized": "syupeomakete gayo",
+      "literal": [
+        [
+          "슈퍼마켓",
+          "supermarket"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "오다",
+      "romanized": "oda",
+      "grammarNote": "**오다** (oda) = to come (toward the speaker).\n**오세요** = please come (polite imperative: verb stem + **-세요**).\n**우리 집에** — **우리** (our/my) is commonly used where English says 'my': **우리 집** = my house, **우리 엄마** = my mom. Koreans say 'our' even for things only they possess.",
+      "englishPhrase": "Come to my house.",
+      "phrase": "우리 집에 오세요.",
+      "phraseRomanized": "uri jibe oseyo",
+      "literal": [
+        [
+          "우리",
+          "our"
+        ],
+        [
+          "집",
+          "home"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "오세요",
+          "please come"
+        ]
+      ]
+    },
+    {
+      "id": "to_travel",
+      "english": "To travel",
+      "word": "여행하다",
+      "romanized": "yeohaenghada",
+      "grammarNote": "**여행하다** (yeohaenghada) = **여행** (旅行, travel) + **하다** (to do). A **-하다** verb.\n**여행하는 걸 좋아해요** = I love traveling. The pattern **verb-는 것/걸 좋아하다** = to like doing something. **것** (geot) is a nominalizer turning a verb into a noun; **걸** is its contracted form used as an object.",
+      "englishPhrase": "I love to travel.",
+      "phrase": "여행하는 걸 좋아해요.",
+      "phraseRomanized": "yeohaenghaneun geol joahaeyo",
+      "literal": [
+        [
+          "여행하는 걸",
+          "traveling[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "to_walk",
+      "english": "To walk",
+      "word": "걷다",
+      "romanized": "geotda",
+      "grammarNote": "**걷다** (geotda) has an irregular ㄷ conjugation: **걷다** → **걸어요** (present), **걸어서** (walking/by walking).\n**걸어서** = by walking (means of transport). The particle **에서** on a verb stem can indicate manner/means.\n**출근하다** (chulgeunhada) = to commute/go to work. Its counterpart is **퇴근하다** = to leave work.",
+      "englishPhrase": "I walk to work every day.",
+      "phrase": "매일 걸어서 출근해요.",
+      "phraseRomanized": "maeil georeoeseo chulgeunhaeyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "걸어서",
+          "walking"
+        ],
+        [
+          "출근해요",
+          "commute"
+        ]
+      ]
+    },
+    {
+      "id": "to_drive",
+      "english": "To drive",
+      "word": "운전하다",
+      "romanized": "unjeonhada",
+      "grammarNote": "**운전하다** (unjeonhada) = **운전** (運轉, operation/driving) + **하다**. A **-하다** verb.\n**까지** (kkaji) = up to/as far as: **사무실까지** = all the way to the office.\n**운전해요** → present tense of **운전하다**: **하다** verbs conjugate as **해요** in polite present.",
+      "englishPhrase": "She drives to the office.",
+      "phrase": "그녀는 사무실까지 운전해요.",
+      "phraseRomanized": "geunyeoneun samusilkkaji unjeonhaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "까지",
+          "[until]"
+        ],
+        [
+          "운전해요",
+          "drives"
+        ]
+      ]
+    },
+    {
+      "id": "to_turn",
+      "english": "To turn",
+      "word": "돌다",
+      "romanized": "dolda",
+      "grammarNote": "**돌다** (dolda) = to turn/rotate. In directions, the honorific/polite imperative form **도세요** is used.\n**왼쪽으로** = to the left: direction particle **-(으)로** after **왼쪽** (left side). Use **으로** after consonants, **로** after vowels.\n**모퉁이에서** — **에서** marks where the turning action takes place.",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "모퉁이에서 왼쪽으로 도세요.",
+      "phraseRomanized": "motungieseo oenjjogeuro doseyo",
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "왼쪽",
+          "left-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_cross",
+      "english": "To cross",
+      "word": "건너다",
+      "romanized": "geonneoda",
+      "grammarNote": "**건너다** (geonneoda) = to cross (a road, bridge, or body of water).\n**조심해서** = carefully. **-아서/어서** attached to **조심하다** (to be careful) creates 'doing carefully'.\n**길을** — **길** (road/way) + object particle **을**. **건너세요** = please cross (polite imperative).",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "조심해서 길을 건너세요.",
+      "phraseRomanized": "josimhaeseo gireul geonneoseyo",
+      "literal": [
+        [
+          "조심해서",
+          "carefully"
+        ],
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "건너세요",
+          "please cross"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_follow",
+      "english": "To follow",
+      "word": "따라가다",
+      "romanized": "ttaragada",
+      "grammarNote": "**따라가다** (ttaragada) = **따라** (following) + **가다** (to go) — a compound verb meaning 'to follow (along)'.\n**이 거리를 따라가세요** = follow this street. **거리를** = street + object particle **를**.\n**-세요** is the polite imperative suffix, used for polite commands and requests.",
+      "englishPhrase": "Follow this street.",
+      "phrase": "이 거리를 따라가세요.",
+      "phraseRomanized": "i georireul ttaragaseyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "거리",
+          "street"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "따라가세요",
+          "please follow"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_reach",
+      "english": "To reach",
+      "word": "도착하다",
+      "romanized": "dochaghada",
+      "grammarNote": "**도착하다** (dochaghada) = to arrive/reach. **도착** (到着) = **도** (到, arrive) + **착** (着, attach/reach).\nNote: the example phrase uses **어떻게 가요?** (how do I go?) rather than **도착해요**, showing how Korean often uses the more natural phrasing.\n**역에** = to the station (destination **에**).",
+      "englishPhrase": "How do I reach the station?",
+      "phrase": "역에 어떻게 가요?",
+      "phraseRomanized": "yeoge eotteoke gayo",
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "어떻게",
+          "how"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_enter",
+      "english": "To enter",
+      "word": "들어가다",
+      "romanized": "deureogada",
+      "grammarNote": "**들어가다** (deureogada) = **들어** (entering) + **가다** (to go) — compound verb meaning 'to go in/enter'.\n**정문으로** = through/via the main door. **정문** (正門) = main gate/door. **으로** marks the means or direction of entry.\n**들어가세요** = please enter (polite imperative).",
+      "englishPhrase": "Enter through the main door.",
+      "phrase": "정문으로 들어가세요.",
+      "phraseRomanized": "jeongmuneuro deureogaseyo",
+      "literal": [
+        [
+          "정문",
+          "main-door"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "들어가세요",
+          "please enter"
+        ]
+      ]
+    },
+    {
+      "id": "to_leave",
+      "english": "To leave",
+      "word": "나가다",
+      "romanized": "nagada",
+      "grammarNote": "**나가다** (nagada) = to go out/leave (a place). Compound of **나** (out) + **가다** (go).\nNote: the phrase uses **퇴근하다** (toegeunhada) = to leave work specifically, rather than **나가다**.\n**다섯 시에** = at five o'clock. Time + **에** = at [time]. Clocks use Sino-Korean numbers: **다섯** is native Korean, but **오 시** (5 o'clock) also appears in formal contexts.",
+      "englishPhrase": "I leave work at five.",
+      "phrase": "다섯 시에 퇴근해요.",
+      "phraseRomanized": "daseot sie toegeunhaeyo",
+      "literal": [
+        [
+          "다섯 시",
+          "five o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "퇴근해요",
+          "leave-work"
+        ]
+      ]
+    },
+    {
+      "id": "to_depart",
+      "english": "To depart",
+      "word": "출발하다",
+      "romanized": "chulbalhada",
+      "grammarNote": "**출발하다** (chulbalhada) = to depart/set off. **출발** (出發) = **출** (出, exit/out) + **발** (發, send off/dispatch).\n**기차가** = the train + subject particle **가** (after vowel).\n**아홉 시에** = at nine o'clock. Hours use native Korean numbers: **하나, 둘, 셋...** up to twelve for telling time.",
+      "englishPhrase": "The train departs at nine.",
+      "phrase": "기차가 아홉 시에 출발해요.",
+      "phraseRomanized": "gichaga ahop sie chulbalhaeyo",
+      "literal": [
+        [
+          "기차",
+          "train"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아홉 시",
+          "nine o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "출발해요",
+          "departs"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_arrive",
+      "english": "To arrive",
+      "word": "도착하다",
+      "romanized": "dochaghada",
+      "grammarNote": "**도착하다** (dochaghada) = to arrive. A **-하다** verb; conjugates to **도착해요** in polite present.\n**내일 도착해요** = we arrive tomorrow. Time adverbs like **내일** (tomorrow) come before the verb.\nNote: both 'to arrive' and 'to reach' use the same Korean word **도착하다**, just as the English words are close in meaning.",
+      "englishPhrase": "We arrive tomorrow.",
+      "phrase": "내일 도착해요.",
+      "phraseRomanized": "naeil dochaghaeyo",
+      "literal": [
+        [
+          "내일",
+          "tomorrow"
+        ],
+        [
+          "도착해요",
+          "arrive"
+        ]
+      ]
+    },
+    {
+      "id": "to_visit",
+      "english": "To visit",
+      "word": "방문하다",
+      "romanized": "bangmunhada",
+      "grammarNote": "**방문하다** (bangmunhada) = to visit. **방문** (訪問) = **방** (訪, call upon) + **문** (問, inquire).\n**-고 싶어요** = want to: **방문하고 싶어요** = want to visit. This desire pattern attaches **-고 싶다** to the verb stem.\n**박물관을** = museum + object particle **을** (after consonant).",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "박물관을 방문하고 싶어요.",
+      "phraseRomanized": "bakmulgwaneul bangmunhago sipeoyo",
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "방문하고 싶어요",
+          "want to visit"
+        ]
+      ]
+    },
+    {
+      "id": "in",
+      "english": "In",
+      "word": "안에",
+      "romanized": "ane",
+      "grammarNote": "Korean location expressions use postpositions (placed after the noun).\n**안에** (inside), **위에** (on top), **아래에** (under)\n**옆에** (next to), **앞에** (in front), **뒤에** (behind)\nExistence/location: **있어요** (isseoyo).",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "열쇠가 가방 안에 있어요.",
+      "phraseRomanized": "yeolsoega gabang ane isseoyo",
+      "literal": [
+        [
+          "열쇠",
+          "keys"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "가방",
+          "bag"
+        ],
+        [
+          "안에",
+          "inside[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "on",
+      "english": "On",
+      "word": "위에",
+      "romanized": "wie",
+      "grammarNote": "**위에** (wie) = on top of / above. **위** (上/위, top/above) + **에** (location particle).\nThe structure is: subject + reference noun + **위에** + **있어요**.\n**테이블 위에 있어요** = is on the table. The reference noun (**테이블**, table) comes directly before the location word with no particle.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "책이 테이블 위에 있어요.",
+      "phraseRomanized": "chaegi teibeul wie isseoyo",
+      "literal": [
+        [
+          "책",
+          "book"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "위에",
+          "on-top[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "at",
+      "english": "At",
+      "word": "~에",
+      "romanized": "~e",
+      "grammarNote": "**~에** is the location/destination particle.\nWith **있다** (to be/exist): **사무실에 있어요** = I am at the office (static location).\nContrast with **에서**: **사무실에서 일해요** = I work at the office (action happening there).\nKey rule: static existence → **에 있어요**; active verb → **에서 [verb]**.",
+      "englishPhrase": "I'm at the office.",
+      "phrase": "사무실에 있어요.",
+      "phraseRomanized": "samusile isseoyo",
+      "literal": [
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "under",
+      "english": "Under",
+      "word": "아래에",
+      "romanized": "araee",
+      "grammarNote": "**아래에** (araee) and **밑에** (mite) both mean 'under/below'. **밑에** is slightly more colloquial.\nThe phrase uses **밑에** rather than **아래에** — both are correct but **밑에** is more common in everyday speech.\n**고양이가** = cat + subject particle **가** (after vowel). **테이블 밑에 있어요** = is under the table.",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "고양이가 테이블 밑에 있어요.",
+      "phraseRomanized": "goyang-iga teibeul mite isseoyo",
+      "literal": [
+        [
+          "고양이",
+          "cat"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "밑에",
+          "under[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "next_to",
+      "english": "Next to",
+      "word": "옆에",
+      "romanized": "yeope",
+      "grammarNote": "**옆에** (yeope) = next to / beside. **옆** = side/flank.\nStructure: subject + reference noun + **옆에** + **있어요**.\n**은행이 카페 옆에 있어요** = the bank is next to the cafe. The reference noun (**카페**) comes before the positional word with no particle between them.",
+      "englishPhrase": "The bank is next to the cafe.",
+      "phrase": "은행이 카페 옆에 있어요.",
+      "phraseRomanized": "eunhaengi kape yeope isseoyo",
+      "literal": [
+        [
+          "은행",
+          "bank"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "카페",
+          "cafe"
+        ],
+        [
+          "옆에",
+          "next-to[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "between",
+      "english": "Between",
+      "word": "사이에",
+      "romanized": "saie",
+      "grammarNote": "**사이에** (saie) = between. **사이** = gap/space between two things.\n**학교와 도서관 사이에** = between the school and the library. The connector **와/과** (and/with) links the two reference nouns: **와** after vowels, **과** after consonants.\n**공원이** = park + subject particle **이** (after consonant).",
+      "englishPhrase": "The park is between the school and the library.",
+      "phrase": "공원이 학교와 도서관 사이에 있어요.",
+      "phraseRomanized": "gongwoni hakgyowa doseogwan saie isseoyo",
+      "literal": [
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "와",
+          "[and/with]"
+        ],
+        [
+          "도서관",
+          "library"
+        ],
+        [
+          "사이에",
+          "between[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "in_front_of",
+      "english": "In front of",
+      "word": "앞에",
+      "romanized": "ape",
+      "grammarNote": "**앞에** (ape) = in front of. **앞** = front.\nStructure: subject + reference noun + **앞에** + **있어요**.\n**택시가 호텔 앞에 있어요** = the taxi is in front of the hotel. **택시가** = taxi + subject particle **가** (after vowel-ending word).",
+      "englishPhrase": "The taxi is in front of the hotel.",
+      "phrase": "택시가 호텔 앞에 있어요.",
+      "phraseRomanized": "taeksiga hotel ape isseoyo",
+      "literal": [
+        [
+          "택시",
+          "taxi"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "앞에",
+          "in-front[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "behind",
+      "english": "Behind",
+      "word": "뒤에",
+      "romanized": "dwie",
+      "grammarNote": "**뒤에** (dwie) = behind / at the back. **뒤** = back/rear.\nStructure: subject + reference noun + **뒤에** + **있어요**.\n**정원이** = garden + subject particle **이**. **정원** (庭園) = **정** (庭, courtyard) + **원** (園, garden). The suffix **-원** (園) appears in many garden-related words.",
+      "englishPhrase": "The garden is behind the house.",
+      "phrase": "정원이 집 뒤에 있어요.",
+      "phraseRomanized": "jeongwoni jip dwie isseoyo",
+      "literal": [
+        [
+          "정원",
+          "garden"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "집",
+          "house"
+        ],
+        [
+          "뒤에",
+          "behind[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "near",
+      "english": "Near",
+      "word": "가까이",
+      "romanized": "gakkai",
+      "grammarNote": "**근처에** (geuncheoe) = nearby/in the vicinity. More commonly used than **가까이에** in questions like this.\n**여기 근처에 식당이 있어요?** — note **있어요** used as a question by rising intonation alone (no question word needed).\n**있어요** covers both 'there is' and 'do you have' — a highly versatile verb.",
+      "englishPhrase": "Is there a restaurant near here?",
+      "phrase": "여기 근처에 식당이 있어요?",
+      "phraseRomanized": "yeogi geuncheoe sikdangi isseoyo",
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "근처",
+          "near"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "far",
+      "english": "Far",
+      "word": "멀리",
+      "romanized": "meolli",
+      "grammarNote": "**멀리** (meolli) = far away (adverb). The adjective form is **멀다** (meolda) = to be far.\n**공항이 멀어요?** = Is the airport far? Korean adjectives act as predicates directly: **멀어요** = is far.\nAdverb form: **멀리 있어요** (is far away). Adjective predicate: **멀어요** (is far). Both are common.",
+      "englishPhrase": "Is the airport far?",
+      "phrase": "공항이 멀어요?",
+      "phraseRomanized": "gonghangı meoreoyo",
+      "literal": [
+        [
+          "공항",
+          "airport"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "멀어요",
+          "far"
+        ]
+      ]
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "여기",
+      "romanized": "yeogi",
+      "grammarNote": "Korean has a three-way distance system:\n**여기** (here — near speaker), **거기** (there — near listener), **저기** (over there — far from both).\nThis mirrors the demonstrative system **이/그/저** (this/that/that over there).",
+      "englishPhrase": "Come here, please.",
+      "phrase": "여기 오세요.",
+      "phraseRomanized": "yeogi oseyo",
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "오세요",
+          "please come"
+        ]
+      ]
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "거기",
+      "romanized": "geogi",
+      "grammarNote": "**저기** (jeogi) = over there (far from both speaker and listener) — note the phrase uses **저기**, not **거기**.\n**거기** = there (near the listener). **저기** = over there (far from both). **여기** = here (near the speaker).\nThese three words correspond to the demonstrative adjectives: **이** (this/near speaker), **그** (that/near listener), **저** (that over there).",
+      "englishPhrase": "The taxi is over there.",
+      "phrase": "택시가 저기 있어요.",
+      "phraseRomanized": "taeksiga jeogi isseoyo",
+      "literal": [
+        [
+          "택시",
+          "taxi"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "저기",
+          "over-there"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "everywhere",
+      "english": "Everywhere",
+      "word": "어디에나",
+      "romanized": "eodiene",
+      "grammarNote": "**어디에나** (eodienа) = everywhere. **어디** (where) + **에나** (even at, wherever).\nThe **-나** suffix adds inclusivity: **어디나** = anywhere/everywhere, **언제나** = anytime/always, **누구나** = anyone/everyone.\n**관광객이 있어요** = there are tourists. **이** is the subject particle after the consonant-ending **관광객**.",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "어디에나 관광객이 있어요.",
+      "phraseRomanized": "eodiene gwangwanggaegi isseoyo",
+      "literal": [
+        [
+          "어디에나",
+          "everywhere"
+        ],
+        [
+          "관광객",
+          "tourists"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "are"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "somewhere",
+      "english": "Somewhere",
+      "word": "어딘가에",
+      "romanized": "eodingae",
+      "grammarNote": "**조용한 곳으로 가요** = let's go to a quiet place. The phrase uses **곳** (place) rather than **어딘가에** (somewhere).\n**곳으로** = toward the place: direction particle **으로** after consonant-ending **곳**.\n**조용한** = quiet (adjective modifying **곳**). Adjectives precede the nouns they modify, just as in English.",
+      "englishPhrase": "Let's go somewhere quiet.",
+      "phrase": "조용한 곳으로 가요.",
+      "phraseRomanized": "joyonghan goseuro gayo",
+      "literal": [
+        [
+          "조용한",
+          "quiet"
+        ],
+        [
+          "곳",
+          "place"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "nowhere",
+      "english": "Nowhere",
+      "word": "아무 데도 없는",
+      "romanized": "amu dedo eomneun",
+      "grammarNote": "**앉을 자리가 없어요** = there is nowhere to sit. **없어요** (eopseoyo) = there is not / does not exist — the negative of **있어요**.\n**앉을** = verb-modifier form of **앉다** (to sit): 'a seat for sitting'. The **-(으)ㄹ** modifier expresses future/potential action on the following noun.\n**자리가** = seat + subject particle **가**.",
+      "englishPhrase": "There is nowhere to sit.",
+      "phrase": "앉을 자리가 없어요.",
+      "phraseRomanized": "anjeul jariga eopseoyo",
+      "literal": [
+        [
+          "앉을",
+          "sit-able"
+        ],
+        [
+          "자리",
+          "seat"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "없어요",
+          "isn't"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "left",
+      "english": "Left",
+      "word": "왼쪽",
+      "romanized": "oenjjok",
+      "grammarNote": "**왼쪽** (oenjjok) = left side. **왼** = left, **쪽** = side/direction.\n**왼쪽으로** = to the left. Direction particle **으로** after consonant.\nDirectional pairs: **왼쪽** (left) ↔ **오른쪽** (right); **앞** (front) ↔ **뒤** (back); **위** (up) ↔ **아래/밑** (down/below).",
+      "englishPhrase": "Turn left.",
+      "phrase": "왼쪽으로 도세요.",
+      "phraseRomanized": "oenjjogeuro doseyo",
+      "literal": [
+        [
+          "왼쪽",
+          "left-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "english": "Right",
+      "word": "오른쪽",
+      "romanized": "oreunjjok",
+      "grammarNote": "**오른쪽** (oreunjjok) = right side. **오른** = right, **쪽** = side/direction.\n**오른쪽으로** = to the right. Direction particle **으로** after consonant.\nNote: **오른쪽** is the standard word; **우측** (右側) is a more formal/Hanja-based synonym seen on signs.",
+      "englishPhrase": "Turn right.",
+      "phrase": "오른쪽으로 도세요.",
+      "phraseRomanized": "oreunjjogeuro doseyo",
+      "literal": [
+        [
+          "오른쪽",
+          "right-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ]
+    },
+    {
+      "id": "straight_ahead",
+      "english": "Straight (ahead)",
+      "word": "직진",
+      "romanized": "jikjin",
+      "grammarNote": "**직진** (jikjin) = **직** (直, straight) + **진** (進, advance/proceed). A Hanja compound.\n**직진하세요** = please go straight: **직진** + **하다** + polite imperative **-세요**.\nThis is the standard instruction for 'go straight' when giving directions — you'll hear it often from navigation apps.",
+      "englishPhrase": "Go straight ahead.",
+      "phrase": "직진하세요.",
+      "phraseRomanized": "jikjinhaseyo",
+      "literal": [
+        [
+          "직진하세요",
+          "please go-straight"
+        ]
+      ]
+    },
+    {
+      "id": "north",
+      "english": "North",
+      "word": "북쪽",
+      "romanized": "bukjjok",
+      "grammarNote": "**북쪽** (bukjjok) = north side/direction. **북** (北, north) + **쪽** (side).\nCardinal directions: **북쪽** (north), **남쪽** (south), **동쪽** (east), **서쪽** (west).\n**도시는 북쪽에 있어요** — **은** is the topic particle, contrasting 'the city' with other subjects. **에 있어요** = is located at.",
+      "englishPhrase": "The city is to the north.",
+      "phrase": "도시는 북쪽에 있어요.",
+      "phraseRomanized": "dosineun bukjjoge isseoyo",
+      "literal": [
+        [
+          "도시",
+          "city"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "북쪽",
+          "north-side"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "south",
+      "english": "South",
+      "word": "남쪽",
+      "romanized": "namjjok",
+      "grammarNote": "**남쪽** (namjjok) = south side. **남** (南, south) + **쪽** (side).\n**해변은 남쪽에 있어요** — topic particle **은** after **해변** (beach, consonant ending).\nThe topic particle **은/는** often implies contrast or a new topic; the subject particle **이/가** marks the grammatical subject more neutrally.",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "해변은 남쪽에 있어요.",
+      "phraseRomanized": "haebyeoneun namjjoge isseoyo",
+      "literal": [
+        [
+          "해변",
+          "beach"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "남쪽",
+          "south-side"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "east",
+      "english": "East",
+      "word": "동쪽",
+      "romanized": "dongjjok",
+      "grammarNote": "**동쪽** (dongjjok) = east side. **동** (東, east) + **쪽** (side).\n**동쪽에서 떠요** — **에서** here marks the source/starting point of movement: the sun rises *from* the east.\nThis is one use of **에서** as 'from' (source), not just 'action location'. **떠요** = rises (from **뜨다**, to float up/rise).",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "태양은 동쪽에서 떠요.",
+      "phraseRomanized": "taeyyangeun dongjjogeseo tteoyo",
+      "literal": [
+        [
+          "태양",
+          "sun"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "동쪽",
+          "east-side"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "떠요",
+          "rises"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "west",
+      "english": "West",
+      "word": "서쪽",
+      "romanized": "seojjok",
+      "grammarNote": "**서쪽** (seojjok) = west side. **서** (西, west) + **쪽** (side).\n**서쪽으로 져요** — direction particle **으로** indicates the direction of setting. **지다** (jida) = to set (of the sun) / to sink.\nContrast: **뜨다** (rise) ↔ **지다** (set) — the pairing for the sun's movement.",
+      "englishPhrase": "The sun sets in the west.",
+      "phrase": "태양은 서쪽으로 져요.",
+      "phraseRomanized": "taeyyangeun seojjogeuro jyeoyo",
+      "literal": [
+        [
+          "태양",
+          "sun"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "서쪽",
+          "west-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "져요",
+          "sets"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_live",
+      "english": "To live",
+      "word": "살다",
+      "romanized": "salda",
+      "grammarNote": "**살다** (salda) = to live/reside. Uses **에** (not **에서**) for location: **시내 근처에 살아요** = I live near downtown.\nThis is a key exception: **살다** takes **에** even though living is an ongoing state, not just a destination.\n**근처에** (geuncheoe) = nearby/in the vicinity.",
+      "englishPhrase": "I live near the city centre.",
+      "phrase": "시내 근처에 살아요.",
+      "phraseRomanized": "sinai geuncheoe sarayo",
+      "literal": [
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "근처에",
+          "near[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_stay",
+      "english": "To stay",
+      "word": "머물다",
+      "romanized": "meomulda",
+      "grammarNote": "**묵다** (mukda) is the more natural verb for staying at a hotel — **머물다** is slightly more formal/literary.\n**호텔에 묵고 있어요** = we are staying at the hotel (ongoing action). **-고 있어요** = progressive aspect: 'currently doing'.\n**에** is used with **묵다** (like **살다**) for the location of residence.",
+      "englishPhrase": "We're staying at a hotel.",
+      "phrase": "호텔에 묵고 있어요.",
+      "phraseRomanized": "hotele mukgo isseoyo",
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "묵고 있어요",
+          "staying"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_wait",
+      "english": "To wait",
+      "word": "기다리다",
+      "romanized": "gidarida",
+      "grammarNote": "**기다리다** (gidarida) = to wait.\n**여기서** = here + abbreviated **에서** (**서**). Short forms: **여기서** (here), **거기서** (there), **저기서** (over there).\n**기다릴게요** = I will wait. The ending **-ㄹ/을게요** expresses a volitional promise or intention about the future: 'I will (do something)'.",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "여기서 기다릴게요.",
+      "phraseRomanized": "yeogiseo gidarilgeyo",
+      "literal": [
+        [
+          "여기서",
+          "here[at/from]"
+        ],
+        [
+          "기다릴게요",
+          "will wait"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "만나다",
+      "romanized": "mannada",
+      "grammarNote": "**만나다** (mannada) = to meet.\n**공원에서 만나요** — **에서** because meeting is an action happening at the location, not a destination.\n**만나요** can function as both a statement ('we meet') and a suggestion ('let's meet') depending on context and intonation. Context makes the meaning clear.",
+      "englishPhrase": "Let's meet at the park.",
+      "phrase": "공원에서 만나요.",
+      "phraseRomanized": "gongwoneseo mannayo",
+      "literal": [
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ]
+    },
+    {
+      "id": "to_get_lost",
+      "english": "To get lost",
+      "word": "길을 잃다",
+      "romanized": "gireul ilta",
+      "grammarNote": "**길을 잃다** (gireul ilta) = to lose the road/way. Literally 'to lose the road'.\n**-지 마세요** = please don't [verb]. Negative polite imperative: **verb stem + -지 말다** → **-지 마세요** in polite form.\n**길을 잃지 마세요** = Don't get lost! **잃다** (ilta) = to lose (an ㅎ-irregular verb in some contexts).",
+      "englishPhrase": "Don't get lost!",
+      "phrase": "길을 잃지 마세요!",
+      "phraseRomanized": "gireul ilji maseyo",
+      "literal": [
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잃지",
+          "lose[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
+    },
+    {
+      "id": "to_find",
+      "english": "To find",
+      "word": "찾다",
+      "romanized": "chatda",
+      "grammarNote": "**찾다** (chatda) = to find / to look for (context determines which).\n**못 찾겠어요** = can't find. **못** (mot) before a verb = inability: 'cannot [verb]'. **못 가요** (can't go), **못 먹어요** (can't eat).\nCompare: **안** (an) = won't/doesn't (volitional); **못** (mot) = can't (inability).",
+      "englishPhrase": "I can't find the hotel.",
+      "phrase": "호텔을 못 찾겠어요.",
+      "phraseRomanized": "hoteleul mot chatgesseoyo",
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "찾겠어요",
+          "find"
+        ]
+      ]
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "찾다",
+      "romanized": "chatda",
+      "grammarNote": "**찾다** (chatda) also means 'to look for / to search for' — the same verb as 'to find'.\n**찾고 있어요** = am looking for (progressive). The pattern **verb stem + -고 있어요** = currently doing: **먹고 있어요** (eating), **공부하고 있어요** (studying), **찾고 있어요** (looking for).\n**약국을** = pharmacy + object particle **을** (after consonant).",
+      "englishPhrase": "I'm looking for the pharmacy.",
+      "phrase": "약국을 찾고 있어요.",
+      "phraseRomanized": "yakguk-eul chatgo isseoyo",
+      "literal": [
+        [
+          "약국",
+          "pharmacy"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "찾고 있어요",
+          "looking for"
+        ]
+      ]
+    },
+    {
+      "id": "to_head",
+      "english": "To head",
+      "word": "향하다",
+      "romanized": "hyanghada",
+      "grammarNote": "**향하다** (hyanghada) = to face toward / head in a direction. **향** (向) = direction/facing.\n**역을 향해 가세요** = head toward the station. **향해** = toward (gerund of **향하다**).\n**역을** = station + object particle **을**. Then **향해 가세요** = please go toward.",
+      "englishPhrase": "Head towards the station.",
+      "phrase": "역을 향해 가세요.",
+      "phraseRomanized": "yeogeul hyanghae gaseyo",
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "향해",
+          "toward"
+        ],
+        [
+          "가세요",
+          "please go"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_continue",
+      "english": "To continue",
+      "word": "계속하다",
+      "romanized": "gyesokhada",
+      "grammarNote": "**계속** (gyesok) = continuously/in a row. Functions as both an adverb and a noun.\n**계속 직진하세요** = continue straight ahead: **계속** (adverb 'continuously') + **직진하세요** (please go straight).\n**계속하다** (gyesokhada) = to continue. The adverb **계속** appears very often in everyday speech: **계속 말해요** (keep talking), **계속 해요** (keep going).",
+      "englishPhrase": "Continue straight ahead.",
+      "phrase": "계속 직진하세요.",
+      "phraseRomanized": "gyesok jikjinhaseyo",
+      "literal": [
+        [
+          "계속",
+          "continuously"
+        ],
+        [
+          "직진하세요",
+          "please go-straight"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_stop",
+      "english": "To stop",
+      "word": "멈추다",
+      "romanized": "meomchuda",
+      "grammarNote": "**멈추다** (meomchuda) = to stop (motion/activity).\n**모퉁이에서 멈추세요** — **에서** marks where the stopping action occurs.\n**멈추세요** = please stop (polite imperative). Another word for stop is **서다** (seoda), which is often used for vehicles: **차가 섰어요** (the car stopped).",
+      "englishPhrase": "Stop at the corner.",
+      "phrase": "모퉁이에서 멈추세요.",
+      "phraseRomanized": "motungieseo meomchuseyo",
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "멈추세요",
+          "please stop"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_park",
+      "english": "To park",
+      "word": "주차하다",
+      "romanized": "juchahada",
+      "grammarNote": "**주차하다** (juchahada) = to park (a vehicle). **주차** (駐車) = **주** (駐, to be stationed) + **차** (車, vehicle).\n**주차할 수 있어요?** = can park? The pattern **verb-ㄹ/을 수 있다** = can/is able to. **주차할 수 없어요** = cannot park.\n**어디에** = where + **에** (destination/location particle).",
+      "englishPhrase": "Where can I park?",
+      "phrase": "어디에 주차할 수 있어요?",
+      "phraseRomanized": "eodie juchahal su isseoyo",
+      "literal": [
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "주차할 수 있어요",
+          "park can"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_book_to_reserve",
+      "english": "To book",
+      "word": "예약하다",
+      "romanized": "yeyakhada",
+      "grammarNote": "**예약하다** (yeyakhada) = to reserve/book. **예약** (豫約) = **예** (豫, in advance) + **약** (約, promise/arrange).\n**예약했어요** = reserved (past tense). **하다** verbs form past tense by adding **했어요** (changed from **하였어요**).\n**방을** = room + object particle **을** (after consonant).",
+      "englishPhrase": "I booked a room.",
+      "phrase": "방을 예약했어요.",
+      "phraseRomanized": "bang-eul yeyakhaesseoyo",
+      "literal": [
+        [
+          "방",
+          "room"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "예약했어요",
+          "reserved"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_check_in",
+      "english": "To check in",
+      "word": "체크인하다",
+      "romanized": "chekeuin-hada",
+      "grammarNote": "**체크인하다** (chekeuinhada) = to check in. Loanword **체크인** (check-in) + **하다**.\n**세 시에** = at three o'clock. Hours of the day use native Korean numbers: **하나 시** (1 o'clock), **두 시** (2), **세 시** (3), **네 시** (4), etc.\n**체크인했어요** = checked in (past tense of a **하다** verb).",
+      "englishPhrase": "We checked in at three.",
+      "phrase": "세 시에 체크인했어요.",
+      "phraseRomanized": "se sie chekeuinhaesseoyo",
+      "literal": [
+        [
+          "세 시",
+          "three o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "체크인했어요",
+          "checked-in"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "to_check_out",
+      "english": "To check out",
+      "word": "체크아웃하다",
+      "romanized": "chekeuauthada",
+      "grammarNote": "**체크아웃** (chekeua-ut) = check-out. Another loanword + **하다** verb.\n**열한 시예요** = it is eleven o'clock. **열한** = eleven (native Korean: **열** = ten + **한** = one). Time: native Korean numbers for hours, Sino-Korean for minutes.\n**은** is the topic particle here (after consonant **체크아웃**), marking 'check-out' as the topic of discussion.",
+      "englishPhrase": "Check out is at eleven.",
+      "phrase": "체크아웃은 열한 시예요.",
+      "phraseRomanized": "chekeuaouteun yeolhan siyeyo",
+      "literal": [
+        [
+          "체크아웃",
+          "check-out"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "열한 시",
+          "eleven o'clock"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "nearby",
+      "english": "Nearby",
+      "word": "근처에",
+      "romanized": "geuncheoe",
+      "grammarNote": "**근처에** (geuncheoe) = nearby / in the vicinity. **근처** (近處) = **근** (近, close) + **처** (處, place).\n**근처에 약국이 있어요?** = Is there a pharmacy nearby? **있어요** covers both 'there is' and 'is there' (question by intonation).\n**약국** (yakguk) = pharmacy: **약** (藥, medicine) + **국** (局, bureau/office).",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "근처에 약국이 있어요?",
+      "phraseRomanized": "geuncheoe yakgugi isseoyo",
+      "literal": [
+        [
+          "근처에",
+          "nearby[at/to]"
+        ],
+        [
+          "약국",
+          "pharmacy"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "busy_crowded",
+      "english": "Busy",
+      "word": "복잡한",
+      "romanized": "bokjaphan",
+      "grammarNote": "**붐벼요** = is crowded/bustling — from **붐비다** (bumbyida). **복잡해요** would mean 'is complicated/congested'.\nNote: the example uses **붐벼요** (physically crowded with people) rather than **복잡해요** (congested/complex).\n**시장이** = market + subject particle **이**. Korean adjectives directly predicate: no separate 'is' needed.",
+      "englishPhrase": "The market is very crowded.",
+      "phrase": "시장이 매우 붐벼요.",
+      "phraseRomanized": "sijangi maeu bumbeoyo",
+      "literal": [
+        [
+          "시장",
+          "market"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "붐벼요",
+          "crowded"
+        ]
+      ]
+    },
+    {
+      "id": "quiet",
+      "english": "Quiet",
+      "word": "조용한",
+      "romanized": "joyonghan",
+      "grammarNote": "**조용한** (joyonghan) = quiet (adjective modifier form of **조용하다**).\nPredicate form: **조용해요** (is quiet). Modifier form: **조용한** + noun (quiet neighbourhood).\n**더 좋아해요** = like more/prefer: **더** = more + **좋아해요** = like. Simple comparative in Korean: **A보다 B를 더 좋아해요** = prefer B to A.",
+      "englishPhrase": "I prefer a quiet neighbourhood.",
+      "phrase": "조용한 동네를 더 좋아해요.",
+      "phraseRomanized": "joyonghan dongnereul deo joahaeyo",
+      "literal": [
+        [
+          "조용한",
+          "quiet"
+        ],
+        [
+          "동네",
+          "neighbourhood"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "더",
+          "more"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "lost",
+      "english": "Lost",
+      "word": "길을 잃은",
+      "romanized": "gireul ilheun",
+      "grammarNote": "**길을 잃었어요** = I got lost. Literally 'I lost the road'.\n**잃었어요** = lost (past tense of **잃다**, to lose). The **었** past tense marker attaches after stems ending in non-ㅏ/ㅗ vowels.\n**길** (gil) = road/way — also used metaphorically: **인생의 길** (the road of life). Getting lost in Korean is always expressed with **길** (road), not a vague 'direction'.",
+      "englishPhrase": "I'm lost.",
+      "phrase": "길을 잃었어요.",
+      "phraseRomanized": "gireul ilheosseoyo",
+      "literal": [
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잃었어요",
+          "lost"
+        ]
+      ]
+    }
+  ]
+}

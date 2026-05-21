@@ -1,0 +1,2306 @@
+{
+  "id": "everyday_phrases",
+  "name": "Everyday Phrases",
+  "language": "japanese",
+  "stories": [
+    "meet_jeff",
+    "meet_seth",
+    "bad_bunny",
+    "making_plans",
+    "meeting_a_friend",
+    "morning_routine"
+  ],
+  "pictureLessons": [
+    "everyday_phrases_01"
+  ],
+  "grammarLessons": [
+    {
+      "id": "numbers",
+      "name": "Numbers & Counters"
+    },
+    {
+      "id": "time_words",
+      "name": "Time Words & Days"
+    },
+    {
+      "id": "wa_desu",
+      "name": "は + です — Topic & Polite Be"
+    },
+    {
+      "id": "ka_questions",
+      "name": "Questions with か"
+    },
+    {
+      "id": "i_adjectives",
+      "name": "い Adjectives"
+    },
+    {
+      "id": "masu_form",
+      "name": "〜ます Verb Form"
+    },
+    {
+      "id": "past_tense_masu",
+      "name": "〜ました — Polite Past Tense"
+    },
+    {
+      "id": "negation_masen",
+      "name": "〜ません — Polite Negative"
+    },
+    {
+      "id": "kara_node",
+      "name": "〜から / 〜ので — Because"
+    },
+    {
+      "id": "plain_form",
+      "name": "Plain Form — Casual Speech"
+    },
+    {
+      "id": "word_patterns",
+      "name": "Word Patterns"
+    }
+  ],
+  "cards": [
+    {
+      "id": "hello",
+      "english": "Hello",
+      "word": "こんにちは",
+      "romanized": "konnichiwa",
+      "grammarNote": "**こんにちは** is the standard daytime greeting. Literally it traces back to 'as for today...', a fixed phrase.\n**お元気ですか** (o-genki desu ka) = how are you? **お** is an honorific prefix; **元気** (genki) = energy/health.\n**か** at the end turns any statement into a question — no change in word order needed.",
+      "englishPhrase": "Hello! How are you?",
+      "phrase": "こんにちは！お元気ですか？",
+      "phraseRomanized": "Konnichiwa! O-genki desu ka?",
+      "literal": [
+        [
+          "こんにちは",
+          "hello"
+        ],
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "please",
+      "english": "Please",
+      "word": "お願いします",
+      "romanized": "onegaishimasu",
+      "grammarNote": "**お願いします** = please (making a general request).\n**ください** = please give me (asking for a specific thing).\nFor actions: **〜てください** — **待ってください** (please wait).",
+      "englishPhrase": "A coffee, please.",
+      "phrase": "コーヒーをお願いします。",
+      "phraseRomanized": "Kōhī wo onegaishimasu.",
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "thank_you",
+      "english": "Thank you",
+      "word": "ありがとうございます",
+      "romanized": "arigatou gozaimasu",
+      "grammarNote": "**ありがとうございます** = polite 'thank you'. **ありがとう** alone is casual.\n**どうも** (dōmo) can stand alone informally, or strengthen: **どうもありがとうございます**.\nFor past favours: **ありがとうございました** (past tense form).",
+      "englishPhrase": "Thank you very much.",
+      "phrase": "どうもありがとうございます。",
+      "phraseRomanized": "Dōmo arigatou gozaimasu."
+    },
+    {
+      "id": "i_want",
+      "english": "I want",
+      "word": "〜がほしい",
+      "romanized": "~ ga hoshii",
+      "grammarNote": "Wanting a thing: **〜がほしい** — **コーヒーがほしい** (I want coffee).\nWanting to do something: **〜たい** (verb stem) — **食べたい** (I want to eat).\nFor third-person wants, use **〜たがっている** instead.",
+      "englishPhrase": "I want a coffee.",
+      "phrase": "コーヒーがほしいです。",
+      "phraseRomanized": "Kōhī ga hoshii desu.",
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ほしい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "i_need",
+      "english": "I need",
+      "word": "〜が必要です",
+      "romanized": "~ ga hitsuyou desu",
+      "grammarNote": "**必要** (hitsuyō) is a な-adjective meaning 'necessary'. The thing needed takes **が**: **助けが必要** (help is needed).\n**必** = hitsu (must) + **要** = yō (require). Compare: **〜がほしい** (I want [a thing]) vs **〜が必要** (I need [a thing]).",
+      "englishPhrase": "I need help.",
+      "phrase": "助けが必要です。",
+      "phraseRomanized": "Tasuke ga hitsuyou desu.",
+      "literal": [
+        [
+          "助け",
+          "help"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "my_name_is",
+      "english": "My name is",
+      "word": "〜と申します",
+      "romanized": "~ to moushimasu",
+      "grammarNote": "**〜と申します** (to moushimasu) = humble/formal self-introduction.\n**私の名前は〜です** = neutral. Casual: **〜といいます** (to iimasu).",
+      "englishPhrase": "My name is Tanaka.",
+      "phrase": "私の名前は田中です。",
+      "phraseRomanized": "Watashi no namae wa Tanaka desu.",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "名前",
+          "name"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "i",
+      "english": "I",
+      "word": "私",
+      "romanized": "watashi",
+      "grammarNote": "**私** (watashi) is gender-neutral and polite.\nMen in casual speech often use **僕** (boku) or **俺** (ore).\nSubject pronouns are frequently dropped when context is clear.",
+      "englishPhrase": "I am a student.",
+      "phrase": "私は学生です。",
+      "phraseRomanized": "Watashi wa gakusei desu.",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学生",
+          "student"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "you",
+      "english": "You",
+      "word": "あなた",
+      "romanized": "anata",
+      "grammarNote": "**あなた** (anata) can sound cold or presumptuous in direct address.\nPrefer using the person's name + **さん** instead. Drop 'you' entirely when context is clear.",
+      "englishPhrase": "You speak Japanese well.",
+      "phrase": "日本語がお上手ですね。",
+      "phraseRomanized": "Nihongo ga o-jouzu desu ne.",
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "お上手",
+          "honorable-skilled"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
+    },
+    {
+      "id": "he",
+      "english": "He",
+      "word": "彼",
+      "romanized": "kare",
+      "grammarNote": "**彼** (kare) = he, but also 'boyfriend' in modern casual use.\n**彼女** (kanojo) = she/girlfriend. Pronouns are frequently dropped in Japanese when context is clear.\n**友達** (tomodachi) = friend: **友** (tomo, friend) + **達** (tachi, pluralizing suffix).",
+      "englishPhrase": "He is my friend.",
+      "phrase": "彼は私の友達です。",
+      "phraseRomanized": "Kare wa watashi no tomodachi desu.",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "she",
+      "english": "She",
+      "word": "彼女",
+      "romanized": "kanojo",
+      "grammarNote": "**彼女** (kanojo) = she, or 'girlfriend' in context.\n**〜ています** (te imasu) expresses an ongoing state or action: **働いています** (is working / has been working).\n**で** (de) marks where an action takes place: **ここで働く** (work here) vs **ここにいる** (be at here).",
+      "englishPhrase": "She works here.",
+      "phrase": "彼女はここで働いています。",
+      "phraseRomanized": "Kanojo wa koko de hataraite imasu.",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "good_night",
+      "english": "Good night",
+      "word": "おやすみなさい",
+      "romanized": "oyasuminasai",
+      "grammarNote": "**おやすみなさい** = formal good night; **おやすみ** = casual.\n**眠れますように** (nemuremasuyo ni) = 'may you sleep well' — the ように pattern expresses a wish or prayer.\n**よく** (yoku) = well/often, the adverb form of **良い** (yoi/ii, good).",
+      "englishPhrase": "Good night! Sleep well.",
+      "phrase": "おやすみなさい。よく眠れますように。",
+      "phraseRomanized": "Oyasuminasai. Yoku nemuremasuyo ni.",
+      "literal": [
+        [
+          "おやすみなさい",
+          "good night"
+        ],
+        [
+          "よく",
+          "well"
+        ],
+        [
+          "眠れますように",
+          "may you sleep"
+        ]
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "english": "How are you?",
+      "word": "お元気ですか",
+      "romanized": "o-genki desu ka",
+      "grammarNote": "**お元気ですか** (o-genki desu ka) = How are you? (polite).\n**お** is an honorific prefix. The response is **元気です** (genki desu) — I'm fine.",
+      "englishPhrase": "How are you? I'm fine, thank you.",
+      "phrase": "お元気ですか？元気です、ありがとう。",
+      "phraseRomanized": "O-genki desu ka? Genki desu, arigatō.",
+      "literal": [
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you",
+      "word": "はじめまして",
+      "romanized": "hajimemashite",
+      "grammarNote": "**はじめまして** = nice to meet you (said at first meeting).\nUsually followed by **どうぞよろしくお願いします** (douzo yoroshiku onegaishimasu) = please treat me well / I'm in your care.",
+      "englishPhrase": "Nice to meet you. I'm Tanaka.",
+      "phrase": "はじめまして。田中と申します。",
+      "phraseRomanized": "Hajimemashite. Tanaka to moushimasu.",
+      "literal": [
+        [
+          "はじめまして",
+          "first-time-meeting"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "と申します",
+          "am called"
+        ]
+      ]
+    },
+    {
+      "id": "youre_welcome",
+      "english": "You're welcome",
+      "word": "どういたしまして",
+      "romanized": "dou itashimashite",
+      "grammarNote": "**どういたしまして** = 'you're welcome / not at all'. Literally: 'how could I have done [anything worthy of thanks]?'\nMore casual alternatives: **いいえ** (iie, no/not at all) or simply repeating **大丈夫です** (daijoubu desu, it's fine).",
+      "englishPhrase": "You're welcome! It was nothing.",
+      "phrase": "どういたしまして。",
+      "phraseRomanized": "Dō itashimashite.",
+      "literal": [
+        [
+          "どういたしまして",
+          "not at all / you're welcome"
+        ]
+      ]
+    },
+    {
+      "id": "it",
+      "hidden": true,
+      "english": "It",
+      "word": "それ",
+      "romanized": "sore",
+      "grammarNote": "Japanese has no true 'it'. Use **それ** (sore) for things near the listener, **あれ** (are) for things far from both, **これ** (kore) for things near the speaker.\nOften, drop the pronoun entirely.",
+      "englishPhrase": "What is that?",
+      "phrase": "それは何ですか？",
+      "phraseRomanized": "Sore wa nan desu ka?",
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "何",
+          "what"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "we",
+      "english": "We",
+      "word": "私たち",
+      "romanized": "watashitachi",
+      "grammarNote": "**私たち** (watashitachi) = we. **たち** is a pluralizing suffix for people: **友達たち** (friends), **子供たち** (children).\n**住んでいます** (sunde imasu) = living (ongoing state): **住む** (sumu, to live/reside) in て-form + **いる**.\n**に** here marks destination/location of existence: **ここに住む** (live here).",
+      "englishPhrase": "We live here.",
+      "phrase": "私たちはここに住んでいます。",
+      "phraseRomanized": "Watashitachi wa koko ni sunde imasu.",
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "they",
+      "english": "They",
+      "word": "彼ら",
+      "romanized": "karera",
+      "grammarNote": "**彼ら** (karera) = they (mixed or male group). **彼女たち** (kanojotachi) = they (female group).\n**一緒に** (issho ni) = together, always placed before the verb.\n**食べます** (tabemasu) = the polite form of **食べる** (taberu, to eat): **食** is **ta** (kun'yomi) here.",
+      "englishPhrase": "They eat together.",
+      "phrase": "彼らは一緒に食べます。",
+      "phraseRomanized": "Karera wa issho ni tabemasu.",
+      "literal": [
+        [
+          "彼ら",
+          "they"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "一緒に",
+          "together"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "this",
+      "english": "This",
+      "word": "これ",
+      "romanized": "kore",
+      "grammarNote": "**これ** (kore) = this thing (stands alone). **この** (kono) = this + noun: **この本** (this book).\nSame pattern: **それ**/**その** (that, near listener); **あれ**/**あの** (that, far from both).",
+      "englishPhrase": "This book is good.",
+      "phrase": "この本はいいです。",
+      "phraseRomanized": "Kono hon wa ii desu.",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "that",
+      "english": "That",
+      "word": "それ",
+      "romanized": "sore",
+      "grammarNote": "**それ** = that (standalone pronoun, near listener). Before a noun, use **その**: **その人** (that person).\n**あの** is used for people/things far from both speakers, often with a warm/familiar nuance: **あの人** = that person over there.\n**の** (no) here connects nouns as possessive: **私の友達** (my friend).",
+      "englishPhrase": "That person is my friend.",
+      "phrase": "あの人は私の友達です。",
+      "phraseRomanized": "Ano hito wa watashi no tomodachi desu.",
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "my",
+      "english": "My",
+      "word": "私の",
+      "romanized": "watashi no",
+      "grammarNote": "**の** (no) is the possessive particle — it connects two nouns: **私の名前** (my name), **田中さんの本** (Tanaka's book).\n**名前** (namae) = name: **名** (mei/na, name) + **前** (mae, before/front) — think 'the name that goes in front'.\n**は** sets **名前** as the topic of the sentence.",
+      "englishPhrase": "My name is Tanaka.",
+      "phrase": "私の名前は田中です。",
+      "phraseRomanized": "Watashi no namae wa Tanaka desu.",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "名前",
+          "name"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "who",
+      "english": "Who",
+      "word": "誰",
+      "romanized": "dare",
+      "grammarNote": "**誰** (dare) = who (neutral). More polite: **どなた** (donata).\nIn questions, the question word takes the same particle as the noun it replaces: **あの人は誰ですか** — **人** is the topic, so **誰** also follows **は** as the topic slot.\nNo inversion needed — question words stay in place.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "あの人は誰ですか？",
+      "phraseRomanized": "Ano hito wa dare desu ka?",
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "誰",
+          "who"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "what",
+      "english": "What",
+      "word": "何",
+      "romanized": "nani",
+      "grammarNote": "**何** reads **nani** in isolation or before consonants; becomes **nan** before **です** or **で**: **何ですか** (nan desu ka).\n**ほしい** (hoshii) = wanted/desired — an い-adjective. The desired thing takes **が**.\nThis uses the same **〜がほしい** pattern as the 'I want' card.",
+      "englishPhrase": "What do you want?",
+      "phrase": "何がほしいですか？",
+      "phraseRomanized": "Nani ga hoshii desu ka?",
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ほしい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "when",
+      "english": "When",
+      "word": "いつ",
+      "romanized": "itsu",
+      "grammarNote": "**いつ** = when (question word). Like all Japanese question words, it stays in the same sentence position as the answer would occupy.\n**来ます** (kimasu) = polite form of **来る** (kuru, to come) — an irregular verb.\nTime-question words: **いつ** (when), **どのくらい** (how long), **何時** (nanji, what time).",
+      "englishPhrase": "When are you coming?",
+      "phrase": "いつ来ますか？",
+      "phraseRomanized": "Itsu kimasu ka?",
+      "literal": [
+        [
+          "いつ",
+          "when"
+        ],
+        [
+          "来ますか",
+          "come?"
+        ]
+      ]
+    },
+    {
+      "id": "where",
+      "english": "Where",
+      "word": "どこ",
+      "romanized": "doko",
+      "grammarNote": "**どこ** = where. **お手洗い** (otearai) = restroom, literally 'honorable hand-wash' — a polite term.\nAlternatives: **トイレ** (toire, toilet, casual) or **手洗い** (tearai, without the honorific お).\n**どこですか** = where is it? The structure is simply [topic] + **は** + **どこ** + **です** + **か**.",
+      "englishPhrase": "Where is the restroom?",
+      "phrase": "お手洗いはどこですか？",
+      "phraseRomanized": "Otearai wa doko desu ka?",
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "english": "Why",
+      "word": "なぜ",
+      "romanized": "naze",
+      "grammarNote": "**なぜ** = why (formal/written). **どうして** = why (conversational). **なんで** = why (very casual).\n**〜られない** is the potential negative: **来られない** = cannot come (from **来る** → potential **来られる** → negative **来られない**).\n**んです** (n desu) adds an explanatory tone: 'why is it that you can't come?'",
+      "englishPhrase": "Why can't you come?",
+      "phrase": "どうして来られないんですか？",
+      "phraseRomanized": "Doushite korarenai n desu ka?",
+      "literal": [
+        [
+          "どうして",
+          "why"
+        ],
+        [
+          "来られない",
+          "cannot come"
+        ],
+        [
+          "ん",
+          "[explanatory]"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "how",
+      "english": "How",
+      "word": "どうやって",
+      "romanized": "dōyatte",
+      "grammarNote": "**どうやって** (dōyatte) = how (by what method). **どう** alone = how/in what way. **やって** is the te-form of **やる** (to do).\nFor 'how are you', use **お元気ですか** — not どうやって.\nOther 'how' words: **いかが** (ikaga, polite 'how/would you like'), **どれくらい** (how much/many).",
+      "englishPhrase": "How are you?",
+      "phrase": "お元気ですか？",
+      "phraseRomanized": "O-genki desu ka?",
+      "literal": [
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "good_morning",
+      "english": "Good morning",
+      "word": "おはようございます",
+      "romanized": "ohayou gozaimasu",
+      "grammarNote": "**おはようございます** = formal good morning; **おはよう** = casual.\n**こんにちは** = hello/good afternoon; **こんばんは** = good evening.\nTime-based greetings matter — using the wrong one sounds odd.",
+      "englishPhrase": "Good morning! Did you sleep well?",
+      "phrase": "おはようございます！よく眠れましたか？",
+      "phraseRomanized": "Ohayou gozaimasu! Yoku nemuremashita ka?",
+      "literal": [
+        [
+          "おはようございます",
+          "good morning"
+        ],
+        [
+          "よく",
+          "well"
+        ],
+        [
+          "眠れました",
+          "slept"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "探す",
+      "romanized": "sagasu",
+      "grammarNote": "**探す** (sagasu) = to search for / look for (something lost or unknown).\n**出口** (deguchi) = exit: **出** (de, exit/go out) + **口** (guchi/kuchi, mouth/opening) → opening you exit through.\nContrast: **入口** (iriguchi) = entrance (入 = iru, enter + 口).\n**〜しています** = currently doing: **探しています** = am searching.",
+      "englishPhrase": "I'm looking for the exit.",
+      "phrase": "出口を探しています。",
+      "phraseRomanized": "Deguchi wo sagashite imasu.",
+      "literal": [
+        [
+          "出口",
+          "exit"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "探して",
+          "searching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "excuse_me",
+      "english": "Excuse me",
+      "word": "すみません",
+      "romanized": "sumimasen",
+      "grammarNote": "**すみません** covers: getting attention, mild apology, and thanking someone for a favour.\nFor a genuine apology: **ごめんなさい** (gomen nasai).",
+      "englishPhrase": "Excuse me, where is the station?",
+      "phrase": "すみません、駅はどこですか？",
+      "phraseRomanized": "Sumimasen, eki wa doko desu ka?",
+      "literal": [
+        [
+          "すみません",
+          "excuse me"
+        ],
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_be_able_to_can",
+      "english": "To be able to",
+      "word": "できる",
+      "romanized": "dekiru",
+      "grammarNote": "Two structures for 'can': verb potential form — **食べられる** (can eat); or noun + **ができる** — **日本語ができる** (I can speak Japanese).\n**できる** alone often means 'it's possible' or 'it's ready/done'.",
+      "englishPhrase": "Can you help me?",
+      "phrase": "手伝ってもらえますか？",
+      "phraseRomanized": "Tetsudatte moraemasu ka?",
+      "literal": [
+        [
+          "手伝って",
+          "help"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "i_dont_know",
+      "english": "I don't know",
+      "word": "知りません",
+      "romanized": "shirimasen",
+      "grammarNote": "**知りません** = I don't know (a fact is unknown to me).\n**わかりません** = I don't understand / can't figure it out.\nUse **わかりません** when you've heard something but can't process it.",
+      "englishPhrase": "I don't know where it is.",
+      "phrase": "どこにあるか知りません。",
+      "phraseRomanized": "Doko ni aru ka shirimasen.",
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "ある",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ],
+        [
+          "知りません",
+          "not know"
+        ]
+      ]
+    },
+    {
+      "id": "to_have",
+      "english": "To have",
+      "word": "ある",
+      "romanized": "aru",
+      "grammarNote": "**ある** = exists/have (inanimate things): **水がある** (there is water).\n**いる** = exists/have (living things): **友達がいる** (I have a friend).\nThese are not interchangeable.",
+      "englishPhrase": "I'm hungry. Do you have water?",
+      "phrase": "お腹が空きました。水はありますか？",
+      "phraseRomanized": "Onaka ga sukimashita. Mizu wa arimasu ka?",
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "空きました",
+          "emptied"
+        ],
+        [
+          "水",
+          "water"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_do_make",
+      "english": "To do",
+      "word": "する",
+      "romanized": "suru",
+      "grammarNote": "**する** (suru) = to do; irregular verb. It pairs with many nouns to make compound verbs: **勉強する** (study), **電話する** (make a phone call), **料理する** (cook).\n**〜をしています** = in the middle of doing [something].\n**何** (nani) = what; before **を** it stays **nani**: **何をしていますか**.",
+      "englishPhrase": "What are you doing?",
+      "phrase": "何をしていますか？",
+      "phraseRomanized": "Nani wo shite imasu ka?",
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "して",
+          "doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_eat",
+      "english": "To eat",
+      "word": "食べる",
+      "romanized": "taberu",
+      "grammarNote": "**食べる** (taberu) = to eat. The kanji **食** has two readings: **shoku** (on'yomi) in **食事** (meal) and **ta** (kun'yomi) in **食べる**.\n**どこで** = where + **で** (location of action). Compare: **どこに** = where to (destination).\nPolite form: **食べます** (tabemasu). Te-form: **食べて** (tabete).",
+      "englishPhrase": "Where are we eating?",
+      "phrase": "どこで食べますか？",
+      "phraseRomanized": "Doko de tabemasu ka?",
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_like",
+      "english": "To like",
+      "word": "〜が好き",
+      "romanized": "~ ga suki",
+      "grammarNote": "**好き** (suki) is an adjective, not a verb. The thing liked takes **が**: **コーヒーが好き** (I like coffee).\n**大好き** = love/really like; **好きじゃない** = don't like.",
+      "englishPhrase": "I like coffee.",
+      "phrase": "コーヒーが好きです。",
+      "phraseRomanized": "Kōhī ga suki desu.",
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "but",
+      "english": "But",
+      "word": "でも",
+      "romanized": "demo",
+      "grammarNote": "**でも** = 'but' at the start of a new sentence (beginner-friendly).\n**が** connects two clauses within a sentence: **行きたいですが、行けません**.\n**けど** (kedo) is the casual equivalent of が.",
+      "englishPhrase": "I want to go, but I can't.",
+      "phrase": "行きたいですが、行けません。",
+      "phraseRomanized": "Ikitai desu ga, ikemasen.",
+      "literal": [
+        [
+          "行きたい",
+          "want to go"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "が",
+          "but"
+        ],
+        [
+          "行けません",
+          "cannot go"
+        ]
+      ]
+    },
+    {
+      "id": "and",
+      "english": "And",
+      "word": "そして",
+      "romanized": "soshite",
+      "grammarNote": "**と** connects nouns in a complete list: **パンと水** (bread and water).\n**そして** connects sentences or sequential actions.\nFor an open/partial list: **や** — **パンや水など**.",
+      "englishPhrase": "Water and food.",
+      "phrase": "水と食べ物。",
+      "phraseRomanized": "Mizu to tabemono."
+    },
+    {
+      "id": "or",
+      "english": "Or",
+      "word": "または",
+      "romanized": "matawa",
+      "grammarNote": "**または** = or (formal/written). In speech, **か** between options is more natural: **お茶かコーヒー** (tea or coffee).\n**どちら** (dochira) = which of two (polite). Casual: **どっち** (docchi).\n**〜にする** = to decide on / choose: **コーヒーにします** (I'll go with coffee).",
+      "englishPhrase": "Tea or coffee?",
+      "phrase": "お茶かコーヒー、どちらにしますか？",
+      "phraseRomanized": "Ocha ka kōhī, dochira ni shimasu ka?",
+      "literal": [
+        [
+          "お茶",
+          "tea"
+        ],
+        [
+          "か",
+          "[?]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "どちら",
+          "which"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "しますか",
+          "will make?"
+        ]
+      ]
+    },
+    {
+      "id": "hungry",
+      "english": "Hungry",
+      "word": "お腹が空いた",
+      "romanized": "onaka ga suita",
+      "grammarNote": "**お腹が空く** literally means 'the stomach empties'.\nThe past tense marks arrival of the state — common in Japanese for newly reached conditions: **空きました** (have become hungry).",
+      "englishPhrase": "I'm very hungry.",
+      "phrase": "お腹がとても空きました。",
+      "phraseRomanized": "Onaka ga totemo sukimashita.",
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "空きました",
+          "emptied"
+        ]
+      ]
+    },
+    {
+      "id": "thirsty",
+      "english": "Thirsty",
+      "word": "喉が渇いた",
+      "romanized": "nodo ga kawaita",
+      "grammarNote": "**喉が渇く** (nodo ga kawaku) = to become thirsty; literally 'the throat dries out'.\n**喉** (nodo) = throat. **渇く** (kawaku) = to dry/parch.\nLike hunger (**お腹が空く**), thirst is expressed as a physical process happening to a body part — not 'I am thirsty' but 'my throat has dried'.\nPast tense marks arrival of the new state: **渇きました**.",
+      "englishPhrase": "I'm very thirsty.",
+      "phrase": "喉がとても渇きました。",
+      "phraseRomanized": "Nodo ga totemo kawakimashita.",
+      "literal": [
+        [
+          "喉",
+          "throat"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "渇きました",
+          "dried"
+        ]
+      ]
+    },
+    {
+      "id": "person",
+      "hidden": true,
+      "english": "Person",
+      "word": "人",
+      "romanized": "hito",
+      "grammarNote": "**人** (hito) = person (kun'yomi). On'yomi: **jin/nin** — used in compounds: **日本人** (nihonjin, Japanese person), **外国人** (gaikokujin, foreigner), **三人** (sannin, three people).\n**あの** = that (over there, nuance of distance or fond familiarity) + noun.",
+      "englishPhrase": "Who is that person?",
+      "phrase": "あの人は誰ですか？",
+      "phraseRomanized": "Ano hito wa dare desu ka?",
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "誰",
+          "who"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "place",
+      "hidden": true,
+      "english": "Place",
+      "word": "場所",
+      "romanized": "basho",
+      "grammarNote": "**場所** (basho) = place/location: **場** (ba/jō, place) + **所** (sho, location) — both kanji relate to location.\n**知っていますか** = do you know? — **知る** must use **〜ている** to express the state of knowing: **知っている** = know (state), not simply **知る** (act of coming to know).",
+      "englishPhrase": "Do you know a good place?",
+      "phrase": "いい場所を知っていますか？",
+      "phraseRomanized": "Ii basho wo shitte imasu ka?",
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "場所",
+          "place"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "知っています",
+          "know"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "thing",
+      "hidden": true,
+      "english": "Thing",
+      "word": "物",
+      "romanized": "mono",
+      "grammarNote": "**物** (mono) = a physical thing. **こと** (koto) = an abstract thing, fact, or situation.\n**好きなものは何？** — What things do you like?\n**好きなことは何？** — What do you like doing?",
+      "englishPhrase": "What is that thing?",
+      "phrase": "それは何ですか？",
+      "phraseRomanized": "Sore wa nan desu ka?",
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "何",
+          "what"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "ここ",
+      "romanized": "koko",
+      "grammarNote": "**ここ** = here (near speaker). **そこ** = there (near listener). **あそこ** = over there (far from both).\nFor nouns, use **この/その/あの**: **ここ** stands alone while **この** precedes a noun: **このテーブル** (this table).\n**〜てください** = please do: **来てください** (please come).",
+      "englishPhrase": "Please come here.",
+      "phrase": "ここに来てください。",
+      "phraseRomanized": "Koko ni kite kudasai.",
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "そこ",
+      "romanized": "soko",
+      "grammarNote": "**そこ** = there (near listener). **あそこ** = over there (far from both speakers).\n**お手洗い** (otearai) = restroom (polite). **お** is an honorific prefix.\nThe sentence uses **は** to set the restroom as the topic, and **あそこです** as the predicate — a simple location statement.",
+      "englishPhrase": "The restroom is over there.",
+      "phrase": "お手洗いはあそこです。",
+      "phraseRomanized": "Otearai wa asoko desu.",
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あそこ",
+          "over there"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "very",
+      "english": "Very",
+      "word": "とても",
+      "romanized": "totemo",
+      "grammarNote": "**とても** = very (polite/neutral). Casual equivalent: **すごく** (sugoku) or **めっちゃ** (meccha, very casual).\n**いい** (ii) = good; irregular い-adjective. Its negative is **よくない** (not good); its past is **よかった** (was good). The polite form stays **いいです**.",
+      "englishPhrase": "It's very good.",
+      "phrase": "とてもいいです。",
+      "phraseRomanized": "Totemo ii desu.",
+      "literal": [
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "goodbye",
+      "english": "Goodbye",
+      "word": "さようなら",
+      "romanized": "sayounara",
+      "grammarNote": "**さようなら** is formal and somewhat final.\n**じゃあね** / **またね** = casual 'bye/see you'. **またあとで** = see you later.",
+      "englishPhrase": "Goodbye! See you tomorrow.",
+      "phrase": "じゃあ、また明日！",
+      "phraseRomanized": "Jaa, mata ashita!",
+      "literal": [
+        [
+          "じゃあ",
+          "well then"
+        ],
+        [
+          "また",
+          "again"
+        ],
+        [
+          "明日",
+          "tomorrow"
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "hidden": true,
+      "english": "Water",
+      "word": "水",
+      "romanized": "mizu",
+      "grammarNote": "**水** (mizu) = water; kun'yomi reading used in everyday speech. The on'yomi **sui** appears in compounds: **水曜日** (suiyōbi, Wednesday) and **水泳** (suiei, swimming).\n**一杯** (ippai) = one cup/glass — a counter for liquid servings. Note the pronunciation shift: **一** (ichi) + **杯** (hai) → **ippai** (double consonant).\n**ください** = please give me; used when requesting something tangible.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "水を一杯ください。",
+      "phraseRomanized": "Mizu wo ippai kudasai.",
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "一杯",
+          "one cup"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "food",
+      "hidden": true,
+      "english": "Food",
+      "word": "食べ物",
+      "romanized": "tabemono",
+      "grammarNote": "**食べ物** (tabemono) = food; **食べ** (tabe, from 食べる, to eat) + **物** (mono, thing) — literally 'eat-thing'.\n**美味しい** (oishii) = delicious; an い-adjective. The kanji **美味** (bimi) = good taste, though the word is usually written in hiragana.\n**が** here marks the grammatical subject: **食べ物が美味しい** = 'the food is delicious' (the food is what is being described).",
+      "englishPhrase": "The food is delicious.",
+      "phrase": "食べ物がとても美味しいです。",
+      "phraseRomanized": "Tabemono ga totemo oishii desu.",
+      "literal": [
+        [
+          "食べ物",
+          "food"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "美味しい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "house_home",
+      "hidden": true,
+      "english": "House",
+      "word": "家",
+      "romanized": "ie",
+      "grammarNote": "**家** has two readings: **ie** (the building) and **uchi** (warm, 'my place/home').\n**uchi** also means 'inside' and one's own in-group. **うちに帰る** feels warmer than **家に帰る**.",
+      "englishPhrase": "My house is nearby.",
+      "phrase": "私の家は近くにあります。",
+      "phraseRomanized": "Watashi no ie wa chikaku ni arimasu.",
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "近く",
+          "nearby"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "store_shop",
+      "english": "Store",
+      "word": "お店",
+      "romanized": "omise",
+      "grammarNote": "**お店** (omise) = store/shop. **お** is an honorific prefix that softens and elevates the word — commonly added to everyday nouns in polite speech.\n**店** alone reads **mise** (kun'yomi) or **ten** (on'yomi, as in **店員** ten'in, shop clerk).\n**閉まっています** (shimatte imasu) = is closed (resulting state): **閉まる** (shimaru, to close) in て-form + **いる**. Contrast: **開いています** (aite imasu, is open).",
+      "englishPhrase": "The store is closed.",
+      "phrase": "お店は閉まっています。",
+      "phraseRomanized": "Omise wa shimatte imasu.",
+      "literal": [
+        [
+          "お店",
+          "store"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "閉まって",
+          "closed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "cash_credit",
+      "english": "Cash",
+      "word": "現金",
+      "romanized": "genkin",
+      "grammarNote": "**現金** (genkin) = cash: **現** (gen, present/now) + **金** (kin, gold/money) — 'money on hand right now'.\n**カード** (kādo) = card (loanword from English). Credit/debit cards are often called **クレジットカード** or **デビットカード**.\n**どちら** (dochira) = which of two (polite). Casual: **どっち** (docchi). The phrase **どちらがいいですか** = 'which would you prefer?' is a common service-counter question.",
+      "englishPhrase": "Cash or card?",
+      "phrase": "現金とカード、どちらがいいですか？",
+      "phraseRomanized": "Genkin to kādo, dochira ga ii desu ka?",
+      "literal": [
+        [
+          "現金",
+          "cash"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "カード",
+          "card"
+        ],
+        [
+          "どちら",
+          "which"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "help",
+      "english": "Help",
+      "word": "助け",
+      "romanized": "tasuke",
+      "grammarNote": "**助け** (tasuke) = help/aid (noun form of **助ける**, tasukeru, to help/save).\nFor urgency, shout **助けて！** (tasukete!) = 'Help!' — the te-form used as a plea.\n**必要** (hitsuyō) = necessary: **必** (hitsu, must) + **要** (yō, need). **助けが必要です** = 'help is needed' — **が** marks the subject of the adjective **必要**.\nAlternative: **手伝ってください** (tetsudatte kudasai) = please help me (with a task).",
+      "englishPhrase": "I need help.",
+      "phrase": "助けが必要です。",
+      "phraseRomanized": "Tasuke ga hitsuyou desu.",
+      "literal": [
+        [
+          "助け",
+          "help"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bathroom",
+      "english": "Bathroom",
+      "word": "お手洗い",
+      "romanized": "otearai",
+      "grammarNote": "**お手洗い** (otearai) = restroom; literally 'honorable hand-wash place'. **お** (honorific) + **手** (te, hand) + **洗い** (arai, washing).\nRegister guide: **お手洗い** (polite, safe everywhere) → **トイレ** (toire, casual/neutral) → **便所** (benjo, blunt/old-fashioned).\n**どこですか** = 'where is it?': **[topic] は + どこ + ですか** is the standard location question pattern.",
+      "englishPhrase": "Where is the restroom?",
+      "phrase": "お手洗いはどこですか？",
+      "phraseRomanized": "Otearai wa doko desu ka?",
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "always",
+      "english": "Always",
+      "word": "いつも",
+      "romanized": "itsumo",
+      "grammarNote": "**いつも** (itsumo) = always/usually. Frequency scale: **いつも** (always) → **よく** (often) → **時々** (tokidoki, sometimes) → **あまり〜ない** (rarely) → **全然〜ない** (never).\n**毎朝** (maiasa) = every morning: **毎** (mai, every) + **朝** (asa, morning). Note: **毎朝** and **いつも** together in this sentence are slightly redundant — in natural speech you'd use one or the other.\n**飲みます** (nomimasu) = drink (polite present): **飲む** (nomu) → **飲みます**. Also used for taking medicine.",
+      "englishPhrase": "I always drink coffee in the morning.",
+      "phrase": "毎朝いつもコーヒーを飲みます。",
+      "phraseRomanized": "Maiasa itsumo kōhī wo nomimasu.",
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "飲みます",
+          "drink"
+        ]
+      ]
+    },
+    {
+      "id": "never",
+      "english": "Never",
+      "word": "決して〜ない",
+      "romanized": "kesshite ~ nai",
+      "grammarNote": "**決して〜ない** = never (strong). **絶対に〜ない** = absolutely never. **一度も〜ない** = not even once.\nAll require a negative verb form at the end of the clause.",
+      "englishPhrase": "I'm never late.",
+      "phrase": "絶対に遅刻しません。",
+      "phraseRomanized": "Zettai ni chikoku shimasen.",
+      "literal": [
+        [
+          "絶対に",
+          "absolutely"
+        ],
+        [
+          "遅刻",
+          "late-arriving"
+        ],
+        [
+          "しません",
+          "not do"
+        ]
+      ]
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "行く",
+      "romanized": "iku",
+      "grammarNote": "**行く** (iku) = to go. Destination takes **に**: **お店に行く** (go to the store).\nPolite: **行きます**. Past: **行きました**. Te-form: **行って**.\nContrast: **来る** (kuru) = come (toward speaker); **帰る** (kaeru) = return/go home.",
+      "englishPhrase": "I'm going to the store.",
+      "phrase": "お店に行きます。",
+      "phraseRomanized": "Omise ni ikimasu.",
+      "literal": [
+        [
+          "お店",
+          "store"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "来る",
+      "romanized": "kuru",
+      "grammarNote": "**来る** (kuru) = to come; one of the two truly irregular Japanese verbs (the other being **する**).\nPolite: **来ます** (kimasu). Past: **来ました** (kimashita). Te-form: **来て** (kite).\n**から** = from: **どこから** (from where). Source uses **から**; destination uses **に**.",
+      "englishPhrase": "Where did you come from?",
+      "phrase": "どこから来ましたか？",
+      "phraseRomanized": "Doko kara kimashita ka?",
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_understand",
+      "english": "To understand",
+      "word": "わかる",
+      "romanized": "wakaru",
+      "grammarNote": "**わかる** (wakaru) = to understand / to figure out.\n**わかりません** = polite negative: I don't understand.\nContrast with **知りません** (shirimasen) = I don't know [a fact]. Use **わかりません** when you've heard something but can't process it; use **知りません** when the information is simply unknown to you.",
+      "englishPhrase": "I don't understand.",
+      "phrase": "わかりません。",
+      "phraseRomanized": "Wakarimasen.",
+      "literal": [
+        [
+          "わかりません",
+          "not understand"
+        ]
+      ]
+    },
+    {
+      "id": "to_speak_talk",
+      "english": "To speak",
+      "word": "話す",
+      "romanized": "hanasu",
+      "grammarNote": "**話す** (hanasu) = to speak/talk. The kanji **話** = wa (on) = speech/story; appears in **電話** (denwa, telephone = electric-talk) and **会話** (kaiwa, conversation).\n**日本語** (nihongo) = Japanese language: **日本** (nihon, Japan) + **語** (go, language).\n**を話す** = to speak [a language] (direct object).",
+      "englishPhrase": "Do you speak Japanese?",
+      "phrase": "日本語を話しますか？",
+      "phraseRomanized": "Nihongo wo hanashimasu ka?",
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "話します",
+          "speak"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "to_give",
+      "english": "To give",
+      "word": "あげる",
+      "romanized": "ageru",
+      "grammarNote": "**あげる** = give (from speaker outward, or between others).\n**くれる** = give to the speaker. **もらう** = receive.\nDirection determines the verb — **メニューをください** uses **くれる** because you are the receiver.",
+      "englishPhrase": "Please give me the menu.",
+      "phrase": "メニューをください。",
+      "phraseRomanized": "Menyū wo kudasai.",
+      "literal": [
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "to_see",
+      "english": "To see",
+      "word": "見る",
+      "romanized": "miru",
+      "grammarNote": "**見る** (miru) = to look at / watch (intentional). **見える** (mieru) = can see / is visible (involuntary perception).\n**何も〜ない** = nothing + negative verb: **何も見えません** (cannot see anything).\n**も** after a question word + negative = 'not even one': **何も** (nothing), **誰も** (nobody), **どこも** (nowhere).",
+      "englishPhrase": "I can't see anything.",
+      "phrase": "何も見えません。",
+      "phraseRomanized": "Nani mo miemasen.",
+      "literal": [
+        [
+          "何",
+          "nothing"
+        ],
+        [
+          "も",
+          "[also]"
+        ],
+        [
+          "見えません",
+          "cannot see"
+        ]
+      ]
+    },
+    {
+      "id": "with",
+      "english": "With",
+      "word": "〜と一緒に",
+      "romanized": "~ to issho ni",
+      "grammarNote": "**と** (to) = with (a companion) or and (listing people): **友達と行く** (go with a friend).\n**一緒に** (issho ni) = together; reinforces the companionship meaning of **と**.\n**来ました** = polite past of **来る** (kuru, to come). Note: 来 reads **ki** in **来ました** (ki-mashita).",
+      "englishPhrase": "I came with my friend.",
+      "phrase": "友達と一緒に来ました。",
+      "phraseRomanized": "Tomodachi to issho ni kimashita.",
+      "literal": [
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "一緒に",
+          "together"
+        ],
+        [
+          "来ました",
+          "came"
+        ]
+      ]
+    },
+    {
+      "id": "without",
+      "english": "Without",
+      "word": "〜なしで",
+      "romanized": "~ nashi de",
+      "grammarNote": "**なし** (nashi) = without / absent. Can follow nouns directly: **砂糖なし** (without sugar).\n**砂糖なしの** + noun: the **の** connects the 'without-sugar' modifier to the following noun — **砂糖なしのコーヒー** (coffee without sugar).\n**砂糖** (satō) = sugar: **砂** (sa, sand) + **糖** (tō, sugar).",
+      "englishPhrase": "Coffee without sugar.",
+      "phrase": "砂糖なしのコーヒー。",
+      "phraseRomanized": "Satou nashi no kōhī.",
+      "literal": [
+        [
+          "砂糖",
+          "sugar"
+        ],
+        [
+          "なし",
+          "without"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ]
+      ]
+    },
+    {
+      "id": "for",
+      "hidden": true,
+      "english": "For",
+      "word": "〜のために",
+      "romanized": "~ no tame ni",
+      "grammarNote": "**〜のために** (no tame ni) = for the sake of / for the benefit of [someone].\nWith a verb: **食べるために** (in order to eat) — purpose. With a noun + の: **あなたのために** (for you) — beneficiary.\n**ため** (tame) = sake/purpose/benefit. **に** makes it a purpose/direction marker.",
+      "englishPhrase": "This is for you.",
+      "phrase": "これはあなたのためです。",
+      "phraseRomanized": "Kore wa anata no tame desu.",
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あなた",
+          "your"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "ため",
+          "for-sake"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "in_on_at",
+      "hidden": true,
+      "english": "In",
+      "word": "〜に",
+      "romanized": "~ ni",
+      "grammarNote": "**に** = location of existence or destination: **駅にいる** (at the station), **東京に行く** (go to Tokyo).\n**で** = location where an action happens: **カフェで食べる** (eat at the café).\nRule: **に** for where something is; **で** for where you act.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "本はテーブルの上にあります。",
+      "phraseRomanized": "Hon wa tēburu no ue ni arimasu.",
+      "literal": [
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "上",
+          "top"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "from",
+      "hidden": true,
+      "english": "From",
+      "word": "〜から",
+      "romanized": "~ kara",
+      "grammarNote": "**から** (kara) = from (a starting point in space or time): **どこから来ましたか** (where did you come from?).\nAlso means 'because' when following a sentence/clause: **遅いから行きません** (I'm not going because it's late).\nContrast: **ので** (node) = because (more formal/objective). Both **から** and **ので** can follow plain forms.",
+      "englishPhrase": "Where are you from?",
+      "phrase": "どこから来ましたか？",
+      "phraseRomanized": "Doko kara kimashita ka?",
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "good",
+      "english": "Good",
+      "word": "いい",
+      "romanized": "ii",
+      "grammarNote": "**いい** (ii) = good; also written **良い** (yoi). Irregular conjugation: negative → **よくない**, past → **よかった**, te-form → **よくて**.\n**ね** (ne) at the end softens a statement into shared observation: 'isn't it?' / 'right?'\n**アイデア** is a katakana loanword from English 'idea'.",
+      "englishPhrase": "That's a good idea.",
+      "phrase": "いいアイデアですね。",
+      "phraseRomanized": "Ii aidea desu ne.",
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "アイデア",
+          "idea"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
+    },
+    {
+      "id": "bad",
+      "english": "Bad",
+      "word": "悪い",
+      "romanized": "warui",
+      "grammarNote": "**悪い** (warui) = bad; an い-adjective. Negative: **悪くない** (not bad). Past: **悪かった** (was bad).\n**悪** (aku/waru) = evil/bad. Appears in: **悪口** (waruguchi, badmouthing) and **最悪** (saiaku, the worst).\nCasually, **悪い** (warui) is also a slang apology: 'my bad!'",
+      "englishPhrase": "That's bad.",
+      "phrase": "それは悪いですね。",
+      "phraseRomanized": "Sore wa warui desu ne.",
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "悪い",
+          "bad"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
+    },
+    {
+      "id": "big",
+      "english": "Big",
+      "word": "大きい",
+      "romanized": "ookii",
+      "grammarNote": "**大きい** (ōkii) = big/large; an い-adjective. Negative: **大きくない**. Past: **大きかった**.\n**大** (dai/ō) = big/great. In compounds: **大学** (daigaku, university), **大好き** (daisuki, love), **大丈夫** (daijōbu, okay/fine).\nNote: **大きいサイズの** uses **の** to connect the adjective phrase to the following noun **コーヒー**.",
+      "englishPhrase": "A large coffee, please.",
+      "phrase": "大きいサイズのコーヒーをください。",
+      "phraseRomanized": "Ookii saizu no kōhī wo kudasai.",
+      "literal": [
+        [
+          "大きい",
+          "large"
+        ],
+        [
+          "サイズ",
+          "size"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "small",
+      "english": "Small",
+      "word": "小さい",
+      "romanized": "chiisai",
+      "grammarNote": "**小さい** (chiisai) = small/little; an い-adjective. Negative: **小さくない**. Past: **小さかった**.\n**小** (shō/ko/chiisa) = small. In compounds: **小学校** (shōgakkō, elementary school), **小説** (shōsetsu, novel).\n**お願いします** here is used to make a request more politely after stating what you want.",
+      "englishPhrase": "A small table, please.",
+      "phrase": "小さいテーブルをお願いします。",
+      "phraseRomanized": "Chiisai tēburu wo onegaishimasu.",
+      "literal": [
+        [
+          "小さい",
+          "small"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "a_lot_much",
+      "hidden": true,
+      "english": "A lot",
+      "word": "たくさん",
+      "romanized": "takusan",
+      "grammarNote": "**たくさん** (takusan) = a lot/many. Can precede or follow the noun it modifies.\n**仕事** (shigoto) = work/job: **仕** (shi, serve) + **事** (goto/koto, thing/matter).\n**があります** = there is / I have (inanimate object). Use **がいます** for people and animals.",
+      "englishPhrase": "I have a lot of work.",
+      "phrase": "仕事がたくさんあります。",
+      "phraseRomanized": "Shigoto ga takusan arimasu.",
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "a_little",
+      "hidden": true,
+      "english": "A little",
+      "word": "少し",
+      "romanized": "sukoshi",
+      "grammarNote": "**少し** (sukoshi) = a little/a bit. More casual: **ちょっと** (chotto), also used to soften a refusal: **ちょっと...** = 'um, that's a bit...'.\n**少** (shō/suku) = few/little. In **少数** (shōsū, minority) and **少女** (shōjo, young girl).\n**ください** = please give me; used for tangible things you want handed to you.",
+      "englishPhrase": "A little water, please.",
+      "phrase": "水を少しください。",
+      "phraseRomanized": "Mizu wo sukoshi kudasai.",
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "少し",
+          "a little"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "how_do_you_say",
+      "english": "How do you say ___?",
+      "word": "___は何と言いますか？",
+      "romanized": "~ wa nan to iimasu ka?",
+      "grammarNote": "**何と言いますか** (nan to iimasu ka) = how do you say [it]? Literally: 'what do you call [it]?'\n**と** (to) here is the quotation particle — it marks what is said or thought: **「ありがとう」と言う** (say 'arigatou').\n**日本語で** = in Japanese: **で** indicates means or medium of expression.",
+      "englishPhrase": "How do you say 'thank you' in Japanese?",
+      "phrase": "「ありがとう」は日本語で何と言いますか？",
+      "phraseRomanized": "\"Arigatou\" wa nihongo de nan to iimasu ka?",
+      "literal": [
+        [
+          "「ありがとう」",
+          "'arigatou'"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "何と",
+          "what-as"
+        ],
+        [
+          "言います",
+          "say"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "can_you_help_me",
+      "english": "Can you help me?",
+      "word": "助けてもらえますか？",
+      "romanized": "Tasukete moraemasu ka?",
+      "grammarNote": "**〜てもらえますか** = 'can I receive [you doing]...?' — a very polite way to ask for help.\n**もらう** (morau) = to receive. **もらえる** is its potential form: 'can receive'. Adding **て** to the helper verb: **助けてもらえますか** = 'can I have you help me?'\nThis is softer than the direct **手伝ってください** (please help me)."
+    },
+    {
+      "id": "how_much_does_it_cost",
+      "english": "How much does it cost?",
+      "word": "いくらですか？",
+      "romanized": "Ikura desu ka?",
+      "grammarNote": "**いくら** (ikura) = how much (price). Specifically for money/cost.\nFor asking quantities of countable things: **いくつ** (ikutsu, how many things). For age: **何歳** (nansai, how old).\n**ですか** = polite question copula. The topic is often omitted when obvious from context: **これはいくらですか？** → **いくらですか？**"
+    },
+    {
+      "id": "im_sorry",
+      "english": "I'm sorry",
+      "word": "ごめんなさい",
+      "romanized": "gomen nasai",
+      "grammarNote": "**ごめんなさい** = genuine apology (use with people you know).\n**すみません** = excuse me / mild apology / thank you for a favour (use with strangers).\n**申し訳ありません** = very formal apology.",
+      "englishPhrase": "I'm very sorry.",
+      "phrase": "本当にごめんなさい。",
+      "phraseRomanized": "Hontou ni gomen nasai.",
+      "literal": [
+        [
+          "本当に",
+          "truly"
+        ],
+        [
+          "ごめんなさい",
+          "sorry"
+        ]
+      ]
+    },
+    {
+      "id": "no_problem",
+      "english": "No problem",
+      "word": "大丈夫です",
+      "romanized": "daijoubu desu",
+      "grammarNote": "**大丈夫** (daijōbu) = okay / fine / no problem. Also used to ask 'are you alright?': **大丈夫ですか？**\n**大** (dai, big) + **丈夫** (jōbu, sturdy/healthy) → 'big and sturdy' → 'all is fine'.\n**心配しないでください** = please don't worry: **心配** (shinpai) = worry + **しないで** (negative te-form of する) + **ください**.",
+      "englishPhrase": "No problem, don't worry.",
+      "phrase": "大丈夫です。心配しないでください。",
+      "phraseRomanized": "Daijoubu desu. Shinpai shinaide kudasai.",
+      "literal": [
+        [
+          "大丈夫",
+          "fine"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "心配",
+          "worry"
+        ],
+        [
+          "しないで",
+          "not do"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    }
+  ]
+}

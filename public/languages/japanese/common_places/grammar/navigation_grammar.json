@@ -1,0 +1,96 @@
+{
+  "id": "navigation_grammar",
+  "name": "Direction & Location — 右 / 左 / まっすぐ",
+  "language": "japanese",
+  "cards": [
+    {
+      "id": "migi_ni_magatte",
+      "front": "Turn right.",
+      "back": "右に曲がってください。",
+      "romanized": "Migi ni magatte kudasai.",
+      "grammarNote": "に曲がってください = please turn [direction]. て-form of 曲がる + ください.",
+      "literal": "Right [direction] please-turn."
+    },
+    {
+      "id": "hidari_ni_magatte",
+      "front": "Turn left.",
+      "back": "左に曲がってください。",
+      "romanized": "Hidari ni magatte kudasai.",
+      "literal": "Left [direction] please-turn."
+    },
+    {
+      "id": "massugu_itte",
+      "front": "Go straight.",
+      "back": "まっすぐ行ってください。",
+      "romanized": "Massugu itte kudasai.",
+      "grammarNote": "まっすぐ = straight ahead. 行ってください = please go.",
+      "literal": "Straight please-go."
+    },
+    {
+      "id": "hidari_ni_arimasu",
+      "front": "It's on the left.",
+      "back": "左にあります。",
+      "romanized": "Hidari ni arimasu.",
+      "literal": "Left at exists."
+    },
+    {
+      "id": "eki_mae_ni_arimasu",
+      "front": "It's in front of the station.",
+      "back": "駅の前にあります。",
+      "romanized": "Eki no mae ni arimasu.",
+      "grammarNote": "〜の前に = in front of. Other position words: 後ろ (behind), 横 (beside), 中 (inside), 上 (above), 下 (below).",
+      "literal": "Station's front at exists."
+    },
+    {
+      "id": "koko_kara_chikaku",
+      "front": "It's close from here.",
+      "back": "ここから近いです。",
+      "romanized": "Koko kara chikai desu.",
+      "literal": "Here from close is."
+    },
+    {
+      "id": "tooi_desu",
+      "front": "Is it far?",
+      "back": "遠いですか？",
+      "romanized": "Tooi desu ka?",
+      "literal": "Far is?"
+    },
+    {
+      "id": "kado_wo_migi",
+      "front": "Turn right at the corner.",
+      "back": "角を右に曲がってください。",
+      "romanized": "Kado wo migi ni magatte kudasai.",
+      "literal": "Corner [obj] right to please-turn."
+    },
+    {
+      "id": "shingou_wo_watatte",
+      "front": "Cross the traffic light.",
+      "back": "信号を渡ってください。",
+      "romanized": "Shingō wo watatte kudasai.",
+      "literal": "Traffic-light [obj] please-cross."
+    },
+    {
+      "id": "migi_gawa_ni_arimasu",
+      "front": "It's on the right side.",
+      "back": "右側にあります。",
+      "romanized": "Migi-gawa ni arimasu.",
+      "grammarNote": "〜側 (gawa) = side. 右側 (right side), 左側 (left side).",
+      "literal": "Right-side at exists."
+    },
+    {
+      "id": "eki_no_ushiro",
+      "front": "It's behind the station.",
+      "back": "駅の後ろにあります。",
+      "romanized": "Eki no ushiro ni arimasu.",
+      "literal": "Station's behind at exists."
+    },
+    {
+      "id": "massugu_itte_kara",
+      "front": "Go straight and then turn left.",
+      "back": "まっすぐ行ってから、左に曲がってください。",
+      "romanized": "Massugu itte kara, hidari ni magatte kudasai.",
+      "grammarNote": "〜てから = after doing X. 行ってから = after going.",
+      "literal": "Straight go-then, left to please-turn."
+    }
+  ]
+}

@@ -1,0 +1,1778 @@
+{
+  "id": "moods_and_emotion",
+  "name": "Moods & Emotions",
+  "language": "korean",
+  "stories": [
+    "a_bad_day",
+    "good_news",
+    "friendship",
+    "nervous_about_something",
+    "homesick"
+  ],
+  "grammarLessons": [
+    {
+      "id": "adjective_verbs",
+      "name": "Descriptive Verbs as Adjectives"
+    },
+    {
+      "id": "an_mot",
+      "name": "안 vs 못 — Negation"
+    },
+    {
+      "id": "ayo_eoyo",
+      "name": "-아요 / -어요 — Polite Present Tense"
+    },
+    {
+      "id": "eul_reul",
+      "name": "을/를 — Object Marker"
+    },
+    {
+      "id": "jiman_contrast",
+      "name": "-지만 — But / However"
+    },
+    {
+      "id": "geot_gatayo",
+      "name": "-(으)ㄴ/는 것 같아요 — It Seems / I Think"
+    },
+    {
+      "id": "go_sipeoyo",
+      "name": "-고 싶어요 — Want To"
+    },
+    {
+      "id": "myon_conditional",
+      "name": "-(으)면 — If / When"
+    }
+  ],
+  "cards": [
+    {
+      "id": "happy",
+      "english": "happy",
+      "word": "행복한",
+      "romanized": "haengbokhan",
+      "grammarNote": "**행복하다** = to be happy (deep, lasting happiness) → **행복해요**.\n**기쁘다** = to be glad/delighted (in the moment) → **기뻐요**.\nKorean emotions are adjectives that become predicates directly.",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "오늘 너무 행복해요.",
+      "phraseRomanized": "oneul neomu haengbokhaeyo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "너무",
+          "very"
+        ],
+        [
+          "행복해요",
+          "happy"
+        ]
+      ]
+    },
+    {
+      "id": "sad",
+      "english": "sad",
+      "word": "슬픈",
+      "romanized": "seulpeun",
+      "grammarNote": "**슬픈** (seulpeun) is the adjective modifier form of **슬프다** (seulpeuda, to be sad).\n**슬프다** → **슬퍼요** (seulpeoyo) in polite speech — irregular ㅡ drop before vowel endings.\nRelated noun: **슬픔** (seulpeum) = sadness.\nUse **슬퍼요** as a predicate: **왜 슬퍼요?** = Why are you sad?",
+      "englishPhrase": "Why are you sad?",
+      "phrase": "왜 슬퍼요?",
+      "phraseRomanized": "wae seulpeoyo",
+      "literal": [
+        [
+          "왜",
+          "why"
+        ],
+        [
+          "슬퍼요",
+          "sad"
+        ]
+      ]
+    },
+    {
+      "id": "love",
+      "english": "love",
+      "word": "사랑",
+      "romanized": "sarang",
+      "grammarNote": "**사랑** (sarang) is a pure Korean noun meaning love.\nThe verb form is **사랑하다** (saranghada) → **사랑해요** (saranghaeyo) in polite speech.\n**사랑을 느껴요** = I feel love — **을** (eul) is the object particle after a consonant-final noun.\nContrast **사랑** (romantic/deep love) with **좋아함** (joaham, liking/fondness).",
+      "englishPhrase": "I feel a lot of love for my family.",
+      "phrase": "가족에게 많은 사랑을 느껴요.",
+      "phraseRomanized": "gajogege manheun sarang-eul neukkeyeoyo",
+      "literal": [
+        [
+          "가족",
+          "family"
+        ],
+        [
+          "에게",
+          "[at/to]"
+        ],
+        [
+          "많은",
+          "much"
+        ],
+        [
+          "사랑",
+          "love"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "느껴요",
+          "feel"
+        ]
+      ]
+    },
+    {
+      "id": "anger",
+      "english": "anger",
+      "word": "화",
+      "romanized": "hwa",
+      "grammarNote": "**화** (hwa) = anger/fire; a short pure Korean noun.\nThe idiom **화가 나다** (hwa-ga nada) literally means 'anger rises/comes out' — **가** is the subject particle.\n**화가 났어요** = I got angry (past tense: **나다** → **났어요**).\nStronger synonym: **분노** (bunno) — Sino-Korean for wrath/fury.",
+      "englishPhrase": "I felt anger when they lied to me.",
+      "phrase": "거짓말했을 때 화가 났어요.",
+      "phraseRomanized": "geojitmalhaesseul ttae hwa-ga nasseoyo",
+      "literal": [
+        [
+          "거짓말했을 때",
+          "when lied"
+        ],
+        [
+          "화",
+          "anger"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "났어요",
+          "rose"
+        ]
+      ]
+    },
+    {
+      "id": "fear",
+      "english": "fear",
+      "word": "두려움",
+      "romanized": "duryeoum",
+      "grammarNote": "**두려움** (duryeoum) is the noun form of **두렵다** (duryeopda, to be fearful) — the ㅂ irregular: ㅂ → 워 before vowels.\n**두렵다** → **두려워요** (duryeowoyo) in polite speech.\nRelated: **무섭다** (museopda) = to be scary/scared → **무서워요** (museowoyo).\n**두려움** vs **공포** (gongpo): **두려움** is personal dread; **공포** (Sino-Korean) is terror/horror.",
+      "englishPhrase": "I'm afraid of the dark.",
+      "phrase": "어둠이 무서워요.",
+      "phraseRomanized": "eodumi museowoyo",
+      "literal": [
+        [
+          "어둠",
+          "darkness"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "무서워요",
+          "scary"
+        ]
+      ]
+    },
+    {
+      "id": "hope",
+      "english": "hope",
+      "word": "희망",
+      "romanized": "huimang",
+      "grammarNote": "**희망** (huimang) is Sino-Korean: 希望 — hope/wish.\nAs a verb: **희망하다** (huimanghada) → **희망해요**; in everyday speech **바라다** (barada) is more natural.\n**희망이 있어요** = there is hope — **이** (i) is the subject particle after consonant **망**.\nContrast **희망** (long-term hope) with **기대** (gidae, expectation/anticipation).",
+      "englishPhrase": "I have hope for the future.",
+      "phrase": "미래에 대한 희망이 있어요.",
+      "phraseRomanized": "mirae-e daehan huimangi isseoyo",
+      "literal": [
+        [
+          "미래",
+          "future"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "대한",
+          "about"
+        ],
+        [
+          "희망",
+          "hope"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "word": "스트레스",
+      "romanized": "seuteurese",
+      "grammarNote": "**스트레스** (seuteurese) is a loanword from English 'stress'.\nCommon phrase: **스트레스를 받다** (seuteurese-reul batda) = to receive/get stress.\n**스트레스가 많아요** = I have a lot of stress — **가** is the subject particle; **많다** (manta) = to be many/much.\nRelated: **스트레스를 풀다** (seuteurese-reul pulda) = to relieve stress.",
+      "englishPhrase": "I have a lot of stress at work.",
+      "phrase": "일에서 스트레스가 많아요.",
+      "phraseRomanized": "ireseo seuteurese-ga manayo",
+      "literal": [
+        [
+          "일",
+          "work"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "스트레스",
+          "stress"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "much"
+        ]
+      ]
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "word": "기분",
+      "romanized": "gibun",
+      "grammarNote": "**기분** (gibun) is Sino-Korean: 氣分 — lit. 'energy-portion'; mood/feeling.\n**기분이 좋아요** = I'm in a good mood (lit. 'my mood is good') — **이** is the subject particle.\nKorean describes mood states as noun + adjective rather than verb: **기분이 나빠요** = I'm in a bad mood.\nRelated: **기분 전환** (gibun jeonhwan) = mood change/a change of pace.",
+      "englishPhrase": "I'm in a good mood today.",
+      "phrase": "오늘 기분이 좋아요.",
+      "phraseRomanized": "oneul gibuni joayo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "기분",
+          "mood"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "word": "감정",
+      "romanized": "gamjeong",
+      "grammarNote": "**감정** (gamjeong) is Sino-Korean: 感情 — emotion/feeling (the full range of emotions).\nDistinct from **기분** (gibun, momentary mood) — **감정** refers to deeper emotional states.\n**감정이에요** = it is an emotion — **이에요** is the copula after a consonant-final noun.\nRelated: **감정적** (gamjeongjeok) = emotional (adjective); **감정을 숨기다** = to hide one's feelings.",
+      "englishPhrase": "That feeling is normal.",
+      "phrase": "그 감정은 자연스러워요.",
+      "phraseRomanized": "geu gamjeong-eun jayeonseuleowoyo",
+      "literal": [
+        [
+          "그",
+          "that"
+        ],
+        [
+          "감정",
+          "feeling"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "자연스러워요",
+          "natural"
+        ]
+      ]
+    },
+    {
+      "id": "emotion_excitement",
+      "english": "emotion",
+      "word": "감정",
+      "romanized": "gamjeong",
+      "grammarNote": "**감동** (gamdong) = being moved/touched emotionally — Sino-Korean 感動.\nNote the phrase uses **감동** (deep emotional impact) rather than plain **감정** (emotion).\n**숨길 수 없었어요** = could not hide — **-ㄹ/을 수 없다** means 'cannot' + past tense **-었어요**.\n**감동받다** (gamdong batda) = to be moved/touched; **감동시키다** = to move someone emotionally.",
+      "englishPhrase": "I couldn't hide my emotion.",
+      "phrase": "감동을 숨길 수 없었어요.",
+      "phraseRomanized": "gamdong-eul sumgil su eopseosseoyo",
+      "literal": [
+        [
+          "감동",
+          "emotion"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "숨길 수 없었어요",
+          "could not hide"
+        ]
+      ]
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "word": "침착함",
+      "romanized": "chimchakam",
+      "grammarNote": "**침착함** (chimchakam) is the nominalized form of **침착하다** (chimchakada, to be composed/calm).\nNominalization: **침착하다** + **-ㅁ** → **침착함** (noun: composure).\n**침착함을 유지하다** = to maintain composure — **을** is the object particle; **유지하다** = to maintain.\nRelated: **침착하게** (chimchakage) = calmly (adverb form).",
+      "englishPhrase": "Try to maintain your calm.",
+      "phrase": "침착함을 유지하도록 하세요.",
+      "phraseRomanized": "chimchakameul yujihadorok haseyo",
+      "literal": [
+        [
+          "침착함",
+          "calm"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "유지하도록",
+          "so as to maintain"
+        ],
+        [
+          "하세요",
+          "please do"
+        ]
+      ]
+    },
+    {
+      "id": "peace",
+      "english": "peace",
+      "word": "평화",
+      "romanized": "pyeonghwa",
+      "grammarNote": "**평화** (pyeonghwa) is Sino-Korean: 平和 — peace/harmony.\nAdjective form: **평화롭다** (pyeonghwaropda) → **평화로워요** (pyeonghwarowoyo) — ㅂ irregular.\n**고요함** (goyoham) = quietness/stillness, nominalized from **고요하다** (goyohada).\n**와/과** (wa/gwa) = and/with — **평화와** uses **와** after the vowel-final **화**.",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "평화와 고요함이 필요해요.",
+      "phraseRomanized": "pyeonghwawa goyoami piryohaeyo",
+      "literal": [
+        [
+          "평화",
+          "peace"
+        ],
+        [
+          "와",
+          "[and/with]"
+        ],
+        [
+          "고요함",
+          "quietness"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ]
+    },
+    {
+      "id": "worry",
+      "english": "worry",
+      "word": "걱정",
+      "romanized": "geokjeong",
+      "grammarNote": "**걱정** (geokjeong) = worry/concern — pure Korean noun.\nVerb form: **걱정하다** (geokjeonghada) → **걱정해요** in polite speech.\n**걱정 때문에** = because of worry — **때문에** (ttaemune) expresses cause/reason.\n**걱정하지 마세요** = please don't worry — **-지 마세요** is the polite negative imperative.",
+      "englishPhrase": "Don't let worry stop you.",
+      "phrase": "걱정 때문에 멈추지 마세요.",
+      "phraseRomanized": "geokjeong ttaemune meomchuji maseyo",
+      "literal": [
+        [
+          "걱정",
+          "worry"
+        ],
+        [
+          "때문에",
+          "because of"
+        ],
+        [
+          "멈추지",
+          "stop[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
+    },
+    {
+      "id": "surprise",
+      "english": "surprise",
+      "word": "놀라움",
+      "romanized": "nollaum",
+      "grammarNote": "**놀라움** (nollaum) is the noun form of **놀랍다** (nollapda, to be surprising) — ㅂ irregular.\n**놀랍다** → **놀라워요** (nollawoyo) in polite speech (ㅂ → 워 before vowels).\nThe verb **놀라다** (nollada) = to be startled/surprised → **놀랐어요** (past: I was surprised).\nContrast: **놀람** (nollam) = sudden shock; **놀라움** = a sense of wonder/amazement.",
+      "englishPhrase": "What a surprise!",
+      "phrase": "정말 놀랐어요!",
+      "phraseRomanized": "jeongmal nollaisseoyo",
+      "literal": [
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "놀랐어요",
+          "surprised"
+        ]
+      ]
+    },
+    {
+      "id": "passion",
+      "english": "passion",
+      "word": "열정",
+      "romanized": "yeoljeong",
+      "grammarNote": "**열정** (yeoljeong) is Sino-Korean: 熱情 — lit. 'hot emotion'; passion/zeal.\nUsed as: **열정을 가지다** = to have passion; **열정적** (yeoljeongjeok) = passionate (adjective).\n**가지고** (gajigo) = holding/having — connective form of **가지다** (to have/hold).\nRelated: **열의** (yeorui) = enthusiasm; **열심히** (yeolsimhi) = diligently/passionately.",
+      "englishPhrase": "She teaches with passion.",
+      "phrase": "그녀는 열정을 가지고 가르쳐요.",
+      "phraseRomanized": "geunyeoneun yeoljeong-eul gajigo gareuсhyeoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "열정",
+          "passion"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "가지고",
+          "holding"
+        ],
+        [
+          "가르쳐요",
+          "teaches"
+        ]
+      ]
+    },
+    {
+      "id": "desire",
+      "english": "desire",
+      "word": "욕망",
+      "romanized": "yokmang",
+      "grammarNote": "**욕망** (yokmang) is Sino-Korean: 欲望 — desire/craving (often intense or base desires).\n**욕구** (yokgu, 欲求) is a milder synonym meaning drive/need — used in the example phrase.\n**-고 싶다** (go sipda) = want to (do verb) — e.g. **여행하고 싶은** = wanting to travel.\n**강한** (ganghan) = strong — adjective modifying **욕구**; from **강하다** (ganghada).",
+      "englishPhrase": "I have a strong desire to travel.",
+      "phrase": "여행하고 싶은 강한 욕구가 있어요.",
+      "phraseRomanized": "yeohaenghago sipeon ganghan yokguga isseoyo",
+      "literal": [
+        [
+          "여행하고 싶은",
+          "want to travel"
+        ],
+        [
+          "강한",
+          "strong"
+        ],
+        [
+          "욕구",
+          "desire"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
+    },
+    {
+      "id": "hate",
+      "english": "hate",
+      "word": "증오",
+      "romanized": "jeungo",
+      "grammarNote": "**증오** (jeungo) is Sino-Korean: 憎惡 — intense hatred/loathing.\nVerb form: **증오하다** (jeungohada) → **증오해요**.\nMilder everyday word: **싫다** (silta) = to dislike → **싫어요** (sireoyo).\n**감정이에요** = it is an emotion — **이에요** is the polite copula after consonant-final nouns.",
+      "englishPhrase": "Hate is a strong feeling.",
+      "phrase": "증오는 강한 감정이에요.",
+      "phraseRomanized": "jeungoneun ganghan gamjeongieyo",
+      "literal": [
+        [
+          "증오",
+          "hate"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "강한",
+          "strong"
+        ],
+        [
+          "감정",
+          "feeling"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "pleasure",
+      "english": "pleasure",
+      "word": "기쁨",
+      "romanized": "gippeum",
+      "grammarNote": "**기쁨** (gippeum) is the noun form of **기쁘다** (gippeuda, to be glad/joyful) — ㅡ irregular.\n**기쁘다** → **기뻐요** (gippeoyo) in polite speech (ㅡ drops before 어).\n**반갑습니다** (bangapseumnida) = Pleased to meet you — formal -습니다 ending from **반갑다** (to be glad to see).\nRelated: **즐거움** (jeulgeoum) = enjoyment; **행복** (haengbok) = deep happiness.",
+      "englishPhrase": "It's a pleasure to meet you.",
+      "phrase": "만나서 반갑습니다.",
+      "phraseRomanized": "mannaseo bangapseumnida",
+      "literal": [
+        [
+          "만나서",
+          "meeting"
+        ],
+        [
+          "반갑습니다",
+          "pleased-am"
+        ]
+      ]
+    },
+    {
+      "id": "pain",
+      "english": "pain",
+      "word": "고통",
+      "romanized": "gotong",
+      "grammarNote": "**고통** (gotong) is Sino-Korean: 苦痛 — suffering/anguish (emotional or physical).\nPhysical pain is also **통증** (tongjeung, 痛症) — specifically a medical ache.\n**느껴져요** = is felt — passive form of **느끼다** using **-아/어지다** construction.\nRelated: **고통스럽다** (gotongseureupda) = to be painful/agonizing → **고통스러워요** (ㅂ irregular).",
+      "englishPhrase": "I feel pain in my leg.",
+      "phrase": "다리에 통증이 느껴져요.",
+      "phraseRomanized": "darie tongjeungi neukkkyeojyeoyo",
+      "literal": [
+        [
+          "다리",
+          "leg"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "통증",
+          "pain"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "느껴져요",
+          "felt"
+        ]
+      ]
+    },
+    {
+      "id": "energy",
+      "english": "energy",
+      "word": "에너지",
+      "romanized": "eneoji",
+      "grammarNote": "**에너지** (eneoji) is a loanword from English 'energy'.\nNative Korean equivalent: **기운** (gieun) = vitality/vigor/energy.\n**에너지가 넘쳐요** = energy overflows — **넘치다** (neomchida) = to overflow/be full of.\n**가** is the subject particle after the vowel-final **에너지**.",
+      "englishPhrase": "I have a lot of energy today.",
+      "phrase": "오늘 에너지가 넘쳐요.",
+      "phraseRomanized": "oneul eneoji-ga neomchyeoyo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "에너지",
+          "energy"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "넘쳐요",
+          "overflows"
+        ]
+      ]
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "word": "안도",
+      "romanized": "ando",
+      "grammarNote": "**안도** (ando) is Sino-Korean: 安堵 — relief/reassurance.\nThe phrase uses **다행** (dahaeng) instead — meaning 'fortunate/lucky', more colloquial for relief.\n**다행이에요** = it's a relief/I'm glad — **이에요** is the copula after consonant-final **행**.\nRelated: **안심하다** (ansimhada) = to feel at ease; **안도하다** = to feel relieved.",
+      "englishPhrase": "What a relief!",
+      "phrase": "정말 다행이에요!",
+      "phraseRomanized": "jeongmal dahaengieyo",
+      "literal": [
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "다행이에요",
+          "fortunate is"
+        ]
+      ]
+    },
+    {
+      "id": "comfort",
+      "english": "comfort",
+      "word": "위로",
+      "romanized": "wiro",
+      "grammarNote": "**위로** (wiro) is Sino-Korean: 慰勞 — consolation/comfort.\nVerb form: **위로하다** (wirohada) → **위로해요**.\n**위로가 됐어요** = became a comfort — **되다** (doeda) = to become; past tense **됐어요**.\n**의** (ui) is the possessive particle: **그녀의 말** = her words.",
+      "englishPhrase": "Her words were a comfort.",
+      "phrase": "그녀의 말이 위로가 됐어요.",
+      "phraseRomanized": "geunyeoui mari wiroga dwaesseoyo",
+      "literal": [
+        [
+          "그녀",
+          "her"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "말",
+          "words"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "위로",
+          "comfort"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "됐어요",
+          "became"
+        ]
+      ]
+    },
+    {
+      "id": "feel_to_feel",
+      "english": "feel (to feel)",
+      "word": "느끼다",
+      "romanized": "neukkida",
+      "grammarNote": "**느끼다** = to feel/sense something.\n**기분이 좋아요** = I feel good (lit. 'my mood is good').\nKorean often expresses emotional states as noun + adjective: **기분** (mood/feeling) + state adjective, rather than using a verb.",
+      "englishPhrase": "I feel good today.",
+      "phrase": "오늘 기분이 좋아요.",
+      "phraseRomanized": "oneul gibuni joayo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "기분",
+          "mood"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "love_to_love",
+      "english": "love (to love)",
+      "word": "사랑하다",
+      "romanized": "saranghada",
+      "grammarNote": "**사랑하다** (saranghada) = to love — **사랑** (noun) + **하다** (to do) compound verb.\n**사랑하다** → **사랑해요** (saranghaeyo) in polite speech — **하다** → **해요**.\n**당신** (dangsin) = you (formal/written); in speech, names or **너** (neo, informal) are more natural.\n**많이** (manhi) = a lot/much — adverb from **많다** (to be many).",
+      "englishPhrase": "I love you very much.",
+      "phrase": "당신을 많이 사랑해요.",
+      "phraseRomanized": "dangsineul manhi saranghaeyo",
+      "literal": [
+        [
+          "당신",
+          "you"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "많이",
+          "much"
+        ],
+        [
+          "사랑해요",
+          "love"
+        ]
+      ]
+    },
+    {
+      "id": "hate_to_hate",
+      "english": "hate (to hate)",
+      "word": "싫어하다",
+      "romanized": "sireohada",
+      "grammarNote": "**싫어하다** (sireohada) = to hate/dislike — from **싫다** (silta, to be unpleasant) + **-어하다**.\n**싫어하다** → **싫어해요** (sireohaeyo) in polite speech.\n**기다리는 걸** = waiting [object] — **-는** nominalizes the verb; **걸** = **것을** (thing/act + obj particle).\nDistinct from **증오하다** (jeungohada): **싫어하다** = general dislike; **증오하다** = deep hatred.",
+      "englishPhrase": "I hate waiting.",
+      "phrase": "기다리는 걸 싫어해요.",
+      "phraseRomanized": "gidarineun geol sireohaeyo",
+      "literal": [
+        [
+          "기다리는 걸",
+          "waiting[obj]"
+        ],
+        [
+          "싫어해요",
+          "dislike"
+        ]
+      ]
+    },
+    {
+      "id": "like_to_like",
+      "english": "like (to like)",
+      "word": "좋아하다",
+      "romanized": "joahada",
+      "grammarNote": "**좋아하다** (joahada) = to like — from the adjective **좋다** (jota, to be good) + **-아하다**.\n**좋아하다** → **좋아해요** (joahaeyo) in polite speech.\nContrast **좋다** (jota, it is good/I like it — stative) with **좋아하다** (active feeling of liking).\n**음악을 좋아해요** = I like music — **을** is the object particle after consonant-final **악**.",
+      "englishPhrase": "I like music.",
+      "phrase": "음악을 좋아해요.",
+      "phraseRomanized": "eumag-eul joahaeyo",
+      "literal": [
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "enjoy",
+      "english": "enjoy",
+      "word": "즐기다",
+      "romanized": "jeulgida",
+      "grammarNote": "**즐기다** (jeulgida) = to enjoy — pure Korean verb.\n**즐기다** → **즐겨요** (jeulgyeoyo) in polite speech — ㅣ stem drops before 어: **기** → **겨**.\nRelated: **즐거운** (jeulgeoun) = fun/enjoyable (adjective); **즐거움** (jeulgeoum) = enjoyment (noun).\n**주말을 즐겨요** = I enjoy the weekend — **을** is the object particle.",
+      "englishPhrase": "I enjoy the weekend.",
+      "phrase": "주말을 즐겨요.",
+      "phraseRomanized": "jumal-eul jeulgyeoyo",
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "즐겨요",
+          "enjoy"
+        ]
+      ]
+    },
+    {
+      "id": "fear_dread_to_fear",
+      "english": "fear",
+      "word": "두려워하다",
+      "romanized": "duryeowohada",
+      "grammarNote": "**두려워하다** (duryeowohada) = to fear — **두렵다** (adjective) + **-어하다** → action verb.\n**두려워하다** → **두려워해요** (duryeowohaeyo) in polite speech.\nThe ㅂ irregular: **두렵다** → **두려워** before vowels — ㅂ changes to 워.\n**최악의 상황** = the worst situation — **최악** (choerak, 最惡) is Sino-Korean for 'worst'.",
+      "englishPhrase": "I fear the worst.",
+      "phrase": "최악의 상황을 두려워해요.",
+      "phraseRomanized": "choeag-ui sanghwang-eul duryeowohaeyo",
+      "literal": [
+        [
+          "최악",
+          "worst"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "상황",
+          "situation"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "두려워해요",
+          "fear"
+        ]
+      ]
+    },
+    {
+      "id": "hope_to_hope",
+      "english": "hope (to hope)",
+      "word": "바라다",
+      "romanized": "barada",
+      "grammarNote": "**바라다** (barada) = to wish/hope — pure Korean verb, more heartfelt than **희망하다**.\n**바라다** → **바라요** (barayo) in polite speech — vowel stem, so -아요 is added.\n**되길 바라요** = I hope it goes well — **-길** is a shortening of **-기를** (nominalizer + object particle).\nRelated pattern: **-기를 바라다** = to hope that... (formal written form).",
+      "englishPhrase": "I hope everything goes well.",
+      "phrase": "모든 게 잘 되길 바라요.",
+      "phraseRomanized": "modeun ge jal doegil barayo",
+      "literal": [
+        [
+          "모든 게",
+          "everything"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "되길",
+          "go-hoping"
+        ],
+        [
+          "바라요",
+          "hope"
+        ]
+      ]
+    },
+    {
+      "id": "worry_to_worry",
+      "english": "worry (to worry)",
+      "word": "걱정하다",
+      "romanized": "geokjeonghada",
+      "grammarNote": "**걱정하다** (geokjeonghada) = to worry — **걱정** (noun) + **하다** (to do).\n**걱정하다** → **걱정해요** in polite speech; **걱정하지 마세요** = please don't worry.\n**그것에 대해** = about that — **에 대해** (e daehae) is a fixed phrase meaning 'regarding/about'.\n**마세요** = please don't — the polite negative imperative form, from **말다** (malda, to stop/refrain).",
+      "englishPhrase": "Don't worry about it.",
+      "phrase": "그것에 대해 걱정하지 마세요.",
+      "phraseRomanized": "geugeose daehae geokjeongji maseyo",
+      "literal": [
+        [
+          "그것",
+          "that"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "대해",
+          "about"
+        ],
+        [
+          "걱정하지",
+          "worry[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
+    },
+    {
+      "id": "calm_soothe_to_calm",
+      "english": "calm",
+      "word": "진정시키다",
+      "romanized": "jinjeongssikida",
+      "grammarNote": "**진정시키다** (jinjeongssikida) = to calm someone down — **진정** + **시키다** (causative: to make/cause).\n**진정하다** (jinjeong hada) = to calm oneself down; **진정시키다** = to calm another person.\n**진정하세요** = Please calm down — **하세요** is the polite imperative of **하다**.\nRelated: **진정제** (jinjeongje) = a sedative/tranquilizer; **제** (je) = agent suffix in Sino-Korean.",
+      "englishPhrase": "Calm down, please.",
+      "phrase": "진정하세요.",
+      "phraseRomanized": "jinjeong haseyo",
+      "literal": [
+        [
+          "진정하세요",
+          "calm down"
+        ]
+      ]
+    },
+    {
+      "id": "comfort_to_comfort",
+      "english": "comfort (to comfort)",
+      "word": "위로하다",
+      "romanized": "wirohada",
+      "grammarNote": "**위로하다** (wirohada) = to comfort/console — **위로** (Sino-Korean noun) + **하다**.\n**위로하다** → **위로해요** (wirohaeyo) in polite speech; past: **위로했어요** (wirohaesseoyo).\n**친구를** = friend [object] — **를** is the object particle after vowel-final **구**.\nRelated: **위안** (wian) = solace/comfort (a more formal Sino-Korean synonym).",
+      "englishPhrase": "She comforted her friend.",
+      "phrase": "그녀는 친구를 위로했어요.",
+      "phraseRomanized": "geunyeoneun chingureul wirohaesseoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "친구",
+          "friend"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "위로했어요",
+          "comforted"
+        ]
+      ]
+    },
+    {
+      "id": "excite_thrill",
+      "english": "excite",
+      "word": "흥분시키다",
+      "romanized": "heungbunssikida",
+      "grammarNote": "**흥분시키다** (heungbunssikida) = to excite — **흥분** (heungbun, excitement) + **시키다** (causative).\nThe phrase uses **설레다** (seolleda) instead — meaning heart-fluttering anticipatory excitement.\n**설레요** (seolleoyo) captures a lighter, romantic or eager excitement vs. intense **흥분**.\n**생각하면** = when thinking of — **-(으)면** is the conditional/temporal connector meaning 'if/when'.",
+      "englishPhrase": "The trip excites me.",
+      "phrase": "여행을 생각하면 설레요.",
+      "phraseRomanized": "yeohaeng-eul saenggakamyeon seolleoyo",
+      "literal": [
+        [
+          "여행",
+          "trip"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "생각하면",
+          "when thinking of"
+        ],
+        [
+          "설레요",
+          "heart-flutters"
+        ]
+      ]
+    },
+    {
+      "id": "annoy",
+      "english": "annoy",
+      "word": "짜증나게 하다",
+      "romanized": "jjajeungnage hada",
+      "grammarNote": "**짜증** (jjajeung) = annoyance/irritation — pure Korean noun.\n**짜증이 나다** (jjajeungi nada) = annoyance arises; **짜증나게 하다** = to make [something] annoying.\nIn speech, **짜증 나요** (jjajeung nayo) is most natural: lit. 'annoyance comes out'.\n**소음** (soeum, 騷音) = noise — Sino-Korean: **소** (noise) + **음** (sound).",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "그 소음이 짜증 나요.",
+      "phraseRomanized": "geu soeumi jjajeung nayo",
+      "literal": [
+        [
+          "그",
+          "that"
+        ],
+        [
+          "소음",
+          "noise"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "짜증",
+          "annoyance"
+        ],
+        [
+          "나요",
+          "comes"
+        ]
+      ]
+    },
+    {
+      "id": "embarrassment",
+      "english": "embarrassment",
+      "word": "창피함",
+      "romanized": "changpiham",
+      "grammarNote": "**창피함** (changpiham) is the noun form of **창피하다** (changpihada, to be embarrassed/ashamed).\nNominalization: adjective stem + **-ㅁ** → **창피함**.\n**창피해요** (changpihaeyo) = I'm embarrassed — **하다** verb → **해요** in polite speech.\nSynonym: **부끄럽다** (bukkeureopda) = to feel shy/ashamed → **부끄러워요** (ㅂ irregular).",
+      "englishPhrase": "I feel embarrassed.",
+      "phrase": "창피해요.",
+      "phraseRomanized": "changpihaeyo",
+      "literal": [
+        [
+          "창피해요",
+          "I'm embarrassed"
+        ]
+      ]
+    },
+    {
+      "id": "jealousy",
+      "english": "jealousy",
+      "word": "질투",
+      "romanized": "jiltu",
+      "grammarNote": "**질투** (jiltu) is Sino-Korean: 嫉妬 — jealousy/envy.\nVerb form: **질투하다** (jiltuhada) → **질투해요**; **질투나다** = to feel jealous (jealousy arises).\nRelated: **부러움** (bureouм) = envy (wanting what another has); **질투** focuses on rivalry.\n**는** (neun) after **질투** is the topic particle — used here to make a general statement.",
+      "englishPhrase": "Jealousy is a strong feeling.",
+      "phrase": "질투는 강한 감정이에요.",
+      "phraseRomanized": "jiltuneun ganghan gamjeongieyo",
+      "literal": [
+        [
+          "질투",
+          "jealousy"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "강한",
+          "strong"
+        ],
+        [
+          "감정이에요",
+          "is feeling"
+        ]
+      ]
+    },
+    {
+      "id": "irritate",
+      "english": "irritate",
+      "word": "짜증나게 하다",
+      "romanized": "jjajeungnage hada",
+      "grammarNote": "**짜증나게 하다** (jjajeungnage hada) = to irritate — **짜증나게** is the adverb form of **짜증나다**.\n**-게 하다** is a causative pattern: adjective/verb + **게 하다** = to make [someone/something] do/be.\n**기다리는 게** = the act of waiting [subject] — **-는 것이** contracted to **-는 게**.\n**짜증 나요** is the natural colloquial form; **짜증나게 하다** is more formal/grammatical.",
+      "englishPhrase": "Waiting irritates me.",
+      "phrase": "기다리는 게 짜증 나요.",
+      "phraseRomanized": "gidarineun ge jjajeung nayo",
+      "literal": [
+        [
+          "기다리는 게",
+          "waiting[subj]"
+        ],
+        [
+          "짜증",
+          "annoyance"
+        ],
+        [
+          "나요",
+          "comes"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "anger_to_anger",
+      "english": "anger (to anger)",
+      "word": "화나게 하다",
+      "romanized": "hwanage hada",
+      "grammarNote": "**화나게 하다** (hwanage hada) = to anger — **화나다** (to become angry) + **-게 하다** (causative).\n**화가 나다** = anger arises (intransitive); **화나게 하다** = to cause anger in someone (transitive).\n**했어요** is the polite past tense of **하다**: **하다** → **했어요**.\n**말** (mal) = words/speech — particle **이** (subject) follows consonant-final **말**.",
+      "englishPhrase": "That comment angered me.",
+      "phrase": "그 말이 화나게 했어요.",
+      "phraseRomanized": "geu mari hwanage haesseoyo",
+      "literal": [
+        [
+          "그",
+          "that"
+        ],
+        [
+          "말",
+          "comment"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "화나게",
+          "angry-made"
+        ],
+        [
+          "했어요",
+          "did"
+        ]
+      ]
+    },
+    {
+      "id": "delight",
+      "english": "delight",
+      "word": "기쁘게 하다",
+      "romanized": "gippeuge hada",
+      "grammarNote": "**기쁘게 하다** (gippeuge hada) = to delight/make happy — **기쁘다** (to be joyful) + **-게 하다**.\n**기쁘게** is the adverb form: adjective stem **기쁘** + **-게** → joyfully/in a delightful way.\n**기쁘다** has the ㅡ irregular: stem **기쁘** + 어 → **기뻐** (the ㅡ drops before 어).\n**모두를** = everyone [object] — **모두** (modu) = all/everyone; **를** after vowel-final **두**.",
+      "englishPhrase": "The music delighted everyone.",
+      "phrase": "음악이 모두를 기쁘게 했어요.",
+      "phraseRomanized": "eumagi modureul gippeuge haesseoyo",
+      "literal": [
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "모두",
+          "everyone"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "기쁘게",
+          "joyfully"
+        ],
+        [
+          "했어요",
+          "made"
+        ]
+      ]
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "word": "미소 짓다",
+      "romanized": "miso jitda",
+      "grammarNote": "**미소** (miso) = smile — Sino-Korean: 微笑 (slight smile).\n**미소 짓다** (miso jitda) = to smile — lit. 'to make/form a smile'; **짓다** = to make/build.\n**미소 지어요** (miso jieoyo) is the polite present — **짓다** has the ㅅ irregular: ㅅ drops before vowels.\nRelated: **웃다** (utda) = to laugh/smile broadly; **미소** is specifically a gentle smile.",
+      "englishPhrase": "She always smiles.",
+      "phrase": "그녀는 항상 미소 지어요.",
+      "phraseRomanized": "geunyeoneun hangsang miso jieoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "항상",
+          "always"
+        ],
+        [
+          "미소",
+          "smile"
+        ],
+        [
+          "지어요",
+          "makes"
+        ]
+      ]
+    },
+    {
+      "id": "laugh",
+      "english": "laugh",
+      "word": "웃다",
+      "romanized": "utda",
+      "grammarNote": "**웃다** (utda) = to laugh/smile — pure Korean verb.\n**웃다** → **웃어요** (useoyo) in polite speech — the ㅅ irregular: ㅅ drops before vowel endings.\nPast tense: **웃었어요** (uteosseoyo) = laughed.\nRelated: **웃음** (useum) = laughter/smile (noun); **웃기다** (utgida) = to be funny.",
+      "englishPhrase": "We laughed a lot.",
+      "phrase": "우리는 많이 웃었어요.",
+      "phraseRomanized": "urineun manhi uteosseoyo",
+      "literal": [
+        [
+          "우리",
+          "we"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "많이",
+          "much"
+        ],
+        [
+          "웃었어요",
+          "laughed"
+        ]
+      ]
+    },
+    {
+      "id": "cry_weep_mourn",
+      "english": "cry",
+      "word": "울다",
+      "romanized": "ulda",
+      "grammarNote": "**울다** (ulda) = to cry/weep — pure Korean verb with ㄹ stem.\n**울다** → **울어요** (ureoyo) in polite present; **ㄹ** drops before certain endings but stays before 어.\nProgressive: **울고 있어요** = is crying — **-고 있다** expresses ongoing action.\nRelated: **울음** (ureum) = crying (noun); **눈물** (nunmul) = tears (lit. eye-water).",
+      "englishPhrase": "The baby is crying.",
+      "phrase": "아기가 울고 있어요.",
+      "phraseRomanized": "agiga ulgo isseoyo",
+      "literal": [
+        [
+          "아기",
+          "baby"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "울고 있어요",
+          "is crying"
+        ]
+      ]
+    },
+    {
+      "id": "sigh",
+      "english": "sigh",
+      "word": "한숨을 쉬다",
+      "romanized": "hansumeul swida",
+      "grammarNote": "**한숨** (hansum) = sigh — compound: **한** (one/big) + **숨** (breath).\n**한숨을 쉬다** = to heave a sigh — **쉬다** (swida) = to breathe/rest; **을** is the object particle.\n**안도의 한숨** = a sigh of relief — **의** (ui) is the possessive/genitive particle.\nRelated: **한숨 짓다** = to sigh (slightly more literary expression).",
+      "englishPhrase": "She sighed with relief.",
+      "phrase": "그녀는 안도의 한숨을 쉬었어요.",
+      "phraseRomanized": "geunyeoneun andoui hansumeul swieosseoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "안도",
+          "relief"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "한숨",
+          "sigh"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "쉬었어요",
+          "breathed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "frown",
+      "english": "frown",
+      "word": "찡그리다",
+      "romanized": "jjinggeurida",
+      "grammarNote": "**찡그리다** (jjinggeurida) = to frown/scrunch up one's face — pure Korean verb.\n**인상을 찡그리다** = to frown — **인상** (insang) = facial expression/impression.\n**들었을 때** = when [he] heard — **-었을 때** is past tense + **때** (time/when).\nRelated: **인상을 쓰다** (insangeul sseuda) = to make a sour/frowning face (alternative expression).",
+      "englishPhrase": "He frowned when he heard the news.",
+      "phrase": "그는 소식을 들었을 때 인상을 찡그렸어요.",
+      "phraseRomanized": "geuneun sosig-eul deureosseul ttae insang-eul jjingeuryeosseoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "소식",
+          "news"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "들었을 때",
+          "when heard"
+        ],
+        [
+          "인상",
+          "face"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "찡그렸어요",
+          "frowned"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "scream_shout",
+      "english": "scream",
+      "word": "소리치다",
+      "romanized": "sorichida",
+      "grammarNote": "**소리치다** (sorichida) = to shout/scream — compound: **소리** (sori, sound/voice) + **치다** (to strike/do).\n**소리치지 마세요** = please don't shout — **-지 마세요** is the polite negative imperative.\nRelated: **소리 지르다** (sori jireuda) = to scream loudly; **외치다** (oechida) = to cry out/exclaim.\n**소리** alone = sound/noise; **목소리** (moksori) = voice (lit. throat-sound).",
+      "englishPhrase": "Don't shout, please.",
+      "phrase": "소리치지 마세요.",
+      "phraseRomanized": "sorichiji maseyo",
+      "literal": [
+        [
+          "소리치지",
+          "shout[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "relax",
+      "english": "relax",
+      "word": "쉬다",
+      "romanized": "swida",
+      "grammarNote": "**쉬다** (swida) = to rest/relax/breathe — pure Korean verb.\nThe phrase uses **긴장을 풀다** instead — lit. 'to undo/release tension' — a more natural expression.\n**긴장** (ginжang, 緊張) = tension — Sino-Korean; **풀다** (pulda) = to release/solve/undo.\n**급하지 않아요** = it's not urgent — **급하다** (geupada) = to be urgent/hurried; **-지 않아요** = negation.",
+      "englishPhrase": "Relax, there's no rush.",
+      "phrase": "긴장 풀어요, 급하지 않아요.",
+      "phraseRomanized": "ginжang pureоyo, geupaji anayo",
+      "literal": [
+        [
+          "긴장",
+          "tension"
+        ],
+        [
+          "풀어요",
+          "release"
+        ],
+        [
+          "급하지 않아요",
+          "not urgent"
+        ]
+      ]
+    },
+    {
+      "id": "angry",
+      "english": "angry",
+      "word": "화가 난",
+      "romanized": "hwa-ga nan",
+      "grammarNote": "**화가 난** (hwa-ga nan) = angry — lit. 'anger has risen'; noun modifier form of **화가 나다**.\n**화가 나다** → past modifier **화가 난** (anger-has-risen), used before nouns.\nAs predicate: **화가 났어요** = I got/am angry — **났어요** is past tense of **나다** (to arise).\n**에게** (ege) = to/toward a person: **당신에게 화가 났어요** = I'm angry at you.",
+      "englishPhrase": "I'm angry with you.",
+      "phrase": "당신에게 화가 났어요.",
+      "phraseRomanized": "dangsинеge hwa-ga nasseoyo",
+      "literal": [
+        [
+          "당신",
+          "you"
+        ],
+        [
+          "에게",
+          "[at/to]"
+        ],
+        [
+          "화",
+          "anger"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "났어요",
+          "rose"
+        ]
+      ]
+    },
+    {
+      "id": "mad",
+      "english": "mad",
+      "word": "매우 화난",
+      "romanized": "maeu hwanan",
+      "grammarNote": "**매우 화난** (maeu hwanan) = very angry — **매우** (maeu) = very; **화난** = angry (adj. form).\n**화난** contracts from **화가 난** — often written/spoken as **화난** in compound adjectives.\n**그렇게** (geureoke) = so/that much — used to intensify: **왜 그렇게 화가 났어요?**\nSynonyms: **몹시 화가 난** (mopsi hwa-ga nan) = extremely angry; **격분한** (gyeokbunhan) = furious.",
+      "englishPhrase": "Why are you so mad?",
+      "phrase": "왜 그렇게 화가 났어요?",
+      "phraseRomanized": "wae geureoke hwa-ga nasseoyo",
+      "literal": [
+        [
+          "왜",
+          "why"
+        ],
+        [
+          "그렇게",
+          "so"
+        ],
+        [
+          "화",
+          "anger"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "났어요",
+          "rose"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "afraid_scared",
+      "english": "afraid",
+      "word": "무서운",
+      "romanized": "museoun",
+      "grammarNote": "**무서운** (museoun) is the adjective modifier form of **무섭다** (museopda, to be scary/scared).\n**무섭다** → **무서워요** (museowoyo) in polite speech — ㅂ irregular: ㅂ → 워 before vowels.\nFor expressing personal fear: **무섭다** = it is scary (to me); **두렵다** = I dread/fear it.\n**무서워했어요** = was scared — **-어하다** turns an adjective into an active emotional verb (past tense).",
+      "englishPhrase": "The child was scared.",
+      "phrase": "아이가 무서워했어요.",
+      "phraseRomanized": "aiga museowohaesseoyo",
+      "literal": [
+        [
+          "아이",
+          "child"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "무서워했어요",
+          "scared"
+        ]
+      ]
+    },
+    {
+      "id": "anxious",
+      "english": "anxious",
+      "word": "불안한",
+      "romanized": "buranhan",
+      "grammarNote": "**불안한** (buranhan) is the adjective modifier of **불안하다** (buranhada, to be anxious/uneasy).\n**불안** (buran) is Sino-Korean: 不安 — lit. 'not-safe'; unease/anxiety.\n**불안해요** (buranhaeyo) = I'm anxious — **하다** adjective → **해요** in polite speech.\nRelated: **불안감** (burangam) = a feeling of anxiety; **불안정** (buranjeong) = instability.",
+      "englishPhrase": "I'm anxious about the exam.",
+      "phrase": "시험 때문에 불안해요.",
+      "phraseRomanized": "siheom ttaemune buranhaeyo",
+      "literal": [
+        [
+          "시험",
+          "exam"
+        ],
+        [
+          "때문에",
+          "because of"
+        ],
+        [
+          "불안해요",
+          "anxious"
+        ]
+      ]
+    },
+    {
+      "id": "nervous",
+      "english": "nervous",
+      "word": "긴장된",
+      "romanized": "ginжangdoen",
+      "grammarNote": "**긴장된** (ginжangdoen) = nervous/tensed — **긴장** (tension) + **된** (become, past passive modifier).\n**긴장하다** (ginжanghada) = to become tense/nervous; **긴장돼요** = I'm nervous (contraction of **되어요**).\n**긴장** (緊張) is Sino-Korean — lit. 'tight-stretch'; commonly used for pre-event nerves.\nContrast with **불안하다** (anxiety) — **긴장하다** is often situational/performance nerves.",
+      "englishPhrase": "I'm nervous today.",
+      "phrase": "오늘 긴장돼요.",
+      "phraseRomanized": "oneul ginжangdwaeyo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "긴장돼요",
+          "nervous"
+        ]
+      ]
+    },
+    {
+      "id": "excited",
+      "english": "excited",
+      "word": "신이 난",
+      "romanized": "sini nan",
+      "grammarNote": "**신이 난** (sini nan) = excited — lit. 'spirit/energy has risen'; **신** (spirit/enthusiasm) + **이 나다**.\nThe phrase uses **기대돼요** = I'm looking forward to it — **기대** (gidae, 期待) = expectation.\n**기대되다** = to be anticipated — **되다** suffix makes a passive/spontaneous feeling verb.\nContrast: **신이 나다** (energetic excitement) vs **설레다** (fluttery/romantic anticipation).",
+      "englishPhrase": "I'm excited about the trip.",
+      "phrase": "여행이 기대돼요.",
+      "phraseRomanized": "yeohaengi gidaedwaeyo",
+      "literal": [
+        [
+          "여행",
+          "trip"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "기대돼요",
+          "anticipated"
+        ]
+      ]
+    },
+    {
+      "id": "joyful_cheerful",
+      "english": "joyful",
+      "word": "즐거운",
+      "romanized": "jeulgoun",
+      "grammarNote": "**즐거운** (jeulgoun) is the adjective modifier of **즐겁다** (jeulgeopda, to be fun/joyful) — ㅂ irregular.\n**즐겁다** → **즐거워요** (jeulgeoweoyo) in polite speech (ㅂ → 워 before vowels).\nThe phrase uses **명랑하다** (myeongnanghada) — more specifically cheerful/bright in personality.\n**항상** (hangsang) = always — adverb used with habitual present tense.",
+      "englishPhrase": "She is always cheerful.",
+      "phrase": "그녀는 항상 명랑해요.",
+      "phraseRomanized": "geunyeoneun hangsang myeongnanghaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "항상",
+          "always"
+        ],
+        [
+          "명랑해요",
+          "cheerful"
+        ]
+      ]
+    },
+    {
+      "id": "proud",
+      "english": "proud",
+      "word": "자랑스러운",
+      "romanized": "jarangseureoun",
+      "grammarNote": "**자랑스러운** is the modifier form of **자랑스럽다** (jarangseureupda, to be proud) — ㅂ irregular.\n**자랑스럽다** → **자랑스러워요** (jarangseureoweoyo) in polite speech.\n**자랑** (jarang) = boast/pride (noun); **-스럽다** suffix = -ful/-ish (creates descriptive adjective).\n**당신이 자랑스러워요** = I'm proud of you — the person you're proud of takes **이/가** (subject particle).",
+      "englishPhrase": "I'm proud of you.",
+      "phrase": "당신이 자랑스러워요.",
+      "phraseRomanized": "dangsini jarangseureоwoyo",
+      "literal": [
+        [
+          "당신",
+          "you"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "자랑스러워요",
+          "proud"
+        ]
+      ]
+    },
+    {
+      "id": "content_contented",
+      "english": "content",
+      "word": "만족한",
+      "romanized": "manjokhan",
+      "grammarNote": "**만족한** is the modifier of **만족하다** (manjokada, to be satisfied/content) — Sino-Korean 滿足.\n**만족하다** → **만족해요** (manjokaeyo) in polite speech.\n**에 만족하다** = to be satisfied with — **에** (e) marks the thing one is content with.\nRelated: **만족감** (manjokgam) = a sense of satisfaction; **불만족** (bulmanjok) = dissatisfaction.",
+      "englishPhrase": "I'm content with my life.",
+      "phrase": "제 삶에 만족해요.",
+      "phraseRomanized": "je sarme manjokaeyo",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "삶",
+          "life"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "만족해요",
+          "satisfied"
+        ]
+      ]
+    },
+    {
+      "id": "calm_2",
+      "english": "calm",
+      "word": "침착한",
+      "romanized": "chimchakhan",
+      "grammarNote": "**침착한** (chimchakhan) is the modifier form of **침착하다** (chimchakada, to be composed/calm).\n**침착하세요** = Please stay calm — **-하세요** is the polite imperative of **하다** adjectives.\n**괜찮아요** (gwaenchanhayo) = it's fine/okay — a very common reassurance phrase.\n**다** (da) = all/everything — short adverb meaning 'completely' or 'all is'.",
+      "englishPhrase": "Stay calm, everything is fine.",
+      "phrase": "침착하세요, 다 괜찮아요.",
+      "phraseRomanized": "chimchakaseyo, da gwaenchanhayo",
+      "literal": [
+        [
+          "침착하세요",
+          "be calm"
+        ],
+        [
+          "다",
+          "all"
+        ],
+        [
+          "괜찮아요",
+          "fine"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stressed",
+      "english": "stressed",
+      "word": "스트레스받는",
+      "romanized": "seuteurese-bat-neun",
+      "grammarNote": "**스트레스받는** = stress-receiving — compound modifier: **스트레스** + **받다** (batda, to receive) + **-는**.\n**스트레스를 받다** = to be stressed/get stressed (lit. 'to receive stress').\nThe phrase uses **스트레스가 많아요** = there is a lot of stress — subject + **많다** (to be much).\n**이번 주** (ibeon ju) = this week — **이번** (this time/this) + **주** (week, Sino-Korean 週).",
+      "englishPhrase": "I'm very stressed this week.",
+      "phrase": "이번 주에 스트레스가 많아요.",
+      "phraseRomanized": "ibeon jue seuteurese-ga manayo",
+      "literal": [
+        [
+          "이번 주",
+          "this week"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "스트레스",
+          "stress"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "much"
+        ]
+      ]
+    },
+    {
+      "id": "overwhelmed",
+      "english": "overwhelmed",
+      "word": "압도된",
+      "romanized": "apdo-doen",
+      "grammarNote": "**압도된** (apdo-doen) = overwhelmed — **압도** (apdo, 壓倒, to overwhelm) + **된** (passive past modifier).\n**압도되다** (apdo-doeda) = to be overwhelmed — **되다** makes it passive/spontaneous.\n**느낌이에요** = it's a feeling — **느낌** (neukkum, feeling/sense) + copula **이에요**.\nRelated: **벅차다** (beokchada) = to feel overwhelmed/welling up — a more emotional pure Korean word.",
+      "englishPhrase": "I feel overwhelmed by the work.",
+      "phrase": "일에 압도된 느낌이에요.",
+      "phraseRomanized": "ire apdo-doen neukkimieyo",
+      "literal": [
+        [
+          "일",
+          "work"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "압도된",
+          "overwhelmed"
+        ],
+        [
+          "느낌이에요",
+          "feeling is"
+        ]
+      ]
+    },
+    {
+      "id": "energetic",
+      "english": "energetic",
+      "word": "활기찬",
+      "romanized": "hwalgi chan",
+      "grammarNote": "**활기찬** (hwalgichan) = energetic/lively — compound: **활기** (hwalgi, vitality) + **차다** (to be full of).\n**활기** is Sino-Korean: 活氣 — lit. 'living-energy'; vibrancy/liveliness.\n**활기차다** → **활기차요** (hwalgichayo) in polite speech.\nRelated: **활발하다** (hwalbalada) = to be active/lively; **생기** (saenggi) = vitality/freshness.",
+      "englishPhrase": "She is very energetic.",
+      "phrase": "그녀는 매우 활기차요.",
+      "phraseRomanized": "geunyeoneun maeu hwalgichayo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "활기차요",
+          "energetic"
+        ]
+      ]
+    },
+    {
+      "id": "tired",
+      "english": "tired",
+      "word": "피곤한",
+      "romanized": "pigonhan",
+      "grammarNote": "**피곤한** (pigonhan) is the modifier form of **피곤하다** (pigonhada, to be tired) — Sino-Korean 疲困.\n**피곤하다** → **피곤해요** (pigonhaeyo) in polite speech.\nRelated pure Korean word: **지치다** (jichida) = to be worn out/exhausted → **지쳐요** (jichyeoyo).\n**너무** (neomu) = too/very — intensifier: **너무 피곤해요** = I'm very tired.",
+      "englishPhrase": "I'm very tired today.",
+      "phrase": "오늘 너무 피곤해요.",
+      "phraseRomanized": "oneul neomu pigonhaeyo",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "너무",
+          "very"
+        ],
+        [
+          "피곤해요",
+          "tired"
+        ]
+      ]
+    },
+    {
+      "id": "exhausted",
+      "english": "exhausted",
+      "word": "완전히 지친",
+      "romanized": "wanjeonhi jichin",
+      "grammarNote": "**지친** (jichin) is the past modifier of **지치다** (jichida, to be exhausted/worn out) — pure Korean.\n**지치다** → **지쳐요** (jichyeoyo) in polite present; **지쳤어요** (jichyeosseoyo) = (I am) exhausted (past).\n**완전히** (wanjeonhi) = completely/totally — adverb from **완전하다** (wanjeonhada, to be complete).\nRelated: **기진맥진하다** (gijinmaekjinhada) = to be utterly exhausted (more emphatic/formal expression).",
+      "englishPhrase": "I'm exhausted after the run.",
+      "phrase": "달리기 후에 완전히 지쳤어요.",
+      "phraseRomanized": "dalligi hue wanjeonhi jichyeosseoyo",
+      "literal": [
+        [
+          "달리기",
+          "running"
+        ],
+        [
+          "후에",
+          "after"
+        ],
+        [
+          "완전히",
+          "completely"
+        ],
+        [
+          "지쳤어요",
+          "exhausted"
+        ]
+      ]
+    },
+    {
+      "id": "curious",
+      "english": "curious",
+      "word": "궁금한",
+      "romanized": "gunggeumhan",
+      "grammarNote": "**궁금한** (gunggeumhan) is the modifier of **궁금하다** (gunggeumhada, to be curious/wondering).\n**궁금하다** → **궁금해요** (gunggeumhaeyo) in polite speech.\n**궁금하다** is used when you are wondering about something specific: **그게 궁금해요** = I'm curious about that.\nRelated: **호기심** (hogisim, 好奇心) = curiosity (the feeling itself) — Sino-Korean noun.",
+      "englishPhrase": "I'm curious about that.",
+      "phrase": "그것이 궁금해요.",
+      "phraseRomanized": "geugeosi gunggeumhaeyo",
+      "literal": [
+        [
+          "그것",
+          "that"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "궁금해요",
+          "curious"
+        ]
+      ]
+    }
+  ]
+}

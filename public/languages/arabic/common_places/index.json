@@ -1,0 +1,919 @@
+{
+  "id": "common_places",
+  "name": "Common Places & Directions",
+  "language": "arabic",
+  "stories": [
+    "getting_around",
+    "a_day_in_the_city",
+    "at_the_hotel"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    {
+      "id": "prepositions",
+      "name": "حروف الجر — Prepositions"
+    },
+    {
+      "id": "fi_location",
+      "name": "في + Location"
+    },
+    {
+      "id": "al_definite",
+      "name": "ال — The Definite Article"
+    },
+    {
+      "id": "pronouns",
+      "name": "الضمائر — Subject Pronouns"
+    },
+    {
+      "id": "idafa",
+      "name": "الإضافة — Noun Possession Construct"
+    },
+    {
+      "id": "question_words_arabic",
+      "name": "أدوات الاستفهام — Question Words"
+    }
+  ],
+  "cards": [
+    {
+      "id": "home",
+      "english": "Home",
+      "word": "بيت",
+      "romanized": "bayt",
+      "grammarNote": "**بيت** (bayt, house/home) is from root **ب-ي-ت** (b-y-t). The phrase **أنا ذاهب إلى البيت** (ana dhahib ila al-bayt) is a nominal sentence — there is no verb 'to go' conjugated; instead **ذاهب** (dhahib) is an active participle functioning as a predicate, from the **فاعل** (fa'il) pattern meaning 'one who is going.'",
+      "englishPhrase": "I'm going home.",
+      "phrase": "أنا ذاهب إلى البيت.",
+      "phraseRomanized": "ana dhahib ila al-bayt."
+    },
+    {
+      "id": "apartment",
+      "english": "Apartment",
+      "word": "شقة",
+      "romanized": "shaqqa",
+      "grammarNote": "**أسكن** (askun, I live/reside) is a Form I verb from root **س-ك-ن** (s-k-n, to dwell). The sentence **أسكن في شقة** (askun fi shaqqa) is a verbal sentence — it opens with the conjugated verb. Arabic distinguishes verbal sentences (verb-first) from nominal sentences (subject-first), and the distinction carries slight emphasis differences.",
+      "englishPhrase": "I live in an apartment.",
+      "phrase": "أسكن في شقة.",
+      "phraseRomanized": "askun fi shaqqa."
+    },
+    {
+      "id": "school",
+      "english": "School",
+      "word": "مدرسة",
+      "romanized": "madrasa",
+      "grammarNote": "**مدرسة** (madrasa, school) follows the **مَفْعَلَة** (maf'ala) pattern — a place-noun derived from the root **د-ر-س** (d-r-s, to study). The same pattern gives **مكتبة** (maktaba, library) from **ك-ت-ب** (k-t-b) and **مطعم** (mat'am, restaurant) from **ط-ع-م** (t-'-m, to feed).\n\nNote also: **يذهبون** (yadhhalbun) is the masculine plural present, 3rd person. The prefix **يـ** marks 3rd person, the suffix **ون** marks masculine plural.",
+      "englishPhrase": "The children go to school.",
+      "phrase": "الأطفال يذهبون إلى المدرسة.",
+      "phraseRomanized": "al-atfal yadhhalbun ila al-madrasa."
+    },
+    {
+      "id": "university",
+      "english": "University",
+      "word": "جامعة",
+      "romanized": "jami'a",
+      "grammarNote": "**جامعة** (jami'a, university) literally means 'a gathering place' — from root **ج-م-ع** (j-m-', to gather/collect). The **فاعلة** (fa'ila) pattern produces agent nouns: **جامعة** = gatherer/collector → place that gathers (students). Compare **جامع** (jami', mosque — a gathering place for prayer).\n\n**تدرس** (tadrus, she studies) is Form I verb, 3rd person feminine singular present — the prefix **تـ** marks both 2nd person and 3rd person feminine.",
+      "englishPhrase": "She studies at the university.",
+      "phrase": "هي تدرس في الجامعة.",
+      "phraseRomanized": "hiya tadrus fi al-jami'a."
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "مكتب",
+      "romanized": "maktab",
+      "grammarNote": "**مكتب** (maktab, office/desk) follows the **مَفْعَل** (maf'al) pattern — a place-noun from root **ك-ت-ب** (k-t-b, to write). A place of writing → office or desk. The same root gives **كتاب** (kitab, book), **كاتب** (katib, writer), **مكتبة** (maktaba, library/bookshop).\n\n**يعمل** (ya'mal, he works) is from root **ع-م-ل** (ʿ-m-l, to work/do).",
+      "englishPhrase": "He works in an office.",
+      "phrase": "هو يعمل في مكتب.",
+      "phraseRomanized": "huwa ya'mal fi maktab."
+    },
+    {
+      "id": "hospital",
+      "english": "Hospital",
+      "word": "مستشفى",
+      "romanized": "mustashfa",
+      "grammarNote": "Arabic has **sun letters** (**حروف شمسية**) that assimilate the 'l' of the definite article **ال**.\nExamples: **الشمس** = ash-shams (not al-shams), **الشارع** = ash-shari'.\n**Moon letters** (**حروف قمرية**) do not assimilate: **المستشفى** = al-mustashfa.\nThis affects 14 of the 28 Arabic letters.",
+      "englishPhrase": "I'm going to the hospital.",
+      "phrase": "أنا ذاهب إلى المستشفى.",
+      "phraseRomanized": "ana dhahib ila al-mustashfa."
+    },
+    {
+      "id": "grocery_store",
+      "english": "Grocery store",
+      "word": "بقالة",
+      "romanized": "baqqala",
+      "grammarNote": "**بقالة** (baqqala, grocery store) is from root **ب-ق-ل** (b-q-l, relating to greens/vegetables). The suffix **ة** (ta marbuta) often marks a place of trade or a collective noun.\n\nThe phrase uses **أحتاج إلى** (ahtaj ila, I need to) — a common construction where **إلى** connects the verb to what is needed. **أحتاج** is Form VIII verb (افتعل pattern) from root **ح-و-ج** (h-w-j, need).",
+      "englishPhrase": "I need to go to the supermarket.",
+      "phrase": "أحتاج إلى الذهاب إلى السوبرماركت.",
+      "phraseRomanized": "ahtaj ila adh-dhahab ila as-subarmarket."
+    },
+    {
+      "id": "bank",
+      "english": "Bank",
+      "word": "بنك",
+      "romanized": "bank",
+      "grammarNote": "**بنك** (bank) is a loanword from European languages. Arabic readily borrows foreign words, often adapting their pronunciation to fit Arabic phonology. Note **قادم** (qadim, coming/arriving) — an active participle from the **فاعل** (fa'il) pattern, from root **ق-د-م** (q-d-m, to come/advance). Used here as a predicate: **أنا قادم** = 'I am one who comes' = 'I am coming.'",
+      "englishPhrase": "I'm coming from the bank.",
+      "phrase": "أنا قادم من البنك.",
+      "phraseRomanized": "ana qadim min al-bank."
+    },
+    {
+      "id": "library",
+      "english": "Library",
+      "word": "مكتبة",
+      "romanized": "maktaba",
+      "grammarNote": "**مكتبة** (maktaba) comes from root **ك-ت-ب** (k-t-b, to write) via the **مَفْعَلة** (maf'ala) place pattern. It means both library and bookshop — context distinguishes which.\n\nThe same root gives: **كتب** (kataba, he wrote), **كاتب** (katib, writer — **فاعل** pattern), **كتاب** (kitab, book), **مكتب** (maktab, desk/office). Root **ك-ت-ب** is one of the richest roots in Arabic.",
+      "englishPhrase": "I study in the library.",
+      "phrase": "أدرس في المكتبة.",
+      "phraseRomanized": "adrus fi al-maktaba."
+    },
+    {
+      "id": "restaurant",
+      "english": "Restaurant",
+      "word": "مطعم",
+      "romanized": "mat'am",
+      "grammarNote": "**مطعم** (mat'am, restaurant) follows the **مَفْعَل** (maf'al) place pattern, from root **ط-ع-م** (t-'-m, to feed/eat). A place of eating/feeding.\n\n**المطعم ممتلئ** (al-mat'am mumtali') is a nominal (equational) sentence: 'The restaurant [is] full.' Arabic drops the present-tense copula 'is' — there is no verb. The adjective **ممتلئ** (mumtali', full/stuffed) agrees in definiteness with the subject.",
+      "englishPhrase": "The restaurant is full.",
+      "phrase": "المطعم ممتلئ.",
+      "phraseRomanized": "al-mat'am mumtali'."
+    },
+    {
+      "id": "cafe",
+      "english": "Cafe",
+      "word": "مقهى",
+      "romanized": "maqha",
+      "grammarNote": "**مقهى** (maqha, café) is from root **ق-هـ-و** (q-h-w, coffee/café). The **مَفْعَل** (maf'al) pattern gives a place-noun: place of coffee.\n\n**لنلتقِ** (lnaltaqi, let's meet) uses the hortatory prefix **لِـ** + first-person plural verb — 'let us…'. The verb **يلتقي** (yaltaqi, to meet) is Form VIII (افتعل), from root **ل-ق-ي** (l-q-y, to encounter). Form VIII often has reflexive/reciprocal meaning.",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "لنلتقِ في المقهى.",
+      "phraseRomanized": "lnaltaqi fi al-maqha."
+    },
+    {
+      "id": "hotel",
+      "english": "Hotel",
+      "word": "فندق",
+      "romanized": "funduq",
+      "grammarNote": "**فندق** (funduq, hotel) is an old loanword, ultimately from Greek *pandocheion* (inn). In Arabic it has the form **فُعلُل** — a quadriliteral root pattern (four consonants: ف-ن-د-ق), which is less common than trilateral roots but exists for many borrowed or onomatopoeic words.\n\n**وسط المدينة** (wasat al-madina, city centre) is an **إضافة** (idafa) — a possessive construction: 'middle of the city.'",
+      "englishPhrase": "The hotel is downtown.",
+      "phrase": "الفندق في وسط المدينة.",
+      "phraseRomanized": "al-funduq fi wasat al-madina."
+    },
+    {
+      "id": "airport",
+      "english": "Airport",
+      "word": "مطار",
+      "romanized": "matar",
+      "grammarNote": "**مطار** (matar, airport) follows the **مَفْعَال** (mif'al) pattern from root **ط-ي-ر** (t-y-r, to fly). A place of flying.\n\n**بعيد من** (ba'id min, far from) — **بعيد** (ba'id, far) is an adjective from root **ب-ع-د** (b-'-d). Its opposite is **قريب** (qarib, near), from root **ق-ر-ب** (q-r-b). Both take the preposition **من** (min, from) in this construction.",
+      "englishPhrase": "The airport is far from here.",
+      "phrase": "المطار بعيد من هنا.",
+      "phraseRomanized": "al-matar ba'id min huna."
+    },
+    {
+      "id": "station",
+      "english": "Station",
+      "word": "محطة",
+      "romanized": "mahatta",
+      "grammarNote": "**محطة** (mahatta, station/stop) is from root **ح-ط-ط** (h-t-t, to put down/alight). The **مَفْعَلة** (maf'ala) pattern gives a place-noun: a place where you put down (stop).\n\n**قريبة من** (qariba min, near to) — the adjective **قريبة** is feminine here because **محطة** (station) is feminine (marked by **ة**). Arabic adjectives agree with their noun in gender, number, and definiteness.",
+      "englishPhrase": "The station is near the hotel.",
+      "phrase": "المحطة قريبة من الفندق.",
+      "phraseRomanized": "al-mahatta qariba min al-funduq."
+    },
+    {
+      "id": "bus_stop",
+      "english": "Bus stop",
+      "word": "موقف الحافلة",
+      "romanized": "mawqif al-hafila",
+      "grammarNote": "**موقف** (mawqif, stop/position) is from root **و-ق-ف** (w-q-f, to stop/stand). The **مَفعِل** (maf'il) pattern gives a place or time of the action.\n\n**الحافلة** (al-hafila, the bus) is from root **ح-ف-ل** (h-f-l, to be full/crowded) — literally a vehicle that carries many. **موقف الحافلة** is an **إضافة** (idafa): 'stopping-place of the bus.'",
+      "englishPhrase": "Wait at the bus stop.",
+      "phrase": "انتظر عند موقف الحافلة.",
+      "phraseRomanized": "intazir inda mawqif al-hafila."
+    },
+    {
+      "id": "park",
+      "english": "Park",
+      "word": "حديقة",
+      "romanized": "hadiqa",
+      "grammarNote": "**حديقة** (hadiqa, garden/park) is from root **ح-د-ق** (h-d-q, to surround/encircle). A garden is an enclosed/surrounded space. Related: **حدق** (to surround with eyes = to stare).\n\n**يلعبون** (yal'abun, they play) is the masculine plural present of root **ل-ع-ب** (l-'-b, to play). When the plural noun subject precedes the verb, the verb takes plural agreement; when the verb precedes the subject, it takes singular agreement.",
+      "englishPhrase": "The children play in the park.",
+      "phrase": "الأطفال يلعبون في الحديقة.",
+      "phraseRomanized": "al-atfal yal'abun fi al-hadiqa."
+    },
+    {
+      "id": "square",
+      "english": "Square",
+      "word": "ميدان",
+      "romanized": "maydan",
+      "grammarNote": "**ميدان** (maydan, square/arena) is from root **م-ي-د** (m-y-d, to sway/extend). A wide open space.\n\n**هناك** (hunak, there) at the start of the sentence functions as an existential: **هناك نافورة** = 'there is a fountain.' This is the Arabic equivalent of 'there is/there are' — simply place **هناك** before the subject.",
+      "englishPhrase": "There's a fountain in the square.",
+      "phrase": "هناك نافورة في الميدان.",
+      "phraseRomanized": "hunak nafura fi al-maydan.",
+      "hidden": true
+    },
+    {
+      "id": "street",
+      "english": "Street",
+      "word": "شارع",
+      "romanized": "shari'",
+      "grammarNote": "**شارع** (shari', street) is from root **ش-ر-ع** (sh-r-', to begin/legislate/open a road). It literally means 'that which is opened/extended.' Note that **شارع** begins with **ش**, a sun letter, so the definite article assimilates: **الشارع** = ash-shari' (not al-shari').\n\n**هذا الشارع** (hadha ash-shari') — the demonstrative **هذا** (this, m.) precedes the definite noun.",
+      "englishPhrase": "The restaurant is on this street.",
+      "phrase": "المطعم في هذا الشارع.",
+      "phraseRomanized": "al-mat'am fi hadha ash-shari'."
+    },
+    {
+      "id": "crosswalk",
+      "english": "Crosswalk",
+      "word": "ممر المشاة",
+      "romanized": "mamarr al-mushah",
+      "grammarNote": "**ممر** (mamarr, passageway) is from root **م-ر-ر** (m-r-r, to pass). The **مَفعَل** pattern gives a place of passing.\n\n**المشاة** (al-mushah, pedestrians) is the plural of **ماشٍ** (mashi, one who walks) — active participle from **م-ش-ي** (m-sh-y, to walk). **ممر المشاة** = 'passageway of the pedestrians' — an إضافة construction.",
+      "englishPhrase": "Cross at the crosswalk.",
+      "phrase": "اعبر عند ممر المشاة.",
+      "phraseRomanized": "i'bur inda mamarr al-mushah.",
+      "hidden": true
+    },
+    {
+      "id": "intersection",
+      "english": "Intersection",
+      "word": "تقاطع",
+      "romanized": "taqatu'",
+      "grammarNote": "**تقاطع** (taqatu', intersection) is a Form VI verbal noun from root **ق-ط-ع** (q-t-', to cut). Form VI (**تَفاعَل**) expresses reciprocal action: cutting each other = crossing each other. The intersection is 'where roads cross each other.'\n\n**التفِ** (iltafi, turn!) is a Form VIII imperative from root **ل-ف-ف** (l-f-f, to wrap/turn).",
+      "englishPhrase": "Turn left at the intersection.",
+      "phrase": "التفِ يساراً عند التقاطع.",
+      "phraseRomanized": "iltafi yasaran inda at-taqatu'.",
+      "hidden": true
+    },
+    {
+      "id": "bridge",
+      "english": "Bridge",
+      "word": "جسر",
+      "romanized": "jisr",
+      "grammarNote": "**جسر** (jisr, bridge) is from root **ج-س-ر** (j-s-r, to be bold/bridge a gap). The broken plural is **جسور** (jusur, bridges).\n\n**عبرنا** ('abarna, we crossed) is the past tense first-person plural of **عبر** (ʿabara, to cross/pass), from root **ع-ب-ر** (ʿ-b-r). The same root gives **عبور** (ubur, crossing) and **تعبير** (ta'bir, expression — Form II, lit. 'making cross over').",
+      "englishPhrase": "We crossed the bridge.",
+      "phrase": "عبرنا الجسر.",
+      "phraseRomanized": "'abarna al-jisr.",
+      "hidden": true
+    },
+    {
+      "id": "corner",
+      "english": "Corner",
+      "word": "زاوية",
+      "romanized": "zawiya",
+      "grammarNote": "**زاوية** (zawiya, corner/angle) is from root **ز-و-ي** (z-w-y, to tuck away/be in a corner). In mathematics, زاوية also means 'angle' — the same word.\n\n**يميناً** (yamina, to the right) is an adverb in the accusative (tanwin **-an**). Arabic direction adverbs take the accusative when used adverbially: **يميناً** (to the right), **يساراً** (to the left), **مباشرةً** (straight ahead).",
+      "englishPhrase": "Turn right at the corner.",
+      "phrase": "التفِ يميناً عند الزاوية.",
+      "phraseRomanized": "iltafi yamina inda az-zawiya.",
+      "hidden": true
+    },
+    {
+      "id": "city_centre_downtown",
+      "english": "City centre",
+      "word": "وسط المدينة",
+      "romanized": "wasat al-madina",
+      "grammarNote": "**وسط المدينة** (wasat al-madina) is an **إضافة** (idafa) construction: the first noun **وسط** (wasat, middle/centre) is in the construct state, followed by the second noun **المدينة** (al-madina, the city) in the genitive. In an idafa, the first noun never takes **ال** (the definite article); it gets its definiteness from the second noun.\n\n**المتحف** (al-mathaf, the museum) is from root **ت-ح-ف** (t-h-f, rarity/gift) → **تحفة** (tuhfa, masterpiece).",
+      "englishPhrase": "The museum is downtown.",
+      "phrase": "المتحف في وسط المدينة.",
+      "phraseRomanized": "al-mathaf fi wasat al-madina."
+    },
+    {
+      "id": "neighbourhood",
+      "english": "Neighbourhood",
+      "word": "حي",
+      "romanized": "hayy",
+      "grammarNote": "**حي** (hayy, neighbourhood/district) is from root **ح-ي-ي** (h-y-y, life/living). A neighbourhood is literally 'a living place.'\n\n**هادئ** (hadi', quiet) is an adjective here in an **indefinite** predicate position after an indefinite noun: **في حي هادئ** = 'in a quiet neighbourhood.' When modifying an indefinite noun, the adjective is also indefinite and follows the noun (Arabic adjectives always follow nouns they modify).",
+      "englishPhrase": "I live in a quiet neighbourhood.",
+      "phrase": "أسكن في حي هادئ.",
+      "phraseRomanized": "askun fi hayy hadi'."
+    },
+    {
+      "id": "beach",
+      "english": "Beach",
+      "word": "شاطئ",
+      "romanized": "shati'",
+      "grammarNote": "**شاطئ** (shati', beach/shore) is from root **ش-ط-أ** (sh-t-', edge/shore). The broken plural is **شواطئ** (shawati', beaches).\n\n**الشاطئ جميل** (ash-shati' jamil) is a nominal sentence: 'The beach [is] beautiful.' No verb 'to be' is needed in the present tense. Note that **شاطئ** begins with **ش**, a sun letter, so the **ل** of **ال** assimilates: **الشاطئ** = ash-shati'.",
+      "englishPhrase": "The beach is beautiful.",
+      "phrase": "الشاطئ جميل.",
+      "phraseRomanized": "ash-shati' jamil."
+    },
+    {
+      "id": "mountain",
+      "english": "Mountain",
+      "word": "جبل",
+      "romanized": "jabal",
+      "grammarNote": "**جبل** (jabal, mountain) is from root **ج-ب-ل** (j-b-l, mountain/massiveness). The broken plural is **جبال** (jibal, mountains) — the vowel pattern changes internally, a hallmark of Arabic broken plurals.\n\n**عالٍ** ('alin, high/tall) is an adjective whose final root letter is **و** or **ي** — these are called **اسم منقوص** (defective nouns/adjectives). In nominative indefinite, the final vowel is dropped: عالٍ not عالي.",
+      "englishPhrase": "The mountain is very high.",
+      "phrase": "الجبل عالٍ جداً.",
+      "phraseRomanized": "al-jabal 'alin jiddan."
+    },
+    {
+      "id": "museum",
+      "english": "Museum",
+      "word": "متحف",
+      "romanized": "mathaf",
+      "grammarNote": "**متحف** (mathaf, museum) follows the **مَفعَل** (maf'al) pattern, from root **ت-ح-ف** (t-h-f, rarity/gift). A place of rarities and gifts.\n\n**أريد زيارة** (urid ziyarat, I want to visit) — **زيارة** (ziyara, visit) is a verbal noun (مصدر, masdar) of **زار** (zara, to visit), from root **ز-و-ر** (z-w-r). Using a masdar after **أريد** is equivalent to the English infinitive 'to visit.'",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "أريد زيارة المتحف.",
+      "phraseRomanized": "urid ziyarat al-mathaf."
+    },
+    {
+      "id": "movie_theater",
+      "english": "Movie theater",
+      "word": "سينما",
+      "romanized": "sinima",
+      "grammarNote": "**سينما** (sinima, cinema) is a loanword from European languages, ultimately from Greek *kinema* (motion). Arabic borrowed it directly.\n\n**ذاهبون** (dhahibun, going) is the masculine plural active participle of **ذهب** (dhahaba, to go), from root **ذ-هـ-ب** (dh-h-b). Used here as a predicate: **نحن ذاهبون** = 'we are going.' The **ون** suffix marks masculine plural. The sentence is nominal, not verbal.",
+      "englishPhrase": "We're going to the cinema tonight.",
+      "phrase": "نحن ذاهبون إلى السينما الليلة.",
+      "phraseRomanized": "nahnu dhahibun ila as-sinima al-layla."
+    },
+    {
+      "id": "map",
+      "english": "Map",
+      "word": "خريطة",
+      "romanized": "kharita",
+      "grammarNote": "**خريطة** (kharita, map) is from root **خ-ر-ط** (kh-r-t, to cut/engrave lines). A map is something with lines drawn on it.\n\n**هل عندك** (hal 'indaka, do you have?) — **عند** (inda, at/with) + **ك** (ka, you m.) expresses possession. **هل** (hal) is the yes/no question particle — it does not change word order, just marks the sentence as a question.",
+      "englishPhrase": "Do you have a map?",
+      "phrase": "هل عندك خريطة؟",
+      "phraseRomanized": "hal indaka kharita?"
+    },
+    {
+      "id": "direction",
+      "english": "Direction",
+      "word": "اتجاه",
+      "romanized": "ittijah",
+      "grammarNote": "**اتجاه** (ittijah, direction) is Form VIII verbal noun from root **و-ج-هـ** (w-j-h, face/direction). Form VIII (**افتعل**) of this root gives **اتجه** (ittajaha, to head toward). The verbal noun **اتجاه** means direction or orientation.\n\n**في أي اتجاه** (fi ayy ittijah, in which direction?) — **أي** (ayy, which/any) is an interrogative used with nouns to ask 'which [noun]?'",
+      "englishPhrase": "Which direction is the station?",
+      "phrase": "في أي اتجاه المحطة؟",
+      "phraseRomanized": "fi ayy ittijah al-mahatta?"
+    },
+    {
+      "id": "distance",
+      "english": "Distance",
+      "word": "مسافة",
+      "romanized": "masafa",
+      "grammarNote": "**مسافة** (masafa, distance) is from root **س-ف-ر** (s-f-r, to travel). A distance is a stretch traveled. Related: **سفر** (safar, travel), **مسافر** (musafir, traveler — **فاعل** pattern).\n\n**ما هي المسافة** (ma hiya al-masafa, what is the distance?) — **ما** (ma) asks 'what?' when followed by a definite noun. The pronoun **هي** (hiya) is often inserted as a copula for clarity: 'what is it — the distance?'",
+      "englishPhrase": "What's the distance to the hotel?",
+      "phrase": "ما هي المسافة إلى الفندق؟",
+      "phraseRomanized": "ma hiya al-masafa ila al-funduq?"
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "يذهب",
+      "romanized": "yadhhab",
+      "grammarNote": "**يذهب** (yadhhab, to go) is from root **ذ-هـ-ب** (dh-h-b, to go). Form I verb. The present tense is formed with prefixes and suffixes: **أذهب** (I go), **تذهب** (you go), **يذهب** (he goes), **تذهب** (she goes), **نذهب** (we go).\n\n**ذاهب** (dhahib, going) is the active participle (**فاعل** pattern) — used in nominal sentences to express 'in the process of going.'",
+      "englishPhrase": "I'm going to the supermarket.",
+      "phrase": "أنا ذاهب إلى السوبرماركت.",
+      "phraseRomanized": "ana dhahib ila as-subarmarket."
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "يأتي",
+      "romanized": "ya'ti",
+      "grammarNote": "**يأتي** (ya'ti, to come) is from root **أ-ت-ي** (a-t-y, to come). The imperative is **تعال** (ta'al, come! — used for a man) — an irregular imperative from the root **ع-ل-و** or a fusion form. It is one of the common irregular imperatives in Arabic.\n\n**بيتي** (bayti, my house) — the suffix **ي** (i) marks first-person possession: **بيت** (bayt, house) + **ي** = **بيتي** (my house). When a possessive suffix is added, the definite article **ال** is dropped.",
+      "englishPhrase": "Come to my house.",
+      "phrase": "تعال إلى بيتي.",
+      "phraseRomanized": "ta'al ila bayti."
+    },
+    {
+      "id": "to_travel",
+      "english": "To travel",
+      "word": "يسافر",
+      "romanized": "yusafir",
+      "grammarNote": "**يسافر** (yusafir, to travel) is Form III (**فاعَل** pattern) from root **س-ف-ر** (s-f-r, travel). Form III often implies an action done with or toward someone — here the extended/intensive meaning of traveling.\n\n**أحب السفر** (uhibb as-safar, I love to travel) — **السفر** (as-safar) is the masdar (verbal noun) of **سافر** (to travel), used as the object of love. Masdars serve as infinitives in Arabic.",
+      "englishPhrase": "I love to travel.",
+      "phrase": "أحب السفر.",
+      "phraseRomanized": "uhibb as-safar."
+    },
+    {
+      "id": "to_walk",
+      "english": "To walk",
+      "word": "يمشي",
+      "romanized": "yamshi",
+      "grammarNote": "**يمشي** (yamshi, to walk) is from root **م-ش-ي** (m-sh-y, to walk). This is a **ناقص** (defective) verb — its last root letter is **ي**, which behaves irregularly in conjugation.\n\n**كل يوم** (kull yawm, every day) — **كل** (kull) means 'every/all' and is followed by an indefinite singular noun. Compare: **كل يوم** (every day), **كل أسبوع** (every week), **كل شيء** (everything).",
+      "englishPhrase": "I walk to work every day.",
+      "phrase": "أمشي إلى العمل كل يوم.",
+      "phraseRomanized": "amshi ila al-'amal kull yawm."
+    },
+    {
+      "id": "to_drive",
+      "english": "To drive",
+      "word": "يقود",
+      "romanized": "yaqud",
+      "grammarNote": "**يقود** (yaqud, to drive/lead) is from root **ق-و-د** (q-w-d, to lead/drive). This is a **أجوف** (hollow) verb — the middle root letter is **و** (waw), which weakens in certain conjugations. Past tense: **قاد** (qada, he led/drove).\n\nNote gender agreement: **هي تقود** (hiya taqud, she drives) — the prefix **تـ** marks both 2nd person and 3rd person feminine singular in the present tense.",
+      "englishPhrase": "She drives to the office.",
+      "phrase": "هي تقود إلى المكتب.",
+      "phraseRomanized": "hiya taqud ila al-maktab."
+    },
+    {
+      "id": "to_turn",
+      "english": "To turn",
+      "word": "يلتف",
+      "romanized": "yaltaf",
+      "grammarNote": "**يلتف** (yaltaf, to turn/wrap) is Form VIII from root **ل-ف-ف** (l-f-f, to wrap/coil). The Form VIII (**افتعل**) of doubled roots (where 2nd and 3rd root letters are the same) sometimes shows assimilation. The imperative **التفِ** (iltafi) is the Form VIII imperative.\n\nThe doubled-root form means to wrap around — turning is like wrapping around a corner.",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "التفِ يساراً عند الزاوية.",
+      "phraseRomanized": "iltafi yasaran inda az-zawiya.",
+      "hidden": true
+    },
+    {
+      "id": "to_cross",
+      "english": "To cross",
+      "word": "يعبر",
+      "romanized": "ya'bur",
+      "grammarNote": "**يعبر** (ya'bur, to cross) is Form I from root **ع-ب-ر** (ʿ-b-r, to cross/pass over). The same root gives **عبور** (ubur, crossing/transit), **تعبير** (ta'bir, expression — Form II, causative), and **معبر** (ma'bar, crossing point).\n\n**بحذر** (bi-hadhar, carefully) — the preposition **بـ** (bi-) with a noun creates an adverbial of manner: 'with caution.' This construction is very productive in Arabic.",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "اعبر الشارع بحذر.",
+      "phraseRomanized": "i'bur ash-shari' bi-hadhar.",
+      "hidden": true
+    },
+    {
+      "id": "to_follow",
+      "english": "To follow",
+      "word": "يتبع",
+      "romanized": "yatba'",
+      "grammarNote": "**يتبع** (yatba', to follow) is Form I from root **ت-ب-ع** (t-b-', to follow/come after). The imperative **اتبع** (ittabi') undergoes assimilation when the Form VIII prefix **ا** meets the first root letter **ت** — giving the doubled **اتتبع → اتبع**.\n\nThis is a regular feature of Form VIII verbs whose first root letter is **ت**: the **ت** of the root and the **ت** of Form VIII merge.",
+      "englishPhrase": "Follow this street.",
+      "phrase": "اتبع هذا الشارع.",
+      "phraseRomanized": "ittabi' hadha ash-shari'.",
+      "hidden": true
+    },
+    {
+      "id": "to_reach",
+      "english": "To reach",
+      "word": "يصل إلى",
+      "romanized": "yasil ila",
+      "grammarNote": "**يصل** (yasil, to reach/arrive) is Form I from root **و-ص-ل** (w-s-l, to connect/arrive). This is a **مثال** (assimilated) verb — its first root letter is **و**, which drops in the present tense: **وصل** (wasala) → **يصل** (yasil).\n\n**يصل إلى** requires the preposition **إلى** (to/toward). Compare: **أصل إلى** (asil ila, I reach), **يصل** (yasil, he reaches).",
+      "englishPhrase": "How do I reach the station?",
+      "phrase": "كيف أصل إلى المحطة؟",
+      "phraseRomanized": "kayfa asil ila al-mahatta?",
+      "hidden": true
+    },
+    {
+      "id": "to_enter",
+      "english": "To enter",
+      "word": "يدخل",
+      "romanized": "yadkhul",
+      "grammarNote": "**يدخل** (yadkhul, to enter) is Form I from root **د-خ-ل** (d-kh-l, to enter/go in). Its opposite is **يخرج** (yakhruj, to exit/go out) from root **خ-ر-ج**.\n\nThe imperative **ادخل** (udkhul, enter!) uses the Form I imperative prefix. Notice **من الباب الرئيسي** (min al-bab ar-ra'isi, through the main door) — **الرئيسي** (ar-ra'isi, main/principal) is a **نسبة** (nisba) adjective formed from **رئيس** (ra'is, head/chief) + **ي** suffix.",
+      "englishPhrase": "Enter through the main door.",
+      "phrase": "ادخل من الباب الرئيسي.",
+      "phraseRomanized": "udkhul min al-bab ar-ra'isi."
+    },
+    {
+      "id": "to_leave",
+      "english": "To leave",
+      "word": "يغادر",
+      "romanized": "yughadir",
+      "grammarNote": "**يغادر** (yughadir, to leave/depart) is Form III (**فاعَل** pattern) from root **غ-د-ر** (gh-d-r, to abandon/betray). Form III often implies a directed or intensive action.\n\n**في الخامسة** (fi al-khamisa, at five) — Arabic ordinal numbers (first, second…) are adjectives: **الأول** (first), **الثاني** (second), **الثالث** (third), **الخامس** (fifth). The feminine form **الخامسة** is used because **الساعة** (hour) is feminine and understood even when dropped.",
+      "englishPhrase": "I leave work at five.",
+      "phrase": "أغادر العمل في الخامسة.",
+      "phraseRomanized": "ughadir al-'amal fi al-khamisa."
+    },
+    {
+      "id": "to_depart",
+      "english": "To depart",
+      "word": "يغادر",
+      "romanized": "yughadir",
+      "grammarNote": "**يغادر** (yughadir) can mean both 'to leave' (a place) and 'to depart' (a vehicle). Context distinguishes them. Here **القطار يغادر** (al-qitar yughadir, the train departs) — the subject comes before the verb, making this a nominal sentence with a verbal predicate.\n\n**القطار** (al-qitar, the train) — **ق** is a moon letter, so the **ل** of **ال** is preserved: **القطار** = al-qitar.",
+      "englishPhrase": "The train departs at nine.",
+      "phrase": "القطار يغادر في التاسعة.",
+      "phraseRomanized": "al-qitar yughadir fi at-tasi'a.",
+      "hidden": true
+    },
+    {
+      "id": "to_arrive",
+      "english": "To arrive",
+      "word": "يصل",
+      "romanized": "yasil",
+      "grammarNote": "**يصل** (yasil, to arrive) is from root **و-ص-ل** (w-s-l, to connect/arrive). The initial **و** drops in the present tense — a feature of **مثال** (assimilated) verbs.\n\n**نصل غداً** (nasil ghadan, we arrive tomorrow) — in Arabic, the present tense can carry future meaning when accompanied by a future time word like **غداً** (ghadan, tomorrow). No separate future construction is required in this context.",
+      "englishPhrase": "We arrive tomorrow.",
+      "phrase": "نصل غداً.",
+      "phraseRomanized": "nasil ghadan."
+    },
+    {
+      "id": "to_visit",
+      "english": "To visit",
+      "word": "يزور",
+      "romanized": "yazur",
+      "grammarNote": "**يزور** (yazur, to visit) is from root **ز-و-ر** (z-w-r, to visit/come). This is a **أجوف** (hollow) verb — the middle root letter **و** weakens: past **زار** (zara), present **يزور** (yazur).\n\n**زيارة** (ziyara, a visit) is the verbal noun (masdar) of this root. The sentence **أريد زيارة المتحف** uses the masdar as the object of **أريد** (I want), equivalent to English 'I want to visit the museum.'",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "أريد زيارة المتحف.",
+      "phraseRomanized": "urid ziyarat al-mathaf."
+    },
+    {
+      "id": "in",
+      "english": "In",
+      "word": "في",
+      "romanized": "fi",
+      "grammarNote": "**في** (fi, in/at) is one of the most common Arabic prepositions. It expresses location (**في البيت** = at home), time (**في الصباح** = in the morning), and membership (**في الفريق** = on the team).\n\nIn **المفاتيح في الحقيبة** (the keys are in the bag), **في** connects a definite noun subject to its location — a nominal sentence with a prepositional phrase as predicate.",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "المفاتيح في الحقيبة.",
+      "phraseRomanized": "al-mafatih fi al-haqiba.",
+      "hidden": true
+    },
+    {
+      "id": "on",
+      "english": "On",
+      "word": "على",
+      "romanized": "'ala",
+      "grammarNote": "**على** ('ala, on/upon) is a preposition expressing surface location. It is also used in many idiomatic expressions: **على اليمين** (on the right), **على الطاولة** (on the table), **على ما يرام** (fine/OK — literally 'on what is wished').\n\n**الكتاب على الطاولة** (the book is on the table) is a nominal sentence — subject + prepositional phrase predicate, no verb needed.",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "الكتاب على الطاولة.",
+      "phraseRomanized": "al-kitab 'ala at-tawila.",
+      "hidden": true
+    },
+    {
+      "id": "at",
+      "english": "At",
+      "word": "في",
+      "romanized": "fi",
+      "grammarNote": "**في** (fi) covers both 'in' and 'at' in many Arabic contexts. **أنا في المكتب** = 'I am at/in the office.' Arabic does not always distinguish 'in' from 'at' — the same preposition **في** serves both, with context clarifying the meaning.",
+      "englishPhrase": "I'm at the office.",
+      "phrase": "أنا في المكتب.",
+      "phraseRomanized": "ana fi al-maktab.",
+      "hidden": true
+    },
+    {
+      "id": "under",
+      "english": "Under",
+      "word": "تحت",
+      "romanized": "taht",
+      "grammarNote": "**تحت** (taht, under/below) is a directional noun used as a preposition. Its opposite is **فوق** (fawq, above/over). These are called **ظروف المكان** (zuruf al-makan, locative adverbs) — nouns that have been grammaticalized as prepositions.\n\nOther locative adverbs: **أمام** (amam, in front of), **خلف** (khalf, behind), **بجانب** (bi-janib, beside), **بين** (bayn, between).",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "القطة تحت الطاولة.",
+      "phraseRomanized": "al-qitta taht at-tawila."
+    },
+    {
+      "id": "next_to",
+      "english": "Next to",
+      "word": "بجانب",
+      "romanized": "bi-janib",
+      "grammarNote": "**بجانب** (bi-janib, next to/beside) = **بـ** (bi-, with/by) + **جانب** (janib, side). **جانب** is from root **ج-ن-ب** (j-n-b, side). The compound preposition **بجانب** literally means 'by the side of.'\n\nAlso note: **البنك بجانب المقهى** is a nominal sentence. The bank's location is described by a prepositional phrase — no verb needed.",
+      "englishPhrase": "The bank is next to the cafe.",
+      "phrase": "البنك بجانب المقهى.",
+      "phraseRomanized": "al-bank bi-janib al-maqha."
+    },
+    {
+      "id": "between",
+      "english": "Between",
+      "word": "بين",
+      "romanized": "bayn",
+      "grammarNote": "**بين** (bayn, between) is from root **ب-ي-ن** (b-y-n, to be clear/between). It governs the genitive and is used for two or more items: **بين المدرسة والمكتبة** (between the school and the library).\n\nThe conjunction **و** (wa-, and) here links two nouns in the genitive after **بين**. When **و** is followed by **ال**, they merge: **وال** → **وال** (pronounced wal-).",
+      "englishPhrase": "The park is between the school and the library.",
+      "phrase": "الحديقة بين المدرسة والمكتبة.",
+      "phraseRomanized": "al-hadiqa bayn al-madrasa wa-al-maktaba."
+    },
+    {
+      "id": "in_front_of",
+      "english": "In front of",
+      "word": "أمام",
+      "romanized": "amam",
+      "grammarNote": "**أمام** (amam, in front of/ahead) is from root **أ-م-م** (a-m-m, to lead/be in front). It is used both spatially (**أمام الفندق** = in front of the hotel) and metaphorically (**أمامنا مستقبل** = we have a future ahead).\n\n**التاكسي** (at-taksi, the taxi) — **ت** is a sun letter, so **ال** assimilates: **التاكسي** = at-taksi.",
+      "englishPhrase": "The taxi is in front of the hotel.",
+      "phrase": "التاكسي أمام الفندق.",
+      "phraseRomanized": "at-taksi amam al-funduq."
+    },
+    {
+      "id": "behind",
+      "english": "Behind",
+      "word": "خلف",
+      "romanized": "khalf",
+      "grammarNote": "**خلف** (khalf, behind) is from root **خ-ل-ف** (kh-l-f, to come after/succeed). The same root gives **خليفة** (khalifa, caliph — 'successor'), **اختلاف** (ikhtilaf, difference — things that come after each other = differ).\n\n**الحديقة خلف البيت** — note: **الحديقة** here means 'the garden,' not 'the park' — the same word covers both meanings.",
+      "englishPhrase": "The garden is behind the house.",
+      "phrase": "الحديقة خلف البيت.",
+      "phraseRomanized": "al-hadiqa khalf al-bayt."
+    },
+    {
+      "id": "near",
+      "english": "Near",
+      "word": "قريب من",
+      "romanized": "qarib min",
+      "grammarNote": "**قريب من** (qarib min, near) — **قريب** (qarib, near/close) is an adjective from root **ق-ر-ب** (q-r-b, to be near). It takes the preposition **من** (min, from/of): **قريب من هنا** = near here.\n\n**هل يوجد** (hal yujad, is there?) — **يوجد** (yujad) is the passive of **وجد** (wajada, to find), meaning 'it is found = there is.' A common way to express existence.",
+      "englishPhrase": "Is there a restaurant near here?",
+      "phrase": "هل يوجد مطعم قريب من هنا؟",
+      "phraseRomanized": "hal yujad mat'am qarib min huna?"
+    },
+    {
+      "id": "far",
+      "english": "Far",
+      "word": "بعيد عن",
+      "romanized": "ba'id 'an",
+      "grammarNote": "**بعيد** (ba'id, far) is an adjective from root **ب-ع-د** (b-'-d, to be distant). It takes the preposition **عن** ('an, from/about) when paired with a reference point: **بعيد عن المدينة** (far from the city).\n\nThe comparative is **أبعد** (ab'ad, farther/furthest) — formed on the **أفعل** (af'al) pattern. **هل المطار بعيد؟** is a nominal yes/no question — **هل** triggers the question, no verb order change.",
+      "englishPhrase": "Is the airport far?",
+      "phrase": "هل المطار بعيد؟",
+      "phraseRomanized": "hal al-matar ba'id?"
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "هنا",
+      "romanized": "huna",
+      "grammarNote": "**هنا** (huna, here) is a demonstrative adverb of place. Its counterpart is **هناك** (hunak, there). These are invariable — they never change form regardless of gender or number.\n\n**تعال** (ta'al, come! — to a man) is an irregular imperative. The plural form is **تعالوا** (ta'alaw, come! — group), and the feminine is **تعالي** (ta'ali, come! — to a woman). These are among the few truly irregular imperatives in Arabic.",
+      "englishPhrase": "Come here, please.",
+      "phrase": "تعال هنا، من فضلك.",
+      "phraseRomanized": "ta'al huna, min fadlak."
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "هناك",
+      "romanized": "hunak",
+      "grammarNote": "**هناك** (hunak, there) serves both as a locative adverb ('over there') and as the Arabic existential marker ('there is/are'): **هناك سيارة** = 'there is a car.' This dual function is important to recognize.\n\n**التاكسي هناك** (at-taksi hunak, the taxi is there) — the adverb **هناك** functions as the predicate of this nominal sentence.",
+      "englishPhrase": "The taxi is over there.",
+      "phrase": "التاكسي هناك.",
+      "phraseRomanized": "at-taksi hunak."
+    },
+    {
+      "id": "everywhere",
+      "english": "Everywhere",
+      "word": "في كل مكان",
+      "romanized": "fi kull makan",
+      "grammarNote": "**في كل مكان** (fi kull makan, everywhere) is a fixed phrase: **في** (in) + **كل** (kull, every/all) + **مكان** (makan, place). **مكان** is from root **ك-و-ن** (k-w-n, to be) via Form IV, meaning 'a place of being.'\n\n**سياح** (siyyah, tourists) is the broken plural of **سائح** (sa'ih, tourist) — from root **س-ي-ح** (s-y-h, to roam/wander). Active participle **فاعل** pattern: **سائح** = one who wanders.",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "هناك سياح في كل مكان.",
+      "phraseRomanized": "hunak siyyah fi kull makan.",
+      "hidden": true
+    },
+    {
+      "id": "somewhere",
+      "english": "Somewhere",
+      "word": "في مكان ما",
+      "romanized": "fi makan ma",
+      "grammarNote": "**في مكان ما** (fi makan ma, somewhere) — **ما** (ma) after a noun makes it indefinite/vague: **مكان ما** = 'some place, a certain place.' The same pattern works with other nouns: **شخص ما** (shakhsun ma, somebody), **شيء ما** (shay' ma, something).\n\nNote the actual Arabic sentence **لنذهب إلى مكان هادئ** = 'let's go somewhere quiet' — using a descriptive adjective rather than **ما**.",
+      "englishPhrase": "Let's go somewhere quiet.",
+      "phrase": "لنذهب إلى مكان هادئ.",
+      "phraseRomanized": "lnadhhab ila makan hadi'.",
+      "hidden": true
+    },
+    {
+      "id": "nowhere",
+      "english": "Nowhere",
+      "word": "لا مكان",
+      "romanized": "la makan",
+      "grammarNote": "**لا يوجد** (la yujad, there is no / there is not) — **لا** (la) negates **يوجد** (yujad, there is). This is the standard way to say 'there is no…' in Arabic: **لا يوجد مكان** = there is no place.\n\n**للجلوس** (lil-julus, for sitting/to sit) — **لـ** (li-, for) + **الجلوس** (al-julus, sitting) — a verbal noun (masdar) from root **ج-ل-س** (j-l-s, to sit). Using masdar + **لـ** expresses purpose.",
+      "englishPhrase": "There is nowhere to sit.",
+      "phrase": "لا يوجد مكان للجلوس.",
+      "phraseRomanized": "la yujad makan lil-julus.",
+      "hidden": true
+    },
+    {
+      "id": "left",
+      "english": "Left",
+      "word": "يسار",
+      "romanized": "yasar",
+      "grammarNote": "**يسار** (yasar, left) is from root **ي-س-ر** (y-s-r, ease/left side). Left was historically associated with ease in some Arabic traditions. The same root gives **يسير** (yasir, easy) and **ميسور** (maysur, wealthy/easygoing).\n\n**يساراً** (yasaran) is the adverbial accusative form (tanwin **-an**), used when giving a direction: **التفِ يساراً** = turn to the left. Compare **يميناً** (yamina, to the right).",
+      "englishPhrase": "Turn left.",
+      "phrase": "التفِ يساراً.",
+      "phraseRomanized": "iltafi yasaran."
+    },
+    {
+      "id": "right",
+      "english": "Right",
+      "word": "يمين",
+      "romanized": "yamin",
+      "grammarNote": "**يمين** (yamin, right) is from root **ي-م-ن** (y-m-n, right side/blessing). The right side was associated with good fortune in Arabic culture — hence **يُمن** (yumn, good fortune) and **اليمن** (al-Yaman, Yemen — 'the blessed/right-side land').\n\n**يميناً** (yamina, to the right) is the accusative adverbial form. These directional adverbs always appear in this accusative form when used adverbially.",
+      "englishPhrase": "Turn right.",
+      "phrase": "التفِ يميناً.",
+      "phraseRomanized": "iltafi yamina."
+    },
+    {
+      "id": "straight_ahead",
+      "english": "Straight (ahead)",
+      "word": "مباشرة",
+      "romanized": "mubashara",
+      "grammarNote": "**مباشرة** (mubashara, directly/straight) is a Form III verbal noun from root **ب-ش-ر** (b-sh-r, to directly contact/touch skin). It means 'directly, without intermediary.' Used adverbially here.\n\n**اذهب** (idhhab, go! — imperative) is from root **ذ-هـ-ب** (dh-h-b). The imperative of this root is slightly irregular: the connecting hamza **ا** is added because the first root letter **ذ** makes the consonant cluster pronounceable: **اذهب**.",
+      "englishPhrase": "Go straight ahead.",
+      "phrase": "اذهب مباشرة.",
+      "phraseRomanized": "idhhab mubashara."
+    },
+    {
+      "id": "north",
+      "english": "North",
+      "word": "شمال",
+      "romanized": "shamal",
+      "grammarNote": "**شمال** (shamal, north) is from root **ش-م-ل** (sh-m-l, left/north). In traditional Arabic orientation, one faced east (toward the rising sun), making north to the left — hence **شمال** means both 'north' and 'left' in some dialects.\n\nNote the sun-letter assimilation: **الشمال** = ash-shamal (the **ش** assimilates the **ل** of **ال**).",
+      "englishPhrase": "The city is to the north.",
+      "phrase": "المدينة في الشمال.",
+      "phraseRomanized": "al-madina fi ash-shamal.",
+      "hidden": true
+    },
+    {
+      "id": "south",
+      "english": "South",
+      "word": "جنوب",
+      "romanized": "janub",
+      "grammarNote": "**جنوب** (janub, south) is from root **ج-ن-ب** (j-n-b, side). In traditional Arabic orientation (facing east), south is on the right side — **الجنوب** = al-janub (moon letter **ج**, no assimilation).\n\nThe four directions: **شمال** (north), **جنوب** (south), **شرق** (east), **غرب** (west) — all used with **في** to express location: **في الجنوب** = in the south.",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "الشاطئ في الجنوب.",
+      "phraseRomanized": "ash-shati' fi al-janub.",
+      "hidden": true
+    },
+    {
+      "id": "east",
+      "english": "East",
+      "word": "شرق",
+      "romanized": "sharq",
+      "grammarNote": "**شرق** (sharq, east) is from root **ش-ر-ق** (sh-r-q, to rise/shine). The sun rises in the east — **تشرق الشمس في الشرق** (tashruq ash-shams fi ash-sharq) is an elegant example of root-based wordplay: **تشرق** (to rise) and **شرق** (east) share the same root **ش-ر-ق**.\n\nNote both words trigger sun-letter assimilation of **ال**.",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "تشرق الشمس في الشرق.",
+      "phraseRomanized": "tashruq ash-shams fi ash-sharq.",
+      "hidden": true
+    },
+    {
+      "id": "west",
+      "english": "West",
+      "word": "غرب",
+      "romanized": "gharb",
+      "grammarNote": "**غرب** (gharb, west) is from root **غ-ر-ب** (gh-r-b, to set/go away). The sun sets in the west — **تغرب الشمس** (taghrubu ash-shams, the sun sets) uses the same root. Compare with east: **شرق** (to rise) vs. **غرب** (to set).\n\n**الغرب** (al-gharb, the West) is also used geopolitically to mean Western countries, from this same root.",
+      "englishPhrase": "The sun sets in the west.",
+      "phrase": "تغرب الشمس في الغرب.",
+      "phraseRomanized": "taghrubu ash-shams fi al-gharb.",
+      "hidden": true
+    },
+    {
+      "id": "to_live",
+      "english": "To live",
+      "word": "يسكن",
+      "romanized": "yaskun",
+      "grammarNote": "**يسكن** (yaskun, to live/reside) is Form I from root **س-ك-ن** (s-k-n, to be still/reside). Related words: **سكن** (sakan, housing/residence), **ساكن** (sakin, resident — **فاعل** pattern), **مسكن** (maskan, dwelling — **مَفعَل** place pattern).\n\n**بالقرب من** (bil-qurb min, near) = **بـ** + **القرب** (nearness) + **من** — another way to express 'near' alongside **قريب من**.",
+      "englishPhrase": "I live near the city centre.",
+      "phrase": "أسكن بالقرب من وسط المدينة.",
+      "phraseRomanized": "askun bil-qurb min wasat al-madina.",
+      "hidden": true
+    },
+    {
+      "id": "to_stay",
+      "english": "To stay",
+      "word": "يقيم",
+      "romanized": "yuqim",
+      "grammarNote": "**يقيم** (yuqim, to stay/reside) is Form IV (**أَفعَل**) from root **ق-و-م** (q-w-m, to stand/rise). Form IV is often causative — **أقام** (aqama) can mean 'to establish' or 'to reside.' The middle root **و** weakens in Form IV: **أقام** → **يقيم**.\n\n**نحن نقيم** (nahnu nuqim, we are staying) is a nominal sentence with pronoun subject **نحن** followed by the verbal predicate.",
+      "englishPhrase": "We're staying at a hotel.",
+      "phrase": "نحن نقيم في فندق.",
+      "phraseRomanized": "nahnu nuqim fi funduq.",
+      "hidden": true
+    },
+    {
+      "id": "to_wait",
+      "english": "To wait",
+      "word": "ينتظر",
+      "romanized": "yantazir",
+      "grammarNote": "**ينتظر** (yantazir, to wait/await) is Form VIII from root **ن-ظ-ر** (n-z-r, to look/wait). Form VIII (**افتعل**) here adds a reflexive nuance: to look for oneself = to await.\n\n**سأنتظرك** (sa-antazirak, I will wait for you) — the future prefix **سـ** (sa-) + verb + direct object pronoun suffix **ك** (ka, you m.) are all fused onto one word. Arabic can encode subject, tense, and object in a single verb form.",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "سأنتظرك هنا.",
+      "phraseRomanized": "sa-antazirak huna.",
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "يلتقي",
+      "romanized": "yaltaqi",
+      "grammarNote": "**يلتقي** (yaltaqi, to meet) is Form VIII from root **ل-ق-ي** (l-q-y, to encounter). Form VIII adds a reflexive/reciprocal flavor: to encounter one another = to meet.\n\n**لنلتقِ** (lnaltaqi, let's meet) — the hortatory **لِـ** + first-person plural present: **لِنَلتَقِ**. The final vowel of **يلتقي** is shortened/dropped in jussive mood (required after **لـ**).",
+      "englishPhrase": "Let's meet at the park.",
+      "phrase": "لنلتقِ في الحديقة.",
+      "phraseRomanized": "lnaltaqi fi al-hadiqa."
+    },
+    {
+      "id": "to_get_lost",
+      "english": "To get lost",
+      "word": "يضيع",
+      "romanized": "yadi'",
+      "grammarNote": "**يضيع** (yadi', to get lost/be lost) is Form I from root **ض-ي-ع** (d-y-', to be lost/wasted). This is a **أجوف** (hollow) verb — the middle letter **ي** weakens.\n\n**لا تضيع!** (la tadi', don't get lost!) — **لا** + jussive form is the standard negative imperative. The jussive of **يضيع** drops the final long vowel: **يَضيع** → **تضِع** (jussive).",
+      "englishPhrase": "Don't get lost!",
+      "phrase": "لا تضيع!",
+      "phraseRomanized": "la tadi'!"
+    },
+    {
+      "id": "to_find",
+      "english": "To find",
+      "word": "يجد",
+      "romanized": "yajid",
+      "grammarNote": "**يجد** (yajid, to find) is Form I from root **و-ج-د** (w-j-d, to find/exist). An assimilated (**مثال**) verb — the initial **و** drops in the present tense: **وجد** (wajada) → **يجد** (yajid).\n\n**لا أستطيع إيجاد** (la astati' ijad, I can't find) — **إيجاد** (ijad, finding) is the Form IV masdar of this root. **أستطيع** (astati', I am able) is Form X from root **ط-و-ع** (t-w-', to be capable/obedient).",
+      "englishPhrase": "I can't find the hotel.",
+      "phrase": "لا أستطيع إيجاد الفندق.",
+      "phraseRomanized": "la astati' ijah al-funduq."
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "يبحث عن",
+      "romanized": "yabhathu 'an",
+      "grammarNote": "**يبحث** (yabhath, to search/look for) is Form I from root **ب-ح-ث** (b-h-th, to research/search). It requires the preposition **عن** ('an, for/about): **يبحث عن** = 'to search for.'\n\n**الصيدلية** (as-saydaliyya, the pharmacy) — from **صيدل** (saydal, sandal/drug). Note the sun-letter **ص** causing assimilation: **الصيدلية** = as-saydaliyya.",
+      "englishPhrase": "I'm looking for the pharmacy.",
+      "phrase": "أبحث عن الصيدلية.",
+      "phraseRomanized": "abhath 'an as-saydaliyya."
+    },
+    {
+      "id": "to_head",
+      "english": "To head",
+      "word": "يتجه نحو",
+      "romanized": "yattajih nahwa",
+      "grammarNote": "**يتجه** (yattajih, to head toward) is Form VIII from root **و-ج-هـ** (w-j-h, face/direction). The initial **و** of the root assimilates with the **ت** of Form VIII: **يوتجه → يتجه → يتجه**.\n\n**نحو** (nahwa, toward) is a preposition of direction, more literary than **إلى** (ila). **اتجه نحو المحطة** = head toward the station.",
+      "englishPhrase": "Head towards the station.",
+      "phrase": "اتجه نحو المحطة.",
+      "phraseRomanized": "ittajih nahwa al-mahatta.",
+      "hidden": true
+    },
+    {
+      "id": "to_continue",
+      "english": "To continue",
+      "word": "يكمل",
+      "romanized": "yukmil",
+      "grammarNote": "**يكمل** (yukmil, to continue/complete) is Form IV (**أَفعَل** → **يُفعِل**) from root **ك-م-ل** (k-m-l, to be complete). Form IV is often causative: **كمل** (to be complete) → **أكمل** (to complete something/to continue).\n\n**واصل** (wasil, continue!) in the example sentence is actually a different verb — Form III imperative of **و-ص-ل** (w-s-l, to connect), meaning to keep going/continue. Two different verbs serve this meaning.",
+      "englishPhrase": "Continue straight ahead.",
+      "phrase": "واصل مباشرة.",
+      "phraseRomanized": "wasil mubashara.",
+      "hidden": true
+    },
+    {
+      "id": "to_stop",
+      "english": "To stop",
+      "word": "يتوقف",
+      "romanized": "yatawaqqaf",
+      "grammarNote": "**يتوقف** (yatawaqqaf, to stop) is Form V (**تَفَعَّل**) from root **و-ق-ف** (w-q-f, to stand/stop). Form V is the reflexive of Form II: **وقّف** (waqqafa, to stop something/someone) → **توقف** (tawaqqa, to stop oneself). This reflexive/intransitive contrast is fundamental to understanding Arabic verb forms.\n\nThe **و** of the root weakens in Form V: the initial **و** → **و** is retained here since it is in the **تَفَعَّل** stem.",
+      "englishPhrase": "Stop at the corner.",
+      "phrase": "توقف عند الزاوية.",
+      "phraseRomanized": "tawwaqqaf inda az-zawiya.",
+      "hidden": true
+    },
+    {
+      "id": "to_park",
+      "english": "To park",
+      "word": "يوقف السيارة",
+      "romanized": "yuwaqqif as-sayyara",
+      "grammarNote": "**يوقف** (yuwaqqif, to park/stop a vehicle) is Form II (**فَعَّل**) from root **و-ق-ف** (w-q-f). Form II (doubled middle letter) is typically causative/intensive. Compare: **وقف** (waqafa, to stop intransitively) → **وقّف** (waqqafa, to stop something/cause to stop).\n\n**السيارة** (as-sayyara, the car) — from root **س-ي-ر** (s-y-r, to travel). Literally 'a traveling thing.' **س** is a sun letter: **السيارة** = as-sayyara.",
+      "englishPhrase": "Where can I park?",
+      "phrase": "أين يمكنني إيقاف السيارة؟",
+      "phraseRomanized": "ayna yumkinuni iqaf as-sayyara?",
+      "hidden": true
+    },
+    {
+      "id": "to_book_to_reserve",
+      "english": "To book",
+      "word": "يحجز",
+      "romanized": "yahjuz",
+      "grammarNote": "**يحجز** (yahjuz, to book/reserve) is Form I from root **ح-ج-ز** (h-j-z, to block/reserve). The past tense is **حجز** (hajaza). The verbal noun **حجز** (hajz) means 'a reservation.'\n\n**حجزت غرفة** (hajaztu ghurfa, I booked a room) — the past tense suffix **ـتُ** (-tu) marks first-person singular. Arabic past tense conjugation uses suffixes: **ـتُ** (I), **ـتَ** (you m.), **ـتِ** (you f.), **ـنا** (we).",
+      "englishPhrase": "I booked a room.",
+      "phrase": "حجزت غرفة.",
+      "phraseRomanized": "hajaztu ghurfa.",
+      "hidden": true
+    },
+    {
+      "id": "to_check_in",
+      "english": "To check in",
+      "word": "يسجل الوصول",
+      "romanized": "yusajjil al-wusul",
+      "grammarNote": "**يسجل** (yusajjil, to register/check in) is Form II (**فَعَّل**) from root **س-ج-ل** (s-j-l, to record). Form II often has an intensive or causative meaning.\n\n**الوصول** (al-wusul, arrival) is the masdar of **وصل** (wasala, to arrive) from root **و-ص-ل**. The phrase **تسجيل الوصول** (tasjil al-wusul) = 'registration of arrival' = check-in — a modern compound expression.",
+      "englishPhrase": "We checked in at three.",
+      "phrase": "سجلنا الوصول في الثالثة.",
+      "phraseRomanized": "sajjalna al-wusul fi ath-thalitha.",
+      "hidden": true
+    },
+    {
+      "id": "to_check_out",
+      "english": "To check out",
+      "word": "يسجل المغادرة",
+      "romanized": "yusajjil al-mughadara",
+      "grammarNote": "**المغادرة** (al-mughadara, departure) is the masdar of **غادر** (ghadara, to leave/depart) from root **غ-د-ر**.\n\n**الحادية عشرة** (al-hadiya 'ashara, eleven o'clock) — a compound numeral. Arabic ordinal numerals above ten use this construction: ordinal + **عشرة** (ten). The ordinal **الحادية** (feminine of **الحادي**, the eleventh) takes feminine form because **الساعة** (hour) is feminine.",
+      "englishPhrase": "Check out is at eleven.",
+      "phrase": "المغادرة في الحادية عشرة.",
+      "phraseRomanized": "al-mughadara fi al-hadiya 'ashara.",
+      "hidden": true
+    },
+    {
+      "id": "nearby",
+      "english": "Nearby",
+      "word": "قريب",
+      "romanized": "qarib",
+      "grammarNote": "**قريب** (qarib, near/nearby) is an adjective from root **ق-ر-ب** (q-r-b, to be near). The feminine form is **قريبة** (qariba). As an adverb, it is used in the accusative: **قريباً** (qariban, soon/nearby).\n\n**هل توجد** (hal tujad, is there?) — the feminine form of **يوجد** (yujad) is used here because **صيدلية** (pharmacy) is feminine. Arabic verbs agree in gender with their subject.",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "هل توجد صيدلية قريبة؟",
+      "phraseRomanized": "hal tujad saydaliyya qariba?"
+    },
+    {
+      "id": "busy_crowded",
+      "english": "Busy",
+      "word": "مزدحم",
+      "romanized": "muzdahim",
+      "grammarNote": "**مزدحم** (muzdahim, crowded/busy) is the active participle of **ازدحم** (izdahama, to be crowded) — Form VIII from root **ز-ح-م** (z-h-m, to crowd/push). Form VIII active participle follows **مُفتَعِل** (mufta'il) pattern: **مُزدَحِم**.\n\n**السوق مزدحم جداً** (as-suq muzdahim jiddan) — **جداً** (jiddan, very) always follows the adjective it intensifies. Note: **السوق** (as-suq, the market) — **س** is a sun letter.",
+      "englishPhrase": "The market is very crowded.",
+      "phrase": "السوق مزدحم جداً.",
+      "phraseRomanized": "as-suq muzdahim jiddan."
+    },
+    {
+      "id": "quiet",
+      "english": "Quiet",
+      "word": "هادئ",
+      "romanized": "hadi'",
+      "grammarNote": "**هادئ** (hadi', quiet/calm) is an active participle from root **هـ-د-أ** (h-d-', to be calm). The **فاعل** (fa'il) pattern gives 'one who is in a state of' — here, 'one who is calm.'\n\n**أفضل حياً هادئاً** (ufaddil hayyan hadi'an) — both **حياً** and **هادئاً** are in the accusative (tanwin **-an**) because they are the object of **أفضل** (ufaddil, I prefer). The adjective agrees in case with the noun it modifies.",
+      "englishPhrase": "I prefer a quiet neighbourhood.",
+      "phrase": "أفضل حياً هادئاً.",
+      "phraseRomanized": "ufaddil hayyan hadi'an."
+    },
+    {
+      "id": "lost",
+      "english": "Lost",
+      "word": "ضائع",
+      "romanized": "da'i'",
+      "grammarNote": "**ضائع** (da'i', lost) is the active participle of **ضاع** (da'a, to be lost) from root **ض-ي-ع** (d-y-', to be lost/wasted). **فاعل** pattern: one who is in a state of being lost.\n\n**أنا ضائع** (ana da'i', I am lost) is a nominal sentence. The pronoun **أنا** (I) is the subject, **ضائع** (lost) is the predicate. No verb 'to be' is needed. To say 'I was lost' you would add **كنت**: **كنت ضائعاً** (kuntu da'i'an).",
+      "englishPhrase": "I'm lost.",
+      "phrase": "أنا ضائع.",
+      "phraseRomanized": "ana da'i'."
+    }
+  ]
+}

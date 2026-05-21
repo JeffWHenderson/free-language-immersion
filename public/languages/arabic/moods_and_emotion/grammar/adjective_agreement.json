@@ -1,0 +1,117 @@
+{
+  "id": "adjective_agreement",
+  "name": "Adjective Agreement",
+  "language": "arabic",
+  "cards": [
+    {
+      "id": "agreement_rule",
+      "front": "rule: adjectives follow the noun and match its gender",
+      "back": "الصفة تتبع الاسم",
+      "romanized": "al-sifa tattabi' al-ism",
+      "grammarNote": "In Arabic, adjectives come AFTER the noun and must agree in gender (masc./fem.) and definiteness. Masculine base + ة makes it feminine."
+    },
+    {
+      "id": "big_m",
+      "front": "big (masculine)",
+      "back": "كبير",
+      "romanized": "kabir"
+    },
+    {
+      "id": "big_f",
+      "front": "big (feminine)",
+      "back": "كبيرة",
+      "romanized": "kabira",
+      "grammarNote": "Add ة (ta marbuta) to the masculine adjective to make it feminine: كبير → كبيرة. This rule applies to most regular adjectives."
+    },
+    {
+      "id": "big_book",
+      "front": "a big book (masc. noun)",
+      "back": "كتاب كبير",
+      "romanized": "kitab kabir",
+      "grammarNote": "كتاب (book) is masculine, so the adjective كبير stays masculine. Both noun and adjective are indefinite (no ال)."
+    },
+    {
+      "id": "big_table",
+      "front": "a big table (fem. noun)",
+      "back": "طاولة كبيرة",
+      "romanized": "tawila kabira",
+      "grammarNote": "طاولة (table) is feminine (ends in ة), so the adjective becomes كبيرة. Noun feminine → adjective feminine."
+    },
+    {
+      "id": "small_m",
+      "front": "small (masculine)",
+      "back": "صغير",
+      "romanized": "saghir"
+    },
+    {
+      "id": "small_f",
+      "front": "small (feminine)",
+      "back": "صغيرة",
+      "romanized": "saghira"
+    },
+    {
+      "id": "definite_agreement",
+      "front": "the big book (definite)",
+      "back": "الكتاب الكبير",
+      "romanized": "al-kitab al-kabir",
+      "grammarNote": "When the noun is definite (has ال), the adjective also gets ال. Both take the definite article: الكتاب الكبير (the big book)."
+    },
+    {
+      "id": "new_m",
+      "front": "new (masculine)",
+      "back": "جديد",
+      "romanized": "jadid"
+    },
+    {
+      "id": "new_f",
+      "front": "new (feminine)",
+      "back": "جديدة",
+      "romanized": "jadida"
+    },
+    {
+      "id": "new_car",
+      "front": "a new car (fem. noun)",
+      "back": "سيارة جديدة",
+      "romanized": "sayyara jadida",
+      "grammarNote": "سيارة (car) is feminine → جديدة (new, fem.). Adjective agrees with the noun's gender."
+    },
+    {
+      "id": "beautiful_m",
+      "front": "beautiful (masculine)",
+      "back": "جميل",
+      "romanized": "jamil"
+    },
+    {
+      "id": "beautiful_f",
+      "front": "beautiful (feminine)",
+      "back": "جميلة",
+      "romanized": "jamila"
+    },
+    {
+      "id": "cold_water",
+      "front": "cold water (masc. noun)",
+      "back": "ماء بارد",
+      "romanized": "ma' barid",
+      "grammarNote": "ماء (water) is masculine, so the adjective بارد (cold) stays masculine."
+    },
+    {
+      "id": "good_m",
+      "front": "good",
+      "back": "كويس",
+      "romanized": "kwayyes"
+    },
+    {
+      "id": "good_f",
+      "front": "good",
+      "back": "كويسة",
+      "romanized": "kwayyesa"
+    },
+    {
+      "id": "predicate_adj",
+      "front": "The book is new. (predicate adjective)",
+      "back": "الكتاب جديد.",
+      "romanized": "al-kitab jadid.",
+      "grammarNote": "When an adjective is the predicate (X is Y), the noun takes ال but the adjective does NOT: الكتاب جديد (the book is new). Compare: الكتاب الجديد = 'the new book' (modifying)."
+    }
+  ]
+}

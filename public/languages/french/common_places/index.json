@@ -1,0 +1,758 @@
+{
+  "id": "common_places",
+  "name": "Common Places",
+  "language": "french",
+  "stories": [
+    "a_day_in_the_city",
+    "at_the_hotel",
+    "getting_around",
+    "at_the_pharmacy"
+  ],
+  "grammarLessons": [
+    {
+      "id": "aller",
+      "name": "Aller — To Go"
+    },
+    {
+      "id": "prepositions_lieu",
+      "name": "Prepositions of Place"
+    },
+    {
+      "id": "verbes_er",
+      "name": "Verbes en -ER — Regular Verbs"
+    },
+    {
+      "id": "articles",
+      "name": "Articles — le, la, les, un, une"
+    },
+    {
+      "id": "passe_compose_etre",
+      "name": "Être Verbs in Passé Composé"
+    },
+    {
+      "id": "y_en_pronouns",
+      "name": "Y et EN — Location & Quantity Pronouns"
+    }
+  ],
+  "cards": [
+    {
+      "id": "home",
+      "english": "Home",
+      "word": "La maison",
+      "grammarNote": "**Je rentre** = I'm going back home (implies returning). **Je vais** à la maison is also correct but less natural.\n**chez moi** is the more colloquial alternative: je rentre chez moi (I'm going home / back to my place).",
+      "englishPhrase": "I'm going home.",
+      "phrase": "Je rentre à la maison."
+    },
+    {
+      "id": "apartment",
+      "english": "Apartment",
+      "word": "L'appartement (masc.)",
+      "grammarNote": "**l'appartement** starts with a vowel, so the definite article elides: **l'**appartement.\n**dans un appartement** uses **dans** (in, inside) — not **à** — because you are physically inside a space rather than just located at a place.",
+      "englishPhrase": "I live in an apartment.",
+      "phrase": "J'habite dans un appartement."
+    },
+    {
+      "id": "school",
+      "english": "School",
+      "word": "L'école (fem.)",
+      "grammarNote": "**aller à + l'école** — no contraction needed before a vowel: **à l'école** (not *à la école*).\n**vont** is the third-person plural of **aller**: je vais · tu vas · il va · nous allons · vous allez · ils **vont**.",
+      "englishPhrase": "The children go to school.",
+      "phrase": "Les enfants vont à l'école."
+    },
+    {
+      "id": "university",
+      "english": "University",
+      "word": "L'université (fem.)",
+      "grammarNote": "**à l'université** — **à** + vowel-initial noun: no contraction, just elision of the article to **l'**.\n**étudier** is a regular **-er** verb: j'étudie · tu étudies · il/elle étudie.",
+      "englishPhrase": "She studies at the university.",
+      "phrase": "Elle étudie à l'université."
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "Le bureau",
+      "grammarNote": "**dans un bureau** uses **dans** (inside a space).\n**Le bureau** also means 'desk' — context makes the meaning clear: il est au bureau (he's at the office) vs. il est sur le bureau (it's on the desk).",
+      "englishPhrase": "He works in an office.",
+      "phrase": "Il travaille dans un bureau."
+    },
+    {
+      "id": "hospital",
+      "english": "Hospital",
+      "word": "L'hôpital (masc.)",
+      "grammarNote": "**à + le = au** · **à + les = aux** · **de + le = du** — these contractions are mandatory.\nBefore vowels, **l'** already elides: à l'hôpital, de l'hôpital — no further contraction needed.",
+      "englishPhrase": "I'm going to the hospital.",
+      "phrase": "Je vais à l'hôpital."
+    },
+    {
+      "id": "grocery_store",
+      "english": "Grocery store",
+      "word": "L'épicerie (fem.)",
+      "grammarNote": "**au supermarché** — **à + le = au** (mandatory contraction).\n**avoir besoin de + infinitive** = to need to do something: j'ai besoin **d'**aller (before a vowel, **de** elides to **d'**).",
+      "englishPhrase": "I need to go to the supermarket.",
+      "phrase": "J'ai besoin d'aller au supermarché."
+    },
+    {
+      "id": "bank",
+      "english": "Bank",
+      "word": "La banque",
+      "grammarNote": "**venir de + place** = to come from a place: je viens **de la** banque · je viens **du** marché · je viens **de l'**hôpital.\n**de + le = du** · **de + la = de la** (no contraction for feminine) · **de + les = des**.",
+      "englishPhrase": "I'm coming from the bank.",
+      "phrase": "Je viens de la banque."
+    },
+    {
+      "id": "library",
+      "english": "Library",
+      "word": "La bibliothèque",
+      "grammarNote": "**à la bibliothèque** — feminine noun, so **à la** (no contraction).\nNote: **la bibliothèque** = library (borrowing books); **la librairie** = bookshop (buying books) — a common false friend for English speakers.",
+      "englishPhrase": "I study in the library.",
+      "phrase": "J'étudie à la bibliothèque."
+    },
+    {
+      "id": "restaurant",
+      "english": "Restaurant",
+      "word": "Le restaurant",
+      "grammarNote": "**complet** here means 'full / no tables available', not 'complete'.\nTo say you're going to the restaurant: **je vais au restaurant** — **à + le = au** (mandatory contraction).",
+      "englishPhrase": "The restaurant is full.",
+      "phrase": "Le restaurant est complet."
+    },
+    {
+      "id": "cafe",
+      "english": "Cafe",
+      "word": "Le café",
+      "grammarNote": "**au café** — **à + le = au** (mandatory contraction).\n**se retrouver** = to meet up (by arrangement): on se retrouve au café. This is a reflexive verb: je me retrouve · tu te retrouves · on se retrouve.",
+      "englishPhrase": "Let's meet at the cafe.",
+      "phrase": "On se retrouve au café."
+    },
+    {
+      "id": "hotel",
+      "english": "Hotel",
+      "word": "L'hôtel (masc.)",
+      "grammarNote": "**en centre-ville** uses **en** without an article — a fixed expression for 'downtown/in the city centre'.\n**l'hôtel** — the H is aspirate in **hôtel**, so no liaison: *les hôtels* is pronounced without the S sound of **les** linking to **hôtel**.",
+      "englishPhrase": "The hotel is downtown.",
+      "phrase": "L'hôtel est en centre-ville."
+    },
+    {
+      "id": "airport",
+      "english": "Airport",
+      "word": "L'aéroport (masc.)",
+      "grammarNote": "**loin d'ici** — **de + ici** contracts to **d'ici** (before a vowel).\nTo say 'I'm going to the airport': **je vais à l'aéroport** — no contraction needed because the noun starts with a vowel.",
+      "englishPhrase": "The airport is far from here.",
+      "phrase": "L'aéroport est loin d'ici."
+    },
+    {
+      "id": "station",
+      "english": "Station",
+      "word": "La gare",
+      "grammarNote": "**près de + l'hôtel** = near the hotel. Before a vowel, **de** elides: **de l'hôtel**.\n**La gare** = train station; **la station** = metro/bus stop or ski resort; **l'aéroport** = airport.",
+      "englishPhrase": "The station is near the hotel.",
+      "phrase": "La gare est près de l'hôtel."
+    },
+    {
+      "id": "bus_stop",
+      "english": "Bus stop",
+      "word": "L'arrêt de bus (masc.)",
+      "grammarNote": "**à l'arrêt de bus** — **à + l'** before a vowel (no contraction needed, just elision).\n**Attends** is the **tu** imperative of **attendre** (to wait). Regular -re imperative: drop the **-s** of the tu form — tu attends → attends !",
+      "englishPhrase": "Wait at the bus stop.",
+      "phrase": "Attends à l'arrêt de bus."
+    },
+    {
+      "id": "park",
+      "english": "Park",
+      "word": "Le parc",
+      "grammarNote": "**dans le parc** uses **dans** (physically inside the park space).\n**jouer** is a regular **-er** verb: je joue · tu joues · ils jouent. Note the silent final **-ent** of the third-person plural.",
+      "englishPhrase": "The children play in the park.",
+      "phrase": "Les enfants jouent dans le parc."
+    },
+    {
+      "id": "pharmacy",
+      "english": "pharmacy",
+      "word": "la pharmacie",
+      "grammarNote": "**il y a** = there is / there are. The **y** is a location pronoun meaning 'there'; **il y a** is a fixed expression.\n**une pharmacie** — feminine noun: **une** (indefinite article fem.).\n**près d'ici** — **de + ici** contracts to **d'ici** before a vowel.",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "Est-ce qu'il y a une pharmacie près d'ici ?",
+      "literal": [["Est-ce qu'il y a","is-there"],["une","a"],["pharmacie","pharmacy"],["près d'ici","nearby"]]
+    },
+    {
+      "id": "square",
+      "english": "Square",
+      "word": "La place",
+      "grammarNote": "**sur la place** uses **sur** (on/upon the square — the square is a surface).\n**La place** = town square / public plaza. Do not confuse with **la place** = seat/space (context-dependent).",
+      "englishPhrase": "There's a fountain in the square.",
+      "phrase": "Il y a une fontaine sur la place.",
+      "hidden": true
+    },
+    {
+      "id": "street",
+      "english": "Street",
+      "word": "La rue",
+      "grammarNote": "**dans cette rue** — **dans** (in/along this street). **Cette** is the demonstrative adjective feminine singular: ce (masc.) · cette (fem.) · ces (plural).\n**La rue** vs. **l'avenue** vs. **le boulevard** — all types of streets, but different in French address conventions.",
+      "englishPhrase": "The restaurant is on this street.",
+      "phrase": "Le restaurant est dans cette rue."
+    },
+    {
+      "id": "crosswalk",
+      "english": "Crosswalk",
+      "word": "Le passage piéton",
+      "grammarNote": "**au passage piéton** — **à + le = au** (mandatory contraction).\n**Traversez** is the **vous** imperative of **traverser** (a regular -er verb). The vous imperative is identical to the present tense: vous traversez → traversez !",
+      "englishPhrase": "Cross at the crosswalk.",
+      "phrase": "Traversez au passage piéton.",
+      "hidden": true
+    },
+    {
+      "id": "intersection",
+      "english": "Intersection",
+      "word": "Le carrefour",
+      "grammarNote": "**au carrefour** — **à + le = au** (mandatory contraction).\n**Tournez à gauche** — the **vous** imperative of **tourner**. Direction preposition: **à gauche** (to the left) · **à droite** (to the right) · **tout droit** (straight ahead).",
+      "englishPhrase": "Turn left at the intersection.",
+      "phrase": "Tournez à gauche au carrefour.",
+      "hidden": true
+    },
+    {
+      "id": "bridge",
+      "english": "Bridge",
+      "word": "Le pont",
+      "grammarNote": "**on a traversé** — **on** is widely used in informal French to mean 'we'. Here it uses **avoir** in the passé composé: **on a** + past participle.\n**traverser** = to cross (a bridge, a street, a city). Past participle: traversé (regular -er verb).",
+      "englishPhrase": "We crossed the bridge.",
+      "phrase": "On a traversé le pont.",
+      "hidden": true
+    },
+    {
+      "id": "corner",
+      "english": "Corner",
+      "word": "Le coin",
+      "grammarNote": "**au coin** — **à + le = au** (mandatory contraction).\n**Tournez à droite au coin** — compare **au coin de la rue** (at the street corner) for more specific directions.",
+      "englishPhrase": "Turn right at the corner.",
+      "phrase": "Tournez à droite au coin.",
+      "hidden": true
+    },
+    {
+      "id": "city_centre_downtown",
+      "english": "City centre",
+      "word": "Le centre-ville",
+      "grammarNote": "**en centre-ville** — fixed expression using **en** without an article (like **en ville** = in town).\n**Le musée est en centre-ville** vs. **je vais au centre-ville** — use **en** for location, **au** (à + le) when going there.",
+      "englishPhrase": "The museum is downtown.",
+      "phrase": "Le musée est en centre-ville."
+    },
+    {
+      "id": "neighbourhood",
+      "english": "Neighbourhood",
+      "word": "Le quartier",
+      "grammarNote": "**dans un quartier calme** — **dans** for being inside an area/zone.\n**Calme** is an adjective that stays the same for masculine and feminine: un quartier **calme** · une rue **calme**.",
+      "englishPhrase": "I live in a quiet neighbourhood.",
+      "phrase": "J'habite dans un quartier calme."
+    },
+    {
+      "id": "beach",
+      "english": "Beach",
+      "word": "La plage",
+      "grammarNote": "**La plage est belle** — adjective **belle** is the feminine form of **beau**: un beau paysage · une belle plage.\nTo go to the beach: **aller à la plage** (feminine noun, so no contraction).",
+      "englishPhrase": "The beach is beautiful.",
+      "phrase": "La plage est belle."
+    },
+    {
+      "id": "mountain",
+      "english": "Mountain",
+      "word": "La montagne",
+      "grammarNote": "**très haute** — **haute** is the feminine form of **haut** (high/tall). Adjective agreement: **haut** (masc.) · **haute** (fem.).\nLocation: **en montagne** (in the mountains — no article, fixed expression) vs. **dans la montagne** (in/through the mountain).",
+      "englishPhrase": "The mountain is very high.",
+      "phrase": "La montagne est très haute."
+    },
+    {
+      "id": "museum",
+      "english": "Museum",
+      "word": "Le musée",
+      "grammarNote": "**je veux visiter** — **vouloir + infinitive** = to want to do something. Present tense: je veux · tu veux · il veut · nous voulons · vous voulez · ils veulent.\n**Le musée** — masculine noun ending in **-ée** (unusual; most nouns in **-ée** are feminine).",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "Je veux visiter le musée."
+    },
+    {
+      "id": "movie_theater",
+      "english": "Movie theater",
+      "word": "Le cinéma",
+      "grammarNote": "**au cinéma** — **à + le = au** (mandatory contraction).\n**on va** — **on** used colloquially for 'we'. **Aller + infinitive** (futur proche) = near future: on va au cinéma (we're going to the cinema).",
+      "englishPhrase": "We're going to the cinema tonight.",
+      "phrase": "On va au cinéma ce soir."
+    },
+    {
+      "id": "map",
+      "english": "Map",
+      "word": "La carte",
+      "grammarNote": "Note: **un plan** = a street map (of a city); **une carte** = a map (geographic, playing card, or menu).\nHere, **vous avez un plan ?** uses inversion-free question form — natural in spoken French.",
+      "englishPhrase": "Do you have a map?",
+      "phrase": "Vous avez un plan ?"
+    },
+    {
+      "id": "direction",
+      "english": "Direction",
+      "word": "La direction",
+      "grammarNote": "**Dans quelle direction** — **dans** is used with **direction** (not **en** or **à**): dans quelle direction est la gare ?\n**Quelle** is the interrogative adjective feminine: **quel** (masc.) · **quelle** (fem.).",
+      "englishPhrase": "Which direction is the station?",
+      "phrase": "Dans quelle direction est la gare ?"
+    },
+    {
+      "id": "distance",
+      "english": "Distance",
+      "word": "La distance",
+      "grammarNote": "**jusqu'à l'hôtel** — **jusqu'à** = up to / as far as. Before a vowel: **jusqu'à l'**.\n**Quelle est la distance** — **quelle est** + noun is a standard question form asking for identity/quantity.",
+      "englishPhrase": "What's the distance to the hotel?",
+      "phrase": "Quelle est la distance jusqu'à l'hôtel ?"
+    },
+    {
+      "id": "to_go",
+      "english": "To go",
+      "word": "Aller",
+      "grammarNote": "**aller** is highly irregular: je vais · tu vas · il va · nous allons · vous allez · ils vont.\n**au supermarché** — **à + le = au** (mandatory contraction).\n**Aller** also forms the near future: je vais + infinitive = I'm going to…",
+      "englishPhrase": "I'm going to the supermarket.",
+      "phrase": "Je vais au supermarché."
+    },
+    {
+      "id": "to_come",
+      "english": "To come",
+      "word": "Venir",
+      "grammarNote": "**chez moi** = at my place / to my place. **chez** is always followed by a person (or pronoun), never a place name: **chez moi** · **chez toi** · **chez le médecin** · **chez Paul**.\n**Viens** is the **tu** imperative of **venir** (irregular).",
+      "englishPhrase": "Come to my house.",
+      "phrase": "Viens chez moi."
+    },
+    {
+      "id": "to_travel",
+      "english": "To travel",
+      "word": "Voyager",
+      "grammarNote": "**adorer + infinitive** = to love doing something: j'adore voyager · elle adore lire.\n**Voyager** has a spelling change to preserve the soft G sound before **-ons**: nous voyageons (not *nous voyagons*).",
+      "englishPhrase": "I love to travel.",
+      "phrase": "J'adore voyager."
+    },
+    {
+      "id": "to_walk",
+      "english": "To walk",
+      "word": "Marcher",
+      "grammarNote": "**jusqu'au travail** — **jusqu'à + le = jusqu'au** (mandatory contraction with **jusqu'à**).\n**marcher** = to walk (as locomotion); **se promener** = to stroll/go for a walk (leisure). **marcher** also means 'to work/function': ça marche ? (does it work?).",
+      "englishPhrase": "I walk to work every day.",
+      "phrase": "Je marche jusqu'au travail tous les jours."
+    },
+    {
+      "id": "to_drive",
+      "english": "To drive",
+      "word": "Conduire",
+      "grammarNote": "**jusqu'au bureau** — **jusqu'à + le = jusqu'au**.\n**conduire** is irregular: je conduis · tu conduis · il conduit · nous conduisons · vous conduisez · ils conduisent.",
+      "englishPhrase": "She drives to the office.",
+      "phrase": "Elle conduit jusqu'au bureau."
+    },
+    {
+      "id": "to_turn",
+      "english": "To turn",
+      "word": "Tourner",
+      "grammarNote": "**Tournez** is the **vous** imperative of the regular -er verb **tourner**.\n**à gauche** (left) · **à droite** (right) · **au coin** (**à + le** = au — mandatory contraction).",
+      "englishPhrase": "Turn left at the corner.",
+      "phrase": "Tournez à gauche au coin.",
+      "hidden": true
+    },
+    {
+      "id": "to_cross",
+      "english": "To cross",
+      "word": "Traverser",
+      "grammarNote": "**Traversez** is the **vous** imperative of the regular -er verb **traverser**.\n**avec précaution** = carefully (lit. with caution). **Précaution** is cognate with English 'precaution'.",
+      "englishPhrase": "Cross the street carefully.",
+      "phrase": "Traversez la rue avec précaution.",
+      "hidden": true
+    },
+    {
+      "id": "to_follow",
+      "english": "To follow",
+      "word": "Suivre",
+      "grammarNote": "**suivre** is irregular: je suis · tu suis · il suit · nous suivons · vous suivez · ils suivent.\nWarning: **je suis** = I follow AND I am (**être**) — context distinguishes them.",
+      "englishPhrase": "Follow this street.",
+      "phrase": "Suivez cette rue.",
+      "hidden": true
+    },
+    {
+      "id": "to_reach",
+      "english": "To reach",
+      "word": "Arriver à",
+      "grammarNote": "**arriver à** = to reach / to get to (a place): j'arrive à la gare.\nAlso: **arriver à + infinitive** = to manage to do something: j'arrive à comprendre (I manage to understand).",
+      "englishPhrase": "How do I reach the station?",
+      "phrase": "Comment est-ce que j'arrive à la gare ?",
+      "hidden": true
+    },
+    {
+      "id": "to_enter",
+      "english": "To enter",
+      "word": "Entrer",
+      "grammarNote": "**entrer par** = to enter through/by (a means of entry).\n**Entrez** is the **vous** imperative. **Entrer** uses **être** in the passé composé: je suis entré(e) (I entered).",
+      "englishPhrase": "Enter through the main door.",
+      "phrase": "Entrez par la porte principale."
+    },
+    {
+      "id": "to_leave",
+      "english": "To leave",
+      "word": "Partir",
+      "grammarNote": "**partir de** = to leave from: je pars **du** travail (**de + le = du** — mandatory contraction).\n**partir** is irregular: je pars · tu pars · il part · nous partons · vous partez · ils partent.",
+      "englishPhrase": "I leave work at five.",
+      "phrase": "Je pars du travail à cinq heures."
+    },
+    {
+      "id": "to_depart",
+      "english": "To depart",
+      "word": "Partir",
+      "grammarNote": "**part** — third-person singular of **partir**: le train **part**.\n**à neuf heures** — time expressions use **à**: à huit heures, à midi, à minuit. No preposition for English 'at' is different from French **à** here — they align perfectly.",
+      "englishPhrase": "The train departs at nine.",
+      "phrase": "Le train part à neuf heures.",
+      "hidden": true
+    },
+    {
+      "id": "to_arrive",
+      "english": "To arrive",
+      "word": "Arriver",
+      "grammarNote": "**arriver** uses **être** in the passé composé: on est arrivé(e)s.\n**demain** = tomorrow — adverbs of time go after the conjugated verb or at the start/end of the sentence: on arrive **demain** · **demain**, on arrive.",
+      "englishPhrase": "We arrive tomorrow.",
+      "phrase": "On arrive demain."
+    },
+    {
+      "id": "to_visit",
+      "english": "To visit",
+      "word": "Visiter",
+      "grammarNote": "**visiter** is used for places: visiter le musée, visiter Paris.\nTo visit a person, use **rendre visite à**: je rends visite à ma grand-mère (I'm visiting my grandmother). Never use **visiter** for people.",
+      "englishPhrase": "I want to visit the museum.",
+      "phrase": "Je veux visiter le musée."
+    },
+    {
+      "id": "in",
+      "english": "In",
+      "word": "Dans",
+      "grammarNote": "**dans le sac** — **dans** = inside (a container, space, or bounded area).\nDo not confuse with **en** (mode/state) or **à** (location at a point). Compare: je suis **dans** la voiture (in the car) vs. je suis **en** voiture (travelling by car).",
+      "englishPhrase": "The keys are in the bag.",
+      "phrase": "Les clés sont dans le sac.",
+      "hidden": true
+    },
+    {
+      "id": "on",
+      "english": "On",
+      "word": "Sur",
+      "grammarNote": "**sur la table** — **sur** = on top of / on a surface.\nContrast: **sous la table** (under the table) · **dans le tiroir** (in the drawer) · **à côté de la table** (next to the table).",
+      "englishPhrase": "The book is on the table.",
+      "phrase": "Le livre est sur la table.",
+      "hidden": true
+    },
+    {
+      "id": "at",
+      "english": "At",
+      "word": "À",
+      "grammarNote": "**au bureau** — **à + le = au** (mandatory contraction).\n**à** expresses location at a specific point: **à** la maison, **au** bureau, **à** l'école.\nAlso used for times: **à** cinq heures, and cities: **à** Paris, **à** Londres.",
+      "englishPhrase": "I'm at the office.",
+      "phrase": "Je suis au bureau.",
+      "hidden": true
+    },
+    {
+      "id": "under",
+      "english": "Under",
+      "word": "Sous",
+      "grammarNote": "**sous la table** — **sous** = under/beneath.\n**sous** never contracts like **à** or **de**. Contrast: **sur** (on) · **sous** (under) · **dans** (in) · **devant** (in front of) · **derrière** (behind).",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "Le chat est sous la table."
+    },
+    {
+      "id": "next_to",
+      "english": "Next to",
+      "word": "À côté de",
+      "grammarNote": "**à côté du café** — **à côté de + le = à côté du** (**de + le = du** — mandatory contraction).\n**à côté de** is a compound preposition and always requires **de**: à côté **de** la banque · à côté **du** parc.",
+      "englishPhrase": "The bank is next to the cafe.",
+      "phrase": "La banque est à côté du café."
+    },
+    {
+      "id": "between",
+      "english": "Between",
+      "word": "Entre",
+      "grammarNote": "**entre** does not contract: entre **l'**école et **la** bibliothèque.\n**entre A et B** = between A and B — same structure as English. **Entre** is also used idiomatically: entre nous (between us/between you and me).",
+      "englishPhrase": "The park is between the school and the library.",
+      "phrase": "Le parc est entre l'école et la bibliothèque."
+    },
+    {
+      "id": "in_front_of",
+      "english": "In front of",
+      "word": "Devant",
+      "grammarNote": "**devant l'hôtel** — **devant** = in front of / outside (facing). It does not contract.\n**devant** vs. **face à**: **devant** indicates physical position in front; **face à** can be more figurative (facing a challenge).",
+      "englishPhrase": "The taxi is in front of the hotel.",
+      "phrase": "Le taxi est devant l'hôtel."
+    },
+    {
+      "id": "behind",
+      "english": "Behind",
+      "word": "Derrière",
+      "grammarNote": "**derrière la maison** — **derrière** = behind. It does not contract.\n**derrière** (behind) is the spatial opposite of **devant** (in front of). Also used figuratively: derrière cette décision (behind this decision).",
+      "englishPhrase": "The garden is behind the house.",
+      "phrase": "Le jardin est derrière la maison."
+    },
+    {
+      "id": "near",
+      "english": "Near",
+      "word": "Près de",
+      "grammarNote": "**près d'ici** — **près de + ici**: **de** elides to **d'** before a vowel.\n**près de** always requires **de**: près **de** la gare · près **du** parc (**de + le = du**) · près **de l'**hôpital.",
+      "englishPhrase": "Is there a restaurant near here?",
+      "phrase": "Il y a un restaurant près d'ici ?"
+    },
+    {
+      "id": "far",
+      "english": "Far",
+      "word": "Loin de",
+      "grammarNote": "**loin** without **de** when used alone (no following noun): l'aéroport est **loin**.\nWith a noun: **loin de** la gare · **loin du** centre-ville (**de + le = du**).\n**loin** is the opposite of **près** (near).",
+      "englishPhrase": "Is the airport far?",
+      "phrase": "L'aéroport est loin ?"
+    },
+    {
+      "id": "here",
+      "english": "Here",
+      "word": "Ici",
+      "grammarNote": "**ici** = here (a fixed location). **là** = there (or 'here' in informal speech).\n**Viens** is the **tu** imperative of **venir** (irregular): viens ! · venez ! (vous form).",
+      "englishPhrase": "Come here, please.",
+      "phrase": "Viens ici, s'il te plaît."
+    },
+    {
+      "id": "there",
+      "english": "There",
+      "word": "Là",
+      "grammarNote": "**là-bas** = over there (a more distant location). **là** alone = there/here (nearby).\n**là-bas** adds **-bas** (lit. down-there) to indicate something further away. Compare: il est **là** (he's here/right there) vs. il est **là-bas** (he's over there).",
+      "englishPhrase": "The taxi is over there.",
+      "phrase": "Le taxi est là-bas."
+    },
+    {
+      "id": "everywhere",
+      "english": "Everywhere",
+      "word": "Partout",
+      "grammarNote": "**partout** is an adverb and does not change form.\n**des touristes** — **de + les = des** (mandatory contraction), also the default plural indefinite article: il y a **des** touristes (there are tourists).",
+      "englishPhrase": "There are tourists everywhere.",
+      "phrase": "Il y a des touristes partout.",
+      "hidden": true
+    },
+    {
+      "id": "somewhere",
+      "english": "Somewhere",
+      "word": "Quelque part",
+      "grammarNote": "**quelque part** = somewhere. Its negative counterpart is **nulle part** (nowhere).\n**Allons** is the **nous** imperative of **aller** (irregular). **quelque part de calme** — **de** is used to link **quelque part** with an adjective: quelque part **de** calme · quelque chose **d'**intéressant.",
+      "englishPhrase": "Let's go somewhere quiet.",
+      "phrase": "Allons quelque part de calme.",
+      "hidden": true
+    },
+    {
+      "id": "nowhere",
+      "english": "Nowhere",
+      "word": "Nulle part",
+      "grammarNote": "**nulle part** requires **ne** to form negation: il n'y a **nulle part** où s'asseoir.\n**nulle part** = nowhere · **quelque part** = somewhere · **partout** = everywhere. These three are spatial quantity adverbs.",
+      "englishPhrase": "There is nowhere to sit.",
+      "phrase": "Il n'y a nulle part où s'asseoir.",
+      "hidden": true
+    },
+    {
+      "id": "left",
+      "english": "Left",
+      "word": "Gauche",
+      "grammarNote": "**à gauche** = to the left / on the left. Always used with **à**: tournez **à** gauche.\n**la gauche** (with article) = the left (politically or directionally): à **ma** gauche = to my left.",
+      "englishPhrase": "Turn left.",
+      "phrase": "Tournez à gauche."
+    },
+    {
+      "id": "right",
+      "english": "Right",
+      "word": "Droite",
+      "grammarNote": "**à droite** = to the right / on the right. Always used with **à**: tournez **à** droite.\n**droite** and **gauche** are feminine nouns when used as directions: **la** droite · **la** gauche.",
+      "englishPhrase": "Turn right.",
+      "phrase": "Tournez à droite."
+    },
+    {
+      "id": "straight_ahead",
+      "english": "Straight (ahead)",
+      "word": "Tout droit",
+      "grammarNote": "**tout droit** is an adverbial phrase that never changes form (no agreement).\n**Allez tout droit** — **allez** is the **vous** imperative of **aller** (irregular). Contrast **à droite** (to the right) — the word **droit** means 'straight' as an adverb, but **droite** (feminine noun) means 'the right direction'.",
+      "englishPhrase": "Go straight ahead.",
+      "phrase": "Allez tout droit."
+    },
+    {
+      "id": "north",
+      "english": "North",
+      "word": "Nord",
+      "grammarNote": "**au nord** — **à + le = au**. Cardinal directions use the masculine definite article: **le** nord · **le** sud · **l'**est · **l'**ouest.\nLocation: **au nord de Paris** = north of Paris · **dans le nord** = in the north (of France).",
+      "englishPhrase": "The city is to the north.",
+      "phrase": "La ville est au nord.",
+      "hidden": true
+    },
+    {
+      "id": "south",
+      "english": "South",
+      "word": "Sud",
+      "grammarNote": "**au sud** — **à + le = au**. Same pattern as all cardinal directions.\n**le sud de la France** = the south of France. Note: **le Midi** is also used colloquially for the south of France.",
+      "englishPhrase": "The beach is to the south.",
+      "phrase": "La plage est au sud.",
+      "hidden": true
+    },
+    {
+      "id": "east",
+      "english": "East",
+      "word": "Est",
+      "grammarNote": "**à l'est** — **l'est** starts with a vowel, so no contraction after **à**.\n**se lever** = to rise (reflexive): le soleil **se lève** — third-person singular reflexive. Also the verb for 'to get up': je me lève à sept heures.",
+      "englishPhrase": "The sun rises in the east.",
+      "phrase": "Le soleil se lève à l'est.",
+      "hidden": true
+    },
+    {
+      "id": "west",
+      "english": "West",
+      "word": "Ouest",
+      "grammarNote": "**à l'ouest** — vowel-initial, so **à l'** (no contraction needed).\n**se coucher** = to set (of the sun) / to go to bed (reflexive): le soleil **se couche** · je me couche à dix heures.",
+      "englishPhrase": "The sun sets in the west.",
+      "phrase": "Le soleil se couche à l'ouest.",
+      "hidden": true
+    },
+    {
+      "id": "to_live",
+      "english": "To live",
+      "word": "Habiter",
+      "grammarNote": "**près du centre-ville** — **près de + le = près du** (**de + le = du** — mandatory contraction).\n**habiter** can be used with or without a preposition: j'habite Paris · j'habite **à** Paris · j'habite **dans** un appartement — all correct, slight differences in register.",
+      "englishPhrase": "I live near the city centre.",
+      "phrase": "J'habite près du centre-ville.",
+      "hidden": true
+    },
+    {
+      "id": "to_stay",
+      "english": "To stay",
+      "word": "Rester",
+      "grammarNote": "**séjourner** (used in the phrase) = to stay (at a hotel/for a period of time); **rester** = to stay/remain (in place or state).\n**dans un hôtel** — **dans** (inside a specific place).",
+      "englishPhrase": "We're staying at a hotel.",
+      "phrase": "On séjourne dans un hôtel.",
+      "hidden": true
+    },
+    {
+      "id": "to_wait",
+      "english": "To wait",
+      "word": "Attendre",
+      "grammarNote": "**je t'attends** — **t'** is the **tu** direct object pronoun (elided before a vowel): je t'attends = I'm waiting for you.\n**attendre** takes a direct object in French: j'attends **le** bus (I'm waiting for the bus) — no **pour** needed, unlike English.",
+      "englishPhrase": "I'll wait for you here.",
+      "phrase": "Je t'attends ici.",
+      "hidden": true
+    },
+    {
+      "id": "to_meet",
+      "english": "To meet",
+      "word": "Se retrouver",
+      "grammarNote": "**au parc** — **à + le = au** (mandatory contraction).\n**se retrouver** = to meet up (by prior arrangement): on se retrouve au parc.\n**rencontrer** = to meet (for the first time or by chance): on s'est rencontrés à l'université.",
+      "englishPhrase": "Let's meet at the park.",
+      "phrase": "On se retrouve au parc."
+    },
+    {
+      "id": "to_get_lost",
+      "english": "To get lost",
+      "word": "Se perdre",
+      "grammarNote": "**se perdre** is reflexive: je me perds · tu te perds · il se perd\nMany movement verbs are reflexive: **se promener** (to stroll), **se diriger** (to head toward), **s'en aller** (to leave).",
+      "englishPhrase": "Don't get lost!",
+      "phrase": "Ne te perds pas !"
+    },
+    {
+      "id": "to_find",
+      "english": "To find",
+      "word": "Trouver",
+      "grammarNote": "**je ne trouve pas** — negation wraps the verb: **ne** … **pas**. Before a vowel, **ne** stays: je **ne** trouve **pas**.\n**trouver** = to find (physically) or to find/think (opinion): je trouve ça difficile (I find that difficult).",
+      "englishPhrase": "I can't find the hotel.",
+      "phrase": "Je ne trouve pas l'hôtel."
+    },
+    {
+      "id": "to_look_for",
+      "english": "To look for",
+      "word": "Chercher",
+      "grammarNote": "**chercher** takes a direct object — no preposition needed: je cherche **la** pharmacie (not *je cherche pour la pharmacie*).\nContrast English 'look for' (two words) vs. French **chercher** (one verb, no preposition).",
+      "englishPhrase": "I'm looking for the pharmacy.",
+      "phrase": "Je cherche la pharmacie."
+    },
+    {
+      "id": "to_head",
+      "english": "To head",
+      "word": "Se diriger (vers)",
+      "grammarNote": "**se diriger vers** = to head toward (reflexive + preposition **vers**).\n**vers** = toward/around (direction): dirigez-vous **vers** la gare. Also used for approximate time: **vers** midi (around noon).",
+      "englishPhrase": "Head towards the station.",
+      "phrase": "Dirigez-vous vers la gare.",
+      "hidden": true
+    },
+    {
+      "id": "to_continue",
+      "english": "To continue",
+      "word": "Continuer",
+      "grammarNote": "**Continuez** is the **vous** imperative of the regular -er verb **continuer**.\n**continuer + infinitive** or **continuer à + infinitive**: continuez **à** marcher · continuez **tout droit**.",
+      "englishPhrase": "Continue straight ahead.",
+      "phrase": "Continuez tout droit.",
+      "hidden": true
+    },
+    {
+      "id": "to_stop",
+      "english": "To stop",
+      "word": "S'arrêter",
+      "grammarNote": "**s'arrêter** is reflexive: je m'arrête · tu t'arrêtes · il s'arrête.\n**Arrêtez-vous** = reflexive imperative (**vous** form): the reflexive pronoun **vous** follows the verb with a hyphen.",
+      "englishPhrase": "Stop at the corner.",
+      "phrase": "Arrêtez-vous au coin.",
+      "hidden": true
+    },
+    {
+      "id": "to_park",
+      "english": "To park",
+      "word": "Se garer",
+      "grammarNote": "**se garer** is reflexive: je me gare · tu te gares · il se gare.\n**où est-ce que je peux** — **pouvoir + infinitive** = to be able to. **est-ce que** is the question marker that avoids inversion in informal/spoken French.",
+      "englishPhrase": "Where can I park?",
+      "phrase": "Où est-ce que je peux me garer ?",
+      "hidden": true
+    },
+    {
+      "id": "to_book_to_reserve",
+      "english": "To book",
+      "word": "Réserver",
+      "grammarNote": "**j'ai réservé** — passé composé of **réserver** (regular -er verb) with **avoir**: j'ai + réservé.\n**une chambre** = a hotel room. **Réserver** is a cognate — same spelling and meaning as English 'to reserve'.",
+      "englishPhrase": "I booked a room.",
+      "phrase": "J'ai réservé une chambre.",
+      "hidden": true
+    },
+    {
+      "id": "to_check_in",
+      "english": "To check in",
+      "word": "S'enregistrer",
+      "grammarNote": "**on s'est enregistrés** — reflexive verb in passé composé using **être**: on s'est enregistré(e)s. Past participle agrees with the subject.\n**à trois heures** = at three o'clock. Time: à + cardinal number + heures.",
+      "englishPhrase": "We checked in at three.",
+      "phrase": "On s'est enregistrés à trois heures.",
+      "hidden": true
+    },
+    {
+      "id": "to_check_out",
+      "english": "To check out",
+      "word": "Régler",
+      "grammarNote": "**le départ** = departure / checkout time. The verb **régler** = to settle (a bill), but the departure time is expressed as a noun: **le départ est à onze heures**.\n**à onze heures** — time with **à**.",
+      "englishPhrase": "Check out is at eleven.",
+      "phrase": "Le départ est à onze heures.",
+      "hidden": true
+    },
+    {
+      "id": "nearby",
+      "english": "Nearby",
+      "word": "À proximité",
+      "grammarNote": "**à proximité** = nearby (formal/written); **près d'ici** = nearby (conversational).\n**une pharmacie à proximité** — **à proximité** follows the noun it modifies, unlike English 'nearby pharmacy' where the adjective precedes.",
+      "englishPhrase": "Is there a pharmacy nearby?",
+      "phrase": "Il y a une pharmacie à proximité ?"
+    },
+    {
+      "id": "busy_crowded",
+      "english": "Busy",
+      "word": "Animé",
+      "grammarNote": "**animé(e)** = lively/busy/crowded (lit. animated). It agrees in gender: **animé** (masc.) · **animée** (fem.): un quartier animé · une rue animée.\n**Le marché** = the market (masculine). **Marché** appears in **supermarché** (supermarket).",
+      "englishPhrase": "The market is very crowded.",
+      "phrase": "Le marché est très animé."
+    },
+    {
+      "id": "quiet",
+      "english": "Quiet",
+      "word": "Calme",
+      "grammarNote": "**calme** does not change for masculine/feminine: un quartier **calme** · une rue **calme** (invariable adjective ending in **-e**).\n**je préfère** — **préférer** has an accent change: je **préfère** · nous **préférons** (the accent goes from é to è before a silent syllable).",
+      "englishPhrase": "I prefer a quiet neighbourhood.",
+      "phrase": "Je préfère un quartier calme."
+    },
+    {
+      "id": "lost",
+      "english": "Lost",
+      "word": "Perdu(e)",
+      "grammarNote": "**perdu(e)** — past participle of **perdre**, used as an adjective. It agrees with the subject: je suis **perdu** (m.) · je suis **perdue** (f.).\n**Je suis perdu(e)** uses **être** (state). Compare the reflexive verb: je me suis **perdu** (I got lost — in the passé composé).",
+      "englishPhrase": "I'm lost.",
+      "phrase": "Je suis perdu(e)."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "negation",
+  "name": "La Négation — ne...pas",
+  "language": "french",
+  "cards": [
+    {
+      "id": "ne_pas_food",
+      "front": "not (negation)",
+      "back": "ne...pas",
+      "grammarNote": "ne...pas wraps the conjugated verb: Je ne mange pas. After negation, articles du/de la/de l'/un/une become de: je bois du lait → je ne bois pas de lait."
+    },
+    {
+      "id": "je_ne_mange_pas_de",
+      "front": "I don't eat meat.",
+      "back": "Je ne mange pas de viande.",
+      "grammarNote": "The article changes: du bœuf → pas de bœuf. This de rule applies to all partitive and indefinite articles in negation."
+    },
+    {
+      "id": "je_ne_bois_pas",
+      "front": "I don't drink alcohol.",
+      "back": "Je ne bois pas d'alcool.",
+      "grammarNote": "de elides to d' before a vowel: pas d'alcool, pas d'eau (when negating 'I drink water')."
+    },
+    {
+      "id": "il_ny_a_pas_de",
+      "front": "There's no bread.",
+      "back": "Il n'y a pas de pain.",
+      "grammarNote": "Il n'y a pas de + noun = there is no... The article always becomes de after this construction."
+    },
+    {
+      "id": "je_naime_pas",
+      "front": "I don't like spicy food.",
+      "back": "Je n'aime pas la cuisine épicée.",
+      "grammarNote": "With aimer, the article stays: j'aime la cuisine → je n'aime pas la cuisine. The de rule only applies to partitive/indefinite articles, not definite."
+    },
+    {
+      "id": "ne_plus_food",
+      "front": "I don't eat sugar anymore.",
+      "back": "Je ne mange plus de sucre.",
+      "grammarNote": "ne...plus = no longer/not anymore. Articles still become de: plus de sucre, plus de viande."
+    },
+    {
+      "id": "ne_jamais_food",
+      "front": "I never drink coffee.",
+      "back": "Je ne bois jamais de café.",
+      "grammarNote": "ne...jamais = never. Articles also become de: jamais de café, jamais de vin."
+    },
+    {
+      "id": "pas_assez",
+      "front": "Not enough salt.",
+      "back": "Pas assez de sel.",
+      "grammarNote": "pas assez de = not enough of. assez de = enough of. Uses de, not an article."
+    },
+    {
+      "id": "ce_nest_pas_bon",
+      "front": "It's not good.",
+      "back": "Ce n'est pas bon.",
+      "grammarNote": "ce n'est pas = it is not. Keeps the adjective without de: ce n'est pas bon (not: pas de bon)."
+    },
+    {
+      "id": "sans",
+      "front": "without sugar",
+      "back": "sans sucre",
+      "grammarNote": "sans = without. Always followed by a noun with no article: sans sucre, sans lait, sans gluten."
+    },
+    {
+      "id": "pas_du_tout",
+      "front": "Not at all!",
+      "back": "Pas du tout !",
+      "grammarNote": "pas du tout = not at all. A strong negation. Pas du tout de sel = no salt whatsoever."
+    },
+    {
+      "id": "ca_ne_me_plait_pas",
+      "front": "I don't like that (food).",
+      "back": "Ça ne me plaît pas.",
+      "grammarNote": "plaire à = to please. Ça me plaît = I like it (lit: it pleases me). Ça ne me plaît pas = I don't like it."
+    }
+  ]
+}

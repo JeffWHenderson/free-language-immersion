@@ -1,0 +1,3255 @@
+{
+  "id": "food_and_drink",
+  "name": "Food & Drink",
+  "language": "japanese",
+  "stories": [
+    "a_nice_restaurant",
+    "bean_ate_chocolate",
+    "paella",
+    "tacos_or_pizza",
+    "at_the_market",
+    "at_the_restaurant",
+    "cooking_at_home"
+  ],
+  "pictureLessons": [
+    "food_and_drink",
+    "food_and_drink_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "ga_o_particles",
+      "name": "が & を — Subject & Object Particles"
+    },
+    {
+      "id": "suki_kirai",
+      "name": "好き & 嫌い — Like & Dislike"
+    },
+    {
+      "id": "i_adjectives",
+      "name": "い Adjectives"
+    },
+    {
+      "id": "te_kudasai",
+      "name": "〜てください — Please Do"
+    },
+    {
+      "id": "tai_form",
+      "name": "〜たい — Want To"
+    },
+    {
+      "id": "te_iru",
+      "name": "〜ています — Progressive & Ongoing State"
+    }
+  ],
+  "cards": [
+    {
+      "id": "water",
+      "english": "water",
+      "word": "水",
+      "romanized": "mizu",
+      "grammarNote": "**水** (mizu) = water (kun'yomi). On'yomi: **sui** — in **水曜日** (suiyōbi, Wednesday).\n**冷たい** (tsumetai) = cold to the touch. Contrast with **寒い** (samui, cold weather/air).\n**は** marks **水** as the sentence topic, presenting it as what we're making a statement about.",
+      "englishPhrase": "The water is cold.",
+      "phrase": "水は冷たいです。",
+      "phraseRomanized": "mizu wa tsumetai desu",
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "冷たい",
+          "cold"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "word": "パン",
+      "romanized": "pan",
+      "grammarNote": "**パン** is a loanword from Portuguese *pão* (bread), brought to Japan in the 16th century by Portuguese missionaries.\n**をください** = please give me [object]: the thing you want takes **を**, then **ください** (please give).\nContrast with **お願いします** (onegaishimasu) — also 'please', but more of a general request.",
+      "englishPhrase": "I'd like some bread.",
+      "phrase": "パンをください。",
+      "phraseRomanized": "pan wo kudasai",
+      "literal": [
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "word": "ご飯",
+      "romanized": "gohan",
+      "grammarNote": "**ご飯** (gohan) = cooked rice, and also the general word for a meal: **朝ご飯** (breakfast).\n**お米** (okome) = uncooked rice grains.",
+      "englishPhrase": "I like rice with vegetables.",
+      "phrase": "野菜とご飯が好きです。",
+      "phraseRomanized": "yasai to gohan ga suki desu",
+      "literal": [
+        [
+          "野菜",
+          "vegetables"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "ご飯",
+          "rice"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "word": "牛乳",
+      "romanized": "gyūnyū",
+      "grammarNote": "**牛乳** (gyūnyū) = milk: **牛** (gyū, cow/cattle) + **乳** (nyū, milk/breast) → cow's milk.\n**いりますか** = do you need/want? **いる** (iru) here means 'to need/require' (different from **いる** = to exist for living things).\nAlternative phrasing: **牛乳はほしいですか** (do you want milk?) uses **ほしい** (hoshii, want).",
+      "englishPhrase": "Do you want milk?",
+      "phrase": "牛乳はいりますか？",
+      "phraseRomanized": "gyūnyū wa irimasu ka",
+      "literal": [
+        [
+          "牛乳",
+          "milk"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いります",
+          "need"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "word": "卵",
+      "romanized": "tamago",
+      "grammarNote": "**卵** (tamago) = egg. **朝ご飯に** = for breakfast: **に** marks the purpose or context of the eating.\n**二つ** (futatsu) is the native Japanese counter for two generic objects. For eggs specifically, **二個** (niko) is also natural.\nNative counters: **一つ、二つ、三つ、四つ、五つ** (hitotsu, futatsu, mittsu, yottsu, itsutsu).",
+      "englishPhrase": "I eat two eggs for breakfast.",
+      "phrase": "朝ご飯に卵を二つ食べます。",
+      "phraseRomanized": "asagohan ni tamago wo futatsu tabemasu",
+      "literal": [
+        [
+          "朝ご飯",
+          "breakfast"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "卵",
+          "egg"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "二つ",
+          "two"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "word": "チーズ",
+      "romanized": "chīzu",
+      "grammarNote": "**チーズ** is a katakana loanword from English 'cheese'.\n**〜に〜が入っています** = [container] has [thing] in it: literally '[thing] has entered [container] and is in that state'.\n**入る** (hairu, to enter) in te-form + **います** describes the resulting state — **入っています** = is contained in / has been put in.",
+      "englishPhrase": "The sandwich has cheese.",
+      "phrase": "サンドイッチにチーズが入っています。",
+      "phraseRomanized": "sandoicchi ni chīzu ga haitte imasu",
+      "literal": [
+        [
+          "サンドイッチ",
+          "sandwich"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "チーズ",
+          "cheese"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "入って",
+          "entered"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "word": "鶏肉",
+      "romanized": "toriniku",
+      "grammarNote": "**鶏肉** (toriniku) = chicken (meat): **鶏** (tori, chicken/bird) + **肉** (niku, meat).\nOther meats: **豚肉** (butaniku, pork) — **豚** (buta, pig); **牛肉** (gyūniku, beef) — **牛** (gyū, cow).\n**おいしい** (oishii) = delicious; an い-adjective. Its kanji version **美味しい** uses **美** (beauty) + **味** (taste).",
+      "englishPhrase": "The chicken is delicious.",
+      "phrase": "鶏肉はおいしいです。",
+      "phraseRomanized": "toriniku wa oishii desu",
+      "literal": [
+        [
+          "鶏肉",
+          "chicken"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "おいしい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "word": "肉",
+      "romanized": "niku",
+      "grammarNote": "**肉** (niku) = meat. Appears in all meat compounds: **牛肉** (beef), **豚肉** (pork), **鶏肉** (chicken), **羊肉** (lamb).\n**食べません** = polite negative of **食べる**: does not eat. Past negative: **食べませんでした**.\n**は** (topic marker) on **肉** slightly implies contrast: 'meat [he doesn't eat, though other things might be okay]'.",
+      "englishPhrase": "He doesn't eat meat.",
+      "phrase": "彼は肉を食べません。",
+      "phraseRomanized": "kare wa niku wo tabemasen",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "肉",
+          "meat"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べません",
+          "not eat"
+        ]
+      ]
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "word": "魚",
+      "romanized": "sakana",
+      "grammarNote": "**魚** (sakana) = fish (kun'yomi). On'yomi: **gyo** — in **金魚** (kingyo, goldfish).\n**好き** (suki) = liked; a な-adjective meaning 'favorite/liked'. The thing you like takes **が**: **魚が好き** (I like fish).\nThe literal subject of **好き** is the liked thing, not the person doing the liking.",
+      "englishPhrase": "I like fish.",
+      "phrase": "魚が好きです。",
+      "phraseRomanized": "sakana ga suki desu",
+      "literal": [
+        [
+          "魚",
+          "fish"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "ramen",
+      "english": "ramen",
+      "word": "ラーメン",
+      "romanized": "rāmen",
+      "grammarNote": "**ラーメン** is written in katakana as a foreign-origin food (from Chinese 拉麺).\n**食べたい** = want to eat: verb stem + **たい** expresses desire. **食べ** (tabe, stem of 食べる) + **たい**.\n**が** on **ラーメン** marks it as the subject of **食べたい** — the thing being desired. Compare with **を** in **ラーメンを食べる** (eat ramen, less desire-focused).",
+      "englishPhrase": "I want to eat ramen.",
+      "phrase": "ラーメンが食べたいです。",
+      "phraseRomanized": "rāmen ga tabetai desu",
+      "literal": [
+        [
+          "ラーメン",
+          "ramen"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "食べたい",
+          "want to eat"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sushi",
+      "english": "sushi",
+      "word": "寿司",
+      "romanized": "sushi",
+      "grammarNote": "**寿司** (sushi) can also be written **鮨** or **すし**. The kanji **寿** = longevity, **司** = officiate — historically used phonetically.\n**この** (kono) = this + noun (adjective form). **これ** (kore) = this thing (stands alone).\n**おいしい** is the casual spelling; **美味しい** is the kanji version — same pronunciation, same meaning.",
+      "englishPhrase": "This sushi is delicious.",
+      "phrase": "この寿司はおいしいです。",
+      "phraseRomanized": "kono sushi wa oishii desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "寿司",
+          "sushi"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "おいしい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "miso_soup",
+      "english": "miso soup",
+      "word": "味噌汁",
+      "romanized": "misoshiru",
+      "grammarNote": "**味噌汁** (misoshiru): **味噌** (miso, fermented soybean paste) + **汁** (shiru, soup/broth/juice).\n**朝食** (asashoku) = breakfast (formal): **朝** (asa, morning) + **食** (shoku, meal/food) — on'yomi pair. Casual: **朝ご飯** (asagohan).\n**定番** (teiban) = standard/staple: **定** (tei, fixed) + **番** (ban, number/turn) → the 'fixed number' = reliable classic.",
+      "englishPhrase": "Miso soup is a typical Japanese breakfast.",
+      "phrase": "味噌汁は朝食の定番です。",
+      "phraseRomanized": "misoshiru wa asashoku no teiban desu",
+      "literal": [
+        [
+          "味噌汁",
+          "miso soup"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "朝食",
+          "breakfast"
+        ],
+        [
+          "の",
+          "'s"
+        ],
+        [
+          "定番",
+          "staple"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "pork",
+      "english": "pork",
+      "word": "豚肉",
+      "romanized": "butaniku",
+      "grammarNote": "**豚肉** (butaniku) = pork: **豚** (buta, pig) + **肉** (niku, meat).\n**は** on **豚肉** instead of **を** implies contrast: 'pork [I don't eat, though other things I might]'.\n**食べません** = polite negative present: do not eat. Using は with a negative verb in this way subtly suggests an exception or contrast.",
+      "englishPhrase": "I don't eat pork.",
+      "phrase": "豚肉は食べません。",
+      "phraseRomanized": "butaniku wa tabemasen",
+      "literal": [
+        [
+          "豚肉",
+          "pork"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "食べません",
+          "not eat"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "word": "果物",
+      "romanized": "kudamono",
+      "grammarNote": "**果物** (kudamono) = fruit: **果** (ka/kuda, fruit/result) + **物** (mono, thing) — 'fruit-thing'.\n**毎日** (mainichi) = every day: **毎** (mai, every) + **日** (nichi, day). Does NOT take **に** — relative time words never need **に**.\n**物** (mono) nominalizes: **食べ物** (tabemono, food = 'eating-thing'), **飲み物** (nomimono, drink = 'drinking-thing').",
+      "englishPhrase": "I eat fruit every day.",
+      "phrase": "毎日果物を食べます。",
+      "phraseRomanized": "mainichi kudamono wo tabemasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "果物",
+          "fruit"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "word": "りんご",
+      "romanized": "ringo",
+      "grammarNote": "**りんご** = apple, usually written in hiragana (rarely **林檎** in kanji).\n**〜と** (to) is the conditional 'if/when' — **食べると** = 'if you eat'. Different from **〜たら** (which implies 'once it's done').\n**健康に** = healthfully/in a healthy way: **健康** (kenkō) + **に** (adverbial marker). **健** = healthy, **康** = peace/ease.",
+      "englishPhrase": "An apple a day is healthy.",
+      "phrase": "毎日りんごを食べると健康にいいです。",
+      "phraseRomanized": "mainichi ringo wo taberu to kenkō ni ii desu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "りんご",
+          "apple"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べると",
+          "if eat"
+        ],
+        [
+          "健康",
+          "healthy"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "word": "バナナ",
+      "romanized": "banana",
+      "grammarNote": "**バナナ** = katakana loanword from English 'banana'.\n**熟れています** (urete imasu) = is ripe (current state): **熟れる** (ureru, to ripen) + て-form + **います**.\nThis **〜ています** expresses a resulting state, not ongoing action: the bananas ripened and are now in a ripe state.",
+      "englishPhrase": "The bananas are ripe.",
+      "phrase": "バナナは熟れています。",
+      "phraseRomanized": "banana wa urete imasu",
+      "literal": [
+        [
+          "バナナ",
+          "bananas"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "熟れて",
+          "ripened"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "word": "オレンジ",
+      "romanized": "orenji",
+      "grammarNote": "**オレンジ** = katakana loanword from English 'orange'. The Japanese native word for mandarin orange is **みかん**.\n**欲しい** (hoshii) = want (for things). Same as **ほしい** — alternate kanji spelling.\n**が欲しい** = want [noun]: the desired thing takes **が**. Compare **〜たい** for wanting to do verbs.",
+      "englishPhrase": "I want an orange juice.",
+      "phrase": "オレンジジュースが欲しいです。",
+      "phraseRomanized": "orenji jūsu ga hoshii desu",
+      "literal": [
+        [
+          "オレンジジュース",
+          "orange juice"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "欲しい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "word": "野菜",
+      "romanized": "yasai",
+      "grammarNote": "**野菜** (yasai): **野** (ya, field/wild) + **菜** (sai, greens/vegetable).\n**食べなさい** (tabenasai) is a mild command used by parents or teachers — softer than the て-form alone but firmer than **ください**. Formed from the verb stem + **なさい**.",
+      "englishPhrase": "Eat your vegetables!",
+      "phrase": "野菜を食べなさい！",
+      "phraseRomanized": "yasai wo tabenasai",
+      "literal": [
+        [
+          "野菜",
+          "vegetables"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べなさい",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "word": "じゃがいも",
+      "romanized": "jagaimo",
+      "grammarNote": "**じゃがいも** = potato; the full form **ジャガタラ芋** comes from 'Jacatra' (old name for Jakarta), brought via the Dutch trade routes. Usually written in hiragana.\n**マッシュポテト** is a katakana compound loanword from English.\n**が食べたい** — with **〜たい** (want to do), the desired object takes **が**.",
+      "englishPhrase": "I want mashed potatoes.",
+      "phrase": "マッシュポテトが食べたいです。",
+      "phraseRomanized": "masshu poteto ga tabetai desu",
+      "literal": [
+        [
+          "マッシュポテト",
+          "mashed potatoes"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "食べたい",
+          "want to eat"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "word": "トマト",
+      "romanized": "tomato",
+      "grammarNote": "**トマト** = katakana loanword from Spanish/Portuguese *tomate*.\n**〜にトマトが入っています** = there are tomatoes in [it]: **に** marks the container, **が** marks what's inside (subject), **入っています** = are contained (resulting state of **入る**, to enter).",
+      "englishPhrase": "The salad has tomatoes.",
+      "phrase": "サラダにトマトが入っています。",
+      "phraseRomanized": "sarada ni tomato ga haitte imasu",
+      "literal": [
+        [
+          "サラダ",
+          "salad"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "トマト",
+          "tomato"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "入って",
+          "entered"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "word": "たまねぎ",
+      "romanized": "tamanegi",
+      "grammarNote": "**たまねぎ** (tamanegi): **玉** (tama, ball/sphere) + **ねぎ** (negi, green onion) — literally 'ball-shaped green onion'.\n**好きではありません** = polite negative of **好き**: 'do not like'. Pattern: [thing] + **が好きではありません**. Casual: **好きじゃない**.",
+      "englishPhrase": "I don't like onions.",
+      "phrase": "たまねぎが好きではありません。",
+      "phraseRomanized": "tamanegi ga suki de wa arimasen",
+      "literal": [
+        [
+          "たまねぎ",
+          "onion"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "では",
+          "[topic]"
+        ],
+        [
+          "ありません",
+          "not"
+        ]
+      ]
+    },
+    {
+      "id": "salad",
+      "english": "salad",
+      "word": "サラダ",
+      "romanized": "sarada",
+      "grammarNote": "**サラダ** = katakana loanword from English 'salad'.\n**〜にします** (ni shimasu) = 'I'll have / I'll go with [that]': used when making a decision or ordering. Literally 'I'll make it [the salad]'. This is the standard restaurant ordering expression in Japanese.",
+      "englishPhrase": "I'll have a salad.",
+      "phrase": "サラダにします。",
+      "phraseRomanized": "sarada ni shimasu",
+      "literal": [
+        [
+          "サラダ",
+          "salad"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "します",
+          "make"
+        ]
+      ]
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "word": "スープ",
+      "romanized": "sūpu",
+      "grammarNote": "**スープ** = katakana loanword from English 'soup'. Contrast with **汁** (shiru/jiru), the Japanese word for broth-based soups: **味噌汁** (misoshiru), **豚汁** (tonjiru, pork miso soup).\n**熱い** (atsui) = hot to the touch. Do not confuse with **暑い** (same reading, different kanji) which means hot weather.",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "スープは熱いです。",
+      "phraseRomanized": "sūpu wa atsui desu",
+      "literal": [
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "熱い",
+          "hot"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "word": "サンドイッチ",
+      "romanized": "sandoicchi",
+      "grammarNote": "**サンドイッチ** = katakana loanword from English 'sandwich'.\n**昼ご飯に** = for lunch: **に** here marks the purpose or occasion. **作りました** = made (polite past): **作る** (tsukuru, to make) → **作ります** → **作りました**.",
+      "englishPhrase": "I made a sandwich for lunch.",
+      "phrase": "昼ご飯にサンドイッチを作りました。",
+      "phraseRomanized": "hirugohan ni sandoicchi wo tsukurimashita",
+      "literal": [
+        [
+          "昼ご飯",
+          "lunch"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "サンドイッチ",
+          "sandwich"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "作りました",
+          "made"
+        ]
+      ]
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "word": "ケーキ",
+      "romanized": "kēki",
+      "grammarNote": "**ケーキ** = katakana loanword from English 'cake'.\n**いりますか** = do you want/need it? **いる** (iru) here means 'to need/be necessary' — a different word from **いる** (to exist, for living things). A warmer alternative: **食べますか** (will you eat some?).",
+      "englishPhrase": "Do you want cake?",
+      "phrase": "ケーキはいりますか？",
+      "phraseRomanized": "kēki wa irimasu ka",
+      "literal": [
+        [
+          "ケーキ",
+          "cake"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いります",
+          "need"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "word": "クッキー",
+      "romanized": "kukkī",
+      "grammarNote": "**クッキー** = katakana loanword from English 'cookie'.\n**このクッキーは** — **この** + noun + **は**: presenting these specific cookies as the sentence topic.\n**おいしいです** — い-adjective + **です** for polite assertion. Negative: **おいしくないです**.",
+      "englishPhrase": "These cookies are delicious.",
+      "phrase": "このクッキーはおいしいです。",
+      "phraseRomanized": "kono kukkī wa oishii desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "クッキー",
+          "cookie"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "おいしい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "word": "チョコレート",
+      "romanized": "chokoreeto",
+      "grammarNote": "**チョコレート** = katakana loanword from Dutch *chocolade* via English.\n**大好き** (daisuki) = love/really like: **大** (dai, big/great) intensifies **好き** (suki, liked). Opposite: **大嫌い** (daikirai, really hate).\n**が大好きです** — the loved thing takes **が** as the grammatical subject.",
+      "englishPhrase": "I love chocolate.",
+      "phrase": "チョコレートが大好きです。",
+      "phraseRomanized": "chokoreeto ga daisuki desu",
+      "literal": [
+        [
+          "チョコレート",
+          "chocolate"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "very-like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "word": "砂糖",
+      "romanized": "satō",
+      "grammarNote": "**砂糖** (satō): **砂** (sa/suna, sand) + **糖** (tō, sugar) — originally describing the granular/crystalline texture of sugar.\n**なしで** = without: **なし** (nashi, without/none) + **で** (in the state of/by means of). **砂糖なしで** = without sugar.\n**お願いします** (onegaishimasu) = please — a general polite request, more formal than **ください**.",
+      "englishPhrase": "No sugar, please.",
+      "phrase": "砂糖なしでお願いします。",
+      "phraseRomanized": "satō nashi de onegai shimasu",
+      "literal": [
+        [
+          "砂糖",
+          "sugar"
+        ],
+        [
+          "なし",
+          "without"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "word": "塩",
+      "romanized": "shio",
+      "grammarNote": "**塩** (shio) = salt (kun'yomi). On'yomi: **en** — found in **食塩** (shokuen, table salt) and **塩分** (enbun, salt content).\n**取ってもらえますか** = can you get/pass it for me?: **取る** (toru, to take/reach for) in **て**-form + **もらえますか** (can I receive?). A polite indirect request.",
+      "englishPhrase": "Can you pass the salt?",
+      "phrase": "塩を取ってもらえますか？",
+      "phraseRomanized": "shio wo totte moraemasu ka",
+      "literal": [
+        [
+          "塩",
+          "salt"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "取って",
+          "take"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "pepper",
+      "english": "pepper",
+      "word": "こしょう",
+      "romanized": "koshō",
+      "grammarNote": "**こしょう** (koshō) = black pepper; also written **胡椒** in kanji: **胡** (ko, foreign/barbarian) + **椒** (shō, pepper plant).\n**取ってもらえますか** = a polite indirect request: **取って** (te-form of 取る, to take) + **もらえますか** (can I receive?). Slightly more indirect than **取ってください**.",
+      "englishPhrase": "Can you pass the pepper?",
+      "phrase": "こしょうを取ってもらえますか？",
+      "phraseRomanized": "koshō wo totte moraemasu ka",
+      "literal": [
+        [
+          "こしょう",
+          "pepper"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "取って",
+          "take"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "word": "バター",
+      "romanized": "batā",
+      "grammarNote": "**バター** = katakana loanword from English 'butter' (via Dutch *boter*).\n**〜に〜を塗る** = spread [something] on [something]: **に** marks the surface receiving the spread, **を** marks what is being applied. **塗る** (nuru) = to spread/apply/paint.",
+      "englishPhrase": "I put butter on my bread.",
+      "phrase": "パンにバターを塗ります。",
+      "phraseRomanized": "pan ni batā wo nurimasu",
+      "literal": [
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "バター",
+          "butter"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "塗ります",
+          "spread"
+        ]
+      ]
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "word": "油",
+      "romanized": "abura",
+      "grammarNote": "**油** (abura) = oil/fat (kun'yomi). On'yomi: **yu** — in **石油** (sekiyu, petroleum), **醤油** (shōyu, soy sauce).\n**で** (de) marks the means or instrument: **オリーブオイルで** = using/with olive oil. **調理する** (chōri suru) = to cook/prepare food (more formal than **料理する**).",
+      "englishPhrase": "Cook with olive oil.",
+      "phrase": "オリーブオイルで調理します。",
+      "phraseRomanized": "orību oiru de chōri shimasu",
+      "literal": [
+        [
+          "オリーブオイル",
+          "olive oil"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "調理します",
+          "cook"
+        ]
+      ]
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "word": "コーヒー",
+      "romanized": "kōhī",
+      "grammarNote": "**コーヒー** = katakana loanword from Dutch *koffie*.\n**朝** (asa) = morning — used here as a time word without **に**. Relative time words (**朝**, **今日**, **毎日**) never take **に**; specific clock times always do (**七時に**).\n**が好きです** — the liked thing takes **が** with **好き**.",
+      "englishPhrase": "I like coffee in the morning.",
+      "phrase": "朝コーヒーが好きです。",
+      "phraseRomanized": "asa kōhī ga suki desu",
+      "literal": [
+        [
+          "朝",
+          "morning"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "word": "お茶",
+      "romanized": "ocha",
+      "grammarNote": "**お茶** (ocha) means green tea by default in Japan.\n**紅茶** (kōcha) = black tea (literally 'red tea').\nSaying **お茶ください** at a restaurant will typically get you green tea.",
+      "englishPhrase": "Would you like some tea?",
+      "phrase": "お茶はいかがですか？",
+      "phraseRomanized": "ocha wa ikaga desu ka",
+      "literal": [
+        [
+          "お茶",
+          "tea"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いかが",
+          "how"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "wine",
+      "english": "wine",
+      "word": "ワイン",
+      "romanized": "wain",
+      "grammarNote": "**ワイン** = katakana loanword from English/French 'wine'. **赤ワイン** = red wine; **白ワイン** (shiro wain) = white wine; **ロゼ** (roze) = rosé.\n**一杯** (ippai) = one cup/glass: the counter **杯** (hai/pai/bai) is used for cups, glasses, and bowls of liquid. Sound change: **一杯** → ippai.",
+      "englishPhrase": "A glass of red wine, please.",
+      "phrase": "赤ワインを一杯ください。",
+      "phraseRomanized": "aka wain wo ippai kudasai",
+      "literal": [
+        [
+          "赤ワイン",
+          "red wine"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "一杯",
+          "one glass"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "ビール",
+      "romanized": "bīru",
+      "grammarNote": "**ビール** = katakana loanword from Dutch *bier* or German *Bier*.\n**二本** (nihon) = two [long/cylindrical objects]: the counter **本** (hon/bon/pon) counts long thin things — bottles, cans, pens, trees. One: **一本** (ippon); three: **三本** (sanbon). Beer cans and bottles both use **本**.",
+      "englishPhrase": "Two beers, please.",
+      "phrase": "ビールを二本ください。",
+      "phraseRomanized": "bīru wo nihon kudasai",
+      "literal": [
+        [
+          "ビール",
+          "beer"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "二本",
+          "two"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "word": "ジュース",
+      "romanized": "jūsu",
+      "grammarNote": "**ジュース** = katakana loanword from English 'juice'.\n**が欲しい** (ga hoshii) = want [a thing]: the desired object takes **が** with **欲しい**. Contrast with **〜たい** for wanting to do a verb: **飲みたい** (want to drink). **欲しい** is used for nouns; **〜たい** for verbs.",
+      "englishPhrase": "I want orange juice.",
+      "phrase": "オレンジジュースが欲しいです。",
+      "phraseRomanized": "orenji jūsu ga hoshii desu",
+      "literal": [
+        [
+          "オレンジジュース",
+          "orange juice"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "欲しい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "word": "朝ご飯",
+      "romanized": "asagohan",
+      "grammarNote": "**朝ご飯** (asagohan): **朝** (asa, morning) + **ご飯** (gohan, cooked rice/meal). The **ご** is an honorific prefix on **飯** (meshi, food).\n**7時に** = at 7 o'clock: specific clock times use **に**. This is one of the core uses of **に** — marking a precise point in time.",
+      "englishPhrase": "I have breakfast at seven.",
+      "phrase": "7時に朝ご飯を食べます。",
+      "phraseRomanized": "shichiji ni asagohan wo tabemasu",
+      "literal": [
+        [
+          "7時",
+          "7 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "朝ご飯",
+          "breakfast"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "word": "昼ご飯",
+      "romanized": "hirugohan",
+      "grammarNote": "**昼ご飯** (hirugohan): **昼** (hiru, daytime/noon) + **ご飯** (gohan, rice/meal). The formal equivalent is **昼食** (chūshoku).\n**2時に** = at 2 o'clock: **に** marks the specific clock time. Relative time words (**今日**, **明日**, **毎日**) do NOT take **に**.",
+      "englishPhrase": "We have lunch at two.",
+      "phrase": "2時に昼ご飯を食べます。",
+      "phraseRomanized": "niji ni hirugohan wo tabemasu",
+      "literal": [
+        [
+          "2時",
+          "2 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "昼ご飯",
+          "lunch"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "word": "夕ご飯",
+      "romanized": "yūgohan",
+      "grammarNote": "**夕ご飯** (yūgohan): **夕** (yū, evening/dusk) + **ご飯** (gohan, meal). Alternate forms: **夕食** (yūshoku, formal), **晩ご飯** (bangohan, evening meal).\n**準備ができました** = preparation is done / ready: **できる** (dekiru) here means 'to be completed'. The subject **準備が** (preparations) is what 'got done'.",
+      "englishPhrase": "Dinner is ready.",
+      "phrase": "夕ご飯の準備ができました。",
+      "phraseRomanized": "yūgohan no junbi ga dekimashita",
+      "literal": [
+        [
+          "夕ご飯",
+          "dinner"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "準備",
+          "preparation"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "できました",
+          "finished"
+        ]
+      ]
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "word": "おやつ",
+      "romanized": "oyatsu",
+      "grammarNote": "**おやつ** (oyatsu) = snack/between-meal treat. Traditionally refers to sweets or small foods eaten around 3pm (**三時のおやつ**). The **お** is an honorific prefix.\n**午後に** = in the afternoon: **午後** (gogo, PM/afternoon) + **に** marking the time of day. **午前** (gozen) = AM/morning.",
+      "englishPhrase": "I have a snack in the afternoon.",
+      "phrase": "午後におやつを食べます。",
+      "phraseRomanized": "gogo ni oyatsu wo tabemasu",
+      "literal": [
+        [
+          "午後",
+          "afternoon"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "おやつ",
+          "snack"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "word": "食事",
+      "romanized": "shokuji",
+      "grammarNote": "**食事** (shokuji): **食** (shoku, eat/food) + **事** (ji, thing/matter) — literally 'the matter of eating'. More formal than **ご飯**. Compare: **朝食** (asashoku, breakfast), **昼食** (chūshoku, lunch), **夕食** (yūshoku, dinner).\n**おいしい食事** = a delicious meal: **おいしい** as an い-adjective modifies **食事** directly.",
+      "englishPhrase": "This is a delicious meal.",
+      "phrase": "これはおいしい食事です。",
+      "phraseRomanized": "kore wa oishii shokuji desu",
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "おいしい",
+          "delicious"
+        ],
+        [
+          "食事",
+          "meal"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "recipe",
+      "english": "recipe",
+      "word": "レシピ",
+      "romanized": "reshipi",
+      "grammarNote": "**レシピ** = katakana loanword from English 'recipe' (or French *recette*).\n**知っていますか** = do you know?: **知る** (shiru, to know) must always be used in the **〜ている** form to express the state of knowing: **知っています** = I know. **知ります** alone does NOT mean 'I know' — it means 'I will come to know'.",
+      "englishPhrase": "Do you have a good recipe?",
+      "phrase": "いいレシピを知っていますか？",
+      "phraseRomanized": "ii reshipi wo shitte imasu ka",
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "レシピ",
+          "recipe"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "知って",
+          "know"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "word": "味",
+      "romanized": "aji",
+      "grammarNote": "**味** (aji) = taste/flavor (kun'yomi). On'yomi: **mi** — in **旨味** (umami, savory taste), **調味料** (chōmiryō, seasoning/condiments), **風味** (fūmi, aroma/flavor).\n**どんな** (donna) = what kind of: **どんな味** = what kind of flavor. Compare: **どの味** (which flavor, choosing from a set list).",
+      "englishPhrase": "What flavor do you want?",
+      "phrase": "どんな味がいいですか？",
+      "phraseRomanized": "donna aji ga ii desu ka",
+      "literal": [
+        [
+          "どんな",
+          "what kind of"
+        ],
+        [
+          "味",
+          "flavor"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "ingredient",
+      "english": "ingredient",
+      "word": "材料",
+      "romanized": "zairyō",
+      "grammarNote": "**材料** (zairyō): **材** (zai, material/timber) + **料** (ryō, fee/ingredient/ratio) — raw materials or ingredients.\n**必要** (hitsuyō) = necessary; a **な**-adjective used predicatively: **必要ですか** = is it necessary?. **どんな材料が必要** = what kind of ingredients are needed.",
+      "englishPhrase": "What ingredients do you need?",
+      "phrase": "どんな材料が必要ですか？",
+      "phraseRomanized": "donna zairyō ga hitsuyō desu ka",
+      "literal": [
+        [
+          "どんな",
+          "what kind of"
+        ],
+        [
+          "材料",
+          "ingredients"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "word": "メニュー",
+      "romanized": "menyū",
+      "grammarNote": "**メニュー** = katakana loanword from French *menu* or English 'menu'.\n**見せてもらえますか** = can you show me?: **見せる** (miseru, to show) in **て**-form + **もらえますか** (can I receive?). A polite indirect request — softer than **見せてください**.",
+      "englishPhrase": "Can I see the menu?",
+      "phrase": "メニューを見せてもらえますか？",
+      "phraseRomanized": "menyū wo misete moraemasu ka",
+      "literal": [
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "見せて",
+          "show"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "word": "レストラン",
+      "romanized": "resutoran",
+      "grammarNote": "**レストラン** = katakana loanword from French *restaurant*.\n**この〜は** — **この** + noun + **は** presents a specific thing as the sentence topic. **この** (this, prenominal) always precedes a noun; **これ** (this) stands alone as a pronoun.\n**いいです** = is good; past polite: **よかったです** (was good).",
+      "englishPhrase": "This restaurant is good.",
+      "phrase": "このレストランはいいです。",
+      "phraseRomanized": "kono resutoran wa ii desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "word": "キッチン",
+      "romanized": "kicchin",
+      "grammarNote": "**キッチン** = katakana loanword from English 'kitchen'. The traditional Japanese word is **台所** (daidokoro): **台** (dai, platform/stand) + **所** (tokoro, place).\n**きれい** = clean/pretty: a **な**-adjective. Before nouns: **きれいな台所**. Predicative (after **は**): **きれいです** — no **な** needed.",
+      "englishPhrase": "The kitchen is clean.",
+      "phrase": "キッチンはきれいです。",
+      "phraseRomanized": "kicchin wa kirei desu",
+      "literal": [
+        [
+          "キッチン",
+          "kitchen"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "きれい",
+          "clean"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "word": "オーブン",
+      "romanized": "ōbun",
+      "grammarNote": "**オーブン** = katakana loanword from English 'oven'.\n**熱い** (atsui) = hot to the touch (for objects and liquids). Contrast: **暑い** (atsui, same sound, different kanji) = hot weather. **オーブンは熱いです** — **は** marks the oven as the topic being described.",
+      "englishPhrase": "The oven is hot.",
+      "phrase": "オーブンは熱いです。",
+      "phraseRomanized": "ōbun wa atsui desu",
+      "literal": [
+        [
+          "オーブン",
+          "oven"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "熱い",
+          "hot"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "word": "コンロ",
+      "romanized": "konro",
+      "grammarNote": "**コンロ** (konro) = stove/cooktop burner; adapted from Dutch *komfoor*. **ガスコンロ** = gas stove; **IHコンロ** = induction cooktop.\n**で** marks both the location of action and the instrument: **コンロで調理する** = cook on the stove. **調理してください** = please cook: **調理する** → **調理して** + **ください**.",
+      "englishPhrase": "Cook it on the stove.",
+      "phrase": "コンロで調理してください。",
+      "phraseRomanized": "konro de chōri shite kudasai",
+      "literal": [
+        [
+          "コンロ",
+          "stove"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "調理して",
+          "cook"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "knife",
+      "english": "knife",
+      "word": "包丁",
+      "romanized": "hōchō",
+      "grammarNote": "**包丁** (hōchō): **包** (hō, wrap) + **丁** (chō, tool/piece) — originally referred to a blade used to carve an ox in a Chinese story. Japanese kitchen knives are world-renowned.\n**よく切れる** = cuts well/is sharp: **よく** (well) + **切れる** (kireru, potential form of **切る**, to cut).",
+      "englishPhrase": "I need a sharp knife.",
+      "phrase": "よく切れる包丁が必要です。",
+      "phraseRomanized": "yoku kireru hōchō ga hitsuyō desu",
+      "literal": [
+        [
+          "よく切れる",
+          "well-cutting"
+        ],
+        [
+          "包丁",
+          "knife"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fork",
+      "english": "fork",
+      "word": "フォーク",
+      "romanized": "fōku",
+      "grammarNote": "**フォーク** = katakana loanword from English 'fork'. In traditional Japanese dining, chopsticks (**お箸**, ohashi) are standard; forks are requested in Western-style restaurants.\n**もらえますか** = can I have/receive?: a polite request. More indirect than **ください**. Very formal: **いただけますか**.",
+      "englishPhrase": "Can I have a fork?",
+      "phrase": "フォークをもらえますか？",
+      "phraseRomanized": "fōku wo moraemasu ka",
+      "literal": [
+        [
+          "フォーク",
+          "fork"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "word": "スプーン",
+      "romanized": "supūn",
+      "grammarNote": "**スプーン** = katakana loanword from English 'spoon'.\n**が必要です** = is needed/necessary: the needed thing takes **が** as subject, and **必要** (hitsuyō) is a **な**-adjective used predicatively without the **な**. Pattern: [thing] **が必要です**.",
+      "englishPhrase": "I need a spoon.",
+      "phrase": "スプーンが必要です。",
+      "phraseRomanized": "supūn ga hitsuyō desu",
+      "literal": [
+        [
+          "スプーン",
+          "spoon"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "word": "お皿",
+      "romanized": "osara",
+      "grammarNote": "**お皿** (osara): **お** (honorific prefix) + **皿** (sara, plate/dish). The honorific **お** is standard for tableware and food-related items.\n**汚れています** = is dirty (resulting state): **汚れる** (yogoreru, to become dirty) in **て**-form + **います** — describes the current state, not the act of getting dirty.",
+      "englishPhrase": "The plate is dirty.",
+      "phrase": "お皿が汚れています。",
+      "phraseRomanized": "osara ga yogorete imasu",
+      "literal": [
+        [
+          "お皿",
+          "plate"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "汚れて",
+          "dirtied"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "word": "ボウル",
+      "romanized": "bōru",
+      "grammarNote": "**ボウル** = katakana loanword from English 'bowl'. For traditional Japanese lacquer bowls: **椀** (wan) or **お碗** (owan).\n**〜に〜を入れる** = put [something] into [something]: **に** marks the container/destination, **を** marks what is being put in. **入れてください** = please put in.",
+      "englishPhrase": "Fill the bowl with soup.",
+      "phrase": "ボウルにスープを入れてください。",
+      "phraseRomanized": "bōru ni sūpu wo irete kudasai",
+      "literal": [
+        [
+          "ボウル",
+          "bowl"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "入れて",
+          "put"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "glass",
+      "english": "glass",
+      "word": "コップ",
+      "romanized": "koppu",
+      "grammarNote": "**コップ** (koppu) = cup/glass; from Dutch *kop*. Also **グラス** (gurasu) from English 'glass' — **グラス** usually implies a stemmed glass; **コップ** is a plain tumbler.\n**一杯** (ippai) = one cup/glass: counter **杯** (hai/pai). Sound change: **一杯** → ippai (not ichihai). **水を一杯** = one glass of water.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "水を一杯ください。",
+      "phraseRomanized": "mizu wo ippai kudasai",
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "一杯",
+          "one glass"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "word": "ボトル",
+      "romanized": "botoru",
+      "grammarNote": "**ボトル** = katakana loanword from English 'bottle'. Also **瓶** (bin) for glass bottles.\n**一本** (ippon) = one [long thin object]: **本** (hon) counts long cylindrical things — bottles, cans, pens, rolled items. Sound change: **一本** → ippon. **二本** (nihon), **三本** (sanbon).",
+      "englishPhrase": "A bottle of wine, please.",
+      "phrase": "ワインを一本ください。",
+      "phraseRomanized": "wain wo ippon kudasai",
+      "literal": [
+        [
+          "ワイン",
+          "wine"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "一本",
+          "one bottle"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "word": "テーブル",
+      "romanized": "tēburu",
+      "grammarNote": "**テーブル** = katakana loanword from English 'table'. Low Japanese tables used with cushions (座布団, zabuton) are called **座卓** (zataku).\n**私たちの** = our: **私たち** (we/us) + **の** (possessive particle). **準備ができました** = preparation is complete: **できる** for completed readiness.",
+      "englishPhrase": "Our table is ready.",
+      "phrase": "私たちのテーブルの準備ができました。",
+      "phraseRomanized": "watashitachi no tēburu no junbi ga dekimashita",
+      "literal": [
+        [
+          "私たちの",
+          "our"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "準備",
+          "preparation"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "できました",
+          "finished"
+        ]
+      ]
+    },
+    {
+      "id": "waiter",
+      "english": "waiter",
+      "word": "ウェイター",
+      "romanized": "weitā",
+      "grammarNote": "**ウェイター** = katakana loanword from English 'waiter'. In Japan you typically call staff with **すみません** (sumimasen, excuse me) rather than addressing them directly by title.\n**お会計** = the bill: **お** (honorific) + **会計** (kaikei, accounting/settlement). Also heard: **お勘定** (okanjō).",
+      "englishPhrase": "Waiter, the bill please.",
+      "phrase": "すみません、お会計をお願いします。",
+      "phraseRomanized": "sumimasen, okaikei wo onegai shimasu",
+      "literal": [
+        [
+          "すみません",
+          "excuse me"
+        ],
+        [
+          "お会計",
+          "bill"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "word": "お腹が空いた",
+      "romanized": "onaka ga suita",
+      "grammarNote": "Hunger is expressed as a physical state: **お腹が空いた** (onaka ga suita) — 'my stomach has become empty'.\nThirst: **喉が渇いた** (nodo ga kawaita) — 'my throat became dry'.\nThese describe transitory states, not permanent traits.",
+      "englishPhrase": "I'm hungry. Are you thirsty?",
+      "phrase": "お腹が空きました。喉が渇いていますか？",
+      "phraseRomanized": "onaka ga sukimashita. nodo ga kawaite imasu ka",
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "空きました",
+          "empty-became"
+        ],
+        [
+          "喉",
+          "throat"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "渇いて",
+          "dried"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "thirsty",
+      "english": "thirsty",
+      "word": "喉が渇いた",
+      "romanized": "nodo ga kawaita",
+      "grammarNote": "**喉が渇いた** (nodo ga kawaita): literally 'my throat dried out'. **喉** (nodo, throat) + **が** (subject) + **渇く** (kawaku, to dry out/parch).\n**渇きました** = became thirsty (polite past): the state of dryness has arrived. Compare the hunger pattern: **お腹が空く** ('stomach empties' = to get hungry).",
+      "englishPhrase": "I'm thirsty.",
+      "phrase": "喉が渇きました。",
+      "phraseRomanized": "nodo ga kawakimashita",
+      "literal": [
+        [
+          "喉",
+          "throat"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "渇きました",
+          "dried"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "eat",
+      "english": "eat",
+      "word": "食べる",
+      "romanized": "taberu",
+      "grammarNote": "**食べる** (taberu) = to eat; a Group 2 (ichidan/る-verb). Stem: **食べ**. Conjugations: **食べます** (polite), **食べた** (plain past), **食べて** (te-form), **食べない** (negative).\n**食べましょう** = let's eat! The polite volitional form of **食べる**. Cultural cue: say **いただきます** before eating and **ごちそうさまでした** after.",
+      "englishPhrase": "Let's eat!",
+      "phrase": "食べましょう！",
+      "phraseRomanized": "tabemashō"
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "飲む",
+      "romanized": "nomu",
+      "grammarNote": "**飲む** (nomu) = to drink; also used for swallowing medicine. Stem: **飲み**.\n**飲み物** (nomimono) = drink/beverage: **飲み** (drink-stem) + **物** (mono, thing) — 'drinking-thing'. Similarly: **食べ物** (tabemono, food) and **乗り物** (norimono, vehicle).\n**いかがですか** = how about? / would you like? — a polite offering expression.",
+      "englishPhrase": "Would you like something to drink?",
+      "phrase": "何か飲み物はいかがですか？",
+      "phraseRomanized": "nanika nomimono wa ikaga desu ka",
+      "literal": [
+        [
+          "何か",
+          "something"
+        ],
+        [
+          "飲み物",
+          "drink"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いかが",
+          "how"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "word": "料理する",
+      "romanized": "ryōri suru",
+      "grammarNote": "**料理する** (ryōri suru) = to cook: **料理** (ryōri, cooking/cuisine) + **する** makes it a verb.\n**〜が上手です** = is good at [something]: the skill takes **が**. **上手** (jōzu) is used to praise others' skill. Use **得意** (tokui) for your own strengths: **料理が得意です** (cooking is my strong suit).",
+      "englishPhrase": "She cooks very well.",
+      "phrase": "彼女はとても料理が上手です。",
+      "phraseRomanized": "kanojo wa totemo ryōri ga jōzu desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "料理",
+          "cooking"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "上手",
+          "skilled"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bake",
+      "english": "bake",
+      "word": "焼く",
+      "romanized": "yaku",
+      "grammarNote": "**焼く** (yaku) = to bake, grill, roast, or toast — a versatile cooking verb: **パンを焼く** (bake bread), **魚を焼く** (grill fish), **ケーキを焼く** (bake a cake).\n**日曜日に** = on Sunday: day names take **に** when specifying when an action occurs.",
+      "englishPhrase": "I bake bread on Sundays.",
+      "phrase": "日曜日にパンを焼きます。",
+      "phraseRomanized": "nichiyōbi ni pan wo yakimasu",
+      "literal": [
+        [
+          "日曜日",
+          "Sunday"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "焼きます",
+          "bake"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fry",
+      "english": "fry",
+      "word": "揚げる",
+      "romanized": "ageru",
+      "grammarNote": "**揚げる** (ageru) = to deep-fry. Note the phrase uses **炒める** (itameru, to stir-fry/sauté) rather than **揚げる** for onions — deep-frying whole onions would be unusual.\nDistinct cooking verbs: **揚げる** (deep-fry), **炒める** (stir-fry), **焼く** (grill/bake). **油で** = in/with oil: **で** marks the medium or instrument.",
+      "englishPhrase": "Fry the onions in oil.",
+      "phrase": "油でたまねぎを炒めてください。",
+      "phraseRomanized": "abura de tamanegi wo itamete kudasai",
+      "literal": [
+        [
+          "油",
+          "oil"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "たまねぎ",
+          "onion"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "炒めて",
+          "fry"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "roast",
+      "english": "roast",
+      "word": "ローストする",
+      "romanized": "rōsuto suru",
+      "grammarNote": "**ローストする** = to roast: **ロースト** (rōsuto, katakana loanword from English 'roast') + **する** makes it a verb.\n**を** marks the object being roasted. **1時間** = for one hour; time duration can stand alone without the **間** (kan) suffix in casual usage.",
+      "englishPhrase": "Roast the chicken for one hour.",
+      "phrase": "鶏肉を1時間ローストしてください。",
+      "phraseRomanized": "toriniku wo ichijikan rōsuto shite kudasai",
+      "literal": [
+        [
+          "鶏肉",
+          "chicken"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "1時間",
+          "one hour"
+        ],
+        [
+          "ローストして",
+          "roast"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chop",
+      "english": "chop",
+      "word": "刻む",
+      "romanized": "kizamu",
+      "grammarNote": "**刻む** (kizamu) = to mince/chop finely. Te-form: **刻んで** — the む changes to んで (a regular sound change for む-ending verbs).\nRelated cooking cut verbs: **切る** (kiru, cut), **薄く切る** (slice thinly), **みじん切りにする** (mince fine). **刻んでください** = please chop.",
+      "englishPhrase": "Chop the onions.",
+      "phrase": "たまねぎを刻んでください。",
+      "phraseRomanized": "tamanegi wo kizande kudasai",
+      "literal": [
+        [
+          "たまねぎ",
+          "onion"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "刻んで",
+          "chop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "word": "薄く切る",
+      "romanized": "usuku kiru",
+      "grammarNote": "**薄く切る** (usuku kiru) = to slice thinly: **薄い** (usui, thin) → adverbial form **薄く** + **切る** (kiru, to cut). Using the adverbial (**〜く**) form of an い-adjective modifies the verb: **薄く** (thinly), **速く** (quickly), **細かく** (finely).\n**切って** (te-form): **切る** → **切って** (the き→って sound change).",
+      "englishPhrase": "Slice the bread.",
+      "phrase": "パンを薄く切ってください。",
+      "phraseRomanized": "pan wo usuku kitte kudasai",
+      "literal": [
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "薄く",
+          "thinly"
+        ],
+        [
+          "切って",
+          "cut"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "mix",
+      "english": "mix",
+      "word": "混ぜる",
+      "romanized": "mazeru",
+      "grammarNote": "**混ぜる** (mazeru) = to mix/blend; a Group 2 (ichidan/る-verb). Te-form: **混ぜて**.\n**すべての** = all of: **すべて** (subete, all/everything) + **の** (possessive/modifier). Compare: **全部の** (zenbu no) = all of (more colloquial). **混ぜてください** = please mix.",
+      "englishPhrase": "Mix all the ingredients.",
+      "phrase": "すべての材料を混ぜてください。",
+      "phraseRomanized": "subete no zairyō wo mazete kudasai",
+      "literal": [
+        [
+          "すべて",
+          "all"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "材料",
+          "ingredients"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "混ぜて",
+          "mix"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stir",
+      "english": "stir",
+      "word": "かき混ぜる",
+      "romanized": "kakimazeru",
+      "grammarNote": "**かき混ぜる** (kakimazeru) = to stir/agitate vigorously: **かき** is an intensifying prefix (from **掻く**, kakku, to scratch/stir) + **混ぜる** (mazeru, to mix). This compound verb implies more vigorous motion than **混ぜる** alone.\n**かき混ぜてください** = please stir.",
+      "englishPhrase": "Stir the soup.",
+      "phrase": "スープをかき混ぜてください。",
+      "phraseRomanized": "sūpu wo kakimazete kudasai",
+      "literal": [
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "かき混ぜて",
+          "stir"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "whisk",
+      "english": "whisk",
+      "word": "泡立てる",
+      "romanized": "awadateru",
+      "grammarNote": "**泡立てる** (awadateru): **泡** (awa, bubbles/foam) + **立てる** (tateru, to stand up/raise) — 'to raise bubbles'. A vivid compound that captures the physical action of whisking.\n**泡立ててください** = please whisk: te-form **泡立てて** + **ください**.",
+      "englishPhrase": "Whisk the eggs.",
+      "phrase": "卵を泡立ててください。",
+      "phraseRomanized": "tamago wo awadatete kudasai",
+      "literal": [
+        [
+          "卵",
+          "eggs"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "泡立てて",
+          "whisk"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "pour",
+      "english": "pour",
+      "word": "注ぐ",
+      "romanized": "sosogu",
+      "grammarNote": "**注ぐ** (sosogu) = to pour/fill. Te-form: **注いで** — the ぐ changes to いで (regular sound change for ぐ-ending verbs).\n**グラスに水を注ぐ** = pour water into the glass: **に** marks the destination container, **を** marks the liquid being poured. The destination always takes **に**.",
+      "englishPhrase": "Pour the water into the glass.",
+      "phrase": "グラスに水を注いでください。",
+      "phraseRomanized": "gurasu ni mizu wo sosoide kudasai",
+      "literal": [
+        [
+          "グラス",
+          "glass"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "注いで",
+          "pour"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "serve",
+      "english": "serve",
+      "word": "出す",
+      "romanized": "dasu",
+      "grammarNote": "**出す** (dasu) = to bring out/serve/put out. A versatile verb: **料理を出す** (serve food), **宿題を出す** (submit homework), **手紙を出す** (send a letter).\n**が** on **ウェイター** here is emphatic/narrative subject marker — **が** highlights who did the action, contrasting with **は** which establishes the general topic.",
+      "englishPhrase": "The waiter served the food.",
+      "phrase": "ウェイターが料理を出しました。",
+      "phraseRomanized": "weitā ga ryōri wo dashimashita",
+      "literal": [
+        [
+          "ウェイター",
+          "waiter"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "料理",
+          "dish"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "出しました",
+          "served"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "word": "食べさせる",
+      "romanized": "tabesaseru",
+      "grammarNote": "**食べさせる** (tabesaseru) = to feed/make eat: causative form of **食べる**. The causative **〜させる** (for る-verbs) or **〜させる** (for う-verbs → **〜せる**) makes someone do something.\n**に食べさせる** = feed [to]: **赤ちゃんに** = to the baby (indirect object). **〜ています** = is in the process of feeding (ongoing action).",
+      "englishPhrase": "She feeds the baby.",
+      "phrase": "彼女は赤ちゃんに食べさせています。",
+      "phraseRomanized": "kanojo wa akachan ni tabesasete imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "赤ちゃん",
+          "baby"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "食べさせて",
+          "makes eat"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "dine",
+      "english": "dine",
+      "word": "食事する",
+      "romanized": "shokuji suru",
+      "grammarNote": "**食事する** (shokuji suru): the formal compound verb for 'to dine/have a meal', more elevated than just **食べる**.\n**素敵な** (suteki na) = wonderful/lovely: a **な**-adjective. **で** marks the location of the action: **レストランで** = at the restaurant.",
+      "englishPhrase": "We dined at a nice restaurant.",
+      "phrase": "素敵なレストランで食事しました。",
+      "phraseRomanized": "suteki na resutoran de shokuji shimashita",
+      "literal": [
+        [
+          "素敵な",
+          "wonderful"
+        ],
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "食事しました",
+          "dined"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chew",
+      "english": "chew",
+      "word": "噛む",
+      "romanized": "kamu",
+      "grammarNote": "**噛む** (kamu) = to chew/bite. Te-form: **噛んで** — む changes to んで (regular sound change for む-ending verbs).\n**ゆっくり** = slowly/carefully: an adverb that modifies the verb directly. **食べ物をゆっくり噛む** = chew food slowly. **ゆっくり** also means 'take your time/at a relaxed pace'.",
+      "englishPhrase": "Chew your food slowly.",
+      "phrase": "食べ物をゆっくり噛んでください。",
+      "phraseRomanized": "tabemono wo yukkuri kande kudasai",
+      "literal": [
+        [
+          "食べ物",
+          "food"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ゆっくり",
+          "slowly"
+        ],
+        [
+          "噛んで",
+          "chew"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "swallow",
+      "english": "swallow",
+      "word": "飲み込む",
+      "romanized": "nomikomu",
+      "grammarNote": "**飲み込む** (nomikomu) = to swallow: **飲む** (nomu, drink/swallow) + **込む** (komu, go inward/deepen) — a compound verb meaning 'swallow completely inward'.\n**水で薬を飲み込む** = swallow medicine with water: **で** marks the means (water as the instrument for swallowing).",
+      "englishPhrase": "Swallow the pill with water.",
+      "phrase": "水で薬を飲み込んでください。",
+      "phraseRomanized": "mizu de kusuri wo nomikonde kudasai",
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "薬",
+          "medicine"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "飲み込んで",
+          "swallow"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "season",
+      "english": "season",
+      "word": "味付けする",
+      "romanized": "ajiuke suru",
+      "grammarNote": "**味付けする** (ajiuke suru) = to season: **味** (aji, taste) + **付け** (tsuke, attaching/adding) + **する** — 'to add flavor'.\n**塩とこしょうで** = with salt and pepper: **と** links the two nouns (and/together-with), **で** marks the instrument or means used.",
+      "englishPhrase": "Season with salt and pepper.",
+      "phrase": "塩とこしょうで味付けしてください。",
+      "phraseRomanized": "shio to koshō de ajiuke shite kudasai",
+      "literal": [
+        [
+          "塩",
+          "salt"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "こしょう",
+          "pepper"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "味付けして",
+          "season"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "word": "新鮮な",
+      "romanized": "shinsen na",
+      "grammarNote": "**新鮮な** (shinsen na): **新** (shin, new) + **鮮** (sen, vivid/fresh) — a **な**-adjective.\nWhen used predicatively after **は**, the **な** is dropped: **パンは新鮮です** (not ~~新鮮なです~~). The **な** only appears when directly modifying a noun: **新鮮なパン** (fresh bread).",
+      "englishPhrase": "The bread is fresh.",
+      "phrase": "パンは新鮮です。",
+      "phraseRomanized": "pan wa shinsen desu",
+      "literal": [
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "新鮮",
+          "fresh"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "ripe",
+      "english": "ripe",
+      "word": "熟れた",
+      "romanized": "ureta",
+      "grammarNote": "**熟れた** (ureta) = ripe (adj); past-tense form of **熟れる** (ureru, to ripen).\n**熟れています** = is ripe (current state): **熟れる** in **て**-form + **います** — describes the resulting state of having ripened. The tomatoes ripened and are now in that ripe state. This is the 'resulting state' use of **〜ています**.",
+      "englishPhrase": "The tomatoes are ripe.",
+      "phrase": "トマトは熟れています。",
+      "phraseRomanized": "tomato wa urete imasu",
+      "literal": [
+        [
+          "トマト",
+          "tomatoes"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "熟れて",
+          "ripened"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "cooked",
+      "english": "cooked",
+      "word": "調理された",
+      "romanized": "chōri sareta",
+      "grammarNote": "**火が通っています** = is cooked through: **火** (hi, fire/heat) + **が** + **通る** (tōru, to pass through) → 'heat has passed through and is in that state'. A very natural Japanese way to ask if food is fully cooked — more idiomatic than any literal translation.",
+      "englishPhrase": "Is the chicken cooked?",
+      "phrase": "鶏肉に火が通っていますか？",
+      "phraseRomanized": "toriniku ni hi ga tōtte imasu ka",
+      "literal": [
+        [
+          "鶏肉",
+          "chicken"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "火",
+          "fire"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "通って",
+          "passed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "word": "熱い",
+      "romanized": "atsui",
+      "grammarNote": "**熱い** (atsui) = hot to the touch (food, liquid).\n**温かい** (atatakai) = warm (food or feelings).\n**暑い** (atsui, different kanji) = the weather is hot.",
+      "englishPhrase": "Be careful, the soup is hot.",
+      "phrase": "気をつけてください、スープは熱いです。",
+      "phraseRomanized": "ki wo tsukete kudasai, sūpu wa atsui desu",
+      "literal": [
+        [
+          "気をつけて",
+          "careful"
+        ],
+        [
+          "ください",
+          "please"
+        ],
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "熱い",
+          "hot"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "word": "冷たい",
+      "romanized": "tsumetai",
+      "grammarNote": "**冷たい** (tsumetai) = cold to the touch (food, drinks, surfaces).\n**〜くなりました** = became [adj]: い-adjective + **く** + **なる** (to become). **冷たくなりました** = has become cold. Contrast: **寒い** (samui, cold weather/air); **冷たい** is for physical touch or coldness in attitude.",
+      "englishPhrase": "My coffee is cold.",
+      "phrase": "コーヒーが冷たくなりました。",
+      "phraseRomanized": "kōhī ga tsumetaku narimashita",
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "冷たく",
+          "cold"
+        ],
+        [
+          "なりました",
+          "became"
+        ]
+      ]
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "word": "甘い",
+      "romanized": "amai",
+      "grammarNote": "**甘い** (amai) = sweet; an い-adjective.\nThe five basic taste adjectives: **甘い** (sweet), **辛い** (karai, spicy/salty), **酸っぱい** (suppai, sour), **苦い** (nigai, bitter), **塩辛い** (shiokarai, salty).\n**とても甘い** = very sweet: **とても** intensifies い-adjectives and な-adjectives.",
+      "englishPhrase": "This cake is very sweet.",
+      "phrase": "このケーキはとても甘いです。",
+      "phraseRomanized": "kono kēki wa totemo amai desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "ケーキ",
+          "cake"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "甘い",
+          "sweet"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sour",
+      "english": "sour",
+      "word": "酸っぱい",
+      "romanized": "suppai",
+      "grammarNote": "**酸っぱい** (suppai) = sour; an い-adjective with a geminate (double) consonant: the **っ** signals a brief stop before **ぱ**.\nThe kanji **酸** (san/su) = acid/sour — found in **酸味** (sanmi, sourness/acidity) and **酸素** (sanso, oxygen). **このレモンは** = **この** (this) + noun + **は** (topic).",
+      "englishPhrase": "This lemon is sour.",
+      "phrase": "このレモンは酸っぱいです。",
+      "phraseRomanized": "kono remon wa suppai desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "レモン",
+          "lemon"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "酸っぱい",
+          "sour"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "bitter",
+      "english": "bitter",
+      "word": "苦い",
+      "romanized": "nigai",
+      "grammarNote": "**苦い** (nigai) = bitter; an い-adjective. The kanji **苦** (ku/niga) also means 'suffering/hardship' — in **苦労** (kurō, hardship) and **苦手** (nigate, not good at something).\n**このコーヒーは苦いです** — **このコーヒー** + **は** (topic) + **苦い** + **です** (polite assertion).",
+      "englishPhrase": "This coffee is bitter.",
+      "phrase": "このコーヒーは苦いです。",
+      "phraseRomanized": "kono kōhī wa nigai desu",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "苦い",
+          "bitter"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "spicy",
+      "english": "spicy",
+      "word": "辛い",
+      "romanized": "karai",
+      "grammarNote": "**辛い** (karai) = spicy OR salty — context disambiguates. For specifically salty: **しょっぱい** (shoppai) is clearer in casual speech. **辛い** (tsurai, same kanji) also means 'painful/hard' — a completely different reading.\n**よく** before an adjective = 'often': **よく辛い** = often spicy.",
+      "englishPhrase": "Mexican food is often spicy.",
+      "phrase": "メキシコ料理はよく辛いです。",
+      "phraseRomanized": "mekishiko ryōri wa yoku karai desu",
+      "literal": [
+        [
+          "メキシコ料理",
+          "Mexican cuisine"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "よく",
+          "often"
+        ],
+        [
+          "辛い",
+          "spicy"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tender",
+      "english": "tender",
+      "word": "柔らかい",
+      "romanized": "yawarakai",
+      "grammarNote": "**柔らかい** (yawarakai) = soft/tender; an い-adjective with a long stem.\nContrast: **硬い** (katai, hard/tough). **柔らかくなる** = become tender (adjective + **く** + **なる**).\n**柔らかい肉** = tender meat — placed before a noun as a prenominal adjective modifier.",
+      "englishPhrase": "The meat is tender.",
+      "phrase": "肉は柔らかいです。",
+      "phraseRomanized": "niku wa yawarakai desu",
+      "literal": [
+        [
+          "肉",
+          "meat"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "柔らかい",
+          "tender"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "delicious",
+      "english": "delicious",
+      "word": "おいしい",
+      "romanized": "oishii",
+      "grammarNote": "**おいしい** (oishii) = delicious.\nBefore eating: **いただきます** — expresses gratitude and signals the start of a meal.\nAfter finishing: **ごちそうさまでした**.",
+      "englishPhrase": "This is delicious!",
+      "phrase": "これはおいしいです！",
+      "phraseRomanized": "kore wa oishii desu",
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "おいしい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tasty",
+      "english": "tasty",
+      "word": "美味しい",
+      "romanized": "oishii",
+      "grammarNote": "**美味しい** (oishii): **美** (bi, beauty) + **味** (mi, taste) + **しい** (adjective suffix). Same pronunciation as **おいしい** but written in kanji for more formal or literary contexts.\n**とても美味しいです** = is very delicious. The polite past: **美味しかったです** (was delicious).",
+      "englishPhrase": "The soup is very tasty.",
+      "phrase": "スープはとても美味しいです。",
+      "phraseRomanized": "sūpu wa totemo oishii desu",
+      "literal": [
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "美味しい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bland",
+      "english": "bland",
+      "word": "薄味の",
+      "romanized": "usaaji no",
+      "grammarNote": "**薄味** (usaaji/usumi) = light/thin flavor: **薄い** (usui, thin/faint) + **味** (aji/mi, taste).\n**ご飯は味が薄い** = 'as for the rice, the flavor is thin' — a double-topic structure: **ご飯は** (topic) + **味が** (subject of the description). This layered topic structure is natural and common in Japanese.",
+      "englishPhrase": "The rice is bland.",
+      "phrase": "ご飯は味が薄いです。",
+      "phraseRomanized": "gohan wa aji ga usui desu",
+      "literal": [
+        [
+          "ご飯",
+          "rice"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "味",
+          "flavor"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "薄い",
+          "thin"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "word": "健康的な",
+      "romanized": "kenkōteki na",
+      "grammarNote": "**体にいい** = good for the body: **体** (karada, body) + **に** (target/direction) + **いい** (good). The structure **〜にいい** = 'good for ~' is very natural in Japanese: **目にいい** (good for eyes), **健康にいい** (good for health).\nOpposite: **体に悪い** (karada ni warui) = bad for the body.",
+      "englishPhrase": "Fruit is healthy.",
+      "phrase": "果物は体にいいです。",
+      "phraseRomanized": "kudamono wa karada ni ii desu",
+      "literal": [
+        [
+          "果物",
+          "fruit"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "体",
+          "body"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "unhealthy",
+      "english": "unhealthy",
+      "word": "不健康な",
+      "romanized": "fukenkō na",
+      "grammarNote": "**不健康な** (fukenkō na): **不** (fu, un-/non-) + **健康** (kenkō, health). The prefix **不** negates nouns and な-adjectives: **不便** (fuben, inconvenient), **不満** (fuman, dissatisfied), **不安** (fuan, uneasy).\n**体に悪い** = bad for the body: **に悪い** is the standard pattern for things harmful to something.",
+      "englishPhrase": "Fast food is unhealthy.",
+      "phrase": "ファストフードは体に悪いです。",
+      "phraseRomanized": "fasuto fūdo wa karada ni warui desu",
+      "literal": [
+        [
+          "ファストフード",
+          "fast food"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "体",
+          "body"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "悪い",
+          "bad"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegetarian",
+      "english": "vegetarian",
+      "word": "ベジタリアン",
+      "romanized": "bejitarian",
+      "grammarNote": "**ベジタリアン** = katakana loanword from English 'vegetarian'. The more formal Japanese term: **菜食主義者** (saishoku shugisha).\n**私はベジタリアンです** = I am vegetarian: **は** marks the speaker as the topic, **です** is the copula. Dietary identity uses the simple **〜です** structure.",
+      "englishPhrase": "I am vegetarian.",
+      "phrase": "私はベジタリアンです。",
+      "phraseRomanized": "watashi wa bejitarian desu",
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ベジタリアン",
+          "vegetarian"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegan",
+      "english": "vegan",
+      "word": "ビーガン",
+      "romanized": "bīgan",
+      "grammarNote": "**ビーガン** = katakana loanword from English 'vegan'.\n**彼女はビーガンです** = she is vegan: **彼女** (kanojo) = she/girlfriend. **は** marks the topic. Using **は** with an identity statement (**〜です**) is the standard pattern for saying what category someone belongs to.",
+      "englishPhrase": "She is vegan.",
+      "phrase": "彼女はビーガンです。",
+      "phraseRomanized": "kanojo wa bīgan desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ビーガン",
+          "vegan"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "frozen",
+      "english": "frozen",
+      "word": "冷凍の",
+      "romanized": "reitō no",
+      "grammarNote": "**冷凍** (reitō): **冷** (rei, cold/chill) + **凍** (tō, freeze). **冷凍食品** = frozen food product.\n**取り出す** (toridasu) = take out: **取る** (toru, take) + **出す** (dasu, put out) — a compound verb. **取り出してください** = please take out.",
+      "englishPhrase": "Take the frozen food out.",
+      "phrase": "冷凍食品を取り出してください。",
+      "phraseRomanized": "reitō shokuhin wo toridashite kudasai",
+      "literal": [
+        [
+          "冷凍食品",
+          "frozen food"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "取り出して",
+          "take out"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "organic",
+      "english": "organic",
+      "word": "有機の",
+      "romanized": "yūki no",
+      "grammarNote": "**有機** (yūki): **有** (yū, have/exist) + **機** (ki, mechanism/nature) → organic. **有機野菜** = organic vegetables; **有機農業** = organic farming.\n**〜の方が好き** = prefer [something]: **の方が** marks the preferred option in a comparison. Literally 'the direction of [X] is liked more'.",
+      "englishPhrase": "I prefer organic vegetables.",
+      "phrase": "有機野菜の方が好きです。",
+      "phraseRomanized": "yūki yasai no hō ga suki desu",
+      "literal": [
+        [
+          "有機野菜",
+          "organic vegetable"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "方",
+          "side"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "homemade",
+      "english": "homemade",
+      "word": "手作りの",
+      "romanized": "tezukuri no",
+      "grammarNote": "**手作り** (tezukuri): **手** (te, hand) + **作り** (tsukuri, making) — 'handmade/homemade'. Used as a compound noun before other nouns: **手作りパン** (homemade bread), **手作り料理** (home-cooked food).\n**が大好きです** = really love: **大好き** (daisuki) is a stronger form of **好き**.",
+      "englishPhrase": "I love homemade bread.",
+      "phrase": "手作りパンが大好きです。",
+      "phraseRomanized": "tezukuri pan ga daisuki desu",
+      "literal": [
+        [
+          "手作り",
+          "handmade"
+        ],
+        [
+          "パン",
+          "bread"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "very-like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "daily",
+      "english": "daily",
+      "word": "毎日",
+      "romanized": "mainichi",
+      "grammarNote": "**毎日** (mainichi): **毎** (mai, every) + **日** (nichi, day). The **毎** prefix builds all frequency adverbs: **毎朝** (maiasa, every morning), **毎週** (maishū, every week), **毎月** (maitsuki, every month), **毎年** (maitoshi/mainnen, every year).\nRelative time words like **毎日** do NOT take **に** — they stand alone.",
+      "englishPhrase": "I eat fruit daily.",
+      "phrase": "毎日果物を食べます。",
+      "phraseRomanized": "mainichi kudamono wo tabemasu",
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "果物",
+          "fruit"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "almost",
+      "english": "almost",
+      "word": "もうすぐ",
+      "romanized": "mōsugu",
+      "grammarNote": "**もうすぐ** = soon/almost (literally 'already soon'): **もう** (already/anymore) + **すぐ** (immediately/soon).\n**できます** = will be ready/can be done: **できる** for the completion of preparation. **昼ご飯はもうすぐできます** = lunch will be ready soon. Compare: **もう** alone = 'already' (past) or 'anymore' (negative).",
+      "englishPhrase": "Lunch is almost ready.",
+      "phrase": "昼ご飯はもうすぐできます。",
+      "phraseRomanized": "hirugohan wa mōsugu dekimasu",
+      "literal": [
+        [
+          "昼ご飯",
+          "lunch"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "もうすぐ",
+          "soon"
+        ],
+        [
+          "できます",
+          "ready-becomes"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "too_too_much",
+      "english": "too (too much)",
+      "word": "すぎる",
+      "romanized": "sugiru",
+      "grammarNote": "**すぎる** (sugiru) = to do too much / to be too [adjective]: attaches to verb stem or adjective stem.\n**多すぎます** = there is too much: **多い** (ōi, many/much) → stem **多** + **すぎます**. More examples: **食べすぎ** (overeating), **飲みすぎ** (drinking too much), **高すぎる** (too expensive), **辛すぎる** (too spicy).",
+      "englishPhrase": "There is too much salt.",
+      "phrase": "塩が多すぎます。",
+      "phraseRomanized": "shio ga ōsugimasu",
+      "literal": [
+        [
+          "塩",
+          "salt"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "多すぎます",
+          "too much"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}

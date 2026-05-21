@@ -1,0 +1,91 @@
+{
+  "id": "numbers",
+  "name": "Numbers — Two Systems",
+  "language": "korean",
+  "cards": [
+    {
+      "id": "numbers_pure_1_5",
+      "front": "Count 1–5 in Pure Korean (고유어)",
+      "back": "하나, 둘, 셋, 넷, 다섯",
+      "romanized": "hana, dul, set, net, daseot",
+      "grammarNote": "Pure Korean numbers are used with age (살), hours (시), people (명), and general counters (개). These are the everyday counting numbers."
+    },
+    {
+      "id": "numbers_pure_6_10",
+      "front": "Count 6–10 in Pure Korean (고유어)",
+      "back": "여섯, 일곱, 여덟, 아홉, 열",
+      "romanized": "yeoseot, ilgop, yeodeol, ahop, yeol",
+      "grammarNote": "열 (10) is the base for teens in Pure Korean: 열하나 (11), 열둘 (12), etc. 스물 = 20, 서른 = 30."
+    },
+    {
+      "id": "numbers_sino_1_5",
+      "front": "Count 1–5 in Sino-Korean (한자어)",
+      "back": "일, 이, 삼, 사, 오",
+      "romanized": "il, i, sam, sa, o",
+      "grammarNote": "Sino-Korean numbers are used with minutes (분), dates, money (원), floors (층), phone numbers, and years."
+    },
+    {
+      "id": "numbers_sino_6_10",
+      "front": "Count 6–10 in Sino-Korean (한자어)",
+      "back": "육, 칠, 팔, 구, 십",
+      "romanized": "yuk, chil, pal, gu, sip",
+      "grammarNote": "십 (10) is the base for Sino-Korean tens: 십일 (11), 이십 (20), 삼십 (30), 백 (100), 천 (1,000)."
+    },
+    {
+      "id": "numbers_shortened_forms",
+      "front": "한, 두, 세, 네 — when do these forms appear?",
+      "back": "하나→한, 둘→두, 셋→세, 넷→네 before a counter noun",
+      "romanized": "hana→han, dul→du, set→se, net→ne",
+      "grammarNote": "Pure Korean 1–4 drop their final sound before a counter: 한 명 (one person), 두 개 (two items), 세 살 (three years old). Never say 하나 명 or 둘 개."
+    },
+    {
+      "id": "numbers_age",
+      "front": "How old are you? / I'm 25 years old.",
+      "back": "나이가 몇 살이에요? / 스물다섯 살이에요.",
+      "romanized": "Naiga myeot sarieyo? / Seumuldaseot sarieyo.",
+      "grammarNote": "Age uses Pure Korean numbers + 살 (sal). 스물 = 20, 다섯 = 5, so 스물다섯 = 25. Note: 한 살 (1 year old) uses the shortened form 한, not 하나."
+    },
+    {
+      "id": "numbers_time_hours",
+      "front": "What time is it? / It's 2 o'clock.",
+      "back": "몇 시예요? / 두 시예요.",
+      "romanized": "Myeot siyeyo? / Du siyeyo.",
+      "grammarNote": "Hours use Pure Korean numbers + 시 (si). 두 시 = 2 o'clock (two [pure] + hour). Note the shortened form: 두, not 둘."
+    },
+    {
+      "id": "numbers_minutes",
+      "front": "in 10 minutes",
+      "back": "10분 후에",
+      "romanized": "sipbun hue",
+      "grammarNote": "Minutes use Sino-Korean numbers + 분 (bun). 십 (10) + 분 = 십분 (10 minutes). 후에 = after/later. Contrast with hours which use Pure Korean."
+    },
+    {
+      "id": "numbers_floor",
+      "front": "It's the 3rd floor.",
+      "back": "3층이에요.",
+      "romanized": "Samcheungieyo.",
+      "grammarNote": "Floors use Sino-Korean numbers + 층 (cheung). 삼 (3) + 층 = 3층. Also applies to building numbers, apartment floors, etc."
+    },
+    {
+      "id": "numbers_telling_time",
+      "front": "How do you say 2:30?",
+      "back": "두 시 삼십 분",
+      "romanized": "du si samsip bun",
+      "grammarNote": "Telling time mixes both systems: hours in Pure Korean (두 시 = 2 o'clock), minutes in Sino-Korean (삼십 분 = 30 minutes). This mixed pattern is fixed — you cannot swap the systems."
+    },
+    {
+      "id": "numbers_money",
+      "front": "Which number system for prices in Korean won (원)?",
+      "back": "Sino-Korean (한자어)",
+      "romanized": "han-ja-eo",
+      "grammarNote": "Money uses Sino-Korean: 오천 원 (5,000 won), 만 원 (10,000 won). 천 = 1,000, 만 = 10,000. Large numbers are built on units of 만 (10,000), not 1,000 as in English."
+    },
+    {
+      "id": "numbers_people_counter",
+      "front": "three people",
+      "back": "세 명",
+      "romanized": "se myeong",
+      "grammarNote": "People use Pure Korean numbers + 명 (myeong). 세 is the shortened form of 셋 used before a counter. Formal/official contexts may use 분 (bun) as a polite counter for people."
+    }
+  ]
+}

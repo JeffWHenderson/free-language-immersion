@@ -1,0 +1,79 @@
+{
+  "id": "numbers",
+  "name": "Numbers 0–100",
+  "language": "french",
+  "cards": [
+    {
+      "id": "num_0",
+      "front": "0",
+      "back": "zéro",
+      "grammarNote": "zéro is invariable — it never changes form."
+    },
+    {
+      "id": "num_1",
+      "front": "1",
+      "back": "un / une",
+      "grammarNote": "un (masculine) / une (feminine). In compound numbers above 20, 'et un / et une' is used for x1: vingt et un, vingt et une."
+    },
+    {
+      "id": "num_10",
+      "front": "10",
+      "back": "dix",
+      "grammarNote": "The teens 11–16 are unique words (onze, douze, treize, quatorze, quinze, seize). Teens 17–19 are compounds: dix-sept, dix-huit, dix-neuf."
+    },
+    {
+      "id": "num_70",
+      "front": "70",
+      "back": "soixante-dix",
+      "grammarNote": "French has no single word for 70. It is soixante (60) + dix (10). Continue the pattern: 71 = soixante et onze, 72 = soixante-douze … 79 = soixante-dix-neuf."
+    },
+    {
+      "id": "num_80",
+      "front": "80",
+      "back": "quatre-vingts",
+      "grammarNote": "quatre-vingts = 4 × 20. The final s is dropped in compounds: quatre-vingt-un (81), quatre-vingt-dix (90). No 'et' is ever used in the 80s."
+    },
+    {
+      "id": "num_90",
+      "front": "90",
+      "back": "quatre-vingt-dix",
+      "grammarNote": "quatre-vingt-dix = 4×20 + 10. Continue: 91 = quatre-vingt-onze, 99 = quatre-vingt-dix-neuf. No 'et' in the 90s either."
+    },
+    {
+      "id": "num_100",
+      "front": "100",
+      "back": "cent",
+      "grammarNote": "cent takes an s when it stands alone as a round number (deux cents = 200) but loses it in compounds: deux cent cinq (205)."
+    },
+    {
+      "id": "age",
+      "front": "I am twenty-five years old.",
+      "back": "J'ai vingt-cinq ans.",
+      "grammarNote": "Age uses avoir (to have), not être (to be): j'ai … ans = I have … years. Never say *Je suis vingt-cinq ans*."
+    },
+    {
+      "id": "compound_et",
+      "front": "31",
+      "back": "trente et un",
+      "grammarNote": "'Et' is used only for x1 in the tens 21–71: vingt et un, trente et un, quarante et un, cinquante et un, soixante et un, soixante et onze. No other tens use 'et'."
+    },
+    {
+      "id": "compound_no_et",
+      "front": "22",
+      "back": "vingt-deux",
+      "grammarNote": "For x2 through x9, use a hyphen directly: vingt-deux, vingt-trois … vingt-neuf. No 'et', no space."
+    },
+    {
+      "id": "price",
+      "front": "That costs ninety-nine euros.",
+      "back": "Ça coûte quatre-vingt-dix-neuf euros.",
+      "grammarNote": "Euro is masculine: un euro, deux euros. The number comes before the currency: quatre-vingt-dix-neuf euros."
+    },
+    {
+      "id": "gender_number",
+      "front": "twenty-one books / twenty-one tables",
+      "back": "vingt et un livres / vingt et une tables",
+      "grammarNote": "The 'un/une' in compound numbers agrees with the noun: vingt et un livres (masc.) vs vingt et une tables (fem.). This applies to all x1 compounds."
+    }
+  ]
+}

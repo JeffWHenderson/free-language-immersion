@@ -1,0 +1,2035 @@
+{
+  "id": "moods_and_emotion",
+  "name": "Moods & Emotions",
+  "language": "japanese",
+  "stories": [
+    "sean",
+    "a_bad_day",
+    "friendship",
+    "good_news",
+    "nervous_about_something",
+    "homesick"
+  ],
+  "pictureLessons": [
+    "moods_and_emotion",
+    "moods_and_emotion_2"
+  ],
+  "grammarLessons": [
+    {
+      "id": "i_adjectives",
+      "name": "い Adjectives"
+    },
+    {
+      "id": "na_adjectives",
+      "name": "な Adjectives"
+    },
+    {
+      "id": "ka_questions",
+      "name": "Questions with か"
+    },
+    {
+      "id": "suki_kirai",
+      "name": "好き & 嫌い — Like & Dislike"
+    },
+    {
+      "id": "to_omoimasu",
+      "name": "〜と思います — I Think / I Feel"
+    },
+    {
+      "id": "sentence_particles",
+      "name": "ね / よ / よね — Sentence-Ending Particles"
+    },
+    {
+      "id": "sugiru",
+      "name": "〜すぎる — Too Much / Too..."
+    },
+    {
+      "id": "tara_ba",
+      "name": "〜たら / 〜ば — If / When"
+    }
+  ],
+  "cards": [
+    {
+      "id": "happy",
+      "english": "happy",
+      "word": "嬉しい",
+      "romanized": "ureshii",
+      "grammarNote": "**嬉しい** (ureshii) = a momentary feeling of joy (something made you happy).\n**幸せ** (shiawase) = a deeper, lasting sense of happiness or contentment.\nBoth are い-adjectives.",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "今日はとても嬉しいです。",
+      "phraseRomanized": "kyō wa totemo ureshii desu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "嬉しい",
+          "happy"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sad",
+      "english": "sad",
+      "word": "悲しい",
+      "romanized": "kanashii",
+      "grammarNote": "**悲しい** (kanashii) is an い-adjective meaning sad or sorrowful.\nTo express 'becoming sad', use **〜くなる**: **悲しくなる** (kanashiku naru).\nThe kanji **悲** combines **非** (non/not) + **心** (heart) — literally 'not-heart', i.e. heartbroken.",
+      "englishPhrase": "Why are you sad?",
+      "phrase": "なぜ悲しいのですか？",
+      "phraseRomanized": "naze kanashii no desu ka",
+      "literal": [
+        [
+          "なぜ",
+          "why"
+        ],
+        [
+          "悲しい",
+          "sad"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "love",
+      "english": "love",
+      "word": "愛",
+      "romanized": "ai",
+      "grammarNote": "**愛** (ai) = deep, profound love (noun). Used in formal, literary, or romantic contexts.\nMore everyday: **大好き** (daisuki, really like/love) or **愛している** (aishite iru, I love you — strong, literary).\n**家族への愛** (kazoku e no ai) = love toward one's family; **への** (e no) marks direction of feeling.",
+      "englishPhrase": "I feel a lot of love for my family.",
+      "phrase": "家族への愛をたくさん感じます。",
+      "phraseRomanized": "kazoku e no ai wo takusan kanjimasu",
+      "literal": [
+        [
+          "家族",
+          "family"
+        ],
+        [
+          "へ",
+          "[toward]"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "愛",
+          "love"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "感じます",
+          "feel"
+        ]
+      ]
+    },
+    {
+      "id": "anger",
+      "english": "anger",
+      "word": "怒り",
+      "romanized": "ikari",
+      "grammarNote": "**怒り** (ikari) = anger as a noun. The verb is **怒る** (okoru) = to get angry.\n**怒りを感じる** (ikari wo kanjiru) = to feel anger.\nThe colloquial idiom **腹が立つ** (hara ga tatsu, lit. 'stomach rises') also means 'to get angry', using **腹** (hara, belly) as a seat of emotion.",
+      "englishPhrase": "I felt anger when they lied to me.",
+      "phrase": "嘘をつかれたとき、怒りを感じました。",
+      "phraseRomanized": "uso wo tsukareta toki, ikari wo kanjimashita",
+      "literal": [
+        [
+          "嘘",
+          "lie"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "つかれた",
+          "was told"
+        ],
+        [
+          "とき",
+          "when"
+        ],
+        [
+          "怒り",
+          "anger"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じました",
+          "felt"
+        ]
+      ]
+    },
+    {
+      "id": "fear",
+      "english": "fear",
+      "word": "恐怖",
+      "romanized": "kyōfu",
+      "grammarNote": "**恐怖** (kyōfu) = fear/terror as a strong noun (more formal/literary).\n**怖い** (kowai) is the everyday い-adjective: **暗いのが怖い** (I'm scared of the dark).\n**〜のが怖い** nominalizes a verb/adj with **の** so it can be the subject of **怖い**: 'the thing of being dark is scary'.",
+      "englishPhrase": "I'm afraid of the dark.",
+      "phrase": "暗いのが怖いです。",
+      "phraseRomanized": "kurai no ga kowai desu",
+      "literal": [
+        [
+          "暗い",
+          "dark"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "怖い",
+          "scary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "hope",
+      "english": "hope",
+      "word": "希望",
+      "romanized": "kibō",
+      "grammarNote": "**希望** (kibō) = hope as a noun (formal, written).\nMore conversational: **望む** (nozomu) = to hope/wish, or **〜といいな** (to ii na) = 'I hope that...'.\n**希望がある** (kibō ga aru) = 'there is hope'; **希望を持つ** (kibō wo motsu) = 'to hold on to hope'.",
+      "englishPhrase": "I have hope for the future.",
+      "phrase": "将来への希望があります。",
+      "phraseRomanized": "shōrai e no kibō ga arimasu",
+      "literal": [
+        [
+          "将来",
+          "future"
+        ],
+        [
+          "へ",
+          "[toward]"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "希望",
+          "hope"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "word": "ストレス",
+      "romanized": "sutoresu",
+      "grammarNote": "**ストレス** (sutoresu) is a katakana loanword from English.\n**ストレスがある** = 'to have stress'; **ストレスを感じる** = 'to feel stress'.\nAlternatively, **ストレスがたまる** (sutoresu ga tamaru) = 'stress builds up', where **たまる** means to accumulate.",
+      "englishPhrase": "I have a lot of stress at work.",
+      "phrase": "仕事でストレスがたくさんあります。",
+      "phraseRomanized": "shigoto de sutoresu ga takusan arimasu",
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "word": "気分",
+      "romanized": "kibun",
+      "grammarNote": "**気分** (kibun) = mood or how you feel in the moment.\n**気分がいい** (kibun ga ii) = in a good mood; **気分が悪い** (kibun ga warui) = feeling bad/unwell.\n**気** (ki) relates to energy/spirit, and **分** (bun) relates to a share or portion — your current 'portion of spirit' is your mood.\nCompare **気持ち** (kimochi) which is more about a specific feeling or sensation.",
+      "englishPhrase": "I'm in a good mood today.",
+      "phrase": "今日は気分がいいです。",
+      "phraseRomanized": "kyō wa kibun ga ii desu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "気分",
+          "mood"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "word": "感情",
+      "romanized": "kanjō",
+      "grammarNote": "**感情** (kanjō) = emotion/feeling in a broad or abstract sense.\n**気持ち** (kimochi) = a more immediate, personal, bodily feeling: **気持ちがいい** (feels good), **気持ちが悪い** (feels bad/gross).\nThe phrase uses **気持ち** rather than **感情** because it refers to a specific, present sensation.\n**普通** (futsū) = normal/ordinary — a な-adjective used predicatively here.",
+      "englishPhrase": "That feeling is normal.",
+      "phrase": "その気持ちは普通です。",
+      "phraseRomanized": "sono kimochi wa futsū desu",
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "気持ち",
+          "feeling"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "普通",
+          "normal"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "emotion_excitement",
+      "english": "emotion",
+      "word": "感情",
+      "romanized": "kanjō",
+      "grammarNote": "**感動** (kandō) = being deeply moved / emotional excitement — used in the phrase here, not **感情**.\n**感動する** = to be deeply moved; **感動的な** (kandōteki na) = moving/touching.\nNote: the kanji **感** (kan) = to sense/feel, appearing in **感じる**, **感動**, **感謝** (gratitude), **感情** — all relate to feeling or sensing.",
+      "englishPhrase": "I couldn't hide my emotion.",
+      "phrase": "感動を隠せませんでした。",
+      "phraseRomanized": "kandō wo kakusemasen deshita",
+      "literal": [
+        [
+          "感動",
+          "emotion"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "隠せませんでした",
+          "could not hide"
+        ]
+      ]
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "word": "落ち着き",
+      "romanized": "ochitsuki",
+      "grammarNote": "**落ち着き** (ochitsuki) = calmness/composure as a noun.\nThe verb **落ち着く** (ochitsuku) = to calm down, settle, feel at ease.\n**落ち着きを保つ** (ochitsuki wo tamotsu) = to maintain composure.\n**〜ようにしてください** (yō ni shite kudasai) = 'please try to / make an effort to': a polite way to give instructions rather than a direct command.",
+      "englishPhrase": "Try to maintain your calm.",
+      "phrase": "落ち着きを保つようにしてください。",
+      "phraseRomanized": "ochitsuki wo tamotsu yō ni shite kudasai",
+      "literal": [
+        [
+          "落ち着き",
+          "calm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "保つ",
+          "maintain"
+        ],
+        [
+          "ように",
+          "so as to"
+        ],
+        [
+          "して",
+          "[and]"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "peace",
+      "english": "peace",
+      "word": "平和",
+      "romanized": "heiwa",
+      "grammarNote": "**平和** (heiwa) = peace (as in world peace or harmony between people).\n**平穏** (heion) = peace and quiet, calm tranquility — used in the example phrase.\n**静けさ** (shizukesa) = quietness (noun form of **静か**, the な-adjective for quiet).\n**〜が必要です** (ga hitsuyō desu) = '[subject] is necessary/needed'.",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "静けさと平穏が必要です。",
+      "phraseRomanized": "shizukesa to heion ga hitsuyō desu",
+      "literal": [
+        [
+          "静けさ",
+          "quiet"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "平穏",
+          "peace"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "worry",
+      "english": "worry",
+      "word": "心配",
+      "romanized": "shinpai",
+      "grammarNote": "**心配** (shinpai) = worry/concern. The kanji break down as **心** (kokoro, heart/mind) + **配** (hai, distribute) — 'distributing worry from the heart'.\n**心配する** = to worry (verb); **心配です** = to be worried (state).\n**〜ないでください** (naide kudasai) = 'please don't ~': **立ち止まらないでください** (please don't stop in your tracks).",
+      "englishPhrase": "Don't let worry stop you.",
+      "phrase": "心配で立ち止まらないでください。",
+      "phraseRomanized": "shinpai de tachidomaranaide kudasai",
+      "literal": [
+        [
+          "心配",
+          "worry"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "立ち止まらないで",
+          "don't stop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "surprise",
+      "english": "surprise",
+      "word": "驚き",
+      "romanized": "odoroki",
+      "grammarNote": "**驚き** (odoroki) = surprise as a noun. The verb is **驚く** (odoroku) = to be surprised.\n**なんと** (nanto) = 'how / what a ~!' — an exclamatory word expressing astonishment.\n**驚いた** is the plain past form of **驚く**, used here as an exclamation: 'How surprising!'",
+      "englishPhrase": "What a surprise!",
+      "phrase": "なんと驚いた！",
+      "phraseRomanized": "nanto odoroita",
+      "literal": [
+        [
+          "なんと",
+          "how"
+        ],
+        [
+          "驚いた",
+          "surprised"
+        ]
+      ]
+    },
+    {
+      "id": "passion",
+      "english": "passion",
+      "word": "情熱",
+      "romanized": "jōnetsu",
+      "grammarNote": "**情熱** (jōnetsu) = passion; lit. '**情**' (feeling/emotion) + '**熱**' (heat/fever) — 'emotional heat'.\n**情熱を持って** (jōnetsu wo motte) = 'with passion', using **持つ** (motsu, to hold/have) in its て-form to connect to the next verb.\n**〜ています** (te imasu) here describes an ongoing habitual action: 'she is (habitually) teaching'.",
+      "englishPhrase": "She teaches with passion.",
+      "phrase": "彼女は情熱を持って教えています。",
+      "phraseRomanized": "kanojo wa jōnetsu wo motte oshiete imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "情熱",
+          "passion"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "持って",
+          "holding"
+        ],
+        [
+          "教えて",
+          "teaching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "desire",
+      "english": "desire",
+      "word": "欲望",
+      "romanized": "yokubō",
+      "grammarNote": "**欲望** (yokubō) = desire/craving (often strong or material). Compare **願望** (ganbō) = wish/aspiration (used in the example phrase), and **望み** (nozomi) = hope/wish.\n**〜したい** (shitai) = 'want to do': **旅行したい** (want to travel).\n**〜というX** (to iu X) = 'X called / X that is ~': **旅行したいという強い願望** = 'a strong desire called wanting to travel'.",
+      "englishPhrase": "I have a strong desire to travel.",
+      "phrase": "旅行したいという強い願望があります。",
+      "phraseRomanized": "ryokō shitai to iu tsuyoi ganbō ga arimasu",
+      "literal": [
+        [
+          "旅行したい",
+          "want to travel"
+        ],
+        [
+          "という",
+          "called"
+        ],
+        [
+          "強い",
+          "strong"
+        ],
+        [
+          "願望",
+          "desire"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "hate",
+      "english": "hate",
+      "word": "憎しみ",
+      "romanized": "nikushimi",
+      "grammarNote": "**憎しみ** (nikushimi) = hatred as a noun. The verb is **憎む** (nikumu) = to hate/detest.\nFor everyday dislike, **嫌い** (kirai) is more common: **大嫌い** (daikirai) = hate, despise.\n**憎しみ** tends to be used for deeper, more bitter hatred — often in literary or emotional contexts.",
+      "englishPhrase": "Hate is a strong feeling.",
+      "phrase": "憎しみは強い感情です。",
+      "phraseRomanized": "nikushimi wa tsuyoi kanjō desu",
+      "literal": [
+        [
+          "憎しみ",
+          "hate"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "強い",
+          "strong"
+        ],
+        [
+          "感情",
+          "feeling"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "pleasure",
+      "english": "pleasure",
+      "word": "喜び",
+      "romanized": "yorokobi",
+      "grammarNote": "**喜び** (yorokobi) = joy/delight as a noun. The verb is **喜ぶ** (yorokobu) = to be pleased/rejoice.\nThe phrase uses **光栄** (kōei) = honor/privilege — a more formal/humble word for pleasure in greetings.\n**はじめまして** = 'nice to meet you (for the first time)', a fixed greeting used only at first meetings.\n**お会いできて** (oai dekite) = 'being able to meet (you)' — the **お** prefix adds politeness.",
+      "englishPhrase": "It's a pleasure to meet you.",
+      "phrase": "はじめまして、お会いできて光栄です。",
+      "phraseRomanized": "hajimemashite, oai dekite kōei desu",
+      "literal": [
+        [
+          "はじめまして",
+          "first-time meeting"
+        ],
+        [
+          "お会いできて",
+          "able to meet"
+        ],
+        [
+          "光栄",
+          "honored"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "pain",
+      "english": "pain",
+      "word": "痛み",
+      "romanized": "itami",
+      "grammarNote": "**痛み** (itami) = pain as a noun. The adjective is **痛い** (itai) = hurts/painful.\n**〜に痛みを感じる** (ni itami wo kanjiru) = 'to feel pain in ~': the location takes **に**.\nAlternatively: **足が痛い** (ashi ga itai) = 'my leg hurts', where the body part is the subject.\n**足** (ashi) can mean both foot and leg — context distinguishes them.",
+      "englishPhrase": "I feel pain in my leg.",
+      "phrase": "足に痛みを感じます。",
+      "phraseRomanized": "ashi ni itami wo kanjimasu",
+      "literal": [
+        [
+          "足",
+          "leg"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "痛み",
+          "pain"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じます",
+          "feel"
+        ]
+      ]
+    },
+    {
+      "id": "energy",
+      "english": "energy",
+      "word": "エネルギー",
+      "romanized": "enerugī",
+      "grammarNote": "**エネルギー** (enerugī) is the katakana/scientific word for energy.\nIn everyday speech, **元気** (genki) is used instead: **元気がある** (to have energy), **元気になる** (to become energetic).\n**元気** is a な-adjective: **元気な人** (an energetic person); as a predicate: **元気です** (I'm well/fine).",
+      "englishPhrase": "I have a lot of energy today.",
+      "phrase": "今日はとても元気です。",
+      "phraseRomanized": "kyō wa totemo genki desu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "元気",
+          "energetic"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "word": "安堵",
+      "romanized": "ando",
+      "grammarNote": "**安堵** (ando) = relief (formal/written). More casual: **ホッとする** (hotto suru) — the **ホッ** mimics the sound of a relieved sigh.\n**ホッとしました** = 'felt relieved' (past tense). This onomatopoeic expression is extremely common in spoken Japanese.\nAnother option: **安心した** (anshin shita) = felt at ease/reassured.",
+      "englishPhrase": "What a relief!",
+      "phrase": "ホッとしました！",
+      "phraseRomanized": "hotto shimashita",
+      "literal": [
+        [
+          "ホッとしました",
+          "became relieved"
+        ]
+      ]
+    },
+    {
+      "id": "comfort",
+      "english": "comfort",
+      "word": "慰め",
+      "romanized": "nagusame",
+      "grammarNote": "**慰め** (nagusame) = comfort/consolation as a noun. The verb is **慰める** (nagusameru) = to comfort/console.\n**〜になりました** (ni narimashita) = 'became ~': **慰めになりました** = 'became a comfort / turned into comfort'.\n**になる** (ni naru) expresses transformation: **医者になる** (become a doctor), **悲しくなる** (become sad).",
+      "englishPhrase": "Her words were a comfort.",
+      "phrase": "彼女の言葉は慰めになりました。",
+      "phraseRomanized": "kanojo no kotoba wa nagusame ni narimashita",
+      "literal": [
+        [
+          "彼女",
+          "her"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "言葉",
+          "words"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "慰め",
+          "comfort"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "なりました",
+          "became"
+        ]
+      ]
+    },
+    {
+      "id": "feel_to_feel",
+      "english": "feel (to feel)",
+      "word": "感じる",
+      "romanized": "kanjiru",
+      "grammarNote": "**感じる** (kanjiru) = to physically or emotionally sense something: **痛みを感じる** (feel pain).\n**気がする** = to have a feeling or hunch.\nFor describing an emotional state: **X な気分** or simply **X です**.",
+      "englishPhrase": "I feel good today.",
+      "phrase": "今日は気分がいいです。",
+      "phraseRomanized": "kyō wa kibun ga ii desu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "気分",
+          "mood"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "love_to_love",
+      "english": "love (to love)",
+      "word": "愛する",
+      "romanized": "aisuru",
+      "grammarNote": "**愛する** (aisuru) = to love (formal, literary). In daily speech, **大好き** (daisuki) is more natural.\n**あなたのことが大好きです** = 'I really love you'. **〜のこと** (no koto) after a person refers to everything about them — not just facts but feelings toward them.\n**大好き** (daisuki) is a な-adjective: lit. 'big-like'. The prefix **大** (dai/ō) intensifies: **大嫌い** (hate), **大変** (terrible/hard).",
+      "englishPhrase": "I love you very much.",
+      "phrase": "あなたのことが大好きです。",
+      "phraseRomanized": "anata no koto ga daisuki desu",
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "very-like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "hate_to_hate",
+      "english": "hate (to hate)",
+      "word": "嫌う",
+      "romanized": "kirau",
+      "grammarNote": "**嫌う** (kirau) = to dislike/hate (verb). The adjective form **嫌い** (kirai) is more commonly used.\n**大嫌い** (daikirai) = strongly hate: lit. 'big-dislike'.\n**〜のが大嫌い** nominalizes the verb with **の** so it can function as the subject: **待つのが大嫌い** = 'the thing of waiting is greatly hated by me'.\n**好き/嫌い** are な-adjectives despite not ending in な in their plain form.",
+      "englishPhrase": "I hate waiting.",
+      "phrase": "待つのが大嫌いです。",
+      "phraseRomanized": "matsu no ga daikirai desu",
+      "literal": [
+        [
+          "待つ",
+          "waiting"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大嫌い",
+          "very-hate"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "like_to_like",
+      "english": "like (to like)",
+      "word": "好きな",
+      "romanized": "suki na",
+      "grammarNote": "**好き** (suki) = liked/likeable — a な-adjective, not a verb. So you say **音楽が好きです** (lit. 'music is liked'), not **音楽を好きです**.\nThe thing you like takes **が** (subject marker), not **を** (object marker) — a common point of confusion.\n**好きな音楽** (suki na ongaku) = music that I like (attributive na-adj form).",
+      "englishPhrase": "I like music.",
+      "phrase": "音楽が好きです。",
+      "phraseRomanized": "ongaku ga suki desu",
+      "literal": [
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "enjoy",
+      "english": "enjoy",
+      "word": "楽しむ",
+      "romanized": "tanoshimu",
+      "grammarNote": "**楽しむ** (tanoshimu) = to enjoy (verb). Related forms: **楽しい** (tanoshii, fun/enjoyable — い-adj), **楽しみ** (tanoshimi, anticipation/enjoyment — noun).\n**楽しんでいます** = currently enjoying (progressive): **週末を楽しんでいる** (enjoying the weekend).\n**楽しみにしている** = looking forward to something: **旅行を楽しみにしています** (I'm looking forward to the trip).",
+      "englishPhrase": "I enjoy the weekend.",
+      "phrase": "週末を楽しんでいます。",
+      "phraseRomanized": "shūmatsu wo tanoshinde imasu",
+      "literal": [
+        [
+          "週末",
+          "weekend"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "楽しんで",
+          "enjoying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "fear_dread_to_fear",
+      "english": "fear",
+      "word": "恐れる",
+      "romanized": "osoreru",
+      "grammarNote": "**恐れる** (osoreru) = to fear/dread (verb, somewhat formal).\n**怖がる** (kowagaru) = to show fear, be scared (more observable behavior).\n**〜を恐れている** (wo osorete iru) = 'is fearing ~' (ongoing state).\n**最悪の事態** (saiaku no jitai) = 'the worst-case scenario': **最悪** (worst) + **の** + **事態** (situation/state of affairs).",
+      "englishPhrase": "I fear the worst.",
+      "phrase": "最悪の事態を恐れています。",
+      "phraseRomanized": "saiaku no jitai wo osorete imasu",
+      "literal": [
+        [
+          "最悪",
+          "worst"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "事態",
+          "situation"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "恐れて",
+          "fearing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "hope_to_hope",
+      "english": "hope (to hope)",
+      "word": "望む",
+      "romanized": "nozomu",
+      "grammarNote": "**望む** (nozomu) = to hope/wish/desire (verb, somewhat formal).\nMore conversational patterns for hoping: **〜といいな** (to ii na) = 'I hope ~' (casual), **〜といいですね** (to ii desu ne) = 'I hope ~ (for you)'.\n**〜こと** nominalizes a clause: **うまくいくこと** = 'the thing of going well', which then becomes the object of **望む**.",
+      "englishPhrase": "I hope everything goes well.",
+      "phrase": "すべてうまくいくことを望んでいます。",
+      "phraseRomanized": "subete umaku iku koto wo nozonde imasu",
+      "literal": [
+        [
+          "すべて",
+          "everything"
+        ],
+        [
+          "うまく",
+          "well"
+        ],
+        [
+          "いく",
+          "go"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "望んで",
+          "hoping"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "worry_to_worry",
+      "english": "worry (to worry)",
+      "word": "心配する",
+      "romanized": "shinpai suru",
+      "grammarNote": "**心配する** (shinpai suru) = to worry (verb). **心配** is a noun + **する** to make it a verb.\n**〜しないでください** (shinaide kudasai) = 'please don't ~': **心配しないでください** = please don't worry.\n**〜について** (ni tsuite) = 'about/concerning ~': **それについて** = about that.\nThe kanji **心** (kokoro/shin) = heart/mind appears in many emotion words: **心配**, **安心**, **心臓**.",
+      "englishPhrase": "Don't worry about it.",
+      "phrase": "それについて心配しないでください。",
+      "phraseRomanized": "sore ni tsuite shinpai shinaide kudasai",
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "について",
+          "about"
+        ],
+        [
+          "心配",
+          "worry"
+        ],
+        [
+          "しないで",
+          "not doing"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "calm_soothe_to_calm",
+      "english": "calm",
+      "word": "落ち着かせる",
+      "romanized": "ochitsukaseru",
+      "grammarNote": "**落ち着かせる** (ochitsukaseru) = to calm someone down (causative form).\n**落ち着く** (ochitsuku) = to calm down (intransitive, oneself).\n**落ち着いてください** uses the て-form of **落ち着く** + **ください** = 'please calm down'.\nThe causative **〜させる** makes the action happen to someone else: **落ち着かせる** = 'to make (someone) calm down'.",
+      "englishPhrase": "Calm down, please.",
+      "phrase": "落ち着いてください。",
+      "phraseRomanized": "ochitsuite kudasai",
+      "literal": [
+        [
+          "落ち着いて",
+          "calm down"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "comfort_to_comfort",
+      "english": "comfort (to comfort)",
+      "word": "慰める",
+      "romanized": "nagusameru",
+      "grammarNote": "**慰める** (nagusameru) = to comfort/console (verb, transitive).\n**〜を慰める** = to comfort someone: **友人を慰める** (comfort a friend).\n**友人** (yūjin) = friend (more formal). **友達** (tomodachi) = friend (casual everyday).\nThe past polite form **慰めました** (nagusamemashita) = comforted.",
+      "englishPhrase": "She comforted her friend.",
+      "phrase": "彼女は友人を慰めました。",
+      "phraseRomanized": "kanojo wa yūjin wo nagusamemashita",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "友人",
+          "friend"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "慰めました",
+          "comforted"
+        ]
+      ]
+    },
+    {
+      "id": "excite_thrill",
+      "english": "excite",
+      "word": "興奮させる",
+      "romanized": "kōfun saseru",
+      "grammarNote": "**興奮させる** (kōfun saseru) = to excite/thrill someone (causative).\nMore naturally, Japanese uses **ワクワクする** (wakuwaku suru) = to feel excited/thrilled — an onomatopoeic expression.\n**旅行がワクワクします** = 'the trip excites me' (lit. 'the trip causes a wakuwaku feeling').\n**ワクワク** mimics the heart fluttering with excited anticipation.",
+      "englishPhrase": "The trip excites me.",
+      "phrase": "旅行がワクワクします。",
+      "phraseRomanized": "ryokō ga wakuwaku shimasu",
+      "literal": [
+        [
+          "旅行",
+          "trip"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ワクワクします",
+          "is exciting"
+        ]
+      ]
+    },
+    {
+      "id": "annoy",
+      "english": "annoy",
+      "word": "イライラさせる",
+      "romanized": "iraira saseru",
+      "grammarNote": "**イライラ** (iraira) = irritation/annoyance — an onomatopoeic word.\n**イライラする** = to feel irritated; **イライラさせる** = to irritate someone.\n**〜にイライラする** = to be irritated by ~: **その音にイライラする** (be irritated by that sound).\nOnomatopoeic emotional words are very common in Japanese: **ワクワク** (excited), **ドキドキ** (nervous/heart racing), **モヤモヤ** (vague unease).",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "その音にイライラします。",
+      "phraseRomanized": "sono oto ni iraira shimasu",
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "音",
+          "sound"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "イライラします",
+          "am irritated"
+        ]
+      ]
+    },
+    {
+      "id": "embarrassment",
+      "english": "embarrassment",
+      "word": "恥ずかしさ",
+      "romanized": "hazukashisa",
+      "grammarNote": "**恥ずかしさ** (hazukashisa) = embarrassment as a noun, formed by adding **〜さ** to the い-adjective stem **恥ずかしい**.\n**〜さ** turns adjectives into nouns of degree: **嬉しさ** (happiness), **悲しさ** (sadness), **怖さ** (scariness).\n**恥ずかしい** (hazukashii) = embarrassed/shy — an い-adjective. **恥** (haji) = shame/disgrace (noun).",
+      "englishPhrase": "I feel embarrassment.",
+      "phrase": "恥ずかしさを感じます。",
+      "phraseRomanized": "hazukashisa wo kanjimasu",
+      "literal": [
+        [
+          "恥ずかしさ",
+          "embarrassment"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じます",
+          "feel"
+        ]
+      ]
+    },
+    {
+      "id": "jealousy",
+      "english": "jealousy",
+      "word": "嫉妬",
+      "romanized": "shitto",
+      "grammarNote": "**嫉妬** (shitto) = jealousy/envy (noun, somewhat formal).\n**嫉妬する** = to be jealous; **嫉妬深い** (shittobuka) = jealous/envious (adjective).\nIn casual speech: **やきもちを焼く** (yakimochi wo yaku) = to be jealous — lit. 'to grill sticky rice', a colorful idiom.\n**難しい感情** (muzukashii kanjō) = 'a difficult emotion' — **難しい** (muzukashii) is an い-adjective.",
+      "englishPhrase": "Jealousy is a difficult feeling.",
+      "phrase": "嫉妬は難しい感情です。",
+      "phraseRomanized": "shitto wa muzukashii kanjō desu",
+      "literal": [
+        [
+          "嫉妬",
+          "jealousy"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "難しい",
+          "difficult"
+        ],
+        [
+          "感情",
+          "emotion"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "irritate",
+      "english": "irritate",
+      "word": "苛立たせる",
+      "romanized": "iradataseru",
+      "grammarNote": "**苛立たせる** (iradataseru) = to irritate/provoke someone (causative).\n**苛立つ** (iradatsu) = to become irritated (intransitive).\n**苛立たしい** (iradatashii) = irritating/exasperating — an い-adjective used in the example phrase.\n**〜ことが苛立たしい** = 'the act of ~ is irritating': **待つことが苛立たしい** = waiting is irritating.",
+      "englishPhrase": "Waiting irritates me.",
+      "phrase": "待つことが苛立たしいです。",
+      "phraseRomanized": "matsu koto ga iradatashii desu",
+      "literal": [
+        [
+          "待つ",
+          "waiting"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "苛立たしい",
+          "irritating"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "anger_to_anger",
+      "english": "anger (to anger)",
+      "word": "怒らせる",
+      "romanized": "okoraseru",
+      "grammarNote": "**怒らせる** (okoraseru) = to make someone angry (causative of **怒る**, okoru).\nThe phrase uses the idiom **腹が立つ** (hara ga tatsu) = to get angry; lit. 'belly rises'.\n**腹** (hara) = belly/stomach — used in many emotion idioms: **腹を立てる** (to get angry), **腹が立つ** (stomach rises = anger wells up).\nNote the body part as the subject of the emotional state — the body reacts to the emotion.",
+      "englishPhrase": "That comment angered me.",
+      "phrase": "そのコメントに腹が立ちました。",
+      "phraseRomanized": "sono komento ni hara ga tachimashita",
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "コメント",
+          "comment"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "腹",
+          "belly"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "立ちました",
+          "rose"
+        ]
+      ]
+    },
+    {
+      "id": "delight",
+      "english": "delight",
+      "word": "喜ばせる",
+      "romanized": "yorokobaseru",
+      "grammarNote": "**喜ばせる** (yorokobaseru) = to delight/please someone (causative of **喜ぶ**, yorokobu).\n**喜ぶ** = to be pleased/rejoice; **喜ばせる** = to make someone pleased.\n**音楽はみんなを喜ばせました** = 'the music made everyone happy'.\n**みんな** (min'na) = everyone/everybody — informal; formal: **全員** (zen'in).",
+      "englishPhrase": "The music delighted everyone.",
+      "phrase": "音楽はみんなを喜ばせました。",
+      "phraseRomanized": "ongaku wa min'na wo yorokobasemashita",
+      "literal": [
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "みんな",
+          "everyone"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "喜ばせました",
+          "made glad"
+        ]
+      ]
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "word": "微笑む",
+      "romanized": "hohoemu",
+      "grammarNote": "**微笑む** (hohoemu) = to smile gently (verb). More common in speech: **笑う** (warau) = to laugh or smile broadly.\n**微笑** (bishō) = a faint, gentle smile — the kanji **微** means subtle/faint.\n**〜ています** here describes habitual or ongoing behavior: **いつも微笑んでいます** = 'is always smiling'.\n**いつも** (itsumo) = always/usually.",
+      "englishPhrase": "She always smiles.",
+      "phrase": "彼女はいつも微笑んでいます。",
+      "phraseRomanized": "kanojo wa itsumo hohoende imasu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "微笑んで",
+          "smiling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "laugh",
+      "english": "laugh",
+      "word": "笑う",
+      "romanized": "warau",
+      "grammarNote": "**笑う** (warau) = to laugh or smile (verb). Context determines which sense is meant.\n**大笑いする** (ōwarai suru) = to laugh loudly/heartily.\n**〜たくさん笑う** = to laugh a lot: **たくさん** (takusan) = a lot/many, placed before the verb as an adverb.\nThe past polite form: **笑いました** (waraimashita). Note the verb stem **笑い** (warai) = laugh/laughter (noun).",
+      "englishPhrase": "We laughed a lot.",
+      "phrase": "私たちはたくさん笑いました。",
+      "phraseRomanized": "watashitachi wa takusan waraimashita",
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "笑いました",
+          "laughed"
+        ]
+      ]
+    },
+    {
+      "id": "cry_weep_mourn",
+      "english": "cry",
+      "word": "泣く",
+      "romanized": "naku",
+      "grammarNote": "**泣く** (naku) = to cry/weep (verb).\n**〜ています** (te imasu) describes an action in progress: **泣いています** = is (currently) crying.\n**泣き顔** (nakigao) = tear-stained face; **泣き虫** (nakimushi) = crybaby (lit. 'crying bug').\n**赤ちゃん** (akachan) = baby — the prefix **赤** (red) refers to the redness of a newborn's skin.",
+      "englishPhrase": "The baby is crying.",
+      "phrase": "赤ちゃんが泣いています。",
+      "phraseRomanized": "akachan ga naite imasu",
+      "literal": [
+        [
+          "赤ちゃん",
+          "baby"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "泣いて",
+          "crying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "sigh",
+      "english": "sigh",
+      "word": "ため息をつく",
+      "romanized": "tameiki wo tsuku",
+      "grammarNote": "**ため息をつく** (tameiki wo tsuku) = to sigh; lit. 'to let out a sigh'. The verb **つく** here means to emit or let out.\n**ため息** (tameiki) = sigh (noun): **ため** = pool/accumulation + **息** (iki) = breath.\n**安堵して** (ando shite) = 'being relieved and then ~': the て-form connects the relief to the action of sighing.",
+      "englishPhrase": "She sighed with relief.",
+      "phrase": "彼女は安堵してため息をつきました。",
+      "phraseRomanized": "kanojo wa ando shite tameiki wo tsukimashita",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "安堵して",
+          "being relieved"
+        ],
+        [
+          "ため息",
+          "sigh"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "つきました",
+          "let out"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "frown",
+      "english": "frown",
+      "word": "眉をひそめる",
+      "romanized": "mayu wo hisomeru",
+      "grammarNote": "**眉をひそめる** (mayu wo hisomeru) = to frown; lit. 'to knit the eyebrows'.\n**眉** (mayu) = eyebrow(s). **ひそめる** = to lower or furrow.\n**〜を聞いて** (wo kiite) = 'upon hearing ~': the て-form expresses a causal sequence — he heard the news and then frowned.\n**そのニュースを聞いて** = upon hearing that news.",
+      "englishPhrase": "He frowned when he heard the news.",
+      "phrase": "彼はそのニュースを聞いて眉をひそめました。",
+      "phraseRomanized": "kare wa sono nyūsu wo kiite mayu wo hisomemashita",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "その",
+          "that"
+        ],
+        [
+          "ニュース",
+          "news"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "聞いて",
+          "hearing"
+        ],
+        [
+          "眉",
+          "eyebrows"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ひそめました",
+          "furrowed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "scream_shout",
+      "english": "scream",
+      "word": "叫ぶ",
+      "romanized": "sakebu",
+      "grammarNote": "**叫ぶ** (sakebu) = to scream/shout/yell (verb).\n**叫ばないでください** = 'please don't shout': **〜ないでください** (naide kudasai) = polite prohibition.\nRelated: **大声で** (ōgoe de) = in a loud voice; **声を上げる** (koe wo ageru) = to raise one's voice.",
+      "englishPhrase": "Don't shout, please.",
+      "phrase": "叫ばないでください。",
+      "phraseRomanized": "sakabanaide kudasai",
+      "literal": [
+        [
+          "叫ばないで",
+          "don't shout"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "relax",
+      "english": "relax",
+      "word": "リラックスする",
+      "romanized": "rirakkusu suru",
+      "grammarNote": "**リラックスする** (rirakkusu suru) = to relax (katakana loanword + **する**).\nNative equivalents: **くつろぐ** (kutsurogu) = to relax/unwind at home; **のんびりする** (nonbiri suru) = to take it easy.\n**急がなくていい** (isoganakute ii) = 'you don't have to hurry': **〜なくていい** (nakute ii) = 'it's fine not to ~', a common pattern for relieving pressure.",
+      "englishPhrase": "Relax, there's no rush.",
+      "phrase": "リラックスして、急がなくていいです。",
+      "phraseRomanized": "rirakkusu shite, isoganakute ii desu",
+      "literal": [
+        [
+          "リラックスして",
+          "relax and"
+        ],
+        [
+          "急がなくて",
+          "not hurrying"
+        ],
+        [
+          "いい",
+          "fine"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "angry",
+      "english": "angry",
+      "word": "怒っている",
+      "romanized": "okotte iru",
+      "grammarNote": "**怒っている** (okotte iru) = to be in a state of anger (ongoing result of getting angry).\n**怒る** (okoru) = to get/become angry. The **〜ている** form here describes a current emotional state, not a continuous action.\n**〜に怒る** = to be angry at/with ~: **あなたに怒っています** = I am angry with you.",
+      "englishPhrase": "I'm angry with you.",
+      "phrase": "あなたに怒っています。",
+      "phraseRomanized": "anata ni okotte imasu",
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "怒って",
+          "angry"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "mad",
+      "english": "mad",
+      "word": "激怒した",
+      "romanized": "gekido shita",
+      "grammarNote": "**激怒** (gekido) = fury/rage (stronger than **怒り**). **激** = violent/intense; **怒** = anger.\nThe phrase uses **怒っているのですか** — the **〜のですか** (no desu ka) form adds an explanatory nuance: 'Is it that you're angry?' or 'What's the reason for your anger?'\n**そんなに** (son'na ni) = 'that much / so ~': **そんなに怒っている** = 'that angry'.",
+      "englishPhrase": "Why are you so mad?",
+      "phrase": "なぜそんなに怒っているのですか？",
+      "phraseRomanized": "naze son'na ni okotte iru no desu ka",
+      "literal": [
+        [
+          "なぜ",
+          "why"
+        ],
+        [
+          "そんなに",
+          "so much"
+        ],
+        [
+          "怒って",
+          "angry"
+        ],
+        [
+          "いる",
+          "is/exists"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "afraid_scared",
+      "english": "afraid",
+      "word": "怖い",
+      "romanized": "kowai",
+      "grammarNote": "**怖い** (kowai) = scary/afraid — an い-adjective.\n**怖がる** (kowagaru) = to show fear, to act scared — used in the example phrase.\n**〜がっている** (gatte iru) = describes outward signs of a feeling a third person shows: **怖がっている** = appears scared/is showing fear. (You cannot use **怖い** directly for how someone else feels — only for yourself or general statements.)",
+      "englishPhrase": "The child was scared.",
+      "phrase": "子どもは怖がっていました。",
+      "phraseRomanized": "kodomo wa kowagatte imashita",
+      "literal": [
+        [
+          "子ども",
+          "child"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "怖がって",
+          "scared"
+        ],
+        [
+          "いました",
+          "was"
+        ]
+      ]
+    },
+    {
+      "id": "anxious",
+      "english": "anxious",
+      "word": "不安な",
+      "romanized": "fuan na",
+      "grammarNote": "**不安** (fuan) = anxiety/unease — a な-adjective: **不安な気持ち** (anxious feeling).\nThe prefix **不** (fu) negates the noun: **安** (an) = peace/safety → **不安** (insecurity/anxiety).\n**試験が不安です** = 'The exam is a source of anxiety / I'm anxious about the exam'. The cause of anxiety takes **が**.",
+      "englishPhrase": "I'm anxious about the exam.",
+      "phrase": "試験が不安です。",
+      "phraseRomanized": "shiken ga fuan desu",
+      "literal": [
+        [
+          "試験",
+          "exam"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "不安",
+          "anxious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "nervous",
+      "english": "nervous",
+      "word": "緊張した",
+      "romanized": "kinchō shita",
+      "grammarNote": "**緊張** (kinchō) = tension/nervousness (noun). **緊張する** = to be/feel nervous.\n**緊張している** (kinchō shite iru) = to be in a state of nervousness (ongoing).\n**緊張した** (kinchō shita) = past tense / describing a tense/stiff state.\nUsed in many contexts: nervous before a performance, stiff in a formal meeting, tense in a difficult situation.",
+      "englishPhrase": "I'm nervous today.",
+      "phrase": "今日は緊張しています。",
+      "phraseRomanized": "kyō wa kinchō shite imasu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "緊張して",
+          "nervous"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "excited",
+      "english": "excited",
+      "word": "興奮した",
+      "romanized": "kōfun shita",
+      "grammarNote": "**興奮した** (kōfun shita) = excited (past/stative form of **興奮する**).\nThe example phrase uses **楽しみ** (tanoshimi) = anticipatory excitement/looking forward to something.\n**楽しみです** = 'I'm looking forward to it' — a very natural expression. Compare: **楽しい** (fun, right now) vs **楽しみ** (anticipating fun).\n**旅行がとても楽しみです** = I'm really looking forward to the trip.",
+      "englishPhrase": "I'm excited about the trip.",
+      "phrase": "旅行がとても楽しみです。",
+      "phraseRomanized": "ryokō ga totemo tanoshimi desu",
+      "literal": [
+        [
+          "旅行",
+          "trip"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "楽しみ",
+          "looked forward to"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "joyful_cheerful",
+      "english": "joyful",
+      "word": "嬉しそうな",
+      "romanized": "ureshisō na",
+      "grammarNote": "**嬉しそうな** (ureshisō na) = seeming happy, looking joyful — formed with **〜そう** (sō) + **な** for attributive use.\n**〜そう** attaches to い-adj stems: **嬉しい** → **嬉しそう** (looks happy).\nThe example phrase uses **明るい** (akarui) = bright/cheerful — an い-adjective describing a sunny personality.\n**明るい** (lit. 'bright') and **暗い** (kurai, lit. 'dark') are used for personality types in Japanese.",
+      "englishPhrase": "She is always cheerful.",
+      "phrase": "彼女はいつも明るいです。",
+      "phraseRomanized": "kanojo wa itsumo akarui desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "明るい",
+          "bright"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "proud",
+      "english": "proud",
+      "word": "誇りに思う",
+      "romanized": "hokori ni omou",
+      "grammarNote": "**誇りに思う** (hokori ni omou) = to feel proud of; lit. 'to think of [it] as pride/honor'.\n**誇り** (hokori) = pride (noun). The **に** marks the role/function: 'thinking of it as an honor'.\n**あなたのことを** = 'regarding you / about you': **〜のこと** softens the reference and adds emotional fullness.\n**思います** (omoimasu) = 'I think/feel' — also used in **〜と思います** (I think that...).",
+      "englishPhrase": "I'm proud of you.",
+      "phrase": "あなたのことを誇りに思います。",
+      "phraseRomanized": "anata no koto wo hokori ni omoimasu",
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "誇り",
+          "pride"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "思います",
+          "think"
+        ]
+      ]
+    },
+    {
+      "id": "content_contented",
+      "english": "content",
+      "word": "満足した",
+      "romanized": "manzoku shita",
+      "grammarNote": "**満足** (manzoku) = satisfaction/contentment (noun). **満足する** = to be satisfied; **満足している** = to be in a satisfied state.\n**〜に満足する** = to be satisfied with ~: **自分の人生に満足している** = 'satisfied with my own life'.\n**自分** (jibun) = oneself/one's own — used reflexively: **自分の** (my own), **自分で** (by oneself).",
+      "englishPhrase": "I'm content with my life.",
+      "phrase": "自分の人生に満足しています。",
+      "phraseRomanized": "jibun no jinsei ni manzoku shite imasu",
+      "literal": [
+        [
+          "自分",
+          "own"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "人生",
+          "life"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "満足して",
+          "satisfied"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "calm_2",
+      "english": "calm",
+      "word": "穏やかな",
+      "romanized": "odayaka na",
+      "grammarNote": "**穏やかな** (odayaka na) = calm/gentle/tranquil — a な-adjective.\n**穏やかな人** (a calm person); **穏やかな天気** (mild weather).\n**大丈夫** (daijōbu) = okay/fine/alright — originally a な-adjective, but now widely used as a standalone expression.\n**落ち着いてください** = 'please calm down': **落ち着く** (to settle/calm) in て-form + **ください**.",
+      "englishPhrase": "Stay calm, everything is fine.",
+      "phrase": "落ち着いてください、大丈夫です。",
+      "phraseRomanized": "ochitsuite kudasai, daijōbu desu",
+      "literal": [
+        [
+          "落ち着いて",
+          "calm down"
+        ],
+        [
+          "ください",
+          "please"
+        ],
+        [
+          "大丈夫",
+          "okay"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stressed",
+      "english": "stressed",
+      "word": "ストレスを感じている",
+      "romanized": "sutoresu wo kanjite iru",
+      "grammarNote": "**ストレスを感じている** (sutoresu wo kanjite iru) = 'is feeling stress' (ongoing state).\n**ストレスを感じる** (kanjiru) = to feel stress; in **〜ている** form it describes a current, continuous experience.\n**今週** (konshū) = this week. Note the contrast: **今週** (this week) vs **先週** (last week, senshū) vs **来週** (next week, raishū).",
+      "englishPhrase": "I'm very stressed this week.",
+      "phrase": "今週はとてもストレスを感じています。",
+      "phraseRomanized": "konshū wa totemo sutoresu wo kanjite imasu",
+      "literal": [
+        [
+          "今週",
+          "this week"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じて",
+          "feeling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "overwhelmed",
+      "english": "overwhelmed",
+      "word": "圧倒された",
+      "romanized": "attō sareta",
+      "grammarNote": "**圧倒される** (attō sareru) = to be overwhelmed (passive/receptive form).\n**圧倒する** (attō suru) = to overwhelm; **圧倒された** = was overwhelmed.\n**〜に圧倒される** = to be overwhelmed by ~: **仕事に圧倒されている** = 'overwhelmed by work'.\n**圧** (atsu) = pressure; **倒** (tō) = collapse/fall — together: 'crushed by pressure'.",
+      "englishPhrase": "I feel overwhelmed by the work.",
+      "phrase": "仕事に圧倒されています。",
+      "phraseRomanized": "shigoto ni attō sarete imasu",
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "圧倒されて",
+          "overwhelmed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "energetic",
+      "english": "energetic",
+      "word": "元気な",
+      "romanized": "genki na",
+      "grammarNote": "**元気な** (genki na) = energetic/healthy/lively — a な-adjective.\n**元気です** = 'I'm fine/well' — the most common response to 'how are you?'\n**元気になる** (genki ni naru) = to become well/energetic: **元気になってね** = 'get better soon!'\nThe greeting **お元気ですか** (ogenki desu ka) = 'Are you well?' uses the honorific **お** prefix.",
+      "englishPhrase": "She is very energetic.",
+      "phrase": "彼女はとても元気です。",
+      "phraseRomanized": "kanojo wa totemo genki desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "元気",
+          "energetic"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tired",
+      "english": "tired",
+      "word": "疲れた",
+      "romanized": "tsukareta",
+      "grammarNote": "**疲れた** (tsukareta) = tired (plain past form, used as an adjective-like state).\n**疲れている** (tsukarete iru) = to be in a tired state (ongoing result of getting tired).\n**疲れる** (tsukareru) = to get tired (verb).\nThe greeting **お疲れ様でした** (otsukaresama deshita) = 'Good work / you must be tired' — said when someone finishes work.",
+      "englishPhrase": "I'm very tired today.",
+      "phrase": "今日はとても疲れています。",
+      "phraseRomanized": "kyō wa totemo tsukarete imasu",
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "疲れて",
+          "tired"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "exhausted",
+      "english": "exhausted",
+      "word": "くたくたに疲れた",
+      "romanized": "kutakuta ni tsukareta",
+      "grammarNote": "**くたくた** (kutakuta) = completely exhausted — an onomatopoeic/mimetic word (擬態語, gitaigo).\n**くたくたに疲れた** = exhausted to the point of collapse; **くたくたです** = I'm wiped out.\nOther exhaustion words: **ヘトヘト** (hetoheto) = totally drained, **ぐったり** (guttari) = limp/exhausted.\n**走った後で** (hashitta ato de) = 'after having run': **後で** (ato de) = after.",
+      "englishPhrase": "I'm exhausted after the run.",
+      "phrase": "走った後でくたくたです。",
+      "phraseRomanized": "hashitta ato de kutakuta desu",
+      "literal": [
+        [
+          "走った",
+          "ran"
+        ],
+        [
+          "後",
+          "after"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "くたくた",
+          "dead-tired"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "curious",
+      "english": "curious",
+      "word": "好奇心旺盛な",
+      "romanized": "kōkishin ōsei na",
+      "grammarNote": "**好奇心旺盛な** (kōkishin ōsei na) = filled with curiosity — a な-adjective phrase.\n**好奇心** (kōkishin) = curiosity; **旺盛** (ōsei) = abundant/vigorous.\nThe colloquial expression **気になる** (ki ni naru) = 'to become curious about / to be on one's mind'. **気** (ki) = spirit/attention.\n**〜が気になる** = 'something catches/occupies one's attention': **それがとても気になります** = 'that really interests/bugs me'.",
+      "englishPhrase": "I'm curious about that.",
+      "phrase": "それがとても気になります。",
+      "phraseRomanized": "sore ga totemo ki ni narimasu",
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "気になります",
+          "mind-on-becomes"
+        ]
+      ]
+    }
+  ]
+}

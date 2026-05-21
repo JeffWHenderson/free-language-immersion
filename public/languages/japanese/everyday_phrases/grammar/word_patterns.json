@@ -1,0 +1,98 @@
+{
+  "id": "word_patterns",
+  "name": "Word Patterns",
+  "language": "japanese",
+  "cards": [
+    {
+      "id": "sa_rule",
+      "front": "How do you turn an い-adjective into a noun using 〜さ?",
+      "back": "Drop the final い and add さ.",
+      "romanized": "drop i → + sa",
+      "grammarNote": "大きい (ookii) → 大きさ (ookisa, size). 長い (nagai) → 長さ (nagasa, length). The result is a regular noun that can take any particle."
+    },
+    {
+      "id": "sa_nagasa",
+      "front": "Attach 〜さ to 長い → ___",
+      "back": "長さ",
+      "romanized": "nagasa",
+      "grammarNote": "長い (nagai, long) → 長さ (nagasa, length). Drop い, add さ."
+    },
+    {
+      "id": "sa_muzukashisa",
+      "front": "difficulty (noun from 難しい)",
+      "back": "難しさ",
+      "romanized": "muzukashisa",
+      "grammarNote": "難しい (muzukashii) → 難しさ (muzukashisa). Use when referring to the degree of difficulty as a concept."
+    },
+    {
+      "id": "sugiru_rule",
+      "front": "〜すぎる means ___",
+      "back": "too much / too ___  (excessive degree)",
+      "romanized": "sugiru",
+      "grammarNote": "Verb: attach to ます-stem. 食べる → 食べすぎる (tabesugiru, eat too much). い-adj: drop い. 大きい → 大きすぎる (ookisugiru, too big)."
+    },
+    {
+      "id": "sugiru_ookii",
+      "front": "大きすぎる means ___",
+      "back": "too big",
+      "romanized": "ookisugiru",
+      "grammarNote": "大きい (ookii) → drop い + すぎる = 大きすぎる. すぎる conjugates as a regular る-verb: 大きすぎます (polite)."
+    },
+    {
+      "id": "sugiru_takasugiru",
+      "front": "too expensive",
+      "back": "高すぎる",
+      "romanized": "takasugiru",
+      "grammarNote": "高い (takai) → drop い + すぎる = 高すぎる. Common complaint when shopping!"
+    },
+    {
+      "id": "yasui_rule",
+      "front": "〜やすい attaches to ___ and means ___",
+      "back": "verb ます-stem; easy to do",
+      "romanized": "~ yasui",
+      "grammarNote": "食べる → 食べ(ます) → 食べやすい (tabeyasui, easy to eat). 読む → 読み(ます) → 読みやすい (yomiyasui, easy to read). Result is an い-adjective."
+    },
+    {
+      "id": "nikui_rule",
+      "front": "〜にくい attaches to ___ and means ___",
+      "back": "verb ます-stem; hard to do",
+      "romanized": "~ nikui",
+      "grammarNote": "分かる → 分かり(ます) → 分かりにくい (wakarinikui, hard to understand). Same stem as やすい — just swap the suffix."
+    },
+    {
+      "id": "yasui_nikui_compare",
+      "front": "easy to use / hard to read",
+      "back": "使いやすい / 読みにくい",
+      "romanized": "tsukaiyasui / yominikui",
+      "grammarNote": "Both attach to the ます-stem. 使う → 使い + やすい. 読む → 読み + にくい. Both conjugate like い-adjectives."
+    },
+    {
+      "id": "hajimeru_rule",
+      "front": "verb stem + 始める means ___",
+      "back": "start doing ___",
+      "romanized": "~ hajimeru",
+      "grammarNote": "食べる → 食べ + 始める = 食べ始める (tabe-hajimeru, start eating). 降る → 降り + 始める = 降り始める (ori-hajimeru, start to fall/rain)."
+    },
+    {
+      "id": "tsuzukeru_owaru",
+      "front": "keep talking / finish writing",
+      "back": "話し続ける / 書き終わる",
+      "romanized": "hanashi-tsuzukeru / kaki-owaru",
+      "grammarNote": "続ける = keep doing (tsuzukeru). 終わる = finish doing (owaru). All three phase verbs (始める・続ける・終わる) attach to the verb ます-stem."
+    },
+    {
+      "id": "sou_rule",
+      "front": "How do you form 〜そう from an い-adjective?",
+      "back": "Drop い and add そう.",
+      "romanized": "drop i → + sou",
+      "grammarNote": "おいしい → おいしそう (oishisou, looks delicious). 難しい → 難しそう (muzukashisou, seems difficult). そう then acts like a な-adjective: おいしそうな料理."
+    },
+    {
+      "id": "sou_verb",
+      "front": "looks like rain (verb + そう)",
+      "back": "雨が降りそう",
+      "romanized": "ame ga furisou",
+      "grammarNote": "降る (furu) → ます-stem 降り + そう = 降りそう. For verbs, attach そう to the ます-stem. This expresses what you can see right now."
+    }
+  ]
+}

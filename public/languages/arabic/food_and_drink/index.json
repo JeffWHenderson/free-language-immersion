@@ -1,0 +1,1107 @@
+{
+  "id": "food_and_drink",
+  "name": "Food & Drink",
+  "language": "arabic",
+  "stories": [
+    "at_the_restaurant",
+    "at_the_market",
+    "cooking_at_home",
+    "a_nice_restaurant"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    {
+      "id": "al_definite",
+      "name": "ال — The Definite Article"
+    },
+    {
+      "id": "gender",
+      "name": "المذكر والمؤنث — Masculine & Feminine"
+    },
+    {
+      "id": "present_tense",
+      "name": "المضارع — Present Tense Verbs"
+    },
+    {
+      "id": "jiddan",
+      "name": "جداً — Intensifiers"
+    },
+    {
+      "id": "quantities_arabic",
+      "name": "الكميات — Quantities & Measurements"
+    },
+    {
+      "id": "kana",
+      "name": "كَانَ — Was / Used To Be"
+    }
+  ],
+  "cards": [
+    {
+      "id": "water",
+      "english": "water",
+      "word": "ماء",
+      "romanized": "ma'",
+      "grammarNote": "Arabic has no copula (verb 'to be') in the present tense.\n**الماء بارد** (al-ma' barid) literally means 'the-water cold' — no verb.\nThis nominal sentence structure is standard: subject + predicate adjective, no linking verb needed.",
+      "englishPhrase": "The water is cold.",
+      "phrase": "الماء بارد.",
+      "phraseRomanized": "al-ma' barid."
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "word": "خبز",
+      "romanized": "khubz",
+      "grammarNote": "**خبز** (khubz) = bread — a collective/mass noun in Arabic, referring to bread as a substance.\nFrom root **خبز** (kh-b-z), meaning to bake.\n**يخبز** (yakhbuz) = he bakes, **خباز** (khabbaz) = baker — same root, different patterns.\n**خبزة** (khubza) = a single loaf/piece of bread — add **ة** to get the unit noun from the collective.",
+      "englishPhrase": "I'd like some bread.",
+      "phrase": "أريد بعض الخبز.",
+      "phraseRomanized": "urid ba'd al-khubz."
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "word": "أرز",
+      "romanized": "aruzz",
+      "grammarNote": "**أرز** (aruzz) = rice — a mass/collective noun with no common plural in Arabic.\nNote the double **زز** (zz) — this gemination (shadda) is shown as **أرُزّ** (aruzz) in fully vocalized text.\n**مع الخضروات** (ma'a al-khadrawat) = with the vegetables — **خضروات** is the plural of **خضار** (vegetables).",
+      "englishPhrase": "I like rice with vegetables.",
+      "phrase": "أحب الأرز مع الخضروات.",
+      "phraseRomanized": "uhibb al-aruzz ma'a al-khadrawat."
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "word": "حليب",
+      "romanized": "halib",
+      "grammarNote": "**حليب** (halib) = milk — from root **حلب** (h-l-b), meaning to milk.\n**حلب** is also the city Aleppo in Syria — the same root.\n**حلّاب** (hallab) = milkman/dairy person. **محلب** (mahlab) = dairy.\nIn questions: **هل تريد** (hal turid) = do you want — **هل** is the yes/no question particle.",
+      "englishPhrase": "Do you want milk?",
+      "phrase": "هل تريد حليباً؟",
+      "phraseRomanized": "hal turid haliban?"
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "word": "بيضة",
+      "romanized": "bayda",
+      "grammarNote": "**بيضة** (bayda) = one egg — the **ة** (ta' marbuta) marks this as the unit noun.\n**بيض** (bayd) = eggs (collective) — drop the **ة** to get the collective.\n**بيضتان** (baydatan) = two eggs — dual form with **ـان** (-an) suffix.\n**بيضتين** (baydatayn) = two eggs (oblique dual with **ـَين** suffix, used in phrases like **في الفطور**).",
+      "englishPhrase": "I eat two eggs for breakfast.",
+      "phrase": "آكل بيضتين في الفطور.",
+      "phraseRomanized": "akul baydatayn fi al-futur."
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "word": "جبن",
+      "romanized": "jubn",
+      "grammarNote": "**جبن** (jubn) = cheese — a mass noun, no gender marking needed.\n**جبن** also means cowardice in Arabic — same spelling, completely different root: **جَبُنَ** (jabuna, to be cowardly) vs **جُبْن** (jubn, cheese). Context resolves it.\n**فيها جبن** (fiha jubn) = it has cheese in it — **في** (in) + **ها** (it, f.) is a useful construction.",
+      "englishPhrase": "The sandwich has cheese.",
+      "phrase": "الشطيرة فيها جبن.",
+      "phraseRomanized": "ash-shatira fiha jubn."
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "word": "دجاج",
+      "romanized": "dajaj",
+      "grammarNote": "**دجاج** (dajaj) = chicken (collective noun — as food or as the animal category).\n**دجاجة** (dajaja) = one chicken — adding **ة** makes it a unit noun.\n**الدجاج لذيذ** (ad-dajaj ladhidh) — note the sun letter assimilation: **ال + دجاج** → **الدجاج** — the **د** (d) is a sun letter, but it doesn't change the **ل** here because **د** is NOT one of the letters that assimilates.\nActually **د** is a sun letter — so it WOULD be pronounced 'ad-dajaj', assimilating the **ل** to **د** in pronunciation.",
+      "englishPhrase": "The chicken is delicious.",
+      "phrase": "الدجاج لذيذ.",
+      "phraseRomanized": "ad-dajaj ladhidh."
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "word": "لحم",
+      "romanized": "lahm",
+      "grammarNote": "**لحم** (lahm) = meat — from root **لحم** (l-h-m), referring to flesh.\n**لحم بقر** (lahm baqar) = beef (lit. 'cattle meat'), **لحم غنم** (lahm ghanam) = lamb.\n**لحم** appears in the name **بيت لحم** (Bethlehem) — lit. 'house of meat/bread'.\n**لا يأكل** (la ya'kul) = does not eat — **لا** negates a present-tense verb.",
+      "englishPhrase": "He doesn't eat meat.",
+      "phrase": "هو لا يأكل اللحم.",
+      "phraseRomanized": "huwa la ya'kul al-lahm."
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "word": "سمك",
+      "romanized": "samak",
+      "grammarNote": "**سمك** (samak) = fish (collective noun — fish as a category or substance).\n**سمكة** (samaka) = one fish — unit noun with **ة** suffix.\n**سماك** (sammak) = fishmonger, **مصيدة** (masida) = fishing trap.\n**أحب** (uhibb) = I love/like — from root **حب** (h-b-b). The **ال** (al-) on **السمك** makes it 'the fish' as a category: 'I like fish (in general)'.",
+      "englishPhrase": "I like fish.",
+      "phrase": "أحب السمك.",
+      "phraseRomanized": "uhibb as-samak."
+    },
+    {
+      "id": "hummus",
+      "english": "hummus",
+      "word": "حمص",
+      "romanized": "ḥummuṣ",
+      "grammarNote": "**حمص** (hummus) = chickpeas / the dip made from them — the word literally means chickpeas.\nThe dish name is short for **حمص بالطحينة** (hummus bi-t-tahina) = chickpeas with tahini.\n**أكل الحمص** (akl al-hummus) = eating hummus — verbal noun **أكل** (akl) from root **أكل** ('-k-l).\n**مع الخبز** (ma'a al-khubz) = with bread — the preposition **مع** for accompaniment.",
+      "englishPhrase": "I love eating hummus with bread.",
+      "phrase": "أحب أكل الحمص مع الخبز.",
+      "phraseRomanized": "uḥibb akl al-ḥummuṣ maʿa al-khubz."
+    },
+    {
+      "id": "falafel",
+      "english": "falafel",
+      "word": "فلافل",
+      "romanized": "falāfil",
+      "grammarNote": "**فلافل** (falafel) = falafel — the word is already a broken plural form of **فلفل** (filfil, pepper/spice), though the connection to the dish is debated.\n**طعام شعبي** (ta'am sha'bi) = popular/street food — **شعبي** means 'of the people'.\n**الفلافل** + adjective: the **ال** makes it definite — 'falafel (as a food type) is popular street food'.",
+      "englishPhrase": "Falafel is a popular street food.",
+      "phrase": "الفلافل طعام شعبي.",
+      "phraseRomanized": "al-falāfil ṭaʿām shaʿbī."
+    },
+    {
+      "id": "pita_bread",
+      "english": "pita bread",
+      "word": "خبز البيتا",
+      "romanized": "khubz al-bītā",
+      "grammarNote": "**خبز البيتا** (khubz al-bita) = pita bread — an إضافة (idafa) construction: 'bread of the pita'.\nIn إضافة, the first noun loses any definite article while the second takes **ال**.\n**مع كل وجبة** (ma'a kull wajba) = with every meal — **كل** (kull) = every/all, followed by an indefinite singular noun.",
+      "englishPhrase": "We eat pita bread with every meal.",
+      "phrase": "نأكل خبز البيتا مع كل وجبة.",
+      "phraseRomanized": "naʾkul khubz al-bītā maʿa kull wajba."
+    },
+    {
+      "id": "pork",
+      "english": "pork",
+      "word": "لحم خنزير",
+      "romanized": "lahm khinzir",
+      "grammarNote": "**لحم خنزير** (lahm khinzir) is **حرام** (haram) — forbidden in Islam — and generally unavailable in most Arab countries.\nUseful phrase: **لا آكل لحم الخنزير** (la akul lahm al-khinzir) = I don't eat pork.",
+      "englishPhrase": "I don't eat pork.",
+      "phrase": "لا آكل لحم الخنزير.",
+      "phraseRomanized": "la akul lahm al-khinzir.",
+      "hidden": true
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "word": "فاكهة",
+      "romanized": "fakiha",
+      "grammarNote": "**فاكهة** (fakiha) = fruit (collective/general term).\n**الفاكهة** (al-fakiha) = fruit in general — with the definite article for a generic category.\n**فواكه** (fawakiha) = fruits (broken plural) — used when listing or specifying types.\n**كل يوم** (kull yawm) = every day — **كل** + indefinite singular for 'every'.",
+      "englishPhrase": "I eat fruit every day.",
+      "phrase": "آكل الفاكهة كل يوم.",
+      "phraseRomanized": "akul al-fakiha kull yawm."
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "word": "تفاحة",
+      "romanized": "tuffaha",
+      "grammarNote": "**تفاحة** (tuffaha) = one apple — unit noun with **ة** (ta' marbuta).\n**تفاح** (tuffah) = apples / apple (collective) — drop the **ة** for the collective.\n**في اليوم** (fi al-yawm) = a day / per day — lit. 'in the day'.\n**مفيدة للصحة** (mufida lis-sihha) = good for health — **لـ** (for) + **الصحة** (health).",
+      "englishPhrase": "An apple a day is healthy.",
+      "phrase": "تفاحة في اليوم مفيدة للصحة.",
+      "phraseRomanized": "tuffaha fi al-yawm mufida lis-sihha."
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "word": "موز",
+      "romanized": "mawz",
+      "grammarNote": "**موز** (mawz) = bananas (collective) — **موزة** (mawza) = one banana.\nThe word is borrowed into Arabic, but follows standard Arabic collective/unit patterns.\n**ناضج** (nadij) = ripe — adjective from root **نضج** (n-d-j), meaning to ripen/cook through.\n**الموز ناضج** — equational sentence: subject (**الموز**) + predicate (**ناضج**), no verb.",
+      "englishPhrase": "The bananas are ripe.",
+      "phrase": "الموز ناضج.",
+      "phraseRomanized": "al-mawz nadij."
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "word": "برتقال",
+      "romanized": "burtuqal",
+      "grammarNote": "**برتقال** (burtuqal) = oranges (collective) — from 'Portugal', where the fruit was historically associated.\n**برتقالة** (burtuqala) = one orange — unit noun.\n**عصير برتقال** (asir burtuqal) = orange juice — an إضافة: 'juice of orange'.\nNote: no **ال** on **برتقال** here — the second noun in إضافة can be indefinite: 'juice of (some) orange'.",
+      "englishPhrase": "I want an orange juice.",
+      "phrase": "أريد عصير برتقال.",
+      "phraseRomanized": "urid asir burtuqal."
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "word": "خضروات",
+      "romanized": "khadrawat",
+      "grammarNote": "**خضروات** (khadrawat) = vegetables — a sound plural with the **ـات** (-at) feminine plural suffix.\n**خضار** (khudar) = greens/produce — a collective synonym.\nRoot **خضر** (kh-d-r) = green — **أخضر** (akhdar) = green (color), **خضراء** (khadra') = green (f.).\n**كُل خضرواتك** (kul khadrawatak) = eat your vegetables — **كُل** is the imperative of **أكل**, and **ك** suffix = your.",
+      "englishPhrase": "Eat your vegetables!",
+      "phrase": "كُل خضرواتك!",
+      "phraseRomanized": "kul khadrawatak!"
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "word": "بطاطس",
+      "romanized": "batatais",
+      "grammarNote": "**بطاطس** (batatais) = potatoes — a borrowed word (from Spanish/Portuguese batata) that has been pluralized in Arabic.\n**بطاطا** (batata) = another common form, especially in Levantine dialects.\n**مهروسة** (mahrusa) = mashed — from root **هرس** (h-r-s), meaning to mash/crush.\n**بطاطس مهروسة** = mashed potatoes — adjective follows noun and agrees in gender.",
+      "englishPhrase": "I want mashed potatoes.",
+      "phrase": "أريد بطاطس مهروسة.",
+      "phraseRomanized": "urid batatais mahrusa."
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "word": "طماطم",
+      "romanized": "tamatim",
+      "grammarNote": "**طماطم** (tamatim) = tomatoes — a borrowed word (from Nahuatl tomatl via European languages).\n**طماطة** (tamata) = one tomato in some dialects — though the plural form is more commonly cited.\n**السلطة فيها طماطم** — **فيها** (fiha) = in it (f.) — the subject **السلطة** (salad) is feminine, so 'in it' uses the feminine suffix **ها**.",
+      "englishPhrase": "The salad has tomatoes.",
+      "phrase": "السلطة فيها طماطم.",
+      "phraseRomanized": "as-salata fiha tamatim."
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "word": "بصل",
+      "romanized": "basal",
+      "grammarNote": "**بصل** (basal) = onions (collective) — **بصلة** (basala) = one onion.\n**لا أحب البصل** = I don't like onions — **لا** negates the verb **أحب**.\nThe definite article **البصل** is used here for 'onions in general' — definite article for generic reference is common in Arabic.",
+      "englishPhrase": "I don't like onions.",
+      "phrase": "لا أحب البصل.",
+      "phraseRomanized": "la uhibb al-basal."
+    },
+    {
+      "id": "salad",
+      "english": "salad",
+      "word": "سلطة",
+      "romanized": "salata",
+      "grammarNote": "**سلطة** (salata) = salad — borrowed from Italian/French 'salata/salade', itself from Latin 'salata' (salted things).\nThe word ends in **ة** (ta' marbuta) making it grammatically feminine.\n**سآخذ** (sa-akhudh) = I will take — the prefix **سـ** (sa-) on a present-tense verb signals simple future.",
+      "englishPhrase": "I'll have a salad.",
+      "phrase": "سآخذ سلطة.",
+      "phraseRomanized": "sa-akhudh salata."
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "word": "حساء",
+      "romanized": "hisa'",
+      "grammarNote": "**حساء** (hisa') = soup — from root **حسا** (h-s-w/y), meaning to sip/slurp.\n**يحسو** (yahsu) = to sip. The root elegantly captures how one eats soup.\n**ساخن** (sakhin) = hot — from root **سخن** (s-kh-n): **سخونة** (sukhuna) = heat, **مسخّن** (musakhkhan) = heated.\n**الحساء ساخن** — another equational sentence, no verb needed.",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "الحساء ساخن.",
+      "phraseRomanized": "al-hisa' sakhin."
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "word": "شطيرة",
+      "romanized": "shatira",
+      "grammarNote": "**شطيرة** (shatira) = sandwich — from root **شطر** (sh-t-r), meaning to halve/split.\nA sandwich is literally 'the split thing' — bread split open to fill.\n**صنعت** (sana'tu) = I made — past tense, first person. Root **صنع** (s-n-') = to make/manufacture: **صناعة** (sina'a) = industry/manufacture.\n**للغداء** (lil-ghada') = for lunch — **لـ** + **الغداء**.",
+      "englishPhrase": "I made a sandwich for lunch.",
+      "phrase": "صنعت شطيرة للغداء.",
+      "phraseRomanized": "sana'tu shatira lil-ghada'."
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "word": "كعكة",
+      "romanized": "ka'ka",
+      "grammarNote": "**كعكة** (ka'ka) = cake — a borrowed/ancient term for a baked sweet.\n**كعك** (ka'k) = cookies/biscuits (collective) in some dialects.\nThe **ة** (ta' marbuta) marks it as feminine, which affects agreement: **كعكة كبيرة** (a big cake, f.).\n**هل تريد** (hal turid) = do you want — **هل** is the yes/no question marker.",
+      "englishPhrase": "Do you want cake?",
+      "phrase": "هل تريد كعكة؟",
+      "phraseRomanized": "hal turid ka'ka?",
+      "hidden": true
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "word": "بسكويت",
+      "romanized": "biskwit",
+      "grammarNote": "**بسكويت** (biskwit) = cookies/biscuits — borrowed from French 'biscuit' (itself from Latin bis coctus, twice baked).\nIn Arabic, borrowed words are treated as masculine by default unless the form suggests otherwise.\n**لذيذ** (ladhidh) = delicious (m.) — the masculine form because **البسكويت** is masculine.",
+      "englishPhrase": "These cookies are delicious.",
+      "phrase": "هذا البسكويت لذيذ.",
+      "phraseRomanized": "hadha al-biskwit ladhidh.",
+      "hidden": true
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "word": "شوكولاتة",
+      "romanized": "shukulata",
+      "grammarNote": "**شوكولاتة** (shukulata) = chocolate — borrowed from Spanish/French, ultimately from Nahuatl xocolātl.\nThe **ة** (ta' marbuta) makes it grammatically feminine.\n**أحب الشوكولاتة** — **الشوكولاتة** is definite with **ال**, meaning 'chocolate in general' — using the definite article for generic reference.",
+      "englishPhrase": "I love chocolate.",
+      "phrase": "أحب الشوكولاتة.",
+      "phraseRomanized": "uhibb ash-shukulata."
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "word": "سكر",
+      "romanized": "sukkar",
+      "grammarNote": "**سكر** (sukkar) = sugar — the English word 'sugar' traces back directly to this Arabic word, via Old French sucre and Medieval Latin succarum.\nThe Arabic **سكر** came from Sanskrit शर्करा (sharkara).\n**بدون سكر** (bidun sukkar) = without sugar — one of the most useful phrases at any Arab café.\n**سكر** also means 'to become drunk' from a different root — same spelling, different meaning.",
+      "englishPhrase": "No sugar, please.",
+      "phrase": "بدون سكر، من فضلك.",
+      "phraseRomanized": "bidun sukkar, min fadlak."
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "word": "ملح",
+      "romanized": "milh",
+      "grammarNote": "**ملح** (milh) = salt — from root **ملح** (m-l-h), also meaning salty/beautiful in some poetic uses.\n**مالح** (malih) = salty — the adjective form.\n**هل يمكنك تناولي الملح؟** = can you pass me the salt? — **تناولي** (tanawuli) here means 'to pass/hand to me', from **تناول** (to take/receive).",
+      "englishPhrase": "Can you pass the salt?",
+      "phrase": "هل يمكنك تناولي الملح؟",
+      "phraseRomanized": "hal yumkinuka tanawuli al-milh?"
+    },
+    {
+      "id": "pepper",
+      "english": "pepper",
+      "word": "فلفل",
+      "romanized": "filfil",
+      "grammarNote": "**فلفل** (filfil) = pepper — the word has a reduplicative structure (f-l-f-l), which is a pattern found in several Arabic words and suggests an early loanword.\n**فلفل أسود** (filfil aswad) = black pepper, **فلفل أحمر** (filfil ahmar) = red pepper/paprika.\nNote: **فلافل** (falafel) may be etymologically related — both involve round, peppery associations.",
+      "englishPhrase": "Can you pass the pepper?",
+      "phrase": "هل يمكنك تناولي الفلفل؟",
+      "phraseRomanized": "hal yumkinuka tanawuli al-filfil?"
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "word": "زبدة",
+      "romanized": "zubda",
+      "grammarNote": "**زبدة** (zubda) = butter — from root **زبد** (z-b-d), meaning foam/cream/butter.\n**زبد** (zabad) = foam/froth — what rises to the top, hence butter is 'the cream of the milk'.\n**أضع** (ada') = I put — from root **وضع** (w-d-') meaning to place.\n**على الخبز** ('ala al-khubz) = on the bread — **على** ('ala) = on/upon.",
+      "englishPhrase": "I put butter on my bread.",
+      "phrase": "أضع الزبدة على الخبز.",
+      "phraseRomanized": "ada' az-zubda 'ala al-khubz."
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "word": "زيت",
+      "romanized": "zayt",
+      "grammarNote": "**زيت** (zayt) = oil — from root **زيت** (z-y-t), closely connected to **زيتون** (zaytun, olive).\n**زيت الزيتون** (zayt az-zaytun) = olive oil — an إضافة (idafa): 'oil of the olive'.\n**الزيتون** — note the sun letter: **ز** (z) is actually a sun letter, so **ال + زيتون** → **الزيتون** (az-zaytun), the **ل** assimilates to **ز**.",
+      "englishPhrase": "Cook with olive oil.",
+      "phrase": "اطبخ بزيت الزيتون.",
+      "phraseRomanized": "utbukh bi-zayt az-zaytun."
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "word": "قهوة",
+      "romanized": "qahwa",
+      "grammarNote": "**قهوة** (qahwa) = coffee — the English word 'coffee' came from Arabic **قهوة** via Turkish kahve.\nOriginally **قهوة** referred to wine (something that dulled appetite), then transferred to coffee when it spread from Ethiopia/Yemen.\n**في الصباح** (fi as-sabah) = in the morning — **ص** is a sun letter, so **الصباح** is pronounced *as-sabah*.",
+      "englishPhrase": "I like coffee in the morning.",
+      "phrase": "أحب القهوة في الصباح.",
+      "phraseRomanized": "uhibb al-qahwa fi as-sabah."
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "word": "شاي",
+      "romanized": "shay",
+      "grammarNote": "**شاي** (shay) = tea — from Chinese chá, entering Arabic via Persian.\nThe English word 'tea' came from the Hokkien Chinese pronunciation (tê), while 'chai' came via the Mandarin/Arabic/Persian route.\n**شاياً** (shayan) — the indefinite accusative with tanwin used in a formal sentence object position.\n**هل تريد شاياً؟** — **هل** opens a yes/no question.",
+      "englishPhrase": "Would you like some tea?",
+      "phrase": "هل تريد شاياً؟",
+      "phraseRomanized": "hal turid shayan?"
+    },
+    {
+      "id": "wine",
+      "english": "wine",
+      "word": "نبيذ",
+      "romanized": "nabidh",
+      "grammarNote": "**نبيذ** (nabidh) = wine — from root **نبذ** (n-b-dh), meaning to cast/throw aside or to ferment (something set aside to ferment).\nClassically **نبيذ** referred to date wine or any fermented drink; grape wine was **خمر** (khamr).\n**خمر** (khamr) is the Quranic term for intoxicating drink, declared **حرام** (haram) in Islamic law.\n**كوب نبيذ أحمر** = a glass of red wine — **أحمر** (ahmar, red) is a color adjective.",
+      "englishPhrase": "A glass of red wine, please.",
+      "phrase": "كوب نبيذ أحمر، من فضلك.",
+      "phraseRomanized": "kub nabidh ahmar, min fadlak."
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "بيرة",
+      "romanized": "bira",
+      "grammarNote": "**بيرة** (bira) = beer — a loanword from European languages (bière/beer).\nThe **ة** (ta' marbuta) makes it grammatically feminine.\n**بيرتان** (birratan) = two beers — the dual form. For exactly two, Arabic uses the **ـان** (-an) dual suffix: **بيرة** → **بيرتان** (nominative dual). Note: in the sample phrase **بيرتان** is nominative, which is used when the noun is the subject.",
+      "englishPhrase": "Two beers, please.",
+      "phrase": "بيرتان، من فضلك.",
+      "phraseRomanized": "birratan, min fadlak."
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "word": "عصير",
+      "romanized": "asir",
+      "grammarNote": "**عصير** (asir) = juice — from root **عصر** ('-s-r), meaning to squeeze/press.\n**عصر** (asr) = to squeeze, also 'age/era' — both the pressing of time and the pressing of fruit.\n**العصر** (al-'asr) = the afternoon prayer — one of the five daily prayers.\n**عصير برتقال** (asir burtuqal) = orange juice — إضافة: juice of orange.",
+      "englishPhrase": "I want orange juice.",
+      "phrase": "أريد عصير برتقال.",
+      "phraseRomanized": "urid asir burtuqal."
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "word": "فطور",
+      "romanized": "futur",
+      "grammarNote": "**فطور** (futur) = breakfast — from root **فطر** (f-t-r), meaning to break fast or to split open.\n**الفطر** (al-fitr) = breaking the fast — as in **عيد الفطر** (Eid al-Fitr), the celebration at the end of Ramadan when the fast is broken.\n**في السابعة** (fi as-sabi'a) = at seven — **السابعة** is the feminine ordinal 'the seventh', used for telling time.",
+      "englishPhrase": "I have breakfast at seven.",
+      "phrase": "آكل الفطور في السابعة.",
+      "phraseRomanized": "akul al-futur fi as-sabi'a."
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "word": "غداء",
+      "romanized": "ghada'",
+      "grammarNote": "**غداء** (ghada') = lunch — from root **غدو** (gh-d-w), referring to the early part of the day or 'morrow'.\n**نتناول** (natanawal) = we eat/have — from root **تناول** (t-n-w-l), meaning to take/receive/consume.\n**تناول** is the formal word for eating a meal: **تناول الطعام** (to have food/a meal).\n**في الثانية** (fi ath-thaniya) = at two (o'clock) — **الثانية** = the second (ordinal).",
+      "englishPhrase": "We have lunch at two.",
+      "phrase": "نتناول الغداء في الثانية.",
+      "phraseRomanized": "natarawal al-ghada' fi ath-thaniya."
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "word": "عشاء",
+      "romanized": "asha'",
+      "grammarNote": "**عشاء** (asha') = dinner — from root **عشو** ('-sh-w), relating to evening/darkness.\n**العشاء** is also the name of the night prayer (one of the five daily prayers in Islam).\n**جاهز** (jahiz) = ready — a common adjective: **الطعام جاهز** (the food is ready). Feminine: **جاهزة** (jahiza).\nEquational sentence: **العشاء جاهز** — no verb needed.",
+      "englishPhrase": "Dinner is ready.",
+      "phrase": "العشاء جاهز.",
+      "phraseRomanized": "al-asha' jahiz."
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "word": "وجبة خفيفة",
+      "romanized": "wajba khafifa",
+      "grammarNote": "**وجبة خفيفة** (wajba khafifa) = snack — lit. 'a light meal'.\n**وجبة** (wajba) = meal — from root **وجب** (w-j-b), meaning obligatory/necessary — a meal is what is necessary.\n**خفيفة** (khafifa) = light (f.) — feminine because **وجبة** is feminine.\nOpposite: **وجبة دسمة** (wajba dasima) = a heavy/filling meal.",
+      "englishPhrase": "I have a snack in the afternoon.",
+      "phrase": "آكل وجبة خفيفة في بعد الظهر.",
+      "phraseRomanized": "akul wajba khafifa fi ba'd adh-dhuhr."
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "word": "وجبة",
+      "romanized": "wajba",
+      "grammarNote": "**وجبة** (wajba) = meal — feminine noun (note the **ة** ending).\n**وجبات** (wajbat) = meals — the sound feminine plural, formed by adding **ـات** (-at).\n**هذه وجبة لذيذة** — **هذه** (hadhihi, this, f.) agrees with the feminine noun **وجبة**. **لذيذة** (ladhidha, delicious, f.) also agrees.",
+      "englishPhrase": "This is a delicious meal.",
+      "phrase": "هذه وجبة لذيذة.",
+      "phraseRomanized": "hadhihi wajba ladhidha."
+    },
+    {
+      "id": "recipe",
+      "english": "recipe",
+      "word": "وصفة",
+      "romanized": "wasfa",
+      "grammarNote": "**وصفة** (wasfa) = recipe — from root **وصف** (w-s-f), meaning to describe/prescribe.\n**وصف** (wasf) = description, **طبيب وصف** = a doctor prescribes — same root.\nThe word for a medical prescription is also **وصفة طبية** (wasfa tibbiyya) = medical prescription.\n**هل عندك** (hal 'indak) = do you have — using **عند** for possession.",
+      "englishPhrase": "Do you have a good recipe?",
+      "phrase": "هل عندك وصفة جيدة؟",
+      "phraseRomanized": "hal indaka wasfa jayyida?",
+      "hidden": true
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "word": "نكهة",
+      "romanized": "nakha",
+      "grammarNote": "**نكهة** (nakha) = flavor/taste — from root **نكه** (n-k-h), meaning aroma and flavor.\n**أي** (ayy) = which/any — used to ask for a selection: **أي نكهة** (which flavor?).\n**أي** is followed by an indefinite noun without **ال**: **أي كتاب** (which book?), **أي مكان** (which place?).",
+      "englishPhrase": "What flavor do you want?",
+      "phrase": "أي نكهة تريد؟",
+      "phraseRomanized": "ayy nakha turid?",
+      "hidden": true
+    },
+    {
+      "id": "ingredient",
+      "english": "ingredient",
+      "word": "مكون",
+      "romanized": "mukawwin",
+      "grammarNote": "**مكوّن** (mukawwin) = ingredient/component — from root **كون** (k-w-n), meaning to be/exist/form.\n**مكوّنات** (mukawwinat) = ingredients — sound feminine plural.\n**التي تحتاجها** (allati tahtajuha) = that you need (f.) — **التي** is the feminine relative pronoun 'which/that', and **ها** at the end refers back to the feminine **المكونات**.",
+      "englishPhrase": "What ingredients do you need?",
+      "phrase": "ما هي المكونات التي تحتاجها؟",
+      "phraseRomanized": "ma hiya al-mukawwinat allati tahtajuha?",
+      "hidden": true
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "word": "قائمة الطعام",
+      "romanized": "qa'imat at-ta'am",
+      "grammarNote": "**قائمة الطعام** (qa'imat at-ta'am) = menu — lit. 'list of food'.\nAn إضافة construction: **قائمة** (list) + **الطعام** (the food).\n**قائمة** comes from root **قوم** (q-w-m), meaning to stand/list — a list is what 'stands up' as an account.\n**هل يمكنني** (hal yumkinuni) = can I / is it possible for me — impersonal **يمكن** + pronoun suffix **ني** (me).",
+      "englishPhrase": "Can I see the menu?",
+      "phrase": "هل يمكنني رؤية قائمة الطعام؟",
+      "phraseRomanized": "hal yumkinuni ru'yat qa'imat at-ta'am?"
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "word": "مطعم",
+      "romanized": "mat'am",
+      "grammarNote": "**مطعم** (mat'am) = restaurant — from root **طعم** (t-'-m), meaning food/taste.\nThe **مَفْعَل** pattern (**مَطْعَم**) creates place nouns: a restaurant is 'a place of eating'.\nSame pattern: **مطبخ** (matbakh, kitchen = place of cooking), **مكتب** (maktab, office = place of writing).\n**هذا المطعم جيد** — **هذا** (this, m.) agrees with the masculine noun **مطعم**.",
+      "englishPhrase": "This restaurant is good.",
+      "phrase": "هذا المطعم جيد.",
+      "phraseRomanized": "hadha al-mat'am jayyid."
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "word": "مطبخ",
+      "romanized": "matbakh",
+      "grammarNote": "**مطبخ** (matbakh) = kitchen — from root **طبخ** (t-b-kh), meaning to cook.\n**يطبخ** (yatbukh) = he cooks, **طبّاخ** (tabbakh) = chef/cook, **مطبوخ** (matbukh) = cooked — all from the same root.\n**المطبخ نظيف** — equational sentence: 'the kitchen (is) clean'. **نظيف** (nadhif) = clean, from root **نظف** (n-z-f).",
+      "englishPhrase": "The kitchen is clean.",
+      "phrase": "المطبخ نظيف.",
+      "phraseRomanized": "al-matbakh nadhif."
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "word": "فرن",
+      "romanized": "furn",
+      "grammarNote": "**فرن** (furn) = oven — also means bakery in many dialects.\n**الفرن** is masculine — no **ة** ending, so adjectives agreeing with it are masculine: **ساخن** (sakhin, hot, m.).\nRoot **فرن** (f-r-n) relates to the heat of baking; the same word for oven is used for communal clay ovens in traditional Arab villages.",
+      "englishPhrase": "The oven is hot.",
+      "phrase": "الفرن ساخن.",
+      "phraseRomanized": "al-furn sakhin.",
+      "hidden": true
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "word": "موقد",
+      "romanized": "mawqid",
+      "grammarNote": "**موقد** (mawqid) = stove — from root **وقد** (w-q-d), meaning to kindle/ignite.\n**وَقُود** (waqud) = fuel, **إيقاد** (iqad) = kindling/igniting — same root.\nAnother **مَفْعِل** pattern noun: **موقد** = the place/instrument of ignition.",
+      "englishPhrase": "Cook it on the stove.",
+      "phrase": "اطبخه على الموقد.",
+      "phraseRomanized": "utbukhhu 'ala al-mawqid.",
+      "hidden": true
+    },
+    {
+      "id": "knife",
+      "english": "knife",
+      "word": "سكين",
+      "romanized": "sikkin",
+      "grammarNote": "**سكين** (sikkin) = knife — from root **سكن** (s-k-n), meaning to calm/settle/reside.\nA knife 'settles' or 'silences' — an old semantic connection to cutting/stilling.\n**سكين حاداً** (sikkinen haddan) — tanwin (double ending) shows indefinite accusative case in formal Arabic.\n**حاد** (hadd) = sharp — from root **حدد** (h-d-d), meaning to sharpen/define.",
+      "englishPhrase": "I need a sharp knife.",
+      "phrase": "أحتاج سكيناً حاداً.",
+      "phraseRomanized": "ahtaj sikkinen haddan.",
+      "hidden": true
+    },
+    {
+      "id": "fork",
+      "english": "fork",
+      "word": "شوكة",
+      "romanized": "shawka",
+      "grammarNote": "**شوكة** (shawka) = fork — from root **شوك** (sh-w-k), meaning thorn/spike.\nA fork is literally 'a thorn' or 'the thorned thing' — a vivid visual metaphor.\n**شوك** (shawk) = thorns (collective), **شجرة شائكة** (shajara sha'ika) = a thorny tree.\n**هل يمكنني** (hal yumkinuni) = may I / can I — polite impersonal construction.",
+      "englishPhrase": "Can I have a fork?",
+      "phrase": "هل يمكنني الحصول على شوكة؟",
+      "phraseRomanized": "hal yumkinuni al-husul 'ala shawka?",
+      "hidden": true
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "word": "ملعقة",
+      "romanized": "mil'aqa",
+      "grammarNote": "**ملعقة** (mil'aqa) = spoon — from root **لعق** (l-'-q), meaning to lick.\nA spoon is 'the licking instrument' — a very literal and memorable origin.\n**يلعق** (yal'aq) = to lick. The **مِفْعَلَة** pattern creates instrument nouns: **ملعقة** = licking tool = spoon.",
+      "englishPhrase": "I need a spoon.",
+      "phrase": "أحتاج ملعقة.",
+      "phraseRomanized": "ahtaj mil'aqa.",
+      "hidden": true
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "word": "طبق",
+      "romanized": "tabaq",
+      "grammarNote": "**طبق** (tabaq) = plate/dish — from root **طبق** (t-b-q), meaning to match/correspond/layer.\n**مطابق** (mutabiq) = matching/corresponding, **طبقة** (tabaqa) = layer/stratum — all from the same root.\nPlural: **أطباق** (atbaq) — a broken plural pattern **أَفْعَال**.\n**الطبق متسخ** (at-tabaq mutassikh) = the plate is dirty — equational sentence.",
+      "englishPhrase": "The plate is dirty.",
+      "phrase": "الطبق متسخ.",
+      "phraseRomanized": "at-tabaq mutassikh.",
+      "hidden": true
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "word": "وعاء",
+      "romanized": "wi'a'",
+      "grammarNote": "**وعاء** (wi'a') = bowl/container — from root **وعى** (w-'-y), meaning to contain/hold/understand.\n**وعي** (wa'y) = awareness/consciousness — the mind as a 'container' of knowledge.\n**امل الوعاء** (amla' al-wi'a') = fill the bowl — **أملأ** (amla') = to fill, imperative here.",
+      "englishPhrase": "Fill the bowl with soup.",
+      "phrase": "امل الوعاء بالحساء.",
+      "phraseRomanized": "amla' al-wi'a' bil-hisa'.",
+      "hidden": true
+    },
+    {
+      "id": "glass",
+      "english": "glass",
+      "word": "كوب",
+      "romanized": "kub",
+      "grammarNote": "**كوب** (kub) = cup/glass — a common loanword found across many languages.\nDual: **كوبان** (kubani) = two cups (nominative) / **كوبَين** (kubayn) = two cups (genitive/accusative).\n**كوب ماء** (kub ma') = a glass of water — إضافة: 'glass of water', no preposition needed.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "كوب ماء، من فضلك.",
+      "phraseRomanized": "kub ma', min fadlak.",
+      "hidden": true
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "word": "زجاجة",
+      "romanized": "zujaja",
+      "grammarNote": "**زجاجة** (zujaja) = bottle — from root **زجج** (z-j-j), relating to glass material.\n**زجاج** (zujaj) = glass (material) — **زجاجة** is literally 'a glass thing' → bottle.\n**زجاجة نبيذ** (zujajat nabidh) = a bottle of wine — إضافة: 'bottle of wine'. Note: in إضافة the first noun loses its tanwin.",
+      "englishPhrase": "A bottle of wine, please.",
+      "phrase": "زجاجة نبيذ، من فضلك.",
+      "phraseRomanized": "zujajat nabidh, min fadlak.",
+      "hidden": true
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "word": "طاولة",
+      "romanized": "tawila",
+      "grammarNote": "**طاولة** (tawila) = table — a loanword adapted into Arabic with the feminine **ة** ending.\n**طاولتنا** (tawilantuna) = our table — **طاولة** + **نا** (-na, our) possessive suffix.\nWhen a possessive suffix is added to a word ending in **ة** (ta' marbuta), the **ة** is written as **ت**: **طاولة** → **طاولتنا**.",
+      "englishPhrase": "Our table is ready.",
+      "phrase": "طاولتنا جاهزة.",
+      "phraseRomanized": "tawilantuna jahiza."
+    },
+    {
+      "id": "waiter",
+      "english": "waiter",
+      "word": "نادل",
+      "romanized": "nadil",
+      "grammarNote": "**نادل** (nadil) = waiter — from root **ندل** (n-d-l), meaning to serve/hand over.\n**يا نادل** (ya nadil) = O waiter — **يا** (ya) is the vocative particle used to address someone directly.\n**الفاتورة** (al-fatura) = the bill/invoice — from root **فتر** or borrowed, widely used in Arab restaurants.\n**يا** is one of the most essential Arabic particles — used before any name or title when addressing someone.",
+      "englishPhrase": "Waiter, the bill please.",
+      "phrase": "يا نادل، الفاتورة من فضلك.",
+      "phraseRomanized": "ya nadil, al-fatura min fadlak."
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "word": "جائع",
+      "romanized": "ja'i'",
+      "grammarNote": "Arabic expresses hunger and thirst with adjectives directly — no verb needed:\n**أنا جائع** (ana ja'i') = I am hungry. **أنا عطشان** (ana atshan) = I am thirsty.\nFeminine forms: **جائعة** (ja'i'a), **عطشانة** (atshanah).",
+      "englishPhrase": "I'm hungry. Are you thirsty?",
+      "phrase": "أنا جائع. هل أنت عطشان؟",
+      "phraseRomanized": "ana ja'i'. hal anta atshan?",
+      "hidden": true
+    },
+    {
+      "id": "thirsty",
+      "english": "thirsty",
+      "word": "عطشان",
+      "romanized": "atshan",
+      "grammarNote": "**عطشان** (atshan) = thirsty — a colloquial adjective form widely used across dialects.\nFormal MSA: **عطش** ('atish, m.) / **عطشى** ('atsha, f.).\nThe **ـان** (-an) ending is typical of many colloquial emotional-state adjectives: **جوعان** (hungry), **تعبان** (tired), **زعلان** (angry/upset), **فرحان** (happy).",
+      "englishPhrase": "I'm thirsty.",
+      "phrase": "أنا عطشان.",
+      "phraseRomanized": "ana atshan.",
+      "hidden": true
+    },
+    {
+      "id": "eat",
+      "english": "eat",
+      "word": "يأكل",
+      "romanized": "ya'kul",
+      "grammarNote": "**يأكل** (ya'kul) = he eats — root **أكل** ('-k-l).\n**لنأكل** (lna'kul) = let's eat — **لـ** (li-) + **نأكل** (we eat) = 'let us eat'. This construction with **لـ** creates a hortative ('let's...').\n**آكل** (akul) = I eat — first person. **نأكل** (na'kul) = we eat. **يأكل** (ya'kul) = he eats.",
+      "englishPhrase": "Let's eat!",
+      "phrase": "لنأكل!",
+      "phraseRomanized": "lna'kul!"
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "يشرب",
+      "romanized": "yashrab",
+      "grammarNote": "**يشرب** (yashrab) = he drinks — from root **شرب** (sh-r-b), meaning to drink.\n**شراب** (sharab) = drink/beverage, **شارب** (sharib) = drinker/one who drinks, **مشروب** (mashrub) = a drink (lit. 'the drunk thing') — all from the same root.\n**شيئاً للشرب** (shay'an lish-shurb) = something to drink — **للشرب** = for drinking, a verbal noun.",
+      "englishPhrase": "Would you like something to drink?",
+      "phrase": "هل تريد شيئاً للشرب؟",
+      "phraseRomanized": "hal turid shay'an lish-shurb?"
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "word": "يطبخ",
+      "romanized": "yatbukh",
+      "grammarNote": "**يطبخ** (yatbukh) = he/she cooks — from root **طبخ** (t-b-kh).\n**هي تطبخ** (hiya tatbukh) = she cooks — note the feminine verb prefix **تـ** (t-).\n**جيداً جداً** (jayyidan jiddan) = very well — the adverb **جيداً** (well) comes before the intensifier **جداً** (very).\nDouble adverbs in Arabic: the manner adverb comes first, then the degree.",
+      "englishPhrase": "She cooks very well.",
+      "phrase": "هي تطبخ جيداً جداً.",
+      "phraseRomanized": "hiya tatbukh jayyidan jiddan."
+    },
+    {
+      "id": "bake",
+      "english": "bake",
+      "word": "يخبز",
+      "romanized": "yakhbuz",
+      "grammarNote": "**يخبز** (yakhbuz) = he bakes — from root **خبز** (kh-b-z), meaning to bake bread.\n**خباز** (khabbaz) = baker — the intensive agent pattern **فَعَّال**.\n**يوم الأحد** (yawm al-ahad) = Sunday — lit. 'day of the first'. **الأحد** = the first/one, which is Sunday in the Arabic calendar.",
+      "englishPhrase": "I bake bread on Sundays.",
+      "phrase": "أخبز الخبز يوم الأحد.",
+      "phraseRomanized": "akhbuz al-khubz yawm al-ahad.",
+      "hidden": true
+    },
+    {
+      "id": "fry",
+      "english": "fry",
+      "word": "يقلي",
+      "romanized": "yaqli",
+      "grammarNote": "**يقلي** (yaqli) = he fries — from root **قلى** (q-l-y), meaning to fry/roast.\n**مقلي** (maqli) = fried — the passive participle: **بطاطس مقلية** (fried potatoes).\n**اقلِ** (iqli) = fry! (imperative) — note the imperative of root-final weak verbs often ends in a kasra.\n**في الزيت** (fi az-zayt) = in the oil — **الزيت** with sun-letter assimilation: **ز** is a sun letter, so **الزيت** → *az-zayt*.",
+      "englishPhrase": "Fry the onions in oil.",
+      "phrase": "اقلِ البصل في الزيت.",
+      "phraseRomanized": "iqli al-basal fi az-zayt.",
+      "hidden": true
+    },
+    {
+      "id": "roast",
+      "english": "roast",
+      "word": "يشوي",
+      "romanized": "yashwi",
+      "grammarNote": "**يشوي** (yashwi) = he roasts/grills — from root **شوى** (sh-w-y), meaning to grill/roast.\n**مشوي** (mashwi) = grilled/roasted — the passive participle used as an adjective: **دجاج مشوي** (grilled chicken).\n**لمدة ساعة** (li-mudat sa'a) = for the duration of an hour — **مدة** (mudda) = duration, **ساعة** (sa'a) = hour.",
+      "englishPhrase": "Roast the chicken for one hour.",
+      "phrase": "اشوِ الدجاج لمدة ساعة.",
+      "phraseRomanized": "ishwi ad-dajaj li-mudat sa'a.",
+      "hidden": true
+    },
+    {
+      "id": "chop",
+      "english": "chop",
+      "word": "يقطع",
+      "romanized": "yaqta'",
+      "grammarNote": "**يقطع** (yaqta') = he chops/cuts — from root **قطع** (q-t-'), meaning to cut/sever.\n**قطعة** (qit'a) = a piece/cut — the noun: **قطعة لحم** (a piece of meat).\n**مقطّع** (muqatta') = chopped/cut up — intensive form showing repeated or thorough cutting.\nImperative: **اقطع** (iqta') = cut!/chop! (masculine singular).",
+      "englishPhrase": "Chop the onions.",
+      "phrase": "اقطع البصل.",
+      "phraseRomanized": "iqta' al-basal.",
+      "hidden": true
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "word": "يشرّح",
+      "romanized": "yusharrah",
+      "grammarNote": "**يشرّح** (yusharrah) = he slices — from root **شرح** (sh-r-h), meaning to explain/dissect/slice.\n**شرح** (sharh) = explanation/commentary — the same root for explaining and slicing suggests the idea of opening something up to reveal its contents.\n**تشريح** (tashrih) = dissection/anatomy — also from this root.",
+      "englishPhrase": "Slice the bread.",
+      "phrase": "شرّح الخبز.",
+      "phraseRomanized": "sharrah al-khubz.",
+      "hidden": true
+    },
+    {
+      "id": "mix",
+      "english": "mix",
+      "word": "يمزج",
+      "romanized": "yamzuj",
+      "grammarNote": "**يمزج** (yamzuj) = he mixes — from root **مزج** (m-z-j), meaning to mix/blend.\n**مزيج** (mazij) = mixture — the noun form.\n**جميع** (jami') = all/entire — from root **جمع** (j-m-'), meaning to gather/collect.\n**جميع المكونات** = all the ingredients — **جميع** followed by a definite noun.",
+      "englishPhrase": "Mix all the ingredients.",
+      "phrase": "امزج جميع المكونات.",
+      "phraseRomanized": "imzuj jami' al-mukawwinat.",
+      "hidden": true
+    },
+    {
+      "id": "stir",
+      "english": "stir",
+      "word": "يحرّك",
+      "romanized": "yuharrik",
+      "grammarNote": "**يحرّك** (yuharrik) = he stirs/moves — from root **حرك** (h-r-k), meaning to move.\n**حركة** (haraka) = movement/motion — the noun: **حركة المرور** (traffic).\n**محرّك** (muharrik) = engine/motor (lit. 'the mover') — same root.\nThe doubled consonant in **يحرّك** signals Form II — the intensified/causative verbal pattern.",
+      "englishPhrase": "Stir the soup.",
+      "phrase": "حرّك الحساء.",
+      "phraseRomanized": "harrik al-hisa'.",
+      "hidden": true
+    },
+    {
+      "id": "whisk",
+      "english": "whisk",
+      "word": "يخفق",
+      "romanized": "yakhfuq",
+      "grammarNote": "**يخفق** (yakhfuq) = he whisks/beats — from root **خفق** (kh-f-q), meaning to beat/flutter/throb.\n**خفقان القلب** (khafaqan al-qalb) = heart palpitation — the same root, of a heart beating fast.\n**البيض** (al-bayd) = the eggs — **بيض** is a broken plural (collective) of **بيضة**.",
+      "englishPhrase": "Whisk the eggs.",
+      "phrase": "اخفق البيض.",
+      "phraseRomanized": "ikhfuq al-bayd.",
+      "hidden": true
+    },
+    {
+      "id": "pour",
+      "english": "pour",
+      "word": "يسكب",
+      "romanized": "yaskub",
+      "grammarNote": "**يسكب** (yaskub) = he pours — from root **سكب** (s-k-b), meaning to pour/spill.\n**انسكب** (insikab) = to be poured/spilled — the reflexive/passive Form VII.\n**اسكب الماء في الكوب** — a typical imperative instruction. The preposition **في** (in) specifies the destination.",
+      "englishPhrase": "Pour the water into the glass.",
+      "phrase": "اسكب الماء في الكوب.",
+      "phraseRomanized": "uskub al-ma' fi al-kub.",
+      "hidden": true
+    },
+    {
+      "id": "serve",
+      "english": "serve",
+      "word": "يقدّم",
+      "romanized": "yuqaddim",
+      "grammarNote": "**يقدّم** (yuqaddim) = he serves/presents — from root **قدم** (q-d-m), meaning to present/offer.\n**قدّم** (qaddama) = he presented (past tense). **تقديم** (taqdim) = presentation/serving.\nRoot **قدم** also means 'foot' and 'to advance' — the semantic range covers moving forward and presenting.\n**النادل قدّم الطعام** — past-tense equational-word-order: verb + subject + object.",
+      "englishPhrase": "The waiter served the food.",
+      "phrase": "النادل قدّم الطعام.",
+      "phraseRomanized": "an-nadil qaddama at-ta'am.",
+      "hidden": true
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "word": "يطعم",
+      "romanized": "yut'im",
+      "grammarNote": "**يطعم** (yut'im) = he feeds — from root **طعم** (t-'-m), meaning food/taste.\n**يطعم** (Form IV) = to cause someone to eat/taste = to feed — the causative pattern.\n**طعام** (ta'am) = food, **مطعم** (mat'am) = restaurant — all from the same root.",
+      "englishPhrase": "She feeds the baby.",
+      "phrase": "هي تطعم الطفل.",
+      "phraseRomanized": "hiya tut'im at-tifl.",
+      "hidden": true
+    },
+    {
+      "id": "dine",
+      "english": "dine",
+      "word": "يتناول العشاء",
+      "romanized": "yatanawal al-asha'",
+      "grammarNote": "**يتناول** (yatanawal) = to have/consume — from root **نول** (n-w-l), meaning to reach/hand.\nForm VI **تناول** = to partake of, to receive — a more formal/polished word for eating.\n**تناولنا العشاء** (tanawalna al-asha') = we had dinner — past tense with **نا** suffix (we).\n**في مطعم جيد** = at a good restaurant — **في** for location.",
+      "englishPhrase": "We dined at a nice restaurant.",
+      "phrase": "تناولنا العشاء في مطعم جيد.",
+      "phraseRomanized": "tanawalna al-asha' fi mat'am jayyid.",
+      "hidden": true
+    },
+    {
+      "id": "chew",
+      "english": "chew",
+      "word": "يمضغ",
+      "romanized": "yamdag",
+      "grammarNote": "**يمضغ** (yamdag) = he chews — from root **مضغ** (m-d-gh), meaning to chew.\n**مضغة** (mudgha) = a chewed piece/morsel — the same root used in the Quran to describe a stage of embryonic development.\n**ببطء** (bi-but') = slowly — **بـ** (bi-, with/in a manner of) + **بطء** (but', slowness).",
+      "englishPhrase": "Chew your food slowly.",
+      "phrase": "امضغ طعامك ببطء.",
+      "phraseRomanized": "umdug ta'amak bi-but'.",
+      "hidden": true
+    },
+    {
+      "id": "swallow",
+      "english": "swallow",
+      "word": "يبتلع",
+      "romanized": "yabtali'",
+      "grammarNote": "**يبتلع** (yabtali') = he swallows — from root **بلع** (b-l-') meaning to swallow.\n**ابتلع** (ibtalaa') = to swallow (Form VIII — the reflexive/intensive derived form).\n**الحبة بالماء** (al-habba bil-ma') = the pill with water — **حبة** (habba) = pill/grain, **الماء** = the water.",
+      "englishPhrase": "Swallow the pill with water.",
+      "phrase": "ابتلع الحبة بالماء.",
+      "phraseRomanized": "ibtali' al-habba bil-ma'.",
+      "hidden": true
+    },
+    {
+      "id": "season",
+      "english": "season",
+      "word": "يتبّل",
+      "romanized": "yutabbil",
+      "grammarNote": "**يتبّل** (yutabbil) = he seasons — from root **تبل** (t-b-l), meaning spice.\n**تابل** (tabil) = spice, **توابل** (tawabil) = spices (broken plural).\n**بالملح والفلفل** (bil-milh wal-filfil) = with salt and pepper — **بـ** (with) + **ال** (the) + **و** (and).",
+      "englishPhrase": "Season with salt and pepper.",
+      "phrase": "تبّل بالملح والفلفل.",
+      "phraseRomanized": "tabbil bil-milh wal-filfil.",
+      "hidden": true
+    },
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "word": "طازج",
+      "romanized": "tazij",
+      "grammarNote": "**طازج** (tazij) = fresh — from root **طزج** (t-z-j), meaning freshness.\n**الخبز طازج** — equational sentence, no verb. Adjective after noun agrees in gender: **خبز** (m.) → **طازج** (m.).\nFeminine: **طازجة** (tazija) — **اللحمة طازجة** (the meat is fresh).",
+      "englishPhrase": "The bread is fresh.",
+      "phrase": "الخبز طازج.",
+      "phraseRomanized": "al-khubz tazij."
+    },
+    {
+      "id": "ripe",
+      "english": "ripe",
+      "word": "ناضج",
+      "romanized": "nadij",
+      "grammarNote": "**ناضج** (nadij) = ripe — from root **نضج** (n-d-j), meaning to ripen/mature/cook through.\n**نضج** also means to become mature (of a person) — **إنسان ناضج** (a mature person).\nFeminine: **ناضجة** (nadija) — **الطماطم ناضجة** (the tomatoes are ripe, f. pl.).",
+      "englishPhrase": "The tomatoes are ripe.",
+      "phrase": "الطماطم ناضجة.",
+      "phraseRomanized": "at-tamatim nadija.",
+      "hidden": true
+    },
+    {
+      "id": "cooked",
+      "english": "cooked",
+      "word": "مطبوخ",
+      "romanized": "matbukh",
+      "grammarNote": "**مطبوخ** (matbukh) = cooked — the passive participle from root **طبخ** (t-b-kh).\nThe **مَفْعُول** pattern makes passive participles: **مطبوخ** = that which has been cooked.\nSame pattern: **مكتوب** (written), **مشروب** (drunk/beverage), **مأكول** (eaten).\nFeminine: **مطبوخة** (matbukha) — **الدجاجة مطبوخة** (the chicken is cooked, f.).",
+      "englishPhrase": "Is the chicken cooked?",
+      "phrase": "هل الدجاج مطبوخ؟",
+      "phraseRomanized": "hal ad-dajaj matbukh?",
+      "hidden": true
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "word": "ساخن",
+      "romanized": "sakhin",
+      "grammarNote": "**ساخن** (sakhin) = hot (of a thing/temperature) — from root **سخن** (s-kh-n).\n**سخونة** (sukhuna) = heat, **مسخّن** (musakhkhan) = heated/warmed up.\nDon't confuse with **حارّ** (harr) = spicy/peppery hot — **ساخن** is temperature heat.\n**انتبه** (intabih) = be careful/watch out — a useful warning word, from root **نبه** (n-b-h, to alert).",
+      "englishPhrase": "Be careful, the soup is hot.",
+      "phrase": "انتبه، الحساء ساخن.",
+      "phraseRomanized": "intabih, al-hisa' sakhin."
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "word": "بارد",
+      "romanized": "barid",
+      "grammarNote": "**بارد** (barid) = cold — from root **برد** (b-r-d), meaning cold/to cool.\n**برد** (bard) = cold (noun), **مبرّد** (mubarrad) = refrigerator/cooler.\nFeminine: **باردة** (barida) — **قهوتي باردة** (qahwati barida) = my coffee is cold.\n**قهوتي** (qahwati) = my coffee — **قهوة** + possessive suffix **ي** (-i, my), with **ة** → **ت** before the suffix.",
+      "englishPhrase": "My coffee is cold.",
+      "phrase": "قهوتي باردة.",
+      "phraseRomanized": "qahwati barida."
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "word": "حلو",
+      "romanized": "hulw",
+      "grammarNote": "**حلو** (hulw) = sweet — from root **حلو** (h-l-w), meaning sweetness.\n**حلوى** (halwa) = sweets/confectionery — same root: **محل حلويات** (sweet shop).\nFeminine: **حلوة** (hulwa) — the **ة** makes it agree with feminine nouns: **الكعكة حلوة** (the cake is sweet).\n**هذه الكعكة** (hadhihi al-ka'ka) — **هذه** (this, f.) agrees with feminine **كعكة**.",
+      "englishPhrase": "This cake is very sweet.",
+      "phrase": "هذه الكعكة حلوة جداً.",
+      "phraseRomanized": "hadhihi al-ka'ka hulwa jiddan."
+    },
+    {
+      "id": "sour",
+      "english": "sour",
+      "word": "حامض",
+      "romanized": "hamid",
+      "grammarNote": "**حامض** (hamid) = sour/acidic — from root **حمض** (h-m-d), meaning acid/sourness.\n**حمض** (hamd) = acid — the same root used in chemistry: **حمض أميني** (amino acid).\n**ليمون** (laymun) = lemon — borrowed word. **الليمون حامض** — equational sentence, no verb.",
+      "englishPhrase": "This lemon is sour.",
+      "phrase": "هذا الليمون حامض.",
+      "phraseRomanized": "hadha al-laymun hamid."
+    },
+    {
+      "id": "bitter",
+      "english": "bitter",
+      "word": "مرّ",
+      "romanized": "murr",
+      "grammarNote": "**مرّ** (murr) = bitter — from root **مرر** (m-r-r), meaning bitterness/to pass.\n**مرارة** (marara) = bitterness — the abstract noun.\nFeminine: **مرّة** (murra) — **هذه القهوة مرّة** (this coffee is bitter, f.).\nInterestingly, **مرّ** also means 'he passed by' (a different voweling of the same root) — bitterness and passing time share a root.",
+      "englishPhrase": "This coffee is bitter.",
+      "phrase": "هذه القهوة مرّة.",
+      "phraseRomanized": "hadhihi al-qahwa murra.",
+      "hidden": true
+    },
+    {
+      "id": "spicy",
+      "english": "spicy",
+      "word": "حارّ",
+      "romanized": "harr",
+      "grammarNote": "**حارّ** (harr) = spicy/peppery hot — from root **حرر** (h-r-r), meaning heat/burning.\n**حرارة** (harara) = heat/temperature, **محرار** (mihrar) = thermometer — same root.\nDon't confuse with **ساخن** (sakhin) = hot in temperature — **حارّ** specifically means spicy/pungent.\nFeminine: **حارّة** (harra) — **الصلصة حارّة** (the sauce is spicy).",
+      "englishPhrase": "Mexican food is often spicy.",
+      "phrase": "الطعام المكسيكي حارّ في الغالب.",
+      "phraseRomanized": "at-ta'am al-miksiki harr fi al-ghalib."
+    },
+    {
+      "id": "tender",
+      "english": "tender",
+      "word": "طريّ",
+      "romanized": "tariyy",
+      "grammarNote": "**طريّ** (tariyy) = tender/soft/fresh — from root **طرو** (t-r-w/y), meaning freshness/softness.\n**طراوة** (tarawa) = tenderness/freshness — the abstract noun.\nUsed for both food texture and fresh produce: **خبز طريّ** (fresh soft bread), **لحم طريّ** (tender meat).\n**اللحم طريّ** — equational sentence with masculine noun and masculine adjective.",
+      "englishPhrase": "The meat is tender.",
+      "phrase": "اللحم طريّ.",
+      "phraseRomanized": "al-lahm tariyy.",
+      "hidden": true
+    },
+    {
+      "id": "delicious",
+      "english": "delicious",
+      "word": "لذيذ",
+      "romanized": "ladhidh",
+      "grammarNote": "**لذيذ** (ladhidh) = delicious — from root **لذذ** (l-dh-dh), meaning pleasure/delight.\n**لذة** (ladhha) = pleasure/delight — the abstract noun.\n**هذا لذيذ** (hadha ladhidh) — masculine because **هذا** refers to something masculine (or unspecified).\nFeminine: **لذيذة** (ladhidha) — **هذه الوجبة لذيذة** (this meal is delicious).",
+      "englishPhrase": "This is delicious!",
+      "phrase": "هذا لذيذ!",
+      "phraseRomanized": "hadha ladhidh!"
+    },
+    {
+      "id": "tasty",
+      "english": "tasty",
+      "word": "شهيّ",
+      "romanized": "shahiyy",
+      "grammarNote": "**شهيّ** (shahiyy) = tasty/appetizing — from root **شهو** (sh-h-w), meaning desire/appetite.\n**شهوة** (shahwa) = appetite/craving — the noun.\n**شهيّ** specifically suggests food that awakens the appetite.\nFeminine: **شهيّة** (shahiyya) — **الحساء شهيّ جداً** — masculine adjective agrees with masculine **الحساء**.",
+      "englishPhrase": "The soup is very tasty.",
+      "phrase": "الحساء شهيّ جداً.",
+      "phraseRomanized": "al-hisa' shahiyy jiddan.",
+      "hidden": true
+    },
+    {
+      "id": "bland",
+      "english": "bland",
+      "word": "تفه الطعم",
+      "romanized": "tafih at-ta'm",
+      "grammarNote": "**تفه الطعم** (tafih at-ta'm) = bland — lit. 'trivial of taste', an إضافة construction.\n**تافه** (tafih) = trivial/bland/insignificant — from root **تفه** (t-f-h).\n**الطعم** (at-ta'm) = the taste — from root **طعم** (t-'-m) which also gives **طعام** (food) and **مطعم** (restaurant).\nAlternative phrase: **لا طعم له** (la ta'm lahu) = it has no taste.",
+      "englishPhrase": "The rice is bland.",
+      "phrase": "الأرز تفه الطعم.",
+      "phraseRomanized": "al-aruzz tafih at-ta'm.",
+      "hidden": true
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "word": "صحيّ",
+      "romanized": "sihiyy",
+      "grammarNote": "**صحيّ** (sihiyy) = healthy — from root **صحح** / **صحو** (s-h-h/w), meaning health/correctness.\n**صحة** (sihha) = health, **صحيح** (sahih) = correct/sound — same root family.\n**الفاكهة صحية** (al-fakiha sihiyya) — feminine adjective **صحية** agrees with feminine noun **الفاكهة**.",
+      "englishPhrase": "Fruit is healthy.",
+      "phrase": "الفاكهة صحية.",
+      "phraseRomanized": "al-fakiha sihiyya."
+    },
+    {
+      "id": "unhealthy",
+      "english": "unhealthy",
+      "word": "غير صحيّ",
+      "romanized": "ghayr sihiyy",
+      "grammarNote": "**غير** (ghayr) = non-/not/other than — a particle that negates an adjective: **غير صحيّ** = unhealthy, **غير صحيح** = incorrect.\n**الوجبات السريعة** (al-wajbat as-sari'a) = fast food — **سريع** (sari', fast) with the plural noun.\n**غير** is widely used: **غير ممكن** (impossible), **غير مناسب** (inappropriate).",
+      "englishPhrase": "Fast food is unhealthy.",
+      "phrase": "الوجبات السريعة غير صحية.",
+      "phraseRomanized": "al-wajbat as-sari'a ghayr sihiyya.",
+      "hidden": true
+    },
+    {
+      "id": "vegetarian",
+      "english": "vegetarian",
+      "word": "نباتي",
+      "romanized": "nabati",
+      "grammarNote": "**نباتي** (nabati) = vegetarian — from root **نبت** (n-b-t), meaning to grow/sprout.\n**نبات** (nabat) = plant/vegetation, **نباتات** (nabatat) = plants.\nFeminine: **نباتية** (nabatiyya) — **أنا نباتية** (I am vegetarian, f.).\n**أنا نباتي** — equational sentence: no verb 'to be' needed.",
+      "englishPhrase": "I am vegetarian.",
+      "phrase": "أنا نباتي.",
+      "phraseRomanized": "ana nabati.",
+      "hidden": true
+    },
+    {
+      "id": "vegan",
+      "english": "vegan",
+      "word": "نباتي صارم",
+      "romanized": "nabati sarim",
+      "grammarNote": "**نباتي صارم** (nabati sarim) = vegan — lit. 'strict vegetarian'.\n**صارم** (sarim) = strict/rigorous — from root **صرم** (s-r-m), meaning to cut off/sever.\n**هي نباتية صارمة** — both adjectives take feminine form to agree with the feminine subject **هي**.",
+      "englishPhrase": "She is vegan.",
+      "phrase": "هي نباتية صارمة.",
+      "phraseRomanized": "hiya nabatiyya sarima.",
+      "hidden": true
+    },
+    {
+      "id": "frozen",
+      "english": "frozen",
+      "word": "مجمّد",
+      "romanized": "mujammad",
+      "grammarNote": "**مجمّد** (mujammad) = frozen — from root **جمد** (j-m-d), meaning to freeze/solidify.\n**جمود** (jumud) = rigidity/stagnation — the abstract noun.\n**مجمّد** follows the **مُفَعَّل** pattern — the passive participle of Form II (intensive/causative verbs).\n**الطعام المجمّد** (at-ta'am al-mujammad) = the frozen food — adjective following definite noun, also definite.",
+      "englishPhrase": "Take the frozen food out.",
+      "phrase": "أخرج الطعام المجمّد.",
+      "phraseRomanized": "akhrij at-ta'am al-mujammad.",
+      "hidden": true
+    },
+    {
+      "id": "organic",
+      "english": "organic",
+      "word": "عضوي",
+      "romanized": "'udwi",
+      "grammarNote": "**عضوي** ('udwi) = organic — from root **عضو** ('-d-w), meaning member/organ.\n**عضو** ('udw) = member/organ — as in body organ or club member.\n**عضوي** in chemistry/food science means 'organic' (carbon-based or naturally grown).\nFeminine: **عضوية** ('udwiyya) — **الخضروات العضوية** (the organic vegetables, f. pl.).",
+      "englishPhrase": "I prefer organic vegetables.",
+      "phrase": "أفضل الخضروات العضوية.",
+      "phraseRomanized": "ufaddil al-khadrawat al-'udwiyya.",
+      "hidden": true
+    },
+    {
+      "id": "homemade",
+      "english": "homemade",
+      "word": "منزلي الصنع",
+      "romanized": "manzili as-sun'",
+      "grammarNote": "**منزلي الصنع** (manzili as-sun') = homemade — lit. 'home-made' using إضافة: 'domestic of the making'.\n**منزلي** (manzili) = home/domestic — adjective from **منزل** (manzil, house/dwelling).\n**الصنع** (as-sun') = the making — from root **صنع** (s-n-'), meaning to make/manufacture.\n**الخبز المنزلي** = the home bread — adjective **منزلي** after the noun.",
+      "englishPhrase": "I love homemade bread.",
+      "phrase": "أحب الخبز المنزلي.",
+      "phraseRomanized": "uhibb al-khubz al-manzili.",
+      "hidden": true
+    },
+    {
+      "id": "daily",
+      "english": "daily",
+      "word": "يومي",
+      "romanized": "yawmi",
+      "grammarNote": "**يومي** (yawmi) = daily — adjective/adverb from **يوم** (yawm, day).\n**يومياً** (yawmiyan) = daily (adverb) — with the adverbial tanwin ending **ـاً**.\n**يوم** (yawm) = day — plural **أيام** (ayyam, days) — a broken plural.\n**آكل الفاكهة يومياً** — **يومياً** modifies the verb, placed at the end.",
+      "englishPhrase": "I eat fruit daily.",
+      "phrase": "آكل الفاكهة يومياً.",
+      "phraseRomanized": "akul al-fakiha yawmiyan.",
+      "hidden": true
+    },
+    {
+      "id": "almost",
+      "english": "almost",
+      "word": "تقريباً",
+      "romanized": "taqriban",
+      "grammarNote": "**تقريباً** (taqriban) = almost/approximately — from root **قرب** (q-r-b), meaning nearness.\n**قريب** (qarib) = near/close, **تقريب** (taqrib) = approximation — same root.\n**الغداء جاهز تقريباً** — the adverb **تقريباً** comes after the predicate adjective **جاهز**.\n**تقريباً** is also used for approximations with numbers: **تقريباً عشرون** (approximately twenty).",
+      "englishPhrase": "Lunch is almost ready.",
+      "phrase": "الغداء جاهز تقريباً.",
+      "phraseRomanized": "al-ghada' jahiz taqriban.",
+      "hidden": true
+    },
+    {
+      "id": "too_too_much",
+      "english": "too (too much)",
+      "word": "أكثر من اللازم",
+      "romanized": "akthar min al-lazim",
+      "grammarNote": "**أكثر من اللازم** (akthar min al-lazim) = too much — lit. 'more than the necessary'.\n**أكثر** (akthar) = more — the comparative of **كثير** (kathir, many/much), using the **أَفْعَل** comparative pattern.\n**اللازم** (al-lazim) = what is necessary/required — from root **لزم** (l-z-m), meaning to be obligatory.\n**الملح أكثر من اللازم** — the salt is in excess of what is needed.",
+      "englishPhrase": "There is too much salt.",
+      "phrase": "الملح أكثر من اللازم.",
+      "phraseRomanized": "al-milh akthar min al-lazim.",
+      "hidden": true
+    }
+  ]
+}

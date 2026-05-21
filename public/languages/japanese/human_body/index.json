@@ -1,0 +1,1748 @@
+{
+  "id": "human_body",
+  "name": "Human Body",
+  "language": "japanese",
+  "stories": [
+    "after_exercise",
+    "at_the_doctor",
+    "getting_ready",
+    "catching_a_cold",
+    "at_the_dentist"
+  ],
+  "pictureLessons": [
+    "human_body"
+  ],
+  "grammarLessons": [
+    {
+      "id": "ga_itai",
+      "name": "〜が痛い — Expressing Pain"
+    },
+    {
+      "id": "te_kudasai",
+      "name": "〜てください — Please Do"
+    },
+    {
+      "id": "i_adjectives",
+      "name": "い Adjectives"
+    },
+    {
+      "id": "na_adjectives",
+      "name": "な Adjectives"
+    },
+    {
+      "id": "te_iru",
+      "name": "〜ています — Progressive & Ongoing State"
+    },
+    {
+      "id": "nakereba_narimasen",
+      "name": "〜なければなりません — Must / Have To"
+    }
+  ],
+  "cards": [
+    {
+      "id": "head",
+      "english": "head",
+      "word": "頭",
+      "romanized": "atama",
+      "grammarNote": "Pain is expressed with **が痛い**: **頭が痛い** = my head hurts.\nThe body part takes **が** (subject particle) and **痛い** is an adjective — the body part becomes the subject of the pain.",
+      "englishPhrase": "My head hurts.",
+      "phrase": "頭が痛いです。",
+      "phraseRomanized": "atama ga itai desu",
+      "literal": [
+        [
+          "頭",
+          "head"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "word": "髪",
+      "romanized": "kami",
+      "grammarNote": "**髪** (kami) = hair on the head. **毛** (ke) = body hair in general.\n**髪が長い** (has long hair); **髪が短い** (has short hair).",
+      "englishPhrase": "She has long hair.",
+      "phrase": "彼女は髪が長いです。",
+      "phraseRomanized": "kanojo wa kami ga nagai desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "髪",
+          "hair"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "長い",
+          "long"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "word": "顔",
+      "romanized": "kao",
+      "grammarNote": "**顔** (kao) = face. Common compounds: **顔色** (kaoiro) = complexion/facial color, **笑顔** (egao) = smiling face.\n**顔を洗う** (kao wo arau) = to wash one's face. The **を** marks **顔** as the direct object of **洗う** (to wash).\n**〜てください** (te kudasai) = 'please do ~': a polite request form.",
+      "englishPhrase": "Wash your face.",
+      "phrase": "顔を洗ってください。",
+      "phraseRomanized": "kao wo aratte kudasai",
+      "literal": [
+        [
+          "顔",
+          "face"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "洗って",
+          "wash"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "word": "目",
+      "romanized": "me",
+      "grammarNote": "**目** (me) = eye. On-reading: **もく/ぼく** (moku/boku) as in **眼科** (ganka, ophthalmology).\n**青い目をしている** (aoi me wo shite iru) = 'has blue eyes' — lit. 'is doing blue eyes'. **〜をしている** is a pattern for describing physical features: **丸い目をしている** (has round eyes).\n**目が悪い** (me ga warui) = has poor eyesight.",
+      "englishPhrase": "He has blue eyes.",
+      "phrase": "彼は青い目をしています。",
+      "phraseRomanized": "kare wa aoi me wo shite imasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "青い",
+          "blue"
+        ],
+        [
+          "目",
+          "eyes"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "して",
+          "doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "word": "耳",
+      "romanized": "mimi",
+      "grammarNote": "**耳** (mimi) = ear. On-reading: **じ** (ji) as in **耳鼻科** (jibi-ka, ENT clinic — ear, nose).\n**耳が痛い** (mimi ga itai) = my ear hurts. The body part is the subject with **が** and **痛い** (itai) is the adjective.\n**耳が遠い** (mimi ga tōi) = hard of hearing; **耳がいい** (mimi ga ii) = has good hearing.",
+      "englishPhrase": "My ear hurts.",
+      "phrase": "耳が痛いです。",
+      "phraseRomanized": "mimi ga itai desu",
+      "literal": [
+        [
+          "耳",
+          "ear"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "word": "鼻",
+      "romanized": "hana",
+      "grammarNote": "**鼻** (hana) = nose. Compounds: **鼻水** (hanamizu) = runny nose (lit. 'nose water'), **鼻血** (hanaji) = nosebleed.\n**鼻が冷たい** (hana ga tsumetai) = my nose is cold. **冷たい** (tsumetai) = cold to the touch (for objects/body parts). Compare **寒い** (samui) = cold weather/air.",
+      "englishPhrase": "My nose is cold.",
+      "phrase": "鼻が冷たいです。",
+      "phraseRomanized": "hana ga tsumetai desu",
+      "literal": [
+        [
+          "鼻",
+          "nose"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "冷たい",
+          "cold"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "word": "口",
+      "romanized": "kuchi",
+      "grammarNote": "**口** (kuchi) = mouth. On-reading: **こう** (kō) as in **口腔** (kōkū, oral cavity).\n**口を開ける** (kuchi wo akeru) = to open one's mouth. **開ける** (akeru) = to open (transitive); **開く** (aku) = to open (intransitive).\nBody-part instructions use **〜てください**: **口を開けてください** = 'please open your mouth'.",
+      "englishPhrase": "Open your mouth.",
+      "phrase": "口を開けてください。",
+      "phraseRomanized": "kuchi wo akete kudasai",
+      "literal": [
+        [
+          "口",
+          "mouth"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "開けて",
+          "open"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "lip",
+      "english": "lip",
+      "word": "唇",
+      "romanized": "kuchibiru",
+      "grammarNote": "**唇** (kuchibiru) = lip(s). The kanji combines **口** (kuchi, mouth) + **辱** — but in practice, the word is best learned as a unit.\n**唇が赤い** (kuchibiru ga akai) = lips are red. The body-feature pattern **Xは Yが 形容詞** describes a physical feature: **彼女は唇が赤い** = 'Her lips are red'.\n**赤い** (akai) = red — an い-adjective.",
+      "englishPhrase": "She has red lips.",
+      "phrase": "彼女は唇が赤いです。",
+      "phraseRomanized": "kanojo wa kuchibiru ga akai desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "唇",
+          "lips"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "赤い",
+          "red"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tooth_teeth",
+      "english": "tooth (teeth)",
+      "word": "歯",
+      "romanized": "ha",
+      "grammarNote": "**歯** (ha) = tooth/teeth. On-reading: **し** (shi) in **歯科** (shika, dentistry).\n**歯が痛い** (ha ga itai) = I have a toothache; lit. 'teeth hurt'. The standard pain pattern: body part + **が痛い**.\n**歯を磨く** (ha wo migaku) = to brush one's teeth. **歯ブラシ** (haburashi) = toothbrush.",
+      "englishPhrase": "I have a toothache.",
+      "phrase": "歯が痛いです。",
+      "phraseRomanized": "ha ga itai desu",
+      "literal": [
+        [
+          "歯",
+          "tooth"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "tongue",
+      "english": "tongue",
+      "word": "舌",
+      "romanized": "shita",
+      "grammarNote": "**舌** (shita) = tongue. Note that **下** (shita) also means 'below/under' — same pronunciation, different kanji.\n**舌を出す** (shita wo dasu) = to stick out one's tongue; **出す** (dasu) = to put out/produce.\n**舌打ち** (shitauchi) = clicking one's tongue (a sound of annoyance). **舌触り** (shitazawari) = texture in the mouth.",
+      "englishPhrase": "Stick out your tongue.",
+      "phrase": "舌を出してください。",
+      "phraseRomanized": "shita wo dashite kudasai",
+      "literal": [
+        [
+          "舌",
+          "tongue"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "出して",
+          "stick out"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "word": "首",
+      "romanized": "kubi",
+      "grammarNote": "**首** (kubi) = neck. Also means 'head' in old or figurative usage: **首になる** = to be fired (lit. 'to become a head/neck' — as if decapitated).\n**首が凝っている** (kubi ga kotte iru) = my neck is stiff. **凝る** (koru) = to stiffen/be tense — **〜ている** here describes an ongoing physical state.\nRelated: **肩が凝る** (kata ga koru) = stiff shoulders.",
+      "englishPhrase": "My neck is stiff.",
+      "phrase": "首が凝っています。",
+      "phraseRomanized": "kubi ga kotte imasu",
+      "literal": [
+        [
+          "首",
+          "neck"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "凝って",
+          "stiff"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "word": "腕",
+      "romanized": "ude",
+      "grammarNote": "**腕** (ude) = arm. The **月** (flesh/meat radical, originally **肉**) on the left appears in many body part kanji: **腕** (arm), **胸** (chest), **腹** (belly), **腰** (waist).\n**腕を骨折する** (ude wo kossetsu suru) = to fracture/break one's arm. **骨折** (kossetsu) = fracture (noun): **骨** (bone) + **折** (break).\n**腕がいい** (ude ga ii) = to be skilled — a figurative use meaning 'good arm = good skills'.",
+      "englishPhrase": "I broke my arm.",
+      "phrase": "腕を骨折しました。",
+      "phraseRomanized": "ude wo kossetsu shimashita",
+      "literal": [
+        [
+          "腕",
+          "arm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "骨折しました",
+          "fractured"
+        ]
+      ]
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "word": "手",
+      "romanized": "te",
+      "grammarNote": "**手** (te) = hand. On-reading: **しゅ** (shu) in **手術** (shujutsu, surgery).\n**手を洗う** (te wo arau) = to wash one's hands. **洗う** (arau) = to wash.\n**手** appears in many compound words: **上手** (jōzu, skillful), **下手** (heta, unskillful), **手伝う** (tetsudau, to help).",
+      "englishPhrase": "Wash your hands.",
+      "phrase": "手を洗ってください。",
+      "phraseRomanized": "te wo aratte kudasai",
+      "literal": [
+        [
+          "手",
+          "hands"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "洗って",
+          "wash"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "word": "指",
+      "romanized": "yubi",
+      "grammarNote": "**指** (yubi) = finger or toe. **手の指** (te no yubi) = finger; **足の指** (ashi no yubi) = toe.\n**指を切る** (yubi wo kiru) = to cut one's finger. **切る** (kiru) = to cut.\n**指さす** (yubisasu) = to point at something. The prefix **指** + **さす** (to point) creates the compound verb.",
+      "englishPhrase": "He cut his finger.",
+      "phrase": "彼は指を切りました。",
+      "phraseRomanized": "kare wa yubi wo kirimashita",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "指",
+          "finger"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "切りました",
+          "cut"
+        ]
+      ]
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "word": "胸",
+      "romanized": "mune",
+      "grammarNote": "**胸** (mune) = chest. The **月** (flesh radical) on the left shows this is a body part.\n**胸が痛い** (mune ga itai) = chest hurts/heart aches. **胸が痛い** can describe both physical pain and emotional heartache.\n**胸がドキドキする** (mune ga dokidoki suru) = heart is racing; **ドキドキ** = onomatopoeia for a pounding heart.",
+      "englishPhrase": "He has chest pain.",
+      "phrase": "彼は胸が痛いです。",
+      "phraseRomanized": "kare wa mune ga itai desu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "胸",
+          "chest"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "word": "背中",
+      "romanized": "senaka",
+      "grammarNote": "**背中** (senaka) = back (of the body). **背** (se/hai) alone = height/back; **中** (naka) = middle/inside.\n**背中が痛い** (senaka ga itai) = my back hurts. Standard pain pattern: body part + **が痛い**.\n**腰** (koshi) = lower back/waist; **背中** = upper/mid back. **腰痛** (yōtsū) = lower back pain.",
+      "englishPhrase": "My back hurts.",
+      "phrase": "背中が痛いです。",
+      "phraseRomanized": "senaka ga itai desu",
+      "literal": [
+        [
+          "背中",
+          "back"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "heart",
+      "english": "heart",
+      "word": "心臓",
+      "romanized": "shinzō",
+      "grammarNote": "**心臓** (shinzō) = the physical heart organ. **心** (kokoro) = the emotional/psychological heart/mind.\n**心臓がドキドキする** (shinzō ga dokidoki suru) = heart is pounding; **ドキドキ** = onomatopoeia for a racing heartbeat.\n**〜がしている** here means the heart is doing the action of pounding — the heart (subject with **が**) is performing **ドキドキする**.",
+      "englishPhrase": "My heart is beating fast.",
+      "phrase": "心臓がドキドキしています。",
+      "phraseRomanized": "shinzō ga dokidoki shite imasu",
+      "literal": [
+        [
+          "心臓",
+          "heart"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ドキドキして",
+          "thump-thump doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "word": "お腹",
+      "romanized": "onaka",
+      "grammarNote": "**お腹** (onaka) = stomach/belly. The **お** prefix is an honorific that has become fixed with **腹** (hara/naka) — you almost always say **お腹** rather than just **腹** in polite speech.\n**お腹が痛い** (onaka ga itai) = stomachache. **お腹が空く** (onaka ga suku) = to get hungry (lit. 'stomach empties').\nSimilarly, **お尻** (oshiri) = buttocks — always uses the **お** prefix in polite speech.",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "お腹が痛いです。",
+      "phraseRomanized": "onaka ga itai desu",
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "muscle",
+      "english": "muscle",
+      "word": "筋肉",
+      "romanized": "kin'niku",
+      "grammarNote": "**筋肉** (kin'niku) = muscle. **筋** (kin/suji) = sinew/fiber; **肉** (niku) = flesh/meat.\nThe **月** radical in **肉** originally meant flesh — this radical appears in many body-part kanji.\n**筋肉を痛める** (kin'niku wo itameru) = to hurt/strain a muscle. **痛める** (itameru) = to injure/hurt (transitive).\n**筋肉痛** (kinnikutsū) = muscle soreness/DOMS.",
+      "englishPhrase": "I pulled a muscle.",
+      "phrase": "筋肉を痛めました。",
+      "phraseRomanized": "kin'niku wo itamemashita",
+      "literal": [
+        [
+          "筋肉",
+          "muscle"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "痛めました",
+          "hurt"
+        ]
+      ]
+    },
+    {
+      "id": "waist",
+      "english": "waist",
+      "word": "腰",
+      "romanized": "koshi",
+      "grammarNote": "**腰** (koshi) = waist/lower back. The **月** (flesh radical) shows it is a body part.\n**腰が痛い** (koshi ga itai) = lower back hurts. **腰痛** (yōtsū) = chronic lower back pain.\n**ウエスト** (uesuto) = waist measurement (loanword from English, used in the phrase here).\nThe body-feature pattern: **彼女はウエストが細い** = 'Her waist is slim'.",
+      "englishPhrase": "She has a slim waist.",
+      "phrase": "彼女はウエストが細いです。",
+      "phraseRomanized": "kanojo wa uesuto ga hosoi desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ウエスト",
+          "waist"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "細い",
+          "slim"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "skin",
+      "english": "skin",
+      "word": "肌",
+      "romanized": "hada",
+      "grammarNote": "**肌** (hada) = skin (especially skin as a surface, complexion). Compare **皮膚** (hifu) = skin (medical term).\n**肌が柔らかい** (hada ga yawarakai) = skin is soft. **柔らかい** (yawarakai) = soft — an い-adjective.\nBody feature pattern: **彼女は肌が柔らかい** = 'Her skin is soft'.\n**肌荒れ** (hadaware) = rough/dry skin; **素肌** (suhada) = bare skin.",
+      "englishPhrase": "Her skin is soft.",
+      "phrase": "彼女は肌が柔らかいです。",
+      "phraseRomanized": "kanojo wa hada ga yawarakai desu",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "肌",
+          "skin"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "柔らかい",
+          "soft"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "blood",
+      "english": "blood",
+      "word": "血",
+      "romanized": "chi",
+      "grammarNote": "**血** (chi) = blood. On-reading: **けつ** (ketsu) in compounds: **血液** (ketsueki, blood — medical), **献血** (kenketsu, blood donation).\n**献血する** (kenketsu suru) = to donate blood: **献** (ken) = to offer/dedicate + **血** (chi) = blood.\n**血が出る** (chi ga deru) = to bleed (lit. 'blood comes out'); **血が止まる** (chi ga tomaru) = bleeding stops.",
+      "englishPhrase": "He donated blood.",
+      "phrase": "彼は献血しました。",
+      "phraseRomanized": "kare wa kenketsu shimashita",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "献血しました",
+          "blood-donation did"
+        ]
+      ]
+    },
+    {
+      "id": "brain",
+      "english": "brain",
+      "word": "脳",
+      "romanized": "nō",
+      "grammarNote": "**脳** (nō) = brain. The **月** (flesh radical) appears here too. Compounds: **脳梗塞** (nōkōsoku, stroke), **脳波** (nōha, brain waves).\n**複雑** (fukuzatsu) = complex/complicated — a な-adjective: **複雑な問題** (a complex problem).\n**脳は複雑です** = 'The brain is complex' — **は** marks **脳** as the topic.",
+      "englishPhrase": "The brain is complex.",
+      "phrase": "脳は複雑です。",
+      "phraseRomanized": "nō wa fukuzatsu desu",
+      "literal": [
+        [
+          "脳",
+          "brain"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "複雑",
+          "complex"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "skull",
+      "english": "skull",
+      "word": "頭蓋骨",
+      "romanized": "zugaikotsu",
+      "grammarNote": "**頭蓋骨** (zugaikotsu) = skull: **頭蓋** (zugai, cranium) + **骨** (kotsu/hone, bone).\n**骨** (hone) = bone; on-reading **こつ** (kotsu) in medical compounds: **骨折** (kossetsu, fracture), **骨盤** (kotsuban, pelvis).\n**〜は〜を守る** (wa wo mamoru) = '~ protects ~': **頭蓋骨は脳を守る** = 'The skull protects the brain'. **守る** (mamoru) = to protect/guard.",
+      "englishPhrase": "The skull protects the brain.",
+      "phrase": "頭蓋骨は脳を守ります。",
+      "phraseRomanized": "zugaikotsu wa nō wo mamorimasu",
+      "literal": [
+        [
+          "頭蓋骨",
+          "skull"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "脳",
+          "brain"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "守ります",
+          "protects"
+        ]
+      ]
+    },
+    {
+      "id": "breast",
+      "english": "breast",
+      "word": "胸",
+      "romanized": "mune",
+      "grammarNote": "**胸** (mune) = chest/breast — the same kanji is used for both chest (card: chest) and breast depending on context.\n**〜に痛みを感じる** (ni itami wo kanjiru) = 'to feel pain in ~': the location takes **に**, and **痛み** (pain, noun) takes **を** as the direct object of **感じる** (to feel).\nCompare: **胸が痛い** (chest hurts, adjective pattern) vs **胸に痛みを感じる** (feel pain in the chest, noun pattern).",
+      "englishPhrase": "She felt pain in her chest.",
+      "phrase": "彼女は胸に痛みを感じました。",
+      "phraseRomanized": "kanojo wa mune ni itami wo kanjimashita",
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "胸",
+          "chest"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "痛み",
+          "pain"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じました",
+          "felt"
+        ]
+      ]
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "word": "足",
+      "romanized": "ashi",
+      "grammarNote": "**足** (ashi) = leg or foot — Japanese uses the same word for both. Context or a modifier clarifies: **足の裏** (sole of foot), **足の指** (toe).\n**足が疲れている** (ashi ga tsukarete iru) = legs are tired. **疲れる** (tsukareru) = to get tired; in **〜ている** form it describes the resulting state of tiredness.",
+      "englishPhrase": "My leg is tired.",
+      "phrase": "足が疲れています。",
+      "phraseRomanized": "ashi ga tsukarete imasu",
+      "literal": [
+        [
+          "足",
+          "leg"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "疲れて",
+          "tired"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "foot_feet",
+      "english": "foot (feet)",
+      "word": "足",
+      "romanized": "ashi",
+      "grammarNote": "**足** (ashi) can mean both 'leg' and 'foot' depending on context.\n**足の裏** = the sole of the foot; **足の指** = the toe.",
+      "englishPhrase": "My feet hurt.",
+      "phrase": "足が痛いです。",
+      "phraseRomanized": "ashi ga itai desu",
+      "literal": [
+        [
+          "足",
+          "feet"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "toe",
+      "english": "toe",
+      "word": "足の指",
+      "romanized": "ashi no yubi",
+      "grammarNote": "**足の指** (ashi no yubi) = toe; lit. 'finger of the foot'. The **の** links the possessor (foot) to the possessed (finger/toe).\n**ぶつける** (butsukeru) = to knock/bang into something — a common mishap verb.\n**足の指をぶつける** = to stub a toe. The **を** marks the toe as the object of the action.",
+      "englishPhrase": "He stubbed his toe.",
+      "phrase": "彼は足の指をぶつけました。",
+      "phraseRomanized": "kare wa ashi no yubi wo butsukemashita",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "足",
+          "foot"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "指",
+          "toe"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ぶつけました",
+          "bumped"
+        ]
+      ]
+    },
+    {
+      "id": "joint",
+      "english": "joint",
+      "word": "関節",
+      "romanized": "kansetsu",
+      "grammarNote": "**関節** (kansetsu) = joint: **関** (kan) = connection + **節** (setsu) = segment/node.\n**〜くなっている** (ku natte iru) = has become more ~ (change of state that persists): **固くなっている** = has become stiff and remains so.\n**固い** (katai) = hard/stiff — an い-adjective. **固く** is the adverbial form: modifies the verb **なる**.",
+      "englishPhrase": "My joints are stiff.",
+      "phrase": "関節が固くなっています。",
+      "phraseRomanized": "kansetsu ga kataku natte imasu",
+      "literal": [
+        [
+          "関節",
+          "joints"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "固く",
+          "stiff"
+        ],
+        [
+          "なって",
+          "becoming"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "word": "息",
+      "romanized": "iki",
+      "grammarNote": "**息** (iki) = breath. Compounds: **息子** (musuko, son — lit. 'breath-child'), **呼吸** (kokyū, breathing/respiration).\n**息を止める** (iki wo tomeru) = to hold one's breath; lit. 'to stop the breath'. **止める** (tomeru) = to stop (transitive).\n**息をする** (iki wo suru) = to breathe; **深呼吸する** (shinkokyū suru) = to take a deep breath.",
+      "englishPhrase": "Hold your breath.",
+      "phrase": "息を止めてください。",
+      "phraseRomanized": "iki wo tomete kudasai",
+      "literal": [
+        [
+          "息",
+          "breath"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "止めて",
+          "stop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "word": "見る",
+      "romanized": "miru",
+      "grammarNote": "**見る** (miru) = to look at/watch (intentional action).\n**見える** (mieru) = to be visible / can see (potential/spontaneous): **はっきり見える** = can see clearly.\nThe phrase uses **見えます**, not **見ます** — this is a key distinction: **見る** is volitional (I look), **見える** is non-volitional (it is visible, I can see).",
+      "englishPhrase": "I can see clearly.",
+      "phrase": "はっきり見えます。",
+      "phraseRomanized": "hakkiri miemasu",
+      "literal": [
+        [
+          "はっきり",
+          "clearly"
+        ],
+        [
+          "見えます",
+          "can see"
+        ]
+      ]
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "word": "聞く",
+      "romanized": "kiku",
+      "grammarNote": "**聞く** (kiku) = to listen/ask (intentional).\n**聞こえる** (kikoeru) = to be audible / can hear (spontaneous/potential): **聞こえません** = 'cannot hear / inaudible'.\nJust like **見る/見える**, Japanese distinguishes: **聞く** (I listen) vs **聞こえる** (it is heard/audible). The phrase uses **聞こえません** — the sound doesn't reach me.",
+      "englishPhrase": "I can't hear you.",
+      "phrase": "聞こえません。",
+      "phraseRomanized": "kikoemasen",
+      "literal": [
+        [
+          "聞こえません",
+          "cannot hear"
+        ]
+      ]
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "word": "嗅ぐ",
+      "romanized": "kagu",
+      "grammarNote": "**嗅ぐ** (kagu) = to sniff/smell (intentional). **匂い** (nioi) = smell/scent (noun).\n**匂いがする** (nioi ga suru) = 'a smell is happening / there is a smell' — the smell is the subject with **が**, and **する** conveys a sensory impression.\nThis **する** pattern for senses: **音がする** (a sound is heard), **味がする** (a taste is detected).",
+      "englishPhrase": "I can smell the flowers.",
+      "phrase": "花の匂いがします。",
+      "phraseRomanized": "hana no nioi ga shimasu",
+      "literal": [
+        [
+          "花",
+          "flower"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "匂い",
+          "scent"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "します",
+          "does"
+        ]
+      ]
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "word": "味わう",
+      "romanized": "ajiwau",
+      "grammarNote": "**味わう** (ajiwau) = to savor/taste (intentional, often implies appreciation).\n**味** (aji) = taste/flavor (noun). **味見する** (ajimi suru) = to taste a sample — used in the example phrase.\n**味がする** = 'it has a taste' (sensory). **美味しい** (oishii) = delicious — a very common い-adjective.",
+      "englishPhrase": "Taste this soup.",
+      "phrase": "このスープを味見してください。",
+      "phraseRomanized": "kono sūpu wo ajimi shite kudasai",
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "味見して",
+          "taste"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "touch",
+      "english": "touch",
+      "word": "触る",
+      "romanized": "sawaru",
+      "grammarNote": "**触る** (sawaru) = to touch/feel (intransitive; takes **に** for what is touched).\n**触れる** (fureru) = to touch/come into contact with (slightly more formal/gentle).\n**触らないでください** = 'please don't touch': **〜ないでください** (naide kudasai) = polite prohibition.\nNote: **触らないで！** (without **ください**) = 'Don't touch!' — more urgent/casual.",
+      "englishPhrase": "Don't touch that!",
+      "phrase": "触らないでください！",
+      "phraseRomanized": "sawaranaide kudasai",
+      "literal": [
+        [
+          "触らないで",
+          "don't touch"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "breathe",
+      "english": "breathe",
+      "word": "呼吸する",
+      "romanized": "kokyū suru",
+      "grammarNote": "**呼吸する** (kokyū suru) = to breathe/respire. **呼吸** (kokyū) = breathing/respiration (noun).\n**ゆっくり** (yukkuri) = slowly/leisurely — an adverb placed before the verb.\n**深呼吸する** (shinkokyū suru) = to take a deep breath: **深** (shin/fuka, deep) + **呼吸**.\n**息をする** (iki wo suru) is a more casual alternative for 'to breathe'.",
+      "englishPhrase": "Breathe slowly.",
+      "phrase": "ゆっくり呼吸してください。",
+      "phraseRomanized": "yukkuri kokyū shite kudasai",
+      "literal": [
+        [
+          "ゆっくり",
+          "slowly"
+        ],
+        [
+          "呼吸して",
+          "breathe"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "bend",
+      "english": "bend",
+      "word": "曲げる",
+      "romanized": "mageru",
+      "grammarNote": "**曲げる** (mageru) = to bend (transitive). **曲がる** (magaru) = to bend/turn (intransitive).\n**膝を曲げる** (hiza wo mageru) = to bend one's knees. **膝** (hiza) = knee.\n**膝** is a common body-part instruction word in physical therapy and exercise contexts. **膝を曲げてください** = 'Please bend your knees'.",
+      "englishPhrase": "Bend your knees.",
+      "phrase": "膝を曲げてください。",
+      "phraseRomanized": "hiza wo magete kudasai",
+      "literal": [
+        [
+          "膝",
+          "knees"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "曲げて",
+          "bend"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "stretch",
+      "english": "stretch",
+      "word": "伸ばす",
+      "romanized": "nobasu",
+      "grammarNote": "**伸ばす** (nobasu) = to stretch/extend (transitive). **伸びる** (nobiru) = to stretch/grow (intransitive).\n**腕を伸ばす** (ude wo nobasu) = to stretch/extend one's arms. **腕** (ude) = arm.\nRelated: **背を伸ばす** (se wo nobasu) = to straighten one's posture; **髪を伸ばす** (kami wo nobasu) = to grow out one's hair.",
+      "englishPhrase": "Stretch your arms.",
+      "phrase": "腕を伸ばしてください。",
+      "phraseRomanized": "ude wo nobashite kudasai",
+      "literal": [
+        [
+          "腕",
+          "arms"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "伸ばして",
+          "stretch"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "word": "肩",
+      "romanized": "kata",
+      "grammarNote": "**肩** (kata) = shoulder. The **月** (flesh radical) is present here.\n**肩が痛い** (kata ga itai) = my shoulder hurts. Standard pain pattern with **が** subject + **痛い**.\n**肩が凝る** (kata ga koru) = stiff/tight shoulders — very common in Japan; **肩こり** (katakori) = shoulder stiffness (a common complaint).",
+      "englishPhrase": "My shoulder hurts.",
+      "phrase": "肩が痛いです。",
+      "phraseRomanized": "kata ga itai desu",
+      "literal": [
+        [
+          "肩",
+          "shoulder"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "word": "膝",
+      "romanized": "hiza",
+      "grammarNote": "**膝** (hiza) = knee.\n**けがする** (kega suru) = to get injured; **けが** (kega) = injury/wound.\n**膝をけがする** (hiza wo kega suru) = to injure one's knee. **を** marks the knee as the object.\n**膝が笑う** (hiza ga warau) = 'knees are laughing' — idiom for wobbly legs from fatigue. A colorful way Japanese describes tired, shaking knees.",
+      "englishPhrase": "I hurt my knee.",
+      "phrase": "膝をけがしました。",
+      "phraseRomanized": "hiza wo kega shimashita",
+      "literal": [
+        [
+          "膝",
+          "knee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "けがしました",
+          "injured"
+        ]
+      ]
+    },
+    {
+      "id": "elbow",
+      "english": "elbow",
+      "word": "肘",
+      "romanized": "hiji",
+      "grammarNote": "**肘** (hiji) = elbow. The **月** (flesh radical) is visible in the kanji.\n**肘をつく** (hiji wo tsuku) = to lean on one's elbow / prop oneself up on an elbow. **つく** here means to prop/rest against.\n**肘をつかないで** = 'don't lean on your elbow' — **〜ないで** (without **ください**) is a softer, more casual prohibition.",
+      "englishPhrase": "Don't lean on your elbow.",
+      "phrase": "肘をつかないで。",
+      "phraseRomanized": "hiji wo tsukanaide",
+      "literal": [
+        [
+          "肘",
+          "elbow"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "つかないで",
+          "don't lean on"
+        ]
+      ]
+    },
+    {
+      "id": "flex",
+      "english": "flex",
+      "word": "筋肉を緊張させる",
+      "romanized": "kin'niku wo kinchō saseru",
+      "grammarNote": "**筋肉を緊張させる** (kin'niku wo kinchō saseru) = to flex/tense the muscles. **緊張** (kinchō) = tension (also used for nervousness).\nThe example phrase **筋肉に力を入れる** (kin'niku ni chikara wo ireru) = 'put strength into the muscles' — a more natural everyday way to say 'flex'.\n**力を入れる** (chikara wo ireru) = to apply force/strength: **力** (chikara) = strength/power; **入れる** (ireru) = to put in.",
+      "englishPhrase": "Flex your muscles.",
+      "phrase": "筋肉に力を入れてください。",
+      "phraseRomanized": "kin'niku ni chikara wo irete kudasai",
+      "literal": [
+        [
+          "筋肉",
+          "muscles"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "力",
+          "strength"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "入れて",
+          "put"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "blink",
+      "english": "blink",
+      "word": "まばたきする",
+      "romanized": "mabataki suru",
+      "grammarNote": "**まばたき** (mabataki) = a blink (noun). **まばたきする** = to blink.\n**まばたきしないでください** = 'please don't blink': **〜しないでください** = please don't do ~.\n**目をぱちぱちさせる** (me wo pachipachi saseru) = to blink repeatedly — **ぱちぱち** is the onomatopoeia for blinking.",
+      "englishPhrase": "Don't blink.",
+      "phrase": "まばたきしないでください。",
+      "phraseRomanized": "mabataki shinaide kudasai",
+      "literal": [
+        [
+          "まばたき",
+          "blink"
+        ],
+        [
+          "しないで",
+          "don't"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "sweat",
+      "english": "sweat",
+      "word": "汗をかく",
+      "romanized": "ase wo kaku",
+      "grammarNote": "**汗をかく** (ase wo kaku) = to sweat/perspire; lit. 'to scratch sweat'. **汗** (ase) = sweat; **かく** here is an idiomatic verb meaning to produce/secrete.\n**走ると汗をかく** = 'when I run, I sweat'. **〜と** as conditional: 'when/if you do X, Y naturally follows'.\nOther **かく** body expressions: **くしゃみをかく** (to sneeze — less common form).",
+      "englishPhrase": "I sweat when I run.",
+      "phrase": "走ると汗をかきます。",
+      "phraseRomanized": "hashiru to ase wo kakimasu",
+      "literal": [
+        [
+          "走ると",
+          "when run"
+        ],
+        [
+          "汗",
+          "sweat"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "かきます",
+          "break"
+        ]
+      ]
+    },
+    {
+      "id": "bleed",
+      "english": "bleed",
+      "word": "出血する",
+      "romanized": "shukketsu suru",
+      "grammarNote": "**出血する** (shukketsu suru) = to bleed (medical/formal): **出** (de, exit) + **血** (chi, blood).\nThe everyday expression: **血が出る** (chi ga deru) = 'blood comes out / is bleeding'.\n**傷口から血が出ている** = 'blood is coming out from the wound': **傷口** (kizuguchi) = wound opening; **から** = from; **〜ている** describes ongoing state.",
+      "englishPhrase": "The wound is bleeding.",
+      "phrase": "傷口から血が出ています。",
+      "phraseRomanized": "kizuguchi kara chi ga dete imasu",
+      "literal": [
+        [
+          "傷口",
+          "wound"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "血",
+          "blood"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "出て",
+          "coming out"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "word": "感じる",
+      "romanized": "kanjiru",
+      "grammarNote": "**感じる** (kanjiru) = to feel/sense (physically or emotionally).\nIn the example, **気分** (kibun) = mood/how one feels (noun). **気分はどうですか** = 'How do you feel?' — a standard inquiry about someone's wellbeing.\n**どう** (dō) = how/in what way. **気分がいい** = feel good; **気分が悪い** = feel bad/nauseous.",
+      "englishPhrase": "How do you feel?",
+      "phrase": "気分はどうですか？",
+      "phraseRomanized": "kibun wa dō desu ka",
+      "literal": [
+        [
+          "気分",
+          "feeling"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どう",
+          "how"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "word": "考える",
+      "romanized": "kangaeru",
+      "grammarNote": "**考える** (kangaeru) = to think/consider (deliberate, analytical thinking).\n**思う** (omou) = to feel/think (intuitive, emotional thoughts): **〜と思う** = 'I think that ~'.\n**何を考えていますか** = 'What are you thinking about?': **〜ている** with a mental verb = currently engaged in thinking.\n**何** (nani/nan) = what.",
+      "englishPhrase": "What are you thinking about?",
+      "phrase": "何を考えていますか？",
+      "phraseRomanized": "nani wo kangaete imasu ka",
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "考えて",
+          "thinking"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
+    },
+    {
+      "id": "move",
+      "english": "move",
+      "word": "動く",
+      "romanized": "ugoku",
+      "grammarNote": "**動く** (ugoku) = to move (intransitive). **動かす** (ugokasu) = to move something (transitive).\n**動かせない** (ugokasena i) = cannot move (something): the potential negative of **動かす**.\n**腕が動かせません** = 'I cannot move my arm' — the arm (**腕が**) is the subject of the inability. Note how the body part becomes the grammatical subject.",
+      "englishPhrase": "I can't move my arm.",
+      "phrase": "腕が動かせません。",
+      "phraseRomanized": "ude ga ugokasemasen",
+      "literal": [
+        [
+          "腕",
+          "arm"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "動かせません",
+          "cannot move"
+        ]
+      ]
+    },
+    {
+      "id": "bony",
+      "english": "bony",
+      "word": "骨っぽい",
+      "romanized": "honeppoi",
+      "grammarNote": "**骨っぽい** (honeppoi) = bony. **〜っぽい** is a suffix meaning '-ish / having the quality of': **骨** (bone) + **っぽい** = bone-ish/bony.\nOther examples: **子供っぽい** (childish), **男っぽい** (masculine/manly).\n**骨ばっている** (honebatte iru) = is bony/prominent-boned — the form used in the example: **骨張る** (honebaru) = to be bony/angular.",
+      "englishPhrase": "His hands are bony.",
+      "phrase": "彼の手は骨ばっています。",
+      "phraseRomanized": "kare no te wa honebatte imasu",
+      "literal": [
+        [
+          "彼の",
+          "his"
+        ],
+        [
+          "手",
+          "hands"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "骨ばって",
+          "bony"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hairy",
+      "english": "hairy",
+      "word": "毛深い",
+      "romanized": "kefukai",
+      "grammarNote": "**毛深い** (kefukai) = hairy: **毛** (ke) = body hair + **深い** (fukai) = deep/thick.\nThe example uses **腕の毛が濃い** (ude no ke ga koi) = 'the arm hair is thick/dark'. **濃い** (koi) = thick/dense/dark (used for hair density, colors, flavors).\n**毛** (ke) = body/general hair; **髪** (kami) = head hair. These are distinct in Japanese.",
+      "englishPhrase": "He has hairy arms.",
+      "phrase": "彼は腕の毛が濃いです。",
+      "phraseRomanized": "kare wa ude no ke ga koi desu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "腕",
+          "arms"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "毛",
+          "hair"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "濃い",
+          "thick"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "soft",
+      "english": "soft",
+      "word": "柔らかい",
+      "romanized": "yawarakai",
+      "grammarNote": "**柔らかい** (yawarakai) = soft/gentle/tender — an い-adjective.\n**柔らかい** describes texture: **柔らかいパン** (soft bread), **柔らかい筋肉** (supple muscles).\nOpposite: **硬い** (katai) = hard/stiff. The て-form **柔らかくて** connects to another adjective: **柔らかくて温かい** (soft and warm).",
+      "englishPhrase": "The tissue is soft.",
+      "phrase": "ティッシュは柔らかいです。",
+      "phraseRomanized": "tisshu wa yawarakai desu",
+      "literal": [
+        [
+          "ティッシュ",
+          "tissue"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "柔らかい",
+          "soft"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "sore",
+      "english": "sore",
+      "word": "痛い",
+      "romanized": "itai",
+      "grammarNote": "**痛い** (itai) = hurts/sore/painful — an い-adjective.\n**筋肉痛** (kinnikutsū) = muscle soreness (DOMS): a compound noun, not an adjective. **筋肉痛です** = 'I have muscle soreness'.\n**痛い** is versatile: **頭が痛い** (headache), **お腹が痛い** (stomachache). Simply state body part + **が痛い**.",
+      "englishPhrase": "My muscles are sore.",
+      "phrase": "筋肉痛です。",
+      "phraseRomanized": "kin'nikutsū desu",
+      "literal": [
+        [
+          "筋肉痛",
+          "muscle-ache"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "word": "左",
+      "romanized": "hidari",
+      "grammarNote": "**左** (hidari) = left. **右** (migi) = right. These direction words precede the body part directly without a particle: **左膝** (hidari hiza) = left knee.\n**左膝を痛める** (hidari hiza wo itameru) = to injure one's left knee. **痛める** (itameru) = to hurt/damage (transitive).\n**痛める** vs **痛い**: **痛める** = to actively hurt something; **痛い** = it hurts (adjective state).",
+      "englishPhrase": "I hurt my left knee.",
+      "phrase": "左膝を痛めました。",
+      "phraseRomanized": "hidari hiza wo itamemashita",
+      "literal": [
+        [
+          "左膝",
+          "left knee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "痛めました",
+          "hurt"
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "word": "右",
+      "romanized": "migi",
+      "grammarNote": "**右** (migi) = right. Placed directly before a body part: **右腕** (migiude) = right arm.\n**骨折する** (kossetsu suru) = to fracture/break a bone: **骨** (kotsu/hone, bone) + **折** (setsu/o, break).\n**右腕を骨折する** = to break one's right arm. **を** marks the arm as the object of the fracture.",
+      "englishPhrase": "I broke my right arm.",
+      "phrase": "右腕を骨折しました。",
+      "phraseRomanized": "migiude wo kossetsu shimashita",
+      "literal": [
+        [
+          "右腕",
+          "right arm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "骨折しました",
+          "fractured"
+        ]
+      ]
+    },
+    {
+      "id": "upper",
+      "english": "upper",
+      "word": "上半身",
+      "romanized": "jōhanshin",
+      "grammarNote": "**上半身** (jōhanshin) = upper body: **上** (jō, upper) + **半身** (hanshin, half-body).\n**下半身** (kahanshin) = lower body. **半** (han) = half; **身** (shin) = body.\n**上半身が強い** = 'the upper body is strong'. **強い** (tsuyoi) = strong — an い-adjective.",
+      "englishPhrase": "The upper body is strong.",
+      "phrase": "上半身が強いです。",
+      "phraseRomanized": "jōhanshin ga tsuyoi desu",
+      "literal": [
+        [
+          "上半身",
+          "upper body"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "強い",
+          "strong"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "lower",
+      "english": "lower",
+      "word": "下半身",
+      "romanized": "kahanshin",
+      "grammarNote": "**下半身** (kahanshin) = lower body: **下** (ka, lower) + **半身** (hanshin, half-body).\n**腰痛** (yōtsū) = lower back pain: **腰** (koshi, lower back/waist) + **痛** (tsū, pain).\n**腰痛がある** (yōtsū ga aru) = 'there is lower back pain / to have lower back pain'. **がある** is used for conditions, symptoms, and states that exist.",
+      "englishPhrase": "He has lower back pain.",
+      "phrase": "彼は腰痛があります。",
+      "phraseRomanized": "kare wa yōtsū ga arimasu",
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "腰痛",
+          "lower-back-pain"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
+    },
+    {
+      "id": "body",
+      "english": "body",
+      "word": "体",
+      "romanized": "karada",
+      "grammarNote": "**体** (karada) = body (everyday usage). **身体** (shintai) = body (more formal/medical term).\n**人間の体** (ningen no karada) = the human body. **人間** (ningen) = human being.\n**素晴らしい** (subarashii) = amazing/wonderful — an い-adjective.\n**体の調子** (karada no chōshi) = physical condition: **調子** (chōshi) = condition/state.",
+      "englishPhrase": "The human body is amazing.",
+      "phrase": "人間の体は素晴らしいです。",
+      "phraseRomanized": "ningen no karada wa subarashii desu",
+      "literal": [
+        [
+          "人間の",
+          "human's"
+        ],
+        [
+          "体",
+          "body"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "素晴らしい",
+          "amazing"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
+    },
+    {
+      "id": "human_adjective",
+      "english": "human (adjective)",
+      "word": "人間の",
+      "romanized": "ningen no",
+      "grammarNote": "**人間の** (ningen no) = human's / of humans — **の** makes **人間** a possessive/attributive modifier.\n**人間** (ningen) = human being: **人** (hito/nin, person) + **間** (ma/kan, interval/between) — 'beings who exist between [heaven and earth]'.\n**生物学** (seibutsugaku) = biology: **生** (life) + **物** (thing) + **学** (study). **〜学** (gaku) is the suffix for academic fields.",
+      "englishPhrase": "It's part of human biology.",
+      "phrase": "人間の生物学の一部です。",
+      "phraseRomanized": "ningen no seibutsugaku no ichibu desu",
+      "literal": [
+        [
+          "人間の",
+          "human's"
+        ],
+        [
+          "生物学",
+          "biology"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "一部",
+          "one part"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}

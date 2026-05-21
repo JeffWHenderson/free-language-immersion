@@ -1,0 +1,2869 @@
+{
+  "id": "food_and_drink",
+  "name": "Food & Drink",
+  "language": "korean",
+  "stories": [
+    "at_the_restaurant",
+    "at_the_market",
+    "cooking_at_home",
+    "a_nice_restaurant",
+    "at_the_bakery"
+  ],
+  "grammarLessons": [
+    {
+      "id": "eul_reul",
+      "name": "을/를 — Object Marker"
+    },
+    {
+      "id": "isseoyo_eopseoyo",
+      "name": "있어요 vs 없어요 — Have / Don't Have"
+    },
+    {
+      "id": "adjective_verbs",
+      "name": "형용사 — Adjective Verbs"
+    },
+    {
+      "id": "an_mot",
+      "name": "안 & 못 — Negation & Inability"
+    },
+    {
+      "id": "go_sipeoyo",
+      "name": "-고 싶어요 — Want To"
+    },
+    {
+      "id": "polite_imperative",
+      "name": "-(으)세요 — Polite Imperative"
+    }
+  ],
+  "cards": [
+    {
+      "id": "water",
+      "english": "water",
+      "word": "물",
+      "romanized": "mul",
+      "grammarNote": "**물** (mul) = water.\n**물** also appears in compounds: **물냉면** (cold noodles in broth), **물김치** (watery kimchi).\nOrdering water: **물 주세요** (mul juseyo) = 'water please'.\nIn Korea, restaurants typically bring cold water automatically.",
+      "englishPhrase": "The water is cold.",
+      "phrase": "물이 차가워요.",
+      "phraseRomanized": "muri chagawoyo",
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "차가워요",
+          "cold"
+        ]
+      ]
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "word": "빵",
+      "romanized": "ppang",
+      "grammarNote": "**빵** (ppang) is a loanword from Portuguese *pão* via Japanese.\nKorea has a thriving bakery culture — **빵집** (ppangjip) = bakery.\nCommon types: **식빵** (sikppang) = white sandwich bread, **단팥빵** (danpatppang) = sweet red bean bun.\n**빵** is used colloquially to mean 'zero': **빵점** (ppangjeom) = zero points.",
+      "englishPhrase": "I'd like some bread.",
+      "phrase": "빵을 주세요.",
+      "phraseRomanized": "ppang-eul juseyo",
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "word": "밥",
+      "romanized": "bap",
+      "grammarNote": "**밥** = cooked rice, and also the general word for a meal.\n**밥 먹었어요?** (did you eat?) is a common Korean greeting.\n**쌀** = uncooked rice.\n**밥** is one of the most culturally central words in Korean.",
+      "englishPhrase": "I like rice with vegetables.",
+      "phrase": "채소랑 밥을 좋아해요.",
+      "phraseRomanized": "chaesorang babeul joahaeyo",
+      "literal": [
+        [
+          "채소",
+          "vegetables"
+        ],
+        [
+          "랑",
+          "[and/with]"
+        ],
+        [
+          "밥",
+          "rice"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "word": "우유",
+      "romanized": "uyu",
+      "grammarNote": "**우유** (uyu) = milk — from Hanja **우** (牛, cow) + **유** (乳, milk).\n**두유** (duyu) = soy milk: **두** (豆, bean) + **유** (乳, milk).\n**생우유** = fresh/whole milk.\n**원하다** (wonhada) = to want (more formal than **-고 싶다** for wanting objects).",
+      "englishPhrase": "Do you want milk?",
+      "phrase": "우유 원해요?",
+      "phraseRomanized": "uyu wonhaeyo"
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "word": "달걀",
+      "romanized": "dalgyal",
+      "grammarNote": "**달걀** (dalgyal) is the native Korean word for egg.\n**계란** (gyeran) is the Sino-Korean equivalent and equally common in everyday speech.\n**두 개** = two (objects) — **개** is the general counter for items.\nTime + **에** = 'at': **아침에** = 'at/in the morning'.",
+      "englishPhrase": "I eat two eggs for breakfast.",
+      "phrase": "아침에 달걀 두 개를 먹어요.",
+      "phraseRomanized": "achime dalgyal du gaereul meogeoyo",
+      "literal": [
+        [
+          "아침",
+          "breakfast"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "달걀",
+          "egg"
+        ],
+        [
+          "두 개",
+          "two"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "word": "치즈",
+      "romanized": "chijeu",
+      "grammarNote": "**치즈** (chijeu) is a loanword from English.\n**에** after a container or place = 'in / on': **샌드위치에** = 'in the sandwich'.\n**가/이** is the subject marker: **치즈가** because **치즈** ends in a vowel.\n**있어요** = 'there is / exists' — the same word covers both existence and possession.",
+      "englishPhrase": "The sandwich has cheese.",
+      "phrase": "샌드위치에 치즈가 있어요.",
+      "phraseRomanized": "saendeuwiche chijeu-ga isseoyo",
+      "literal": [
+        [
+          "샌드위치",
+          "sandwich"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "치즈",
+          "cheese"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "word": "닭고기",
+      "romanized": "dalkgogi",
+      "grammarNote": "**닭고기** (dalkgogi) = chicken (as meat): **닭** (dak, chicken bird) + **고기** (gogi, meat).\nAlways add **고기** to refer to the meat — **닭** alone means the live bird.\n**맛있어요** = 'is delicious' — from **맛** (taste) + **있다** (to exist).\n**가** is the subject marker after a vowel: **닭고기가**.",
+      "englishPhrase": "The chicken is delicious.",
+      "phrase": "닭고기가 맛있어요.",
+      "phraseRomanized": "dalkgogiga massisseoyo",
+      "literal": [
+        [
+          "닭고기",
+          "chicken"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "word": "고기",
+      "romanized": "gogi",
+      "grammarNote": "**고기** (gogi) = meat in general.\nSpecific meats: **소고기** (beef), **돼지고기** (pork), **닭고기** (chicken).\n**는** is the topic marker — **그는** = 'he (as for him)'.\n**안** before a verb = casual negation: **안 먹어요** = 'doesn't eat'.",
+      "englishPhrase": "He doesn't eat meat.",
+      "phrase": "그는 고기를 안 먹어요.",
+      "phraseRomanized": "geuneun gogireul an meogeoyo",
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "고기",
+          "meat"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "word": "생선",
+      "romanized": "saengseon",
+      "grammarNote": "**생선** (saengseon) = fish as food (cut, served, or sold at market).\n**물고기** (mulgogi) = fish (alive, swimming): **물** (water) + **고기** (flesh/creature).\nUse **생선** when buying or eating fish; **물고기** when talking about fish in nature.\n**을/를** = object marker: **생선을** because **선** ends in a consonant.",
+      "englishPhrase": "I like fish.",
+      "phrase": "생선을 좋아해요.",
+      "phraseRomanized": "saengseoneul joahaeyo",
+      "literal": [
+        [
+          "생선",
+          "fish"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "kimchi",
+      "english": "kimchi",
+      "word": "김치",
+      "romanized": "gimchi",
+      "grammarNote": "**김치** (gimchi) is Korea's most iconic fermented dish — typically napa cabbage with chili, garlic, ginger, and salted shrimp.\nThere are hundreds of varieties: **깍두기** (cubed radish), **오이소박이** (cucumber), and more.\n**-고** connects adjectives in a list: **맵고 맛있어요** = 'spicy and delicious'.\n**는** = topic marker: **김치는** sets kimchi as the topic.",
+      "englishPhrase": "Kimchi is spicy and delicious.",
+      "phrase": "김치는 맵고 맛있어요.",
+      "phraseRomanized": "gimchineun maepgo masisseoyo",
+      "literal": [
+        [
+          "김치",
+          "kimchi"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "맵고",
+          "spicy and"
+        ],
+        [
+          "맛있어요",
+          "is delicious"
+        ]
+      ]
+    },
+    {
+      "id": "bibimbap",
+      "english": "bibimbap",
+      "word": "비빔밥",
+      "romanized": "bibimbap",
+      "grammarNote": "**비빔밥** (bibimbap) = mixed rice: **비빔** (mixing) + **밥** (cooked rice).\nServed with vegetables, an egg, and **고추장** (gochujang chili paste) — mix it all together before eating.\n**음식** (eumsik) = food — Hanja: **음** (飮, drink/consume) + **식** (食, eat/food).\n**은** = topic marker after a consonant: **비빔밥은**.",
+      "englishPhrase": "Bibimbap is a Korean rice dish.",
+      "phrase": "비빔밥은 한국 음식이에요.",
+      "phraseRomanized": "bibimbapeun hanguk eumsigieyo",
+      "literal": [
+        [
+          "비빔밥",
+          "bibimbap"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "한국",
+          "Korean"
+        ],
+        [
+          "음식이에요",
+          "is food"
+        ]
+      ]
+    },
+    {
+      "id": "soju",
+      "english": "soju",
+      "word": "소주",
+      "romanized": "soju",
+      "grammarNote": "**소주** (soju) = Korea's most popular spirit, typically 16–25% ABV, made from rice or other grains.\n**술** (sul) = alcohol in general.\n**인기 있는** (ingi inneun) = popular: **인기** (popularity) + **있는** (existing/having) — literally 'having popularity'.\nCommon pairing: **삼겹살에 소주** (pork belly and soju).",
+      "englishPhrase": "Soju is a popular Korean drink.",
+      "phrase": "소주는 인기 있는 한국 술이에요.",
+      "phraseRomanized": "sojuneun ingi inneun hanguk surieyo",
+      "literal": [
+        [
+          "소주",
+          "soju"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "인기 있는",
+          "popular"
+        ],
+        [
+          "한국",
+          "Korean"
+        ],
+        [
+          "술이에요",
+          "is alcohol"
+        ]
+      ]
+    },
+    {
+      "id": "pork",
+      "english": "pork",
+      "word": "돼지고기",
+      "romanized": "dwaejigogi",
+      "grammarNote": "**돼지고기** (dwaejigogi) = pork: **돼지** (pig) + **고기** (meat).\n**삼겹살** (samgyeopsal) = pork belly — Korea's most popular BBQ meat.\n**는** as a topic marker can hint at contrast: **돼지고기는 안 먹어요** implies 'pork I don't eat (but perhaps other meats I do)'.",
+      "englishPhrase": "I don't eat pork.",
+      "phrase": "돼지고기는 안 먹어요.",
+      "phraseRomanized": "dwaejigogineun an meogeoyo",
+      "literal": [
+        [
+          "돼지고기",
+          "pork"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "word": "과일",
+      "romanized": "gwail",
+      "grammarNote": "**과일** (gwail) = fruit — Hanja root **과** (果, fruit/result).\nFruit is culturally important for gifting in Korea — elaborate fruit gift sets are popular at holidays.\n**을** = object marker after a consonant: **과일을**.\n**매일** (maeil) = every day — does NOT take the **에** particle (time adverbs stand alone).",
+      "englishPhrase": "I eat fruit every day.",
+      "phrase": "매일 과일을 먹어요.",
+      "phraseRomanized": "maeil gwaireul meogeoyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "과일",
+          "fruit"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "word": "사과",
+      "romanized": "sagwa",
+      "grammarNote": "**사과** (sagwa) = apple. Importantly, **사과** also means 'apology' — **사과하다** (to apologize). Context always makes the meaning clear.\n**건강에 좋다** = 'good for health': **에** here means 'for'.\n**하나** = one (native Korean number) — used for counting before counters.",
+      "englishPhrase": "An apple a day is healthy.",
+      "phrase": "매일 사과 하나는 건강에 좋아요.",
+      "phraseRomanized": "maeil sagwa hananeun geongang-e joayo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "사과",
+          "apple"
+        ],
+        [
+          "하나",
+          "one"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "word": "바나나",
+      "romanized": "banana",
+      "grammarNote": "**바나나** (banana) is a loanword.\n**가** = subject marker after a vowel: **바나나가**.\n**익다** (ikda) = to ripen (for fruit) OR to cook through (for food) — the same verb covers both.\n**익었어요** = 'has ripened' — past tense, indicating a completed change of state.",
+      "englishPhrase": "The bananas are ripe.",
+      "phrase": "바나나가 익었어요.",
+      "phraseRomanized": "bananaga igeosseoyo",
+      "literal": [
+        [
+          "바나나",
+          "banana"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "익었어요",
+          "ripened"
+        ]
+      ]
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "word": "오렌지",
+      "romanized": "orenji",
+      "grammarNote": "**오렌지** (orenji) is a loanword from English/Japanese.\nThe native mandarin-like fruit is **귤** (gyul) — very common in Korea, especially in winter.\n**주스** (juseu) = juice (loanword).\n**원하다** (wonhada) = to want — used for wanting objects, while **-고 싶다** is used for wanting to do actions.",
+      "englishPhrase": "I want an orange juice.",
+      "phrase": "오렌지 주스를 원해요.",
+      "phraseRomanized": "orenji juseureul wonhaeyo",
+      "literal": [
+        [
+          "오렌지",
+          "orange"
+        ],
+        [
+          "주스",
+          "juice"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "word": "채소",
+      "romanized": "chaeso",
+      "grammarNote": "**채소** (chaeso) = vegetable — the standard, polite term.\n**야채** (yachae) is also widely used and means the same thing.\n**드세요** = 'please eat' — honorific imperative of **먹다** (to eat). Use **드시다** when speaking respectfully to elders or customers.",
+      "englishPhrase": "Eat your vegetables!",
+      "phrase": "채소를 드세요!",
+      "phraseRomanized": "chaesoreul deuseyo",
+      "literal": [
+        [
+          "채소",
+          "vegetables"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "드세요",
+          "please eat"
+        ]
+      ]
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "word": "감자",
+      "romanized": "gamja",
+      "grammarNote": "**감자** (gamja) = potato.\n**고구마** (goguma) = sweet potato — a different, very common Korean snack and side dish.\n**으깨다** (eukkkaeda) = to mash/crush.\n**으깬** is the past-modifier form: **으깬 감자** = 'mashed potato(es)'.",
+      "englishPhrase": "I want mashed potatoes.",
+      "phrase": "으깬 감자를 원해요.",
+      "phraseRomanized": "eukkkaen gamjareul wonhaeyo",
+      "literal": [
+        [
+          "으깬",
+          "mashed"
+        ],
+        [
+          "감자",
+          "potato"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "word": "토마토",
+      "romanized": "tomato",
+      "grammarNote": "**토마토** (tomato) is a loanword.\n**에** after a container/location = 'in': **샐러드에** = 'in the salad'.\n**가** = subject marker after a vowel: **토마토가**.\n**있어요** = 'there is/are' — used for existence and possession.",
+      "englishPhrase": "The salad has tomatoes.",
+      "phrase": "샐러드에 토마토가 있어요.",
+      "phraseRomanized": "saelleudeue tomatoga isseoyo",
+      "literal": [
+        [
+          "샐러드",
+          "salad"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "토마토",
+          "tomato"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "word": "양파",
+      "romanized": "yangpa",
+      "grammarNote": "**양파** (yangpa) = onion: **양** (洋, foreign/Western) + **파** (green onion).\n**파** alone = green onion/scallion (a separate vegetable).\n**를** = object marker after a vowel: **양파를**.\n**안** before a verb negates it: **안 좋아해요** = 'don't like'.",
+      "englishPhrase": "I don't like onions.",
+      "phrase": "양파를 안 좋아해요.",
+      "phraseRomanized": "yangpareul an joahaeyo",
+      "literal": [
+        [
+          "양파",
+          "onion"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "salad",
+      "english": "salad",
+      "word": "샐러드",
+      "romanized": "saelleodeu",
+      "grammarNote": "**샐러드** (saelleodeu) is a loanword from English.\n**로/으로** = 'as / in the form of': **샐러드로 할게요** = 'I'll go with the salad'.\n**-ㄹ게요** expresses the speaker's firm decision or commitment: **할게요** = 'I will do/have it'.",
+      "englishPhrase": "I'll have a salad.",
+      "phrase": "샐러드로 할게요.",
+      "phraseRomanized": "saelleodeuro halgeyo",
+      "literal": [
+        [
+          "샐러드",
+          "salad"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "할게요",
+          "will do"
+        ]
+      ]
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "word": "국",
+      "romanized": "guk",
+      "grammarNote": "Korean has many soup types:\n**국** (guk) = lighter everyday soup.\n**찌개** (jjigae) = hearty stew, e.g., **김치찌개**.\n**탕** (tang) = rich broth-based soup.\nAll are central to Korean meals.",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "국이 뜨거워요.",
+      "phraseRomanized": "gugi tteugeowoyo",
+      "literal": [
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ]
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "word": "샌드위치",
+      "romanized": "saendeuwichi",
+      "grammarNote": "**샌드위치** (saendeuwichi) is a loanword.\n**으로** = 'as / for': **점심으로** = 'for lunch'.\n**만들다** (mandeulda) = to make — an irregular ㄹ verb: the ㄹ drops before consonant endings.\n**만들었어요** = 'made' — past tense.",
+      "englishPhrase": "I made a sandwich for lunch.",
+      "phrase": "점심으로 샌드위치를 만들었어요.",
+      "phraseRomanized": "jeomsimeuro saendeuwichiреул mandeureoisseoyo",
+      "literal": [
+        [
+          "점심",
+          "lunch"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "샌드위치",
+          "sandwich"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "만들었어요",
+          "made"
+        ]
+      ]
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "word": "케이크",
+      "romanized": "keikeu",
+      "grammarNote": "**케이크** (keikeu) is a loanword.\nFor birthdays: **생일 케이크** (birthday cake).\n**원해요?** = 'do you want (it)?' — from **원하다** (wonhada, to want).\nDropping the subject is natural in Korean when context is clear.",
+      "englishPhrase": "Do you want cake?",
+      "phrase": "케이크 원해요?",
+      "phraseRomanized": "keikeu wonhaeyo",
+      "hidden": true
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "word": "쿠키",
+      "romanized": "kuki",
+      "grammarNote": "**쿠키** (kuki) is a loanword from English.\n**이** here = demonstrative 'this' — different from the subject marker **이**.\n**맛있어요** = 'is delicious': **맛** (taste) + **있다** (to exist/have).\n**이 쿠키가** — when **이** (this) precedes a noun, the subject marker **가/이** still follows the noun.",
+      "englishPhrase": "These cookies are delicious.",
+      "phrase": "이 쿠키가 맛있어요.",
+      "phraseRomanized": "i kukiga massisseoyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "쿠키",
+          "cookie"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "word": "초콜릿",
+      "romanized": "chokollit",
+      "grammarNote": "**초콜릿** (chokollit) is a loanword.\n**정말** (jeongmal) = 'really / truly' — a common intensifier.\n**좋아하다** (joahada) = to like — used for liking things (**을/를 좋아해요**).\nNote: **좋다** (jota) = 'to be good', which is different from **좋아하다** (to like).",
+      "englishPhrase": "I love chocolate.",
+      "phrase": "초콜릿을 정말 좋아해요.",
+      "phraseRomanized": "chokolliteul jeongmal joahaeyo",
+      "literal": [
+        [
+          "초콜릿",
+          "chocolate"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "word": "설탕",
+      "romanized": "seoltang",
+      "grammarNote": "**설탕** (seoltang) = sugar — Sino-Korean.\n**빼 주세요** = 'please leave out / remove': **빼다** (to subtract/remove) + **주세요** (please do for me).\nUseful at cafés: **시럽 빼 주세요** (no syrup), **얼음 빼 주세요** (no ice).",
+      "englishPhrase": "No sugar, please.",
+      "phrase": "설탕 빼 주세요.",
+      "phraseRomanized": "seoltang ppae juseyo",
+      "literal": [
+        [
+          "설탕",
+          "sugar"
+        ],
+        [
+          "빼",
+          "remove"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "word": "소금",
+      "romanized": "sogeum",
+      "grammarNote": "**소금** (sogeum) = salt — native Korean.\n**짜다** (jjada) = to be salty — an important taste adjective: **너무 짜요** = 'too salty'.\n**좀** (jom) softens requests: 'a bit / please'.\n**ㄹ 수 있어요** = 'can' (ability/possibility): **건네줄 수 있어요** = 'can you pass it?'",
+      "englishPhrase": "Can you pass the salt?",
+      "phrase": "소금 좀 건네줄 수 있어요?",
+      "phraseRomanized": "sogeum jom geonnejul su isseoyo",
+      "literal": [
+        [
+          "소금",
+          "salt"
+        ],
+        [
+          "좀",
+          "a-little"
+        ],
+        [
+          "건네줄 수 있어요",
+          "pass can"
+        ]
+      ]
+    },
+    {
+      "id": "pepper",
+      "english": "pepper",
+      "word": "후추",
+      "romanized": "huchu",
+      "grammarNote": "**후추** (huchu) = black pepper.\nDo not confuse: **고추** (gochu) = chili pepper, **피망** (pimang) = bell pepper.\n**건네줄 수 있어요?** = 'can you pass it?' — **V-ㄹ 수 있다** = 'can / be able to'.\n**좀** softens the request slightly.",
+      "englishPhrase": "Can you pass the pepper?",
+      "phrase": "후추 좀 건네줄 수 있어요?",
+      "phraseRomanized": "huchu jom geonnejul su isseoyo",
+      "literal": [
+        [
+          "후추",
+          "pepper"
+        ],
+        [
+          "좀",
+          "a-little"
+        ],
+        [
+          "건네줄 수 있어요",
+          "pass can"
+        ]
+      ]
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "word": "버터",
+      "romanized": "beoteo",
+      "grammarNote": "**버터** (beoteo) is a loanword.\n**바르다** (bareuda) = to spread/apply — used for butter, cream, paint, or sunscreen.\n**에** after a surface = 'on': **빵에** = 'on the bread'.\n**를** = object marker after a vowel: **버터를**.",
+      "englishPhrase": "I put butter on my bread.",
+      "phrase": "빵에 버터를 발라요.",
+      "phraseRomanized": "ppange beoteoreul ballayo",
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "버터",
+          "butter"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "발라요",
+          "spread"
+        ]
+      ]
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "word": "기름",
+      "romanized": "gireum",
+      "grammarNote": "**기름** (gireum) = oil or fat (general term).\n**참기름** (chamgireum) = sesame oil — an essential flavoring in Korean cooking.\n**들기름** (deulkireum) = perilla oil — another traditional Korean oil.\n**로** = 'with / by means of': **올리브 오일로** = 'with olive oil'.",
+      "englishPhrase": "Cook with olive oil.",
+      "phrase": "올리브 오일로 요리해요.",
+      "phraseRomanized": "ollibeu oillo yorihaeyo",
+      "literal": [
+        [
+          "올리브 오일",
+          "olive oil"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "요리해요",
+          "cook"
+        ]
+      ]
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "word": "커피",
+      "romanized": "keopi",
+      "grammarNote": "**커피** (keopi) is a loanword from English.\nKorea has one of the highest café densities in the world.\nThe most popular order is **아이스 아메리카노** (iced Americano).\n**에** after a time word = 'in/at': **아침에** = 'in the morning'.",
+      "englishPhrase": "I like coffee in the morning.",
+      "phrase": "아침에 커피를 좋아해요.",
+      "phraseRomanized": "achime keopireul joahaeyo",
+      "literal": [
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "word": "차",
+      "romanized": "cha",
+      "grammarNote": "**차** (cha) = tea — also means 'car' (written with a different Hanja). Context distinguishes them.\nKorean teas: **녹차** (green tea), **보리차** (barley tea), **유자차** (yuzu tea).\n**드실래요?** = 'would you like (to eat/drink)?' — **드시다** is the honorific of **먹다/마시다**; **-ㄹ래요** asks politely about willingness.",
+      "englishPhrase": "Would you like some tea?",
+      "phrase": "차 드실래요?",
+      "phraseRomanized": "cha deusilraeyo",
+      "literal": [
+        [
+          "차",
+          "tea"
+        ],
+        [
+          "드실래요",
+          "would you eat/drink"
+        ]
+      ]
+    },
+    {
+      "id": "wine",
+      "english": "wine",
+      "word": "와인",
+      "romanized": "wain",
+      "grammarNote": "**와인** (wain) is a loanword from English.\n**잔** is the counter for cups/glasses of liquid: **한 잔** = one glass.\n**주세요** = 'please give me' — the most useful ordering phrase in Korean.\n**레드 와인** (red wine), **화이트 와인** (white wine).",
+      "englishPhrase": "A glass of red wine, please.",
+      "phrase": "레드 와인 한 잔 주세요.",
+      "phraseRomanized": "redeu wain han jan juseyo",
+      "literal": [
+        [
+          "레드 와인",
+          "red wine"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "glass"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "맥주",
+      "romanized": "maekju",
+      "grammarNote": "**맥주** (maekju) = beer — Hanja: **맥** (麥, barley/grain) + **주** (酒, alcohol).\n**치맥** = **치킨** (fried chicken) + **맥주** — Korea's most iconic food pairing.\n**잔** = counter for glasses: **한 잔** (one glass), **두 잔** (two glasses).",
+      "englishPhrase": "Two beers, please.",
+      "phrase": "맥주 두 잔 주세요.",
+      "phraseRomanized": "maekju du jan juseyo",
+      "literal": [
+        [
+          "맥주",
+          "beer"
+        ],
+        [
+          "두",
+          "two"
+        ],
+        [
+          "잔",
+          "glasses"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "word": "주스",
+      "romanized": "juseu",
+      "grammarNote": "**주스** (juseu) is a loanword from English.\n**착즙 주스** = cold-pressed/freshly squeezed juice.\n**를** = object marker after a vowel: **주스를**.\n**원하다** (wonhada) = to want (for wanting things/objects).",
+      "englishPhrase": "I want orange juice.",
+      "phrase": "오렌지 주스를 원해요.",
+      "phraseRomanized": "orenji juseureul wonhaeyo",
+      "literal": [
+        [
+          "오렌지 주스",
+          "orange juice"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "word": "아침 (식사)",
+      "romanized": "achim (siksa)",
+      "grammarNote": "**아침** (achim) = morning AND breakfast — context clarifies which meaning.\n**식사** (siksa) = meal (more formal Hanja compound: **식** 食 + **사** 事).\n**아침 식사** = breakfast (formal); **아침** alone is common in speech.\n**일곱 시에** = 'at seven o'clock' — **에** marks a specific point in time.",
+      "englishPhrase": "I have breakfast at seven.",
+      "phrase": "일곱 시에 아침을 먹어요.",
+      "phraseRomanized": "ilgop sie achimeul meogeoyo",
+      "literal": [
+        [
+          "일곱 시",
+          "seven o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "아침",
+          "breakfast"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "word": "점심 (식사)",
+      "romanized": "jeomsim (siksa)",
+      "grammarNote": "**점심** (jeomsim) = lunch — Hanja: **점** (點, dot/noon) + **심** (心, heart/center).\nThink of it as 'the center of the day'.\n**두 시에** = 'at two o'clock' — Sino-Korean numbers (두 = two) are used for clock times.\n**먹다** = to eat; **을** = object marker after a consonant.",
+      "englishPhrase": "We have lunch at two.",
+      "phrase": "두 시에 점심을 먹어요.",
+      "phraseRomanized": "du sie jeomsimeul meogeoyo",
+      "literal": [
+        [
+          "두 시",
+          "two o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "점심",
+          "lunch"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "word": "저녁 (식사)",
+      "romanized": "jeonyeok (siksa)",
+      "grammarNote": "**저녁** (jeonyeok) = evening AND dinner — context clarifies.\n**저녁 식사** = dinner (formal); **저녁** alone is typical in casual speech.\n**준비됐어요** = 'is ready' — **준비** (preparation) + **되다** (to become) in past tense, a passive-feeling construction.",
+      "englishPhrase": "Dinner is ready.",
+      "phrase": "저녁이 준비됐어요.",
+      "phraseRomanized": "jeonyeogi junbidwaesseoyo",
+      "literal": [
+        [
+          "저녁",
+          "dinner"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "준비됐어요",
+          "prepared-became"
+        ]
+      ]
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "word": "간식",
+      "romanized": "gansik",
+      "grammarNote": "**간식** (gansik) = snack — Hanja: **간** (間, between/interval) + **식** (食, food).\nLiterally 'between-meal food' — food eaten between main meals.\n**오후에** = 'in the afternoon' — **에** marks a point in time.",
+      "englishPhrase": "I have a snack in the afternoon.",
+      "phrase": "오후에 간식을 먹어요.",
+      "phraseRomanized": "ohue gansik-eul meogeoyo",
+      "literal": [
+        [
+          "오후",
+          "afternoon"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "간식",
+          "snack"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "word": "식사",
+      "romanized": "siksa",
+      "grammarNote": "**식사** (siksa) = meal — Hanja: **식** (食, eat/food) + **사** (事, matter/affair).\n**밥** (bap) is the casual everyday word for 'a meal' (also means cooked rice).\n**식사하다** = to have a meal (formal verb).\n**이** here = demonstrative 'this'; the topic marker **는** follows the noun **식사**.",
+      "englishPhrase": "This is a delicious meal.",
+      "phrase": "이 식사는 맛있어요.",
+      "phraseRomanized": "i siksaneun massisseoyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "식사",
+          "meal"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
+    },
+    {
+      "id": "recipe",
+      "english": "recipe",
+      "word": "레시피",
+      "romanized": "resipi",
+      "grammarNote": "**레시피** (resipi) is a loanword from English.\nNative term: **조리법** (jorippop) = cooking method/recipe.\n**좋은 레시피 있어요?** — dropping the subject and topic marker makes this a natural, casual question: 'do you have a good recipe?'",
+      "englishPhrase": "Do you have a good recipe?",
+      "phrase": "좋은 레시피 있어요?",
+      "phraseRomanized": "joeun resipi isseoyo",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "레시피",
+          "recipe"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "word": "맛",
+      "romanized": "mat",
+      "grammarNote": "**맛** (mat) = taste, flavor — the root of **맛있다** (delicious) and **맛없다** (tasteless/bland).\nFlavor words: **단맛** (sweet taste), **신맛** (sour taste), **쓴맛** (bitter taste), **짠맛** (salty taste), **매운맛** (spicy taste).\n**어떤** (eotteon) = 'what kind of'.",
+      "englishPhrase": "What flavor do you want?",
+      "phrase": "어떤 맛을 원해요?",
+      "phraseRomanized": "eotteon maseul wonhaeyo",
+      "literal": [
+        [
+          "어떤",
+          "what"
+        ],
+        [
+          "맛",
+          "flavor"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "ingredient",
+      "english": "ingredient",
+      "word": "재료",
+      "romanized": "jaeryo",
+      "grammarNote": "**재료** (jaeryo) = ingredient, material, raw material.\n**어떤 재료** = 'what ingredients' — **어떤** = 'what kind of / which'.\n**필요하다** (piryohada) = to need / to be necessary.\n**가** = subject marker after a vowel: **재료가 필요해요** = 'ingredients are needed'.",
+      "englishPhrase": "What ingredients do you need?",
+      "phrase": "어떤 재료가 필요해요?",
+      "phraseRomanized": "eotteon jaeryoga piryohaeyo",
+      "literal": [
+        [
+          "어떤",
+          "what"
+        ],
+        [
+          "재료",
+          "ingredient"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "word": "메뉴",
+      "romanized": "menyu",
+      "grammarNote": "**메뉴** (menyu) is a loanword from French/English.\nIn Korean restaurants, menus often have pictures — very helpful for ordering.\n**볼 수 있어요?** = 'can I see?' — **V-ㄹ 수 있다** = 'can / be able to'.\n**메뉴** without a particle in **메뉴 볼 수 있어요?** is informal but natural.",
+      "englishPhrase": "Can I see the menu?",
+      "phrase": "메뉴 볼 수 있어요?",
+      "phraseRomanized": "menyu bol su isseoyo",
+      "literal": [
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "볼 수 있어요",
+          "see can"
+        ]
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "word": "식당",
+      "romanized": "sikdang",
+      "grammarNote": "**식당** (sikdang) = restaurant/eatery — Hanja: **식** (食, food) + **당** (堂, hall).\n**레스토랑** (reseutorang) = formal/upscale restaurant (loanword).\n**이** = topic marker after a consonant: **식당은**.\nThe topic marker **은/는** is common when making evaluations.",
+      "englishPhrase": "This restaurant is good.",
+      "phrase": "이 식당은 좋아요.",
+      "phraseRomanized": "i sikdang-eun joayo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "word": "주방",
+      "romanized": "jubang",
+      "grammarNote": "**주방** (jubang) = kitchen — Hanja: **주** (廚, cook) + **방** (房, room).\n**부엌** (bueok) = kitchen (native Korean word) — used interchangeably with **주방**.\n**깨끗하다** (kkaekkeuthada) = to be clean — a descriptive verb that acts as its own predicate.\n**이** = subject marker after a consonant: **주방이**.",
+      "englishPhrase": "The kitchen is clean.",
+      "phrase": "주방이 깨끗해요.",
+      "phraseRomanized": "jubangi kkaekkeuthaeyo",
+      "literal": [
+        [
+          "주방",
+          "kitchen"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "깨끗해요",
+          "clean"
+        ]
+      ]
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "word": "오븐",
+      "romanized": "obeun",
+      "grammarNote": "**오븐** (obeun) is a loanword.\nOvens are less common in Korean homes than in Western kitchens — **가스레인지** (gas range/stove) and **전자레인지** (microwave) are more typical.\n**뜨겁다** (tteugeopda) = hot to the touch (temperature) — not to be confused with **맵다** (spicy).",
+      "englishPhrase": "The oven is hot.",
+      "phrase": "오븐이 뜨거워요.",
+      "phraseRomanized": "obeuni tteugeowoyo",
+      "literal": [
+        [
+          "오븐",
+          "oven"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "word": "가스레인지",
+      "romanized": "gaseu reinji",
+      "grammarNote": "**가스레인지** (gaseu reinji) = gas stove/range — a loanword compound from 'gas range'.\n**에서** after a location = where an action takes place: **가스레인지에서** = 'on the stove'.\n**요리하다** is a **하다** verb: **요리** (cooking) + **하다** (to do).",
+      "englishPhrase": "Cook it on the stove.",
+      "phrase": "가스레인지에서 요리하세요.",
+      "phraseRomanized": "gaseu reinjieseo yorihaseyo",
+      "literal": [
+        [
+          "가스레인지",
+          "stove"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "요리하세요",
+          "cook please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "knife",
+      "english": "knife",
+      "word": "칼",
+      "romanized": "kal",
+      "grammarNote": "**칼** (kal) = knife — also appears in **칼국수** (kalguksu, knife-cut noodles).\n**잘 드는 칼** = 'a sharp knife': **잘** (well) + **들다** (to enter/go in) — a knife that 'cuts well'.\n**필요하다** (piryohada) = 'to need / to be necessary'.",
+      "englishPhrase": "I need a sharp knife.",
+      "phrase": "잘 드는 칼이 필요해요.",
+      "phraseRomanized": "jal deuneun kali piryohaeyo",
+      "literal": [
+        [
+          "잘 드는",
+          "well-cutting"
+        ],
+        [
+          "칼",
+          "knife"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fork",
+      "english": "fork",
+      "word": "포크",
+      "romanized": "pokeu",
+      "grammarNote": "**포크** (pokeu) is a loanword.\nTraditional Korean utensils: **젓가락** (chopsticks) and **숟가락** (spoon).\nForks are provided at most restaurants today, especially for non-Korean food.\n**주실 수 있어요?** = 'can you give me?' — **주시다** is the honorific of **주다** + **-ㄹ 수 있다** (can).",
+      "englishPhrase": "Can I have a fork?",
+      "phrase": "포크 주실 수 있어요?",
+      "phraseRomanized": "pokeu jusil su isseoyo",
+      "literal": [
+        [
+          "포크",
+          "fork"
+        ],
+        [
+          "주실 수 있어요",
+          "give can"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "word": "숟가락",
+      "romanized": "sutgarak",
+      "grammarNote": "**숟가락** (sutgarak) = spoon — native Korean.\nIn Korean dining etiquette, you hold the spoon in your right hand for soup and rice, and use **젓가락** (chopsticks) for side dishes.\n**필요해요** = 'is needed' — from **필요하다** used as a predicate.",
+      "englishPhrase": "I need a spoon.",
+      "phrase": "숟가락이 필요해요.",
+      "phraseRomanized": "sutgaragi piryohaeyo",
+      "literal": [
+        [
+          "숟가락",
+          "spoon"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "word": "접시",
+      "romanized": "jeopsi",
+      "grammarNote": "**접시** (jeopsi) = plate — native Korean.\n**더럽다** (deoreopda) = to be dirty — irregular ㅂ verb: **더러워요** in speech.\nOpposite: **깨끗하다** (to be clean).\n**가** = subject marker after a vowel: **접시가**.",
+      "englishPhrase": "The plate is dirty.",
+      "phrase": "접시가 더러워요.",
+      "phraseRomanized": "jeopsiga deoreowoyo",
+      "literal": [
+        [
+          "접시",
+          "plate"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "더러워요",
+          "dirty"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "word": "그릇",
+      "romanized": "geureus",
+      "grammarNote": "**그릇** (geureus) = bowl/vessel — a general word for eating and cooking vessels.\nSpecific compounds: **밥그릇** (rice bowl), **국그릇** (soup bowl).\n**에** = 'into/in': **그릇에** = 'into the bowl'.\n**담다** (damda) = to put/fill — used for loading food into a container.",
+      "englishPhrase": "Fill the bowl with soup.",
+      "phrase": "그릇에 국을 담아요.",
+      "phraseRomanized": "geureuse gugeul damayo",
+      "literal": [
+        [
+          "그릇",
+          "bowl"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "담아요",
+          "put"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "glass",
+      "english": "glass",
+      "word": "유리잔",
+      "romanized": "yurijan",
+      "grammarNote": "**유리잔** (yurijan) = drinking glass: **유리** (glass material) + **잔** (cup/glass).\n**잔** is both a counter (for glasses of liquid) and a noun meaning 'cup/glass'.\n**한 잔** = one glass — **한** is the contracted form of **하나** (one) before a counter.",
+      "englishPhrase": "A glass of water, please.",
+      "phrase": "물 한 잔 주세요.",
+      "phraseRomanized": "mul han jan juseyo",
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "glass"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "word": "병",
+      "romanized": "byeong",
+      "grammarNote": "**병** (byeong) has two meanings: 'bottle' (瓶) and 'illness/sickness' (病) — same sound, different Hanja.\nContext always makes the meaning clear.\n**병** as a counter: **한 병** (one bottle), **두 병** (two bottles).\nFor illness: **병이 났어요** = 'I got sick'.",
+      "englishPhrase": "A bottle of wine, please.",
+      "phrase": "와인 한 병 주세요.",
+      "phraseRomanized": "wain han byeong juseyo",
+      "literal": [
+        [
+          "와인",
+          "wine"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "병",
+          "bottle"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "word": "테이블",
+      "romanized": "teibeul",
+      "grammarNote": "**테이블** (teibeul) is a loanword — the Western-style table.\n**상** (sang) = traditional low Korean dining table (floor-seating style).\n**저희** (jeohui) = 'we/our' — the humble form of **우리** (uri), used to show modesty.\n**준비됐어요** = 'is ready' — **준비** (preparation) + **되다** (to become).",
+      "englishPhrase": "Our table is ready.",
+      "phrase": "저희 테이블이 준비됐어요.",
+      "phraseRomanized": "jeohui teibeuri junbidwaesseoyo",
+      "literal": [
+        [
+          "저희",
+          "our"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "준비됐어요",
+          "prepared-became"
+        ]
+      ]
+    },
+    {
+      "id": "waiter",
+      "english": "waiter",
+      "word": "웨이터",
+      "romanized": "weiteo",
+      "grammarNote": "**웨이터** (weiteo) is a loanword, used mostly for upscale restaurants.\nIn everyday Korean restaurants, address staff as **저기요!** (jeogiyo, 'excuse me!') — more natural.\n**직원** (jigwon) = staff/employee — a neutral term for all service workers.\n**계산서** (gyesanseo) = bill/check.",
+      "englishPhrase": "Waiter, the bill please.",
+      "phrase": "저기요, 계산서 주세요.",
+      "phraseRomanized": "jeogiyo, gyesanseo juseyo",
+      "literal": [
+        [
+          "저기요",
+          "excuse-me"
+        ],
+        [
+          "계산서",
+          "bill"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "word": "배고픈",
+      "romanized": "baegoppeun",
+      "grammarNote": "**배고프다** (stomach is empty) → **배고파요** in speech.\n**목마르다** (throat is dry) → **목말라요** in speech.\nBoth are adjectives in Korean, not verbs.",
+      "englishPhrase": "I'm hungry. Are you thirsty?",
+      "phrase": "배고파요. 목말라요?",
+      "phraseRomanized": "baegopayo. mongmallayo",
+      "literal": [
+        [
+          "배고파요",
+          "stomach-hungry"
+        ],
+        [
+          "목말라요",
+          "throat-thirsty"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "thirsty",
+      "english": "thirsty",
+      "word": "목마른",
+      "romanized": "mongmareun",
+      "grammarNote": "**목마르다** (mongmareuda) = to be thirsty — literally 'the throat is dry': **목** (throat/neck) + **마르다** (to dry/wither).\nThe stem **마르** is irregular — conjugates to **말라요**: **목말라요**.\nFor hunger: **배고프다** (baegoppeuda) — literally 'the stomach is empty'.",
+      "englishPhrase": "I'm thirsty.",
+      "phrase": "목말라요.",
+      "phraseRomanized": "mongmallayo",
+      "literal": [
+        [
+          "목말라요",
+          "throat-thirsty"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "eat",
+      "english": "eat",
+      "word": "먹다",
+      "romanized": "meokda",
+      "grammarNote": "**먹다** (meokda) = to eat — one of the most common Korean verbs.\nPolite form: **먹어요** (meogeoyo).\nHonorific: **드시다** (deusida) — for eating by elders/superiors: **드세요** (please eat).\nBefore meals: **잘 먹겠습니다** (jal meokgesseumnida, 'I will eat well').\nAfter meals: **잘 먹었습니다** (jal meogeossseumnida, 'I ate well / thank you for the meal').",
+      "englishPhrase": "Let's eat!",
+      "phrase": "먹어요!",
+      "phraseRomanized": "meogeoyo"
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "마시다",
+      "romanized": "masida",
+      "grammarNote": "**마시다** (masida) = to drink.\nHonorific: **드시다** (deusida) covers both eating and drinking respectfully.\n**마실 것** = 'something to drink': **마시다** + **-ㄹ 것** (thing to V).\n**드릴까요?** = 'shall I give/offer?' — honorific of **줄까요**, very commonly heard at cafés and restaurants.",
+      "englishPhrase": "Would you like something to drink?",
+      "phrase": "마실 것 드릴까요?",
+      "phraseRomanized": "masil geot deurillkkayo",
+      "literal": [
+        [
+          "마실",
+          "drink-able"
+        ],
+        [
+          "것",
+          "thing"
+        ],
+        [
+          "드릴까요",
+          "give-shall-I"
+        ]
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "word": "요리하다",
+      "romanized": "yorihada",
+      "grammarNote": "**요리하다** (yorihada) = to cook — a **하다** verb.\n**요리** (yori) alone is the noun 'cooking/cuisine'.\n**잘하다** = 'to do well': **요리를 잘해요** = 'cooks well'.\n**아주** (aju) = very/extremely — slightly more emphatic than **많이** in this context.",
+      "englishPhrase": "She cooks very well.",
+      "phrase": "그녀는 요리를 아주 잘해요.",
+      "phraseRomanized": "geunyeoneun yorireul aju jalhaeyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "요리",
+          "cooking"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "아주",
+          "very"
+        ],
+        [
+          "잘해요",
+          "well-does"
+        ]
+      ]
+    },
+    {
+      "id": "bake",
+      "english": "bake",
+      "word": "굽다",
+      "romanized": "gupda",
+      "grammarNote": "**굽다** (gupda) = to bake, grill, or roast — used for bread, meat, and fish.\nIrregular ㅂ verb: **굽다** → **구워요** (the ㅂ changes to 우 before vowels).\n**일요일에** = 'on Sunday' — **에** marks a specific point or period in time.",
+      "englishPhrase": "I bake bread on Sundays.",
+      "phrase": "일요일에 빵을 구워요.",
+      "phraseRomanized": "iryoile ppang-eul guwoyo",
+      "literal": [
+        [
+          "일요일",
+          "Sunday"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "구워요",
+          "bake"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fry",
+      "english": "fry",
+      "word": "튀기다",
+      "romanized": "twigida",
+      "grammarNote": "**튀기다** (twigida) = to deep-fry.\n**볶다** (bokkda) = to stir-fry — more common in Korean cooking.\nThe phrase uses **볶으세요** (stir-fry please) because stir-frying onions in oil is a common Korean cooking technique.\n**에** = 'in': **기름에** = 'in the oil'.",
+      "englishPhrase": "Fry the onions in oil.",
+      "phrase": "기름에 양파를 볶으세요.",
+      "phraseRomanized": "gireume yangpareul bokkeuseyo",
+      "literal": [
+        [
+          "기름",
+          "oil"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "양파",
+          "onion"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "볶으세요",
+          "stir-fry please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "roast",
+      "english": "roast",
+      "word": "굽다",
+      "romanized": "gupda",
+      "grammarNote": "**굽다** (gupda) = to roast, grill, or bake — the same verb for all dry-heat cooking.\n**구우세요** = 'please roast' — the **-으세요** polite imperative after a vowel stem.\n**한 시간** = one hour — note **한** (native Korean 'one') used for duration, not Sino-Korean **일** (il).",
+      "englishPhrase": "Roast the chicken for one hour.",
+      "phrase": "닭고기를 한 시간 구우세요.",
+      "phraseRomanized": "dalkgogireul han sigan guuseyo",
+      "literal": [
+        [
+          "닭고기",
+          "chicken"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "한 시간",
+          "one hour"
+        ],
+        [
+          "구우세요",
+          "roast please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chop",
+      "english": "chop",
+      "word": "다지다",
+      "romanized": "dajida",
+      "grammarNote": "**다지다** (dajida) = to mince or chop finely.\n**썰다** (sseolda) = to slice or cut in larger pieces — more general.\n**자르다** (jareuda) = to cut (general cutting).\n**다지세요** = 'please chop/mince' — **-으세요** polite imperative after a consonant.",
+      "englishPhrase": "Chop the onions.",
+      "phrase": "양파를 다지세요.",
+      "phraseRomanized": "yangpareul dajiseyo",
+      "literal": [
+        [
+          "양파",
+          "onion"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "다지세요",
+          "chop please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "word": "얇게 썰다",
+      "romanized": "yalbge sseolda",
+      "grammarNote": "**썰다** (sseolda) = to slice/cut — the general verb for slicing food.\n**얇게** = 'thinly' — the adverb form of **얇다** (to be thin).\n**두껍게** = 'thickly' — opposite adverb.\n**써세요** = 'please slice' — **-으세요** polite imperative.",
+      "englishPhrase": "Slice the bread.",
+      "phrase": "빵을 얇게 써세요.",
+      "phraseRomanized": "ppang-eul yalbge sseoseyo",
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "얇게",
+          "thinly"
+        ],
+        [
+          "써세요",
+          "slice please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "mix",
+      "english": "mix",
+      "word": "섞다",
+      "romanized": "seokda",
+      "grammarNote": "**섞다** (seokda) = to mix/blend.\n**비비다** (bibida) = to mix by rubbing/tossing — the action in **비빔밥** (bibimbap, mixed rice).\n**모든** (modeun) = all/every — the modifier form of **모두** (all).\n**섞으세요** = 'please mix' — **-으세요** after a consonant ending.",
+      "englishPhrase": "Mix all the ingredients.",
+      "phrase": "모든 재료를 섞으세요.",
+      "phraseRomanized": "modeun jaeryoreul seok-euseyo",
+      "literal": [
+        [
+          "모든",
+          "all"
+        ],
+        [
+          "재료",
+          "ingredient"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "섞으세요",
+          "mix please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "stir",
+      "english": "stir",
+      "word": "젓다",
+      "romanized": "jeotda",
+      "grammarNote": "**젓다** (jeotda) = to stir — used for stirring liquids like soup, batter, or coffee.\n**저어세요** = 'please stir' — the conjugated imperative form.\n**국을** — **을** = object marker after a consonant: **국** (soup) ends in consonant ㄱ.",
+      "englishPhrase": "Stir the soup.",
+      "phrase": "국을 저어세요.",
+      "phraseRomanized": "gugeul jeoeseyo",
+      "literal": [
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "저어세요",
+          "stir please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "whisk",
+      "english": "whisk",
+      "word": "거품기로 젓다",
+      "romanized": "geopumgiro jeotda",
+      "grammarNote": "**거품기** (geopumgi) = whisk: **거품** (foam/bubbles) + **기** (machine/tool).\n**로** = 'with / by means of (a tool)': **거품기로** = 'with a whisk'.\n**저어세요** = 'please stir/whisk' — same verb **젓다** used for stirring with any implement.",
+      "englishPhrase": "Whisk the eggs.",
+      "phrase": "달걀을 거품기로 저어세요.",
+      "phraseRomanized": "dalgyareul geopumgiro jeoeseyo",
+      "literal": [
+        [
+          "달걀",
+          "egg"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "거품기",
+          "whisk"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "저어세요",
+          "stir please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "pour",
+      "english": "pour",
+      "word": "붓다",
+      "romanized": "butda",
+      "grammarNote": "**붓다** (butda) = to pour — irregular: **부어요** in polite speech (the ㅅ drops).\n**에** after a container = 'into': **유리잔에** = 'into the glass'.\n**부어세요** = 'please pour' — **-어세요** imperative form.",
+      "englishPhrase": "Pour the water into the glass.",
+      "phrase": "유리잔에 물을 부어세요.",
+      "phraseRomanized": "yurijane mureul bueoseyo",
+      "literal": [
+        [
+          "유리잔",
+          "glass"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "물",
+          "water"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "부어세요",
+          "pour please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "serve",
+      "english": "serve",
+      "word": "서빙하다",
+      "romanized": "seobinghada",
+      "grammarNote": "**서빙하다** (seobinghada) = to serve (food) — a **하다** verb from the English loanword 'serving'.\nNative Korean alternative: **내다** (naeda) or **내놓다** (naenota) = to put out/serve.\n**가** = subject marker after a vowel: **웨이터가**.",
+      "englishPhrase": "The waiter served the food.",
+      "phrase": "웨이터가 음식을 서빙했어요.",
+      "phraseRomanized": "weiteo-ga eumsig-eul seobinghaesseoyo",
+      "literal": [
+        [
+          "웨이터",
+          "waiter"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "서빙했어요",
+          "served"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "word": "먹이다",
+      "romanized": "meogida",
+      "grammarNote": "**먹이다** (meogida) = to feed — the causative of **먹다** (to eat): 'to cause someone to eat'.\n**에게** = 'to (a person or animal)': **아기에게** = 'to the baby'.\n**먹여요** is the conjugated form of **먹이다** (irregular form).",
+      "englishPhrase": "She feeds the baby.",
+      "phrase": "그녀는 아기에게 먹여요.",
+      "phraseRomanized": "geunyeoneun agiege meogyeoyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "아기",
+          "baby"
+        ],
+        [
+          "에게",
+          "[at/to]"
+        ],
+        [
+          "먹여요",
+          "feeds"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "dine",
+      "english": "dine",
+      "word": "식사하다",
+      "romanized": "siksahada",
+      "grammarNote": "**식사하다** (siksahada) = to have a meal/dine — formal **하다** verb.\n**에서** after a place = where an action takes place: **좋은 식당에서** = 'at a nice restaurant'.\n**식사했어요** = 'dined / had a meal' — past tense of **식사하다**.",
+      "englishPhrase": "We dined at a nice restaurant.",
+      "phrase": "좋은 식당에서 식사했어요.",
+      "phraseRomanized": "joeun sikdangeseo siksahaesseoyo",
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "식사했어요",
+          "dined"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "chew",
+      "english": "chew",
+      "word": "씹다",
+      "romanized": "ssipda",
+      "grammarNote": "**씹다** (ssipda) = to chew.\n**씹으세요** = 'please chew' — **-으세요** polite imperative after a consonant.\n**천천히** (cheoncheonhi) = slowly — a very useful adverb for instructions.\n**음식** (eumsik) = food — Hanja: **음** (飮) + **식** (食).",
+      "englishPhrase": "Chew your food slowly.",
+      "phrase": "음식을 천천히 씹으세요.",
+      "phraseRomanized": "eumsig-eul cheoncheonhi ssib-euseyo",
+      "literal": [
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "천천히",
+          "slowly"
+        ],
+        [
+          "씹으세요",
+          "chew please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "swallow",
+      "english": "swallow",
+      "word": "삼키다",
+      "romanized": "samkida",
+      "grammarNote": "**삼키다** (samkida) = to swallow.\n**과** = 'and/with' — connects nouns after a consonant: **물과** = 'with water'.\n**함께** (hamkke) = together.\n**약** (yak) = medicine, pill — also means a general remedy.",
+      "englishPhrase": "Swallow the pill with water.",
+      "phrase": "물과 함께 약을 삼키세요.",
+      "phraseRomanized": "mulgwa hamkke yageul samkiseyo",
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "과",
+          "[and/with]"
+        ],
+        [
+          "함께",
+          "together"
+        ],
+        [
+          "약",
+          "pill"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "삼키세요",
+          "swallow please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "season",
+      "english": "season",
+      "word": "간을 하다",
+      "romanized": "ganeul hada",
+      "grammarNote": "**간** (gan) = saltiness level / seasoning — not a spice itself, but the balance of salt.\n**간을 하다** = to season (food).\n**간을 보다** = to taste/check the seasoning.\n**로** = 'with / by means of': **소금과 후추로** = 'with salt and pepper'.",
+      "englishPhrase": "Season with salt and pepper.",
+      "phrase": "소금과 후추로 간을 하세요.",
+      "phraseRomanized": "sogeumgwa huchuro ganeul haseyo",
+      "literal": [
+        [
+          "소금",
+          "salt"
+        ],
+        [
+          "과",
+          "[and/with]"
+        ],
+        [
+          "후추",
+          "pepper"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "간을",
+          "seasoning[obj]"
+        ],
+        [
+          "하세요",
+          "do please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "word": "신선한",
+      "romanized": "sinseonhan",
+      "grammarNote": "**신선하다** (sinseonhada) = to be fresh — commonly used for food and produce.\n**신선해요** = polite present form.\n**갓 구운** = 'just baked': **갓** (just/freshly) + **굽다** (to bake) in past modifier form.\n**이** = subject marker after a consonant: **빵이**.",
+      "englishPhrase": "The bread is fresh.",
+      "phrase": "빵이 신선해요.",
+      "phraseRomanized": "ppangi sinsonhaeyo",
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "신선해요",
+          "fresh"
+        ]
+      ]
+    },
+    {
+      "id": "ripe",
+      "english": "ripe",
+      "word": "잘 익은",
+      "romanized": "jal igeun",
+      "grammarNote": "**익다** (ikda) = to ripen (fruit) or to cook through (food) — the same verb for both.\n**잘 익은** = 'well-ripened' — **잘** (well) + **익은** (past modifier of **익다**).\n**잘 익었어요** = 'has ripened well' — past tense indicating completed change.\n**가** = subject marker after a vowel: **토마토가**.",
+      "englishPhrase": "The tomatoes are ripe.",
+      "phrase": "토마토가 잘 익었어요.",
+      "phraseRomanized": "tomatoga jal igeosseoyo",
+      "literal": [
+        [
+          "토마토",
+          "tomato"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "익었어요",
+          "ripened"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "cooked",
+      "english": "cooked",
+      "word": "익힌",
+      "romanized": "ikin",
+      "grammarNote": "**익히다** (ikhida) = to cook through (the causative of **익다**): 'to make something ripen/cook'.\n**익힌** = the past modifier: 'cooked'.\n**익었어요?** = 'has it cooked through?' — uses the intransitive **익다**.\nAsk this to check doneness of meat — very useful at Korean BBQ.",
+      "englishPhrase": "Is the chicken cooked?",
+      "phrase": "닭고기가 익었어요?",
+      "phraseRomanized": "dalkgogiga igeosseoyo",
+      "literal": [
+        [
+          "닭고기",
+          "chicken"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "익었어요",
+          "cooked"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "word": "뜨거운",
+      "romanized": "tteugoun",
+      "grammarNote": "**뜨겁다** = hot to the touch (temperature).\n**맵다** = spicy-hot.\n**따뜻하다** = warm.\nNever confuse **뜨겁다** with **맵다** in a food context — one is temperature, the other is spice.",
+      "englishPhrase": "Be careful, the soup is hot.",
+      "phrase": "조심하세요, 국이 뜨거워요.",
+      "phraseRomanized": "josimhaseyo, gugi tteugeowoyo",
+      "literal": [
+        [
+          "조심하세요",
+          "be-careful"
+        ],
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ]
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "word": "차가운",
+      "romanized": "chagaun",
+      "grammarNote": "**차갑다** (chagapda) = cold to the touch (物理的 cold, like an object or drink) — irregular ㅂ: **차가워요**.\n**춥다** (chupda) = cold weather or how cold a person feels: **추워요**.\n**식다** (sikda) = to cool down: **식었어요** = 'has cooled / gone cold' — used for food or drinks that were hot.",
+      "englishPhrase": "My coffee is cold.",
+      "phrase": "커피가 식었어요.",
+      "phraseRomanized": "keopiga sigeosseoyo",
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "식었어요",
+          "cooled-down"
+        ]
+      ]
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "word": "달콤한",
+      "romanized": "dalkomhan",
+      "grammarNote": "**달다** (dalda) = to be sweet — the base adjective verb.\n**달콤하다** (dalkomhada) = to be sweetly sweet — slightly more poetic/romantic nuance.\n**단맛** (danmat) = sweet taste/flavor: **단** (sweet) + **맛** (taste).\n**달아요** and **달콤해요** are both used naturally; **달콤해요** often describes pleasant, mild sweetness.",
+      "englishPhrase": "This cake is very sweet.",
+      "phrase": "이 케이크는 매우 달아요.",
+      "phraseRomanized": "i keikeuneun maeu darayo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "케이크",
+          "cake"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "달아요",
+          "sweet"
+        ]
+      ]
+    },
+    {
+      "id": "sour",
+      "english": "sour",
+      "word": "신",
+      "romanized": "sin",
+      "grammarNote": "**시다** (sida) = to be sour — the base adjective verb.\n**셔요** is the polite form: **이 레몬은 셔요** (this lemon is sour).\n**신맛** (sinmat) = sour taste: **신** (sour) + **맛** (taste).\nRelated: **새콤하다** (saekomhada) = slightly tangy/sour — often used approvingly for refreshing sourness.",
+      "englishPhrase": "This lemon is sour.",
+      "phrase": "이 레몬은 셔요.",
+      "phraseRomanized": "i lemoneun syeoyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "레몬",
+          "lemon"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "셔요",
+          "sour"
+        ]
+      ]
+    },
+    {
+      "id": "bitter",
+      "english": "bitter",
+      "word": "쓴",
+      "romanized": "sseun",
+      "grammarNote": "**쓰다** (sseuda) = to be bitter — the base adjective verb.\n**써요** is the polite present form: **이 커피는 써요** (this coffee is bitter).\n**쓴맛** (sseunmat) = bitter taste: **쓴** (bitter) + **맛** (taste).\n**쓴** is the modifier form used before nouns: **쓴 약** (bitter medicine), **쓴 커피** (bitter coffee).",
+      "englishPhrase": "This coffee is bitter.",
+      "phrase": "이 커피는 써요.",
+      "phraseRomanized": "i keopineun sseoyo",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "써요",
+          "bitter"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "spicy",
+      "english": "spicy",
+      "word": "매운",
+      "romanized": "maeun",
+      "grammarNote": "**맵다** (maepda) = to be spicy — irregular ㅂ verb: **매워요** in polite speech.\n**매운맛** (maeunmat) = spicy taste.\n**매운** is the modifier form before nouns: **매운 음식** (spicy food), **매운 김치** (spicy kimchi).\nDo not confuse **맵다** (spicy) with **뜨겁다** (hot temperature) — they are entirely different in Korean.",
+      "englishPhrase": "Mexican food is often spicy.",
+      "phrase": "멕시코 음식은 보통 매워요.",
+      "phraseRomanized": "meksiko eumsig-eun botong maewoyo",
+      "literal": [
+        [
+          "멕시코",
+          "Mexican"
+        ],
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "보통",
+          "usually"
+        ],
+        [
+          "매워요",
+          "spicy"
+        ]
+      ]
+    },
+    {
+      "id": "tender",
+      "english": "tender",
+      "word": "부드러운",
+      "romanized": "budeuroun",
+      "grammarNote": "**부드럽다** (budeureopda) = to be soft/tender/smooth — irregular ㅂ verb: **부드러워요**.\n**부드러운** is the modifier form before nouns: **부드러운 고기** (tender meat).\n**연하다** (yeonhada) = to be soft/tender specifically for food texture — common when describing well-cooked meat.\nOpposite: **질기다** (jilgida) = to be tough/chewy (meat).",
+      "englishPhrase": "The meat is tender.",
+      "phrase": "고기가 부드러워요.",
+      "phraseRomanized": "gogiga budeureowoyo",
+      "literal": [
+        [
+          "고기",
+          "meat"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "부드러워요",
+          "tender"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "delicious",
+      "english": "delicious",
+      "word": "맛있는",
+      "romanized": "massinneun",
+      "grammarNote": "**맛있어요** = delicious.\nCultural meal phrases:\n**잘 먹겠습니다** — said before eating ('I will eat well').\n**잘 먹었습니다** — said after eating ('I ate well').\nBoth express gratitude to the host or cook.",
+      "englishPhrase": "This is delicious!",
+      "phrase": "이게 맛있어요!",
+      "phraseRomanized": "ige massisseoyo",
+      "literal": [
+        [
+          "이게",
+          "this[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
+    },
+    {
+      "id": "tasty",
+      "english": "tasty",
+      "word": "맛있는",
+      "romanized": "massinneun",
+      "grammarNote": "**맛있다** (masitda) = to be tasty/delicious: **맛** (taste) + **있다** (to exist/have) — literally 'taste exists'.\n**맛있는** is the modifier form before nouns: **맛있는 국** (tasty soup).\n**맛없다** (maseopsda) = tasteless/bland — literally 'taste doesn't exist'.\n**아주** and **진짜** both intensify: **아주 맛있어요** (very tasty), **진짜 맛있어요** (really tasty).",
+      "englishPhrase": "The soup is very tasty.",
+      "phrase": "국이 아주 맛있어요.",
+      "phraseRomanized": "gugi aju massisseoyo",
+      "literal": [
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아주",
+          "very"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "bland",
+      "english": "bland",
+      "word": "싱거운",
+      "romanized": "singeoun",
+      "grammarNote": "**싱겁다** (singeobda) = to be bland/under-seasoned — irregular ㅂ verb: **싱거워요**.\n**싱거운** is the modifier form: **싱거운 밥** (bland rice).\n**간이 없다** = 'there is no seasoning' — an alternative way to describe bland food.\nOpposite: **짜다** (jjada) = to be salty/over-seasoned.",
+      "englishPhrase": "The rice is bland.",
+      "phrase": "밥이 싱거워요.",
+      "phraseRomanized": "babi singeowoyo",
+      "literal": [
+        [
+          "밥",
+          "rice"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "싱거워요",
+          "bland"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "word": "건강한",
+      "romanized": "geonganhan",
+      "grammarNote": "**건강하다** (geonganghada) = to be healthy — Sino-Korean: **건** (健, strong) + **강** (康, well).\n**건강에 좋다** = 'good for health': **에** here means 'for'.\n**건강한 음식** = healthy food — **건강한** is the modifier form.\nThe opposite: **건강에 나쁘다** = 'bad for health'.",
+      "englishPhrase": "Fruit is healthy.",
+      "phrase": "과일은 건강에 좋아요.",
+      "phraseRomanized": "gwaireun geongange joayo",
+      "literal": [
+        [
+          "과일",
+          "fruit"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
+    },
+    {
+      "id": "unhealthy",
+      "english": "unhealthy",
+      "word": "건강에 나쁜",
+      "romanized": "geongange nappeun",
+      "grammarNote": "**건강에 나쁘다** = 'bad for health' — literally 'bad to health'.\n**나쁘다** (nappeuda) = to be bad — **에** marks what something is bad for.\n**패스트푸드** (paeseutupudu) = fast food (loanword from English).\n**몸에 안 좋다** is a natural alternative: **몸에 안 좋아요** = 'not good for the body'.",
+      "englishPhrase": "Fast food is unhealthy.",
+      "phrase": "패스트푸드는 건강에 나빠요.",
+      "phraseRomanized": "paeseutupuduneun geongange nappayo",
+      "literal": [
+        [
+          "패스트푸드",
+          "fast food"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "나빠요",
+          "bad"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegetarian",
+      "english": "vegetarian",
+      "word": "채식주의자",
+      "romanized": "chaesigjuuija",
+      "grammarNote": "**채식주의자** (chaesigjuuija) = vegetarian — a compound Sino-Korean noun: **채식** (plant-based eating) + **주의** (principle/ideology) + **자** (person).\n**채식** alone refers to a vegetarian diet; **채식하다** = to eat vegetarian.\nAt restaurants: **채식 메뉴 있어요?** (do you have vegetarian menu options?) is a practical phrase.\n**비건** (bigeon) = vegan — a loanword used for stricter plant-based eating.",
+      "englishPhrase": "I am vegetarian.",
+      "phrase": "저는 채식주의자예요.",
+      "phraseRomanized": "jeoneun chaesigjuuijayeyo",
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "채식주의자",
+          "vegetarian"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "vegan",
+      "english": "vegan",
+      "word": "비건",
+      "romanized": "bigeon",
+      "grammarNote": "**비건** (bigeon) is a loanword from English 'vegan'.\n**채식주의자** (chaesigjuuija) = vegetarian; **비건** = vegan (stricter, excludes all animal products).\n**이에요** = copula after a consonant: **비건이에요** = 'is vegan'.\nUseful at restaurants: **유제품도 안 드세요?** = 'do you also not eat dairy?'",
+      "englishPhrase": "She is vegan.",
+      "phrase": "그녀는 비건이에요.",
+      "phraseRomanized": "geunyeoneun bigeonieyo",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "비건",
+          "vegan"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "frozen",
+      "english": "frozen",
+      "word": "냉동된",
+      "romanized": "naengdongdoen",
+      "grammarNote": "**냉동** (naengdong) = freezing/frozen — Hanja: **냉** (冷, cold) + **동** (凍, freeze).\n**냉동식품** (naengdongsikpum) = frozen food — **식품** (food product).\n**냉장** (naengjang) = refrigeration (not freezing): **냉장고** (naengjanggo) = refrigerator.\n**꺼내다** (kkeohaeда) = to take out — used for removing food from the fridge or freezer.",
+      "englishPhrase": "Take the frozen food out.",
+      "phrase": "냉동식품을 꺼내세요.",
+      "phraseRomanized": "naengdongsikpumeul kkeohaeseyo",
+      "literal": [
+        [
+          "냉동식품",
+          "frozen-food"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "꺼내세요",
+          "take-out please"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "organic",
+      "english": "organic",
+      "word": "유기농",
+      "romanized": "yuginong",
+      "grammarNote": "**유기농** (yuginong) = organic — Hanja: **유기** (有機, organic/living matter) + **농** (農, farming).\n**유기농 채소** = organic vegetables; **유기농 식품** = organic food products.\n**더 좋아해요** = 'prefer' (literally 'like more'): **더** (more) + **좋아하다** (to like).\nOrganic produce is labelled **유기농** in Korean supermarkets and markets.",
+      "englishPhrase": "I prefer organic vegetables.",
+      "phrase": "유기농 채소를 더 좋아해요.",
+      "phraseRomanized": "yuginong chaesoreul deo joahaeyo",
+      "literal": [
+        [
+          "유기농",
+          "organic"
+        ],
+        [
+          "채소",
+          "vegetable"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "더",
+          "more"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "homemade",
+      "english": "homemade",
+      "word": "집에서 만든",
+      "romanized": "jibeseo mandeun",
+      "grammarNote": "**집에서 만든** (jibeseo mandeun) = homemade — literally 'made at home'.\n**집** (jip) = home/house; **에서** = at (location of action); **만든** = past modifier of **만들다** (to make).\nThe same pattern works for any origin: **시장에서 산** (bought at the market), **엄마가 만든** (made by mom).\n**집밥** (jipbap) = home-cooked meal — a beloved compound used affectionately.",
+      "englishPhrase": "I love homemade bread.",
+      "phrase": "집에서 만든 빵을 정말 좋아해요.",
+      "phraseRomanized": "jibeseo mandeun ppang-eul jeongmal joahaeyo",
+      "literal": [
+        [
+          "집에서",
+          "home[at/from]"
+        ],
+        [
+          "만든",
+          "made"
+        ],
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "daily",
+      "english": "daily",
+      "word": "매일",
+      "romanized": "maeil",
+      "grammarNote": "**매일** (maeil) = every day/daily — Hanja: **매** (每, every) + **일** (日, day).\n**매일** does NOT take the time particle **에** — it stands alone as a time adverb.\n**매주** (maeju) = every week; **매달** (maedal) = every month; **매년** (maenyeon) = every year.\nThese all follow the same **매-** pattern.",
+      "englishPhrase": "I eat fruit daily.",
+      "phrase": "매일 과일을 먹어요.",
+      "phraseRomanized": "maeil gwaireul meogeoyo",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "과일",
+          "fruit"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "almost",
+      "english": "almost",
+      "word": "거의",
+      "romanized": "geoui",
+      "grammarNote": "**거의** (geoui) = almost/nearly — used before verbs or adjectives to mean 'nearly' a state.\n**거의 다** = 'almost all done': **거의 다 됐어요** = 'it's almost ready'.\n**다** (da) = all/completely — pairs with **거의** to emphasise near-completion.\n**됐어요** = 'became / is done' from **되다** (to become) in past tense — a very common completion marker.",
+      "englishPhrase": "Lunch is almost ready.",
+      "phrase": "점심이 거의 다 됐어요.",
+      "phraseRomanized": "jeomsimi geoui da dwaesseoyo",
+      "literal": [
+        [
+          "점심",
+          "lunch"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "거의",
+          "almost"
+        ],
+        [
+          "다",
+          "all"
+        ],
+        [
+          "됐어요",
+          "done"
+        ]
+      ],
+      "hidden": true
+    },
+    {
+      "id": "too_too_much",
+      "english": "too (too much)",
+      "word": "너무",
+      "romanized": "neomu",
+      "grammarNote": "**너무** (neomu) = too much / excessively — often implies a negative degree ('it's too much').\nIn modern colloquial Korean **너무** is also used positively: **너무 맛있어요!** (so delicious!) — the negative implication has softened.\n**너무** + adjective: **너무 짜요** (too salty), **너무 매워요** (too spicy), **너무 달아요** (too sweet).\n**많다** (manta) = to be many/much — **너무 많아요** = 'there is too much'.",
+      "englishPhrase": "There is too much salt.",
+      "phrase": "소금이 너무 많아요.",
+      "phraseRomanized": "sogeumi neomu manayo",
+      "literal": [
+        [
+          "소금",
+          "salt"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "너무",
+          "too-much"
+        ],
+        [
+          "많아요",
+          "many"
+        ]
+      ],
+      "hidden": true
+    }
+  ]
+}
