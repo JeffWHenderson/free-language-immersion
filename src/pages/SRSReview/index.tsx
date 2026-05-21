@@ -66,7 +66,7 @@ const SRSReview = () => {
     const [deckState, setDeckState] = useState<SRSDeckState>({});
     const [session, setSession] = useState<SessionCard[]>([]);
     const [isFlipped, setIsFlipped] = useState(false);
-    const { readBack, fastMode, showLiteral, shuffleCards } = useLanguageApp();
+    const { readBack, fastMode, shuffleCards } = useLanguageApp();
     const [done, setDone] = useState(false);
     const [totalCards, setTotalCards] = useState(0);
     const [reviewed, setReviewed] = useState(0);
@@ -129,20 +129,31 @@ const SRSReview = () => {
     // ── Fast mode ─────────────────────────────────────────────────────────────
     useEffect(() => {
         if (!fastMode || !deck) return;
-        window.speechSynthesis.cancel();
         const visibleCards = deck.cards.filter(c => !isCardHidden(c, deckState));
         if (visibleCards.length === 0) return;
         const card = visibleCards[fastModeIndex % visibleCards.length];
-        const { readFront } = { readFront: true }; // fast mode always reads both
-        if (readFront) {
-            const frontUtt = buildUtt(card.english, false);
-            frontUtt.onend = () => {
-                setTimeout(() => window.speechSynthesis.speak(buildUtt(card.word, true)), 500);
+
+        const utterances = [
+            buildUtt(card.word, true),
+            buildUtt(card.english, false),
+            ...(card.phrase ? [buildUtt(card.phrase, true)] : []),
+            ...(card.englishPhrase ? [buildUtt(card.englishPhrase, false)] : []),
+        ];
+
+        const gen = ++ttsGenRef.current;
+        window.speechSynthesis.cancel();
+
+        const speakChain = (utts: SpeechSynthesisUtterance[]) => {
+            if (utts.length === 0 || ttsGenRef.current !== gen) return;
+            const [head, ...rest] = utts;
+            head.onend = () => {
+                if (ttsGenRef.current !== gen) return;
+                setTimeout(() => speakChain(rest), 350);
             };
-            window.speechSynthesis.speak(frontUtt);
-        } else {
-            window.speechSynthesis.speak(buildUtt(card.word, true));
-        }
+            window.speechSynthesis.speak(head);
+        };
+
+        speakChain(utterances);
         return () => window.speechSynthesis.cancel();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [fastMode, fastModeIndex, deck]);
@@ -223,10 +234,15 @@ const SRSReview = () => {
                 <div className="srs-card-wrap">
                     <div className="srs-card srs-card-fast">
                         <div className="srs-card-text">{card.english}</div>
-                        {showLiteral && card.literal && <div className="srs-literal">{card.literal}</div>}
                         <hr className="srs-divider" />
-                        <div className="srs-card-text">{card.word}</div>
                         {card.romanized && <div className="srs-romanized">{card.romanized}</div>}
+                        <div className="srs-card-text">{card.word}</div>
+                        {(card.phrase || card.phraseRomanized) && (
+                            <div className="srs-fast-phrase-group">
+                                {card.phraseRomanized && <div className="eszh-phrase-pin">{card.phraseRomanized}</div>}
+                                {card.phrase && <div className="eszh-phrase">{card.phrase}</div>}
+                            </div>
+                        )}
                     </div>
                 </div>
                 <div className="srs-fast-nav">
