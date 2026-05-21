@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { applyRating, CardState, isDue, isNew, previewIntervals, Rating } from "../fsrs";
 import { loadDeckState, saveDeckState, getCardState, updateCardState, SRSDeckState } from "../useSRSStorage";
@@ -7,6 +7,8 @@ import { shuffled } from "../../utils";
 import { useLanguageApp } from "../../LanguageAppContext";
 import SRSSettings from "../components/SRSSettings";
 import "../srs.css";
+import "../components/FlipCard.css";
+import "../SRSReview/SRSReview.css";
 
 const ESZH_LANG = "eszh";
 const ESZH_DECK = "all";
@@ -60,9 +62,11 @@ const ESZHReview = () => {
     const [reversed, setReversed] = useState(false);
     const [showEnglish, setShowEnglish] = useState(true);
 
-    const { shuffleCards, readBack } = useLanguageApp();
+    const { shuffleCards, readBack, fastMode } = useLanguageApp();
     const { speak: speakSpanish, buildUtt: buildSpanishUtt } = useSpeech("spanish");
     const { speak: speakChinese, buildUtt: buildChineseUtt } = useSpeech("chinese");
+    const ttsGenRef = useRef(0);
+    const [fastModeIndex, setFastModeIndex] = useState(0);
 
     useEffect(() => {
         fetch("/cross/spanish-chinese/index.json")
@@ -78,6 +82,45 @@ const ESZHReview = () => {
             })
             .catch(e => console.error(e));
     }, []);
+
+    // ── Fast mode TTS ─────────────────────────────────────────────────────────
+    useEffect(() => {
+        if (!fastMode || allItems.length === 0) return;
+        const card = allItems[fastModeIndex % allItems.length];
+
+        const tgtWord = reversed ? buildSpanishUtt(card.spanish, true) : buildChineseUtt(card.chinese, true);
+        const srcWord = reversed ? buildChineseUtt(card.chinese, true) : buildSpanishUtt(card.spanish, true);
+        const tgtPhrase = reversed
+            ? (card.spanishPhrase ? buildSpanishUtt(card.spanishPhrase, true) : null)
+            : (card.chinesePhrase ? buildChineseUtt(card.chinesePhrase, true) : null);
+        const srcPhrase = reversed
+            ? (card.chinesePhrase ? buildChineseUtt(card.chinesePhrase, true) : null)
+            : (card.spanishPhrase ? buildSpanishUtt(card.spanishPhrase, true) : null);
+
+        const utterances = [tgtWord, srcWord, ...(tgtPhrase ? [tgtPhrase] : []), ...(srcPhrase ? [srcPhrase] : [])];
+
+        const gen = ++ttsGenRef.current;
+        window.speechSynthesis.cancel();
+
+        const speakChain = (utts: SpeechSynthesisUtterance[]) => {
+            if (utts.length === 0 || ttsGenRef.current !== gen) return;
+            const [head, ...rest] = utts;
+            head.onend = () => {
+                if (ttsGenRef.current !== gen) return;
+                setTimeout(() => speakChain(rest), 350);
+            };
+            window.speechSynthesis.speak(head);
+        };
+
+        speakChain(utterances);
+        return () => window.speechSynthesis.cancel();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [fastMode, fastModeIndex, allItems.length, reversed]);
+
+    useEffect(() => {
+        if (!fastMode) window.speechSynthesis.cancel();
+    }, [fastMode]);
+    // ─────────────────────────────────────────────────────────────────────────
 
     const currentCard = session[0];
 
@@ -173,6 +216,47 @@ const ESZHReview = () => {
     );
 
     if (!loaded) return <div className="srs-container"><p>Loading...</p></div>;
+
+    // ── Fast mode view ────────────────────────────────────────────────────────
+    if (fastMode) {
+        const total = allItems.length;
+        const idx = fastModeIndex % Math.max(total, 1);
+        const card = allItems[idx];
+        const srcText = reversed ? card.chinese : card.spanish;
+        const srcPin = reversed ? card.pinyin : undefined;
+        const tgtText = reversed ? card.spanish : card.chinese;
+        const tgtPin = reversed ? undefined : card.pinyin;
+        const tgtPhrase = reversed ? card.spanishPhrase : card.chinesePhrase;
+        const tgtPhrasePin = reversed ? undefined : card.chinesePhrasePin;
+        return (
+            <div className="srs-container">
+                {header}
+                {controls}
+                <div className="srs-card-wrap">
+                    <div className="srs-card srs-card-fast">
+                        <div className="srs-card-text">{srcText}</div>
+                        {srcPin && <div className="srs-romanized">{srcPin}</div>}
+                        {showEnglish && <div className="eszh-en">{card.english}</div>}
+                        <hr className="srs-divider" />
+                        {tgtPin && <div className="srs-romanized">{tgtPin}</div>}
+                        <div className="srs-card-text">{tgtText}</div>
+                        {(tgtPhrase || tgtPhrasePin) && (
+                            <div className="srs-fast-phrase-group">
+                                {tgtPhrasePin && <div className="eszh-phrase-pin">{tgtPhrasePin}</div>}
+                                {tgtPhrase && <div className="eszh-phrase">{tgtPhrase}</div>}
+                            </div>
+                        )}
+                    </div>
+                </div>
+                <div className="srs-fast-nav">
+                    <button className="srs-fast-nav-btn" onClick={() => setFastModeIndex(i => Math.max(0, i - 1))} disabled={idx === 0}>← Prev</button>
+                    <span className="srs-fast-counter">{idx + 1} / {total}</span>
+                    <button className="srs-fast-nav-btn" onClick={() => setFastModeIndex(i => Math.min(total - 1, i + 1))} disabled={idx === total - 1}>Next →</button>
+                </div>
+            </div>
+        );
+    }
+    // ─────────────────────────────────────────────────────────────────────────
 
     if (done || (loaded && session.length === 0 && reviewed > 0)) {
         return (

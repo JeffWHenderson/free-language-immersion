@@ -358,53 +358,6 @@ button.srs-count:hover {
     margin-bottom: 2px;
 }
 
-.eszh-phrase {
-    font-size: 0.82rem;
-    font-style: italic;
-    opacity: 0.72;
-    margin-top: 6px;
-    line-height: 1.4;
-    text-align: center;
-}
-
-.eszh-phrase.front-dim {
-    opacity: 0.25;
-}
-
-.eszh-phrase-pin {
-    font-size: 0.72rem;
-    color: #e07b3a;
-    font-style: italic;
-    opacity: 0.8;
-    margin-top: 1px;
-}
-
-.eszh-controls {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 8px;
-}
-
-.eszh-toggle {
-    padding: 5px 14px;
-    border-radius: 20px;
-    border: 1px solid var(--color-border, #ccc);
-    background: none;
-    font-size: 0.8rem;
-    cursor: pointer;
-    color: var(--text-color, #555);
-    font-weight: 500;
-    transition: background 0.15s, color 0.15s, border-color 0.15s;
-    white-space: nowrap;
-}
-
-.eszh-toggle.active {
-    background: #1a8a6e;
-    border-color: #1a8a6e;
-    color: #fff;
-}
 
 .srs-btn-secondary {
     padding: 10px 20px;
