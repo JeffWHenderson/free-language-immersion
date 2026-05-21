@@ -75,8 +75,7 @@
 
 .srs-romanized {
     font-size: 0.85rem;
-    color: var(--text-color, #111);
-    opacity: 0.5;
+    color: #e64e4e;;
     margin-top: 5px;
     letter-spacing: 0.02em;
 }
@@ -91,10 +90,10 @@
 
 /* ── Phrase lines ── */
 .eszh-phrase {
-    font-size: 0.92rem;
-    line-height: 1.5;
+    font-size: 1.65rem;
+    font-weight: 600;
+    line-height: 1.35;
     margin-top: 9px;
-    opacity: 0.8;
     max-width: 100%;
 }
 
@@ -108,7 +107,7 @@
     font-size: 0.78rem;
     letter-spacing: 0.02em;
     margin-top: 3px;
-    opacity: 0.45;
+    color: #e64e4e;
 }
 
 /* ── Below-card literal note ── */
