@@ -88,6 +88,26 @@
     opacity: 0.3;
 }
 
+/* ── Card back layout ── */
+.srs-card-back-word-group,
+.srs-card-back-phrase-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+}
+
+.srs-card-back-phrase-group {
+    margin-top: 20px;
+}
+
+.srs-card-back-english {
+    font-size: 0.88rem;
+    color: var(--text-color, #111);
+    opacity: 0.45;
+}
+
 /* ── Phrase lines ── */
 .eszh-phrase {
     font-size: 1.65rem;
@@ -193,3 +213,11 @@
         background: rgba(255, 255, 255, 0.06);
     }
 }
+
+romanized word (smaller text with font color)
+word (Large Bold text)
+english-word (small grey text)
+whiteSpace
+romanized phrase (smaller text with font color)
+phrase (Large Bold text)
+english-phrase (small grey text)

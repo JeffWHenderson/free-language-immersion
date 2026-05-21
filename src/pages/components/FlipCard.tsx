@@ -28,43 +28,37 @@ const FlipCard = ({
                 className={`srs-card ${isFlipped ? "flipped" : ""}`}
                 onClick={!isFlipped ? onFlip : undefined}
             >
-                {reversed ? (
-                    <>
-                        <div className="srs-card-front">
+                <div className="srs-card-front">
+                    {reversed ? (
+                        <>
                             <div className="srs-card-text">{word}</div>
                             {romanized && <div className="srs-romanized">{romanized}</div>}
                             {phrase && <div className="eszh-phrase">{phrase}</div>}
                             {phraseRomanized && <div className="eszh-phrase-pin">{phraseRomanized}</div>}
-                            {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
-                        </div>
-                        <div className="srs-card-back">
-                            <div className="srs-card-text front-dim">{word}</div>
-                            {phrase && <div className="eszh-phrase front-dim">{phrase}</div>}
-                            <hr className="srs-divider" />
+                        </>
+                    ) : (
+                        <>
                             <div className="srs-card-text">{english}</div>
                             {englishPhrase && <div className="eszh-phrase">{englishPhrase}</div>}
-                            {backExtra}
+                        </>
+                    )}
+                    {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
+                </div>
+                <div className="srs-card-back">
+                    <div className="srs-card-back-word-group">
+                        {romanized && <div className="srs-romanized">{romanized}</div>}
+                        <div className="srs-card-text">{word}</div>
+                        <div className="srs-card-back-english">{english}</div>
+                    </div>
+                    {(phrase || phraseRomanized || englishPhrase) && (
+                        <div className="srs-card-back-phrase-group">
+                            {phraseRomanized && <div className="srs-romanized">{phraseRomanized}</div>}
+                            {phrase && <div className="srs-card-text">{phrase}</div>}
+                            {englishPhrase && <div className="srs-card-back-english">{englishPhrase}</div>}
                         </div>
-                    </>
-                ) : (
-                    <>
-                        <div className="srs-card-front">
-                            <div className="srs-card-text">{english}</div>
-                            {englishPhrase && <div className="eszh-phrase">{englishPhrase}</div>}
-                            {!isFlipped && <div className="srs-tap-hint">tap to reveal</div>}
-                        </div>
-                        <div className="srs-card-back">
-                            <div className="srs-card-text front-dim">{english}</div>
-                            {englishPhrase && <div className="eszh-phrase front-dim">{englishPhrase}</div>}
-                            <hr className="srs-divider" />
-                            <div className="srs-card-text">{word}</div>
-                            {romanized && <div className="srs-romanized">{romanized}</div>}
-                            {phrase && <div className="eszh-phrase">{phrase}</div>}
-                            {phraseRomanized && <div className="eszh-phrase-pin">{phraseRomanized}</div>}
-                            {backExtra}
-                        </div>
-                    </>
-                )}
+                    )}
+                    {backExtra}
+                </div>
             </div>
             {isFlipped && literal && (
                 <div className="srs-literal-note">

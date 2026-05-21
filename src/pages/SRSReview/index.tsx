@@ -233,14 +233,16 @@ const SRSReview = () => {
                 </div>
                 <div className="srs-card-wrap">
                     <div className="srs-card srs-card-fast">
-                        <div className="srs-card-text">{card.english}</div>
-                        <hr className="srs-divider" />
-                        {card.romanized && <div className="srs-romanized">{card.romanized}</div>}
-                        <div className="srs-card-text">{card.word}</div>
-                        {(card.phrase || card.phraseRomanized) && (
-                            <div className="srs-fast-phrase-group">
-                                {card.phraseRomanized && <div className="eszh-phrase-pin">{card.phraseRomanized}</div>}
-                                {card.phrase && <div className="eszh-phrase">{card.phrase}</div>}
+                        <div className="srs-card-back-word-group">
+                            {card.romanized && <div className="srs-romanized">{card.romanized}</div>}
+                            <div className="srs-card-text">{card.word}</div>
+                            <div className="srs-card-back-english">{card.english}</div>
+                        </div>
+                        {(card.phrase || card.phraseRomanized || card.englishPhrase) && (
+                            <div className="srs-card-back-phrase-group">
+                                {card.phraseRomanized && <div className="srs-romanized">{card.phraseRomanized}</div>}
+                                {card.phrase && <div className="srs-card-text">{card.phrase}</div>}
+                                {card.englishPhrase && <div className="srs-card-back-english">{card.englishPhrase}</div>}
                             </div>
                         )}
                     </div>
