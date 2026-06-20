@@ -1,0 +1,238 @@
+# Skill: Create a New Language Course
+
+Before generating anything, work through the questions below in order. Wait for the user's answers before proceeding to the next step.
+
+---
+
+## Step 1 — Language
+
+Ask: **Which language would you like to add?**
+
+Then check whether that language already exists in `public/languages/`. If it does:
+
+Ask: **This language already has a course. Would you like to add new sections to the existing course, or start from scratch?**
+
+- **Add sections** — skip app wiring (the language is already wired up) and proceed to Step 2. Only generate the new sections the user specifies; do not touch existing ones.
+- **Start from scratch** — proceed normally through all steps including app wiring.
+
+---
+
+## Step 2 — Deck structure
+
+Ask: **One big deck or thematic sections?**
+
+- **One big deck** — all vocabulary in a single deck. Uses a single section with `section_id` = `my_{lang_id}` (e.g. `my_italian`). Works with the existing app routing without any code changes.
+- **Thematic sections** — vocabulary split across topic-based sections (e.g. Food & Drink, Human Body). Standard structure used by all existing courses.
+
+---
+
+## Step 3 — Section themes (thematic sections only)
+
+If the user chose thematic sections, ask: **Default themes or custom?**
+
+- **Default** — use the 6 standard themes. Proceed to Step 4.
+- **Custom** — ask the user to list their themes. For each, derive a `snake_case` section ID and display name, confirm the full list with the user, then proceed to Step 4.
+
+Default themes:
+
+| `section_id` | Display name |
+|---|---|
+| `human_body` | Human Body |
+| `common_places` | Common Places |
+| `jobs_and_hobbies` | Jobs & Hobbies |
+| `food_and_drink` | Food & Drink |
+| `moods_and_emotion` | Moods & Emotion |
+| `everyday_phrases` | Everyday Phrases |
+
+Skip this step if the user chose one big deck.
+
+---
+
+## Step 4 — Personalization
+
+Ask: **Would you like to personalize the example phrases, or use generic examples?**
+
+- **Personalize** — ask the user a few questions to tailor the phrases to their real life. Suggested questions (adapt as needed):
+  - What's your name?
+  - What do you do for work?
+  - What are your hobbies or interests?
+  - Do you have family, a partner, or pets you'd like to mention?
+  - Any places, foods, or topics that are especially relevant to you?
+  Use the answers to shape example phrases throughout the course so they feel natural and personal.
+- **No personalization** — use generic, broadly applicable example phrases. Available for both default and custom courses.
+
+---
+
+## When to generate an outline first
+
+| Situation | Action |
+|---|---|
+| Default themes + no personalization | Proceed directly to content generation |
+| One big deck, custom themes, or personalization chosen | Generate an outline for review first |
+
+---
+
+## Generating the outline
+
+Save to `.ai-workspace/{lang_id}-outline.md` (create the directory if it doesn't exist).
+
+The outline is **English only** — no translations. It captures the full plan so the user can review, edit, and approve before any language content is generated.
+
+Format:
+
+```markdown
+# {Language} Course Outline
+
+## Structure
+- Deck style: [One big deck / Thematic sections]
+- Sections: [list]
+- Personalization: [Yes — name, job, hobbies / No]
+
+---
+
+## {Section Display Name}
+
+- {English phrase or vocabulary item}
+- {English phrase or vocabulary item}
+- ...
+
+## {Section Display Name}
+
+- ...
+```
+
+After saving the outline, tell the user:
+
+> Outline saved to `.ai-workspace/{lang_id}-outline.md`. Please review it, make any edits you'd like (add, remove, or reword phrases), and let me know when you're ready to generate the full course.
+
+**Do not generate any translations or course files until the user gives the go-ahead.**
+
+---
+
+## Content generation
+
+Generate one section at a time. After each section is complete and validated, pause and ask the user:
+
+> **"{Section Name}" is done. Does it look good, or would you like any changes before I move on to the next section?**
+
+Wait for their response before generating the next section. This keeps token usage manageable and lets the user course-correct early.
+
+**Only generate flashcard decks** — do not generate stories or grammar lessons. Those can be added later with `/add-section`.
+
+### Directory structure
+
+```
+public/languages/{lang_id}/
+  {section_id}/
+    index.json
+```
+
+### index.json schema
+
+```json
+{
+  "id": "section_id",
+  "name": "Display Name",
+  "language": "lang_id",
+  "stories": [],
+  "pictureLessons": [],
+  "grammarLessons": [],
+  "cards": []
+}
+```
+
+Leave `stories`, `pictureLessons`, and `grammarLessons` as `[]`. Aim for 30–60 cards per section (or 60–120 for a single big deck).
+
+### Card schema
+
+Determine script type first:
+- **Latin script**: Spanish, French, Italian, Portuguese, German, etc.
+- **Non-Latin script**: Chinese, Japanese, Korean, Arabic, Russian, Hindi, etc.
+
+**Latin-script card:**
+```json
+{
+  "id": "snake_case_id",
+  "english": "English word",
+  "word": "target word",
+  "phrase": "Example sentence in target language.",
+  "englishPhrase": "Example sentence in English.",
+  "literal": [["chunk", "gloss"], ["chunk", "gloss"]],
+  "grammarNote": "**term1** explanation of first grammar point.\n**term2** explanation of second grammar point."
+}
+```
+
+**Non-Latin-script card:**
+```json
+{
+  "id": "snake_case_id",
+  "english": "English word",
+  "word": "target word in native script",
+  "romanized": "romanization (pinyin / rōmaji / etc.)",
+  "phrase": "Example sentence in native script.",
+  "phraseRomanized": "Romanization of the example sentence.",
+  "englishPhrase": "Example sentence in English.",
+  "literal": [["chunk", "gloss"], ["chunk", "gloss"]],
+  "grammarNote": "**term1** explanation.\n**term2** explanation."
+}
+```
+
+Rules:
+- `grammarNote`: exactly two bold `**term**` points separated by `\n`
+- `literal`: chunk-gloss pairs covering the full example phrase (not just the target word)
+- Non-Latin scripts: never use ASCII double-quotes inside JSON string values — use the language's native quotation marks (「」 for Japanese, etc.)
+
+---
+
+## App wiring (new language only — skip if adding sections to an existing course)
+
+### `src/LanguageHome.tsx`
+Add a button in the `lang-home-courses` div:
+```tsx
+<button className="lang-course-btn" onClick={() => navigate('/{lang_id}')} onMouseEnter={() => prefetchLanguage('{lang_id}')}>
+    {Language Name} Course →
+</button>
+```
+
+### `src/hooks/useLanguage.tsx`
+Add a case to `getVoiceForLanguage`. The function tries a preferred named voice first, then falls back to any voice matching the language's BCP 47 prefix:
+```ts
+case "italian":
+    return voices.find(v => v.name.toLowerCase() === "alice")
+        ?? voices.find(v => v.lang.startsWith("it-"));
+```
+
+To find good voice names for the new language, ask the user to run this in their browser console and share the output:
+```js
+speechSynthesis.getVoices().filter(v => v.lang.startsWith("it")).map(v => `${v.name} — ${v.lang}`)
+```
+Replace `"it"` with the correct BCP 47 prefix for the language (e.g. `"fr"`, `"de"`, `"ar"`). Pick the most natural-sounding named voice as the preferred option and use `v.lang.startsWith("xx-")` as the fallback. If the user can't run the console command, use only the lang-prefix fallback — it will work on most platforms even without a named preference.
+
+### `src/common/LanguageTypes.ts`
+Add to the `AvailableLanguages` enum:
+```ts
+italian = "italian",
+```
+
+### `src/pages/Home/index.tsx` (custom sections only)
+If any section IDs are not in the existing `AVAILABLE_DECKS` array, add them:
+```ts
+const AVAILABLE_DECKS = [
+    // ...existing entries...
+    "sports",
+    "night_life",
+];
+```
+
+This applies whether adding to an existing language or creating a new one — any custom `section_id` not already in the list must be added here or it won't appear in the app.
+
+---
+
+## JSON validation
+
+After writing each JSON file:
+```bash
+python3 -c "import json; json.load(open('PATH/TO/FILE.json')); print('OK')"
+```
+
+Fix any errors before proceeding to the next section.

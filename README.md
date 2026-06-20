@@ -13,6 +13,12 @@ npm run preview  # preview production build locally
 
 ---
 
+# Contributing or forking
+
+I added some AI skills so that it should be easy to start addingg a new language.  With Claude or Cursor you can simply run `/create-course` to add a new language or `/add-section` to add a new theme to a current section.
+
+**If you want to contribute directly to this project you should stick to the defaults.**  If you are trying to customize for your own use, the skill can ask you about your interests, what decks and themes you want, how many cards, etc
+
 ## Project structure
 
 ```
@@ -48,8 +54,10 @@ src/
     └── useLanguage.tsx # TTS voice selection per language
 ```
 
-Available decks (same IDs across all languages):
+Standard decks (shared across all languages):
 - `everyday_phrases`, `food_and_drink`, `common_places`, `jobs_and_hobbies`, `moods_and_emotion`, `human_body`
+
+Custom section IDs must be added to `AVAILABLE_DECKS` in `src/pages/Home/index.tsx` to appear in the app (see [Adding a custom section](#adding-a-custom-section)).
 
 ---
 
@@ -161,7 +169,23 @@ public/languages/<language>/
         └── meet_jeff.json
 ```
 
-Add more decks following the same pattern. All six deck IDs (`everyday_phrases`, `food_and_drink`, `common_places`, `jobs_and_hobbies`, `moods_and_emotion`, `human_body`) are loaded automatically — just create the folder and `index.json`.
+Add more decks following the same pattern. The six standard deck IDs are loaded automatically — just create the folder and `index.json`. For custom section IDs, see below.
+
+---
+
+## Adding a custom section
+
+Custom sections work the same as standard decks but their IDs are not in the default load list.
+
+1. Create the section directory and files under `public/languages/<language>/<section_id>/`
+2. Add the `section_id` to `AVAILABLE_DECKS` in `src/pages/Home/index.tsx`:
+   ```ts
+   const AVAILABLE_DECKS = [
+       // ...existing entries...
+       "my_custom_section",
+   ];
+   ```
+   Sections not in this list will not appear in the app. Fetches for languages that don't have the section fail silently, so adding an ID here does not break other languages.
 
 ---
 
