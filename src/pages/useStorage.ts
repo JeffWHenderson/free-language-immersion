@@ -143,6 +143,17 @@ export function toggleSentenceBookmark(
     return updated;
 }
 
+export function loadMultiDeckState(
+    language: string,
+    deckIds: string[]
+): Map<string, SRSDeckState> {
+    const result = new Map<string, SRSDeckState>();
+    for (const deckId of deckIds) {
+        result.set(deckId, loadDeckState(language, deckId));
+    }
+    return result;
+}
+
 export function isSentenceBookmarked(
     bookmarks: StorySentenceBookmark[],
     deckId: string,

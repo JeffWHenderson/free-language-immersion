@@ -20,6 +20,7 @@ const GrammarLesson = lazy(() => import('./pages/GrammarLesson'));
 const GrammarReview = lazy(() => import('./pages/GrammarReview'));
 const ESZHReview = lazy(() => import('./pages/ESZHReview'));
 const Bookmarks = lazy(() => import('./pages/Bookmarks'));
+const UnifiedReview = lazy(() => import('./pages/UnifiedReview'));
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(registration => {
@@ -48,6 +49,7 @@ createRoot(document.getElementById('root')!).render(
                 <Route path="/:language/pictures"><PictureList /></Route>
                 <Route path="/:language/bookmarks"><Bookmarks /></Route>
                 <Route path="/es-zh"><ESZHReview /></Route>
+                <Route path="/:language/deck"><UnifiedReview /></Route>
                 <Route path="/:language/:deckId"><Review /></Route>
                 <Route path="/:language/"><Home /></Route>
                 <Route path="/:language"><LanguageLearningApp /></Route>

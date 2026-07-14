@@ -42,11 +42,13 @@ const AVAILABLE_DECKS = [
     "human_body",
 ];
 
-const prefetchReview    = () => { void import('../Review'); };
-const prefetchBrowse    = () => { void import('../Browse'); };
-const prefetchStories   = () => { void import('../StoryList'); };
-const prefetchPictures  = () => { void import('../PictureList'); };
-const prefetchGrammar   = () => { void import('../GrammarList'); };
+const packSelectionKey = (language: string) => `pack_selection_${language}`;
+
+const prefetchUnifiedReview = () => { void import('../UnifiedReview'); };
+const prefetchBrowse = () => { void import('../Browse'); };
+const prefetchStories = () => { void import('../StoryList'); };
+const prefetchPictures = () => { void import('../PictureList'); };
+const prefetchGrammar = () => { void import('../GrammarList'); };
 const prefetchBookmarks = () => { void import('../Bookmarks'); };
 
 const Home = () => {
@@ -55,7 +57,8 @@ const Home = () => {
     const [deckMetas, setDeckMetas] = useState<DeckMeta[]>([]);
     const [core2000Meta, setCore2000Meta] = useState<DeckMeta | null>(null);
     const [showPrint, setShowPrint] = useState(false);
-    const [selectedDecks, setSelectedDecks] = useState<Set<string>>(new Set());
+    const [printSelectedDecks, setPrintSelectedDecks] = useState<Set<string>>(new Set());
+    const [studyPacks, setStudyPacks] = useState<Set<string>>(new Set());
     const [printMode, setPrintMode] = useState<'words' | 'phrases'>('words');
     const [printSize, setPrintSize] = useState<PrintSize>('large');
     const [printRomanized, setPrintRomanized] = useState(true);
@@ -71,7 +74,20 @@ const Home = () => {
         ).then((results) => {
             const metas = results.filter(Boolean) as DeckMeta[];
             setDeckMetas(metas);
-            setSelectedDecks(new Set(metas.map(d => d.id)));
+            setPrintSelectedDecks(new Set(metas.map(d => d.id)));
+
+            // Load persisted study pack selection, defaulting to all packs
+            const raw = localStorage.getItem(packSelectionKey(language));
+            if (raw) {
+                try {
+                    const saved = JSON.parse(raw) as string[];
+                    // Filter to only include packs that actually loaded
+                    const validIds = new Set(metas.map(d => d.id));
+                    setStudyPacks(new Set(saved.filter(id => validIds.has(id))));
+                    return;
+                } catch { /* fall through to default */ }
+            }
+            setStudyPacks(new Set(metas.map(d => d.id)));
         });
     }, [language]);
 
@@ -83,8 +99,19 @@ const Home = () => {
             .then(meta => setCore2000Meta(meta));
     }, [language]);
 
-    const toggleDeck = (deckId: string) => {
-        setSelectedDecks(prev => {
+    const toggleStudyPack = (deckId: string) => {
+        if (!language) return;
+        setStudyPacks(prev => {
+            const next = new Set(prev);
+            if (next.has(deckId)) next.delete(deckId);
+            else next.add(deckId);
+            localStorage.setItem(packSelectionKey(language), JSON.stringify([...next]));
+            return next;
+        });
+    };
+
+    const togglePrintDeck = (deckId: string) => {
+        setPrintSelectedDecks(prev => {
             const next = new Set(prev);
             if (next.has(deckId)) next.delete(deckId);
             else next.add(deckId);
@@ -96,7 +123,7 @@ const Home = () => {
 
     const handlePrint = () => {
         const cards: PrintCard[] = allPrintDecks
-            .filter(d => selectedDecks.has(d.id))
+            .filter(d => printSelectedDecks.has(d.id))
             .flatMap(d => d.cards.filter(c => !c.hidden).flatMap(c => {
                 if (printMode === 'words') {
                     return [{ id: c.id, english: c.english, word: c.word, romanized: c.romanized }];
@@ -109,14 +136,14 @@ const Home = () => {
     };
 
     const printCardCount = allPrintDecks
-        .filter(d => selectedDecks.has(d.id))
+        .filter(d => printSelectedDecks.has(d.id))
         .reduce((n, d) => {
             const visible = d.cards.filter(c => !c.hidden);
             return n + (printMode === 'words' ? visible.length : visible.filter(c => c.phrase).length);
         }, 0);
 
     const hasRomanized = allPrintDecks
-        .filter(d => selectedDecks.has(d.id))
+        .filter(d => printSelectedDecks.has(d.id))
         .some(d => d.cards.some(c =>
             printMode === 'words' ? !!c.romanized : !!c.phraseRomanized
         ));
@@ -136,6 +163,28 @@ const Home = () => {
     const core2000Summary = core2000Meta && core2000State ? getDeckSummary(core2000Meta.cards, core2000State) : null;
     const core2000Due = core2000Summary ? core2000Summary.newCount + core2000Summary.dueCount + core2000Summary.learnCount : 0;
 
+    // Compute combined due/new across selected study packs
+    const combinedCounts = deckEntries
+        .filter(({ deck }) => studyPacks.has(deck.id))
+        .reduce(
+            (acc, { deck, state }) => {
+                const s = getDeckSummary(deck.cards, state);
+                return {
+                    due: acc.due + s.dueCount + s.learnCount,
+                    newCount: acc.newCount + s.newCount,
+                };
+            },
+            { due: 0, newCount: 0 }
+        );
+    const combinedTotal = combinedCounts.due + combinedCounts.newCount;
+
+    const handleStudyCombined = () => {
+        if (!language) return;
+        // Save current selection so UnifiedReview picks it up
+        localStorage.setItem(packSelectionKey(language), JSON.stringify([...studyPacks]));
+        navigate(`/${language}/deck`);
+    };
+
     return (
         <div className="srs-container">
             <div className="srs-home-header">
@@ -143,7 +192,7 @@ const Home = () => {
                     <h2 style={{ textTransform: "capitalize" }}>{language} Course</h2>
                     <InfoTip>
                         <p><strong>New / Learning / Due</strong> — how many cards at each stage are ready to review today.</p>
-                        <p><strong>Study</strong> — start a spaced repetition session for due cards.</p>
+                        <p>Toggle the switch on each pack to include or exclude it from your study session.</p>
                         <p><strong>Browse</strong> — see all cards, hide ones you already know, and bookmark favorites.</p>
                         <p><strong>Stories</strong> — short reading passages using the deck's vocabulary.</p>
                         <p><strong>Grammar</strong> — lessons and drills covering key patterns.</p>
@@ -151,14 +200,39 @@ const Home = () => {
                 </div>
             </div>
 
+            <div className="srs-combined-study-wrap">
+                <button
+                    className="srs-btn-combined"
+                    disabled={combinedTotal === 0 || studyPacks.size === 0}
+                    onClick={handleStudyCombined}
+                    onMouseEnter={prefetchUnifiedReview}
+                >
+                    Study Combined Deck
+                    {studyPacks.size > 0 && (
+                        <span className="srs-btn-combined-counts">
+                            {combinedTotal > 0
+                                ? `· ${combinedCounts.due > 0 ? `${combinedCounts.due} due` : ''}${combinedCounts.due > 0 && combinedCounts.newCount > 0 ? ', ' : ''}${combinedCounts.newCount > 0 ? `${combinedCounts.newCount} new` : ''}`
+                                : '· up to date'}
+                        </span>
+                    )}
+                </button>
+            </div>
+
             <div className="srs-deck-list">
                 {deckEntries.map(({ deck, state }) => {
                     const summary = getDeckSummary(deck.cards, state);
-                    const totalDue = summary.newCount + summary.dueCount + summary.learnCount;
+                    const included = studyPacks.has(deck.id);
 
                     return (
-                        <div key={deck.id} className="srs-deck-card">
+                        <div key={deck.id} className={`srs-deck-card${included ? '' : ' srs-deck-excluded'}`}>
                             <div className="srs-deck-top">
+                                <input
+                                    type="checkbox"
+                                    className="srs-pack-toggle"
+                                    checked={included}
+                                    onChange={() => toggleStudyPack(deck.id)}
+                                    title={included ? 'Remove from study session' : 'Add to study session'}
+                                />
                                 <div className="srs-deck-top-left">
                                     <div className="srs-deck-title">{deck.name}</div>
                                     <div className="srs-deck-counts">
@@ -177,14 +251,6 @@ const Home = () => {
                             </div>
 
                             <div className="srs-deck-bottom">
-                                <button
-                                    className="srs-btn-primary"
-                                    disabled={totalDue === 0}
-                                    onClick={() => navigate(`/${language}/${deck.id}`)}
-                                    onMouseEnter={prefetchReview}
-                                >
-                                    {totalDue > 0 ? `Study (${totalDue})` : "Up to date"}
-                                </button>
                                 {deck.stories && deck.stories.length > 0 && (
                                     <button
                                         className="srs-btn-stories"
@@ -218,7 +284,6 @@ const Home = () => {
                             className="srs-btn-primary"
                             disabled={core2000Due === 0}
                             onClick={() => navigate(`/${language}/${core2000Meta.id}`)}
-                            onMouseEnter={prefetchReview}
                         >
                             Core 2000
                         </button>
@@ -276,6 +341,12 @@ const Home = () => {
                                 Large
                             </button>
                             <button
+                                className={`srs-print-mode-btn${printSize === 'medium' ? ' active' : ''}`}
+                                onClick={() => setPrintSize('medium')}
+                            >
+                                Medium
+                            </button>
+                            <button
                                 className={`srs-print-mode-btn${printSize === 'small' ? ' active' : ''}`}
                                 onClick={() => setPrintSize('small')}
                             >
@@ -303,8 +374,8 @@ const Home = () => {
                                 <label key={d.id} className="srs-print-deck-label">
                                     <input
                                         type="checkbox"
-                                        checked={selectedDecks.has(d.id)}
-                                        onChange={() => toggleDeck(d.id)}
+                                        checked={printSelectedDecks.has(d.id)}
+                                        onChange={() => togglePrintDeck(d.id)}
                                     />
                                     {d.name}
                                 </label>
@@ -313,8 +384,8 @@ const Home = () => {
                                 <label className="srs-print-deck-label">
                                     <input
                                         type="checkbox"
-                                        checked={selectedDecks.has(core2000Meta.id)}
-                                        onChange={() => toggleDeck(core2000Meta.id)}
+                                        checked={printSelectedDecks.has(core2000Meta.id)}
+                                        onChange={() => togglePrintDeck(core2000Meta.id)}
                                     />
                                     {core2000Meta.name}
                                 </label>

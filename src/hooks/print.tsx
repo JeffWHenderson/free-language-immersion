@@ -5,21 +5,20 @@ export interface PrintCard {
     romanized?: string;
 }
 
-export type PrintSize = 'large' | 'small';
+export type PrintSize = 'large' | 'medium' | 'small';
 
 const esc = (s: string) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 export const buildPrintableFlashcards = (cards: PrintCard[], title = 'Flashcards', size: PrintSize = 'large', showRomanized = true) => {
-    const isSmall = size === 'small';
-    const cols = isSmall ? 4 : 2;
-    const cardHeight = isSmall ? '1in' : '2in';
-    const pad = isSmall ? '4px 7px' : '8px 14px';
-    const gap = isSmall ? '2px' : '5px';
-    const wordSize = isSmall ? '13px' : '21px';
-    const wordLineHeight = isSmall ? '1.25' : '1.3';
-    const romanizedSize = isSmall ? '8px' : '11px';
-    const englishSize = isSmall ? '11px' : '15px';
+    const cols = size === 'small' ? 4 : size === 'medium' ? 3 : 2;
+    const cardHeight = size === 'small' ? '1in' : size === 'medium' ? '1.3in' : '2in';
+    const pad = size === 'small' ? '4px 7px' : size === 'medium' ? '5px 10px' : '8px 14px';
+    const gap = size === 'small' ? '2px' : size === 'medium' ? '3px' : '5px';
+    const wordSize = size === 'small' ? '13px' : size === 'medium' ? '16px' : '21px';
+    const wordLineHeight = size === 'small' ? '1.25' : '1.3';
+    const romanizedSize = size === 'small' ? '8px' : size === 'medium' ? '9px' : '11px';
+    const englishSize = size === 'small' ? '11px' : size === 'medium' ? '13px' : '15px';
 
     const renderCard = (card: PrintCard) => `
         <div class="card">
