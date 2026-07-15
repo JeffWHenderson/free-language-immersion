@@ -506,35 +506,77 @@ button.srs-count:hover {
     background-color: rgba(201, 162, 39, 0.1);
 }
 
-/* ── Experimental features card (SRS Home) ── */
-.srs-experimental-card {
+/* ── Pack list card (compact rows) ── */
+.srs-pack-list-card {
     width: 100%;
     max-width: 500px;
+    background-color: var(--card-color, #fff);
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.srs-pack-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+    transition: opacity 0.2s;
+}
+
+.srs-pack-row:last-child {
+    border-bottom: none;
+}
+
+.srs-pack-row.srs-deck-excluded {
+    opacity: 0.45;
+}
+
+.srs-pack-row-name {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.92rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.srs-pack-row-count {
+    font-weight: 400;
+    opacity: 0.45;
+    font-size: 0.85rem;
+}
+
+/* ── Utility row (inside experimental card) ── */
+.srs-utility-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.srs-btn-utility {
+    padding: 7px 14px;
+    font-size: 0.85rem;
+}
+
+/* ── Print panel ── */
+.srs-print-panel {
+    width: 100%;
+    max-width: 500px;
+    background-color: var(--card-color, #fff);
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px 20px;
     box-sizing: border-box;
-}
-
-.srs-experimental-label {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--text-color, #111);
-    opacity: 0.4;
-    margin-bottom: 10px;
-}
-
-.srs-experimental-card .srs-btn-secondary {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-}
-
-/* ── Print flashcards panel ── */
-.srs-print-options {
-    margin-top: 14px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-bottom: 16px;
 }
+
 
 .srs-print-decks {
     display: flex;
@@ -634,11 +676,22 @@ button.srs-count:hover {
     opacity: 0.45;
 }
 
-/* ── Combined study button ── */
-.srs-combined-study-wrap {
-    width: 100%;
+/* ── Fixed study bar ── */
+.srs-study-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 16px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+    background-color: var(--background-color, #f5f5f5);
+    border-top: 1px solid rgba(128, 128, 128, 0.15);
+    z-index: 100;
+}
+
+.srs-study-bar .srs-btn-combined {
     max-width: 500px;
-    margin-bottom: 16px;
+    margin: 0 auto;
 }
 
 .srs-btn-combined {

@@ -40,6 +40,11 @@ const AVAILABLE_DECKS = [
     "jobs_and_hobbies",
     "moods_and_emotion",
     "human_body",
+    "software_development",
+    "sports",
+    "night_life",
+    "dungeons_and_dragons",
+    "core_2000",
 ];
 
 const packSelectionKey = (language: string) => `pack_selection_${language}`;
@@ -48,14 +53,13 @@ const prefetchUnifiedReview = () => { void import('../UnifiedReview'); };
 const prefetchBrowse = () => { void import('../Browse'); };
 const prefetchStories = () => { void import('../StoryList'); };
 const prefetchPictures = () => { void import('../PictureList'); };
-const prefetchGrammar = () => { void import('../GrammarList'); };
+const prefetchGrammar = () => { void import('../AllGrammarList'); };
 const prefetchBookmarks = () => { void import('../Bookmarks'); };
 
 const Home = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
     const [deckMetas, setDeckMetas] = useState<DeckMeta[]>([]);
-    const [core2000Meta, setCore2000Meta] = useState<DeckMeta | null>(null);
     const [showPrint, setShowPrint] = useState(false);
     const [printSelectedDecks, setPrintSelectedDecks] = useState<Set<string>>(new Set());
     const [studyPacks, setStudyPacks] = useState<Set<string>>(new Set());
@@ -81,7 +85,6 @@ const Home = () => {
             if (raw) {
                 try {
                     const saved = JSON.parse(raw) as string[];
-                    // Filter to only include packs that actually loaded
                     const validIds = new Set(metas.map(d => d.id));
                     setStudyPacks(new Set(saved.filter(id => validIds.has(id))));
                     return;
@@ -89,14 +92,6 @@ const Home = () => {
             }
             setStudyPacks(new Set(metas.map(d => d.id)));
         });
-    }, [language]);
-
-    useEffect(() => {
-        if (!language) return;
-        fetch(`/languages/${language}/core_2000/index.json`)
-            .then(r => r.json() as Promise<DeckMeta>)
-            .catch(() => null)
-            .then(meta => setCore2000Meta(meta));
     }, [language]);
 
     const toggleStudyPack = (deckId: string) => {
@@ -119,10 +114,8 @@ const Home = () => {
         });
     };
 
-    const allPrintDecks = core2000Meta ? [...deckMetas, core2000Meta] : deckMetas;
-
     const handlePrint = () => {
-        const cards: PrintCard[] = allPrintDecks
+        const cards: PrintCard[] = deckMetas
             .filter(d => printSelectedDecks.has(d.id))
             .flatMap(d => d.cards.filter(c => !c.hidden).flatMap(c => {
                 if (printMode === 'words') {
@@ -135,14 +128,14 @@ const Home = () => {
         buildPrintableFlashcards(cards, `${language} Flashcards`, printSize, printRomanized);
     };
 
-    const printCardCount = allPrintDecks
+    const printCardCount = deckMetas
         .filter(d => printSelectedDecks.has(d.id))
         .reduce((n, d) => {
             const visible = d.cards.filter(c => !c.hidden);
             return n + (printMode === 'words' ? visible.length : visible.filter(c => c.phrase).length);
         }, 0);
 
-    const hasRomanized = allPrintDecks
+    const hasRomanized = deckMetas
         .filter(d => printSelectedDecks.has(d.id))
         .some(d => d.cards.some(c =>
             printMode === 'words' ? !!c.romanized : !!c.phraseRomanized
@@ -158,10 +151,8 @@ const Home = () => {
         sum + getBookmarkedCount(deck.cards, state), 0)
         + loadStoryBookmarks(language!).length;
     const hasPictures = deckMetas.some(d => d.pictureLessons && d.pictureLessons.length > 0);
-
-    const core2000State = core2000Meta ? loadDeckState(language!, core2000Meta.id) : null;
-    const core2000Summary = core2000Meta && core2000State ? getDeckSummary(core2000Meta.cards, core2000State) : null;
-    const core2000Due = core2000Summary ? core2000Summary.newCount + core2000Summary.dueCount + core2000Summary.learnCount : 0;
+    const hasStories = deckMetas.some(d => d.stories && d.stories.length > 0);
+    const hasGrammar = deckMetas.some(d => d.grammarLessons && d.grammarLessons.length > 0);
 
     // Compute combined due/new across selected study packs
     const combinedCounts = deckEntries
@@ -180,12 +171,12 @@ const Home = () => {
 
     const handleStudyCombined = () => {
         if (!language) return;
-        // Save current selection so UnifiedReview picks it up
         localStorage.setItem(packSelectionKey(language), JSON.stringify([...studyPacks]));
         navigate(`/${language}/deck`);
     };
 
     return (
+        <>
         <div className="srs-container">
             <div className="srs-home-header">
                 <div className="srs-header-row">
@@ -194,82 +185,33 @@ const Home = () => {
                         <p><strong>New / Learning / Due</strong> — how many cards at each stage are ready to review today.</p>
                         <p>Toggle the switch on each pack to include or exclude it from your study session.</p>
                         <p><strong>Browse</strong> — see all cards, hide ones you already know, and bookmark favorites.</p>
-                        <p><strong>Stories</strong> — short reading passages using the deck's vocabulary.</p>
-                        <p><strong>Grammar</strong> — lessons and drills covering key patterns.</p>
                     </InfoTip>
                 </div>
             </div>
 
-            <div className="srs-combined-study-wrap">
-                <button
-                    className="srs-btn-combined"
-                    disabled={combinedTotal === 0 || studyPacks.size === 0}
-                    onClick={handleStudyCombined}
-                    onMouseEnter={prefetchUnifiedReview}
-                >
-                    Study Combined Deck
-                    {studyPacks.size > 0 && (
-                        <span className="srs-btn-combined-counts">
-                            {combinedTotal > 0
-                                ? `· ${combinedCounts.due > 0 ? `${combinedCounts.due} due` : ''}${combinedCounts.due > 0 && combinedCounts.newCount > 0 ? ', ' : ''}${combinedCounts.newCount > 0 ? `${combinedCounts.newCount} new` : ''}`
-                                : '· up to date'}
-                        </span>
-                    )}
-                </button>
-            </div>
-
-            <div className="srs-deck-list">
-                {deckEntries.map(({ deck, state }) => {
-                    const summary = getDeckSummary(deck.cards, state);
+            <div className="srs-pack-list-card">
+                {deckEntries.map(({ deck }) => {
                     const included = studyPacks.has(deck.id);
 
                     return (
-                        <div key={deck.id} className={`srs-deck-card${included ? '' : ' srs-deck-excluded'}`}>
-                            <div className="srs-deck-top">
-                                <input
-                                    type="checkbox"
-                                    className="srs-pack-toggle"
-                                    checked={included}
-                                    onChange={() => toggleStudyPack(deck.id)}
-                                    title={included ? 'Remove from study session' : 'Add to study session'}
-                                />
-                                <div className="srs-deck-top-left">
-                                    <div className="srs-deck-title">{deck.name}</div>
-                                    <div className="srs-deck-counts">
-                                        <span className="srs-count new">{summary.newCount} new</span>
-                                        <span className="srs-count learn">{summary.learnCount} learning</span>
-                                        <span className="srs-count review">{summary.dueCount} due</span>
-                                    </div>
-                                </div>
-                                <button
-                                    className="srs-btn-reset"
-                                    onClick={() => navigate(`/${language}/${deck.id}/browse?filter=all`)}
-                                    onMouseEnter={prefetchBrowse}
-                                >
-                                    Browse
-                                </button>
-                            </div>
-
-                            <div className="srs-deck-bottom">
-                                {deck.stories && deck.stories.length > 0 && (
-                                    <button
-                                        className="srs-btn-stories"
-                                        onClick={() => navigate(`/${language}/stories?deck=${deck.id}`)}
-                                        onMouseEnter={prefetchStories}
-                                    >
-                                        Stories
-                                    </button>
-                                )}
-                                {deck.grammarLessons && deck.grammarLessons.length > 0 && (
-                                    <button
-                                        className="srs-btn-grammar"
-                                        onClick={() => navigate(`/${language}/${deck.id}/grammar`)}
-                                        onMouseEnter={prefetchGrammar}
-                                    >
-                                        Grammar
-                                    </button>
-                                )}
-                            </div>
+                        <div key={deck.id} className={`srs-pack-row${included ? '' : ' srs-deck-excluded'}`}>
+                            <input
+                                type="checkbox"
+                                className="srs-pack-toggle"
+                                checked={included}
+                                onChange={() => toggleStudyPack(deck.id)}
+                                title={included ? 'Remove from study session' : 'Add to study session'}
+                            />
+                            <span className="srs-pack-row-name">
+                                {deck.name} <span className="srs-pack-row-count">({deck.cards.filter(c => !c.hidden).length})</span>
+                            </span>
+                            <button
+                                className="srs-btn-reset"
+                                onClick={() => navigate(`/${language}/${deck.id}/browse?filter=all`)}
+                                onMouseEnter={prefetchBrowse}
+                            >
+                                Browse
+                            </button>
                         </div>
                     );
                 })}
@@ -277,23 +219,28 @@ const Home = () => {
 
             <div className="srs-deck-card srs-experimental-card">
                 <div className="srs-experimental-label">Experimental</div>
-
-                {core2000Meta && (
-                    <div className="srs-deck-bottom">
+                <div className="srs-utility-row">
+                    {hasStories && (
                         <button
-                            className="srs-btn-primary"
-                            disabled={core2000Due === 0}
-                            onClick={() => navigate(`/${language}/${core2000Meta.id}`)}
+                            className="srs-btn-stories"
+                            onClick={() => navigate(`/${language}/stories`)}
+                            onMouseEnter={prefetchStories}
                         >
-                            Core 2000
+                            Stories
                         </button>
-                    </div>
-                )}
-
-                <div className="srs-deck-bottom" style={{ marginTop: core2000Meta ? '12px' : undefined }}>
+                    )}
+                    {hasGrammar && (
+                        <button
+                            className="srs-btn-grammar"
+                            onClick={() => navigate(`/${language}/grammar`)}
+                            onMouseEnter={prefetchGrammar}
+                        >
+                            Grammar
+                        </button>
+                    )}
                     {hasPictures && (
                         <button
-                            className="srs-btn-secondary"
+                            className="srs-btn-secondary srs-btn-utility"
                             onClick={() => navigate(`/${language}/pictures`)}
                             onMouseEnter={prefetchPictures}
                         >
@@ -310,15 +257,16 @@ const Home = () => {
                         </button>
                     )}
                     <button
-                        className="srs-btn-secondary"
+                        className="srs-btn-secondary srs-btn-utility"
                         onClick={() => setShowPrint(p => !p)}
                     >
                         Print Flashcards
                     </button>
                 </div>
+            </div>
 
-                {showPrint && (
-                    <div className="srs-print-options">
+            {showPrint && (
+                    <div className="srs-print-panel">
                         <div className="srs-print-mode">
                             <button
                                 className={`srs-print-mode-btn${printMode === 'words' ? ' active' : ''}`}
@@ -380,16 +328,6 @@ const Home = () => {
                                     {d.name}
                                 </label>
                             ))}
-                            {core2000Meta && (
-                                <label className="srs-print-deck-label">
-                                    <input
-                                        type="checkbox"
-                                        checked={printSelectedDecks.has(core2000Meta.id)}
-                                        onChange={() => togglePrintDeck(core2000Meta.id)}
-                                    />
-                                    {core2000Meta.name}
-                                </label>
-                            )}
                         </div>
                         <button
                             className="srs-btn-primary"
@@ -400,8 +338,26 @@ const Home = () => {
                         </button>
                     </div>
                 )}
-            </div>
         </div>
+
+        <div className="srs-study-bar">
+            <button
+                className="srs-btn-combined"
+                disabled={combinedTotal === 0 || studyPacks.size === 0}
+                onClick={handleStudyCombined}
+                onMouseEnter={prefetchUnifiedReview}
+            >
+                Study Combined Deck
+                {studyPacks.size > 0 && (
+                    <span className="srs-btn-combined-counts">
+                        {combinedTotal > 0
+                            ? `· ${combinedCounts.due > 0 ? `${combinedCounts.due} due` : ''}${combinedCounts.due > 0 && combinedCounts.newCount > 0 ? ', ' : ''}${combinedCounts.newCount > 0 ? `${combinedCounts.newCount} new` : ''}`
+                            : '· up to date'}
+                    </span>
+                )}
+            </button>
+        </div>
+        </>
     );
 };
 

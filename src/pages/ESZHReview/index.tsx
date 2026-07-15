@@ -77,7 +77,7 @@ const ESZHReview = () => {
     };
 
     useEffect(() => {
-        fetch("/cross/spanish-chinese/index.json")
+        fetch("/languages/es-zh/everyday_phrases/index.json")
             .then(r => r.json())
             .then((data: { cards: ReviewItem[] }) => {
                 const state = loadDeckState(ESZH_LANG, ESZH_DECK);
