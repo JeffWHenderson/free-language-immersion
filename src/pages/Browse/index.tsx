@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useLocation, useSearch } from "wouter";
 import { CardState, isDue, isNew } from "../fsrs";
 import { loadDeckState, getCardState, resetDeck, saveDeckState, updateCardState, isCardHidden, toggleBookmark, SRSDeckState } from "../useStorage";
+import { useDecks } from "../../hooks/useDecks";
 import InfoTip from "../../components/InfoTip";
 import "../srs.css";
 import "./Browse.css";
@@ -12,12 +13,6 @@ interface Card {
     english: string;
     word: string;
     romanized?: string;
-}
-
-interface DeckData {
-    id: string;
-    name: string;
-    cards: Card[];
 }
 
 type FilterType = "all" | "new" | "learning" | "due" | "hidden";
@@ -51,9 +46,11 @@ const Browse = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
     const [pathname, navigate] = useLocation();
     const filter = (new URLSearchParams(useSearch()).get("filter") ?? "new") as FilterType;
+    const { packs, loading } = useDecks(language);
 
-    const [deck, setDeck] = useState<DeckData | null>(null);
     const [deckState, setDeckState] = useState<SRSDeckState>({});
+
+    const pack = packs.find((p) => p.id === deckId);
 
     const handleReset = () => {
         if (!language || !deckId) return;
@@ -81,19 +78,14 @@ const Browse = () => {
 
     useEffect(() => {
         if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}/index.json`)
-            .then((r) => r.json())
-            .then((data: DeckData) => {
-                setDeck(data);
-                setDeckState(loadDeckState(language, deckId));
-            });
+        setDeckState(loadDeckState(language, deckId));
     }, [language, deckId]);
 
-    if (!deck) return <div className="srs-container"><p>Loading...</p></div>;
+    if (loading || !pack) return <div className="srs-container"><p>Loading...</p></div>;
 
-    const visibleCards = deck.cards.filter(c => !isCardHidden(c, deckState));
+    const visibleCards = pack.cards.filter(c => !isCardHidden(c, deckState));
 
-    const filteredCards = deck.cards.filter((card) => {
+    const filteredCards = pack.cards.filter((card) => {
         const hidden = isCardHidden(card, deckState);
         if (filter === "hidden") return hidden;
         if (hidden) return false;
@@ -107,7 +99,7 @@ const Browse = () => {
     });
 
     const countFor = (f: FilterType) => {
-        return deck.cards.filter((card) => {
+        return pack.cards.filter((card) => {
             const hidden = isCardHidden(card, deckState);
             if (f === "hidden") return hidden;
             if (hidden) return false;
@@ -125,7 +117,7 @@ const Browse = () => {
             <div className="srs-browse-header">
                 <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <button className="srs-page-back" onClick={() => navigate(`/${language}`)}>
-                        ← {deck.name}
+                        ← {pack.name}
                     </button>
                     <InfoTip>
                         <p><strong>Hide</strong> removes a card from your review sessions. Tap <strong>Add</strong> to restore it.</p>
@@ -150,7 +142,7 @@ const Browse = () => {
             </div>
 
             {filter === "all" && (
-                <p className="srs-browse-hint">{visibleCards.length} of {deck.cards.length} cards active</p>
+                <p className="srs-browse-hint">{visibleCards.length} of {pack.cards.length} cards active</p>
             )}
 
             <div className="srs-browse-list">

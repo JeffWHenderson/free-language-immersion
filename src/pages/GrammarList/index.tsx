@@ -1,31 +1,14 @@
-import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
+import { useDecks } from "../../hooks/useDecks";
 import InfoTip from "../../components/InfoTip";
 import "../srs.css";
-
-interface GrammarLessonMeta {
-    id: string;
-    name: string;
-}
-
-interface DeckMeta {
-    name: string;
-    grammarLessons?: GrammarLessonMeta[];
-}
 
 const GrammarList = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
     const [, navigate] = useLocation();
-    const [deck, setDeck] = useState<DeckMeta | null>(null);
+    const { packs, loading } = useDecks(language);
 
-    useEffect(() => {
-        if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}/index.json`)
-            .then(r => r.json())
-            .then(data => setDeck(data))
-            .catch(console.error);
-    }, [language, deckId]);
-
+    const deck = packs.find((p) => p.id === deckId);
     const lessons = deck?.grammarLessons ?? [];
 
     return (
@@ -44,11 +27,11 @@ const GrammarList = () => {
             </div>
 
             <div className="srs-deck-list">
-                {!deck && <p>Loading...</p>}
+                {(loading || !deck) && <p>Loading...</p>}
                 {deck && lessons.length === 0 && (
                     <p className="srs-empty">No grammar lessons for this deck yet.</p>
                 )}
-                {lessons.map(g => (
+                {lessons.map((g) => (
                     <div key={g.id} className="srs-deck-card">
                         <div className="srs-deck-top">
                             <div className="srs-deck-top-left">

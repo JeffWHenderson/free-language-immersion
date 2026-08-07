@@ -1,0 +1,444 @@
+{
+  "id": "night_life",
+  "name": "Night Life",
+  "language": "spanish",
+  "stories": [
+    "noche_de_salsa",
+    "festival_de_musica",
+    "en_el_bar",
+    "la_discoteca"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    { "id": "gustar_encantar", "name": "Gustar / Encantar" },
+    { "id": "ser_vs_estar_descriptions", "name": "Ser vs. Estar for Descriptions" },
+    { "id": "poder_querer", "name": "Poder + Querer + Infinitive" },
+    { "id": "tu_commands_social", "name": "Tú Commands in Social Contexts" },
+    { "id": "direct_object_pronouns", "name": "Direct Object Pronouns" }
+  ],
+  "cards": [
+    {
+      "id": "bar",
+      "english": "bar",
+      "word": "el bar",
+      "grammarNote": "**el** Spanish bars use the masculine article *el*.\n**cognate** *bar* is a direct cognate — pronounced similarly in Spanish.",
+      "englishPhrase": "Let's meet at the bar at nine.",
+      "phrase": "Nos encontramos en el bar a las nueve.",
+      "literal": [["Nos", "ourselves/each other"], ["encontramos", "we meet"], ["en", "at"], ["el bar", "the bar"], ["a las nueve", "at nine"]]
+    },
+    {
+      "id": "club",
+      "english": "nightclub",
+      "word": "la discoteca",
+      "grammarNote": "**la** *discoteca* is feminine, requiring the article *la*.\n**false friend** Although it sounds like 'discotheque,' *discoteca* simply means any nightclub in modern Spanish.",
+      "englishPhrase": "The nightclub doesn't open until midnight.",
+      "phrase": "La discoteca no abre hasta la medianoche.",
+      "literal": [["La discoteca", "the nightclub"], ["no", "doesn't"], ["abre", "open"], ["hasta", "until"], ["la medianoche", "midnight"]]
+    },
+    {
+      "id": "dance",
+      "english": "to dance",
+      "word": "bailar",
+      "grammarNote": "**infinitive** *bailar* is a regular -ar verb meaning 'to dance.'\n**me encanta** Use *me encanta bailar* — 'I love to dance' — because infinitives follow *encantar*.",
+      "englishPhrase": "I love to dance all night long.",
+      "phrase": "Me encanta bailar toda la noche.",
+      "literal": [["Me encanta", "I love / it enchants me"], ["bailar", "to dance"], ["toda la noche", "all night long"]]
+    },
+    {
+      "id": "dancing",
+      "english": "dancing",
+      "word": "el baile",
+      "grammarNote": "**noun vs. verb** *el baile* (noun) is 'the dance/dancing'; *bailar* (verb) is 'to dance.'\n**cognate** Related to English 'ballet' — both trace to Old French *baller*.",
+      "englishPhrase": "The dancing at this club is incredible.",
+      "phrase": "El baile en esta discoteca es increíble.",
+      "literal": [["El baile", "the dancing"], ["en esta discoteca", "at this club"], ["es", "is"], ["increíble", "incredible"]]
+    },
+    {
+      "id": "music_festival",
+      "english": "music festival",
+      "word": "el festival de música",
+      "grammarNote": "**de** The preposition *de* links nouns to show type — *festival de música* = 'music festival.'\n**accent** Note the written accent on *música* marking the stressed syllable.",
+      "englishPhrase": "I'm going to a music festival this weekend.",
+      "phrase": "Voy a un festival de música este fin de semana.",
+      "literal": [["Voy a", "I'm going to"], ["un festival de música", "a music festival"], ["este fin de semana", "this weekend"]]
+    },
+    {
+      "id": "concert",
+      "english": "concert",
+      "word": "el concierto",
+      "grammarNote": "**cognate** *concierto* and 'concert' share the same Latin root — very recognizable.\n**ir a** Use *ir a + noun* to say where you're going: *voy al concierto*.",
+      "englishPhrase": "The concert starts at ten o'clock.",
+      "phrase": "El concierto empieza a las diez.",
+      "literal": [["El concierto", "the concert"], ["empieza", "starts"], ["a las diez", "at ten o'clock"]]
+    },
+    {
+      "id": "dj",
+      "english": "DJ",
+      "word": "el DJ",
+      "grammarNote": "**loanword** *DJ* is used as-is in Spanish, pronounced 'dee-jay.'\n**el** It takes the masculine article *el* by convention for borrowed professional titles.",
+      "englishPhrase": "That DJ plays amazing music.",
+      "phrase": "Ese DJ pone una música increíble.",
+      "literal": [["Ese DJ", "that DJ"], ["pone", "plays/puts on"], ["una música", "some music"], ["increíble", "incredible"]]
+    },
+    {
+      "id": "band",
+      "english": "band",
+      "word": "la banda",
+      "grammarNote": "**cognate** *banda* is nearly identical to 'band' in English.\n**la** It is feminine, so use *la banda* and *esta banda* (this band).",
+      "englishPhrase": "The band is really good tonight.",
+      "phrase": "La banda está muy buena esta noche.",
+      "literal": [["La banda", "the band"], ["está", "is (right now)"], ["muy buena", "really good"], ["esta noche", "tonight"]]
+    },
+    {
+      "id": "stage",
+      "english": "stage",
+      "word": "el escenario",
+      "grammarNote": "**el** *escenario* is masculine — *el escenario grande* (the big stage).\n**also means** *escenario* also means 'scenario' or 'setting' — context makes the meaning clear.",
+      "englishPhrase": "I want to get close to the stage.",
+      "phrase": "Quiero acercarme al escenario.",
+      "literal": [["Quiero", "I want"], ["acercarme", "to get myself close"], ["al escenario", "to the stage"]]
+    },
+    {
+      "id": "crowd",
+      "english": "crowd",
+      "word": "la multitud",
+      "grammarNote": "**la** *multitud* is feminine; another word is *la muchedumbre* — both work in nightlife contexts.\n**singular collective** Like English, Spanish treats 'crowd' as a single unit: *la multitud está* (the crowd is).",
+      "englishPhrase": "The crowd was dancing all night.",
+      "phrase": "La multitud estuvo bailando toda la noche.",
+      "literal": [["La multitud", "the crowd"], ["estuvo bailando", "was dancing"], ["toda la noche", "all night"]]
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "word": "la bebida",
+      "grammarNote": "**la** *bebida* is feminine — *una bebida fría* (a cold drink).\n**tomar / beber** To order a drink say *tomar una bebida* or *beber algo* — both are natural.",
+      "englishPhrase": "Can I get you a drink?",
+      "phrase": "¿Te puedo invitar a una bebida?",
+      "literal": [["¿Te", "you (indirect object)"], ["puedo", "can I"], ["invitar", "invite/treat"], ["a una bebida?", "to a drink?"]]
+    },
+    {
+      "id": "beer",
+      "english": "beer",
+      "word": "la cerveza",
+      "grammarNote": "**la** *cerveza* is feminine — *una cerveza fría* (a cold beer).\n**ordering** Use *una cerveza, por favor* to order; *dos cervezas* for two.",
+      "englishPhrase": "I'll have a cold beer, please.",
+      "phrase": "Una cerveza fría, por favor.",
+      "literal": [["Una cerveza fría", "a cold beer"], ["por favor", "please"]]
+    },
+    {
+      "id": "cocktail",
+      "english": "cocktail",
+      "word": "el cóctel",
+      "grammarNote": "**accent** The written accent on *cóctel* shifts the stress to the first syllable.\n**el** It is masculine — *un cóctel delicioso* (a delicious cocktail).",
+      "englishPhrase": "What cocktails do you recommend?",
+      "phrase": "¿Qué cócteles recomiendas?",
+      "literal": [["¿Qué cócteles", "what cocktails"], ["recomiendas?", "do you recommend?"]]
+    },
+    {
+      "id": "shot",
+      "english": "shot (of liquor)",
+      "word": "el chupito",
+      "grammarNote": "**el** *chupito* (Spain) or *el shot* (Latin America) — both understood everywhere.\n**diminutive** *chupito* comes from *chupa* (suck) + diminutive *-ito*, meaning a tiny sip.",
+      "englishPhrase": "Let's do a shot!",
+      "phrase": "¡Vamos a tomar un chupito!",
+      "literal": [["¡Vamos a", "let's"], ["tomar", "take/do"], ["un chupito!", "a shot!"]]
+    },
+    {
+      "id": "bartender",
+      "english": "bartender",
+      "word": "el/la bartender",
+      "grammarNote": "**gender** Use *el bartender* for a man, *la bartender* for a woman — the word is borrowed as-is.\n**also** *el/la camarero/a* or *el/la mesero/a* are traditional alternatives.",
+      "englishPhrase": "The bartender made me an amazing cocktail.",
+      "phrase": "La bartender me hizo un cóctel increíble.",
+      "literal": [["La bartender", "the bartender (f)"], ["me hizo", "made me"], ["un cóctel increíble", "an incredible cocktail"]]
+    },
+    {
+      "id": "cover_charge",
+      "english": "cover charge",
+      "word": "la entrada",
+      "grammarNote": "**la** *la entrada* literally means 'the entrance' but commonly refers to the cover charge.\n**cuánto** Ask *¿Cuánto es la entrada?* — 'How much is the cover charge?'",
+      "englishPhrase": "How much is the cover charge tonight?",
+      "phrase": "¿Cuánto es la entrada esta noche?",
+      "literal": [["¿Cuánto es", "how much is"], ["la entrada", "the cover/entrance fee"], ["esta noche?", "tonight?"]]
+    },
+    {
+      "id": "flirt",
+      "english": "to flirt",
+      "word": "coquetear",
+      "grammarNote": "**-ar verb** *coquetear* is a regular -ar verb — *coqueteo, coqueteas, coquetea*.\n**coqueto/a** The adjective *coqueto/a* means 'flirtatious' and can describe a person.",
+      "englishPhrase": "He knows how to flirt with confidence.",
+      "phrase": "Él sabe coquetear con confianza.",
+      "literal": [["Él sabe", "he knows how to"], ["coquetear", "to flirt"], ["con confianza", "with confidence"]]
+    },
+    {
+      "id": "beautiful_woman",
+      "english": "beautiful (woman)",
+      "word": "hermosa / guapa",
+      "grammarNote": "**ser** Use *ser* for inherent beauty: *eres muy guapa* — 'you are very beautiful.'\n**regional** *guapa* is common in Spain; *hermosa* and *linda* are preferred in Latin America.",
+      "englishPhrase": "You are very beautiful.",
+      "phrase": "Eres muy guapa.",
+      "literal": [["Eres", "you are"], ["muy guapa", "very beautiful"]]
+    },
+    {
+      "id": "beautiful_eyes",
+      "english": "beautiful eyes",
+      "word": "ojos hermosos",
+      "grammarNote": "**adjective agreement** *hermosos* is masculine plural to agree with *ojos* (eyes, m.pl.).\n**tienes** Use *tienes* — 'you have' — to give this compliment naturally.",
+      "englishPhrase": "You have beautiful eyes.",
+      "phrase": "Tienes unos ojos muy hermosos.",
+      "literal": [["Tienes", "you have"], ["unos ojos", "some eyes"], ["muy hermosos", "very beautiful"]]
+    },
+    {
+      "id": "nice_smile",
+      "english": "nice smile",
+      "word": "una sonrisa bonita",
+      "grammarNote": "**bonita** *bonita* (fem.) agrees with *sonrisa* (smile, fem.).\n**qué** Use the exclamation *¡Qué sonrisa más bonita tienes!* — 'What a beautiful smile you have!'",
+      "englishPhrase": "You have such a beautiful smile.",
+      "phrase": "Tienes una sonrisa muy bonita.",
+      "literal": [["Tienes", "you have"], ["una sonrisa", "a smile"], ["muy bonita", "very beautiful"]]
+    },
+    {
+      "id": "can_i_buy_you_a_drink",
+      "english": "Can I buy you a drink?",
+      "word": "¿Te invito a una copa?",
+      "grammarNote": "**te** *te* is the indirect object pronoun meaning 'you' — 'I invite you to a drink.'\n**copa** *una copa* means a glass of wine or any drink — more elegant than *bebida* in flirting.",
+      "englishPhrase": "Can I buy you a drink?",
+      "phrase": "¿Te invito a una copa?",
+      "literal": [["¿Te", "you"], ["invito", "I invite/treat"], ["a una copa?", "to a drink/glass?"]]
+    },
+    {
+      "id": "would_you_like_to_dance",
+      "english": "Would you like to dance?",
+      "word": "¿Quieres bailar?",
+      "grammarNote": "**querer** *quieres* is the tú form of *querer* (to want) — here it means 'would you like.'\n**conmigo** Add *conmigo* to specify 'with me': *¿Quieres bailar conmigo?*",
+      "englishPhrase": "Would you like to dance with me?",
+      "phrase": "¿Quieres bailar conmigo?",
+      "literal": [["¿Quieres", "do you want / would you like"], ["bailar", "to dance"], ["conmigo?", "with me?"]]
+    },
+    {
+      "id": "phone_number",
+      "english": "phone number",
+      "word": "el número de teléfono",
+      "grammarNote": "**el** *el número* is masculine — *dame tu número* means 'give me your number.'\n**teléfono** Note the accent on *teléfono* — stress falls on the second syllable.",
+      "englishPhrase": "Can I have your phone number?",
+      "phrase": "¿Me das tu número de teléfono?",
+      "literal": [["¿Me das", "will you give me"], ["tu número", "your number"], ["de teléfono?", "of phone?"]]
+    },
+    {
+      "id": "date",
+      "english": "date (romantic)",
+      "word": "la cita",
+      "grammarNote": "**la** *la cita* means a date or appointment — context clarifies which.\n**tener una cita** The phrase *tener una cita* means 'to have a date.'",
+      "englishPhrase": "Would you like to go on a date with me?",
+      "phrase": "¿Te gustaría salir conmigo?",
+      "literal": [["¿Te gustaría", "would you like"], ["salir", "to go out"], ["conmigo?", "with me?"]]
+    },
+    {
+      "id": "midnight",
+      "english": "midnight",
+      "word": "la medianoche",
+      "grammarNote": "**compound** *medianoche* combines *media* (middle/half) + *noche* (night).\n**a la medianoche** Use *a la medianoche* — 'at midnight' — note the singular article.",
+      "englishPhrase": "The festival goes until midnight.",
+      "phrase": "El festival dura hasta la medianoche.",
+      "literal": [["El festival", "the festival"], ["dura", "lasts"], ["hasta", "until"], ["la medianoche", "midnight"]]
+    },
+    {
+      "id": "girlfriend",
+      "english": "girlfriend",
+      "word": "la novia",
+      "grammarNote": "**mi novia** The possessive *mi novia* = 'my girlfriend' — *novia* can also mean 'fiancée' or 'bride.'\n**tener** Use *tengo novia* — 'I have a girlfriend' — without an article after *tener*.",
+      "englishPhrase": "I want to introduce you to my girlfriend.",
+      "phrase": "Quiero presentarte a mi novia.",
+      "literal": [["Quiero", "I want"], ["presentarte", "to introduce you to"], ["a mi novia", "to my girlfriend"]]
+    },
+    {
+      "id": "wife",
+      "english": "wife",
+      "word": "la esposa",
+      "grammarNote": "**mi esposa** *mi esposa* = 'my wife'; the masculine form is *el esposo* (husband).\n**also** *la mujer* informally means both 'wife' and 'woman' — context distinguishes them.",
+      "englishPhrase": "My wife loves to dance salsa.",
+      "phrase": "A mi esposa le encanta bailar salsa.",
+      "literal": [["A mi esposa", "to my wife"], ["le encanta", "she loves (it enchants her)"], ["bailar salsa", "to dance salsa"]]
+    },
+    {
+      "id": "night",
+      "english": "night / evening",
+      "word": "la noche",
+      "grammarNote": "**esta noche** *esta noche* = 'tonight' — a very useful phrase for night out plans.\n**buenas noches** *Buenas noches* is the greeting for 'good evening/good night.'",
+      "englishPhrase": "Tonight is going to be a great night.",
+      "phrase": "Esta noche va a ser una noche increíble.",
+      "literal": [["Esta noche", "tonight"], ["va a ser", "is going to be"], ["una noche increíble", "an incredible night"]]
+    },
+    {
+      "id": "music",
+      "english": "music",
+      "word": "la música",
+      "grammarNote": "**accent** The accent on *música* marks stress on the first syllable — MÚ-si-ca.\n**me gusta** Say *me gusta la música* — 'I like music' — using the gustar structure.",
+      "englishPhrase": "I really like the music here.",
+      "phrase": "Me gusta mucho la música aquí.",
+      "literal": [["Me gusta mucho", "I really like"], ["la música", "the music"], ["aquí", "here"]]
+    },
+    {
+      "id": "salsa",
+      "english": "salsa (dance)",
+      "word": "la salsa",
+      "grammarNote": "**same word** *salsa* means both the sauce and the dance — context makes it clear.\n**bailar salsa** Use the bare infinitive: *bailar salsa* not *bailar la salsa*.",
+      "englishPhrase": "Do you know how to dance salsa?",
+      "phrase": "¿Sabes bailar salsa?",
+      "literal": [["¿Sabes", "do you know how"], ["bailar salsa?", "to dance salsa?"]]
+    },
+    {
+      "id": "dance_floor",
+      "english": "dance floor",
+      "word": "la pista de baile",
+      "grammarNote": "**la pista** *pista* is feminine — it also means 'track,' 'lane,' or 'clue' in other contexts.\n**en la pista** Say *estamos en la pista* — 'we're on the dance floor.'",
+      "englishPhrase": "Let's go to the dance floor.",
+      "phrase": "Vamos a la pista de baile.",
+      "literal": [["Vamos", "let's go"], ["a la pista", "to the floor/track"], ["de baile", "of dance"]]
+    },
+    {
+      "id": "exciting",
+      "english": "exciting / amazing",
+      "word": "emocionante",
+      "grammarNote": "**one form** *emocionante* has the same form for masculine and feminine — *una noche emocionante*.\n**estar** Use *estar* for temporary excitement: *la fiesta está emocionante* (the party is exciting right now).",
+      "englishPhrase": "This festival is so exciting!",
+      "phrase": "¡Este festival es tan emocionante!",
+      "literal": [["¡Este festival", "this festival"], ["es tan", "is so"], ["emocionante!", "exciting!"]]
+    },
+    {
+      "id": "party",
+      "english": "party",
+      "word": "la fiesta",
+      "grammarNote": "**la** *fiesta* is feminine — *una fiesta increíble* (an incredible party).\n**cognate** English 'fiesta' is borrowed directly from Spanish.",
+      "englishPhrase": "This is the best party I've been to.",
+      "phrase": "Esta es la mejor fiesta a la que he ido.",
+      "literal": [["Esta es", "this is"], ["la mejor fiesta", "the best party"], ["a la que", "that / to which"], ["he ido", "I have gone"]]
+    },
+    {
+      "id": "to_go_out",
+      "english": "to go out",
+      "word": "salir",
+      "grammarNote": "**irregular yo** *salir* has an irregular first person: *yo salgo* (I go out).\n**salir de fiesta** The phrase *salir de fiesta* means 'to go out partying.'",
+      "englishPhrase": "I love going out on Friday nights.",
+      "phrase": "Me encanta salir los viernes por la noche.",
+      "literal": [["Me encanta", "I love"], ["salir", "to go out"], ["los viernes", "on Fridays"], ["por la noche", "at night"]]
+    },
+    {
+      "id": "to_have_fun",
+      "english": "to have fun",
+      "word": "divertirse",
+      "grammarNote": "**reflexive** *divertirse* is a reflexive verb — *me divierto* (I have fun), *te diviertes* (you have fun).\n**stem change** It is an e→ie stem-changing verb: *me divierto*, *te diviertes*, *se divierte*.",
+      "englishPhrase": "We're having so much fun tonight!",
+      "phrase": "¡Nos estamos divirtiendo muchísimo esta noche!",
+      "literal": [["¡Nos estamos", "we are"], ["divirtiendo", "having fun"], ["muchísimo", "so much"], ["esta noche!", "tonight!"]]
+    },
+    {
+      "id": "loud",
+      "english": "loud",
+      "word": "fuerte / ruidoso",
+      "grammarNote": "**fuerte** *fuerte* (strong) is used informally for 'loud' with music: *la música está muy fuerte*.\n**ruidoso** *ruidoso/a* means 'noisy' more broadly — *el bar está muy ruidoso*.",
+      "englishPhrase": "The music is really loud!",
+      "phrase": "¡La música está muy fuerte!",
+      "literal": [["¡La música", "the music"], ["está muy fuerte!", "is really loud!"]]
+    },
+    {
+      "id": "incredible",
+      "english": "incredible",
+      "word": "increíble",
+      "grammarNote": "**one form** *increíble* does not change for gender — *una noche increíble*, *un concierto increíble*.\n**accent** The accent over the *i* in *increíble* separates it into three syllables: in-cre-Í-ble.",
+      "englishPhrase": "That performance was incredible.",
+      "phrase": "Esa actuación fue increíble.",
+      "literal": [["Esa actuación", "that performance"], ["fue increíble", "was incredible"]]
+    },
+    {
+      "id": "tonight",
+      "english": "tonight",
+      "word": "esta noche",
+      "grammarNote": "**esta** *esta* is a feminine demonstrative agreeing with *noche* (fem.).\n**vs. anoche** *anoche* means 'last night' — one word, no article needed.",
+      "englishPhrase": "Are you going out tonight?",
+      "phrase": "¿Vas a salir esta noche?",
+      "literal": [["¿Vas a salir", "are you going to go out"], ["esta noche?", "tonight?"]]
+    },
+    {
+      "id": "fun",
+      "english": "fun",
+      "word": "la diversión",
+      "grammarNote": "**la** *diversión* is feminine — *mucha diversión* (a lot of fun).\n**que divertido** The exclamation *¡Qué divertido!* — 'How fun!' — uses the adjective *divertido*.",
+      "englishPhrase": "The night was full of fun.",
+      "phrase": "La noche estuvo llena de diversión.",
+      "literal": [["La noche", "the night"], ["estuvo llena", "was full"], ["de diversión", "of fun"]]
+    },
+    {
+      "id": "what_is_your_name",
+      "english": "What is your name?",
+      "word": "¿Cómo te llamas?",
+      "grammarNote": "**reflexive** *llamarse* is reflexive — literally 'how do you call yourself?'\n**me llamo** Reply with *me llamo Jeffrey* — 'I call myself Jeffrey / My name is Jeffrey.'",
+      "englishPhrase": "Hi, what is your name?",
+      "phrase": "Hola, ¿cómo te llamas?",
+      "literal": [["Hola", "hi"], ["¿cómo", "how/what"], ["te llamas?", "do you call yourself?"]]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "english": "Nice to meet you.",
+      "word": "Mucho gusto.",
+      "grammarNote": "**mucho gusto** Literally 'much pleasure' — the standard phrase on meeting someone.\n**encantado** A man can also say *encantado* (enchanted/delighted); a woman says *encantada*.",
+      "englishPhrase": "Nice to meet you. My name is Jeffrey.",
+      "phrase": "Mucho gusto. Me llamo Jeffrey.",
+      "literal": [["Mucho gusto", "much pleasure / nice to meet you"], ["Me llamo", "I call myself / my name is"], ["Jeffrey", "Jeffrey"]]
+    },
+    {
+      "id": "you_dance_well",
+      "english": "You dance really well.",
+      "word": "Bailas muy bien.",
+      "grammarNote": "**adverb** *bien* is an adverb meaning 'well' — it does not change for gender.\n**tú form** *bailas* is the *tú* present tense conjugation of *bailar*.",
+      "englishPhrase": "You dance really well. Did you take lessons?",
+      "phrase": "Bailas muy bien. ¿Tomaste clases?",
+      "literal": [["Bailas muy bien", "you dance very well"], ["¿Tomaste clases?", "did you take classes?"]]
+    },
+    {
+      "id": "let_s_dance",
+      "english": "Let's dance!",
+      "word": "¡Vamos a bailar!",
+      "grammarNote": "**vamos a** *vamos a + infinitive* = 'let's + verb' — a very common structure.\n**baila conmigo** The tú command *baila conmigo* — 'dance with me' — is a more direct alternative.",
+      "englishPhrase": "The song just started — let's dance!",
+      "phrase": "La canción acaba de empezar — ¡vamos a bailar!",
+      "literal": [["La canción", "the song"], ["acaba de empezar", "just started"], ["¡vamos a bailar!", "let's dance!"]]
+    },
+    {
+      "id": "i_like_you",
+      "english": "I like you.",
+      "word": "Me gustas.",
+      "grammarNote": "**gustar** With people, *gustar* flips: *me gustas* literally means 'you please me.'\n**vs. te gusta** *Te gusta* means 'you like it' — the subject and object swap based on who or what is liked.",
+      "englishPhrase": "I have to be honest — I like you a lot.",
+      "phrase": "Tengo que ser honesto — me gustas mucho.",
+      "literal": [["Tengo que ser honesto", "I have to be honest"], ["me gustas mucho", "I like you a lot (you please me a lot)"]]
+    },
+    {
+      "id": "are_you_single",
+      "english": "Are you single?",
+      "word": "¿Estás soltera?",
+      "grammarNote": "**estar** Relationship status uses *estar* (temporary state) not *ser*.\n**soltera/soltero** *soltera* (fem.) / *soltero* (masc.) = single.",
+      "englishPhrase": "Are you single? Because I'd love to take you out.",
+      "phrase": "¿Estás soltera? Porque me encantaría salir contigo.",
+      "literal": [["¿Estás soltera?", "are you single? (f)"], ["Porque", "because"], ["me encantaría", "I would love"], ["salir contigo", "to go out with you"]]
+    },
+    {
+      "id": "give_me_your_number",
+      "english": "Give me your number.",
+      "word": "Dame tu número.",
+      "grammarNote": "**tú command** *dame* is the tú affirmative command of *dar* (to give) + *me* (me) combined.\n**informal** This is direct and flirty — soften it with *¿me das tu número?* (will you give me your number?).",
+      "englishPhrase": "Give me your number and I'll text you.",
+      "phrase": "Dame tu número y te escribo.",
+      "literal": [["Dame", "give me"], ["tu número", "your number"], ["y te escribo", "and I'll text/write to you"]]
+    },
+    {
+      "id": "cheers",
+      "english": "Cheers!",
+      "word": "¡Salud!",
+      "grammarNote": "**salud** Literally 'health' — the universal Spanish toast.\n**brindemos** The formal toast phrase is *brindemos por* + the reason: *brindemos por esta noche* (let's toast to tonight).",
+      "englishPhrase": "Cheers! To a great night!",
+      "phrase": "¡Salud! ¡Por una noche increíble!",
+      "literal": [["¡Salud!", "cheers! / health!"], ["¡Por una noche", "to a night"], ["increíble!", "incredible!"]]
+    }
+  ]
+}

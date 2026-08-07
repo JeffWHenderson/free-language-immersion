@@ -1,0 +1,97 @@
+{
+  "id": "present_perfect",
+  "name": "Present Perfect",
+  "language": "spanish",
+  "cards": [
+    {
+      "id": "present_perfect_intro",
+      "front": "How is the present perfect formed in Spanish?",
+      "back": "haber (present) + past participle\n\nyo → he\ntú → has\nél/ella → ha\nnosotros → hemos\nvosotros → habéis\nellos/ellas → han",
+      "grammarNote": "The past participle is formed by dropping -ar → -ado, or -er/-ir → -ido. Many common verbs have irregular participles: *hecho, dicho, visto, escrito, roto, abierto.*"
+    },
+    {
+      "id": "past_participle_regular",
+      "front": "Form the past participle of: programar, revisar, lanzar, terminar",
+      "back": "programar → programado\nrevisar → revisado\nlanzar → lanzado\nterminar → terminado",
+      "grammarNote": "Regular -ar verbs: drop -ar, add -ado. These participles do not change for gender or number when used with *haber*."
+    },
+    {
+      "id": "past_participle_irregular",
+      "front": "Irregular past participles to know for tech contexts",
+      "back": "hacer → hecho (done)\ndecir → dicho (said)\nver → visto (seen)\nescribir → escrito (written)\nromper → roto (broken)\nabrir → abierto (opened)\nvolver → vuelto (returned)",
+      "grammarNote": "These must be memorized. They are extremely common in tech and everyday Spanish."
+    },
+    {
+      "id": "he_terminado",
+      "front": "I have finished the feature.",
+      "back": "He terminado la función.",
+      "grammarNote": "*He* = present of *haber* (first person); *terminado* = past participle of *terminar*. In Spain, this is the preferred way to talk about recent completed actions."
+    },
+    {
+      "id": "ha_fallado",
+      "front": "The server has failed.",
+      "back": "El servidor ha fallado.",
+      "grammarNote": "*Ha* = third person singular of *haber*; *fallado* = past participle of *fallar* (to fail). Use present perfect when the result is still relevant now."
+    },
+    {
+      "id": "hemos_lanzado",
+      "front": "We have launched the new version.",
+      "back": "Hemos lanzado la nueva versión.",
+      "grammarNote": "*Hemos* = first person plural of *haber*; *lanzado* = past participle of *lanzar*. This is a common standup announcement."
+    },
+    {
+      "id": "has_revisado",
+      "front": "Have you reviewed the pull request?",
+      "back": "¿Has revisado el pull request?",
+      "grammarNote": "*Has* = second person singular of *haber*; the question keeps the same word order as a statement but with rising intonation (and ¿?)."
+    },
+    {
+      "id": "han_encontrado",
+      "front": "They have found a bug in the code.",
+      "back": "Han encontrado un bug en el código.",
+      "grammarNote": "*Han* = third person plural of *haber*; *encontrado* = past participle of *encontrar* (to find). Regular -ar participle despite the stem change in the present tense."
+    },
+    {
+      "id": "he_escrito",
+      "front": "Jeffrey has written the tests.",
+      "back": "Jeffrey ha escrito las pruebas.",
+      "grammarNote": "*Escrito* is the irregular past participle of *escribir* (to write). The regular form *escribido* does not exist."
+    },
+    {
+      "id": "se_ha_roto",
+      "front": "The application has broken. / Something broke the app.",
+      "back": "La aplicación se ha roto.",
+      "grammarNote": "*Roto* is the irregular past participle of *romper* (to break). *Se ha roto* = reflexive present perfect, indicating the app is in a broken state."
+    },
+    {
+      "id": "no_he_visto",
+      "front": "I haven't seen the error in the logs.",
+      "back": "No he visto el error en los logs.",
+      "grammarNote": "*No* is placed before *he* to negate the present perfect; nothing goes between *he* and the participle.\n*Visto* = irregular past participle of *ver* (to see)."
+    },
+    {
+      "id": "ya_he_hecho",
+      "front": "I have already done the deploy.",
+      "back": "Ya he hecho el deploy.",
+      "grammarNote": "*Ya* = 'already'; placed between *he* and the participle or before the whole verb phrase.\n*Hecho* = irregular past participle of *hacer* (to do/make)."
+    },
+    {
+      "id": "todavia_no_ha",
+      "front": "Jeffrey hasn't finished yet.",
+      "back": "Jeffrey todavía no ha terminado.",
+      "grammarNote": "*Todavía no* = 'not yet'; placed before the auxiliary *ha* in the present perfect.\nContrast with *ya* (already): *ya ha terminado* vs. *todavía no ha terminado*."
+    },
+    {
+      "id": "present_perfect_vs_preterite",
+      "front": "Spain vs. Latin America: How do they use the present perfect differently?",
+      "back": "Spain: present perfect for recent past, even with time markers (esta semana, hoy)\n→ *He revisado el código hoy.*\n\nLatin America: preterite more common for completed actions\n→ *Revisé el código hoy.*\n\nBoth are understood everywhere.",
+      "grammarNote": "In a tech team with Spanish-speaking colleagues from different countries, you may hear both forms. Understanding both is essential."
+    },
+    {
+      "id": "aun_no_hemos",
+      "front": "We still haven't deployed to production.",
+      "back": "Aún no hemos desplegado a producción.",
+      "grammarNote": "*Aún no* = 'still not / not yet' (written with accent to distinguish from *aun* = even).\n*Hemos desplegado* = present perfect first person plural of *desplegar*."
+    }
+  ]
+}

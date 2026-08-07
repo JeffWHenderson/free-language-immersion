@@ -1,21 +1,9 @@
 import { Link, useLocation } from "wouter";
 import "./main-styles.css";
 
-const DECK_IDS = [
-    'everyday_phrases', 'food_and_drink', 'common_places',
-    'jobs_and_hobbies', 'moods_and_emotion', 'human_body',
-];
-const CORE_2000_LANGUAGES = new Set(['spanish', 'chinese']);
-
 function prefetchLanguage(language: string) {
-    void import('./pages/LanguageApp');
     void import('./pages/Home');
-    DECK_IDS.forEach(deck => {
-        void fetch(`/languages/${language}/${deck}/index.json`);
-    });
-    if (CORE_2000_LANGUAGES.has(language)) {
-        void fetch(`/languages/${language}/core_2000/index.json`);
-    }
+    void fetch(`/languages/${language}/decks.json`);
 }
 
 const prefetchESZH = () => { void import('./pages/ESZHReview'); };

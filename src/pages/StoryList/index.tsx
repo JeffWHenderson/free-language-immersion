@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation, useSearch } from "wouter";
+import { useDecks } from "../../hooks/useDecks";
 import InfoTip from "../../components/InfoTip";
 import "../srs.css";
 import "./StoryList.css";
@@ -12,30 +13,14 @@ interface StoryMeta {
     deckName: string;
 }
 
-interface DeckMeta {
-    id: string;
-    name: string;
-    stories?: string[];
-}
-
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-    "cross_section",
-];
-
 const CROSS_SECTION_DECK = "cross_section";
-
 const DIFFICULTIES = ["easy", "medium", "hard"];
 
 const StoryList = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
     const searchParams = new URLSearchParams(useSearch());
+    const { packs } = useDecks(language);
 
     const [stories, setStories] = useState<StoryMeta[]>([]);
     const [loading, setLoading] = useState(true);
@@ -43,39 +28,31 @@ const StoryList = () => {
     const [diffFilter, setDiffFilter] = useState("all");
 
     useEffect(() => {
-        if (!language) return;
+        if (!language || packs.length === 0) return;
         setLoading(true);
 
-        Promise.all(
-            AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}/index.json`)
+        const packsWithStories = packs.filter((p) => (p.stories?.length ?? 0) > 0);
+
+        const storyFetches = packsWithStories.flatMap((pack) =>
+            (pack.stories ?? []).map((storyId) =>
+                fetch(`/languages/${language}/${pack.id}/stories/${storyId}.json`)
                     .then((r) => r.json())
+                    .then((s) => ({
+                        id: storyId,
+                        name: s.name ?? storyId,
+                        difficulty: s.difficulty ?? "easy",
+                        deckId: pack.id,
+                        deckName: pack.name,
+                    }))
                     .catch(() => null)
             )
-        ).then((decks: (DeckMeta | null)[]) => {
-            const validDecks = decks.filter(Boolean) as DeckMeta[];
+        );
 
-            const storyFetches = validDecks.flatMap((deck) =>
-                (deck.stories ?? []).map((storyId) =>
-                    fetch(`/languages/${language}/${deck.id}/stories/${storyId}.json`)
-                        .then((r) => r.json())
-                        .then((s) => ({
-                            id: storyId,
-                            name: s.name ?? storyId,
-                            difficulty: s.difficulty ?? "easy",
-                            deckId: deck.id,
-                            deckName: deck.name,
-                        }))
-                        .catch(() => null)
-                )
-            );
-
-            Promise.all(storyFetches).then((results) => {
-                setStories(results.filter(Boolean) as StoryMeta[]);
-                setLoading(false);
-            });
+        Promise.all(storyFetches).then((results) => {
+            setStories(results.filter(Boolean) as StoryMeta[]);
+            setLoading(false);
         });
-    }, [language]);
+    }, [language, packs]);
 
     const filtered = stories.filter((s) => {
         if (deckFilter !== "all" && s.deckId !== deckFilter) return false;

@@ -1,0 +1,91 @@
+{
+  "id": "preterite_narrative",
+  "name": "Preterite — Past Narrative",
+  "language": "spanish",
+  "cards": [
+    {
+      "id": "pret_intro",
+      "front": "When do you use the preterite in Spanish?",
+      "back": "Use the preterite for completed past actions with a definite start/end — the main narrative tense for storytelling.\nExamples: El dragón atacó. Encontramos el tesoro. Jeffrey lanzó el hechizo.",
+      "grammarNote": "The preterite (pretérito indefinido) is the go-to tense for D&D storytelling — each completed action in the adventure is in the preterite. Contrast with the imperfect (pretérito imperfecto), which describes ongoing states or background conditions."
+    },
+    {
+      "id": "pret_ar_table",
+      "front": "Preterite endings for regular -AR verbs\n(e.g. atacar → but note spelling change!)",
+      "back": "-é, -aste, -ó, -amos, -asteis, -aron\ntirar: tiré, tiraste, tiró, tiramos, tirasteis, tiraron\nlanzar (yo): lancé (z→c before e)",
+      "grammarNote": "-AR verbs add these endings to the stem. Key spelling changes in the yo form: c→qu (atacar → ataqué), z→c (lanzar → lancé), g→gu (llegar → llegué). Other persons are regular."
+    },
+    {
+      "id": "pret_er_ir_table",
+      "front": "Preterite endings for regular -ER/-IR verbs\n(e.g. comer, subir)",
+      "back": "-í, -iste, -ió, -imos, -isteis, -ieron\ncomer: comí, comiste, comió, comimos, comisteis, comieron\nsubir: subí, subiste, subió, subimos, subisteis, subieron",
+      "grammarNote": "-ER and -IR verbs share the same preterite endings. Note: -IR stem-changing verbs (e→i, o→u) apply the stem change in the él/ella and ellos forms only: **pedir → pidió, pidieron** (not in yo/tú/nosotros)."
+    },
+    {
+      "id": "pret_atacar",
+      "front": "The dragon attacked the party.\n(preterite narrative)",
+      "back": "El dragón atacó al grupo.",
+      "grammarNote": "**atacó** = he/she/it attacked — él/ella preterite of **atacar** (regular, no spelling change in third person). The yo form has the spelling change: **ataqué** (c→qu before e)."
+    },
+    {
+      "id": "pret_encontrar",
+      "front": "We found the treasure.\n(preterite narrative)",
+      "back": "Encontramos el tesoro.",
+      "grammarNote": "**Encontramos** = we found — nosotros preterite of **encontrar** (regular -ar). Note: the nosotros preterite of -ar verbs is identical to the nosotros present: **encontramos** = we find / we found. Context determines the tense."
+    },
+    {
+      "id": "pret_lanzar",
+      "front": "Jeffrey cast a fire spell.\n(preterite narrative)",
+      "back": "Jeffrey lanzó un hechizo de fuego.",
+      "grammarNote": "**lanzó** = he cast/threw — él/ella preterite of **lanzar** (regular in third person). The yo form has spelling change: **lancé** (z→c before e)."
+    },
+    {
+      "id": "pret_ser_ir",
+      "front": "Preterite of SER (to be) and IR (to go)\n[they share the same forms!]",
+      "back": "fui, fuiste, fue, fuimos, fuisteis, fueron\n(same for both SER and IR — context clarifies meaning)",
+      "grammarNote": "**Fue** can mean 'he was' (ser) or 'he went' (ir) — only context tells you which. D&D examples: **El dragón fue derrotado** (The dragon was defeated — ser/passive) vs **El grupo fue a la mazmorra** (The group went to the dungeon — ir)."
+    },
+    {
+      "id": "pret_hacer",
+      "front": "Preterite of HACER (to do/make)",
+      "back": "hice, hiciste, hizo, hicimos, hicisteis, hicieron",
+      "grammarNote": "**hacer** has a completely irregular preterite. Note: **hizo** (él/ella form) uses z instead of c to preserve the soft /s/ sound before o. D&D context: **Jeffrey hizo un golpe crítico** (Jeffrey made a critical hit). **¿Qué hiciste?** (What did you do?)"
+    },
+    {
+      "id": "pret_tener",
+      "front": "Preterite of TENER (to have/get)",
+      "back": "tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron",
+      "grammarNote": "**tener** in the preterite often means 'got/obtained' rather than just 'had': **Tuve suerte** (I got lucky / I was lucky). D&D context: **Tuvimos éxito en la misión** (We succeeded in the quest — we had success)."
+    },
+    {
+      "id": "pret_poder",
+      "front": "Preterite of PODER (to be able to)",
+      "back": "pude, pudiste, pudo, pudimos, pudisteis, pudieron",
+      "grammarNote": "**poder** in the preterite means 'managed to' (succeeded in doing something). D&D: **El explorador pudo disparar antes de que el dragón atacara** (The ranger managed to shoot before the dragon attacked)."
+    },
+    {
+      "id": "pret_morir",
+      "front": "The goblin died after two hits.\n(-IR stem-changing verb in preterite)",
+      "back": "El duende murió después de dos golpes.",
+      "grammarNote": "**murió** = he/she died — preterite of **morir** (o→u stem change in él/ella and ellos preterite forms only): morí, moriste, **murió**, morimos, moristeis, **murieron**. This o→u shift applies to **-IR** verbs with o→ue or o→u in the present."
+    },
+    {
+      "id": "pret_pedir",
+      "front": "Jeffrey asked his brother to roll initiative.\n(-IR e→i verb in preterite)",
+      "back": "Jeffrey le pidió a su hermano que tirara la iniciativa.",
+      "grammarNote": "**pidió** = he asked/requested — preterite of **pedir** (e→i stem change in él/ella and ellos forms): pedí, pediste, **pidió**, pedimos, pedisteis, **pidieron**. Other -IR e→i verbs: **servir → sirvió**, **reír → rió**, **elegir → eligió**."
+    },
+    {
+      "id": "pret_narrative_sequence",
+      "front": "Narrate a battle in preterite:\nFirst… then… finally…",
+      "back": "Primero, el guerrero atacó al duende.\nLuego, el mago lanzó un hechizo.\nFinalmente, Jeffrey derrotó al dragón con una flecha.",
+      "grammarNote": "Sequence markers for preterite narratives: **primero** (first), **luego / después** (then/later), **finalmente / por fin** (finally/at last). These are the building blocks of D&D storytelling in Spanish."
+    },
+    {
+      "id": "pret_nosotros_ambiguity",
+      "front": "We climbed the mountain. / We climb the mountain.\n(nosotros preterite vs present — -AR verbs)",
+      "back": "Subimos la montaña.\n(same form for both present and preterite!)",
+      "grammarNote": "For -AR verbs, the nosotros preterite and present are identical: **subimos** = we climb / we climbed. Context (especially time markers) determines the tense: **Ayer subimos la montaña** (Yesterday we climbed) vs **Cada día subimos la montaña** (Every day we climb)."
+    }
+  ]
+}

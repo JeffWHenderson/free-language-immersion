@@ -1,0 +1,793 @@
+{
+  "id": "dungeons_and_dragons",
+  "name": "Dungeons & Dragons",
+  "language": "spanish",
+  "stories": [
+    "la_taberna",
+    "la_mazmorra",
+    "el_dragon",
+    "sesion_de_juego"
+  ],
+  "pictureLessons": [],
+  "grammarLessons": [
+    { "id": "subjunctive_wishes", "name": "Subjunctive — Wishes & Commands" },
+    { "id": "preterite_narrative", "name": "Preterite — Past Narrative" },
+    { "id": "commands_imperative", "name": "Imperative Commands in Battle" },
+    { "id": "ser_estar_descriptions", "name": "Ser vs. Estar — Characters & Places" },
+    { "id": "numbers_dice", "name": "Numbers & Dice" }
+  ],
+  "cards": [
+    {
+      "id": "dungeon",
+      "english": "dungeon",
+      "word": "la mazmorra",
+      "grammarNote": "**mazmorra** is feminine: **la mazmorra**, plural **las mazmorras** · From Arabic **al-mazmūra** (underground pit) — a classic Arabic borrowing in Spanish.\n**oscura** (dark) is a feminine adjective agreeing with **mazmorra**: oscuro → oscura.",
+      "englishPhrase": "The dungeon is dark and dangerous.",
+      "phrase": "La mazmorra es oscura y peligrosa.",
+      "literal": [
+        ["La", "the"],
+        ["mazmorra", "dungeon"],
+        ["es", "is"],
+        ["oscura", "dark"],
+        ["y", "and"],
+        ["peligrosa", "dangerous"]
+      ]
+    },
+    {
+      "id": "dragon",
+      "english": "dragon",
+      "word": "el dragón",
+      "grammarNote": "**dragón** is masculine: **el dragón**, plural **los dragones** · Accent on the final syllable; the plural drops the accent: **dragones** (stress shifts naturally).\n**poderoso** (powerful) is a masculine adjective agreeing with **dragón**: poderosa would be feminine.",
+      "englishPhrase": "The dragon is very powerful.",
+      "phrase": "El dragón es muy poderoso.",
+      "literal": [
+        ["El", "the"],
+        ["dragón", "dragon"],
+        ["es", "is"],
+        ["muy", "very"],
+        ["poderoso", "powerful"]
+      ]
+    },
+    {
+      "id": "quest",
+      "english": "quest / mission",
+      "word": "la misión",
+      "grammarNote": "**misión** is feminine: **la misión**, plural **las misiones** · Accent on the final syllable drops in the plural: **misión → misiones**.\n**aceptar** (to accept) is a regular -ar verb; **aceptamos** = we accept (nosotros present tense).",
+      "englishPhrase": "We accept the quest.",
+      "phrase": "Aceptamos la misión.",
+      "literal": [
+        ["Aceptamos", "we-accept"],
+        ["la", "the"],
+        ["misión", "mission"]
+      ]
+    },
+    {
+      "id": "adventure",
+      "english": "adventure",
+      "word": "la aventura",
+      "grammarNote": "**aventura** is feminine: **la aventura** · From Latin **adventura** (things about to happen) — same root as English 'adventure'.\n**comenzar** (to begin) is an e→ie stem-changing verb: **comienza** = it begins (third-person singular).",
+      "englishPhrase": "The adventure begins at the tavern.",
+      "phrase": "La aventura comienza en la taberna.",
+      "literal": [
+        ["La", "the"],
+        ["aventura", "adventure"],
+        ["comienza", "begins"],
+        ["en", "at"],
+        ["la", "the"],
+        ["taberna", "tavern"]
+      ]
+    },
+    {
+      "id": "campaign",
+      "english": "campaign",
+      "word": "la campaña",
+      "grammarNote": "**campaña** is feminine: **la campaña** · Used for a full D&D campaign (multi-session arc) as well as military campaigns.\n**dirigir** (to run/direct) is an irregular yo form: **dirijo** (I direct) — g→j before o/a to preserve the soft /x/ sound.",
+      "englishPhrase": "Jeffrey runs the campaign every weekend.",
+      "phrase": "Jeffrey dirige la campaña cada fin de semana.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["dirige", "runs"],
+        ["la", "the"],
+        ["campaña", "campaign"],
+        ["cada", "every"],
+        ["fin", "end"],
+        ["de", "of"],
+        ["semana", "week"]
+      ]
+    },
+    {
+      "id": "character",
+      "english": "character",
+      "word": "el personaje",
+      "grammarNote": "**personaje** is masculine: **el personaje**, plural **los personajes** · From **persona** (person) + augmentative suffix **-aje** (borrowed from French -age).\n**crear** (to create) is a regular -ar verb; **crear un personaje** = to create a character.",
+      "englishPhrase": "What character do you want to create?",
+      "phrase": "¿Qué personaje quieres crear?",
+      "literal": [
+        ["Qué", "what"],
+        ["personaje", "character"],
+        ["quieres", "want"],
+        ["crear", "create"]
+      ]
+    },
+    {
+      "id": "wizard",
+      "english": "wizard",
+      "word": "el mago",
+      "grammarNote": "**mago** is masculine: **el mago**, feminine **la maga** · From Latin **magus** (wise man, magician) — same root as English 'mage' and 'magic'.\n**lanza** (casts/throws) is the él/ella present of **lanzar** (to cast/throw) — a regular -ar verb.",
+      "englishPhrase": "The wizard casts a spell.",
+      "phrase": "El mago lanza un hechizo.",
+      "literal": [
+        ["El", "the"],
+        ["mago", "wizard"],
+        ["lanza", "casts"],
+        ["un", "a"],
+        ["hechizo", "spell"]
+      ]
+    },
+    {
+      "id": "warrior",
+      "english": "warrior / fighter",
+      "word": "el guerrero",
+      "grammarNote": "**guerrero** is masculine: **el guerrero**, feminine **la guerrera** · From **guerra** (war) — a Germanic borrowing in Spanish.\n**proteger** (to protect) is a regular -er verb with a spelling change in the yo form: **protejo** (g→j before o to keep the soft /x/ sound).",
+      "englishPhrase": "The warrior protects the party.",
+      "phrase": "El guerrero protege al grupo.",
+      "literal": [
+        ["El", "the"],
+        ["guerrero", "warrior"],
+        ["protege", "protects"],
+        ["al", "the"],
+        ["grupo", "group"]
+      ]
+    },
+    {
+      "id": "rogue",
+      "english": "rogue",
+      "word": "el pícaro",
+      "grammarNote": "**pícaro** is masculine: **el pícaro**, feminine **la pícara** · A classic Spanish literary archetype — the rogue/rascal hero of picaresque novels (genre named after **pícaro**).\n**robar** (to steal) is a regular -ar verb; **robó** is the él/ella preterite: he/she stole.",
+      "englishPhrase": "The rogue stole the key from the guard.",
+      "phrase": "El pícaro le robó la llave al guardia.",
+      "literal": [
+        ["El", "the"],
+        ["pícaro", "rogue"],
+        ["le", "[from-him]"],
+        ["robó", "stole"],
+        ["la", "the"],
+        ["llave", "key"],
+        ["al", "to-the"],
+        ["guardia", "guard"]
+      ]
+    },
+    {
+      "id": "paladin",
+      "english": "paladin",
+      "word": "el paladín",
+      "grammarNote": "**paladín** is masculine: **el paladín**, plural **los paladines** · From Latin **palatinus** (of the palace) — paladin knights were champions of Charlemagne.\n**jurar** (to swear/vow) is a regular -ar verb; **jura** = he/she swears.",
+      "englishPhrase": "The paladin swears an oath of protection.",
+      "phrase": "El paladín jura un voto de protección.",
+      "literal": [
+        ["El", "the"],
+        ["paladín", "paladin"],
+        ["jura", "swears"],
+        ["un", "a"],
+        ["voto", "vow"],
+        ["de", "of"],
+        ["protección", "protection"]
+      ]
+    },
+    {
+      "id": "ranger",
+      "english": "ranger",
+      "word": "el explorador",
+      "grammarNote": "**explorador** is masculine: **el explorador**, feminine **la exploradora** · Also called **el guardabosques** (forest warden) in D&D contexts — **bosque** = forest, **guardar** = to guard.\n**preferir** (to prefer) is e→ie stem-changing: **prefiere** = he/she prefers.",
+      "englishPhrase": "Jeffrey prefers to play a ranger.",
+      "phrase": "Jeffrey prefiere jugar de explorador.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["prefiere", "prefers"],
+        ["jugar", "play"],
+        ["de", "as"],
+        ["explorador", "ranger"]
+      ]
+    },
+    {
+      "id": "dungeon_master",
+      "english": "dungeon master",
+      "word": "el director del juego",
+      "grammarNote": "**director del juego** is the official Spanish translation (game director/master) · **del** = contraction of **de + el** — mandatory in Spanish.\n**Dungeon Master** is also widely used in Spanish D&D communities, often abbreviated **DM**.",
+      "englishPhrase": "Jeffrey is the dungeon master tonight.",
+      "phrase": "Jeffrey es el director del juego esta noche.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["es", "is"],
+        ["el", "the"],
+        ["director", "director"],
+        ["del", "of-the"],
+        ["juego", "game"],
+        ["esta", "this"],
+        ["noche", "night"]
+      ]
+    },
+    {
+      "id": "spell",
+      "english": "spell",
+      "word": "el hechizo",
+      "grammarNote": "**hechizo** is masculine: **el hechizo**, plural **los hechizos** · From **hechizar** (to bewitch/enchant) — related to **hecho** (done/made), suggesting spells as 'crafted things'.\n**lanzar un hechizo** = to cast a spell — literally 'to throw a spell' (same as in English 'casting').",
+      "englishPhrase": "Jeffrey cast a fire spell on the goblin.",
+      "phrase": "Jeffrey lanzó un hechizo de fuego sobre el duende.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["lanzó", "cast"],
+        ["un", "a"],
+        ["hechizo", "spell"],
+        ["de", "of"],
+        ["fuego", "fire"],
+        ["sobre", "on"],
+        ["el", "the"],
+        ["duende", "goblin"]
+      ]
+    },
+    {
+      "id": "conjuro",
+      "english": "conjuration / incantation",
+      "word": "el conjuro",
+      "grammarNote": "**conjuro** is masculine: **el conjuro** · A **conjuro** is an incantation or binding spell — slightly stronger/darker connotation than **hechizo** (a general spell).\n**pronunciar** (to pronounce/utter) is a regular -ar verb; **pronunció** = he/she uttered (preterite).",
+      "englishPhrase": "The wizard uttered a powerful incantation.",
+      "phrase": "El mago pronunció un poderoso conjuro.",
+      "literal": [
+        ["El", "the"],
+        ["mago", "wizard"],
+        ["pronunció", "uttered"],
+        ["un", "a"],
+        ["poderoso", "powerful"],
+        ["conjuro", "incantation"]
+      ]
+    },
+    {
+      "id": "magic",
+      "english": "magic",
+      "word": "la magia",
+      "grammarNote": "**magia** is feminine: **la magia** · From Greek **mageia** via Latin — the same Indo-European root as English 'magic'.\n**encantado** (enchanted) is a past participle used as an adjective — agrees masculine with **bosque**: encantado/encantada/encantados/encantadas.",
+      "englishPhrase": "The forest is enchanted with ancient magic.",
+      "phrase": "El bosque está encantado con magia antigua.",
+      "literal": [
+        ["El", "the"],
+        ["bosque", "forest"],
+        ["está", "is"],
+        ["encantado", "enchanted"],
+        ["con", "with"],
+        ["magia", "magic"],
+        ["antigua", "ancient"]
+      ]
+    },
+    {
+      "id": "potion",
+      "english": "potion",
+      "word": "la poción",
+      "grammarNote": "**poción** is feminine: **la poción**, plural **las pociones** · From Latin **potio** (drink) — same root as English 'potion' and 'poison'.\n**beber** (to drink) is a regular -er verb; **bebe** = he/she drinks. **la poción de vida** = health potion (literally 'potion of life').",
+      "englishPhrase": "Drink the health potion!",
+      "phrase": "¡Bebe la poción de vida!",
+      "literal": [
+        ["Bebe", "drink"],
+        ["la", "the"],
+        ["poción", "potion"],
+        ["de", "of"],
+        ["vida", "life"]
+      ]
+    },
+    {
+      "id": "sword",
+      "english": "sword",
+      "word": "la espada",
+      "grammarNote": "**espada** is feminine: **la espada**, plural **las espadas** · From Latin **spatha** (flat blade) — also gives us 'spade' in English card suits.\n**desenvainó** = he/she drew (from the sheath) — preterite of **desenvainar** (to unsheathe), a regular -ar verb.",
+      "englishPhrase": "The warrior drew his sword.",
+      "phrase": "El guerrero desenvainó su espada.",
+      "literal": [
+        ["El", "the"],
+        ["guerrero", "warrior"],
+        ["desenvainó", "drew"],
+        ["su", "his"],
+        ["espada", "sword"]
+      ]
+    },
+    {
+      "id": "shield",
+      "english": "shield",
+      "word": "el escudo",
+      "grammarNote": "**escudo** is masculine: **el escudo**, plural **los escudos** · Also the name of several Latin American currencies (historical) and national coats of arms — **el escudo nacional**.\n**levantar** (to raise) is a regular -ar verb; **levantó** = he/she raised (preterite).",
+      "englishPhrase": "The paladin raised his shield.",
+      "phrase": "El paladín levantó su escudo.",
+      "literal": [
+        ["El", "the"],
+        ["paladín", "paladin"],
+        ["levantó", "raised"],
+        ["su", "his"],
+        ["escudo", "shield"]
+      ]
+    },
+    {
+      "id": "armor",
+      "english": "armor",
+      "word": "la armadura",
+      "grammarNote": "**armadura** is feminine: **la armadura** · From **armar** (to arm) — related to **arma** (weapon) and Latin **armare**.\n**pesada** (heavy) is a feminine adjective agreeing with **armadura**: pesado/pesada.",
+      "englishPhrase": "The warrior's armor is very heavy.",
+      "phrase": "La armadura del guerrero es muy pesada.",
+      "literal": [
+        ["La", "the"],
+        ["armadura", "armor"],
+        ["del", "of-the"],
+        ["guerrero", "warrior"],
+        ["es", "is"],
+        ["muy", "very"],
+        ["pesada", "heavy"]
+      ]
+    },
+    {
+      "id": "dice",
+      "english": "dice",
+      "word": "los dados",
+      "grammarNote": "**dado** is masculine: **el dado** (one die), **los dados** (dice) · From **dar** (to give) — dice were originally 'given' by fate.\n**tirar los dados** = to roll the dice — **tirar** literally means 'to throw', used in many games.",
+      "englishPhrase": "Roll the dice!",
+      "phrase": "¡Tira los dados!",
+      "literal": [
+        ["Tira", "roll/throw"],
+        ["los", "the"],
+        ["dados", "dice"]
+      ]
+    },
+    {
+      "id": "roll_dice",
+      "english": "to roll the dice",
+      "word": "tirar los dados",
+      "grammarNote": "**tirar** (to roll/throw) is a regular -ar verb: **tiro, tiras, tira, tiramos, tiráis, tiran**.\n**necesito que tires** uses the subjunctive (**tires**) because it expresses a wish/need directed at another person: **necesitar que + subjunctive** = to need someone to do something.",
+      "englishPhrase": "I need you to roll the dice now.",
+      "phrase": "Necesito que tires los dados ahora.",
+      "literal": [
+        ["Necesito", "need"],
+        ["que", "that"],
+        ["tires", "roll"],
+        ["los", "the"],
+        ["dados", "dice"],
+        ["ahora", "now"]
+      ]
+    },
+    {
+      "id": "critical_hit",
+      "english": "critical hit",
+      "word": "el golpe crítico",
+      "grammarNote": "**golpe** is masculine: **el golpe** (hit/blow) · **crítico** is an adjective agreeing masculine with **golpe** — feminine would be **crítica**.\n**¡Hiciste un golpe crítico!** — **hiciste** is the tú preterite of **hacer** (to do/make): hice, hiciste, hizo, hicimos, hicisteis, hicieron.",
+      "englishPhrase": "You got a critical hit!",
+      "phrase": "¡Hiciste un golpe crítico!",
+      "literal": [
+        ["Hiciste", "you-did/made"],
+        ["un", "a"],
+        ["golpe", "hit"],
+        ["crítico", "critical"]
+      ]
+    },
+    {
+      "id": "level_up",
+      "english": "to level up",
+      "word": "subir de nivel",
+      "grammarNote": "**subir de nivel** = to level up — literally 'to rise in level' · **subir** (to go up/rise) is a regular -ir verb.\n**subiste de nivel** is the tú preterite: **subir** → **subiste** (regular -ir preterite).",
+      "englishPhrase": "You leveled up! You are now level five.",
+      "phrase": "¡Subiste de nivel! Ahora eres nivel cinco.",
+      "literal": [
+        ["Subiste", "you-leveled"],
+        ["de", "up"],
+        ["nivel", "level"],
+        ["Ahora", "now"],
+        ["eres", "are"],
+        ["nivel", "level"],
+        ["cinco", "five"]
+      ]
+    },
+    {
+      "id": "experience_points",
+      "english": "experience points",
+      "word": "los puntos de experiencia",
+      "grammarNote": "**puntos** is masculine plural: **los puntos** · Often abbreviated **PX** (puntos de experiencia) or **XP** in Spanish D&D communities.\n**ganar** (to earn/win) is a regular -ar verb; **ganamos** = we earned (nosotros preterite — same form as present for -ar verbs).",
+      "englishPhrase": "We earned three hundred experience points.",
+      "phrase": "Ganamos trescientos puntos de experiencia.",
+      "literal": [
+        ["Ganamos", "we-earned"],
+        ["trescientos", "three-hundred"],
+        ["puntos", "points"],
+        ["de", "of"],
+        ["experiencia", "experience"]
+      ]
+    },
+    {
+      "id": "monster",
+      "english": "monster",
+      "word": "el monstruo",
+      "grammarNote": "**monstruo** is masculine: **el monstruo**, plural **los monstruos** · From Latin **monstrum** (omen, monster) — same root as English 'monster' and 'demonstrate'.\n**apareció** is the preterite of **aparecer** (to appear) — an -er verb with yo spelling change: **aparezco**.",
+      "englishPhrase": "A monster appeared in the shadows.",
+      "phrase": "Un monstruo apareció entre las sombras.",
+      "literal": [
+        ["Un", "a"],
+        ["monstruo", "monster"],
+        ["apareció", "appeared"],
+        ["entre", "among"],
+        ["las", "the"],
+        ["sombras", "shadows"]
+      ]
+    },
+    {
+      "id": "goblin",
+      "english": "goblin",
+      "word": "el duende",
+      "grammarNote": "**duende** is masculine: **el duende**, plural **los duendes** · **Duende** also means 'elf', 'sprite', or 'a magical quality' in flamenco art (el duende flamenco).\n**emboscar** (to ambush) is a regular -ar verb; **emboscó** = he/she/it ambushed (preterite).",
+      "englishPhrase": "The goblin ambushed the brothers.",
+      "phrase": "El duende emboscó a los hermanos.",
+      "literal": [
+        ["El", "the"],
+        ["duende", "goblin"],
+        ["emboscó", "ambushed"],
+        ["a", "[pers. a]"],
+        ["los", "the"],
+        ["hermanos", "brothers"]
+      ]
+    },
+    {
+      "id": "treasure",
+      "english": "treasure",
+      "word": "el tesoro",
+      "grammarNote": "**tesoro** is masculine: **el tesoro**, plural **los tesoros** · From Latin **thesaurus** (storehouse) — same root as English 'thesaurus'.\n**encontramos** = we found — this is both the present and preterite nosotros form of **encontrar** (to find); context tells us it is past here.",
+      "englishPhrase": "We found the treasure in the dungeon.",
+      "phrase": "Encontramos el tesoro en la mazmorra.",
+      "literal": [
+        ["Encontramos", "we-found"],
+        ["el", "the"],
+        ["tesoro", "treasure"],
+        ["en", "in"],
+        ["la", "the"],
+        ["mazmorra", "dungeon"]
+      ]
+    },
+    {
+      "id": "map",
+      "english": "map",
+      "word": "el mapa",
+      "grammarNote": "**mapa** is masculine despite ending in -a: **el mapa** — one of the notable exceptions to the -a = feminine rule (also: **el día**, **el problema**).\n**señala** = points to/shows (él/ella form of **señalar**, a regular -ar verb).",
+      "englishPhrase": "The map shows the entrance to the dungeon.",
+      "phrase": "El mapa señala la entrada a la mazmorra.",
+      "literal": [
+        ["El", "the"],
+        ["mapa", "map"],
+        ["señala", "shows"],
+        ["la", "the"],
+        ["entrada", "entrance"],
+        ["a", "to"],
+        ["la", "the"],
+        ["mazmorra", "dungeon"]
+      ]
+    },
+    {
+      "id": "tavern",
+      "english": "tavern",
+      "word": "la taberna",
+      "grammarNote": "**taberna** is feminine: **la taberna** · From Latin **taberna** (shop, inn) — same root as English 'tavern' and 'taverna'.\n**reunirse** (to meet up/gather) is a reflexive verb; **nos reunimos** = we gather/meet.",
+      "englishPhrase": "The group meets at the tavern every session.",
+      "phrase": "El grupo se reúne en la taberna cada sesión.",
+      "literal": [
+        ["El", "the"],
+        ["grupo", "group"],
+        ["se", "[refl.]"],
+        ["reúne", "meets"],
+        ["en", "at"],
+        ["la", "the"],
+        ["taberna", "tavern"],
+        ["cada", "every"],
+        ["sesión", "session"]
+      ]
+    },
+    {
+      "id": "party",
+      "english": "adventuring party",
+      "word": "el grupo de aventureros",
+      "grammarNote": "**grupo** is masculine: **el grupo** · **aventureros** (adventurers) is masculine plural — includes both men and mixed groups in Spanish.\n**el partido de aventureros** is another option; **partido** can also mean 'political party' or a sports 'match' — context matters.",
+      "englishPhrase": "Jeffrey and his brothers form an adventuring party.",
+      "phrase": "Jeffrey y sus hermanos forman un grupo de aventureros.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["y", "and"],
+        ["sus", "his"],
+        ["hermanos", "brothers"],
+        ["forman", "form"],
+        ["un", "a"],
+        ["grupo", "group"],
+        ["de", "of"],
+        ["aventureros", "adventurers"]
+      ]
+    },
+    {
+      "id": "enchanted",
+      "english": "enchanted",
+      "word": "encantado",
+      "grammarNote": "**encantado** is the past participle of **encantar** used as an adjective · It agrees in gender and number: **encantado/encantada/encantados/encantadas**.\n**un arma encantada** — **arma** (weapon) is feminine but uses **el** in singular: **el arma** (like **el agua**). Here it is modified post-article so **encantada** agrees feminine.",
+      "englishPhrase": "Jeffrey found an enchanted weapon.",
+      "phrase": "Jeffrey encontró un arma encantada.",
+      "literal": [
+        ["Jeffrey", "Jeffrey"],
+        ["encontró", "found"],
+        ["un", "a"],
+        ["arma", "weapon"],
+        ["encantada", "enchanted"]
+      ]
+    },
+    {
+      "id": "attack",
+      "english": "to attack",
+      "word": "atacar",
+      "grammarNote": "**atacar** is a regular -ar verb with a spelling change in the preterite yo form: **ataqué** (c→qu before e to preserve the hard /k/ sound).\n**¡Ataca!** is the tú affirmative imperative — for -ar verbs, drop the -s from the tú present: **atacas → ¡Ataca!**",
+      "englishPhrase": "Attack the dragon now!",
+      "phrase": "¡Ataca al dragón ahora!",
+      "literal": [
+        ["Ataca", "attack"],
+        ["al", "the"],
+        ["dragón", "dragon"],
+        ["ahora", "now"]
+      ]
+    },
+    {
+      "id": "flee",
+      "english": "to flee / run away",
+      "word": "huir",
+      "grammarNote": "**huir** (to flee) is an irregular -ir verb — a spelling 'y' is inserted in most conjugated forms: **huyo, huyes, huye, huimos, huís, huyen**.\n**¡Huye!** is the tú affirmative imperative: **huye**.",
+      "englishPhrase": "Run! There are too many goblins!",
+      "phrase": "¡Huye! ¡Hay demasiados duendes!",
+      "literal": [
+        ["Huye", "flee"],
+        ["Hay", "there-are"],
+        ["demasiados", "too-many"],
+        ["duendes", "goblins"]
+      ]
+    },
+    {
+      "id": "heal",
+      "english": "to heal / cure",
+      "word": "curar",
+      "grammarNote": "**curar** is a regular -ar verb: **curo, curas, cura, curamos, curáis, curan**.\n**quiero que el mago cure** uses the present subjunctive (**cure**) because **querer que** expresses a desire about another person's action — the key subjunctive trigger.",
+      "englishPhrase": "I want the wizard to heal the warrior.",
+      "phrase": "Quiero que el mago cure al guerrero.",
+      "literal": [
+        ["Quiero", "want"],
+        ["que", "that"],
+        ["el", "the"],
+        ["mago", "wizard"],
+        ["cure", "heals/heal"],
+        ["al", "the"],
+        ["guerrero", "warrior"]
+      ]
+    },
+    {
+      "id": "defend",
+      "english": "to defend",
+      "word": "defender",
+      "grammarNote": "**defender** is an e→ie stem-changing verb: **defiendo, defiendes, defiende, defendemos, defendéis, defienden**.\n**defiende** (he/she/it defends) is the él/ella present — the stem vowel changes from e→ie in all persons except nosotros and vosotros.",
+      "englishPhrase": "The paladin defends the group.",
+      "phrase": "El paladín defiende al grupo.",
+      "literal": [
+        ["El", "the"],
+        ["paladín", "paladin"],
+        ["defiende", "defends"],
+        ["al", "the"],
+        ["grupo", "group"]
+      ]
+    },
+    {
+      "id": "explore",
+      "english": "to explore",
+      "word": "explorar",
+      "grammarNote": "**explorar** is a regular -ar verb · From Latin **explorare** (to investigate) — same root as English 'explore'.\n**exploramos** = we explore — nosotros present tense of **explorar**.",
+      "englishPhrase": "We explore the dungeon carefully.",
+      "phrase": "Exploramos la mazmorra con cuidado.",
+      "literal": [
+        ["Exploramos", "we-explore"],
+        ["la", "the"],
+        ["mazmorra", "dungeon"],
+        ["con", "with"],
+        ["cuidado", "care"]
+      ]
+    },
+    {
+      "id": "hit_points",
+      "english": "hit points / health points",
+      "word": "los puntos de vida",
+      "grammarNote": "**puntos de vida** = hit points (literally 'life points') · **vida** is feminine: **la vida**.\n**tengo** is the irregular yo form of **tener** (to have): tengo, tienes, tiene, tenemos, tenéis, tienen.",
+      "englishPhrase": "I only have five hit points left.",
+      "phrase": "Solo tengo cinco puntos de vida.",
+      "literal": [
+        ["Solo", "only"],
+        ["tengo", "have"],
+        ["cinco", "five"],
+        ["puntos", "points"],
+        ["de", "of"],
+        ["vida", "life"]
+      ]
+    },
+    {
+      "id": "turn",
+      "english": "turn (in combat)",
+      "word": "el turno",
+      "grammarNote": "**turno** is masculine: **el turno**, plural **los turnos** · Used in board games, card games, and D&D for whose turn it is.\n**Es tu turno** = It's your turn — **ser** is used for stating whose turn it is (a factual identity/assignment).",
+      "englishPhrase": "It's your turn to attack.",
+      "phrase": "Es tu turno de atacar.",
+      "literal": [
+        ["Es", "is"],
+        ["tu", "your"],
+        ["turno", "turn"],
+        ["de", "to"],
+        ["atacar", "attack"]
+      ]
+    },
+    {
+      "id": "victory",
+      "english": "victory",
+      "word": "la victoria",
+      "grammarNote": "**victoria** is feminine: **la victoria** · From Latin **victoria** — same root as English 'victory'.\n**logramos** = we achieved/managed — preterite of **lograr** (to achieve), a regular -ar verb.",
+      "englishPhrase": "We achieved a great victory.",
+      "phrase": "Logramos una gran victoria.",
+      "literal": [
+        ["Logramos", "we-achieved"],
+        ["una", "a"],
+        ["gran", "great"],
+        ["victoria", "victory"]
+      ]
+    },
+    {
+      "id": "enemy",
+      "english": "enemy",
+      "word": "el enemigo",
+      "grammarNote": "**enemigo** is masculine: **el enemigo**, feminine **la enemiga** · From Latin **inimicus** (unfriendly) — the prefix **in-** (not) + **amicus** (friend).\n**cayó** is the preterite of **caer** (to fall) — irregular: caí, caíste, cayó, caímos, caísteis, cayeron.",
+      "englishPhrase": "The enemy fell after one hit.",
+      "phrase": "El enemigo cayó después de un golpe.",
+      "literal": [
+        ["El", "the"],
+        ["enemigo", "enemy"],
+        ["cayó", "fell"],
+        ["después", "after"],
+        ["de", "of"],
+        ["un", "a"],
+        ["golpe", "hit"]
+      ]
+    },
+    {
+      "id": "trap",
+      "english": "trap",
+      "word": "la trampa",
+      "grammarNote": "**trampa** is feminine: **la trampa**, plural **las trampas** · Also used figuratively: **¡Es una trampa!** (It's a trap!) — a classic phrase.\n**caer en una trampa** = to fall into a trap — **caer** (to fall) is an irregular yo verb: **caigo**.",
+      "englishPhrase": "Careful, that's a trap!",
+      "phrase": "¡Cuidado, es una trampa!",
+      "literal": [
+        ["Cuidado", "careful"],
+        ["es", "is"],
+        ["una", "a"],
+        ["trampa", "trap"]
+      ]
+    },
+    {
+      "id": "loot",
+      "english": "loot",
+      "word": "el botín",
+      "grammarNote": "**botín** is masculine: **el botín** (loot/booty) · Also means 'ankle boot' in everyday Spanish — same word, very different contexts!\n**repartir** (to distribute/divide) is a regular -ir verb; **repartimos** = we split (nosotros preterite).",
+      "englishPhrase": "We split the loot among the group.",
+      "phrase": "Repartimos el botín entre el grupo.",
+      "literal": [
+        ["Repartimos", "we-split"],
+        ["el", "the"],
+        ["botín", "loot"],
+        ["entre", "among"],
+        ["el", "the"],
+        ["grupo", "group"]
+      ]
+    },
+    {
+      "id": "innkeeper",
+      "english": "innkeeper",
+      "word": "el posadero",
+      "grammarNote": "**posadero** is masculine: **el posadero**, feminine **la posadera** · From **posada** (inn/lodging) — **posar** means to rest/lodge.\n**dar una misión** = to give a quest — **dio** is the él/ella preterite of **dar** (to give): di, diste, dio, dimos, disteis, dieron.",
+      "englishPhrase": "The innkeeper gave the adventurers a quest.",
+      "phrase": "El posadero le dio una misión a los aventureros.",
+      "literal": [
+        ["El", "the"],
+        ["posadero", "innkeeper"],
+        ["le", "[to-them]"],
+        ["dio", "gave"],
+        ["una", "a"],
+        ["misión", "quest"],
+        ["a", "to"],
+        ["los", "the"],
+        ["aventureros", "adventurers"]
+      ]
+    },
+    {
+      "id": "bow",
+      "english": "bow (weapon)",
+      "word": "el arco",
+      "grammarNote": "**arco** is masculine: **el arco** · Also means 'arch' (architectural) and 'arc' — a versatile word.\n**disparar** (to shoot) is a regular -ar verb; **disparó** = he/she shot (preterite). Jeffrey's ranger uses a bow as his signature weapon.",
+      "englishPhrase": "Jeffrey's ranger shot an arrow with his bow.",
+      "phrase": "El explorador de Jeffrey disparó una flecha con su arco.",
+      "literal": [
+        ["El", "the"],
+        ["explorador", "ranger"],
+        ["de", "of"],
+        ["Jeffrey", "Jeffrey"],
+        ["disparó", "shot"],
+        ["una", "an"],
+        ["flecha", "arrow"],
+        ["con", "with"],
+        ["su", "his"],
+        ["arco", "bow"]
+      ]
+    },
+    {
+      "id": "session",
+      "english": "game session",
+      "word": "la sesión de juego",
+      "grammarNote": "**sesión** is feminine: **la sesión**, plural **las sesiones** · Accent on the final syllable drops in plural: **sesión → sesiones**.\n**los sábados** = on Saturdays — plural definite article + day of week expresses a habitual action.",
+      "englishPhrase": "We play D&D on Saturdays.",
+      "phrase": "Jugamos a D&D los sábados.",
+      "literal": [
+        ["Jugamos", "we-play"],
+        ["a", "at"],
+        ["D&D", "D&D"],
+        ["los", "the"],
+        ["sábados", "Saturdays"]
+      ]
+    },
+    {
+      "id": "rule",
+      "english": "rule",
+      "word": "la regla",
+      "grammarNote": "**regla** is feminine: **la regla**, plural **las reglas** · Also means 'ruler' (measuring tool) — same word.\n**discutir** (to discuss/argue) is a regular -ir verb; **discutimos** = we discuss/argue (nosotros present).",
+      "englishPhrase": "We always discuss the rules before the session.",
+      "phrase": "Siempre discutimos las reglas antes de la sesión.",
+      "literal": [
+        ["Siempre", "always"],
+        ["discutimos", "we-discuss"],
+        ["las", "the"],
+        ["reglas", "rules"],
+        ["antes", "before"],
+        ["de", "of"],
+        ["la", "the"],
+        ["sesión", "session"]
+      ]
+    },
+    {
+      "id": "initiative",
+      "english": "initiative",
+      "word": "la iniciativa",
+      "grammarNote": "**iniciativa** is feminine: **la iniciativa** · In D&D, **tirar iniciativa** = to roll for initiative — determines the order of combat turns.\n**determina** = determines (él/ella present of **determinar**, a regular -ar verb).",
+      "englishPhrase": "Rolling initiative determines who goes first.",
+      "phrase": "Tirar iniciativa determina quién va primero.",
+      "literal": [
+        ["Tirar", "rolling"],
+        ["iniciativa", "initiative"],
+        ["determina", "determines"],
+        ["quién", "who"],
+        ["va", "goes"],
+        ["primero", "first"]
+      ]
+    },
+    {
+      "id": "twenty_sided",
+      "english": "twenty-sided die (d20)",
+      "word": "el dado de veinte caras",
+      "grammarNote": "**cara** is feminine: **la cara** (face/side of a die) · **dado de veinte caras** = twenty-faced die — Spanish describes dice by their face count.\nCommon in D&D communities: also simply called **el d20** (borrowed from English).",
+      "englishPhrase": "I rolled a twenty on the d20!",
+      "phrase": "¡Saqué un veinte en el dado de veinte caras!",
+      "literal": [
+        ["Saqué", "I-got"],
+        ["un", "a"],
+        ["veinte", "twenty"],
+        ["en", "on"],
+        ["el", "the"],
+        ["dado", "die"],
+        ["de", "of"],
+        ["veinte", "twenty"],
+        ["caras", "faces"]
+      ]
+    }
+  ]
+}

@@ -154,10 +154,42 @@ const AVAILABLE_DECKS = [
 
 ---
 
+## Outline
+
+Before generating any course content, save a section outline to `.ai-workspace/{lang_id}-{section_id}-outline.md` (create the directory if it doesn't exist).
+
+The outline is **English only** — no translations. It captures the full plan so the user can review, edit, and approve before any content is generated.
+
+Format:
+
+```markdown
+# {Language} — {Section Display Name} Outline
+
+## Vocabulary (30–60 cards)
+- {English word} — {brief note on usage or grammar, if helpful}
+- ...
+
+## Stories (3–5)
+1. {story_id} — "{Story Display Title}" — {1-sentence description}
+2. ...
+
+## Grammar Lessons (4–6)
+1. {lesson_slug} — "{Lesson Title}"
+2. ...
+```
+
+After saving, tell the user:
+
+> Outline saved to `.ai-workspace/{lang_id}-{section_id}-outline.md`. Please review it, make any edits you'd like (add, remove, or reword items), and let me know when you're ready to generate the full section.
+
+**Do not generate any translations or course files until the user gives the go-ahead.**
+
+---
+
 ## Workflow
 
 1. **Read existing content** — check one `index.json` and one story from the target language to confirm card format and conventions.
-2. **Plan the section** — decide vocabulary (30–60 words), 3–5 story titles, and 4–6 grammar topics relevant to the theme.
+2. **Save outline** — write `.ai-workspace/{lang_id}-{section_id}-outline.md` and wait for user approval.
 3. **Write `index.json`** — include all cards, story IDs, and grammar lesson IDs. Validate with Python.
 4. **Write story files** — one file per story. Validate each with Python.
 5. **Write grammar HTML files** — one per grammar lesson.

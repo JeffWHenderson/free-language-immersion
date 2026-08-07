@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation, useSearch } from "wouter";
+import { useDecks } from "../../hooks/useDecks";
 import "../srs.css";
 import "./PictureList.css";
 
@@ -11,69 +12,45 @@ interface PictureMeta {
     deckName: string;
 }
 
-interface DeckMeta {
-    id: string;
-    name: string;
-    pictureLessons?: string[];
-}
-
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-];
-
 const PictureList = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
     const searchParams = new URLSearchParams(useSearch());
+    const { packs } = useDecks(language);
 
     const [pictures, setPictures] = useState<PictureMeta[]>([]);
     const [loading, setLoading] = useState(true);
     const [deckFilter, setDeckFilter] = useState(searchParams.get("deck") ?? "all");
 
     useEffect(() => {
-        if (!language) return;
+        if (!language || packs.length === 0) return;
         setLoading(true);
 
-        Promise.all(
-            AVAILABLE_DECKS.map((deckId) =>
-                fetch(`/languages/${language}/${deckId}/index.json`)
+        const packsWithPictures = packs.filter((p) => (p.pictureLessons?.length ?? 0) > 0);
+        const pictureFetches = packsWithPictures.flatMap((pack) =>
+            (pack.pictureLessons ?? []).map((lessonId) =>
+                fetch(`/languages/${language}/${pack.id}/picture_lessons/${lessonId}.json`)
                     .then((r) => r.json())
+                    .then((p) => ({
+                        id: lessonId,
+                        name: p.name ?? lessonId,
+                        image: p.image ?? `/${lessonId}.jpg`,
+                        deckId: pack.id,
+                        deckName: pack.name,
+                    }))
                     .catch(() => null)
             )
-        ).then((decks: (DeckMeta | null)[]) => {
-            const validDecks = decks.filter(Boolean) as DeckMeta[];
+        );
 
-            const pictureFetches = validDecks.flatMap((deck) =>
-                (deck.pictureLessons ?? []).map((lessonId) =>
-                    fetch(`/languages/${language}/${deck.id}/picture_lessons/${lessonId}.json`)
-                        .then((r) => r.json())
-                        .then((p) => ({
-                            id: lessonId,
-                            name: p.name ?? lessonId,
-                            image: p.image ?? `/${lessonId}.jpg`,
-                            deckId: deck.id,
-                            deckName: deck.name,
-                        }))
-                        .catch(() => null)
-                )
-            );
-
-            Promise.all(pictureFetches).then((results) => {
-                setPictures(results.filter(Boolean) as PictureMeta[]);
-                setLoading(false);
-            });
+        Promise.all(pictureFetches).then((results) => {
+            setPictures(results.filter(Boolean) as PictureMeta[]);
+            setLoading(false);
         });
-    }, [language]);
+    }, [language, packs]);
 
-    const filtered = pictures.filter((p) => {
-        if (deckFilter !== "all" && p.deckId !== deckFilter) return false;
-        return true;
-    });
+    const filtered = pictures.filter((p) =>
+        deckFilter === "all" || p.deckId === deckFilter
+    );
 
     const uniqueDecks = Array.from(new Set(pictures.map((p) => p.deckId))).map(
         (id) => ({ id, name: pictures.find((p) => p.deckId === id)!.deckName })

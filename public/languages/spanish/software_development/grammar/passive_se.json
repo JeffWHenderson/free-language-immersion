@@ -1,0 +1,97 @@
+{
+  "id": "passive_se",
+  "name": "Passive Se",
+  "language": "spanish",
+  "cards": [
+    {
+      "id": "passive_se_intro",
+      "front": "What is the 'passive se' (se pasiva)?",
+      "back": "A construction using *se* + verb (third person) to express that something was done without naming who did it.\n\nStructure: se + verb (3rd person singular or plural)\n\nSingular: Se desplegó el código. (The code was deployed.)\nPlural: Se encontraron errores. (Errors were found.)",
+      "grammarNote": "The verb agrees with the noun that follows it, NOT with *se*. This is different from English passive, which requires a form of 'to be.'"
+    },
+    {
+      "id": "passive_se_vs_english",
+      "front": "How does passive se compare to English passive?",
+      "back": "English: 'The bug was fixed.'\nSpanish (passive se): 'Se arregló el bug.'\n\nEnglish: 'The tests were run.'\nSpanish (passive se): 'Se ejecutaron las pruebas.'",
+      "grammarNote": "Spanish does not use *ser + participio* for most passive constructions in everyday speech. The *se pasiva* is more natural and common."
+    },
+    {
+      "id": "se_desplego",
+      "front": "The code was deployed last night.",
+      "back": "Se desplegó el código anoche.",
+      "grammarNote": "*Se desplegó* = passive se, preterite of *desplegar*. Singular verb because *el código* is singular.\n*Anoche* = last night."
+    },
+    {
+      "id": "se_encontro_un_error",
+      "front": "An error was found in the database.",
+      "back": "Se encontró un error en la base de datos.",
+      "grammarNote": "*Se encontró* = passive se, preterite of *encontrar*. Singular because *un error* is singular.\nNote: *encontrar* stem-changes in present (o→ue) but not in preterite."
+    },
+    {
+      "id": "se_canceló_la_reunion",
+      "front": "The meeting was cancelled.",
+      "back": "Se canceló la reunión.",
+      "grammarNote": "*Se canceló* = passive se, preterite of *cancelar*. The verb is singular to agree with *la reunión*.\nVery common in work contexts; no need to say who cancelled it."
+    },
+    {
+      "id": "se_lanzó",
+      "front": "The new version was launched on Friday.",
+      "back": "Se lanzó la nueva versión el viernes.",
+      "grammarNote": "*Se lanzó* = passive se, preterite of *lanzar*. Singular verb.\n*El viernes* = on Friday — days of the week do not change for plural in this time expression."
+    },
+    {
+      "id": "se_encontraron_errores",
+      "front": "Several bugs were found in production.",
+      "back": "Se encontraron varios errores en producción.",
+      "grammarNote": "*Se encontraron* = plural verb because *errores* is plural — the verb must agree with the noun.\n*Varios* = several; agrees in gender and number with *errores* (masculine plural)."
+    },
+    {
+      "id": "se_cerraron_los_tickets",
+      "front": "All the tickets were closed.",
+      "back": "Se cerraron todos los tickets.",
+      "grammarNote": "*Se cerraron* = plural passive se of *cerrar*; agrees with *los tickets* (plural).\n*Todos los* = all the; *todos* is masculine plural to agree with *tickets*."
+    },
+    {
+      "id": "se_actualizo_la_app",
+      "front": "The app was updated.",
+      "back": "Se actualizó la aplicación.",
+      "grammarNote": "*Se actualizó* = passive se, preterite of *actualizar*. Singular because *la aplicación* is singular.\nNote the written accent on *ó* in the preterite third person singular."
+    },
+    {
+      "id": "se_creo_la_rama",
+      "front": "A new branch was created in the repository.",
+      "back": "Se creó una nueva rama en el repositorio.",
+      "grammarNote": "*Se creó* = passive se, preterite of *crear*. Singular because *una rama* is singular.\nUsed in a standup: 'Se creó una nueva rama para la función de pagos.'"
+    },
+    {
+      "id": "se_present_tense",
+      "front": "Passive se in the present tense: 'The code is reviewed every week.'",
+      "back": "Se revisa el código cada semana.",
+      "grammarNote": "*Se revisa* = passive se in present tense; singular to agree with *el código*.\nPresent passive se describes routines or general truths, not just past events."
+    },
+    {
+      "id": "se_habla",
+      "front": "Spanish is spoken on our team.",
+      "back": "Se habla español en nuestro equipo.",
+      "grammarNote": "*Se habla* = passive se, present; *español* is singular so verb is singular.\nThis is the classic 'se habla español' sign — the same structure is used in tech."
+    },
+    {
+      "id": "se_uso_git",
+      "front": "Git is used in this project.",
+      "back": "Se usa Git en este proyecto.",
+      "grammarNote": "*Se usa* = passive se, present; describes a general practice.\n*En este proyecto* = in this project; *este* is a demonstrative adjective."
+    },
+    {
+      "id": "passive_se_future",
+      "front": "The database will be updated tomorrow.",
+      "back": "Se actualizará la base de datos mañana.",
+      "grammarNote": "*Se actualizará* = passive se in the future tense; formed from the future of *actualizar*.\nFuture tense: infinitive + ending: *actualizará* = he/she/it will update (or: it will be updated with *se*)."
+    },
+    {
+      "id": "passive_se_negative",
+      "front": "No new features were added in this release.",
+      "back": "No se añadieron nuevas funciones en esta versión.",
+      "grammarNote": "*No* is placed before *se* to negate the passive construction.\n*Se añadieron* = plural because *funciones* is plural; *añadir* = to add (regular -ir verb)."
+    }
+  ]
+}

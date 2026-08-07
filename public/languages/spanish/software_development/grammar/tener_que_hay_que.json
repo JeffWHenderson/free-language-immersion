@@ -1,0 +1,97 @@
+{
+  "id": "tener_que_hay_que",
+  "name": "Tener que / Hay que",
+  "language": "spanish",
+  "cards": [
+    {
+      "id": "tener_que_intro",
+      "front": "What does 'tener que + infinitive' express?",
+      "back": "Personal obligation: 'to have to do something.' The subject of *tener* is the person who is obligated.",
+      "grammarNote": "tener que + infinitive = a specific person must do something. Example: *Jeffrey tiene que arreglar el bug* = Jeffrey has to fix the bug."
+    },
+    {
+      "id": "hay_que_intro",
+      "front": "What does 'hay que + infinitive' express?",
+      "back": "Impersonal obligation: 'one must / it is necessary to.' No specific subject — applies to anyone.",
+      "grammarNote": "*Hay* is the impersonal form of *haber*; it does not change for person or number. *Hay que hacer el deploy* = Someone / we / one must do the deploy."
+    },
+    {
+      "id": "tener_que_conjugation",
+      "front": "Conjugate 'tener que' for all persons (present tense)",
+      "back": "yo → tengo que\ntú → tienes que\nél/ella → tiene que\nnosotros → tenemos que\nvosotros → tenéis que\nellos/ellas → tienen que",
+      "grammarNote": "*Tener* is irregular in first person (yo tengo) and stem-changes e→ie in all other present forms except nosotros/vosotros."
+    },
+    {
+      "id": "tengo_que_arreglar",
+      "front": "I have to fix the bug before the standup.",
+      "back": "Tengo que arreglar el bug antes del standup.",
+      "grammarNote": "*Tengo que* = I have to; first-person singular obligation. *Antes del* = before the (contraction of *antes de + el*)."
+    },
+    {
+      "id": "tienes_que_revisar",
+      "front": "You have to review the pull request.",
+      "back": "Tienes que revisar el pull request.",
+      "grammarNote": "*Tienes que* = you have to (informal tú). Used when speaking directly to a teammate."
+    },
+    {
+      "id": "tiene_que_desplegar",
+      "front": "Jeffrey has to deploy the code today.",
+      "back": "Jeffrey tiene que desplegar el código hoy.",
+      "grammarNote": "*Tiene que* = he/she has to; third person singular. *Desplegar* = to deploy (stem-changing e→ie verb)."
+    },
+    {
+      "id": "tenemos_que_lanzar",
+      "front": "We have to launch the app this Friday.",
+      "back": "Tenemos que lanzar la aplicación este viernes.",
+      "grammarNote": "*Tenemos que* = we have to; first person plural. *Este viernes* = this Friday (with demonstrative *este*)."
+    },
+    {
+      "id": "tienen_que_terminar",
+      "front": "They have to finish the feature by tomorrow.",
+      "back": "Tienen que terminar la función para mañana.",
+      "grammarNote": "*Tienen que* = they have to; third person plural. *Para mañana* = by/for tomorrow — *para* indicates a deadline."
+    },
+    {
+      "id": "hay_que_hacer_deploy",
+      "front": "Someone has to do the deploy. (impersonal)",
+      "back": "Hay que hacer el deploy.",
+      "grammarNote": "*Hay que* does not change — always third person singular impersonal. Compare: *Tenemos que hacer el deploy* (we have to) vs. *Hay que hacer el deploy* (it must be done)."
+    },
+    {
+      "id": "hay_que_revisar",
+      "front": "The code must be reviewed before deploying. (impersonal)",
+      "back": "Hay que revisar el código antes de desplegar.",
+      "grammarNote": "*Antes de + infinitive* = 'before doing something.' *Hay que* sets an impersonal rule that applies to the team."
+    },
+    {
+      "id": "hay_que_configurar",
+      "front": "The server needs to be configured. (impersonal)",
+      "back": "Hay que configurar el servidor.",
+      "grammarNote": "Use *hay que* when the speaker doesn't specify who is responsible, or when issuing a general instruction to the team."
+    },
+    {
+      "id": "no_tiene_que",
+      "front": "Jeffrey does not have to go into the office.",
+      "back": "Jeffrey no tiene que ir a la oficina.",
+      "grammarNote": "*No tiene que* = 'does not have to' (no obligation). Do not confuse with *no debe* (must not / should not)."
+    },
+    {
+      "id": "tener_que_preterite",
+      "front": "Jeffrey had to fix a critical bug yesterday.",
+      "back": "Jeffrey tuvo que arreglar un error crítico ayer.",
+      "grammarNote": "*Tuvo que* = preterite of *tener que*: 'had to.' *Tener* is highly irregular in the preterite: tuve, tuviste, tuvo, tuvimos, tuvieron."
+    },
+    {
+      "id": "hay_que_no_tengo_que_contrast",
+      "front": "What is the difference? 'Hay que estudiar' vs. 'Tengo que estudiar'",
+      "back": "'Hay que estudiar' = One must study / Studying is necessary. (impersonal)\n'Tengo que estudiar' = I have to study. (personal obligation)",
+      "grammarNote": "*Hay que* is impersonal and does not target a specific person. *Tener que* always has a personal subject — it changes with each person."
+    },
+    {
+      "id": "hay_que_context",
+      "front": "In a standup: 'We need to fix the bug before the client sees it.' (impersonal style)",
+      "back": "Hay que arreglar el bug antes de que el cliente lo vea.",
+      "grammarNote": "*Antes de que* + subjunctive: 'before the client sees it' — *vea* is subjunctive of *ver*. *Hay que* sets the team-level obligation."
+    }
+  ]
+}

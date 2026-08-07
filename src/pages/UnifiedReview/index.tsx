@@ -14,6 +14,7 @@ import {
     SRSDeckState,
 } from "../useStorage";
 import { useSpeech } from "../../hooks/useSpeech";
+import { useDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
 import Settings from "../components/Settings";
@@ -74,6 +75,7 @@ function buildSession(
 const UnifiedReview = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
+    const { packs, loading: packsLoading } = useDecks(language);
 
     const [allCards, setAllCards] = useState<CombinedCard[]>([]);
     const [deckStates, setDeckStates] = useState<Map<string, SRSDeckState>>(new Map());
@@ -103,7 +105,7 @@ const UnifiedReview = () => {
     };
 
     useEffect(() => {
-        if (!language) return;
+        if (!language || packsLoading) return;
 
         const raw = localStorage.getItem(PACK_SELECTION_KEY(language));
         const selectedIds: string[] = raw ? (JSON.parse(raw) as string[]) : [];
@@ -112,27 +114,19 @@ const UnifiedReview = () => {
             return;
         }
 
-        Promise.all(
-            selectedIds.map(deckId =>
-                fetch(`/languages/${language}/${deckId}/index.json`)
-                    .then(r => r.json() as Promise<{ id: string; name: string; cards: Card[] }>)
-                    .catch(() => null)
-            )
-        ).then(results => {
-            const decks = results.filter(Boolean) as { id: string; name: string; cards: Card[] }[];
-            const combined: CombinedCard[] = decks.flatMap(d =>
-                d.cards.map(c => ({ ...c, deckId: d.id, deckName: d.name }))
-            );
-            const states = loadMultiDeckState(language, decks.map(d => d.id));
-            setAllCards(combined);
-            setFastModeCards(combined);
-            setDeckStates(states);
-            const s = buildSession(combined, states, false);
-            setSession(s);
-            setTotalCards(s.length);
-            setLoaded(true);
-        });
-    }, [language]);
+        const selectedPacks = packs.filter((p) => selectedIds.includes(p.id));
+        const combined: CombinedCard[] = selectedPacks.flatMap((p) =>
+            p.cards.map((c) => ({ ...c, deckId: p.id, deckName: p.name }))
+        );
+        const states = loadMultiDeckState(language, selectedPacks.map((p) => p.id));
+        setAllCards(combined);
+        setFastModeCards(combined);
+        setDeckStates(states);
+        const s = buildSession(combined, states, false);
+        setSession(s);
+        setTotalCards(s.length);
+        setLoaded(true);
+    }, [language, packs, packsLoading]);
 
     const getCardDeckState = (card: CombinedCard): SRSDeckState =>
         deckStates.get(card.deckId) ?? {};
