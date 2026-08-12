@@ -8,41 +8,40 @@
     "job_interview",
     "learning_french"
   ],
-  "grammarLessons": [
+  "parts": [
     {
-      "id": "verbes_er",
-      "name": "Regular -ER Verbs"
+      "n": 1,
+      "count": 25
     },
     {
-      "id": "pouvoir_vouloir",
-      "name": "Pouvoir & Vouloir — Can & Want"
+      "n": 2,
+      "count": 23
     },
     {
-      "id": "avoir",
-      "name": "Avoir — To Have"
-    },
-    {
-      "id": "etre",
-      "name": "Être — To Be"
-    },
-    {
-      "id": "conditional_voudrais",
-      "name": "Le Conditionnel — Polite Requests & Wishes"
-    },
-    {
-      "id": "relative_pronouns",
-      "name": "Qui et Que — Relative Pronouns"
-    },
-    {
-      "id": "comparaisons",
-      "name": "Comparaisons — plus, moins, aussi...que"
-    },
-    {
-      "id": "voix_passive",
-      "name": "La Voix Passive — Passive Voice"
+      "n": 3
     }
   ],
   "cards": [
+    {
+      "id": "g_profession_no_article",
+      "grammar": true,
+      "english": "I am a doctor. (no article: je suis médecin)",
+      "word": "je suis médecin",
+      "grammarNote": "State a job with **être** and **no article**:\n**je suis médecin** (I'm a doctor), **elle est ingénieure** (she's an engineer). Add an article only with a description: **c'est un bon médecin**.",
+      "englishPhrase": "She is a teacher.",
+      "phrase": "Elle est professeure.",
+      "literal": [["Elle", "she"], ["est", "is"], ["professeure", "teacher"]]
+    },
+    {
+      "id": "g_jaime_infinitive",
+      "grammar": true,
+      "english": "I like reading. (j'aime + infinitive)",
+      "word": "j'aime lire",
+      "grammarNote": "To say you like doing something, use **aimer** + the infinitive:\n**j'aime lire** (I like reading), **j'aime courir** (I like running). No 'to' or '-ing' — just the plain verb.",
+      "englishPhrase": "I like listening to music.",
+      "phrase": "J'aime écouter de la musique.",
+      "literal": [["J'aime", "I-like"], ["écouter", "to-listen"], ["de la", "some"], ["musique", "music"]]
+    },
     {
       "id": "doctor",
       "english": "Doctor",
@@ -124,22 +123,112 @@
       "phrase": "Ma sœur est avocate."
     },
     {
-      "id": "soccer",
-      "english": "soccer / football",
-      "word": "le football",
-      "grammarNote": "**jouer au football** — **jouer à + le = jouer au** (**à + le = au** — mandatory contraction).\n**jouer à** = to play a sport or game: jouer **au** foot · jouer **aux** échecs · jouer **à la** pétanque.\nContrast: **jouer de** = to play an instrument: jouer **du** piano.",
-      "englishPhrase": "I love playing soccer with my friends.",
-      "phrase": "J'adore jouer au football avec mes amis.",
-      "literal": [["J'adore","I-love"],["jouer","play"],["au","at-the"],["football","soccer"],["avec","with"],["mes","my"],["amis","friends"]]
+      "id": "salary",
+      "english": "Salary",
+      "word": "Le salaire",
+      "grammarNote": "**Quel est le salaire ?** — **quel** is the masculine interrogative adjective agreeing with **salaire** (masc.).\n**Le salaire** = salary/wage. Related: **le smic** = minimum wage · **une augmentation de salaire** = a pay rise.",
+      "englishPhrase": "What is the salary?",
+      "phrase": "Quel est le salaire ?"
     },
     {
-      "id": "retired_person",
-      "english": "Retired Person",
-      "word": "Le retraité",
-      "grammarNote": "**à la retraite** = retired (lit. at retirement). This is a fixed expression with **être**: mon père est **à la retraite**.\n**retraité(e)** as a noun: un **retraité** (a retired man) · une **retraitée** (a retired woman).",
-      "englishPhrase": "My father is retired.",
-      "phrase": "Mon père est à la retraite.",
+      "id": "schedule",
+      "english": "Schedule",
+      "word": "L'emploi du temps",
+      "grammarNote": "**l'emploi du temps** — **du** = **de + le** (mandatory contraction): l'emploi **du** temps (lit. the use of time).\n**flexible** is an invariable adjective (same for masc. and fem.): un horaire **flexible** · une organisation **flexible**.",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "Mon emploi du temps est flexible."
+    },
+    {
+      "id": "vacation",
+      "english": "Vacation",
+      "word": "Les vacances (fem. pl.)",
+      "grammarNote": "**en vacances** = on vacation (fixed expression with **en**, no article).\n**les vacances** is always plural in French — there is no singular form in common use.\n**la semaine prochaine** = next week. Time expressions: la semaine **prochaine** · le mois **prochain** · l'année **prochaine**.",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "Je pars en vacances la semaine prochaine."
+    },
+    {
+      "id": "break",
+      "english": "Break",
+      "word": "La pause",
+      "grammarNote": "**Prenons une pause** — **prenons** is the **nous** imperative of **prendre** (irregular).\n**faire une pause** is also very common: faisons **une pause**. **La pause** = break/pause (cognate with English).",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "Prenons une pause.",
       "hidden": true
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "Le bureau",
+      "grammarNote": "**dans un bureau** — **dans** (inside a space). **Le bureau** = office AND desk — context distinguishes: je travaille **au bureau** (at the office) vs. le livre est sur **le bureau** (on the desk).",
+      "englishPhrase": "I work in an office.",
+      "phrase": "Je travaille dans un bureau."
+    },
+    {
+      "id": "colleague",
+      "english": "Colleague",
+      "word": "Le",
+      "grammarNote": "**mes collègues** — **mes** is the plural possessive adjective for all genders.\n**sympas** is the informal/abbreviated form of **sympathiques** (friendly/nice). It is invariable in this informal form: ils sont **sympas** · elles sont **sympas**.",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "Mes collègues sont sympas."
+    },
+    {
+      "id": "customer",
+      "english": "Customer",
+      "word": "Le client",
+      "grammarNote": "**client** (masc.) → **cliente** (fem.).\n**content** (masc.) → **contente** (fem.): le client est **content** · la cliente est **contente**.\n**Le client** = client/customer. **Le consommateur** = consumer (broader term).",
+      "englishPhrase": "The client is happy.",
+      "phrase": "Le client est content."
+    },
+    {
+      "id": "team",
+      "english": "Team",
+      "word": "L'équipe (fem.)",
+      "grammarNote": "**dans une super équipe** — **dans** (inside a group/context).\n**super** is an invariable informal adjective: une **super** équipe · un **super** travail — it never changes form.",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "Je travaille dans une super équipe."
+    },
+    {
+      "id": "project",
+      "english": "Project",
+      "word": "Le projet",
+      "grammarNote": "**presque terminé** — **presque** = almost/nearly (adverb, invariable).\n**terminé** is the past participle of **terminer** used as an adjective: le projet est presque **terminé** (masc.) · la tâche est presque **terminée** (fem.).",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "Le projet est presque terminé.",
+      "hidden": true
+    },
+    {
+      "id": "meeting",
+      "english": "Meeting",
+      "word": "La réunion",
+      "grammarNote": "**à dix heures** — time expressions use **à**: à huit heures · à dix heures · à midi.\n**on a une réunion** — **on** used colloquially for 'we'. **avoir** + noun = to have something: on **a** une réunion.",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "On a une réunion à dix heures."
+    },
+    {
+      "id": "free_time",
+      "english": "Free time",
+      "word": "Le temps libre",
+      "grammarNote": "**pendant ton temps libre** — **pendant** = during. **ton** = your (masc. sing. informal).\n**Qu'est-ce que tu fais** — inversion-free question structure: **qu'est-ce que** + subject + verb. **fais** = second-person singular of **faire** (irregular).",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "Qu'est-ce que tu fais pendant ton temps libre ?"
+    },
+    {
+      "id": "g_travailler_comme",
+      "grammar": true,
+      "english": "I work as a nurse. (travailler comme / dans / chez)",
+      "word": "je travaille comme infirmier",
+      "grammarNote": "**travailler comme** = to work as; **travailler dans** = in (a field/place); **travailler chez** = at (a company):\n**je travaille comme infirmier**, **dans un hôpital**, **chez Google**.",
+      "englishPhrase": "I work in an office.",
+      "phrase": "Je travaille dans un bureau.",
+      "literal": [["Je", "I"], ["travaille", "work"], ["dans", "in"], ["un", "an"], ["bureau", "office"]]
+    },
+    {
+      "id": "to_work_in_for_as",
+      "english": "To work (in)",
+      "word": "Travailler (dans)",
+      "grammarNote": "**travailler dans** = to work in (a specific place): je travaille **dans** un hôpital.\n**travailler comme** = to work as: je travaille **comme** médecin.\n**un hôpital** — masculine noun starting with H aspirate, so no elision or liaison: **un** hôpital, **le** hôpital → actually **l'hôpital** (the H here is mute/aspirate — learners should check each H word).",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "Je travaille dans un hôpital."
     },
     {
       "id": "reading",
@@ -173,14 +262,6 @@
       "englishPhrase": "I like drawing.",
       "phrase": "J'aime dessiner.",
       "hidden": true
-    },
-    {
-      "id": "photography",
-      "english": "Photography",
-      "word": "La photographie",
-      "grammarNote": "**La photographie** (formal) is often shortened to **la photo** in everyday speech: j'aime faire de la **photo**.\n**mon hobby** — borrowed English word, masculine in French. More French alternatives: **mon passe-temps** · **ma passion**.",
-      "englishPhrase": "Photography is my hobby.",
-      "phrase": "La photographie est mon hobby."
     },
     {
       "id": "music",
@@ -225,15 +306,6 @@
       "phrase": "J'aime cuisiner."
     },
     {
-      "id": "gardening",
-      "english": "Gardening",
-      "word": "Le jardinage",
-      "grammarNote": "**Le jardinage** = gardening (the activity/hobby). The verb: **jardiner** (to garden, regular -er).\n**faire du jardinage** is also common: j'aime **faire du jardinage** (**faire + du** because **jardinage** is masculine).",
-      "englishPhrase": "Gardening is relaxing.",
-      "phrase": "Le jardinage est relaxant.",
-      "hidden": true
-    },
-    {
       "id": "hiking",
       "english": "Hiking",
       "word": "La randonnée",
@@ -251,13 +323,22 @@
       "hidden": true
     },
     {
-      "id": "jogging",
-      "english": "Jogging",
-      "word": "Faire du jogging",
-      "grammarNote": "**faire du jogging** — **faire + du** because **jogging** is masculine. This is the **faire de** construction for physical activities.\nAlternative: **faire un jogging** (a single jog/run) · **faire du jogging** (jogging as a regular habit).",
-      "englishPhrase": "He jogs in the park.",
-      "phrase": "Il fait du jogging dans le parc.",
-      "hidden": true
+      "id": "g_faire_de",
+      "grammar": true,
+      "english": "I go swimming. (faire de la natation)",
+      "word": "je fais de la natation",
+      "grammarNote": "Many sports and hobbies use **faire de** + activity:\n**je fais de la natation** (I swim), **je fais du vélo** (I cycle). **faire** is irregular: **je fais, tu fais, il fait, nous faisons, vous faites, ils font**.",
+      "englishPhrase": "I go hiking on the weekend.",
+      "phrase": "Je fais de la randonnée le week-end.",
+      "literal": [["Je", "I"], ["fais", "do"], ["de la", "(some)"], ["randonnée", "hiking"]]
+    },
+    {
+      "id": "swimming",
+      "english": "Swimming",
+      "word": "Nager",
+      "grammarNote": "**nager** has a spelling change to keep the soft G before **-ons**: nous **nageons** (not *nous nagons*).\nAs a sport: **faire de la natation** (to swim as a sport). **Nager** = the act of swimming; **la natation** = swimming as a discipline.",
+      "englishPhrase": "I like swimming.",
+      "phrase": "J'aime nager."
     },
     {
       "id": "biking",
@@ -269,45 +350,12 @@
       "hidden": true
     },
     {
-      "id": "swimming",
-      "english": "Swimming",
-      "word": "Nager",
-      "grammarNote": "**nager** has a spelling change to keep the soft G before **-ons**: nous **nageons** (not *nous nagons*).\nAs a sport: **faire de la natation** (to swim as a sport). **Nager** = the act of swimming; **la natation** = swimming as a discipline.",
-      "englishPhrase": "I like swimming.",
-      "phrase": "J'aime nager."
-    },
-    {
-      "id": "yoga",
-      "english": "Yoga",
-      "word": "Le yoga",
-      "grammarNote": "**faire du yoga** — **faire + du** because **yoga** is masculine (**de + le = du** — mandatory contraction).\n**tous les matins** = every morning: **tous** (masc. pl.) agrees with **matins**.",
-      "englishPhrase": "She does yoga every morning.",
-      "phrase": "Elle fait du yoga tous les matins."
-    },
-    {
-      "id": "exercise",
-      "english": "Exercise",
-      "word": "L'exercice (masc.)",
-      "grammarNote": "**à la salle de sport** — **à + la** (feminine noun, no contraction).\n**faire de l'exercice** — **faire + de l'** because **exercice** starts with a vowel (**de + l' = de l'**, no contraction).",
-      "englishPhrase": "I go to the gym for exercise.",
-      "phrase": "Je vais à la salle de sport pour faire de l'exercice."
-    },
-    {
       "id": "traveling",
       "english": "Traveling",
       "word": "Voyager",
       "grammarNote": "**voyager** has a spelling change before **-ons**: nous **voyageons** (the E preserves the soft G sound).\n**j'adore voyager** — **adorer + infinitive** = to love doing something. Compare: **j'aime voyager** (I like travelling).",
       "englishPhrase": "I love traveling.",
       "phrase": "J'adore voyager."
-    },
-    {
-      "id": "camping",
-      "english": "Camping",
-      "word": "Faire du camping",
-      "grammarNote": "**faire du camping** — **faire + du** because **camping** is masculine (**de + le = du** — mandatory contraction).\n**en été** = in summer (no article — fixed expression). Seasons: **en** automne · **en** hiver · **en** été · **au** printemps (au = à + le).",
-      "englishPhrase": "We go camping in the summer.",
-      "phrase": "On fait du camping en été.",
-      "hidden": true
     },
     {
       "id": "gaming_video_games",
@@ -336,39 +384,44 @@
       "hidden": true
     },
     {
-      "id": "crafts",
-      "english": "Crafts",
-      "word": "Les travaux manuels",
-      "grammarNote": "**font des travaux manuels** — **faire + des** (**de + les = des** — mandatory contraction).\n**faire** is used to express doing an activity: font (third-person plural of **faire**): je fais · tu fais · il fait · nous faisons · vous faites · ils **font**.",
-      "englishPhrase": "The children are making crafts.",
-      "phrase": "Les enfants font des travaux manuels.",
-      "hidden": true
+      "id": "exercise",
+      "english": "Exercise",
+      "word": "L'exercice (masc.)",
+      "grammarNote": "**à la salle de sport** — **à + la** (feminine noun, no contraction).\n**faire de l'exercice** — **faire + de l'** because **exercice** starts with a vowel (**de + l' = de l'**, no contraction).",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "Je vais à la salle de sport pour faire de l'exercice."
     },
     {
-      "id": "chess",
-      "english": "Chess",
-      "word": "Les échecs (masc. pl.)",
-      "grammarNote": "**jouer aux échecs** — **jouer à + les = jouer aux** (**à + les = aux** — mandatory contraction).\n**les échecs** is always plural in French. Also means 'failures': après plusieurs **échecs** (after several failures) — same word, different meaning.",
-      "englishPhrase": "Do you play chess?",
-      "phrase": "Tu joues aux échecs ?",
-      "hidden": true
+      "id": "outdoors",
+      "english": "Outdoors",
+      "word": "En plein air",
+      "grammarNote": "**en plein air** = outdoors / in the open air. **En** is used without an article in this fixed expression.\nCompare: **à l'extérieur** (outside/outdoors, more formal) · **dehors** (outside, as an adverb: il fait froid **dehors**).",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "Elle travaille en plein air."
     },
     {
-      "id": "board_games",
-      "english": "Board games",
-      "word": "Les jeux de société",
-      "grammarNote": "**jouer aux jeux de société** — **jouer à + les = jouer aux** (**à + les = aux** — mandatory contraction).\n**le week-end** = on the weekend (no preposition needed — the definite article **le** expresses habitual time).",
-      "englishPhrase": "We play board games on weekends.",
-      "phrase": "On joue aux jeux de société le week-end.",
-      "hidden": true
+      "id": "creative",
+      "english": "Creative",
+      "word": "Créatif",
+      "grammarNote": "**créatif** (masc.) → **créative** (fem.): elle est très **créative**.\nAdjectives ending in **-if** change to **-ive** in the feminine: créatif/créative · actif/active · sportif/sportive.",
+      "englishPhrase": "She is very creative.",
+      "phrase": "Elle est très créative."
     },
     {
-      "id": "to_work_in_for_as",
-      "english": "To work (in)",
-      "word": "Travailler (dans)",
-      "grammarNote": "**travailler dans** = to work in (a specific place): je travaille **dans** un hôpital.\n**travailler comme** = to work as: je travaille **comme** médecin.\n**un hôpital** — masculine noun starting with H aspirate, so no elision or liaison: **un** hôpital, **le** hôpital → actually **l'hôpital** (the H here is mute/aspirate — learners should check each H word).",
-      "englishPhrase": "I work in a hospital.",
-      "phrase": "Je travaille dans un hôpital."
+      "id": "interesting",
+      "english": "Interesting",
+      "word": "Intéressant",
+      "grammarNote": "**intéressant** (masc.) → **intéressante** (fem.): une réunion **intéressante**.\n**mon travail** — possessive adjective: **mon** (masc. sing.) · **ma** (fem. sing.) · **mes** (plural). Before vowels: **mon** is used even for feminine nouns: **mon** amie.",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "Mon travail est intéressant."
+    },
+    {
+      "id": "boring",
+      "english": "Boring",
+      "word": "Ennuyeux",
+      "grammarNote": "**ennuyeux** (masc.) → **ennuyeuse** (fem.): la réunion était **ennuyeuse**.\nAdjectives ending in **-eux** change to **-euse** in the feminine: ennuyeux/ennuyeuse · heureux/heureuse · sérieux/sérieuse.",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "La réunion était ennuyeuse."
     },
     {
       "id": "to_earn_a_salary",
@@ -546,151 +599,12 @@
       "phrase": "Je me détends le week-end."
     },
     {
-      "id": "to_spend_time_on",
-      "english": "To spend time (on)",
-      "word": "Passer du temps (à)",
-      "grammarNote": "**passer du temps à + infinitive** = to spend time doing: je passe du temps **à** lire.\n**du temps** — **de + le = du** (mandatory contraction). **beaucoup de** (a lot of) takes no article: beaucoup **de** temps (not *beaucoup du temps*).",
-      "englishPhrase": "I spend a lot of time reading.",
-      "phrase": "Je passe beaucoup de temps à lire.",
-      "hidden": true
-    },
-    {
-      "id": "creative",
-      "english": "Creative",
-      "word": "Créatif",
-      "grammarNote": "**créatif** (masc.) → **créative** (fem.): elle est très **créative**.\nAdjectives ending in **-if** change to **-ive** in the feminine: créatif/créative · actif/active · sportif/sportive.",
-      "englishPhrase": "She is very creative.",
-      "phrase": "Elle est très créative."
-    },
-    {
-      "id": "interesting",
-      "english": "Interesting",
-      "word": "Intéressant",
-      "grammarNote": "**intéressant** (masc.) → **intéressante** (fem.): une réunion **intéressante**.\n**mon travail** — possessive adjective: **mon** (masc. sing.) · **ma** (fem. sing.) · **mes** (plural). Before vowels: **mon** is used even for feminine nouns: **mon** amie.",
-      "englishPhrase": "My job is interesting.",
-      "phrase": "Mon travail est intéressant."
-    },
-    {
       "id": "stressful",
       "english": "Stressful",
       "word": "Stressant",
       "grammarNote": "**stressant** (masc.) → **stressante** (fem.): une journée **stressante**.\nLike **intéressant**, this adjective follows the noun in most cases: un travail **stressant** (not *un stressant travail*).",
       "englishPhrase": "My job is stressful.",
       "phrase": "Mon travail est stressant."
-    },
-    {
-      "id": "boring",
-      "english": "Boring",
-      "word": "Ennuyeux",
-      "grammarNote": "**ennuyeux** (masc.) → **ennuyeuse** (fem.): la réunion était **ennuyeuse**.\nAdjectives ending in **-eux** change to **-euse** in the feminine: ennuyeux/ennuyeuse · heureux/heureuse · sérieux/sérieuse.",
-      "englishPhrase": "The meeting was boring.",
-      "phrase": "La réunion était ennuyeuse."
-    },
-    {
-      "id": "salary",
-      "english": "Salary",
-      "word": "Le salaire",
-      "grammarNote": "**Quel est le salaire ?** — **quel** is the masculine interrogative adjective agreeing with **salaire** (masc.).\n**Le salaire** = salary/wage. Related: **le smic** = minimum wage · **une augmentation de salaire** = a pay rise.",
-      "englishPhrase": "What is the salary?",
-      "phrase": "Quel est le salaire ?"
-    },
-    {
-      "id": "schedule",
-      "english": "Schedule",
-      "word": "L'emploi du temps",
-      "grammarNote": "**l'emploi du temps** — **du** = **de + le** (mandatory contraction): l'emploi **du** temps (lit. the use of time).\n**flexible** is an invariable adjective (same for masc. and fem.): un horaire **flexible** · une organisation **flexible**.",
-      "englishPhrase": "My schedule is flexible.",
-      "phrase": "Mon emploi du temps est flexible."
-    },
-    {
-      "id": "vacation",
-      "english": "Vacation",
-      "word": "Les vacances (fem. pl.)",
-      "grammarNote": "**en vacances** = on vacation (fixed expression with **en**, no article).\n**les vacances** is always plural in French — there is no singular form in common use.\n**la semaine prochaine** = next week. Time expressions: la semaine **prochaine** · le mois **prochain** · l'année **prochaine**.",
-      "englishPhrase": "I'm going on vacation next week.",
-      "phrase": "Je pars en vacances la semaine prochaine."
-    },
-    {
-      "id": "break",
-      "english": "Break",
-      "word": "La pause",
-      "grammarNote": "**Prenons une pause** — **prenons** is the **nous** imperative of **prendre** (irregular).\n**faire une pause** is also very common: faisons **une pause**. **La pause** = break/pause (cognate with English).",
-      "englishPhrase": "Let's take a break.",
-      "phrase": "Prenons une pause.",
-      "hidden": true
-    },
-    {
-      "id": "office",
-      "english": "Office",
-      "word": "Le bureau",
-      "grammarNote": "**dans un bureau** — **dans** (inside a space). **Le bureau** = office AND desk — context distinguishes: je travaille **au bureau** (at the office) vs. le livre est sur **le bureau** (on the desk).",
-      "englishPhrase": "I work in an office.",
-      "phrase": "Je travaille dans un bureau."
-    },
-    {
-      "id": "outdoors",
-      "english": "Outdoors",
-      "word": "En plein air",
-      "grammarNote": "**en plein air** = outdoors / in the open air. **En** is used without an article in this fixed expression.\nCompare: **à l'extérieur** (outside/outdoors, more formal) · **dehors** (outside, as an adverb: il fait froid **dehors**).",
-      "englishPhrase": "She works outdoors.",
-      "phrase": "Elle travaille en plein air."
-    },
-    {
-      "id": "interview",
-      "english": "Interview",
-      "word": "L'entretien (d'embauche)",
-      "grammarNote": "**un entretien d'embauche** = a job interview (lit. a hiring interview).\n**avoir un entretien** = to have an interview. **demain** = tomorrow — no preposition needed: j'ai un entretien **demain**.",
-      "englishPhrase": "I have a job interview tomorrow.",
-      "phrase": "J'ai un entretien d'embauche demain."
-    },
-    {
-      "id": "colleague",
-      "english": "Colleague",
-      "word": "Le",
-      "grammarNote": "**mes collègues** — **mes** is the plural possessive adjective for all genders.\n**sympas** is the informal/abbreviated form of **sympathiques** (friendly/nice). It is invariable in this informal form: ils sont **sympas** · elles sont **sympas**.",
-      "englishPhrase": "My coworkers are friendly.",
-      "phrase": "Mes collègues sont sympas."
-    },
-    {
-      "id": "customer",
-      "english": "Customer",
-      "word": "Le client",
-      "grammarNote": "**client** (masc.) → **cliente** (fem.).\n**content** (masc.) → **contente** (fem.): le client est **content** · la cliente est **contente**.\n**Le client** = client/customer. **Le consommateur** = consumer (broader term).",
-      "englishPhrase": "The client is happy.",
-      "phrase": "Le client est content."
-    },
-    {
-      "id": "team",
-      "english": "Team",
-      "word": "L'équipe (fem.)",
-      "grammarNote": "**dans une super équipe** — **dans** (inside a group/context).\n**super** is an invariable informal adjective: une **super** équipe · un **super** travail — it never changes form.",
-      "englishPhrase": "I work in a great team.",
-      "phrase": "Je travaille dans une super équipe."
-    },
-    {
-      "id": "project",
-      "english": "Project",
-      "word": "Le projet",
-      "grammarNote": "**presque terminé** — **presque** = almost/nearly (adverb, invariable).\n**terminé** is the past participle of **terminer** used as an adjective: le projet est presque **terminé** (masc.) · la tâche est presque **terminée** (fem.).",
-      "englishPhrase": "The project is almost finished.",
-      "phrase": "Le projet est presque terminé.",
-      "hidden": true
-    },
-    {
-      "id": "meeting",
-      "english": "Meeting",
-      "word": "La réunion",
-      "grammarNote": "**à dix heures** — time expressions use **à**: à huit heures · à dix heures · à midi.\n**on a une réunion** — **on** used colloquially for 'we'. **avoir** + noun = to have something: on **a** une réunion.",
-      "englishPhrase": "We have a meeting at ten.",
-      "phrase": "On a une réunion à dix heures."
-    },
-    {
-      "id": "free_time",
-      "english": "Free time",
-      "word": "Le temps libre",
-      "grammarNote": "**pendant ton temps libre** — **pendant** = during. **ton** = your (masc. sing. informal).\n**Qu'est-ce que tu fais** — inversion-free question structure: **qu'est-ce que** + subject + verb. **fais** = second-person singular of **faire** (irregular).",
-      "englishPhrase": "What do you do in your free time?",
-      "phrase": "Qu'est-ce que tu fais pendant ton temps libre ?"
     }
   ]
 }

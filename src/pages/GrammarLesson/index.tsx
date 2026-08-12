@@ -14,13 +14,20 @@ const GrammarLesson = () => {
     const [html, setHtml] = useState<string | null>(null);
     const [error, setError] = useState(false);
 
+    // Reached either from a section (deckId = section) or a canonical grammar
+    // pill (deckId = "grammar_<concept>"); the latter has no per-section JSON.
+    const fromGrammarPill = deckId?.startsWith("grammar_") ?? false;
+    const backPath = fromGrammarPill ? `/${language}/` : `/${language}/${deckId}/grammar`;
+
     useEffect(() => {
         if (!language || !deckId || !grammarId) return;
 
-        fetch(`/languages/${language}/${deckId}/grammar/${grammarId}.json`)
-            .then(r => r.json())
-            .then(data => setLessonName(data.name ?? grammarId))
-            .catch(() => {});
+        if (!fromGrammarPill) {
+            fetch(`/languages/${language}/${deckId}/grammar/${grammarId}.json`)
+                .then(r => r.json())
+                .then(data => setLessonName(data.name ?? grammarId))
+                .catch(() => {});
+        }
 
         fetch(`/languages/${language}/grammar/${grammarId}.html`)
             .then(r => {
@@ -33,7 +40,7 @@ const GrammarLesson = () => {
 
     return (
         <div className="srs-container">
-            <button className="srs-page-back" onClick={() => navigate(`/${language}/${deckId}/grammar`)}>← Back</button>
+            <button className="srs-page-back" onClick={() => navigate(backPath)}>← Back</button>
 
             {lessonName && (
                 <div className="srs-home-header">

@@ -11,7 +11,6 @@ import "../srs.css";
 const packSelectionKey = (language: string) => `pack_selection_${language}`;
 
 const prefetchUnifiedReview = () => { void import('../UnifiedReview'); };
-const prefetchBrowse = () => { void import('../Browse'); };
 const prefetchStories = () => { void import('../StoryList'); };
 const prefetchPictures = () => { void import('../PictureList'); };
 const prefetchGrammar = () => { void import('../AllGrammarList'); };
@@ -21,13 +20,37 @@ function visibleCount(pack: Pack, deckState: ReturnType<typeof loadDeckState>): 
     return pack.cards.filter((c) => !isCardHidden(c, deckState)).length;
 }
 
+/** A topic groups a section's split parts (or a single unsplit pack) into one home pill. */
+interface TopicGroup {
+    key: string;
+    name: string;
+    parts: Pack[];
+}
+
+// Group packs by parent section, preserving first-seen order; sort parts within a topic.
+function groupByTopic(packs: Pack[]): TopicGroup[] {
+    const groups = new Map<string, TopicGroup>();
+    for (const p of packs) {
+        const key = p.parent ?? p.id;
+        let g = groups.get(key);
+        if (!g) {
+            g = { key, name: p.parentName ?? p.name, parts: [] };
+            groups.set(key, g);
+        }
+        g.parts.push(p);
+    }
+    for (const g of groups.values()) g.parts.sort((a, b) => (a.part ?? 1) - (b.part ?? 1));
+    return [...groups.values()];
+}
+
 const Home = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
     const { packs, loading } = useDecks(language);
 
     const [studyPacks, setStudyPacks] = useState<Set<string>>(new Set());
-    const [drawerPack, setDrawerPack] = useState<Pack | null>(null);
+    const [drawerParts, setDrawerParts] = useState<Pack[] | null>(null);
+    const [grammarOpen, setGrammarOpen] = useState(false);
     const [showPrint, setShowPrint] = useState(false);
     const [printSelectedDecks, setPrintSelectedDecks] = useState<Set<string>>(new Set());
     const [printMode, setPrintMode] = useState<'words' | 'phrases'>('words');
@@ -51,7 +74,12 @@ const Home = () => {
                 }
             } catch { /* fall through */ }
         }
-        setStudyPacks(new Set(cardPacks.map((p) => p.id)));
+        // Grammar packs are opt-in; split topics start with Part 1 only (the starter).
+        setStudyPacks(new Set(
+            cardPacks
+                .filter((p) => p.kind !== "grammar" && (p.part ?? 1) === 1)
+                .map((p) => p.id)
+        ));
         setPrintSelectedDecks(new Set(cardPacks.map((p) => p.id)));
     }, [language, packs]);
 
@@ -61,6 +89,20 @@ const Home = () => {
             const next = new Set(prev);
             if (next.has(packId)) next.delete(packId);
             else next.add(packId);
+            localStorage.setItem(packSelectionKey(language), JSON.stringify([...next]));
+            return next;
+        });
+    };
+
+    // Pill tap = include/exclude the whole topic. Turning on adds just Part 1 (the starter);
+    // finer part control lives in the drawer.
+    const toggleTopic = (group: TopicGroup) => {
+        if (!language) return;
+        setStudyPacks((prev) => {
+            const next = new Set(prev);
+            const anyOn = group.parts.some((p) => next.has(p.id));
+            if (anyOn) group.parts.forEach((p) => next.delete(p.id));
+            else next.add(group.parts[0].id);
             localStorage.setItem(packSelectionKey(language), JSON.stringify([...next]));
             return next;
         });
@@ -96,6 +138,12 @@ const Home = () => {
 
     // Only packs with cards appear as pills (cross_section has 0 cards)
     const pillPacks = packs.filter((p) => p.cards.length > 0);
+    const vocabPacks = pillPacks.filter((p) => p.kind !== "grammar");
+    const grammarPacks = pillPacks.filter((p) => p.kind === "grammar");
+    const grammarSelected = grammarPacks.filter((p) => studyPacks.has(p.id)).length;
+
+    const vocabTopics = groupByTopic(vocabPacks);
+    const grammarTopics = groupByTopic(grammarPacks);
 
     const deckEntries = pillPacks.map((pack) => {
         const state = loadDeckState(language!, pack.id);
@@ -138,6 +186,47 @@ const Home = () => {
             return visible.some((c) => printMode === 'words' ? !!c.romanized : !!c.phraseRomanized);
         });
 
+    const renderTopic = (group: TopicGroup) => {
+        const isGrammar = group.parts[0].kind === "grammar";
+        const multi = group.parts.length > 1;
+        let included = 0;
+        let total = 0;
+        for (const p of group.parts) {
+            const v = visibleCount(p, loadDeckState(language!, p.id));
+            total += v;
+            if (studyPacks.has(p.id)) included += v;
+        }
+        const active = group.parts.some((p) => studyPacks.has(p.id));
+        return (
+            <div
+                key={group.key}
+                className={`srs-pill${isGrammar ? ' grammar' : ''}${active ? ' active' : ' inactive'}`}
+            >
+                <span
+                    className="srs-pill-body"
+                    onClick={() => toggleTopic(group)}
+                    role="checkbox"
+                    aria-checked={active}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === ' ' && toggleTopic(group)}
+                >
+                    {group.name}
+                    <span className="srs-pill-count">
+                        {included}
+                        {multi && <span className="srs-pill-count-total">/{total}</span>}
+                    </span>
+                </span>
+                <button
+                    className="srs-pill-info"
+                    onClick={() => setDrawerParts(group.parts)}
+                    aria-label={`Details for ${group.name}`}
+                >
+                    ›
+                </button>
+            </div>
+        );
+    };
+
     return (
         <>
             <div className="srs-container">
@@ -152,37 +241,31 @@ const Home = () => {
                 </div>
 
                 <div className="srs-pill-grid">
-                    {pillPacks.map((pack) => {
-                        const state = loadDeckState(language!, pack.id);
-                        const count = visibleCount(pack, state);
-                        const active = studyPacks.has(pack.id);
-                        return (
-                            <div
-                                key={pack.id}
-                                className={`srs-pill${active ? ' active' : ' inactive'}`}
-                            >
-                                <span
-                                    className="srs-pill-body"
-                                    onClick={() => toggleStudyPack(pack.id)}
-                                    role="checkbox"
-                                    aria-checked={active}
-                                    tabIndex={0}
-                                    onKeyDown={(e) => e.key === ' ' && toggleStudyPack(pack.id)}
-                                >
-                                    {pack.name}
-                                    <span className="srs-pill-count">{count}</span>
-                                </span>
-                                <button
-                                    className="srs-pill-info"
-                                    onClick={() => setDrawerPack(pack)}
-                                    aria-label={`Details for ${pack.name}`}
-                                >
-                                    ›
-                                </button>
-                            </div>
-                        );
-                    })}
+                    {vocabTopics.map(renderTopic)}
                 </div>
+
+                {grammarPacks.length > 0 && (
+                    <>
+                        <button
+                            className="srs-pill-section-toggle"
+                            onClick={() => setGrammarOpen((o) => !o)}
+                            aria-expanded={grammarOpen}
+                        >
+                            <span className={`srs-section-chevron${grammarOpen ? ' open' : ''}`}>›</span>
+                            Grammar
+                            <span className="srs-section-meta">
+                                {grammarSelected > 0
+                                    ? `${grammarSelected} of ${grammarPacks.length} selected`
+                                    : `${grammarPacks.length}`}
+                            </span>
+                        </button>
+                        {grammarOpen && (
+                            <div className="srs-pill-grid">
+                                {grammarTopics.map(renderTopic)}
+                            </div>
+                        )}
+                    </>
+                )}
 
                 <div className="srs-util-row">
                     {hasStories && (
@@ -265,13 +348,13 @@ const Home = () => {
                 </button>
             </div>
 
-            {drawerPack && (
+            {drawerParts && (
                 <PackDrawer
-                    pack={drawerPack}
+                    parts={drawerParts}
                     language={language!}
-                    included={studyPacks.has(drawerPack.id)}
-                    onToggle={() => toggleStudyPack(drawerPack.id)}
-                    onClose={() => setDrawerPack(null)}
+                    studyPackIds={studyPacks}
+                    onTogglePart={toggleStudyPack}
+                    onClose={() => setDrawerParts(null)}
                     navigate={navigate}
                 />
             )}

@@ -779,6 +779,11 @@ button.srs-count:hover {
     opacity: 0.8;
 }
 
+.srs-pill-count-total {
+    opacity: 0.5;
+    margin-left: 1px;
+}
+
 .srs-pill-info {
     padding: 5px 10px 5px 6px;
     background: none;
@@ -803,6 +808,59 @@ button.srs-count:hover {
 
 .srs-pill.active .srs-pill-info:hover {
     background: rgba(0, 0, 0, 0.1);
+}
+
+/* Grammar pills — distinct violet accent from the vocab (blue) pills */
+.srs-pill.grammar {
+    border-color: rgba(142, 68, 173, 0.4);
+}
+
+.srs-pill.grammar.active {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+    color: #fff;
+}
+
+.srs-pill-section-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 2px 0 8px;
+    padding: 4px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.65;
+    color: var(--text-color, #111);
+    transition: opacity 0.15s;
+}
+
+.srs-pill-section-toggle:hover {
+    opacity: 1;
+}
+
+.srs-section-chevron {
+    display: inline-block;
+    font-size: 0.95rem;
+    line-height: 1;
+    transition: transform 0.15s;
+}
+
+.srs-section-chevron.open {
+    transform: rotate(90deg);
+}
+
+.srs-section-meta {
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    opacity: 0.7;
 }
 
 /* ── Utility row (Stories / Grammar / Pictures / Print) ── */
@@ -918,6 +976,62 @@ button.srs-count:hover {
     border-radius: 10px;
     font-size: 0.92rem;
     font-weight: 600;
+}
+
+.srs-drawer-parts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.srs-drawer-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: rgba(128, 128, 128, 0.07);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.srs-drawer-part.included {
+    border-color: rgba(94, 129, 244, 0.5);
+    background: rgba(94, 129, 244, 0.08);
+}
+
+.srs-drawer-part-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.srs-drawer-part-label {
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.srs-drawer-part-sub {
+    margin-left: 8px;
+    font-size: 0.78rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.srs-drawer-part-browse {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: inherit;
+    opacity: 0.6;
+    padding: 4px 6px;
+}
+
+.srs-drawer-part-browse:hover {
+    opacity: 1;
 }
 
 .srs-drawer-actions {

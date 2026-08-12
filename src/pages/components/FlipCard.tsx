@@ -13,6 +13,7 @@ interface FlipCardProps {
     englishPhrase?: string;
     literal?: LiteralData;
     grammarNote?: string;
+    grammar?: boolean;
     isFlipped: boolean;
     onFlip: () => void;
     noteOpen: boolean;
@@ -25,7 +26,7 @@ interface FlipCardProps {
 }
 
 const FlipCard = ({
-    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote,
+    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote, grammar,
     isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra, cardCorner, onPlay, onHide,
 }: FlipCardProps) => {
     const { displayMode, showLiteral, showRomanized } = useLanguageApp();
@@ -35,11 +36,12 @@ const FlipCard = ({
     return (
         <div className="srs-card-wrap">
             <div
-                className={`srs-card ${isFlipped ? "flipped" : ""}`}
+                className={`srs-card ${isFlipped ? "flipped" : ""} ${grammar ? "grammar" : ""}`}
                 onClick={!isFlipped ? onFlip : undefined}
             >
                 <div className="srs-card-front">
                     {cardCorner}
+                    {grammar && <div className="srs-card-grammar-tag">Grammar</div>}
                     {onHide && (
                         <div className="srs-card-actions">
                             <button className="srs-card-action-btn hide-btn" onClick={e => { e.stopPropagation(); onHide(); }} title="Hide card">✕</button>
@@ -66,6 +68,7 @@ const FlipCard = ({
                 </div>
                 <div className="srs-card-back">
                     {cardCorner}
+                    {grammar && <div className="srs-card-grammar-tag">Grammar</div>}
                     {(onPlay || onHide) && (
                         <div className="srs-card-actions">
                             {onPlay && <button className="srs-card-action-btn" onClick={e => { e.stopPropagation(); onPlay(); }} title="Play audio">▶</button>}

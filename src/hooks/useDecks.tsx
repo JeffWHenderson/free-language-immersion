@@ -8,6 +8,8 @@ export interface GrammarLessonMeta {
 export interface DeckCard {
     id: string;
     hidden?: boolean;
+    /** Pattern/grammar card embedded in a vocab pack (styled differently, not a new word). */
+    grammar?: boolean;
     english: string;
     word: string;
     romanized?: string;
@@ -23,6 +25,16 @@ export interface Pack {
     id: string;
     name: string;
     language?: string;
+    /** Set on split vocab packs: the section id shared by all its parts (the Part 1 id). */
+    parent?: string;
+    /** Display name of the parent topic, shown on the grouped home pill. */
+    parentName?: string;
+    /** 1-based part number within the parent topic (Part 1 keeps the section id). */
+    part?: number;
+    /** "grammar" packs are canonical grammar concepts surfaced as their own pills. */
+    kind?: "grammar";
+    /** Grammar concept id whose HTML explanation is available as optional reading. */
+    reading?: string;
     stories?: string[];
     pictureLessons?: string[];
     grammarLessons?: GrammarLessonMeta[];

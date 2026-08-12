@@ -7,38 +7,42 @@
     "weekend_hobbies",
     "job_interview"
   ],
-  "pictureLessons": [],
-  "grammarLessons": [
+  "parts": [
     {
-      "id": "present_tense",
-      "name": "المضارع — Present Tense Verbs"
+      "n": 1,
+      "count": 25
     },
     {
-      "id": "la_negation",
-      "name": "لا & ما — Negation"
+      "n": 2,
+      "count": 23
     },
     {
-      "id": "gender",
-      "name": "المذكر والمؤنث — Masculine & Feminine"
-    },
-    {
-      "id": "jiddan",
-      "name": "جداً — Intensifiers"
-    },
-    {
-      "id": "mustaqbal_sa",
-      "name": "المستقبل — Future Tense with سـ / سوف"
-    },
-    {
-      "id": "alladhi_relative",
-      "name": "الَّذِي / الَّتِي — Relative Pronouns"
-    },
-    {
-      "id": "muqarana",
-      "name": "المقارنة — Comparisons"
+      "n": 3
     }
   ],
   "cards": [
+    {
+      "id": "g_job_nominal",
+      "grammar": true,
+      "english": "I am a doctor. (أنا طبيب — no 'am')",
+      "word": "أنا طبيب",
+      "romanized": "ana tabib",
+      "grammarNote": "State a job as a nominal sentence, with gender agreement:\n**أنا طبيب** (male) / **أنا طبيبة** (female), **هو مهندس** (he's an engineer). The feminine adds **ة**: **مهندسة**.",
+      "englishPhrase": "She is a teacher.",
+      "phrase": "هي معلمة.",
+      "phraseRomanized": "Hiya mu'allima."
+    },
+    {
+      "id": "g_present_prefix",
+      "grammar": true,
+      "english": "I work / he works (أعمل / يعمل)",
+      "word": "أعمل / يعمل",
+      "romanized": "a'mal / ya'mal",
+      "grammarNote": "Present-tense verbs change with a **prefix**: **أ** (I), **ت** (you/she), **ي** (he), **ن** (we):\n**أعمل** (I work), **تعمل** (you work), **يعمل** (he works), **نعمل** (we work). The stem **-عمل-** stays the same.",
+      "englishPhrase": "I study every day.",
+      "phrase": "أدرس كل يوم.",
+      "phraseRomanized": "Adrus kull yawm."
+    },
     {
       "id": "doctor",
       "english": "Doctor",
@@ -140,25 +144,137 @@
       "phraseRomanized": "ukhti muhamiya."
     },
     {
-      "id": "soccer",
-      "english": "soccer (football)",
-      "word": "كرة القدم",
-      "romanized": "kurat al-qadam",
-      "grammarNote": "**كُرَة القَدَم** (kurat al-qadam) = ball of the foot — an **إضافة** (iḍāfa) possessive chain. **كُرة** (kura, ball) + **القَدَم** (al-qadam, the foot). Root **ق-د-م** (q-d-m) also means 'front/ahead': **قَدِيم** (qadīm, old/ancient), **مُقَدِّمة** (muqaddima, introduction).\n**شَعبِيَّة** (shaʿbiyya, popular) from root **ش-ع-ب** (sh-ʿ-b, people/folk).",
-      "englishPhrase": "Soccer is popular all over the world.",
-      "phrase": "كرة القدم شعبية في جميع أنحاء العالم.",
-      "phraseRomanized": "kurat al-qadam shaʿbīya fī jamīʿ anḥāʾ al-ʿālam."
+      "id": "salary",
+      "english": "Salary",
+      "word": "راتب",
+      "romanized": "ratib",
+      "grammarNote": "**رَاتِب** (rātib, salary) from root **ر-ت-ب** (r-t-b, to arrange/set in order). Literally 'something arranged/fixed regularly.' **رَتَّبَ** (rattaba, to arrange), **تَرتِيب** (tartīb, arrangement/order).\nPhrasing: **ما هو الرَّاتِب؟** = What is the salary? Arabic question with **ما** (mā, what) + **هو** (huwa, it is) + definite noun.",
+      "englishPhrase": "What is the salary?",
+      "phrase": "ما هو الراتب؟",
+      "phraseRomanized": "ma huwa ar-ratib?"
     },
     {
-      "id": "retired_person",
-      "english": "Retired Person",
-      "word": "متقاعد",
-      "romanized": "mutaqa'id",
-      "grammarNote": "**مُتَقَاعِد** (mutaqāʿid, retired) — Form VI active participle from root **ق-ع-د** (q-ʿ-d, to sit/stay behind). Form VI (**تَفَاعَلَ**) here implies withdrawal: **قَعَدَ** (qaʿada, to sit/remain) → **تَقَاعَدَ** (taqāʿada, to retire). **التَّقَاعُد** (at-taqāʿud) = retirement — verbal noun.\nFeminine: **مُتَقَاعِدة** (mutaqāʿida). Used as both noun and adjective: **هو متقاعد** = he is retired.",
-      "englishPhrase": "My father is retired.",
-      "phrase": "أبي متقاعد.",
-      "phraseRomanized": "abi mutaqa'id.",
+      "id": "schedule",
+      "english": "Schedule",
+      "word": "جدول",
+      "romanized": "jadwal",
+      "grammarNote": "**جَدوَل** (jadwal, schedule/table/river channel) — an interesting word with multiple meanings: originally 'a small stream,' then extended to 'a column/table/schedule.' Borrowed from Persian. Plural: **جَدَاوِل** (jadāwil — broken plural, pattern **فَعَاوِل**).\n**مَرِن** (marin, flexible) from root **م-ر-ن** (m-r-n, to be supple/train).",
+      "englishPhrase": "My schedule is flexible.",
+      "phrase": "جدولي مرن.",
+      "phraseRomanized": "jadwali marin."
+    },
+    {
+      "id": "vacation",
+      "english": "Vacation",
+      "word": "إجازة",
+      "romanized": "ijaza",
+      "grammarNote": "**إِجَازة** (ijāza, vacation/permission/leave) — Form IV verbal noun from root **ج-و-ز** (j-w-z, to pass/allow). Originally means 'permission/authorization.' In Modern Arabic it covers both official leave and holiday travel.\n**الأُسبُوع القَادِم** (al-usbūʿ al-qādim) = next week. **القَادِم** (qādim, coming/next) — **فَاعِل** of **ق-د-م** (q-d-m, to come/arrive).",
+      "englishPhrase": "I'm going on vacation next week.",
+      "phrase": "سأذهب في إجازة الأسبوع القادم.",
+      "phraseRomanized": "sa-adhhab fi ijaza al-usbu' al-qadim."
+    },
+    {
+      "id": "break",
+      "english": "Break",
+      "word": "استراحة",
+      "romanized": "istiraha",
+      "grammarNote": "**اِسترَاحة** (istirāḥa, rest/break) — Form X verbal noun from root **ر-و-ح** (r-w-ḥ, to breathe/rest). Form X (**اِستَفعَلَ**) = to seek rest: **رَاحَ** (rāḥa, to rest/leave) → **اِسترَاحَ** (istirāḥa, to take a rest). Related: **رَاحة** (rāḥa, comfort), **رُوح** (rūḥ, soul/spirit — literally 'breath').\n**لِنَأخُذ** (li-naʾkhudh) = let's take — cohortative **لِـ** + first-person plural.",
+      "englishPhrase": "Let's take a break.",
+      "phrase": "لنأخذ استراحة.",
+      "phraseRomanized": "lna'khudh istiraha.",
       "hidden": true
+    },
+    {
+      "id": "office",
+      "english": "Office",
+      "word": "مكتب",
+      "romanized": "maktab",
+      "grammarNote": "**مَكتَب** (maktab, office/desk) — **مَفعَل** place-noun from root **ك-ت-ب** (k-t-b, to write). Literally 'the place of writing.' Same root: **كِتَاب** (book), **كِتَابة** (writing), **كَاتِب** (writer), **مَكتُوب** (letter/written thing).\nThis root family beautifully shows how Arabic patterns relate: مَفعَل = place where the verb action happens.",
+      "englishPhrase": "I work in an office.",
+      "phrase": "أعمل في مكتب.",
+      "phraseRomanized": "a'mal fi maktab."
+    },
+    {
+      "id": "colleague",
+      "english": "Colleague",
+      "word": "زميل",
+      "romanized": "zamil",
+      "grammarNote": "**زَمِيل** (zamīl, colleague/fellow) from root **ز-م-ل** (z-m-l, to accompany/wrap). **فَعِيل** adjective pattern often means 'sharing a quality.' **زُمَلاء** (zumalāʾ) is the broken plural — pattern **فُعَلاء**, typical for **فَعِيل** adjectives: **صَدِيق → أَصدِقاء**, **زَمِيل → زُمَلاء**.\n**وَدُودون** (wadūdūn, friendly) — **فَعُول** intensive pattern from root **و-د-د** (w-d-d, to love).",
+      "englishPhrase": "My coworkers are friendly.",
+      "phrase": "زملائي ودودون.",
+      "phraseRomanized": "zumala'i wadudun."
+    },
+    {
+      "id": "customer",
+      "english": "Customer",
+      "word": "عميل",
+      "romanized": "'amil",
+      "grammarNote": "**عَمِيل** (ʿamīl, customer/agent/client) from root **ع-م-ل** (ʿ-m-l, work/do). The **فَعِيل** pattern can mean 'one who does' or 'one done to.' Here it denotes someone who works with you (a client). Plural: **عُمَلاء** (ʿumalāʾ — broken plural **فُعَلاء**).\nDo not confuse with **عَامِل** (ʿāmil, worker) which uses the **فَاعِل** pattern.",
+      "englishPhrase": "The client is happy.",
+      "phrase": "العميل سعيد.",
+      "phraseRomanized": "al-'amil sa'id."
+    },
+    {
+      "id": "team",
+      "english": "Team",
+      "word": "فريق",
+      "romanized": "fariq",
+      "grammarNote": "**فَرِيق** (farīq, team/group) from root **ف-ر-ق** (f-r-q, to separate/distinguish). Literally 'a separated/distinct group.' **فَرَّقَ** (farraqa, to divide), **فَارَقَ** (fāraqa, to part from), **فُرقَة** (furqa, separation/troupe), **فَرِيق** also means a military brigade.\nPlural: **فِرَق** (firaq — broken plural, pattern **فِعَل**).",
+      "englishPhrase": "I work in a great team.",
+      "phrase": "أعمل في فريق رائع.",
+      "phraseRomanized": "a'mal fi fariq ra'i'."
+    },
+    {
+      "id": "project",
+      "english": "Project",
+      "word": "مشروع",
+      "romanized": "mashrua'",
+      "grammarNote": "**مَشرُوع** (mashrūʿ, project/enterprise/lawful) — passive participle **مَفعُول** from root **ش-ر-ع** (sh-r-ʿ, to begin/legislate). Literally 'something undertaken/begun.' Also means 'lawful/permissible' in religious law: **غَير مَشرُوع** = unlawful. Plural: **مَشَارِيع** (mashārīʿ — broken plural **مَفَاعِيل**).\n**شِبه مُنتَهٍ** = almost finished — **شِبه** (shabah, semi-/almost) + indefinite active participle.",
+      "englishPhrase": "The project is almost finished.",
+      "phrase": "المشروع شبه منتهٍ.",
+      "phraseRomanized": "al-mashrua' shibh muntahin.",
+      "hidden": true
+    },
+    {
+      "id": "meeting",
+      "english": "Meeting",
+      "word": "اجتماع",
+      "romanized": "ijtima'",
+      "grammarNote": "**اِجتِمَاع** (ijtimāʿ, meeting/gathering) — Form VIII verbal noun from root **ج-م-ع** (j-m-ʿ, to gather/collect). Form VIII (**اِفتَعَلَ**) often has a reflexive sense: **جَمَعَ** (jamaʿa, to gather/bring together) → **اِجتَمَعَ** (ijtamaʿa, to gather together/meet). **مُجتَمَع** (mujtamaʿ, society) is from the same root and form.",
+      "englishPhrase": "We have a meeting at ten.",
+      "phrase": "لدينا اجتماع في العاشرة.",
+      "phraseRomanized": "ladayna ijtima' fi al-ashira."
+    },
+    {
+      "id": "free_time",
+      "english": "Free time",
+      "word": "وقت فراغ",
+      "romanized": "waqt faragh",
+      "grammarNote": "**وَقت فَرَاغ** (waqt farāgh, free time) = time of emptiness/vacancy. **فَرَاغ** (farāgh, emptiness/free space) from root **ف-ر-غ** (f-r-gh, to empty). **وَقت** (waqt, time) + **فَرَاغ** = an **إضافة** (iḍāfa) possessive chain without the definite article on the first noun.\n**مَاذَا تَفعَل؟** (mādhā tafʿal?) = What do you do? **مَاذَا** = what (used before a verb), while **مَا** is used before a noun.",
+      "englishPhrase": "What do you do in your free time?",
+      "phrase": "ماذا تفعل في وقت فراغك؟",
+      "phraseRomanized": "madha taf'al fi waqt faraghak?"
+    },
+    {
+      "id": "g_amal_fi",
+      "grammar": true,
+      "english": "I work in a hospital. (أعمل في / كـ)",
+      "word": "أعمل في مستشفى",
+      "romanized": "a'mal fi mustashfa",
+      "grammarNote": "**أعمل في** = I work in/at (a place); **أعمل كـ** = I work as (a role):\n**أعمل في مستشفى** (I work in a hospital), **أعمل كطبيب** (I work as a doctor — **كـ** attaches to the word).",
+      "englishPhrase": "I work in an office.",
+      "phrase": "أعمل في مكتب.",
+      "phraseRomanized": "A'mal fi maktab."
+    },
+    {
+      "id": "to_work_in_for_as",
+      "english": "To work (in)",
+      "word": "يعمل (في)",
+      "romanized": "ya'mal (fi)",
+      "grammarNote": "**يَعمَل** (yaʿmal, he works) from root **ع-م-ل** (ʿ-m-l, work/do) — one of the most productive roots in Arabic: **عَمَل** (ʿamal, work), **عَامِل** (ʿāmil, worker — **فَاعِل**), **مَعمَل** (maʿmal, laboratory/workshop — **مَفعَل** place pattern), **عَمَلِيَّة** (ʿamaliyya, operation/process).\n**مُستَشفَى** (mustashfā, hospital) from root **ش-ف-ي** (sh-f-y, to heal): **شِفَاء** (shifāʾ, cure), **Form X** = place where healing is sought.",
+      "englishPhrase": "I work in a hospital.",
+      "phrase": "أعمل في مستشفى.",
+      "phraseRomanized": "a'mal fi mustashfa."
     },
     {
       "id": "reading",
@@ -200,16 +316,6 @@
       "phrase": "أحب الرسم.",
       "phraseRomanized": "uhibb ar-rasm.",
       "hidden": true
-    },
-    {
-      "id": "photography",
-      "english": "Photography",
-      "word": "التصوير",
-      "romanized": "at-taswir",
-      "grammarNote": "**التَّصوِير** (at-taṣwīr, photography/imaging) from root **ص-و-ر** (ṣ-w-r, to picture/portray). **تَفعِيل** verbal noun pattern = a Form II action. **صُورة** (ṣūra, photo/image, pl. **صُوَر** — broken plural), **مُصَوِّر** (muṣawwir, photographer — active participle Form II).\n**هِوَايَة** (hiwāya, hobby) is of uncertain origin; the possessive suffix **ي** (-ī) = my.",
-      "englishPhrase": "Photography is my hobby.",
-      "phrase": "التصوير هوايتي.",
-      "phraseRomanized": "at-taswir hiwayati."
     },
     {
       "id": "music",
@@ -264,17 +370,6 @@
       "phraseRomanized": "astamti' bit-tabkh."
     },
     {
-      "id": "gardening",
-      "english": "Gardening",
-      "word": "البستنة",
-      "romanized": "al-bustana",
-      "grammarNote": "**البُستَنة** (al-bustana, gardening) from **بُستَان** (bustān, garden/orchard) — a Persian loanword (*bustān* = place of fragrance). The ending **ـة** (ta marbuta) converts the noun to a verbal activity noun.\n**مُرِيحة** (murīḥa, relaxing, feminine) — Form IV active participle of root **ر-و-ح** (r-w-ḥ, to rest/comfort). It agrees with **البُستَنة** (feminine).",
-      "englishPhrase": "Gardening is relaxing.",
-      "phrase": "البستنة مريحة.",
-      "phraseRomanized": "al-bustana muriha.",
-      "hidden": true
-    },
-    {
       "id": "hiking",
       "english": "Hiking",
       "word": "المشي لمسافات طويلة",
@@ -296,15 +391,25 @@
       "hidden": true
     },
     {
-      "id": "jogging",
-      "english": "Jogging",
-      "word": "الهرولة",
-      "romanized": "al-harwala",
-      "grammarNote": "**الهَروَلة** (al-harwala, jogging/trotting) from root **ه-ر-و-ل** (h-r-w-l) — a quadriliteral root. **هَروَلَ** (harwala, to jog/trot) is the Form I of this four-letter root. Quadriliteral verbs have their own pattern: **فَعلَلَ** (faʿlala). **يُهَروِل** (yuharwil) = he jogs.\nDistinct from **الجَري** (running at full speed) — هرولة implies a moderate pace.",
-      "englishPhrase": "He jogs in the park.",
-      "phrase": "هو يهرول في الحديقة.",
-      "phraseRomanized": "huwa yharwil fi al-hadiqa.",
-      "hidden": true
+      "id": "g_uhibb_verbalnoun",
+      "grammar": true,
+      "english": "I like swimming. (أحب + verbal noun)",
+      "word": "أحب السباحة",
+      "romanized": "uhibb as-sibaha",
+      "grammarNote": "For hobbies, use **أحب** + the **verbal noun** (the 'act of…'), usually with **الـ**:\n**أحب السباحة** (I like swimming), **أحب القراءة** (I like reading), **أحب الجري** (I like running).",
+      "englishPhrase": "I like reading.",
+      "phrase": "أحب القراءة.",
+      "phraseRomanized": "Uhibb al-qira'a."
+    },
+    {
+      "id": "swimming",
+      "english": "Swimming",
+      "word": "السباحة",
+      "romanized": "as-sibaha",
+      "grammarNote": "**السِّبَاحة** (as-sibāḥa, swimming) from root **س-ب-ح** (s-b-ḥ, to swim/glorify God). The same root gives **سُبحَانَ الله** (subḥāna allāh, 'glory be to God') — a beautiful polysemy. **سَبَّاح** (sabbāḥ, swimmer — intensive **فَعَّال** pattern).\n**السِّبَاحة** is a sun-letter word: pronounced *as-sibāḥa*.",
+      "englishPhrase": "I like swimming.",
+      "phrase": "أحب السباحة.",
+      "phraseRomanized": "uhibb as-sibaha."
     },
     {
       "id": "biking",
@@ -318,36 +423,6 @@
       "hidden": true
     },
     {
-      "id": "swimming",
-      "english": "Swimming",
-      "word": "السباحة",
-      "romanized": "as-sibaha",
-      "grammarNote": "**السِّبَاحة** (as-sibāḥa, swimming) from root **س-ب-ح** (s-b-ḥ, to swim/glorify God). The same root gives **سُبحَانَ الله** (subḥāna allāh, 'glory be to God') — a beautiful polysemy. **سَبَّاح** (sabbāḥ, swimmer — intensive **فَعَّال** pattern).\n**السِّبَاحة** is a sun-letter word: pronounced *as-sibāḥa*.",
-      "englishPhrase": "I like swimming.",
-      "phrase": "أحب السباحة.",
-      "phraseRomanized": "uhibb as-sibaha."
-    },
-    {
-      "id": "yoga",
-      "english": "Yoga",
-      "word": "اليوغا",
-      "romanized": "al-yuga",
-      "grammarNote": "**اليُوغَا** (al-yūghā) is a loanword from Sanskrit *yoga* (union/discipline), entering Arabic as a modern borrowed term. Loanwords in Arabic usually take the definite article **الـ** like any other noun.\n**تُمَارِس** (tumāris, she practices) from root **م-ر-س** (m-r-s, to practice) — Form III verb; **مُمَارَسة** (mumārasa, practice — verbal noun Form III).",
-      "englishPhrase": "She does yoga every morning.",
-      "phrase": "هي تمارس اليوغا كل صباح.",
-      "phraseRomanized": "hiya tumaris al-yuga kull sabah."
-    },
-    {
-      "id": "exercise",
-      "english": "Exercise",
-      "word": "التمرين",
-      "romanized": "at-tamrin",
-      "grammarNote": "**التَّمرِين** (at-tamrīn, exercise/training) from root **م-ر-ن** (m-r-n, to be supple/practise). Form II verbal noun pattern **تَفعِيل**.\n**الصَّالة الرِّيَاضِيَّة** (aṣ-ṣāla ar-riyāḍiyya, sports hall/gym) — **رِيَاضة** (riyāḍa, sport) from root **ر-و-ض** (r-w-ḍ, to tame/cultivate). **رِيَاضِيَّة** is the adjectival form (nisba adjective with **ـِيَّة** suffix).",
-      "englishPhrase": "I go to the gym for exercise.",
-      "phrase": "أذهب إلى الصالة الرياضية للتمرين.",
-      "phraseRomanized": "adhhab ila as-sala ar-riyadiyya lit-tamrin."
-    },
-    {
       "id": "traveling",
       "english": "Traveling",
       "word": "السفر",
@@ -356,17 +431,6 @@
       "englishPhrase": "I love traveling.",
       "phrase": "أحب السفر.",
       "phraseRomanized": "uhibb as-safar."
-    },
-    {
-      "id": "camping",
-      "english": "Camping",
-      "word": "التخييم",
-      "romanized": "at-takhyim",
-      "grammarNote": "**التَّخيِيم** (at-takhyīm, camping) — Form II verbal noun from root **خ-ي-م** (kh-y-m, to pitch a tent/encamp). **خَيمَة** (khayma, tent — from the same root), **مُخَيَّم** (mukhayam, camp/refugee camp — Form II passive participle).\nThe sun letter **ت** causes assimilation: **التخييم** → pronounced *at-takhyīm*. **الصَّيف** (aṣ-ṣayf, summer) from root **ص-ي-ف** (ṣ-y-f).",
-      "englishPhrase": "We go camping in the summer.",
-      "phrase": "نذهب للتخييم في الصيف.",
-      "phraseRomanized": "nadhhab lit-takhyim fi as-sayf.",
-      "hidden": true
     },
     {
       "id": "gaming_video_games",
@@ -401,47 +465,54 @@
       "hidden": true
     },
     {
-      "id": "crafts",
-      "english": "Crafts",
-      "word": "الحرف اليدوية",
-      "romanized": "al-hiraf al-yadawiyya",
-      "grammarNote": "**الحِرَف اليَدَوِيَّة** (al-ḥiraf al-yadawiyya) = handcrafts/manual crafts. **حِرَف** (ḥiraf) is the broken plural of **حِرفَة** (ḥirfa, craft/trade/profession) from root **ح-ر-ف** (ḥ-r-f, to deviate/craft). Pattern **فِعَل** (fiʿal).\n**يَدَوِيَّة** (yadawiyya) = manual/hand-made — nisba adjective from **يَد** (yad, hand) + **ـِيَّة** suffix. The phrase is a definite noun + definite adjective agreement.",
-      "englishPhrase": "The children are making crafts.",
-      "phrase": "الأطفال يصنعون الحرف اليدوية.",
-      "phraseRomanized": "al-atfal yasna'un al-hiraf al-yadawiyya.",
-      "hidden": true
+      "id": "exercise",
+      "english": "Exercise",
+      "word": "التمرين",
+      "romanized": "at-tamrin",
+      "grammarNote": "**التَّمرِين** (at-tamrīn, exercise/training) from root **م-ر-ن** (m-r-n, to be supple/practise). Form II verbal noun pattern **تَفعِيل**.\n**الصَّالة الرِّيَاضِيَّة** (aṣ-ṣāla ar-riyāḍiyya, sports hall/gym) — **رِيَاضة** (riyāḍa, sport) from root **ر-و-ض** (r-w-ḍ, to tame/cultivate). **رِيَاضِيَّة** is the adjectival form (nisba adjective with **ـِيَّة** suffix).",
+      "englishPhrase": "I go to the gym for exercise.",
+      "phrase": "أذهب إلى الصالة الرياضية للتمرين.",
+      "phraseRomanized": "adhhab ila as-sala ar-riyadiyya lit-tamrin."
     },
     {
-      "id": "chess",
-      "english": "Chess",
-      "word": "الشطرنج",
-      "romanized": "ash-shataranj",
-      "grammarNote": "**الشِّطرَنج** (ash-shiṭranj, chess) — a loanword from Sanskrit *caturanga* ('four divisions of an army') via Persian *shatranj*. Arabic adopted it during the Abbasid era when chess spread westward from India. The sun letter **ش** assimilates the article: *ash-shiṭranj*.\n**يَلعَب الشِّطرَنج** = to play chess — note Arabic uses **يَلعَب** (to play) directly with the game name, unlike **يَعزِف على** (to play an instrument).",
-      "englishPhrase": "Do you play chess?",
-      "phrase": "هل تلعب الشطرنج؟",
-      "phraseRomanized": "hal tal'ab ash-shataranj?",
-      "hidden": true
+      "id": "outdoors",
+      "english": "Outdoors",
+      "word": "في الهواء الطلق",
+      "romanized": "fi al-hawa' at-taliq",
+      "grammarNote": "**الهَوَاء الطَّلق** (al-hawāʾ aṭ-ṭalq) = the open air, literally 'the free/unrestrained air.' **هَوَاء** (hawāʾ, air) from root **ه-و-ي** (h-w-y, to blow/love). **طَلق** (ṭalq, free/open) from root **ط-ل-ق** (ṭ-l-q, to release/free). Note sun-letter assimilation: **الط** → *aṭ-ṭalq*.",
+      "englishPhrase": "She works outdoors.",
+      "phrase": "هي تعمل في الهواء الطلق.",
+      "phraseRomanized": "hiya ta'mal fi al-hawa' at-taliq."
     },
     {
-      "id": "board_games",
-      "english": "Board games",
-      "word": "ألعاب لوحية",
-      "romanized": "al'ab lawhiyya",
-      "grammarNote": "**أَلعَاب لَوحِيَّة** (alʿāb lawḥiyya) = board games. **أَلعَاب** is the broken plural of **لُعبَة** (luʿba, game) — pattern **أَفعَال**. **لَوحِيَّة** (lawḥiyya) = of a board/tablet — nisba adjective from **لَوح** (lawḥ, board/plank/tablet). The same word now means 'tablet' (electronic): **اللَّوح الإِلِكترُوني** = iPad/tablet.\nRoot **ل-ع-ب** (l-ʿ-b): **لَعِبَ** (to play), **لَاعِب** (player), **مَلعَب** (playground).",
-      "englishPhrase": "We play board games on weekends.",
-      "phrase": "نلعب الألعاب اللوحية في عطلة نهاية الأسبوع.",
-      "phraseRomanized": "nal'ab al-al'ab al-lawhiyya fi 'utlat nihayat al-usbu'.",
-      "hidden": true
+      "id": "creative",
+      "english": "Creative",
+      "word": "مبدع",
+      "romanized": "mubdi'",
+      "grammarNote": "**مُبدِع** (mubdiʿ, creative) — Form IV active participle of root **ب-د-ع** (b-d-ʿ, to create/innovate). **أَبدَعَ** (abdaʿa, to create/excel), **إِبدَاع** (ibdāʿ, creativity/innovation — Form IV verbal noun), **بَدِيع** (badīʿ, wondrous/original — adjective, also a name).\nFeminine: **مُبدِعَة** (mubdiʿa). The **جِداً** (jiddan, very) comes after the predicate adjective.",
+      "englishPhrase": "She is very creative.",
+      "phrase": "هي مبدعة جداً.",
+      "phraseRomanized": "hiya mubdi'a jiddan."
     },
     {
-      "id": "to_work_in_for_as",
-      "english": "To work (in)",
-      "word": "يعمل (في)",
-      "romanized": "ya'mal (fi)",
-      "grammarNote": "**يَعمَل** (yaʿmal, he works) from root **ع-م-ل** (ʿ-m-l, work/do) — one of the most productive roots in Arabic: **عَمَل** (ʿamal, work), **عَامِل** (ʿāmil, worker — **فَاعِل**), **مَعمَل** (maʿmal, laboratory/workshop — **مَفعَل** place pattern), **عَمَلِيَّة** (ʿamaliyya, operation/process).\n**مُستَشفَى** (mustashfā, hospital) from root **ش-ف-ي** (sh-f-y, to heal): **شِفَاء** (shifāʾ, cure), **Form X** = place where healing is sought.",
-      "englishPhrase": "I work in a hospital.",
-      "phrase": "أعمل في مستشفى.",
-      "phraseRomanized": "a'mal fi mustashfa."
+      "id": "interesting",
+      "english": "Interesting",
+      "word": "مثير للاهتمام",
+      "romanized": "muthir lil-ihtimam",
+      "grammarNote": "**مُثِير لِلاِهتِمَام** (muthīr lil-ihtimām) = interesting, literally 'arousing/exciting for attention.' **مُثِير** (muthīr, arousing — Form IV active participle of **ث-و-ر**, to stir up). **اِهتِمَام** (ihtimām, attention/interest — Form VIII verbal noun from root **ه-م-م**, to concern/care).\nThis is a very common compound adjective in Modern Standard Arabic.",
+      "englishPhrase": "My job is interesting.",
+      "phrase": "عملي مثير للاهتمام.",
+      "phraseRomanized": "'amali muthir lil-ihtimam."
+    },
+    {
+      "id": "boring",
+      "english": "Boring",
+      "word": "ممل",
+      "romanized": "mumill",
+      "grammarNote": "**مُمِلّ** (mumill, boring/tedious) — Form IV active participle of root **م-ل-ل** (m-l-l, to be bored/weary). **مَلَل** (malal, boredom), **مَلَّ** (malla, to be bored). Pattern **مُفعِل** = 'that which causes' the state: **مُمِلّ** = 'that which causes boredom.'\n**كَانَ مُمِلاً** = was boring: **كَانَ** (kāna, was) + adjective in the accusative (مُمِلاً with tanwin **ـاً**).",
+      "englishPhrase": "The meeting was boring.",
+      "phrase": "الاجتماع كان مملاً.",
+      "phraseRomanized": "al-ijtima' kan mumillan."
     },
     {
       "id": "to_earn_a_salary",
@@ -661,37 +732,6 @@
       "phraseRomanized": "astarkhi fi 'utlat nihayat al-usbu'."
     },
     {
-      "id": "to_spend_time_on",
-      "english": "To spend time (on)",
-      "word": "يقضي وقتاً (في)",
-      "romanized": "yaqdi waqtan (fi)",
-      "grammarNote": "**يَقضِي وَقتاً** (yaqḍī waqtan, he spends time) from root **ق-ض-ي** (q-ḍ-y, to fulfil/spend/pass). **قَضَى** (qaḍā) covers: to spend time, to fulfil an obligation, to rule/judge, to die. A remarkably rich root: **قَاضٍ** (qāḍin, judge — **فَاعِل**), **قَضَاء** (qaḍāʾ, judiciary/fate).\n**وَقتاً كَثِيراً** — both in the accusative indefinite form (tanwin **ـاً**) as object + adjective.",
-      "englishPhrase": "I spend a lot of time reading.",
-      "phrase": "أقضي وقتاً كثيراً في القراءة.",
-      "phraseRomanized": "aqdi waqtan kathiran fi al-qira'a.",
-      "hidden": true
-    },
-    {
-      "id": "creative",
-      "english": "Creative",
-      "word": "مبدع",
-      "romanized": "mubdi'",
-      "grammarNote": "**مُبدِع** (mubdiʿ, creative) — Form IV active participle of root **ب-د-ع** (b-d-ʿ, to create/innovate). **أَبدَعَ** (abdaʿa, to create/excel), **إِبدَاع** (ibdāʿ, creativity/innovation — Form IV verbal noun), **بَدِيع** (badīʿ, wondrous/original — adjective, also a name).\nFeminine: **مُبدِعَة** (mubdiʿa). The **جِداً** (jiddan, very) comes after the predicate adjective.",
-      "englishPhrase": "She is very creative.",
-      "phrase": "هي مبدعة جداً.",
-      "phraseRomanized": "hiya mubdi'a jiddan."
-    },
-    {
-      "id": "interesting",
-      "english": "Interesting",
-      "word": "مثير للاهتمام",
-      "romanized": "muthir lil-ihtimam",
-      "grammarNote": "**مُثِير لِلاِهتِمَام** (muthīr lil-ihtimām) = interesting, literally 'arousing/exciting for attention.' **مُثِير** (muthīr, arousing — Form IV active participle of **ث-و-ر**, to stir up). **اِهتِمَام** (ihtimām, attention/interest — Form VIII verbal noun from root **ه-م-م**, to concern/care).\nThis is a very common compound adjective in Modern Standard Arabic.",
-      "englishPhrase": "My job is interesting.",
-      "phrase": "عملي مثير للاهتمام.",
-      "phraseRomanized": "'amali muthir lil-ihtimam."
-    },
-    {
       "id": "stressful",
       "english": "Stressful",
       "word": "مُجهِد",
@@ -700,148 +740,6 @@
       "englishPhrase": "My job is stressful.",
       "phrase": "عملي مُجهِد.",
       "phraseRomanized": "'amali mujhid."
-    },
-    {
-      "id": "boring",
-      "english": "Boring",
-      "word": "ممل",
-      "romanized": "mumill",
-      "grammarNote": "**مُمِلّ** (mumill, boring/tedious) — Form IV active participle of root **م-ل-ل** (m-l-l, to be bored/weary). **مَلَل** (malal, boredom), **مَلَّ** (malla, to be bored). Pattern **مُفعِل** = 'that which causes' the state: **مُمِلّ** = 'that which causes boredom.'\n**كَانَ مُمِلاً** = was boring: **كَانَ** (kāna, was) + adjective in the accusative (مُمِلاً with tanwin **ـاً**).",
-      "englishPhrase": "The meeting was boring.",
-      "phrase": "الاجتماع كان مملاً.",
-      "phraseRomanized": "al-ijtima' kan mumillan."
-    },
-    {
-      "id": "salary",
-      "english": "Salary",
-      "word": "راتب",
-      "romanized": "ratib",
-      "grammarNote": "**رَاتِب** (rātib, salary) from root **ر-ت-ب** (r-t-b, to arrange/set in order). Literally 'something arranged/fixed regularly.' **رَتَّبَ** (rattaba, to arrange), **تَرتِيب** (tartīb, arrangement/order).\nPhrasing: **ما هو الرَّاتِب؟** = What is the salary? Arabic question with **ما** (mā, what) + **هو** (huwa, it is) + definite noun.",
-      "englishPhrase": "What is the salary?",
-      "phrase": "ما هو الراتب؟",
-      "phraseRomanized": "ma huwa ar-ratib?"
-    },
-    {
-      "id": "schedule",
-      "english": "Schedule",
-      "word": "جدول",
-      "romanized": "jadwal",
-      "grammarNote": "**جَدوَل** (jadwal, schedule/table/river channel) — an interesting word with multiple meanings: originally 'a small stream,' then extended to 'a column/table/schedule.' Borrowed from Persian. Plural: **جَدَاوِل** (jadāwil — broken plural, pattern **فَعَاوِل**).\n**مَرِن** (marin, flexible) from root **م-ر-ن** (m-r-n, to be supple/train).",
-      "englishPhrase": "My schedule is flexible.",
-      "phrase": "جدولي مرن.",
-      "phraseRomanized": "jadwali marin."
-    },
-    {
-      "id": "vacation",
-      "english": "Vacation",
-      "word": "إجازة",
-      "romanized": "ijaza",
-      "grammarNote": "**إِجَازة** (ijāza, vacation/permission/leave) — Form IV verbal noun from root **ج-و-ز** (j-w-z, to pass/allow). Originally means 'permission/authorization.' In Modern Arabic it covers both official leave and holiday travel.\n**الأُسبُوع القَادِم** (al-usbūʿ al-qādim) = next week. **القَادِم** (qādim, coming/next) — **فَاعِل** of **ق-د-م** (q-d-m, to come/arrive).",
-      "englishPhrase": "I'm going on vacation next week.",
-      "phrase": "سأذهب في إجازة الأسبوع القادم.",
-      "phraseRomanized": "sa-adhhab fi ijaza al-usbu' al-qadim."
-    },
-    {
-      "id": "break",
-      "english": "Break",
-      "word": "استراحة",
-      "romanized": "istiraha",
-      "grammarNote": "**اِسترَاحة** (istirāḥa, rest/break) — Form X verbal noun from root **ر-و-ح** (r-w-ḥ, to breathe/rest). Form X (**اِستَفعَلَ**) = to seek rest: **رَاحَ** (rāḥa, to rest/leave) → **اِسترَاحَ** (istirāḥa, to take a rest). Related: **رَاحة** (rāḥa, comfort), **رُوح** (rūḥ, soul/spirit — literally 'breath').\n**لِنَأخُذ** (li-naʾkhudh) = let's take — cohortative **لِـ** + first-person plural.",
-      "englishPhrase": "Let's take a break.",
-      "phrase": "لنأخذ استراحة.",
-      "phraseRomanized": "lna'khudh istiraha.",
-      "hidden": true
-    },
-    {
-      "id": "office",
-      "english": "Office",
-      "word": "مكتب",
-      "romanized": "maktab",
-      "grammarNote": "**مَكتَب** (maktab, office/desk) — **مَفعَل** place-noun from root **ك-ت-ب** (k-t-b, to write). Literally 'the place of writing.' Same root: **كِتَاب** (book), **كِتَابة** (writing), **كَاتِب** (writer), **مَكتُوب** (letter/written thing).\nThis root family beautifully shows how Arabic patterns relate: مَفعَل = place where the verb action happens.",
-      "englishPhrase": "I work in an office.",
-      "phrase": "أعمل في مكتب.",
-      "phraseRomanized": "a'mal fi maktab."
-    },
-    {
-      "id": "outdoors",
-      "english": "Outdoors",
-      "word": "في الهواء الطلق",
-      "romanized": "fi al-hawa' at-taliq",
-      "grammarNote": "**الهَوَاء الطَّلق** (al-hawāʾ aṭ-ṭalq) = the open air, literally 'the free/unrestrained air.' **هَوَاء** (hawāʾ, air) from root **ه-و-ي** (h-w-y, to blow/love). **طَلق** (ṭalq, free/open) from root **ط-ل-ق** (ṭ-l-q, to release/free). Note sun-letter assimilation: **الط** → *aṭ-ṭalq*.",
-      "englishPhrase": "She works outdoors.",
-      "phrase": "هي تعمل في الهواء الطلق.",
-      "phraseRomanized": "hiya ta'mal fi al-hawa' at-taliq."
-    },
-    {
-      "id": "interview",
-      "english": "Interview",
-      "word": "مقابلة",
-      "romanized": "muqabala",
-      "grammarNote": "**مُقَابَلة** (muqābala, interview/meeting) — Form III verbal noun from root **ق-ب-ل** (q-b-l, to face/accept). Form III (**فَاعَلَ**) implies two parties facing each other: **قَابَلَ** (qābala, to meet/face) → **مُقَابَلة** (meeting face to face). Related: **قَبل** (qabla, before), **قِبلة** (qibla, direction of prayer — the direction you face).",
-      "englishPhrase": "I have a job interview tomorrow.",
-      "phrase": "لدي مقابلة عمل غداً.",
-      "phraseRomanized": "ladayya muqabalat 'amal ghadan."
-    },
-    {
-      "id": "colleague",
-      "english": "Colleague",
-      "word": "زميل",
-      "romanized": "zamil",
-      "grammarNote": "**زَمِيل** (zamīl, colleague/fellow) from root **ز-م-ل** (z-m-l, to accompany/wrap). **فَعِيل** adjective pattern often means 'sharing a quality.' **زُمَلاء** (zumalāʾ) is the broken plural — pattern **فُعَلاء**, typical for **فَعِيل** adjectives: **صَدِيق → أَصدِقاء**, **زَمِيل → زُمَلاء**.\n**وَدُودون** (wadūdūn, friendly) — **فَعُول** intensive pattern from root **و-د-د** (w-d-d, to love).",
-      "englishPhrase": "My coworkers are friendly.",
-      "phrase": "زملائي ودودون.",
-      "phraseRomanized": "zumala'i wadudun."
-    },
-    {
-      "id": "customer",
-      "english": "Customer",
-      "word": "عميل",
-      "romanized": "'amil",
-      "grammarNote": "**عَمِيل** (ʿamīl, customer/agent/client) from root **ع-م-ل** (ʿ-m-l, work/do). The **فَعِيل** pattern can mean 'one who does' or 'one done to.' Here it denotes someone who works with you (a client). Plural: **عُمَلاء** (ʿumalāʾ — broken plural **فُعَلاء**).\nDo not confuse with **عَامِل** (ʿāmil, worker) which uses the **فَاعِل** pattern.",
-      "englishPhrase": "The client is happy.",
-      "phrase": "العميل سعيد.",
-      "phraseRomanized": "al-'amil sa'id."
-    },
-    {
-      "id": "team",
-      "english": "Team",
-      "word": "فريق",
-      "romanized": "fariq",
-      "grammarNote": "**فَرِيق** (farīq, team/group) from root **ف-ر-ق** (f-r-q, to separate/distinguish). Literally 'a separated/distinct group.' **فَرَّقَ** (farraqa, to divide), **فَارَقَ** (fāraqa, to part from), **فُرقَة** (furqa, separation/troupe), **فَرِيق** also means a military brigade.\nPlural: **فِرَق** (firaq — broken plural, pattern **فِعَل**).",
-      "englishPhrase": "I work in a great team.",
-      "phrase": "أعمل في فريق رائع.",
-      "phraseRomanized": "a'mal fi fariq ra'i'."
-    },
-    {
-      "id": "project",
-      "english": "Project",
-      "word": "مشروع",
-      "romanized": "mashrua'",
-      "grammarNote": "**مَشرُوع** (mashrūʿ, project/enterprise/lawful) — passive participle **مَفعُول** from root **ش-ر-ع** (sh-r-ʿ, to begin/legislate). Literally 'something undertaken/begun.' Also means 'lawful/permissible' in religious law: **غَير مَشرُوع** = unlawful. Plural: **مَشَارِيع** (mashārīʿ — broken plural **مَفَاعِيل**).\n**شِبه مُنتَهٍ** = almost finished — **شِبه** (shabah, semi-/almost) + indefinite active participle.",
-      "englishPhrase": "The project is almost finished.",
-      "phrase": "المشروع شبه منتهٍ.",
-      "phraseRomanized": "al-mashrua' shibh muntahin.",
-      "hidden": true
-    },
-    {
-      "id": "meeting",
-      "english": "Meeting",
-      "word": "اجتماع",
-      "romanized": "ijtima'",
-      "grammarNote": "**اِجتِمَاع** (ijtimāʿ, meeting/gathering) — Form VIII verbal noun from root **ج-م-ع** (j-m-ʿ, to gather/collect). Form VIII (**اِفتَعَلَ**) often has a reflexive sense: **جَمَعَ** (jamaʿa, to gather/bring together) → **اِجتَمَعَ** (ijtamaʿa, to gather together/meet). **مُجتَمَع** (mujtamaʿ, society) is from the same root and form.",
-      "englishPhrase": "We have a meeting at ten.",
-      "phrase": "لدينا اجتماع في العاشرة.",
-      "phraseRomanized": "ladayna ijtima' fi al-ashira."
-    },
-    {
-      "id": "free_time",
-      "english": "Free time",
-      "word": "وقت فراغ",
-      "romanized": "waqt faragh",
-      "grammarNote": "**وَقت فَرَاغ** (waqt farāgh, free time) = time of emptiness/vacancy. **فَرَاغ** (farāgh, emptiness/free space) from root **ف-ر-غ** (f-r-gh, to empty). **وَقت** (waqt, time) + **فَرَاغ** = an **إضافة** (iḍāfa) possessive chain without the definite article on the first noun.\n**مَاذَا تَفعَل؟** (mādhā tafʿal?) = What do you do? **مَاذَا** = what (used before a verb), while **مَا** is used before a noun.",
-      "englishPhrase": "What do you do in your free time?",
-      "phrase": "ماذا تفعل في وقت فراغك؟",
-      "phraseRomanized": "madha taf'al fi waqt faraghak?"
     }
   ]
 }

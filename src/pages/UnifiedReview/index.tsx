@@ -26,6 +26,7 @@ const PACK_SELECTION_KEY = (language: string) => `pack_selection_${language}`;
 interface Card {
     id: string;
     hidden?: boolean;
+    grammar?: boolean;
     english: string;
     word: string;
     romanized?: string;
@@ -626,6 +627,7 @@ const UnifiedReview = () => {
                 englishPhrase={currentCard.englishPhrase}
                 literal={currentCard.literal}
                 grammarNote={currentCard.grammarNote}
+                grammar={currentCard.grammar}
                 isFlipped={isFlipped}
                 onFlip={flip}
                 noteOpen={noteOpen}

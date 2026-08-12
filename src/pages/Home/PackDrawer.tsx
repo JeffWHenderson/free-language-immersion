@@ -4,15 +4,16 @@ import { loadDeckState, getDeckProgress, getDeckSummary, isCardHidden } from "..
 import "../srs.css";
 
 interface Props {
-    pack: Pack;
+    /** All parts of one topic. `parts[0]` is Part 1 (keeps the section id + shared assets). */
+    parts: Pack[];
     language: string;
-    included: boolean;
-    onToggle: () => void;
+    studyPackIds: Set<string>;
+    onTogglePart: (packId: string) => void;
     onClose: () => void;
     navigate: (path: string) => void;
 }
 
-const PackDrawer = ({ pack, language, included, onToggle, onClose, navigate }: Props) => {
+const PackDrawer = ({ parts, language, studyPackIds, onTogglePart, onClose, navigate }: Props) => {
     const drawerRef = useRef<HTMLDivElement>(null);
 
     // Trigger open animation after mount
@@ -23,15 +24,33 @@ const PackDrawer = ({ pack, language, included, onToggle, onClose, navigate }: P
         return () => cancelAnimationFrame(frame);
     }, []);
 
-    const deckState = loadDeckState(language, pack.id);
-    const visibleCards = pack.cards.filter((c) => !isCardHidden(c, deckState));
-    const { learned, total } = getDeckProgress(visibleCards, deckState);
-    const { newCount, dueCount, learnCount } = getDeckSummary(visibleCards, deckState);
+    // Part 1 keeps the section id/directory and owns the shared stories/grammar/picture assets.
+    const rep = parts[0];
+    const title = rep.parentName ?? rep.name;
+    const multi = parts.length > 1;
+
+    // Aggregate progress/counts across all parts of the topic.
+    const perPart = parts.map((pack) => {
+        const state = loadDeckState(language, pack.id);
+        const visible = pack.cards.filter((c) => !isCardHidden(c, state));
+        return {
+            pack,
+            visible,
+            progress: getDeckProgress(visible, state),
+            summary: getDeckSummary(visible, state),
+            included: studyPackIds.has(pack.id),
+        };
+    });
+    const learned = perPart.reduce((n, p) => n + p.progress.learned, 0);
+    const total = perPart.reduce((n, p) => n + p.progress.total, 0);
+    const newCount = perPart.reduce((n, p) => n + p.summary.newCount, 0);
+    const learnCount = perPart.reduce((n, p) => n + p.summary.learnCount, 0);
+    const dueCount = perPart.reduce((n, p) => n + p.summary.dueCount, 0);
     const progressPct = total > 0 ? Math.round((learned / total) * 100) : 0;
 
-    const hasStories = (pack.stories?.length ?? 0) > 0;
-    const hasGrammar = (pack.grammarLessons?.length ?? 0) > 0;
-    const hasPictures = (pack.pictureLessons?.length ?? 0) > 0;
+    const hasStories = (rep.stories?.length ?? 0) > 0;
+    const hasGrammar = (rep.grammarLessons?.length ?? 0) > 0;
+    const hasPictures = (rep.pictureLessons?.length ?? 0) > 0;
 
     const go = (path: string) => {
         onClose();
@@ -42,7 +61,7 @@ const PackDrawer = ({ pack, language, included, onToggle, onClose, navigate }: P
         <div className="srs-drawer-backdrop" onClick={onClose}>
             <div className="srs-drawer" ref={drawerRef} onClick={(e) => e.stopPropagation()}>
                 <div className="srs-drawer-header">
-                    <h3>{pack.name}</h3>
+                    <h3>{title}</h3>
                     <button className="srs-drawer-close" onClick={onClose} aria-label="Close">✕</button>
                 </div>
 
@@ -65,21 +84,48 @@ const PackDrawer = ({ pack, language, included, onToggle, onClose, navigate }: P
                     </div>
                 )}
 
-                <div className="srs-drawer-toggle">
-                    <span>Include in Study Session</span>
-                    <input
-                        type="checkbox"
-                        className="srs-pack-toggle"
-                        checked={included}
-                        onChange={onToggle}
-                    />
-                </div>
+                {multi ? (
+                    <div className="srs-drawer-parts">
+                        {perPart.map(({ pack, visible, included }) => (
+                            <div key={pack.id} className={`srs-drawer-part${included ? ' included' : ''}`}>
+                                <label className="srs-drawer-part-main">
+                                    <input
+                                        type="checkbox"
+                                        className="srs-pack-toggle"
+                                        checked={included}
+                                        onChange={() => onTogglePart(pack.id)}
+                                    />
+                                    <span className="srs-drawer-part-label">
+                                        Part {pack.part ?? 1}
+                                        <span className="srs-drawer-part-sub">{visible.length} words</span>
+                                    </span>
+                                </label>
+                                <button
+                                    className="srs-drawer-part-browse"
+                                    onClick={() => go(`/${language}/${pack.id}/browse?filter=all`)}
+                                >
+                                    Browse →
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                ) : (
+                    <div className="srs-drawer-toggle">
+                        <span>Include in Study Session</span>
+                        <input
+                            type="checkbox"
+                            className="srs-pack-toggle"
+                            checked={perPart[0].included}
+                            onChange={() => onTogglePart(rep.id)}
+                        />
+                    </div>
+                )}
 
                 <div className="srs-drawer-actions">
-                    {total > 0 && (
+                    {!multi && total > 0 && (
                         <button
                             className="srs-drawer-action-btn primary"
-                            onClick={() => go(`/${language}/${pack.id}/browse?filter=all`)}
+                            onClick={() => go(`/${language}/${rep.id}/browse?filter=all`)}
                         >
                             Browse Cards ({total})
                         </button>
@@ -87,25 +133,33 @@ const PackDrawer = ({ pack, language, included, onToggle, onClose, navigate }: P
                     {hasStories && (
                         <button
                             className="srs-drawer-action-btn"
-                            onClick={() => go(`/${language}/stories?deck=${pack.id}`)}
+                            onClick={() => go(`/${language}/stories?deck=${rep.id}`)}
                         >
-                            Stories ({pack.stories!.length}) →
+                            Stories ({rep.stories!.length}) →
+                        </button>
+                    )}
+                    {rep.kind === "grammar" && rep.reading && (
+                        <button
+                            className="srs-drawer-action-btn"
+                            onClick={() => go(`/${language}/${rep.id}/grammar/${rep.reading}`)}
+                        >
+                            Read Explanation →
                         </button>
                     )}
                     {hasGrammar && (
                         <button
                             className="srs-drawer-action-btn"
-                            onClick={() => go(`/${language}/${pack.id}/grammar`)}
+                            onClick={() => go(`/${language}/${rep.id}/grammar`)}
                         >
-                            Grammar Notes ({pack.grammarLessons!.length}) →
+                            Grammar Notes ({rep.grammarLessons!.length}) →
                         </button>
                     )}
                     {hasPictures && (
                         <button
                             className="srs-drawer-action-btn"
-                            onClick={() => go(`/${language}/pictures?deck=${pack.id}`)}
+                            onClick={() => go(`/${language}/pictures?deck=${rep.id}`)}
                         >
-                            Picture Lessons ({pack.pictureLessons!.length}) →
+                            Picture Lessons ({rep.pictureLessons!.length}) →
                         </button>
                     )}
                 </div>

@@ -7,38 +7,38 @@
     "good_news",
     "friendship"
   ],
-  "pictureLessons": [],
-  "grammarLessons": [
+  "parts": [
     {
-      "id": "adjective_agreement",
-      "name": "Adjective Agreement"
+      "n": 1,
+      "count": 26
     },
     {
-      "id": "jiddan",
-      "name": "جداً — Intensifiers"
-    },
-    {
-      "id": "equational",
-      "name": "Equational Sentences — No Verb To Be"
-    },
-    {
-      "id": "pronouns",
-      "name": "الضمائر — Subject Pronouns"
-    },
-    {
-      "id": "kana_adjective",
-      "name": "كَانَ + صِفَة — Past States"
-    },
-    {
-      "id": "shaart_bi",
-      "name": "لَوْ / إِذَا — Conditional Sentences"
-    },
-    {
-      "id": "mudari_negation",
-      "name": "لا & ما — Negating Present Tense"
+      "n": 2
     }
   ],
   "cards": [
+    {
+      "id": "g_feeling_nominal",
+      "grammar": true,
+      "english": "I am happy. (أنا سعيد / سعيدة)",
+      "word": "أنا سعيد",
+      "romanized": "ana sa'id",
+      "grammarNote": "Feelings are nominal sentences (no 'am'), and the adjective agrees in gender:\n**أنا سعيد** (male) / **أنا سعيدة** (female) = I'm happy, **أنا حزين / حزينة** (I'm sad).",
+      "englishPhrase": "She is happy today.",
+      "phrase": "هي سعيدة اليوم.",
+      "phraseRomanized": "Hiya sa'ida al-yawm."
+    },
+    {
+      "id": "g_ashur_bi",
+      "grammar": true,
+      "english": "I feel tired. (أشعر بـ …)",
+      "word": "أشعر بالتعب",
+      "romanized": "ash'ur bi-t-ta'ab",
+      "grammarNote": "**أشعر بـ** (ash'ur bi-) = I feel + (a noun); **بـ** attaches to the following word:\n**أشعر بالتعب** (I feel tired[ness]), **أشعر بالسعادة** (I feel happy[ness]), **أشعر بالخوف** (I feel fear).",
+      "englishPhrase": "I feel happy.",
+      "phrase": "أشعر بالسعادة.",
+      "phraseRomanized": "Ash'ur bi-s-sa'ada."
+    },
     {
       "id": "happy",
       "english": "happy",
@@ -48,24 +48,7 @@
       "englishPhrase": "I'm very happy today.",
       "phrase": "أنا سعيد جداً اليوم.",
       "phraseRomanized": "ana sa'id jiddan al-yawm.",
-      "literal": [
-        [
-          "أنا",
-          "I"
-        ],
-        [
-          "سعيد",
-          "happy"
-        ],
-        [
-          "جداً",
-          "very"
-        ],
-        [
-          "اليوم",
-          "today"
-        ]
-      ]
+      "literal": [["أنا", "I"], ["سعيد", "happy"], ["جداً", "very"], ["اليوم", "today"]]
     },
     {
       "id": "sad",
@@ -168,16 +151,6 @@
       "phraseRomanized": "hawil al-hifaz 'ala hudi'ik."
     },
     {
-      "id": "peace",
-      "english": "peace",
-      "word": "سلام",
-      "romanized": "salam",
-      "grammarNote": "**سَلَام** (salām, peace/safety/greeting) from root **س-ل-م** (s-l-m, to be safe/submit). One of the most important roots in Arabic: **إِسلَام** (Islam, submission/peace), **مُسلِم** (Muslim, one who submits), **سَلَّمَ** (sallama, to greet/hand over), **سَلَامة** (salāma, safety).\nThe greeting **السَّلَام عَلَيكُم** (as-salāmu ʿalaykum) = peace be upon you.",
-      "englishPhrase": "I need peace and quiet.",
-      "phrase": "أحتاج إلى السلام والهدوء.",
-      "phraseRomanized": "ahtaj ila as-salam wal-hudu'."
-    },
-    {
       "id": "worry",
       "english": "worry",
       "word": "قلق",
@@ -198,26 +171,6 @@
       "phraseRomanized": "ya lahu min mufaja'a!"
     },
     {
-      "id": "passion",
-      "english": "passion",
-      "word": "شغف",
-      "romanized": "shaghaf",
-      "grammarNote": "**شَغَف** (shaghaf, passion/infatuation) from root **ش-غ-ف** (sh-gh-f, to pierce the heart/become infatuated). Classically it referred to the pericardium (the membrane around the heart) — passion that 'reaches the heart.' **شَغَفَهُ حُبّاً** = love consumed him (literally 'reached his heart membrane').\n**بِشَغَف** (bi-shaghaf) = with passion — the **بـ** preposition creates an adverbial phrase.",
-      "englishPhrase": "She teaches with passion.",
-      "phrase": "هي تدرّس بشغف.",
-      "phraseRomanized": "hiya tudarris bi-shaghaf."
-    },
-    {
-      "id": "desire",
-      "english": "desire",
-      "word": "رغبة",
-      "romanized": "raghba",
-      "grammarNote": "**رَغبَة** (raghba, desire/wish) from root **ر-غ-ب** (r-gh-b, to desire/want). **رَغِبَ فِي** (raghiba fī, to desire/want something), **رَاغِب** (rāghib, desirous — **فَاعِل**). Note: **رَغِبَ عَن** (raghiba ʿan) means the opposite — 'to have no desire for / reject.'\n**قَوِيَّة** (qawiyya, strong, feminine) from root **ق-و-ي** (q-w-y, to be strong).",
-      "englishPhrase": "I have a strong desire to travel.",
-      "phrase": "لدي رغبة قوية في السفر.",
-      "phraseRomanized": "ladayya raghba qawiyya fi as-safar."
-    },
-    {
       "id": "hate",
       "english": "hate",
       "word": "كُره",
@@ -226,16 +179,6 @@
       "englishPhrase": "Hate is a strong feeling.",
       "phrase": "الكره شعور قوي.",
       "phraseRomanized": "al-kurh shu'ur qawi."
-    },
-    {
-      "id": "pleasure",
-      "english": "pleasure",
-      "word": "متعة",
-      "romanized": "mat'a",
-      "grammarNote": "**مَتعَة** (matʿa, pleasure/enjoyment) from root **م-ت-ع** (m-t-ʿ, to enjoy/provide). **اِستَمتَعَ** (istamtaʿa, to enjoy — Form X), **مُتعَة** (mutʿa, enjoyment), **يَسُرُّني** (yasurruni, it pleases me) uses a different root **س-ر-ر** (s-r-r, to delight). Both can express 'pleasure to meet you.'\n**مُقَابَلتُكَ** (muqābalatuka) = meeting you — possessive suffix **كَ** on verbal noun.",
-      "englishPhrase": "It's a pleasure to meet you.",
-      "phrase": "يسرّني مقابلتك.",
-      "phraseRomanized": "yasurruni muqabalatuk."
     },
     {
       "id": "pain",
@@ -256,26 +199,6 @@
       "englishPhrase": "I have a lot of energy today.",
       "phrase": "لدي طاقة كثيرة اليوم.",
       "phraseRomanized": "ladayya taqa kathira al-yawm."
-    },
-    {
-      "id": "relief",
-      "english": "relief",
-      "word": "ارتياح",
-      "romanized": "irtiyah",
-      "grammarNote": "**اِرتِيَاح** (irtiyāḥ, relief/comfort) — Form VIII verbal noun from root **ر-و-ح** (r-w-ḥ, to rest/breathe). **اِرتَاحَ** (irtāḥa, to feel relieved), **رَاحَة** (rāḥa, rest/comfort), **رُوح** (rūḥ, spirit/soul — literally 'breath of life'), **مُرتَاح** (murtāḥ, at ease — Form VIII active participle).\nAll share the sense of 'breathing freely' — rest, spirit, and relief.",
-      "englishPhrase": "What a relief!",
-      "phrase": "يا له من ارتياح!",
-      "phraseRomanized": "ya lahu min irtiyah!"
-    },
-    {
-      "id": "comfort",
-      "english": "comfort",
-      "word": "عزاء",
-      "romanized": "aza'",
-      "grammarNote": "**عَزَاء** (ʿazāʾ, consolation/comfort) from root **ع-ز-ي** (ʿ-z-y, to console). **عَزَّى** (ʿazzā, to console/offer condolences — Form II), **تَعزِيَة** (taʿziya, condolences — Form II verbal noun). **عَزَاء** specifically refers to the comfort offered at a time of loss — it is especially used for condolence visits.\n**عَزَاءً** ends in tanwin **ـاً** as the predicate of **كَانَ** (indefinite accusative).",
-      "englishPhrase": "Her words were a comfort.",
-      "phrase": "كلماتها كانت عزاءً.",
-      "phraseRomanized": "kalimatuha kanat aza'an."
     },
     {
       "id": "feel_to_feel",
@@ -358,64 +281,14 @@
       "phraseRomanized": "la taqalaq bi-sha'n dhalika."
     },
     {
-      "id": "calm_soothe_to_calm",
-      "english": "calm",
-      "word": "يهدّئ",
-      "romanized": "yuhadi'",
-      "grammarNote": "**يُهَدِّئ** (yuhaddiʾ, he calms/soothes) — Form II of root **ه-د-أ** (h-d-ʾ, to calm/be still). Form II doubles the middle radical = causative: **هَدَأَ** (hadaʾa, to calm down) → **هَدَّأَ** (haddaʾa, to calm someone down).\n**هَدِّئ مِن نَفسِكَ** = calm yourself, literally 'calm [it] from your self' — **نَفس** (nafs, self/soul/person) is a key word: **نَفسِي** (nafsī, myself), **نَفسُهُ** (nafsuhu, himself).",
-      "englishPhrase": "Calm down, please.",
-      "phrase": "هدّئ من نفسك، من فضلك.",
-      "phraseRomanized": "haddi' min nafsak, min fadlak."
-    },
-    {
-      "id": "comfort_to_comfort",
-      "english": "comfort (to comfort)",
-      "word": "يواسي",
-      "romanized": "yuwasi",
-      "grammarNote": "**يُوَاسِي** (yuwāsī, he comforts) — Form III of root **أ-س-ي** (ʾ-s-y, to treat/console). Form III (**فَاعَلَ**) here implies a mutual or active giving of consolation: **آسَى** (āsā, to condole/comfort), **مُوَاسَاة** (muwāsāt, consolation — Form III verbal noun). Compare with **عَزَّى** (to offer condolences specifically at a death).",
-      "englishPhrase": "She comforted her friend.",
-      "phrase": "هي واست صديقتها.",
-      "phraseRomanized": "hiya wasat sadiqatuha."
-    },
-    {
-      "id": "excite_thrill",
-      "english": "excite",
-      "word": "يُثير",
-      "romanized": "yuthir",
-      "grammarNote": "**يُثِير** (yuthīr, he excites/stirs) — Form IV of root **ث-و-ر** (th-w-r, to stir up/rise). Form IV (**أَفعَلَ**) = causative: **ثَارَ** (thāra, to rise up/be stirred) → **أَثَارَ** (athāra, to stir/excite). **ثَورة** (thawra, revolution), **مُثِير** (muthīr, exciting/arousing — Form IV active participle).\n**حَمَاسِي** (ḥamāsī) = my enthusiasm — root **ح-م-س** (ḥ-m-s, zeal). Possessive suffix **ي** = my.",
-      "englishPhrase": "The trip excites me.",
-      "phrase": "الرحلة تُثير حماسي.",
-      "phraseRomanized": "ar-rihla tuthir hamasi."
-    },
-    {
-      "id": "annoy",
-      "english": "annoy",
-      "word": "يُزعج",
-      "romanized": "yuz'ij",
-      "grammarNote": "**يُزعِج** (yuzʿij, he annoys/disturbs) — Form IV of root **ز-ع-ج** (z-ʿ-j, to disturb/unsettle). Form IV = causative: **زَعِجَ** (zaʿija, to be disturbed) → **أَزعَجَ** (azʿaja, to annoy/disturb someone). **إِزعَاج** (izʿāj, annoyance — Form IV verbal noun).\nThe suffix **ـني** (-nī) = me: **يُزعِجني** = it annoys me. Object pronoun suffixes attach directly to the verb.",
-      "englishPhrase": "That noise annoys me.",
-      "phrase": "هذا الضجيج يُزعجني.",
-      "phraseRomanized": "hadha adh-dajij yuz'ijuni."
-    },
-    {
-      "id": "embarrassment",
-      "english": "embarrassment",
-      "word": "إحراج",
-      "romanized": "iḥrāj",
-      "grammarNote": "**إِحرَاج** (iḥrāj, embarrassment) — Form IV verbal noun from root **ح-ر-ج** (ḥ-r-j, to be in a tight spot/embarrassed). Form IV: **أَحرَجَ** (aḥraja, to embarrass). **مُحرِج** (muḥrij, embarrassing — Form IV active participle), **حَرَج** (ḥaraj, awkwardness/narrowness).\n**أَشعُر بِالإِحرَاج** — the **بِـ** preposition is obligatory after **شَعَرَ**: شَعَرَ بِـ = to feel [noun]. The definite article on **الإِحرَاج** treats the feeling as a known state.",
-      "englishPhrase": "I feel embarrassed.",
-      "phrase": "أشعر بالإحراج.",
-      "phraseRomanized": "ashʿur bi-l-iḥrāj.",
-      "literal": [
-        [
-          "أشعر",
-          "I feel"
-        ],
-        [
-          "بالإحراج",
-          "with embarrassment"
-        ]
-      ]
+      "id": "peace",
+      "english": "peace",
+      "word": "سلام",
+      "romanized": "salam",
+      "grammarNote": "**سَلَام** (salām, peace/safety/greeting) from root **س-ل-م** (s-l-m, to be safe/submit). One of the most important roots in Arabic: **إِسلَام** (Islam, submission/peace), **مُسلِم** (Muslim, one who submits), **سَلَّمَ** (sallama, to greet/hand over), **سَلَامة** (salāma, safety).\nThe greeting **السَّلَام عَلَيكُم** (as-salāmu ʿalaykum) = peace be upon you.",
+      "englishPhrase": "I need peace and quiet.",
+      "phrase": "أحتاج إلى السلام والهدوء.",
+      "phraseRomanized": "ahtaj ila as-salam wal-hudu'."
     },
     {
       "id": "jealousy",
@@ -428,15 +301,14 @@
       "phraseRomanized": "al-ghayra qad tudammir al-ʿalāqāt."
     },
     {
-      "id": "irritate",
-      "english": "irritate",
-      "word": "يُهيّج",
-      "romanized": "yuhayyij",
-      "grammarNote": "**يُغِيظ** (yughīẓ, it irritates/enrages) — Form IV of root **غ-ي-ظ** (gh-y-ẓ, to enrage/infuriate). **غَاظَ** (ghāẓa, to enrage), **غَيظ** (ghayẓ, rage/irritation). The phrase uses **يُغِيظُني** — Form IV active + suffix **ـني** (me).\nNote: the card word **يُهَيِّج** (yuhayij) is Form II of **ه-ي-ج** (h-y-j, to agitate/excite), while the example uses the synonym **يُغِيظ** — both are natural Arabic ways to say 'irritate.'",
-      "englishPhrase": "Waiting irritates me.",
-      "phrase": "الانتظار يُغيظني.",
-      "phraseRomanized": "al-intizar yughizuni.",
-      "hidden": true
+      "id": "annoy",
+      "english": "annoy",
+      "word": "يُزعج",
+      "romanized": "yuz'ij",
+      "grammarNote": "**يُزعِج** (yuzʿij, he annoys/disturbs) — Form IV of root **ز-ع-ج** (z-ʿ-j, to disturb/unsettle). Form IV = causative: **زَعِجَ** (zaʿija, to be disturbed) → **أَزعَجَ** (azʿaja, to annoy/disturb someone). **إِزعَاج** (izʿāj, annoyance — Form IV verbal noun).\nThe suffix **ـني** (-nī) = me: **يُزعِجني** = it annoys me. Object pronoun suffixes attach directly to the verb.",
+      "englishPhrase": "That noise annoys me.",
+      "phrase": "هذا الضجيج يُزعجني.",
+      "phraseRomanized": "hadha adh-dajij yuz'ijuni."
     },
     {
       "id": "anger_to_anger",
@@ -447,16 +319,6 @@
       "englishPhrase": "That comment angered me.",
       "phrase": "ذلك التعليق أغضبني.",
       "phraseRomanized": "dhalika at-ta'liq aghdabani."
-    },
-    {
-      "id": "delight",
-      "english": "delight",
-      "word": "يُبهج",
-      "romanized": "yubhij",
-      "grammarNote": "**يُبهِج** (yubhij, he delights) — Form IV of root **ب-ه-ج** (b-h-j, to be radiant/joyful). Form IV = causative: **بَهِجَ** (bahija, to be joyful/radiant) → **أَبهَجَ** (abhaja, to delight/gladden). **بَهجَة** (bahja, joy/beauty — noun), **بَهِيج** (bahīj, delightful — **فَعِيل** adjective).\n**أَبهَجَت** (abhajat) — past tense feminine, because **الموسيقى** (al-mūsīqā) is grammatically feminine.",
-      "englishPhrase": "The music delighted everyone.",
-      "phrase": "الموسيقى أبهجت الجميع.",
-      "phraseRomanized": "al-musiqa abhajat al-jami'."
     },
     {
       "id": "smile",
@@ -487,28 +349,6 @@
       "englishPhrase": "The baby is crying.",
       "phrase": "الطفل يبكي.",
       "phraseRomanized": "at-tifl yabki."
-    },
-    {
-      "id": "sigh",
-      "english": "sigh",
-      "word": "يتنهّد",
-      "romanized": "yatannahhad",
-      "grammarNote": "**يَتَنَهَّد** (yatanhahhad, he sighs) — Form V of root **ن-ه-د** (n-h-d, to heave/sigh). Form V (**تَفَعَّلَ**) often implies a deliberate or repeated action: **تَنَهَّدَ** (tanahhadda, to sigh/heave a sigh). **تَنَهُّد** (tanahud, a sigh — verbal noun).\n**اِرتِيَاحاً** (irtiyāḥan) = with relief — indefinite accusative form used as an adverbial of manner (ḥāl). This structure is common: verb + noun in accusative to describe how something was done.",
-      "englishPhrase": "She sighed with relief.",
-      "phrase": "هي تنهّدت ارتياحاً.",
-      "phraseRomanized": "hiya tannahhadat irtiyahan.",
-      "hidden": true
-    },
-    {
-      "id": "frown",
-      "english": "frown",
-      "word": "يعبّس وجهه",
-      "romanized": "yu'abbis wajhahu",
-      "grammarNote": "**يُعَبِّس وَجهَهُ** (yuʿabbisu wajhahu, he frowns) — Form II of root **ع-ب-س** (ʿ-b-s, to frown/scowl). Form II (**فَعَّلَ**) intensifies: **عَبَسَ** (ʿabasa, to frown) → **عَبَّسَ** (ʿabbasa, to scowl/frown deeply). **وَجه** (wajh, face) with the possessive suffix **ـهُ** (hu, his).\nThe Quranic chapter عَبَسَ (Surah 80) is named after this very root — the Prophet frowned at a blind man.",
-      "englishPhrase": "He frowned when he heard the news.",
-      "phrase": "عبّس وجهه عندما سمع الخبر.",
-      "phraseRomanized": "'abbasa wajhahu indama sami'a al-khabar.",
-      "hidden": true
     },
     {
       "id": "scream_shout",
@@ -542,17 +382,6 @@
       "phraseRomanized": "ana ghadib mink."
     },
     {
-      "id": "mad",
-      "english": "mad",
-      "word": "غضبان",
-      "romanized": "ghadban",
-      "grammarNote": "**غَضبَان** (ghaḍbān, furious/mad) — **فَعلَان** pattern from root **غ-ض-ب** (gh-ḍ-b, to be angry). The **فَعلَان** pattern describes an intense emotional or physical state: **عَطشَان** (ʿaṭshān, thirsty), **جَوعَان** (jawʿān, hungry), **تَعبَان** (taʿbān, tired — colloquial), **حَزنَان** (ḥaznān, sad).\nFeminine: **غَضبَى** (ghaḍbā) in MSA, **غَضبَانة** (ghaḍbāna) in colloquial. This pattern is much more common in spoken Arabic than in formal writing.",
-      "englishPhrase": "Why are you so mad?",
-      "phrase": "لماذا أنت غضبان هكذا؟",
-      "phraseRomanized": "limatha anta ghadban hakadha?",
-      "hidden": true
-    },
-    {
       "id": "afraid_scared",
       "english": "afraid",
       "word": "خائف",
@@ -571,6 +400,17 @@
       "englishPhrase": "I'm anxious about the exam.",
       "phrase": "أنا قلق بشأن الامتحان.",
       "phraseRomanized": "ana qaliq bi-sha'n al-imtihan."
+    },
+    {
+      "id": "g_adjective_gender_mood",
+      "grammar": true,
+      "english": "he is nervous / she is nervous (متوتر / متوترة)",
+      "word": "هو متوتر / هي متوترة",
+      "romanized": "huwa mutawattir / hiya mutawattira",
+      "grammarNote": "Mood adjectives agree with the person's gender — feminine adds **ة**:\n**متوتر / متوترة** (nervous), **غاضب / غاضبة** (angry), **متعب / متعبة** (tired). Match the adjective to who you're describing.",
+      "englishPhrase": "She is very angry.",
+      "phrase": "هي غاضبة جداً.",
+      "phraseRomanized": "Hiya ghadiba jiddan."
     },
     {
       "id": "nervous",
@@ -662,6 +502,17 @@
       "englishPhrase": "She is very energetic.",
       "phrase": "هي نشيطة جداً.",
       "phraseRomanized": "hiya nashita jiddan."
+    },
+    {
+      "id": "g_jiddan",
+      "grammar": true,
+      "english": "I am very tired. (adjective + جداً)",
+      "word": "أنا متعب جداً",
+      "romanized": "ana mut'ab jiddan",
+      "grammarNote": "**جداً** (jiddan) = very — and it comes **after** the adjective, not before:\n**متعب جداً** (very tired), **سعيد جداً** (very happy), **جميل جداً** (very beautiful).",
+      "englishPhrase": "I am very happy.",
+      "phrase": "أنا سعيد جداً.",
+      "phraseRomanized": "Ana sa'id jiddan."
     },
     {
       "id": "tired",
