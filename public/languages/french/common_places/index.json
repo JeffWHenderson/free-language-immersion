@@ -11,7 +11,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2,
@@ -22,36 +22,6 @@
     }
   ],
   "cards": [
-    {
-      "id": "g_ilya",
-      "grammar": true,
-      "english": "There is a bank. (il y a)",
-      "word": "il y a une banque",
-      "grammarNote": "**il y a** = there is / there are — one fixed phrase for both:\n**il y a une banque** (there's a bank), **il y a deux musées** (there are two museums). Literally 'it there has'.",
-      "englishPhrase": "Is there a restaurant nearby?",
-      "phrase": "Il y a un restaurant près d'ici ?",
-      "literal": [["Il y a", "there-is"], ["un", "a"], ["restaurant", "restaurant"]]
-    },
-    {
-      "id": "g_prepositions_place",
-      "grammar": true,
-      "english": "in the house (dans / sur / sous)",
-      "word": "dans la maison",
-      "grammarNote": "Common position words:\n**dans** (in) **dans la maison**, **sur** (on) **sur la table**, **sous** (under) **sous le lit**, **devant** (in front of), **derrière** (behind), **à côté de** (next to).",
-      "englishPhrase": "The cat is on the table.",
-      "phrase": "Le chat est sur la table.",
-      "literal": [["Le", "the"], ["chat", "cat"], ["est", "is"], ["sur", "on"], ["la", "the"], ["table", "table"]]
-    },
-    {
-      "id": "g_au_contraction",
-      "grammar": true,
-      "english": "to the / of the (à+le=au, de+le=du)",
-      "word": "au / du",
-      "grammarNote": "**à** and **de** contract before masculine **le** and plural **les**:\n**à + le → au**, **à + les → aux**; **de + le → du**, **de + les → des**. → **au parc** (to the park), **la porte du café**. No change with **la** or **l'**.",
-      "englishPhrase": "I'm going to the market.",
-      "phrase": "Je vais au marché.",
-      "literal": [["Je", "I"], ["vais", "go"], ["au", "to-the"], ["marché", "market"]]
-    },
     {
       "id": "home",
       "english": "Home",
@@ -173,16 +143,6 @@
       "phrase": "Attends à l'arrêt de bus."
     },
     {
-      "id": "g_aller_au",
-      "grammar": true,
-      "english": "I'm going to the park. (aller à + place)",
-      "word": "je vais au parc",
-      "grammarNote": "**aller** (to go) + **à** for a destination; **à + le → au**:\n**je vais au parc**, **je vais à la plage** (to the beach). **aller** is irregular: **je vais, tu vas, il va, nous allons, vous allez, ils vont**.",
-      "englishPhrase": "We're going to the museum.",
-      "phrase": "Nous allons au musée.",
-      "literal": [["Nous", "we"], ["allons", "go"], ["au", "to-the"], ["musée", "museum"]]
-    },
-    {
       "id": "park",
       "english": "Park",
       "word": "Le parc",
@@ -197,7 +157,24 @@
       "grammarNote": "**il y a** = there is / there are. The **y** is a location pronoun meaning 'there'; **il y a** is a fixed expression.\n**une pharmacie** — feminine noun: **une** (indefinite article fem.).\n**près d'ici** — **de + ici** contracts to **d'ici** before a vowel.",
       "englishPhrase": "Is there a pharmacy nearby?",
       "phrase": "Est-ce qu'il y a une pharmacie près d'ici ?",
-      "literal": [["Est-ce qu'il y a", "is-there"], ["une", "a"], ["pharmacie", "pharmacy"], ["près d'ici", "nearby"]]
+      "literal": [
+        [
+          "Est-ce qu'il y a",
+          "is-there"
+        ],
+        [
+          "une",
+          "a"
+        ],
+        [
+          "pharmacie",
+          "pharmacy"
+        ],
+        [
+          "près d'ici",
+          "nearby"
+        ]
+      ]
     },
     {
       "id": "street",

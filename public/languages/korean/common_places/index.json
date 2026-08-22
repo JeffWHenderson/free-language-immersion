@@ -11,7 +11,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 27
+      "count": 23
     },
     {
       "n": 2,
@@ -23,42 +23,6 @@
   ],
   "cards": [
     {
-      "id": "g_isseoyo",
-      "grammar": true,
-      "english": "There is a bank. (… 있어요)",
-      "word": "은행이 있어요",
-      "romanized": "eunhaeng-i isseoyo",
-      "grammarNote": "**있어요** = there is / exists (also 'have'); the opposite is **없어요** (there isn't):\n**은행이 있어요** (there's a bank), **화장실이 없어요** (there's no bathroom). The thing takes the subject particle **이/가**.",
-      "englishPhrase": "Is there a bathroom here?",
-      "phrase": "여기 화장실 있어요?",
-      "phraseRomanized": "Yeogi hwajangsil isseoyo?",
-      "literal": [["여기", "here"], ["화장실", "bathroom"], ["있어요", "there-is"]]
-    },
-    {
-      "id": "g_e_location",
-      "grammar": true,
-      "english": "I'm at home. (place 에 + 있어요)",
-      "word": "집에 있어요",
-      "romanized": "jibe isseoyo",
-      "grammarNote": "**에** marks a static location with **있어요** (to be/exist) — and also a destination with motion verbs:\n**집에 있어요** (I'm at home), **학교에 가요** (I go to school). Read from the verb which meaning applies.",
-      "englishPhrase": "The bank is next to the school.",
-      "phrase": "은행은 학교 옆에 있어요.",
-      "phraseRomanized": "Eunhaeng-eun hakgyo yeope isseoyo.",
-      "literal": [["은행", "bank"], ["은", "(topic)"], ["학교", "school"], ["옆에", "next-to"], ["있어요", "is"]]
-    },
-    {
-      "id": "g_eseo_action",
-      "grammar": true,
-      "english": "I eat at a restaurant. (place 에서 + action)",
-      "word": "식당에서 먹어요",
-      "romanized": "sikdang-eseo meogeoyo",
-      "grammarNote": "Use **에서** for where an action takes place (vs **에** for existence/destination):\n**식당에서 먹어요** (eat at a restaurant), **집에서 일해요** (work at home). The action verb comes last.",
-      "englishPhrase": "I study at the library.",
-      "phrase": "도서관에서 공부해요.",
-      "phraseRomanized": "Doseogwan-eseo gongbuhaeyo.",
-      "literal": [["도서관", "library"], ["에서", "at"], ["공부해요", "study"]]
-    },
-    {
       "id": "home",
       "english": "Home",
       "word": "집",
@@ -67,7 +31,20 @@
       "englishPhrase": "I'm going home.",
       "phrase": "집에 가요.",
       "phraseRomanized": "jibe gayo",
-      "literal": [["집", "home"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "집",
+          "home"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "apartment",
@@ -78,7 +55,20 @@
       "englishPhrase": "I live in an apartment.",
       "phrase": "아파트에 살아요.",
       "phraseRomanized": "apateue sarayo",
-      "literal": [["아파트", "apartment"], ["에", "[at/to]"], ["살아요", "live"]]
+      "literal": [
+        [
+          "아파트",
+          "apartment"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ]
     },
     {
       "id": "school",
@@ -89,7 +79,28 @@
       "englishPhrase": "The children go to school.",
       "phrase": "아이들이 학교에 가요.",
       "phraseRomanized": "aideuri hakgyoe gayo",
-      "literal": [["아이들", "children"], ["이", "[subj]"], ["학교", "school"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "아이들",
+          "children"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "university",
@@ -100,7 +111,28 @@
       "englishPhrase": "She studies at the university.",
       "phrase": "그녀는 대학교에서 공부해요.",
       "phraseRomanized": "geunyeoneun daehakgyoeseo gongbuhaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["대학교", "university"], ["에서", "[at/from]"], ["공부해요", "studies"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "대학교",
+          "university"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "공부해요",
+          "studies"
+        ]
+      ]
     },
     {
       "id": "office",
@@ -111,7 +143,28 @@
       "englishPhrase": "He works in an office.",
       "phrase": "그는 사무실에서 일해요.",
       "phraseRomanized": "geuneun samusilleseo ilhaeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["사무실", "office"], ["에서", "[at/from]"], ["일해요", "works"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "works"
+        ]
+      ]
     },
     {
       "id": "hospital",
@@ -122,7 +175,20 @@
       "englishPhrase": "I'm going to the hospital.",
       "phrase": "병원에 가요.",
       "phraseRomanized": "byeongwone gayo",
-      "literal": [["병원", "hospital"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "병원",
+          "hospital"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "grocery_store",
@@ -133,7 +199,20 @@
       "englishPhrase": "I need to go to the supermarket.",
       "phrase": "슈퍼마켓에 가야 해요.",
       "phraseRomanized": "syupeomakete gaya haeyo",
-      "literal": [["슈퍼마켓", "supermarket"], ["에", "[at/to]"], ["가야 해요", "must go"]]
+      "literal": [
+        [
+          "슈퍼마켓",
+          "supermarket"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가야 해요",
+          "must go"
+        ]
+      ]
     },
     {
       "id": "bank",
@@ -144,7 +223,20 @@
       "englishPhrase": "I'm coming from the bank.",
       "phrase": "은행에서 왔어요.",
       "phraseRomanized": "eunhaengeseo wasseoyo",
-      "literal": [["은행", "bank"], ["에서", "[at/from]"], ["왔어요", "came"]]
+      "literal": [
+        [
+          "은행",
+          "bank"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "왔어요",
+          "came"
+        ]
+      ]
     },
     {
       "id": "library",
@@ -155,7 +247,20 @@
       "englishPhrase": "I study in the library.",
       "phrase": "도서관에서 공부해요.",
       "phraseRomanized": "doseogwaneseo gongbuhaeyo",
-      "literal": [["도서관", "library"], ["에서", "[at/from]"], ["공부해요", "study"]]
+      "literal": [
+        [
+          "도서관",
+          "library"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ]
     },
     {
       "id": "restaurant",
@@ -166,7 +271,24 @@
       "englishPhrase": "The restaurant is full.",
       "phrase": "식당이 꽉 찼어요.",
       "phraseRomanized": "sikdangi kkwak chasseoyo",
-      "literal": [["식당", "restaurant"], ["이", "[subj]"], ["꽉", "completely"], ["찼어요", "full"]]
+      "literal": [
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "꽉",
+          "completely"
+        ],
+        [
+          "찼어요",
+          "full"
+        ]
+      ]
     },
     {
       "id": "cafe",
@@ -177,7 +299,20 @@
       "englishPhrase": "Let's meet at the cafe.",
       "phrase": "카페에서 만나요.",
       "phraseRomanized": "kapeeseo mannayo",
-      "literal": [["카페", "cafe"], ["에서", "[at/from]"], ["만나요", "meet"]]
+      "literal": [
+        [
+          "카페",
+          "cafe"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ]
     },
     {
       "id": "hotel",
@@ -188,7 +323,28 @@
       "englishPhrase": "The hotel is downtown.",
       "phrase": "호텔이 시내에 있어요.",
       "phraseRomanized": "hoteli sinaee isseoyo",
-      "literal": [["호텔", "hotel"], ["이", "[subj]"], ["시내", "downtown"], ["에", "[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "airport",
@@ -199,7 +355,24 @@
       "englishPhrase": "The airport is far from here.",
       "phrase": "공항은 여기서 멀어요.",
       "phraseRomanized": "gonghang-eun yeogiseo meoreoyo",
-      "literal": [["공항", "airport"], ["은", "[topic]"], ["여기서", "here[at/from]"], ["멀어요", "far"]]
+      "literal": [
+        [
+          "공항",
+          "airport"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "여기서",
+          "here[at/from]"
+        ],
+        [
+          "멀어요",
+          "far"
+        ]
+      ]
     },
     {
       "id": "station",
@@ -210,7 +383,28 @@
       "englishPhrase": "The station is near the hotel.",
       "phrase": "역이 호텔 가까이에 있어요.",
       "phraseRomanized": "yeogi hotel gakkaie isseoyo",
-      "literal": [["역", "station"], ["이", "[subj]"], ["호텔", "hotel"], ["가까이에", "near[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "가까이에",
+          "near[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "bus_stop",
@@ -221,19 +415,20 @@
       "englishPhrase": "Wait at the bus stop.",
       "phrase": "버스 정류장에서 기다리세요.",
       "phraseRomanized": "beoseu jeongnyujangeseo gidariseyo",
-      "literal": [["버스 정류장", "bus stop"], ["에서", "[at/from]"], ["기다리세요", "please wait"]]
-    },
-    {
-      "id": "g_e_destination",
-      "grammar": true,
-      "english": "I go to the park. (destination 에 + 가요)",
-      "word": "공원에 가요",
-      "romanized": "gongwone gayo",
-      "grammarNote": "**에** + a motion verb (**가요** go, **와요** come) marks the destination:\n**공원에 가요** (go to the park), **집에 가요** (go home). The verb comes last.",
-      "englishPhrase": "I'm going to the airport tomorrow.",
-      "phrase": "내일 공항에 가요.",
-      "phraseRomanized": "Naeil gonghang-e gayo.",
-      "literal": [["내일", "tomorrow"], ["공항", "airport"], ["에", "to"], ["가요", "go"]]
+      "literal": [
+        [
+          "버스 정류장",
+          "bus stop"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "기다리세요",
+          "please wait"
+        ]
+      ]
     },
     {
       "id": "park",
@@ -244,7 +439,28 @@
       "englishPhrase": "The children play in the park.",
       "phrase": "아이들이 공원에서 놀아요.",
       "phraseRomanized": "aideuri gongwoneseo norayo",
-      "literal": [["아이들", "children"], ["이", "[subj]"], ["공원", "park"], ["에서", "[at/from]"], ["놀아요", "play"]]
+      "literal": [
+        [
+          "아이들",
+          "children"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "놀아요",
+          "play"
+        ]
+      ]
     },
     {
       "id": "street",
@@ -255,7 +471,32 @@
       "englishPhrase": "The restaurant is on this street.",
       "phrase": "식당이 이 거리에 있어요.",
       "phraseRomanized": "sikdangi i georie isseoyo",
-      "literal": [["식당", "restaurant"], ["이", "[subj]"], ["이", "this"], ["거리", "street"], ["에", "[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "이",
+          "this"
+        ],
+        [
+          "거리",
+          "street"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "bridge",
@@ -266,7 +507,20 @@
       "englishPhrase": "We crossed the bridge.",
       "phrase": "다리를 건넜어요.",
       "phraseRomanized": "darireul geonneosseoyo",
-      "literal": [["다리", "bridge"], ["를", "[obj]"], ["건넜어요", "crossed"]],
+      "literal": [
+        [
+          "다리",
+          "bridge"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "건넜어요",
+          "crossed"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -278,7 +532,28 @@
       "englishPhrase": "Turn right at the corner.",
       "phrase": "모퉁이에서 오른쪽으로 도세요.",
       "phraseRomanized": "motungieseo oreunjjogeuro doseyo",
-      "literal": [["모퉁이", "corner"], ["에서", "[at/from]"], ["오른쪽", "right-side"], ["으로", "[to/by]"], ["도세요", "please turn"]],
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "오른쪽",
+          "right-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -290,7 +565,28 @@
       "englishPhrase": "The museum is downtown.",
       "phrase": "박물관이 시내에 있어요.",
       "phraseRomanized": "bakmulgwani sinaee isseoyo",
-      "literal": [["박물관", "museum"], ["이", "[subj]"], ["시내", "downtown"], ["에", "[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "neighbourhood",
@@ -301,7 +597,24 @@
       "englishPhrase": "I live in a quiet neighbourhood.",
       "phrase": "조용한 동네에 살아요.",
       "phraseRomanized": "joyonghan dongnee sarayo",
-      "literal": [["조용한", "quiet"], ["동네", "neighbourhood"], ["에", "[at/to]"], ["살아요", "live"]]
+      "literal": [
+        [
+          "조용한",
+          "quiet"
+        ],
+        [
+          "동네",
+          "neighbourhood"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ]
     },
     {
       "id": "beach",
@@ -312,7 +625,20 @@
       "englishPhrase": "The beach is beautiful.",
       "phrase": "해변이 아름다워요.",
       "phraseRomanized": "haebyeoni areumdawoyo",
-      "literal": [["해변", "beach"], ["이", "[subj]"], ["아름다워요", "beautiful"]]
+      "literal": [
+        [
+          "해변",
+          "beach"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아름다워요",
+          "beautiful"
+        ]
+      ]
     },
     {
       "id": "mountain",
@@ -323,7 +649,24 @@
       "englishPhrase": "The mountain is very high.",
       "phrase": "산이 매우 높아요.",
       "phraseRomanized": "sani maeu nopayo",
-      "literal": [["산", "mountain"], ["이", "[subj]"], ["매우", "very"], ["높아요", "high"]]
+      "literal": [
+        [
+          "산",
+          "mountain"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "높아요",
+          "high"
+        ]
+      ]
     },
     {
       "id": "museum",
@@ -334,7 +677,20 @@
       "englishPhrase": "I want to visit the museum.",
       "phrase": "박물관을 방문하고 싶어요.",
       "phraseRomanized": "bakmulgwaneul bangmunhago sipeoyo",
-      "literal": [["박물관", "museum"], ["을", "[obj]"], ["방문하고 싶어요", "want to visit"]]
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "방문하고 싶어요",
+          "want to visit"
+        ]
+      ]
     },
     {
       "id": "movie_theater",
@@ -345,7 +701,24 @@
       "englishPhrase": "We're going to the cinema tonight.",
       "phrase": "오늘 밤 영화관에 가요.",
       "phraseRomanized": "oneul bam yeonghwagwane gayo",
-      "literal": [["오늘 밤", "tonight"], ["영화관", "cinema"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "오늘 밤",
+          "tonight"
+        ],
+        [
+          "영화관",
+          "cinema"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "map",
@@ -356,7 +729,16 @@
       "englishPhrase": "Do you have a map?",
       "phrase": "지도 있어요?",
       "phraseRomanized": "jido isseoyo",
-      "literal": [["지도", "map"], ["있어요", "have"]]
+      "literal": [
+        [
+          "지도",
+          "map"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ]
     },
     {
       "id": "direction",
@@ -367,7 +749,28 @@
       "englishPhrase": "Which direction is the station?",
       "phrase": "역은 어느 방향이에요?",
       "phraseRomanized": "yeogeun eoneu bangyangiеyo",
-      "literal": [["역", "station"], ["은", "[topic]"], ["어느", "which"], ["방향", "direction"], ["이에요", "is"]]
+      "literal": [
+        [
+          "역",
+          "station"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "어느",
+          "which"
+        ],
+        [
+          "방향",
+          "direction"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "in",
@@ -378,7 +781,28 @@
       "englishPhrase": "The keys are in the bag.",
       "phrase": "열쇠가 가방 안에 있어요.",
       "phraseRomanized": "yeolsoega gabang ane isseoyo",
-      "literal": [["열쇠", "keys"], ["가", "[subj]"], ["가방", "bag"], ["안에", "inside[at/to]"], ["있어요", "is"]],
+      "literal": [
+        [
+          "열쇠",
+          "keys"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "가방",
+          "bag"
+        ],
+        [
+          "안에",
+          "inside[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -390,7 +814,28 @@
       "englishPhrase": "The book is on the table.",
       "phrase": "책이 테이블 위에 있어요.",
       "phraseRomanized": "chaegi teibeul wie isseoyo",
-      "literal": [["책", "book"], ["이", "[subj]"], ["테이블", "table"], ["위에", "on-top[at/to]"], ["있어요", "is"]],
+      "literal": [
+        [
+          "책",
+          "book"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "위에",
+          "on-top[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -402,7 +847,20 @@
       "englishPhrase": "I'm at the office.",
       "phrase": "사무실에 있어요.",
       "phraseRomanized": "samusile isseoyo",
-      "literal": [["사무실", "office"], ["에", "[at/to]"], ["있어요", "is"]],
+      "literal": [
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -414,7 +872,28 @@
       "englishPhrase": "The cat is under the table.",
       "phrase": "고양이가 테이블 밑에 있어요.",
       "phraseRomanized": "goyang-iga teibeul mite isseoyo",
-      "literal": [["고양이", "cat"], ["가", "[subj]"], ["테이블", "table"], ["밑에", "under[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "고양이",
+          "cat"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "밑에",
+          "under[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "next_to",
@@ -425,7 +904,28 @@
       "englishPhrase": "The bank is next to the cafe.",
       "phrase": "은행이 카페 옆에 있어요.",
       "phraseRomanized": "eunhaengi kape yeope isseoyo",
-      "literal": [["은행", "bank"], ["이", "[subj]"], ["카페", "cafe"], ["옆에", "next-to[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "은행",
+          "bank"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "카페",
+          "cafe"
+        ],
+        [
+          "옆에",
+          "next-to[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "between",
@@ -436,7 +936,36 @@
       "englishPhrase": "The park is between the school and the library.",
       "phrase": "공원이 학교와 도서관 사이에 있어요.",
       "phraseRomanized": "gongwoni hakgyowa doseogwan saie isseoyo",
-      "literal": [["공원", "park"], ["이", "[subj]"], ["학교", "school"], ["와", "[and/with]"], ["도서관", "library"], ["사이에", "between[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "와",
+          "[and/with]"
+        ],
+        [
+          "도서관",
+          "library"
+        ],
+        [
+          "사이에",
+          "between[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "in_front_of",
@@ -447,7 +976,28 @@
       "englishPhrase": "The taxi is in front of the hotel.",
       "phrase": "택시가 호텔 앞에 있어요.",
       "phraseRomanized": "taeksiga hotel ape isseoyo",
-      "literal": [["택시", "taxi"], ["가", "[subj]"], ["호텔", "hotel"], ["앞에", "in-front[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "택시",
+          "taxi"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "앞에",
+          "in-front[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "behind",
@@ -458,7 +1008,28 @@
       "englishPhrase": "The garden is behind the house.",
       "phrase": "정원이 집 뒤에 있어요.",
       "phraseRomanized": "jeongwoni jip dwie isseoyo",
-      "literal": [["정원", "garden"], ["이", "[subj]"], ["집", "house"], ["뒤에", "behind[at/to]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "정원",
+          "garden"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "집",
+          "house"
+        ],
+        [
+          "뒤에",
+          "behind[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "near",
@@ -469,7 +1040,32 @@
       "englishPhrase": "Is there a restaurant near here?",
       "phrase": "여기 근처에 식당이 있어요?",
       "phraseRomanized": "yeogi geuncheoe sikdangi isseoyo",
-      "literal": [["여기", "here"], ["근처", "near"], ["에", "[at/to]"], ["식당", "restaurant"], ["이", "[subj]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "근처",
+          "near"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "far",
@@ -480,7 +1076,20 @@
       "englishPhrase": "Is the airport far?",
       "phrase": "공항이 멀어요?",
       "phraseRomanized": "gonghangı meoreoyo",
-      "literal": [["공항", "airport"], ["이", "[subj]"], ["멀어요", "far"]]
+      "literal": [
+        [
+          "공항",
+          "airport"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "멀어요",
+          "far"
+        ]
+      ]
     },
     {
       "id": "here",
@@ -491,7 +1100,16 @@
       "englishPhrase": "Come here, please.",
       "phrase": "여기 오세요.",
       "phraseRomanized": "yeogi oseyo",
-      "literal": [["여기", "here"], ["오세요", "please come"]]
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "오세요",
+          "please come"
+        ]
+      ]
     },
     {
       "id": "there",
@@ -502,7 +1120,24 @@
       "englishPhrase": "The taxi is over there.",
       "phrase": "택시가 저기 있어요.",
       "phraseRomanized": "taeksiga jeogi isseoyo",
-      "literal": [["택시", "taxi"], ["가", "[subj]"], ["저기", "over-there"], ["있어요", "is"]]
+      "literal": [
+        [
+          "택시",
+          "taxi"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "저기",
+          "over-there"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "left",
@@ -513,7 +1148,20 @@
       "englishPhrase": "Turn left.",
       "phrase": "왼쪽으로 도세요.",
       "phraseRomanized": "oenjjogeuro doseyo",
-      "literal": [["왼쪽", "left-side"], ["으로", "[to/by]"], ["도세요", "please turn"]]
+      "literal": [
+        [
+          "왼쪽",
+          "left-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ]
     },
     {
       "id": "right",
@@ -524,7 +1172,20 @@
       "englishPhrase": "Turn right.",
       "phrase": "오른쪽으로 도세요.",
       "phraseRomanized": "oreunjjogeuro doseyo",
-      "literal": [["오른쪽", "right-side"], ["으로", "[to/by]"], ["도세요", "please turn"]]
+      "literal": [
+        [
+          "오른쪽",
+          "right-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ]
     },
     {
       "id": "straight_ahead",
@@ -535,7 +1196,12 @@
       "englishPhrase": "Go straight ahead.",
       "phrase": "직진하세요.",
       "phraseRomanized": "jikjinhaseyo",
-      "literal": [["직진하세요", "please go-straight"]]
+      "literal": [
+        [
+          "직진하세요",
+          "please go-straight"
+        ]
+      ]
     },
     {
       "id": "north",
@@ -546,7 +1212,28 @@
       "englishPhrase": "The city is to the north.",
       "phrase": "도시는 북쪽에 있어요.",
       "phraseRomanized": "dosineun bukjjoge isseoyo",
-      "literal": [["도시", "city"], ["는", "[topic]"], ["북쪽", "north-side"], ["에", "[at/to]"], ["있어요", "is"]],
+      "literal": [
+        [
+          "도시",
+          "city"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "북쪽",
+          "north-side"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -558,7 +1245,28 @@
       "englishPhrase": "The beach is to the south.",
       "phrase": "해변은 남쪽에 있어요.",
       "phraseRomanized": "haebyeoneun namjjoge isseoyo",
-      "literal": [["해변", "beach"], ["은", "[topic]"], ["남쪽", "south-side"], ["에", "[at/to]"], ["있어요", "is"]],
+      "literal": [
+        [
+          "해변",
+          "beach"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "남쪽",
+          "south-side"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -570,7 +1278,28 @@
       "englishPhrase": "The sun rises in the east.",
       "phrase": "태양은 동쪽에서 떠요.",
       "phraseRomanized": "taeyyangeun dongjjogeseo tteoyo",
-      "literal": [["태양", "sun"], ["은", "[topic]"], ["동쪽", "east-side"], ["에서", "[at/from]"], ["떠요", "rises"]],
+      "literal": [
+        [
+          "태양",
+          "sun"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "동쪽",
+          "east-side"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "떠요",
+          "rises"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -582,7 +1311,28 @@
       "englishPhrase": "The sun sets in the west.",
       "phrase": "태양은 서쪽으로 져요.",
       "phraseRomanized": "taeyyangeun seojjogeuro jyeoyo",
-      "literal": [["태양", "sun"], ["은", "[topic]"], ["서쪽", "west-side"], ["으로", "[to/by]"], ["져요", "sets"]],
+      "literal": [
+        [
+          "태양",
+          "sun"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "서쪽",
+          "west-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "져요",
+          "sets"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -594,7 +1344,24 @@
       "englishPhrase": "Is there a pharmacy nearby?",
       "phrase": "근처에 약국이 있어요?",
       "phraseRomanized": "geuncheoe yakgugi isseoyo",
-      "literal": [["근처에", "nearby[at/to]"], ["약국", "pharmacy"], ["이", "[subj]"], ["있어요", "is"]]
+      "literal": [
+        [
+          "근처에",
+          "nearby[at/to]"
+        ],
+        [
+          "약국",
+          "pharmacy"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "to_go",
@@ -605,7 +1372,20 @@
       "englishPhrase": "I'm going to the supermarket.",
       "phrase": "슈퍼마켓에 가요.",
       "phraseRomanized": "syupeomakete gayo",
-      "literal": [["슈퍼마켓", "supermarket"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "슈퍼마켓",
+          "supermarket"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "to_come",
@@ -616,7 +1396,24 @@
       "englishPhrase": "Come to my house.",
       "phrase": "우리 집에 오세요.",
       "phraseRomanized": "uri jibe oseyo",
-      "literal": [["우리", "our"], ["집", "home"], ["에", "[at/to]"], ["오세요", "please come"]]
+      "literal": [
+        [
+          "우리",
+          "our"
+        ],
+        [
+          "집",
+          "home"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "오세요",
+          "please come"
+        ]
+      ]
     },
     {
       "id": "to_travel",
@@ -627,7 +1424,16 @@
       "englishPhrase": "I love to travel.",
       "phrase": "여행하는 걸 좋아해요.",
       "phraseRomanized": "yeohaenghaneun geol joahaeyo",
-      "literal": [["여행하는 걸", "traveling[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "여행하는 걸",
+          "traveling[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "to_walk",
@@ -638,7 +1444,20 @@
       "englishPhrase": "I walk to work every day.",
       "phrase": "매일 걸어서 출근해요.",
       "phraseRomanized": "maeil georeoeseo chulgeunhaeyo",
-      "literal": [["매일", "every-day"], ["걸어서", "walking"], ["출근해요", "commute"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "걸어서",
+          "walking"
+        ],
+        [
+          "출근해요",
+          "commute"
+        ]
+      ]
     },
     {
       "id": "to_drive",
@@ -649,7 +1468,28 @@
       "englishPhrase": "She drives to the office.",
       "phrase": "그녀는 사무실까지 운전해요.",
       "phraseRomanized": "geunyeoneun samusilkkaji unjeonhaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["사무실", "office"], ["까지", "[until]"], ["운전해요", "drives"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "까지",
+          "[until]"
+        ],
+        [
+          "운전해요",
+          "drives"
+        ]
+      ]
     },
     {
       "id": "to_turn",
@@ -660,7 +1500,28 @@
       "englishPhrase": "Turn left at the corner.",
       "phrase": "모퉁이에서 왼쪽으로 도세요.",
       "phraseRomanized": "motungieseo oenjjogeuro doseyo",
-      "literal": [["모퉁이", "corner"], ["에서", "[at/from]"], ["왼쪽", "left-side"], ["으로", "[to/by]"], ["도세요", "please turn"]],
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "왼쪽",
+          "left-side"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "도세요",
+          "please turn"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -672,7 +1533,24 @@
       "englishPhrase": "Cross the street carefully.",
       "phrase": "조심해서 길을 건너세요.",
       "phraseRomanized": "josimhaeseo gireul geonneoseyo",
-      "literal": [["조심해서", "carefully"], ["길", "road"], ["을", "[obj]"], ["건너세요", "please cross"]],
+      "literal": [
+        [
+          "조심해서",
+          "carefully"
+        ],
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "건너세요",
+          "please cross"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -684,7 +1562,24 @@
       "englishPhrase": "Follow this street.",
       "phrase": "이 거리를 따라가세요.",
       "phraseRomanized": "i georireul ttaragaseyo",
-      "literal": [["이", "this"], ["거리", "street"], ["를", "[obj]"], ["따라가세요", "please follow"]],
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "거리",
+          "street"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "따라가세요",
+          "please follow"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -696,7 +1591,20 @@
       "englishPhrase": "Enter through the main door.",
       "phrase": "정문으로 들어가세요.",
       "phraseRomanized": "jeongmuneuro deureogaseyo",
-      "literal": [["정문", "main-door"], ["으로", "[to/by]"], ["들어가세요", "please enter"]]
+      "literal": [
+        [
+          "정문",
+          "main-door"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "들어가세요",
+          "please enter"
+        ]
+      ]
     },
     {
       "id": "to_leave",
@@ -707,7 +1615,20 @@
       "englishPhrase": "I leave work at five.",
       "phrase": "다섯 시에 퇴근해요.",
       "phraseRomanized": "daseot sie toegeunhaeyo",
-      "literal": [["다섯 시", "five o'clock"], ["에", "[at/to]"], ["퇴근해요", "leave-work"]]
+      "literal": [
+        [
+          "다섯 시",
+          "five o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "퇴근해요",
+          "leave-work"
+        ]
+      ]
     },
     {
       "id": "to_arrive",
@@ -718,7 +1639,16 @@
       "englishPhrase": "We arrive tomorrow.",
       "phrase": "내일 도착해요.",
       "phraseRomanized": "naeil dochaghaeyo",
-      "literal": [["내일", "tomorrow"], ["도착해요", "arrive"]]
+      "literal": [
+        [
+          "내일",
+          "tomorrow"
+        ],
+        [
+          "도착해요",
+          "arrive"
+        ]
+      ]
     },
     {
       "id": "to_visit",
@@ -729,7 +1659,20 @@
       "englishPhrase": "I want to visit the museum.",
       "phrase": "박물관을 방문하고 싶어요.",
       "phraseRomanized": "bakmulgwaneul bangmunhago sipeoyo",
-      "literal": [["박물관", "museum"], ["을", "[obj]"], ["방문하고 싶어요", "want to visit"]]
+      "literal": [
+        [
+          "박물관",
+          "museum"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "방문하고 싶어요",
+          "want to visit"
+        ]
+      ]
     },
     {
       "id": "to_live",
@@ -740,7 +1683,20 @@
       "englishPhrase": "I live near the city centre.",
       "phrase": "시내 근처에 살아요.",
       "phraseRomanized": "sinai geuncheoe sarayo",
-      "literal": [["시내", "downtown"], ["근처에", "near[at/to]"], ["살아요", "live"]],
+      "literal": [
+        [
+          "시내",
+          "downtown"
+        ],
+        [
+          "근처에",
+          "near[at/to]"
+        ],
+        [
+          "살아요",
+          "live"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -752,7 +1708,20 @@
       "englishPhrase": "We're staying at a hotel.",
       "phrase": "호텔에 묵고 있어요.",
       "phraseRomanized": "hotele mukgo isseoyo",
-      "literal": [["호텔", "hotel"], ["에", "[at/to]"], ["묵고 있어요", "staying"]],
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "묵고 있어요",
+          "staying"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -764,7 +1733,16 @@
       "englishPhrase": "I'll wait for you here.",
       "phrase": "여기서 기다릴게요.",
       "phraseRomanized": "yeogiseo gidarilgeyo",
-      "literal": [["여기서", "here[at/from]"], ["기다릴게요", "will wait"]],
+      "literal": [
+        [
+          "여기서",
+          "here[at/from]"
+        ],
+        [
+          "기다릴게요",
+          "will wait"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -776,7 +1754,20 @@
       "englishPhrase": "Let's meet at the park.",
       "phrase": "공원에서 만나요.",
       "phraseRomanized": "gongwoneseo mannayo",
-      "literal": [["공원", "park"], ["에서", "[at/from]"], ["만나요", "meet"]]
+      "literal": [
+        [
+          "공원",
+          "park"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ]
     },
     {
       "id": "to_get_lost",
@@ -787,7 +1778,24 @@
       "englishPhrase": "Don't get lost!",
       "phrase": "길을 잃지 마세요!",
       "phraseRomanized": "gireul ilji maseyo",
-      "literal": [["길", "road"], ["을", "[obj]"], ["잃지", "lose[not]"], ["마세요", "please don't"]]
+      "literal": [
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잃지",
+          "lose[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
     },
     {
       "id": "to_find",
@@ -798,7 +1806,24 @@
       "englishPhrase": "I can't find the hotel.",
       "phrase": "호텔을 못 찾겠어요.",
       "phraseRomanized": "hoteleul mot chatgesseoyo",
-      "literal": [["호텔", "hotel"], ["을", "[obj]"], ["못", "cannot"], ["찾겠어요", "find"]]
+      "literal": [
+        [
+          "호텔",
+          "hotel"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "못",
+          "cannot"
+        ],
+        [
+          "찾겠어요",
+          "find"
+        ]
+      ]
     },
     {
       "id": "to_look_for",
@@ -809,7 +1834,20 @@
       "englishPhrase": "I'm looking for the pharmacy.",
       "phrase": "약국을 찾고 있어요.",
       "phraseRomanized": "yakguk-eul chatgo isseoyo",
-      "literal": [["약국", "pharmacy"], ["을", "[obj]"], ["찾고 있어요", "looking for"]]
+      "literal": [
+        [
+          "약국",
+          "pharmacy"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "찾고 있어요",
+          "looking for"
+        ]
+      ]
     },
     {
       "id": "to_stop",
@@ -820,7 +1858,20 @@
       "englishPhrase": "Stop at the corner.",
       "phrase": "모퉁이에서 멈추세요.",
       "phraseRomanized": "motungieseo meomchuseyo",
-      "literal": [["모퉁이", "corner"], ["에서", "[at/from]"], ["멈추세요", "please stop"]],
+      "literal": [
+        [
+          "모퉁이",
+          "corner"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "멈추세요",
+          "please stop"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -832,7 +1883,20 @@
       "englishPhrase": "Where can I park?",
       "phrase": "어디에 주차할 수 있어요?",
       "phraseRomanized": "eodie juchahal su isseoyo",
-      "literal": [["어디", "where"], ["에", "[at/to]"], ["주차할 수 있어요", "park can"]],
+      "literal": [
+        [
+          "어디",
+          "where"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "주차할 수 있어요",
+          "park can"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -844,7 +1908,24 @@
       "englishPhrase": "The market is very crowded.",
       "phrase": "시장이 매우 붐벼요.",
       "phraseRomanized": "sijangi maeu bumbeoyo",
-      "literal": [["시장", "market"], ["이", "[subj]"], ["매우", "very"], ["붐벼요", "crowded"]]
+      "literal": [
+        [
+          "시장",
+          "market"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "붐벼요",
+          "crowded"
+        ]
+      ]
     },
     {
       "id": "quiet",
@@ -855,7 +1936,28 @@
       "englishPhrase": "I prefer a quiet neighbourhood.",
       "phrase": "조용한 동네를 더 좋아해요.",
       "phraseRomanized": "joyonghan dongnereul deo joahaeyo",
-      "literal": [["조용한", "quiet"], ["동네", "neighbourhood"], ["를", "[obj]"], ["더", "more"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "조용한",
+          "quiet"
+        ],
+        [
+          "동네",
+          "neighbourhood"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "더",
+          "more"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "lost",
@@ -866,7 +1968,20 @@
       "englishPhrase": "I'm lost.",
       "phrase": "길을 잃었어요.",
       "phraseRomanized": "gireul ilheosseoyo",
-      "literal": [["길", "road"], ["을", "[obj]"], ["잃었어요", "lost"]]
+      "literal": [
+        [
+          "길",
+          "road"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잃었어요",
+          "lost"
+        ]
+      ]
     }
   ]
 }

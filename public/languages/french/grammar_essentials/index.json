@@ -1,0 +1,998 @@
+{
+  "id": "grammar_essentials",
+  "name": "Grammar Essentials",
+  "language": "french",
+  "cards": [
+    {
+      "id": "g_gender_articles",
+      "grammar": true,
+      "english": "the bread / the apple (le / la)",
+      "word": "le pain / la pomme",
+      "grammarNote": "Every French noun is masculine or feminine, and the article shows which:\n**le** (masc.) / **la** (fem.); **un** / **une** for 'a'. → **le pain** (bread), **la pomme** (apple). Before a vowel, **le/la → l'**: **l'eau** (water).",
+      "englishPhrase": "The man and the woman.",
+      "phrase": "L'homme et la femme.",
+      "literal": [
+        [
+          "L'homme",
+          "the-man"
+        ],
+        [
+          "et",
+          "and"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "femme",
+          "woman"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "French definite articles («the»)",
+        "rows": [
+          [
+            "masculine",
+            "le (le pain)"
+          ],
+          [
+            "feminine",
+            "la (la pomme)"
+          ],
+          [
+            "before vowel",
+            "l’ (l’eau)"
+          ],
+          [
+            "plural",
+            "les (les pains)"
+          ]
+        ],
+        "note": "Every noun has a gender — learn it with its article."
+      }
+    },
+    {
+      "id": "g_etre_pronoun",
+      "grammar": true,
+      "english": "I am a student. (subject pronoun required)",
+      "word": "je suis étudiant",
+      "grammarNote": "French always keeps the subject pronoun, and **être** (to be) is irregular:\n**je suis** (I am), **tu es** (you are), **il/elle est** (he/she is), **nous sommes**, **vous êtes**, **ils/elles sont**.",
+      "englishPhrase": "I'm a student, and you?",
+      "phrase": "Je suis étudiant, et toi ?",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "suis",
+          "am"
+        ],
+        [
+          "étudiant",
+          "student"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "être — to be",
+        "rows": [
+          [
+            "je",
+            "suis"
+          ],
+          [
+            "tu",
+            "es"
+          ],
+          [
+            "il / elle",
+            "est"
+          ],
+          [
+            "nous",
+            "sommes"
+          ],
+          [
+            "vous",
+            "êtes"
+          ],
+          [
+            "ils / elles",
+            "sont"
+          ]
+        ],
+        "note": "The subject pronoun is required in French."
+      }
+    },
+    {
+      "id": "g_tu_vous",
+      "grammar": true,
+      "english": "you (formal or plural → vous)",
+      "word": "vous",
+      "grammarNote": "Two words for 'you': **tu** (informal, one person you know) · **vous** (formal, or more than one person):\n**tu es** (a friend) vs **vous êtes** (a stranger, or a group). Using **tu** with a stranger can seem too familiar.",
+      "englishPhrase": "How are you? (formal)",
+      "phrase": "Comment allez-vous ?",
+      "literal": [
+        [
+          "Comment",
+          "how"
+        ],
+        [
+          "allez",
+          "go"
+        ],
+        [
+          "vous",
+          "you"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "«you» — tu or vous?",
+        "a": {
+          "term": "tu",
+          "gloss": "one friend, child, family — informal"
+        },
+        "b": {
+          "term": "vous",
+          "gloss": "a stranger/elder, or several people — formal & plural"
+        }
+      }
+    },
+    {
+      "id": "g_negation_nepas",
+      "grammar": true,
+      "english": "I don't understand. (ne … pas wraps the verb)",
+      "word": "je ne comprends pas",
+      "grammarNote": "Negation wraps the verb in two parts: **ne** + verb + **pas**:\n**je ne comprends pas** (I don't understand), **je ne sais pas** (I don't know). In casual speech the **ne** is often dropped: **je sais pas**.",
+      "englishPhrase": "I don't know.",
+      "phrase": "Je ne sais pas.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "ne",
+          "(not)"
+        ],
+        [
+          "sais",
+          "know"
+        ],
+        [
+          "pas",
+          "not"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Negation wraps the verb: ne + verb + pas",
+        "task": "say: I don't understand",
+        "answer": "je ne comprends pas",
+        "gloss": "ne … pas hug the verb. Before a vowel ne → n' : je n'ai pas."
+      }
+    },
+    {
+      "id": "g_question_estce",
+      "grammar": true,
+      "english": "Do you speak French? (est-ce que)",
+      "word": "est-ce que tu parles français ?",
+      "grammarNote": "Three ways to ask a yes/no question:\n1) rising intonation — **Tu parles français ?**  2) add **est-ce que** in front — **Est-ce que tu parles français ?**  3) invert verb + pronoun — **Parles-tu français ?** (most formal).",
+      "englishPhrase": "Are you okay?",
+      "phrase": "Est-ce que ça va ?",
+      "literal": [
+        [
+          "Est-ce que",
+          "(question)"
+        ],
+        [
+          "ça",
+          "it"
+        ],
+        [
+          "va",
+          "goes"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Make a yes/no question with est-ce que + statement",
+        "task": "ask: do you speak French?",
+        "answer": "est-ce que tu parles français ?",
+        "gloss": "The word order after est-ce que doesn't change."
+      }
+    },
+    {
+      "id": "g_partitive",
+      "grammar": true,
+      "english": "some bread (du / de la / des)",
+      "word": "du pain",
+      "grammarNote": "For an unspecified quantity ('some'), French uses the partitive:\n**du** (masc.) **du pain** (some bread), **de la** (fem.) **de la viande** (some meat), **de l'** before a vowel **de l'eau**, **des** (plural) **des pommes**.",
+      "englishPhrase": "I'm eating some bread and some cheese.",
+      "phrase": "Je mange du pain et du fromage.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "mange",
+          "eat"
+        ],
+        [
+          "du",
+          "some"
+        ],
+        [
+          "pain",
+          "bread"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Partitive — «some»",
+        "rows": [
+          [
+            "masculine",
+            "du (du pain)"
+          ],
+          [
+            "feminine",
+            "de la (de la confiture)"
+          ],
+          [
+            "before vowel",
+            "de l’ (de l’eau)"
+          ],
+          [
+            "plural",
+            "des (des fruits)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g_voudrais",
+      "grammar": true,
+      "english": "I would like a coffee. (je voudrais — polite)",
+      "word": "je voudrais un café",
+      "grammarNote": "**je voudrais** (I would like) is the polite way to order — softer than **je veux** (I want):\n**je voudrais un café, s'il vous plaît**. It's the conditional of **vouloir**.",
+      "englishPhrase": "I'd like a tea, please.",
+      "phrase": "Je voudrais un thé, s'il vous plaît.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "voudrais",
+          "would-like"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "thé",
+          "tea"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "je voudrais = I would like (polite request)",
+        "task": "order: I would like a coffee",
+        "answer": "je voudrais un café",
+        "gloss": "Softer than je veux (I want)."
+      }
+    },
+    {
+      "id": "g_jaime_definite",
+      "grammar": true,
+      "english": "I like coffee. (j'aime + le/la)",
+      "word": "j'aime le café",
+      "grammarNote": "With **aimer** (to like/love), use the **definite article** for things in general:\n**j'aime le café** (I like coffee), **j'aime les pommes** (I like apples). Compare the partitive **du café** = 'some coffee' (a quantity).",
+      "englishPhrase": "I love chocolate!",
+      "phrase": "J'aime le chocolat !",
+      "literal": [
+        [
+          "J'aime",
+          "I-like"
+        ],
+        [
+          "le",
+          "the"
+        ],
+        [
+          "chocolat",
+          "chocolate"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "«coffee»: le café or du café?",
+        "a": {
+          "term": "j’aime le café",
+          "gloss": "like it in general → definite le/la"
+        },
+        "b": {
+          "term": "je bois du café",
+          "gloss": "some of it → partitive du/de la"
+        }
+      }
+    },
+    {
+      "id": "g_cest_adjective",
+      "grammar": true,
+      "english": "It's delicious! (c'est + adjective)",
+      "word": "c'est délicieux",
+      "grammarNote": "**c'est** (it is / that is) + adjective gives a quick reaction:\n**c'est délicieux** (it's delicious), **c'est bon** (it's good). The adjective stays masculine singular after **c'est**.",
+      "englishPhrase": "The soup is very good!",
+      "phrase": "La soupe est très bonne !",
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "soupe",
+          "soup"
+        ],
+        [
+          "est",
+          "is"
+        ],
+        [
+          "très",
+          "very"
+        ],
+        [
+          "bonne",
+          "good"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "c'est + adjective = it's / that's …",
+        "task": "say: it's delicious!",
+        "answer": "c'est délicieux",
+        "gloss": "Use c'est for a general 'it', with the masculine adjective form."
+      }
+    },
+    {
+      "id": "g_ilya",
+      "grammar": true,
+      "english": "There is a bank. (il y a)",
+      "word": "il y a une banque",
+      "grammarNote": "**il y a** = there is / there are — one fixed phrase for both:\n**il y a une banque** (there's a bank), **il y a deux musées** (there are two museums). Literally 'it there has'.",
+      "englishPhrase": "Is there a restaurant nearby?",
+      "phrase": "Il y a un restaurant près d'ici ?",
+      "literal": [
+        [
+          "Il y a",
+          "there-is"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "restaurant",
+          "restaurant"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "il y a = there is / there are (never changes)",
+        "task": "say: there is a bank",
+        "answer": "il y a une banque",
+        "gloss": "Same for plural: il y a deux banques."
+      }
+    },
+    {
+      "id": "g_prepositions_place",
+      "grammar": true,
+      "english": "in the house (dans / sur / sous)",
+      "word": "dans la maison",
+      "grammarNote": "Common position words:\n**dans** (in) **dans la maison**, **sur** (on) **sur la table**, **sous** (under) **sous le lit**, **devant** (in front of), **derrière** (behind), **à côté de** (next to).",
+      "englishPhrase": "The cat is on the table.",
+      "phrase": "Le chat est sur la table.",
+      "literal": [
+        [
+          "Le",
+          "the"
+        ],
+        [
+          "chat",
+          "cat"
+        ],
+        [
+          "est",
+          "is"
+        ],
+        [
+          "sur",
+          "on"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "table",
+          "table"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Spatial prepositions",
+        "rows": [
+          [
+            "dans",
+            "in (dans la maison)"
+          ],
+          [
+            "sur",
+            "on (sur la table)"
+          ],
+          [
+            "sous",
+            "under (sous le lit)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g_au_contraction",
+      "grammar": true,
+      "english": "to the / of the (à+le=au, de+le=du)",
+      "word": "au / du",
+      "grammarNote": "**à** and **de** contract before masculine **le** and plural **les**:\n**à + le → au**, **à + les → aux**; **de + le → du**, **de + les → des**. → **au parc** (to the park), **la porte du café**. No change with **la** or **l'**.",
+      "englishPhrase": "I'm going to the market.",
+      "phrase": "Je vais au marché.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "vais",
+          "go"
+        ],
+        [
+          "au",
+          "to-the"
+        ],
+        [
+          "marché",
+          "market"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Contractions with à and de",
+        "rows": [
+          [
+            "à + le",
+            "au (au parc)"
+          ],
+          [
+            "à + les",
+            "aux (aux toilettes)"
+          ],
+          [
+            "de + le",
+            "du (du café)"
+          ],
+          [
+            "de + les",
+            "des (des enfants)"
+          ]
+        ],
+        "note": "à la / de la don’t contract."
+      }
+    },
+    {
+      "id": "g_aller_au",
+      "grammar": true,
+      "english": "I'm going to the park. (aller à + place)",
+      "word": "je vais au parc",
+      "grammarNote": "**aller** (to go) + **à** for a destination; **à + le → au**:\n**je vais au parc**, **je vais à la plage** (to the beach). **aller** is irregular: **je vais, tu vas, il va, nous allons, vous allez, ils vont**.",
+      "englishPhrase": "We're going to the museum.",
+      "phrase": "Nous allons au musée.",
+      "literal": [
+        [
+          "Nous",
+          "we"
+        ],
+        [
+          "allons",
+          "go"
+        ],
+        [
+          "au",
+          "to-the"
+        ],
+        [
+          "musée",
+          "museum"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "aller à + place = to go to (à + le → au)",
+        "task": "say: I'm going to the park",
+        "answer": "je vais au parc",
+        "gloss": "à+le→au, à+les→aux; à la / à l' stay."
+      }
+    },
+    {
+      "id": "g_profession_no_article",
+      "grammar": true,
+      "english": "I am a doctor. (no article: je suis médecin)",
+      "word": "je suis médecin",
+      "grammarNote": "State a job with **être** and **no article**:\n**je suis médecin** (I'm a doctor), **elle est ingénieure** (she's an engineer). Add an article only with a description: **c'est un bon médecin**.",
+      "englishPhrase": "She is a teacher.",
+      "phrase": "Elle est professeure.",
+      "literal": [
+        [
+          "Elle",
+          "she"
+        ],
+        [
+          "est",
+          "is"
+        ],
+        [
+          "professeure",
+          "teacher"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Profession — article or not?",
+        "a": {
+          "term": "je suis médecin",
+          "gloss": "just the job → no article"
+        },
+        "b": {
+          "term": "je suis un médecin",
+          "gloss": "✗ don't add un for a plain profession"
+        }
+      }
+    },
+    {
+      "id": "g_jaime_infinitive",
+      "grammar": true,
+      "english": "I like reading. (j'aime + infinitive)",
+      "word": "j'aime lire",
+      "grammarNote": "To say you like doing something, use **aimer** + the infinitive:\n**j'aime lire** (I like reading), **j'aime courir** (I like running). No 'to' or '-ing' — just the plain verb.",
+      "englishPhrase": "I like listening to music.",
+      "phrase": "J'aime écouter de la musique.",
+      "literal": [
+        [
+          "J'aime",
+          "I-like"
+        ],
+        [
+          "écouter",
+          "to-listen"
+        ],
+        [
+          "de la",
+          "some"
+        ],
+        [
+          "musique",
+          "music"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "aimer + infinitive = to like doing",
+        "task": "say: I like reading",
+        "answer": "j'aime lire",
+        "gloss": "j'aime + the infinitive. j'aime courir = I like running."
+      }
+    },
+    {
+      "id": "g_travailler_comme",
+      "grammar": true,
+      "english": "I work as a nurse. (travailler comme / dans / chez)",
+      "word": "je travaille comme infirmier",
+      "grammarNote": "**travailler comme** = to work as; **travailler dans** = in (a field/place); **travailler chez** = at (a company):\n**je travaille comme infirmier**, **dans un hôpital**, **chez Google**.",
+      "englishPhrase": "I work in an office.",
+      "phrase": "Je travaille dans un bureau.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "travaille",
+          "work"
+        ],
+        [
+          "dans",
+          "in"
+        ],
+        [
+          "un",
+          "an"
+        ],
+        [
+          "bureau",
+          "office"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Talking about your job",
+        "rows": [
+          [
+            "work as",
+            "travailler comme — comme infirmier"
+          ],
+          [
+            "work at (a company)",
+            "travailler chez — chez Renault"
+          ],
+          [
+            "work in (a place)",
+            "travailler dans — dans un hôpital"
+          ]
+        ],
+        "note": "comme = as; chez = at a company/person; dans = in a place."
+      }
+    },
+    {
+      "id": "g_faire_de",
+      "grammar": true,
+      "english": "I go swimming. (faire de la natation)",
+      "word": "je fais de la natation",
+      "grammarNote": "Many sports and hobbies use **faire de** + activity:\n**je fais de la natation** (I swim), **je fais du vélo** (I cycle). **faire** is irregular: **je fais, tu fais, il fait, nous faisons, vous faites, ils font**.",
+      "englishPhrase": "I go hiking on the weekend.",
+      "phrase": "Je fais de la randonnée le week-end.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "fais",
+          "do"
+        ],
+        [
+          "de la",
+          "(some)"
+        ],
+        [
+          "randonnée",
+          "hiking"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "faire de + activity = to do / play (sports, hobbies)",
+        "task": "say: I go swimming",
+        "answer": "je fais de la natation",
+        "gloss": "de+le→du (faire du sport), de la, de l'."
+      }
+    },
+    {
+      "id": "g_etre_feeling",
+      "grammar": true,
+      "english": "I am happy. (adjective agrees: heureux / heureuse)",
+      "word": "je suis heureux",
+      "grammarNote": "Feelings use **être** + an adjective that agrees with you:\n**je suis heureux** (a man) / **je suis heureuse** (a woman). Add **-e** for feminine, **-s** for plural: **ils sont contents**.",
+      "englishPhrase": "She is happy today.",
+      "phrase": "Elle est heureuse aujourd'hui.",
+      "literal": [
+        [
+          "Elle",
+          "she"
+        ],
+        [
+          "est",
+          "is"
+        ],
+        [
+          "heureuse",
+          "happy"
+        ],
+        [
+          "aujourd'hui",
+          "today"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "She is happy. (adjective agrees)",
+        "text": "elle est ___",
+        "answer": "heureuse",
+        "options": [
+          "heureux",
+          "heureuse"
+        ]
+      }
+    },
+    {
+      "id": "g_avoir_peur",
+      "grammar": true,
+      "english": "I am afraid. (avoir peur — 'have fear')",
+      "word": "j'ai peur",
+      "grammarNote": "Some feelings use **avoir** (to have), not **être**:\n**j'ai peur** (I'm afraid), **j'ai honte** (I'm ashamed). Also physical states: **j'ai faim** (hungry), **j'ai froid** (cold).",
+      "englishPhrase": "I'm a little afraid.",
+      "phrase": "J'ai un peu peur.",
+      "literal": [
+        [
+          "J'ai",
+          "I-have"
+        ],
+        [
+          "un peu",
+          "a-little"
+        ],
+        [
+          "peur",
+          "fear"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "feelings: avoir or être?",
+        "a": {
+          "term": "j’ai peur",
+          "gloss": "«I have fear» — a few use avoir + noun (faim, soif, peur)"
+        },
+        "b": {
+          "term": "je suis triste",
+          "gloss": "«I am sad» — most use être + adjective"
+        }
+      }
+    },
+    {
+      "id": "g_adjective_agreement_fr",
+      "grammar": true,
+      "english": "She is nervous. (adjective agrees → nerveuse)",
+      "word": "elle est nerveuse",
+      "grammarNote": "Adjectives change to match gender and number:\n**il est nerveux** / **elle est nerveuse** / **ils sont nerveux** / **elles sont nerveuses**. Many **-eux** adjectives become **-euse** in the feminine.",
+      "englishPhrase": "They (f.) are tired.",
+      "phrase": "Elles sont fatiguées.",
+      "literal": [
+        [
+          "Elles",
+          "they"
+        ],
+        [
+          "sont",
+          "are"
+        ],
+        [
+          "fatiguées",
+          "tired"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "She is nervous. (adjective agrees → feminine)",
+        "text": "elle est ___",
+        "answer": "nerveuse",
+        "options": [
+          "nerveux",
+          "nerveuse"
+        ]
+      }
+    },
+    {
+      "id": "g_se_sentir",
+      "grammar": true,
+      "english": "I feel tired. (je me sens — reflexive)",
+      "word": "je me sens fatigué",
+      "grammarNote": "**se sentir** (to feel) is reflexive — the pronoun matches the subject:\n**je me sens** (I feel), **tu te sens**, **il se sent**. In **je me sens fatigué(e)** the adjective still agrees with you.",
+      "englishPhrase": "How do you feel? — I feel good.",
+      "phrase": "Comment tu te sens ? — Je me sens bien.",
+      "literal": [
+        [
+          "Comment",
+          "how"
+        ],
+        [
+          "te",
+          "yourself"
+        ],
+        [
+          "sens",
+          "feel"
+        ],
+        [
+          "me",
+          "myself"
+        ],
+        [
+          "sens",
+          "feel"
+        ],
+        [
+          "bien",
+          "well"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "se sentir = to feel (reflexive)",
+        "task": "say: I feel tired",
+        "answer": "je me sens fatigué",
+        "gloss": "je me sens, tu te sens, il se sent. Agrees: fatiguée (f)."
+      }
+    },
+    {
+      "id": "g_body_article",
+      "grammar": true,
+      "english": "I wash my hands. (je me lave les mains)",
+      "word": "je me lave les mains",
+      "grammarNote": "With body parts and a reflexive verb, French uses **the** (le/la/les), not 'my':\n**je me lave les mains** (I wash my hands), **il se brosse les dents** (he brushes his teeth). The reflexive pronoun already shows whose.",
+      "englishPhrase": "I brush my teeth.",
+      "phrase": "Je me brosse les dents.",
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "me",
+          "myself"
+        ],
+        [
+          "brosse",
+          "brush"
+        ],
+        [
+          "les",
+          "the"
+        ],
+        [
+          "dents",
+          "teeth"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I wash my hands. (definite article, not «mes»)",
+        "text": "je me lave ___ mains",
+        "answer": "les",
+        "options": [
+          "mes",
+          "les"
+        ]
+      }
+    },
+    {
+      "id": "g_avoir_mal",
+      "grammar": true,
+      "english": "My head hurts. (avoir mal à)",
+      "word": "j'ai mal à la tête",
+      "grammarNote": "To say something hurts, use **avoir mal à** + body part (with contraction **à + le → au**):\n**j'ai mal à la tête** (headache), **j'ai mal au dos** (backache), **j'ai mal aux pieds** (my feet hurt).",
+      "englishPhrase": "My stomach hurts.",
+      "phrase": "J'ai mal au ventre.",
+      "literal": [
+        [
+          "J'ai",
+          "I-have"
+        ],
+        [
+          "mal",
+          "pain"
+        ],
+        [
+          "au",
+          "at-the"
+        ],
+        [
+          "ventre",
+          "stomach"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "My back hurts. (à + le → ?)",
+        "text": "j’ai mal ___ dos",
+        "answer": "au",
+        "options": [
+          "à le",
+          "au"
+        ]
+      }
+    },
+    {
+      "id": "g_possessive_mon",
+      "grammar": true,
+      "english": "my hand / my eyes (ma / mes)",
+      "word": "ma main / mes yeux",
+      "grammarNote": "Possessives agree with the noun (not the owner):\n**mon** (masc.) / **ma** (fem.) / **mes** (plural) → **mon bras**, **ma main**, **mes yeux**. Before a vowel use **mon** even for feminine: **mon amie**.",
+      "englishPhrase": "My hand hurts.",
+      "phrase": "Ma main me fait mal.",
+      "literal": [
+        [
+          "Ma",
+          "my"
+        ],
+        [
+          "main",
+          "hand"
+        ],
+        [
+          "me",
+          "to-me"
+        ],
+        [
+          "fait mal",
+          "hurts"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "«my» — agrees with the noun",
+        "rows": [
+          [
+            "masculine",
+            "mon (mon frère)"
+          ],
+          [
+            "feminine",
+            "ma (ma sœur)"
+          ],
+          [
+            "fem. + vowel",
+            "mon (mon amie)"
+          ],
+          [
+            "plural",
+            "mes (mes yeux)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g_avoir_body",
+      "grammar": true,
+      "english": "She has blue eyes. (avoir + les + adjective)",
+      "word": "elle a les yeux bleus",
+      "grammarNote": "Describe features with **avoir** + **les** + body part + adjective (which agrees):\n**elle a les yeux bleus** (she has blue eyes), **il a les cheveux courts** (he has short hair).",
+      "englishPhrase": "He has big hands.",
+      "phrase": "Il a de grandes mains.",
+      "literal": [
+        [
+          "Il",
+          "he"
+        ],
+        [
+          "a",
+          "has"
+        ],
+        [
+          "de",
+          "(some)"
+        ],
+        [
+          "grandes",
+          "big"
+        ],
+        [
+          "mains",
+          "hands"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Describe the body with avoir + article + adjective",
+        "task": "say: she has blue eyes",
+        "answer": "elle a les yeux bleus",
+        "gloss": "Literally 'she has the eyes blue'; the adjective follows & agrees."
+      }
+    }
+  ]
+}

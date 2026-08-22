@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import "./FlipCard.css";
 import GrammarNote from "./GrammarNote";
 import LiteralGloss, { type LiteralData } from "./LiteralGloss";
+import { GrammarFront, GrammarBack, type GrammarFormatData } from "./GrammarFace";
 import { useLanguageApp } from "../../LanguageAppContext";
 
 interface FlipCardProps {
@@ -14,6 +15,7 @@ interface FlipCardProps {
     literal?: LiteralData;
     grammarNote?: string;
     grammar?: boolean;
+    grammarFormat?: GrammarFormatData;
     isFlipped: boolean;
     onFlip: () => void;
     noteOpen: boolean;
@@ -26,17 +28,18 @@ interface FlipCardProps {
 }
 
 const FlipCard = ({
-    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote, grammar,
+    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote, grammar, grammarFormat,
     isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra, cardCorner, onPlay, onHide,
 }: FlipCardProps) => {
     const { displayMode, showLiteral, showRomanized } = useLanguageApp();
+    const hasFormat = !!grammarFormat?.format;
     const literalText = !literal ? undefined
         : typeof literal === 'string' ? literal
         : literal.map(([, en]) => en).join(' ');
     return (
         <div className="srs-card-wrap">
             <div
-                className={`srs-card ${isFlipped ? "flipped" : ""} ${grammar ? "grammar" : ""}`}
+                className={`srs-card ${isFlipped ? "flipped" : ""} ${grammar ? "grammar" : ""} ${hasFormat ? "has-format" : ""}`}
                 onClick={!isFlipped ? onFlip : undefined}
             >
                 <div className="srs-card-front">
@@ -47,7 +50,9 @@ const FlipCard = ({
                             <button className="srs-card-action-btn hide-btn" onClick={e => { e.stopPropagation(); onHide(); }} title="Hide card">✕</button>
                         </div>
                     )}
-                    {reversed ? (
+                    {hasFormat ? (
+                        <GrammarFront data={grammarFormat!} />
+                    ) : reversed ? (
                         <>
                             {displayMode !== 'phrase' && <div className="srs-card-text">{word}</div>}
                             {displayMode !== 'phrase' && showRomanized && romanized && <div className="srs-romanized">{romanized}</div>}
@@ -75,19 +80,34 @@ const FlipCard = ({
                             {onHide && <button className="srs-card-action-btn hide-btn" onClick={e => { e.stopPropagation(); onHide(); }} title="Hide card">✕</button>}
                         </div>
                     )}
-                    {displayMode !== 'phrase' && (
-                        <div className="srs-card-back-word-group">
-                            {showRomanized && romanized && <div className="srs-romanized">{romanized}</div>}
-                            <div className="srs-card-text">{word}</div>
-                            <div className="srs-card-back-english">{english}</div>
-                        </div>
-                    )}
-                    {displayMode !== 'word' && (phrase || phraseRomanized || englishPhrase) && (
-                        <div className="srs-card-back-phrase-group">
-                            {showRomanized && phraseRomanized && <div className="srs-romanized">{phraseRomanized}</div>}
-                            {phrase && <div className="srs-card-text">{phrase}</div>}
-                            {englishPhrase && <div className="srs-card-back-english">{englishPhrase}</div>}
-                        </div>
+                    {hasFormat ? (
+                        <>
+                            <GrammarBack data={grammarFormat!} />
+                            {(phrase || englishPhrase) && (
+                                <div className="srs-card-back-phrase-group g-example">
+                                    {showRomanized && phraseRomanized && <div className="srs-romanized">{phraseRomanized}</div>}
+                                    {phrase && <div className="srs-card-text">{phrase}</div>}
+                                    {englishPhrase && <div className="srs-card-back-english">{englishPhrase}</div>}
+                                </div>
+                            )}
+                        </>
+                    ) : (
+                        <>
+                            {displayMode !== 'phrase' && (
+                                <div className="srs-card-back-word-group">
+                                    {showRomanized && romanized && <div className="srs-romanized">{romanized}</div>}
+                                    <div className="srs-card-text">{word}</div>
+                                    <div className="srs-card-back-english">{english}</div>
+                                </div>
+                            )}
+                            {displayMode !== 'word' && (phrase || phraseRomanized || englishPhrase) && (
+                                <div className="srs-card-back-phrase-group">
+                                    {showRomanized && phraseRomanized && <div className="srs-romanized">{phraseRomanized}</div>}
+                                    {phrase && <div className="srs-card-text">{phrase}</div>}
+                                    {englishPhrase && <div className="srs-card-back-english">{englishPhrase}</div>}
+                                </div>
+                            )}
+                        </>
                     )}
                     {backExtra}
                 </div>

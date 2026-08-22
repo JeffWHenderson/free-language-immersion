@@ -17,6 +17,7 @@ import { useSpeech } from "../../hooks/useSpeech";
 import { useDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
+import type { GrammarFormat, ClozeData, TableData, ContrastData, ProduceData } from "../components/GrammarFace";
 import Settings from "../components/Settings";
 import "../srs.css";
 import "../Review/Review.css";
@@ -27,6 +28,11 @@ interface Card {
     id: string;
     hidden?: boolean;
     grammar?: boolean;
+    format?: GrammarFormat;
+    cloze?: ClozeData;
+    table?: TableData;
+    contrast?: ContrastData;
+    produce?: ProduceData;
     english: string;
     word: string;
     romanized?: string;
@@ -49,28 +55,61 @@ interface HideTarget {
     deckId: string;
 }
 
-function buildSession(
+interface CategorizedCards {
+    due: CombinedSessionCard[];    // review cards past their due date
+    learn: CombinedSessionCard[];  // learning cards, least mastered first
+    newCards: CombinedSessionCard[];
+    later: CombinedSessionCard[];  // review cards not yet due ("mastered")
+}
+
+// Split every selected card into priority buckets, ordered across ALL decks
+// (not sequentially per deck). Due cards sort by how overdue they are; learning
+// cards sort by stability ascending so the least-mastered surface first.
+function categorize(
     cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>,
-    shuffle: boolean
-): CombinedSessionCard[] {
+    deckStates: Map<string, SRSDeckState>
+): CategorizedCards {
     const due: CombinedSessionCard[] = [];
     const learn: CombinedSessionCard[] = [];
     const newCards: CombinedSessionCard[] = [];
+    const later: CombinedSessionCard[] = [];
 
     for (const card of cards) {
         const deckState = deckStates.get(card.deckId) ?? {};
         if (isCardHidden(card, deckState)) continue;
         const state = getCardState(deckState, card.id);
-        if (isNew(state)) {
-            newCards.push({ ...card, cardState: state });
-        } else if (isDue(state)) {
-            (state.state === "review" ? due : learn).push({ ...card, cardState: state });
-        }
+        const sessionCard: CombinedSessionCard = { ...card, cardState: state };
+        if (isNew(state)) newCards.push(sessionCard);
+        else if (state.state === "learning") learn.push(sessionCard);
+        else if (isDue(state)) due.push(sessionCard);
+        else later.push(sessionCard);
     }
 
     due.sort((a, b) => a.cardState.dueDate.localeCompare(b.cardState.dueDate));
+    learn.sort((a, b) => a.cardState.stability - b.cardState.stability);
+    return { due, learn, newCards, later };
+}
+
+// SRS session: only cards that are actually due to study today —
+// due → learning (least mastered) → new. Mastered-but-not-due cards wait.
+function buildSession(
+    cards: CombinedCard[],
+    deckStates: Map<string, SRSDeckState>,
+    shuffle: boolean
+): CombinedSessionCard[] {
+    const { due, learn, newCards } = categorize(cards, deckStates);
     return [due, learn, newCards].flatMap(g => shuffle ? shuffled(g) : g);
+}
+
+// Fast mode plays every visible card, but ordered by the same priority so the
+// most important cards come first: due → learning (least mastered) → new →
+// already-mastered. New and mastered cards get pushed to the bottom.
+function orderFastCards(
+    cards: CombinedCard[],
+    deckStates: Map<string, SRSDeckState>
+): CombinedCard[] {
+    const { due, learn, newCards, later } = categorize(cards, deckStates);
+    return [...due, ...learn, ...newCards, ...later];
 }
 
 const UnifiedReview = () => {
@@ -121,7 +160,7 @@ const UnifiedReview = () => {
         );
         const states = loadMultiDeckState(language, selectedPacks.map((p) => p.id));
         setAllCards(combined);
-        setFastModeCards(combined);
+        setFastModeCards(orderFastCards(combined, states));
         setDeckStates(states);
         const s = buildSession(combined, states, false);
         setSession(s);
@@ -456,7 +495,7 @@ const UnifiedReview = () => {
                     <span className="srs-deck-name">Study Session</span>
                     <Settings language={language} onShuffle={() => {
                         if (isFastShuffled) {
-                            setFastModeCards([...allCards]);
+                            setFastModeCards(orderFastCards(allCards, deckStates));
                             setIsFastShuffled(false);
                         } else {
                             setFastModeCards(c => shuffled(c));
@@ -628,6 +667,13 @@ const UnifiedReview = () => {
                 literal={currentCard.literal}
                 grammarNote={currentCard.grammarNote}
                 grammar={currentCard.grammar}
+                grammarFormat={currentCard.format ? {
+                    format: currentCard.format,
+                    cloze: currentCard.cloze,
+                    table: currentCard.table,
+                    contrast: currentCard.contrast,
+                    produce: currentCard.produce,
+                } : undefined}
                 isFlipped={isFlipped}
                 onFlip={flip}
                 noteOpen={noteOpen}

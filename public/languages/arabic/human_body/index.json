@@ -9,46 +9,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_body_suffix",
-      "grammar": true,
-      "english": "my hand (يد + ي)",
-      "word": "يدي",
-      "romanized": "yadi",
-      "grammarNote": "Body parts take the same **possessive suffixes** as other nouns:\n**يدي** (my hand), **يدك** (your hand), **رأسه** (his head), **عينها** (her eye). The **ـي** ending = 'my'.",
-      "englishPhrase": "My hand hurts.",
-      "phrase": "يدي تؤلمني.",
-      "phraseRomanized": "Yadi tu'limuni."
-    },
-    {
-      "id": "g_body_hurts",
-      "grammar": true,
-      "english": "My head hurts. (رأسي يؤلمني)",
-      "word": "رأسي يؤلمني",
-      "romanized": "ra'si yu'limuni",
-      "grammarNote": "A common way to say something hurts: the body part (+ 'my') as subject + **يؤلمني** ('it pains me'):\n**رأسي يؤلمني** (my head hurts), **بطني يؤلمني** (my stomach hurts). The verb agrees in gender: **يدي تؤلمني** (fem.).",
-      "englishPhrase": "My tooth hurts.",
-      "phrase": "سني يؤلمني.",
-      "phraseRomanized": "Sinni yu'limuni."
-    },
-    {
-      "id": "g_adjective_body_ar",
-      "grammar": true,
-      "english": "big eyes (adjective agrees & follows)",
-      "word": "عيون كبيرة",
-      "romanized": "'uyun kabira",
-      "grammarNote": "The adjective comes **after** the body part and agrees with it. Non-human plurals take a **feminine singular** adjective:\n**عيون كبيرة** (big eyes), **يد قوية** (a strong hand), **شعر طويل** (long hair).",
-      "englishPhrase": "She has beautiful eyes.",
-      "phrase": "لديها عيون جميلة.",
-      "phraseRomanized": "Ladayha 'uyun jamila."
-    },
     {
       "id": "head",
       "english": "head",
@@ -170,17 +137,6 @@
       "phraseRomanized": "kasartu dhira'i."
     },
     {
-      "id": "g_dual",
-      "grammar": true,
-      "english": "two hands (dual: يد → يدان)",
-      "word": "يدان",
-      "romanized": "yadan",
-      "grammarNote": "Arabic has a special **dual** for exactly two — add **ـان** (or **ـين**): ideal for paired body parts:\n**يد → يدان** (two hands), **عين → عينان** (two eyes), **رِجل → رِجلان** (two legs). No number word needed.",
-      "englishPhrase": "I have two hands.",
-      "phrase": "لدي يدان.",
-      "phraseRomanized": "Ladayya yadan."
-    },
-    {
       "id": "hand",
       "english": "hand",
       "word": "يد",
@@ -229,7 +185,16 @@
       "englishPhrase": "My shoulder hurts.",
       "phrase": "كتفي يؤلمني.",
       "phraseRomanized": "katifī yuʾlimanī.",
-      "literal": [["كتفي", "my shoulder"], ["يؤلمني", "hurts me"]]
+      "literal": [
+        [
+          "كتفي",
+          "my shoulder"
+        ],
+        [
+          "يؤلمني",
+          "hurts me"
+        ]
+      ]
     },
     {
       "id": "elbow",
@@ -240,7 +205,16 @@
       "englishPhrase": "My elbow is sore.",
       "phrase": "مرفقي يؤلمني.",
       "phraseRomanized": "mirfaqī yuʾlimanī.",
-      "literal": [["مرفقي", "my elbow"], ["يؤلمني", "hurts me"]]
+      "literal": [
+        [
+          "مرفقي",
+          "my elbow"
+        ],
+        [
+          "يؤلمني",
+          "hurts me"
+        ]
+      ]
     },
     {
       "id": "knee",
@@ -251,7 +225,20 @@
       "englishPhrase": "I hurt my knee.",
       "phrase": "أصبت في ركبتي.",
       "phraseRomanized": "aṣabtu fī rukbatī.",
-      "literal": [["أصبت", "I hurt"], ["في", "in"], ["ركبتي", "my knee"]]
+      "literal": [
+        [
+          "أصبت",
+          "I hurt"
+        ],
+        [
+          "في",
+          "in"
+        ],
+        [
+          "ركبتي",
+          "my knee"
+        ]
+      ]
     },
     {
       "id": "leg",

@@ -12,7 +12,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 30
+      "count": 27
     },
     {
       "n": 2,
@@ -24,42 +24,6 @@
   ],
   "cards": [
     {
-      "id": "g_juseyo",
-      "grammar": true,
-      "english": "Water, please. (… 주세요)",
-      "word": "물 주세요",
-      "romanized": "mul juseyo",
-      "grammarNote": "**주세요** = 'please give (me)' — the go-to way to order or request:\n**물 주세요** (water, please), **커피 주세요** (a coffee, please). You can add the object particle **을/를**, but it's often dropped in speech.",
-      "englishPhrase": "Please give me the menu.",
-      "phrase": "메뉴 주세요.",
-      "phraseRomanized": "Menyu juseyo.",
-      "literal": [["메뉴", "menu"], ["주세요", "please-give"]]
-    },
-    {
-      "id": "g_joahaeyo",
-      "grammar": true,
-      "english": "I like coffee. (… 을/를 좋아해요)",
-      "word": "커피를 좋아해요",
-      "romanized": "keopireul joahaeyo",
-      "grammarNote": "**좋아해요** (to like) is a verb and takes the object particle **을/를**:\n**커피를 좋아해요** (I like coffee), **과일을 좋아해요** (I like fruit). Don't confuse it with **좋아요** (it's good — an adjective).",
-      "englishPhrase": "I like fish.",
-      "phrase": "생선을 좋아해요.",
-      "phraseRomanized": "Saengseoneul joahaeyo.",
-      "literal": [["생선", "fish"], ["을", "(obj)"], ["좋아해요", "like"]]
-    },
-    {
-      "id": "g_an_negation",
-      "grammar": true,
-      "english": "I don't drink coffee. (안 + verb)",
-      "word": "커피를 안 마셔요",
-      "romanized": "keopireul an masyeoyo",
-      "grammarNote": "Put **안** right before the verb to negate it:\n**안 마셔요** (don't drink), **안 먹어요** (don't eat), **안 가요** (don't go). A more formal option is **-지 않아요**: **마시지 않아요**.",
-      "englishPhrase": "I don't eat meat.",
-      "phrase": "고기를 안 먹어요.",
-      "phraseRomanized": "Gogireul an meogeoyo.",
-      "literal": [["고기", "meat"], ["를", "(obj)"], ["안", "not"], ["먹어요", "eat"]]
-    },
-    {
       "id": "water",
       "english": "water",
       "word": "물",
@@ -68,7 +32,20 @@
       "englishPhrase": "The water is cold.",
       "phrase": "물이 차가워요.",
       "phraseRomanized": "muri chagawoyo",
-      "literal": [["물", "water"], ["이", "[subj]"], ["차가워요", "cold"]]
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "차가워요",
+          "cold"
+        ]
+      ]
     },
     {
       "id": "bread",
@@ -79,7 +56,20 @@
       "englishPhrase": "I'd like some bread.",
       "phrase": "빵을 주세요.",
       "phraseRomanized": "ppang-eul juseyo",
-      "literal": [["빵", "bread"], ["을", "[obj]"], ["주세요", "please give"]]
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "rice",
@@ -90,7 +80,28 @@
       "englishPhrase": "I like rice with vegetables.",
       "phrase": "채소랑 밥을 좋아해요.",
       "phraseRomanized": "chaesorang babeul joahaeyo",
-      "literal": [["채소", "vegetables"], ["랑", "[and/with]"], ["밥", "rice"], ["을", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "채소",
+          "vegetables"
+        ],
+        [
+          "랑",
+          "[and/with]"
+        ],
+        [
+          "밥",
+          "rice"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "milk",
@@ -111,7 +122,32 @@
       "englishPhrase": "I eat two eggs for breakfast.",
       "phrase": "아침에 달걀 두 개를 먹어요.",
       "phraseRomanized": "achime dalgyal du gaereul meogeoyo",
-      "literal": [["아침", "breakfast"], ["에", "[at/to]"], ["달걀", "egg"], ["두 개", "two"], ["를", "[obj]"], ["먹어요", "eat"]]
+      "literal": [
+        [
+          "아침",
+          "breakfast"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "달걀",
+          "egg"
+        ],
+        [
+          "두 개",
+          "two"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "cheese",
@@ -122,7 +158,28 @@
       "englishPhrase": "The sandwich has cheese.",
       "phrase": "샌드위치에 치즈가 있어요.",
       "phraseRomanized": "saendeuwiche chijeu-ga isseoyo",
-      "literal": [["샌드위치", "sandwich"], ["에", "[at/to]"], ["치즈", "cheese"], ["가", "[subj]"], ["있어요", "there is"]]
+      "literal": [
+        [
+          "샌드위치",
+          "sandwich"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "치즈",
+          "cheese"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
     },
     {
       "id": "chicken",
@@ -133,7 +190,20 @@
       "englishPhrase": "The chicken is delicious.",
       "phrase": "닭고기가 맛있어요.",
       "phraseRomanized": "dalkgogiga massisseoyo",
-      "literal": [["닭고기", "chicken"], ["가", "[subj]"], ["맛있어요", "delicious"]]
+      "literal": [
+        [
+          "닭고기",
+          "chicken"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
     },
     {
       "id": "meat",
@@ -144,7 +214,32 @@
       "englishPhrase": "He doesn't eat meat.",
       "phrase": "그는 고기를 안 먹어요.",
       "phraseRomanized": "geuneun gogireul an meogeoyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["고기", "meat"], ["를", "[obj]"], ["안", "not"], ["먹어요", "eat"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "고기",
+          "meat"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "fish",
@@ -155,7 +250,20 @@
       "englishPhrase": "I like fish.",
       "phrase": "생선을 좋아해요.",
       "phraseRomanized": "saengseoneul joahaeyo",
-      "literal": [["생선", "fish"], ["을", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "생선",
+          "fish"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "fruit",
@@ -166,7 +274,24 @@
       "englishPhrase": "I eat fruit every day.",
       "phrase": "매일 과일을 먹어요.",
       "phraseRomanized": "maeil gwaireul meogeoyo",
-      "literal": [["매일", "every-day"], ["과일", "fruit"], ["을", "[obj]"], ["먹어요", "eat"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "과일",
+          "fruit"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "apple",
@@ -177,7 +302,36 @@
       "englishPhrase": "An apple a day is healthy.",
       "phrase": "매일 사과 하나는 건강에 좋아요.",
       "phraseRomanized": "maeil sagwa hananeun geongang-e joayo",
-      "literal": [["매일", "every-day"], ["사과", "apple"], ["하나", "one"], ["는", "[topic]"], ["건강", "health"], ["에", "[at/to]"], ["좋아요", "good"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "사과",
+          "apple"
+        ],
+        [
+          "하나",
+          "one"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
     },
     {
       "id": "coffee",
@@ -188,7 +342,28 @@
       "englishPhrase": "I like coffee in the morning.",
       "phrase": "아침에 커피를 좋아해요.",
       "phraseRomanized": "achime keopireul joahaeyo",
-      "literal": [["아침", "morning"], ["에", "[at/to]"], ["커피", "coffee"], ["를", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "tea",
@@ -199,7 +374,16 @@
       "englishPhrase": "Would you like some tea?",
       "phrase": "차 드실래요?",
       "phraseRomanized": "cha deusilraeyo",
-      "literal": [["차", "tea"], ["드실래요", "would you eat/drink"]]
+      "literal": [
+        [
+          "차",
+          "tea"
+        ],
+        [
+          "드실래요",
+          "would you eat/drink"
+        ]
+      ]
     },
     {
       "id": "wine",
@@ -210,7 +394,24 @@
       "englishPhrase": "A glass of red wine, please.",
       "phrase": "레드 와인 한 잔 주세요.",
       "phraseRomanized": "redeu wain han jan juseyo",
-      "literal": [["레드 와인", "red wine"], ["한", "one"], ["잔", "glass"], ["주세요", "please give"]]
+      "literal": [
+        [
+          "레드 와인",
+          "red wine"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "glass"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "beer",
@@ -221,7 +422,24 @@
       "englishPhrase": "Two beers, please.",
       "phrase": "맥주 두 잔 주세요.",
       "phraseRomanized": "maekju du jan juseyo",
-      "literal": [["맥주", "beer"], ["두", "two"], ["잔", "glasses"], ["주세요", "please give"]]
+      "literal": [
+        [
+          "맥주",
+          "beer"
+        ],
+        [
+          "두",
+          "two"
+        ],
+        [
+          "잔",
+          "glasses"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "sugar",
@@ -232,7 +450,20 @@
       "englishPhrase": "No sugar, please.",
       "phrase": "설탕 빼 주세요.",
       "phraseRomanized": "seoltang ppae juseyo",
-      "literal": [["설탕", "sugar"], ["빼", "remove"], ["주세요", "please give"]]
+      "literal": [
+        [
+          "설탕",
+          "sugar"
+        ],
+        [
+          "빼",
+          "remove"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "salt",
@@ -243,7 +474,20 @@
       "englishPhrase": "Can you pass the salt?",
       "phrase": "소금 좀 건네줄 수 있어요?",
       "phraseRomanized": "sogeum jom geonnejul su isseoyo",
-      "literal": [["소금", "salt"], ["좀", "a-little"], ["건네줄 수 있어요", "pass can"]]
+      "literal": [
+        [
+          "소금",
+          "salt"
+        ],
+        [
+          "좀",
+          "a-little"
+        ],
+        [
+          "건네줄 수 있어요",
+          "pass can"
+        ]
+      ]
     },
     {
       "id": "eat",
@@ -264,7 +508,20 @@
       "englishPhrase": "Would you like something to drink?",
       "phrase": "마실 것 드릴까요?",
       "phraseRomanized": "masil geot deurillkkayo",
-      "literal": [["마실", "drink-able"], ["것", "thing"], ["드릴까요", "give-shall-I"]]
+      "literal": [
+        [
+          "마실",
+          "drink-able"
+        ],
+        [
+          "것",
+          "thing"
+        ],
+        [
+          "드릴까요",
+          "give-shall-I"
+        ]
+      ]
     },
     {
       "id": "hungry",
@@ -275,7 +532,16 @@
       "englishPhrase": "I'm hungry. Are you thirsty?",
       "phrase": "배고파요. 목말라요?",
       "phraseRomanized": "baegopayo. mongmallayo",
-      "literal": [["배고파요", "stomach-hungry"], ["목말라요", "throat-thirsty"]],
+      "literal": [
+        [
+          "배고파요",
+          "stomach-hungry"
+        ],
+        [
+          "목말라요",
+          "throat-thirsty"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -287,7 +553,12 @@
       "englishPhrase": "I'm thirsty.",
       "phrase": "목말라요.",
       "phraseRomanized": "mongmallayo",
-      "literal": [["목말라요", "throat-thirsty"]],
+      "literal": [
+        [
+          "목말라요",
+          "throat-thirsty"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -299,7 +570,28 @@
       "englishPhrase": "I have breakfast at seven.",
       "phrase": "일곱 시에 아침을 먹어요.",
       "phraseRomanized": "ilgop sie achimeul meogeoyo",
-      "literal": [["일곱 시", "seven o'clock"], ["에", "[at/to]"], ["아침", "breakfast"], ["을", "[obj]"], ["먹어요", "eat"]]
+      "literal": [
+        [
+          "일곱 시",
+          "seven o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "아침",
+          "breakfast"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "lunch",
@@ -310,7 +602,28 @@
       "englishPhrase": "We have lunch at two.",
       "phrase": "두 시에 점심을 먹어요.",
       "phraseRomanized": "du sie jeomsimeul meogeoyo",
-      "literal": [["두 시", "two o'clock"], ["에", "[at/to]"], ["점심", "lunch"], ["을", "[obj]"], ["먹어요", "eat"]]
+      "literal": [
+        [
+          "두 시",
+          "two o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "점심",
+          "lunch"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "dinner",
@@ -321,7 +634,20 @@
       "englishPhrase": "Dinner is ready.",
       "phrase": "저녁이 준비됐어요.",
       "phraseRomanized": "jeonyeogi junbidwaesseoyo",
-      "literal": [["저녁", "dinner"], ["이", "[subj]"], ["준비됐어요", "prepared-became"]]
+      "literal": [
+        [
+          "저녁",
+          "dinner"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "준비됐어요",
+          "prepared-became"
+        ]
+      ]
     },
     {
       "id": "kimchi",
@@ -332,7 +658,24 @@
       "englishPhrase": "Kimchi is spicy and delicious.",
       "phrase": "김치는 맵고 맛있어요.",
       "phraseRomanized": "gimchineun maepgo masisseoyo",
-      "literal": [["김치", "kimchi"], ["는", "[topic]"], ["맵고", "spicy and"], ["맛있어요", "is delicious"]]
+      "literal": [
+        [
+          "김치",
+          "kimchi"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "맵고",
+          "spicy and"
+        ],
+        [
+          "맛있어요",
+          "is delicious"
+        ]
+      ]
     },
     {
       "id": "bibimbap",
@@ -343,7 +686,24 @@
       "englishPhrase": "Bibimbap is a Korean rice dish.",
       "phrase": "비빔밥은 한국 음식이에요.",
       "phraseRomanized": "bibimbapeun hanguk eumsigieyo",
-      "literal": [["비빔밥", "bibimbap"], ["은", "[topic]"], ["한국", "Korean"], ["음식이에요", "is food"]]
+      "literal": [
+        [
+          "비빔밥",
+          "bibimbap"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "한국",
+          "Korean"
+        ],
+        [
+          "음식이에요",
+          "is food"
+        ]
+      ]
     },
     {
       "id": "soju",
@@ -354,7 +714,28 @@
       "englishPhrase": "Soju is a popular Korean drink.",
       "phrase": "소주는 인기 있는 한국 술이에요.",
       "phraseRomanized": "sojuneun ingi inneun hanguk surieyo",
-      "literal": [["소주", "soju"], ["는", "[topic]"], ["인기 있는", "popular"], ["한국", "Korean"], ["술이에요", "is alcohol"]]
+      "literal": [
+        [
+          "소주",
+          "soju"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "인기 있는",
+          "popular"
+        ],
+        [
+          "한국",
+          "Korean"
+        ],
+        [
+          "술이에요",
+          "is alcohol"
+        ]
+      ]
     },
     {
       "id": "pork",
@@ -365,7 +746,24 @@
       "englishPhrase": "I don't eat pork.",
       "phrase": "돼지고기는 안 먹어요.",
       "phraseRomanized": "dwaejigogineun an meogeoyo",
-      "literal": [["돼지고기", "pork"], ["는", "[topic]"], ["안", "not"], ["먹어요", "eat"]],
+      "literal": [
+        [
+          "돼지고기",
+          "pork"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -377,7 +775,20 @@
       "englishPhrase": "The bananas are ripe.",
       "phrase": "바나나가 익었어요.",
       "phraseRomanized": "bananaga igeosseoyo",
-      "literal": [["바나나", "banana"], ["가", "[subj]"], ["익었어요", "ripened"]]
+      "literal": [
+        [
+          "바나나",
+          "banana"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "익었어요",
+          "ripened"
+        ]
+      ]
     },
     {
       "id": "orange",
@@ -388,7 +799,24 @@
       "englishPhrase": "I want an orange juice.",
       "phrase": "오렌지 주스를 원해요.",
       "phraseRomanized": "orenji juseureul wonhaeyo",
-      "literal": [["오렌지", "orange"], ["주스", "juice"], ["를", "[obj]"], ["원해요", "want"]]
+      "literal": [
+        [
+          "오렌지",
+          "orange"
+        ],
+        [
+          "주스",
+          "juice"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
     },
     {
       "id": "vegetable",
@@ -399,7 +827,20 @@
       "englishPhrase": "Eat your vegetables!",
       "phrase": "채소를 드세요!",
       "phraseRomanized": "chaesoreul deuseyo",
-      "literal": [["채소", "vegetables"], ["를", "[obj]"], ["드세요", "please eat"]]
+      "literal": [
+        [
+          "채소",
+          "vegetables"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "드세요",
+          "please eat"
+        ]
+      ]
     },
     {
       "id": "potato",
@@ -410,7 +851,24 @@
       "englishPhrase": "I want mashed potatoes.",
       "phrase": "으깬 감자를 원해요.",
       "phraseRomanized": "eukkkaen gamjareul wonhaeyo",
-      "literal": [["으깬", "mashed"], ["감자", "potato"], ["를", "[obj]"], ["원해요", "want"]]
+      "literal": [
+        [
+          "으깬",
+          "mashed"
+        ],
+        [
+          "감자",
+          "potato"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
     },
     {
       "id": "tomato",
@@ -421,7 +879,28 @@
       "englishPhrase": "The salad has tomatoes.",
       "phrase": "샐러드에 토마토가 있어요.",
       "phraseRomanized": "saelleudeue tomatoga isseoyo",
-      "literal": [["샐러드", "salad"], ["에", "[at/to]"], ["토마토", "tomato"], ["가", "[subj]"], ["있어요", "there is"]]
+      "literal": [
+        [
+          "샐러드",
+          "salad"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "토마토",
+          "tomato"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "there is"
+        ]
+      ]
     },
     {
       "id": "onion",
@@ -432,7 +911,24 @@
       "englishPhrase": "I don't like onions.",
       "phrase": "양파를 안 좋아해요.",
       "phraseRomanized": "yangpareul an joahaeyo",
-      "literal": [["양파", "onion"], ["를", "[obj]"], ["안", "not"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "양파",
+          "onion"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "salad",
@@ -443,7 +939,20 @@
       "englishPhrase": "I'll have a salad.",
       "phrase": "샐러드로 할게요.",
       "phraseRomanized": "saelleodeuro halgeyo",
-      "literal": [["샐러드", "salad"], ["로", "[to/by]"], ["할게요", "will do"]]
+      "literal": [
+        [
+          "샐러드",
+          "salad"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "할게요",
+          "will do"
+        ]
+      ]
     },
     {
       "id": "soup",
@@ -454,7 +963,20 @@
       "englishPhrase": "The soup is hot.",
       "phrase": "국이 뜨거워요.",
       "phraseRomanized": "gugi tteugeowoyo",
-      "literal": [["국", "soup"], ["이", "[subj]"], ["뜨거워요", "hot"]]
+      "literal": [
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ]
     },
     {
       "id": "sandwich",
@@ -465,7 +987,28 @@
       "englishPhrase": "I made a sandwich for lunch.",
       "phrase": "점심으로 샌드위치를 만들었어요.",
       "phraseRomanized": "jeomsimeuro saendeuwichiреул mandeureoisseoyo",
-      "literal": [["점심", "lunch"], ["으로", "[to/by]"], ["샌드위치", "sandwich"], ["를", "[obj]"], ["만들었어요", "made"]]
+      "literal": [
+        [
+          "점심",
+          "lunch"
+        ],
+        [
+          "으로",
+          "[to/by]"
+        ],
+        [
+          "샌드위치",
+          "sandwich"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "만들었어요",
+          "made"
+        ]
+      ]
     },
     {
       "id": "juice",
@@ -476,7 +1019,20 @@
       "englishPhrase": "I want orange juice.",
       "phrase": "오렌지 주스를 원해요.",
       "phraseRomanized": "orenji juseureul wonhaeyo",
-      "literal": [["오렌지 주스", "orange juice"], ["를", "[obj]"], ["원해요", "want"]]
+      "literal": [
+        [
+          "오렌지 주스",
+          "orange juice"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "원해요",
+          "want"
+        ]
+      ]
     },
     {
       "id": "cook",
@@ -487,7 +1043,32 @@
       "englishPhrase": "She cooks very well.",
       "phrase": "그녀는 요리를 아주 잘해요.",
       "phraseRomanized": "geunyeoneun yorireul aju jalhaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["요리", "cooking"], ["를", "[obj]"], ["아주", "very"], ["잘해요", "well-does"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "요리",
+          "cooking"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "아주",
+          "very"
+        ],
+        [
+          "잘해요",
+          "well-does"
+        ]
+      ]
     },
     {
       "id": "meal",
@@ -498,7 +1079,24 @@
       "englishPhrase": "This is a delicious meal.",
       "phrase": "이 식사는 맛있어요.",
       "phraseRomanized": "i siksaneun massisseoyo",
-      "literal": [["이", "this"], ["식사", "meal"], ["는", "[topic]"], ["맛있어요", "delicious"]]
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "식사",
+          "meal"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
     },
     {
       "id": "menu",
@@ -509,7 +1107,16 @@
       "englishPhrase": "Can I see the menu?",
       "phrase": "메뉴 볼 수 있어요?",
       "phraseRomanized": "menyu bol su isseoyo",
-      "literal": [["메뉴", "menu"], ["볼 수 있어요", "see can"]]
+      "literal": [
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "볼 수 있어요",
+          "see can"
+        ]
+      ]
     },
     {
       "id": "restaurant",
@@ -520,7 +1127,24 @@
       "englishPhrase": "This restaurant is good.",
       "phrase": "이 식당은 좋아요.",
       "phraseRomanized": "i sikdang-eun joayo",
-      "literal": [["이", "this"], ["식당", "restaurant"], ["은", "[topic]"], ["좋아요", "good"]]
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "식당",
+          "restaurant"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
     },
     {
       "id": "waiter",
@@ -531,7 +1155,20 @@
       "englishPhrase": "Waiter, the bill please.",
       "phrase": "저기요, 계산서 주세요.",
       "phraseRomanized": "jeogiyo, gyesanseo juseyo",
-      "literal": [["저기요", "excuse-me"], ["계산서", "bill"], ["주세요", "please give"]]
+      "literal": [
+        [
+          "저기요",
+          "excuse-me"
+        ],
+        [
+          "계산서",
+          "bill"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "table",
@@ -542,7 +1179,24 @@
       "englishPhrase": "Our table is ready.",
       "phrase": "저희 테이블이 준비됐어요.",
       "phraseRomanized": "jeohui teibeuri junbidwaesseoyo",
-      "literal": [["저희", "our"], ["테이블", "table"], ["이", "[subj]"], ["준비됐어요", "prepared-became"]]
+      "literal": [
+        [
+          "저희",
+          "our"
+        ],
+        [
+          "테이블",
+          "table"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "준비됐어요",
+          "prepared-became"
+        ]
+      ]
     },
     {
       "id": "plate",
@@ -553,7 +1207,20 @@
       "englishPhrase": "The plate is dirty.",
       "phrase": "접시가 더러워요.",
       "phraseRomanized": "jeopsiga deoreowoyo",
-      "literal": [["접시", "plate"], ["가", "[subj]"], ["더러워요", "dirty"]],
+      "literal": [
+        [
+          "접시",
+          "plate"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "더러워요",
+          "dirty"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -565,7 +1232,24 @@
       "englishPhrase": "A glass of water, please.",
       "phrase": "물 한 잔 주세요.",
       "phraseRomanized": "mul han jan juseyo",
-      "literal": [["물", "water"], ["한", "one"], ["잔", "glass"], ["주세요", "please give"]],
+      "literal": [
+        [
+          "물",
+          "water"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "잔",
+          "glass"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -577,7 +1261,24 @@
       "englishPhrase": "A bottle of wine, please.",
       "phrase": "와인 한 병 주세요.",
       "phraseRomanized": "wain han byeong juseyo",
-      "literal": [["와인", "wine"], ["한", "one"], ["병", "bottle"], ["주세요", "please give"]],
+      "literal": [
+        [
+          "와인",
+          "wine"
+        ],
+        [
+          "한",
+          "one"
+        ],
+        [
+          "병",
+          "bottle"
+        ],
+        [
+          "주세요",
+          "please give"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -600,7 +1301,24 @@
       "englishPhrase": "These cookies are delicious.",
       "phrase": "이 쿠키가 맛있어요.",
       "phraseRomanized": "i kukiga massisseoyo",
-      "literal": [["이", "this"], ["쿠키", "cookie"], ["가", "[subj]"], ["맛있어요", "delicious"]],
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "쿠키",
+          "cookie"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -612,7 +1330,24 @@
       "englishPhrase": "I love chocolate.",
       "phrase": "초콜릿을 정말 좋아해요.",
       "phraseRomanized": "chokolliteul jeongmal joahaeyo",
-      "literal": [["초콜릿", "chocolate"], ["을", "[obj]"], ["정말", "really"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "초콜릿",
+          "chocolate"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "butter",
@@ -623,7 +1358,28 @@
       "englishPhrase": "I put butter on my bread.",
       "phrase": "빵에 버터를 발라요.",
       "phraseRomanized": "ppange beoteoreul ballayo",
-      "literal": [["빵", "bread"], ["에", "[at/to]"], ["버터", "butter"], ["를", "[obj]"], ["발라요", "spread"]]
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "버터",
+          "butter"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "발라요",
+          "spread"
+        ]
+      ]
     },
     {
       "id": "oil",
@@ -634,7 +1390,20 @@
       "englishPhrase": "Cook with olive oil.",
       "phrase": "올리브 오일로 요리해요.",
       "phraseRomanized": "ollibeu oillo yorihaeyo",
-      "literal": [["올리브 오일", "olive oil"], ["로", "[to/by]"], ["요리해요", "cook"]]
+      "literal": [
+        [
+          "올리브 오일",
+          "olive oil"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "요리해요",
+          "cook"
+        ]
+      ]
     },
     {
       "id": "pepper",
@@ -645,7 +1414,20 @@
       "englishPhrase": "Can you pass the pepper?",
       "phrase": "후추 좀 건네줄 수 있어요?",
       "phraseRomanized": "huchu jom geonnejul su isseoyo",
-      "literal": [["후추", "pepper"], ["좀", "a-little"], ["건네줄 수 있어요", "pass can"]]
+      "literal": [
+        [
+          "후추",
+          "pepper"
+        ],
+        [
+          "좀",
+          "a-little"
+        ],
+        [
+          "건네줄 수 있어요",
+          "pass can"
+        ]
+      ]
     },
     {
       "id": "kitchen",
@@ -656,7 +1438,20 @@
       "englishPhrase": "The kitchen is clean.",
       "phrase": "주방이 깨끗해요.",
       "phraseRomanized": "jubangi kkaekkeuthaeyo",
-      "literal": [["주방", "kitchen"], ["이", "[subj]"], ["깨끗해요", "clean"]]
+      "literal": [
+        [
+          "주방",
+          "kitchen"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "깨끗해요",
+          "clean"
+        ]
+      ]
     },
     {
       "id": "oven",
@@ -667,7 +1462,20 @@
       "englishPhrase": "The oven is hot.",
       "phrase": "오븐이 뜨거워요.",
       "phraseRomanized": "obeuni tteugeowoyo",
-      "literal": [["오븐", "oven"], ["이", "[subj]"], ["뜨거워요", "hot"]],
+      "literal": [
+        [
+          "오븐",
+          "oven"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -679,7 +1487,20 @@
       "englishPhrase": "Cook it on the stove.",
       "phrase": "가스레인지에서 요리하세요.",
       "phraseRomanized": "gaseu reinjieseo yorihaseyo",
-      "literal": [["가스레인지", "stove"], ["에서", "[at/from]"], ["요리하세요", "cook please"]],
+      "literal": [
+        [
+          "가스레인지",
+          "stove"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "요리하세요",
+          "cook please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -691,7 +1512,24 @@
       "englishPhrase": "I need a sharp knife.",
       "phrase": "잘 드는 칼이 필요해요.",
       "phraseRomanized": "jal deuneun kali piryohaeyo",
-      "literal": [["잘 드는", "well-cutting"], ["칼", "knife"], ["이", "[subj]"], ["필요해요", "needed"]],
+      "literal": [
+        [
+          "잘 드는",
+          "well-cutting"
+        ],
+        [
+          "칼",
+          "knife"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -703,7 +1541,16 @@
       "englishPhrase": "Can I have a fork?",
       "phrase": "포크 주실 수 있어요?",
       "phraseRomanized": "pokeu jusil su isseoyo",
-      "literal": [["포크", "fork"], ["주실 수 있어요", "give can"]],
+      "literal": [
+        [
+          "포크",
+          "fork"
+        ],
+        [
+          "주실 수 있어요",
+          "give can"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -715,7 +1562,20 @@
       "englishPhrase": "I need a spoon.",
       "phrase": "숟가락이 필요해요.",
       "phraseRomanized": "sutgaragi piryohaeyo",
-      "literal": [["숟가락", "spoon"], ["이", "[subj]"], ["필요해요", "needed"]],
+      "literal": [
+        [
+          "숟가락",
+          "spoon"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "필요해요",
+          "needed"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -727,7 +1587,28 @@
       "englishPhrase": "I bake bread on Sundays.",
       "phrase": "일요일에 빵을 구워요.",
       "phraseRomanized": "iryoile ppang-eul guwoyo",
-      "literal": [["일요일", "Sunday"], ["에", "[at/to]"], ["빵", "bread"], ["을", "[obj]"], ["구워요", "bake"]],
+      "literal": [
+        [
+          "일요일",
+          "Sunday"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "구워요",
+          "bake"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -739,7 +1620,28 @@
       "englishPhrase": "Fry the onions in oil.",
       "phrase": "기름에 양파를 볶으세요.",
       "phraseRomanized": "gireume yangpareul bokkeuseyo",
-      "literal": [["기름", "oil"], ["에", "[at/to]"], ["양파", "onion"], ["를", "[obj]"], ["볶으세요", "stir-fry please"]],
+      "literal": [
+        [
+          "기름",
+          "oil"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "양파",
+          "onion"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "볶으세요",
+          "stir-fry please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -751,7 +1653,24 @@
       "englishPhrase": "Mix all the ingredients.",
       "phrase": "모든 재료를 섞으세요.",
       "phraseRomanized": "modeun jaeryoreul seok-euseyo",
-      "literal": [["모든", "all"], ["재료", "ingredient"], ["를", "[obj]"], ["섞으세요", "mix please"]],
+      "literal": [
+        [
+          "모든",
+          "all"
+        ],
+        [
+          "재료",
+          "ingredient"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "섞으세요",
+          "mix please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -763,7 +1682,28 @@
       "englishPhrase": "Pour the water into the glass.",
       "phrase": "유리잔에 물을 부어세요.",
       "phraseRomanized": "yurijane mureul bueoseyo",
-      "literal": [["유리잔", "glass"], ["에", "[at/to]"], ["물", "water"], ["을", "[obj]"], ["부어세요", "pour please"]],
+      "literal": [
+        [
+          "유리잔",
+          "glass"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "물",
+          "water"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "부어세요",
+          "pour please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -775,7 +1715,28 @@
       "englishPhrase": "The waiter served the food.",
       "phrase": "웨이터가 음식을 서빙했어요.",
       "phraseRomanized": "weiteo-ga eumsig-eul seobinghaesseoyo",
-      "literal": [["웨이터", "waiter"], ["가", "[subj]"], ["음식", "food"], ["을", "[obj]"], ["서빙했어요", "served"]],
+      "literal": [
+        [
+          "웨이터",
+          "waiter"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "서빙했어요",
+          "served"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -787,7 +1748,20 @@
       "englishPhrase": "The bread is fresh.",
       "phrase": "빵이 신선해요.",
       "phraseRomanized": "ppangi sinsonhaeyo",
-      "literal": [["빵", "bread"], ["이", "[subj]"], ["신선해요", "fresh"]]
+      "literal": [
+        [
+          "빵",
+          "bread"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "신선해요",
+          "fresh"
+        ]
+      ]
     },
     {
       "id": "cooked",
@@ -798,7 +1772,20 @@
       "englishPhrase": "Is the chicken cooked?",
       "phrase": "닭고기가 익었어요?",
       "phraseRomanized": "dalkgogiga igeosseoyo",
-      "literal": [["닭고기", "chicken"], ["가", "[subj]"], ["익었어요", "cooked"]],
+      "literal": [
+        [
+          "닭고기",
+          "chicken"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "익었어요",
+          "cooked"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -810,7 +1797,24 @@
       "englishPhrase": "Be careful, the soup is hot.",
       "phrase": "조심하세요, 국이 뜨거워요.",
       "phraseRomanized": "josimhaseyo, gugi tteugeowoyo",
-      "literal": [["조심하세요", "be-careful"], ["국", "soup"], ["이", "[subj]"], ["뜨거워요", "hot"]]
+      "literal": [
+        [
+          "조심하세요",
+          "be-careful"
+        ],
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뜨거워요",
+          "hot"
+        ]
+      ]
     },
     {
       "id": "cold",
@@ -821,7 +1825,20 @@
       "englishPhrase": "My coffee is cold.",
       "phrase": "커피가 식었어요.",
       "phraseRomanized": "keopiga sigeosseoyo",
-      "literal": [["커피", "coffee"], ["가", "[subj]"], ["식었어요", "cooled-down"]]
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "식었어요",
+          "cooled-down"
+        ]
+      ]
     },
     {
       "id": "sweet",
@@ -832,7 +1849,28 @@
       "englishPhrase": "This cake is very sweet.",
       "phrase": "이 케이크는 매우 달아요.",
       "phraseRomanized": "i keikeuneun maeu darayo",
-      "literal": [["이", "this"], ["케이크", "cake"], ["는", "[topic]"], ["매우", "very"], ["달아요", "sweet"]]
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "케이크",
+          "cake"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "달아요",
+          "sweet"
+        ]
+      ]
     },
     {
       "id": "spicy",
@@ -843,19 +1881,28 @@
       "englishPhrase": "Mexican food is often spicy.",
       "phrase": "멕시코 음식은 보통 매워요.",
       "phraseRomanized": "meksiko eumsig-eun botong maewoyo",
-      "literal": [["멕시코", "Mexican"], ["음식", "food"], ["은", "[topic]"], ["보통", "usually"], ["매워요", "spicy"]]
-    },
-    {
-      "id": "g_adjective_yo",
-      "grammar": true,
-      "english": "It's delicious. (맛있어요 — adjective as verb)",
-      "word": "맛있어요",
-      "romanized": "masisseoyo",
-      "grammarNote": "Korean adjectives conjugate like verbs and end the sentence directly — no separate 'is':\n**맛있어요** (it's delicious), **매워요** (it's spicy), **뜨거워요** (it's hot). Just the adjective + **-요**.",
-      "englishPhrase": "This kimchi is delicious!",
-      "phrase": "이 김치는 맛있어요.",
-      "phraseRomanized": "I gimchineun masisseoyo.",
-      "literal": [["이", "this"], ["김치", "kimchi"], ["는", "(topic)"], ["맛있어요", "is-delicious"]]
+      "literal": [
+        [
+          "멕시코",
+          "Mexican"
+        ],
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "보통",
+          "usually"
+        ],
+        [
+          "매워요",
+          "spicy"
+        ]
+      ]
     },
     {
       "id": "delicious",
@@ -866,7 +1913,16 @@
       "englishPhrase": "This is delicious!",
       "phrase": "이게 맛있어요!",
       "phraseRomanized": "ige massisseoyo",
-      "literal": [["이게", "this[subj]"], ["맛있어요", "delicious"]]
+      "literal": [
+        [
+          "이게",
+          "this[subj]"
+        ],
+        [
+          "맛있어요",
+          "delicious"
+        ]
+      ]
     },
     {
       "id": "healthy",
@@ -877,7 +1933,28 @@
       "englishPhrase": "Fruit is healthy.",
       "phrase": "과일은 건강에 좋아요.",
       "phraseRomanized": "gwaireun geongange joayo",
-      "literal": [["과일", "fruit"], ["은", "[topic]"], ["건강", "health"], ["에", "[at/to]"], ["좋아요", "good"]]
+      "literal": [
+        [
+          "과일",
+          "fruit"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "좋아요",
+          "good"
+        ]
+      ]
     },
     {
       "id": "vegetarian",
@@ -888,7 +1965,24 @@
       "englishPhrase": "I am vegetarian.",
       "phrase": "저는 채식주의자예요.",
       "phraseRomanized": "jeoneun chaesigjuuijayeyo",
-      "literal": [["저", "I"], ["는", "[topic]"], ["채식주의자", "vegetarian"], ["예요", "is"]],
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "채식주의자",
+          "vegetarian"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
       "hidden": true
     }
   ]

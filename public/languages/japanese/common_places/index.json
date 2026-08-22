@@ -15,7 +15,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 27
+      "count": 23
     },
     {
       "n": 2,
@@ -27,42 +27,6 @@
   ],
   "cards": [
     {
-      "id": "g_arimasu",
-      "grammar": true,
-      "english": "There is a bank. (… があります)",
-      "word": "銀行があります",
-      "romanized": "ginkō ga arimasu",
-      "grammarNote": "To say something exists, use **〜があります** for things, **〜がいます** for living beings:\n**銀行があります** (there's a bank), **犬がいます** (there's a dog). The place is marked with **に**: **ここに銀行があります**.",
-      "englishPhrase": "There's a bathroom over there.",
-      "phrase": "あそこにトイレがあります。",
-      "phraseRomanized": "Asoko ni toire ga arimasu.",
-      "literal": [["あそこ", "over-there"], ["に", "at"], ["トイレ", "bathroom"], ["が", "(subj)"], ["あります", "there-is"]]
-    },
-    {
-      "id": "g_de_place",
-      "grammar": true,
-      "english": "I eat at a restaurant. (place で + action)",
-      "word": "レストランで食べます",
-      "romanized": "resutoran de tabemasu",
-      "grammarNote": "**で** marks where an action happens (vs **に** for existence/destination):\n**レストランで食べます** (eat at a restaurant), **図書館で勉強します** (study at the library). The action verb comes last.",
-      "englishPhrase": "I study at school.",
-      "phrase": "学校で勉強します。",
-      "phraseRomanized": "Gakkō de benkyō shimasu.",
-      "literal": [["学校", "school"], ["で", "at"], ["勉強します", "study"]]
-    },
-    {
-      "id": "g_kara_made",
-      "grammar": true,
-      "english": "from home to school (… から … まで)",
-      "word": "家から学校まで",
-      "romanized": "ie kara gakkō made",
-      "grammarNote": "**から** = from, **まで** = to/until — for places and times:\n**家から学校まで** (from home to school), **9時から5時まで** (from 9 to 5). They attach after the noun.",
-      "englishPhrase": "I walk from the station to the park.",
-      "phrase": "駅から公園まで歩きます。",
-      "phraseRomanized": "Eki kara kōen made arukimasu.",
-      "literal": [["駅", "station"], ["から", "from"], ["公園", "park"], ["まで", "to"], ["歩きます", "walk"]]
-    },
-    {
       "id": "home",
       "english": "Home",
       "word": "家",
@@ -71,7 +35,20 @@
       "englishPhrase": "I'm going home.",
       "phrase": "家に帰ります。",
       "phraseRomanized": "ie ni kaerimasu",
-      "literal": [["家", "home"], ["に", "[to/at]"], ["帰ります", "return"]]
+      "literal": [
+        [
+          "家",
+          "home"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "帰ります",
+          "return"
+        ]
+      ]
     },
     {
       "id": "apartment",
@@ -82,7 +59,24 @@
       "englishPhrase": "I live in an apartment.",
       "phrase": "アパートに住んでいます。",
       "phraseRomanized": "apāto ni sunde imasu",
-      "literal": [["アパート", "apartment"], ["に", "[to/at]"], ["住んで", "living"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "アパート",
+          "apartment"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "school",
@@ -93,7 +87,28 @@
       "englishPhrase": "The children go to school.",
       "phrase": "子どもたちは学校に行きます。",
       "phraseRomanized": "kodomotachi wa gakkō ni ikimasu",
-      "literal": [["子どもたち", "children"], ["は", "[topic]"], ["学校", "school"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "子どもたち",
+          "children"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "university",
@@ -104,7 +119,32 @@
       "englishPhrase": "She studies at the university.",
       "phrase": "彼女は大学で勉強しています。",
       "phraseRomanized": "kanojo wa daigaku de benkyō shite imasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["大学", "university"], ["で", "[at/by]"], ["勉強して", "studying"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "大学",
+          "university"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "勉強して",
+          "studying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "office",
@@ -115,7 +155,32 @@
       "englishPhrase": "He works in an office.",
       "phrase": "彼はオフィスで働いています。",
       "phraseRomanized": "kare wa ofisu de hataraite imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["オフィス", "office"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "hospital",
@@ -126,7 +191,20 @@
       "englishPhrase": "I'm going to the hospital.",
       "phrase": "病院に行きます。",
       "phraseRomanized": "byōin ni ikimasu",
-      "literal": [["病院", "hospital"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "病院",
+          "hospital"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "grocery_store",
@@ -137,7 +215,20 @@
       "englishPhrase": "I need to go to the supermarket.",
       "phrase": "スーパーに行かなければなりません。",
       "phraseRomanized": "sūpā ni ikanakereba narimasen",
-      "literal": [["スーパー", "supermarket"], ["に", "[to/at]"], ["行かなければなりません", "must go"]]
+      "literal": [
+        [
+          "スーパー",
+          "supermarket"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行かなければなりません",
+          "must go"
+        ]
+      ]
     },
     {
       "id": "bank",
@@ -148,7 +239,20 @@
       "englishPhrase": "I'm coming from the bank.",
       "phrase": "銀行から来ました。",
       "phraseRomanized": "ginkō kara kimashita",
-      "literal": [["銀行", "bank"], ["から", "[from]"], ["来ました", "came"]]
+      "literal": [
+        [
+          "銀行",
+          "bank"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ]
+      ]
     },
     {
       "id": "library",
@@ -159,7 +263,24 @@
       "englishPhrase": "I study in the library.",
       "phrase": "図書館で勉強します。",
       "phraseRomanized": "toshokan de benkyō shimasu",
-      "literal": [["図書館", "library"], ["で", "[at/by]"], ["勉強", "study"], ["します", "do"]]
+      "literal": [
+        [
+          "図書館",
+          "library"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "勉強",
+          "study"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
     },
     {
       "id": "restaurant",
@@ -170,7 +291,24 @@
       "englishPhrase": "The restaurant is full.",
       "phrase": "レストランは満席です。",
       "phraseRomanized": "resutoran wa manseki desu",
-      "literal": [["レストラン", "restaurant"], ["は", "[topic]"], ["満席", "full seats"], ["です", "is"]]
+      "literal": [
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "満席",
+          "full seats"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "cafe",
@@ -181,7 +319,20 @@
       "englishPhrase": "Let's meet at the cafe.",
       "phrase": "カフェで会いましょう。",
       "phraseRomanized": "kafe de aimashō",
-      "literal": [["カフェ", "cafe"], ["で", "[at/by]"], ["会いましょう", "let's meet"]]
+      "literal": [
+        [
+          "カフェ",
+          "cafe"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "会いましょう",
+          "let's meet"
+        ]
+      ]
     },
     {
       "id": "hotel",
@@ -192,7 +343,28 @@
       "englishPhrase": "The hotel is downtown.",
       "phrase": "ホテルは市内にあります。",
       "phraseRomanized": "hoteru wa shinai ni arimasu",
-      "literal": [["ホテル", "hotel"], ["は", "[topic]"], ["市内", "downtown"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "市内",
+          "downtown"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "airport",
@@ -203,7 +375,32 @@
       "englishPhrase": "The airport is far from here.",
       "phrase": "空港はここから遠いです。",
       "phraseRomanized": "kūkō wa koko kara tōi desu",
-      "literal": [["空港", "airport"], ["は", "[topic]"], ["ここ", "here"], ["から", "[from]"], ["遠い", "far"], ["です", "is"]]
+      "literal": [
+        [
+          "空港",
+          "airport"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "遠い",
+          "far"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "station",
@@ -214,7 +411,36 @@
       "englishPhrase": "The station is near the hotel.",
       "phrase": "駅はホテルの近くにあります。",
       "phraseRomanized": "eki wa hoteru no chikaku ni arimasu",
-      "literal": [["駅", "station"], ["は", "[topic]"], ["ホテル", "hotel"], ["の", "[of/poss]"], ["近く", "near area"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "bus_stop",
@@ -225,19 +451,24 @@
       "englishPhrase": "Wait at the bus stop.",
       "phrase": "バス停で待ってください。",
       "phraseRomanized": "basutei de matte kudasai",
-      "literal": [["バス停", "bus stop"], ["で", "[at/by]"], ["待って", "wait"], ["ください", "please"]]
-    },
-    {
-      "id": "g_ni_destination",
-      "grammar": true,
-      "english": "I go to the park. (destination に + 行きます)",
-      "word": "公園に行きます",
-      "romanized": "kōen ni ikimasu",
-      "grammarNote": "**に** (or **へ**) marks a destination with motion verbs:\n**公園に行きます** (go to the park), **家に帰ります** (return home), **日本に来ます** (come to Japan). The verb stays last.",
-      "englishPhrase": "I'm going to the airport tomorrow.",
-      "phrase": "明日、空港に行きます。",
-      "phraseRomanized": "Ashita, kūkō ni ikimasu.",
-      "literal": [["明日", "tomorrow"], ["空港", "airport"], ["に", "to"], ["行きます", "go"]]
+      "literal": [
+        [
+          "バス停",
+          "bus stop"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "待って",
+          "wait"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "park",
@@ -248,7 +479,28 @@
       "englishPhrase": "The children play in the park.",
       "phrase": "子どもたちは公園で遊びます。",
       "phraseRomanized": "kodomotachi wa kōen de asobimasu",
-      "literal": [["子どもたち", "children"], ["は", "[topic]"], ["公園", "park"], ["で", "[at/by]"], ["遊びます", "play"]]
+      "literal": [
+        [
+          "子どもたち",
+          "children"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "遊びます",
+          "play"
+        ]
+      ]
     },
     {
       "id": "street",
@@ -259,7 +511,32 @@
       "englishPhrase": "The restaurant is on this street.",
       "phrase": "レストランはこの通りにあります。",
       "phraseRomanized": "resutoran wa kono tōri ni arimasu",
-      "literal": [["レストラン", "restaurant"], ["は", "[topic]"], ["この", "this"], ["通り", "street"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "この",
+          "this"
+        ],
+        [
+          "通り",
+          "street"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "bridge",
@@ -270,7 +547,28 @@
       "englishPhrase": "We crossed the bridge.",
       "phrase": "私たちは橋を渡りました。",
       "phraseRomanized": "watashitachi wa hashi wo watarimashita",
-      "literal": [["私たち", "we"], ["は", "[topic]"], ["橋", "bridge"], ["を", "[obj]"], ["渡りました", "crossed"]],
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "橋",
+          "bridge"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "渡りました",
+          "crossed"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -282,7 +580,32 @@
       "englishPhrase": "Turn right at the corner.",
       "phrase": "角で右に曲がってください。",
       "phraseRomanized": "kado de migi ni magatte kudasai",
-      "literal": [["角", "corner"], ["で", "[at/by]"], ["右", "right"], ["に", "[to/at]"], ["曲がって", "turn"], ["ください", "please"]],
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "右",
+          "right"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -294,7 +617,28 @@
       "englishPhrase": "The museum is downtown.",
       "phrase": "博物館は市内にあります。",
       "phraseRomanized": "hakubutsukan wa shinai ni arimasu",
-      "literal": [["博物館", "museum"], ["は", "[topic]"], ["市内", "downtown"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "市内",
+          "downtown"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "neighbourhood",
@@ -305,7 +649,28 @@
       "englishPhrase": "I live in a quiet neighbourhood.",
       "phrase": "静かな近所に住んでいます。",
       "phraseRomanized": "shizuka na kinjo ni sunde imasu",
-      "literal": [["静かな", "quiet"], ["近所", "neighbourhood"], ["に", "[to/at]"], ["住んで", "living"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "静かな",
+          "quiet"
+        ],
+        [
+          "近所",
+          "neighbourhood"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "beach",
@@ -316,7 +681,24 @@
       "englishPhrase": "The beach is beautiful.",
       "phrase": "海岸はきれいです。",
       "phraseRomanized": "kaigan wa kirei desu",
-      "literal": [["海岸", "beach"], ["は", "[topic]"], ["きれい", "beautiful"], ["です", "is"]]
+      "literal": [
+        [
+          "海岸",
+          "beach"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "きれい",
+          "beautiful"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "mountain",
@@ -327,7 +709,28 @@
       "englishPhrase": "The mountain is very high.",
       "phrase": "山はとても高いです。",
       "phraseRomanized": "yama wa totemo takai desu",
-      "literal": [["山", "mountain"], ["は", "[topic]"], ["とても", "very"], ["高い", "high"], ["です", "is"]]
+      "literal": [
+        [
+          "山",
+          "mountain"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "高い",
+          "high"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "museum",
@@ -338,7 +741,24 @@
       "englishPhrase": "I want to visit the museum.",
       "phrase": "博物館を訪れたいです。",
       "phraseRomanized": "hakubutsukan wo otozuretai desu",
-      "literal": [["博物館", "museum"], ["を", "[obj]"], ["訪れたい", "want to visit"], ["です", "is"]]
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "訪れたい",
+          "want to visit"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "movie_theater",
@@ -349,7 +769,24 @@
       "englishPhrase": "We're going to the cinema tonight.",
       "phrase": "今夜映画館に行きます。",
       "phraseRomanized": "kon'ya eigakan ni ikimasu",
-      "literal": [["今夜", "tonight"], ["映画館", "cinema"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "今夜",
+          "tonight"
+        ],
+        [
+          "映画館",
+          "cinema"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "map",
@@ -360,7 +797,28 @@
       "englishPhrase": "Do you have a map?",
       "phrase": "地図を持っていますか？",
       "phraseRomanized": "chizu wo motte imasu ka",
-      "literal": [["地図", "map"], ["を", "[obj]"], ["持って", "holding"], ["います", "[doing]"], ["か", "[?]"]]
+      "literal": [
+        [
+          "地図",
+          "map"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "持って",
+          "holding"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "direction",
@@ -371,7 +829,32 @@
       "englishPhrase": "Which direction is the station?",
       "phrase": "駅はどの方向ですか？",
       "phraseRomanized": "eki wa dono hōkō desu ka",
-      "literal": [["駅", "station"], ["は", "[topic]"], ["どの", "which"], ["方向", "direction"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どの",
+          "which"
+        ],
+        [
+          "方向",
+          "direction"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "in",
@@ -382,7 +865,36 @@
       "englishPhrase": "The keys are in the bag.",
       "phrase": "鍵はバッグの中にあります。",
       "phraseRomanized": "kagi wa baggu no naka ni arimasu",
-      "literal": [["鍵", "keys"], ["は", "[topic]"], ["バッグ", "bag"], ["の", "[of/poss]"], ["中", "inside"], ["に", "[to/at]"], ["あります", "is/exists"]],
+      "literal": [
+        [
+          "鍵",
+          "keys"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "バッグ",
+          "bag"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "中",
+          "inside"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -394,7 +906,36 @@
       "englishPhrase": "The book is on the table.",
       "phrase": "本はテーブルの上にあります。",
       "phraseRomanized": "hon wa tēburu no ue ni arimasu",
-      "literal": [["本", "book"], ["は", "[topic]"], ["テーブル", "table"], ["の", "[of/poss]"], ["上", "top"], ["に", "[to/at]"], ["あります", "is/exists"]],
+      "literal": [
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "上",
+          "top"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -406,7 +947,20 @@
       "englishPhrase": "I'm at the office.",
       "phrase": "オフィスにいます。",
       "phraseRomanized": "ofisu ni imasu",
-      "literal": [["オフィス", "office"], ["に", "[to/at]"], ["います", "is/exists"]],
+      "literal": [
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -418,7 +972,36 @@
       "englishPhrase": "The cat is under the table.",
       "phrase": "猫はテーブルの下にいます。",
       "phraseRomanized": "neko wa tēburu no shita ni imasu",
-      "literal": [["猫", "cat"], ["は", "[topic]"], ["テーブル", "table"], ["の", "[of/poss]"], ["下", "beneath"], ["に", "[to/at]"], ["います", "is/exists"]]
+      "literal": [
+        [
+          "猫",
+          "cat"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "下",
+          "beneath"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "next_to",
@@ -429,7 +1012,36 @@
       "englishPhrase": "The bank is next to the cafe.",
       "phrase": "銀行はカフェの隣にあります。",
       "phraseRomanized": "ginkō wa kafe no tonari ni arimasu",
-      "literal": [["銀行", "bank"], ["は", "[topic]"], ["カフェ", "cafe"], ["の", "[of/poss]"], ["隣", "next to"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "銀行",
+          "bank"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "カフェ",
+          "cafe"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "隣",
+          "next to"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "between",
@@ -440,7 +1052,44 @@
       "englishPhrase": "The park is between the school and the library.",
       "phrase": "公園は学校と図書館の間にあります。",
       "phraseRomanized": "kōen wa gakkō to toshokan no aida ni arimasu",
-      "literal": [["公園", "park"], ["は", "[topic]"], ["学校", "school"], ["と", "[and/with]"], ["図書館", "library"], ["の", "[of/poss]"], ["間", "between"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "図書館",
+          "library"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "間",
+          "between"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "in_front_of",
@@ -451,7 +1100,36 @@
       "englishPhrase": "The taxi is in front of the hotel.",
       "phrase": "タクシーはホテルの前にいます。",
       "phraseRomanized": "takushī wa hoteru no mae ni imasu",
-      "literal": [["タクシー", "taxi"], ["は", "[topic]"], ["ホテル", "hotel"], ["の", "[of/poss]"], ["前", "front"], ["に", "[to/at]"], ["います", "is/exists"]]
+      "literal": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "前",
+          "front"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "behind",
@@ -462,7 +1140,36 @@
       "englishPhrase": "The garden is behind the house.",
       "phrase": "庭は家の後ろにあります。",
       "phraseRomanized": "niwa wa ie no ushiro ni arimasu",
-      "literal": [["庭", "garden"], ["は", "[topic]"], ["家", "house"], ["の", "[of/poss]"], ["後ろ", "behind"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "庭",
+          "garden"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "後ろ",
+          "behind"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "near",
@@ -473,7 +1180,36 @@
       "englishPhrase": "Is there a restaurant near here?",
       "phrase": "この近くにレストランはありますか？",
       "phraseRomanized": "kono chikaku ni resutoran wa arimasu ka",
-      "literal": [["この", "this"], ["近く", "near area"], ["に", "[to/at]"], ["レストラン", "restaurant"], ["は", "[topic]"], ["あります", "is/exists"], ["か", "[?]"]]
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "レストラン",
+          "restaurant"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "far",
@@ -484,7 +1220,28 @@
       "englishPhrase": "Is the airport far?",
       "phrase": "空港は遠いですか？",
       "phraseRomanized": "kūkō wa tōi desu ka",
-      "literal": [["空港", "airport"], ["は", "[topic]"], ["遠い", "far"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "空港",
+          "airport"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "遠い",
+          "far"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "here",
@@ -495,7 +1252,24 @@
       "englishPhrase": "Come here, please.",
       "phrase": "ここに来てください。",
       "phraseRomanized": "koko ni kite kudasai",
-      "literal": [["ここ", "here"], ["に", "[to/at]"], ["来て", "come"], ["ください", "please"]]
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "there",
@@ -506,7 +1280,28 @@
       "englishPhrase": "The taxi is over there.",
       "phrase": "タクシーはあそこにいます。",
       "phraseRomanized": "takushī wa asoko ni imasu",
-      "literal": [["タクシー", "taxi"], ["は", "[topic]"], ["あそこ", "over there"], ["に", "[to/at]"], ["います", "is/exists"]]
+      "literal": [
+        [
+          "タクシー",
+          "taxi"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あそこ",
+          "over there"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "います",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "left",
@@ -517,7 +1312,24 @@
       "englishPhrase": "Turn left.",
       "phrase": "左に曲がってください。",
       "phraseRomanized": "hidari ni magatte kudasai",
-      "literal": [["左", "left"], ["に", "[to/at]"], ["曲がって", "turn"], ["ください", "please"]]
+      "literal": [
+        [
+          "左",
+          "left"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "right",
@@ -528,7 +1340,24 @@
       "englishPhrase": "Turn right.",
       "phrase": "右に曲がってください。",
       "phraseRomanized": "migi ni magatte kudasai",
-      "literal": [["右", "right"], ["に", "[to/at]"], ["曲がって", "turn"], ["ください", "please"]]
+      "literal": [
+        [
+          "右",
+          "right"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "straight_ahead",
@@ -539,7 +1368,20 @@
       "englishPhrase": "Go straight ahead.",
       "phrase": "まっすぐ進んでください。",
       "phraseRomanized": "massugu susunde kudasai",
-      "literal": [["まっすぐ", "straight"], ["進んで", "proceed"], ["ください", "please"]]
+      "literal": [
+        [
+          "まっすぐ",
+          "straight"
+        ],
+        [
+          "進んで",
+          "proceed"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "north",
@@ -550,7 +1392,28 @@
       "englishPhrase": "The city is to the north.",
       "phrase": "町は北にあります。",
       "phraseRomanized": "machi wa kita ni arimasu",
-      "literal": [["町", "city"], ["は", "[topic]"], ["北", "north"], ["に", "[to/at]"], ["あります", "is/exists"]],
+      "literal": [
+        [
+          "町",
+          "city"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "北",
+          "north"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -562,7 +1425,28 @@
       "englishPhrase": "The beach is to the south.",
       "phrase": "海岸は南にあります。",
       "phraseRomanized": "kaigan wa minami ni arimasu",
-      "literal": [["海岸", "beach"], ["は", "[topic]"], ["南", "south"], ["に", "[to/at]"], ["あります", "is/exists"]],
+      "literal": [
+        [
+          "海岸",
+          "beach"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "南",
+          "south"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -574,7 +1458,28 @@
       "englishPhrase": "The sun rises in the east.",
       "phrase": "太陽は東から昇ります。",
       "phraseRomanized": "taiyō wa higashi kara noborimasu",
-      "literal": [["太陽", "sun"], ["は", "[topic]"], ["東", "east"], ["から", "[from]"], ["昇ります", "rises"]],
+      "literal": [
+        [
+          "太陽",
+          "sun"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "東",
+          "east"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "昇ります",
+          "rises"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -586,7 +1491,28 @@
       "englishPhrase": "The sun sets in the west.",
       "phrase": "太陽は西に沈みます。",
       "phraseRomanized": "taiyō wa nishi ni shizumimasu",
-      "literal": [["太陽", "sun"], ["は", "[topic]"], ["西", "west"], ["に", "[to/at]"], ["沈みます", "sets"]],
+      "literal": [
+        [
+          "太陽",
+          "sun"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "西",
+          "west"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "沈みます",
+          "sets"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -598,7 +1524,32 @@
       "englishPhrase": "Is there a pharmacy nearby?",
       "phrase": "近くに薬局はありますか？",
       "phraseRomanized": "chikaku ni yakkyoku wa arimasu ka",
-      "literal": [["近く", "nearby"], ["に", "[to/at]"], ["薬局", "pharmacy"], ["は", "[topic]"], ["あります", "is/exists"], ["か", "[?]"]]
+      "literal": [
+        [
+          "近く",
+          "nearby"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "薬局",
+          "pharmacy"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_go",
@@ -609,7 +1560,20 @@
       "englishPhrase": "I'm going to the supermarket.",
       "phrase": "スーパーに行きます。",
       "phraseRomanized": "sūpā ni ikimasu",
-      "literal": [["スーパー", "supermarket"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "スーパー",
+          "supermarket"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "to_come",
@@ -620,7 +1584,28 @@
       "englishPhrase": "Come to my house.",
       "phrase": "私の家に来てください。",
       "phraseRomanized": "watashi no ie ni kite kudasai",
-      "literal": [["私の", "my"], ["家", "house"], ["に", "[to/at]"], ["来て", "come"], ["ください", "please"]]
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "to_travel",
@@ -631,7 +1616,28 @@
       "englishPhrase": "I love to travel.",
       "phrase": "旅行するのが大好きです。",
       "phraseRomanized": "ryokō suru no ga daisuki desu",
-      "literal": [["旅行する", "traveling"], ["の", "[of/poss]"], ["が", "[subj]"], ["大好き", "love"], ["です", "is"]]
+      "literal": [
+        [
+          "旅行する",
+          "traveling"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "love"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "to_walk",
@@ -642,7 +1648,28 @@
       "englishPhrase": "I walk to work every day.",
       "phrase": "毎日歩いて仕事に行きます。",
       "phraseRomanized": "mainichi aruite shigoto ni ikimasu",
-      "literal": [["毎日", "every day"], ["歩いて", "walking"], ["仕事", "work"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "歩いて",
+          "walking"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "to_drive",
@@ -653,7 +1680,28 @@
       "englishPhrase": "She drives to the office.",
       "phrase": "彼女はオフィスまで運転します。",
       "phraseRomanized": "kanojo wa ofisu made unten shimasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["オフィス", "office"], ["まで", "[until]"], ["運転します", "drives"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "まで",
+          "[until]"
+        ],
+        [
+          "運転します",
+          "drives"
+        ]
+      ]
     },
     {
       "id": "to_turn",
@@ -664,7 +1712,32 @@
       "englishPhrase": "Turn left at the corner.",
       "phrase": "角で左に曲がってください。",
       "phraseRomanized": "kado de hidari ni magatte kudasai",
-      "literal": [["角", "corner"], ["で", "[at/by]"], ["左", "left"], ["に", "[to/at]"], ["曲がって", "turn"], ["ください", "please"]],
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "左",
+          "left"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "曲がって",
+          "turn"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -676,7 +1749,28 @@
       "englishPhrase": "Cross the street carefully.",
       "phrase": "注意して道を渡ってください。",
       "phraseRomanized": "chūi shite michi wo watatte kudasai",
-      "literal": [["注意して", "carefully"], ["道", "road"], ["を", "[obj]"], ["渡って", "cross"], ["ください", "please"]],
+      "literal": [
+        [
+          "注意して",
+          "carefully"
+        ],
+        [
+          "道",
+          "road"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "渡って",
+          "cross"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -688,7 +1782,32 @@
       "englishPhrase": "Follow this street.",
       "phrase": "この通りに沿って進んでください。",
       "phraseRomanized": "kono tōri ni sotte susunde kudasai",
-      "literal": [["この", "this"], ["通り", "street"], ["に", "[to/at]"], ["沿って", "along"], ["進んで", "proceed"], ["ください", "please"]],
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "通り",
+          "street"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "沿って",
+          "along"
+        ],
+        [
+          "進んで",
+          "proceed"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -700,7 +1819,24 @@
       "englishPhrase": "Enter through the main door.",
       "phrase": "正面玄関から入ってください。",
       "phraseRomanized": "shōmen genkan kara haitte kudasai",
-      "literal": [["正面玄関", "main entrance"], ["から", "[from]"], ["入って", "enter"], ["ください", "please"]]
+      "literal": [
+        [
+          "正面玄関",
+          "main entrance"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "入って",
+          "enter"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "to_leave",
@@ -711,7 +1847,28 @@
       "englishPhrase": "I leave work at five.",
       "phrase": "5時に仕事を出ます。",
       "phraseRomanized": "goji ni shigoto wo demasu",
-      "literal": [["5時", "five o'clock"], ["に", "[to/at]"], ["仕事", "work"], ["を", "[obj]"], ["出ます", "leave"]]
+      "literal": [
+        [
+          "5時",
+          "five o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "出ます",
+          "leave"
+        ]
+      ]
     },
     {
       "id": "to_arrive",
@@ -722,7 +1879,16 @@
       "englishPhrase": "We arrive tomorrow.",
       "phrase": "明日到着します。",
       "phraseRomanized": "ashita tōchaku shimasu",
-      "literal": [["明日", "tomorrow"], ["到着します", "arrive"]]
+      "literal": [
+        [
+          "明日",
+          "tomorrow"
+        ],
+        [
+          "到着します",
+          "arrive"
+        ]
+      ]
     },
     {
       "id": "to_visit",
@@ -733,7 +1899,24 @@
       "englishPhrase": "I want to visit the museum.",
       "phrase": "博物館を訪れたいです。",
       "phraseRomanized": "hakubutsukan wo otozuretai desu",
-      "literal": [["博物館", "museum"], ["を", "[obj]"], ["訪れたい", "want to visit"], ["です", "is"]]
+      "literal": [
+        [
+          "博物館",
+          "museum"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "訪れたい",
+          "want to visit"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "to_live",
@@ -744,7 +1927,32 @@
       "englishPhrase": "I live near the city centre.",
       "phrase": "市内の近くに住んでいます。",
       "phraseRomanized": "shinai no chikaku ni sunde imasu",
-      "literal": [["市内", "city centre"], ["の", "[of/poss]"], ["近く", "near area"], ["に", "[to/at]"], ["住んで", "living"], ["います", "[doing]"]],
+      "literal": [
+        [
+          "市内",
+          "city centre"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "近く",
+          "near area"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -756,7 +1964,24 @@
       "englishPhrase": "We're staying at a hotel.",
       "phrase": "ホテルに泊まっています。",
       "phraseRomanized": "hoteru ni tomatte imasu",
-      "literal": [["ホテル", "hotel"], ["に", "[to/at]"], ["泊まって", "staying"], ["います", "[doing]"]],
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "泊まって",
+          "staying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -768,7 +1993,28 @@
       "englishPhrase": "I'll wait for you here.",
       "phrase": "ここであなたを待ちます。",
       "phraseRomanized": "koko de anata wo machimasu",
-      "literal": [["ここ", "here"], ["で", "[at/by]"], ["あなた", "you"], ["を", "[obj]"], ["待ちます", "wait"]],
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "待ちます",
+          "wait"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -780,7 +2026,20 @@
       "englishPhrase": "Let's meet at the park.",
       "phrase": "公園で会いましょう。",
       "phraseRomanized": "kōen de aimashō",
-      "literal": [["公園", "park"], ["で", "[at/by]"], ["会いましょう", "let's meet"]]
+      "literal": [
+        [
+          "公園",
+          "park"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "会いましょう",
+          "let's meet"
+        ]
+      ]
     },
     {
       "id": "to_get_lost",
@@ -791,7 +2050,16 @@
       "englishPhrase": "Don't get lost!",
       "phrase": "迷わないでください！",
       "phraseRomanized": "mayowanaide kudasai",
-      "literal": [["迷わないで", "don't get lost"], ["ください", "please"]]
+      "literal": [
+        [
+          "迷わないで",
+          "don't get lost"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "to_find",
@@ -802,7 +2070,20 @@
       "englishPhrase": "I can't find the hotel.",
       "phrase": "ホテルが見つかりません。",
       "phraseRomanized": "hoteru ga mitsukarimasen",
-      "literal": [["ホテル", "hotel"], ["が", "[subj]"], ["見つかりません", "not found"]]
+      "literal": [
+        [
+          "ホテル",
+          "hotel"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "見つかりません",
+          "not found"
+        ]
+      ]
     },
     {
       "id": "to_look_for",
@@ -813,7 +2094,24 @@
       "englishPhrase": "I'm looking for the pharmacy.",
       "phrase": "薬局を探しています。",
       "phraseRomanized": "yakkyoku wo sagashite imasu",
-      "literal": [["薬局", "pharmacy"], ["を", "[obj]"], ["探して", "searching"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "薬局",
+          "pharmacy"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "探して",
+          "searching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_stop",
@@ -824,7 +2122,24 @@
       "englishPhrase": "Stop at the corner.",
       "phrase": "角で止まってください。",
       "phraseRomanized": "kado de tomatte kudasai",
-      "literal": [["角", "corner"], ["で", "[at/by]"], ["止まって", "stop"], ["ください", "please"]],
+      "literal": [
+        [
+          "角",
+          "corner"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "止まって",
+          "stop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -836,7 +2151,28 @@
       "englishPhrase": "Where can I park?",
       "phrase": "どこに駐車できますか？",
       "phraseRomanized": "doko ni chūsha dekimasu ka",
-      "literal": [["どこ", "where"], ["に", "[to/at]"], ["駐車", "park"], ["できます", "can"], ["か", "[?]"]],
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "駐車",
+          "park"
+        ],
+        [
+          "できます",
+          "can"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -848,7 +2184,28 @@
       "englishPhrase": "The market is very crowded.",
       "phrase": "市場はとても混んでいます。",
       "phraseRomanized": "ichiba wa totemo konde imasu",
-      "literal": [["市場", "market"], ["は", "[topic]"], ["とても", "very"], ["混んで", "crowded"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "市場",
+          "market"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "混んで",
+          "crowded"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "quiet",
@@ -859,7 +2216,36 @@
       "englishPhrase": "I prefer a quiet neighbourhood.",
       "phrase": "静かな近所の方が好きです。",
       "phraseRomanized": "shizuka na kinjo no hō ga suki desu",
-      "literal": [["静かな", "quiet"], ["近所", "neighbourhood"], ["の", "[of/poss]"], ["方", "side"], ["が", "[subj]"], ["好き", "preferred"], ["です", "is"]]
+      "literal": [
+        [
+          "静かな",
+          "quiet"
+        ],
+        [
+          "近所",
+          "neighbourhood"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "方",
+          "side"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "preferred"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "lost",
@@ -870,7 +2256,20 @@
       "englishPhrase": "I'm lost.",
       "phrase": "道に迷いました。",
       "phraseRomanized": "michi ni mayoimashita",
-      "literal": [["道", "road"], ["に", "[to/at]"], ["迷いました", "got lost"]]
+      "literal": [
+        [
+          "道",
+          "road"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "迷いました",
+          "got lost"
+        ]
+      ]
     }
   ]
 }

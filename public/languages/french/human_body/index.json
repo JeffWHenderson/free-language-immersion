@@ -11,43 +11,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_body_article",
-      "grammar": true,
-      "english": "I wash my hands. (je me lave les mains)",
-      "word": "je me lave les mains",
-      "grammarNote": "With body parts and a reflexive verb, French uses **the** (le/la/les), not 'my':\n**je me lave les mains** (I wash my hands), **il se brosse les dents** (he brushes his teeth). The reflexive pronoun already shows whose.",
-      "englishPhrase": "I brush my teeth.",
-      "phrase": "Je me brosse les dents.",
-      "literal": [["Je", "I"], ["me", "myself"], ["brosse", "brush"], ["les", "the"], ["dents", "teeth"]]
-    },
-    {
-      "id": "g_avoir_mal",
-      "grammar": true,
-      "english": "My head hurts. (avoir mal à)",
-      "word": "j'ai mal à la tête",
-      "grammarNote": "To say something hurts, use **avoir mal à** + body part (with contraction **à + le → au**):\n**j'ai mal à la tête** (headache), **j'ai mal au dos** (backache), **j'ai mal aux pieds** (my feet hurt).",
-      "englishPhrase": "My stomach hurts.",
-      "phrase": "J'ai mal au ventre.",
-      "literal": [["J'ai", "I-have"], ["mal", "pain"], ["au", "at-the"], ["ventre", "stomach"]]
-    },
-    {
-      "id": "g_possessive_mon",
-      "grammar": true,
-      "english": "my hand / my eyes (ma / mes)",
-      "word": "ma main / mes yeux",
-      "grammarNote": "Possessives agree with the noun (not the owner):\n**mon** (masc.) / **ma** (fem.) / **mes** (plural) → **mon bras**, **ma main**, **mes yeux**. Before a vowel use **mon** even for feminine: **mon amie**.",
-      "englishPhrase": "My hand hurts.",
-      "phrase": "Ma main me fait mal.",
-      "literal": [["Ma", "my"], ["main", "hand"], ["me", "to-me"], ["fait mal", "hurts"]]
-    },
     {
       "id": "head",
       "english": "head",
@@ -145,16 +115,6 @@
       "phrase": "Je me suis cassé le bras."
     },
     {
-      "id": "g_avoir_body",
-      "grammar": true,
-      "english": "She has blue eyes. (avoir + les + adjective)",
-      "word": "elle a les yeux bleus",
-      "grammarNote": "Describe features with **avoir** + **les** + body part + adjective (which agrees):\n**elle a les yeux bleus** (she has blue eyes), **il a les cheveux courts** (he has short hair).",
-      "englishPhrase": "He has big hands.",
-      "phrase": "Il a de grandes mains.",
-      "literal": [["Il", "he"], ["a", "has"], ["de", "(some)"], ["grandes", "big"], ["mains", "hands"]]
-    },
-    {
       "id": "hand",
       "english": "hand",
       "word": "la main",
@@ -193,7 +153,28 @@
       "grammarNote": "**l'épaule** is feminine: une épaule, les épaules.\nElision: **l'épaule** (not *la épaule*).\n**mon épaule me fait mal** = my shoulder hurts — literally 'my shoulder makes me hurt/pain'.\n**faire mal à** = to hurt (someone): ça me fait mal (it hurts me), mon dos me fait mal.\nThis contrasts with **j'ai mal à l'épaule** (I have pain in my shoulder — another natural phrasing).",
       "englishPhrase": "My shoulder hurts.",
       "phrase": "Mon épaule me fait mal.",
-      "literal": [["Mon", "my"], ["épaule", "shoulder"], ["me", "me"], ["fait", "makes"], ["mal", "pain"]]
+      "literal": [
+        [
+          "Mon",
+          "my"
+        ],
+        [
+          "épaule",
+          "shoulder"
+        ],
+        [
+          "me",
+          "me"
+        ],
+        [
+          "fait",
+          "makes"
+        ],
+        [
+          "mal",
+          "pain"
+        ]
+      ]
     },
     {
       "id": "elbow",
@@ -202,7 +183,28 @@
       "grammarNote": "**le coude** is masculine: un coude, les coudes.\n**il s'est cogné le coude** = he bumped his elbow — **se cogner** (reflexive) uses **être** in passé composé.\nPast participle **cogné** agrees with **il** (masculine singular) — no change needed here.\n**le coude** in idioms: **jouer des coudes** (to elbow one's way through a crowd), **coup de coude** (a nudge with the elbow).",
       "englishPhrase": "He bumped his elbow.",
       "phrase": "Il s'est cogné le coude.",
-      "literal": [["Il", "he"], ["s'est", "himself"], ["cogné", "bumped"], ["le", "the"], ["coude", "elbow"]]
+      "literal": [
+        [
+          "Il",
+          "he"
+        ],
+        [
+          "s'est",
+          "himself"
+        ],
+        [
+          "cogné",
+          "bumped"
+        ],
+        [
+          "le",
+          "the"
+        ],
+        [
+          "coude",
+          "elbow"
+        ]
+      ]
     },
     {
       "id": "knee",
@@ -211,7 +213,36 @@
       "grammarNote": "**le genou** → plural **les genoux** (irregular: -ou → -oux; same pattern: bijou → bijoux, caillou → cailloux).\n**je me suis fait mal au genou** = I hurt my knee — reflexive passé composé of **se faire mal**.\n**se faire mal** = to hurt oneself (general): je me suis fait mal · **à + le = au**.\nCompare: **j'ai mal au genou** (my knee hurts — current state) vs **je me suis fait mal au genou** (I hurt my knee — event).",
       "englishPhrase": "I hurt my knee.",
       "phrase": "Je me suis fait mal au genou.",
-      "literal": [["Je", "I"], ["me", "myself"], ["suis", "am"], ["fait", "made"], ["mal", "hurt"], ["au", "at-the"], ["genou", "knee"]]
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "me",
+          "myself"
+        ],
+        [
+          "suis",
+          "am"
+        ],
+        [
+          "fait",
+          "made"
+        ],
+        [
+          "mal",
+          "hurt"
+        ],
+        [
+          "au",
+          "at-the"
+        ],
+        [
+          "genou",
+          "knee"
+        ]
+      ]
     },
     {
       "id": "leg",

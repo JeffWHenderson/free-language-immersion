@@ -1,0 +1,546 @@
+{
+  "id": "grammar_essentials",
+  "name": "Grammar Essentials",
+  "language": "arabic",
+  "cards": [
+    {
+      "id": "g_nominal_sentence",
+      "grammar": true,
+      "english": "I am a student. (nominal sentence — no 'am')",
+      "word": "أنا طالب",
+      "romanized": "ana talib",
+      "grammarNote": "Arabic has **no present-tense 'to be'**. Just place two words side by side:\n**أنا طالب** (I [am a] student), **هي طبيبة** (she [is a] doctor), **الكتاب جديد** (the book [is] new).",
+      "englishPhrase": "I am from Egypt.",
+      "phrase": "أنا من مصر.",
+      "phraseRomanized": "Ana min misr.",
+      "format": "produce",
+      "produce": {
+        "concept": "Nominal sentence: no word for 'am/is/are'",
+        "task": "say: I am a student",
+        "answer": "أنا طالب ana talib",
+        "gloss": "Just noun + noun. أنا طالبة (f)."
+      }
+    },
+    {
+      "id": "g_definite_al",
+      "grammar": true,
+      "english": "the book (الـ + noun)",
+      "word": "الكتاب",
+      "romanized": "al-kitab",
+      "grammarNote": "**الـ** (al-) = 'the', attached to the front of the noun:\n**كتاب** (a book) → **الكتاب** (the book). Before 'sun letters' (ت، س، ش، ن …) the **l** assimilates in sound: **الشمس** is said 'ash-shams', still written الـ.",
+      "englishPhrase": "The house is big.",
+      "phrase": "البيت كبير.",
+      "phraseRomanized": "Al-bayt kabir.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "the book (definite article)",
+        "text": "___ كتاب",
+        "answer": "الـ (al-)"
+      }
+    },
+    {
+      "id": "g_gender_agreement",
+      "grammar": true,
+      "english": "he is tired / she is tired (gender: ة)",
+      "word": "هو تعبان / هي تعبانة",
+      "romanized": "huwa ta'ban / hiya ta'bana",
+      "grammarNote": "Every noun and adjective is **masculine or feminine**; the feminine usually adds **ة** (taa marbuuta):\n**هو تعبان / هي تعبانة** (he/she is tired), **طالب / طالبة** (male/female student). Adjectives agree with their noun.",
+      "englishPhrase": "He is a teacher, she is a teacher.",
+      "phrase": "هو معلم، هي معلمة.",
+      "phraseRomanized": "Huwa mu'allim, hiya mu'allima.",
+      "format": "contrast",
+      "contrast": {
+        "prompt": "«tired» — man or woman?",
+        "a": {
+          "term": "هو تعبان (huwa ta'bān)",
+          "gloss": "masculine — base adjective"
+        },
+        "b": {
+          "term": "هي تعبانة (hiya ta'bāna)",
+          "gloss": "feminine — add ة (ta marbuta)"
+        }
+      }
+    },
+    {
+      "id": "g_possessive_suffix",
+      "grammar": true,
+      "english": "my name (اسم + ي)",
+      "word": "اسمي",
+      "romanized": "ismi",
+      "grammarNote": "Possession is shown by **suffixes** attached to the noun:\n**ـي** (my) **اسمي** (my name), **ـك** (your) **اسمك**, **ـه** (his) **اسمه**, **ـها** (her) **اسمها**. There's no separate word for 'my'.",
+      "englishPhrase": "My name is Sami.",
+      "phrase": "اسمي سامي.",
+      "phraseRomanized": "Ismi Sami.",
+      "format": "table",
+      "table": {
+        "title": "Possessive suffixes (on اسم «name»)",
+        "rows": [
+          [
+            "my",
+            "ـي (اسمي ismi)"
+          ],
+          [
+            "your (m)",
+            "ـك (اسمك ismuka)"
+          ],
+          [
+            "your (f)",
+            "ـكِ (اسمكِ ismuki)"
+          ],
+          [
+            "his",
+            "ـه (اسمه ismuhu)"
+          ],
+          [
+            "her",
+            "ـها (اسمها ismuha)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g_question_hal",
+      "grammar": true,
+      "english": "Are you a student? (هل …)",
+      "word": "هل أنت طالب؟",
+      "romanized": "hal anta talib?",
+      "grammarNote": "Turn a statement into a yes/no question by adding **هل** (or **أ**) at the front:\n**أنت طالب** → **هل أنت طالب؟** (are you a student?). Answer with **نعم** (yes) or **لا** (no).",
+      "englishPhrase": "Do you speak Arabic?",
+      "phrase": "هل تتكلم العربية؟",
+      "phraseRomanized": "Hal tatakallam al-'arabiyya?",
+      "format": "produce",
+      "produce": {
+        "concept": "هل turns a statement into a yes/no question",
+        "task": "ask: are you a student?",
+        "answer": "هل أنت طالب؟ hal anta talib?",
+        "gloss": "Put هل at the start; nothing else changes."
+      }
+    },
+    {
+      "id": "g_ureed",
+      "grammar": true,
+      "english": "I want water. (أريد + noun)",
+      "word": "أريد ماءً",
+      "romanized": "urid maa'an",
+      "grammarNote": "**أريد** (urid) = I want — followed directly by the thing:\n**أريد ماءً** (I want water), **أريد قهوة** (I want a coffee). For 'I want to (do)', add a verb: **أريد أن آكل** (I want to eat).",
+      "englishPhrase": "I want a coffee, please.",
+      "phrase": "أريد قهوة من فضلك.",
+      "phraseRomanized": "Urid qahwa min fadlik.",
+      "format": "produce",
+      "produce": {
+        "concept": "أريد + noun = I want …",
+        "task": "say: I want water",
+        "answer": "أريد ماءً urid maa'an",
+        "gloss": "Polite version: أريد أن + verb."
+      }
+    },
+    {
+      "id": "g_min_fadlik",
+      "grammar": true,
+      "english": "please (to a man / to a woman)",
+      "word": "من فضلك / من فضلكِ",
+      "romanized": "min fadlik / min fadliki",
+      "grammarNote": "Politeness endings change with the listener's gender:\n**من فضلك** (min fadlik, to a man) / **من فضلكِ** (min fadliki, to a woman). The same **ـك** vs **ـكِ** split shows up across 'your', commands, and greetings.",
+      "englishPhrase": "The bill, please.",
+      "phrase": "الحساب من فضلك.",
+      "phraseRomanized": "Al-hisab min fadlik.",
+      "format": "contrast",
+      "contrast": {
+        "prompt": "«please» — to whom?",
+        "a": {
+          "term": "من فضلك (min fadlik)",
+          "gloss": "speaking to a man"
+        },
+        "b": {
+          "term": "من فضلكِ (min fadliki)",
+          "gloss": "speaking to a woman"
+        }
+      }
+    },
+    {
+      "id": "g_uhibb",
+      "grammar": true,
+      "english": "I like coffee. (أحب + the noun)",
+      "word": "أحب القهوة",
+      "romanized": "uhibb al-qahwa",
+      "grammarNote": "**أحب** (uhibb) = I like / love; for liking something in general, use the **definite** noun:\n**أحب القهوة** (I like coffee), **أحب الشاي** (I like tea). Add a verb for 'like to do': **أحب أن أقرأ** (I like to read).",
+      "englishPhrase": "I like fish.",
+      "phrase": "أحب السمك.",
+      "phraseRomanized": "Uhibb as-samak.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I like coffee. (أحب + the noun)",
+        "text": "أحب ___ قهوة",
+        "answer": "الـ (al-)"
+      }
+    },
+    {
+      "id": "g_adjective_food",
+      "grammar": true,
+      "english": "The food is delicious. (adjective follows noun)",
+      "word": "الطعام لذيذ",
+      "romanized": "at-ta'am ladhidh",
+      "grammarNote": "The **adjective comes after the noun** and agrees with it:\n**الطعام لذيذ** (the food [is] delicious), **قهوة ساخنة** (hot coffee — fem. adds **ة**). A definite noun + indefinite adjective reads as a full sentence: 'the food is delicious'.",
+      "englishPhrase": "The soup is hot.",
+      "phrase": "الشوربة ساخنة.",
+      "phraseRomanized": "Ash-shurba sakhina.",
+      "format": "produce",
+      "produce": {
+        "concept": "The adjective comes AFTER the noun (and agrees)",
+        "task": "say: the food is delicious",
+        "answer": "الطعام لذيذ at-ta'am ladhidh",
+        "gloss": "Adjective follows the noun; agrees in gender & definiteness."
+      }
+    },
+    {
+      "id": "g_fi_location",
+      "grammar": true,
+      "english": "I am at home. (في = in / at)",
+      "word": "أنا في البيت",
+      "romanized": "ana fi al-bayt",
+      "grammarNote": "**في** (fi) = in / at — for being somewhere:\n**أنا في البيت** (I'm at home), **هو في المدرسة** (he's at school). It's a nominal sentence: no 'am/is', just **في** + place.",
+      "englishPhrase": "She is at the office.",
+      "phrase": "هي في المكتب.",
+      "phraseRomanized": "Hiya fi al-maktab.",
+      "format": "produce",
+      "produce": {
+        "concept": "في = in / at (location)",
+        "task": "say: I am at home",
+        "answer": "أنا في البيت ana fi al-bayt",
+        "gloss": "Nominal sentence + في + place."
+      }
+    },
+    {
+      "id": "g_prepositions",
+      "grammar": true,
+      "english": "on / under / next to (على / تحت / بجانب)",
+      "word": "على / تحت / بجانب",
+      "romanized": "'ala / taht / bijanib",
+      "grammarNote": "Common place prepositions, each followed by the noun:\n**على** (on) **على الطاولة**, **تحت** (under) **تحت الكرسي**, **بجانب** (next to) **بجانب البنك**, **أمام** (in front of), **خلف** (behind).",
+      "englishPhrase": "The cat is under the table.",
+      "phrase": "القطة تحت الطاولة.",
+      "phraseRomanized": "Al-qitta taht at-tawila.",
+      "format": "table",
+      "table": {
+        "title": "Common place prepositions",
+        "rows": [
+          [
+            "on",
+            "على 'ala"
+          ],
+          [
+            "under",
+            "تحت taht"
+          ],
+          [
+            "next to",
+            "بجانب bijanib"
+          ],
+          [
+            "in / at",
+            "في fi"
+          ]
+        ],
+        "note": "The noun after them usually takes الـ."
+      }
+    },
+    {
+      "id": "g_hunaka",
+      "grammar": true,
+      "english": "There is a bank. (هناك …)",
+      "word": "هناك بنك",
+      "romanized": "hunaka bank",
+      "grammarNote": "**هناك** (hunaka) = there is / there are (literally 'there'):\n**هناك بنك قريب** (there's a bank nearby), **هناك مطاعم كثيرة** (there are many restaurants). Same form for singular and plural.",
+      "englishPhrase": "Is there a bathroom here?",
+      "phrase": "هل هناك حمام هنا؟",
+      "phraseRomanized": "Hal hunaka hammam huna?",
+      "format": "produce",
+      "produce": {
+        "concept": "هناك = there is / there are",
+        "task": "say: there is a bank",
+        "answer": "هناك بنك hunaka bank",
+        "gloss": "هناك also means 'there' (place)."
+      }
+    },
+    {
+      "id": "g_adhhab_ila",
+      "grammar": true,
+      "english": "I go to the park. (أذهب إلى …)",
+      "word": "أذهب إلى الحديقة",
+      "romanized": "adhhab ila al-hadiqa",
+      "grammarNote": "**إلى** (ila) = to / toward, used with motion verbs like **أذهب** (I go):\n**أذهب إلى الحديقة** (I go to the park), **أذهب إلى العمل** (I go to work). The verb often comes first in the sentence.",
+      "englishPhrase": "We go to the museum.",
+      "phrase": "نذهب إلى المتحف.",
+      "phraseRomanized": "Nadhhab ila al-mathaf.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I go to the park. (go + ?)",
+        "text": "أذهب ___ الحديقة",
+        "answer": "إلى (ilā)"
+      }
+    },
+    {
+      "id": "g_job_nominal",
+      "grammar": true,
+      "english": "I am a doctor. (أنا طبيب — no 'am')",
+      "word": "أنا طبيب",
+      "romanized": "ana tabib",
+      "grammarNote": "State a job as a nominal sentence, with gender agreement:\n**أنا طبيب** (male) / **أنا طبيبة** (female), **هو مهندس** (he's an engineer). The feminine adds **ة**: **مهندسة**.",
+      "englishPhrase": "She is a teacher.",
+      "phrase": "هي معلمة.",
+      "phraseRomanized": "Hiya mu'allima.",
+      "format": "produce",
+      "produce": {
+        "concept": "State your job (nominal — no 'am')",
+        "task": "say: I am a doctor",
+        "answer": "أنا طبيب ana tabib",
+        "gloss": "أنا طبيبة (f). No verb needed."
+      }
+    },
+    {
+      "id": "g_present_prefix",
+      "grammar": true,
+      "english": "I work / he works (أعمل / يعمل)",
+      "word": "أعمل / يعمل",
+      "romanized": "a'mal / ya'mal",
+      "grammarNote": "Present-tense verbs change with a **prefix**: **أ** (I), **ت** (you/she), **ي** (he), **ن** (we):\n**أعمل** (I work), **تعمل** (you work), **يعمل** (he works), **نعمل** (we work). The stem **-عمل-** stays the same.",
+      "englishPhrase": "I study every day.",
+      "phrase": "أدرس كل يوم.",
+      "phraseRomanized": "Adrus kull yawm.",
+      "format": "table",
+      "table": {
+        "title": "Present tense prefixes (on عمل «work»)",
+        "rows": [
+          [
+            "I",
+            "أعمل a'mal"
+          ],
+          [
+            "you (m)",
+            "تعمل ta'mal"
+          ],
+          [
+            "you (f)",
+            "تعملين ta'malin"
+          ],
+          [
+            "he",
+            "يعمل ya'mal"
+          ],
+          [
+            "she",
+            "تعمل ta'mal"
+          ],
+          [
+            "we",
+            "نعمل na'mal"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g_amal_fi",
+      "grammar": true,
+      "english": "I work in a hospital. (أعمل في / كـ)",
+      "word": "أعمل في مستشفى",
+      "romanized": "a'mal fi mustashfa",
+      "grammarNote": "**أعمل في** = I work in/at (a place); **أعمل كـ** = I work as (a role):\n**أعمل في مستشفى** (I work in a hospital), **أعمل كطبيب** (I work as a doctor — **كـ** attaches to the word).",
+      "englishPhrase": "I work in an office.",
+      "phrase": "أعمل في مكتب.",
+      "phraseRomanized": "A'mal fi maktab.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I work in a hospital. (in / at)",
+        "text": "أعمل ___ مستشفى",
+        "answer": "في (fi)"
+      }
+    },
+    {
+      "id": "g_uhibb_verbalnoun",
+      "grammar": true,
+      "english": "I like swimming. (أحب + verbal noun)",
+      "word": "أحب السباحة",
+      "romanized": "uhibb as-sibaha",
+      "grammarNote": "For hobbies, use **أحب** + the **verbal noun** (the 'act of…'), usually with **الـ**:\n**أحب السباحة** (I like swimming), **أحب القراءة** (I like reading), **أحب الجري** (I like running).",
+      "englishPhrase": "I like reading.",
+      "phrase": "أحب القراءة.",
+      "phraseRomanized": "Uhibb al-qira'a.",
+      "format": "produce",
+      "produce": {
+        "concept": "أحب + verbal noun = I like (doing)",
+        "task": "say: I like swimming",
+        "answer": "أحب السباحة uhibb as-sibaha",
+        "gloss": "Use the noun form السباحة (swimming), with الـ."
+      }
+    },
+    {
+      "id": "g_feeling_nominal",
+      "grammar": true,
+      "english": "I am happy. (أنا سعيد / سعيدة)",
+      "word": "أنا سعيد",
+      "romanized": "ana sa'id",
+      "grammarNote": "Feelings are nominal sentences (no 'am'), and the adjective agrees in gender:\n**أنا سعيد** (male) / **أنا سعيدة** (female) = I'm happy, **أنا حزين / حزينة** (I'm sad).",
+      "englishPhrase": "She is happy today.",
+      "phrase": "هي سعيدة اليوم.",
+      "phraseRomanized": "Hiya sa'ida al-yawm.",
+      "format": "produce",
+      "produce": {
+        "concept": "Feelings are nominal: أنا + adjective",
+        "task": "say: I am happy",
+        "answer": "أنا سعيد ana sa'id",
+        "gloss": "أنا سعيدة (f). No 'am'."
+      }
+    },
+    {
+      "id": "g_ashur_bi",
+      "grammar": true,
+      "english": "I feel tired. (أشعر بـ …)",
+      "word": "أشعر بالتعب",
+      "romanized": "ash'ur bi-t-ta'ab",
+      "grammarNote": "**أشعر بـ** (ash'ur bi-) = I feel + (a noun); **بـ** attaches to the following word:\n**أشعر بالتعب** (I feel tired[ness]), **أشعر بالسعادة** (I feel happy[ness]), **أشعر بالخوف** (I feel fear).",
+      "englishPhrase": "I feel happy.",
+      "phrase": "أشعر بالسعادة.",
+      "phraseRomanized": "Ash'ur bi-s-sa'ada.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I feel tired. (أشعر + ?)",
+        "text": "أشعر ___ التعب",
+        "answer": "بـ (bi-)"
+      }
+    },
+    {
+      "id": "g_adjective_gender_mood",
+      "grammar": true,
+      "english": "he is nervous / she is nervous (متوتر / متوترة)",
+      "word": "هو متوتر / هي متوترة",
+      "romanized": "huwa mutawattir / hiya mutawattira",
+      "grammarNote": "Mood adjectives agree with the person's gender — feminine adds **ة**:\n**متوتر / متوترة** (nervous), **غاضب / غاضبة** (angry), **متعب / متعبة** (tired). Match the adjective to who you're describing.",
+      "englishPhrase": "She is very angry.",
+      "phrase": "هي غاضبة جداً.",
+      "phraseRomanized": "Hiya ghadiba jiddan.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "she is nervous (agrees → feminine)",
+        "text": "هي ___",
+        "answer": "متوترة (mutawattira)",
+        "options": [
+          "متوتر",
+          "متوترة"
+        ]
+      }
+    },
+    {
+      "id": "g_jiddan",
+      "grammar": true,
+      "english": "I am very tired. (adjective + جداً)",
+      "word": "أنا متعب جداً",
+      "romanized": "ana mut'ab jiddan",
+      "grammarNote": "**جداً** (jiddan) = very — and it comes **after** the adjective, not before:\n**متعب جداً** (very tired), **سعيد جداً** (very happy), **جميل جداً** (very beautiful).",
+      "englishPhrase": "I am very happy.",
+      "phrase": "أنا سعيد جداً.",
+      "phraseRomanized": "Ana sa'id jiddan.",
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I am very tired. (adjective + ?)",
+        "text": "أنا متعب ___",
+        "answer": "جداً (jiddan)"
+      }
+    },
+    {
+      "id": "g_body_suffix",
+      "grammar": true,
+      "english": "my hand (يد + ي)",
+      "word": "يدي",
+      "romanized": "yadi",
+      "grammarNote": "Body parts take the same **possessive suffixes** as other nouns:\n**يدي** (my hand), **يدك** (your hand), **رأسه** (his head), **عينها** (her eye). The **ـي** ending = 'my'.",
+      "englishPhrase": "My hand hurts.",
+      "phrase": "يدي تؤلمني.",
+      "phraseRomanized": "Yadi tu'limuni.",
+      "format": "table",
+      "table": {
+        "title": "Possessive suffix ـي = my",
+        "rows": [
+          [
+            "my hand",
+            "يدي yadi (يد + ي)"
+          ],
+          [
+            "my name",
+            "اسمي ismi"
+          ],
+          [
+            "my head",
+            "رأسي ra'si"
+          ]
+        ],
+        "note": "Attach ـي to the noun — there's no separate word for 'my'."
+      }
+    },
+    {
+      "id": "g_body_hurts",
+      "grammar": true,
+      "english": "My head hurts. (رأسي يؤلمني)",
+      "word": "رأسي يؤلمني",
+      "romanized": "ra'si yu'limuni",
+      "grammarNote": "A common way to say something hurts: the body part (+ 'my') as subject + **يؤلمني** ('it pains me'):\n**رأسي يؤلمني** (my head hurts), **بطني يؤلمني** (my stomach hurts). The verb agrees in gender: **يدي تؤلمني** (fem.).",
+      "englishPhrase": "My tooth hurts.",
+      "phrase": "سني يؤلمني.",
+      "phraseRomanized": "Sinni yu'limuni.",
+      "format": "produce",
+      "produce": {
+        "concept": "Say what hurts: body part + يؤلمني (hurts me)",
+        "task": "say: my head hurts",
+        "answer": "رأسي يؤلمني ra'si yu'limuni",
+        "gloss": "رأسي (my head) + يؤلمني (hurts me)."
+      }
+    },
+    {
+      "id": "g_adjective_body_ar",
+      "grammar": true,
+      "english": "big eyes (adjective agrees & follows)",
+      "word": "عيون كبيرة",
+      "romanized": "'uyun kabira",
+      "grammarNote": "The adjective comes **after** the body part and agrees with it. Non-human plurals take a **feminine singular** adjective:\n**عيون كبيرة** (big eyes), **يد قوية** (a strong hand), **شعر طويل** (long hair).",
+      "englishPhrase": "She has beautiful eyes.",
+      "phrase": "لديها عيون جميلة.",
+      "phraseRomanized": "Ladayha 'uyun jamila.",
+      "format": "produce",
+      "produce": {
+        "concept": "Adjective follows the noun and agrees",
+        "task": "say: big eyes",
+        "answer": "عيون كبيرة 'uyun kabira",
+        "gloss": "Object plurals often take feminine-singular agreement."
+      }
+    },
+    {
+      "id": "g_dual",
+      "grammar": true,
+      "english": "two hands (dual: يد → يدان)",
+      "word": "يدان",
+      "romanized": "yadan",
+      "grammarNote": "Arabic has a special **dual** for exactly two — add **ـان** (or **ـين**): ideal for paired body parts:\n**يد → يدان** (two hands), **عين → عينان** (two eyes), **رِجل → رِجلان** (two legs). No number word needed.",
+      "englishPhrase": "I have two hands.",
+      "phrase": "لدي يدان.",
+      "phraseRomanized": "Ladayya yadan.",
+      "format": "table",
+      "table": {
+        "title": "Singular · dual · plural",
+        "rows": [
+          [
+            "one",
+            "يد yad (hand)"
+          ],
+          [
+            "two (dual)",
+            "يدان yadān"
+          ],
+          [
+            "three+",
+            "أيدٍ aydīn"
+          ]
+        ],
+        "note": "Arabic has a special dual form for exactly two."
+      }
+    }
+  ]
+}

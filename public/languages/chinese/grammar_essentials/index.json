@@ -1,0 +1,1026 @@
+{
+  "id": "grammar_essentials",
+  "name": "Grammar Essentials",
+  "language": "chinese",
+  "cards": [
+    {
+      "id": "g_word_order_svo",
+      "grammar": true,
+      "english": "I eat rice. (subject–verb–object)",
+      "word": "我吃饭。",
+      "romanized": "Wǒ chī fàn.",
+      "grammarNote": "Basic sentences follow **Subject + Verb + Object**, just like English:\n**我**(I) + **吃**(eat) + **饭**(rice) = **我吃饭**. Verbs never change for person or tense.",
+      "englishPhrase": "I eat rice, he drinks tea.",
+      "phrase": "我吃饭，他喝茶。",
+      "phraseRomanized": "Wǒ chī fàn, tā hē chá.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "吃",
+          "eat"
+        ],
+        [
+          "饭，",
+          "rice,"
+        ],
+        [
+          "他",
+          "he"
+        ],
+        [
+          "喝",
+          "drinks"
+        ],
+        [
+          "茶",
+          "tea"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Word order: Subject + Verb + Object",
+        "rows": [
+          [
+            "Subject",
+            "我 wǒ — I"
+          ],
+          [
+            "Verb",
+            "吃 chī — eat"
+          ],
+          [
+            "Object",
+            "饭 fàn — rice"
+          ]
+        ],
+        "note": "我吃饭 = I eat rice. Verbs never change for person or tense."
+      }
+    },
+    {
+      "id": "g_shi_a_is_b",
+      "grammar": true,
+      "english": "I am a student. (是 links two nouns)",
+      "word": "我是学生。",
+      "romanized": "Wǒ shì xuéshēng.",
+      "grammarNote": "**是**(shì) links two nouns: A **是** B = 'A is B'.\n**我是学生**(I'm a student), **他是医生**(he's a doctor).\nDon't put **是** before an adjective — use **很** instead.",
+      "englishPhrase": "I'm a student, and you?",
+      "phrase": "我是学生，你呢？",
+      "phraseRomanized": "Wǒ shì xuéshēng, nǐ ne?",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "是",
+          "am"
+        ],
+        [
+          "学生，",
+          "student,"
+        ],
+        [
+          "你呢？",
+          "and you?"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "A 是 shì B = A is B (links two nouns)",
+        "rows": [
+          [
+            "I'm a student",
+            "我是学生 wǒ shì xuéshēng"
+          ],
+          [
+            "he's a doctor",
+            "他是医生 tā shì yīshēng"
+          ],
+          [
+            "I'm NOT a teacher",
+            "我不是老师 wǒ bú shì lǎoshī"
+          ]
+        ],
+        "note": "Negate with 不是. Never put 是 before an adjective — use 很."
+      }
+    },
+    {
+      "id": "g_hen_adjective",
+      "grammar": true,
+      "english": "I am happy. (adjective takes 很, not 是)",
+      "word": "我很高兴。",
+      "romanized": "Wǒ hěn gāoxìng.",
+      "grammarNote": "Adjectives act like verbs — **don't** add **是** before them. Use **很**(hěn):\n**我很高兴**(I'm happy), **我很累**(I'm tired). Here **很** just links; it only means 'very' when stressed.",
+      "englishPhrase": "I'm very happy!",
+      "phrase": "我很高兴！",
+      "phraseRomanized": "Wǒ hěn gāoxìng!",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "很",
+          "(very)"
+        ],
+        [
+          "高兴！",
+          "happy!"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "'I am happy' — 是 or 很?",
+        "a": {
+          "term": "我很高兴 wǒ hěn gāoxìng",
+          "gloss": "✓ an adjective takes 很, not 是"
+        },
+        "b": {
+          "term": "我是高兴",
+          "gloss": "✗ never 是 before an adjective"
+        }
+      }
+    },
+    {
+      "id": "g_ma_question",
+      "grammar": true,
+      "english": "Are you well? (吗 makes a yes/no question)",
+      "word": "你好吗？",
+      "romanized": "Nǐ hǎo ma?",
+      "grammarNote": "Add **吗**(ma) to the end of a statement to make a yes/no question:\n**你好** → **你好吗？**(are you well?), **你是学生吗？**(are you a student?). Word order doesn't change.",
+      "englishPhrase": "Are you a student?",
+      "phrase": "你是学生吗？",
+      "phraseRomanized": "Nǐ shì xuéshēng ma?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "是",
+          "are"
+        ],
+        [
+          "学生",
+          "student"
+        ],
+        [
+          "吗？",
+          "[?]"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "make it a yes/no question (你好 = you are well)",
+        "text": "你好 ___？",
+        "answer": "吗 ma",
+        "options": [
+          "吗 ma",
+          "呢 ne",
+          "了 le"
+        ]
+      }
+    },
+    {
+      "id": "g_question_word_in_place",
+      "grammar": true,
+      "english": "What do you want? (question word stays put)",
+      "word": "你想要什么？",
+      "romanized": "Nǐ xiǎng yào shénme?",
+      "grammarNote": "Question words sit **where the answer goes** — they don't move to the front:\n**你想要什么？**(you want what?), **他是谁？**(he is who?). The answer just replaces the question word.",
+      "englishPhrase": "What do you want to eat?",
+      "phrase": "你想吃什么？",
+      "phraseRomanized": "Nǐ xiǎng chī shénme?",
+      "literal": [
+        [
+          "你",
+          "you"
+        ],
+        [
+          "想",
+          "want to"
+        ],
+        [
+          "吃",
+          "eat"
+        ],
+        [
+          "什么？",
+          "what?"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Question words stay where the answer goes — they don't move to the front",
+        "task": "ask: you want what? (= what do you want?)",
+        "answer": "你想要什么？nǐ xiǎng yào shénme?",
+        "gloss": "什么 sits in the object slot; the answer just replaces it. 他是谁？= who is he?"
+      }
+    },
+    {
+      "id": "g_measure_word",
+      "grammar": true,
+      "english": "an apple (number + measure word + noun)",
+      "word": "一个苹果",
+      "romanized": "yí gè píngguǒ",
+      "grammarNote": "Count nouns with a **measure word** between the number and the noun:\n**一个苹果**(one apple), **两个鸡蛋**(two eggs). **个**(gè) is the general measure word; drinks use **杯**: **一杯茶**(a cup of tea).",
+      "englishPhrase": "I want two apples.",
+      "phrase": "我要两个苹果。",
+      "phraseRomanized": "Wǒ yào liǎng gè píngguǒ.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "要",
+          "want"
+        ],
+        [
+          "两个",
+          "two"
+        ],
+        [
+          "苹果",
+          "apples"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Number + measure word + noun",
+        "rows": [
+          [
+            "one apple",
+            "一个苹果 yí gè píngguǒ"
+          ],
+          [
+            "two eggs",
+            "两个鸡蛋 liǎng gè jīdàn"
+          ],
+          [
+            "three books",
+            "三本书 sān běn shū"
+          ]
+        ],
+        "note": "个 gè is the default measure word; some nouns take their own (本 běn for books)."
+      }
+    },
+    {
+      "id": "g_yao_order",
+      "grammar": true,
+      "english": "I'll have a coffee. (要 to order)",
+      "word": "我要一杯咖啡。",
+      "romanized": "Wǒ yào yì bēi kāfēi.",
+      "grammarNote": "**要**(yào) = want / would like — the everyday verb for ordering:\n**我要一杯咖啡**(I'll have a coffee). **杯**(bēi) is the measure word for cups and glasses.",
+      "englishPhrase": "I'll have a cup of tea, thanks.",
+      "phrase": "我要一杯茶，谢谢。",
+      "phraseRomanized": "Wǒ yào yì bēi chá, xièxie.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "要",
+          "want"
+        ],
+        [
+          "一杯",
+          "a cup of"
+        ],
+        [
+          "茶，",
+          "tea,"
+        ],
+        [
+          "谢谢",
+          "thanks"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "要 yào = 'I'll have' — the everyday verb for ordering",
+        "task": "order: one coffee",
+        "answer": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
+        "gloss": "杯 bēi is the measure word for cups and glasses."
+      }
+    },
+    {
+      "id": "g_xiang_verb",
+      "grammar": true,
+      "english": "I want to eat. (想 + verb)",
+      "word": "我想吃。",
+      "romanized": "Wǒ xiǎng chī.",
+      "grammarNote": "**想**(xiǎng) + verb = want to do something:\n**我想吃**(I want to eat), **我想喝茶**(I want to drink tea). Softer than **要**, which is more 'I'll have / I want'.",
+      "englishPhrase": "I want to drink coffee.",
+      "phrase": "我想喝咖啡。",
+      "phraseRomanized": "Wǒ xiǎng hē kāfēi.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "想",
+          "want to"
+        ],
+        [
+          "喝",
+          "drink"
+        ],
+        [
+          "咖啡",
+          "coffee"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "想 xiǎng vs 要 yào",
+        "a": {
+          "term": "我想吃 wǒ xiǎng chī",
+          "gloss": "想 + verb = want TO DO (a wish, softer)"
+        },
+        "b": {
+          "term": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
+          "gloss": "要 + noun = want / I'll have (ordering)"
+        }
+      }
+    },
+    {
+      "id": "g_hao_chi_pattern",
+      "grammar": true,
+      "english": "delicious (好 'good' + 吃 'eat')",
+      "word": "好吃",
+      "romanized": "hǎochī",
+      "grammarNote": "**好**(hǎo, good) + a verb = pleasant to do:\n**好吃**(good to eat = delicious, for food), **好喝**(good to drink — for tea/coffee), **好看**(good-looking).",
+      "englishPhrase": "This dish is delicious!",
+      "phrase": "这个菜很好吃！",
+      "phraseRomanized": "Zhège cài hěn hǎochī!",
+      "literal": [
+        [
+          "这个",
+          "this"
+        ],
+        [
+          "菜",
+          "dish"
+        ],
+        [
+          "很",
+          "(very)"
+        ],
+        [
+          "好吃！",
+          "delicious!"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "好 hǎo (good) + verb = pleasant to…",
+        "rows": [
+          [
+            "delicious",
+            "好吃 hǎochī — good to eat"
+          ],
+          [
+            "tasty (drinks)",
+            "好喝 hǎohē — good to drink"
+          ],
+          [
+            "good-looking",
+            "好看 hǎokàn — good to look at"
+          ]
+        ],
+        "note": "A productive pattern: 好 + a verb."
+      }
+    },
+    {
+      "id": "g_zai_location",
+      "grammar": true,
+      "english": "I am at home. (在 for location)",
+      "word": "我在家。",
+      "romanized": "Wǒ zài jiā.",
+      "grammarNote": "**在**(zài) = to be at / located at:\n**我在家**(I'm at home), **他在学校**(he's at school). Structure: Subject + **在** + place.",
+      "englishPhrase": "I'm at the office now.",
+      "phrase": "我现在在办公室。",
+      "phraseRomanized": "Wǒ xiànzài zài bàngōngshì.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "现在",
+          "now"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "办公室",
+          "office"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Location: Subject + 在 zài + place",
+        "rows": [
+          [
+            "I'm at home",
+            "我在家 wǒ zài jiā"
+          ],
+          [
+            "he's at school",
+            "他在学校 tā zài xuéxiào"
+          ],
+          [
+            "where are you?",
+            "你在哪儿？nǐ zài nǎr?"
+          ]
+        ],
+        "note": "在 = to be at / located at. 哪儿 nǎr = where."
+      }
+    },
+    {
+      "id": "g_zai_place_verb",
+      "grammar": true,
+      "english": "I eat at the restaurant. (在 + place before the verb)",
+      "word": "我在餐厅吃饭。",
+      "romanized": "Wǒ zài cāntīng chī fàn.",
+      "grammarNote": "To say where an action happens, put **在 + place before the verb**:\n**我在餐厅吃饭**(I at-restaurant eat) — not after the verb like English.",
+      "englishPhrase": "I study at the library.",
+      "phrase": "我在图书馆学习。",
+      "phraseRomanized": "Wǒ zài túshūguǎn xuéxí.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "在",
+          "at"
+        ],
+        [
+          "图书馆",
+          "library"
+        ],
+        [
+          "学习",
+          "study"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Where does 在+place go? (I eat at the restaurant)",
+        "a": {
+          "term": "我在餐厅吃饭 wǒ zài cāntīng chī fàn",
+          "gloss": "✓ 在+place goes BEFORE the verb"
+        },
+        "b": {
+          "term": "我吃饭在餐厅",
+          "gloss": "✗ not after the verb like English"
+        }
+      }
+    },
+    {
+      "id": "g_qu_place",
+      "grammar": true,
+      "english": "I go to the park. (去 needs no 'to')",
+      "word": "我去公园。",
+      "romanized": "Wǒ qù gōngyuán.",
+      "grammarNote": "**去**(qù, to go) attaches straight to a place — there's no word for 'to':\n**我去公园**(I go park), **我去学校**(I go to school). Put a time word before **去** to say when.",
+      "englishPhrase": "In the morning I go to the park.",
+      "phrase": "我早上去公园。",
+      "phraseRomanized": "Wǒ zǎoshang qù gōngyuán.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "早上",
+          "in the morning"
+        ],
+        [
+          "去",
+          "go"
+        ],
+        [
+          "公园",
+          "park"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "去 qù (to go) attaches straight to a place — there's no word for 'to'",
+        "task": "say: I go to the park",
+        "answer": "我去公园 wǒ qù gōngyuán",
+        "gloss": "我去学校 = I go to school. A time word goes before 去."
+      }
+    },
+    {
+      "id": "g_zai_li_shang",
+      "grammar": true,
+      "english": "in the room (在 … 里 wraps the place)",
+      "word": "在房间里",
+      "romanized": "zài fángjiān lǐ",
+      "grammarNote": "Position words wrap the noun: **在 + place + 里/上/下**:\n**在房间里**(in the room), **在桌子上**(on the table), **在床下**(under the bed).",
+      "englishPhrase": "The cat is in the room.",
+      "phrase": "猫在房间里。",
+      "phraseRomanized": "Māo zài fángjiān lǐ.",
+      "literal": [
+        [
+          "猫",
+          "cat"
+        ],
+        [
+          "在",
+          "(is) in"
+        ],
+        [
+          "房间",
+          "room"
+        ],
+        [
+          "里",
+          "inside"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "在 + place + 里/上/下 (position words)",
+        "rows": [
+          [
+            "in the room",
+            "在房间里 zài fángjiān lǐ"
+          ],
+          [
+            "on the table",
+            "在桌子上 zài zhuōzi shàng"
+          ],
+          [
+            "under the bed",
+            "在床下 zài chuáng xià"
+          ]
+        ],
+        "note": "里 inside · 上 on top · 下 under — the position word follows the noun."
+      }
+    },
+    {
+      "id": "g_shi_job",
+      "grammar": true,
+      "english": "I am a doctor. (是 + profession)",
+      "word": "我是医生。",
+      "romanized": "Wǒ shì yīshēng.",
+      "grammarNote": "State your job with **是**(shì): Subject + **是** + job.\n**我是医生**(I'm a doctor), **她是学生**(she's a student). To ask: **你是做什么的？**(what do you do?).",
+      "englishPhrase": "She is an engineer.",
+      "phrase": "她是工程师。",
+      "phraseRomanized": "Tā shì gōngchéngshī.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "工程师",
+          "engineer"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "State your job with 是: Subject + 是 + job",
+        "task": "say: I am a doctor",
+        "answer": "我是医生 wǒ shì yīshēng",
+        "gloss": "Ask 你是做什么的？nǐ shì zuò shénme de? = what do you do?"
+      }
+    },
+    {
+      "id": "g_xihuan_verb",
+      "grammar": true,
+      "english": "I like reading. (喜欢 + verb)",
+      "word": "我喜欢阅读。",
+      "romanized": "Wǒ xǐhuān yuèdú.",
+      "grammarNote": "**喜欢**(xǐhuān, to like) can be followed straight by a verb = 'like doing':\n**我喜欢阅读**(I like reading), **我喜欢跑步**(I like running). No 'to' or '-ing' change needed.",
+      "englishPhrase": "I like listening to music.",
+      "phrase": "我喜欢听音乐。",
+      "phraseRomanized": "Wǒ xǐhuān tīng yīnyuè.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "喜欢",
+          "like"
+        ],
+        [
+          "听",
+          "listening to"
+        ],
+        [
+          "音乐",
+          "music"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "喜欢 xǐhuān (to like) + verb = like doing",
+        "task": "say: I like reading",
+        "answer": "我喜欢阅读 wǒ xǐhuān yuèdú",
+        "gloss": "No 'to' or '-ing' — just 喜欢 + verb. 我喜欢跑步 = I like running."
+      }
+    },
+    {
+      "id": "g_zai_progressive",
+      "grammar": true,
+      "english": "I am working. (在 + verb = happening now)",
+      "word": "我在工作。",
+      "romanized": "Wǒ zài gōngzuò.",
+      "grammarNote": "Put **在**(zài) before a verb to show it's happening right now:\n**我在工作**(I'm working), **他在唱歌**(he's singing). It's the '-ing' of Chinese.",
+      "englishPhrase": "She is working now.",
+      "phrase": "她现在在工作。",
+      "phraseRomanized": "Tā xiànzài zài gōngzuò.",
+      "literal": [
+        [
+          "她",
+          "she"
+        ],
+        [
+          "现在",
+          "now"
+        ],
+        [
+          "在",
+          "(is) -ing"
+        ],
+        [
+          "工作",
+          "working"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I'm working (it's happening right now)",
+        "text": "我 ___ 工作",
+        "answer": "在 zài",
+        "options": [
+          "在 zài",
+          "了 le",
+          "会 huì"
+        ]
+      }
+    },
+    {
+      "id": "g_hui_skill",
+      "grammar": true,
+      "english": "I can swim. (会 = a learned skill)",
+      "word": "我会游泳。",
+      "romanized": "Wǒ huì yóuyǒng.",
+      "grammarNote": "**会**(huì) = can, for skills you've learned:\n**我会游泳**(I can swim), **我会说中文**(I can speak Chinese). Compare **能**(néng) = able / allowed in a situation.",
+      "englishPhrase": "I can swim, can you?",
+      "phrase": "我会游泳，你会吗？",
+      "phraseRomanized": "Wǒ huì yóuyǒng, nǐ huì ma?",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "会",
+          "can"
+        ],
+        [
+          "游泳，",
+          "swim,"
+        ],
+        [
+          "你会吗？",
+          "can you?"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "会 huì = can, for a skill you've learned",
+        "task": "say: I can swim",
+        "answer": "我会游泳 wǒ huì yóuyǒng",
+        "gloss": "会 = learned skills. 我会说中文 = I can speak Chinese."
+      }
+    },
+    {
+      "id": "g_hen_feeling",
+      "grammar": true,
+      "english": "I am happy. (很 + adjective, no 是)",
+      "word": "我很快乐。",
+      "romanized": "Wǒ hěn kuàilè.",
+      "grammarNote": "Describe a mood with **很**(hěn) + adjective — **no 是**:\n**我很快乐**(I'm happy), **我很累**(I'm tired). **很** links subject to adjective; it only means 'very' when stressed.",
+      "englishPhrase": "I'm very happy today.",
+      "phrase": "我今天很快乐。",
+      "phraseRomanized": "Wǒ jīntiān hěn kuàilè.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "今天",
+          "today"
+        ],
+        [
+          "很",
+          "(very)"
+        ],
+        [
+          "快乐",
+          "happy"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I'm happy (mood → 很 + adjective, no 是)",
+        "text": "我 ___ 快乐",
+        "answer": "很 hěn",
+        "options": [
+          "很 hěn",
+          "是 shì",
+          "太 tài"
+        ]
+      }
+    },
+    {
+      "id": "g_juede_feel",
+      "grammar": true,
+      "english": "I feel tired. (觉得 = feel / think that)",
+      "word": "我觉得很累。",
+      "romanized": "Wǒ juéde hěn lèi.",
+      "grammarNote": "**觉得**(juéde) = to feel / think that — introduces a feeling or opinion:\n**我觉得很累**(I feel tired), **我觉得这个很好**(I think this is good). Follow it with an adjective (+很) or a full clause.",
+      "englishPhrase": "I feel happy.",
+      "phrase": "我觉得很快乐。",
+      "phraseRomanized": "Wǒ juéde hěn kuàilè.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "觉得",
+          "feel"
+        ],
+        [
+          "很",
+          "(very)"
+        ],
+        [
+          "快乐",
+          "happy"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "觉得 juéde = to feel / think that — introduces an opinion",
+        "task": "say: I feel tired",
+        "answer": "我觉得很累 wǒ juéde hěn lèi",
+        "gloss": "Follow it with a full comment: 我觉得这个很好 = I think this is good."
+      }
+    },
+    {
+      "id": "g_youdianr",
+      "grammar": true,
+      "english": "I'm a little nervous. (有点儿 + adjective)",
+      "word": "我有点儿紧张。",
+      "romanized": "Wǒ yǒudiǎnr jǐnzhāng.",
+      "grammarNote": "**有点儿**(yǒudiǎnr) + adjective = 'a little / somewhat', usually for something undesirable:\n**有点儿紧张**(a bit nervous), **有点儿累**(a little tired). It goes before the adjective.",
+      "englishPhrase": "I'm a little tired.",
+      "phrase": "我有点儿累。",
+      "phraseRomanized": "Wǒ yǒudiǎnr lèi.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "有点儿",
+          "a little"
+        ],
+        [
+          "累",
+          "tired"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I'm a little nervous (有点儿 + adjective, usually negative)",
+        "text": "我 ___ 紧张",
+        "answer": "有点儿 yǒudiǎnr",
+        "options": [
+          "有点儿 yǒudiǎnr",
+          "很 hěn",
+          "太 tài"
+        ]
+      }
+    },
+    {
+      "id": "g_tai_le",
+      "grammar": true,
+      "english": "I'm too tired! (太 … 了)",
+      "word": "我太累了！",
+      "romanized": "Wǒ tài lèi le!",
+      "grammarNote": "**太**(tài) … **了**(le) wraps an adjective = 'too / so':\n**太累了**(too tired), **太好了**(great! — lit. too good). A strong feeling, often exclaimed.",
+      "englishPhrase": "That's great!",
+      "phrase": "太好了！",
+      "phraseRomanized": "Tài hǎo le!",
+      "literal": [
+        [
+          "太",
+          "too"
+        ],
+        [
+          "好",
+          "good"
+        ],
+        [
+          "了！",
+          "[!]"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I'm SO tired! ('too …' → 太 … 了)",
+        "text": "我 ___ 累了",
+        "answer": "太 tài",
+        "options": [
+          "太 tài",
+          "很 hěn",
+          "有点儿 yǒudiǎnr"
+        ]
+      }
+    },
+    {
+      "id": "g_de_possessive_body",
+      "grammar": true,
+      "english": "my hand (的 shows possession)",
+      "word": "我的手",
+      "romanized": "wǒ de shǒu",
+      "grammarNote": "**的**(de) links a possessor to a thing, like 's / my:\n**我的手**(my hand), **他的眼睛**(his eyes). For close relationships you can drop **的**: **我妈**(my mom).",
+      "englishPhrase": "This is my hand.",
+      "phrase": "这是我的手。",
+      "phraseRomanized": "Zhè shì wǒ de shǒu.",
+      "literal": [
+        [
+          "这",
+          "this"
+        ],
+        [
+          "是",
+          "is"
+        ],
+        [
+          "我的",
+          "my"
+        ],
+        [
+          "手",
+          "hand"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "的 de links owner to thing (like 's / my)",
+        "task": "say: my hand",
+        "answer": "我的手 wǒ de shǒu",
+        "gloss": "他的眼睛 = his eyes. Close relations can drop 的: 我妈 = my mom."
+      }
+    },
+    {
+      "id": "g_teng_hurt",
+      "grammar": true,
+      "english": "My head hurts. (body part + 疼)",
+      "word": "我头疼。",
+      "romanized": "Wǒ tóu téng.",
+      "grammarNote": "To say a body part hurts, name it then add **疼**(téng, to ache):\n**我头疼**(my head hurts, lit. 'I head ache'), **我牙疼**(toothache). This topic-then-comment order is very common.",
+      "englishPhrase": "I have a headache today.",
+      "phrase": "我今天头疼。",
+      "phraseRomanized": "Wǒ jīntiān tóu téng.",
+      "literal": [
+        [
+          "我",
+          "I"
+        ],
+        [
+          "今天",
+          "today"
+        ],
+        [
+          "头",
+          "head"
+        ],
+        [
+          "疼",
+          "hurts"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Say what hurts: (I) + body part + 疼 téng (to ache)",
+        "task": "say: my head hurts",
+        "answer": "我头疼 wǒ tóu téng",
+        "gloss": "Literally 'I head ache' — topic then comment. 我牙疼 = toothache."
+      }
+    },
+    {
+      "id": "g_adj_de_noun",
+      "grammar": true,
+      "english": "soft skin (adjective + 的 + noun)",
+      "word": "软的皮肤",
+      "romanized": "ruǎn de pífū",
+      "grammarNote": "A two-syllable adjective takes **的** before the noun it describes:\n**软的皮肤**(soft skin), **健康的身体**(healthy body). Single-syllable adjectives often skip **的**: **大手**(big hand).",
+      "englishPhrase": "Healthy skin is soft.",
+      "phrase": "健康的皮肤很软。",
+      "phraseRomanized": "Jiànkāng de pífū hěn ruǎn.",
+      "literal": [
+        [
+          "健康的",
+          "healthy"
+        ],
+        [
+          "皮肤",
+          "skin"
+        ],
+        [
+          "很",
+          "(is very)"
+        ],
+        [
+          "软",
+          "soft"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Longer adjective + 的 de + noun",
+        "rows": [
+          [
+            "soft skin",
+            "软的皮肤 ruǎn de pífū"
+          ],
+          [
+            "healthy body",
+            "健康的身体 jiànkāng de shēntǐ"
+          ],
+          [
+            "a red apple",
+            "红的苹果 hóng de píngguǒ"
+          ]
+        ],
+        "note": "Single-syllable adjectives often skip 的 (好人 = a good person)."
+      }
+    },
+    {
+      "id": "g_zhi_measure_body",
+      "grammar": true,
+      "english": "two hands (只 counts hands, eyes, ears)",
+      "word": "两只手",
+      "romanized": "liǎng zhī shǒu",
+      "grammarNote": "Paired body parts often take the measure word **只**(zhī):\n**两只手**(two hands), **两只眼睛**(two eyes), **一只耳朵**(one ear). Use **两**(liǎng), not 二, before a measure word.",
+      "englishPhrase": "A person has two hands.",
+      "phrase": "人有两只手。",
+      "phraseRomanized": "Rén yǒu liǎng zhī shǒu.",
+      "literal": [
+        [
+          "人",
+          "a person"
+        ],
+        [
+          "有",
+          "has"
+        ],
+        [
+          "两只",
+          "two"
+        ],
+        [
+          "手",
+          "hands"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "two hands (只 counts hands, eyes, ears)",
+        "text": "两 ___ 手",
+        "answer": "只 zhī",
+        "options": [
+          "只 zhī",
+          "个 gè",
+          "本 běn"
+        ]
+      }
+    }
+  ]
+}

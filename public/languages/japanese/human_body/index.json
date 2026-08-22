@@ -15,49 +15,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_ga_itai",
-      "grammar": true,
-      "english": "My head hurts. (… が痛いです)",
-      "word": "頭が痛いです",
-      "romanized": "atama ga itai desu",
-      "grammarNote": "To say a body part hurts, mark it with **が** + **痛いです** (itai = painful):\n**頭が痛いです** (headache), **お腹が痛いです** (stomachache), **喉が痛いです** (sore throat). **痛い** is an い-adjective.",
-      "englishPhrase": "My tooth hurts.",
-      "phrase": "歯が痛いです。",
-      "phraseRomanized": "Ha ga itai desu.",
-      "literal": [["歯", "tooth"], ["が", "(subj)"], ["痛い", "painful"], ["です", "is"]]
-    },
-    {
-      "id": "g_wa_ga",
-      "grammar": true,
-      "english": "I have big eyes. (私は目が大きいです)",
-      "word": "私は目が大きいです",
-      "romanized": "watashi wa me ga ōkii desu",
-      "grammarNote": "Japanese often pairs **topic は + subject が** — 'As for X, the Y is…':\n**私は目が大きいです** (lit. 'as for me, eyes are big' = I have big eyes), **象は鼻が長いです** (elephants have long noses).",
-      "englishPhrase": "She has long hair.",
-      "phrase": "彼女は髪が長いです。",
-      "phraseRomanized": "Kanojo wa kami ga nagai desu.",
-      "literal": [["彼女", "she"], ["は", "(topic)"], ["髪", "hair"], ["が", "(subj)"], ["長い", "long"], ["です", "is"]]
-    },
-    {
-      "id": "g_adjective_attributive",
-      "grammar": true,
-      "english": "big hands (adjective before noun: 大きい手)",
-      "word": "大きい手",
-      "romanized": "ōkii te",
-      "grammarNote": "**い-adjectives** go straight in front of a noun to describe it:\n**大きい手** (big hand), **小さい目** (small eyes), **長い足** (long legs). **な-adjectives** need **な**: **きれいな肌** (pretty skin).",
-      "englishPhrase": "Those are big hands!",
-      "phrase": "大きい手ですね。",
-      "phraseRomanized": "Ōkii te desu ne.",
-      "literal": [["大きい", "big"], ["手", "hands"], ["です", "are"], ["ね", "(right?)"]]
-    },
     {
       "id": "head",
       "english": "head",
@@ -67,7 +31,24 @@
       "englishPhrase": "My head hurts.",
       "phrase": "頭が痛いです。",
       "phraseRomanized": "atama ga itai desu",
-      "literal": [["頭", "head"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "頭",
+          "head"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "hair",
@@ -78,7 +59,32 @@
       "englishPhrase": "She has long hair.",
       "phrase": "彼女は髪が長いです。",
       "phraseRomanized": "kanojo wa kami ga nagai desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["髪", "hair"], ["が", "[subj]"], ["長い", "long"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "髪",
+          "hair"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "長い",
+          "long"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "face",
@@ -89,7 +95,24 @@
       "englishPhrase": "Wash your face.",
       "phrase": "顔を洗ってください。",
       "phraseRomanized": "kao wo aratte kudasai",
-      "literal": [["顔", "face"], ["を", "[obj]"], ["洗って", "wash"], ["ください", "please"]]
+      "literal": [
+        [
+          "顔",
+          "face"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "洗って",
+          "wash"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "eye",
@@ -100,7 +123,36 @@
       "englishPhrase": "He has blue eyes.",
       "phrase": "彼は青い目をしています。",
       "phraseRomanized": "kare wa aoi me wo shite imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["青い", "blue"], ["目", "eyes"], ["を", "[obj]"], ["して", "doing"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "青い",
+          "blue"
+        ],
+        [
+          "目",
+          "eyes"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "して",
+          "doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "ear",
@@ -111,7 +163,24 @@
       "englishPhrase": "My ear hurts.",
       "phrase": "耳が痛いです。",
       "phraseRomanized": "mimi ga itai desu",
-      "literal": [["耳", "ear"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "耳",
+          "ear"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "nose",
@@ -122,7 +191,24 @@
       "englishPhrase": "My nose is cold.",
       "phrase": "鼻が冷たいです。",
       "phraseRomanized": "hana ga tsumetai desu",
-      "literal": [["鼻", "nose"], ["が", "[subj]"], ["冷たい", "cold"], ["です", "is"]]
+      "literal": [
+        [
+          "鼻",
+          "nose"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "冷たい",
+          "cold"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "mouth",
@@ -133,7 +219,24 @@
       "englishPhrase": "Open your mouth.",
       "phrase": "口を開けてください。",
       "phraseRomanized": "kuchi wo akete kudasai",
-      "literal": [["口", "mouth"], ["を", "[obj]"], ["開けて", "open"], ["ください", "please"]]
+      "literal": [
+        [
+          "口",
+          "mouth"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "開けて",
+          "open"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "lip",
@@ -144,7 +247,32 @@
       "englishPhrase": "She has red lips.",
       "phrase": "彼女は唇が赤いです。",
       "phraseRomanized": "kanojo wa kuchibiru ga akai desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["唇", "lips"], ["が", "[subj]"], ["赤い", "red"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "唇",
+          "lips"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "赤い",
+          "red"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "tooth_teeth",
@@ -155,7 +283,24 @@
       "englishPhrase": "I have a toothache.",
       "phrase": "歯が痛いです。",
       "phraseRomanized": "ha ga itai desu",
-      "literal": [["歯", "tooth"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "歯",
+          "tooth"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "tongue",
@@ -166,7 +311,24 @@
       "englishPhrase": "Stick out your tongue.",
       "phrase": "舌を出してください。",
       "phraseRomanized": "shita wo dashite kudasai",
-      "literal": [["舌", "tongue"], ["を", "[obj]"], ["出して", "stick out"], ["ください", "please"]]
+      "literal": [
+        [
+          "舌",
+          "tongue"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "出して",
+          "stick out"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "neck",
@@ -177,7 +339,24 @@
       "englishPhrase": "My neck is stiff.",
       "phrase": "首が凝っています。",
       "phraseRomanized": "kubi ga kotte imasu",
-      "literal": [["首", "neck"], ["が", "[subj]"], ["凝って", "stiff"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "首",
+          "neck"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "凝って",
+          "stiff"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "arm",
@@ -188,19 +367,20 @@
       "englishPhrase": "I broke my arm.",
       "phrase": "腕を骨折しました。",
       "phraseRomanized": "ude wo kossetsu shimashita",
-      "literal": [["腕", "arm"], ["を", "[obj]"], ["骨折しました", "fractured"]]
-    },
-    {
-      "id": "g_no_body",
-      "grammar": true,
-      "english": "my hand (A の B possession)",
-      "word": "私の手",
-      "romanized": "watashi no te",
-      "grammarNote": "**の** links owner to thing: **私の手** (my hand), **彼の目** (his eyes), **子供の足** (a child's foot). The owner comes first, then **の**, then the body part.",
-      "englishPhrase": "My hands are cold.",
-      "phrase": "私の手は冷たいです。",
-      "phraseRomanized": "Watashi no te wa tsumetai desu.",
-      "literal": [["私の", "my"], ["手", "hand"], ["は", "(topic)"], ["冷たい", "cold"], ["です", "is"]]
+      "literal": [
+        [
+          "腕",
+          "arm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "骨折しました",
+          "fractured"
+        ]
+      ]
     },
     {
       "id": "hand",
@@ -211,7 +391,24 @@
       "englishPhrase": "Wash your hands.",
       "phrase": "手を洗ってください。",
       "phraseRomanized": "te wo aratte kudasai",
-      "literal": [["手", "hands"], ["を", "[obj]"], ["洗って", "wash"], ["ください", "please"]]
+      "literal": [
+        [
+          "手",
+          "hands"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "洗って",
+          "wash"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "finger",
@@ -222,7 +419,28 @@
       "englishPhrase": "He cut his finger.",
       "phrase": "彼は指を切りました。",
       "phraseRomanized": "kare wa yubi wo kirimashita",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["指", "finger"], ["を", "[obj]"], ["切りました", "cut"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "指",
+          "finger"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "切りました",
+          "cut"
+        ]
+      ]
     },
     {
       "id": "chest",
@@ -233,7 +451,32 @@
       "englishPhrase": "He has chest pain.",
       "phrase": "彼は胸が痛いです。",
       "phraseRomanized": "kare wa mune ga itai desu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["胸", "chest"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "胸",
+          "chest"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "back",
@@ -244,7 +487,24 @@
       "englishPhrase": "My back hurts.",
       "phrase": "背中が痛いです。",
       "phraseRomanized": "senaka ga itai desu",
-      "literal": [["背中", "back"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "背中",
+          "back"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "shoulder",
@@ -255,7 +515,24 @@
       "englishPhrase": "My shoulder hurts.",
       "phrase": "肩が痛いです。",
       "phraseRomanized": "kata ga itai desu",
-      "literal": [["肩", "shoulder"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "肩",
+          "shoulder"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "elbow",
@@ -266,7 +543,20 @@
       "englishPhrase": "Don't lean on your elbow.",
       "phrase": "肘をつかないで。",
       "phraseRomanized": "hiji wo tsukanaide",
-      "literal": [["肘", "elbow"], ["を", "[obj]"], ["つかないで", "don't lean on"]]
+      "literal": [
+        [
+          "肘",
+          "elbow"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "つかないで",
+          "don't lean on"
+        ]
+      ]
     },
     {
       "id": "knee",
@@ -277,7 +567,20 @@
       "englishPhrase": "I hurt my knee.",
       "phrase": "膝をけがしました。",
       "phraseRomanized": "hiza wo kega shimashita",
-      "literal": [["膝", "knee"], ["を", "[obj]"], ["けがしました", "injured"]]
+      "literal": [
+        [
+          "膝",
+          "knee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "けがしました",
+          "injured"
+        ]
+      ]
     },
     {
       "id": "leg",
@@ -288,7 +591,24 @@
       "englishPhrase": "My leg is tired.",
       "phrase": "足が疲れています。",
       "phraseRomanized": "ashi ga tsukarete imasu",
-      "literal": [["足", "leg"], ["が", "[subj]"], ["疲れて", "tired"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "足",
+          "leg"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "疲れて",
+          "tired"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "foot_feet",
@@ -299,7 +619,24 @@
       "englishPhrase": "My feet hurt.",
       "phrase": "足が痛いです。",
       "phraseRomanized": "ashi ga itai desu",
-      "literal": [["足", "feet"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "足",
+          "feet"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "toe",
@@ -310,7 +647,36 @@
       "englishPhrase": "He stubbed his toe.",
       "phrase": "彼は足の指をぶつけました。",
       "phraseRomanized": "kare wa ashi no yubi wo butsukemashita",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["足", "foot"], ["の", "[of/poss]"], ["指", "toe"], ["を", "[obj]"], ["ぶつけました", "bumped"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "足",
+          "foot"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "指",
+          "toe"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ぶつけました",
+          "bumped"
+        ]
+      ]
     },
     {
       "id": "stomach",
@@ -321,7 +687,24 @@
       "englishPhrase": "My stomach hurts.",
       "phrase": "お腹が痛いです。",
       "phraseRomanized": "onaka ga itai desu",
-      "literal": [["お腹", "stomach"], ["が", "[subj]"], ["痛い", "hurts"], ["です", "is"]]
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "痛い",
+          "hurts"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "body",
@@ -332,7 +715,28 @@
       "englishPhrase": "The human body is amazing.",
       "phrase": "人間の体は素晴らしいです。",
       "phraseRomanized": "ningen no karada wa subarashii desu",
-      "literal": [["人間の", "human's"], ["体", "body"], ["は", "[topic]"], ["素晴らしい", "amazing"], ["です", "is"]]
+      "literal": [
+        [
+          "人間の",
+          "human's"
+        ],
+        [
+          "体",
+          "body"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "素晴らしい",
+          "amazing"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "heart",
@@ -343,7 +747,24 @@
       "englishPhrase": "My heart is beating fast.",
       "phrase": "心臓がドキドキしています。",
       "phraseRomanized": "shinzō ga dokidoki shite imasu",
-      "literal": [["心臓", "heart"], ["が", "[subj]"], ["ドキドキして", "thump-thump doing"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "心臓",
+          "heart"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ドキドキして",
+          "thump-thump doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "muscle",
@@ -354,7 +775,20 @@
       "englishPhrase": "I pulled a muscle.",
       "phrase": "筋肉を痛めました。",
       "phraseRomanized": "kin'niku wo itamemashita",
-      "literal": [["筋肉", "muscle"], ["を", "[obj]"], ["痛めました", "hurt"]]
+      "literal": [
+        [
+          "筋肉",
+          "muscle"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "痛めました",
+          "hurt"
+        ]
+      ]
     },
     {
       "id": "skin",
@@ -365,7 +799,32 @@
       "englishPhrase": "Her skin is soft.",
       "phrase": "彼女は肌が柔らかいです。",
       "phraseRomanized": "kanojo wa hada ga yawarakai desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["肌", "skin"], ["が", "[subj]"], ["柔らかい", "soft"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "肌",
+          "skin"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "柔らかい",
+          "soft"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "blood",
@@ -376,7 +835,20 @@
       "englishPhrase": "He donated blood.",
       "phrase": "彼は献血しました。",
       "phraseRomanized": "kare wa kenketsu shimashita",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["献血しました", "blood-donation did"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "献血しました",
+          "blood-donation did"
+        ]
+      ]
     },
     {
       "id": "brain",
@@ -387,7 +859,24 @@
       "englishPhrase": "The brain is complex.",
       "phrase": "脳は複雑です。",
       "phraseRomanized": "nō wa fukuzatsu desu",
-      "literal": [["脳", "brain"], ["は", "[topic]"], ["複雑", "complex"], ["です", "is"]]
+      "literal": [
+        [
+          "脳",
+          "brain"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "複雑",
+          "complex"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "breast",
@@ -398,7 +887,36 @@
       "englishPhrase": "She felt pain in her chest.",
       "phrase": "彼女は胸に痛みを感じました。",
       "phraseRomanized": "kanojo wa mune ni itami wo kanjimashita",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["胸", "chest"], ["に", "[to/at]"], ["痛み", "pain"], ["を", "[obj]"], ["感じました", "felt"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "胸",
+          "chest"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "痛み",
+          "pain"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じました",
+          "felt"
+        ]
+      ]
     },
     {
       "id": "see",
@@ -409,7 +927,16 @@
       "englishPhrase": "I can see clearly.",
       "phrase": "はっきり見えます。",
       "phraseRomanized": "hakkiri miemasu",
-      "literal": [["はっきり", "clearly"], ["見えます", "can see"]]
+      "literal": [
+        [
+          "はっきり",
+          "clearly"
+        ],
+        [
+          "見えます",
+          "can see"
+        ]
+      ]
     },
     {
       "id": "hear",
@@ -420,7 +947,12 @@
       "englishPhrase": "I can't hear you.",
       "phrase": "聞こえません。",
       "phraseRomanized": "kikoemasen",
-      "literal": [["聞こえません", "cannot hear"]]
+      "literal": [
+        [
+          "聞こえません",
+          "cannot hear"
+        ]
+      ]
     },
     {
       "id": "smell",
@@ -431,7 +963,28 @@
       "englishPhrase": "I can smell the flowers.",
       "phrase": "花の匂いがします。",
       "phraseRomanized": "hana no nioi ga shimasu",
-      "literal": [["花", "flower"], ["の", "[of/poss]"], ["匂い", "scent"], ["が", "[subj]"], ["します", "does"]]
+      "literal": [
+        [
+          "花",
+          "flower"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "匂い",
+          "scent"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "します",
+          "does"
+        ]
+      ]
     },
     {
       "id": "taste",
@@ -442,7 +995,28 @@
       "englishPhrase": "Taste this soup.",
       "phrase": "このスープを味見してください。",
       "phraseRomanized": "kono sūpu wo ajimi shite kudasai",
-      "literal": [["この", "this"], ["スープ", "soup"], ["を", "[obj]"], ["味見して", "taste"], ["ください", "please"]]
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "スープ",
+          "soup"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "味見して",
+          "taste"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "touch",
@@ -453,7 +1027,16 @@
       "englishPhrase": "Don't touch that!",
       "phrase": "触らないでください！",
       "phraseRomanized": "sawaranaide kudasai",
-      "literal": [["触らないで", "don't touch"], ["ください", "please"]]
+      "literal": [
+        [
+          "触らないで",
+          "don't touch"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "breathe",
@@ -464,7 +1047,20 @@
       "englishPhrase": "Breathe slowly.",
       "phrase": "ゆっくり呼吸してください。",
       "phraseRomanized": "yukkuri kokyū shite kudasai",
-      "literal": [["ゆっくり", "slowly"], ["呼吸して", "breathe"], ["ください", "please"]]
+      "literal": [
+        [
+          "ゆっくり",
+          "slowly"
+        ],
+        [
+          "呼吸して",
+          "breathe"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "bend",
@@ -475,7 +1071,24 @@
       "englishPhrase": "Bend your knees.",
       "phrase": "膝を曲げてください。",
       "phraseRomanized": "hiza wo magete kudasai",
-      "literal": [["膝", "knees"], ["を", "[obj]"], ["曲げて", "bend"], ["ください", "please"]]
+      "literal": [
+        [
+          "膝",
+          "knees"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "曲げて",
+          "bend"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "stretch",
@@ -486,7 +1099,24 @@
       "englishPhrase": "Stretch your arms.",
       "phrase": "腕を伸ばしてください。",
       "phraseRomanized": "ude wo nobashite kudasai",
-      "literal": [["腕", "arms"], ["を", "[obj]"], ["伸ばして", "stretch"], ["ください", "please"]]
+      "literal": [
+        [
+          "腕",
+          "arms"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "伸ばして",
+          "stretch"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "sweat",
@@ -497,7 +1127,24 @@
       "englishPhrase": "I sweat when I run.",
       "phrase": "走ると汗をかきます。",
       "phraseRomanized": "hashiru to ase wo kakimasu",
-      "literal": [["走ると", "when run"], ["汗", "sweat"], ["を", "[obj]"], ["かきます", "break"]]
+      "literal": [
+        [
+          "走ると",
+          "when run"
+        ],
+        [
+          "汗",
+          "sweat"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "かきます",
+          "break"
+        ]
+      ]
     },
     {
       "id": "feel",
@@ -508,7 +1155,28 @@
       "englishPhrase": "How do you feel?",
       "phrase": "気分はどうですか？",
       "phraseRomanized": "kibun wa dō desu ka",
-      "literal": [["気分", "feeling"], ["は", "[topic]"], ["どう", "how"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "気分",
+          "feeling"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どう",
+          "how"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "think",
@@ -519,7 +1187,28 @@
       "englishPhrase": "What are you thinking about?",
       "phrase": "何を考えていますか？",
       "phraseRomanized": "nani wo kangaete imasu ka",
-      "literal": [["何", "what"], ["を", "[obj]"], ["考えて", "thinking"], ["います", "[doing]"], ["か", "[?]"]]
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "考えて",
+          "thinking"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "move",
@@ -530,7 +1219,20 @@
       "englishPhrase": "I can't move my arm.",
       "phrase": "腕が動かせません。",
       "phraseRomanized": "ude ga ugokasemasen",
-      "literal": [["腕", "arm"], ["が", "[subj]"], ["動かせません", "cannot move"]]
+      "literal": [
+        [
+          "腕",
+          "arm"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "動かせません",
+          "cannot move"
+        ]
+      ]
     },
     {
       "id": "soft",
@@ -541,7 +1243,24 @@
       "englishPhrase": "The tissue is soft.",
       "phrase": "ティッシュは柔らかいです。",
       "phraseRomanized": "tisshu wa yawarakai desu",
-      "literal": [["ティッシュ", "tissue"], ["は", "[topic]"], ["柔らかい", "soft"], ["です", "is"]]
+      "literal": [
+        [
+          "ティッシュ",
+          "tissue"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "柔らかい",
+          "soft"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "sore",
@@ -552,7 +1271,16 @@
       "englishPhrase": "My muscles are sore.",
       "phrase": "筋肉痛です。",
       "phraseRomanized": "kin'nikutsū desu",
-      "literal": [["筋肉痛", "muscle-ache"], ["です", "is"]]
+      "literal": [
+        [
+          "筋肉痛",
+          "muscle-ache"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "left",
@@ -563,7 +1291,20 @@
       "englishPhrase": "I hurt my left knee.",
       "phrase": "左膝を痛めました。",
       "phraseRomanized": "hidari hiza wo itamemashita",
-      "literal": [["左膝", "left knee"], ["を", "[obj]"], ["痛めました", "hurt"]]
+      "literal": [
+        [
+          "左膝",
+          "left knee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "痛めました",
+          "hurt"
+        ]
+      ]
     },
     {
       "id": "right",
@@ -574,7 +1315,20 @@
       "englishPhrase": "I broke my right arm.",
       "phrase": "右腕を骨折しました。",
       "phraseRomanized": "migiude wo kossetsu shimashita",
-      "literal": [["右腕", "right arm"], ["を", "[obj]"], ["骨折しました", "fractured"]]
+      "literal": [
+        [
+          "右腕",
+          "right arm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "骨折しました",
+          "fractured"
+        ]
+      ]
     },
     {
       "id": "upper",
@@ -585,7 +1339,24 @@
       "englishPhrase": "The upper body is strong.",
       "phrase": "上半身が強いです。",
       "phraseRomanized": "jōhanshin ga tsuyoi desu",
-      "literal": [["上半身", "upper body"], ["が", "[subj]"], ["強い", "strong"], ["です", "is"]]
+      "literal": [
+        [
+          "上半身",
+          "upper body"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "強い",
+          "strong"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "lower",
@@ -596,7 +1367,28 @@
       "englishPhrase": "He has lower back pain.",
       "phrase": "彼は腰痛があります。",
       "phraseRomanized": "kare wa yōtsū ga arimasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["腰痛", "lower-back-pain"], ["が", "[subj]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "腰痛",
+          "lower-back-pain"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     }
   ]
 }

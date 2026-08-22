@@ -11,41 +11,17 @@
   "parts": [
     {
       "n": 1,
-      "count": 25
+      "count": 23
     },
     {
       "n": 2,
-      "count": 23
+      "count": 21
     },
     {
       "n": 3
     }
   ],
   "cards": [
-    {
-      "id": "g_job_ieyo",
-      "grammar": true,
-      "english": "I am a doctor. (저는 … 이에요/예요)",
-      "word": "저는 의사예요",
-      "romanized": "jeoneun uisayeyo",
-      "grammarNote": "State a job with **저는 … 이에요/예요** (**예요** after a vowel, **이에요** after a consonant):\n**저는 의사예요** (I'm a doctor), **저는 선생님이에요** (I'm a teacher). To ask: **무슨 일 하세요?** (what do you do?).",
-      "englishPhrase": "She is an engineer.",
-      "phrase": "그녀는 엔지니어예요.",
-      "phraseRomanized": "Geunyeoneun enjinieoyeyo.",
-      "literal": [["그녀", "she"], ["는", "(topic)"], ["엔지니어", "engineer"], ["예요", "is"]]
-    },
-    {
-      "id": "g_haeyo_verbs",
-      "grammar": true,
-      "english": "I exercise. (noun + 해요 = do)",
-      "word": "운동해요",
-      "romanized": "undonghaeyo",
-      "grammarNote": "**하다** (to do) → **해요** turns many nouns into verbs:\n**운동해요** (exercise), **공부해요** (study), **요리해요** (cook), **일해요** (work). Very productive — attach **해요** to an activity noun.",
-      "englishPhrase": "I study every day.",
-      "phrase": "매일 공부해요.",
-      "phraseRomanized": "Maeil gongbuhaeyo.",
-      "literal": [["매일", "every-day"], ["공부해요", "study"]]
-    },
     {
       "id": "doctor",
       "english": "Doctor",
@@ -55,7 +31,24 @@
       "englishPhrase": "He is a doctor.",
       "phrase": "그는 의사예요.",
       "phraseRomanized": "geuneun uisayeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["의사", "doctor"], ["예요", "is"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "의사",
+          "doctor"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "nurse",
@@ -66,7 +59,24 @@
       "englishPhrase": "She is a nurse.",
       "phrase": "그녀는 간호사예요.",
       "phraseRomanized": "geunyeoneun ganhosayeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["간호사", "nurse"], ["예요", "is"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "간호사",
+          "nurse"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "engineer",
@@ -77,7 +87,24 @@
       "englishPhrase": "My brother is an engineer.",
       "phrase": "오빠는 엔지니어예요.",
       "phraseRomanized": "oppaneun enjinieoyeyo",
-      "literal": [["오빠", "older-brother"], ["는", "[topic]"], ["엔지니어", "engineer"], ["예요", "is"]]
+      "literal": [
+        [
+          "오빠",
+          "older-brother"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "엔지니어",
+          "engineer"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "programmer",
@@ -88,7 +115,28 @@
       "englishPhrase": "I work as a programmer.",
       "phrase": "저는 프로그래머로 일해요.",
       "phraseRomanized": "jeoneun peuroguraemerо ilhaeyo",
-      "literal": [["저", "I"], ["는", "[topic]"], ["프로그래머", "programmer"], ["로", "[to/by]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "프로그래머",
+          "programmer"
+        ],
+        [
+          "로",
+          "[to/by]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "cook",
@@ -99,7 +147,28 @@
       "englishPhrase": "The cook works in the kitchen.",
       "phrase": "요리사는 주방에서 일해요.",
       "phraseRomanized": "yorisaneun jubangeseo ilhaeyo",
-      "literal": [["요리사", "cook"], ["는", "[topic]"], ["주방", "kitchen"], ["에서", "[at/from]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "요리사",
+          "cook"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "주방",
+          "kitchen"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "waiter_waitress",
@@ -110,7 +179,28 @@
       "englishPhrase": "The waiter brought the menu.",
       "phrase": "웨이터가 메뉴를 가져왔어요.",
       "phraseRomanized": "weiteo-ga menyureul gajyeowasseoyo",
-      "literal": [["웨이터", "waiter"], ["가", "[subj]"], ["메뉴", "menu"], ["를", "[obj]"], ["가져왔어요", "brought"]]
+      "literal": [
+        [
+          "웨이터",
+          "waiter"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가져왔어요",
+          "brought"
+        ]
+      ]
     },
     {
       "id": "manager",
@@ -121,7 +211,24 @@
       "englishPhrase": "She is a manager.",
       "phrase": "그녀는 매니저예요.",
       "phraseRomanized": "geunyeoneun maenijyeoyeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["매니저", "manager"], ["예요", "is"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매니저",
+          "manager"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "student",
@@ -132,7 +239,24 @@
       "englishPhrase": "I am a student.",
       "phrase": "저는 학생이에요.",
       "phraseRomanized": "jeoneun haksaengieyo",
-      "literal": [["저", "I"], ["는", "[topic]"], ["학생", "student"], ["이에요", "is"]]
+      "literal": [
+        [
+          "저",
+          "I"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "학생",
+          "student"
+        ],
+        [
+          "이에요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "architect",
@@ -143,7 +267,24 @@
       "englishPhrase": "He is an architect.",
       "phrase": "그는 건축가예요.",
       "phraseRomanized": "geuneun geonchukgayeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["건축가", "architect"], ["예요", "is"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "건축가",
+          "architect"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "lawyer",
@@ -154,7 +295,24 @@
       "englishPhrase": "My sister is a lawyer.",
       "phrase": "언니는 변호사예요.",
       "phraseRomanized": "eonnineun byeonhosayeyo",
-      "literal": [["언니", "older-sister"], ["는", "[topic]"], ["변호사", "lawyer"], ["예요", "is"]]
+      "literal": [
+        [
+          "언니",
+          "older-sister"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "변호사",
+          "lawyer"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ]
     },
     {
       "id": "salary",
@@ -165,7 +323,20 @@
       "englishPhrase": "What is the salary?",
       "phrase": "월급이 얼마예요?",
       "phraseRomanized": "wolgeubi eolmayeyo",
-      "literal": [["월급", "salary"], ["이", "[subj]"], ["얼마예요", "how-much is"]]
+      "literal": [
+        [
+          "월급",
+          "salary"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "얼마예요",
+          "how-much is"
+        ]
+      ]
     },
     {
       "id": "schedule",
@@ -176,7 +347,24 @@
       "englishPhrase": "My schedule is flexible.",
       "phrase": "제 일정은 유연해요.",
       "phraseRomanized": "je iljeong-eun yuyeonhaeyo",
-      "literal": [["제", "my"], ["일정", "schedule"], ["은", "[topic]"], ["유연해요", "flexible"]]
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일정",
+          "schedule"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "유연해요",
+          "flexible"
+        ]
+      ]
     },
     {
       "id": "vacation",
@@ -187,7 +375,28 @@
       "englishPhrase": "I'm going on vacation next week.",
       "phrase": "다음 주에 휴가를 가요.",
       "phraseRomanized": "daeum jue hyugareul gayo",
-      "literal": [["다음 주", "next week"], ["에", "[at/to]"], ["휴가", "vacation"], ["를", "[obj]"], ["가요", "go"]]
+      "literal": [
+        [
+          "다음 주",
+          "next week"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "휴가",
+          "vacation"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "break",
@@ -198,7 +407,16 @@
       "englishPhrase": "Let's take a break.",
       "phrase": "잠깐 쉬어요.",
       "phraseRomanized": "jamkkan swieoyo",
-      "literal": [["잠깐", "briefly"], ["쉬어요", "rest"]],
+      "literal": [
+        [
+          "잠깐",
+          "briefly"
+        ],
+        [
+          "쉬어요",
+          "rest"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -210,7 +428,20 @@
       "englishPhrase": "I work in an office.",
       "phrase": "사무실에서 일해요.",
       "phraseRomanized": "samusilleseo ilhaeyo",
-      "literal": [["사무실", "office"], ["에서", "[at/from]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "사무실",
+          "office"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "colleague",
@@ -221,7 +452,24 @@
       "englishPhrase": "My coworkers are friendly.",
       "phrase": "직장 동료들이 친해요.",
       "phraseRomanized": "jikjang dongnyodeuri chinhaeyo",
-      "literal": [["직장", "workplace"], ["동료들", "colleagues"], ["이", "[subj]"], ["친해요", "friendly"]]
+      "literal": [
+        [
+          "직장",
+          "workplace"
+        ],
+        [
+          "동료들",
+          "colleagues"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "친해요",
+          "friendly"
+        ]
+      ]
     },
     {
       "id": "customer",
@@ -232,7 +480,20 @@
       "englishPhrase": "The client is happy.",
       "phrase": "고객이 만족해요.",
       "phraseRomanized": "gogaegi manjokaeyo",
-      "literal": [["고객", "client"], ["이", "[subj]"], ["만족해요", "satisfied"]]
+      "literal": [
+        [
+          "고객",
+          "client"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "만족해요",
+          "satisfied"
+        ]
+      ]
     },
     {
       "id": "team",
@@ -243,7 +504,24 @@
       "englishPhrase": "I work in a great team.",
       "phrase": "훌륭한 팀에서 일해요.",
       "phraseRomanized": "hullyunghan time seo ilhaeyo",
-      "literal": [["훌륭한", "excellent"], ["팀", "team"], ["에서", "[at/from]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "훌륭한",
+          "excellent"
+        ],
+        [
+          "팀",
+          "team"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "project",
@@ -254,7 +532,28 @@
       "englishPhrase": "The project is almost finished.",
       "phrase": "프로젝트가 거의 다 끝났어요.",
       "phraseRomanized": "peurojegteu-ga geoui da kkeunnasseoyo",
-      "literal": [["프로젝트", "project"], ["가", "[subj]"], ["거의", "almost"], ["다", "all"], ["끝났어요", "finished"]],
+      "literal": [
+        [
+          "프로젝트",
+          "project"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "거의",
+          "almost"
+        ],
+        [
+          "다",
+          "all"
+        ],
+        [
+          "끝났어요",
+          "finished"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -266,7 +565,28 @@
       "englishPhrase": "We have a meeting at ten.",
       "phrase": "열 시에 회의가 있어요.",
       "phraseRomanized": "yeol sie hoeui-ga isseoyo",
-      "literal": [["열 시", "ten o'clock"], ["에", "[at/to]"], ["회의", "meeting"], ["가", "[subj]"], ["있어요", "have"]]
+      "literal": [
+        [
+          "열 시",
+          "ten o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "회의",
+          "meeting"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ]
     },
     {
       "id": "free_time",
@@ -277,19 +597,24 @@
       "englishPhrase": "What do you do in your free time?",
       "phrase": "여가 시간에 뭐 해요?",
       "phraseRomanized": "yeoga sigane mwo haeyo",
-      "literal": [["여가 시간", "free time"], ["에", "[at/to]"], ["뭐", "what"], ["해요", "do"]]
-    },
-    {
-      "id": "g_eseo_ilhaeyo",
-      "grammar": true,
-      "english": "I work at a company. (… 에서 일해요)",
-      "word": "회사에서 일해요",
-      "romanized": "hoesa-eseo ilhaeyo",
-      "grammarNote": "Use **에서** for the workplace + **일해요** (work):\n**회사에서 일해요** (work at a company), **병원에서 일해요** (at a hospital). For 'work as a…', use the job + **(으)로**: **의사로 일해요**.",
-      "englishPhrase": "I work at a school.",
-      "phrase": "학교에서 일해요.",
-      "phraseRomanized": "Hakgyo-eseo ilhaeyo.",
-      "literal": [["학교", "school"], ["에서", "at"], ["일해요", "work"]]
+      "literal": [
+        [
+          "여가 시간",
+          "free time"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "뭐",
+          "what"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
     },
     {
       "id": "to_work_in_for_as",
@@ -300,7 +625,20 @@
       "englishPhrase": "I work in a hospital.",
       "phrase": "병원에서 일해요.",
       "phraseRomanized": "byeongwoneseo ilhaeyo",
-      "literal": [["병원", "hospital"], ["에서", "[at/from]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "병원",
+          "hospital"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "reading",
@@ -311,7 +649,20 @@
       "englishPhrase": "I like reading.",
       "phrase": "독서를 좋아해요.",
       "phraseRomanized": "dokseoreul joahaeyo",
-      "literal": [["독서", "reading"], ["를", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "독서",
+          "reading"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "writing",
@@ -322,7 +673,28 @@
       "englishPhrase": "She likes writing stories.",
       "phrase": "그녀는 이야기 쓰는 걸 좋아해요.",
       "phraseRomanized": "geunyeoneun iyagi sseuneun geol joahaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["이야기", "story"], ["쓰는 걸", "writing[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "이야기",
+          "story"
+        ],
+        [
+          "쓰는 걸",
+          "writing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "painting",
@@ -333,7 +705,28 @@
       "englishPhrase": "He loves painting.",
       "phrase": "그는 그림 그리는 걸 좋아해요.",
       "phraseRomanized": "geuneun geurim geurineun geol joahaeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["그림", "picture"], ["그리는 걸", "drawing[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "그림",
+          "picture"
+        ],
+        [
+          "그리는 걸",
+          "drawing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "drawing",
@@ -344,7 +737,20 @@
       "englishPhrase": "I like drawing.",
       "phrase": "그림 그리는 걸 좋아해요.",
       "phraseRomanized": "geurim geurineun geol joahaeyo",
-      "literal": [["그림", "picture"], ["그리는 걸", "drawing[obj]"], ["좋아해요", "like"]],
+      "literal": [
+        [
+          "그림",
+          "picture"
+        ],
+        [
+          "그리는 걸",
+          "drawing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -356,7 +762,24 @@
       "englishPhrase": "I listen to music every day.",
       "phrase": "매일 음악을 들어요.",
       "phraseRomanized": "maeil eumag-eul deoreoyo",
-      "literal": [["매일", "every-day"], ["음악", "music"], ["을", "[obj]"], ["들어요", "listen"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "들어요",
+          "listen"
+        ]
+      ]
     },
     {
       "id": "singing",
@@ -367,7 +790,28 @@
       "englishPhrase": "She loves singing.",
       "phrase": "그녀는 노래 부르는 걸 좋아해요.",
       "phraseRomanized": "geunyeoneun norae bureoneun geol joahaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["노래", "singing"], ["부르는 걸", "singing[obj]"], ["좋아해요", "like"]],
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "노래",
+          "singing"
+        ],
+        [
+          "부르는 걸",
+          "singing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -379,7 +823,20 @@
       "englishPhrase": "I play the guitar.",
       "phrase": "기타를 쳐요.",
       "phraseRomanized": "gitareul chyeoyo",
-      "literal": [["기타", "guitar"], ["를", "[obj]"], ["쳐요", "play"]],
+      "literal": [
+        [
+          "기타",
+          "guitar"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "쳐요",
+          "play"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -391,7 +848,28 @@
       "englishPhrase": "We love dancing.",
       "phrase": "저희는 춤 추는 걸 좋아해요.",
       "phraseRomanized": "jeohuineun chum chuneun geol joahaeyo",
-      "literal": [["저희", "we"], ["는", "[topic]"], ["춤", "dancing"], ["추는 걸", "dancing[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "저희",
+          "we"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "춤",
+          "dancing"
+        ],
+        [
+          "추는 걸",
+          "dancing[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "cooking",
@@ -402,7 +880,16 @@
       "englishPhrase": "I enjoy cooking.",
       "phrase": "요리하는 걸 좋아해요.",
       "phraseRomanized": "yorihaneun geol joahaeyo",
-      "literal": [["요리하는 걸", "cooking[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "요리하는 걸",
+          "cooking[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "hiking",
@@ -413,7 +900,24 @@
       "englishPhrase": "I like hiking in the mountains.",
       "phrase": "산에서 하이킹하는 걸 좋아해요.",
       "phraseRomanized": "saneseo haikinghaneun geol joahaeyo",
-      "literal": [["산", "mountain"], ["에서", "[at/from]"], ["하이킹하는 걸", "hiking[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "산",
+          "mountain"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "하이킹하는 걸",
+          "hiking[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "running",
@@ -424,20 +928,21 @@
       "englishPhrase": "I run every morning.",
       "phrase": "매일 아침 달려요.",
       "phraseRomanized": "maeil achim dallyeoyo",
-      "literal": [["매일", "every-day"], ["아침", "morning"], ["달려요", "run"]],
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "달려요",
+          "run"
+        ]
+      ],
       "hidden": true
-    },
-    {
-      "id": "g_neun_geot",
-      "grammar": true,
-      "english": "I like swimming. (verb + 는 것을 좋아해요)",
-      "word": "수영하는 것을 좋아해요",
-      "romanized": "suyeonghaneun geoseul joahaeyo",
-      "grammarNote": "To say you like *doing* something, turn the verb into a noun with **-는 것** + **을 좋아해요**:\n**수영하는 것을 좋아해요** (I like swimming), **책 읽는 것을 좋아해요** (I like reading). **것** = 'thing / act'.",
-      "englishPhrase": "I like running.",
-      "phrase": "달리는 것을 좋아해요.",
-      "phraseRomanized": "Dallineun geoseul joahaeyo.",
-      "literal": [["달리는 것", "running"], ["을", "(obj)"], ["좋아해요", "like"]]
     },
     {
       "id": "swimming",
@@ -448,7 +953,20 @@
       "englishPhrase": "I like swimming.",
       "phrase": "수영을 좋아해요.",
       "phraseRomanized": "suyeong-eul joahaeyo",
-      "literal": [["수영", "swimming"], ["을", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "수영",
+          "swimming"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "biking",
@@ -459,7 +977,28 @@
       "englishPhrase": "I go biking on weekends.",
       "phrase": "주말에 자전거를 타요.",
       "phraseRomanized": "jumare jajeongeo reul tayo",
-      "literal": [["주말", "weekend"], ["에", "[at/to]"], ["자전거", "bicycle"], ["를", "[obj]"], ["타요", "ride"]],
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "자전거",
+          "bicycle"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "타요",
+          "ride"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -471,7 +1010,24 @@
       "englishPhrase": "I love traveling.",
       "phrase": "여행을 정말 좋아해요.",
       "phraseRomanized": "yeohaeng-eul jeongmal joahaeyo",
-      "literal": [["여행", "travel"], ["을", "[obj]"], ["정말", "really"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "여행",
+          "travel"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "gaming_video_games",
@@ -482,7 +1038,36 @@
       "englishPhrase": "He plays video games at night.",
       "phrase": "그는 밤에 비디오 게임을 해요.",
       "phraseRomanized": "geuneun bame bidio geim-eul haeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["밤", "night"], ["에", "[at/to]"], ["비디오 게임", "video game"], ["을", "[obj]"], ["해요", "do"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "밤",
+          "night"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "비디오 게임",
+          "video game"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "해요",
+          "do"
+        ]
+      ]
     },
     {
       "id": "watching_tv",
@@ -493,7 +1078,20 @@
       "englishPhrase": "I like watching movies.",
       "phrase": "영화 보는 걸 좋아해요.",
       "phraseRomanized": "yeonghwa boneun geol joahaeyo",
-      "literal": [["영화", "movie"], ["보는 걸", "watching[obj]"], ["좋아해요", "like"]],
+      "literal": [
+        [
+          "영화",
+          "movie"
+        ],
+        [
+          "보는 걸",
+          "watching[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -505,7 +1103,28 @@
       "englishPhrase": "She likes listening to music.",
       "phrase": "그녀는 음악 듣는 걸 좋아해요.",
       "phraseRomanized": "geunyeoneun eumak deutneun geol joahaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["음악", "music"], ["듣는 걸", "listening[obj]"], ["좋아해요", "like"]],
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "음악",
+          "music"
+        ],
+        [
+          "듣는 걸",
+          "listening[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -517,7 +1136,24 @@
       "englishPhrase": "I go to the gym for exercise.",
       "phrase": "운동하러 헬스장에 가요.",
       "phraseRomanized": "undonghareo helseujanге gayo",
-      "literal": [["운동하러", "exercise-to"], ["헬스장", "gym"], ["에", "[at/to]"], ["가요", "go"]]
+      "literal": [
+        [
+          "운동하러",
+          "exercise-to"
+        ],
+        [
+          "헬스장",
+          "gym"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ]
     },
     {
       "id": "outdoors",
@@ -528,7 +1164,28 @@
       "englishPhrase": "She works outdoors.",
       "phrase": "그녀는 야외에서 일해요.",
       "phraseRomanized": "geunyeoneun yaoeseo ilhaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["야외", "outdoors"], ["에서", "[at/from]"], ["일해요", "work"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "야외",
+          "outdoors"
+        ],
+        [
+          "에서",
+          "[at/from]"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ]
     },
     {
       "id": "creative",
@@ -539,7 +1196,24 @@
       "englishPhrase": "She is very creative.",
       "phrase": "그녀는 매우 창의적이에요.",
       "phraseRomanized": "geunyeoneun maeu changruijeogieyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["매우", "very"], ["창의적이에요", "creative"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "매우",
+          "very"
+        ],
+        [
+          "창의적이에요",
+          "creative"
+        ]
+      ]
     },
     {
       "id": "interesting",
@@ -550,7 +1224,24 @@
       "englishPhrase": "My job is interesting.",
       "phrase": "제 일은 흥미로워요.",
       "phraseRomanized": "je ireun heungmirowayo",
-      "literal": [["제", "my"], ["일", "work"], ["은", "[topic]"], ["흥미로워요", "interesting"]]
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "흥미로워요",
+          "interesting"
+        ]
+      ]
     },
     {
       "id": "boring",
@@ -561,7 +1252,20 @@
       "englishPhrase": "The meeting was boring.",
       "phrase": "회의가 지루했어요.",
       "phraseRomanized": "hoeui-ga jiruhaesseoyo",
-      "literal": [["회의", "meeting"], ["가", "[subj]"], ["지루했어요", "boring"]]
+      "literal": [
+        [
+          "회의",
+          "meeting"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "지루했어요",
+          "boring"
+        ]
+      ]
     },
     {
       "id": "to_earn_a_salary",
@@ -572,7 +1276,32 @@
       "englishPhrase": "He earns a good salary.",
       "phrase": "그는 월급을 잘 받아요.",
       "phraseRomanized": "geuneun wolgeub-eul jal badayo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["월급", "salary"], ["을", "[obj]"], ["잘", "well"], ["받아요", "receive"]],
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "월급",
+          "salary"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "잘",
+          "well"
+        ],
+        [
+          "받아요",
+          "receive"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -584,7 +1313,28 @@
       "englishPhrase": "She retired last year.",
       "phrase": "그녀는 작년에 은퇴했어요.",
       "phraseRomanized": "geunyeoneun jangnyeone euntoehaesseoyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["작년", "last-year"], ["에", "[at/to]"], ["은퇴했어요", "retired"]],
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "작년",
+          "last-year"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "은퇴했어요",
+          "retired"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -596,7 +1346,24 @@
       "englishPhrase": "I have a good job.",
       "phrase": "좋은 직업이 있어요.",
       "phraseRomanized": "joeun jigeob-i isseoyo",
-      "literal": [["좋은", "good"], ["직업", "job"], ["이", "[subj]"], ["있어요", "have"]],
+      "literal": [
+        [
+          "좋은",
+          "good"
+        ],
+        [
+          "직업",
+          "job"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "있어요",
+          "have"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -608,7 +1375,32 @@
       "englishPhrase": "He is currently unemployed.",
       "phrase": "그는 현재 실직 상태예요.",
       "phraseRomanized": "geuneun hyeonjae siljik sangtaeyeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["현재", "currently"], ["실직", "unemployed"], ["상태", "state"], ["예요", "is"]],
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "현재",
+          "currently"
+        ],
+        [
+          "실직",
+          "unemployed"
+        ],
+        [
+          "상태",
+          "state"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -620,7 +1412,16 @@
       "englishPhrase": "I study every day.",
       "phrase": "매일 공부해요.",
       "phraseRomanized": "maeil gongbuhaeyo",
-      "literal": [["매일", "every-day"], ["공부해요", "study"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ]
     },
     {
       "id": "to_learn",
@@ -631,7 +1432,20 @@
       "englishPhrase": "I'm learning Korean.",
       "phrase": "한국어를 배우고 있어요.",
       "phraseRomanized": "hangugеoreul baeуgo isseoyo",
-      "literal": [["한국어", "Korean"], ["를", "[obj]"], ["배우고 있어요", "learning"]]
+      "literal": [
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "배우고 있어요",
+          "learning"
+        ]
+      ]
     },
     {
       "id": "to_practice",
@@ -642,7 +1456,16 @@
       "englishPhrase": "I practice every day.",
       "phrase": "매일 연습해요.",
       "phraseRomanized": "maeil yeonseuphaeyo",
-      "literal": [["매일", "every-day"], ["연습해요", "practice"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "연습해요",
+          "practice"
+        ]
+      ]
     },
     {
       "id": "to_teach",
@@ -653,7 +1476,28 @@
       "englishPhrase": "She teaches Korean.",
       "phrase": "그녀는 한국어를 가르쳐요.",
       "phraseRomanized": "geunyeoneun hangugeo reul gareucho ayo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["한국어", "Korean"], ["를", "[obj]"], ["가르쳐요", "teach"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "한국어",
+          "Korean"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "가르쳐요",
+          "teach"
+        ]
+      ]
     },
     {
       "id": "to_build",
@@ -664,7 +1508,24 @@
       "englishPhrase": "They are building a new school.",
       "phrase": "새 학교를 짓고 있어요.",
       "phraseRomanized": "sae hakgyoreul jitgo isseoyo",
-      "literal": [["새", "new"], ["학교", "school"], ["를", "[obj]"], ["짓고 있어요", "building"]]
+      "literal": [
+        [
+          "새",
+          "new"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "짓고 있어요",
+          "building"
+        ]
+      ]
     },
     {
       "id": "to_fix",
@@ -675,7 +1536,16 @@
       "englishPhrase": "Can you fix this?",
       "phrase": "이거 고칠 수 있어요?",
       "phraseRomanized": "igeo gochil su isseoyo",
-      "literal": [["이거", "this"], ["고칠 수 있어요", "fix can"]],
+      "literal": [
+        [
+          "이거",
+          "this"
+        ],
+        [
+          "고칠 수 있어요",
+          "fix can"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -687,7 +1557,28 @@
       "englishPhrase": "I make coffee every morning.",
       "phrase": "매일 아침 커피를 만들어요.",
       "phraseRomanized": "maeil achim keopireul mandeuleoyo",
-      "literal": [["매일", "every-day"], ["아침", "morning"], ["커피", "coffee"], ["를", "[obj]"], ["만들어요", "make"]]
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "아침",
+          "morning"
+        ],
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "만들어요",
+          "make"
+        ]
+      ]
     },
     {
       "id": "to_design",
@@ -698,7 +1589,28 @@
       "englishPhrase": "He designs websites.",
       "phrase": "그는 웹사이트를 디자인해요.",
       "phraseRomanized": "geuneun wepsaiteuреул dijаinhaeyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["웹사이트", "website"], ["를", "[obj]"], ["디자인해요", "design"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "웹사이트",
+          "website"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "디자인해요",
+          "design"
+        ]
+      ]
     },
     {
       "id": "to_sell",
@@ -709,7 +1621,28 @@
       "englishPhrase": "He sells cars.",
       "phrase": "그는 자동차를 팔아요.",
       "phraseRomanized": "geuneun jadongcharеул parayo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["자동차", "car"], ["를", "[obj]"], ["팔아요", "sell"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "자동차",
+          "car"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "팔아요",
+          "sell"
+        ]
+      ]
     },
     {
       "id": "to_buy",
@@ -720,7 +1653,24 @@
       "englishPhrase": "I need to buy a new computer.",
       "phrase": "새 컴퓨터를 사야 해요.",
       "phraseRomanized": "sae keompyuteoreul saya haeyo",
-      "literal": [["새", "new"], ["컴퓨터", "computer"], ["를", "[obj]"], ["사야 해요", "must-buy"]]
+      "literal": [
+        [
+          "새",
+          "new"
+        ],
+        [
+          "컴퓨터",
+          "computer"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "사야 해요",
+          "must-buy"
+        ]
+      ]
     },
     {
       "id": "to_help",
@@ -731,7 +1681,12 @@
       "englishPhrase": "Can I help you?",
       "phrase": "도와드릴까요?",
       "phraseRomanized": "dowadeurillkkayo",
-      "literal": [["도와드릴까요", "help- shall-I"]]
+      "literal": [
+        [
+          "도와드릴까요",
+          "help- shall-I"
+        ]
+      ]
     },
     {
       "id": "to_manage",
@@ -742,7 +1697,28 @@
       "englishPhrase": "She manages the team.",
       "phrase": "그녀는 팀을 관리해요.",
       "phraseRomanized": "geunyeoneun timeul gwallihaeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["팀", "team"], ["을", "[obj]"], ["관리해요", "manage"]],
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "팀",
+          "team"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "관리해요",
+          "manage"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -754,7 +1730,24 @@
       "englishPhrase": "We meet every Monday.",
       "phrase": "매주 월요일에 만나요.",
       "phraseRomanized": "maeju woryoile mannayo",
-      "literal": [["매주", "every-week"], ["월요일", "Monday"], ["에", "[at/to]"], ["만나요", "meet"]],
+      "literal": [
+        [
+          "매주",
+          "every-week"
+        ],
+        [
+          "월요일",
+          "Monday"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "만나요",
+          "meet"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -766,7 +1759,28 @@
       "englishPhrase": "I start work at eight.",
       "phrase": "여덟 시에 일을 시작해요.",
       "phraseRomanized": "yeodeol sie ireul sijаghaeyo",
-      "literal": [["여덟 시", "eight o'clock"], ["에", "[at/to]"], ["일", "work"], ["을", "[obj]"], ["시작해요", "start"]]
+      "literal": [
+        [
+          "여덟 시",
+          "eight o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "시작해요",
+          "start"
+        ]
+      ]
     },
     {
       "id": "to_finish",
@@ -777,7 +1791,28 @@
       "englishPhrase": "I finish work at five.",
       "phrase": "다섯 시에 일이 끝나요.",
       "phraseRomanized": "daseot sie iri kkeunnayo",
-      "literal": [["다섯 시", "five o'clock"], ["에", "[at/to]"], ["일", "work"], ["이", "[subj]"], ["끝나요", "finish"]]
+      "literal": [
+        [
+          "다섯 시",
+          "five o'clock"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "끝나요",
+          "finish"
+        ]
+      ]
     },
     {
       "id": "to_like_to_enjoy",
@@ -788,7 +1823,40 @@
       "englishPhrase": "I like reading. She likes singing.",
       "phrase": "독서를 좋아해요. 그녀는 노래를 좋아해요.",
       "phraseRomanized": "dokseoreul joahaeyo. geunyeoneun noraereul joahaeyo",
-      "literal": [["독서", "reading"], ["를", "[obj]"], ["좋아해요", "like"], ["그녀", "she"], ["는", "[topic]"], ["노래", "song"], ["를", "[obj]"], ["좋아해요", "like"]]
+      "literal": [
+        [
+          "독서",
+          "reading"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ],
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "노래",
+          "song"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ]
     },
     {
       "id": "to_relax",
@@ -799,7 +1867,20 @@
       "englishPhrase": "I relax on weekends.",
       "phrase": "주말에 쉬어요.",
       "phraseRomanized": "jumare swieoyo",
-      "literal": [["주말", "weekend"], ["에", "[at/to]"], ["쉬어요", "rest"]]
+      "literal": [
+        [
+          "주말",
+          "weekend"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "쉬어요",
+          "rest"
+        ]
+      ]
     },
     {
       "id": "stressful",
@@ -810,7 +1891,32 @@
       "englishPhrase": "My job is stressful.",
       "phrase": "제 일은 스트레스가 많아요.",
       "phraseRomanized": "je ireun seuteurese-ga manayo",
-      "literal": [["제", "my"], ["일", "work"], ["은", "[topic]"], ["스트레스", "stress"], ["가", "[subj]"], ["많아요", "much"]]
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "일",
+          "work"
+        ],
+        [
+          "은",
+          "[topic]"
+        ],
+        [
+          "스트레스",
+          "stress"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "많아요",
+          "much"
+        ]
+      ]
     }
   ]
 }

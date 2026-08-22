@@ -13,7 +13,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 30
+      "count": 27
     },
     {
       "n": 2,
@@ -24,36 +24,6 @@
     }
   ],
   "cards": [
-    {
-      "id": "g_partitive",
-      "grammar": true,
-      "english": "some bread (du / de la / des)",
-      "word": "du pain",
-      "grammarNote": "For an unspecified quantity ('some'), French uses the partitive:\n**du** (masc.) **du pain** (some bread), **de la** (fem.) **de la viande** (some meat), **de l'** before a vowel **de l'eau**, **des** (plural) **des pommes**.",
-      "englishPhrase": "I'm eating some bread and some cheese.",
-      "phrase": "Je mange du pain et du fromage.",
-      "literal": [["Je", "I"], ["mange", "eat"], ["du", "some"], ["pain", "bread"]]
-    },
-    {
-      "id": "g_voudrais",
-      "grammar": true,
-      "english": "I would like a coffee. (je voudrais — polite)",
-      "word": "je voudrais un café",
-      "grammarNote": "**je voudrais** (I would like) is the polite way to order — softer than **je veux** (I want):\n**je voudrais un café, s'il vous plaît**. It's the conditional of **vouloir**.",
-      "englishPhrase": "I'd like a tea, please.",
-      "phrase": "Je voudrais un thé, s'il vous plaît.",
-      "literal": [["Je", "I"], ["voudrais", "would-like"], ["un", "a"], ["thé", "tea"]]
-    },
-    {
-      "id": "g_jaime_definite",
-      "grammar": true,
-      "english": "I like coffee. (j'aime + le/la)",
-      "word": "j'aime le café",
-      "grammarNote": "With **aimer** (to like/love), use the **definite article** for things in general:\n**j'aime le café** (I like coffee), **j'aime les pommes** (I like apples). Compare the partitive **du café** = 'some coffee' (a quantity).",
-      "englishPhrase": "I love chocolate!",
-      "phrase": "J'aime le chocolat !",
-      "literal": [["J'aime", "I-like"], ["le", "the"], ["chocolat", "chocolate"]]
-    },
     {
       "id": "water",
       "english": "water",
@@ -255,7 +225,28 @@
       "grammarNote": "**la baguette** is feminine — literally 'a little rod/wand' (same word used for a conductor's baton and magic wand).\n**Je voudrais** = I would like — the conditional of **vouloir**, used for polite requests.\n**une baguette** uses the indefinite article (one specific baguette), not the partitive.",
       "englishPhrase": "I'd like a baguette, please.",
       "phrase": "Je voudrais une baguette, s'il vous plaît.",
-      "literal": [["Je", "I"], ["voudrais", "would-like"], ["une", "a"], ["baguette", "baguette"], ["s'il vous plaît", "please"]]
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "voudrais",
+          "would-like"
+        ],
+        [
+          "une",
+          "a"
+        ],
+        [
+          "baguette",
+          "baguette"
+        ],
+        [
+          "s'il vous plaît",
+          "please"
+        ]
+      ]
     },
     {
       "id": "croissant",
@@ -264,7 +255,32 @@
       "grammarNote": "**le croissant** = crescent (its shape). From French **croître** (to grow), related to the crescent moon shape.\n**Je prends** (I'm having/taking) is a common way to order at a café — more casual than **je voudrais**.\n**au beurre** = with butter — **au** is **à + le** (contraction). A **croissant au beurre** is made with real butter (richer and flakier than a plain croissant).",
       "englishPhrase": "I'll have a butter croissant.",
       "phrase": "Je prends un croissant au beurre.",
-      "literal": [["Je", "I"], ["prends", "take/have"], ["un", "a"], ["croissant", "croissant"], ["au", "with"], ["beurre", "butter"]]
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "prends",
+          "take/have"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "croissant",
+          "croissant"
+        ],
+        [
+          "au",
+          "with"
+        ],
+        [
+          "beurre",
+          "butter"
+        ]
+      ]
     },
     {
       "id": "crepe",
@@ -273,7 +289,32 @@
       "grammarNote": "**la crêpe** is feminine. The circumflex on the **ê** indicates a historical 's' (Old French: **crespe**) — compare English 'crisp'.\n**au chocolat** = with chocolate — **au** is **à + le** (**le chocolat** is masculine).\n**Je veux** here is direct — in a casual context acceptable. For a shop, **je voudrais** is more polite.",
       "englishPhrase": "I want a chocolate crêpe.",
       "phrase": "Je veux une crêpe au chocolat.",
-      "literal": [["Je", "I"], ["veux", "want"], ["une", "a"], ["crêpe", "crêpe"], ["au", "with"], ["chocolat", "chocolate"]]
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "veux",
+          "want"
+        ],
+        [
+          "une",
+          "a"
+        ],
+        [
+          "crêpe",
+          "crêpe"
+        ],
+        [
+          "au",
+          "with"
+        ],
+        [
+          "chocolat",
+          "chocolate"
+        ]
+      ]
     },
     {
       "id": "pork",
@@ -635,16 +676,6 @@
       "grammarNote": "**épicé** (m.) / **épicée** (f.) — past participle of **épicer** (to spice) used as an adjective.\n**La cuisine mexicaine est souvent épicée** — feminine agreement: **cuisine** (f.) → **épicée**.\n**souvent** (often) = adverb modifying the verb/adjective. Note **-tion** words like **la cuisine** are not **-tion** words — but all **-tion** nouns are feminine in French.",
       "englishPhrase": "Mexican food is often spicy.",
       "phrase": "La cuisine mexicaine est souvent épicée."
-    },
-    {
-      "id": "g_cest_adjective",
-      "grammar": true,
-      "english": "It's delicious! (c'est + adjective)",
-      "word": "c'est délicieux",
-      "grammarNote": "**c'est** (it is / that is) + adjective gives a quick reaction:\n**c'est délicieux** (it's delicious), **c'est bon** (it's good). The adjective stays masculine singular after **c'est**.",
-      "englishPhrase": "The soup is very good!",
-      "phrase": "La soupe est très bonne !",
-      "literal": [["La", "the"], ["soupe", "soup"], ["est", "is"], ["très", "very"], ["bonne", "good"]]
     },
     {
       "id": "delicious",

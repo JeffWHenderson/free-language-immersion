@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
 import { useDecks, Pack } from "../../hooks/useDecks";
-import { loadDeckState, getDeckSummary, getBookmarkedCount, loadStoryBookmarks, isCardHidden } from "../useStorage";
+import { loadDeckState, getDeckSummary, getDeckProgress, getBookmarkedCount, loadStoryBookmarks, isCardHidden } from "../useStorage";
 import PageSkeleton from "../../components/PageSkeleton";
 import InfoTip from "../../components/InfoTip";
 import PackDrawer from "./PackDrawer";
@@ -10,17 +10,25 @@ import "../srs.css";
 
 const packSelectionKey = (language: string) => `pack_selection_${language}`;
 
+// The core decks every course shares — these stay at the top level of the home
+// screen. Everything else collapses into "Extension Decks".
+const MAIN_TOPIC_KEYS = new Set([
+    "grammar_essentials",
+    "everyday_phrases",
+    "food_and_drink",
+    "common_places",
+    "jobs_and_hobbies",
+    "moods_and_emotion",
+    "human_body",
+]);
+
 const prefetchUnifiedReview = () => { void import('../UnifiedReview'); };
 const prefetchStories = () => { void import('../StoryList'); };
 const prefetchPictures = () => { void import('../PictureList'); };
 const prefetchGrammar = () => { void import('../AllGrammarList'); };
 const prefetchBookmarks = () => { void import('../Bookmarks'); };
 
-function visibleCount(pack: Pack, deckState: ReturnType<typeof loadDeckState>): number {
-    return pack.cards.filter((c) => !isCardHidden(c, deckState)).length;
-}
-
-/** A topic groups a section's split parts (or a single unsplit pack) into one home pill. */
+/** A topic groups a section's split parts (or a single unsplit pack) into one home row. */
 interface TopicGroup {
     key: string;
     name: string;
@@ -50,7 +58,8 @@ const Home = () => {
 
     const [studyPacks, setStudyPacks] = useState<Set<string>>(new Set());
     const [drawerParts, setDrawerParts] = useState<Pack[] | null>(null);
-    const [grammarOpen, setGrammarOpen] = useState(false);
+    const [extensionOpen, setExtensionOpen] = useState(false);
+    const [experimentalOpen, setExperimentalOpen] = useState(false);
     const [showPrint, setShowPrint] = useState(false);
     const [printSelectedDecks, setPrintSelectedDecks] = useState<Set<string>>(new Set());
     const [printMode, setPrintMode] = useState<'words' | 'phrases'>('words');
@@ -140,10 +149,18 @@ const Home = () => {
     const pillPacks = packs.filter((p) => p.cards.length > 0);
     const vocabPacks = pillPacks.filter((p) => p.kind !== "grammar");
     const grammarPacks = pillPacks.filter((p) => p.kind === "grammar");
-    const grammarSelected = grammarPacks.filter((p) => studyPacks.has(p.id)).length;
 
     const vocabTopics = groupByTopic(vocabPacks);
     const grammarTopics = groupByTopic(grammarPacks);
+
+    // Core decks stay top-level; extra topic packs + the per-concept grammar pills
+    // fold into the collapsible "Extension Decks" section.
+    const mainTopics = vocabTopics.filter((g) => MAIN_TOPIC_KEYS.has(g.key));
+    const extensionTopics = [
+        ...vocabTopics.filter((g) => !MAIN_TOPIC_KEYS.has(g.key)),
+        ...grammarTopics,
+    ];
+    const extensionSelected = extensionTopics.filter((g) => g.parts.some((p) => studyPacks.has(p.id))).length;
 
     const deckEntries = pillPacks.map((pack) => {
         const state = loadDeckState(language!, pack.id);
@@ -186,114 +203,150 @@ const Home = () => {
             return visible.some((c) => printMode === 'words' ? !!c.romanized : !!c.phraseRomanized);
         });
 
-    const renderTopic = (group: TopicGroup) => {
+    const renderTopicRow = (group: TopicGroup) => {
         const isGrammar = group.parts[0].kind === "grammar";
         const multi = group.parts.length > 1;
         let included = 0;
         let total = 0;
+        let learned = 0;
         for (const p of group.parts) {
-            const v = visibleCount(p, loadDeckState(language!, p.id));
-            total += v;
-            if (studyPacks.has(p.id)) included += v;
+            const state = loadDeckState(language!, p.id);
+            const visible = p.cards.filter((c) => !isCardHidden(c, state));
+            total += visible.length;
+            if (studyPacks.has(p.id)) included += visible.length;
+            learned += getDeckProgress(visible, state).learned;
         }
         const active = group.parts.some((p) => studyPacks.has(p.id));
+        const progressPct = total > 0 ? Math.round((learned / total) * 100) : 0;
+        const countText = multi ? `${included}/${total} words` : `${total} words`;
         return (
             <div
                 key={group.key}
-                className={`srs-pill${isGrammar ? ' grammar' : ''}${active ? ' active' : ' inactive'}`}
+                className={`srs-topic-row${isGrammar ? ' grammar' : ''}${active ? '' : ' inactive'}`}
             >
-                <span
-                    className="srs-pill-body"
-                    onClick={() => toggleTopic(group)}
-                    role="checkbox"
-                    aria-checked={active}
-                    tabIndex={0}
-                    onKeyDown={(e) => e.key === ' ' && toggleTopic(group)}
-                >
-                    {group.name}
-                    <span className="srs-pill-count">
-                        {included}
-                        {multi && <span className="srs-pill-count-total">/{total}</span>}
-                    </span>
-                </span>
                 <button
-                    className="srs-pill-info"
+                    className="srs-topic-row-body"
                     onClick={() => setDrawerParts(group.parts)}
                     aria-label={`Details for ${group.name}`}
                 >
-                    ›
+                    <span className="srs-topic-row-name">{group.name}</span>
+                    <span className="srs-topic-row-count">{countText}</span>
+                    <span className="srs-topic-row-chevron">›</span>
                 </button>
+                <input
+                    type="checkbox"
+                    className="srs-pack-toggle"
+                    checked={active}
+                    onChange={() => toggleTopic(group)}
+                    aria-label={active ? `Remove ${group.name} from study` : `Add ${group.name} to study`}
+                />
+                {progressPct > 0 && (
+                    <div className="srs-topic-row-progress">
+                        <div className="srs-topic-row-progress-fill" style={{ width: `${progressPct}%` }} />
+                    </div>
+                )}
             </div>
+        );
+    };
+
+    // Extension decks render as compact toggle pills (tap = include/exclude from study).
+    const renderExtensionPill = (group: TopicGroup) => {
+        const isGrammar = group.parts[0].kind === "grammar";
+        const active = group.parts.some((p) => studyPacks.has(p.id));
+        return (
+            <button
+                key={group.key}
+                className={`srs-pill${isGrammar ? ' grammar' : ''}${active ? ' active' : ''}`}
+                onClick={() => toggleTopic(group)}
+                aria-pressed={active}
+            >
+                {group.name}
+            </button>
         );
     };
 
     return (
         <>
             <div className="srs-container">
-                <div className="srs-home-header">
-                    <div className="srs-header-row">
-                        <h2 style={{ textTransform: "capitalize" }}>{language} Course</h2>
+                <div className="srs-topic-list">
+                    <div className="srs-course-heading">
+                        <h2 className="srs-course-title" style={{ textTransform: "capitalize" }}>{language} Introduction</h2>
                         <InfoTip>
-                            <p>Tap a pack to include or exclude it from your study session.</p>
-                            <p>Tap <strong>›</strong> on a pack to browse its cards, stories, and grammar.</p>
+                            <p>Flip the switch on a topic to include or exclude it from your study session.</p>
+                            <p>Tap a topic's name to browse its cards, stories, and grammar.</p>
                         </InfoTip>
                     </div>
+                    {mainTopics.map(renderTopicRow)}
                 </div>
 
-                <div className="srs-pill-grid">
-                    {vocabTopics.map(renderTopic)}
-                </div>
-
-                {grammarPacks.length > 0 && (
-                    <>
+                {extensionTopics.length > 0 && (
+                    <div className="srs-extensions">
                         <button
-                            className="srs-pill-section-toggle"
-                            onClick={() => setGrammarOpen((o) => !o)}
-                            aria-expanded={grammarOpen}
+                            className="srs-topic-section-header srs-extensions-header"
+                            onClick={() => setExtensionOpen((o) => !o)}
+                            aria-expanded={extensionOpen}
                         >
-                            <span className={`srs-section-chevron${grammarOpen ? ' open' : ''}`}>›</span>
-                            Grammar
+                            <span className={`srs-section-chevron${extensionOpen ? ' open' : ''}`}>›</span>
+                            Extension Decks
                             <span className="srs-section-meta">
-                                {grammarSelected > 0
-                                    ? `${grammarSelected} of ${grammarPacks.length} selected`
-                                    : `${grammarPacks.length}`}
+                                {extensionSelected > 0
+                                    ? `${extensionSelected} of ${extensionTopics.length} selected`
+                                    : `${extensionTopics.length}`}
                             </span>
                         </button>
-                        {grammarOpen && (
-                            <div className="srs-pill-grid">
-                                {grammarTopics.map(renderTopic)}
+                        {extensionOpen && (
+                            <div className="srs-pill-cloud">
+                                {extensionTopics.map(renderExtensionPill)}
                             </div>
                         )}
-                    </>
+                    </div>
                 )}
 
-                <div className="srs-util-row">
-                    {hasStories && (
-                        <button className="srs-btn-util" onClick={() => navigate(`/${language}/stories`)} onMouseEnter={prefetchStories}>
-                            Stories
-                        </button>
-                    )}
-                    {hasGrammar && (
-                        <button className="srs-btn-util" onClick={() => navigate(`/${language}/grammar`)} onMouseEnter={prefetchGrammar}>
-                            Grammar
-                        </button>
-                    )}
-                    {hasPictures && (
-                        <button className="srs-btn-util" onClick={() => navigate(`/${language}/pictures`)} onMouseEnter={prefetchPictures}>
-                            Picture Lessons
-                        </button>
-                    )}
-                    {totalBookmarks > 0 && (
+                {totalBookmarks > 0 && (
+                    <div className="srs-util-row">
                         <button className="srs-btn-util" onClick={() => navigate(`/${language}/bookmarks`)} onMouseEnter={prefetchBookmarks}>
                             🔖 Bookmarks ({totalBookmarks})
                         </button>
-                    )}
-                    <button className="srs-btn-util" onClick={() => setShowPrint((p) => !p)}>
-                        Print Flashcards
+                    </div>
+                )}
+
+                <div className="srs-extensions srs-experimental">
+                    <button
+                        className="srs-topic-section-header srs-extensions-header"
+                        onClick={() => setExperimentalOpen((o) => !o)}
+                        aria-expanded={experimentalOpen}
+                    >
+                        <span className={`srs-section-chevron${experimentalOpen ? ' open' : ''}`}>›</span>
+                        Experimental Features
+                        <span className="srs-section-meta">
+                            {1 + (hasStories ? 1 : 0) + (hasPictures ? 1 : 0) + (hasGrammar ? 1 : 0)}
+                        </span>
                     </button>
+                    {experimentalOpen && (
+                        <div className="srs-pill-cloud">
+                            {hasStories && (
+                                <button className="srs-pill" onClick={() => navigate(`/${language}/stories`)} onMouseEnter={prefetchStories}>
+                                    Stories
+                                </button>
+                            )}
+                            {hasPictures && (
+                                <button className="srs-pill" onClick={() => navigate(`/${language}/pictures`)} onMouseEnter={prefetchPictures}>
+                                    Picture Lessons
+                                </button>
+                            )}
+                            {hasGrammar && (
+                                <button className="srs-pill" onClick={() => navigate(`/${language}/grammar`)} onMouseEnter={prefetchGrammar}>
+                                    Grammar Lessons
+                                </button>
+                            )}
+                            <button className={`srs-pill${showPrint ? ' active' : ''}`} onClick={() => setShowPrint((p) => !p)}>
+                                Print Flashcards
+                            </button>
+                        </div>
+                    )}
                 </div>
 
-                {showPrint && (
+                {experimentalOpen && showPrint && (
                     <div className="srs-print-panel">
                         <div className="srs-print-mode">
                             <button className={`srs-print-mode-btn${printMode === 'words' ? ' active' : ''}`} onClick={() => setPrintMode('words')}>Words</button>

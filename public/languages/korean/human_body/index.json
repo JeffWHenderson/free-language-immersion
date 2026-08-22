@@ -11,49 +11,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_body_apayo",
-      "grammar": true,
-      "english": "My head hurts. (… 이/가 아파요)",
-      "word": "머리가 아파요",
-      "romanized": "meoriga apayo",
-      "grammarNote": "To say a body part hurts, mark it with **이/가** + **아파요** (to hurt / be sick):\n**머리가 아파요** (headache), **배가 아파요** (stomachache), **목이 아파요** (sore throat). **아프다** conjugates like an adjective.",
-      "englishPhrase": "My tooth hurts.",
-      "phrase": "이가 아파요.",
-      "phraseRomanized": "Iga apayo.",
-      "literal": [["이", "tooth"], ["가", "(subj)"], ["아파요", "hurts"]]
-    },
-    {
-      "id": "g_possessive_body",
-      "grammar": true,
-      "english": "my hand (제 손)",
-      "word": "제 손",
-      "romanized": "je son",
-      "grammarNote": "Show possession with **제** (my, from 저의) before the body part:\n**제 손** (my hand), **제 눈** (my eyes). In everyday speech Koreans often drop it when it's obvious whose body part it is.",
-      "englishPhrase": "My hand hurts.",
-      "phrase": "제 손이 아파요.",
-      "phraseRomanized": "Je soni apayo.",
-      "literal": [["제", "my"], ["손", "hand"], ["이", "(subj)"], ["아파요", "hurts"]]
-    },
-    {
-      "id": "g_i_ga_subject",
-      "grammar": true,
-      "english": "The eyes are big. (subject 이/가)",
-      "word": "눈이 커요",
-      "romanized": "nuni keoyo",
-      "grammarNote": "**이/가** marks the subject — the thing being described (**이** after a consonant, **가** after a vowel):\n**눈이 커요** (the eyes are big), **손이 작아요** (the hands are small). Add a topic for 'I have…': **저는 눈이 커요**.",
-      "englishPhrase": "My legs are long.",
-      "phrase": "다리가 길어요.",
-      "phraseRomanized": "Dariga gireoyo.",
-      "literal": [["다리", "legs"], ["가", "(subj)"], ["길어요", "are-long"]]
-    },
     {
       "id": "head",
       "english": "head",
@@ -63,7 +27,20 @@
       "englishPhrase": "My head hurts.",
       "phrase": "머리가 아파요.",
       "phraseRomanized": "meoriga apayo",
-      "literal": [["머리", "head"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "머리",
+          "head"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "hair",
@@ -74,7 +51,28 @@
       "englishPhrase": "She has long hair.",
       "phrase": "그녀는 머리카락이 길어요.",
       "phraseRomanized": "geunyeoneun meorikaragi gireoyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["머리카락", "hair"], ["이", "[subj]"], ["길어요", "long"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "머리카락",
+          "hair"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "길어요",
+          "long"
+        ]
+      ]
     },
     {
       "id": "face",
@@ -85,7 +83,20 @@
       "englishPhrase": "Wash your face.",
       "phrase": "얼굴을 씻으세요.",
       "phraseRomanized": "eolgureul ssiseuseyo",
-      "literal": [["얼굴", "face"], ["을", "[obj]"], ["씻으세요", "please wash"]]
+      "literal": [
+        [
+          "얼굴",
+          "face"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "씻으세요",
+          "please wash"
+        ]
+      ]
     },
     {
       "id": "eye",
@@ -96,7 +107,32 @@
       "englishPhrase": "He has blue eyes.",
       "phrase": "그는 파란 눈을 가졌어요.",
       "phraseRomanized": "geuneun paran nuneul gajyeosseoyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["파란", "blue"], ["눈", "eyes"], ["을", "[obj]"], ["가졌어요", "had"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "파란",
+          "blue"
+        ],
+        [
+          "눈",
+          "eyes"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "가졌어요",
+          "had"
+        ]
+      ]
     },
     {
       "id": "ear",
@@ -107,7 +143,20 @@
       "englishPhrase": "My ear hurts.",
       "phrase": "귀가 아파요.",
       "phraseRomanized": "gwiga apayo",
-      "literal": [["귀", "ear"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "귀",
+          "ear"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "nose",
@@ -118,7 +167,20 @@
       "englishPhrase": "My nose is cold.",
       "phrase": "코가 차가워요.",
       "phraseRomanized": "koga chagawoyo",
-      "literal": [["코", "nose"], ["가", "[subj]"], ["차가워요", "cold"]]
+      "literal": [
+        [
+          "코",
+          "nose"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "차가워요",
+          "cold"
+        ]
+      ]
     },
     {
       "id": "mouth",
@@ -129,7 +191,20 @@
       "englishPhrase": "Open your mouth.",
       "phrase": "입을 벌리세요.",
       "phraseRomanized": "ibeul beolliseyo",
-      "literal": [["입", "mouth"], ["을", "[obj]"], ["벌리세요", "please open"]]
+      "literal": [
+        [
+          "입",
+          "mouth"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "벌리세요",
+          "please open"
+        ]
+      ]
     },
     {
       "id": "lip",
@@ -140,7 +215,28 @@
       "englishPhrase": "She has red lips.",
       "phrase": "그녀는 입술이 빨개요.",
       "phraseRomanized": "geunyeoneun ipsuri ppalg aeyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["입술", "lips"], ["이", "[subj]"], ["빨개요", "red"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "입술",
+          "lips"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "빨개요",
+          "red"
+        ]
+      ]
     },
     {
       "id": "tooth_teeth",
@@ -151,7 +247,20 @@
       "englishPhrase": "I have a toothache.",
       "phrase": "이가 아파요.",
       "phraseRomanized": "iga apayo",
-      "literal": [["이", "tooth"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "이",
+          "tooth"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "tongue",
@@ -162,7 +271,20 @@
       "englishPhrase": "Stick out your tongue.",
       "phrase": "혀를 내미세요.",
       "phraseRomanized": "hyeoreul naemiseyo",
-      "literal": [["혀", "tongue"], ["를", "[obj]"], ["내미세요", "please stick out"]]
+      "literal": [
+        [
+          "혀",
+          "tongue"
+        ],
+        [
+          "를",
+          "[obj]"
+        ],
+        [
+          "내미세요",
+          "please stick out"
+        ]
+      ]
     },
     {
       "id": "neck",
@@ -173,7 +295,20 @@
       "englishPhrase": "My neck is stiff.",
       "phrase": "목이 뻣뻣해요.",
       "phraseRomanized": "mogi ppyeotppyeothaeyo",
-      "literal": [["목", "neck"], ["이", "[subj]"], ["뻣뻣해요", "stiff"]]
+      "literal": [
+        [
+          "목",
+          "neck"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "뻣뻣해요",
+          "stiff"
+        ]
+      ]
     },
     {
       "id": "arm",
@@ -184,19 +319,20 @@
       "englishPhrase": "I broke my arm.",
       "phrase": "팔이 골절됐어요.",
       "phraseRomanized": "pari goljeoldwaesseoyo",
-      "literal": [["팔", "arm"], ["이", "[subj]"], ["골절됐어요", "fractured"]]
-    },
-    {
-      "id": "g_adjective_body",
-      "grammar": true,
-      "english": "My hands are cold. (손이 차가워요)",
-      "word": "손이 차가워요",
-      "romanized": "soni chagawoyo",
-      "grammarNote": "Korean adjectives end the sentence themselves — no separate 'are':\n**손이 차가워요** (hands are cold), **손이 따뜻해요** (hands are warm). Add a topic for whose: **저는 손이 차가워요** (my hands are cold).",
-      "englishPhrase": "My hands are warm.",
-      "phrase": "손이 따뜻해요.",
-      "phraseRomanized": "Soni ttatteutaeyo.",
-      "literal": [["손", "hands"], ["이", "(subj)"], ["따뜻해요", "are-warm"]]
+      "literal": [
+        [
+          "팔",
+          "arm"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "골절됐어요",
+          "fractured"
+        ]
+      ]
     },
     {
       "id": "hand",
@@ -207,7 +343,20 @@
       "englishPhrase": "Wash your hands.",
       "phrase": "손을 씻으세요.",
       "phraseRomanized": "soneul ssiseuseyo",
-      "literal": [["손", "hands"], ["을", "[obj]"], ["씻으세요", "please wash"]]
+      "literal": [
+        [
+          "손",
+          "hands"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "씻으세요",
+          "please wash"
+        ]
+      ]
     },
     {
       "id": "finger",
@@ -218,7 +367,28 @@
       "englishPhrase": "He cut his finger.",
       "phrase": "그는 손가락을 베었어요.",
       "phraseRomanized": "geuneun songarageul beeoisseoyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["손가락", "finger"], ["을", "[obj]"], ["베었어요", "cut"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "손가락",
+          "finger"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "베었어요",
+          "cut"
+        ]
+      ]
     },
     {
       "id": "chest",
@@ -229,7 +399,28 @@
       "englishPhrase": "He has chest pain.",
       "phrase": "그는 가슴이 아파요.",
       "phraseRomanized": "geuneun gaseumi apayo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["가슴", "chest"], ["이", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "가슴",
+          "chest"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "back",
@@ -240,7 +431,20 @@
       "englishPhrase": "My back hurts.",
       "phrase": "등이 아파요.",
       "phraseRomanized": "deungi apayo",
-      "literal": [["등", "back"], ["이", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "등",
+          "back"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "shoulder",
@@ -251,7 +455,20 @@
       "englishPhrase": "My shoulder hurts.",
       "phrase": "어깨가 아파요.",
       "phraseRomanized": "eokkae ga apayo",
-      "literal": [["어깨", "shoulder"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "어깨",
+          "shoulder"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "elbow",
@@ -262,7 +479,20 @@
       "englishPhrase": "My elbow is sore.",
       "phrase": "팔꿈치가 아파요.",
       "phraseRomanized": "palkkumchi ga apayo",
-      "literal": [["팔꿈치", "elbow"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "팔꿈치",
+          "elbow"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "knee",
@@ -273,7 +503,16 @@
       "englishPhrase": "I hurt my knee.",
       "phrase": "무릎을 다쳤어요.",
       "phraseRomanized": "mureupeul dachyeosseoyo",
-      "literal": [["무릎을", "knee-[obj]"], ["다쳤어요", "hurt/injured"]]
+      "literal": [
+        [
+          "무릎을",
+          "knee-[obj]"
+        ],
+        [
+          "다쳤어요",
+          "hurt/injured"
+        ]
+      ]
     },
     {
       "id": "leg",
@@ -284,7 +523,20 @@
       "englishPhrase": "My leg is tired.",
       "phrase": "다리가 피곤해요.",
       "phraseRomanized": "dariga pigonhaeyo",
-      "literal": [["다리", "leg"], ["가", "[subj]"], ["피곤해요", "tired"]]
+      "literal": [
+        [
+          "다리",
+          "leg"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "피곤해요",
+          "tired"
+        ]
+      ]
     },
     {
       "id": "foot_feet",
@@ -295,7 +547,20 @@
       "englishPhrase": "My feet hurt.",
       "phrase": "발이 아파요.",
       "phraseRomanized": "bari apayo",
-      "literal": [["발", "feet"], ["이", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "발",
+          "feet"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "toe",
@@ -306,7 +571,28 @@
       "englishPhrase": "He stubbed his toe.",
       "phrase": "그는 발가락을 부딪혔어요.",
       "phraseRomanized": "geuneun balgarageul budichyeosseoyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["발가락", "toe"], ["을", "[obj]"], ["부딪혔어요", "bumped"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "발가락",
+          "toe"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "부딪혔어요",
+          "bumped"
+        ]
+      ]
     },
     {
       "id": "stomach",
@@ -317,7 +603,20 @@
       "englishPhrase": "My stomach hurts.",
       "phrase": "배가 아파요.",
       "phraseRomanized": "baega apayo",
-      "literal": [["배", "stomach"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "배",
+          "stomach"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     },
     {
       "id": "body",
@@ -328,7 +627,20 @@
       "englishPhrase": "The human body is amazing.",
       "phrase": "인체는 놀라워요.",
       "phraseRomanized": "incheneun nollawayo",
-      "literal": [["인체", "human-body"], ["는", "[topic]"], ["놀라워요", "amazing"]]
+      "literal": [
+        [
+          "인체",
+          "human-body"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "놀라워요",
+          "amazing"
+        ]
+      ]
     },
     {
       "id": "heart",
@@ -339,7 +651,24 @@
       "englishPhrase": "My heart is beating fast.",
       "phrase": "심장이 빨리 뛰어요.",
       "phraseRomanized": "simjangi ppalli ttwieoyo",
-      "literal": [["심장", "heart"], ["이", "[subj]"], ["빨리", "fast"], ["뛰어요", "beating"]]
+      "literal": [
+        [
+          "심장",
+          "heart"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "빨리",
+          "fast"
+        ],
+        [
+          "뛰어요",
+          "beating"
+        ]
+      ]
     },
     {
       "id": "muscle",
@@ -350,7 +679,20 @@
       "englishPhrase": "I pulled a muscle.",
       "phrase": "근육을 다쳤어요.",
       "phraseRomanized": "geunyugeul dachyeosseoyo",
-      "literal": [["근육", "muscle"], ["을", "[obj]"], ["다쳤어요", "injured"]]
+      "literal": [
+        [
+          "근육",
+          "muscle"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "다쳤어요",
+          "injured"
+        ]
+      ]
     },
     {
       "id": "skin",
@@ -361,7 +703,28 @@
       "englishPhrase": "Her skin is soft.",
       "phrase": "그녀의 피부가 부드러워요.",
       "phraseRomanized": "geunyeoui pibuga budeureowoyo",
-      "literal": [["그녀", "her"], ["의", "[of/poss]"], ["피부", "skin"], ["가", "[subj]"], ["부드러워요", "soft"]]
+      "literal": [
+        [
+          "그녀",
+          "her"
+        ],
+        [
+          "의",
+          "[of/poss]"
+        ],
+        [
+          "피부",
+          "skin"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "부드러워요",
+          "soft"
+        ]
+      ]
     },
     {
       "id": "blood",
@@ -372,7 +735,20 @@
       "englishPhrase": "He donated blood.",
       "phrase": "그는 헌혈했어요.",
       "phraseRomanized": "geuneun heonhyeolhaesseoyo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["헌혈했어요", "blood-donated"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "헌혈했어요",
+          "blood-donated"
+        ]
+      ]
     },
     {
       "id": "brain",
@@ -383,7 +759,20 @@
       "englishPhrase": "The brain is complex.",
       "phrase": "뇌는 복잡해요.",
       "phraseRomanized": "noeneun bokjaphaeyo",
-      "literal": [["뇌", "brain"], ["는", "[topic]"], ["복잡해요", "complex"]]
+      "literal": [
+        [
+          "뇌",
+          "brain"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "복잡해요",
+          "complex"
+        ]
+      ]
     },
     {
       "id": "breast",
@@ -394,7 +783,36 @@
       "englishPhrase": "She felt pain in her chest.",
       "phrase": "그녀는 가슴에 통증을 느꼈어요.",
       "phraseRomanized": "geunyeoneun gaseume tongjeungeul neukkkyeosseoyo",
-      "literal": [["그녀", "she"], ["는", "[topic]"], ["가슴", "chest"], ["에", "[at/to]"], ["통증", "pain"], ["을", "[obj]"], ["느꼈어요", "felt"]]
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "가슴",
+          "chest"
+        ],
+        [
+          "에",
+          "[at/to]"
+        ],
+        [
+          "통증",
+          "pain"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "느꼈어요",
+          "felt"
+        ]
+      ]
     },
     {
       "id": "see",
@@ -405,7 +823,16 @@
       "englishPhrase": "I can see clearly.",
       "phrase": "선명하게 보여요.",
       "phraseRomanized": "seonmyeonghage boyeoyo",
-      "literal": [["선명하게", "clearly"], ["보여요", "visible"]]
+      "literal": [
+        [
+          "선명하게",
+          "clearly"
+        ],
+        [
+          "보여요",
+          "visible"
+        ]
+      ]
     },
     {
       "id": "hear",
@@ -416,7 +843,12 @@
       "englishPhrase": "I can't hear you.",
       "phrase": "들리지 않아요.",
       "phraseRomanized": "deulliji anayo",
-      "literal": [["들리지 않아요", "heard-not"]]
+      "literal": [
+        [
+          "들리지 않아요",
+          "heard-not"
+        ]
+      ]
     },
     {
       "id": "smell",
@@ -427,7 +859,24 @@
       "englishPhrase": "I can smell the flowers.",
       "phrase": "꽃 냄새가 나요.",
       "phraseRomanized": "kkot naemssaega nayo",
-      "literal": [["꽃", "flower"], ["냄새", "smell"], ["가", "[subj]"], ["나요", "comes-out"]]
+      "literal": [
+        [
+          "꽃",
+          "flower"
+        ],
+        [
+          "냄새",
+          "smell"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "나요",
+          "comes-out"
+        ]
+      ]
     },
     {
       "id": "taste",
@@ -438,7 +887,24 @@
       "englishPhrase": "Taste this soup.",
       "phrase": "이 국을 맛보세요.",
       "phraseRomanized": "i gugeul matboseyo",
-      "literal": [["이", "this"], ["국", "soup"], ["을", "[obj]"], ["맛보세요", "please taste"]]
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "국",
+          "soup"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "맛보세요",
+          "please taste"
+        ]
+      ]
     },
     {
       "id": "touch",
@@ -449,7 +915,24 @@
       "englishPhrase": "Don't touch that!",
       "phrase": "그것을 만지지 마세요!",
       "phraseRomanized": "geugeoseul manjiji maseyo",
-      "literal": [["그것", "that"], ["을", "[obj]"], ["만지지", "touch[not]"], ["마세요", "please don't"]]
+      "literal": [
+        [
+          "그것",
+          "that"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "만지지",
+          "touch[not]"
+        ],
+        [
+          "마세요",
+          "please don't"
+        ]
+      ]
     },
     {
       "id": "breathe",
@@ -460,7 +943,24 @@
       "englishPhrase": "Breathe slowly.",
       "phrase": "천천히 숨을 쉬세요.",
       "phraseRomanized": "cheoncheonhi sumeul swiseyo",
-      "literal": [["천천히", "slowly"], ["숨", "breath"], ["을", "[obj]"], ["쉬세요", "please breathe"]]
+      "literal": [
+        [
+          "천천히",
+          "slowly"
+        ],
+        [
+          "숨",
+          "breath"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "쉬세요",
+          "please breathe"
+        ]
+      ]
     },
     {
       "id": "bend",
@@ -471,7 +971,20 @@
       "englishPhrase": "Bend your knees.",
       "phrase": "무릎을 구부리세요.",
       "phraseRomanized": "mureuppeul gubeuriseyo",
-      "literal": [["무릎", "knees"], ["을", "[obj]"], ["구부리세요", "please bend"]]
+      "literal": [
+        [
+          "무릎",
+          "knees"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "구부리세요",
+          "please bend"
+        ]
+      ]
     },
     {
       "id": "stretch",
@@ -482,7 +995,24 @@
       "englishPhrase": "Stretch your arms.",
       "phrase": "팔을 쭉 뻗으세요.",
       "phraseRomanized": "pareul jjuk ppeodseuseyo",
-      "literal": [["팔", "arms"], ["을", "[obj]"], ["쭉", "straight"], ["뻗으세요", "please stretch"]]
+      "literal": [
+        [
+          "팔",
+          "arms"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "쭉",
+          "straight"
+        ],
+        [
+          "뻗으세요",
+          "please stretch"
+        ]
+      ]
     },
     {
       "id": "sweat",
@@ -493,7 +1023,24 @@
       "englishPhrase": "I sweat when I run.",
       "phrase": "달릴 때 땀을 흘려요.",
       "phraseRomanized": "dallil ttae ttameul heullyeoyo",
-      "literal": [["달릴 때", "when running"], ["땀", "sweat"], ["을", "[obj]"], ["흘려요", "shed"]]
+      "literal": [
+        [
+          "달릴 때",
+          "when running"
+        ],
+        [
+          "땀",
+          "sweat"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "흘려요",
+          "shed"
+        ]
+      ]
     },
     {
       "id": "feel",
@@ -504,7 +1051,20 @@
       "englishPhrase": "How do you feel?",
       "phrase": "기분이 어때요?",
       "phraseRomanized": "gibuni eottaeyo",
-      "literal": [["기분", "feeling"], ["이", "[subj]"], ["어때요", "how is"]]
+      "literal": [
+        [
+          "기분",
+          "feeling"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "어때요",
+          "how is"
+        ]
+      ]
     },
     {
       "id": "think",
@@ -515,7 +1075,20 @@
       "englishPhrase": "What are you thinking about?",
       "phrase": "무슨 생각 하고 있어요?",
       "phraseRomanized": "museun saenggak hago isseoyo",
-      "literal": [["무슨", "what"], ["생각", "thought"], ["하고 있어요", "doing"]]
+      "literal": [
+        [
+          "무슨",
+          "what"
+        ],
+        [
+          "생각",
+          "thought"
+        ],
+        [
+          "하고 있어요",
+          "doing"
+        ]
+      ]
     },
     {
       "id": "move",
@@ -526,7 +1099,20 @@
       "englishPhrase": "I can't move my arm.",
       "phrase": "팔을 움직일 수 없어요.",
       "phraseRomanized": "pareul umjigil su eopseoyo",
-      "literal": [["팔", "arm"], ["을", "[obj]"], ["움직일 수 없어요", "move cannot"]]
+      "literal": [
+        [
+          "팔",
+          "arm"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "움직일 수 없어요",
+          "move cannot"
+        ]
+      ]
     },
     {
       "id": "soft",
@@ -537,7 +1123,20 @@
       "englishPhrase": "The tissue is soft.",
       "phrase": "티슈가 부드러워요.",
       "phraseRomanized": "tisyuga budeureowoyo",
-      "literal": [["티슈", "tissue"], ["가", "[subj]"], ["부드러워요", "soft"]]
+      "literal": [
+        [
+          "티슈",
+          "tissue"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "부드러워요",
+          "soft"
+        ]
+      ]
     },
     {
       "id": "sore",
@@ -548,7 +1147,20 @@
       "englishPhrase": "My muscles are sore.",
       "phrase": "근육이 쑤셔요.",
       "phraseRomanized": "geunyugi ssusyeoyo",
-      "literal": [["근육", "muscles"], ["이", "[subj]"], ["쑤셔요", "aching"]]
+      "literal": [
+        [
+          "근육",
+          "muscles"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "쑤셔요",
+          "aching"
+        ]
+      ]
     },
     {
       "id": "left",
@@ -559,7 +1171,24 @@
       "englishPhrase": "I hurt my left knee.",
       "phrase": "왼쪽 무릎을 다쳤어요.",
       "phraseRomanized": "oenjjok mureuppeul dachyeosseoyo",
-      "literal": [["왼쪽", "left"], ["무릎", "knee"], ["을", "[obj]"], ["다쳤어요", "injured"]]
+      "literal": [
+        [
+          "왼쪽",
+          "left"
+        ],
+        [
+          "무릎",
+          "knee"
+        ],
+        [
+          "을",
+          "[obj]"
+        ],
+        [
+          "다쳤어요",
+          "injured"
+        ]
+      ]
     },
     {
       "id": "right",
@@ -570,7 +1199,20 @@
       "englishPhrase": "I broke my right arm.",
       "phrase": "오른팔이 골절됐어요.",
       "phraseRomanized": "oreunpari goljeoldwaesseoyo",
-      "literal": [["오른팔", "right-arm"], ["이", "[subj]"], ["골절됐어요", "fractured"]]
+      "literal": [
+        [
+          "오른팔",
+          "right-arm"
+        ],
+        [
+          "이",
+          "[subj]"
+        ],
+        [
+          "골절됐어요",
+          "fractured"
+        ]
+      ]
     },
     {
       "id": "upper",
@@ -581,7 +1223,20 @@
       "englishPhrase": "The upper body is strong.",
       "phrase": "상체가 강해요.",
       "phraseRomanized": "sangchega ganghaeyo",
-      "literal": [["상체", "upper-body"], ["가", "[subj]"], ["강해요", "strong"]]
+      "literal": [
+        [
+          "상체",
+          "upper-body"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "강해요",
+          "strong"
+        ]
+      ]
     },
     {
       "id": "lower",
@@ -592,7 +1247,28 @@
       "englishPhrase": "He has lower back pain.",
       "phrase": "그는 허리가 아파요.",
       "phraseRomanized": "geuneun heoriga apayo",
-      "literal": [["그", "he"], ["는", "[topic]"], ["허리", "lower-back"], ["가", "[subj]"], ["아파요", "hurts"]]
+      "literal": [
+        [
+          "그",
+          "he"
+        ],
+        [
+          "는",
+          "[topic]"
+        ],
+        [
+          "허리",
+          "lower-back"
+        ],
+        [
+          "가",
+          "[subj]"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ]
     }
   ]
 }

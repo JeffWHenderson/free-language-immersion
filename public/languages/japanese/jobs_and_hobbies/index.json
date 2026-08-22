@@ -16,41 +16,17 @@
   "parts": [
     {
       "n": 1,
-      "count": 25
+      "count": 23
     },
     {
       "n": 2,
-      "count": 23
+      "count": 21
     },
     {
       "n": 3
     }
   ],
   "cards": [
-    {
-      "id": "g_job_desu",
-      "grammar": true,
-      "english": "I am a doctor. (私は医者です)",
-      "word": "私は医者です",
-      "romanized": "watashi wa isha desu",
-      "grammarNote": "State a job with **は … です**:\n**私は医者です** (I'm a doctor), **彼は先生です** (he's a teacher). To ask someone's job: **お仕事は何ですか** (what's your job?).",
-      "englishPhrase": "She is an engineer.",
-      "phrase": "彼女はエンジニアです。",
-      "phraseRomanized": "Kanojo wa enjinia desu.",
-      "literal": [["彼女", "she"], ["は", "(topic)"], ["エンジニア", "engineer"], ["です", "is"]]
-    },
-    {
-      "id": "g_o_shimasu",
-      "grammar": true,
-      "english": "I do sports / study. (… をします)",
-      "word": "スポーツをします",
-      "romanized": "supōtsu o shimasu",
-      "grammarNote": "**します** (shimasu, to do) turns many nouns into activities with **を**:\n**スポーツをします** (do sports), **勉強をします** (study), **料理をします** (cook). **します** is the polite form of **する**.",
-      "englishPhrase": "I study every day.",
-      "phrase": "毎日、勉強をします。",
-      "phraseRomanized": "Mainichi, benkyō o shimasu.",
-      "literal": [["毎日", "every-day"], ["勉強", "study"], ["を", "(obj)"], ["します", "do"]]
-    },
     {
       "id": "doctor",
       "english": "Doctor",
@@ -60,7 +36,24 @@
       "englishPhrase": "He is a doctor.",
       "phrase": "彼は医者です。",
       "phraseRomanized": "kare wa isha desu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["医者", "doctor"], ["です", "is"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "医者",
+          "doctor"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "nurse",
@@ -71,7 +64,24 @@
       "englishPhrase": "She is a nurse.",
       "phrase": "彼女は看護師です。",
       "phraseRomanized": "kanojo wa kangoshi desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["看護師", "nurse"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "看護師",
+          "nurse"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "engineer",
@@ -82,7 +92,24 @@
       "englishPhrase": "My brother is an engineer.",
       "phrase": "兄はエンジニアです。",
       "phraseRomanized": "ani wa enjinia desu",
-      "literal": [["兄", "older brother"], ["は", "[topic]"], ["エンジニア", "engineer"], ["です", "is"]]
+      "literal": [
+        [
+          "兄",
+          "older brother"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "エンジニア",
+          "engineer"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "programmer",
@@ -93,7 +120,32 @@
       "englishPhrase": "I work as a programmer.",
       "phrase": "私はプログラマーとして働いています。",
       "phraseRomanized": "watashi wa puroguramā to shite hataraite imasu",
-      "literal": [["私", "I"], ["は", "[topic]"], ["プログラマー", "programmer"], ["として", "as"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "プログラマー",
+          "programmer"
+        ],
+        [
+          "として",
+          "as"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "cook",
@@ -104,7 +156,32 @@
       "englishPhrase": "The cook works in the kitchen.",
       "phrase": "料理人はキッチンで働いています。",
       "phraseRomanized": "ryōrinin wa kicchin de hataraite imasu",
-      "literal": [["料理人", "cook"], ["は", "[topic]"], ["キッチン", "kitchen"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "料理人",
+          "cook"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "キッチン",
+          "kitchen"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "waiter_waitress",
@@ -115,7 +192,32 @@
       "englishPhrase": "The waiter brought the menu.",
       "phrase": "ウェイターがメニューを持ってきました。",
       "phraseRomanized": "weitā ga menyū wo motte kimashita",
-      "literal": [["ウェイター", "waiter"], ["が", "[subj]"], ["メニュー", "menu"], ["を", "[obj]"], ["持って", "holding"], ["きました", "came"]]
+      "literal": [
+        [
+          "ウェイター",
+          "waiter"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "持って",
+          "holding"
+        ],
+        [
+          "きました",
+          "came"
+        ]
+      ]
     },
     {
       "id": "manager",
@@ -126,7 +228,24 @@
       "englishPhrase": "She is a manager.",
       "phrase": "彼女はマネージャーです。",
       "phraseRomanized": "kanojo wa manēja desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["マネージャー", "manager"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "マネージャー",
+          "manager"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "student",
@@ -137,7 +256,24 @@
       "englishPhrase": "I am a student.",
       "phrase": "私は学生です。",
       "phraseRomanized": "watashi wa gakusei desu",
-      "literal": [["私", "I"], ["は", "[topic]"], ["学生", "student"], ["です", "is"]]
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学生",
+          "student"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "architect",
@@ -148,7 +284,24 @@
       "englishPhrase": "He is an architect.",
       "phrase": "彼は建築家です。",
       "phraseRomanized": "kare wa kenchikuka desu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["建築家", "architect"], ["です", "is"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "建築家",
+          "architect"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "lawyer",
@@ -159,7 +312,24 @@
       "englishPhrase": "My sister is a lawyer.",
       "phrase": "姉は弁護士です。",
       "phraseRomanized": "ane wa bengoshi desu",
-      "literal": [["姉", "older sister"], ["は", "[topic]"], ["弁護士", "lawyer"], ["です", "is"]]
+      "literal": [
+        [
+          "姉",
+          "older sister"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "弁護士",
+          "lawyer"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "salary",
@@ -170,7 +340,28 @@
       "englishPhrase": "What is the salary?",
       "phrase": "給料はいくらですか？",
       "phraseRomanized": "kyūryō wa ikura desu ka",
-      "literal": [["給料", "salary"], ["は", "[topic]"], ["いくら", "how much"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "給料",
+          "salary"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いくら",
+          "how much"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "schedule",
@@ -181,7 +372,28 @@
       "englishPhrase": "My schedule is flexible.",
       "phrase": "私のスケジュールは柔軟です。",
       "phraseRomanized": "watashi no sukejūru wa jūnan desu",
-      "literal": [["私の", "my"], ["スケジュール", "schedule"], ["は", "[topic]"], ["柔軟", "flexible"], ["です", "is"]]
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "スケジュール",
+          "schedule"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "柔軟",
+          "flexible"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "vacation",
@@ -192,7 +404,24 @@
       "englishPhrase": "I'm going on vacation next week.",
       "phrase": "来週休暇を取ります。",
       "phraseRomanized": "raishū kyūka wo torimasu",
-      "literal": [["来週", "next week"], ["休暇", "vacation"], ["を", "[obj]"], ["取ります", "take"]]
+      "literal": [
+        [
+          "来週",
+          "next week"
+        ],
+        [
+          "休暇",
+          "vacation"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "取ります",
+          "take"
+        ]
+      ]
     },
     {
       "id": "break",
@@ -203,7 +432,16 @@
       "englishPhrase": "Let's take a break.",
       "phrase": "休憩しましょう。",
       "phraseRomanized": "kyūkei shimashō",
-      "literal": [["休憩", "break"], ["しましょう", "shall do"]],
+      "literal": [
+        [
+          "休憩",
+          "break"
+        ],
+        [
+          "しましょう",
+          "shall do"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -215,7 +453,24 @@
       "englishPhrase": "I work in an office.",
       "phrase": "オフィスで働いています。",
       "phraseRomanized": "ofisu de hataraite imasu",
-      "literal": [["オフィス", "office"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "オフィス",
+          "office"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "colleague",
@@ -226,7 +481,24 @@
       "englishPhrase": "My coworkers are friendly.",
       "phrase": "同僚たちは親切です。",
       "phraseRomanized": "dōryōtachi wa shinsetsu desu",
-      "literal": [["同僚たち", "colleagues"], ["は", "[topic]"], ["親切", "friendly"], ["です", "is"]]
+      "literal": [
+        [
+          "同僚たち",
+          "colleagues"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "親切",
+          "friendly"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "customer",
@@ -237,7 +509,24 @@
       "englishPhrase": "The client is happy.",
       "phrase": "お客様は満足しています。",
       "phraseRomanized": "okyakusama wa manzoku shite imasu",
-      "literal": [["お客様", "customer"], ["は", "[topic]"], ["満足して", "satisfied"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "お客様",
+          "customer"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "満足して",
+          "satisfied"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "team",
@@ -248,7 +537,28 @@
       "englishPhrase": "I work in a great team.",
       "phrase": "素晴らしいチームで働いています。",
       "phraseRomanized": "subarashii chīmu de hataraite imasu",
-      "literal": [["素晴らしい", "wonderful"], ["チーム", "team"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "素晴らしい",
+          "wonderful"
+        ],
+        [
+          "チーム",
+          "team"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "project",
@@ -259,7 +569,24 @@
       "englishPhrase": "The project is almost finished.",
       "phrase": "プロジェクトはもうすぐ終わります。",
       "phraseRomanized": "purojekuto wa mōsugu owarimasu",
-      "literal": [["プロジェクト", "project"], ["は", "[topic]"], ["もうすぐ", "soon"], ["終わります", "finishes"]],
+      "literal": [
+        [
+          "プロジェクト",
+          "project"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "もうすぐ",
+          "soon"
+        ],
+        [
+          "終わります",
+          "finishes"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -271,7 +598,28 @@
       "englishPhrase": "We have a meeting at ten.",
       "phrase": "10時に会議があります。",
       "phraseRomanized": "jūji ni kaigi ga arimasu",
-      "literal": [["10時", "10 o'clock"], ["に", "[to/at]"], ["会議", "meeting"], ["が", "[subj]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "10時",
+          "10 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "会議",
+          "meeting"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "free_time",
@@ -282,19 +630,36 @@
       "englishPhrase": "What do you do in your free time?",
       "phrase": "自由な時間に何をしますか？",
       "phraseRomanized": "jiyū na jikan ni nani wo shimasu ka",
-      "literal": [["自由な", "free"], ["時間", "time"], ["に", "[to/at]"], ["何", "what"], ["を", "[obj]"], ["します", "do"], ["か", "[?]"]]
-    },
-    {
-      "id": "g_de_hataraku",
-      "grammar": true,
-      "english": "I work at a company. (… で働きます)",
-      "word": "会社で働きます",
-      "romanized": "kaisha de hatarakimasu",
-      "grammarNote": "Use **で** for the workplace + **働きます** (work):\n**会社で働きます** (work at a company), **病院で働きます** (at a hospital). For 'work as', name the job with **です** or **として**.",
-      "englishPhrase": "I work at a school.",
-      "phrase": "学校で働きます。",
-      "phraseRomanized": "Gakkō de hatarakimasu.",
-      "literal": [["学校", "school"], ["で", "at"], ["働きます", "work"]]
+      "literal": [
+        [
+          "自由な",
+          "free"
+        ],
+        [
+          "時間",
+          "time"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "do"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_work_in_for_as",
@@ -305,7 +670,24 @@
       "englishPhrase": "I work in a hospital.",
       "phrase": "病院で働いています。",
       "phraseRomanized": "byōin de hataraite imasu",
-      "literal": [["病院", "hospital"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "病院",
+          "hospital"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "reading",
@@ -316,7 +698,24 @@
       "englishPhrase": "I like reading.",
       "phrase": "読書が好きです。",
       "phraseRomanized": "dokusho ga suki desu",
-      "literal": [["読書", "reading"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "読書",
+          "reading"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "writing",
@@ -327,7 +726,44 @@
       "englishPhrase": "She likes writing stories.",
       "phrase": "彼女は物語を書くのが好きです。",
       "phraseRomanized": "kanojo wa monogatari wo kaku no ga suki desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["物語", "stories"], ["を", "[obj]"], ["書く", "writing"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "物語",
+          "stories"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "書く",
+          "writing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "painting",
@@ -338,7 +774,44 @@
       "englishPhrase": "He loves painting.",
       "phrase": "彼は絵を描くのが大好きです。",
       "phraseRomanized": "kare wa e wo kaku no ga daisuki desu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["絵", "pictures"], ["を", "[obj]"], ["描く", "drawing"], ["の", "[of/poss]"], ["が", "[subj]"], ["大好き", "greatly liked"], ["です", "is"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "絵",
+          "pictures"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "描く",
+          "drawing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "drawing",
@@ -349,7 +822,24 @@
       "englishPhrase": "I like drawing.",
       "phrase": "お絵描きが好きです。",
       "phraseRomanized": "oekaki ga suki desu",
-      "literal": [["お絵描き", "drawing"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]],
+      "literal": [
+        [
+          "お絵描き",
+          "drawing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -361,7 +851,24 @@
       "englishPhrase": "I listen to music every day.",
       "phrase": "毎日音楽を聴きます。",
       "phraseRomanized": "mainichi ongaku wo kikimasu",
-      "literal": [["毎日", "every day"], ["音楽", "music"], ["を", "[obj]"], ["聴きます", "listen"]]
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "聴きます",
+          "listen"
+        ]
+      ]
     },
     {
       "id": "singing",
@@ -372,7 +879,36 @@
       "englishPhrase": "She loves singing.",
       "phrase": "彼女は歌うのが大好きです。",
       "phraseRomanized": "kanojo wa utau no ga daisuki desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["歌う", "singing"], ["の", "[of/poss]"], ["が", "[subj]"], ["大好き", "greatly liked"], ["です", "is"]],
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "歌う",
+          "singing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -384,7 +920,20 @@
       "englishPhrase": "I play the guitar.",
       "phrase": "ギターを弾きます。",
       "phraseRomanized": "gitā wo hikimasu",
-      "literal": [["ギター", "guitar"], ["を", "[obj]"], ["弾きます", "play"]],
+      "literal": [
+        [
+          "ギター",
+          "guitar"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "弾きます",
+          "play"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -396,7 +945,32 @@
       "englishPhrase": "We love dancing.",
       "phrase": "私たちはダンスが大好きです。",
       "phraseRomanized": "watashitachi wa dansu ga daisuki desu",
-      "literal": [["私たち", "we"], ["は", "[topic]"], ["ダンス", "dancing"], ["が", "[subj]"], ["大好き", "greatly liked"], ["です", "is"]]
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ダンス",
+          "dancing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "cooking",
@@ -407,7 +981,28 @@
       "englishPhrase": "I enjoy cooking.",
       "phrase": "料理するのが好きです。",
       "phraseRomanized": "ryōri suru no ga suki desu",
-      "literal": [["料理する", "cooking"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "料理する",
+          "cooking"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "hiking",
@@ -418,7 +1013,36 @@
       "englishPhrase": "I like hiking in the mountains.",
       "phrase": "山でハイキングするのが好きです。",
       "phraseRomanized": "yama de haikingu suru no ga suki desu",
-      "literal": [["山", "mountains"], ["で", "[at/by]"], ["ハイキングする", "hiking"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "山",
+          "mountains"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "ハイキングする",
+          "hiking"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "running",
@@ -429,20 +1053,21 @@
       "englishPhrase": "I run every morning.",
       "phrase": "毎朝ランニングします。",
       "phraseRomanized": "maiasa ran'ningu shimasu",
-      "literal": [["毎朝", "every morning"], ["ランニング", "running"], ["します", "do"]],
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "ランニング",
+          "running"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ],
       "hidden": true
-    },
-    {
-      "id": "g_no_ga_suki",
-      "grammar": true,
-      "english": "I like swimming. (verb + のが好きです)",
-      "word": "泳ぐのが好きです",
-      "romanized": "oyogu no ga suki desu",
-      "grammarNote": "To say you like *doing* something, take the plain (dictionary) verb + **のが好きです**:\n**泳ぐのが好きです** (I like swimming), **本を読むのが好きです** (I like reading books). **の** turns the verb into a noun.",
-      "englishPhrase": "I like running.",
-      "phrase": "走るのが好きです。",
-      "phraseRomanized": "Hashiru no ga suki desu.",
-      "literal": [["走る", "to-run"], ["の", "(nominalizer)"], ["が", "(subj)"], ["好き", "like"], ["です", "is"]]
     },
     {
       "id": "swimming",
@@ -453,7 +1078,24 @@
       "englishPhrase": "I like swimming.",
       "phrase": "水泳が好きです。",
       "phraseRomanized": "suiei ga suki desu",
-      "literal": [["水泳", "swimming"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "水泳",
+          "swimming"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "biking",
@@ -464,7 +1106,24 @@
       "englishPhrase": "I go biking on weekends.",
       "phrase": "週末にサイクリングします。",
       "phraseRomanized": "shūmatsu ni saikuringu shimasu",
-      "literal": [["週末", "weekends"], ["に", "[to/at]"], ["サイクリング", "cycling"], ["します", "do"]],
+      "literal": [
+        [
+          "週末",
+          "weekends"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "サイクリング",
+          "cycling"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -476,7 +1135,24 @@
       "englishPhrase": "I love traveling.",
       "phrase": "旅行が大好きです。",
       "phraseRomanized": "ryokō ga daisuki desu",
-      "literal": [["旅行", "traveling"], ["が", "[subj]"], ["大好き", "greatly liked"], ["です", "is"]]
+      "literal": [
+        [
+          "旅行",
+          "traveling"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "greatly liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "gaming_video_games",
@@ -487,7 +1163,36 @@
       "englishPhrase": "He plays video games at night.",
       "phrase": "彼は夜にテレビゲームをします。",
       "phraseRomanized": "kare wa yoru ni terebi gēmu wo shimasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["夜", "night"], ["に", "[to/at]"], ["テレビゲーム", "video games"], ["を", "[obj]"], ["します", "does"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "夜",
+          "night"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "テレビゲーム",
+          "video games"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "します",
+          "does"
+        ]
+      ]
     },
     {
       "id": "watching_tv",
@@ -498,7 +1203,36 @@
       "englishPhrase": "I like watching movies.",
       "phrase": "映画を見るのが好きです。",
       "phraseRomanized": "eiga wo miru no ga suki desu",
-      "literal": [["映画", "movies"], ["を", "[obj]"], ["見る", "watching"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]],
+      "literal": [
+        [
+          "映画",
+          "movies"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "見る",
+          "watching"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -510,7 +1244,44 @@
       "englishPhrase": "She likes listening to music.",
       "phrase": "彼女は音楽を聴くのが好きです。",
       "phraseRomanized": "kanojo wa ongaku wo kiku no ga suki desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["音楽", "music"], ["を", "[obj]"], ["聴く", "listening"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]],
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "聴く",
+          "listening"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -522,7 +1293,32 @@
       "englishPhrase": "I go to the gym for exercise.",
       "phrase": "運動のためにジムに行きます。",
       "phraseRomanized": "undō no tame ni jimu ni ikimasu",
-      "literal": [["運動", "exercise"], ["の", "[of/poss]"], ["ために", "for sake of"], ["ジム", "gym"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "運動",
+          "exercise"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "ために",
+          "for sake of"
+        ],
+        [
+          "ジム",
+          "gym"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "outdoors",
@@ -533,7 +1329,32 @@
       "englishPhrase": "She works outdoors.",
       "phrase": "彼女は屋外で働いています。",
       "phraseRomanized": "kanojo wa okugai de hataraite imasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["屋外", "outdoors"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "屋外",
+          "outdoors"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "creative",
@@ -544,7 +1365,28 @@
       "englishPhrase": "She is very creative.",
       "phrase": "彼女はとてもクリエイティブです。",
       "phraseRomanized": "kanojo wa totemo kurietibu desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["とても", "very"], ["クリエイティブ", "creative"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "クリエイティブ",
+          "creative"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "interesting",
@@ -555,7 +1397,28 @@
       "englishPhrase": "My job is interesting.",
       "phrase": "私の仕事は面白いです。",
       "phraseRomanized": "watashi no shigoto wa omoshiroi desu",
-      "literal": [["私の", "my"], ["仕事", "job"], ["は", "[topic]"], ["面白い", "interesting"], ["です", "is"]]
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "面白い",
+          "interesting"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "boring",
@@ -566,7 +1429,24 @@
       "englishPhrase": "The meeting was boring.",
       "phrase": "会議は退屈でした。",
       "phraseRomanized": "kaigi wa taikutsu deshita",
-      "literal": [["会議", "meeting"], ["は", "[topic]"], ["退屈", "boring"], ["でした", "was"]]
+      "literal": [
+        [
+          "会議",
+          "meeting"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "退屈",
+          "boring"
+        ],
+        [
+          "でした",
+          "was"
+        ]
+      ]
     },
     {
       "id": "to_earn_a_salary",
@@ -577,7 +1457,36 @@
       "englishPhrase": "He earns a good salary.",
       "phrase": "彼はいい給料をもらっています。",
       "phraseRomanized": "kare wa ii kyūryō wo moratte imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["いい", "good"], ["給料", "salary"], ["を", "[obj]"], ["もらって", "receiving"], ["います", "[doing]"]],
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "給料",
+          "salary"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "もらって",
+          "receiving"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -589,7 +1498,24 @@
       "englishPhrase": "She retired last year.",
       "phrase": "彼女は去年退職しました。",
       "phraseRomanized": "kanojo wa kyonen taishoku shimashita",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["去年", "last year"], ["退職しました", "retired"]],
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "去年",
+          "last year"
+        ],
+        [
+          "退職しました",
+          "retired"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -601,7 +1527,24 @@
       "englishPhrase": "I have a good job.",
       "phrase": "いい仕事があります。",
       "phraseRomanized": "ii shigoto ga arimasu",
-      "literal": [["いい", "good"], ["仕事", "job"], ["が", "[subj]"], ["あります", "is/exists"]],
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -613,7 +1556,28 @@
       "englishPhrase": "He is currently unemployed.",
       "phrase": "彼は現在失業しています。",
       "phraseRomanized": "kare wa genzai shitsugyō shite imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["現在", "currently"], ["失業して", "unemployed"], ["います", "[doing]"]],
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "現在",
+          "currently"
+        ],
+        [
+          "失業して",
+          "unemployed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -625,7 +1589,20 @@
       "englishPhrase": "I study every day.",
       "phrase": "毎日勉強します。",
       "phraseRomanized": "mainichi benkyō shimasu",
-      "literal": [["毎日", "every day"], ["勉強", "study"], ["します", "do"]]
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "勉強",
+          "study"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
     },
     {
       "id": "to_learn",
@@ -636,7 +1613,24 @@
       "englishPhrase": "I'm learning Japanese.",
       "phrase": "日本語を勉強しています。",
       "phraseRomanized": "nihongo wo benkyō shite imasu",
-      "literal": [["日本語", "Japanese"], ["を", "[obj]"], ["勉強して", "studying"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "勉強して",
+          "studying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_practice",
@@ -647,7 +1641,20 @@
       "englishPhrase": "I practice every day.",
       "phrase": "毎日練習します。",
       "phraseRomanized": "mainichi renshū shimasu",
-      "literal": [["毎日", "every day"], ["練習", "practice"], ["します", "do"]]
+      "literal": [
+        [
+          "毎日",
+          "every day"
+        ],
+        [
+          "練習",
+          "practice"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
     },
     {
       "id": "to_teach",
@@ -658,7 +1665,32 @@
       "englishPhrase": "She teaches Japanese.",
       "phrase": "彼女は日本語を教えています。",
       "phraseRomanized": "kanojo wa nihongo wo oshiete imasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["日本語", "Japanese"], ["を", "[obj]"], ["教えて", "teaching"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "教えて",
+          "teaching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_build",
@@ -669,7 +1701,28 @@
       "englishPhrase": "They are building a new school.",
       "phrase": "新しい学校を建てています。",
       "phraseRomanized": "atarashii gakkō wo tatete imasu",
-      "literal": [["新しい", "new"], ["学校", "school"], ["を", "[obj]"], ["建てて", "building"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "新しい",
+          "new"
+        ],
+        [
+          "学校",
+          "school"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "建てて",
+          "building"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_fix",
@@ -680,7 +1733,24 @@
       "englishPhrase": "Can you fix this?",
       "phrase": "これを直せますか？",
       "phraseRomanized": "kore wo naosemasu ka",
-      "literal": [["これ", "this"], ["を", "[obj]"], ["直せます", "can fix"], ["か", "[?]"]],
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "直せます",
+          "can fix"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -692,7 +1762,24 @@
       "englishPhrase": "I make coffee every morning.",
       "phrase": "毎朝コーヒーを作ります。",
       "phraseRomanized": "maiasa kōhī wo tsukurimasu",
-      "literal": [["毎朝", "every morning"], ["コーヒー", "coffee"], ["を", "[obj]"], ["作ります", "make"]]
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "作ります",
+          "make"
+        ]
+      ]
     },
     {
       "id": "to_design",
@@ -703,7 +1790,32 @@
       "englishPhrase": "He designs websites.",
       "phrase": "彼はウェブサイトをデザインしています。",
       "phraseRomanized": "kare wa uebusaito wo dezain shite imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["ウェブサイト", "websites"], ["を", "[obj]"], ["デザインして", "designing"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ウェブサイト",
+          "websites"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "デザインして",
+          "designing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_sell",
@@ -714,7 +1826,32 @@
       "englishPhrase": "He sells cars.",
       "phrase": "彼は車を売っています。",
       "phraseRomanized": "kare wa kuruma wo utte imasu",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["車", "cars"], ["を", "[obj]"], ["売って", "selling"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "車",
+          "cars"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "売って",
+          "selling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "to_buy",
@@ -725,7 +1862,36 @@
       "englishPhrase": "I need to buy a new computer.",
       "phrase": "新しいコンピューターを買う必要があります。",
       "phraseRomanized": "atarashii konpyūtā wo kau hitsuyō ga arimasu",
-      "literal": [["新しい", "new"], ["コンピューター", "computer"], ["を", "[obj]"], ["買う", "buy"], ["必要", "necessity"], ["が", "[subj]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "新しい",
+          "new"
+        ],
+        [
+          "コンピューター",
+          "computer"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "買う",
+          "buy"
+        ],
+        [
+          "必要",
+          "necessity"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "to_help",
@@ -736,7 +1902,20 @@
       "englishPhrase": "Can I help you?",
       "phrase": "お手伝いしましょうか？",
       "phraseRomanized": "otetsudai shimashō ka",
-      "literal": [["お手伝い", "helping"], ["しましょう", "shall do"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お手伝い",
+          "helping"
+        ],
+        [
+          "しましょう",
+          "shall do"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_manage",
@@ -747,7 +1926,32 @@
       "englishPhrase": "She manages the team.",
       "phrase": "彼女はチームを管理しています。",
       "phraseRomanized": "kanojo wa chīmu wo kanri shite imasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["チーム", "team"], ["を", "[obj]"], ["管理して", "managing"], ["います", "[doing]"]],
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "チーム",
+          "team"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "管理して",
+          "managing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -759,7 +1963,24 @@
       "englishPhrase": "We meet every Monday.",
       "phrase": "毎週月曜日に集まります。",
       "phraseRomanized": "maishū getsuyōbi ni atsumarimasu",
-      "literal": [["毎週", "every week"], ["月曜日", "Monday"], ["に", "[to/at]"], ["集まります", "gather"]],
+      "literal": [
+        [
+          "毎週",
+          "every week"
+        ],
+        [
+          "月曜日",
+          "Monday"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "集まります",
+          "gather"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -771,7 +1992,28 @@
       "englishPhrase": "I start work at eight.",
       "phrase": "8時に仕事を始めます。",
       "phraseRomanized": "hachiji ni shigoto wo hajimemasu",
-      "literal": [["8時", "8 o'clock"], ["に", "[to/at]"], ["仕事", "work"], ["を", "[obj]"], ["始めます", "begin"]]
+      "literal": [
+        [
+          "8時",
+          "8 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "始めます",
+          "begin"
+        ]
+      ]
     },
     {
       "id": "to_finish",
@@ -782,7 +2024,28 @@
       "englishPhrase": "I finish work at five.",
       "phrase": "5時に仕事が終わります。",
       "phraseRomanized": "goji ni shigoto ga owarimasu",
-      "literal": [["5時", "5 o'clock"], ["に", "[to/at]"], ["仕事", "work"], ["が", "[subj]"], ["終わります", "finishes"]]
+      "literal": [
+        [
+          "5時",
+          "5 o'clock"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "終わります",
+          "finishes"
+        ]
+      ]
     },
     {
       "id": "to_like_to_enjoy",
@@ -793,7 +2056,52 @@
       "englishPhrase": "I like reading. She likes singing.",
       "phrase": "読書が好きです。彼女は歌うのが好きです。",
       "phraseRomanized": "dokusho ga suki desu. kanojo wa utau no ga suki desu",
-      "literal": [["読書", "reading"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"], ["彼女", "she"], ["は", "[topic]"], ["歌う", "singing"], ["の", "[of/poss]"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "読書",
+          "reading"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "歌う",
+          "singing"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "to_relax",
@@ -804,7 +2112,24 @@
       "englishPhrase": "I relax on weekends.",
       "phrase": "週末はリラックスします。",
       "phraseRomanized": "shūmatsu wa rirakkusu shimasu",
-      "literal": [["週末", "weekends"], ["は", "[topic]"], ["リラックス", "relax"], ["します", "do"]]
+      "literal": [
+        [
+          "週末",
+          "weekends"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "リラックス",
+          "relax"
+        ],
+        [
+          "します",
+          "do"
+        ]
+      ]
     },
     {
       "id": "stressful",
@@ -815,7 +2140,36 @@
       "englishPhrase": "My job is stressful.",
       "phrase": "私の仕事はストレスが多いです。",
       "phraseRomanized": "watashi no shigoto wa sutoresu ga ōi desu",
-      "literal": [["私の", "my"], ["仕事", "job"], ["は", "[topic]"], ["ストレス", "stress"], ["が", "[subj]"], ["多い", "much"], ["です", "is"]]
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "仕事",
+          "job"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "多い",
+          "much"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     }
   ]
 }

@@ -10,35 +10,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 26
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_feeling_nominal",
-      "grammar": true,
-      "english": "I am happy. (أنا سعيد / سعيدة)",
-      "word": "أنا سعيد",
-      "romanized": "ana sa'id",
-      "grammarNote": "Feelings are nominal sentences (no 'am'), and the adjective agrees in gender:\n**أنا سعيد** (male) / **أنا سعيدة** (female) = I'm happy, **أنا حزين / حزينة** (I'm sad).",
-      "englishPhrase": "She is happy today.",
-      "phrase": "هي سعيدة اليوم.",
-      "phraseRomanized": "Hiya sa'ida al-yawm."
-    },
-    {
-      "id": "g_ashur_bi",
-      "grammar": true,
-      "english": "I feel tired. (أشعر بـ …)",
-      "word": "أشعر بالتعب",
-      "romanized": "ash'ur bi-t-ta'ab",
-      "grammarNote": "**أشعر بـ** (ash'ur bi-) = I feel + (a noun); **بـ** attaches to the following word:\n**أشعر بالتعب** (I feel tired[ness]), **أشعر بالسعادة** (I feel happy[ness]), **أشعر بالخوف** (I feel fear).",
-      "englishPhrase": "I feel happy.",
-      "phrase": "أشعر بالسعادة.",
-      "phraseRomanized": "Ash'ur bi-s-sa'ada."
-    },
     {
       "id": "happy",
       "english": "happy",
@@ -48,7 +26,24 @@
       "englishPhrase": "I'm very happy today.",
       "phrase": "أنا سعيد جداً اليوم.",
       "phraseRomanized": "ana sa'id jiddan al-yawm.",
-      "literal": [["أنا", "I"], ["سعيد", "happy"], ["جداً", "very"], ["اليوم", "today"]]
+      "literal": [
+        [
+          "أنا",
+          "I"
+        ],
+        [
+          "سعيد",
+          "happy"
+        ],
+        [
+          "جداً",
+          "very"
+        ],
+        [
+          "اليوم",
+          "today"
+        ]
+      ]
     },
     {
       "id": "sad",
@@ -402,17 +397,6 @@
       "phraseRomanized": "ana qaliq bi-sha'n al-imtihan."
     },
     {
-      "id": "g_adjective_gender_mood",
-      "grammar": true,
-      "english": "he is nervous / she is nervous (متوتر / متوترة)",
-      "word": "هو متوتر / هي متوترة",
-      "romanized": "huwa mutawattir / hiya mutawattira",
-      "grammarNote": "Mood adjectives agree with the person's gender — feminine adds **ة**:\n**متوتر / متوترة** (nervous), **غاضب / غاضبة** (angry), **متعب / متعبة** (tired). Match the adjective to who you're describing.",
-      "englishPhrase": "She is very angry.",
-      "phrase": "هي غاضبة جداً.",
-      "phraseRomanized": "Hiya ghadiba jiddan."
-    },
-    {
       "id": "nervous",
       "english": "nervous",
       "word": "متوتر",
@@ -502,17 +486,6 @@
       "englishPhrase": "She is very energetic.",
       "phrase": "هي نشيطة جداً.",
       "phraseRomanized": "hiya nashita jiddan."
-    },
-    {
-      "id": "g_jiddan",
-      "grammar": true,
-      "english": "I am very tired. (adjective + جداً)",
-      "word": "أنا متعب جداً",
-      "romanized": "ana mut'ab jiddan",
-      "grammarNote": "**جداً** (jiddan) = very — and it comes **after** the adjective, not before:\n**متعب جداً** (very tired), **سعيد جداً** (very happy), **جميل جداً** (very beautiful).",
-      "englishPhrase": "I am very happy.",
-      "phrase": "أنا سعيد جداً.",
-      "phraseRomanized": "Ana sa'id jiddan."
     },
     {
       "id": "tired",

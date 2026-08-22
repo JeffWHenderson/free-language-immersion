@@ -16,7 +16,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 28
+      "count": 24
     },
     {
       "n": 2,
@@ -28,43 +28,26 @@
   ],
   "cards": [
     {
-      "id": "g_estar_location",
-      "grammar": true,
-      "english": "The bank is nearby. (estar for location)",
-      "word": "el banco está cerca",
-      "grammarNote": "Location always uses **estar**, even for permanent buildings:\n**el banco está cerca** (the bank is nearby), **¿dónde está el baño?** (where's the bathroom?). Never **es** for location.",
-      "englishPhrase": "Where is the museum?",
-      "phrase": "¿Dónde está el museo?",
-      "literal": [["Dónde", "where"], ["está", "is"], ["el", "the"], ["museo", "museum"]]
-    },
-    {
-      "id": "g_contraction_al_del",
-      "grammar": true,
-      "english": "to the / of the (a+el→al, de+el→del)",
-      "word": "al / del",
-      "grammarNote": "Two mandatory contractions before masculine **el**:\n**a + el → al** (Voy **al** parque), **de + el → del** (la puerta **del** hotel). They don't contract with **la/los/las**.",
-      "englishPhrase": "I'm going to the market from the office.",
-      "phrase": "Voy al mercado desde la oficina.",
-      "literal": [["Voy", "I-go"], ["al", "to-the"], ["mercado", "market"]]
-    },
-    {
-      "id": "g_hay_places",
-      "grammar": true,
-      "english": "There's a bank near here. (hay)",
-      "word": "hay un banco cerca",
-      "grammarNote": "**hay** = there is / there are — used to say something exists at a place:\n**hay un banco cerca** (there's a bank nearby), **hay muchas tiendas** (there are many shops). Invariable form.",
-      "englishPhrase": "Is there a bathroom here?",
-      "phrase": "¿Hay un baño aquí?",
-      "literal": [["Hay", "there-is"], ["un", "a"], ["baño", "bathroom"], ["aquí", "here"]]
-    },
-    {
       "id": "home",
       "english": "Home",
       "word": "La casa",
       "grammarNote": "**Voy a casa** (I'm going home) — notice no article before **casa** in this fixed phrase, unlike other destinations: **voy a la escuela**, **voy al banco**.\n**Casa** is feminine: **la casa**. Used for the concept of 'home' as much as the physical building.",
       "englishPhrase": "I'm going home.",
       "phrase": "Voy a casa.",
-      "literal": [["Voy", "go"], ["a", "to"], ["casa", "house"]]
+      "literal": [
+        [
+          "Voy",
+          "go"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "casa",
+          "house"
+        ]
+      ]
     },
     {
       "id": "apartment",
@@ -73,7 +56,24 @@
       "grammarNote": "**Vivo en** (I live in) uses **en** because you are located there, not travelling there.\nContrast: **Voy a un apartamento** (I'm going to an apartment) vs **Vivo en un apartamento** (I live in an apartment).\nAlternative word in Spain: **el piso** (literally 'floor/storey').",
       "englishPhrase": "I live in an apartment.",
       "phrase": "Vivo en un apartamento.",
-      "literal": [["Vivo", "live"], ["en", "in"], ["un", "an"], ["apartamento", "apartment"]]
+      "literal": [
+        [
+          "Vivo",
+          "live"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "un",
+          "an"
+        ],
+        [
+          "apartamento",
+          "apartment"
+        ]
+      ]
     },
     {
       "id": "school",
@@ -82,7 +82,32 @@
       "grammarNote": "**La escuela** is feminine — use **la** (the) and **una** (a).\n**Van a la escuela** — going to a place uses **ir a**: **voy a la escuela**, **vamos al mercado**.\n**Los niños** = the children (masculine plural covers mixed or all-male groups). Feminine: **las niñas**.",
       "englishPhrase": "The children go to school.",
       "phrase": "Los niños van a la escuela.",
-      "literal": [["Los", "the[pl]"], ["niños", "children"], ["van", "go"], ["a", "to"], ["la", "the"], ["escuela", "school"]]
+      "literal": [
+        [
+          "Los",
+          "the[pl]"
+        ],
+        [
+          "niños",
+          "children"
+        ],
+        [
+          "van",
+          "go"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "escuela",
+          "school"
+        ]
+      ]
     },
     {
       "id": "university",
@@ -91,7 +116,28 @@
       "grammarNote": "**La universidad** is feminine despite ending in **-dad** (all **-dad** nouns are feminine: la ciudad, la libertad, la identidad).\n**Estudia en la universidad** — use **en** for being/studying at a location.\nThe phrase uses **ella** (she) explicitly, which is optional in Spanish since the verb ending already signals the subject.",
       "englishPhrase": "She studies at the university.",
       "phrase": "Ella estudia en la universidad.",
-      "literal": [["Ella", "she"], ["estudia", "studies"], ["en", "in"], ["la", "the"], ["universidad", "university"]]
+      "literal": [
+        [
+          "Ella",
+          "she"
+        ],
+        [
+          "estudia",
+          "studies"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "universidad",
+          "university"
+        ]
+      ]
     },
     {
       "id": "office",
@@ -108,7 +154,20 @@
       "grammarNote": "**a** + **el** → **al** · **de** + **el** → **del** (mandatory contractions)\n**Voy al hospital** (not *a el*) · **Vengo del banco** (not *de el*)\n**El hospital** from Latin **hospes** (host/guest) — same root as **hotel**, **hostal**, **hostelería**, and English *hospitality*.\n**El** hospital — masculine gender.",
       "englishPhrase": "I'm going to the hospital.",
       "phrase": "Voy al hospital.",
-      "literal": [["Voy", "go"], ["al", "to-the"], ["hospital", "hospital"]]
+      "literal": [
+        [
+          "Voy",
+          "go"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "hospital",
+          "hospital"
+        ]
+      ]
     },
     {
       "id": "grocery_store",
@@ -117,7 +176,24 @@
       "grammarNote": "**Necesito ir al supermercado** — **al** = **a + el** (mandatory contraction before a masculine noun).\n**La tienda de abarrotes** is the Latin American term; Spain uses **la tienda de comestibles** or simply **el supermercado**.\n**Necesito + infinitive** = I need to [do something]: **necesito ir**, **necesito comprar**, **necesito salir**.",
       "englishPhrase": "I need to go to the supermarket.",
       "phrase": "Necesito ir al supermercado.",
-      "literal": [["Necesito", "need"], ["ir", "to-go"], ["al", "to-the"], ["supermercado", "supermarket"]]
+      "literal": [
+        [
+          "Necesito",
+          "need"
+        ],
+        [
+          "ir",
+          "to-go"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "supermercado",
+          "supermarket"
+        ]
+      ]
     },
     {
       "id": "bank",
@@ -126,7 +202,20 @@
       "grammarNote": "**Del** = **de + el** — mandatory contraction. **Vengo del banco** (I'm coming from the bank).\n**El banco** is masculine. Note: **banco** also means *bench* — context tells them apart.\n**Vengo de** = I'm coming from. Compare: **Voy al banco** (going to) vs **Vengo del banco** (coming from).",
       "englishPhrase": "I'm coming from the bank.",
       "phrase": "Vengo del banco.",
-      "literal": [["Vengo", "come"], ["del", "from-the"], ["banco", "bank"]]
+      "literal": [
+        [
+          "Vengo",
+          "come"
+        ],
+        [
+          "del",
+          "from-the"
+        ],
+        [
+          "banco",
+          "bank"
+        ]
+      ]
     },
     {
       "id": "library",
@@ -135,7 +224,24 @@
       "grammarNote": "**La biblioteca** — feminine noun, from Greek **biblion** (book) + **theke** (storage/case). The same root gives English *bibliography* and *Bible*.\n**Estudio en la biblioteca** — use **en** for location (being/studying there), not **a**: **en** = at/in, **a** = to (direction).\nDon't confuse with **la librería** = bookshop (a *false friend* — librería is NOT library).",
       "englishPhrase": "I study in the library.",
       "phrase": "Estudio en la biblioteca.",
-      "literal": [["Estudio", "study"], ["en", "in"], ["la", "the"], ["biblioteca", "library"]]
+      "literal": [
+        [
+          "Estudio",
+          "study"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "biblioteca",
+          "library"
+        ]
+      ]
     },
     {
       "id": "restaurant",
@@ -152,7 +258,28 @@
       "grammarNote": "**El café** is masculine — **el café**, **un café**. The accent on **é** is part of the spelling.\n**Nos encontramos en el café** — **nos encontramos** is reflexive (encontrarse = to meet each other). The reflexive pronoun **nos** signals a mutual action.\n**En el café** — use **en** for being at a location. Compare: **Vamos al café** (we're going to the café).",
       "englishPhrase": "Let's meet at the cafe.",
       "phrase": "Nos encontramos en el café.",
-      "literal": [["Nos", "[ourselves]"], ["encontramos", "meet"], ["en", "in"], ["el", "the"], ["café", "café"]]
+      "literal": [
+        [
+          "Nos",
+          "[ourselves]"
+        ],
+        [
+          "encontramos",
+          "meet"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "café",
+          "café"
+        ]
+      ]
     },
     {
       "id": "hotel",
@@ -161,7 +288,32 @@
       "grammarNote": "**El hotel** is masculine — **el hotel**, **un hotel**.\n**Está en el centro** uses **estar** — location is always expressed with **estar**, never **ser**.\n**El centro** = the city centre / downtown. Full form: **el centro de la ciudad**.\nFrom Latin **hospes** (host/guest) — same family as **hospital**, **hostal**, **hospedaje**.",
       "englishPhrase": "The hotel is downtown.",
       "phrase": "El hotel está en el centro.",
-      "literal": [["El", "the"], ["hotel", "hotel"], ["está", "is"], ["en", "in"], ["el", "the"], ["centro", "centre"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "centro",
+          "centre"
+        ]
+      ]
     },
     {
       "id": "airport",
@@ -178,7 +330,32 @@
       "grammarNote": "**La estación** is feminine (all **-ción** nouns are feminine: la nación, la canción, la estación).\n**Cerca del hotel** — **del** = **de + el** (mandatory contraction). You can't write *de el hotel*.\n**Está cerca** — location with **estar**; **cerca de** = near.",
       "englishPhrase": "The station is near the hotel.",
       "phrase": "La estación está cerca del hotel.",
-      "literal": [["La", "the"], ["estación", "station"], ["está", "is"], ["cerca", "near"], ["del", "of-the"], ["hotel", "hotel"]]
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "estación",
+          "station"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "cerca",
+          "near"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ]
+      ]
     },
     {
       "id": "bus_stop",
@@ -187,17 +364,32 @@
       "grammarNote": "**La parada** (feminine) = the stop. **Parada de autobús** = bus stop; **parada de metro** = metro stop.\n**Espera en la parada** — **Espera** is the informal (tú) imperative of **esperar**. Formal: **Espere**.\n**En** here means *at* (being at a location). **Autobús** (Spain) = **bus** (Latin America); also **camión** (Mexico), **colectivo** (Argentina).",
       "englishPhrase": "Wait at the bus stop.",
       "phrase": "Espera en la parada de autobús.",
-      "literal": [["Espera", "wait"], ["en", "at"], ["la", "the"], ["parada", "stop"], ["de", "of"], ["autobús", "bus"]]
-    },
-    {
-      "id": "g_ir_a_place",
-      "grammar": true,
-      "english": "I'm going to the park. (ir a + place)",
-      "word": "voy al parque",
-      "grammarNote": "**ir a** + place = to go to a place; remember **a + el → al**:\n**voy al parque** (I go to the park), **vamos a la playa** (we go to the beach). Also **ir a** + infinitive = near future: **voy a comer**.",
-      "englishPhrase": "We're going to the beach today.",
-      "phrase": "Hoy vamos a la playa.",
-      "literal": [["Hoy", "today"], ["vamos", "we-go"], ["a", "to"], ["la", "the"], ["playa", "beach"]]
+      "literal": [
+        [
+          "Espera",
+          "wait"
+        ],
+        [
+          "en",
+          "at"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "parada",
+          "stop"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "autobús",
+          "bus"
+        ]
+      ]
     },
     {
       "id": "park",
@@ -214,7 +406,24 @@
       "grammarNote": "**La farmacia** is feminine — **la farmacia**, **una farmacia**.\n**¿Hay una farmacia cerca?** — **hay** (from **haber**) = there is / there are. It's invariable: **hay una farmacia**, **hay dos farmacias**.\n**Cerca** = nearby (no **de** needed when no specific reference follows). **Cerca de aquí** = near here.",
       "englishPhrase": "Is there a pharmacy nearby?",
       "phrase": "¿Hay una farmacia cerca?",
-      "literal": [["Hay", "there-is"], ["una", "a"], ["farmacia", "pharmacy"], ["cerca", "nearby"]]
+      "literal": [
+        [
+          "Hay",
+          "there-is"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "farmacia",
+          "pharmacy"
+        ],
+        [
+          "cerca",
+          "nearby"
+        ]
+      ]
     },
     {
       "id": "street",
@@ -231,7 +440,20 @@
       "grammarNote": "**El puente** is masculine.\n**Cruzamos el puente** — past tense (preterite) of **cruzar** (nosotros form). The preterite ending **-amos** is the same for present and past with -ar verbs for nosotros — context clarifies tense.\n**El puente** also colloquially means a long weekend (a 'bridge' between a holiday and the weekend).",
       "englishPhrase": "We crossed the bridge.",
       "phrase": "Cruzamos el puente.",
-      "literal": [["Cruzamos", "crossed"], ["el", "the"], ["puente", "bridge"]],
+      "literal": [
+        [
+          "Cruzamos",
+          "crossed"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "puente",
+          "bridge"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -241,7 +463,36 @@
       "grammarNote": "**La esquina** is feminine — the corner of a street/building.\n**Dobla a la derecha** — **a la derecha** (to the right), **a la izquierda** (to the left). These phrases always use **a + la** because **derecha** and **izquierda** are feminine nouns.\n**Doblar** and **girar** both mean 'to turn' when giving directions — both are common.",
       "englishPhrase": "Turn right at the corner.",
       "phrase": "Dobla a la derecha en la esquina.",
-      "literal": [["Dobla", "turn"], ["a", "to"], ["la", "the"], ["derecha", "right-side"], ["en", "at"], ["la", "the"], ["esquina", "corner"]],
+      "literal": [
+        [
+          "Dobla",
+          "turn"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "derecha",
+          "right-side"
+        ],
+        [
+          "en",
+          "at"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "esquina",
+          "corner"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -251,7 +502,32 @@
       "grammarNote": "**El centro** is masculine. Full form: **el centro de la ciudad** (city centre).\n**El museo está en el centro** — location uses **estar** + **en**.\n**El museo** is also masculine. Many cultural buildings are masculine: **el museo**, **el teatro**, **el estadio**, **el cine**.",
       "englishPhrase": "The museum is downtown.",
       "phrase": "El museo está en el centro.",
-      "literal": [["El", "the"], ["museo", "museum"], ["está", "is"], ["en", "in"], ["el", "the"], ["centro", "centre"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "museo",
+          "museum"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "centro",
+          "centre"
+        ]
+      ]
     },
     {
       "id": "neighbourhood",
@@ -260,7 +536,28 @@
       "grammarNote": "**El barrio** is masculine — **el barrio**, **un barrio**.\n**Vivo en un barrio tranquilo** — use **en** for residence location. **Tranquilo** (quiet/calm) is an adjective that agrees with the masculine noun: **barrio tranquilo** / **calle tranquila**.\nIn many cities, neighbourhoods have famous names: **el Barrio Gótico** (Barcelona), **el Barrio de La Boca** (Buenos Aires).",
       "englishPhrase": "I live in a quiet neighbourhood.",
       "phrase": "Vivo en un barrio tranquilo.",
-      "literal": [["Vivo", "live"], ["en", "in"], ["un", "a"], ["barrio", "neighbourhood"], ["tranquilo", "quiet"]]
+      "literal": [
+        [
+          "Vivo",
+          "live"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "barrio",
+          "neighbourhood"
+        ],
+        [
+          "tranquilo",
+          "quiet"
+        ]
+      ]
     },
     {
       "id": "beach",
@@ -277,7 +574,28 @@
       "grammarNote": "**La montaña** is feminine — **la montaña**, **una montaña**.\n**Es muy alta** uses **ser** — height/size is an inherent characteristic of a mountain.\n**Alta** is the feminine form of **alto** (tall/high). Adjectives agree in gender and number with the noun they describe.",
       "englishPhrase": "The mountain is very high.",
       "phrase": "La montaña es muy alta.",
-      "literal": [["La", "the"], ["montaña", "mountain"], ["es", "is"], ["muy", "very"], ["alta", "tall"]]
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "montaña",
+          "mountain"
+        ],
+        [
+          "es",
+          "is"
+        ],
+        [
+          "muy",
+          "very"
+        ],
+        [
+          "alta",
+          "tall"
+        ]
+      ]
     },
     {
       "id": "museum",
@@ -286,7 +604,24 @@
       "grammarNote": "**El museo** is masculine.\n**Quiero visitar el museo** — **querer + infinitive** = to want to do something. **Quiero** is a stem-changing verb (e→ie): quiero, quieres, quiere, queremos, queréis, quieren.\n**Visitar** (to visit a place) takes a direct object with no preposition: **visitar el museo**, **visitar la ciudad**.",
       "englishPhrase": "I want to visit the museum.",
       "phrase": "Quiero visitar el museo.",
-      "literal": [["Quiero", "want"], ["visitar", "to-visit"], ["el", "the"], ["museo", "museum"]]
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "visitar",
+          "to-visit"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "museo",
+          "museum"
+        ]
+      ]
     },
     {
       "id": "movie_theater",
@@ -295,7 +630,28 @@
       "grammarNote": "**El cine** is masculine — short for **cinematógrafo**.\n**Vamos al cine** — **al** = **a + el** (mandatory contraction). You can never write *a el cine*.\n**Esta noche** = tonight. **Ir al cine** is the standard phrase for going to the movies — the same as 'going to the cinema' in British English.",
       "englishPhrase": "We're going to the cinema tonight.",
       "phrase": "Vamos al cine esta noche.",
-      "literal": [["Vamos", "go"], ["al", "to-the"], ["cine", "cinema"], ["esta", "this"], ["noche", "night"]]
+      "literal": [
+        [
+          "Vamos",
+          "go"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "cine",
+          "cinema"
+        ],
+        [
+          "esta",
+          "this"
+        ],
+        [
+          "noche",
+          "night"
+        ]
+      ]
     },
     {
       "id": "map",
@@ -304,7 +660,20 @@
       "grammarNote": "**El mapa** is masculine — despite ending in **-a** (which usually signals feminine). Other masculine **-a** nouns: **el problema**, **el programa**, **el tema**, **el día**. Many come from Greek.\n**¿Tienes un mapa?** — informal question using **tú** form. Formal: **¿Tiene usted un mapa?**",
       "englishPhrase": "Do you have a map?",
       "phrase": "¿Tienes un mapa?",
-      "literal": [["Tienes", "have"], ["un", "a"], ["mapa", "map"]]
+      "literal": [
+        [
+          "Tienes",
+          "have"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "mapa",
+          "map"
+        ]
+      ]
     },
     {
       "id": "direction",
@@ -313,7 +682,32 @@
       "grammarNote": "**La dirección** is feminine (all **-ción** nouns are feminine).\n**¿En qué dirección está?** — use **estar** for location. **En qué** = in which / what.\n**Dirección** also means *address* (postal address) — context makes it clear: **¿Cuál es tu dirección?** (What's your address?)",
       "englishPhrase": "Which direction is the station?",
       "phrase": "¿En qué dirección está la estación?",
-      "literal": [["En", "in"], ["qué", "what"], ["dirección", "direction"], ["está", "is"], ["la", "the"], ["estación", "station"]]
+      "literal": [
+        [
+          "En",
+          "in"
+        ],
+        [
+          "qué",
+          "what"
+        ],
+        [
+          "dirección",
+          "direction"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "estación",
+          "station"
+        ]
+      ]
     },
     {
       "id": "in",
@@ -340,7 +734,24 @@
       "grammarNote": "Spanish uses **en** for both *in* and *at* with locations: **Estoy en la oficina** = I'm at/in the office.\n**Estoy** is from **estar** — always use **estar** (not **ser**) for location.\nThe key contrast: **en** (being somewhere) vs **a** (going somewhere): **Estoy en el banco** (I'm at the bank) vs **Voy al banco** (I'm going to the bank).",
       "englishPhrase": "I'm at the office.",
       "phrase": "Estoy en la oficina.",
-      "literal": [["Estoy", "am"], ["en", "in"], ["la", "the"], ["oficina", "office"]],
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "oficina",
+          "office"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -350,7 +761,36 @@
       "grammarNote": "**Debajo de** = under/below. Always two words, always followed by **de**.\n**Debajo de la mesa** — **de + la** stays as **de la** (no contraction needed; contractions only apply to **de + el**).\nCompare position prepositions: **encima de** (on top of) · **debajo de** (under) · **al lado de** (next to) · **delante de** (in front of) · **detrás de** (behind).",
       "englishPhrase": "The cat is under the table.",
       "phrase": "El gato está debajo de la mesa.",
-      "literal": [["El", "the"], ["gato", "cat"], ["está", "is"], ["debajo", "under"], ["de", "of"], ["la", "the"], ["mesa", "table"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "gato",
+          "cat"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "debajo",
+          "under"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "mesa",
+          "table"
+        ]
+      ]
     },
     {
       "id": "next_to",
@@ -359,7 +799,36 @@
       "grammarNote": "**Al lado de** = next to / beside. Broken down: **al** (= **a + el**) + **lado** (side) + **de** (of).\n**Al lado del café** — **del** = **de + el** (mandatory contraction). The phrase contains *two* contractions: **al** and **del**.\nOther position prepositions follow the same **[prep] + de** pattern: **cerca de**, **lejos de**, **delante de**, **detrás de**, **encima de**, **debajo de**.",
       "englishPhrase": "The bank is next to the cafe.",
       "phrase": "El banco está al lado del café.",
-      "literal": [["El", "the"], ["banco", "bank"], ["está", "is"], ["al", "to-the"], ["lado", "side"], ["del", "of-the"], ["café", "café"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "banco",
+          "bank"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "lado",
+          "side"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "café",
+          "café"
+        ]
+      ]
     },
     {
       "id": "between",
@@ -376,7 +845,36 @@
       "grammarNote": "**En frente de** = in front of. Also written as **enfrente de** (one word). Both are correct.\n**En frente del hotel** — **del** = **de + el** (mandatory contraction).\nCompare: **delante de** (physically in front of, e.g., leading the way) vs **enfrente de** (facing/opposite, e.g., across the street).",
       "englishPhrase": "The taxi is in front of the hotel.",
       "phrase": "El taxi está en frente del hotel.",
-      "literal": [["El", "the"], ["taxi", "taxi"], ["está", "is"], ["en", "in"], ["frente", "front"], ["del", "of-the"], ["hotel", "hotel"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "taxi",
+          "taxi"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "frente",
+          "front"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ]
+      ]
     },
     {
       "id": "behind",
@@ -385,7 +883,36 @@
       "grammarNote": "**Detrás de** = behind. Always followed by **de**.\n**Detrás de la casa** — **de + la** = **de la** (no contraction; only **de + el** contracts to **del**).\nPosition preposition family: **delante de** (in front of) · **detrás de** (behind) · **encima de** (on top of) · **debajo de** (under) · **al lado de** (next to) · **enfrente de** (facing).",
       "englishPhrase": "The garden is behind the house.",
       "phrase": "El jardín está detrás de la casa.",
-      "literal": [["El", "the"], ["jardín", "garden"], ["está", "is"], ["detrás", "behind"], ["de", "of"], ["la", "the"], ["casa", "house"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "jardín",
+          "garden"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "detrás",
+          "behind"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "casa",
+          "house"
+        ]
+      ]
     },
     {
       "id": "near",
@@ -394,7 +921,32 @@
       "grammarNote": "**Cerca de** = near. **Cerca de aquí** = near here. When followed by a masculine noun: **cerca del banco** (del = de + el).\n**¿Hay un restaurante cerca de aquí?** — **hay** (there is) introduces new/indefinite information. Compare: **¿Dónde está el restaurante?** (where is the [specific] restaurant — **está** for known/specific).\n**Cerca** alone (no **de**) = nearby: **¿Hay una farmacia cerca?**",
       "englishPhrase": "Is there a restaurant near here?",
       "phrase": "¿Hay un restaurante cerca de aquí?",
-      "literal": [["Hay", "there-is"], ["un", "a"], ["restaurante", "restaurant"], ["cerca", "near"], ["de", "of"], ["aquí", "here"]]
+      "literal": [
+        [
+          "Hay",
+          "there-is"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "restaurante",
+          "restaurant"
+        ],
+        [
+          "cerca",
+          "near"
+        ],
+        [
+          "de",
+          "of"
+        ],
+        [
+          "aquí",
+          "here"
+        ]
+      ]
     },
     {
       "id": "far",
@@ -403,7 +955,24 @@
       "grammarNote": "**Lejos de** = far from. Opposite of **cerca de** (near).\n**¿Está lejos el aeropuerto?** — inverted word order for questions is natural in Spanish (subject after verb). **El aeropuerto** = **el** + masculine noun.\n**El aeropuerto** — etymology: **aero** (air) + **puerto** (port). The same compound in English: *air + port*.",
       "englishPhrase": "Is the airport far?",
       "phrase": "¿Está lejos el aeropuerto?",
-      "literal": [["Está", "is"], ["lejos", "far"], ["el", "the"], ["aeropuerto", "airport"]]
+      "literal": [
+        [
+          "Está",
+          "is"
+        ],
+        [
+          "lejos",
+          "far"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "aeropuerto",
+          "airport"
+        ]
+      ]
     },
     {
       "id": "here",
@@ -412,7 +981,24 @@
       "grammarNote": "Three words for 'here': **aquí** (here, right at this spot — most common), **acá** (here, more general — common in Latin America), **aca** (informal variant).\n**Ven aquí** — **Ven** is the irregular informal imperative of **venir**. Formal: **Venga aquí**.\n**Por favor** = please (literally 'by/for favour'). Always a polite addition when making requests.",
       "englishPhrase": "Come here, please.",
       "phrase": "Ven aquí, por favor.",
-      "literal": [["Ven", "come"], ["aquí", "here"], ["por", "please"], ["favor", "[favor]"]]
+      "literal": [
+        [
+          "Ven",
+          "come"
+        ],
+        [
+          "aquí",
+          "here"
+        ],
+        [
+          "por",
+          "please"
+        ],
+        [
+          "favor",
+          "[favor]"
+        ]
+      ]
     },
     {
       "id": "there",
@@ -421,7 +1007,24 @@
       "grammarNote": "Three words for 'there': **aquí** (here) · **allí** (there, at a specific spot) · **allá** (over there, more vague/distant).\n**El taxi está allí** — location uses **estar**.\n**Allí mismo** = right there (very precise); **allá lejos** = way over there (distant). The distinction between **allí** and **allá** mirrors **aquí** vs **acá**.",
       "englishPhrase": "The taxi is over there.",
       "phrase": "El taxi está allí.",
-      "literal": [["El", "the"], ["taxi", "taxi"], ["está", "is"], ["allí", "there"]]
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "taxi",
+          "taxi"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "allí",
+          "there"
+        ]
+      ]
     },
     {
       "id": "left",
@@ -430,7 +1033,24 @@
       "grammarNote": "**A la izquierda** = to the left. The full direction phrase always uses **a + la** because **izquierda** is feminine.\n**Gira a la izquierda** (turn left) — one of the three essential direction commands alongside **a la derecha** (right) and **todo recto** (straight ahead).\nRemember: **izquierda** and **derecha** are nouns (feminine), not adjectives. That's why they take an article: **a la izquierda**, not *a izquierda*.",
       "englishPhrase": "Turn left.",
       "phrase": "Gira a la izquierda.",
-      "literal": [["Gira", "turn"], ["a", "to"], ["la", "the"], ["izquierda", "left-side"]]
+      "literal": [
+        [
+          "Gira",
+          "turn"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "izquierda",
+          "left-side"
+        ]
+      ]
     },
     {
       "id": "right",
@@ -439,7 +1059,24 @@
       "grammarNote": "**A la derecha** = to the right. Like **izquierda**, **derecha** is a feminine noun and always takes **a + la**.\n**Gira a la derecha** (turn right) · **Gira a la izquierda** (turn left) · **Ve todo recto** (go straight).\n**Derecho/a** (adjective) = straight: **todo recto** or **todo derecho**. Don't confuse **derecha** (direction: right) with **derecho** (straight ahead or the noun 'right/law').",
       "englishPhrase": "Turn right.",
       "phrase": "Gira a la derecha.",
-      "literal": [["Gira", "turn"], ["a", "to"], ["la", "the"], ["derecha", "right-side"]]
+      "literal": [
+        [
+          "Gira",
+          "turn"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "derecha",
+          "right-side"
+        ]
+      ]
     },
     {
       "id": "straight_ahead",
@@ -448,7 +1085,20 @@
       "grammarNote": "**Todo recto** = straight ahead (literally 'all straight'). Both **todo recto** and **todo derecho** are used — **todo recto** is slightly more common in directions.\n**Ve todo recto** — **Ve** is the irregular informal imperative of **ir** (to go). Formal: **Vaya todo recto**.\nThis completes the trio of essential direction phrases: **a la derecha** · **a la izquierda** · **todo recto**.",
       "englishPhrase": "Go straight ahead.",
       "phrase": "Ve todo recto.",
-      "literal": [["Ve", "go"], ["todo", "all"], ["recto", "straight"]]
+      "literal": [
+        [
+          "Ve",
+          "go"
+        ],
+        [
+          "todo",
+          "all"
+        ],
+        [
+          "recto",
+          "straight"
+        ]
+      ]
     },
     {
       "id": "north",
@@ -457,7 +1107,28 @@
       "grammarNote": "**Al norte** = to the north. The contraction **al** = **a + el** is used even with compass directions since they are treated as masculine nouns.\nAll four cardinal directions are masculine: **el norte**, **el sur**, **el este**, **el oeste**.\nCompass direction phrases: **al norte** (to/in the north), **al sur** (south), **al este** (east), **al oeste** (west).",
       "englishPhrase": "The city is to the north.",
       "phrase": "La ciudad está al norte.",
-      "literal": [["La", "the"], ["ciudad", "city"], ["está", "is"], ["al", "to-the"], ["norte", "north"]],
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "ciudad",
+          "city"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "norte",
+          "north"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -467,7 +1138,28 @@
       "grammarNote": "**Al sur** = to the south. **Al** = **a + el** (mandatory contraction — **sur** is masculine).\n**La playa está al sur** — location with **estar**. The beach is located (permanently, for this context) to the south.\nCardinal directions: **norte** · **sur** · **este** · **oeste** — all masculine, all use **al** when saying 'to the [direction]'.",
       "englishPhrase": "The beach is to the south.",
       "phrase": "La playa está al sur.",
-      "literal": [["La", "the"], ["playa", "beach"], ["está", "is"], ["al", "to-the"], ["sur", "south"]],
+      "literal": [
+        [
+          "La",
+          "the"
+        ],
+        [
+          "playa",
+          "beach"
+        ],
+        [
+          "está",
+          "is"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "sur",
+          "south"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -477,7 +1169,32 @@
       "grammarNote": "**El este** = the east (masculine). **Por el este** = through/via the east — **por** indicates movement through a direction.\n**Sale por el este** — **salir por** = to come out through. The sun 'comes out' (**sale**) through the east.\nBeware of homonyms: **este** (east, noun, no accent) · **este** (this, demonstrative adjective, no accent) · **éste** (this one, demonstrative pronoun — accent optional in modern Spanish).",
       "englishPhrase": "The sun rises in the east.",
       "phrase": "El sol sale por el este.",
-      "literal": [["El", "the"], ["sol", "sun"], ["sale", "comes-out"], ["por", "through"], ["el", "the"], ["este", "east"]],
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "sol",
+          "sun"
+        ],
+        [
+          "sale",
+          "comes-out"
+        ],
+        [
+          "por",
+          "through"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "este",
+          "east"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -487,7 +1204,36 @@
       "grammarNote": "**El oeste** = the west (masculine). **En el oeste** = in the west.\n**Se pone** — **ponerse** (to set, for the sun) is reflexive. The reflexive **se** signals an automatic/natural process. **El sol se pone** (the sun sets) · **el sol sale** (the sun rises).\n**Poner** also means 'to put/place': context distinguishes. Reflexive **ponerse** = to put on (clothing) or to set (sun).",
       "englishPhrase": "The sun sets in the west.",
       "phrase": "El sol se pone en el oeste.",
-      "literal": [["El", "the"], ["sol", "sun"], ["se", "[itself]"], ["pone", "sets"], ["en", "in"], ["el", "the"], ["oeste", "west"]],
+      "literal": [
+        [
+          "El",
+          "the"
+        ],
+        [
+          "sol",
+          "sun"
+        ],
+        [
+          "se",
+          "[itself]"
+        ],
+        [
+          "pone",
+          "sets"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "oeste",
+          "west"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -497,7 +1243,24 @@
       "grammarNote": "**Cerca** (no **de**) = nearby (standalone adverb, no specific reference).\n**Cerca de** + noun = near [something]: **cerca de aquí** (near here), **cerca del banco** (near the bank — **del** = de + el).\n**¿Hay una farmacia cerca?** — **hay** (there is/are) introduces indefinite existence. If you already know a specific pharmacy: **¿Dónde está la farmacia?** (Where is the pharmacy?).",
       "englishPhrase": "Is there a pharmacy nearby?",
       "phrase": "¿Hay una farmacia cerca?",
-      "literal": [["Hay", "there-is"], ["una", "a"], ["farmacia", "pharmacy"], ["cerca", "nearby"]]
+      "literal": [
+        [
+          "Hay",
+          "there-is"
+        ],
+        [
+          "una",
+          "a"
+        ],
+        [
+          "farmacia",
+          "pharmacy"
+        ],
+        [
+          "cerca",
+          "nearby"
+        ]
+      ]
     },
     {
       "id": "to_go",
@@ -506,7 +1269,20 @@
       "grammarNote": "**Ir** is highly irregular. Present tense: **voy**, **vas**, **va**, **vamos**, **vais**, **van**.\n**Ir a + place** = to go to a place: **voy al supermercado**, **voy a casa**, **voy a la playa**.\n**Ir a + infinitive** also expresses future: **voy a comer** (I'm going to eat), **vamos a salir** (we're going to leave).\n**Al** = **a + el** (mandatory contraction) whenever the destination has a masculine article.",
       "englishPhrase": "I'm going to the supermarket.",
       "phrase": "Voy al supermercado.",
-      "literal": [["Voy", "go"], ["al", "to-the"], ["supermercado", "supermarket"]]
+      "literal": [
+        [
+          "Voy",
+          "go"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "supermercado",
+          "supermarket"
+        ]
+      ]
     },
     {
       "id": "to_come",
@@ -515,7 +1291,24 @@
       "grammarNote": "**Venir** is irregular. Present tense: **vengo**, **vienes**, **viene**, **venimos**, **venís**, **vienen**.\n**Ven a mi casa** — **Ven** is the informal (tú) imperative.\n**Venir a + place** = to come to a place. Contrast: **ir** (to go, away from speaker) vs **venir** (to come, towards speaker) — same speaker-relative logic as English.",
       "englishPhrase": "Come to my house.",
       "phrase": "Ven a mi casa.",
-      "literal": [["Ven", "come"], ["a", "to"], ["mi", "my"], ["casa", "house"]]
+      "literal": [
+        [
+          "Ven",
+          "come"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "mi",
+          "my"
+        ],
+        [
+          "casa",
+          "house"
+        ]
+      ]
     },
     {
       "id": "to_travel",
@@ -524,7 +1317,20 @@
       "grammarNote": "**Me encanta viajar** — **encantar** works like **gustar**: the subject is the thing loved (**viajar**), not the person. **Me** = indirect object (to me). Literally: 'travelling enchants me'.\nSingle thing/verb: **me encanta** · Multiple things: **me encantan los viajes**.\n**Viajar** is a regular **-ar** verb: viajo, viajas, viaja, viajamos, viajáis, viajan.",
       "englishPhrase": "I love to travel.",
       "phrase": "Me encanta viajar.",
-      "literal": [["Me", "[to-me]"], ["encanta", "enchants"], ["viajar", "to-travel"]]
+      "literal": [
+        [
+          "Me",
+          "[to-me]"
+        ],
+        [
+          "encanta",
+          "enchants"
+        ],
+        [
+          "viajar",
+          "to-travel"
+        ]
+      ]
     },
     {
       "id": "to_walk",
@@ -533,7 +1339,32 @@
       "grammarNote": "**Camino al trabajo** — **al** = **a + el** (mandatory contraction before masculine noun **trabajo**).\n**Caminar** is a regular **-ar** verb. Also common: **andar** (to walk/go on foot) — more colloquial in Spain.\n**Todos los días** = every day (literally 'all the days'). Compare: **cada día** (each day) — both are common and interchangeable.",
       "englishPhrase": "I walk to work every day.",
       "phrase": "Camino al trabajo todos los días.",
-      "literal": [["Camino", "walk"], ["al", "to-the"], ["trabajo", "work"], ["todos", "all"], ["los", "the"], ["días", "days"]]
+      "literal": [
+        [
+          "Camino",
+          "walk"
+        ],
+        [
+          "al",
+          "to-the"
+        ],
+        [
+          "trabajo",
+          "work"
+        ],
+        [
+          "todos",
+          "all"
+        ],
+        [
+          "los",
+          "the"
+        ],
+        [
+          "días",
+          "days"
+        ]
+      ]
     },
     {
       "id": "to_drive",
@@ -550,7 +1381,36 @@
       "grammarNote": "**Gira a la izquierda** — the three core direction commands:\n**Gira a la derecha** (turn right) · **Gira a la izquierda** (turn left) · **Ve todo recto** (go straight ahead).\n**Gira** is the informal (tú) imperative of **girar**. Formal (usted): **Gire a la izquierda**.\nAlternative: **doblar** — **dobla a la derecha** is equally natural.",
       "englishPhrase": "Turn left at the corner.",
       "phrase": "Gira a la izquierda en la esquina.",
-      "literal": [["Gira", "turn"], ["a", "to"], ["la", "the"], ["izquierda", "left-side"], ["en", "at"], ["la", "the"], ["esquina", "corner"]],
+      "literal": [
+        [
+          "Gira",
+          "turn"
+        ],
+        [
+          "a",
+          "to"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "izquierda",
+          "left-side"
+        ],
+        [
+          "en",
+          "at"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "esquina",
+          "corner"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -560,7 +1420,28 @@
       "grammarNote": "**Cruza la calle** — **Cruza** is the informal (tú) imperative of **cruzar**. Formal: **Cruce la calle**.\n**Con cuidado** = carefully (literally 'with care'). **Cuidado** is also used as a standalone warning: **¡Cuidado!** = Watch out!\n**Cruzar** is a regular **-ar** verb: cruzo, cruzas, cruza… Note spelling change in preterite (yo): **crucé** (not *cruzé*).",
       "englishPhrase": "Cross the street carefully.",
       "phrase": "Cruza la calle con cuidado.",
-      "literal": [["Cruza", "cross"], ["la", "the"], ["calle", "street"], ["con", "with"], ["cuidado", "care"]],
+      "literal": [
+        [
+          "Cruza",
+          "cross"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "calle",
+          "street"
+        ],
+        [
+          "con",
+          "with"
+        ],
+        [
+          "cuidado",
+          "care"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -570,7 +1451,20 @@
       "grammarNote": "**Sigue esta calle** — **Sigue** is the informal (tú) imperative of **seguir**. Formal: **Siga esta calle**.\n**Seguir** is irregular: **sigo**, sigues, sigue, seguimos, seguís, siguen (yo form has irregular **g**).\n**Seguir + gerund** = to keep doing something: **sigue recto** (keep going straight), **sigue caminando** (keep walking).",
       "englishPhrase": "Follow this street.",
       "phrase": "Sigue esta calle.",
-      "literal": [["Sigue", "follow"], ["esta", "this"], ["calle", "street"]],
+      "literal": [
+        [
+          "Sigue",
+          "follow"
+        ],
+        [
+          "esta",
+          "this"
+        ],
+        [
+          "calle",
+          "street"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -580,7 +1474,28 @@
       "grammarNote": "**Entra por la puerta** — **entrar por** = to enter through. The preposition is **por** (through/by way of), not **en**.\n**Entrar en** is also used (especially in Spain): **entra en el edificio** (enter the building). Latin American Spanish often omits **en**: **entra al edificio**.\n**La puerta principal** — **principal** = main. Adjectives follow the noun in Spanish.",
       "englishPhrase": "Enter through the main door.",
       "phrase": "Entra por la puerta principal.",
-      "literal": [["Entra", "enter"], ["por", "through"], ["la", "the"], ["puerta", "door"], ["principal", "main"]]
+      "literal": [
+        [
+          "Entra",
+          "enter"
+        ],
+        [
+          "por",
+          "through"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "puerta",
+          "door"
+        ],
+        [
+          "principal",
+          "main"
+        ]
+      ]
     },
     {
       "id": "to_leave",
@@ -589,7 +1504,32 @@
       "grammarNote": "**Salir** is irregular in yo: **salgo** (I leave/go out). Other forms are regular: sales, sale, salimos, salís, salen.\n**Salgo del trabajo** — **del** = **de + el** (mandatory contraction). You can never write *de el trabajo*.\n**A las cinco** = at five (o'clock). Time expressions use **a las** (feminine plural) because **hora** (hour) is feminine: **a la una**, **a las dos**, **a las cinco**.",
       "englishPhrase": "I leave work at five.",
       "phrase": "Salgo del trabajo a las cinco.",
-      "literal": [["Salgo", "leave"], ["del", "from-the"], ["trabajo", "work"], ["a", "at"], ["las", "the"], ["cinco", "five"]]
+      "literal": [
+        [
+          "Salgo",
+          "leave"
+        ],
+        [
+          "del",
+          "from-the"
+        ],
+        [
+          "trabajo",
+          "work"
+        ],
+        [
+          "a",
+          "at"
+        ],
+        [
+          "las",
+          "the"
+        ],
+        [
+          "cinco",
+          "five"
+        ]
+      ]
     },
     {
       "id": "to_arrive",
@@ -598,7 +1538,16 @@
       "grammarNote": "**Llegar** = to arrive. Regular **-ar** verb (with a spelling change in preterite yo: **llegué**).\n**Llegamos mañana** — **llegamos** is both present (we arrive) and preterite (we arrived) for nosotros; **mañana** (tomorrow) here confirms it's present/future.\n**Llegar a** + place = to arrive at: **llegamos a Madrid**, **llegamos al hotel** (**al** = a + el).",
       "englishPhrase": "We arrive tomorrow.",
       "phrase": "Llegamos mañana.",
-      "literal": [["Llegamos", "arrive"], ["mañana", "tomorrow"]]
+      "literal": [
+        [
+          "Llegamos",
+          "arrive"
+        ],
+        [
+          "mañana",
+          "tomorrow"
+        ]
+      ]
     },
     {
       "id": "to_visit",
@@ -607,7 +1556,24 @@
       "grammarNote": "**Quiero visitar el museo** — **querer + infinitive** expresses wanting to do something.\n**Visitar** is a regular **-ar** verb: visito, visitas, visita, visitamos, visitáis, visitan.\n**Visitar** takes a direct object with no preposition: **visitar el museo**, **visitar a un amigo** (personal 'a' before a person — **a** before a specific human direct object is mandatory in Spanish).",
       "englishPhrase": "I want to visit the museum.",
       "phrase": "Quiero visitar el museo.",
-      "literal": [["Quiero", "want"], ["visitar", "to-visit"], ["el", "the"], ["museo", "museum"]]
+      "literal": [
+        [
+          "Quiero",
+          "want"
+        ],
+        [
+          "visitar",
+          "to-visit"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "museo",
+          "museum"
+        ]
+      ]
     },
     {
       "id": "to_live",
@@ -616,7 +1582,24 @@
       "grammarNote": "**Vivir** = to live. Regular **-ir** verb: **vivo**, vives, vive, vivimos, vivís, viven.\n**Vivo cerca del centro** — **del** = **de + el** (mandatory contraction). **Cerca de** = near.\n**Vivir en** = to live in/at a place. **Vivo en Madrid**, **vivo en un apartamento**, **vivo cerca del centro**.",
       "englishPhrase": "I live near the city centre.",
       "phrase": "Vivo cerca del centro.",
-      "literal": [["Vivo", "live"], ["cerca", "near"], ["del", "of-the"], ["centro", "centre"]],
+      "literal": [
+        [
+          "Vivo",
+          "live"
+        ],
+        [
+          "cerca",
+          "near"
+        ],
+        [
+          "del",
+          "of-the"
+        ],
+        [
+          "centro",
+          "centre"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -626,7 +1609,28 @@
       "grammarNote": "**Quedarse** = to stay/remain (reflexive). The phrase uses **hospedarse** instead — a more specific word meaning to lodge/stay as a guest.\n**Nos hospedamos** — reflexive verb with **nos** (we). **Hospedarse** comes from Latin **hospes** (host/guest) — same root as **hospital**, **hotel**, **hostal**.\n**Quedarse en** = to stay at: **me quedo en el hotel** (I'm staying at the hotel).",
       "englishPhrase": "We're staying at a hotel.",
       "phrase": "Nos hospedamos en un hotel.",
-      "literal": [["Nos", "[ourselves]"], ["hospedamos", "lodge"], ["en", "in"], ["un", "a"], ["hotel", "hotel"]],
+      "literal": [
+        [
+          "Nos",
+          "[ourselves]"
+        ],
+        [
+          "hospedamos",
+          "lodge"
+        ],
+        [
+          "en",
+          "in"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -636,7 +1640,20 @@
       "grammarNote": "**Te espero** = I'll wait for you. **Esperar a alguien** = to wait for someone — the 'for' is built into the verb; no preposition needed before the person.\n**Te** = you (indirect object pronoun, informal). Formal: **Le espero**.\n**Esperar** also means *to hope*: **espero que llegues pronto** (I hope you arrive soon). Context distinguishes.",
       "englishPhrase": "I'll wait for you here.",
       "phrase": "Te espero aquí.",
-      "literal": [["Te", "[you]"], ["espero", "wait-for"], ["aquí", "here"]],
+      "literal": [
+        [
+          "Te",
+          "[you]"
+        ],
+        [
+          "espero",
+          "wait-for"
+        ],
+        [
+          "aquí",
+          "here"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -646,7 +1663,24 @@
       "grammarNote": "**Quedamos en el parque** uses **quedar** (to arrange to meet) — very natural in Spain for planned meetings.\n**Quedar en** = to meet at (a place). Alternative: **encontrarse en**: **nos encontramos en el parque**.\n**Quedar** has many meanings: to remain (**queda poco tiempo** = little time remains), to fit (**te queda bien** = it suits you), to arrange to meet (**quedamos a las tres** = let's meet at three).",
       "englishPhrase": "Let's meet at the park.",
       "phrase": "Quedamos en el parque.",
-      "literal": [["Quedamos", "meet"], ["en", "at"], ["el", "the"], ["parque", "park"]]
+      "literal": [
+        [
+          "Quedamos",
+          "meet"
+        ],
+        [
+          "en",
+          "at"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "parque",
+          "park"
+        ]
+      ]
     },
     {
       "id": "to_get_lost",
@@ -655,7 +1689,20 @@
       "grammarNote": "**Perderse** is reflexive — the pronoun changes with the subject:\n**me pierdo** · **te pierdes** · **se pierde**\nMany movement/location verbs are reflexive: **quedarse** (to stay), **hospedarse** (to lodge), **dirigirse** (to head)\n**¡No te pierdas!** = Don't get lost!",
       "englishPhrase": "Don't get lost!",
       "phrase": "¡No te pierdas!",
-      "literal": [["No", "not"], ["te", "[yourself]"], ["pierdas", "lose"]]
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "te",
+          "[yourself]"
+        ],
+        [
+          "pierdas",
+          "lose"
+        ]
+      ]
     },
     {
       "id": "to_find",
@@ -664,7 +1711,24 @@
       "grammarNote": "**No encuentro el hotel** — **encontrar** is a stem-changing verb (o→ue): **encuentro**, encuentras, encuentra, encontramos, encontráis, encuentran.\n**No encuentro** = I can't find / I don't find. Spanish present tense covers the English 'can't find' in this context.\nContrast: **encontrar** (to find something) vs **encontrarse** (reflexive: to be located, or to meet someone).",
       "englishPhrase": "I can't find the hotel.",
       "phrase": "No encuentro el hotel.",
-      "literal": [["No", "not"], ["encuentro", "find"], ["el", "the"], ["hotel", "hotel"]]
+      "literal": [
+        [
+          "No",
+          "not"
+        ],
+        [
+          "encuentro",
+          "find"
+        ],
+        [
+          "el",
+          "the"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ]
+      ]
     },
     {
       "id": "to_look_for",
@@ -673,7 +1737,20 @@
       "grammarNote": "**Busco la farmacia** — **buscar** means 'to look for'. The 'for' is already inside the verb — never add **por** or **para**: say **busco el hotel**, not *busco por el hotel*.\n**Buscar** is a regular **-ar** verb (with spelling change in preterite yo: **busqué**).\n**La farmacia** — feminine noun. Pharmacies in Spanish-speaking countries are marked by a green cross.",
       "englishPhrase": "I'm looking for the pharmacy.",
       "phrase": "Busco la farmacia.",
-      "literal": [["Busco", "search-for"], ["la", "the"], ["farmacia", "pharmacy"]]
+      "literal": [
+        [
+          "Busco",
+          "search-for"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "farmacia",
+          "pharmacy"
+        ]
+      ]
     },
     {
       "id": "to_stop",
@@ -682,7 +1759,24 @@
       "grammarNote": "**Para en la esquina** — **Para** is the informal (tú) imperative of **parar** (to stop). Formal: **Pare en la esquina**.\n**Parar** (transitive) = to stop something; **pararse** (reflexive) = to stop oneself/come to a stop.\nAlso common: **detenerse** = to stop (slightly more formal): **detente aquí** (stop here).",
       "englishPhrase": "Stop at the corner.",
       "phrase": "Para en la esquina.",
-      "literal": [["Para", "stop"], ["en", "at"], ["la", "the"], ["esquina", "corner"]],
+      "literal": [
+        [
+          "Para",
+          "stop"
+        ],
+        [
+          "en",
+          "at"
+        ],
+        [
+          "la",
+          "the"
+        ],
+        [
+          "esquina",
+          "corner"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -692,7 +1786,20 @@
       "grammarNote": "**Aparcar** (Spain) / **estacionar** (Latin America) = to park a vehicle. Both are correct.\n**¿Dónde puedo estacionar?** — **poder + infinitive** = to be able to / can. **Puedo** is the yo form (stem-changing: o→ue): **puedo**, puedes, puede, podemos, podéis, pueden.\n**Dónde** = where (with accent in questions). Without accent: **donde** = where (in relative clauses).",
       "englishPhrase": "Where can I park?",
       "phrase": "¿Dónde puedo estacionar?",
-      "literal": [["¿Dónde", "where"], ["puedo", "can"], ["estacionar?", "park?"]],
+      "literal": [
+        [
+          "¿Dónde",
+          "where"
+        ],
+        [
+          "puedo",
+          "can"
+        ],
+        [
+          "estacionar?",
+          "park?"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -710,7 +1817,24 @@
       "grammarNote": "**Prefiero un barrio tranquilo** — **tranquilo** = quiet/calm. It follows the noun it modifies (adjectives usually follow in Spanish).\n**Tranquilo** agrees with the noun: **barrio tranquilo** (m.) · **calle tranquila** (f.) · **lugares tranquilos** (m.pl.).\n**Prefiero** = I prefer (stem-changing verb e→ie): prefiero, prefieres, prefiere, preferimos, preferís, prefieren.",
       "englishPhrase": "I prefer a quiet neighbourhood.",
       "phrase": "Prefiero un barrio tranquilo.",
-      "literal": [["Prefiero", "prefer"], ["un", "a"], ["barrio", "neighbourhood"], ["tranquilo", "quiet"]]
+      "literal": [
+        [
+          "Prefiero",
+          "prefer"
+        ],
+        [
+          "un",
+          "a"
+        ],
+        [
+          "barrio",
+          "neighbourhood"
+        ],
+        [
+          "tranquilo",
+          "quiet"
+        ]
+      ]
     },
     {
       "id": "lost",
@@ -719,7 +1843,16 @@
       "grammarNote": "**Estoy perdido** — use **estar** (not **ser**) because being lost is a temporary state.\n**Perdido** (m.) / **perdida** (f.) — the adjective agrees with the subject: **estoy perdido** (male speaker) · **estoy perdida** (female speaker).\nRelated: **perderse** (to get lost — reflexive): **me perdí** (I got lost) · **¡No te pierdas!** (Don't get lost!)",
       "englishPhrase": "I'm lost.",
       "phrase": "Estoy perdido.",
-      "literal": [["Estoy", "am"], ["perdido", "lost"]]
+      "literal": [
+        [
+          "Estoy",
+          "am"
+        ],
+        [
+          "perdido",
+          "lost"
+        ]
+      ]
     }
   ]
 }

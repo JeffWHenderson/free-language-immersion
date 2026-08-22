@@ -17,37 +17,13 @@
   "parts": [
     {
       "n": 1,
-      "count": 26
+      "count": 24
     },
     {
       "n": 2
     }
   ],
   "cards": [
-    {
-      "id": "g_na_adjective",
-      "grammar": true,
-      "english": "I'm fine. (な-adjective + です)",
-      "word": "元気です",
-      "romanized": "genki desu",
-      "grammarNote": "**な-adjectives** need **です** as a predicate, and **な** before a noun:\n**元気です** (I'm well), **静かです** (it's quiet); before a noun: **元気な人** (a healthy person), **静かな部屋** (a quiet room).",
-      "englishPhrase": "I'm fine, thanks.",
-      "phrase": "元気です、ありがとう。",
-      "phraseRomanized": "Genki desu, arigatō.",
-      "literal": [["元気", "well"], ["です", "am"], ["ありがとう", "thanks"]]
-    },
-    {
-      "id": "g_i_adjective_feeling",
-      "grammar": true,
-      "english": "I'm happy. (い-adjective + です)",
-      "word": "うれしいです",
-      "romanized": "ureshii desu",
-      "grammarNote": "**い-adjectives** attach **です** directly (no な):\n**うれしいです** (I'm happy), **さびしいです** (I'm lonely), **こわいです** (I'm scared). Negative = **-くないです**: **うれしくないです**.",
-      "englishPhrase": "I'm very happy today.",
-      "phrase": "今日はとてもうれしいです。",
-      "phraseRomanized": "Kyō wa totemo ureshii desu.",
-      "literal": [["今日", "today"], ["は", "(topic)"], ["とても", "very"], ["うれしい", "happy"], ["です", "is"]]
-    },
     {
       "id": "happy",
       "english": "happy",
@@ -57,7 +33,28 @@
       "englishPhrase": "I'm very happy today.",
       "phrase": "今日はとても嬉しいです。",
       "phraseRomanized": "kyō wa totemo ureshii desu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["とても", "very"], ["嬉しい", "happy"], ["です", "is"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "嬉しい",
+          "happy"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "sad",
@@ -68,7 +65,28 @@
       "englishPhrase": "Why are you sad?",
       "phrase": "なぜ悲しいのですか？",
       "phraseRomanized": "naze kanashii no desu ka",
-      "literal": [["なぜ", "why"], ["悲しい", "sad"], ["の", "[of/poss]"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "なぜ",
+          "why"
+        ],
+        [
+          "悲しい",
+          "sad"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "love",
@@ -79,7 +97,36 @@
       "englishPhrase": "I feel a lot of love for my family.",
       "phrase": "家族への愛をたくさん感じます。",
       "phraseRomanized": "kazoku e no ai wo takusan kanjimasu",
-      "literal": [["家族", "family"], ["へ", "[toward]"], ["の", "[of/poss]"], ["愛", "love"], ["を", "[obj]"], ["たくさん", "a lot"], ["感じます", "feel"]]
+      "literal": [
+        [
+          "家族",
+          "family"
+        ],
+        [
+          "へ",
+          "[toward]"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "愛",
+          "love"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "感じます",
+          "feel"
+        ]
+      ]
     },
     {
       "id": "anger",
@@ -90,7 +137,36 @@
       "englishPhrase": "I felt anger when they lied to me.",
       "phrase": "嘘をつかれたとき、怒りを感じました。",
       "phraseRomanized": "uso wo tsukareta toki, ikari wo kanjimashita",
-      "literal": [["嘘", "lie"], ["を", "[obj]"], ["つかれた", "was told"], ["とき", "when"], ["怒り", "anger"], ["を", "[obj]"], ["感じました", "felt"]]
+      "literal": [
+        [
+          "嘘",
+          "lie"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "つかれた",
+          "was told"
+        ],
+        [
+          "とき",
+          "when"
+        ],
+        [
+          "怒り",
+          "anger"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じました",
+          "felt"
+        ]
+      ]
     },
     {
       "id": "fear",
@@ -101,7 +177,28 @@
       "englishPhrase": "I'm afraid of the dark.",
       "phrase": "暗いのが怖いです。",
       "phraseRomanized": "kurai no ga kowai desu",
-      "literal": [["暗い", "dark"], ["の", "[of/poss]"], ["が", "[subj]"], ["怖い", "scary"], ["です", "is"]]
+      "literal": [
+        [
+          "暗い",
+          "dark"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "怖い",
+          "scary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "hope",
@@ -112,7 +209,32 @@
       "englishPhrase": "I have hope for the future.",
       "phrase": "将来への希望があります。",
       "phraseRomanized": "shōrai e no kibō ga arimasu",
-      "literal": [["将来", "future"], ["へ", "[toward]"], ["の", "[of/poss]"], ["希望", "hope"], ["が", "[subj]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "将来",
+          "future"
+        ],
+        [
+          "へ",
+          "[toward]"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "希望",
+          "hope"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "stress",
@@ -123,7 +245,32 @@
       "englishPhrase": "I have a lot of stress at work.",
       "phrase": "仕事でストレスがたくさんあります。",
       "phraseRomanized": "shigoto de sutoresu ga takusan arimasu",
-      "literal": [["仕事", "work"], ["で", "[at/by]"], ["ストレス", "stress"], ["が", "[subj]"], ["たくさん", "a lot"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "mood",
@@ -134,7 +281,32 @@
       "englishPhrase": "I'm in a good mood today.",
       "phrase": "今日は気分がいいです。",
       "phraseRomanized": "kyō wa kibun ga ii desu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["気分", "mood"], ["が", "[subj]"], ["いい", "good"], ["です", "is"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "気分",
+          "mood"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "feeling",
@@ -145,7 +317,28 @@
       "englishPhrase": "That feeling is normal.",
       "phrase": "その気持ちは普通です。",
       "phraseRomanized": "sono kimochi wa futsū desu",
-      "literal": [["その", "that"], ["気持ち", "feeling"], ["は", "[topic]"], ["普通", "normal"], ["です", "is"]]
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "気持ち",
+          "feeling"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "普通",
+          "normal"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "emotion_excitement",
@@ -156,7 +349,20 @@
       "englishPhrase": "I couldn't hide my emotion.",
       "phrase": "感動を隠せませんでした。",
       "phraseRomanized": "kandō wo kakusemasen deshita",
-      "literal": [["感動", "emotion"], ["を", "[obj]"], ["隠せませんでした", "could not hide"]]
+      "literal": [
+        [
+          "感動",
+          "emotion"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "隠せませんでした",
+          "could not hide"
+        ]
+      ]
     },
     {
       "id": "calm",
@@ -167,7 +373,32 @@
       "englishPhrase": "Try to maintain your calm.",
       "phrase": "落ち着きを保つようにしてください。",
       "phraseRomanized": "ochitsuki wo tamotsu yō ni shite kudasai",
-      "literal": [["落ち着き", "calm"], ["を", "[obj]"], ["保つ", "maintain"], ["ように", "so as to"], ["して", "[and]"], ["ください", "please"]]
+      "literal": [
+        [
+          "落ち着き",
+          "calm"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "保つ",
+          "maintain"
+        ],
+        [
+          "ように",
+          "so as to"
+        ],
+        [
+          "して",
+          "[and]"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "worry",
@@ -178,7 +409,24 @@
       "englishPhrase": "Don't let worry stop you.",
       "phrase": "心配で立ち止まらないでください。",
       "phraseRomanized": "shinpai de tachidomaranaide kudasai",
-      "literal": [["心配", "worry"], ["で", "[at/by]"], ["立ち止まらないで", "don't stop"], ["ください", "please"]]
+      "literal": [
+        [
+          "心配",
+          "worry"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "立ち止まらないで",
+          "don't stop"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "surprise",
@@ -189,7 +437,16 @@
       "englishPhrase": "What a surprise!",
       "phrase": "なんと驚いた！",
       "phraseRomanized": "nanto odoroita",
-      "literal": [["なんと", "how"], ["驚いた", "surprised"]]
+      "literal": [
+        [
+          "なんと",
+          "how"
+        ],
+        [
+          "驚いた",
+          "surprised"
+        ]
+      ]
     },
     {
       "id": "hate",
@@ -200,7 +457,28 @@
       "englishPhrase": "Hate is a strong feeling.",
       "phrase": "憎しみは強い感情です。",
       "phraseRomanized": "nikushimi wa tsuyoi kanjō desu",
-      "literal": [["憎しみ", "hate"], ["は", "[topic]"], ["強い", "strong"], ["感情", "feeling"], ["です", "is"]]
+      "literal": [
+        [
+          "憎しみ",
+          "hate"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "強い",
+          "strong"
+        ],
+        [
+          "感情",
+          "feeling"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "pain",
@@ -211,7 +489,28 @@
       "englishPhrase": "I feel pain in my leg.",
       "phrase": "足に痛みを感じます。",
       "phraseRomanized": "ashi ni itami wo kanjimasu",
-      "literal": [["足", "leg"], ["に", "[to/at]"], ["痛み", "pain"], ["を", "[obj]"], ["感じます", "feel"]]
+      "literal": [
+        [
+          "足",
+          "leg"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "痛み",
+          "pain"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じます",
+          "feel"
+        ]
+      ]
     },
     {
       "id": "energy",
@@ -222,7 +521,28 @@
       "englishPhrase": "I have a lot of energy today.",
       "phrase": "今日はとても元気です。",
       "phraseRomanized": "kyō wa totemo genki desu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["とても", "very"], ["元気", "energetic"], ["です", "is"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "元気",
+          "energetic"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "feel_to_feel",
@@ -233,7 +553,32 @@
       "englishPhrase": "I feel good today.",
       "phrase": "今日は気分がいいです。",
       "phraseRomanized": "kyō wa kibun ga ii desu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["気分", "mood"], ["が", "[subj]"], ["いい", "good"], ["です", "is"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "気分",
+          "mood"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "love_to_love",
@@ -244,7 +589,32 @@
       "englishPhrase": "I love you very much.",
       "phrase": "あなたのことが大好きです。",
       "phraseRomanized": "anata no koto ga daisuki desu",
-      "literal": [["あなた", "you"], ["の", "[of/poss]"], ["こと", "thing"], ["が", "[subj]"], ["大好き", "very-like"], ["です", "is"]]
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大好き",
+          "very-like"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "hate_to_hate",
@@ -255,7 +625,28 @@
       "englishPhrase": "I hate waiting.",
       "phrase": "待つのが大嫌いです。",
       "phraseRomanized": "matsu no ga daikirai desu",
-      "literal": [["待つ", "waiting"], ["の", "[of/poss]"], ["が", "[subj]"], ["大嫌い", "very-hate"], ["です", "is"]]
+      "literal": [
+        [
+          "待つ",
+          "waiting"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "大嫌い",
+          "very-hate"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "like_to_like",
@@ -266,7 +657,24 @@
       "englishPhrase": "I like music.",
       "phrase": "音楽が好きです。",
       "phraseRomanized": "ongaku ga suki desu",
-      "literal": [["音楽", "music"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "音楽",
+          "music"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "enjoy",
@@ -277,7 +685,24 @@
       "englishPhrase": "I enjoy the weekend.",
       "phrase": "週末を楽しんでいます。",
       "phraseRomanized": "shūmatsu wo tanoshinde imasu",
-      "literal": [["週末", "weekend"], ["を", "[obj]"], ["楽しんで", "enjoying"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "週末",
+          "weekend"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "楽しんで",
+          "enjoying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "fear_dread_to_fear",
@@ -288,7 +713,32 @@
       "englishPhrase": "I fear the worst.",
       "phrase": "最悪の事態を恐れています。",
       "phraseRomanized": "saiaku no jitai wo osorete imasu",
-      "literal": [["最悪", "worst"], ["の", "[of/poss]"], ["事態", "situation"], ["を", "[obj]"], ["恐れて", "fearing"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "最悪",
+          "worst"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "事態",
+          "situation"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "恐れて",
+          "fearing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "hope_to_hope",
@@ -299,7 +749,36 @@
       "englishPhrase": "I hope everything goes well.",
       "phrase": "すべてうまくいくことを望んでいます。",
       "phraseRomanized": "subete umaku iku koto wo nozonde imasu",
-      "literal": [["すべて", "everything"], ["うまく", "well"], ["いく", "go"], ["こと", "thing"], ["を", "[obj]"], ["望んで", "hoping"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "すべて",
+          "everything"
+        ],
+        [
+          "うまく",
+          "well"
+        ],
+        [
+          "いく",
+          "go"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "望んで",
+          "hoping"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "worry_to_worry",
@@ -310,7 +789,28 @@
       "englishPhrase": "Don't worry about it.",
       "phrase": "それについて心配しないでください。",
       "phraseRomanized": "sore ni tsuite shinpai shinaide kudasai",
-      "literal": [["それ", "that"], ["について", "about"], ["心配", "worry"], ["しないで", "not doing"], ["ください", "please"]]
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "について",
+          "about"
+        ],
+        [
+          "心配",
+          "worry"
+        ],
+        [
+          "しないで",
+          "not doing"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "peace",
@@ -321,7 +821,32 @@
       "englishPhrase": "I need peace and quiet.",
       "phrase": "静けさと平穏が必要です。",
       "phraseRomanized": "shizukesa to heion ga hitsuyō desu",
-      "literal": [["静けさ", "quiet"], ["と", "[and/with]"], ["平穏", "peace"], ["が", "[subj]"], ["必要", "necessary"], ["です", "is"]]
+      "literal": [
+        [
+          "静けさ",
+          "quiet"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "平穏",
+          "peace"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "jealousy",
@@ -332,7 +857,28 @@
       "englishPhrase": "Jealousy is a difficult feeling.",
       "phrase": "嫉妬は難しい感情です。",
       "phraseRomanized": "shitto wa muzukashii kanjō desu",
-      "literal": [["嫉妬", "jealousy"], ["は", "[topic]"], ["難しい", "difficult"], ["感情", "emotion"], ["です", "is"]]
+      "literal": [
+        [
+          "嫉妬",
+          "jealousy"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "難しい",
+          "difficult"
+        ],
+        [
+          "感情",
+          "emotion"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "annoy",
@@ -343,7 +889,24 @@
       "englishPhrase": "That noise annoys me.",
       "phrase": "その音にイライラします。",
       "phraseRomanized": "sono oto ni iraira shimasu",
-      "literal": [["その", "that"], ["音", "sound"], ["に", "[to/at]"], ["イライラします", "am irritated"]]
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "音",
+          "sound"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "イライラします",
+          "am irritated"
+        ]
+      ]
     },
     {
       "id": "anger_to_anger",
@@ -354,7 +917,32 @@
       "englishPhrase": "That comment angered me.",
       "phrase": "そのコメントに腹が立ちました。",
       "phraseRomanized": "sono komento ni hara ga tachimashita",
-      "literal": [["その", "that"], ["コメント", "comment"], ["に", "[to/at]"], ["腹", "belly"], ["が", "[subj]"], ["立ちました", "rose"]]
+      "literal": [
+        [
+          "その",
+          "that"
+        ],
+        [
+          "コメント",
+          "comment"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "腹",
+          "belly"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "立ちました",
+          "rose"
+        ]
+      ]
     },
     {
       "id": "smile",
@@ -365,7 +953,28 @@
       "englishPhrase": "She always smiles.",
       "phrase": "彼女はいつも微笑んでいます。",
       "phraseRomanized": "kanojo wa itsumo hohoende imasu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["いつも", "always"], ["微笑んで", "smiling"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "微笑んで",
+          "smiling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "laugh",
@@ -376,7 +985,24 @@
       "englishPhrase": "We laughed a lot.",
       "phrase": "私たちはたくさん笑いました。",
       "phraseRomanized": "watashitachi wa takusan waraimashita",
-      "literal": [["私たち", "we"], ["は", "[topic]"], ["たくさん", "a lot"], ["笑いました", "laughed"]]
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "笑いました",
+          "laughed"
+        ]
+      ]
     },
     {
       "id": "cry_weep_mourn",
@@ -387,7 +1013,24 @@
       "englishPhrase": "The baby is crying.",
       "phrase": "赤ちゃんが泣いています。",
       "phraseRomanized": "akachan ga naite imasu",
-      "literal": [["赤ちゃん", "baby"], ["が", "[subj]"], ["泣いて", "crying"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "赤ちゃん",
+          "baby"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "泣いて",
+          "crying"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "scream_shout",
@@ -398,7 +1041,16 @@
       "englishPhrase": "Don't shout, please.",
       "phrase": "叫ばないでください。",
       "phraseRomanized": "sakabanaide kudasai",
-      "literal": [["叫ばないで", "don't shout"], ["ください", "please"]],
+      "literal": [
+        [
+          "叫ばないで",
+          "don't shout"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -410,7 +1062,24 @@
       "englishPhrase": "Relax, there's no rush.",
       "phrase": "リラックスして、急がなくていいです。",
       "phraseRomanized": "rirakkusu shite, isoganakute ii desu",
-      "literal": [["リラックスして", "relax and"], ["急がなくて", "not hurrying"], ["いい", "fine"], ["です", "is"]]
+      "literal": [
+        [
+          "リラックスして",
+          "relax and"
+        ],
+        [
+          "急がなくて",
+          "not hurrying"
+        ],
+        [
+          "いい",
+          "fine"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "angry",
@@ -421,7 +1090,24 @@
       "englishPhrase": "I'm angry with you.",
       "phrase": "あなたに怒っています。",
       "phraseRomanized": "anata ni okotte imasu",
-      "literal": [["あなた", "you"], ["に", "[to/at]"], ["怒って", "angry"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "怒って",
+          "angry"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "afraid_scared",
@@ -432,7 +1118,24 @@
       "englishPhrase": "The child was scared.",
       "phrase": "子どもは怖がっていました。",
       "phraseRomanized": "kodomo wa kowagatte imashita",
-      "literal": [["子ども", "child"], ["は", "[topic]"], ["怖がって", "scared"], ["いました", "was"]]
+      "literal": [
+        [
+          "子ども",
+          "child"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "怖がって",
+          "scared"
+        ],
+        [
+          "いました",
+          "was"
+        ]
+      ]
     },
     {
       "id": "anxious",
@@ -443,19 +1146,24 @@
       "englishPhrase": "I'm anxious about the exam.",
       "phrase": "試験が不安です。",
       "phraseRomanized": "shiken ga fuan desu",
-      "literal": [["試験", "exam"], ["が", "[subj]"], ["不安", "anxious"], ["です", "is"]]
-    },
-    {
-      "id": "g_teiru_state",
-      "grammar": true,
-      "english": "I'm nervous. (〜ています — current state)",
-      "word": "緊張しています",
-      "romanized": "kinchō shite imasu",
-      "grammarNote": "**〜ています** shows an ongoing action or a current state:\n**緊張しています** (I'm nervous), **つかれています** (I'm tired), **わかっています** (I understand). Formed from the verb's **て**-form + **います**.",
-      "englishPhrase": "I'm a little nervous.",
-      "phrase": "少し緊張しています。",
-      "phraseRomanized": "Sukoshi kinchō shite imasu.",
-      "literal": [["少し", "a-little"], ["緊張して", "nervous"], ["います", "(state)"]]
+      "literal": [
+        [
+          "試験",
+          "exam"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "不安",
+          "anxious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "nervous",
@@ -466,7 +1174,24 @@
       "englishPhrase": "I'm nervous today.",
       "phrase": "今日は緊張しています。",
       "phraseRomanized": "kyō wa kinchō shite imasu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["緊張して", "nervous"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "緊張して",
+          "nervous"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "excited",
@@ -477,7 +1202,28 @@
       "englishPhrase": "I'm excited about the trip.",
       "phrase": "旅行がとても楽しみです。",
       "phraseRomanized": "ryokō ga totemo tanoshimi desu",
-      "literal": [["旅行", "trip"], ["が", "[subj]"], ["とても", "very"], ["楽しみ", "looked forward to"], ["です", "is"]]
+      "literal": [
+        [
+          "旅行",
+          "trip"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "楽しみ",
+          "looked forward to"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "joyful_cheerful",
@@ -488,7 +1234,28 @@
       "englishPhrase": "She is always cheerful.",
       "phrase": "彼女はいつも明るいです。",
       "phraseRomanized": "kanojo wa itsumo akarui desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["いつも", "always"], ["明るい", "bright"], ["です", "is"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "明るい",
+          "bright"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "proud",
@@ -499,7 +1266,36 @@
       "englishPhrase": "I'm proud of you.",
       "phrase": "あなたのことを誇りに思います。",
       "phraseRomanized": "anata no koto wo hokori ni omoimasu",
-      "literal": [["あなた", "you"], ["の", "[of/poss]"], ["こと", "thing"], ["を", "[obj]"], ["誇り", "pride"], ["に", "[to/at]"], ["思います", "think"]]
+      "literal": [
+        [
+          "あなた",
+          "you"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "こと",
+          "thing"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "誇り",
+          "pride"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "思います",
+          "think"
+        ]
+      ]
     },
     {
       "id": "content_contented",
@@ -510,7 +1306,32 @@
       "englishPhrase": "I'm content with my life.",
       "phrase": "自分の人生に満足しています。",
       "phraseRomanized": "jibun no jinsei ni manzoku shite imasu",
-      "literal": [["自分", "own"], ["の", "[of/poss]"], ["人生", "life"], ["に", "[to/at]"], ["満足して", "satisfied"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "自分",
+          "own"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "人生",
+          "life"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "満足して",
+          "satisfied"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "calm_2",
@@ -521,7 +1342,24 @@
       "englishPhrase": "Stay calm, everything is fine.",
       "phrase": "落ち着いてください、大丈夫です。",
       "phraseRomanized": "ochitsuite kudasai, daijōbu desu",
-      "literal": [["落ち着いて", "calm down"], ["ください", "please"], ["大丈夫", "okay"], ["です", "is"]],
+      "literal": [
+        [
+          "落ち着いて",
+          "calm down"
+        ],
+        [
+          "ください",
+          "please"
+        ],
+        [
+          "大丈夫",
+          "okay"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ],
       "hidden": true
     },
     {
@@ -533,7 +1371,36 @@
       "englishPhrase": "I'm very stressed this week.",
       "phrase": "今週はとてもストレスを感じています。",
       "phraseRomanized": "konshū wa totemo sutoresu wo kanjite imasu",
-      "literal": [["今週", "this week"], ["は", "[topic]"], ["とても", "very"], ["ストレス", "stress"], ["を", "[obj]"], ["感じて", "feeling"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "今週",
+          "this week"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "ストレス",
+          "stress"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "感じて",
+          "feeling"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "overwhelmed",
@@ -544,7 +1411,24 @@
       "englishPhrase": "I feel overwhelmed by the work.",
       "phrase": "仕事に圧倒されています。",
       "phraseRomanized": "shigoto ni attō sarete imasu",
-      "literal": [["仕事", "work"], ["に", "[to/at]"], ["圧倒されて", "overwhelmed"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "圧倒されて",
+          "overwhelmed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "energetic",
@@ -555,19 +1439,28 @@
       "englishPhrase": "She is very energetic.",
       "phrase": "彼女はとても元気です。",
       "phraseRomanized": "kanojo wa totemo genki desu",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["とても", "very"], ["元気", "energetic"], ["です", "is"]]
-    },
-    {
-      "id": "g_tsukareta",
-      "grammar": true,
-      "english": "I'm tired. (past 疲れました = current state)",
-      "word": "疲れました",
-      "romanized": "tsukaremashita",
-      "grammarNote": "For 'I'm tired', Japanese uses the **past** of **疲れる** (to get tired) — the state results from a completed change:\n**疲れました** (polite) / **疲れた** (casual). Similarly **おなかがすきました** = 'I'm hungry'.",
-      "englishPhrase": "I'm really tired today.",
-      "phrase": "今日は本当に疲れました。",
-      "phraseRomanized": "Kyō wa hontō ni tsukaremashita.",
-      "literal": [["今日", "today"], ["は", "(topic)"], ["本当に", "really"], ["疲れました", "got-tired"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "元気",
+          "energetic"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "tired",
@@ -578,7 +1471,28 @@
       "englishPhrase": "I'm very tired today.",
       "phrase": "今日はとても疲れています。",
       "phraseRomanized": "kyō wa totemo tsukarete imasu",
-      "literal": [["今日", "today"], ["は", "[topic]"], ["とても", "very"], ["疲れて", "tired"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "今日",
+          "today"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "疲れて",
+          "tired"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "exhausted",
@@ -589,7 +1503,28 @@
       "englishPhrase": "I'm exhausted after the run.",
       "phrase": "走った後でくたくたです。",
       "phraseRomanized": "hashitta ato de kutakuta desu",
-      "literal": [["走った", "ran"], ["後", "after"], ["で", "[at/by]"], ["くたくた", "dead-tired"], ["です", "is"]]
+      "literal": [
+        [
+          "走った",
+          "ran"
+        ],
+        [
+          "後",
+          "after"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "くたくた",
+          "dead-tired"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "curious",
@@ -600,7 +1535,24 @@
       "englishPhrase": "I'm curious about that.",
       "phrase": "それがとても気になります。",
       "phraseRomanized": "sore ga totemo ki ni narimasu",
-      "literal": [["それ", "that"], ["が", "[subj]"], ["とても", "very"], ["気になります", "mind-on-becomes"]]
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "気になります",
+          "mind-on-becomes"
+        ]
+      ]
     }
   ]
 }

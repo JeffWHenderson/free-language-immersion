@@ -11,7 +11,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 26
+      "count": 24
     },
     {
       "n": 2
@@ -19,33 +19,30 @@
   ],
   "cards": [
     {
-      "id": "g_etre_feeling",
-      "grammar": true,
-      "english": "I am happy. (adjective agrees: heureux / heureuse)",
-      "word": "je suis heureux",
-      "grammarNote": "Feelings use **être** + an adjective that agrees with you:\n**je suis heureux** (a man) / **je suis heureuse** (a woman). Add **-e** for feminine, **-s** for plural: **ils sont contents**.",
-      "englishPhrase": "She is happy today.",
-      "phrase": "Elle est heureuse aujourd'hui.",
-      "literal": [["Elle", "she"], ["est", "is"], ["heureuse", "happy"], ["aujourd'hui", "today"]]
-    },
-    {
-      "id": "g_avoir_peur",
-      "grammar": true,
-      "english": "I am afraid. (avoir peur — 'have fear')",
-      "word": "j'ai peur",
-      "grammarNote": "Some feelings use **avoir** (to have), not **être**:\n**j'ai peur** (I'm afraid), **j'ai honte** (I'm ashamed). Also physical states: **j'ai faim** (hungry), **j'ai froid** (cold).",
-      "englishPhrase": "I'm a little afraid.",
-      "phrase": "J'ai un peu peur.",
-      "literal": [["J'ai", "I-have"], ["un peu", "a-little"], ["peur", "fear"]]
-    },
-    {
       "id": "happy",
       "english": "happy",
       "word": "heureux",
       "grammarNote": "**heureux** is masculine; the feminine form is **heureuse** (the -x changes to -se).\nExample: il est heureux · elle est heureuse.\nEtymology: from Latin **augur** (good omen) via Old French **eür** (luck/fortune).\n**très heureux** = very happy · **si heureux** = so happy",
       "englishPhrase": "I'm very happy today.",
       "phrase": "Je suis très heureux",
-      "literal": [["Je", "I"], ["suis", "am"], ["très", "very"], ["heureux", "happy"]]
+      "literal": [
+        [
+          "Je",
+          "I"
+        ],
+        [
+          "suis",
+          "am"
+        ],
+        [
+          "très",
+          "very"
+        ],
+        [
+          "heureux",
+          "happy"
+        ]
+      ]
     },
     {
       "id": "sad",
@@ -246,7 +243,24 @@
       "grammarNote": "**jalousie** = jealousy (fear of losing what you have) · **l'envie** = envy (wanting what others have) · **être jaloux/jalouse de** = to be jealous of",
       "englishPhrase": "He feels jealous.",
       "phrase": "Il ressent de la jalousie.",
-      "literal": [["Il", "he"], ["ressent", "feels"], ["de la", "some"], ["jalousie", "jealousy"]]
+      "literal": [
+        [
+          "Il",
+          "he"
+        ],
+        [
+          "ressent",
+          "feels"
+        ],
+        [
+          "de la",
+          "some"
+        ],
+        [
+          "jalousie",
+          "jealousy"
+        ]
+      ]
     },
     {
       "id": "annoy",
@@ -330,16 +344,6 @@
       "phrase": "Je suis anxieux"
     },
     {
-      "id": "g_adjective_agreement_fr",
-      "grammar": true,
-      "english": "She is nervous. (adjective agrees → nerveuse)",
-      "word": "elle est nerveuse",
-      "grammarNote": "Adjectives change to match gender and number:\n**il est nerveux** / **elle est nerveuse** / **ils sont nerveux** / **elles sont nerveuses**. Many **-eux** adjectives become **-euse** in the feminine.",
-      "englishPhrase": "They (f.) are tired.",
-      "phrase": "Elles sont fatiguées.",
-      "literal": [["Elles", "they"], ["sont", "are"], ["fatiguées", "tired"]]
-    },
-    {
       "id": "nervous",
       "english": "nervous",
       "word": "nerveux",
@@ -411,16 +415,6 @@
       "grammarNote": "**énergique** = energetic (adjective, invariable in gender: same for masc. and fem.).\n**très énergique** = very energetic · **une personne énergique** = an energetic person.\nAdverb: **énergiquement** = energetically.\nRelated: **l'énergie** (fem., energy noun) · **dynamique** (dynamic — a close synonym): elle est très dynamique.",
       "englishPhrase": "She is very energetic.",
       "phrase": "Elle est très énergique."
-    },
-    {
-      "id": "g_se_sentir",
-      "grammar": true,
-      "english": "I feel tired. (je me sens — reflexive)",
-      "word": "je me sens fatigué",
-      "grammarNote": "**se sentir** (to feel) is reflexive — the pronoun matches the subject:\n**je me sens** (I feel), **tu te sens**, **il se sent**. In **je me sens fatigué(e)** the adjective still agrees with you.",
-      "englishPhrase": "How do you feel? — I feel good.",
-      "phrase": "Comment tu te sens ? — Je me sens bien.",
-      "literal": [["Comment", "how"], ["te", "yourself"], ["sens", "feel"], ["me", "myself"], ["sens", "feel"], ["bien", "well"]]
     },
     {
       "id": "tired",

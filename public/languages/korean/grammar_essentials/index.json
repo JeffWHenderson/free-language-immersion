@@ -1,0 +1,870 @@
+{
+  "id": "grammar_essentials",
+  "name": "Grammar Essentials",
+  "language": "korean",
+  "cards": [
+    {
+      "id": "g_topic_particle",
+      "grammar": true,
+      "english": "I am a student. (저는 … 이에요/예요)",
+      "word": "저는 학생이에요",
+      "romanized": "jeoneun haksaeng-ieyo",
+      "grammarNote": "**은/는** marks the topic (**는** after a vowel, **은** after a consonant). **이에요/예요** = polite 'is/am/are' (**이에요** after a consonant, **예요** after a vowel):\n**저는 학생이에요** (I'm a student). **저** = I (humble).",
+      "englishPhrase": "I'm Korean.",
+      "phrase": "저는 한국 사람이에요.",
+      "phraseRomanized": "Jeoneun hanguk saram-ieyo.",
+      "literal": [
+        [
+          "저는",
+          "I-(topic)"
+        ],
+        [
+          "한국 사람",
+          "Korean"
+        ],
+        [
+          "이에요",
+          "am"
+        ]
+      ],
+      "format": "table",
+      "table": {
+        "title": "Particles change with the final sound",
+        "rows": [
+          [
+            "topic",
+            "은 (after consonant) / 는 (after vowel)"
+          ],
+          [
+            "subject",
+            "이 / 가"
+          ],
+          [
+            "object",
+            "을 / 를"
+          ]
+        ],
+        "note": "학생은, 저는 · 눈이, 커피가 · 밥을, 커피를"
+      }
+    },
+    {
+      "id": "g_object_sov",
+      "grammar": true,
+      "english": "I eat rice. (object 을/를, verb last)",
+      "word": "밥을 먹어요",
+      "romanized": "bab-eul meogeoyo",
+      "grammarNote": "Korean is **Subject–Object–Verb** — the verb comes last. **을/를** marks the object (**을** after a consonant, **를** after a vowel):\n**밥을 먹어요** (eat rice), **물을 마셔요** (drink water).",
+      "englishPhrase": "I drink coffee.",
+      "phrase": "커피를 마셔요.",
+      "phraseRomanized": "Keopireul masyeoyo.",
+      "literal": [
+        [
+          "커피",
+          "coffee"
+        ],
+        [
+          "를",
+          "(obj)"
+        ],
+        [
+          "마셔요",
+          "drink"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I eat rice. (object particle)",
+        "text": "밥___ 먹어요",
+        "answer": "을 (eul)",
+        "options": [
+          "을",
+          "를"
+        ]
+      }
+    },
+    {
+      "id": "g_yo_politeness",
+      "grammar": true,
+      "english": "to eat → eats (polite -요 ending)",
+      "word": "먹어요",
+      "romanized": "meogeoyo",
+      "grammarNote": "The **-요** ending makes speech polite but friendly — the everyday standard:\n**먹어요** (eat), **가요** (go), **마셔요** (drink). Drop **요** for casual speech with close friends: **먹어**. **-ㅂ니다/습니다** is the formal ending.",
+      "englishPhrase": "I go to school.",
+      "phrase": "학교에 가요.",
+      "phraseRomanized": "Hakgyoe gayo.",
+      "literal": [
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "에",
+          "to"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Polite speech ends in -요",
+        "task": "say: (I) eat",
+        "answer": "먹어요 meogeoyo",
+        "gloss": "Add -아/어요 to the verb stem; dropped in casual speech."
+      }
+    },
+    {
+      "id": "g_possessive_ui",
+      "grammar": true,
+      "english": "my name (저의 → 제)",
+      "word": "제 이름",
+      "romanized": "je ireum",
+      "grammarNote": "**의** links owner to thing (A**의** B = 'A's B'). With **저** (I), **저의** usually shortens to **제**:\n**제 이름** (my name), **제 친구** (my friend), **한국의 음식** (Korea's food).",
+      "englishPhrase": "This is my friend.",
+      "phrase": "이 사람은 제 친구예요.",
+      "phraseRomanized": "I sarameun je chinguyeyo.",
+      "literal": [
+        [
+          "이 사람",
+          "this-person"
+        ],
+        [
+          "은",
+          "(topic)"
+        ],
+        [
+          "제",
+          "my"
+        ],
+        [
+          "친구",
+          "friend"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "my name (저의 → contracted)",
+        "text": "___ 이름",
+        "answer": "제 (je)",
+        "options": [
+          "저의",
+          "제"
+        ]
+      }
+    },
+    {
+      "id": "g_yesno_question",
+      "grammar": true,
+      "english": "Are you a student? (same form, rising tone)",
+      "word": "학생이에요?",
+      "romanized": "haksaeng-ieyo?",
+      "grammarNote": "In polite **-요** speech, a yes/no question looks **identical to the statement** — only the rising intonation (and the '?') changes:\n**학생이에요.** (You're a student.) → **학생이에요?** (Are you a student?). Nothing is added or reordered.",
+      "englishPhrase": "Are you okay?",
+      "phrase": "괜찮아요?",
+      "phraseRomanized": "Gwaenchanayo?",
+      "literal": [
+        [
+          "괜찮아요",
+          "okay"
+        ],
+        [
+          "?",
+          "[?]"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Statement vs yes/no question (same words)",
+        "a": {
+          "term": "학생이에요. haksaeng-ieyo.",
+          "gloss": "statement — falling tone"
+        },
+        "b": {
+          "term": "학생이에요? haksaeng-ieyo?",
+          "gloss": "question — rising tone only"
+        }
+      }
+    },
+    {
+      "id": "g_juseyo",
+      "grammar": true,
+      "english": "Water, please. (… 주세요)",
+      "word": "물 주세요",
+      "romanized": "mul juseyo",
+      "grammarNote": "**주세요** = 'please give (me)' — the go-to way to order or request:\n**물 주세요** (water, please), **커피 주세요** (a coffee, please). You can add the object particle **을/를**, but it's often dropped in speech.",
+      "englishPhrase": "Please give me the menu.",
+      "phrase": "메뉴 주세요.",
+      "phraseRomanized": "Menyu juseyo.",
+      "literal": [
+        [
+          "메뉴",
+          "menu"
+        ],
+        [
+          "주세요",
+          "please-give"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "noun + 주세요 = please give me …",
+        "task": "say: water, please",
+        "answer": "물 주세요 mul juseyo",
+        "gloss": "Polite way to ask for or order something."
+      }
+    },
+    {
+      "id": "g_joahaeyo",
+      "grammar": true,
+      "english": "I like coffee. (… 을/를 좋아해요)",
+      "word": "커피를 좋아해요",
+      "romanized": "keopireul joahaeyo",
+      "grammarNote": "**좋아해요** (to like) is a verb and takes the object particle **을/를**:\n**커피를 좋아해요** (I like coffee), **과일을 좋아해요** (I like fruit). Don't confuse it with **좋아요** (it's good — an adjective).",
+      "englishPhrase": "I like fish.",
+      "phrase": "생선을 좋아해요.",
+      "phraseRomanized": "Saengseoneul joahaeyo.",
+      "literal": [
+        [
+          "생선",
+          "fish"
+        ],
+        [
+          "을",
+          "(obj)"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I like coffee. (object particle)",
+        "text": "커피___ 좋아해요",
+        "answer": "를 (reul)",
+        "options": [
+          "을",
+          "를"
+        ]
+      }
+    },
+    {
+      "id": "g_an_negation",
+      "grammar": true,
+      "english": "I don't drink coffee. (안 + verb)",
+      "word": "커피를 안 마셔요",
+      "romanized": "keopireul an masyeoyo",
+      "grammarNote": "Put **안** right before the verb to negate it:\n**안 마셔요** (don't drink), **안 먹어요** (don't eat), **안 가요** (don't go). A more formal option is **-지 않아요**: **마시지 않아요**.",
+      "englishPhrase": "I don't eat meat.",
+      "phrase": "고기를 안 먹어요.",
+      "phraseRomanized": "Gogireul an meogeoyo.",
+      "literal": [
+        [
+          "고기",
+          "meat"
+        ],
+        [
+          "를",
+          "(obj)"
+        ],
+        [
+          "안",
+          "not"
+        ],
+        [
+          "먹어요",
+          "eat"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I don't drink coffee. (negation)",
+        "text": "커피를 ___ 마셔요",
+        "answer": "안 (an)"
+      }
+    },
+    {
+      "id": "g_adjective_yo",
+      "grammar": true,
+      "english": "It's delicious. (맛있어요 — adjective as verb)",
+      "word": "맛있어요",
+      "romanized": "masisseoyo",
+      "grammarNote": "Korean adjectives conjugate like verbs and end the sentence directly — no separate 'is':\n**맛있어요** (it's delicious), **매워요** (it's spicy), **뜨거워요** (it's hot). Just the adjective + **-요**.",
+      "englishPhrase": "This kimchi is delicious!",
+      "phrase": "이 김치는 맛있어요.",
+      "phraseRomanized": "I gimchineun masisseoyo.",
+      "literal": [
+        [
+          "이",
+          "this"
+        ],
+        [
+          "김치",
+          "kimchi"
+        ],
+        [
+          "는",
+          "(topic)"
+        ],
+        [
+          "맛있어요",
+          "is-delicious"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Adjectives conjugate like verbs (no 'to be')",
+        "task": "say: it's delicious",
+        "answer": "맛있어요 masisseoyo",
+        "gloss": "맛있다 → 맛있어요. The -요 ending does the work."
+      }
+    },
+    {
+      "id": "g_isseoyo",
+      "grammar": true,
+      "english": "There is a bank. (… 있어요)",
+      "word": "은행이 있어요",
+      "romanized": "eunhaeng-i isseoyo",
+      "grammarNote": "**있어요** = there is / exists (also 'have'); the opposite is **없어요** (there isn't):\n**은행이 있어요** (there's a bank), **화장실이 없어요** (there's no bathroom). The thing takes the subject particle **이/가**.",
+      "englishPhrase": "Is there a bathroom here?",
+      "phrase": "여기 화장실 있어요?",
+      "phraseRomanized": "Yeogi hwajangsil isseoyo?",
+      "literal": [
+        [
+          "여기",
+          "here"
+        ],
+        [
+          "화장실",
+          "bathroom"
+        ],
+        [
+          "있어요",
+          "there-is"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "There is a bank. (subject particle)",
+        "text": "은행___ 있어요",
+        "answer": "이 (i)",
+        "options": [
+          "이",
+          "가"
+        ]
+      }
+    },
+    {
+      "id": "g_e_location",
+      "grammar": true,
+      "english": "I'm at home. (place 에 + 있어요)",
+      "word": "집에 있어요",
+      "romanized": "jibe isseoyo",
+      "grammarNote": "**에** marks a static location with **있어요** (to be/exist) — and also a destination with motion verbs:\n**집에 있어요** (I'm at home), **학교에 가요** (I go to school). Read from the verb which meaning applies.",
+      "englishPhrase": "The bank is next to the school.",
+      "phrase": "은행은 학교 옆에 있어요.",
+      "phraseRomanized": "Eunhaeng-eun hakgyo yeope isseoyo.",
+      "literal": [
+        [
+          "은행",
+          "bank"
+        ],
+        [
+          "은",
+          "(topic)"
+        ],
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "옆에",
+          "next-to"
+        ],
+        [
+          "있어요",
+          "is"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "에 or 에서?",
+        "a": {
+          "term": "집에 있어요 (jibe isseoyo)",
+          "gloss": "에 = static location / destination (be at, go to)"
+        },
+        "b": {
+          "term": "식당에서 먹어요 (sikdang-eseo meogeoyo)",
+          "gloss": "에서 = where an ACTION happens"
+        }
+      }
+    },
+    {
+      "id": "g_eseo_action",
+      "grammar": true,
+      "english": "I eat at a restaurant. (place 에서 + action)",
+      "word": "식당에서 먹어요",
+      "romanized": "sikdang-eseo meogeoyo",
+      "grammarNote": "Use **에서** for where an action takes place (vs **에** for existence/destination):\n**식당에서 먹어요** (eat at a restaurant), **집에서 일해요** (work at home). The action verb comes last.",
+      "englishPhrase": "I study at the library.",
+      "phrase": "도서관에서 공부해요.",
+      "phraseRomanized": "Doseogwan-eseo gongbuhaeyo.",
+      "literal": [
+        [
+          "도서관",
+          "library"
+        ],
+        [
+          "에서",
+          "at"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "에 vs 에서 (place)",
+        "a": {
+          "term": "집에 있어요 jibe isseoyo",
+          "gloss": "에 = static location (to be AT)"
+        },
+        "b": {
+          "term": "식당에서 먹어요 sikdang-eseo meogeoyo",
+          "gloss": "에서 = where an action happens"
+        }
+      }
+    },
+    {
+      "id": "g_e_destination",
+      "grammar": true,
+      "english": "I go to the park. (destination 에 + 가요)",
+      "word": "공원에 가요",
+      "romanized": "gongwone gayo",
+      "grammarNote": "**에** + a motion verb (**가요** go, **와요** come) marks the destination:\n**공원에 가요** (go to the park), **집에 가요** (go home). The verb comes last.",
+      "englishPhrase": "I'm going to the airport tomorrow.",
+      "phrase": "내일 공항에 가요.",
+      "phraseRomanized": "Naeil gonghang-e gayo.",
+      "literal": [
+        [
+          "내일",
+          "tomorrow"
+        ],
+        [
+          "공항",
+          "airport"
+        ],
+        [
+          "에",
+          "to"
+        ],
+        [
+          "가요",
+          "go"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I go to the park. (destination particle)",
+        "text": "공원___ 가요",
+        "answer": "에 (e)"
+      }
+    },
+    {
+      "id": "g_job_ieyo",
+      "grammar": true,
+      "english": "I am a doctor. (저는 … 이에요/예요)",
+      "word": "저는 의사예요",
+      "romanized": "jeoneun uisayeyo",
+      "grammarNote": "State a job with **저는 … 이에요/예요** (**예요** after a vowel, **이에요** after a consonant):\n**저는 의사예요** (I'm a doctor), **저는 선생님이에요** (I'm a teacher). To ask: **무슨 일 하세요?** (what do you do?).",
+      "englishPhrase": "She is an engineer.",
+      "phrase": "그녀는 엔지니어예요.",
+      "phraseRomanized": "Geunyeoneun enjinieoyeyo.",
+      "literal": [
+        [
+          "그녀",
+          "she"
+        ],
+        [
+          "는",
+          "(topic)"
+        ],
+        [
+          "엔지니어",
+          "engineer"
+        ],
+        [
+          "예요",
+          "is"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "State your job: 저는 … 이에요/예요",
+        "task": "say: I am a doctor",
+        "answer": "저는 의사예요 jeoneun uisayeyo",
+        "gloss": "이에요 after a consonant, 예요 after a vowel (의사 → 예요)."
+      }
+    },
+    {
+      "id": "g_haeyo_verbs",
+      "grammar": true,
+      "english": "I exercise. (noun + 해요 = do)",
+      "word": "운동해요",
+      "romanized": "undonghaeyo",
+      "grammarNote": "**하다** (to do) → **해요** turns many nouns into verbs:\n**운동해요** (exercise), **공부해요** (study), **요리해요** (cook), **일해요** (work). Very productive — attach **해요** to an activity noun.",
+      "englishPhrase": "I study every day.",
+      "phrase": "매일 공부해요.",
+      "phraseRomanized": "Maeil gongbuhaeyo.",
+      "literal": [
+        [
+          "매일",
+          "every-day"
+        ],
+        [
+          "공부해요",
+          "study"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "noun + 해요 = to do (makes a verb)",
+        "task": "say: I exercise",
+        "answer": "운동해요 undonghaeyo",
+        "gloss": "공부해요 = I study, 일해요 = I work."
+      }
+    },
+    {
+      "id": "g_eseo_ilhaeyo",
+      "grammar": true,
+      "english": "I work at a company. (… 에서 일해요)",
+      "word": "회사에서 일해요",
+      "romanized": "hoesa-eseo ilhaeyo",
+      "grammarNote": "Use **에서** for the workplace + **일해요** (work):\n**회사에서 일해요** (work at a company), **병원에서 일해요** (at a hospital). For 'work as a…', use the job + **(으)로**: **의사로 일해요**.",
+      "englishPhrase": "I work at a school.",
+      "phrase": "학교에서 일해요.",
+      "phraseRomanized": "Hakgyo-eseo ilhaeyo.",
+      "literal": [
+        [
+          "학교",
+          "school"
+        ],
+        [
+          "에서",
+          "at"
+        ],
+        [
+          "일해요",
+          "work"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "place + 에서 일해요 = to work AT a place",
+        "task": "say: I work at a company",
+        "answer": "회사에서 일해요 hoesa-eseo ilhaeyo",
+        "gloss": "에서 marks where the action happens."
+      }
+    },
+    {
+      "id": "g_neun_geot",
+      "grammar": true,
+      "english": "I like swimming. (verb + 는 것을 좋아해요)",
+      "word": "수영하는 것을 좋아해요",
+      "romanized": "suyeonghaneun geoseul joahaeyo",
+      "grammarNote": "To say you like *doing* something, turn the verb into a noun with **-는 것** + **을 좋아해요**:\n**수영하는 것을 좋아해요** (I like swimming), **책 읽는 것을 좋아해요** (I like reading). **것** = 'thing / act'.",
+      "englishPhrase": "I like running.",
+      "phrase": "달리는 것을 좋아해요.",
+      "phraseRomanized": "Dallineun geoseul joahaeyo.",
+      "literal": [
+        [
+          "달리는 것",
+          "running"
+        ],
+        [
+          "을",
+          "(obj)"
+        ],
+        [
+          "좋아해요",
+          "like"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "verb + 는 것을 좋아해요 = like doing",
+        "task": "say: I like swimming",
+        "answer": "수영하는 것을 좋아해요 suyeonghaneun geoseul joahaeyo",
+        "gloss": "는 것 turns a verb into 'the act of ~'."
+      }
+    },
+    {
+      "id": "g_adjective_feeling",
+      "grammar": true,
+      "english": "I'm happy. (기뻐요 — adjective as predicate)",
+      "word": "기뻐요",
+      "romanized": "gippeoyo",
+      "grammarNote": "Emotion adjectives conjugate like verbs and end the sentence — no separate 'am':\n**기뻐요** (I'm glad), **슬퍼요** (I'm sad), **행복해요** (I'm happy). The subject **저는** is usually dropped when it's clearly about you.",
+      "englishPhrase": "I'm really happy today.",
+      "phrase": "오늘 정말 행복해요.",
+      "phraseRomanized": "Oneul jeongmal haengbokaeyo.",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "정말",
+          "really"
+        ],
+        [
+          "행복해요",
+          "am-happy"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Feelings are adjectives that conjugate (no 'to be')",
+        "task": "say: I'm happy",
+        "answer": "기뻐요 gippeoyo",
+        "gloss": "기쁘다 → 기뻐요. Just the -요 form."
+      }
+    },
+    {
+      "id": "g_gibun",
+      "grammar": true,
+      "english": "I feel good. (기분이 좋아요)",
+      "word": "기분이 좋아요",
+      "romanized": "gibuni joayo",
+      "grammarNote": "Talk about mood with **기분** (feeling) + **이/가** + an adjective:\n**기분이 좋아요** (I feel good), **기분이 나빠요** (I feel bad). Literally 'the feeling is good/bad'.",
+      "englishPhrase": "How do you feel? — I feel good.",
+      "phrase": "기분이 어때요? — 기분이 좋아요.",
+      "phraseRomanized": "Gibuni eottaeyo? — Gibuni joayo.",
+      "literal": [
+        [
+          "기분",
+          "feeling"
+        ],
+        [
+          "이",
+          "(subj)"
+        ],
+        [
+          "어때요",
+          "how-is"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "기분이 좋아요 = I feel good (lit. mood is good)",
+        "task": "say: I feel good",
+        "answer": "기분이 좋아요 gibuni joayo",
+        "gloss": "기분 = mood; 기분이 나빠요 = I feel bad."
+      }
+    },
+    {
+      "id": "g_nervous_dwaeyo",
+      "grammar": true,
+      "english": "I'm nervous. (긴장돼요)",
+      "word": "긴장돼요",
+      "romanized": "ginjangdwaeyo",
+      "grammarNote": "Some feelings use **되다** (to become) → **돼요**, describing a state you've entered:\n**긴장돼요** (I'm nervous), **걱정돼요** (I'm worried). It focuses on the feeling coming over you rather than a fixed trait.",
+      "englishPhrase": "I'm a little nervous.",
+      "phrase": "조금 긴장돼요.",
+      "phraseRomanized": "Jogeum ginjangdwaeyo.",
+      "literal": [
+        [
+          "조금",
+          "a-little"
+        ],
+        [
+          "긴장돼요",
+          "am-nervous"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "되다 (become) for some feelings",
+        "task": "say: I'm nervous",
+        "answer": "긴장돼요 ginjangdwaeyo",
+        "gloss": "긴장 (tension) + 돼요 = become nervous."
+      }
+    },
+    {
+      "id": "g_pigonhaeyo",
+      "grammar": true,
+      "english": "I'm tired. (피곤해요 — 하다 adjective)",
+      "word": "피곤해요",
+      "romanized": "pigonhaeyo",
+      "grammarNote": "Many state words are **하다**-adjectives ending in **해요**:\n**피곤해요** (I'm tired), **행복해요** (happy), **미안해요** (sorry). Add an adverb for degree: **너무 피곤해요** (I'm so tired).",
+      "englishPhrase": "I'm really tired today.",
+      "phrase": "오늘 너무 피곤해요.",
+      "phraseRomanized": "Oneul neomu pigonhaeyo.",
+      "literal": [
+        [
+          "오늘",
+          "today"
+        ],
+        [
+          "너무",
+          "so"
+        ],
+        [
+          "피곤해요",
+          "am-tired"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "하다-adjectives take 해요",
+        "task": "say: I'm tired",
+        "answer": "피곤해요 pigonhaeyo",
+        "gloss": "피곤하다 → 피곤해요. Same 해요 pattern."
+      }
+    },
+    {
+      "id": "g_body_apayo",
+      "grammar": true,
+      "english": "My head hurts. (… 이/가 아파요)",
+      "word": "머리가 아파요",
+      "romanized": "meoriga apayo",
+      "grammarNote": "To say a body part hurts, mark it with **이/가** + **아파요** (to hurt / be sick):\n**머리가 아파요** (headache), **배가 아파요** (stomachache), **목이 아파요** (sore throat). **아프다** conjugates like an adjective.",
+      "englishPhrase": "My tooth hurts.",
+      "phrase": "이가 아파요.",
+      "phraseRomanized": "Iga apayo.",
+      "literal": [
+        [
+          "이",
+          "tooth"
+        ],
+        [
+          "가",
+          "(subj)"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "My head hurts. (subject particle)",
+        "text": "머리___ 아파요",
+        "answer": "가 (ga)",
+        "options": [
+          "이",
+          "가"
+        ]
+      }
+    },
+    {
+      "id": "g_possessive_body",
+      "grammar": true,
+      "english": "my hand (제 손)",
+      "word": "제 손",
+      "romanized": "je son",
+      "grammarNote": "Show possession with **제** (my, from 저의) before the body part:\n**제 손** (my hand), **제 눈** (my eyes). In everyday speech Koreans often drop it when it's obvious whose body part it is.",
+      "englishPhrase": "My hand hurts.",
+      "phrase": "제 손이 아파요.",
+      "phraseRomanized": "Je soni apayo.",
+      "literal": [
+        [
+          "제",
+          "my"
+        ],
+        [
+          "손",
+          "hand"
+        ],
+        [
+          "이",
+          "(subj)"
+        ],
+        [
+          "아파요",
+          "hurts"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "제 = my (제 + noun)",
+        "task": "say: my hand",
+        "answer": "제 손 je son",
+        "gloss": "제 comes from 저의. 제 이름 = my name."
+      }
+    },
+    {
+      "id": "g_i_ga_subject",
+      "grammar": true,
+      "english": "The eyes are big. (subject 이/가)",
+      "word": "눈이 커요",
+      "romanized": "nuni keoyo",
+      "grammarNote": "**이/가** marks the subject — the thing being described (**이** after a consonant, **가** after a vowel):\n**눈이 커요** (the eyes are big), **손이 작아요** (the hands are small). Add a topic for 'I have…': **저는 눈이 커요**.",
+      "englishPhrase": "My legs are long.",
+      "phrase": "다리가 길어요.",
+      "phraseRomanized": "Dariga gireoyo.",
+      "literal": [
+        [
+          "다리",
+          "legs"
+        ],
+        [
+          "가",
+          "(subj)"
+        ],
+        [
+          "길어요",
+          "are-long"
+        ]
+      ],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "The eyes are big. (subject particle)",
+        "text": "눈___ 커요",
+        "answer": "이 (i)",
+        "options": [
+          "이",
+          "가"
+        ]
+      }
+    },
+    {
+      "id": "g_adjective_body",
+      "grammar": true,
+      "english": "My hands are cold. (손이 차가워요)",
+      "word": "손이 차가워요",
+      "romanized": "soni chagawoyo",
+      "grammarNote": "Korean adjectives end the sentence themselves — no separate 'are':\n**손이 차가워요** (hands are cold), **손이 따뜻해요** (hands are warm). Add a topic for whose: **저는 손이 차가워요** (my hands are cold).",
+      "englishPhrase": "My hands are warm.",
+      "phrase": "손이 따뜻해요.",
+      "phraseRomanized": "Soni ttatteutaeyo.",
+      "literal": [
+        [
+          "손",
+          "hands"
+        ],
+        [
+          "이",
+          "(subj)"
+        ],
+        [
+          "따뜻해요",
+          "are-warm"
+        ]
+      ],
+      "format": "produce",
+      "produce": {
+        "concept": "Describe with 이/가 + adjective",
+        "task": "say: my hands are cold",
+        "answer": "손이 차가워요 soni chagawoyo",
+        "gloss": "손이 (hands) + 차가워요 (are cold). The adjective conjugates."
+      }
+    }
+  ]
+}

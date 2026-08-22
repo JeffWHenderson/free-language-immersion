@@ -11,7 +11,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 30
+      "count": 25
     },
     {
       "n": 2,
@@ -22,50 +22,6 @@
     }
   ],
   "cards": [
-    {
-      "id": "g_nominal_sentence",
-      "grammar": true,
-      "english": "I am a student. (nominal sentence — no 'am')",
-      "word": "أنا طالب",
-      "romanized": "ana talib",
-      "grammarNote": "Arabic has **no present-tense 'to be'**. Just place two words side by side:\n**أنا طالب** (I [am a] student), **هي طبيبة** (she [is a] doctor), **الكتاب جديد** (the book [is] new).",
-      "englishPhrase": "I am from Egypt.",
-      "phrase": "أنا من مصر.",
-      "phraseRomanized": "Ana min misr."
-    },
-    {
-      "id": "g_definite_al",
-      "grammar": true,
-      "english": "the book (الـ + noun)",
-      "word": "الكتاب",
-      "romanized": "al-kitab",
-      "grammarNote": "**الـ** (al-) = 'the', attached to the front of the noun:\n**كتاب** (a book) → **الكتاب** (the book). Before 'sun letters' (ت، س، ش، ن …) the **l** assimilates in sound: **الشمس** is said 'ash-shams', still written الـ.",
-      "englishPhrase": "The house is big.",
-      "phrase": "البيت كبير.",
-      "phraseRomanized": "Al-bayt kabir."
-    },
-    {
-      "id": "g_gender_agreement",
-      "grammar": true,
-      "english": "he is tired / she is tired (gender: ة)",
-      "word": "هو تعبان / هي تعبانة",
-      "romanized": "huwa ta'ban / hiya ta'bana",
-      "grammarNote": "Every noun and adjective is **masculine or feminine**; the feminine usually adds **ة** (taa marbuuta):\n**هو تعبان / هي تعبانة** (he/she is tired), **طالب / طالبة** (male/female student). Adjectives agree with their noun.",
-      "englishPhrase": "He is a teacher, she is a teacher.",
-      "phrase": "هو معلم، هي معلمة.",
-      "phraseRomanized": "Huwa mu'allim, hiya mu'allima."
-    },
-    {
-      "id": "g_possessive_suffix",
-      "grammar": true,
-      "english": "my name (اسم + ي)",
-      "word": "اسمي",
-      "romanized": "ismi",
-      "grammarNote": "Possession is shown by **suffixes** attached to the noun:\n**ـي** (my) **اسمي** (my name), **ـك** (your) **اسمك**, **ـه** (his) **اسمه**, **ـها** (her) **اسمها**. There's no separate word for 'my'.",
-      "englishPhrase": "My name is Sami.",
-      "phrase": "اسمي سامي.",
-      "phraseRomanized": "Ismi Sami."
-    },
     {
       "id": "hello",
       "english": "Hello",
@@ -105,7 +61,16 @@
       "englishPhrase": "You're welcome!",
       "phrase": "عفواً! لا شكر على واجب.",
       "phraseRomanized": "ʿAfwan! Lā shukr ʿalā wājib.",
-      "literal": [["عفواً", "you're welcome/pardon"], ["لا شكر على واجب", "no thanks needed"]]
+      "literal": [
+        [
+          "عفواً",
+          "you're welcome/pardon"
+        ],
+        [
+          "لا شكر على واجب",
+          "no thanks needed"
+        ]
+      ]
     },
     {
       "id": "good_morning",
@@ -126,18 +91,20 @@
       "englishPhrase": "Good night, sleep well!",
       "phrase": "تصبح على خير، نم جيداً!",
       "phraseRomanized": "Tuṣbiḥ ʿalā khayr, nam jayyidan!",
-      "literal": [["تصبح على خير", "good night (lit: wake on goodness)"], ["نم", "sleep"], ["جيداً", "well"]]
-    },
-    {
-      "id": "g_question_hal",
-      "grammar": true,
-      "english": "Are you a student? (هل …)",
-      "word": "هل أنت طالب؟",
-      "romanized": "hal anta talib?",
-      "grammarNote": "Turn a statement into a yes/no question by adding **هل** (or **أ**) at the front:\n**أنت طالب** → **هل أنت طالب؟** (are you a student?). Answer with **نعم** (yes) or **لا** (no).",
-      "englishPhrase": "Do you speak Arabic?",
-      "phrase": "هل تتكلم العربية؟",
-      "phraseRomanized": "Hal tatakallam al-'arabiyya?"
+      "literal": [
+        [
+          "تصبح على خير",
+          "good night (lit: wake on goodness)"
+        ],
+        [
+          "نم",
+          "sleep"
+        ],
+        [
+          "جيداً",
+          "well"
+        ]
+      ]
     },
     {
       "id": "how_are_you",
@@ -148,7 +115,24 @@
       "englishPhrase": "How are you? Fine, thanks.",
       "phrase": "كيف حالك؟ بخير، شكراً.",
       "phraseRomanized": "Kayfa ḥālak? Bikhayr, shukran.",
-      "literal": [["كيف", "how"], ["حالك", "your condition"], ["بخير", "well/fine"], ["شكراً", "thanks"]]
+      "literal": [
+        [
+          "كيف",
+          "how"
+        ],
+        [
+          "حالك",
+          "your condition"
+        ],
+        [
+          "بخير",
+          "well/fine"
+        ],
+        [
+          "شكراً",
+          "thanks"
+        ]
+      ]
     },
     {
       "id": "nice_to_meet_you",
@@ -159,7 +143,16 @@
       "englishPhrase": "Nice to meet you!",
       "phrase": "يسعدني لقاؤك!",
       "phraseRomanized": "Yasʿadunī liqāʾuk!",
-      "literal": [["يسعدني", "makes me happy"], ["لقاؤك", "meeting you"]]
+      "literal": [
+        [
+          "يسعدني",
+          "makes me happy"
+        ],
+        [
+          "لقاؤك",
+          "meeting you"
+        ]
+      ]
     },
     {
       "id": "goodbye",

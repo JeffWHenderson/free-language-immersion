@@ -13,7 +13,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 30
+      "count": 25
     },
     {
       "n": 2,
@@ -24,46 +24,6 @@
     }
   ],
   "cards": [
-    {
-      "id": "g_gender_articles",
-      "grammar": true,
-      "english": "the bread / the apple (le / la)",
-      "word": "le pain / la pomme",
-      "grammarNote": "Every French noun is masculine or feminine, and the article shows which:\n**le** (masc.) / **la** (fem.); **un** / **une** for 'a'. → **le pain** (bread), **la pomme** (apple). Before a vowel, **le/la → l'**: **l'eau** (water).",
-      "englishPhrase": "The man and the woman.",
-      "phrase": "L'homme et la femme.",
-      "literal": [["L'homme", "the-man"], ["et", "and"], ["la", "the"], ["femme", "woman"]]
-    },
-    {
-      "id": "g_etre_pronoun",
-      "grammar": true,
-      "english": "I am a student. (subject pronoun required)",
-      "word": "je suis étudiant",
-      "grammarNote": "French always keeps the subject pronoun, and **être** (to be) is irregular:\n**je suis** (I am), **tu es** (you are), **il/elle est** (he/she is), **nous sommes**, **vous êtes**, **ils/elles sont**.",
-      "englishPhrase": "I'm a student, and you?",
-      "phrase": "Je suis étudiant, et toi ?",
-      "literal": [["Je", "I"], ["suis", "am"], ["étudiant", "student"]]
-    },
-    {
-      "id": "g_tu_vous",
-      "grammar": true,
-      "english": "you (formal or plural → vous)",
-      "word": "vous",
-      "grammarNote": "Two words for 'you': **tu** (informal, one person you know) · **vous** (formal, or more than one person):\n**tu es** (a friend) vs **vous êtes** (a stranger, or a group). Using **tu** with a stranger can seem too familiar.",
-      "englishPhrase": "How are you? (formal)",
-      "phrase": "Comment allez-vous ?",
-      "literal": [["Comment", "how"], ["allez", "go"], ["vous", "you"]]
-    },
-    {
-      "id": "g_negation_nepas",
-      "grammar": true,
-      "english": "I don't understand. (ne … pas wraps the verb)",
-      "word": "je ne comprends pas",
-      "grammarNote": "Negation wraps the verb in two parts: **ne** + verb + **pas**:\n**je ne comprends pas** (I don't understand), **je ne sais pas** (I don't know). In casual speech the **ne** is often dropped: **je sais pas**.",
-      "englishPhrase": "I don't know.",
-      "phrase": "Je ne sais pas.",
-      "literal": [["Je", "I"], ["ne", "(not)"], ["sais", "know"], ["pas", "not"]]
-    },
     {
       "id": "hello",
       "english": "Hello",
@@ -95,7 +55,16 @@
       "grammarNote": "**de rien** = literally 'of nothing' — the most common informal response to merci.\nMore warm alternatives: **avec plaisir** (with pleasure) · **je vous en prie** (formal, 'I beg of you') · **c'est normal** (it's nothing).\nIn Québec French, **bienvenue** is used for 'you're welcome'.",
       "englishPhrase": "Thank you! — You're welcome.",
       "phrase": "Merci ! — De rien.",
-      "literal": [["De", "of"], ["rien", "nothing"]]
+      "literal": [
+        [
+          "De",
+          "of"
+        ],
+        [
+          "rien",
+          "nothing"
+        ]
+      ]
     },
     {
       "id": "good_morning",
@@ -112,17 +81,24 @@
       "grammarNote": "**bonne nuit** = **bonne** (good, fem.) + **nuit** (night, fem.) — **la nuit** is feminine.\nOnly used when someone is going to bed — not as a general evening farewell.\nFor a daytime farewell: **bonne journée** · evening departure: **bonne soirée**.",
       "englishPhrase": "Good night, sleep well!",
       "phrase": "Bonne nuit, dors bien !",
-      "literal": [["Bonne", "good"], ["nuit", "night"], ["dors", "sleep"], ["bien", "well"]]
-    },
-    {
-      "id": "g_question_estce",
-      "grammar": true,
-      "english": "Do you speak French? (est-ce que)",
-      "word": "est-ce que tu parles français ?",
-      "grammarNote": "Three ways to ask a yes/no question:\n1) rising intonation — **Tu parles français ?**  2) add **est-ce que** in front — **Est-ce que tu parles français ?**  3) invert verb + pronoun — **Parles-tu français ?** (most formal).",
-      "englishPhrase": "Are you okay?",
-      "phrase": "Est-ce que ça va ?",
-      "literal": [["Est-ce que", "(question)"], ["ça", "it"], ["va", "goes"]]
+      "literal": [
+        [
+          "Bonne",
+          "good"
+        ],
+        [
+          "nuit",
+          "night"
+        ],
+        [
+          "dors",
+          "sleep"
+        ],
+        [
+          "bien",
+          "well"
+        ]
+      ]
     },
     {
       "id": "how_are_you",
@@ -131,7 +107,28 @@
       "grammarNote": "**comment allez-vous ?** = formal inversion form (**allez-vous** = are you going).\nInformal: **comment tu vas ?** or just **ça va ?**\n**Comment ça va ?** literally means 'how is it going?' — a very common casual greeting.\nThe standard reply: **ça va bien, merci** (going well, thanks).",
       "englishPhrase": "How are you? Very well, thanks.",
       "phrase": "Comment allez-vous ? Très bien, merci.",
-      "literal": [["Comment", "how"], ["allez-vous", "are-you-going"], ["Très", "very"], ["bien", "well"], ["merci", "thanks"]]
+      "literal": [
+        [
+          "Comment",
+          "how"
+        ],
+        [
+          "allez-vous",
+          "are-you-going"
+        ],
+        [
+          "Très",
+          "very"
+        ],
+        [
+          "bien",
+          "well"
+        ],
+        [
+          "merci",
+          "thanks"
+        ]
+      ]
     },
     {
       "id": "nice_to_meet_you",
@@ -140,7 +137,28 @@
       "grammarNote": "**enchanté(e)** = past participle of **enchanter** (to enchant) — literally 'enchanted'.\nAdjectives agree with the speaker's gender: a man says **enchanté**, a woman says **enchantée**.\n**Enchanté de faire votre connaissance** is the full, formal phrase.",
       "englishPhrase": "Nice to meet you.",
       "phrase": "Enchanté de faire votre connaissance.",
-      "literal": [["Enchanté", "pleased"], ["de", "to"], ["faire", "make"], ["votre", "your"], ["connaissance", "acquaintance"]]
+      "literal": [
+        [
+          "Enchanté",
+          "pleased"
+        ],
+        [
+          "de",
+          "to"
+        ],
+        [
+          "faire",
+          "make"
+        ],
+        [
+          "votre",
+          "your"
+        ],
+        [
+          "connaissance",
+          "acquaintance"
+        ]
+      ]
     },
     {
       "id": "goodbye",

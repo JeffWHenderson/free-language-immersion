@@ -199,6 +199,7 @@ button.srs-count:hover {
 }
 
 /* ── SRS Home / deck list ── */
+/* Page header used by the sub-pages (stories, pictures, grammar lists). */
 .srs-home-header {
     text-align: center;
     margin-bottom: 20px;
@@ -217,6 +218,22 @@ button.srs-count:hover {
 
 .srs-header-row h2 {
     margin: 0;
+}
+
+/* Heading inside the main course deck card — labels the core decks as the
+   language's introduction (not a page title). */
+.srs-course-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.srs-course-title {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
 }
 
 .srs-lang-label {
@@ -726,123 +743,126 @@ button.srs-count:hover {
     font-weight: 500;
 }
 
-/* ── Pill grid (home screen pack selection) ── */
-.srs-pill-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+/* ── Topic list (home screen pack selection) ── */
+.srs-topic-list {
     width: 100%;
     max-width: 500px;
+    background-color: var(--card-color, #fff);
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     margin-bottom: 16px;
 }
 
-.srs-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 0;
-    border-radius: 20px;
-    border: 1.5px solid rgba(128, 128, 128, 0.35);
-    background: var(--card-color, #fff);
-    color: var(--text-color, #111);
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-weight: 600;
-    overflow: hidden;
-    transition: border-color 0.15s, background 0.15s, color 0.15s, opacity 0.15s;
-    user-select: none;
-}
-
-.srs-pill.active {
-    background-color: #2980b9;
-    border-color: #2980b9;
-    color: #fff;
-}
-
-.srs-pill.inactive {
-    opacity: 0.45;
-}
-
-.srs-pill-body {
-    padding: 5px 10px 5px 14px;
+.srs-topic-row {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 12px;
+    padding: 11px 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+    transition: opacity 0.2s;
 }
 
-.srs-pill-count {
-    font-size: 0.75rem;
-    font-weight: 400;
-    opacity: 0.7;
+.srs-topic-row:last-child {
+    border-bottom: none;
 }
 
-.srs-pill.active .srs-pill-count {
-    opacity: 0.8;
-}
-
-.srs-pill-count-total {
+.srs-topic-row.inactive {
     opacity: 0.5;
-    margin-left: 1px;
 }
 
-.srs-pill-info {
-    padding: 5px 10px 5px 6px;
+.srs-topic-row-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     background: none;
     border: none;
-    border-left: 1px solid rgba(128, 128, 128, 0.2);
-    cursor: pointer;
-    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    font: inherit;
     color: inherit;
-    opacity: 0.6;
+    text-align: left;
+    cursor: pointer;
+}
+
+.srs-topic-row-name {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-color, #111);
+}
+
+.srs-topic-row-count {
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+.srs-topic-row-chevron {
+    font-size: 1.1rem;
     line-height: 1;
-    transition: opacity 0.15s, background 0.15s;
+    opacity: 0.35;
+    transition: opacity 0.15s, transform 0.15s;
 }
 
-.srs-pill.active .srs-pill-info {
-    border-left-color: rgba(255, 255, 255, 0.3);
+.srs-topic-row-body:hover .srs-topic-row-chevron {
+    opacity: 0.7;
+    transform: translateX(2px);
 }
 
-.srs-pill-info:hover {
-    opacity: 1;
-    background: rgba(128, 128, 128, 0.1);
+/* Thin learned-progress sliver pinned to the row's bottom edge */
+.srs-topic-row-progress {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: rgba(128, 128, 128, 0.12);
 }
 
-.srs-pill.active .srs-pill-info:hover {
-    background: rgba(0, 0, 0, 0.1);
+.srs-topic-row-progress-fill {
+    height: 100%;
+    background: #2980b9;
+    transition: width 0.3s;
 }
 
-/* Grammar pills — distinct violet accent from the vocab (blue) pills */
-.srs-pill.grammar {
-    border-color: rgba(142, 68, 173, 0.4);
+/* Grammar rows — violet accent (matches embedded grammar cards) */
+.srs-topic-row.grammar .srs-topic-row-progress-fill,
+.srs-topic-row.grammar .srs-pack-toggle:checked {
+    background: #8e44ad;
 }
 
-.srs-pill.grammar.active {
-    background-color: #8e44ad;
-    border-color: #8e44ad;
-    color: #fff;
-}
-
-.srs-pill-section-toggle {
+/* Grammar sub-section header inside the same list */
+.srs-topic-section-header {
     display: flex;
     align-items: center;
     gap: 8px;
     width: 100%;
-    max-width: 500px;
-    margin: 2px 0 8px;
-    padding: 4px 0;
-    background: none;
+    padding: 10px 16px;
+    background: rgba(128, 128, 128, 0.04);
     border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
     cursor: pointer;
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    opacity: 0.65;
+    opacity: 0.75;
     color: var(--text-color, #111);
-    transition: opacity 0.15s;
+    transition: opacity 0.15s, background 0.15s;
 }
 
-.srs-pill-section-toggle:hover {
+.srs-topic-section-header:hover {
     opacity: 1;
+    background: rgba(128, 128, 128, 0.08);
 }
 
 .srs-section-chevron {
@@ -857,10 +877,75 @@ button.srs-count:hover {
 }
 
 .srs-section-meta {
+    margin-left: auto;
     font-weight: 500;
     letter-spacing: 0;
     text-transform: none;
     opacity: 0.7;
+}
+
+/* Extension Decks — a standalone section below the main course decks, with a
+   clear gap, whose members render as compact toggle pills. */
+.srs-extensions {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.srs-extensions-header {
+    border-radius: 12px;
+    border-bottom: none;
+    background: var(--card-color, #fff);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.srs-pill-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px 2px 2px;
+}
+
+.srs-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(128, 128, 128, 0.3);
+    background: transparent;
+    color: var(--text-color, #111);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.srs-pill:hover {
+    border-color: rgba(128, 128, 128, 0.55);
+}
+
+.srs-pill.active {
+    background: #2980b9;
+    border-color: #2980b9;
+    color: #fff;
+}
+
+/* Grammar-concept pills — violet accent (matches grammar cards) */
+.srs-pill.grammar {
+    border-color: rgba(142, 68, 173, 0.4);
+    color: #8e44ad;
+}
+
+.srs-pill.grammar:hover {
+    border-color: rgba(142, 68, 173, 0.7);
+}
+
+.srs-pill.grammar.active {
+    background: #8e44ad;
+    border-color: #8e44ad;
+    color: #fff;
 }
 
 /* ── Utility row (Stories / Grammar / Pictures / Print) ── */

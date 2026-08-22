@@ -11,37 +11,17 @@
   "parts": [
     {
       "n": 1,
-      "count": 25
+      "count": 23
     },
     {
       "n": 2,
-      "count": 23
+      "count": 21
     },
     {
       "n": 3
     }
   ],
   "cards": [
-    {
-      "id": "g_profession_no_article",
-      "grammar": true,
-      "english": "I am a doctor. (no article: je suis médecin)",
-      "word": "je suis médecin",
-      "grammarNote": "State a job with **être** and **no article**:\n**je suis médecin** (I'm a doctor), **elle est ingénieure** (she's an engineer). Add an article only with a description: **c'est un bon médecin**.",
-      "englishPhrase": "She is a teacher.",
-      "phrase": "Elle est professeure.",
-      "literal": [["Elle", "she"], ["est", "is"], ["professeure", "teacher"]]
-    },
-    {
-      "id": "g_jaime_infinitive",
-      "grammar": true,
-      "english": "I like reading. (j'aime + infinitive)",
-      "word": "j'aime lire",
-      "grammarNote": "To say you like doing something, use **aimer** + the infinitive:\n**j'aime lire** (I like reading), **j'aime courir** (I like running). No 'to' or '-ing' — just the plain verb.",
-      "englishPhrase": "I like listening to music.",
-      "phrase": "J'aime écouter de la musique.",
-      "literal": [["J'aime", "I-like"], ["écouter", "to-listen"], ["de la", "some"], ["musique", "music"]]
-    },
     {
       "id": "doctor",
       "english": "Doctor",
@@ -213,16 +193,6 @@
       "phrase": "Qu'est-ce que tu fais pendant ton temps libre ?"
     },
     {
-      "id": "g_travailler_comme",
-      "grammar": true,
-      "english": "I work as a nurse. (travailler comme / dans / chez)",
-      "word": "je travaille comme infirmier",
-      "grammarNote": "**travailler comme** = to work as; **travailler dans** = in (a field/place); **travailler chez** = at (a company):\n**je travaille comme infirmier**, **dans un hôpital**, **chez Google**.",
-      "englishPhrase": "I work in an office.",
-      "phrase": "Je travaille dans un bureau.",
-      "literal": [["Je", "I"], ["travaille", "work"], ["dans", "in"], ["un", "an"], ["bureau", "office"]]
-    },
-    {
       "id": "to_work_in_for_as",
       "english": "To work (in)",
       "word": "Travailler (dans)",
@@ -321,16 +291,6 @@
       "englishPhrase": "I run every morning.",
       "phrase": "Je cours tous les matins.",
       "hidden": true
-    },
-    {
-      "id": "g_faire_de",
-      "grammar": true,
-      "english": "I go swimming. (faire de la natation)",
-      "word": "je fais de la natation",
-      "grammarNote": "Many sports and hobbies use **faire de** + activity:\n**je fais de la natation** (I swim), **je fais du vélo** (I cycle). **faire** is irregular: **je fais, tu fais, il fait, nous faisons, vous faites, ils font**.",
-      "englishPhrase": "I go hiking on the weekend.",
-      "phrase": "Je fais de la randonnée le week-end.",
-      "literal": [["Je", "I"], ["fais", "do"], ["de la", "(some)"], ["randonnée", "hiking"]]
     },
     {
       "id": "swimming",

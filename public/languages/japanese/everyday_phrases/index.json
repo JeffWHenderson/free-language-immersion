@@ -16,7 +16,7 @@
   "parts": [
     {
       "n": 1,
-      "count": 30
+      "count": 25
     },
     {
       "n": 2,
@@ -28,54 +28,6 @@
   ],
   "cards": [
     {
-      "id": "g_wa_topic",
-      "grammar": true,
-      "english": "I am a student. (topic は + です)",
-      "word": "私は学生です",
-      "romanized": "watashi wa gakusei desu",
-      "grammarNote": "**は** (written は, said 'wa') marks the **topic** — what the sentence is about; **です** = polite 'is/am/are':\n**私は学生です** (I'm a student). Pattern: [topic] **は** [thing] **です**. The topic is often dropped when obvious.",
-      "englishPhrase": "I'm Japanese.",
-      "phrase": "私は日本人です。",
-      "phraseRomanized": "Watashi wa nihonjin desu.",
-      "literal": [["私", "I"], ["は", "(topic)"], ["日本人", "Japanese"], ["です", "am"]]
-    },
-    {
-      "id": "g_o_object_sov",
-      "grammar": true,
-      "english": "I eat rice. (object を, verb goes last)",
-      "word": "ご飯を食べます",
-      "romanized": "gohan o tabemasu",
-      "grammarNote": "Japanese is **Subject–Object–Verb** — the verb always comes last. **を** ('o') marks the direct object:\n**ご飯を食べます** (lit. 'rice-[obj]-eat'), **水を飲みます** (drink water).",
-      "englishPhrase": "I drink coffee.",
-      "phrase": "コーヒーを飲みます。",
-      "phraseRomanized": "Kōhī o nomimasu.",
-      "literal": [["コーヒー", "coffee"], ["を", "(obj)"], ["飲みます", "drink"]]
-    },
-    {
-      "id": "g_masu_politeness",
-      "grammar": true,
-      "english": "to drink → drinks (polite -ます)",
-      "word": "飲みます",
-      "romanized": "nomimasu",
-      "grammarNote": "The **-ます** ending makes a verb polite and present/future:\n**飲みます** (drink), **食べます** (eat), **行きます** (go). Negative = **-ません**: **飲みません** (don't drink). Use **-ます** with anyone you're not close to.",
-      "englishPhrase": "I go to school.",
-      "phrase": "学校に行きます。",
-      "phraseRomanized": "Gakkō ni ikimasu.",
-      "literal": [["学校", "school"], ["に", "to"], ["行きます", "go"]]
-    },
-    {
-      "id": "g_no_possessive",
-      "grammar": true,
-      "english": "my name (の links: A の B)",
-      "word": "私の名前",
-      "romanized": "watashi no namae",
-      "grammarNote": "**の** links two nouns: A **の** B = 'A's B' or 'B of A':\n**私の名前** (my name), **日本の車** (a Japanese car — lit. 'Japan's car'). The owner/modifier comes first.",
-      "englishPhrase": "This is my friend.",
-      "phrase": "これは私の友達です。",
-      "phraseRomanized": "Kore wa watashi no tomodachi desu.",
-      "literal": [["これ", "this"], ["は", "(topic)"], ["私の", "my"], ["友達", "friend"], ["です", "is"]]
-    },
-    {
       "id": "hello",
       "english": "Hello",
       "word": "こんにちは",
@@ -84,7 +36,24 @@
       "englishPhrase": "Hello! How are you?",
       "phrase": "こんにちは！お元気ですか？",
       "phraseRomanized": "Konnichiwa! O-genki desu ka?",
-      "literal": [["こんにちは", "hello"], ["お元気", "honorable-health"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "こんにちは",
+          "hello"
+        ],
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "please",
@@ -95,7 +64,20 @@
       "englishPhrase": "A coffee, please.",
       "phrase": "コーヒーをお願いします。",
       "phraseRomanized": "Kōhī wo onegaishimasu.",
-      "literal": [["コーヒー", "coffee"], ["を", "[obj]"], ["お願いします", "please"]]
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
     },
     {
       "id": "thank_you",
@@ -116,7 +98,12 @@
       "englishPhrase": "You're welcome! It was nothing.",
       "phrase": "どういたしまして。",
       "phraseRomanized": "Dō itashimashite.",
-      "literal": [["どういたしまして", "not at all / you're welcome"]]
+      "literal": [
+        [
+          "どういたしまして",
+          "not at all / you're welcome"
+        ]
+      ]
     },
     {
       "id": "good_morning",
@@ -127,7 +114,24 @@
       "englishPhrase": "Good morning! Did you sleep well?",
       "phrase": "おはようございます！よく眠れましたか？",
       "phraseRomanized": "Ohayou gozaimasu! Yoku nemuremashita ka?",
-      "literal": [["おはようございます", "good morning"], ["よく", "well"], ["眠れました", "slept"], ["か", "[?]"]]
+      "literal": [
+        [
+          "おはようございます",
+          "good morning"
+        ],
+        [
+          "よく",
+          "well"
+        ],
+        [
+          "眠れました",
+          "slept"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "good_night",
@@ -138,19 +142,20 @@
       "englishPhrase": "Good night! Sleep well.",
       "phrase": "おやすみなさい。よく眠れますように。",
       "phraseRomanized": "Oyasuminasai. Yoku nemuremasuyo ni.",
-      "literal": [["おやすみなさい", "good night"], ["よく", "well"], ["眠れますように", "may you sleep"]]
-    },
-    {
-      "id": "g_ka_question",
-      "grammar": true,
-      "english": "Are you a student? (か at the end)",
-      "word": "学生ですか",
-      "romanized": "gakusei desu ka",
-      "grammarNote": "Add **か** to the end of a statement to make a question — no word-order change:\n**学生です** → **学生ですか** (are you a student?). The intonation rises; **か** already marks the question.",
-      "englishPhrase": "Are you well?",
-      "phrase": "お元気ですか。",
-      "phraseRomanized": "O-genki desu ka.",
-      "literal": [["お元気", "well"], ["です", "are"], ["か", "[?]"]]
+      "literal": [
+        [
+          "おやすみなさい",
+          "good night"
+        ],
+        [
+          "よく",
+          "well"
+        ],
+        [
+          "眠れますように",
+          "may you sleep"
+        ]
+      ]
     },
     {
       "id": "how_are_you",
@@ -161,7 +166,20 @@
       "englishPhrase": "How are you? I'm fine, thank you.",
       "phrase": "お元気ですか？元気です、ありがとう。",
       "phraseRomanized": "O-genki desu ka? Genki desu, arigatō.",
-      "literal": [["お元気", "honorable-health"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "nice_to_meet_you",
@@ -172,7 +190,20 @@
       "englishPhrase": "Nice to meet you. I'm Tanaka.",
       "phrase": "はじめまして。田中と申します。",
       "phraseRomanized": "Hajimemashite. Tanaka to moushimasu.",
-      "literal": [["はじめまして", "first-time-meeting"], ["田中", "Tanaka"], ["と申します", "am called"]]
+      "literal": [
+        [
+          "はじめまして",
+          "first-time-meeting"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "と申します",
+          "am called"
+        ]
+      ]
     },
     {
       "id": "goodbye",
@@ -183,7 +214,20 @@
       "englishPhrase": "Goodbye! See you tomorrow.",
       "phrase": "じゃあ、また明日！",
       "phraseRomanized": "Jaa, mata ashita!",
-      "literal": [["じゃあ", "well then"], ["また", "again"], ["明日", "tomorrow"]]
+      "literal": [
+        [
+          "じゃあ",
+          "well then"
+        ],
+        [
+          "また",
+          "again"
+        ],
+        [
+          "明日",
+          "tomorrow"
+        ]
+      ]
     },
     {
       "id": "excuse_me",
@@ -194,7 +238,32 @@
       "englishPhrase": "Excuse me, where is the station?",
       "phrase": "すみません、駅はどこですか？",
       "phraseRomanized": "Sumimasen, eki wa doko desu ka?",
-      "literal": [["すみません", "excuse me"], ["駅", "station"], ["は", "[topic]"], ["どこ", "where"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "すみません",
+          "excuse me"
+        ],
+        [
+          "駅",
+          "station"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "im_sorry",
@@ -205,7 +274,16 @@
       "englishPhrase": "I'm very sorry.",
       "phrase": "本当にごめんなさい。",
       "phraseRomanized": "Hontou ni gomen nasai.",
-      "literal": [["本当に", "truly"], ["ごめんなさい", "sorry"]]
+      "literal": [
+        [
+          "本当に",
+          "truly"
+        ],
+        [
+          "ごめんなさい",
+          "sorry"
+        ]
+      ]
     },
     {
       "id": "i_want",
@@ -216,7 +294,24 @@
       "englishPhrase": "I want a coffee.",
       "phrase": "コーヒーがほしいです。",
       "phraseRomanized": "Kōhī ga hoshii desu.",
-      "literal": [["コーヒー", "coffee"], ["が", "[subj]"], ["ほしい", "want"], ["です", "is"]]
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ほしい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "i_need",
@@ -227,7 +322,24 @@
       "englishPhrase": "I need help.",
       "phrase": "助けが必要です。",
       "phraseRomanized": "Tasuke ga hitsuyou desu.",
-      "literal": [["助け", "help"], ["が", "[subj]"], ["必要", "necessary"], ["です", "is"]]
+      "literal": [
+        [
+          "助け",
+          "help"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "my_name_is",
@@ -238,7 +350,32 @@
       "englishPhrase": "My name is Tanaka.",
       "phrase": "私の名前は田中です。",
       "phraseRomanized": "Watashi no namae wa Tanaka desu.",
-      "literal": [["私", "I"], ["の", "[of/poss]"], ["名前", "name"], ["は", "[topic]"], ["田中", "Tanaka"], ["です", "is"]]
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "名前",
+          "name"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "i",
@@ -249,7 +386,24 @@
       "englishPhrase": "I am a student.",
       "phrase": "私は学生です。",
       "phraseRomanized": "Watashi wa gakusei desu.",
-      "literal": [["私", "I"], ["は", "[topic]"], ["学生", "student"], ["です", "is"]]
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "学生",
+          "student"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "you",
@@ -260,7 +414,28 @@
       "englishPhrase": "You speak Japanese well.",
       "phrase": "日本語がお上手ですね。",
       "phraseRomanized": "Nihongo ga o-jouzu desu ne.",
-      "literal": [["日本語", "Japanese"], ["が", "[subj]"], ["お上手", "honorable-skilled"], ["です", "is"], ["ね", "[right?]"]]
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "お上手",
+          "honorable-skilled"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
     },
     {
       "id": "he",
@@ -271,7 +446,28 @@
       "englishPhrase": "He is my friend.",
       "phrase": "彼は私の友達です。",
       "phraseRomanized": "Kare wa watashi no tomodachi desu.",
-      "literal": [["彼", "he"], ["は", "[topic]"], ["私の", "my"], ["友達", "friend"], ["です", "is"]]
+      "literal": [
+        [
+          "彼",
+          "he"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "she",
@@ -282,7 +478,32 @@
       "englishPhrase": "She works here.",
       "phrase": "彼女はここで働いています。",
       "phraseRomanized": "Kanojo wa koko de hataraite imasu.",
-      "literal": [["彼女", "she"], ["は", "[topic]"], ["ここ", "here"], ["で", "[at/by]"], ["働いて", "working"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "彼女",
+          "she"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "働いて",
+          "working"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "we",
@@ -293,7 +514,32 @@
       "englishPhrase": "We live here.",
       "phrase": "私たちはここに住んでいます。",
       "phraseRomanized": "Watashitachi wa koko ni sunde imasu.",
-      "literal": [["私たち", "we"], ["は", "[topic]"], ["ここ", "here"], ["に", "[to/at]"], ["住んで", "living"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "私たち",
+          "we"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "住んで",
+          "living"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "they",
@@ -304,7 +550,24 @@
       "englishPhrase": "They eat together.",
       "phrase": "彼らは一緒に食べます。",
       "phraseRomanized": "Karera wa issho ni tabemasu.",
-      "literal": [["彼ら", "they"], ["は", "[topic]"], ["一緒に", "together"], ["食べます", "eat"]]
+      "literal": [
+        [
+          "彼ら",
+          "they"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "一緒に",
+          "together"
+        ],
+        [
+          "食べます",
+          "eat"
+        ]
+      ]
     },
     {
       "id": "my",
@@ -315,7 +578,32 @@
       "englishPhrase": "My name is Tanaka.",
       "phrase": "私の名前は田中です。",
       "phraseRomanized": "Watashi no namae wa Tanaka desu.",
-      "literal": [["私", "I"], ["の", "[of/poss]"], ["名前", "name"], ["は", "[topic]"], ["田中", "Tanaka"], ["です", "is"]]
+      "literal": [
+        [
+          "私",
+          "I"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "名前",
+          "name"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "田中",
+          "Tanaka"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "this",
@@ -326,7 +614,28 @@
       "englishPhrase": "This book is good.",
       "phrase": "この本はいいです。",
       "phraseRomanized": "Kono hon wa ii desu.",
-      "literal": [["この", "this"], ["本", "book"], ["は", "[topic]"], ["いい", "good"], ["です", "is"]]
+      "literal": [
+        [
+          "この",
+          "this"
+        ],
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "that",
@@ -337,7 +646,32 @@
       "englishPhrase": "That person is my friend.",
       "phrase": "あの人は私の友達です。",
       "phraseRomanized": "Ano hito wa watashi no tomodachi desu.",
-      "literal": [["あの", "that"], ["人", "person"], ["は", "[topic]"], ["私の", "my"], ["友達", "friend"], ["です", "is"]]
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "hungry",
@@ -348,7 +682,24 @@
       "englishPhrase": "I'm very hungry.",
       "phrase": "お腹がとても空きました。",
       "phraseRomanized": "Onaka ga totemo sukimashita.",
-      "literal": [["お腹", "stomach"], ["が", "[subj]"], ["とても", "very"], ["空きました", "emptied"]]
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "空きました",
+          "emptied"
+        ]
+      ]
     },
     {
       "id": "thirsty",
@@ -359,7 +710,24 @@
       "englishPhrase": "I'm very thirsty.",
       "phrase": "喉がとても渇きました。",
       "phraseRomanized": "Nodo ga totemo kawakimashita.",
-      "literal": [["喉", "throat"], ["が", "[subj]"], ["とても", "very"], ["渇きました", "dried"]]
+      "literal": [
+        [
+          "喉",
+          "throat"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "渇きました",
+          "dried"
+        ]
+      ]
     },
     {
       "id": "who",
@@ -370,7 +738,32 @@
       "englishPhrase": "Who is that person?",
       "phrase": "あの人は誰ですか？",
       "phraseRomanized": "Ano hito wa dare desu ka?",
-      "literal": [["あの", "that"], ["人", "person"], ["は", "[topic]"], ["誰", "who"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "誰",
+          "who"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "what",
@@ -381,7 +774,28 @@
       "englishPhrase": "What do you want?",
       "phrase": "何がほしいですか？",
       "phraseRomanized": "Nani ga hoshii desu ka?",
-      "literal": [["何", "what"], ["が", "[subj]"], ["ほしい", "want"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "ほしい",
+          "want"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "when",
@@ -392,7 +806,16 @@
       "englishPhrase": "When are you coming?",
       "phrase": "いつ来ますか？",
       "phraseRomanized": "Itsu kimasu ka?",
-      "literal": [["いつ", "when"], ["来ますか", "come?"]]
+      "literal": [
+        [
+          "いつ",
+          "when"
+        ],
+        [
+          "来ますか",
+          "come?"
+        ]
+      ]
     },
     {
       "id": "where",
@@ -403,7 +826,28 @@
       "englishPhrase": "Where is the restroom?",
       "phrase": "お手洗いはどこですか？",
       "phraseRomanized": "Otearai wa doko desu ka?",
-      "literal": [["お手洗い", "restroom"], ["は", "[topic]"], ["どこ", "where"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "why",
@@ -414,7 +858,28 @@
       "englishPhrase": "Why can't you come?",
       "phrase": "どうして来られないんですか？",
       "phraseRomanized": "Doushite korarenai n desu ka?",
-      "literal": [["どうして", "why"], ["来られない", "cannot come"], ["ん", "[explanatory]"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "どうして",
+          "why"
+        ],
+        [
+          "来られない",
+          "cannot come"
+        ],
+        [
+          "ん",
+          "[explanatory]"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "how",
@@ -425,7 +890,20 @@
       "englishPhrase": "How are you?",
       "phrase": "お元気ですか？",
       "phraseRomanized": "O-genki desu ka?",
-      "literal": [["お元気", "honorable-health"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お元気",
+          "honorable-health"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_have",
@@ -436,7 +914,36 @@
       "englishPhrase": "I'm hungry. Do you have water?",
       "phrase": "お腹が空きました。水はありますか？",
       "phraseRomanized": "Onaka ga sukimashita. Mizu wa arimasu ka?",
-      "literal": [["お腹", "stomach"], ["が", "[subj]"], ["空きました", "emptied"], ["水", "water"], ["は", "[topic]"], ["あります", "is/exists"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お腹",
+          "stomach"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "空きました",
+          "emptied"
+        ],
+        [
+          "水",
+          "water"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_do_make",
@@ -447,7 +954,28 @@
       "englishPhrase": "What are you doing?",
       "phrase": "何をしていますか？",
       "phraseRomanized": "Nani wo shite imasu ka?",
-      "literal": [["何", "what"], ["を", "[obj]"], ["して", "doing"], ["います", "[doing]"], ["か", "[?]"]]
+      "literal": [
+        [
+          "何",
+          "what"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "して",
+          "doing"
+        ],
+        [
+          "います",
+          "[doing]"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_go",
@@ -458,7 +986,20 @@
       "englishPhrase": "I'm going to the store.",
       "phrase": "お店に行きます。",
       "phraseRomanized": "Omise ni ikimasu.",
-      "literal": [["お店", "store"], ["に", "[to/at]"], ["行きます", "go"]]
+      "literal": [
+        [
+          "お店",
+          "store"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "行きます",
+          "go"
+        ]
+      ]
     },
     {
       "id": "to_come",
@@ -469,7 +1010,24 @@
       "englishPhrase": "Where did you come from?",
       "phrase": "どこから来ましたか？",
       "phraseRomanized": "Doko kara kimashita ka?",
-      "literal": [["どこ", "where"], ["から", "[from]"], ["来ました", "came"], ["か", "[?]"]]
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_eat",
@@ -480,7 +1038,24 @@
       "englishPhrase": "Where are we eating?",
       "phrase": "どこで食べますか？",
       "phraseRomanized": "Doko de tabemasu ka?",
-      "literal": [["どこ", "where"], ["で", "[at/by]"], ["食べます", "eat"], ["か", "[?]"]]
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "で",
+          "[at/by]"
+        ],
+        [
+          "食べます",
+          "eat"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_be_able_to_can",
@@ -491,7 +1066,20 @@
       "englishPhrase": "Can you help me?",
       "phrase": "手伝ってもらえますか？",
       "phraseRomanized": "Tetsudatte moraemasu ka?",
-      "literal": [["手伝って", "help"], ["もらえます", "can receive"], ["か", "[?]"]]
+      "literal": [
+        [
+          "手伝って",
+          "help"
+        ],
+        [
+          "もらえます",
+          "can receive"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_see",
@@ -502,7 +1090,20 @@
       "englishPhrase": "I can't see anything.",
       "phrase": "何も見えません。",
       "phraseRomanized": "Nani mo miemasen.",
-      "literal": [["何", "nothing"], ["も", "[also]"], ["見えません", "cannot see"]]
+      "literal": [
+        [
+          "何",
+          "nothing"
+        ],
+        [
+          "も",
+          "[also]"
+        ],
+        [
+          "見えません",
+          "cannot see"
+        ]
+      ]
     },
     {
       "id": "to_give",
@@ -513,7 +1114,20 @@
       "englishPhrase": "Please give me the menu.",
       "phrase": "メニューをください。",
       "phraseRomanized": "Menyū wo kudasai.",
-      "literal": [["メニュー", "menu"], ["を", "[obj]"], ["ください", "please give"]]
+      "literal": [
+        [
+          "メニュー",
+          "menu"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "to_speak_talk",
@@ -524,7 +1138,24 @@
       "englishPhrase": "Do you speak Japanese?",
       "phrase": "日本語を話しますか？",
       "phraseRomanized": "Nihongo wo hanashimasu ka?",
-      "literal": [["日本語", "Japanese"], ["を", "[obj]"], ["話します", "speak"], ["か", "[?]"]]
+      "literal": [
+        [
+          "日本語",
+          "Japanese"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "話します",
+          "speak"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "to_understand",
@@ -535,7 +1166,12 @@
       "englishPhrase": "I don't understand.",
       "phrase": "わかりません。",
       "phraseRomanized": "Wakarimasen.",
-      "literal": [["わかりません", "not understand"]]
+      "literal": [
+        [
+          "わかりません",
+          "not understand"
+        ]
+      ]
     },
     {
       "id": "to_like",
@@ -546,7 +1182,24 @@
       "englishPhrase": "I like coffee.",
       "phrase": "コーヒーが好きです。",
       "phraseRomanized": "Kōhī ga suki desu.",
-      "literal": [["コーヒー", "coffee"], ["が", "[subj]"], ["好き", "liked"], ["です", "is"]]
+      "literal": [
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "好き",
+          "liked"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "to_look_for",
@@ -557,7 +1210,24 @@
       "englishPhrase": "I'm looking for the exit.",
       "phrase": "出口を探しています。",
       "phraseRomanized": "Deguchi wo sagashite imasu.",
-      "literal": [["出口", "exit"], ["を", "[obj]"], ["探して", "searching"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "出口",
+          "exit"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "探して",
+          "searching"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "i_dont_know",
@@ -568,7 +1238,28 @@
       "englishPhrase": "I don't know where it is.",
       "phrase": "どこにあるか知りません。",
       "phraseRomanized": "Doko ni aru ka shirimasen.",
-      "literal": [["どこ", "where"], ["に", "[to/at]"], ["ある", "is/exists"], ["か", "[?]"], ["知りません", "not know"]]
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "ある",
+          "is/exists"
+        ],
+        [
+          "か",
+          "[?]"
+        ],
+        [
+          "知りません",
+          "not know"
+        ]
+      ]
     },
     {
       "id": "but",
@@ -579,7 +1270,24 @@
       "englishPhrase": "I want to go, but I can't.",
       "phrase": "行きたいですが、行けません。",
       "phraseRomanized": "Ikitai desu ga, ikemasen.",
-      "literal": [["行きたい", "want to go"], ["です", "is"], ["が", "but"], ["行けません", "cannot go"]]
+      "literal": [
+        [
+          "行きたい",
+          "want to go"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "が",
+          "but"
+        ],
+        [
+          "行けません",
+          "cannot go"
+        ]
+      ]
     },
     {
       "id": "and",
@@ -600,7 +1308,32 @@
       "englishPhrase": "Tea or coffee?",
       "phrase": "お茶かコーヒー、どちらにしますか？",
       "phraseRomanized": "Ocha ka kōhī, dochira ni shimasu ka?",
-      "literal": [["お茶", "tea"], ["か", "[?]"], ["コーヒー", "coffee"], ["どちら", "which"], ["に", "[to/at]"], ["しますか", "will make?"]]
+      "literal": [
+        [
+          "お茶",
+          "tea"
+        ],
+        [
+          "か",
+          "[?]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "どちら",
+          "which"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "しますか",
+          "will make?"
+        ]
+      ]
     },
     {
       "id": "with",
@@ -611,7 +1344,24 @@
       "englishPhrase": "I came with my friend.",
       "phrase": "友達と一緒に来ました。",
       "phraseRomanized": "Tomodachi to issho ni kimashita.",
-      "literal": [["友達", "friend"], ["と", "[and/with]"], ["一緒に", "together"], ["来ました", "came"]]
+      "literal": [
+        [
+          "友達",
+          "friend"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "一緒に",
+          "together"
+        ],
+        [
+          "来ました",
+          "came"
+        ]
+      ]
     },
     {
       "id": "without",
@@ -622,7 +1372,24 @@
       "englishPhrase": "Coffee without sugar.",
       "phrase": "砂糖なしのコーヒー。",
       "phraseRomanized": "Satou nashi no kōhī.",
-      "literal": [["砂糖", "sugar"], ["なし", "without"], ["の", "[of/poss]"], ["コーヒー", "coffee"]]
+      "literal": [
+        [
+          "砂糖",
+          "sugar"
+        ],
+        [
+          "なし",
+          "without"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ]
+      ]
     },
     {
       "id": "for",
@@ -634,7 +1401,32 @@
       "englishPhrase": "This is for you.",
       "phrase": "これはあなたのためです。",
       "phraseRomanized": "Kore wa anata no tame desu.",
-      "literal": [["これ", "this"], ["は", "[topic]"], ["あなた", "your"], ["の", "[of/poss]"], ["ため", "for-sake"], ["です", "is"]]
+      "literal": [
+        [
+          "これ",
+          "this"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あなた",
+          "your"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "ため",
+          "for-sake"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "person",
@@ -646,7 +1438,32 @@
       "englishPhrase": "Who is that person?",
       "phrase": "あの人は誰ですか？",
       "phraseRomanized": "Ano hito wa dare desu ka?",
-      "literal": [["あの", "that"], ["人", "person"], ["は", "[topic]"], ["誰", "who"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "あの",
+          "that"
+        ],
+        [
+          "人",
+          "person"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "誰",
+          "who"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "place",
@@ -658,7 +1475,28 @@
       "englishPhrase": "Do you know a good place?",
       "phrase": "いい場所を知っていますか？",
       "phraseRomanized": "Ii basho wo shitte imasu ka?",
-      "literal": [["いい", "good"], ["場所", "place"], ["を", "[obj]"], ["知っています", "know"], ["か", "[?]"]]
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "場所",
+          "place"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "知っています",
+          "know"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "thing",
@@ -670,7 +1508,28 @@
       "englishPhrase": "What is that thing?",
       "phrase": "それは何ですか？",
       "phraseRomanized": "Sore wa nan desu ka?",
-      "literal": [["それ", "that"], ["は", "[topic]"], ["何", "what"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "何",
+          "what"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "here",
@@ -681,7 +1540,24 @@
       "englishPhrase": "Please come here.",
       "phrase": "ここに来てください。",
       "phraseRomanized": "Koko ni kite kudasai.",
-      "literal": [["ここ", "here"], ["に", "[to/at]"], ["来て", "come"], ["ください", "please"]]
+      "literal": [
+        [
+          "ここ",
+          "here"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "来て",
+          "come"
+        ],
+        [
+          "ください",
+          "please"
+        ]
+      ]
     },
     {
       "id": "there",
@@ -692,7 +1568,24 @@
       "englishPhrase": "The restroom is over there.",
       "phrase": "お手洗いはあそこです。",
       "phraseRomanized": "Otearai wa asoko desu.",
-      "literal": [["お手洗い", "restroom"], ["は", "[topic]"], ["あそこ", "over there"], ["です", "is"]]
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "あそこ",
+          "over there"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "very",
@@ -703,7 +1596,20 @@
       "englishPhrase": "It's very good.",
       "phrase": "とてもいいです。",
       "phraseRomanized": "Totemo ii desu.",
-      "literal": [["とても", "very"], ["いい", "good"], ["です", "is"]]
+      "literal": [
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "water",
@@ -715,7 +1621,24 @@
       "englishPhrase": "A glass of water, please.",
       "phrase": "水を一杯ください。",
       "phraseRomanized": "Mizu wo ippai kudasai.",
-      "literal": [["水", "water"], ["を", "[obj]"], ["一杯", "one cup"], ["ください", "please give"]]
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "一杯",
+          "one cup"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "food",
@@ -727,7 +1650,28 @@
       "englishPhrase": "The food is delicious.",
       "phrase": "食べ物がとても美味しいです。",
       "phraseRomanized": "Tabemono ga totemo oishii desu.",
-      "literal": [["食べ物", "food"], ["が", "[subj]"], ["とても", "very"], ["美味しい", "delicious"], ["です", "is"]]
+      "literal": [
+        [
+          "食べ物",
+          "food"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "とても",
+          "very"
+        ],
+        [
+          "美味しい",
+          "delicious"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "house_home",
@@ -739,7 +1683,32 @@
       "englishPhrase": "My house is nearby.",
       "phrase": "私の家は近くにあります。",
       "phraseRomanized": "Watashi no ie wa chikaku ni arimasu.",
-      "literal": [["私の", "my"], ["家", "house"], ["は", "[topic]"], ["近く", "nearby"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "私の",
+          "my"
+        ],
+        [
+          "家",
+          "house"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "近く",
+          "nearby"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "store_shop",
@@ -750,7 +1719,24 @@
       "englishPhrase": "The store is closed.",
       "phrase": "お店は閉まっています。",
       "phraseRomanized": "Omise wa shimatte imasu.",
-      "literal": [["お店", "store"], ["は", "[topic]"], ["閉まって", "closed"], ["います", "[doing]"]]
+      "literal": [
+        [
+          "お店",
+          "store"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "閉まって",
+          "closed"
+        ],
+        [
+          "います",
+          "[doing]"
+        ]
+      ]
     },
     {
       "id": "cash_credit",
@@ -761,7 +1747,40 @@
       "englishPhrase": "Cash or card?",
       "phrase": "現金とカード、どちらがいいですか？",
       "phraseRomanized": "Genkin to kādo, dochira ga ii desu ka?",
-      "literal": [["現金", "cash"], ["と", "[and/with]"], ["カード", "card"], ["どちら", "which"], ["が", "[subj]"], ["いい", "good"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "現金",
+          "cash"
+        ],
+        [
+          "と",
+          "[and/with]"
+        ],
+        [
+          "カード",
+          "card"
+        ],
+        [
+          "どちら",
+          "which"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "help",
@@ -772,7 +1791,24 @@
       "englishPhrase": "I need help.",
       "phrase": "助けが必要です。",
       "phraseRomanized": "Tasuke ga hitsuyou desu.",
-      "literal": [["助け", "help"], ["が", "[subj]"], ["必要", "necessary"], ["です", "is"]]
+      "literal": [
+        [
+          "助け",
+          "help"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "必要",
+          "necessary"
+        ],
+        [
+          "です",
+          "is"
+        ]
+      ]
     },
     {
       "id": "bathroom",
@@ -783,7 +1819,28 @@
       "englishPhrase": "Where is the restroom?",
       "phrase": "お手洗いはどこですか？",
       "phraseRomanized": "Otearai wa doko desu ka?",
-      "literal": [["お手洗い", "restroom"], ["は", "[topic]"], ["どこ", "where"], ["です", "is"], ["か", "[?]"]]
+      "literal": [
+        [
+          "お手洗い",
+          "restroom"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "always",
@@ -794,7 +1851,28 @@
       "englishPhrase": "I always drink coffee in the morning.",
       "phrase": "毎朝いつもコーヒーを飲みます。",
       "phraseRomanized": "Maiasa itsumo kōhī wo nomimasu.",
-      "literal": [["毎朝", "every morning"], ["いつも", "always"], ["コーヒー", "coffee"], ["を", "[obj]"], ["飲みます", "drink"]]
+      "literal": [
+        [
+          "毎朝",
+          "every morning"
+        ],
+        [
+          "いつも",
+          "always"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "飲みます",
+          "drink"
+        ]
+      ]
     },
     {
       "id": "never",
@@ -805,7 +1883,20 @@
       "englishPhrase": "I'm never late.",
       "phrase": "絶対に遅刻しません。",
       "phraseRomanized": "Zettai ni chikoku shimasen.",
-      "literal": [["絶対に", "absolutely"], ["遅刻", "late-arriving"], ["しません", "not do"]]
+      "literal": [
+        [
+          "絶対に",
+          "absolutely"
+        ],
+        [
+          "遅刻",
+          "late-arriving"
+        ],
+        [
+          "しません",
+          "not do"
+        ]
+      ]
     },
     {
       "id": "in_on_at",
@@ -817,7 +1908,36 @@
       "englishPhrase": "The book is on the table.",
       "phrase": "本はテーブルの上にあります。",
       "phraseRomanized": "Hon wa tēburu no ue ni arimasu.",
-      "literal": [["本", "book"], ["は", "[topic]"], ["テーブル", "table"], ["の", "[of/poss]"], ["上", "top"], ["に", "[to/at]"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "本",
+          "book"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "上",
+          "top"
+        ],
+        [
+          "に",
+          "[to/at]"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "from",
@@ -829,7 +1949,24 @@
       "englishPhrase": "Where are you from?",
       "phrase": "どこから来ましたか？",
       "phraseRomanized": "Doko kara kimashita ka?",
-      "literal": [["どこ", "where"], ["から", "[from]"], ["来ました", "came"], ["か", "[?]"]]
+      "literal": [
+        [
+          "どこ",
+          "where"
+        ],
+        [
+          "から",
+          "[from]"
+        ],
+        [
+          "来ました",
+          "came"
+        ],
+        [
+          "か",
+          "[?]"
+        ]
+      ]
     },
     {
       "id": "good",
@@ -840,7 +1977,24 @@
       "englishPhrase": "That's a good idea.",
       "phrase": "いいアイデアですね。",
       "phraseRomanized": "Ii aidea desu ne.",
-      "literal": [["いい", "good"], ["アイデア", "idea"], ["です", "is"], ["ね", "[right?]"]]
+      "literal": [
+        [
+          "いい",
+          "good"
+        ],
+        [
+          "アイデア",
+          "idea"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
     },
     {
       "id": "bad",
@@ -851,7 +2005,28 @@
       "englishPhrase": "That's bad.",
       "phrase": "それは悪いですね。",
       "phraseRomanized": "Sore wa warui desu ne.",
-      "literal": [["それ", "that"], ["は", "[topic]"], ["悪い", "bad"], ["です", "is"], ["ね", "[right?]"]]
+      "literal": [
+        [
+          "それ",
+          "that"
+        ],
+        [
+          "は",
+          "[topic]"
+        ],
+        [
+          "悪い",
+          "bad"
+        ],
+        [
+          "です",
+          "is"
+        ],
+        [
+          "ね",
+          "[right?]"
+        ]
+      ]
     },
     {
       "id": "big",
@@ -862,7 +2037,32 @@
       "englishPhrase": "A large coffee, please.",
       "phrase": "大きいサイズのコーヒーをください。",
       "phraseRomanized": "Ookii saizu no kōhī wo kudasai.",
-      "literal": [["大きい", "large"], ["サイズ", "size"], ["の", "[of/poss]"], ["コーヒー", "coffee"], ["を", "[obj]"], ["ください", "please give"]]
+      "literal": [
+        [
+          "大きい",
+          "large"
+        ],
+        [
+          "サイズ",
+          "size"
+        ],
+        [
+          "の",
+          "[of/poss]"
+        ],
+        [
+          "コーヒー",
+          "coffee"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "small",
@@ -873,7 +2073,24 @@
       "englishPhrase": "A small table, please.",
       "phrase": "小さいテーブルをお願いします。",
       "phraseRomanized": "Chiisai tēburu wo onegaishimasu.",
-      "literal": [["小さい", "small"], ["テーブル", "table"], ["を", "[obj]"], ["お願いします", "please"]]
+      "literal": [
+        [
+          "小さい",
+          "small"
+        ],
+        [
+          "テーブル",
+          "table"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "お願いします",
+          "please"
+        ]
+      ]
     },
     {
       "id": "a_lot_much",
@@ -885,7 +2102,24 @@
       "englishPhrase": "I have a lot of work.",
       "phrase": "仕事がたくさんあります。",
       "phraseRomanized": "Shigoto ga takusan arimasu.",
-      "literal": [["仕事", "work"], ["が", "[subj]"], ["たくさん", "a lot"], ["あります", "is/exists"]]
+      "literal": [
+        [
+          "仕事",
+          "work"
+        ],
+        [
+          "が",
+          "[subj]"
+        ],
+        [
+          "たくさん",
+          "a lot"
+        ],
+        [
+          "あります",
+          "is/exists"
+        ]
+      ]
     },
     {
       "id": "a_little",
@@ -897,7 +2131,24 @@
       "englishPhrase": "A little water, please.",
       "phrase": "水を少しください。",
       "phraseRomanized": "Mizu wo sukoshi kudasai.",
-      "literal": [["水", "water"], ["を", "[obj]"], ["少し", "a little"], ["ください", "please give"]]
+      "literal": [
+        [
+          "水",
+          "water"
+        ],
+        [
+          "を",
+          "[obj]"
+        ],
+        [
+          "少し",
+          "a little"
+        ],
+        [
+          "ください",
+          "please give"
+        ]
+      ]
     },
     {
       "id": "can_you_help_me",
