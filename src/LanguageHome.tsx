@@ -1,4 +1,4 @@
-import { Link, useLocation } from "wouter";
+import { useLocation } from "wouter";
 import "./main-styles.css";
 
 function prefetchLanguage(language: string) {
@@ -73,7 +73,7 @@ const LanguageAppHome = () => {
                 <ul>
                     <li>This app is open to contributions — new languages, new decks, bug fixes, feature ideas.</li>
                     <li><strong>Code: <a href="https://github.com/JeffWHenderson/free-language-immersion">GitHub</a></strong></li>
-                    <li><strong>Bugs or feature requests:</strong> <Link href="/contact">Contact me</Link></li>
+                    <li><strong>Bugs or feature requests:</strong> <a href="mailto:jeff.henderson.dev@gmail.com">jeff.henderson.dev@gmail.com</a></li>
                 </ul>
             </div>
 
