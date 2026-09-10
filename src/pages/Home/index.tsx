@@ -262,29 +262,6 @@ const Home = () => {
                     {mainTopics.map(renderTopicRow)}
                 </div>
 
-                {extensionTopics.length > 0 && (
-                    <div className="srs-extensions">
-                        <button
-                            className="srs-topic-section-header srs-extensions-header"
-                            onClick={() => setExtensionOpen((o) => !o)}
-                            aria-expanded={extensionOpen}
-                        >
-                            <span className={`srs-section-chevron${extensionOpen ? ' open' : ''}`}>›</span>
-                            Extension Decks
-                            <span className="srs-section-meta">
-                                {extensionSelected > 0
-                                    ? `${extensionSelected} of ${extensionTopics.length} selected`
-                                    : `${extensionTopics.length}`}
-                            </span>
-                        </button>
-                        {extensionOpen && (
-                            <div className="srs-pill-cloud">
-                                {extensionTopics.map(renderExtensionPill)}
-                            </div>
-                        )}
-                    </div>
-                )}
-
                 {grammarTopics.length > 0 && (
                     <div className="srs-extensions">
                         <button
@@ -308,11 +285,26 @@ const Home = () => {
                     </div>
                 )}
 
-                {totalBookmarks > 0 && (
-                    <div className="srs-util-row">
-                        <button className="srs-btn-util" onClick={() => navigate(`/${language}/bookmarks`)} onMouseEnter={prefetchBookmarks}>
-                            🔖 Bookmarks ({totalBookmarks})
+                {extensionTopics.length > 0 && (
+                    <div className="srs-extensions">
+                        <button
+                            className="srs-topic-section-header srs-extensions-header"
+                            onClick={() => setExtensionOpen((o) => !o)}
+                            aria-expanded={extensionOpen}
+                        >
+                            <span className={`srs-section-chevron${extensionOpen ? ' open' : ''}`}>›</span>
+                            Extension Decks
+                            <span className="srs-section-meta">
+                                {extensionSelected > 0
+                                    ? `${extensionSelected} of ${extensionTopics.length} selected`
+                                    : `${extensionTopics.length}`}
+                            </span>
                         </button>
+                        {extensionOpen && (
+                            <div className="srs-pill-cloud">
+                                {extensionTopics.map(renderExtensionPill)}
+                            </div>
+                        )}
                     </div>
                 )}
 
@@ -379,6 +371,14 @@ const Home = () => {
                         </div>
                         <button className="srs-btn-primary" disabled={printCardCount === 0} onClick={handlePrint}>
                             Print ({printCardCount} cards)
+                        </button>
+                    </div>
+                )}
+
+                {totalBookmarks > 0 && (
+                    <div className="srs-util-row">
+                        <button className="srs-btn-util" onClick={() => navigate(`/${language}/bookmarks`)} onMouseEnter={prefetchBookmarks}>
+                            🔖 Bookmarks ({totalBookmarks})
                         </button>
                     </div>
                 )}

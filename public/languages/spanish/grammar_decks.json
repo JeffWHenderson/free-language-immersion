@@ -1145,6 +1145,712 @@
       ]
     },
     {
+      "id": "grammar_present_tense",
+      "name": "Present Tense",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "pt_ar_table",
+          "grammar": true,
+          "english": "-AR verbs: present-tense endings (-o/-as/-a/-amos/-an)",
+          "word": "hablo, hablas, habla, hablamos, hablan",
+          "grammarNote": "To conjugate a regular **-AR** verb in the present tense, drop the **-ar** ending and add the personal ending.\n\n**hablar → habl-** + ending:\n\n**-o** (yo), **-as** (tú), **-a** (él/ella), **-amos** (nosotros), **-an** (ellos/ellas)",
+          "englishPhrase": "I speak Spanish.",
+          "phrase": "Yo hablo español.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "hablo",
+              "speak"
+            ],
+            [
+              "español",
+              "Spanish"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "hablar (to speak) — present tense",
+            "rows": [
+              [
+                "yo",
+                "hablo"
+              ],
+              [
+                "tú",
+                "hablas"
+              ],
+              [
+                "él / ella",
+                "habla"
+              ],
+              [
+                "nosotros",
+                "hablamos"
+              ],
+              [
+                "ellos / ellas",
+                "hablan"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "The endings -o / -as / -a / -amos / -an apply to ALL regular -AR verbs: trabajar, comprar, caminar, cocinar, nadar, viajar, ayudar, enseñar, practicar."
+          }
+        },
+        {
+          "id": "pt_er_table",
+          "grammar": true,
+          "english": "-ER verbs: present-tense endings (-o/-es/-e/-emos/-en)",
+          "word": "como, comes, come, comemos, comen",
+          "grammarNote": "To conjugate a regular **-ER** verb in the present tense, drop the **-er** ending and add the personal ending.\n\n**comer → com-** + ending:\n\n**-o** (yo), **-es** (tú), **-e** (él/ella), **-emos** (nosotros), **-en** (ellos/ellas)\n\nNotice: the yo ending **-o** is the same as -AR, but tú/él/nosotros use **-e-** instead of **-a-**.",
+          "englishPhrase": "We eat at the restaurant.",
+          "phrase": "Nosotros comemos en el restaurante.",
+          "literal": [
+            [
+              "Nosotros",
+              "We"
+            ],
+            [
+              "comemos",
+              "eat"
+            ],
+            [
+              "en el restaurante",
+              "at the restaurant"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "comer (to eat) — present tense",
+            "rows": [
+              [
+                "yo",
+                "como"
+              ],
+              [
+                "tú",
+                "comes"
+              ],
+              [
+                "él / ella",
+                "come"
+              ],
+              [
+                "nosotros",
+                "comemos"
+              ],
+              [
+                "ellos / ellas",
+                "comen"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "The same endings apply to all regular -ER verbs: aprender, vender."
+          }
+        },
+        {
+          "id": "pt_ir_table",
+          "grammar": true,
+          "english": "-IR verbs: present-tense endings (-o/-es/-e/-imos/-en)",
+          "word": "vivo, vives, vive, vivimos, viven",
+          "grammarNote": "To conjugate a regular **-IR** verb in the present tense, drop the **-ir** ending and add the personal ending.\n\n**vivir → viv-** + ending:\n\n**-o** (yo), **-es** (tú), **-e** (él/ella), **-imos** (nosotros), **-en** (ellos/ellas)\n\n-IR verbs share four endings with -ER verbs. The **only** difference is nosotros: **-imos** (not -emos).",
+          "englishPhrase": "They live near the school.",
+          "phrase": "Ellos viven cerca de la escuela.",
+          "literal": [
+            [
+              "Ellos",
+              "They"
+            ],
+            [
+              "viven",
+              "live"
+            ],
+            [
+              "cerca de la escuela",
+              "near the school"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "vivir (to live) — present tense",
+            "rows": [
+              [
+                "yo",
+                "vivo"
+              ],
+              [
+                "tú",
+                "vives"
+              ],
+              [
+                "él / ella",
+                "vive"
+              ],
+              [
+                "nosotros",
+                "vivimos"
+              ],
+              [
+                "ellos / ellas",
+                "viven"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "The same endings apply to all regular -IR verbs: escribir."
+          }
+        },
+        {
+          "id": "pt_ar_cloze",
+          "grammar": true,
+          "english": "-AR present tense: yo form of trabajar",
+          "word": "trabajo",
+          "grammarNote": "For regular **-AR** verbs, the **yo** (I) form always ends in **-o**.\n\n**trabajar → trabaj-** + **o** = **trabajo**\n\nThis pattern is the same for all regular -AR verbs: yo hablo, yo compro, yo camino, yo cocino...",
+          "englishPhrase": "I work in the office.",
+          "phrase": "Yo trabajo en la oficina.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "trabajo",
+              "work"
+            ],
+            [
+              "en la oficina",
+              "in the office"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "Fill in the correct present-tense form of trabajar (yo).",
+            "text": "Yo ___ en la oficina.",
+            "answer": "trabajo",
+            "options": [
+              "trabajo",
+              "trabajas"
+            ]
+          }
+        },
+        {
+          "id": "pt_regular_produce",
+          "grammar": true,
+          "english": "-AR present tense: full conjugation of estudiar",
+          "word": "estudio, estudias, estudia, estudiamos, estudian",
+          "grammarNote": "Regular **-AR** verb pattern applied to **estudiar**:\n\n**estudiar → estudi-** + personal ending\n\n**yo** estudio · **tú** estudias · **él/ella** estudia · **nosotros** estudiamos · **ellos/ellas** estudian",
+          "englishPhrase": "We study Spanish at school.",
+          "phrase": "Nosotros estudiamos español en la escuela.",
+          "literal": [
+            [
+              "Nosotros",
+              "We"
+            ],
+            [
+              "estudiamos",
+              "study"
+            ],
+            [
+              "español",
+              "Spanish"
+            ],
+            [
+              "en la escuela",
+              "at school"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Regular -AR verb: estudiar (to study)",
+            "task": "Give the present-tense form of estudiar for each person: yo / tú / él-ella / nosotros / ellos-ellas.",
+            "answer": "estudio, estudias, estudia, estudiamos, estudian",
+            "gloss": "yo / tú / él-ella / nosotros / ellos-ellas"
+          }
+        },
+        {
+          "id": "pt_er_ir_contrast",
+          "grammar": true,
+          "english": "-ER vs -IR endings: identical except nosotros (-emos vs -imos)",
+          "word": "comemos vs vivimos",
+          "grammarNote": "-ER and -IR verbs share **four** of their five present-tense endings.\n\nThe **only** difference is the nosotros form: **-emos** for -ER verbs (comemos), **-imos** for -IR verbs (vivimos).\n\nEvery other ending — -o, -es, -e, -en — is identical.",
+          "englishPhrase": "We eat at home. / We live at home.",
+          "phrase": "Nosotros comemos en casa. / Nosotros vivimos en casa.",
+          "literal": [
+            [
+              "Nosotros",
+              "We"
+            ],
+            [
+              "comemos / vivimos",
+              "eat / live"
+            ],
+            [
+              "en casa",
+              "at home"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "-ER vs -IR in the nosotros form — which ending is correct?",
+            "a": {
+              "term": "Nosotros comemos (comer, -ER)",
+              "gloss": "nosotros -ER ending → -emos"
+            },
+            "b": {
+              "term": "Nosotros vivimos (vivir, -IR)",
+              "gloss": "nosotros -IR ending → -imos"
+            }
+          }
+        },
+        {
+          "id": "pt_yo_table",
+          "grammar": true,
+          "english": "Irregular yo forms — regular everywhere except yo",
+          "word": "tengo, hago, salgo, veo, doy, sé",
+          "grammarNote": "Some verbs are **regular in every person except yo**. The yo form is irregular; all other forms follow normal -ar/-er/-ir endings.\n\n**tengo** (tener), **hago** (hacer), **salgo** (salir), **veo** (ver), **doy** (dar), **sé** (saber)",
+          "englishPhrase": "I have a coffee.",
+          "phrase": "Yo tengo un café.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "tengo",
+              "have"
+            ],
+            [
+              "un café",
+              "a coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular yo forms (regular everywhere else)",
+            "rows": [
+              [
+                "tener → yo…",
+                "tengo"
+              ],
+              [
+                "hacer → yo…",
+                "hago"
+              ],
+              [
+                "salir → yo…",
+                "salgo"
+              ],
+              [
+                "ver → yo…",
+                "veo"
+              ],
+              [
+                "dar → yo…",
+                "doy"
+              ],
+              [
+                "saber → yo…",
+                "sé"
+              ]
+            ],
+            "highlight": "tener → yo…",
+            "note": "All other persons (tú, él, nosotros…) are regular for these verbs."
+          }
+        },
+        {
+          "id": "pt_yo_cloze",
+          "grammar": true,
+          "english": "Irregular yo — hacer (hago)",
+          "word": "hago",
+          "grammarNote": "**hacer** (to do/make) is regular for tú, él, nosotros, ellos — but the **yo form is hago**, not *haco*.\n\nMany verbs share this **-go** yo shape (tengo, salgo…).",
+          "englishPhrase": "I make the food.",
+          "phrase": "Yo hago la comida.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "hago",
+              "make"
+            ],
+            [
+              "la comida",
+              "the food"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "What is the yo form of hacer? (I make the food.)",
+            "text": "Yo ___ la comida.",
+            "answer": "hago",
+            "options": [
+              "hago",
+              "haco"
+            ]
+          }
+        },
+        {
+          "id": "pt_ser_estar_table",
+          "grammar": true,
+          "english": "SER vs ESTAR — present tense side by side",
+          "word": "soy/estoy, eres/estás, es/está, somos/estamos, son/están",
+          "grammarNote": "Both **ser** and **estar** mean *to be* but are not interchangeable.\n\n**ser** → identity, permanent traits (who/what something fundamentally is).\n**estar** → states, locations, conditions (how something is right now).\n\n*Él es español* (identity) vs *Él está en la oficina* (location).",
+          "englishPhrase": "She is a student; she is at school.",
+          "phrase": "Ella es estudiante; ella está en la escuela.",
+          "literal": [
+            [
+              "Ella",
+              "She"
+            ],
+            [
+              "es",
+              "is (identity)"
+            ],
+            [
+              "estudiante;",
+              "a student;"
+            ],
+            [
+              "ella",
+              "she"
+            ],
+            [
+              "está",
+              "is (location)"
+            ],
+            [
+              "en la escuela",
+              "at school"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "SER · ESTAR — present (identity vs state)",
+            "rows": [
+              [
+                "yo",
+                "soy · estoy"
+              ],
+              [
+                "tú",
+                "eres · estás"
+              ],
+              [
+                "él / ella",
+                "es · está"
+              ],
+              [
+                "nosotros",
+                "somos · estamos"
+              ],
+              [
+                "ellos / ellas",
+                "son · están"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Left column = ser (identity/permanent). Right column = estar (state/location)."
+          }
+        },
+        {
+          "id": "pt_ir_tener_venir_table",
+          "grammar": true,
+          "english": "IR, TENER, VENIR — three high-frequency irregulars",
+          "word": "voy, tengo, vengo",
+          "grammarNote": "These three verbs are extremely common and irregular in the present.\n\n**ir** (to go): voy, vas, va, vamos, van\n**tener** (to have): tengo, tienes, tiene, tenemos, tienen\n**venir** (to come): vengo, vienes, viene, venimos, vienen\n\n**tener** and **venir** share the **-go** yo form; **ir** uses a completely different stem (*v-*).",
+          "englishPhrase": "I go to the restaurant; I have a coffee.",
+          "phrase": "Voy al restaurante; tengo un café.",
+          "literal": [
+            [
+              "Voy",
+              "I go"
+            ],
+            [
+              "al restaurante;",
+              "to the restaurant;"
+            ],
+            [
+              "tengo",
+              "I have"
+            ],
+            [
+              "un café",
+              "a coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "IR · TENER · VENIR — present",
+            "rows": [
+              [
+                "yo",
+                "voy · tengo · vengo"
+              ],
+              [
+                "tú",
+                "vas · tienes · vienes"
+              ],
+              [
+                "él / ella",
+                "va · tiene · viene"
+              ],
+              [
+                "nosotros",
+                "vamos · tenemos · venimos"
+              ],
+              [
+                "ellos / ellas",
+                "van · tienen · vienen"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Columns in order: ir · tener · venir."
+          }
+        },
+        {
+          "id": "pt_yo_produce",
+          "grammar": true,
+          "english": "Produce irregular yo forms — tener, hacer, salir, ver, dar",
+          "word": "tengo, hago, salgo, veo, doy",
+          "grammarNote": "Give the **yo form** for each verb. All other persons are regular — only yo is irregular.\n\n**tener→tengo**, **hacer→hago**, **salir→salgo**, **ver→veo**, **dar→doy**",
+          "englishPhrase": "I have, I do, I leave, I see, I give.",
+          "phrase": "Tengo, hago, salgo, veo, doy.",
+          "literal": [
+            [
+              "Tengo,",
+              "I have,"
+            ],
+            [
+              "hago,",
+              "I do,"
+            ],
+            [
+              "salgo,",
+              "I leave,"
+            ],
+            [
+              "veo,",
+              "I see,"
+            ],
+            [
+              "doy.",
+              "I give."
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Irregular yo forms in the present tense",
+            "task": "Give the yo (I) form of each verb: tener, hacer, salir, ver, dar",
+            "answer": "tengo, hago, salgo, veo, doy",
+            "gloss": "only the yo form is irregular — all other persons follow regular endings"
+          }
+        },
+        {
+          "id": "pt_eie_table",
+          "grammar": true,
+          "english": "e→ie stem-changers: querer",
+          "word": "quiero, quieres, quiere, queremos, quieren",
+          "grammarNote": "**querer** (to want) is an e→ie stem-changer.\n\nThe stem vowel **e** becomes **ie** in all forms **except nosotros**, which keeps the original stem.\n\nSame pattern: **pensar** (pienso), **empezar** (empiezo), **entender** (entiendo).",
+          "englishPhrase": "I want a coffee.",
+          "phrase": "Yo quiero un café.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "quiero",
+              "want"
+            ],
+            [
+              "un café",
+              "a coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "querer (e→ie)",
+            "rows": [
+              [
+                "yo",
+                "quiero"
+              ],
+              [
+                "tú",
+                "quieres"
+              ],
+              [
+                "él / ella",
+                "quiere"
+              ],
+              [
+                "nosotros",
+                "queremos"
+              ],
+              [
+                "ellos / ellas",
+                "quieren"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "nosotros keeps the original stem — no change. pensar → pienso, empezar → empiezo follow the same boot pattern."
+          }
+        },
+        {
+          "id": "pt_oue_table",
+          "grammar": true,
+          "english": "o→ue stem-changers: poder",
+          "word": "puedo, puedes, puede, podemos, pueden",
+          "grammarNote": "**poder** (to be able to / can) is an o→ue stem-changer.\n\nThe stem vowel **o** becomes **ue** in all forms **except nosotros**.\n\nSame pattern: **encontrar** (encuentro). Special case: **jugar** changes **u→ue** (juego, juegas, juega, jugamos, juegan).",
+          "englishPhrase": "I can speak Spanish.",
+          "phrase": "Yo puedo hablar español.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "puedo",
+              "can"
+            ],
+            [
+              "hablar español",
+              "speak Spanish"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "poder (o→ue)",
+            "rows": [
+              [
+                "yo",
+                "puedo"
+              ],
+              [
+                "tú",
+                "puedes"
+              ],
+              [
+                "él / ella",
+                "puede"
+              ],
+              [
+                "nosotros",
+                "podemos"
+              ],
+              [
+                "ellos / ellas",
+                "pueden"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "nosotros keeps the original stem. encontrar → encuentro follows the same pattern. jugar is special: u→ue (juego)."
+          }
+        },
+        {
+          "id": "pt_eie_cloze",
+          "grammar": true,
+          "english": "e→ie cloze: pensar (yo)",
+          "word": "pienso",
+          "grammarNote": "**pensar** (to think) follows the e→ie pattern.\n\nIn the **yo** form the stem vowel **e** shifts to **ie**: **pienso**.\n\n*penso* is not a Spanish word — the stem must change.",
+          "englishPhrase": "I think in Spanish.",
+          "phrase": "Yo pienso en español.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "pienso",
+              "think"
+            ],
+            [
+              "en español",
+              "in Spanish"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I think (e→ie) — the yo form of pensar",
+            "text": "Yo ___ en español.",
+            "answer": "pienso",
+            "options": [
+              "pienso",
+              "penso"
+            ]
+          }
+        },
+        {
+          "id": "pt_oue_cloze",
+          "grammar": true,
+          "english": "o→ue cloze: encontrar (yo)",
+          "word": "encuentro",
+          "grammarNote": "**encontrar** (to find) follows the o→ue pattern.\n\nIn the **yo** form the stem vowel **o** shifts to **ue**: **encuentro**.\n\n*encontro* is not a Spanish word — the stem must change.",
+          "englishPhrase": "I find the restaurant.",
+          "phrase": "Yo encuentro el restaurante.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "encuentro",
+              "find"
+            ],
+            [
+              "el restaurante",
+              "the restaurant"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I find (o→ue) — the yo form of encontrar",
+            "text": "Yo ___ el restaurante.",
+            "answer": "encuentro",
+            "options": [
+              "encuentro",
+              "encontro"
+            ]
+          }
+        },
+        {
+          "id": "pt_boot_contrast",
+          "grammar": true,
+          "english": "The boot pattern: stem changes vs. nosotros",
+          "word": "quiero, queremos",
+          "grammarNote": "Stem-changing verbs form a **\"boot\" (or \"shoe\") shape** on the conjugation chart.\n\nThe stem changes in **yo, tú, él/ella, ellos** — the four forms that make the outline of a boot.\n\n**nosotros** sits outside the boot and **always keeps the original stem** — no change.",
+          "englishPhrase": "I want / we want",
+          "phrase": "quiero / queremos",
+          "literal": [
+            [
+              "quiero",
+              "I want"
+            ],
+            [
+              "queremos",
+              "we want"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which form keeps the original stem?",
+            "a": {
+              "term": "quiero",
+              "gloss": "stem changes: e→ie (inside the boot)"
+            },
+            "b": {
+              "term": "queremos",
+              "gloss": "stem stays as e — nosotros is always outside the boot"
+            }
+          }
+        }
+      ]
+    },
+    {
       "id": "grammar_past_tense",
       "name": "Past Tense",
       "language": "spanish",
@@ -3288,6 +3994,597 @@
             "task": "I buy it (the cake) for you; I give it (the bill) to the waiter.",
             "answer": "Te lo compro. Se la doy al camarero.",
             "gloss": "el pastel → lo (masc.); la cuenta → la (fem.); le + la → se la"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_por_para",
+      "name": "Por vs Para",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "pp_para_table",
+          "grammar": true,
+          "english": "PARA — the four core uses",
+          "word": "para",
+          "grammarNote": "**para** points forward to a **goal, recipient, deadline, or destination** — the finish line ahead.\n\nWherever PARA appears, something is aimed *at* a target.",
+          "englishPhrase": "I study in order to learn Spanish.",
+          "phrase": "Estudio para aprender español.",
+          "literal": [
+            [
+              "Estudio",
+              "I study"
+            ],
+            [
+              "para",
+              "in order to"
+            ],
+            [
+              "aprender",
+              "learn"
+            ],
+            [
+              "español",
+              "Spanish"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Uses of PARA",
+            "rows": [
+              [
+                "purpose / goal — para + infinitive",
+                "Estudio para aprender español."
+              ],
+              [
+                "recipient — for someone",
+                "El café es para María."
+              ],
+              [
+                "deadline — by a time",
+                "Necesito el pan para mañana."
+              ],
+              [
+                "destination — headed for a place",
+                "Salgo para la oficina."
+              ]
+            ],
+            "highlight": "purpose / goal — para + infinitive",
+            "note": "All four uses share one idea: PARA aims at a target ahead."
+          }
+        },
+        {
+          "id": "pp_para_purpose_cloze",
+          "grammar": true,
+          "english": "para + infinitive = in order to (purpose)",
+          "word": "para",
+          "grammarNote": "Use **para + infinitive** to express *purpose* — the goal of an action.\n\n**para** is the one that points to the goal ahead; por is not used for purpose.",
+          "englishPhrase": "I study in order to learn Spanish.",
+          "phrase": "Estudio para aprender español.",
+          "literal": [
+            [
+              "Estudio",
+              "I study"
+            ],
+            [
+              "para",
+              "in order to"
+            ],
+            [
+              "aprender",
+              "learn"
+            ],
+            [
+              "español",
+              "Spanish"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "in order to (purpose)",
+            "text": "Estudio ___ aprender español.",
+            "answer": "para",
+            "options": [
+              "para",
+              "por"
+            ]
+          }
+        },
+        {
+          "id": "pp_para_recipient_produce",
+          "grammar": true,
+          "english": "para = for someone (recipient)",
+          "word": "para",
+          "grammarNote": "Use **para + person** to say something is *for* someone — the intended recipient.\n\nThe item is aimed at that person.",
+          "englishPhrase": "The coffee is for María.",
+          "phrase": "El café es para María.",
+          "literal": [
+            [
+              "El café",
+              "The coffee"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "para",
+              "for"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "para + person = recipient",
+            "task": "Say: The coffee is for María.",
+            "answer": "El café es para María.",
+            "gloss": "para + person = the item is intended for that person"
+          }
+        },
+        {
+          "id": "pp_para_deadline_cloze",
+          "grammar": true,
+          "english": "para = by a deadline (by when)",
+          "word": "para",
+          "grammarNote": "Use **para + time expression** to say something is needed *by* a certain point.\n\nThe deadline is the finish line — **para** points straight to it.",
+          "englishPhrase": "I need the bread by tomorrow.",
+          "phrase": "Necesito el pan para mañana.",
+          "literal": [
+            [
+              "Necesito",
+              "I need"
+            ],
+            [
+              "el pan",
+              "the bread"
+            ],
+            [
+              "para",
+              "by"
+            ],
+            [
+              "mañana",
+              "tomorrow"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "by when (deadline)",
+            "text": "Necesito el pan ___ mañana.",
+            "answer": "para",
+            "options": [
+              "para",
+              "por"
+            ]
+          }
+        },
+        {
+          "id": "pp_para_destination",
+          "grammar": true,
+          "english": "para = headed for a destination",
+          "word": "para",
+          "grammarNote": "Use **para + place** when you are *heading toward* a destination.\n\nThe place is the target you are moving toward — the finish line of your journey.",
+          "englishPhrase": "I leave for the office.",
+          "phrase": "Salgo para la oficina.",
+          "literal": [
+            [
+              "Salgo",
+              "I leave / I go out"
+            ],
+            [
+              "para",
+              "for / headed to"
+            ],
+            [
+              "la oficina",
+              "the office"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "headed toward a destination",
+            "text": "Salgo ___ la oficina.",
+            "answer": "para",
+            "options": [
+              "para",
+              "por"
+            ]
+          }
+        },
+        {
+          "id": "pp_por_table",
+          "grammar": true,
+          "english": "POR — the core uses",
+          "word": "por",
+          "grammarNote": "**por** looks back at the **cause or reason**, covers **exchange** and **gratitude**, marks **duration or time of day**, and shows **movement through** a place.\n\nThink: *the motive / the route / the span.*",
+          "englishPhrase": "Thanks for the food.",
+          "phrase": "Gracias por la comida.",
+          "literal": [
+            [
+              "Gracias",
+              "Thanks"
+            ],
+            [
+              "por",
+              "for"
+            ],
+            [
+              "la comida",
+              "the food"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Uses of POR",
+            "rows": [
+              [
+                "cause / reason (because of)",
+                "Gracias por la comida."
+              ],
+              [
+                "exchange / gratitude (for)",
+                "Gracias por el café."
+              ],
+              [
+                "duration / time of day (during)",
+                "Trabajo por la mañana."
+              ],
+              [
+                "movement through / along",
+                "Camino por el parque."
+              ]
+            ],
+            "highlight": "cause / reason (because of)",
+            "note": "All four uses share one idea: por points to the motive, the route, or the span — never the goal."
+          }
+        },
+        {
+          "id": "pp_por_cause_cloze",
+          "grammar": true,
+          "english": "POR = cause / reason (because of)",
+          "word": "por",
+          "grammarNote": "Use **por** when you name the **cause or reason** behind something — the thing that triggered it.\n\n*Gracias por la comida* → thanks *because of / for* the food.\n\npor looks *back* at the cause; para looks *forward* at a goal.",
+          "englishPhrase": "Thanks for the food.",
+          "phrase": "Gracias por la comida.",
+          "literal": [
+            [
+              "Gracias",
+              "Thanks"
+            ],
+            [
+              "por",
+              "for / because of"
+            ],
+            [
+              "la comida",
+              "the food"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "for (cause / reason)",
+            "text": "Gracias ___ la comida.",
+            "answer": "por",
+            "options": [
+              "por",
+              "para"
+            ]
+          }
+        },
+        {
+          "id": "pp_por_exchange",
+          "grammar": true,
+          "english": "POR = exchange / gratitude (for)",
+          "word": "por",
+          "grammarNote": "**por** marks an **exchange** — something given or received *in return for* something else.\n\nGratitude (*gracias*) is a special case: you give thanks *in return for* what you received.\n\nPattern: **gracias + por + thing**.",
+          "englishPhrase": "Thanks for the coffee.",
+          "phrase": "Gracias por el café.",
+          "literal": [
+            [
+              "Gracias",
+              "Thanks"
+            ],
+            [
+              "por",
+              "for"
+            ],
+            [
+              "el café",
+              "the coffee"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "por = exchange / gratitude",
+            "task": "Say: Thanks for the bread.",
+            "answer": "Gracias por el pan.",
+            "gloss": "gracias + por + thing"
+          }
+        },
+        {
+          "id": "pp_por_duration_cloze",
+          "grammar": true,
+          "english": "POR = duration / time of day (during)",
+          "word": "por",
+          "grammarNote": "Use **por** to say *when* or *during what part of the day* something happens.\n\n**por la mañana** = in the morning · **por la noche** = at night.\n\nThink of **por** as covering a **span of time** — not a deadline or destination.",
+          "englishPhrase": "I work in the morning.",
+          "phrase": "Trabajo por la mañana.",
+          "literal": [
+            [
+              "Trabajo",
+              "I work"
+            ],
+            [
+              "por",
+              "during / in"
+            ],
+            [
+              "la mañana",
+              "the morning"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "during / in the (time of day)",
+            "text": "Trabajo ___ la mañana.",
+            "answer": "por",
+            "options": [
+              "por",
+              "para"
+            ]
+          }
+        },
+        {
+          "id": "pp_por_movement",
+          "grammar": true,
+          "english": "POR = movement through / along a place",
+          "word": "por",
+          "grammarNote": "Use **por** when you move **through** or **along** a place — the place is the route, not the destination.\n\n*Camino por el parque* → I walk **through** the park.\n\nWith *para* it would mean going **to** the park (destination). por = the route; para = the goal.",
+          "englishPhrase": "I walk through the park.",
+          "phrase": "Camino por el parque.",
+          "literal": [
+            [
+              "Camino",
+              "I walk"
+            ],
+            [
+              "por",
+              "through / along"
+            ],
+            [
+              "el parque",
+              "the park"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "POR = through / along (movement)",
+            "rows": [
+              [
+                "Camino por el parque.",
+                "I walk through the park."
+              ],
+              [
+                "Camino por la playa.",
+                "I walk along the beach."
+              ],
+              [
+                "Camino por la tienda.",
+                "I walk through the store."
+              ]
+            ],
+            "highlight": "Camino por el parque.",
+            "note": "The place is the route, not the destination. Switch to para and it becomes the goal."
+          }
+        },
+        {
+          "id": "pp_por_setphrases",
+          "grammar": true,
+          "english": "POR — fixed expressions you already know",
+          "word": "por",
+          "grammarNote": "Several everyday phrases you already use are built with **por**.\n\nThey fit the same pattern: **por** points to a reason, a span, or an exchange — even inside fixed expressions.",
+          "englishPhrase": "Please, why do you work at night?",
+          "phrase": "Por favor, ¿por qué trabajas por la noche?",
+          "literal": [
+            [
+              "Por favor",
+              "Please"
+            ],
+            [
+              "¿por qué",
+              "why (for what reason)"
+            ],
+            [
+              "trabajas",
+              "do you work"
+            ],
+            [
+              "por la noche",
+              "at night"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Fixed POR expressions",
+            "rows": [
+              [
+                "por favor",
+                "please (lit. for a favor)"
+              ],
+              [
+                "¿por qué?",
+                "why? (lit. for what reason?)"
+              ],
+              [
+                "por la mañana",
+                "in the morning"
+              ],
+              [
+                "por la noche",
+                "at night"
+              ]
+            ],
+            "highlight": "¿por qué?",
+            "note": "Every phrase uses por because it points to a cause, a span, or an exchange — the same core idea."
+          }
+        },
+        {
+          "id": "pp_contrast_1",
+          "grammar": true,
+          "english": "por vs para — the core mental model",
+          "word": "por vs para",
+          "grammarNote": "**PARA** points **forward**: goal, destination, recipient, deadline.\n\n**POR** looks **backward or through**: cause, exchange, duration, route.\n\nMemory hook: PARA = *purpose ahead*; POR = *reason behind / path through*.",
+          "englishPhrase": "The food is for María. / Thanks for the food.",
+          "phrase": "La comida es para María. / Gracias por la comida.",
+          "literal": [
+            [
+              "La comida es para María",
+              "The food is for María (recipient)"
+            ],
+            [
+              "Gracias por la comida",
+              "Thanks for the food (exchange)"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which direction does each preposition point?",
+            "a": {
+              "term": "PARA",
+              "gloss": "forward — goal / destination / recipient / deadline"
+            },
+            "b": {
+              "term": "POR",
+              "gloss": "backward / through — cause / exchange / duration / route"
+            }
+          }
+        },
+        {
+          "id": "pp_mixed_cloze_1",
+          "grammar": true,
+          "english": "trabajar por vs trabajar para — minimal pair",
+          "word": "por vs para",
+          "grammarNote": "**Trabajo por María** = I work *because of / on behalf of* María (the motive behind the action).\n\n**Trabajo para María** = I work *for* María (she is my employer / the beneficiary — the goal ahead).\n\npor = the reason; para = the employer / beneficiary.",
+          "englishPhrase": "I work on behalf of María.",
+          "phrase": "Trabajo por María.",
+          "literal": [
+            [
+              "Trabajo",
+              "I work"
+            ],
+            [
+              "por",
+              "on behalf of / because of"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I work on behalf of / because of María (motive — not employer)",
+            "text": "Trabajo ___ María.",
+            "answer": "por",
+            "options": [
+              "por",
+              "para"
+            ]
+          }
+        },
+        {
+          "id": "pp_mixed_cloze_2",
+          "grammar": true,
+          "english": "para = purpose (in order to)",
+          "word": "por vs para",
+          "grammarNote": "When the next word is an **infinitive** and the meaning is *in order to*, use **para**.\n\n**para** + infinitive = goal / purpose ahead. **por** + infinitive would mean *because of doing* — a cause, not a goal.",
+          "englishPhrase": "I study in order to learn Spanish.",
+          "phrase": "Estudio para aprender español.",
+          "literal": [
+            [
+              "Estudio",
+              "I study"
+            ],
+            [
+              "para",
+              "in order to"
+            ],
+            [
+              "aprender español",
+              "learn Spanish"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I study in order to learn Spanish (purpose)",
+            "text": "Estudio ___ aprender español.",
+            "answer": "para",
+            "options": [
+              "para",
+              "por"
+            ]
+          }
+        },
+        {
+          "id": "pp_contrast_2",
+          "grammar": true,
+          "english": "por = route through / para = destination toward",
+          "word": "por vs para",
+          "grammarNote": "**por** = movement *through* or *along* a place (you pass through it).\n\n**para** = movement *toward* a destination (that is where you are headed).\n\nSame place, opposite meanings: *por el parque* = through the park; *para el parque* = toward the park.",
+          "englishPhrase": "I walk through the park. / I leave for the park.",
+          "phrase": "Camino por el parque. / Salgo para el parque.",
+          "literal": [
+            [
+              "Camino por el parque",
+              "I walk through the park (route)"
+            ],
+            [
+              "Salgo para el parque",
+              "I leave for the park (destination)"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Same place — passing through it or heading toward it?",
+            "a": {
+              "term": "por el parque",
+              "gloss": "route — movement through the park"
+            },
+            "b": {
+              "term": "para el parque",
+              "gloss": "destination — the park is where you are headed"
+            }
+          }
+        },
+        {
+          "id": "pp_produce",
+          "grammar": true,
+          "english": "produce: por (exchange) and para (recipient)",
+          "word": "por vs para",
+          "grammarNote": "**Gracias por** = thanks *for* something already given → exchange (por looks back).\n\n**Es para** = it is *for* someone → recipient (para points forward).\n\nTwo of the most common por/para patterns — learn these as anchors.",
+          "englishPhrase": "Thanks for the coffee. / The coffee is for María.",
+          "phrase": "Gracias por el café. / El café es para María.",
+          "literal": [
+            [
+              "Gracias por el café",
+              "Thanks for the coffee (exchange)"
+            ],
+            [
+              "El café es para María",
+              "The coffee is for María (recipient)"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "por vs para in production",
+            "task": "Say: 'Thanks for the coffee' (por — exchange) and 'The coffee is for María' (para — recipient).",
+            "answer": "Gracias por el café. / El café es para María.",
+            "gloss": "por = exchange; para = recipient"
           }
         }
       ]
