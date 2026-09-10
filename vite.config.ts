@@ -45,26 +45,27 @@ export default defineConfig({
         globPatterns: ['assets/**/*.{js,css}', '*.{html,svg,ico,woff,woff2}'],
         runtimeCaching: [
           {
-            // index.json files: serve from cache immediately, revalidate in background
+            // index.json files: cache-first, no background revalidation.
+            // Served from cache for 14 days before hitting the server again.
             urlPattern: /\/languages\/[^/]+\/[^/]+\/index\.json$/,
-            handler: 'StaleWhileRevalidate',
+            handler: 'CacheFirst',
             options: {
               cacheName: 'language-index',
               expiration: {
                 maxEntries: 100,
-                maxAgeSeconds: 30 * 24 * 60 * 60,
+                maxAgeSeconds: 14 * 24 * 60 * 60,
               },
             },
           },
           {
-            // stories, grammar, picture lessons: cache-first on first visit
+            // stories, grammar, picture lessons: cache-first, 14-day expiration
             urlPattern: /\/(languages|picture-lessons|cross)\/.+\.(json|html)$/,
             handler: 'CacheFirst',
             options: {
               cacheName: 'language-content',
               expiration: {
                 maxEntries: 500,
-                maxAgeSeconds: 30 * 24 * 60 * 60,
+                maxAgeSeconds: 14 * 24 * 60 * 60,
               },
             },
           },

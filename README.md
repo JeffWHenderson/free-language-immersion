@@ -216,4 +216,4 @@ Edit the `target_language` (and `romanized` if present). No build step needed fo
 ## Build notes
 
 - JSON files in `public/` are kept human-readable in source and automatically minified during `npm run build` by a custom Vite plugin before the PWA service worker is generated. Workbox precache hashes are computed on the minified files.
-- The PWA caches all assets on first visit. Subsequent visits load from cache; the service worker checks for updates in the background (stale-while-revalidate).
+- The PWA caches all assets on first visit. Content under `public/` (language JSON, stories, grammar, picture lessons) is served cache-first with a 14-day expiration — no per-request revalidation — to minimize server calls. The app shell (JS/CSS) still auto-updates via the precache when a new build is deployed.
