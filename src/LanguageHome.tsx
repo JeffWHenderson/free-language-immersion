@@ -38,6 +38,9 @@ const LanguageAppHome = () => {
                 <button className="lang-course-btn" onClick={() => navigate('/korean')} onMouseEnter={() => prefetchLanguage('korean')}>
                     Korean Course →
                 </button>
+                <button className="lang-cross-btn" onClick={() => navigate('/interview/')} onMouseEnter={() => prefetchLanguage('interview')}>
+                    SWE interview prep (prototype)
+                </button>
             </div>
 
             <div className="lang-home-content">
@@ -73,15 +76,13 @@ const LanguageAppHome = () => {
                     <li><strong>Bugs or feature requests:</strong> <Link href="/contact">Contact me</Link></li>
                 </ul>
             </div>
-            <div >
+
+            <div style={{ marginTop: '18px', display: 'flex', gap: '1rem' }}>
                 <button className="lang-cross-btn" onClick={() => navigate('/deck')} onMouseEnter={prefetchGlobalDeck}>
-                    combined deck (all languages)
+                    multiple courses (for jeff)
                 </button>
                 <button className="lang-cross-btn" onClick={() => navigate('/es-zh')} onMouseEnter={prefetchESZH}>
-                    es → zh test
-                </button>
-                <button className="lang-cross-btn" onClick={() => navigate('/interview/')} onMouseEnter={() => prefetchLanguage('interview')}>
-                    SWE interview prep (prototype)
+                    es → zh (for jeff)
                 </button>
             </div>
         </div>
