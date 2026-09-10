@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams, useLocation } from "wouter";
-import LiteralGloss, { type LiteralData } from "../components/LiteralGloss";
+import LiteralGloss from "../components/LiteralGloss";
 import GrammarNote from "../components/GrammarNote";
-import { applyRating, CardState, isDue, isNew, previewIntervals, Rating } from "../fsrs";
+import { applyRating, CardState, isNew, previewIntervals, Rating } from "../fsrs";
 import { useLanguageApp } from "../../LanguageAppContext";
 import {
     loadMultiDeckState,
@@ -17,101 +17,22 @@ import { useSpeech } from "../../hooks/useSpeech";
 import { useDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
-import type { GrammarFormat, ClozeData, TableData, ContrastData, ProduceData } from "../components/GrammarFace";
+import {
+    type CombinedCard,
+    type CombinedSessionCard,
+    categorize,
+    buildSession,
+    orderFastCards,
+} from "../deckSession";
 import Settings from "../components/Settings";
 import "../srs.css";
 import "../Review/Review.css";
 
 const PACK_SELECTION_KEY = (language: string) => `pack_selection_${language}`;
 
-interface Card {
-    id: string;
-    hidden?: boolean;
-    grammar?: boolean;
-    format?: GrammarFormat;
-    cloze?: ClozeData;
-    table?: TableData;
-    contrast?: ContrastData;
-    produce?: ProduceData;
-    english: string;
-    word: string;
-    romanized?: string;
-    code?: string;
-    codeLang?: string;
-    grammarNote?: string;
-    englishPhrase?: string;
-    phrase?: string;
-    phraseRomanized?: string;
-    literal?: LiteralData;
-}
-
-interface CombinedCard extends Card {
-    deckId: string;
-    deckName: string;
-}
-
-type CombinedSessionCard = CombinedCard & { cardState: CardState };
-
 interface HideTarget {
     cardId: string;
     deckId: string;
-}
-
-interface CategorizedCards {
-    due: CombinedSessionCard[];    // review cards past their due date
-    learn: CombinedSessionCard[];  // learning cards, least mastered first
-    newCards: CombinedSessionCard[];
-    later: CombinedSessionCard[];  // review cards not yet due ("mastered")
-}
-
-// Split every selected card into priority buckets, ordered across ALL decks
-// (not sequentially per deck). Due cards sort by how overdue they are; learning
-// cards sort by stability ascending so the least-mastered surface first.
-function categorize(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>
-): CategorizedCards {
-    const due: CombinedSessionCard[] = [];
-    const learn: CombinedSessionCard[] = [];
-    const newCards: CombinedSessionCard[] = [];
-    const later: CombinedSessionCard[] = [];
-
-    for (const card of cards) {
-        const deckState = deckStates.get(card.deckId) ?? {};
-        if (isCardHidden(card, deckState)) continue;
-        const state = getCardState(deckState, card.id);
-        const sessionCard: CombinedSessionCard = { ...card, cardState: state };
-        if (isNew(state)) newCards.push(sessionCard);
-        else if (state.state === "learning") learn.push(sessionCard);
-        else if (isDue(state)) due.push(sessionCard);
-        else later.push(sessionCard);
-    }
-
-    due.sort((a, b) => a.cardState.dueDate.localeCompare(b.cardState.dueDate));
-    learn.sort((a, b) => a.cardState.stability - b.cardState.stability);
-    return { due, learn, newCards, later };
-}
-
-// SRS session: only cards that are actually due to study today —
-// due → learning (least mastered) → new. Mastered-but-not-due cards wait.
-function buildSession(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>,
-    shuffle: boolean
-): CombinedSessionCard[] {
-    const { due, learn, newCards } = categorize(cards, deckStates);
-    return [due, learn, newCards].flatMap(g => shuffle ? shuffled(g) : g);
-}
-
-// Fast mode plays every visible card, but ordered by the same priority so the
-// most important cards come first: due → learning (least mastered) → new →
-// already-mastered. New and mastered cards get pushed to the bottom.
-function orderFastCards(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>
-): CombinedCard[] {
-    const { due, learn, newCards, later } = categorize(cards, deckStates);
-    return [...due, ...learn, ...newCards, ...later];
 }
 
 const UnifiedReview = () => {
@@ -158,7 +79,7 @@ const UnifiedReview = () => {
 
         const selectedPacks = packs.filter((p) => selectedIds.includes(p.id));
         const combined: CombinedCard[] = selectedPacks.flatMap((p) =>
-            p.cards.map((c) => ({ ...c, deckId: p.id, deckName: p.name }))
+            p.cards.map((c) => ({ ...c, deckId: p.id, deckKey: p.id, deckName: p.name }))
         );
         const states = loadMultiDeckState(language, selectedPacks.map((p) => p.id));
         setAllCards(combined);
@@ -171,7 +92,7 @@ const UnifiedReview = () => {
     }, [language, packs, packsLoading]);
 
     const getCardDeckState = (card: CombinedCard): SRSDeckState =>
-        deckStates.get(card.deckId) ?? {};
+        deckStates.get(card.deckKey) ?? {};
 
     const speakTargetSide = (card: CombinedSessionCard) => {
         if (!readBack) return;
@@ -595,14 +516,41 @@ const UnifiedReview = () => {
     // ─────────────────────────────────────────────────────────────────────────
 
     if (done || remaining === 0) {
+        // Cards already reviewed this session have advanced out of the `new`
+        // bucket, so re-running buildSession serves the *next* batch of ≤10 new
+        // cards. Only offer it when fresh new cards actually remain.
+        const remainingNew = categorize(allCards, deckStates).newCards.length;
+        const addMoreCards = () => {
+            const next = buildSession(allCards, deckStates, isSrsShuffled);
+            setSession(next);
+            setTotalCards(next.length);
+            setReviewed(0);
+            setDone(false);
+            setIsFlipped(false);
+            setNoteOpen(true);
+        };
         return (
             <div className="srs-container">
                 <div className="srs-done">
                     <h2>Session complete!</h2>
                     <p>You reviewed {reviewed} card{reviewed !== 1 ? "s" : ""}.</p>
-                    <p>Come back tomorrow to review cards that are due.</p>
+                    <p>
+                        {remainingNew > 0
+                            ? "Add more new cards, or come back tomorrow for cards that are due."
+                            : "Come back tomorrow to review cards that are due."}
+                    </p>
                     <div className="srs-done-actions">
-                        <button className="srs-btn-primary" onClick={() => navigate(`/${language}/`)}>Back to Decks</button>
+                        {remainingNew > 0 && (
+                            <button className="srs-btn-primary" onClick={addMoreCards}>
+                                Add {Math.min(10, remainingNew)} more card{Math.min(10, remainingNew) !== 1 ? "s" : ""}
+                            </button>
+                        )}
+                        <button
+                            className={remainingNew > 0 ? "srs-btn-secondary" : "srs-btn-primary"}
+                            onClick={() => navigate(`/${language}/`)}
+                        >
+                            Back to Decks
+                        </button>
                     </div>
                 </div>
             </div>

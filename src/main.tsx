@@ -3,7 +3,10 @@ import { createRoot } from 'react-dom/client'
 import { Router, Route, Switch } from "wouter";
 import { ThemeProvider } from './common/ThemeContext';
 import PageSkeleton from './components/PageSkeleton';
+import { migratePartMerge } from './pages/migratePartMerge';
 import './index.css'
+
+migratePartMerge();
 
 const LanguageAppLayout = lazy(() => import('./LanguageAppLayout'));
 const LanguageLearningApp = lazy(() => import("./pages/LanguageApp"));

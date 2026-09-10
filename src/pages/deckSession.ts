@@ -95,47 +95,46 @@ function cardKey(card: CombinedCard): string {
     return `${card.deckKey}:${card.id}`;
 }
 
-// Pick the next batch of up to `limit` new cards, all drawn from a SINGLE
-// section. everyday_phrases drains completely first; after that the least-
-// introduced section (fewest cards already out of the `new` state) supplies the
-// batch, ties broken by the order sections first appear. Cards already queued in
-// the live session are skipped via `exclude` so repeated pulls advance.
+// Pick the next batch of up to `limit` new cards. everyday_phrases drains
+// completely first (its whole batch comes from that one subject until it has no
+// new cards left). After that, cards are drawn round-robin — one at a time from
+// each remaining subject in selection order — so a single batch interleaves
+// several topics. Cards already queued in the live session are skipped via
+// `exclude` so repeated pulls advance.
 export function selectNewBatch(
     categorized: CategorizedCards,
     exclude: Set<string> = new Set(),
     limit: number = NEW_PER_BATCH
 ): CombinedSessionCard[] {
-    const { due, learn, newCards, later } = categorized;
+    const { newCards } = categorized;
 
-    // Group available new cards by section, preserving first-seen order.
-    const newBySection = new Map<string, CombinedSessionCard[]>();
+    // Group available new cards by subject, preserving first-seen order.
+    const order: string[] = [];
+    const bySection = new Map<string, CombinedSessionCard[]>();
     for (const c of newCards) {
         if (exclude.has(cardKey(c))) continue;
         const s = sectionOf(c);
-        const arr = newBySection.get(s);
+        const arr = bySection.get(s);
         if (arr) arr.push(c);
-        else newBySection.set(s, [c]);
+        else { bySection.set(s, [c]); order.push(s); }
     }
-    if (newBySection.size === 0) return [];
+    if (bySection.size === 0) return [];
 
-    // Count already-introduced (non-new) cards per section.
-    const introduced = new Map<string, number>();
-    for (const c of [...due, ...learn, ...later]) {
-        const s = sectionOf(c);
-        introduced.set(s, (introduced.get(s) ?? 0) + 1);
+    // Everyday phrases is introduced completely before any other subject.
+    if (bySection.has(EVERYDAY_PHRASES_KEY)) {
+        return bySection.get(EVERYDAY_PHRASES_KEY)!.slice(0, limit);
     }
 
-    let chosen: string;
-    if (newBySection.has(EVERYDAY_PHRASES_KEY)) {
-        chosen = EVERYDAY_PHRASES_KEY;
-    } else {
-        // Least-introduced wins; `<` keeps the earlier-seen section on ties.
-        chosen = [...newBySection.keys()].reduce((best, s) =>
-            (introduced.get(s) ?? 0) < (introduced.get(best) ?? 0) ? s : best
-        );
+    // Round-robin across the remaining subjects until the batch is full.
+    const queues = order.map((s) => bySection.get(s)!);
+    const batch: CombinedSessionCard[] = [];
+    let i = 0;
+    while (batch.length < limit && queues.some((q) => q.length > 0)) {
+        const q = queues[i % queues.length];
+        if (q.length > 0) batch.push(q.shift()!);
+        i++;
     }
-
-    return newBySection.get(chosen)!.slice(0, limit);
+    return batch;
 }
 
 // SRS session: cards actually due to study today, in priority order —

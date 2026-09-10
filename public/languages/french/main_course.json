@@ -5,6 +5,14 @@
       "id": "everyday_phrases",
       "name": "Everyday Phrases",
       "language": "french",
+      "stories": [
+        "morning_routine",
+        "meeting_a_friend",
+        "making_plans",
+        "meet_jeff",
+        "a_phone_call",
+        "going_shopping"
+      ],
       "cards": [
         {
           "id": "hello",
@@ -277,25 +285,7 @@
           "grammarNote": "**soif** is a feminine noun (la soif) though you rarely see it with an article in this phrase.\n**J'ai très soif** — note that **très** modifies the noun here, not an adjective, which is unusual in English ('I'm very thirsty') but natural in French.\nRelated: **mourir de soif** (dying of thirst — a common hyperbolic expression).",
           "englishPhrase": "I'm very thirsty.",
           "phrase": "J'ai très soif."
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 1,
-      "stories": [
-        "morning_routine",
-        "meeting_a_friend",
-        "making_plans",
-        "meet_jeff",
-        "a_phone_call",
-        "going_shopping"
-      ]
-    },
-    {
-      "id": "everyday_phrases_2",
-      "name": "Everyday Phrases 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "who",
           "english": "Who",
@@ -496,17 +486,7 @@
           "englishPhrase": "This is for you.",
           "phrase": "C'est pour toi.",
           "hidden": true
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 2
-    },
-    {
-      "id": "everyday_phrases_3",
-      "name": "Everyday Phrases 3",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "person",
           "english": "Person",
@@ -713,15 +693,20 @@
           "word": "C'est combien ?",
           "grammarNote": "**C'est combien ?** = casual, very common.\n**Ça coûte combien ?** = more explicit (how much does it cost?).\n**Combien ça fait ?** = how much does that come to? (at a till/register).\n**Quel est le prix ?** = what is the price? (more formal)."
         }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 3
+      ]
     },
     {
       "id": "food_and_drink",
       "name": "Food & Drink",
       "language": "french",
+      "stories": [
+        "at_the_restaurant",
+        "at_the_market",
+        "cooking_at_home",
+        "a_nice_restaurant",
+        "at_the_bakery",
+        "a_picnic"
+      ],
       "cards": [
         {
           "id": "water",
@@ -1014,25 +999,7 @@
               "chocolate"
             ]
           ]
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 1,
-      "stories": [
-        "at_the_restaurant",
-        "at_the_market",
-        "cooking_at_home",
-        "a_nice_restaurant",
-        "at_the_bakery",
-        "a_picnic"
-      ]
-    },
-    {
-      "id": "food_and_drink_2",
-      "name": "Food & Drink 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "pork",
           "english": "pork",
@@ -1222,17 +1189,7 @@
           "grammarNote": "**le chocolat** is masculine. From Nahuatl **xocolātl** via Spanish.\n**J'adore** = I love (stronger than **j'aime**) — no partitive needed with **adorer/aimer** + definite article for general statements.\n**le chocolat** here = chocolate in general (definite article for category love).",
           "englishPhrase": "I love chocolate.",
           "phrase": "J'adore le chocolat."
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 2
-    },
-    {
-      "id": "food_and_drink_3",
-      "name": "Food & Drink 3",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "butter",
           "english": "butter",
@@ -1429,15 +1386,18 @@
           "phrase": "Je suis végétarien(ne).",
           "hidden": true
         }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 3
+      ]
     },
     {
       "id": "common_places",
       "name": "Common Places",
       "language": "french",
+      "stories": [
+        "a_day_in_the_city",
+        "at_the_hotel",
+        "getting_around",
+        "at_the_pharmacy"
+      ],
       "cards": [
         {
           "id": "home",
@@ -1650,23 +1610,7 @@
           "grammarNote": "**très haute** — **haute** is the feminine form of **haut** (high/tall). Adjective agreement: **haut** (masc.) · **haute** (fem.).\nLocation: **en montagne** (in the mountains — no article, fixed expression) vs. **dans la montagne** (in/through the mountain).",
           "englishPhrase": "The mountain is very high.",
           "phrase": "La montagne est très haute."
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 1,
-      "stories": [
-        "a_day_in_the_city",
-        "at_the_hotel",
-        "getting_around",
-        "at_the_pharmacy"
-      ]
-    },
-    {
-      "id": "common_places_2",
-      "name": "Common Places 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "museum",
           "english": "Museum",
@@ -1865,17 +1809,7 @@
           "grammarNote": "**à proximité** = nearby (formal/written); **près d'ici** = nearby (conversational).\n**une pharmacie à proximité** — **à proximité** follows the noun it modifies, unlike English 'nearby pharmacy' where the adjective precedes.",
           "englishPhrase": "Is there a pharmacy nearby?",
           "phrase": "Il y a une pharmacie à proximité ?"
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 2
-    },
-    {
-      "id": "common_places_3",
-      "name": "Common Places 3",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "to_go",
           "english": "To go",
@@ -2076,15 +2010,18 @@
           "englishPhrase": "I'm lost.",
           "phrase": "Je suis perdu(e)."
         }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 3
+      ]
     },
     {
       "id": "jobs_and_hobbies",
       "name": "Jobs & Hobbies",
       "language": "french",
+      "stories": [
+        "at_work",
+        "weekend_hobbies",
+        "job_interview",
+        "learning_french"
+      ],
       "cards": [
         {
           "id": "doctor",
@@ -2271,23 +2208,7 @@
           "grammarNote": "**aimer + infinitive** = to like doing: j'aime **lire**.\n**lire** is irregular: je lis · tu lis · il lit · nous lisons · vous lisez · ils lisent.\nThe hobby noun is **la lecture** (reading as an activity): la lecture est mon passe-temps préféré.",
           "englishPhrase": "I like reading.",
           "phrase": "J'aime lire."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 1,
-      "stories": [
-        "at_work",
-        "weekend_hobbies",
-        "job_interview",
-        "learning_french"
-      ]
-    },
-    {
-      "id": "jobs_and_hobbies_2",
-      "name": "Jobs & Hobbies 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "writing",
           "english": "Writing",
@@ -2462,17 +2383,7 @@
           "grammarNote": "**ennuyeux** (masc.) → **ennuyeuse** (fem.): la réunion était **ennuyeuse**.\nAdjectives ending in **-eux** change to **-euse** in the feminine: ennuyeux/ennuyeuse · heureux/heureuse · sérieux/sérieuse.",
           "englishPhrase": "The meeting was boring.",
           "phrase": "La réunion était ennuyeuse."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 2
-    },
-    {
-      "id": "jobs_and_hobbies_3",
-      "name": "Jobs & Hobbies 3",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "to_earn_a_salary",
           "english": "To earn (a salary)",
@@ -2656,15 +2567,18 @@
           "englishPhrase": "My job is stressful.",
           "phrase": "Mon travail est stressant."
         }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 3
+      ]
     },
     {
       "id": "moods_and_emotion",
       "name": "Moods & Emotion",
       "language": "french",
+      "stories": [
+        "a_bad_day",
+        "good_news",
+        "friendship",
+        "nervous_about_something"
+      ],
       "cards": [
         {
           "id": "happy",
@@ -2875,23 +2789,7 @@
           "grammarNote": "**s'inquiéter** is a reflexive verb: je m'inquiète, tu t'inquiètes, il s'inquiète.\nStem-change: é → è before a silent ending: je m'inquiète (not *je m'inquiéte*).\nImperative: **ne t'inquiète pas** (don't worry — tu form) · **ne vous inquiétez pas** (formal/plural).\n**s'inquiéter pour / de** = to worry about: je m'inquiète pour toi, il s'inquiète de sa santé.",
           "englishPhrase": "Don't worry about it.",
           "phrase": "Ne t'inquiète pas pour ça."
-        }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotion",
-      "part": 1,
-      "stories": [
-        "a_bad_day",
-        "good_news",
-        "friendship",
-        "nervous_about_something"
-      ]
-    },
-    {
-      "id": "moods_and_emotion_2",
-      "name": "Moods & Emotion 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "peace",
           "english": "peace",
@@ -3104,15 +3002,18 @@
           "englishPhrase": "I'm curious about that.",
           "phrase": "Je suis curieux"
         }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotion",
-      "part": 2
+      ]
     },
     {
       "id": "human_body",
       "name": "Human Body",
       "language": "french",
+      "stories": [
+        "at_the_doctor",
+        "getting_ready",
+        "after_exercise",
+        "catching_a_cold"
+      ],
       "cards": [
         {
           "id": "head",
@@ -3379,23 +3280,7 @@
           "grammarNote": "**le corps** is masculine: un corps, le corps humain.\nThe final -s is silent: [kɔʁ].\n**le corps humain** = the human body — adjective **humain** follows the noun.\n**humain(e)** = human (adjective) · **un être humain** = a human being.\n**le corps** in expressions: **garder le corps** (body and soul), **le corps enseignant** (the teaching profession), **le corps d'armée** (army corps).",
           "englishPhrase": "The human body is amazing.",
           "phrase": "Le corps humain est incroyable."
-        }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 1,
-      "stories": [
-        "at_the_doctor",
-        "getting_ready",
-        "after_exercise",
-        "catching_a_cold"
-      ]
-    },
-    {
-      "id": "human_body_2",
-      "name": "Human Body 2",
-      "language": "french",
-      "cards": [
+        },
         {
           "id": "heart",
           "english": "heart",
@@ -3588,10 +3473,7 @@
           "englishPhrase": "He has lower back pain.",
           "phrase": "Il a mal dans le bas du dos."
         }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 2
+      ]
     }
   ]
 }

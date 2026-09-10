@@ -5,6 +5,19 @@
       "id": "everyday_phrases",
       "name": "Everyday Phrases",
       "language": "chinese",
+      "stories": [
+        "morning_routine",
+        "meeting_a_friend",
+        "making_plans",
+        "meet_jeff",
+        "meet_seth",
+        "bad_bunny",
+        "shopping_trip",
+        "phone_call"
+      ],
+      "pictureLessons": [
+        "everyday_phrases_01"
+      ],
       "cards": [
         {
           "id": "hello",
@@ -597,30 +610,7 @@
               "thirsty-[now]."
             ]
           ]
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 1,
-      "stories": [
-        "morning_routine",
-        "meeting_a_friend",
-        "making_plans",
-        "meet_jeff",
-        "meet_seth",
-        "bad_bunny",
-        "shopping_trip",
-        "phone_call"
-      ],
-      "pictureLessons": [
-        "everyday_phrases_01"
-      ]
-    },
-    {
-      "id": "everyday_phrases_2",
-      "name": "Everyday Phrases 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "who",
           "english": "Who",
@@ -1297,17 +1287,7 @@
             ]
           ],
           "hidden": true
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 2
-    },
-    {
-      "id": "everyday_phrases_3",
-      "name": "Everyday Phrases 3",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "person",
           "english": "Person",
@@ -2000,15 +1980,28 @@
             ]
           ]
         }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 3
+      ]
     },
     {
       "id": "food_and_drink",
       "name": "Food & Drink",
       "language": "chinese",
+      "stories": [
+        "at_the_restaurant",
+        "cooking_at_home",
+        "at_the_market",
+        "a_nice_restaurant",
+        "bean_ate_chocolate",
+        "paella",
+        "tacos_or_pizza",
+        "xue_bao_jiaozi",
+        "tea_house",
+        "ordering_delivery"
+      ],
+      "pictureLessons": [
+        "food_and_drink",
+        "food_and_drink_2"
+      ],
       "cards": [
         {
           "id": "water",
@@ -2647,33 +2640,7 @@
           ],
           "hidden": true,
           "grammarNote": "**渴** (kě) = thirsty. Contains the water radical 氵 — apt, since thirst is about needing water. Compare **饿** (è, hungry) which has the food radical 饣.\nThe physical states of hunger and thirst use **很 + adjective** in Chinese: **我很饿** (I'm hungry), **我很渴** (I'm thirsty). To express 'I became thirsty / I'm thirsty now', add **了**: **我渴了** — the **了** signals the state has been reached."
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 1,
-      "stories": [
-        "at_the_restaurant",
-        "cooking_at_home",
-        "at_the_market",
-        "a_nice_restaurant",
-        "bean_ate_chocolate",
-        "paella",
-        "tacos_or_pizza",
-        "xue_bao_jiaozi",
-        "tea_house",
-        "ordering_delivery"
-      ],
-      "pictureLessons": [
-        "food_and_drink",
-        "food_and_drink_2"
-      ]
-    },
-    {
-      "id": "food_and_drink_2",
-      "name": "Food & Drink 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "dumplings",
           "english": "dumplings (jiaozi)",
@@ -3301,17 +3268,7 @@
             ]
           ],
           "grammarNote": "**做饭** (zuòfàn) = **做** (zuò, do/make) + **饭** (fàn, rice/meal). Literally 'make a meal' — the everyday colloquial word for cooking. More formal/specific options: **烹饪** (pēngrèn, culinary cooking), **炒菜** (chǎocài, stir-fry dishes).\n**做** is a general 'do/make' verb: **做作业** (do homework), **做工作** (do work), **做饭** (cook a meal). **饭** in **做饭** means 'meal' broadly, not just rice."
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 2
-    },
-    {
-      "id": "food_and_drink_3",
-      "name": "Food & Drink 3",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "pepper",
           "english": "pepper",
@@ -3905,15 +3862,23 @@
           "hidden": true,
           "grammarNote": "**素食** (sùshí) = **素** (sù, plain/vegetarian/white) + **食** (shí, food/eat). **素** historically referred to plain unadorned food — the opposite of **荤** (hūn, meat/rich food). Buddhist vegetarianism has a long tradition in China, making **素食** a well-understood concept.\n**者** (zhě) = person who does/is something. **素食者** = 'one who eats vegetarian food' = a vegetarian. Other examples: **学者** (xuézhě, scholar — 'one who studies'), **记者** (jìzhě, journalist — 'one who records'), **消费者** (consumer)."
         }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 3
+      ]
     },
     {
       "id": "common_places",
       "name": "Common Places",
       "language": "chinese",
+      "stories": [
+        "getting_around",
+        "at_the_hotel",
+        "a_day_out",
+        "a_day_in_the_city",
+        "at_the_library",
+        "at_the_gym"
+      ],
+      "pictureLessons": [
+        "common_places"
+      ],
       "cards": [
         {
           "id": "home",
@@ -4548,28 +4513,7 @@
             ]
           ],
           "grammarNote": "**街区** (jiēqū) = **街** (street) + **区** (district/zone) → neighbourhood block.\n**安静的** (ānjìng de): adjectives modifying nouns take **的** (de) in Chinese: **安静的街区** (quiet neighbourhood). The structure is [adjective + **的**] + noun."
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 1,
-      "stories": [
-        "getting_around",
-        "at_the_hotel",
-        "a_day_out",
-        "a_day_in_the_city",
-        "at_the_library",
-        "at_the_gym"
-      ],
-      "pictureLessons": [
-        "common_places"
-      ]
-    },
-    {
-      "id": "common_places_2",
-      "name": "Common Places 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "beach",
           "english": "Beach",
@@ -5228,17 +5172,7 @@
           ],
           "hidden": true,
           "grammarNote": "**西方** (xīfāng) = **西** (west) + **方** (direction) → west. Also 'the West/Western world' culturally.\n**向西** (xiàng xī) = toward the west. **向** + direction = facing/heading in that direction: **向东走** (walk east), **向南开** (drive south).\n**开** (kāi) alone can mean 'drive': **开车** = drive a car, but **开十分钟** = drive for ten minutes (the car is implied).\nTime duration follows the verb: **开十分钟** (drive for ten minutes), not *十分钟开."
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 2
-    },
-    {
-      "id": "common_places_3",
-      "name": "Common Places 3",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "to_travel",
           "english": "To travel",
@@ -5899,15 +5833,23 @@
           ],
           "grammarNote": "**迷路了** (mílù le) — the **了** here is a sentence-final **了** signalling a change of state: 'I have become lost / I am now lost.'\n**帮** (bāng) = help. **帮我** = help me. The full form is **帮助** (bāngzhù), but **帮** alone is common in speech.\n**能** (néng) = can (ability, circumstance). **你能帮我吗？** = Can you help me? Compare: **你可以帮我吗** (is it okay for you to help me? — permission), **你会帮我吗** (will you help me? — expectation/willingness)."
         }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 3
+      ]
     },
     {
       "id": "jobs_and_hobbies",
       "name": "Jobs & Hobbies",
       "language": "chinese",
+      "stories": [
+        "at_work",
+        "weekend_hobbies",
+        "job_interview",
+        "learning_to_cook",
+        "starting_a_side_project"
+      ],
+      "pictureLessons": [
+        "jobs_and_hobbies",
+        "jobs_and_hobbies_2"
+      ],
       "cards": [
         {
           "id": "doctor",
@@ -6566,28 +6508,7 @@
             ]
           ],
           "grammarNote": "**空闲** (kòngxián) = **空** (kòng, empty/free) + **闲** (xián, idle/leisurely) → free/unoccupied time.\nShorter alternatives: **空闲** alone, or **有空** (yǒu kòng, have free time): 你有空吗 (are you free?)\n**什么** (shénme) = what. Question words in Chinese do not move to the beginning of the sentence — they stay where the answer would go: 你做什么 (you do what?) = What do you do? This is the same position as the answer: 我做运动 (I do exercise)."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 1,
-      "stories": [
-        "at_work",
-        "weekend_hobbies",
-        "job_interview",
-        "learning_to_cook",
-        "starting_a_side_project"
-      ],
-      "pictureLessons": [
-        "jobs_and_hobbies",
-        "jobs_and_hobbies_2"
-      ]
-    },
-    {
-      "id": "jobs_and_hobbies_2",
-      "name": "Jobs & Hobbies 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "reading",
           "english": "Reading",
@@ -7216,17 +7137,7 @@
             ]
           ],
           "grammarNote": "**有趣** (yǒuqù) = **有** (yǒu, have) + **趣** (qù, interest/fun) → interesting (literally 'has interest').\nAlternative: **有意思** (yǒu yìsi, lit. 'has meaning' → interesting/meaningful). Both are common; **有意思** is slightly more colloquial.\n**项目** (xiàngmù) = **项** (xiàng, item/category) + **目** (mù, item/entry) → project/item. Seen in: 项目经理 (project manager), 体育项目 (sports event)."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 2
-    },
-    {
-      "id": "jobs_and_hobbies_3",
-      "name": "Jobs & Hobbies 3",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "to_earn_a_salary",
           "english": "To earn (a salary)",
@@ -7866,15 +7777,25 @@
           ],
           "grammarNote": "**无聊** (wúliáo) = **无** (wú, without/none) + **聊** (liáo, chat/pass time) → boring / have nothing meaningful to do.\n**无** is a literary/formal negation prefix meaning 'without': 无聊 (boring), 无法 (unable), 无所谓 (doesn't matter), 无奈 (helpless).\n**会议** (huìyì) = **会** (huì, meeting/gathering) + **议** (yì, discuss) → formal meeting. Compare **开会** (kāihuì, hold a meeting, verb form)."
         }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 3
+      ]
     },
     {
       "id": "moods_and_emotion",
       "name": "Moods & Emotion",
       "language": "chinese",
+      "stories": [
+        "a_bad_day",
+        "good_news",
+        "friendship",
+        "sean",
+        "yan_jiang_qian_xi",
+        "missing_home",
+        "a_new_beginning"
+      ],
+      "pictureLessons": [
+        "moods_and_emotion",
+        "moods_and_emotion_2"
+      ],
       "cards": [
         {
           "id": "happy",
@@ -8569,30 +8490,7 @@
               "angry."
             ]
           ]
-        }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotion",
-      "part": 1,
-      "stories": [
-        "a_bad_day",
-        "good_news",
-        "friendship",
-        "sean",
-        "yan_jiang_qian_xi",
-        "missing_home",
-        "a_new_beginning"
-      ],
-      "pictureLessons": [
-        "moods_and_emotion",
-        "moods_and_emotion_2"
-      ]
-    },
-    {
-      "id": "moods_and_emotion_2",
-      "name": "Moods & Emotion 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "jealousy",
           "english": "jealousy",
@@ -9279,15 +9177,22 @@
             ]
           ]
         }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotion",
-      "part": 2
+      ]
     },
     {
       "id": "human_body",
       "name": "Human Body",
       "language": "chinese",
+      "stories": [
+        "at_the_doctor",
+        "after_exercise",
+        "getting_ready",
+        "catching_a_cold",
+        "at_the_pharmacy"
+      ],
+      "pictureLessons": [
+        "human_body"
+      ],
       "cards": [
         {
           "id": "head",
@@ -9904,27 +9809,7 @@
             ]
           ],
           "grammarNote": "**脚趾** (jiǎozhǐ) = toe. **脚** (foot) + **趾** (toe). **趾** contains the **足** (foot) radical. Compare **手指** (shǒuzhǐ, finger) — **指** has the **手** (hand) radical instead.\n**碰到** (pèngdào) = to bump into / hit against. **碰** (bump) + **到** (reach/arrive at, resultative complement). The **到** signals the action reached its target.\n**了** at the sentence end signals a new situation or change: 'something has happened' — she stubbed her toe (and now there's a result)."
-        }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 1,
-      "stories": [
-        "at_the_doctor",
-        "after_exercise",
-        "getting_ready",
-        "catching_a_cold",
-        "at_the_pharmacy"
-      ],
-      "pictureLessons": [
-        "human_body"
-      ]
-    },
-    {
-      "id": "human_body_2",
-      "name": "Human Body 2",
-      "language": "chinese",
-      "cards": [
+        },
         {
           "id": "heart",
           "english": "heart",
@@ -10547,10 +10432,7 @@
           ],
           "grammarNote": "**下** (xià) = lower/below. Opposite of **上** (shàng, upper). **下部** = lower part/section.\nInterestingly, the example phrase uses **腰部** (waist area) rather than **下背部** (lower back) — in Chinese, lower back pain is typically described as **腰疼** or **腰痛** rather than specifying 'lower'. **腰** naturally refers to the lumbar region.\n**腰部** = waist/lower back area. **部** adds the sense of 'the region of'. Pattern: body part + **部** = the [body part] area: **腰部** (waist region), **肩部** (shoulder region), **颈部** (neck region)."
         }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 2
+      ]
     }
   ]
 }

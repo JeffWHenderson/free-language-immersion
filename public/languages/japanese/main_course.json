@@ -5,6 +5,17 @@
       "id": "everyday_phrases",
       "name": "Everyday Phrases",
       "language": "japanese",
+      "stories": [
+        "meet_jeff",
+        "meet_seth",
+        "bad_bunny",
+        "making_plans",
+        "meeting_a_friend",
+        "morning_routine"
+      ],
+      "pictureLessons": [
+        "everyday_phrases_01"
+      ],
       "cards": [
         {
           "id": "hello",
@@ -707,28 +718,7 @@
               "dried"
             ]
           ]
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 1,
-      "stories": [
-        "meet_jeff",
-        "meet_seth",
-        "bad_bunny",
-        "making_plans",
-        "meeting_a_friend",
-        "morning_routine"
-      ],
-      "pictureLessons": [
-        "everyday_phrases_01"
-      ]
-    },
-    {
-      "id": "everyday_phrases_2",
-      "name": "Everyday Phrases 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "who",
           "english": "Who",
@@ -1427,17 +1417,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 2
-    },
-    {
-      "id": "everyday_phrases_3",
-      "name": "Everyday Phrases 3",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "person",
           "hidden": true,
@@ -2174,15 +2154,25 @@
           "romanized": "Ikura desu ka?",
           "grammarNote": "**いくら** (ikura) = how much (price). Specifically for money/cost.\nFor asking quantities of countable things: **いくつ** (ikutsu, how many things). For age: **何歳** (nansai, how old).\n**ですか** = polite question copula. The topic is often omitted when obvious from context: **これはいくらですか？** → **いくらですか？**"
         }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 3
+      ]
     },
     {
       "id": "food_and_drink",
       "name": "Food & Drink",
       "language": "japanese",
+      "stories": [
+        "a_nice_restaurant",
+        "bean_ate_chocolate",
+        "paella",
+        "tacos_or_pizza",
+        "at_the_market",
+        "at_the_restaurant",
+        "cooking_at_home"
+      ],
+      "pictureLessons": [
+        "food_and_drink",
+        "food_and_drink_2"
+      ],
       "cards": [
         {
           "id": "water",
@@ -3019,30 +3009,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 1,
-      "stories": [
-        "a_nice_restaurant",
-        "bean_ate_chocolate",
-        "paella",
-        "tacos_or_pizza",
-        "at_the_market",
-        "at_the_restaurant",
-        "cooking_at_home"
-      ],
-      "pictureLessons": [
-        "food_and_drink",
-        "food_and_drink_2"
-      ]
-    },
-    {
-      "id": "food_and_drink_2",
-      "name": "Food & Drink 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "pork",
           "english": "pork",
@@ -3732,17 +3699,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 2
-    },
-    {
-      "id": "food_and_drink_3",
-      "name": "Food & Drink 3",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "butter",
           "english": "butter",
@@ -4479,15 +4436,22 @@
           ],
           "hidden": true
         }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 3
+      ]
     },
     {
       "id": "common_places",
       "name": "Common Places",
       "language": "japanese",
+      "stories": [
+        "a_day_out",
+        "at_the_hotel",
+        "getting_around",
+        "a_day_in_the_city",
+        "at_the_pharmacy"
+      ],
+      "pictureLessons": [
+        "common_places"
+      ],
       "cards": [
         {
           "id": "home",
@@ -5194,27 +5158,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 1,
-      "stories": [
-        "a_day_out",
-        "at_the_hotel",
-        "getting_around",
-        "a_day_in_the_city",
-        "at_the_pharmacy"
-      ],
-      "pictureLessons": [
-        "common_places"
-      ]
-    },
-    {
-      "id": "common_places_2",
-      "name": "Common Places 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "museum",
           "english": "Museum",
@@ -6033,17 +5977,7 @@
               "[?]"
             ]
           ]
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 2
-    },
-    {
-      "id": "common_places_3",
-      "name": "Common Places 3",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "to_go",
           "english": "To go",
@@ -6764,15 +6698,23 @@
             ]
           ]
         }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places",
-      "part": 3
+      ]
     },
     {
       "id": "jobs_and_hobbies",
       "name": "Jobs & Hobbies",
       "language": "japanese",
+      "stories": [
+        "at_work",
+        "job_interview",
+        "weekend_hobbies",
+        "audrey",
+        "working_from_home"
+      ],
+      "pictureLessons": [
+        "jobs_and_hobbies",
+        "jobs_and_hobbies_2"
+      ],
       "cards": [
         {
           "id": "doctor",
@@ -7463,28 +7405,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 1,
-      "stories": [
-        "at_work",
-        "job_interview",
-        "weekend_hobbies",
-        "audrey",
-        "working_from_home"
-      ],
-      "pictureLessons": [
-        "jobs_and_hobbies",
-        "jobs_and_hobbies_2"
-      ]
-    },
-    {
-      "id": "jobs_and_hobbies_2",
-      "name": "Jobs & Hobbies 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "writing",
           "english": "Writing",
@@ -8215,17 +8136,7 @@
               "was"
             ]
           ]
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 2
-    },
-    {
-      "id": "jobs_and_hobbies_3",
-      "name": "Jobs & Hobbies 3",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "to_earn_a_salary",
           "english": "To earn (a salary)",
@@ -8949,15 +8860,24 @@
             ]
           ]
         }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 3
+      ]
     },
     {
       "id": "moods_and_emotion",
       "name": "Moods & Emotions",
       "language": "japanese",
+      "stories": [
+        "sean",
+        "a_bad_day",
+        "friendship",
+        "good_news",
+        "nervous_about_something",
+        "homesick"
+      ],
+      "pictureLessons": [
+        "moods_and_emotion",
+        "moods_and_emotion_2"
+      ],
       "cards": [
         {
           "id": "happy",
@@ -9746,29 +9666,7 @@
               "please"
             ]
           ]
-        }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotions",
-      "part": 1,
-      "stories": [
-        "sean",
-        "a_bad_day",
-        "friendship",
-        "good_news",
-        "nervous_about_something",
-        "homesick"
-      ],
-      "pictureLessons": [
-        "moods_and_emotion",
-        "moods_and_emotion_2"
-      ]
-    },
-    {
-      "id": "moods_and_emotion_2",
-      "name": "Moods & Emotions 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "peace",
           "english": "peace",
@@ -10511,15 +10409,22 @@
             ]
           ]
         }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotions",
-      "part": 2
+      ]
     },
     {
       "id": "human_body",
       "name": "Human Body",
       "language": "japanese",
+      "stories": [
+        "after_exercise",
+        "at_the_doctor",
+        "getting_ready",
+        "catching_a_cold",
+        "at_the_dentist"
+      ],
+      "pictureLessons": [
+        "human_body"
+      ],
       "cards": [
         {
           "id": "head",
@@ -11236,27 +11141,7 @@
               "is"
             ]
           ]
-        }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 1,
-      "stories": [
-        "after_exercise",
-        "at_the_doctor",
-        "getting_ready",
-        "catching_a_cold",
-        "at_the_dentist"
-      ],
-      "pictureLessons": [
-        "human_body"
-      ]
-    },
-    {
-      "id": "human_body_2",
-      "name": "Human Body 2",
-      "language": "japanese",
-      "cards": [
+        },
         {
           "id": "heart",
           "english": "heart",
@@ -11909,10 +11794,7 @@
             ]
           ]
         }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 2
+      ]
     }
   ]
 }

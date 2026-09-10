@@ -5,6 +5,12 @@
       "id": "everyday_phrases",
       "name": "Everyday Phrases",
       "language": "arabic",
+      "stories": [
+        "meet_jeff",
+        "meet_seth",
+        "morning_routine",
+        "making_plans"
+      ],
       "cards": [
         {
           "id": "hello",
@@ -307,23 +313,7 @@
           "englishPhrase": "I'm very thirsty.",
           "phrase": "أنا عطشان جداً.",
           "phraseRomanized": "Ana 'atshan jiddan."
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 1,
-      "stories": [
-        "meet_jeff",
-        "meet_seth",
-        "morning_routine",
-        "making_plans"
-      ]
-    },
-    {
-      "id": "everyday_phrases_2",
-      "name": "Everyday Phrases 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "who",
           "english": "Who",
@@ -574,17 +564,7 @@
           "phrase": "هذا لك.",
           "phraseRomanized": "Hatha lak.",
           "hidden": true
-        }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 2
-    },
-    {
-      "id": "everyday_phrases_3",
-      "name": "Everyday Phrases 3",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "person",
           "english": "Person",
@@ -839,15 +819,18 @@
           "romanized": "Bikam hatha?",
           "grammarNote": "**بكم** (bikam) = how much? — **بـ** (bi-, for/at) + **كم** (kam, how much).\n**كم** (kam) alone = how many: **كم كتاباً عندك؟** (how many books do you have?).\n**السعر** (as-si'r) = the price: **ما السعر؟** (what is the price?) — a more formal alternative.\n**غالٍ** (ghali) = expensive, **رخيص** (rakhis) = cheap — useful follow-up vocabulary."
         }
-      ],
-      "parent": "everyday_phrases",
-      "parentName": "Everyday Phrases",
-      "part": 3
+      ]
     },
     {
       "id": "food_and_drink",
       "name": "Food & Drink",
       "language": "arabic",
+      "stories": [
+        "at_the_restaurant",
+        "at_the_market",
+        "cooking_at_home",
+        "a_nice_restaurant"
+      ],
       "cards": [
         {
           "id": "water",
@@ -1120,23 +1103,7 @@
           "englishPhrase": "We eat pita bread with every meal.",
           "phrase": "نأكل خبز البيتا مع كل وجبة.",
           "phraseRomanized": "naʾkul khubz al-bītā maʿa kull wajba."
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 1,
-      "stories": [
-        "at_the_restaurant",
-        "at_the_market",
-        "cooking_at_home",
-        "a_nice_restaurant"
-      ]
-    },
-    {
-      "id": "food_and_drink_2",
-      "name": "Food & Drink 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "pork",
           "english": "pork",
@@ -1372,17 +1339,7 @@
           "englishPhrase": "I love chocolate.",
           "phrase": "أحب الشوكولاتة.",
           "phraseRomanized": "uhibb ash-shukulata."
-        }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 2
-    },
-    {
-      "id": "food_and_drink_3",
-      "name": "Food & Drink 3",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "butter",
           "english": "butter",
@@ -1625,15 +1582,17 @@
           "phraseRomanized": "ana nabati.",
           "hidden": true
         }
-      ],
-      "parent": "food_and_drink",
-      "parentName": "Food & Drink",
-      "part": 3
+      ]
     },
     {
       "id": "common_places",
       "name": "Common Places & Directions",
       "language": "arabic",
+      "stories": [
+        "getting_around",
+        "a_day_in_the_city",
+        "at_the_hotel"
+      ],
       "cards": [
         {
           "id": "home",
@@ -1866,22 +1825,7 @@
           "englishPhrase": "The mountain is very high.",
           "phrase": "الجبل عالٍ جداً.",
           "phraseRomanized": "al-jabal 'alin jiddan."
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places & Directions",
-      "part": 1,
-      "stories": [
-        "getting_around",
-        "a_day_in_the_city",
-        "at_the_hotel"
-      ]
-    },
-    {
-      "id": "common_places_2",
-      "name": "Common Places & Directions 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "museum",
           "english": "Museum",
@@ -2128,17 +2072,7 @@
           "englishPhrase": "Is there a pharmacy nearby?",
           "phrase": "هل توجد صيدلية قريبة؟",
           "phraseRomanized": "hal tujad saydaliyya qariba?"
-        }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places & Directions",
-      "part": 2
-    },
-    {
-      "id": "common_places_3",
-      "name": "Common Places & Directions 3",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "to_go",
           "english": "To go",
@@ -2387,15 +2321,17 @@
           "phrase": "أنا ضائع.",
           "phraseRomanized": "ana da'i'."
         }
-      ],
-      "parent": "common_places",
-      "parentName": "Common Places & Directions",
-      "part": 3
+      ]
     },
     {
       "id": "jobs_and_hobbies",
       "name": "Jobs & Hobbies",
       "language": "arabic",
+      "stories": [
+        "at_work",
+        "weekend_hobbies",
+        "job_interview"
+      ],
       "cards": [
         {
           "id": "doctor",
@@ -2628,22 +2564,7 @@
           "englishPhrase": "I like reading.",
           "phrase": "أحب القراءة.",
           "phraseRomanized": "uhibb al-qira'a."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 1,
-      "stories": [
-        "at_work",
-        "weekend_hobbies",
-        "job_interview"
-      ]
-    },
-    {
-      "id": "jobs_and_hobbies_2",
-      "name": "Jobs & Hobbies 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "writing",
           "english": "Writing",
@@ -2860,17 +2781,7 @@
           "englishPhrase": "The meeting was boring.",
           "phrase": "الاجتماع كان مملاً.",
           "phraseRomanized": "al-ijtima' kan mumillan."
-        }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 2
-    },
-    {
-      "id": "jobs_and_hobbies_3",
-      "name": "Jobs & Hobbies 3",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "to_earn_a_salary",
           "english": "To earn (a salary)",
@@ -3098,15 +3009,17 @@
           "phrase": "عملي مُجهِد.",
           "phraseRomanized": "'amali mujhid."
         }
-      ],
-      "parent": "jobs_and_hobbies",
-      "parentName": "Jobs & Hobbies",
-      "part": 3
+      ]
     },
     {
       "id": "moods_and_emotion",
       "name": "Moods & Emotions",
       "language": "arabic",
+      "stories": [
+        "a_bad_day",
+        "good_news",
+        "friendship"
+      ],
       "cards": [
         {
           "id": "happy",
@@ -3365,22 +3278,7 @@
           "englishPhrase": "Don't worry about it.",
           "phrase": "لا تقلق بشأن ذلك.",
           "phraseRomanized": "la taqalaq bi-sha'n dhalika."
-        }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotions",
-      "part": 1,
-      "stories": [
-        "a_bad_day",
-        "good_news",
-        "friendship"
-      ]
-    },
-    {
-      "id": "moods_and_emotion_2",
-      "name": "Moods & Emotions 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "peace",
           "english": "peace",
@@ -3623,15 +3521,16 @@
           "phrase": "أنا فضولي بشأن ذلك.",
           "phraseRomanized": "ana fuduli bi-sha'n dhalika."
         }
-      ],
-      "parent": "moods_and_emotion",
-      "parentName": "Moods & Emotions",
-      "part": 2
+      ]
     },
     {
       "id": "human_body",
       "name": "Human Body",
       "language": "arabic",
+      "stories": [
+        "at_the_doctor",
+        "getting_ready"
+      ],
       "cards": [
         {
           "id": "head",
@@ -3906,21 +3805,7 @@
           "englishPhrase": "The human body is amazing.",
           "phrase": "الجسم البشري رائع.",
           "phraseRomanized": "al-jism al-bashari ra'i'."
-        }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 1,
-      "stories": [
-        "at_the_doctor",
-        "getting_ready"
-      ]
-    },
-    {
-      "id": "human_body_2",
-      "name": "Human Body 2",
-      "language": "arabic",
-      "cards": [
+        },
         {
           "id": "heart",
           "english": "heart",
@@ -4161,10 +4046,7 @@
           "phrase": "عنده ألم في أسفل الظهر.",
           "phraseRomanized": "indahu alam fi asfal adh-dahr."
         }
-      ],
-      "parent": "human_body",
-      "parentName": "Human Body",
-      "part": 2
+      ]
     }
   ]
 }

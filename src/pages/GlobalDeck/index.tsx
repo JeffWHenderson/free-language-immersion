@@ -17,7 +17,7 @@ import { getVoiceForLanguage, useVoices } from "../../hooks/useLanguage";
 import { useAllDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
-import { type CombinedCard, type CombinedSessionCard, buildSession, orderFastCards } from "../deckSession";
+import { type CombinedCard, type CombinedSessionCard, categorize, buildSession, orderFastCards } from "../deckSession";
 import Settings from "../components/Settings";
 import { STANDARD_LANGUAGES, languageLabel } from "../../common/languages";
 import "../srs.css";
@@ -606,14 +606,33 @@ const GlobalDeck = () => {
     // ─────────────────────────────────────────────────────────────────────────
 
     if (done || remaining === 0) {
+        const remainingNew = categorize(allCards, deckStates).newCards.length;
+        const addMoreCards = () => {
+            const next = buildSession(allCards, deckStates, isSrsShuffled);
+            setSession(next);
+            setTotalCards(next.length);
+            setReviewed(0);
+            setDone(false);
+            setIsFlipped(false);
+            setNoteOpen(true);
+        };
         return (
             <div className="srs-container">
                 <div className="srs-done">
                     <h2>Session complete!</h2>
                     <p>You reviewed {reviewed} card{reviewed !== 1 ? "s" : ""}.</p>
-                    <p>Come back tomorrow to review cards that are due.</p>
+                    <p>
+                        {remainingNew > 0
+                            ? "Add more new cards, or come back tomorrow for cards that are due."
+                            : "Come back tomorrow to review cards that are due."}
+                    </p>
                     <div className="srs-done-actions">
-                        <button className="srs-btn-primary" onClick={() => setEditing(true)}>Choose Decks</button>
+                        {remainingNew > 0 && (
+                            <button className="srs-btn-primary" onClick={addMoreCards}>
+                                Add {Math.min(10, remainingNew)} more card{Math.min(10, remainingNew) !== 1 ? "s" : ""}
+                            </button>
+                        )}
+                        <button className={remainingNew > 0 ? "srs-btn-secondary" : "srs-btn-primary"} onClick={() => setEditing(true)}>Choose Decks</button>
                         <button className="srs-btn-secondary" onClick={() => navigate('/')}>Home</button>
                     </div>
                 </div>

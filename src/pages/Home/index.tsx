@@ -5,6 +5,7 @@ import { loadDeckState, getDeckSummary, getDeckProgress, getBookmarkedCount, loa
 import PageSkeleton from "../../components/PageSkeleton";
 import InfoTip from "../../components/InfoTip";
 import PackDrawer from "./PackDrawer";
+import { NEW_PER_BATCH } from "../deckSession";
 import { buildPrintableFlashcards, PrintCard, PrintSize } from "../../hooks/print";
 import { buildAiPrompt, PracticeMode, VocabItem } from "../../hooks/aiPrompt";
 import "../srs.css";
@@ -82,11 +83,12 @@ const Home = () => {
                 }
             } catch { /* fall through */ }
         }
-        // First-time default: only the core (main) topics are on. Extension and grammar
-        // packs are opt-in; split topics start with Part 1 only (the starter).
+        // First-time default: only the core (main) topics are on. Extension and
+        // grammar packs are opt-in. New cards within a topic are paced by the SRS
+        // engine, so the whole subject deck is included.
         setStudyPacks(new Set(
             cardPacks
-                .filter((p) => p.category === "main" && (p.part ?? 1) === 1)
+                .filter((p) => p.category === "main")
                 .map((p) => p.id)
         ));
         setPrintSelectedDecks(new Set(cardPacks.map((p) => p.id)));
@@ -103,8 +105,7 @@ const Home = () => {
         });
     };
 
-    // Pill tap = include/exclude the whole topic. Turning on adds just Part 1 (the starter);
-    // finer part control lives in the drawer.
+    // Pill tap = include/exclude the whole topic (one deck per subject).
     const toggleTopic = (group: TopicGroup) => {
         if (!language) return;
         setStudyPacks((prev) => {
@@ -180,6 +181,9 @@ const Home = () => {
             },
             { due: 0, newCount: 0 }
         );
+    // A session only introduces up to NEW_PER_BATCH new cards, so show that —
+    // not the full backlog of every new card across selected decks.
+    const sessionNewCount = Math.min(combinedCounts.newCount, NEW_PER_BATCH);
     const combinedTotal = combinedCounts.due + combinedCounts.newCount;
 
     const printCardCount = packs
@@ -497,7 +501,7 @@ const Home = () => {
                     {studyPacks.size > 0 && (
                         <span className="srs-btn-combined-counts">
                             {combinedTotal > 0
-                                ? `· ${combinedCounts.due > 0 ? `${combinedCounts.due} due` : ''}${combinedCounts.due > 0 && combinedCounts.newCount > 0 ? ', ' : ''}${combinedCounts.newCount > 0 ? `${combinedCounts.newCount} new` : ''}`
+                                ? `· ${combinedCounts.due > 0 ? `${combinedCounts.due} due` : ''}${combinedCounts.due > 0 && sessionNewCount > 0 ? ', ' : ''}${sessionNewCount > 0 ? `${sessionNewCount} new` : ''}`
                                 : '· up to date'}
                         </span>
                     )}
