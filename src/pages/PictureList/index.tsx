@@ -29,7 +29,7 @@ const PictureList = () => {
         const packsWithPictures = packs.filter((p) => (p.pictureLessons?.length ?? 0) > 0);
         const pictureFetches = packsWithPictures.flatMap((pack) =>
             (pack.pictureLessons ?? []).map((lessonId) =>
-                fetch(`/languages/${language}/${pack.id}/picture_lessons/${lessonId}.json`)
+                fetch(`/languages/${language}/picture_lessons/${lessonId}.json`)
                     .then((r) => r.json())
                     .then((p) => ({
                         id: lessonId,

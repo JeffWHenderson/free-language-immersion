@@ -35,7 +35,7 @@ const StoryList = () => {
 
         const storyFetches = packsWithStories.flatMap((pack) =>
             (pack.stories ?? []).map((storyId) =>
-                fetch(`/languages/${language}/${pack.id}/stories/${storyId}.json`)
+                fetch(`/languages/${language}/stories/${storyId}.json`)
                     .then((r) => r.json())
                     .then((s) => ({
                         id: storyId,

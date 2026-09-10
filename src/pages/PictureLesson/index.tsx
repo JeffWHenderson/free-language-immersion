@@ -19,7 +19,7 @@ interface LessonData {
 }
 
 const PictureLesson = () => {
-    const { language, deckId, section } = useParams();
+    const { language, section } = useParams();
 
     const { targetVoice } = useLanguage({ targetLanguage: language as string });
     const { volume } = useLanguageApp();
@@ -27,11 +27,11 @@ const PictureLesson = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
-        fetch(`/languages/${language}/${deckId}/picture_lessons/${section}.json`)
+        fetch(`/languages/${language}/picture_lessons/${section}.json`)
             .then(r => r.json())
             .then((data: LessonData) => setLesson(data))
             .catch(err => console.error(err));
-    }, [language, deckId, section]);
+    }, [language, section]);
 
     const total = lesson?.dots.length ?? 0;
     const current = lesson?.dots[activeIndex];

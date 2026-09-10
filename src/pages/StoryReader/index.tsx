@@ -52,7 +52,7 @@ const StoryReader = () => {
     useEffect(() => {
         if (!language || !deckId || !storyId) return;
         setSentenceBookmarks(loadStoryBookmarks(language));
-        fetch(`/languages/${language}/${deckId}/stories/${storyId}.json`)
+        fetch(`/languages/${language}/stories/${storyId}.json`)
             .then(r => r.json())
             .then(data => setStory(data))
             .catch(console.error);
