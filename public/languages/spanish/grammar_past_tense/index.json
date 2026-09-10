@@ -1,0 +1,274 @@
+{
+  "id": "grammar_past_tense",
+  "name": "Past Tense",
+  "kind": "grammar",
+  "cards": [
+    {
+      "id": "pt_pret_ar",
+      "grammar": true,
+      "english": "I worked yesterday. (preterite, -ar)",
+      "word": "ayer trabajé",
+      "grammarNote": "The **preterite** is the narrative past — a single, completed action seen as finished. Regular **-ar** verbs take the endings **-é, -aste, -ó, -amos, -aron**. Only **yo** and **él/ella** carry a written accent.",
+      "englishPhrase": "Yesterday I worked at the office.",
+      "phrase": "Ayer trabajé en la oficina.",
+      "literal": [["Ayer", "yesterday"], ["trabajé", "I worked"], ["en", "at"], ["la", "the"], ["oficina", "office"]],
+      "format": "table",
+      "table": {
+        "title": "Preterite: -ar verbs (trabajar)",
+        "rows": [["yo", "trabajé"], ["tú", "trabajaste"], ["él / ella", "trabajó"], ["nosotros", "trabajamos"], ["ellos", "trabajaron"]],
+        "highlight": "yo",
+        "note": "Accents only on trabajé and trabajó."
+      }
+    },
+    {
+      "id": "pt_pret_erir",
+      "grammar": true,
+      "english": "I ate at the restaurant. (preterite, -er/-ir)",
+      "word": "comí en el restaurante",
+      "grammarNote": "**-er** and **-ir** verbs share the *same* preterite endings: **-í, -iste, -ió, -imos, -ieron**. So comer and vivir conjugate identically.",
+      "englishPhrase": "Last night I ate at the restaurant.",
+      "phrase": "Anoche comí en el restaurante.",
+      "literal": [["Anoche", "last night"], ["comí", "I ate"], ["en", "at"], ["el", "the"], ["restaurante", "restaurant"]],
+      "format": "table",
+      "table": {
+        "title": "Preterite: -er / -ir (comer, vivir)",
+        "rows": [["yo", "comí / viví"], ["tú", "comiste / viviste"], ["él / ella", "comió / vivió"], ["nosotros", "comimos / vivimos"], ["ellos", "comieron / vivieron"]],
+        "highlight": "yo",
+        "note": "-er and -ir are identical in the preterite."
+      }
+    },
+    {
+      "id": "pt_pret_cloze",
+      "grammar": true,
+      "english": "Yesterday she cooked dinner. (él/ella preterite)",
+      "word": "ayer ella cocinó la cena",
+      "grammarNote": "For a finished, one-time action use the preterite. The **él/ella** form of an -ar verb ends in **-ó** (cocinó), never the present **-a** (cocina).",
+      "englishPhrase": "Yesterday she cooked dinner.",
+      "phrase": "Ayer ella cocinó la cena.",
+      "literal": [["Ayer", "yesterday"], ["ella", "she"], ["cocinó", "cooked"], ["la", "the"], ["cena", "dinner"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "she cooked dinner (finished action → preterite)",
+        "text": "ayer ella ___ la cena",
+        "answer": "cocinó",
+        "options": ["cocina", "cocinó"]
+      }
+    },
+    {
+      "id": "pt_pret_fui",
+      "grammar": true,
+      "english": "I went to the park. (ir → fui)",
+      "word": "fui al parque",
+      "grammarNote": "**ser** and **ir** have the *same* irregular preterite: **fui, fuiste, fue, fuimos, fueron** — context tells them apart. **Fui al parque** = I went; **fui médico** = I was a doctor.",
+      "englishPhrase": "Yesterday I went to the park.",
+      "phrase": "Ayer fui al parque.",
+      "literal": [["Ayer", "yesterday"], ["fui", "I went"], ["al", "to the"], ["parque", "park"]],
+      "format": "table",
+      "table": {
+        "title": "Preterite: ser AND ir (identical)",
+        "rows": [["yo", "fui"], ["tú", "fuiste"], ["él / ella", "fue"], ["nosotros", "fuimos"], ["ellos", "fueron"]],
+        "highlight": "yo",
+        "note": "No accents. Context decides 'went' vs 'was'."
+      }
+    },
+    {
+      "id": "pt_pret_ustem",
+      "grammar": true,
+      "english": "I was at home last night. (estar → estuve)",
+      "word": "anoche estuve en casa",
+      "grammarNote": "A group of irregulars takes a new stem + the endings **-e, -iste, -o, -imos, -ieron** (no accents): **estar→estuv-, tener→tuv-, poder→pud-**. So: estuve, tuve, pude.",
+      "englishPhrase": "Last night I was at home.",
+      "phrase": "Anoche estuve en casa.",
+      "literal": [["Anoche", "last night"], ["estuve", "I was"], ["en", "at"], ["casa", "home"]],
+      "format": "table",
+      "table": {
+        "title": "Irregular preterite (new stem, -e/-o)",
+        "rows": [["estar", "estuve, estuvo"], ["tener", "tuve, tuvo"], ["poder", "pude, pudo"]],
+        "note": "Endings: -e, -iste, -o, -imos, -ieron. No accent on yo/él."
+      }
+    },
+    {
+      "id": "pt_pret_hice",
+      "grammar": true,
+      "english": "I made dinner yesterday. (hacer → hice)",
+      "word": "ayer hice la cena",
+      "grammarNote": "More irregular stems, same **-e/-o** endings: **hacer→hic-** (but **hizo** with z), **decir→dij-** (dijeron, no i), **venir→vin-**.",
+      "englishPhrase": "Yesterday I made dinner.",
+      "phrase": "Ayer hice la cena.",
+      "literal": [["Ayer", "yesterday"], ["hice", "I made"], ["la", "the"], ["cena", "dinner"]],
+      "format": "table",
+      "table": {
+        "title": "Irregular preterite (hacer, decir, venir)",
+        "rows": [["hacer", "hice, hizo"], ["decir", "dije, dijo"], ["venir", "vine, vino"]],
+        "highlight": "hacer",
+        "note": "hizo spelled with z; dijeron drops the i."
+      }
+    },
+    {
+      "id": "pt_pret_produce",
+      "grammar": true,
+      "english": "Say the preterite 'yo' form. (I ate / drank / lived)",
+      "word": "comí, bebí, viví",
+      "grammarNote": "The **yo** preterite of regular -er/-ir verbs ends in a stressed **-í**: comer→comí, beber→bebí, vivir→viví.",
+      "englishPhrase": "I ate, I drank, I lived.",
+      "phrase": "Comí, bebí, viví.",
+      "literal": [["Comí", "I ate"], ["bebí", "I drank"], ["viví", "I lived"]],
+      "format": "produce",
+      "produce": {
+        "concept": "Preterite = one finished action in the past",
+        "task": "I ate, I drank, I lived",
+        "answer": "comí, bebí, viví",
+        "gloss": "regular -er/-ir yo form → stressed -í"
+      }
+    },
+    {
+      "id": "pt_imp_ar",
+      "grammar": true,
+      "english": "As a child I used to swim. (imperfect, -ar)",
+      "word": "de niño nadaba",
+      "grammarNote": "The **imperfect** is the 'used to / was ‑ing' past — habits and background, no clear end. Regular **-ar** verbs take **-aba, -abas, -aba, -ábamos, -aban**.",
+      "englishPhrase": "As a child I used to swim at the beach.",
+      "phrase": "De niño nadaba en la playa.",
+      "literal": [["De niño", "as a child"], ["nadaba", "I used to swim"], ["en", "at"], ["la", "the"], ["playa", "beach"]],
+      "format": "table",
+      "table": {
+        "title": "Imperfect: -ar verbs (nadar)",
+        "rows": [["yo", "nadaba"], ["tú", "nadabas"], ["él / ella", "nadaba"], ["nosotros", "nadábamos"], ["ellos", "nadaban"]],
+        "highlight": "yo",
+        "note": "yo and él/ella are identical: nadaba."
+      }
+    },
+    {
+      "id": "pt_imp_erir",
+      "grammar": true,
+      "english": "As a child I used to eat a lot of bread. (imperfect, -er/-ir)",
+      "word": "de niño comía mucho pan",
+      "grammarNote": "**-er** and **-ir** verbs share the imperfect endings **-ía, -ías, -ía, -íamos, -ían** — every form carries an accent on the **í**.",
+      "englishPhrase": "As a child I used to eat a lot of bread.",
+      "phrase": "De niño comía mucho pan.",
+      "literal": [["De niño", "as a child"], ["comía", "I used to eat"], ["mucho", "a lot of"], ["pan", "bread"]],
+      "format": "table",
+      "table": {
+        "title": "Imperfect: -er / -ir (comer, vivir)",
+        "rows": [["yo", "comía / vivía"], ["tú", "comías / vivías"], ["él / ella", "comía / vivía"], ["nosotros", "comíamos / vivíamos"], ["ellos", "comían / vivían"]],
+        "note": "Accent on every í. -er and -ir identical."
+      }
+    },
+    {
+      "id": "pt_imp_irreg",
+      "grammar": true,
+      "english": "As a child I was happy. (ser → era)",
+      "word": "de niño era feliz",
+      "grammarNote": "The imperfect has only **three** irregular verbs: **ser→era, ir→iba, ver→veía**. Learn these; everything else is regular.",
+      "englishPhrase": "As a child I was happy.",
+      "phrase": "De niño era feliz.",
+      "literal": [["De niño", "as a child"], ["era", "I was"], ["feliz", "happy"]],
+      "format": "table",
+      "table": {
+        "title": "The 3 irregular imperfects",
+        "rows": [["ser", "era, eras, era…"], ["ir", "iba, ibas, iba…"], ["ver", "veía, veías, veía…"]],
+        "note": "The ONLY irregular imperfect verbs."
+      }
+    },
+    {
+      "id": "pt_imp_cloze",
+      "grammar": true,
+      "english": "She always cooked at home. (habit → imperfect)",
+      "word": "siempre cocinaba en casa",
+      "grammarNote": "Words like **siempre** (always) and **nunca** (never) signal a repeated habit → use the **imperfect** (cocinaba), not the preterite (cocinó).",
+      "englishPhrase": "She always cooked at home.",
+      "phrase": "Siempre cocinaba en casa.",
+      "literal": [["Siempre", "always"], ["cocinaba", "she cooked"], ["en", "at"], ["casa", "home"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "she always cooked (repeated habit → imperfect)",
+        "text": "siempre ___ en casa",
+        "answer": "cocinaba",
+        "options": ["cocinó", "cocinaba"]
+      }
+    },
+    {
+      "id": "pt_imp_produce",
+      "grammar": true,
+      "english": "Say the imperfect. (I used to work / she used to study)",
+      "word": "trabajaba, estudiaba",
+      "grammarNote": "Imperfect = 'used to' or 'would' (habitual). -ar yo/él ends in **-aba**: trabajaba, estudiaba.",
+      "englishPhrase": "I used to work, she used to study.",
+      "phrase": "Trabajaba, estudiaba.",
+      "literal": [["Trabajaba", "I used to work"], ["estudiaba", "she used to study"]],
+      "format": "produce",
+      "produce": {
+        "concept": "Imperfect = used to / would (a past habit)",
+        "task": "I used to work, she used to study",
+        "answer": "trabajaba, estudiaba",
+        "gloss": "-ar habitual past → -aba (yo and él/ella match)"
+      }
+    },
+    {
+      "id": "pt_contrast",
+      "grammar": true,
+      "english": "I ate out — once vs. every day.",
+      "word": "comí / comía en el restaurante",
+      "grammarNote": "Same verb, two pasts: **preterite** = one finished event; **imperfect** = a repeated habit or ongoing background. **Comí** (I ate, that once) vs **comía** (I used to eat).",
+      "englishPhrase": "Yesterday I ate out; as a child I ate at home.",
+      "phrase": "Ayer comí en el restaurante; de niño comía en casa.",
+      "literal": [["comí", "I ate (once)"], ["comía", "I used to eat"]],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "One event or a habit?",
+        "a": {"term": "ayer comí", "gloss": "once, finished → preterite"},
+        "b": {"term": "de niño comía", "gloss": "repeated habit → imperfect"}
+      }
+    },
+    {
+      "id": "pt_timewords",
+      "grammar": true,
+      "english": "Time words pick the tense.",
+      "word": "ayer trabajé / de niño trabajaba",
+      "grammarNote": "The time expression usually decides the tense. **ayer, anoche, la semana pasada** → a finished point → **preterite**. **siempre, de niño** → a habit → **imperfect**.",
+      "englishPhrase": "Yesterday I worked; as a child I worked here.",
+      "phrase": "Ayer trabajé; de niño trabajaba.",
+      "literal": [["Ayer", "yesterday"], ["trabajé", "I worked (once)"], ["de niño", "as a child"], ["trabajaba", "I used to work"]],
+      "format": "table",
+      "table": {
+        "title": "Which past does the time word want?",
+        "rows": [["ayer / anoche", "preterite"], ["la semana pasada", "preterite"], ["siempre / nunca", "imperfect"], ["de niño", "imperfect"]],
+        "note": "A fixed point → preterite; a habit → imperfect."
+      }
+    },
+    {
+      "id": "pt_interrupt",
+      "grammar": true,
+      "english": "I was cooking when she arrived. (background + event)",
+      "word": "cocinaba cuando llegó",
+      "grammarNote": "For an interrupted scene, the ongoing background is **imperfect** (cocinaba) and the event that cuts in is **preterite** (llegó). English 'was ‑ing' → imperfect.",
+      "englishPhrase": "I was cooking when she arrived.",
+      "phrase": "Cocinaba cuando llegó.",
+      "literal": [["Cocinaba", "I was cooking"], ["cuando", "when"], ["llegó", "she arrived"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I was cooking (ongoing) when she arrived",
+        "text": "___ cuando llegó",
+        "answer": "cocinaba",
+        "options": ["cociné", "cocinaba"]
+      }
+    },
+    {
+      "id": "pt_sequence",
+      "grammar": true,
+      "english": "I arrived, cooked, and ate. (a chain of events)",
+      "word": "llegué, cociné y comí",
+      "grammarNote": "A sequence of completed actions, each moving the story forward, is all **preterite**: llegué, cociné, comí. (Note llegar → **llegué** keeps the hard g with -ué.)",
+      "englishPhrase": "I arrived, I cooked, and I ate.",
+      "phrase": "Llegué, cociné y comí.",
+      "literal": [["Llegué", "I arrived"], ["cociné", "I cooked"], ["y", "and"], ["comí", "I ate"]],
+      "format": "produce",
+      "produce": {
+        "concept": "A chain of finished actions → all preterite",
+        "task": "I arrived, I cooked, and I ate",
+        "answer": "llegué, cociné y comí",
+        "gloss": "each completed step moves the story → preterite"
+      }
+    }
+  ]
+}

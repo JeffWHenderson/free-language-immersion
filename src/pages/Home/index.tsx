@@ -13,7 +13,6 @@ const packSelectionKey = (language: string) => `pack_selection_${language}`;
 // The core decks every course shares — these stay at the top level of the home
 // screen. Everything else collapses into "Extension Decks".
 const MAIN_TOPIC_KEYS = new Set([
-    "grammar_essentials",
     "everyday_phrases",
     "food_and_drink",
     "common_places",
@@ -83,10 +82,15 @@ const Home = () => {
                 }
             } catch { /* fall through */ }
         }
-        // Grammar packs are opt-in; split topics start with Part 1 only (the starter).
+        // First-time default: only the core (main) topics are on. Extension and grammar
+        // packs are opt-in; split topics start with Part 1 only (the starter).
         setStudyPacks(new Set(
             cardPacks
-                .filter((p) => p.kind !== "grammar" && (p.part ?? 1) === 1)
+                .filter((p) =>
+                    p.kind !== "grammar" &&
+                    (p.part ?? 1) === 1 &&
+                    MAIN_TOPIC_KEYS.has(p.parent ?? p.id)
+                )
                 .map((p) => p.id)
         ));
         setPrintSelectedDecks(new Set(cardPacks.map((p) => p.id)));
@@ -415,4 +419,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Home;   
