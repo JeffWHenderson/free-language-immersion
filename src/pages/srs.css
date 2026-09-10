@@ -635,6 +635,34 @@ button.srs-count:hover {
     cursor: pointer;
 }
 
+/* ── AI conversation-partner panel ── */
+.srs-ai-blurb {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    opacity: 0.75;
+}
+
+.srs-ai-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.srs-ai-prompt {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    padding: 10px 12px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.06);
+    color: var(--text-color, #111);
+}
+
 /* ── Print mode toggle (Words / Phrases) ── */
 .srs-print-mode {
     display: flex;
