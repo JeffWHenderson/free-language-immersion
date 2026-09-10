@@ -1,0 +1,274 @@
+{
+  "id": "grammar_object_pronouns",
+  "name": "Object Pronouns",
+  "kind": "grammar",
+  "cards": [
+    {
+      "id": "do_table",
+      "grammar": true,
+      "english": "Direct object pronouns — the full set (me / te / lo·la / nos / los·las)",
+      "word": "me, te, lo/la, nos, los/las",
+      "grammarNote": "A **direct object** receives the action of the verb. Replace it with a **direct object pronoun** that matches the person (and gender/number for third person). The pronoun goes **before** the conjugated verb.\n\n**¿El café? Lo quiero.** → *lo* replaces *el café*.",
+      "englishPhrase": "The coffee? I want it.",
+      "phrase": "¿El café? Lo quiero.",
+      "literal": [["¿El café?", "The coffee?"], ["Lo", "it (masc.)"], ["quiero", "I want"]],
+      "format": "table",
+      "table": {
+        "title": "Direct object pronouns",
+        "rows": [["me", "me"], ["te", "you (tú)"], ["lo / la", "him / her / it"], ["nos", "us"], ["los / las", "them"]],
+        "highlight": "lo / la",
+        "note": "lo/la and los/las must match the gender and number of the noun they replace."
+      }
+    },
+    {
+      "id": "do_replace_noun",
+      "grammar": true,
+      "english": "lo/la replaces a noun to avoid repetition (it — the bread / the salad)",
+      "word": "Lo compro. / La compro.",
+      "grammarNote": "To avoid repeating a noun, replace it with **lo** (masculine) or **la** (feminine). The pronoun goes **before** the conjugated verb.\n\n*Compro el pan.* → **Lo** compro. | *Compro la ensalada.* → **La** compro.",
+      "englishPhrase": "I buy the bread. → I buy it.",
+      "phrase": "Compro el pan. → Lo compro.",
+      "literal": [["Compro", "I buy"], ["el pan", "the bread"], ["Lo", "it (masc.)"], ["compro", "I buy"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "it (the bread — masculine)",
+        "text": "Compro el pan. → ___ compro.",
+        "answer": "Lo",
+        "options": ["Lo", "La"]
+      }
+    },
+    {
+      "id": "do_agreement",
+      "grammar": true,
+      "english": "lo/la/los/las must match the gender AND number of the noun replaced",
+      "word": "lo, la, los, las",
+      "grammarNote": "**lo** = masc. singular (el pan, el queso…)\n**la** = fem. singular (la ensalada, la leche…)\n**los** = masc. plural (los huevos, los platos…)\n**las** = fem. plural (las galletas, las manzanas…)\n\nAlways match the replaced noun, not the English 'it/them'.",
+      "englishPhrase": "The bread — I want it. The salad — I want it. The cookies — I want them.",
+      "phrase": "El pan — lo quiero. La ensalada — la quiero. Las galletas — las quiero.",
+      "literal": [["El pan", "the bread"], ["lo", "it (masc. sg.)"], ["La ensalada", "the salad"], ["la", "it (fem. sg.)"], ["Las galletas", "the cookies"], ["las", "them (fem. pl.)"]],
+      "format": "produce",
+      "produce": {
+        "concept": "Direct object pronoun gender/number agreement",
+        "task": "Give the correct pronoun for: the bread (masc. sg.), the salad (fem. sg.), the cookies (fem. pl.)",
+        "answer": "lo, la, las",
+        "gloss": "lo → masc. sg. | la → fem. sg. | las → fem. pl."
+      }
+    },
+    {
+      "id": "do_placement",
+      "grammar": true,
+      "english": "Pronoun placement: before a conjugated verb OR attached to an infinitive (both correct)",
+      "word": "lo quiero comprar / quiero comprarlo",
+      "grammarNote": "With **conjugated verb + infinitive**, the direct object pronoun has two equally correct positions:\n1. **Before the conjugated verb**: *Lo quiero comprar.*\n2. **Attached to the infinitive**: *Quiero comprarlo.*\n\nBoth mean the same thing.",
+      "englishPhrase": "I want to buy it.",
+      "phrase": "Lo quiero comprar. / Quiero comprarlo.",
+      "literal": [["Lo", "it"], ["quiero", "I want"], ["comprar", "to buy"], ["Quiero", "I want"], ["comprarlo", "to buy it"]],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Both are correct — where does 'lo' go?",
+        "a": {"term": "Lo quiero comprar.", "gloss": "pronoun before the conjugated verb (quiero)"},
+        "b": {"term": "Quiero comprarlo.", "gloss": "pronoun attached to the infinitive"}
+      }
+    },
+    {
+      "id": "do_gerund",
+      "grammar": true,
+      "english": "With estar + gerund, pronoun attaches to the gerund (with accent) OR goes before estar",
+      "word": "Lo estoy mirando. / Estoy mirándolo.",
+      "grammarNote": "With **estar + gerund**, the direct object pronoun has two positions:\n1. **Before estar**: *Lo estoy mirando.*\n2. **Attached to the gerund** (written accent required): *Estoy **mirándolo**.*\n\nWhen you attach the pronoun, add an accent to keep the original stress on the gerund.",
+      "englishPhrase": "I am watching it.",
+      "phrase": "Lo estoy mirando. / Estoy mirándolo.",
+      "literal": [["Lo", "it"], ["estoy", "I am"], ["mirando", "watching"], ["Estoy", "I am"], ["mirándolo", "watching it"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "I am watching it — attach the pronoun to the gerund",
+        "text": "Estoy ___ (watching it)",
+        "answer": "mirándolo",
+        "options": ["mirándolo", "mirandolo"]
+      }
+    },
+    {
+      "id": "io_table",
+      "grammar": true,
+      "english": "Indirect object pronouns: to/for whom",
+      "word": "me / te / le / nos / les",
+      "grammarNote": "The **indirect object pronoun** marks the recipient — 'to/for whom'. It goes **before** the conjugated verb. **me** = to me, **te** = to you, **le** = to him/her/usted, **nos** = to us, **les** = to them.",
+      "englishPhrase": "I give the menu to him (the waiter).",
+      "phrase": "Le doy el menú al camarero.",
+      "literal": [["Le", "to him"], ["doy", "I give"], ["el", "the"], ["menú", "menu"], ["al", "to the"], ["camarero", "waiter"]],
+      "format": "table",
+      "table": {
+        "title": "Indirect Object Pronouns",
+        "rows": [["me", "to me"], ["te", "to you (tú)"], ["le", "to him / her / usted"], ["nos", "to us"], ["les", "to them"]],
+        "highlight": "le",
+        "note": "Pronoun goes before the conjugated verb."
+      }
+    },
+    {
+      "id": "io_dar_decir",
+      "grammar": true,
+      "english": "le = to him/her with dar and decir",
+      "word": "le doy, le digo",
+      "grammarNote": "Use **le** when the recipient is 'him', 'her', or 'usted'. It always goes **before** the verb: **le** doy, **le** digo, **le** escribo.",
+      "englishPhrase": "I give the cake to María.",
+      "phrase": "Le doy el pastel a María.",
+      "literal": [["Le", "to her"], ["doy", "I give"], ["el", "the"], ["pastel", "cake"], ["a María", "to María"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "to her (María) — I give the cake",
+        "text": "___ doy el pastel a María.",
+        "answer": "le",
+        "options": ["le", "lo"]
+      }
+    },
+    {
+      "id": "io_redundant_a",
+      "grammar": true,
+      "english": "le + a [person] together = natural Spanish",
+      "word": "Le doy el café a María.",
+      "grammarNote": "In Spanish, **le** and **a + person** are used **together**. The pronoun (le/les) is required even when you also name the person with 'a'. This is normal, not redundant.",
+      "englishPhrase": "I give the coffee to María.",
+      "phrase": "Le doy el café a María.",
+      "literal": [["Le", "to her"], ["doy", "I give"], ["el", "the"], ["café", "coffee"], ["a María", "to María"]],
+      "format": "produce",
+      "produce": {
+        "concept": "IO pronoun + 'a + person' together",
+        "task": "Say 'I give the coffee to María' — use both le and a María.",
+        "answer": "Le doy el café a María.",
+        "gloss": "le + a María together is normal in Spanish — the pronoun is never dropped"
+      }
+    },
+    {
+      "id": "io_gustar",
+      "grammar": true,
+      "english": "gustar in reverse: IO pronoun marks who likes it",
+      "word": "me gusta / te gusta / le gusta",
+      "grammarNote": "With **gustar**, the thing liked is the **subject** (gusta = singular, gustan = plural). The IO pronoun marks **who** likes it. So: 'I like coffee' = **me gusta** el café (literally: coffee pleases me).",
+      "englishPhrase": "She likes the coffee.",
+      "phrase": "A ella le gusta el café.",
+      "literal": [["A ella", "to her / she"], ["le", "to her"], ["gusta", "is pleasing"], ["el", "the"], ["café", "coffee"]],
+      "format": "table",
+      "table": {
+        "title": "gustar — reverse verb",
+        "rows": [["(a mí) me", "gusta / gustan"], ["(a ti) te", "gusta / gustan"], ["(a él/ella) le", "gusta / gustan"], ["(a nosotros) nos", "gusta / gustan"], ["(a ellos) les", "gusta / gustan"]],
+        "note": "gusta = one thing liked; gustan = multiple things liked."
+      }
+    },
+    {
+      "id": "io_doler",
+      "grammar": true,
+      "english": "doler (to hurt) follows the same pattern as gustar",
+      "word": "me duele / me duelen",
+      "grammarNote": "**doler** works like gustar — the IO pronoun marks who feels the pain, and the verb agrees with the body part. **me duele** (one part) vs. **me duelen** (plural: los pies, las manos).",
+      "englishPhrase": "My head hurts. (My feet hurt.)",
+      "phrase": "Me duele la cabeza. (Me duelen los pies.)",
+      "literal": [["Me", "to me"], ["duele", "hurts"], ["la cabeza", "the head"], ["Me duelen", "hurt me (plural)"], ["los pies", "the feet"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "hurts — my head (singular body part)",
+        "text": "Me ___ la cabeza.",
+        "answer": "duele",
+        "options": ["duele", "duelen"]
+      }
+    },
+    {
+      "id": "io_lo_vs_le",
+      "grammar": true,
+      "english": "lo (direct) vs. le (indirect): sees him vs. gives to him",
+      "word": "lo veo / le doy el café",
+      "grammarNote": "**lo** = direct object — the person/thing directly receiving the action (who/what is seen, bought, etc.). **le** = indirect object — the recipient of something ('to/for whom'). When you give, say, or write *something* **to** someone, that 'someone' gets **le**.",
+      "englishPhrase": "I see him; I give him the coffee.",
+      "phrase": "Lo veo; le doy el café.",
+      "literal": [["Lo", "him (direct)"], ["veo", "I see"], ["le", "to him (indirect)"], ["doy", "I give"], ["el café", "the coffee"]],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Which pronoun: sees him (direct) or gives to him (indirect)?",
+        "a": {"term": "lo veo", "gloss": "I see him → direct object (lo)"},
+        "b": {"term": "le doy el café", "gloss": "I give him the coffee → indirect object / recipient (le)"}
+      }
+    },
+    {
+      "id": "dbl_order",
+      "grammar": true,
+      "english": "Double object pronouns: indirect always comes first",
+      "word": "me lo / te la / nos los",
+      "grammarNote": "When a sentence has TWO object pronouns, the **indirect pronoun comes first**, then the direct: **indirect + direct**.",
+      "englishPhrase": "The coffee? The waiter gives it to me.",
+      "phrase": "¿El café? Me lo da el camarero.",
+      "literal": [["¿El café?", "The coffee?"], ["Me", "to me (indirect)"], ["lo", "it (direct)"], ["da", "gives"], ["el camarero", "the waiter"]],
+      "format": "table",
+      "table": {
+        "title": "Two pronouns: indirect + direct",
+        "rows": [["me + lo", "me lo da"], ["te + la", "te la doy"], ["nos + los", "nos los da"]],
+        "note": "Order is always: indirect first, then direct."
+      }
+    },
+    {
+      "id": "dbl_se_lo",
+      "grammar": true,
+      "english": "le/les + lo/la → se lo / se la (never le lo)",
+      "word": "se lo / se la",
+      "grammarNote": "When **le** or **les** appears before **lo / la / los / las**, the **le/les becomes se**. **Le lo** is never allowed → always **se lo**.",
+      "englishPhrase": "The menu? I give it to María.",
+      "phrase": "¿El menú? Se lo doy a María.",
+      "literal": [["¿El menú?", "The menu?"], ["Se", "to her (indirect, le → se)"], ["lo", "it (direct)"], ["doy", "I give"], ["a María", "to María"]],
+      "format": "cloze",
+      "cloze": {
+        "prompt": "to her (María) + it",
+        "text": "El menú, a María → ___ lo doy.",
+        "answer": "se",
+        "options": ["le", "se"]
+      }
+    },
+    {
+      "id": "dbl_se_produce",
+      "grammar": true,
+      "english": "Produce the se lo transformation",
+      "word": "se lo doy / se lo dice",
+      "grammarNote": "**le** or **les** + **lo/la** → **se lo / se la**. The indirect object can be clarified with 'a + name': **se lo doy a María**.",
+      "englishPhrase": "I give it (the coffee) to María. He tells it to her.",
+      "phrase": "Se lo doy a María. Él se lo dice.",
+      "literal": [["Se", "to her (le → se)"], ["lo", "it (the coffee, direct)"], ["doy", "I give"], ["a María", "to María"], ["Él", "He"], ["se", "to her"], ["lo", "it"], ["dice", "tells"]],
+      "format": "produce",
+      "produce": {
+        "concept": "le/les → se before lo/la",
+        "task": "Give it (the coffee) to María; tell it to her.",
+        "answer": "Se lo doy a María. Él se lo dice.",
+        "gloss": "le + lo is never allowed → se lo; indirect always first"
+      }
+    },
+    {
+      "id": "dbl_attach_inf",
+      "grammar": true,
+      "english": "Double pronouns: before conjugated verb OR attached to infinitive",
+      "word": "te lo quiero dar / quiero dártelo",
+      "grammarNote": "With an infinitive, both pronouns can go **before the conjugated verb** (separate) or **attached together to the infinitive** (add written accent).",
+      "englishPhrase": "I want to give it to you.",
+      "phrase": "Te lo quiero dar. / Quiero dártelo.",
+      "literal": [["Te", "to you (indirect)"], ["lo", "it (direct)"], ["quiero", "I want"], ["dar", "to give"], ["dártelo", "to-give-it-to-you (attached)"]],
+      "format": "contrast",
+      "contrast": {
+        "prompt": "Where do the double pronouns go with an infinitive?",
+        "a": {"term": "te lo quiero dar", "gloss": "before conjugated verb"},
+        "b": {"term": "quiero dártelo", "gloss": "both attached to infinitive"}
+      }
+    },
+    {
+      "id": "dbl_full_produce",
+      "grammar": true,
+      "english": "Full production: order + se lo rule together",
+      "word": "te lo compro / se la doy",
+      "grammarNote": "Combine both rules: **indirect first + direct second**, and **le → se** before lo/la. El pastel (masc.) → **lo**; la cuenta (fem.) → **la**.",
+      "englishPhrase": "I buy it (the cake) for you. I give it (the bill) to the waiter.",
+      "phrase": "Te lo compro. Se la doy al camarero.",
+      "literal": [["Te", "to you (indirect)"], ["lo", "it (el pastel, direct)"], ["compro", "I buy"], ["Se", "to him (le → se)"], ["la", "it (la cuenta, direct)"], ["doy", "I give"], ["al camarero", "to the waiter"]],
+      "format": "produce",
+      "produce": {
+        "concept": "Double pronouns: order + se rule",
+        "task": "I buy it (the cake) for you; I give it (the bill) to the waiter.",
+        "answer": "Te lo compro. Se la doy al camarero.",
+        "gloss": "el pastel → lo (masc.); la cuenta → la (fem.); le + la → se la"
+      }
+    }
+  ]
+}
