@@ -11738,6 +11738,707 @@
       ]
     },
     {
+      "id": "grammar_future_conditional",
+      "name": "Future & Conditional",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "future_ir_a",
+          "grammar": true,
+          "english": "Tomorrow I'm going to study at home. (near/planned future: ir a + infinitive)",
+          "word": "mañana voy a estudiar en casa",
+          "grammarNote": "The **near future** is **ir a + infinitive**: conjugate *ir* (voy, vas, va, vamos, van) and add **a** plus an unchanged infinitive. It's the most common way to talk about plans in speech.",
+          "englishPhrase": "Tomorrow I'm going to study at home.",
+          "phrase": "Mañana voy a estudiar en casa.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "voy a",
+              "I'm going to"
+            ],
+            [
+              "estudiar",
+              "study"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "ir a + infinitive (near future)",
+            "rows": [
+              [
+                "yo",
+                "voy a estudiar"
+              ],
+              [
+                "tú",
+                "vas a estudiar"
+              ],
+              [
+                "él / ella",
+                "va a estudiar"
+              ],
+              [
+                "nosotros",
+                "vamos a estudiar"
+              ],
+              [
+                "ellos",
+                "van a estudiar"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Only ir changes; the infinitive stays the same."
+          }
+        },
+        {
+          "id": "future_regular",
+          "grammar": true,
+          "english": "Tomorrow I will speak with María. (simple future)",
+          "word": "mañana hablaré con María",
+          "grammarNote": "The **simple future** adds one set of endings to the *whole infinitive* — same for -ar, -er, -ir: **-é, -ás, -á, -emos, -án**. hablar → hablaré, comer → comeré, vivir → viviré.",
+          "englishPhrase": "Tomorrow I will speak with María.",
+          "phrase": "Mañana hablaré con María.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "hablaré",
+              "I will speak"
+            ],
+            [
+              "con",
+              "with"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Simple future (endings on the infinitive)",
+            "rows": [
+              [
+                "yo",
+                "hablaré"
+              ],
+              [
+                "tú",
+                "hablarás"
+              ],
+              [
+                "él / ella",
+                "hablará"
+              ],
+              [
+                "nosotros",
+                "hablaremos"
+              ],
+              [
+                "ellos",
+                "hablarán"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Same endings for -ar/-er/-ir. Accent on every form except nosotros."
+          }
+        },
+        {
+          "id": "future_erir_cloze",
+          "grammar": true,
+          "english": "Tomorrow I will eat at the restaurant. (future -er)",
+          "word": "mañana comeré en el restaurante",
+          "grammarNote": "Future endings attach to the **full infinitive**, so -er/-ir verbs work the same way: comer → **comeré**, vivir → **viviré**.",
+          "englishPhrase": "Tomorrow I will eat at the restaurant.",
+          "phrase": "Mañana comeré en el restaurante.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "comeré",
+              "I will eat"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I will eat (future)",
+            "text": "mañana ___ en el restaurante",
+            "answer": "comeré",
+            "options": [
+              "como",
+              "comeré"
+            ]
+          }
+        },
+        {
+          "id": "future_irregular",
+          "grammar": true,
+          "english": "Tomorrow I will have to work. (irregular future stems)",
+          "word": "mañana tendré que trabajar",
+          "grammarNote": "Some verbs use an **irregular future stem** but take the **normal endings**: tener→**tendr-**, poder→**podr-**, salir→**saldr-**, hacer→**har-**, decir→**dir-**. So tener → tendré, tendrás, tendrá...",
+          "englishPhrase": "Tomorrow I will have to work.",
+          "phrase": "Mañana tendré que trabajar.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "tendré",
+              "I will have"
+            ],
+            [
+              "que",
+              "to"
+            ],
+            [
+              "trabajar",
+              "work"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular future stems (+ normal endings)",
+            "rows": [
+              [
+                "tener",
+                "tendré"
+              ],
+              [
+                "poder",
+                "podré"
+              ],
+              [
+                "salir",
+                "saldré"
+              ],
+              [
+                "hacer",
+                "haré"
+              ],
+              [
+                "decir",
+                "diré"
+              ]
+            ],
+            "highlight": "tener",
+            "note": "Stem changes, but the endings (-é, -ás, -á...) are the same."
+          }
+        },
+        {
+          "id": "future_vs_ir_a",
+          "grammar": true,
+          "english": "going to eat vs. will eat",
+          "word": "voy a comer / comeré",
+          "grammarNote": "**ir a + infinitive** = a near, planned future (very common in speech). The **simple future** (-é) feels a bit more distant or formal. Both are correct.",
+          "englishPhrase": "I'm going to eat now; tomorrow I will eat at home.",
+          "phrase": "Voy a comer ahora; mañana comeré en casa.",
+          "literal": [
+            [
+              "voy a comer",
+              "I'm going to eat"
+            ],
+            [
+              "comeré",
+              "I will eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Near plan or general 'will'?",
+            "a": {
+              "term": "voy a comer",
+              "gloss": "near, planned → ir a + inf"
+            },
+            "b": {
+              "term": "comeré",
+              "gloss": "general 'will' → simple future"
+            }
+          }
+        },
+        {
+          "id": "future_produce",
+          "grammar": true,
+          "english": "Say the future 'yo' form. (I will eat / drink / live)",
+          "word": "comeré, beberé, viviré",
+          "grammarNote": "The **yo** future ends in a stressed **-é** on the full infinitive: comer→comeré, beber→beberé, vivir→viviré.",
+          "englishPhrase": "I will eat, I will drink, I will live.",
+          "phrase": "Comeré, beberé, viviré.",
+          "literal": [
+            [
+              "Comeré",
+              "I will eat"
+            ],
+            [
+              "beberé",
+              "I will drink"
+            ],
+            [
+              "viviré",
+              "I will live"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Simple future = 'will' (endings on the infinitive)",
+            "task": "I will eat, I will drink, I will live",
+            "answer": "comeré, beberé, viviré",
+            "gloss": "regular yo future → stressed -é"
+          }
+        },
+        {
+          "id": "future_probability",
+          "grammar": true,
+          "english": "He's probably at home. (future of probability / a guess about the present)",
+          "word": "estará en casa",
+          "grammarNote": "The **future** can express **probability about the present** — a guess, not a plan. *Está en casa* = I know he's home; *estará en casa* = he's **probably** home. Often answers ¿Dónde estará? (Where can he be?).",
+          "englishPhrase": "He is at home (I know); he's probably at home (a guess).",
+          "phrase": "Está en casa; estará en casa.",
+          "literal": [
+            [
+              "está",
+              "he is"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ],
+            [
+              "estará",
+              "he probably is"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Fact you know or a guess?",
+            "a": {
+              "term": "está en casa",
+              "gloss": "fact → I know he's home"
+            },
+            "b": {
+              "term": "estará en casa",
+              "gloss": "guess → he's probably home"
+            }
+          }
+        },
+        {
+          "id": "future_cloze_ir",
+          "grammar": true,
+          "english": "Tomorrow I will go to the park. (future of ir)",
+          "word": "mañana iré al parque",
+          "grammarNote": "*ir* is **regular** in the future: it takes the normal endings on the infinitive → **iré, irás, irá, iremos, irán**.",
+          "englishPhrase": "Tomorrow I will go to the park.",
+          "phrase": "Mañana yo iré al parque.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "yo",
+              "I"
+            ],
+            [
+              "iré",
+              "will go"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "parque",
+              "park"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I will go (future)",
+            "text": "mañana yo ___ al parque",
+            "answer": "iré",
+            "options": [
+              "voy",
+              "iré"
+            ]
+          }
+        },
+        {
+          "id": "cond_regular",
+          "grammar": true,
+          "english": "I would speak with her. (conditional)",
+          "word": "yo hablaría con María",
+          "grammarNote": "The **conditional** ('would') adds one set of endings to the *whole infinitive* — same for -ar/-er/-ir: **-ía, -ías, -ía, -íamos, -ían**. hablar → hablaría.",
+          "englishPhrase": "I would speak with María.",
+          "phrase": "Yo hablaría con María.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "hablaría",
+              "would speak"
+            ],
+            [
+              "con",
+              "with"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Conditional (endings on the infinitive)",
+            "rows": [
+              [
+                "yo",
+                "hablaría"
+              ],
+              [
+                "tú",
+                "hablarías"
+              ],
+              [
+                "él / ella",
+                "hablaría"
+              ],
+              [
+                "nosotros",
+                "hablaríamos"
+              ],
+              [
+                "ellos",
+                "hablarían"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Accent on every í. yo and él/ella match."
+          }
+        },
+        {
+          "id": "cond_erir_cloze",
+          "grammar": true,
+          "english": "I would eat at the restaurant. (conditional -er)",
+          "word": "yo comería en el restaurante",
+          "grammarNote": "Conditional endings attach to the **full infinitive**, so -er/-ir behave the same: comer → **comería**, vivir → **viviría**.",
+          "englishPhrase": "I would eat at the restaurant.",
+          "phrase": "Yo comería en el restaurante.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "comería",
+              "would eat"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I would eat (conditional)",
+            "text": "yo ___ en el restaurante",
+            "answer": "comería",
+            "options": [
+              "como",
+              "comería"
+            ]
+          }
+        },
+        {
+          "id": "cond_irregular",
+          "grammar": true,
+          "english": "I would have to work more. (irregular conditional)",
+          "word": "yo tendría que trabajar",
+          "grammarNote": "Some verbs use an **irregular stem** — the *same* stem as the future — then add **-ía**. tener → **tendría**, hacer → **haría**, poder → **podría**, salir → **saldría**, decir → **diría**.",
+          "englishPhrase": "I would have to work more.",
+          "phrase": "Yo tendría que trabajar más.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "tendría",
+              "would have"
+            ],
+            [
+              "que",
+              "to"
+            ],
+            [
+              "trabajar",
+              "work"
+            ],
+            [
+              "más",
+              "more"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular conditional stems (same as future) + -ía",
+            "rows": [
+              [
+                "tener",
+                "tendría"
+              ],
+              [
+                "hacer",
+                "haría"
+              ],
+              [
+                "poder",
+                "podría"
+              ],
+              [
+                "salir",
+                "saldría"
+              ],
+              [
+                "decir",
+                "diría"
+              ]
+            ],
+            "highlight": "tener",
+            "note": "Learn the stem once; future and conditional share it."
+          }
+        },
+        {
+          "id": "cond_politeness",
+          "grammar": true,
+          "english": "I want a coffee vs. I would like a coffee",
+          "word": "quiero / me gustaría",
+          "grammarNote": "The **conditional softens** requests to sound polite. Blunt: **quiero** (I want). Polite: **me gustaría** (I would like), **¿podrías...?** (could you...?).",
+          "englishPhrase": "I want a coffee → I would like a coffee, please.",
+          "phrase": "Quiero un café → Me gustaría un café.",
+          "literal": [
+            [
+              "Quiero",
+              "I want"
+            ],
+            [
+              "me gustaría",
+              "I would like"
+            ],
+            [
+              "un",
+              "a"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Blunt or polite?",
+            "a": {
+              "term": "quiero un café",
+              "gloss": "want → direct/blunt"
+            },
+            "b": {
+              "term": "me gustaría un café",
+              "gloss": "would like → polite (conditional)"
+            }
+          }
+        },
+        {
+          "id": "cond_hypothetical",
+          "grammar": true,
+          "english": "Say the wish: I would live at the beach; I would travel a lot.",
+          "word": "viviría en la playa; viajaría mucho",
+          "grammarNote": "The **conditional** expresses hypotheticals and wishes ('would'). vivir → **viviría**, viajar → **viajaría** — regular -ía on the full infinitive.",
+          "englishPhrase": "I would live at the beach; I would travel a lot.",
+          "phrase": "Viviría en la playa; viajaría mucho.",
+          "literal": [
+            [
+              "Viviría",
+              "I would live"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "playa",
+              "beach"
+            ],
+            [
+              "viajaría",
+              "I would travel"
+            ],
+            [
+              "mucho",
+              "a lot"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Conditional = 'would' for wishes/hypotheticals",
+            "task": "I would live at the beach; I would travel a lot",
+            "answer": "viviría en la playa; viajaría mucho",
+            "gloss": "regular yo conditional → -ía"
+          }
+        },
+        {
+          "id": "cond_produce",
+          "grammar": true,
+          "english": "Say the conditional 'yo' form. (I would eat / drink / live)",
+          "word": "comería, bebería, viviría",
+          "grammarNote": "The **yo** conditional ends in **-ía** on the full infinitive: comer→comería, beber→bebería, vivir→viviría.",
+          "englishPhrase": "I would eat, I would drink, I would live.",
+          "phrase": "Comería, bebería, viviría.",
+          "literal": [
+            [
+              "Comería",
+              "I would eat"
+            ],
+            [
+              "bebería",
+              "I would drink"
+            ],
+            [
+              "viviría",
+              "I would live"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Conditional = 'would' (endings on the infinitive)",
+            "task": "I would eat, I would drink, I would live",
+            "answer": "comería, bebería, viviría",
+            "gloss": "regular yo conditional → -ía"
+          }
+        },
+        {
+          "id": "cond_vs_future",
+          "grammar": true,
+          "english": "I will eat vs. I would eat",
+          "word": "comeré / comería",
+          "grammarNote": "Future and conditional share the same stem; only the endings differ. Future **-é** = 'will' (comeré). Conditional **-ía** = 'would' (comería).",
+          "englishPhrase": "Tomorrow I will eat; I would eat more, but I can't.",
+          "phrase": "Mañana comeré; comería más, pero no puedo.",
+          "literal": [
+            [
+              "comeré",
+              "I will eat"
+            ],
+            [
+              "comería",
+              "I would eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "'Will' or 'would'?",
+            "a": {
+              "term": "comeré",
+              "gloss": "future → will (-é)"
+            },
+            "b": {
+              "term": "comería",
+              "gloss": "conditional → would (-ía)"
+            }
+          }
+        },
+        {
+          "id": "cond_cloze",
+          "grammar": true,
+          "english": "I would go to the park, but I can't. (conditional of ir)",
+          "word": "yo iría al parque",
+          "grammarNote": "**ir** is regular in the conditional: add **-ía** to the infinitive → **iría** (I would go). Don't confuse it with the future **iré** (I will go).",
+          "englishPhrase": "I would go to the park, but I can't.",
+          "phrase": "Yo iría al parque, pero no puedo.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "iría",
+              "would go"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "parque",
+              "park"
+            ],
+            [
+              "pero",
+              "but"
+            ],
+            [
+              "no puedo",
+              "I can't"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I would go (conditional)",
+            "text": "yo ___ al parque, pero no puedo",
+            "answer": "iría",
+            "options": [
+              "iré",
+              "iría"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "sports",
       "name": "Sports",
       "language": "spanish",
