@@ -1,6 +1,6 @@
 {
   "packs": [
-     {
+    {
       "id": "interview_code_snippets",
       "name": "Code Snippets",
       "language": "interview",
@@ -25,6 +25,250 @@
           "word": "",
           "code": "squares = [x * x for x in range(10)]",
           "codeLang": "Python"
+        }
+      ]
+    },
+    {
+      "id": "interview_java_spring",
+      "name": "Java & Spring",
+      "language": "interview",
+      "cards": [
+        {
+          "id": "js_stereotypes",
+          "english": "What's the difference between @Component, @Service, @Repository, and @Controller?",
+          "word": "All are @Component stereotypes; some add behavior",
+          "grammarNote": "All four are picked up by component scanning. @Repository adds persistence **exception translation** (native exceptions → Spring's DataAccessException). @Controller/@RestController handle web requests. @Service marks business logic. @Component is the generic fallback."
+        },
+        {
+          "id": "js_di",
+          "english": "How does Spring dependency injection work, and which injection type is preferred?",
+          "word": "Constructor injection — makes dependencies final, required, and testable",
+          "grammarNote": "The IoC container instantiates beans and wires their dependencies. Prefer **constructor injection**: deps can be `final`, are guaranteed present, and the class is easy to unit-test without reflection. Field injection (`@Autowired` on a field) hides dependencies and resists testing."
+        },
+        {
+          "id": "js_bean_scope",
+          "english": "What is the default Spring bean scope, and what are the others?",
+          "word": "Singleton (one per container); also prototype, request, session, application",
+          "grammarNote": "Singleton beans are shared, so they must be **stateless / thread-safe**. `prototype` yields a new instance per lookup. `request`/`session`/`application` are web scopes. Injecting a shorter-lived bean into a singleton needs a scoped proxy or `ObjectProvider`."
+        },
+        {
+          "id": "js_transactional",
+          "english": "How does @Transactional work, and what's a common pitfall?",
+          "word": "An AOP proxy wraps the method in a transaction; self-invocation bypasses it",
+          "grammarNote": "Spring wraps the bean in a proxy that begins/commits/rolls back around the call. Calling a `@Transactional` method from **another method in the same class** skips the proxy, so no transaction starts. Also: by default it only rolls back on unchecked exceptions."
+        },
+        {
+          "id": "js_n_plus_1",
+          "english": "What is the N+1 query problem in JPA/Hibernate, and how do you fix it?",
+          "word": "Lazy associations fire 1 + N queries; fix with a fetch join or @EntityGraph",
+          "grammarNote": "Iterating entities and touching a lazy association triggers one query per row. Fix with `JOIN FETCH`, an `@EntityGraph`, or batch fetching (`@BatchSize`). Catch it early by logging generated SQL — it's the most common ORM performance bug."
+        },
+        {
+          "id": "js_checked_unchecked",
+          "english": "What's the difference between checked and unchecked exceptions in Java?",
+          "word": "Checked = compiler-enforced (recoverable); unchecked = RuntimeException (bugs)",
+          "grammarNote": "Checked exceptions extend `Exception` and must be declared or caught. Unchecked extend `RuntimeException`. Modern APIs (and Spring) lean on unchecked exceptions for cleaner signatures; reserve checked exceptions for conditions a caller can genuinely recover from."
+        },
+        {
+          "id": "js_gc",
+          "english": "What does the JVM garbage collector do, and what's the generational assumption?",
+          "word": "Reclaims unreachable objects; assumes most objects die young",
+          "grammarNote": "The heap is split into young (eden + survivor) and old generations. Minor GC collects the young gen cheaply and often; full GC collects the old gen. Modern collectors (G1, ZGC) target low pause times. Tune via heap sizing rather than premature object pooling."
+        },
+        {
+          "id": "js_thread_safety",
+          "english": "How do you achieve thread safety in Java?",
+          "word": "Immutability, synchronized/locks, concurrent collections, atomics",
+          "grammarNote": "Prefer **immutable** objects. Otherwise use `synchronized`/`ReentrantLock` for critical sections, `java.util.concurrent` collections (e.g. `ConcurrentHashMap`), and `Atomic*`/`volatile` for lightweight shared state. Understand happens-before and the Java Memory Model."
+        },
+        {
+          "id": "js_mvc_webflux",
+          "english": "What's the difference between Spring MVC and Spring WebFlux?",
+          "word": "MVC = blocking, thread-per-request; WebFlux = reactive, non-blocking",
+          "grammarNote": "MVC uses the servlet stack with one thread per request — simple and fine for most apps. WebFlux uses Project Reactor (`Mono`/`Flux`) for non-blocking I/O, scaling to many concurrent connections on few threads — worth it for high-concurrency, I/O-bound workloads."
+        },
+        {
+          "id": "js_optional",
+          "english": "What is Optional in Java meant for, and how should you not use it?",
+          "word": "A return type to signal 'maybe absent' — not for fields or parameters",
+          "grammarNote": "`Optional` makes a possibly-absent **return value** explicit, encouraging callers to handle the empty case (`map`, `orElse`, `orElseThrow`). Anti-patterns: using it for fields, method parameters, or calling `.get()` without checking — that just relocates the NPE."
+        }
+      ]
+    },
+    {
+      "id": "interview_js_react",
+      "name": "JavaScript & React",
+      "language": "interview",
+      "cards": [
+        {
+          "id": "jsr_event_loop",
+          "english": "Explain the JavaScript event loop.",
+          "word": "Call stack + queues; microtasks drain fully before the next macrotask",
+          "grammarNote": "Synchronous code runs on the call stack. When it empties, the loop drains **all microtasks** (`Promise.then`, `queueMicrotask`), then runs one **macrotask** (`setTimeout`, I/O), then microtasks again. This is why a resolved promise's callback runs before a `setTimeout(0)`."
+        },
+        {
+          "id": "jsr_equality",
+          "english": "What's the difference between == and === in JavaScript?",
+          "word": "== coerces types; === compares value and type — prefer ===",
+          "grammarNote": "`==` applies type coercion (`0 == ''` and `null == undefined` are both true), a frequent bug source. `===` checks type first. Always use `===`, with the one common exception `x == null` to test for null-or-undefined together."
+        },
+        {
+          "id": "jsr_closures",
+          "english": "What is a closure, and give a practical use.",
+          "word": "A function that keeps access to its lexical scope after the outer function returns",
+          "grammarNote": "Closures enable data privacy (module pattern), stateful callbacks, memoization, and currying. Common React bug: a **stale closure** captures an old state value inside an effect or callback — fix it with a functional state update or correct dependencies."
+        },
+        {
+          "id": "jsr_keys",
+          "english": "What are React keys and why do they matter?",
+          "word": "Stable identity for list items so the reconciler can track and reorder them",
+          "grammarNote": "Keys let React match elements between renders. Using the array **index** as a key breaks on insert/reorder — state gets associated with the wrong item. Use a stable, unique id from your data."
+        },
+        {
+          "id": "jsr_rerender",
+          "english": "When does a React component re-render?",
+          "word": "On its state change, prop change, parent re-render, or consumed context change",
+          "grammarNote": "A `useState`/`useReducer` update, new props, a re-rendering parent, or a changed context value all trigger a re-render. Optimize with `React.memo`/`useMemo`/`useCallback` — but only when profiling shows a real cost; premature memoization just adds noise."
+        },
+        {
+          "id": "jsr_useeffect_deps",
+          "english": "What does the useEffect dependency array control?",
+          "word": "When the effect re-runs: [] = mount only, omitted = every render",
+          "grammarNote": "List every reactive value the effect uses. Missing deps cause **stale closures**; over-listing causes extra runs. The cleanup function runs before each re-run and on unmount. For values you can derive during render, skip the effect entirely."
+        },
+        {
+          "id": "jsr_memo_callback",
+          "english": "What's the difference between useMemo and useCallback?",
+          "word": "useMemo memoizes a computed value; useCallback memoizes a function reference",
+          "grammarNote": "`useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps)`. Both preserve **referential identity** across renders — useful to skip expensive recomputation or to keep `React.memo`/effect dependencies stable. They aren't free; apply them where it measurably helps."
+        },
+        {
+          "id": "jsr_hoisting_tdz",
+          "english": "Explain hoisting and the temporal dead zone.",
+          "word": "var/functions hoist; let/const hoist but sit in the TDZ until initialized",
+          "grammarNote": "`var` is hoisted and initialized to `undefined`; function declarations are hoisted whole. `let`/`const` are hoisted too, but accessing them before their declaration throws a `ReferenceError` — the temporal dead zone. Prefer `const`/`let`."
+        },
+        {
+          "id": "jsr_rsc",
+          "english": "What problems do React Server Components solve?",
+          "word": "Server-only rendering with zero client JS; direct data access, smaller bundles",
+          "grammarNote": "RSCs run only on the server, can read the DB/filesystem directly, and ship **no JavaScript** to the client, shrinking the bundle. Interactive pieces opt into Client Components with `'use client'`. RSCs have no state, effects, or browser APIs."
+        },
+        {
+          "id": "jsr_prototype",
+          "english": "How does prototypal inheritance work in JavaScript?",
+          "word": "Objects delegate to a prototype chain via [[Prototype]] until null",
+          "grammarNote": "Property lookups walk the `__proto__` chain until found or null. `class` is syntactic sugar over prototypes; `Object.create` sets the prototype directly. This explains method sharing across instances and how `this` resolves."
+        }
+      ]
+    },
+    {
+      "id": "interview_nextjs",
+      "name": "Next.js",
+      "language": "interview",
+      "cards": [
+        {
+          "id": "next_routers",
+          "english": "What's the difference between the App Router and the Pages Router?",
+          "word": "App Router = Server Components, layouts, streaming; Pages Router = classic, client-hydrated",
+          "grammarNote": "The App Router (`app/`) defaults to Server Components and adds nested layouts, streaming, and server actions with colocated data fetching. The Pages Router (`pages/`) uses `getServerSideProps`/`getStaticProps` and full client hydration. App Router is the current default."
+        },
+        {
+          "id": "next_rendering",
+          "english": "Compare SSR, SSG, and ISR in Next.js.",
+          "word": "SSR = per request; SSG = at build time; ISR = SSG + periodic revalidation",
+          "grammarNote": "SSG is fastest and fully cacheable, for content that rarely changes. SSR renders on each request for fresh or personalized data. ISR serves static pages but rebuilds them in the background after a `revalidate` TTL — static speed with reasonably fresh data."
+        },
+        {
+          "id": "next_server_actions",
+          "english": "What are Server Actions in Next.js?",
+          "word": "Server functions callable from components/forms without a manual API route",
+          "grammarNote": "Marked with `'use server'`, they run on the server, can mutate data, and are invoked directly from a form or event handler. They replace boilerplate API routes for mutations and pair with `revalidatePath`/`revalidateTag` to refresh cached data."
+        },
+        {
+          "id": "next_caching",
+          "english": "How does data fetching and caching work in the App Router?",
+          "word": "fetch() is cached by default; control it with revalidate / cache options",
+          "grammarNote": "Next extends `fetch` with caching — static (`force-cache`) by default. Use `{ next: { revalidate: N } }` for ISR-style freshness, or `{ cache: 'no-store' }` for dynamic. Invalidate by tag with `revalidateTag`. Certain APIs opt a route into dynamic rendering."
+        },
+        {
+          "id": "next_client_vs_server",
+          "english": "When do you use a Client Component vs a Server Component?",
+          "word": "Client for interactivity/state/browser APIs; Server for data fetching and static UI",
+          "grammarNote": "Default to Server Components — no JS shipped, direct data access. Add `'use client'` only where you need `useState`/`useEffect`, event handlers, or browser APIs. Keep client components small and push them toward the leaves of the tree."
+        },
+        {
+          "id": "next_image",
+          "english": "Why use next/image instead of a plain <img>?",
+          "word": "Automatic optimization: resizing, modern formats, lazy loading, no layout shift",
+          "grammarNote": "`next/image` serves responsive, optimized images (WebP/AVIF), lazy-loads by default, and requires dimensions (or `fill`) to reserve space and prevent Cumulative Layout Shift. It cuts bandwidth and improves Core Web Vitals."
+        },
+        {
+          "id": "next_middleware",
+          "english": "What is middleware in Next.js and where does it run?",
+          "word": "Code that runs before a request completes, on the Edge runtime",
+          "grammarNote": "`middleware.ts` runs on every matched request at the edge — ideal for auth redirects, A/B tests, geolocation, and rewrites/headers. It's the lightweight Edge runtime (no Node APIs) and must be fast, so avoid heavy work there."
+        },
+        {
+          "id": "next_special_files",
+          "english": "How does routing work in the App Router (the special files)?",
+          "word": "Folders = routes; page, layout, loading, error, route files define behavior",
+          "grammarNote": "`page.tsx` is a route's UI; `layout.tsx` wraps children and persists across navigation; `loading.tsx` is a Suspense fallback (enables streaming); `error.tsx` is an error boundary; `route.ts` defines API handlers. Dynamic segments use `[param]` folders."
+        }
+      ]
+    },
+    {
+      "id": "interview_ruby_rails",
+      "name": "Ruby & Rails",
+      "language": "interview",
+      "cards": [
+        {
+          "id": "rr_mvc",
+          "english": "Explain the MVC pattern as Rails implements it.",
+          "word": "Model (data/logic), View (presentation), Controller (requests) + convention over configuration",
+          "grammarNote": "ActiveRecord models map to tables and hold logic; controllers handle params and orchestrate; views render (ERB). Rails' **convention over configuration** provides sane defaults (model → table → route naming) so you write far less boilerplate."
+        },
+        {
+          "id": "rr_activerecord_n1",
+          "english": "What is ActiveRecord, and what's the N+1 query problem?",
+          "word": "The ORM; N+1 = lazy per-record association queries — fix with includes",
+          "grammarNote": "ActiveRecord maps objects to rows. Iterating records and reading an association fires a query each → N+1. Fix with `.includes(:assoc)` (or `preload`/`eager_load`) for eager loading. The `bullet` gem flags it automatically in development."
+        },
+        {
+          "id": "rr_symbol_string",
+          "english": "What's the difference between a Ruby symbol and a string?",
+          "word": "Symbols are immutable and interned (one object per name); strings are mutable",
+          "grammarNote": "`:name` refers to the same object everywhere — memory-efficient and fast to compare — so symbols are ideal for hash keys and identifiers. Strings are mutable and allocate a new object each time. Use symbols for fixed identifiers, strings for data."
+        },
+        {
+          "id": "rr_blocks_procs_lambdas",
+          "english": "How do Ruby blocks, procs, and lambdas differ?",
+          "word": "All closures; lambdas check arity and return locally, procs don't",
+          "grammarNote": "A block is passed implicitly to a method (`yield` or `&block`). Procs and lambdas are objects. **Lambdas** enforce argument count and `return` only exits the lambda; **procs** ignore extra args and `return` exits the enclosing method."
+        },
+        {
+          "id": "rr_migrations",
+          "english": "How do Rails migrations work, and why do they matter?",
+          "word": "Versioned, reversible schema changes recorded in schema_migrations",
+          "grammarNote": "Migrations describe schema changes in Ruby, run in order, and are recorded so each runs exactly once — keeping every environment in sync. They're reversible (`change`, or `up`/`down`). Never edit an already-run migration; write a new one."
+        },
+        {
+          "id": "rr_strong_params",
+          "english": "What are strong parameters and why do they exist?",
+          "word": "Explicit whitelisting of params to prevent mass-assignment vulnerabilities",
+          "grammarNote": "`params.require(:user).permit(:name, :email)` ensures only allowed attributes reach the model. Without it, an attacker could set fields like `admin=true` through a crafted request — the classic mass-assignment attack."
+        },
+        {
+          "id": "rr_callbacks",
+          "english": "Explain Rails callbacks and a common pitfall.",
+          "word": "Lifecycle hooks (before_save, after_create…); overuse creates hidden coupling",
+          "grammarNote": "Callbacks run logic around create/update/destroy. The pitfall: putting heavy business logic or side effects (emails, external API calls) in callbacks makes models hard to test and reason about — extract complex flows into service objects instead."
+        },
+        {
+          "id": "rr_rack",
+          "english": "What is Rack in the Ruby ecosystem?",
+          "word": "A minimal interface between web servers and Ruby frameworks",
+          "grammarNote": "Rack standardizes the contract: a callable that takes `env` and returns `[status, headers, body]`. Rails and Sinatra are Rack apps, and cross-cutting concerns (auth, logging) plug in as **Rack middleware** in a stack."
         }
       ]
     },

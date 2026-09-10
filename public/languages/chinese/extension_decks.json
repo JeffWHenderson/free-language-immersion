@@ -2,6 +2,4532 @@
   "language": "chinese",
   "packs": [
     {
+      "id": "sports",
+      "name": "Sports",
+      "cards": [
+        {
+          "id": "score",
+          "english": "score",
+          "word": "比分",
+          "romanized": "bǐ fēn",
+          "grammarNote": "**比分** (bǐfēn) = the score (of a game). Made of 比 'compare' + 分 'points'.\n**多少** (duōshao) 'how much/many' is the normal way to ask a numeric value.",
+          "englishPhrase": "What is the score now?",
+          "phrase": "现在比分是多少？",
+          "phraseRomanized": "Xiàn zài bǐ fēn shì duō shǎo?",
+          "literal": [
+            [
+              "现在",
+              "now"
+            ],
+            [
+              "比分",
+              "the score"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "多少？",
+              "how much?"
+            ]
+          ]
+        },
+        {
+          "id": "point",
+          "english": "point",
+          "word": "得分",
+          "romanized": "dé fēn",
+          "grammarNote": "**得分** (défēn) = to score a point, or 'points scored'. 得 'to get' + 分 'point'.\n**又** (yòu) = 'again', for a repeated past action.",
+          "englishPhrase": "We scored another point!",
+          "phrase": "我们又得了一分！",
+          "phraseRomanized": "Wǒ men yòu dé le yī fēn!",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "又",
+              "again"
+            ],
+            [
+              "得了",
+              "got"
+            ],
+            [
+              "一分！",
+              "one point!"
+            ]
+          ]
+        },
+        {
+          "id": "match",
+          "english": "match / game",
+          "word": "比赛",
+          "romanized": "bǐ sài",
+          "grammarNote": "**比赛** (bǐsài) = a match, game, or competition — both the event and the act of competing.\n**一场** (yì chǎng) is the measure word for a match, show, or bout.",
+          "englishPhrase": "There is a soccer match today.",
+          "phrase": "今天有一场足球比赛。",
+          "phraseRomanized": "Jīn tiān yǒu yī cháng zú qiú bǐ sài.",
+          "literal": [
+            [
+              "今天",
+              "today"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "一场",
+              "one (event)"
+            ],
+            [
+              "足球",
+              "soccer"
+            ],
+            [
+              "比赛。",
+              "match."
+            ]
+          ]
+        },
+        {
+          "id": "tournament",
+          "english": "tournament",
+          "word": "锦标赛",
+          "romanized": "jǐn biāo sài",
+          "grammarNote": "**锦标赛** (jǐnbiāosài) = championship tournament.\n**赢得** (yíngdé) = 'to win (a prize/title)', more formal than plain 赢.",
+          "englishPhrase": "He won the tournament.",
+          "phrase": "他赢得了锦标赛。",
+          "phraseRomanized": "Tā yíng dé le jǐn biāo sài.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "赢得了",
+              "won"
+            ],
+            [
+              "锦标赛。",
+              "the tournament."
+            ]
+          ]
+        },
+        {
+          "id": "opponent",
+          "english": "opponent",
+          "word": "对手",
+          "romanized": "duì shǒu",
+          "grammarNote": "**对手** (duìshǒu) = opponent, rival. 对 'facing' + 手 'hand/player'.\n**很** (hěn) links a subject to an adjective; it doesn't always mean 'very'.",
+          "englishPhrase": "Our opponent is strong.",
+          "phrase": "我们的对手很强。",
+          "phraseRomanized": "Wǒ men de duì shǒu hěn qiáng.",
+          "literal": [
+            [
+              "我们的",
+              "our"
+            ],
+            [
+              "对手",
+              "opponent"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "强。",
+              "strong."
+            ]
+          ]
+        },
+        {
+          "id": "win",
+          "english": "to win",
+          "word": "赢",
+          "romanized": "yíng",
+          "grammarNote": "**赢** (yíng) = to win. Object can be the game or the opponent.\n**了** (le) after the verb marks the win as a completed event.",
+          "englishPhrase": "We won the game.",
+          "phrase": "我们赢了比赛。",
+          "phraseRomanized": "Wǒ men yíng le bǐ sài.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "赢了",
+              "won"
+            ],
+            [
+              "比赛。",
+              "the game."
+            ]
+          ]
+        },
+        {
+          "id": "lose",
+          "english": "to lose",
+          "word": "输",
+          "romanized": "shū",
+          "grammarNote": "**输** (shū) = to lose (a game); opposite of 赢.\n**输了** = 'lost'; add the score with 输给 (shū gěi) 'lose to'.",
+          "englishPhrase": "We lost yesterday.",
+          "phrase": "昨天我们输了。",
+          "phraseRomanized": "Zuó tiān wǒ men shū le.",
+          "literal": [
+            [
+              "昨天",
+              "yesterday"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "输了。",
+              "lost."
+            ]
+          ]
+        },
+        {
+          "id": "referee",
+          "english": "referee",
+          "word": "裁判",
+          "romanized": "cái pàn",
+          "grammarNote": "**裁判** (cáipàn) = referee, umpire; also 'to judge/officiate'.\n**吹哨子** (chuī shàozi) 'blow the whistle' is what a referee does.",
+          "englishPhrase": "The referee blew the whistle.",
+          "phrase": "裁判吹了哨子。",
+          "phraseRomanized": "Cái pàn chuī le shào zi.",
+          "literal": [
+            [
+              "裁判",
+              "the referee"
+            ],
+            [
+              "吹了",
+              "blew"
+            ],
+            [
+              "哨子。",
+              "the whistle."
+            ]
+          ]
+        },
+        {
+          "id": "stadium",
+          "english": "stadium",
+          "word": "体育场",
+          "romanized": "tǐ yù chǎng",
+          "grammarNote": "**体育场** (tǐyùchǎng) = (outdoor) stadium. 体育 'sports' + 场 'field'.\n**里** (lǐ) after a place = 'inside'.",
+          "englishPhrase": "There are many people in the stadium.",
+          "phrase": "体育场里有很多人。",
+          "phraseRomanized": "Tǐ yù chǎng lǐ yǒu hěn duō rén.",
+          "literal": [
+            [
+              "体育场",
+              "the stadium"
+            ],
+            [
+              "里",
+              "inside"
+            ],
+            [
+              "有",
+              "there are"
+            ],
+            [
+              "很多",
+              "many"
+            ],
+            [
+              "人。",
+              "people."
+            ]
+          ]
+        },
+        {
+          "id": "coach",
+          "english": "coach / trainer",
+          "word": "教练",
+          "romanized": "jiào liàn",
+          "grammarNote": "**教练** (jiàoliàn) = coach or trainer, for sports or driving.\n**严格** (yángé) = strict.",
+          "englishPhrase": "The coach is very strict.",
+          "phrase": "教练很严格。",
+          "phraseRomanized": "Jiào liàn hěn yán gé.",
+          "literal": [
+            [
+              "教练",
+              "the coach"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "严格。",
+              "strict."
+            ]
+          ]
+        },
+        {
+          "id": "champion",
+          "english": "champion",
+          "word": "冠军",
+          "romanized": "guàn jūn",
+          "grammarNote": "**冠军** (guànjūn) = champion, first place. 亚军 (yàjūn) is runner-up.\n**世界冠军** = world champion.",
+          "englishPhrase": "She is the world champion.",
+          "phrase": "她是世界冠军。",
+          "phraseRomanized": "Tā shì shì jiè guàn jūn.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "世界",
+              "world"
+            ],
+            [
+              "冠军。",
+              "champion."
+            ]
+          ]
+        },
+        {
+          "id": "team",
+          "english": "team",
+          "word": "队",
+          "romanized": "duì",
+          "grammarNote": "**队** (duì) = team; 球队 (qiúduì) specifically a ball-sport team.\nPut it after a pronoun: 我们队 = 'our team'.",
+          "englishPhrase": "Our team won.",
+          "phrase": "我们队赢了。",
+          "phraseRomanized": "Wǒ men duì yíng le.",
+          "literal": [
+            [
+              "我们",
+              "our"
+            ],
+            [
+              "队",
+              "team"
+            ],
+            [
+              "赢了。",
+              "won."
+            ]
+          ]
+        },
+        {
+          "id": "player",
+          "english": "player",
+          "word": "球员",
+          "romanized": "qiú yuán",
+          "grammarNote": "**球员** (qiúyuán) = player (ball sports). 运动员 is any athlete.\n**最好的** (zuì hǎo de) = 'the best'.",
+          "englishPhrase": "He is the best player.",
+          "phrase": "他是最好的球员。",
+          "phraseRomanized": "Tā shì zuì hǎo de qiú yuán.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "最好的",
+              "the best"
+            ],
+            [
+              "球员。",
+              "player."
+            ]
+          ]
+        },
+        {
+          "id": "tie",
+          "english": "tie / draw",
+          "word": "平局",
+          "romanized": "píng jú",
+          "grammarNote": "**平局** (píngjú) = a tie/draw. 平 'level' + 局 'game'.\n**以…结束** (yǐ … jiéshù) = 'to end in/with …'.",
+          "englishPhrase": "The game ended in a tie.",
+          "phrase": "比赛以平局结束。",
+          "phraseRomanized": "Bǐ sài yǐ píng jú jié shù.",
+          "literal": [
+            [
+              "比赛",
+              "the game"
+            ],
+            [
+              "以",
+              "in"
+            ],
+            [
+              "平局",
+              "a tie"
+            ],
+            [
+              "结束。",
+              "ended."
+            ]
+          ]
+        },
+        {
+          "id": "athlete",
+          "english": "athlete",
+          "word": "运动员",
+          "romanized": "yùn dòng yuán",
+          "grammarNote": "**运动员** (yùndòngyuán) = athlete, sportsperson.\n**一名** (yì míng) is a measure word for people in a profession/role.",
+          "englishPhrase": "He is an athlete.",
+          "phrase": "他是一名运动员。",
+          "phraseRomanized": "Tā shì yī míng yùn dòng yuán.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "一名",
+              "a"
+            ],
+            [
+              "运动员。",
+              "athlete."
+            ]
+          ]
+        },
+        {
+          "id": "sport",
+          "english": "sport",
+          "word": "运动",
+          "romanized": "yùn dòng",
+          "grammarNote": "**运动** (yùndòng) = sport(s), exercise; also 'to move/campaign'.\n做运动 / 做运动 both mean 'to do sports'.",
+          "englishPhrase": "I like sports.",
+          "phrase": "我喜欢运动。",
+          "phraseRomanized": "Wǒ xǐ huān yùn dòng.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喜欢",
+              "like"
+            ],
+            [
+              "运动。",
+              "sports."
+            ]
+          ]
+        },
+        {
+          "id": "competition",
+          "english": "competition",
+          "word": "竞赛",
+          "romanized": "jìng sài",
+          "grammarNote": "**竞赛** (jìngsài) = competition, contest — a bit more formal than 比赛.\n**激烈** (jīliè) = intense, fierce.",
+          "englishPhrase": "This is an intense competition.",
+          "phrase": "这是一场激烈的竞赛。",
+          "phraseRomanized": "Zhè shì yī cháng jī liè de jìng sài.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "一场",
+              "a"
+            ],
+            [
+              "激烈的",
+              "intense"
+            ],
+            [
+              "竞赛。",
+              "competition."
+            ]
+          ]
+        },
+        {
+          "id": "score_verb",
+          "english": "to score (a goal / point)",
+          "word": "进球",
+          "romanized": "jìn qiú",
+          "grammarNote": "**进球** (jìn qiú) = to score a goal; literally 'put in the ball'.\nFor points generally use 得分 (défēn).",
+          "englishPhrase": "He scored a goal.",
+          "phrase": "他进了一个球。",
+          "phraseRomanized": "Tā jìn le yí gè qiú.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "进了",
+              "scored"
+            ],
+            [
+              "一个",
+              "one"
+            ],
+            [
+              "球。",
+              "goal."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_2",
+      "name": "Racket & Pickleball",
+      "cards": [
+        {
+          "id": "pickleball",
+          "english": "pickleball",
+          "word": "匹克球",
+          "romanized": "pǐ kè qiú",
+          "grammarNote": "**匹克球** (pǐkèqiú) = pickleball, a phonetic loan (匹克 'pickle') + 球 'ball'.\n**好玩** (hǎowán) = fun (of activities).",
+          "englishPhrase": "Pickleball is really fun.",
+          "phrase": "匹克球很好玩。",
+          "phraseRomanized": "Pǐ kè qiú hěn hǎo wán.",
+          "literal": [
+            [
+              "匹克球",
+              "pickleball"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "好玩。",
+              "fun."
+            ]
+          ]
+        },
+        {
+          "id": "paddle",
+          "english": "paddle",
+          "word": "球拍",
+          "romanized": "qiú pāi",
+          "grammarNote": "**球拍** (qiúpāi) = paddle/racket. 拍 by itself means 'to hit/pat'.\n**一个** (yí ge) is the all-purpose measure word.",
+          "englishPhrase": "I bought a new paddle.",
+          "phrase": "我买了一个新球拍。",
+          "phraseRomanized": "Wǒ mǎi le yí gè xīn qiú pāi.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "买了",
+              "bought"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "新",
+              "new"
+            ],
+            [
+              "球拍。",
+              "paddle."
+            ]
+          ]
+        },
+        {
+          "id": "court",
+          "english": "court",
+          "word": "球场",
+          "romanized": "qiú chǎng",
+          "grammarNote": "**球场** (qiúchǎng) = court/pitch for ball sports.\n**空的** (kōng de) = empty.",
+          "englishPhrase": "The court is empty.",
+          "phrase": "球场是空的。",
+          "phraseRomanized": "Qiú chǎng shì kōng de.",
+          "literal": [
+            [
+              "球场",
+              "the court"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "空的。",
+              "empty."
+            ]
+          ]
+        },
+        {
+          "id": "serve",
+          "english": "to serve / serve",
+          "word": "发球",
+          "romanized": "fā qiú",
+          "grammarNote": "**发球** (fā qiú) = to serve. 发 'send out' + 球 'ball'.\n**该你了** / 该你发球了 = 'it's your turn'.",
+          "englishPhrase": "It's your turn to serve.",
+          "phrase": "该你发球了。",
+          "phraseRomanized": "Gāi nǐ fā qiú le.",
+          "literal": [
+            [
+              "该",
+              "it's (someone's) turn"
+            ],
+            [
+              "你",
+              "you"
+            ],
+            [
+              "发球了。",
+              "to serve now."
+            ]
+          ]
+        },
+        {
+          "id": "rally",
+          "english": "rally",
+          "word": "对打",
+          "romanized": "duì dǎ",
+          "grammarNote": "**对打** (duìdǎ) = a rally / back-and-forth exchange. 对 'facing' + 打 'hit'.\n**长** (cháng) here = long (in duration).",
+          "englishPhrase": "That was a long rally.",
+          "phrase": "那是一个很长的对打。",
+          "phraseRomanized": "Nà shì yí gè hěn zhǎng de duì dǎ.",
+          "literal": [
+            [
+              "那",
+              "that"
+            ],
+            [
+              "是",
+              "was"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "很长的",
+              "long"
+            ],
+            [
+              "对打。",
+              "rally."
+            ]
+          ]
+        },
+        {
+          "id": "ball",
+          "english": "ball",
+          "word": "球",
+          "romanized": "qiú",
+          "grammarNote": "**球** (qiú) = ball; also 'sphere'. Add a sport in front: 篮球, 网球.\n**出界** (chū jiè) = to go out of bounds.",
+          "englishPhrase": "The ball is out.",
+          "phrase": "球出界了。",
+          "phraseRomanized": "Qiú chū jiè le.",
+          "literal": [
+            [
+              "球",
+              "the ball"
+            ],
+            [
+              "出界了。",
+              "went out."
+            ]
+          ]
+        },
+        {
+          "id": "net",
+          "english": "net",
+          "word": "网",
+          "romanized": "wǎng",
+          "grammarNote": "**网** (wǎng) = net; also 'the internet' (上网 = go online).\n**打到…上** (dǎ dào … shàng) = 'to hit onto …'.",
+          "englishPhrase": "The ball hit the net.",
+          "phrase": "球打到了网上。",
+          "phraseRomanized": "Qiú dǎ dào le wǎng shàng.",
+          "literal": [
+            [
+              "球",
+              "the ball"
+            ],
+            [
+              "打到了",
+              "hit onto"
+            ],
+            [
+              "网上。",
+              "the net."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_3",
+      "name": "Outdoors & Hiking",
+      "cards": [
+        {
+          "id": "hike",
+          "english": "to hike / hiking",
+          "word": "徒步",
+          "romanized": "tú bù",
+          "grammarNote": "**徒步** (túbù) = to hike / go on foot. 徒 'on foot' + 步 'step'.\nAlso common: 远足 (yuǎnzú).",
+          "englishPhrase": "We go hiking on the weekend.",
+          "phrase": "周末我们去徒步。",
+          "phraseRomanized": "Zhōu mò wǒ men qù tú bù.",
+          "literal": [
+            [
+              "周末",
+              "(on the) weekend"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "去",
+              "go"
+            ],
+            [
+              "徒步。",
+              "hiking."
+            ]
+          ]
+        },
+        {
+          "id": "trail",
+          "english": "trail / path",
+          "word": "小路",
+          "romanized": "xiǎo lù",
+          "grammarNote": "**小路** (xiǎolù) = small path/trail; a marked hiking path is 步道 (bùdào).\n**窄** (zhǎi) = narrow.",
+          "englishPhrase": "This trail is narrow.",
+          "phrase": "这条小路很窄。",
+          "phraseRomanized": "Zhè tiáo xiǎo lù hěn zhǎi.",
+          "literal": [
+            [
+              "这条",
+              "this"
+            ],
+            [
+              "小路",
+              "trail"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "窄。",
+              "narrow."
+            ]
+          ]
+        },
+        {
+          "id": "mountain",
+          "english": "mountain",
+          "word": "山",
+          "romanized": "shān",
+          "grammarNote": "**山** (shān) = mountain, hill. Measure word 座 (zuò) for large fixed things.\n**高** (gāo) = tall/high.",
+          "englishPhrase": "That mountain is very high.",
+          "phrase": "那座山很高。",
+          "phraseRomanized": "Nà zuò shān hěn gāo.",
+          "literal": [
+            [
+              "那座",
+              "that"
+            ],
+            [
+              "山",
+              "mountain"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "高。",
+              "high."
+            ]
+          ]
+        },
+        {
+          "id": "backpack",
+          "english": "backpack",
+          "word": "背包",
+          "romanized": "bēi bāo",
+          "grammarNote": "**背包** (bēibāo) = backpack. 背 'to carry on the back' + 包 'bag'.\n**重** (zhòng) = heavy.",
+          "englishPhrase": "My backpack is heavy.",
+          "phrase": "我的背包很重。",
+          "phraseRomanized": "Wǒ de bēi bāo hěn zhòng.",
+          "literal": [
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "背包",
+              "backpack"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "重。",
+              "heavy."
+            ]
+          ]
+        },
+        {
+          "id": "bicycle",
+          "english": "bicycle / bike",
+          "word": "自行车",
+          "romanized": "zì xíng chē",
+          "grammarNote": "**自行车** (zìxíngchē) = bicycle; lit. 'self-propel vehicle'.\nMeasure word 辆 (liàng) for vehicles.",
+          "englishPhrase": "This is my bicycle.",
+          "phrase": "这是我的自行车。",
+          "phraseRomanized": "Zhè shì wǒ de zì xíng chē.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "自行车。",
+              "bicycle."
+            ]
+          ]
+        },
+        {
+          "id": "ride_a_bike",
+          "english": "to ride a bike",
+          "word": "骑自行车",
+          "romanized": "qí zì xíng chē",
+          "grammarNote": "**骑** (qí) = to ride (straddling): bikes, horses, motorcycles.\n**每天** (měitiān) = every day.",
+          "englishPhrase": "I ride a bike every day.",
+          "phrase": "我每天骑自行车。",
+          "phraseRomanized": "Wǒ měi tiān qí zì xíng chē.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "每天",
+              "every day"
+            ],
+            [
+              "骑",
+              "ride"
+            ],
+            [
+              "自行车。",
+              "a bike."
+            ]
+          ]
+        },
+        {
+          "id": "helmet",
+          "english": "helmet",
+          "word": "头盔",
+          "romanized": "tóu kuī",
+          "grammarNote": "**头盔** (tóukuī) = helmet. 头 'head' + 盔 'helmet'.\n**戴上** (dài shàng) = to put on (things worn on head/hands).",
+          "englishPhrase": "Please put on your helmet.",
+          "phrase": "请戴上头盔。",
+          "phraseRomanized": "Qǐng dài shàng tou kuī.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "戴上",
+              "put on"
+            ],
+            [
+              "头盔。",
+              "the helmet."
+            ]
+          ]
+        },
+        {
+          "id": "race",
+          "english": "race",
+          "word": "赛跑",
+          "romanized": "sài pǎo",
+          "grammarNote": "**赛跑** (sàipǎo) = a foot race. 赛 'compete' + 跑 'run'.\nFor racing generally use 比赛.",
+          "englishPhrase": "He won the race.",
+          "phrase": "他赢了赛跑。",
+          "phraseRomanized": "Tā yíng le sài pǎo.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "赢了",
+              "won"
+            ],
+            [
+              "赛跑。",
+              "the race."
+            ]
+          ]
+        },
+        {
+          "id": "outdoor",
+          "english": "outdoors / outdoor",
+          "word": "户外",
+          "romanized": "hù wài",
+          "grammarNote": "**户外** (hùwài) = outdoors. 户 'door/household' + 外 'outside'.\n**活动** (huódòng) = activity.",
+          "englishPhrase": "I like outdoor activities.",
+          "phrase": "我喜欢户外活动。",
+          "phraseRomanized": "Wǒ xǐ huān hù wài huó dòng.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喜欢",
+              "like"
+            ],
+            [
+              "户外",
+              "outdoor"
+            ],
+            [
+              "活动。",
+              "activities."
+            ]
+          ]
+        },
+        {
+          "id": "finish_line",
+          "english": "finish line",
+          "word": "终点",
+          "romanized": "zhōng diǎn",
+          "grammarNote": "**终点** (zhōngdiǎn) = finish line, endpoint; start line is 起点 (qǐdiǎn).\n**到达** (dàodá) = to reach/arrive at.",
+          "englishPhrase": "He reached the finish line first.",
+          "phrase": "他第一个到达终点。",
+          "phraseRomanized": "Tā dì yí gè dào dá zhōng diǎn.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "第一个",
+              "first"
+            ],
+            [
+              "到达",
+              "reached"
+            ],
+            [
+              "终点。",
+              "the finish line."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_4",
+      "name": "Training & Fitness",
+      "cards": [
+        {
+          "id": "exercise",
+          "english": "to exercise / exercise",
+          "word": "锻炼",
+          "romanized": "duàn liàn",
+          "grammarNote": "**锻炼** (duànliàn) = to work out, exercise (for fitness/health).\n**每天早上** (měitiān zǎoshang) = every morning.",
+          "englishPhrase": "I exercise every morning.",
+          "phrase": "我每天早上锻炼。",
+          "phraseRomanized": "Wǒ měi tiān zǎo shàng duàn liàn.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "每天早上",
+              "every morning"
+            ],
+            [
+              "锻炼。",
+              "exercise."
+            ]
+          ]
+        },
+        {
+          "id": "stretch",
+          "english": "to stretch",
+          "word": "拉伸",
+          "romanized": "lā shēn",
+          "grammarNote": "**拉伸** (lāshēn) = to stretch (muscles). 拉 'pull' + 伸 'extend'.\n**运动前** (yùndòng qián) = 'before exercising'; 前 marks 'before'.",
+          "englishPhrase": "Stretch before exercising.",
+          "phrase": "运动前要拉伸。",
+          "phraseRomanized": "Yùn dòng qián yào lā shēn.",
+          "literal": [
+            [
+              "运动前",
+              "before exercising"
+            ],
+            [
+              "要",
+              "should"
+            ],
+            [
+              "拉伸。",
+              "stretch."
+            ]
+          ]
+        },
+        {
+          "id": "sweat",
+          "english": "to sweat / sweat",
+          "word": "出汗",
+          "romanized": "chū hàn",
+          "grammarNote": "**出汗** (chū hàn) = to sweat; 汗 (hàn) alone = sweat.\n**很多汗** = a lot of sweat.",
+          "englishPhrase": "I sweated a lot.",
+          "phrase": "我出了很多汗。",
+          "phraseRomanized": "Wǒ chū le hěn duō hàn.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "出了",
+              "gave off"
+            ],
+            [
+              "很多",
+              "a lot of"
+            ],
+            [
+              "汗。",
+              "sweat."
+            ]
+          ]
+        },
+        {
+          "id": "training",
+          "english": "training / to train",
+          "word": "训练",
+          "romanized": "xùn liàn",
+          "grammarNote": "**训练** (xùnliàn) = training; also 'to train'.\n**辛苦** (xīnkǔ) = tough, hard (of effort).",
+          "englishPhrase": "The training is tough.",
+          "phrase": "训练很辛苦。",
+          "phraseRomanized": "Xùn liàn hěn xīn kǔ.",
+          "literal": [
+            [
+              "训练",
+              "the training"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "辛苦。",
+              "tough."
+            ]
+          ]
+        },
+        {
+          "id": "speed",
+          "english": "speed / fast",
+          "word": "速度",
+          "romanized": "sù dù",
+          "grammarNote": "**速度** (sùdù) = speed; the adjective 'fast' is 快 (kuài).\n**快** describes the pace itself.",
+          "englishPhrase": "His speed is fast.",
+          "phrase": "他的速度很快。",
+          "phraseRomanized": "Tā de sù dù hěn kuài.",
+          "literal": [
+            [
+              "他的",
+              "his"
+            ],
+            [
+              "速度",
+              "speed"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "快。",
+              "fast."
+            ]
+          ]
+        },
+        {
+          "id": "tired",
+          "english": "tired / to get tired",
+          "word": "累",
+          "romanized": "lèi",
+          "grammarNote": "**累** (lèi) = tired. Say 累了 to mean 'have become tired'.\n**很累** = 'really tired' (很 is just a link here).",
+          "englishPhrase": "I'm really tired.",
+          "phrase": "我很累。",
+          "phraseRomanized": "Wǒ hěn lèi.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "很",
+              "(am)"
+            ],
+            [
+              "累。",
+              "tired."
+            ]
+          ]
+        },
+        {
+          "id": "injury",
+          "english": "injury / to get injured",
+          "word": "受伤",
+          "romanized": "shòu shāng",
+          "grammarNote": "**受伤** (shòu shāng) = to get injured; 伤 (shāng) = wound/injury.\n**在…中** (zài … zhōng) = 'during …'.",
+          "englishPhrase": "He got injured during the game.",
+          "phrase": "他在比赛中受伤了。",
+          "phraseRomanized": "Tā zài bǐ sài zhōng shòu shāng le.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "在比赛中",
+              "during the game"
+            ],
+            [
+              "受伤了。",
+              "got injured."
+            ]
+          ]
+        },
+        {
+          "id": "water",
+          "english": "water / to hydrate",
+          "word": "喝水",
+          "romanized": "hē shuǐ",
+          "grammarNote": "**喝水** (hē shuǐ) = to drink water; 水 (shuǐ) = water.\n**多** (duō) before a verb = 'do more of'.",
+          "englishPhrase": "Remember to drink lots of water.",
+          "phrase": "记得多喝水。",
+          "phraseRomanized": "Jì de duō hē shuǐ.",
+          "literal": [
+            [
+              "记得",
+              "remember to"
+            ],
+            [
+              "多",
+              "(drink) lots of"
+            ],
+            [
+              "喝水。",
+              "water."
+            ]
+          ]
+        },
+        {
+          "id": "warm_up",
+          "english": "to warm up",
+          "word": "热身",
+          "romanized": "rè shēn",
+          "grammarNote": "**热身** (rèshēn) = to warm up (before exercise). 热 'hot' + 身 'body'.\n**先…吧** (xiān … ba) = 'let's first …'.",
+          "englishPhrase": "Let's warm up first.",
+          "phrase": "我们先热身吧。",
+          "phraseRomanized": "Wǒ men xiān rè shēn ba.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "先",
+              "first"
+            ],
+            [
+              "热身吧。",
+              "warm up, shall we."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software_development",
+      "name": "Software Development",
+      "cards": [
+        {
+          "id": "code",
+          "english": "the code",
+          "word": "代码",
+          "romanized": "dài mǎ",
+          "grammarNote": "**代码** (dàimǎ) = source code. 代 'represent' + 码 'code/number'.\n**干净** (gānjìng) = clean, tidy.",
+          "englishPhrase": "This code is very clean.",
+          "phrase": "这段代码很干净。",
+          "phraseRomanized": "Zhè duàn dài mǎ hěn gān jìng.",
+          "literal": [
+            [
+              "这段",
+              "this (piece of)"
+            ],
+            [
+              "代码",
+              "code"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "干净。",
+              "clean."
+            ]
+          ]
+        },
+        {
+          "id": "program",
+          "english": "to program / to code",
+          "word": "编程",
+          "romanized": "biān chéng",
+          "grammarNote": "**编程** (biānchéng) = to program/code. 编 'compile' + 程 'program'.\n**晚上** (wǎnshang) = in the evening.",
+          "englishPhrase": "I like to code at night.",
+          "phrase": "我喜欢晚上编程。",
+          "phraseRomanized": "Wǒ xǐ huān wǎn shàng biān chéng.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喜欢",
+              "like"
+            ],
+            [
+              "晚上",
+              "at night"
+            ],
+            [
+              "编程。",
+              "to code."
+            ]
+          ]
+        },
+        {
+          "id": "software",
+          "english": "the software",
+          "word": "软件",
+          "romanized": "ruǎn jiàn",
+          "grammarNote": "**软件** (ruǎnjiàn) = software; hardware is 硬件 (yìngjiàn).\n**好用** (hǎoyòng) = easy/nice to use.",
+          "englishPhrase": "This software is easy to use.",
+          "phrase": "这个软件很好用。",
+          "phraseRomanized": "Zhè ge ruǎn jiàn hěn hǎo yòng.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "软件",
+              "software"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "好用。",
+              "easy to use."
+            ]
+          ]
+        },
+        {
+          "id": "engineer",
+          "english": "the engineer",
+          "word": "工程师",
+          "romanized": "gōng chéng shī",
+          "grammarNote": "**工程师** (gōngchéngshī) = engineer. 工程 'engineering' + 师 'master/expert'.\n**软件工程师** = software engineer.",
+          "englishPhrase": "She is a software engineer.",
+          "phrase": "她是一名软件工程师。",
+          "phraseRomanized": "Tā shì yī míng ruǎn jiàn gōng chéng shī.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "一名",
+              "a"
+            ],
+            [
+              "软件",
+              "software"
+            ],
+            [
+              "工程师。",
+              "engineer."
+            ]
+          ]
+        },
+        {
+          "id": "developer",
+          "english": "the developer",
+          "word": "开发者",
+          "romanized": "kāi fā zhě",
+          "grammarNote": "**开发者** (kāifāzhě) = developer. 开发 'to develop' + 者 'person who'.\n**前端** (qiánduān) = front-end.",
+          "englishPhrase": "He is a front-end developer.",
+          "phrase": "他是前端开发者。",
+          "phraseRomanized": "Tā shì qián duān kāi fā zhě.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "前端",
+              "front-end"
+            ],
+            [
+              "开发者。",
+              "developer."
+            ]
+          ]
+        },
+        {
+          "id": "computer",
+          "english": "the computer",
+          "word": "电脑",
+          "romanized": "diàn nǎo",
+          "grammarNote": "**电脑** (diànnǎo) = computer; lit. 'electric brain'. Formal: 计算机.\n**快** (kuài) = fast.",
+          "englishPhrase": "My computer is fast.",
+          "phrase": "我的电脑很快。",
+          "phraseRomanized": "Wǒ de diàn nǎo hěn kuài.",
+          "literal": [
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "电脑",
+              "computer"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "快。",
+              "fast."
+            ]
+          ]
+        },
+        {
+          "id": "laptop",
+          "english": "the laptop",
+          "word": "笔记本电脑",
+          "romanized": "bǐ jì běn diàn nǎo",
+          "grammarNote": "**笔记本电脑** (bǐjìběn diànnǎo) = laptop; lit. 'notebook computer'. Often shortened to 笔记本.\n**带** (dài) = to bring/carry.",
+          "englishPhrase": "I brought my laptop.",
+          "phrase": "我带了笔记本电脑。",
+          "phraseRomanized": "Wǒ dài le bǐ jì běn diàn nǎo.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "带了",
+              "brought"
+            ],
+            [
+              "笔记本电脑。",
+              "the laptop."
+            ]
+          ]
+        },
+        {
+          "id": "keyboard",
+          "english": "the keyboard",
+          "word": "键盘",
+          "romanized": "jiàn pán",
+          "grammarNote": "**键盘** (jiànpán) = keyboard. 键 'key' + 盘 'plate/board'.\n**好用** (hǎoyòng) = nice to use.",
+          "englishPhrase": "This keyboard is nice to use.",
+          "phrase": "这个键盘很好用。",
+          "phraseRomanized": "Zhè ge jiàn pán hěn hǎo yòng.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "键盘",
+              "keyboard"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "好用。",
+              "nice to use."
+            ]
+          ]
+        },
+        {
+          "id": "screen",
+          "english": "the screen / monitor",
+          "word": "屏幕",
+          "romanized": "píng mù",
+          "grammarNote": "**屏幕** (píngmù) = screen, monitor, display.\n**太…了** (tài … le) = 'too …'.",
+          "englishPhrase": "The screen is too bright.",
+          "phrase": "屏幕太亮了。",
+          "phraseRomanized": "Píng mù tài liàng le.",
+          "literal": [
+            [
+              "屏幕",
+              "the screen"
+            ],
+            [
+              "太",
+              "too"
+            ],
+            [
+              "亮了。",
+              "bright."
+            ]
+          ]
+        },
+        {
+          "id": "bug",
+          "english": "the bug",
+          "word": "漏洞",
+          "romanized": "lòu dòng",
+          "grammarNote": "**漏洞** (lòudòng) = bug/flaw (also security hole). Casual speech often just says 'bug'.\n**里** (lǐ) = inside.",
+          "englishPhrase": "There is a bug in the code.",
+          "phrase": "代码里有一个漏洞。",
+          "phraseRomanized": "Dài mǎ lǐ yǒu yí gè lòu dòng.",
+          "literal": [
+            [
+              "代码",
+              "the code"
+            ],
+            [
+              "里",
+              "inside"
+            ],
+            [
+              "有",
+              "has"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "漏洞。",
+              "bug."
+            ]
+          ]
+        },
+        {
+          "id": "debug",
+          "english": "to debug",
+          "word": "调试",
+          "romanized": "tiáo shì",
+          "grammarNote": "**调试** (tiáoshì) = to debug/test-and-adjust. 调 'adjust' + 试 'test'.\n**在** (zài) before a verb marks an ongoing action.",
+          "englishPhrase": "I am debugging the program.",
+          "phrase": "我在调试程序。",
+          "phraseRomanized": "Wǒ zài tiáo shì chéng xù.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "在",
+              "(am) -ing"
+            ],
+            [
+              "调试",
+              "debugging"
+            ],
+            [
+              "程序。",
+              "the program."
+            ]
+          ]
+        },
+        {
+          "id": "fix_bug",
+          "english": "to fix a bug",
+          "word": "修复",
+          "romanized": "xiū fù",
+          "grammarNote": "**修复** (xiūfù) = to fix/repair (code, files). 错误 (cuòwù) = error/bug.\n**了** marks it as done.",
+          "englishPhrase": "I fixed this bug.",
+          "phrase": "我修复了这个错误。",
+          "phraseRomanized": "Wǒ xiū fù le zhè ge cuò wù.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "修复了",
+              "fixed"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "错误。",
+              "bug."
+            ]
+          ]
+        },
+        {
+          "id": "deploy",
+          "english": "to deploy",
+          "word": "部署",
+          "romanized": "bù shǔ",
+          "grammarNote": "**部署** (bùshǔ) = to deploy (also 'to deploy troops').\n**新版本** (xīn bǎnběn) = new version.",
+          "englishPhrase": "We deploy the new version today.",
+          "phrase": "我们今天部署新版本。",
+          "phraseRomanized": "Wǒ men jīn tiān bù shǔ xīn bǎn běn.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "今天",
+              "today"
+            ],
+            [
+              "部署",
+              "deploy"
+            ],
+            [
+              "新版本。",
+              "the new version."
+            ]
+          ]
+        },
+        {
+          "id": "server",
+          "english": "the server",
+          "word": "服务器",
+          "romanized": "fú wù qì",
+          "grammarNote": "**服务器** (fúwùqì) = server. 服务 'service' + 器 'device'.\n**崩溃** (bēngkuì) = to crash.",
+          "englishPhrase": "The server crashed.",
+          "phrase": "服务器崩溃了。",
+          "phraseRomanized": "Fú wù qì bēng kuì le.",
+          "literal": [
+            [
+              "服务器",
+              "the server"
+            ],
+            [
+              "崩溃了。",
+              "crashed."
+            ]
+          ]
+        },
+        {
+          "id": "database",
+          "english": "the database",
+          "word": "数据库",
+          "romanized": "shù jù kù",
+          "grammarNote": "**数据库** (shùjùkù) = database. 数据 'data' + 库 'store/warehouse'.\n**大** (dà) = big/large.",
+          "englishPhrase": "The database is very large.",
+          "phrase": "数据库很大。",
+          "phraseRomanized": "Shù jù kù hěn dà.",
+          "literal": [
+            [
+              "数据库",
+              "the database"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "大。",
+              "large."
+            ]
+          ]
+        },
+        {
+          "id": "app",
+          "english": "the app / application",
+          "word": "应用",
+          "romanized": "yìng yòng",
+          "grammarNote": "**应用** (yìngyòng) = app/application; also 应用程序 or the loanword APP.\n**受欢迎** (shòu huānyíng) = popular.",
+          "englishPhrase": "This app is very popular.",
+          "phrase": "这个应用很受欢迎。",
+          "phraseRomanized": "Zhè ge yìng yòng hěn shòu huān yíng.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "应用",
+              "app"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "受欢迎。",
+              "popular."
+            ]
+          ]
+        },
+        {
+          "id": "website",
+          "english": "the website",
+          "word": "网站",
+          "romanized": "wǎng zhàn",
+          "grammarNote": "**网站** (wǎngzhàn) = website. 网 'net' + 站 'station'.\n**上线** (shàngxiàn) = to go live/online.",
+          "englishPhrase": "The website is live.",
+          "phrase": "网站上线了。",
+          "phraseRomanized": "Wǎng zhàn shàng xiàn le.",
+          "literal": [
+            [
+              "网站",
+              "the website"
+            ],
+            [
+              "上线了。",
+              "went live."
+            ]
+          ]
+        },
+        {
+          "id": "function",
+          "english": "the function / feature",
+          "word": "功能",
+          "romanized": "gōng néng",
+          "grammarNote": "**功能** (gōngnéng) = function/feature of a product. (A code function is 函数, hánshù.)\n**做完** (zuò wán) = to finish doing.",
+          "englishPhrase": "This feature isn't finished yet.",
+          "phrase": "这个功能还没做完。",
+          "phraseRomanized": "Zhè ge gōng néng hái méi zuò wán.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "功能",
+              "feature"
+            ],
+            [
+              "还没",
+              "not yet"
+            ],
+            [
+              "做完。",
+              "finished."
+            ]
+          ]
+        },
+        {
+          "id": "feature",
+          "english": "the feature (product)",
+          "word": "特性",
+          "romanized": "tè xìng",
+          "grammarNote": "**特性** (tèxìng) = characteristic/feature (a property). 功能 is what it does.\n**有用** (yǒuyòng) = useful.",
+          "englishPhrase": "The new feature is useful.",
+          "phrase": "新特性很有用。",
+          "phraseRomanized": "Xīn tè xìng hěn yǒu yòng.",
+          "literal": [
+            [
+              "新",
+              "new"
+            ],
+            [
+              "特性",
+              "feature"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "有用。",
+              "useful."
+            ]
+          ]
+        },
+        {
+          "id": "pull_request",
+          "english": "the pull request",
+          "word": "拉取请求",
+          "romanized": "lā qǔ qǐng qiú",
+          "grammarNote": "**拉取请求** (lāqǔ qǐngqiú) = pull request; usually said as 'PR'.\n**审查** (shěnchá) = to review.",
+          "englishPhrase": "Please review my pull request.",
+          "phrase": "请审查我的拉取请求。",
+          "phraseRomanized": "Qǐng shěn chá wǒ de lā qǔ qǐng qiú.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "审查",
+              "review"
+            ],
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "拉取请求。",
+              "pull request."
+            ]
+          ]
+        },
+        {
+          "id": "meeting",
+          "english": "the meeting",
+          "word": "会议",
+          "romanized": "huì yì",
+          "grammarNote": "**会议** (huìyì) = meeting, conference.\n**下午** (xiàwǔ) = afternoon.",
+          "englishPhrase": "We have a meeting this afternoon.",
+          "phrase": "我们下午有一个会议。",
+          "phraseRomanized": "Wǒ men xià wǔ yǒu yí gè huì yì.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "下午",
+              "this afternoon"
+            ],
+            [
+              "有",
+              "have"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "会议。",
+              "meeting."
+            ]
+          ]
+        },
+        {
+          "id": "standup",
+          "english": "the standup / daily meeting",
+          "word": "站会",
+          "romanized": "zhàn huì",
+          "grammarNote": "**站会** (zhànhuì) = standup; lit. 'standing meeting'. Also 每日站会.\n**每天早上** = every morning.",
+          "englishPhrase": "There is a standup every morning.",
+          "phrase": "每天早上有站会。",
+          "phraseRomanized": "Měi tiān zǎo shàng yǒu zhàn huì.",
+          "literal": [
+            [
+              "每天早上",
+              "every morning"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "站会。",
+              "a standup."
+            ]
+          ]
+        },
+        {
+          "id": "deadline",
+          "english": "the deadline",
+          "word": "截止日期",
+          "romanized": "jié zhǐ rì qī",
+          "grammarNote": "**截止日期** (jiézhǐ rìqī) = deadline; 截止 'to cut off' + 日期 'date'.\n**星期五** (xīngqīwǔ) = Friday.",
+          "englishPhrase": "The deadline is Friday.",
+          "phrase": "截止日期是星期五。",
+          "phraseRomanized": "Jié zhǐ rì qī shì xīng qī wǔ.",
+          "literal": [
+            [
+              "截止日期",
+              "the deadline"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "星期五。",
+              "Friday."
+            ]
+          ]
+        },
+        {
+          "id": "client",
+          "english": "the client / customer",
+          "word": "客户",
+          "romanized": "kè hù",
+          "grammarNote": "**客户** (kèhù) = client/customer (business). A shop customer is 顾客.\n**满意** (mǎnyì) = satisfied.",
+          "englishPhrase": "The client is satisfied.",
+          "phrase": "客户很满意。",
+          "phraseRomanized": "Kè hù hěn mǎn yì.",
+          "literal": [
+            [
+              "客户",
+              "the client"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "满意。",
+              "satisfied."
+            ]
+          ]
+        },
+        {
+          "id": "work_from_home",
+          "english": "to work from home",
+          "word": "在家工作",
+          "romanized": "zài jiā gōng zuò",
+          "grammarNote": "**在家工作** (zàijiā gōngzuò) = to work from home. 在家 'at home' + 工作 'work'.\n**今天** (jīntiān) = today.",
+          "englishPhrase": "I work from home today.",
+          "phrase": "我今天在家工作。",
+          "phraseRomanized": "Wǒ jīn tiān zài jiā gōng zuò.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "今天",
+              "today"
+            ],
+            [
+              "在家",
+              "at home"
+            ],
+            [
+              "工作。",
+              "work."
+            ]
+          ]
+        },
+        {
+          "id": "remote_work",
+          "english": "remote work",
+          "word": "远程工作",
+          "romanized": "yuǎn chéng gōng zuò",
+          "grammarNote": "**远程工作** (yuǎnchéng gōngzuò) = remote work. 远程 'long-distance' + 工作 'work'.\n**团队** (tuánduì) = team.",
+          "englishPhrase": "Our team works remotely.",
+          "phrase": "我们团队远程工作。",
+          "phraseRomanized": "Wǒ men tuán duì yuǎn chéng gōng zuò.",
+          "literal": [
+            [
+              "我们",
+              "our"
+            ],
+            [
+              "团队",
+              "team"
+            ],
+            [
+              "远程",
+              "remotely"
+            ],
+            [
+              "工作。",
+              "works."
+            ]
+          ]
+        },
+        {
+          "id": "terminal",
+          "english": "the terminal",
+          "word": "终端",
+          "romanized": "zhōng duān",
+          "grammarNote": "**终端** (zhōngduān) = terminal (command line; also a device endpoint).\n**打开** (dǎkāi) = to open.",
+          "englishPhrase": "Open the terminal.",
+          "phrase": "打开终端。",
+          "phraseRomanized": "Dǎ kāi zhōng duān.",
+          "literal": [
+            [
+              "打开",
+              "open"
+            ],
+            [
+              "终端。",
+              "the terminal."
+            ]
+          ]
+        },
+        {
+          "id": "variable",
+          "english": "the variable",
+          "word": "变量",
+          "romanized": "biàn liàng",
+          "grammarNote": "**变量** (biànliàng) = variable. 变 'change' + 量 'quantity'. Constant = 常量.\n**定义** (dìngyì) = to define.",
+          "englishPhrase": "This variable is not defined.",
+          "phrase": "这个变量没有定义。",
+          "phraseRomanized": "Zhè ge biàn liàng méi yǒu dìng yì.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "变量",
+              "variable"
+            ],
+            [
+              "没有",
+              "is not"
+            ],
+            [
+              "定义。",
+              "defined."
+            ]
+          ]
+        },
+        {
+          "id": "repository",
+          "english": "the repository",
+          "word": "仓库",
+          "romanized": "cāng kù",
+          "grammarNote": "**仓库** (cāngkù) = repository/warehouse; the code sense is 代码仓库.\n**在…里** (zài … lǐ) = 'in …'.",
+          "englishPhrase": "The code is in this repository.",
+          "phrase": "代码在这个仓库里。",
+          "phraseRomanized": "Dài mǎ zài zhè ge cāng kù lǐ.",
+          "literal": [
+            [
+              "代码",
+              "the code"
+            ],
+            [
+              "在",
+              "is in"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "仓库里。",
+              "repository."
+            ]
+          ]
+        },
+        {
+          "id": "branch",
+          "english": "the branch (git)",
+          "word": "分支",
+          "romanized": "fēn zhī",
+          "grammarNote": "**分支** (fēnzhī) = branch. 分 'split' + 支 'branch'.\n**创建** (chuàngjiàn) = to create.",
+          "englishPhrase": "I created a new branch.",
+          "phrase": "我创建了一个新分支。",
+          "phraseRomanized": "Wǒ chuàng jiàn le yí gè xīn fēn zhī.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "创建了",
+              "created"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "新",
+              "new"
+            ],
+            [
+              "分支。",
+              "branch."
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "english": "to review / to check",
+          "word": "审查",
+          "romanized": "shěn chá",
+          "grammarNote": "**审查** (shěnchá) = to review/examine (code, documents); 检查 is more general 'check'.\n**这段** = 'this (piece of)'.",
+          "englishPhrase": "Please review this code.",
+          "phrase": "请审查这段代码。",
+          "phraseRomanized": "Qǐng shěn chá zhè duàn dài mǎ.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "审查",
+              "review"
+            ],
+            [
+              "这段",
+              "this"
+            ],
+            [
+              "代码。",
+              "code."
+            ]
+          ]
+        },
+        {
+          "id": "tests",
+          "english": "the tests",
+          "word": "测试",
+          "romanized": "cè shì",
+          "grammarNote": "**测试** (cèshì) = test(s); also 'to test'.\n**通过** (tōngguò) = to pass.",
+          "englishPhrase": "All the tests passed.",
+          "phrase": "所有测试都通过了。",
+          "phraseRomanized": "Suǒ yǒu cè shì dōu tōng guò le.",
+          "literal": [
+            [
+              "所有",
+              "all"
+            ],
+            [
+              "测试",
+              "the tests"
+            ],
+            [
+              "都",
+              "(all)"
+            ],
+            [
+              "通过了。",
+              "passed."
+            ]
+          ]
+        },
+        {
+          "id": "update",
+          "english": "the update",
+          "word": "更新",
+          "romanized": "gēng xīn",
+          "grammarNote": "**更新** (gēngxīn) = update; also 'to update/renew'.\n**重要** (zhòngyào) = important.",
+          "englishPhrase": "This is an important update.",
+          "phrase": "这是一个重要的更新。",
+          "phraseRomanized": "Zhè shì yí gè zhòng yào de gēng xīn.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "一个",
+              "an"
+            ],
+            [
+              "重要的",
+              "important"
+            ],
+            [
+              "更新。",
+              "update."
+            ]
+          ]
+        },
+        {
+          "id": "critical_error",
+          "english": "the critical error",
+          "word": "严重错误",
+          "romanized": "yán zhòng cuò wù",
+          "grammarNote": "**严重错误** (yánzhòng cuòwù) = critical/serious error. 严重 'serious' + 错误 'error'.\n**发现** (fāxiàn) = to discover/find.",
+          "englishPhrase": "We found a critical error.",
+          "phrase": "我们发现了一个严重错误。",
+          "phraseRomanized": "Wǒ men fā xiàn le yí gè yán zhòng cuò wù.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "发现了",
+              "found"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "严重错误。",
+              "critical error."
+            ]
+          ]
+        },
+        {
+          "id": "production",
+          "english": "production (environment)",
+          "word": "生产环境",
+          "romanized": "shēng chǎn huán jìng",
+          "grammarNote": "**生产环境** (shēngchǎn huánjìng) = production environment. 生产 'production' + 环境 'environment'.\n**不要** (búyào) = don't.",
+          "englishPhrase": "Don't test in production.",
+          "phrase": "不要在生产环境测试。",
+          "phraseRomanized": "Bú yào zài shēng chǎn huán jìng cè shì.",
+          "literal": [
+            [
+              "不要",
+              "don't"
+            ],
+            [
+              "在",
+              "in"
+            ],
+            [
+              "生产环境",
+              "production"
+            ],
+            [
+              "测试。",
+              "test."
+            ]
+          ]
+        },
+        {
+          "id": "team",
+          "english": "the team",
+          "word": "团队",
+          "romanized": "tuán duì",
+          "grammarNote": "**团队** (tuánduì) = team (of people working together).\n**棒** (bàng) = great, awesome.",
+          "englishPhrase": "Our team is great.",
+          "phrase": "我们的团队很棒。",
+          "phraseRomanized": "Wǒ men de tuán duì hěn bàng.",
+          "literal": [
+            [
+              "我们的",
+              "our"
+            ],
+            [
+              "团队",
+              "team"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "棒。",
+              "great."
+            ]
+          ]
+        },
+        {
+          "id": "project",
+          "english": "the project",
+          "word": "项目",
+          "romanized": "xiàng mù",
+          "grammarNote": "**项目** (xiàngmù) = project; also 'item/event'.\n**有意思** (yǒu yìsi) = interesting.",
+          "englishPhrase": "This project is interesting.",
+          "phrase": "这个项目很有意思。",
+          "phraseRomanized": "Zhè ge xiàng mù hěn yǒu yì si.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "项目",
+              "project"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "有意思。",
+              "interesting."
+            ]
+          ]
+        },
+        {
+          "id": "launch",
+          "english": "to launch / to release",
+          "word": "发布",
+          "romanized": "fā bù",
+          "grammarNote": "**发布** (fābù) = to release/publish (software, news).\n**下周** (xiàzhōu) = next week.",
+          "englishPhrase": "We launch the product next week.",
+          "phrase": "我们下周发布产品。",
+          "phraseRomanized": "Wǒ men xià zhōu fā bù chǎn pǐn.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "下周",
+              "next week"
+            ],
+            [
+              "发布",
+              "launch"
+            ],
+            [
+              "产品。",
+              "the product."
+            ]
+          ]
+        },
+        {
+          "id": "version",
+          "english": "the version",
+          "word": "版本",
+          "romanized": "bǎn běn",
+          "grammarNote": "**版本** (bǎnběn) = version. 版 'edition' + 本 'copy'.\n**最新** (zuìxīn) = latest.",
+          "englishPhrase": "This is the latest version.",
+          "phrase": "这是最新版本。",
+          "phraseRomanized": "Zhè shì zuì xīn bǎn běn.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "最新",
+              "the latest"
+            ],
+            [
+              "版本。",
+              "version."
+            ]
+          ]
+        },
+        {
+          "id": "configure",
+          "english": "to configure / to set up",
+          "word": "配置",
+          "romanized": "pèi zhì",
+          "grammarNote": "**配置** (pèizhì) = to configure; also 'the configuration/specs'.\n**需要** (xūyào) = to need.",
+          "englishPhrase": "I need to configure the server.",
+          "phrase": "我需要配置服务器。",
+          "phraseRomanized": "Wǒ xū yào pèi zhì fú wù qì.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "需要",
+              "need to"
+            ],
+            [
+              "配置",
+              "configure"
+            ],
+            [
+              "服务器。",
+              "the server."
+            ]
+          ]
+        },
+        {
+          "id": "environment",
+          "english": "the environment (dev/prod)",
+          "word": "环境",
+          "romanized": "huán jìng",
+          "grammarNote": "**环境** (huánjìng) = environment (technical or natural).\n**不同** (bùtóng) = different.",
+          "englishPhrase": "The dev and prod environments are different.",
+          "phrase": "开发环境和生产环境不同。",
+          "phraseRomanized": "Kāi fā huán jìng hé shēng chǎn huán jìng bù tóng.",
+          "literal": [
+            [
+              "开发环境",
+              "the dev environment"
+            ],
+            [
+              "和",
+              "and"
+            ],
+            [
+              "生产环境",
+              "the prod environment"
+            ],
+            [
+              "不同。",
+              "are different."
+            ]
+          ]
+        },
+        {
+          "id": "run",
+          "english": "to run / to execute",
+          "word": "运行",
+          "romanized": "yùn xíng",
+          "grammarNote": "**运行** (yùnxíng) = to run/execute (a program); also 'to operate'.\n**这个** (zhège) = this.",
+          "englishPhrase": "Run this program.",
+          "phrase": "运行这个程序。",
+          "phraseRomanized": "Yùn xíng zhè ge chéng xù.",
+          "literal": [
+            [
+              "运行",
+              "run"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "程序。",
+              "program."
+            ]
+          ]
+        },
+        {
+          "id": "log",
+          "english": "the log",
+          "word": "日志",
+          "romanized": "rì zhì",
+          "grammarNote": "**日志** (rìzhì) = log(s); 日 'day' + 志 'record'.\n**检查一下** (jiǎnchá yíxià) = 'take a look at / check'.",
+          "englishPhrase": "Check the logs.",
+          "phrase": "检查一下日志。",
+          "phraseRomanized": "Jiǎn chá yī xià rì zhì.",
+          "literal": [
+            [
+              "检查一下",
+              "take a look at"
+            ],
+            [
+              "日志。",
+              "the logs."
+            ]
+          ]
+        },
+        {
+          "id": "push",
+          "english": "to push / upload code",
+          "word": "推送",
+          "romanized": "tuī sòng",
+          "grammarNote": "**推送** (tuīsòng) = to push (code, notifications).\n**把** (bǎ) moves the object before the verb to say what's done to it.",
+          "englishPhrase": "I pushed the code to the repository.",
+          "phrase": "我把代码推送到了仓库。",
+          "phraseRomanized": "Wǒ bǎ dài mǎ tuī sòng dào le cāng kù.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "把代码",
+              "(took) the code"
+            ],
+            [
+              "推送到了",
+              "pushed to"
+            ],
+            [
+              "仓库。",
+              "the repository."
+            ]
+          ]
+        },
+        {
+          "id": "integration",
+          "english": "the integration",
+          "word": "集成",
+          "romanized": "jí chéng",
+          "grammarNote": "**集成** (jíchéng) = integration (systems). 集 'gather' + 成 'complete'.\n**失败** (shībài) = to fail.",
+          "englishPhrase": "The integration test failed.",
+          "phrase": "集成测试失败了。",
+          "phraseRomanized": "Jí chéng cè shì shī bài le.",
+          "literal": [
+            [
+              "集成测试",
+              "the integration test"
+            ],
+            [
+              "失败了。",
+              "failed."
+            ]
+          ]
+        },
+        {
+          "id": "comment",
+          "english": "the comment (in code)",
+          "word": "注释",
+          "romanized": "zhù shì",
+          "grammarNote": "**注释** (zhùshì) = code comment/annotation. (A social comment is 评论.)\n**加** (jiā) = to add.",
+          "englishPhrase": "Please add some comments.",
+          "phrase": "请加一些注释。",
+          "phraseRomanized": "Qǐng jiā yī xiē zhù shì.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "加",
+              "add"
+            ],
+            [
+              "一些",
+              "some"
+            ],
+            [
+              "注释。",
+              "comments."
+            ]
+          ]
+        },
+        {
+          "id": "need",
+          "english": "to need",
+          "word": "需要",
+          "romanized": "xū yào",
+          "grammarNote": "**需要** (xūyào) = to need; also 'requirement (需求)'.\n**更多** (gèng duō) = more.",
+          "englishPhrase": "I need more time.",
+          "phrase": "我需要更多时间。",
+          "phraseRomanized": "Wǒ xū yào gèng duō shí jiān.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "需要",
+              "need"
+            ],
+            [
+              "更多",
+              "more"
+            ],
+            [
+              "时间。",
+              "time."
+            ]
+          ]
+        },
+        {
+          "id": "finish",
+          "english": "to finish / to complete",
+          "word": "完成",
+          "romanized": "wán chéng",
+          "grammarNote": "**完成** (wánchéng) = to complete/accomplish. 完 'finish' + 成 'succeed'.\n**任务** (rènwù) = task.",
+          "englishPhrase": "I finished this task.",
+          "phrase": "我完成了这个任务。",
+          "phraseRomanized": "Wǒ wán chéng le zhè ge rèn wù.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "完成了",
+              "finished"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "任务。",
+              "task."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dungeons_and_dragons",
+      "name": "Dungeons & Dragons",
+      "cards": [
+        {
+          "id": "dungeon",
+          "english": "dungeon",
+          "word": "地牢",
+          "romanized": "dì láo",
+          "grammarNote": "**地牢** (dìláo) = dungeon. 地 'ground' + 牢 'prison/cell'.\n**黑暗** (hēi'àn) = dark.",
+          "englishPhrase": "They entered the dark dungeon.",
+          "phrase": "他们进入了黑暗的地牢。",
+          "phraseRomanized": "Tā men jìn rù le hēi àn de dì láo.",
+          "literal": [
+            [
+              "他们",
+              "they"
+            ],
+            [
+              "进入了",
+              "entered"
+            ],
+            [
+              "黑暗的",
+              "the dark"
+            ],
+            [
+              "地牢。",
+              "dungeon."
+            ]
+          ]
+        },
+        {
+          "id": "dragon",
+          "english": "dragon",
+          "word": "龙",
+          "romanized": "lóng",
+          "grammarNote": "**龙** (lóng) = dragon — an auspicious, powerful creature in Chinese culture.\n**巨龙** (jùlóng) = a huge dragon.",
+          "englishPhrase": "A huge dragon guards the treasure.",
+          "phrase": "一条巨龙守着宝藏。",
+          "phraseRomanized": "Yī tiáo jù lóng shǒu zhe bǎo zàng.",
+          "literal": [
+            [
+              "一条",
+              "a"
+            ],
+            [
+              "巨龙",
+              "huge dragon"
+            ],
+            [
+              "守着",
+              "guards"
+            ],
+            [
+              "宝藏。",
+              "the treasure."
+            ]
+          ]
+        },
+        {
+          "id": "quest",
+          "english": "quest / mission",
+          "word": "任务",
+          "romanized": "rèn wù",
+          "grammarNote": "**任务** (rènwù) = quest, mission, task.\n**接受** (jiēshòu) = to accept.",
+          "englishPhrase": "We accepted the quest.",
+          "phrase": "我们接受了这个任务。",
+          "phraseRomanized": "Wǒ men jiē shòu le zhè ge rèn wù.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "接受了",
+              "accepted"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "任务。",
+              "quest."
+            ]
+          ]
+        },
+        {
+          "id": "adventure",
+          "english": "adventure",
+          "word": "冒险",
+          "romanized": "mào xiǎn",
+          "grammarNote": "**冒险** (màoxiǎn) = adventure; also 'to take a risk'. 冒 'brave' + 险 'danger'.\n**危险** (wēixiǎn) = dangerous.",
+          "englishPhrase": "This is a dangerous adventure.",
+          "phrase": "这是一次危险的冒险。",
+          "phraseRomanized": "Zhè shì yī cì wēi xiǎn de mào xiǎn.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "一次",
+              "a"
+            ],
+            [
+              "危险的",
+              "dangerous"
+            ],
+            [
+              "冒险。",
+              "adventure."
+            ]
+          ]
+        },
+        {
+          "id": "campaign",
+          "english": "campaign",
+          "word": "战役",
+          "romanized": "zhàn yì",
+          "grammarNote": "**战役** (zhànyì) = campaign (a series of linked battles/sessions).\n**持续** (chíxù) = to last/continue.",
+          "englishPhrase": "This campaign lasted several months.",
+          "phrase": "这场战役持续了几个月。",
+          "phraseRomanized": "Zhè chǎng zhàn yì chí xù le jǐ gè yuè.",
+          "literal": [
+            [
+              "这场",
+              "this"
+            ],
+            [
+              "战役",
+              "campaign"
+            ],
+            [
+              "持续了",
+              "lasted"
+            ],
+            [
+              "几个月。",
+              "several months."
+            ]
+          ]
+        },
+        {
+          "id": "character",
+          "english": "character",
+          "word": "角色",
+          "romanized": "jué sè",
+          "grammarNote": "**角色** (juésè) = character/role (in a game, film, or story).\n**创建** (chuàngjiàn) = to create.",
+          "englishPhrase": "I created a new character.",
+          "phrase": "我创建了一个新角色。",
+          "phraseRomanized": "Wǒ chuàng jiàn le yí gè xīn jué sè.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "创建了",
+              "created"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "新",
+              "new"
+            ],
+            [
+              "角色。",
+              "character."
+            ]
+          ]
+        },
+        {
+          "id": "wizard",
+          "english": "wizard",
+          "word": "法师",
+          "romanized": "fǎ shī",
+          "grammarNote": "**法师** (fǎshī) = wizard/mage. 法 'magic/law' + 师 'master'.\n**施放** (shīfàng) = to cast (a spell).",
+          "englishPhrase": "The wizard cast a fireball.",
+          "phrase": "法师施放了火球术。",
+          "phraseRomanized": "Fǎ shī shī fàng le huǒ qiú shù.",
+          "literal": [
+            [
+              "法师",
+              "the wizard"
+            ],
+            [
+              "施放了",
+              "cast"
+            ],
+            [
+              "火球术。",
+              "a fireball."
+            ]
+          ]
+        },
+        {
+          "id": "warrior",
+          "english": "warrior / fighter",
+          "word": "战士",
+          "romanized": "zhàn shì",
+          "grammarNote": "**战士** (zhànshì) = warrior, fighter, soldier.\n**举起** (jǔ qǐ) = to raise/lift up.",
+          "englishPhrase": "The warrior raised his sword.",
+          "phrase": "战士举起了剑。",
+          "phraseRomanized": "Zhàn shì jǔ qǐ le jiàn.",
+          "literal": [
+            [
+              "战士",
+              "the warrior"
+            ],
+            [
+              "举起了",
+              "raised"
+            ],
+            [
+              "剑。",
+              "his sword."
+            ]
+          ]
+        },
+        {
+          "id": "rogue",
+          "english": "rogue",
+          "word": "盗贼",
+          "romanized": "dào zéi",
+          "grammarNote": "**盗贼** (dàozéi) = thief/rogue. 盗 'rob' + 贼 'thief'.\n**偷走** (tōu zǒu) = to steal away.",
+          "englishPhrase": "The rogue stole the key.",
+          "phrase": "盗贼偷走了钥匙。",
+          "phraseRomanized": "Dào zéi tōu zǒu le yào shi.",
+          "literal": [
+            [
+              "盗贼",
+              "the rogue"
+            ],
+            [
+              "偷走了",
+              "stole"
+            ],
+            [
+              "钥匙。",
+              "the key."
+            ]
+          ]
+        },
+        {
+          "id": "paladin",
+          "english": "paladin",
+          "word": "圣骑士",
+          "romanized": "shèng qí shì",
+          "grammarNote": "**圣骑士** (shèngqíshì) = paladin; lit. 'holy knight'. 圣 'holy' + 骑士 'knight'.\n**勇敢** (yǒnggǎn) = brave.",
+          "englishPhrase": "The paladin is very brave.",
+          "phrase": "圣骑士很勇敢。",
+          "phraseRomanized": "Shèng qí shì hěn yǒng gǎn.",
+          "literal": [
+            [
+              "圣骑士",
+              "the paladin"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "勇敢。",
+              "brave."
+            ]
+          ]
+        },
+        {
+          "id": "ranger",
+          "english": "ranger",
+          "word": "游侠",
+          "romanized": "yóu xiá",
+          "grammarNote": "**游侠** (yóuxiá) = ranger/wandering warrior. 游 'roam' + 侠 'hero'.\n**擅长** (shàncháng) = to be good at.",
+          "englishPhrase": "The ranger is skilled at archery.",
+          "phrase": "游侠擅长射箭。",
+          "phraseRomanized": "Yóu xiá shàn cháng shè jiàn.",
+          "literal": [
+            [
+              "游侠",
+              "the ranger"
+            ],
+            [
+              "擅长",
+              "is skilled at"
+            ],
+            [
+              "射箭。",
+              "archery."
+            ]
+          ]
+        },
+        {
+          "id": "dungeon_master",
+          "english": "dungeon master",
+          "word": "地下城主",
+          "romanized": "dì xià chéng zhǔ",
+          "grammarNote": "**地下城主** (dìxiàchéngzhǔ) = dungeon master; also called 主持人 (host).\n**描述** (miáoshù) = to describe.",
+          "englishPhrase": "The dungeon master described the scene.",
+          "phrase": "地下城主描述了场景。",
+          "phraseRomanized": "Dì xià chéng zhǔ miáo shù le chǎng jǐng.",
+          "literal": [
+            [
+              "地下城主",
+              "the DM"
+            ],
+            [
+              "描述了",
+              "described"
+            ],
+            [
+              "场景。",
+              "the scene."
+            ]
+          ]
+        },
+        {
+          "id": "spell",
+          "english": "spell",
+          "word": "法术",
+          "romanized": "fǎ shù",
+          "grammarNote": "**法术** (fǎshù) = spell, magic art.\n**强大** (qiángdà) = powerful.",
+          "englishPhrase": "This spell is powerful.",
+          "phrase": "这个法术很强大。",
+          "phraseRomanized": "Zhè ge fǎ shù hěn qiáng dà.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "法术",
+              "spell"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "强大。",
+              "powerful."
+            ]
+          ]
+        },
+        {
+          "id": "incantation",
+          "english": "conjuration / incantation",
+          "word": "咒语",
+          "romanized": "zhòu yǔ",
+          "grammarNote": "**咒语** (zhòuyǔ) = incantation, magic words. 咒 'curse/spell' + 语 'words'.\n**念** (niàn) = to read aloud/recite.",
+          "englishPhrase": "She recited an incantation.",
+          "phrase": "她念了一句咒语。",
+          "phraseRomanized": "Tā niàn le yī jù zhòu yǔ.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "念了",
+              "recited"
+            ],
+            [
+              "一句",
+              "a"
+            ],
+            [
+              "咒语。",
+              "incantation."
+            ]
+          ]
+        },
+        {
+          "id": "magic",
+          "english": "magic",
+          "word": "魔法",
+          "romanized": "mó fǎ",
+          "grammarNote": "**魔法** (mófǎ) = magic. 魔 'demon/magic' + 法 'method'.\n**充满** (chōngmǎn) = to be full of.",
+          "englishPhrase": "The forest is full of magic.",
+          "phrase": "森林里充满了魔法。",
+          "phraseRomanized": "Sēn lín lǐ chōng mǎn le mó fǎ.",
+          "literal": [
+            [
+              "森林",
+              "the forest"
+            ],
+            [
+              "里",
+              "(inside)"
+            ],
+            [
+              "充满了",
+              "is full of"
+            ],
+            [
+              "魔法。",
+              "magic."
+            ]
+          ]
+        },
+        {
+          "id": "potion",
+          "english": "potion",
+          "word": "药水",
+          "romanized": "yào shuǐ",
+          "grammarNote": "**药水** (yàoshuǐ) = potion, liquid medicine. 药 'medicine' + 水 'water'.\n**喝下** (hē xià) = to drink down.",
+          "englishPhrase": "Drink this potion.",
+          "phrase": "喝下这瓶药水吧。",
+          "phraseRomanized": "Hē xià zhè píng yào shuǐ ba.",
+          "literal": [
+            [
+              "喝下",
+              "drink down"
+            ],
+            [
+              "这瓶",
+              "this (bottle)"
+            ],
+            [
+              "药水吧。",
+              "potion."
+            ]
+          ]
+        },
+        {
+          "id": "sword",
+          "english": "sword",
+          "word": "剑",
+          "romanized": "jiàn",
+          "grammarNote": "**剑** (jiàn) = sword (double-edged); a single-edged blade is 刀 (dāo).\n**锋利** (fēnglì) = sharp.",
+          "englishPhrase": "His sword is sharp.",
+          "phrase": "他的剑很锋利。",
+          "phraseRomanized": "Tā de jiàn hěn fēng lì.",
+          "literal": [
+            [
+              "他的",
+              "his"
+            ],
+            [
+              "剑",
+              "sword"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "锋利。",
+              "sharp."
+            ]
+          ]
+        },
+        {
+          "id": "shield",
+          "english": "shield",
+          "word": "盾牌",
+          "romanized": "dùn pái",
+          "grammarNote": "**盾牌** (dùnpái) = shield. 盾 'shield' + 牌 'plate'.\n**挡住** (dǎng zhù) = to block.",
+          "englishPhrase": "Block the attack with your shield.",
+          "phrase": "用盾牌挡住攻击。",
+          "phraseRomanized": "Yòng dùn pái dǎng zhù gōng jī.",
+          "literal": [
+            [
+              "用",
+              "use"
+            ],
+            [
+              "盾牌",
+              "the shield"
+            ],
+            [
+              "挡住",
+              "block"
+            ],
+            [
+              "攻击。",
+              "the attack."
+            ]
+          ]
+        },
+        {
+          "id": "armor",
+          "english": "armor",
+          "word": "盔甲",
+          "romanized": "kuī jiǎ",
+          "grammarNote": "**盔甲** (kuījiǎ) = armor. 盔 'helmet' + 甲 'plate armor'.\n**穿上** (chuān shàng) = to put on.",
+          "englishPhrase": "He put on his armor.",
+          "phrase": "他穿上了盔甲。",
+          "phraseRomanized": "Tā chuān shàng le kuī jiǎ.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "穿上了",
+              "put on"
+            ],
+            [
+              "盔甲。",
+              "the armor."
+            ]
+          ]
+        },
+        {
+          "id": "dice",
+          "english": "dice",
+          "word": "骰子",
+          "romanized": "tóu zi",
+          "grammarNote": "**骰子** (tóuzi, colloquially shǎizi) = dice.\n**桌上** (zhuō shàng) = on the table.",
+          "englishPhrase": "There are some dice on the table.",
+          "phrase": "桌上有一些骰子。",
+          "phraseRomanized": "Zhuō shàng yǒu yī xiē tóu zi.",
+          "literal": [
+            [
+              "桌上",
+              "on the table"
+            ],
+            [
+              "有",
+              "there are"
+            ],
+            [
+              "一些",
+              "some"
+            ],
+            [
+              "骰子。",
+              "dice."
+            ]
+          ]
+        },
+        {
+          "id": "roll_dice",
+          "english": "to roll the dice",
+          "word": "掷骰子",
+          "romanized": "zhì tóu zi",
+          "grammarNote": "**掷** (zhì) = to throw/roll; 掷骰子 = roll the dice.\n**轮到** (lún dào) = 'it's (someone's) turn'.",
+          "englishPhrase": "It's your turn to roll the dice.",
+          "phrase": "轮到你掷骰子了。",
+          "phraseRomanized": "Lún dào nǐ zhì tóu zi le.",
+          "literal": [
+            [
+              "轮到",
+              "it's the turn of"
+            ],
+            [
+              "你",
+              "you"
+            ],
+            [
+              "掷骰子了。",
+              "to roll the dice."
+            ]
+          ]
+        },
+        {
+          "id": "critical_hit",
+          "english": "critical hit",
+          "word": "暴击",
+          "romanized": "bào jī",
+          "grammarNote": "**暴击** (bàojī) = critical hit. 暴 'violent' + 击 'strike'.\nExclaim with 那是… (nà shì …) 'that was …'.",
+          "englishPhrase": "That was a critical hit!",
+          "phrase": "那是一次暴击！",
+          "phraseRomanized": "Nà shì yī cì bào jī!",
+          "literal": [
+            [
+              "那",
+              "that"
+            ],
+            [
+              "是",
+              "was"
+            ],
+            [
+              "一次",
+              "a"
+            ],
+            [
+              "暴击！",
+              "critical hit!"
+            ]
+          ]
+        },
+        {
+          "id": "level_up",
+          "english": "to level up",
+          "word": "升级",
+          "romanized": "shēng jí",
+          "grammarNote": "**升级** (shēngjí) = to level up; also 'to upgrade'. 升 'rise' + 级 'level'.\n**了** marks the change of state.",
+          "englishPhrase": "My character leveled up.",
+          "phrase": "我的角色升级了。",
+          "phraseRomanized": "Wǒ de jué sè shēng jí le.",
+          "literal": [
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "角色",
+              "character"
+            ],
+            [
+              "升级了。",
+              "leveled up."
+            ]
+          ]
+        },
+        {
+          "id": "experience_points",
+          "english": "experience points",
+          "word": "经验值",
+          "romanized": "jīng yàn zhí",
+          "grammarNote": "**经验值** (jīngyànzhí) = experience points (XP). 经验 'experience' + 值 'value'.\n**获得** (huòdé) = to gain/obtain.",
+          "englishPhrase": "You gained a lot of experience points.",
+          "phrase": "你获得了很多经验值。",
+          "phraseRomanized": "Nǐ huò dé le hěn duō jīng yàn zhí.",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "获得了",
+              "gained"
+            ],
+            [
+              "很多",
+              "a lot of"
+            ],
+            [
+              "经验值。",
+              "experience points."
+            ]
+          ]
+        },
+        {
+          "id": "monster",
+          "english": "monster",
+          "word": "怪物",
+          "romanized": "guài wù",
+          "grammarNote": "**怪物** (guàiwù) = monster. 怪 'strange' + 物 'thing'.\n**出现** (chūxiàn) = to appear.",
+          "englishPhrase": "A monster appeared.",
+          "phrase": "一只怪物出现了。",
+          "phraseRomanized": "Yī zhī guài wù chū xiàn le.",
+          "literal": [
+            [
+              "一只",
+              "a"
+            ],
+            [
+              "怪物",
+              "monster"
+            ],
+            [
+              "出现了。",
+              "appeared."
+            ]
+          ]
+        },
+        {
+          "id": "goblin",
+          "english": "goblin",
+          "word": "哥布林",
+          "romanized": "gē bù lín",
+          "grammarNote": "**哥布林** (gēbùlín) = goblin, a phonetic loan from English.\n**挡住** (dǎng zhù) = to block.",
+          "englishPhrase": "Three goblins blocked the road.",
+          "phrase": "三个哥布林挡住了路。",
+          "phraseRomanized": "Sān gè gē bù lín dǎng zhù le lù.",
+          "literal": [
+            [
+              "三个",
+              "three"
+            ],
+            [
+              "哥布林",
+              "goblins"
+            ],
+            [
+              "挡住了",
+              "blocked"
+            ],
+            [
+              "路。",
+              "the road."
+            ]
+          ]
+        },
+        {
+          "id": "treasure",
+          "english": "treasure",
+          "word": "宝藏",
+          "romanized": "bǎo zàng",
+          "grammarNote": "**宝藏** (bǎozàng) = treasure, hoard. 宝 'precious' + 藏 'hidden store'.\n**找到** (zhǎodào) = to find.",
+          "englishPhrase": "We found the treasure.",
+          "phrase": "我们找到了宝藏。",
+          "phraseRomanized": "Wǒ men zhǎo dào le bǎo zàng.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "找到了",
+              "found"
+            ],
+            [
+              "宝藏。",
+              "the treasure."
+            ]
+          ]
+        },
+        {
+          "id": "map",
+          "english": "map",
+          "word": "地图",
+          "romanized": "dì tú",
+          "grammarNote": "**地图** (dìtú) = map. 地 'ground/earth' + 图 'diagram'.\n**看看** (kànkan) = 'take a look at'.",
+          "englishPhrase": "Look at this map.",
+          "phrase": "看看这张地图。",
+          "phraseRomanized": "Kàn kàn zhè zhāng dì tú.",
+          "literal": [
+            [
+              "看看",
+              "take a look at"
+            ],
+            [
+              "这张",
+              "this"
+            ],
+            [
+              "地图。",
+              "map."
+            ]
+          ]
+        },
+        {
+          "id": "tavern",
+          "english": "tavern",
+          "word": "酒馆",
+          "romanized": "jiǔ guǎn",
+          "grammarNote": "**酒馆** (jiǔguǎn) = tavern, pub. 酒 'alcohol' + 馆 'establishment'.\n**休息** (xiūxi) = to rest.",
+          "englishPhrase": "We rest at the tavern.",
+          "phrase": "我们在酒馆里休息。",
+          "phraseRomanized": "Wǒ men zài jiǔ guǎn lǐ xiū xī.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "在酒馆里",
+              "at the tavern"
+            ],
+            [
+              "休息。",
+              "rest."
+            ]
+          ]
+        },
+        {
+          "id": "party",
+          "english": "adventuring party",
+          "word": "队伍",
+          "romanized": "duì wǔ",
+          "grammarNote": "**队伍** (duìwǔ) = a group/party (of people). For a game group also 冒险队伍.\n**四个人** = four people.",
+          "englishPhrase": "Our party has four people.",
+          "phrase": "我们的队伍有四个人。",
+          "phraseRomanized": "Wǒ men de duì wǔ yǒu sì gè rén.",
+          "literal": [
+            [
+              "我们的",
+              "our"
+            ],
+            [
+              "队伍",
+              "party"
+            ],
+            [
+              "有",
+              "has"
+            ],
+            [
+              "四个人。",
+              "four people."
+            ]
+          ]
+        },
+        {
+          "id": "enchanted",
+          "english": "enchanted",
+          "word": "附魔",
+          "romanized": "fù mó",
+          "grammarNote": "**附魔** (fùmó) = to enchant (an item); 附 'attach' + 魔 'magic'.\n**被** (bèi) marks the passive: 'was …-ed'.",
+          "englishPhrase": "This sword is enchanted.",
+          "phrase": "这把剑被附了魔。",
+          "phraseRomanized": "Zhè bǎ jiàn bèi fù le mó.",
+          "literal": [
+            [
+              "这把",
+              "this"
+            ],
+            [
+              "剑",
+              "sword"
+            ],
+            [
+              "被",
+              "was"
+            ],
+            [
+              "附了魔。",
+              "enchanted."
+            ]
+          ]
+        },
+        {
+          "id": "attack",
+          "english": "to attack",
+          "word": "攻击",
+          "romanized": "gōng jī",
+          "grammarNote": "**攻击** (gōngjī) = to attack; also 'an attack'.\n**快…！** (kuài …!) = 'quick, …!'.",
+          "englishPhrase": "Attack that dragon!",
+          "phrase": "快攻击那条龙！",
+          "phraseRomanized": "Kuài gōng jī nà tiáo lóng!",
+          "literal": [
+            [
+              "快",
+              "quick"
+            ],
+            [
+              "攻击",
+              "attack"
+            ],
+            [
+              "那条",
+              "that"
+            ],
+            [
+              "龙！",
+              "dragon!"
+            ]
+          ]
+        },
+        {
+          "id": "flee",
+          "english": "to flee / run away",
+          "word": "逃跑",
+          "romanized": "táo pǎo",
+          "grammarNote": "**逃跑** (táopǎo) = to flee, run away. 逃 'escape' + 跑 'run'.\n**决定** (juédìng) = to decide.",
+          "englishPhrase": "They decided to flee.",
+          "phrase": "他们决定逃跑。",
+          "phraseRomanized": "Tā men jué dìng táo pǎo.",
+          "literal": [
+            [
+              "他们",
+              "they"
+            ],
+            [
+              "决定",
+              "decided"
+            ],
+            [
+              "逃跑。",
+              "to flee."
+            ]
+          ]
+        },
+        {
+          "id": "heal",
+          "english": "to heal / cure",
+          "word": "治疗",
+          "romanized": "zhì liáo",
+          "grammarNote": "**治疗** (zhìliáo) = to heal, treat, cure.\n**牧师** (mùshī) = cleric/priest.",
+          "englishPhrase": "The cleric healed the warrior.",
+          "phrase": "牧师治疗了战士。",
+          "phraseRomanized": "Mù shī zhì liáo le zhàn shì.",
+          "literal": [
+            [
+              "牧师",
+              "the cleric"
+            ],
+            [
+              "治疗了",
+              "healed"
+            ],
+            [
+              "战士。",
+              "the warrior."
+            ]
+          ]
+        },
+        {
+          "id": "defend",
+          "english": "to defend",
+          "word": "防御",
+          "romanized": "fáng yù",
+          "grammarNote": "**防御** (fángyù) = to defend; also 'defense'. 防 'guard' + 御 'resist'.\n**必须** (bìxū) = must.",
+          "englishPhrase": "We must defend the castle.",
+          "phrase": "我们必须防御城堡。",
+          "phraseRomanized": "Wǒ men bì xū fáng yù chéng bǎo.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "必须",
+              "must"
+            ],
+            [
+              "防御",
+              "defend"
+            ],
+            [
+              "城堡。",
+              "the castle."
+            ]
+          ]
+        },
+        {
+          "id": "explore",
+          "english": "to explore",
+          "word": "探索",
+          "romanized": "tàn suǒ",
+          "grammarNote": "**探索** (tànsuǒ) = to explore, probe. 探 'probe' + 索 'search'.\n**让我们…吧** = 'let's …'.",
+          "englishPhrase": "Let's explore this cave.",
+          "phrase": "让我们探索这个洞穴吧。",
+          "phraseRomanized": "Ràng wǒ men tàn suǒ zhè ge dòng xué ba.",
+          "literal": [
+            [
+              "让我们",
+              "let's"
+            ],
+            [
+              "探索",
+              "explore"
+            ],
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "洞穴吧。",
+              "cave."
+            ]
+          ]
+        },
+        {
+          "id": "hit_points",
+          "english": "hit points / health points",
+          "word": "生命值",
+          "romanized": "shēng mìng zhí",
+          "grammarNote": "**生命值** (shēngmìngzhí) = hit points/HP. 生命 'life' + 值 'value'.\n**低** (dī) = low.",
+          "englishPhrase": "His hit points are low.",
+          "phrase": "他的生命值很低。",
+          "phraseRomanized": "Tā de shēng mìng zhí hěn dī.",
+          "literal": [
+            [
+              "他的",
+              "his"
+            ],
+            [
+              "生命值",
+              "hit points"
+            ],
+            [
+              "很",
+              "(are)"
+            ],
+            [
+              "低。",
+              "low."
+            ]
+          ]
+        },
+        {
+          "id": "turn",
+          "english": "turn (in combat)",
+          "word": "回合",
+          "romanized": "huí hé",
+          "grammarNote": "**回合** (huíhé) = a turn/round (in a game or battle).\n**轮到** (lún dào) = 'it's the turn of'.",
+          "englishPhrase": "Now it's my turn.",
+          "phrase": "现在轮到我的回合了。",
+          "phraseRomanized": "Xiàn zài lún dào wǒ de huí hé le.",
+          "literal": [
+            [
+              "现在",
+              "now"
+            ],
+            [
+              "轮到",
+              "it's the turn of"
+            ],
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "回合了。",
+              "turn."
+            ]
+          ]
+        },
+        {
+          "id": "victory",
+          "english": "victory",
+          "word": "胜利",
+          "romanized": "shèng lì",
+          "grammarNote": "**胜利** (shènglì) = victory; also 'to triumph'.\n**取得** (qǔdé) = to achieve/obtain.",
+          "englishPhrase": "In the end we achieved victory.",
+          "phrase": "最后我们取得了胜利。",
+          "phraseRomanized": "Zuì hòu wǒ men qǔ dé le shèng lì.",
+          "literal": [
+            [
+              "最后",
+              "in the end"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "取得了",
+              "achieved"
+            ],
+            [
+              "胜利。",
+              "victory."
+            ]
+          ]
+        },
+        {
+          "id": "enemy",
+          "english": "enemy",
+          "word": "敌人",
+          "romanized": "dí rén",
+          "grammarNote": "**敌人** (dírén) = enemy, foe. 敌 'hostile' + 人 'person'.\n**越来越** (yuèláiyuè) = 'more and more'.",
+          "englishPhrase": "The enemy is getting closer.",
+          "phrase": "敌人越来越近。",
+          "phraseRomanized": "Dí rén yuè lái yuè jìn.",
+          "literal": [
+            [
+              "敌人",
+              "the enemy"
+            ],
+            [
+              "越来越",
+              "getting more and more"
+            ],
+            [
+              "近。",
+              "close."
+            ]
+          ]
+        },
+        {
+          "id": "trap",
+          "english": "trap",
+          "word": "陷阱",
+          "romanized": "xiàn jǐng",
+          "grammarNote": "**陷阱** (xiànjǐng) = trap, pitfall. 陷 'to fall in' + 阱 'pit'.\n**小心** (xiǎoxīn) = be careful.",
+          "englishPhrase": "Watch out for that trap!",
+          "phrase": "小心那个陷阱！",
+          "phraseRomanized": "Xiǎo xīn nà ge xiàn jǐng!",
+          "literal": [
+            [
+              "小心",
+              "watch out for"
+            ],
+            [
+              "那个",
+              "that"
+            ],
+            [
+              "陷阱！",
+              "trap!"
+            ]
+          ]
+        },
+        {
+          "id": "loot",
+          "english": "loot",
+          "word": "战利品",
+          "romanized": "zhàn lì pǐn",
+          "grammarNote": "**战利品** (zhànlìpǐn) = loot, spoils of war. 战 'war' + 利品 'prize goods'.\n**平分** (píngfēn) = to split evenly.",
+          "englishPhrase": "We split the loot.",
+          "phrase": "我们平分了战利品。",
+          "phraseRomanized": "Wǒ men píng fēn le zhàn lì pǐn.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "平分了",
+              "split evenly"
+            ],
+            [
+              "战利品。",
+              "the loot."
+            ]
+          ]
+        },
+        {
+          "id": "innkeeper",
+          "english": "innkeeper",
+          "word": "店主",
+          "romanized": "diàn zhǔ",
+          "grammarNote": "**店主** (diànzhǔ) = shopkeeper/innkeeper. 店 'shop' + 主 'owner'.\n**消息** (xiāoxi) = news/information.",
+          "englishPhrase": "The innkeeper gave us some news.",
+          "phrase": "店主给了我们一些消息。",
+          "phraseRomanized": "Diàn zhǔ gěi le wǒ men yī xiē xiāo xī.",
+          "literal": [
+            [
+              "店主",
+              "the innkeeper"
+            ],
+            [
+              "给了",
+              "gave"
+            ],
+            [
+              "我们",
+              "us"
+            ],
+            [
+              "一些",
+              "some"
+            ],
+            [
+              "消息。",
+              "news."
+            ]
+          ]
+        },
+        {
+          "id": "bow",
+          "english": "bow (weapon)",
+          "word": "弓",
+          "romanized": "gōng",
+          "grammarNote": "**弓** (gōng) = bow; an arrow is 箭 (jiàn).\n**射中** (shè zhòng) = to hit (a target).",
+          "englishPhrase": "She hit the target with her bow.",
+          "phrase": "她用弓射中了目标。",
+          "phraseRomanized": "Tā yòng gōng shè zhōng le mù biāo.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "用弓",
+              "with her bow"
+            ],
+            [
+              "射中了",
+              "hit"
+            ],
+            [
+              "目标。",
+              "the target."
+            ]
+          ]
+        },
+        {
+          "id": "session",
+          "english": "game session",
+          "word": "游戏",
+          "romanized": "yóu xì",
+          "grammarNote": "**一局游戏** (yì jú yóuxì) = one game/session; 局 (jú) is the measure word for a round.\n**今晚** (jīnwǎn) = tonight.",
+          "englishPhrase": "There's a game session tonight.",
+          "phrase": "今晚有一局游戏。",
+          "phraseRomanized": "Jīn wǎn yǒu yī jú yóu xì.",
+          "literal": [
+            [
+              "今晚",
+              "tonight"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "一局",
+              "a session of"
+            ],
+            [
+              "游戏。",
+              "the game."
+            ]
+          ]
+        },
+        {
+          "id": "rule",
+          "english": "rule",
+          "word": "规则",
+          "romanized": "guī zé",
+          "grammarNote": "**规则** (guīzé) = rule(s). 规 'regulation' + 则 'norm'.\n**遵守** (zūnshǒu) = to follow/obey.",
+          "englishPhrase": "Please follow the rules.",
+          "phrase": "请遵守规则。",
+          "phraseRomanized": "Qǐng zūn shǒu guī zé.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "遵守",
+              "follow"
+            ],
+            [
+              "规则。",
+              "the rules."
+            ]
+          ]
+        },
+        {
+          "id": "initiative",
+          "english": "initiative",
+          "word": "先攻",
+          "romanized": "xiān gōng",
+          "grammarNote": "**先攻** (xiāngōng) = initiative (turn order in combat). 先 'first' + 攻 'attack'.\n**顺序** (shùnxù) = order/sequence.",
+          "englishPhrase": "Let's determine the initiative order.",
+          "phrase": "我们来决定先攻顺序。",
+          "phraseRomanized": "Wǒ men lái jué dìng xiān gōng shùn xù.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "来",
+              "(let's)"
+            ],
+            [
+              "决定",
+              "determine"
+            ],
+            [
+              "先攻",
+              "initiative"
+            ],
+            [
+              "顺序。",
+              "order."
+            ]
+          ]
+        },
+        {
+          "id": "twenty_sided",
+          "english": "twenty-sided die (d20)",
+          "word": "二十面骰",
+          "romanized": "èr shí miàn tóu",
+          "grammarNote": "**二十面骰** (èrshí miàn tóu) = a twenty-sided die (d20). 面 'face' + 骰 'die'.\n**检定** (jiǎndìng) = a check/roll.",
+          "englishPhrase": "Use the d20 for the check.",
+          "phrase": "用二十面骰来检定。",
+          "phraseRomanized": "Yòng èr shí miàn tóu lái jiǎn dìng.",
+          "literal": [
+            [
+              "用",
+              "use"
+            ],
+            [
+              "二十面骰",
+              "the d20"
+            ],
+            [
+              "来",
+              "to"
+            ],
+            [
+              "检定。",
+              "make the check."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese_culture",
+      "name": "Chinese Culture",
+      "cards": [
+        {
+          "id": "spring_festival",
+          "english": "Spring Festival / Chinese New Year",
+          "word": "春节",
+          "romanized": "chūn jié",
+          "grammarNote": "**春节** (chūnjié) = Spring Festival, Chinese New Year — the biggest holiday of the year.\n**节日** (jiérì) = holiday/festival.",
+          "englishPhrase": "Spring Festival is the most important holiday.",
+          "phrase": "春节是最重要的节日。",
+          "phraseRomanized": "Chūn jié shì zuì zhòng yào de jié rì.",
+          "literal": [
+            [
+              "春节",
+              "Spring Festival"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "最重要的",
+              "the most important"
+            ],
+            [
+              "节日。",
+              "holiday."
+            ]
+          ]
+        },
+        {
+          "id": "mid_autumn",
+          "english": "Mid-Autumn Festival",
+          "word": "中秋节",
+          "romanized": "zhōng qiū jié",
+          "grammarNote": "**中秋节** (zhōngqiūjié) = Mid-Autumn Festival, a harvest moon festival.\n**吃月饼** (chī yuèbǐng) = to eat mooncakes, its main custom.",
+          "englishPhrase": "On Mid-Autumn Festival we eat mooncakes.",
+          "phrase": "中秋节我们吃月饼。",
+          "phraseRomanized": "Zhōng qiū jié wǒ men chī yuè bǐng.",
+          "literal": [
+            [
+              "中秋节",
+              "(on) Mid-Autumn Festival"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "月饼。",
+              "mooncakes."
+            ]
+          ]
+        },
+        {
+          "id": "lantern_festival",
+          "english": "Lantern Festival",
+          "word": "元宵节",
+          "romanized": "yuán xiāo jié",
+          "grammarNote": "**元宵节** (yuánxiāojié) = Lantern Festival, 15 days after New Year.\n**人们** (rénmen) = people (in general).",
+          "englishPhrase": "On the Lantern Festival people look at lanterns.",
+          "phrase": "元宵节人们看灯笼。",
+          "phraseRomanized": "Yuán xiāo jié rén men kàn dēng lóng.",
+          "literal": [
+            [
+              "元宵节",
+              "(on the) Lantern Festival"
+            ],
+            [
+              "人们",
+              "people"
+            ],
+            [
+              "看",
+              "look at"
+            ],
+            [
+              "灯笼。",
+              "lanterns."
+            ]
+          ]
+        },
+        {
+          "id": "dragon_boat",
+          "english": "Dragon Boat Festival",
+          "word": "端午节",
+          "romanized": "duān wǔ jié",
+          "grammarNote": "**端午节** (duānwǔjié) = Dragon Boat Festival; people race boats and eat 粽子.\n**粽子** (zòngzi) = sticky-rice dumplings.",
+          "englishPhrase": "On Dragon Boat Festival we eat zongzi.",
+          "phrase": "端午节我们吃粽子。",
+          "phraseRomanized": "Duān wǔ jié wǒ men chī zòng zi.",
+          "literal": [
+            [
+              "端午节",
+              "(on) Dragon Boat Festival"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "粽子。",
+              "zongzi."
+            ]
+          ]
+        },
+        {
+          "id": "red_envelope",
+          "english": "red envelope",
+          "word": "红包",
+          "romanized": "hóng bāo",
+          "grammarNote": "**红包** (hóngbāo) = red envelope with money, given at New Year and weddings.\n**收到** (shōudào) = to receive.",
+          "englishPhrase": "The children receive red envelopes.",
+          "phrase": "孩子们收到红包。",
+          "phraseRomanized": "Hái zi men shōu dào hóng bāo.",
+          "literal": [
+            [
+              "孩子们",
+              "the children"
+            ],
+            [
+              "收到",
+              "receive"
+            ],
+            [
+              "红包。",
+              "red envelopes."
+            ]
+          ]
+        },
+        {
+          "id": "firecrackers",
+          "english": "firecrackers",
+          "word": "鞭炮",
+          "romanized": "biān pào",
+          "grammarNote": "**鞭炮** (biānpào) = firecrackers, set off to scare away bad luck.\n**放** (fàng) = to set off (fireworks).",
+          "englishPhrase": "They set off firecrackers to celebrate.",
+          "phrase": "他们放鞭炮庆祝。",
+          "phraseRomanized": "Tā men fàng biān pào qìng zhù.",
+          "literal": [
+            [
+              "他们",
+              "they"
+            ],
+            [
+              "放",
+              "set off"
+            ],
+            [
+              "鞭炮",
+              "firecrackers"
+            ],
+            [
+              "庆祝。",
+              "to celebrate."
+            ]
+          ]
+        },
+        {
+          "id": "dragon_dance",
+          "english": "dragon dance",
+          "word": "舞龙",
+          "romanized": "wǔ lóng",
+          "grammarNote": "**舞龙** (wǔlóng) = dragon dance. 舞 'to dance' + 龙 'dragon'.\n**表演** (biǎoyǎn) = performance.",
+          "englishPhrase": "There is a dragon dance on the street.",
+          "phrase": "街上有舞龙表演。",
+          "phraseRomanized": "Jiē shàng yǒu wǔ lóng biǎo yǎn.",
+          "literal": [
+            [
+              "街上",
+              "on the street"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "舞龙",
+              "a dragon-dance"
+            ],
+            [
+              "表演。",
+              "performance."
+            ]
+          ]
+        },
+        {
+          "id": "lion_dance",
+          "english": "lion dance",
+          "word": "舞狮",
+          "romanized": "wǔ shī",
+          "grammarNote": "**舞狮** (wǔshī) = lion dance, performed at festivals and openings.\n**热闹** (rènao) = lively, bustling.",
+          "englishPhrase": "The lion dance is lively.",
+          "phrase": "舞狮很热闹。",
+          "phraseRomanized": "Wǔ shī hěn rè nào.",
+          "literal": [
+            [
+              "舞狮",
+              "the lion dance"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "热闹。",
+              "lively."
+            ]
+          ]
+        },
+        {
+          "id": "tea",
+          "english": "tea",
+          "word": "茶",
+          "romanized": "chá",
+          "grammarNote": "**茶** (chá) = tea, central to Chinese hospitality.\n**喝茶** (hē chá) = to drink tea.",
+          "englishPhrase": "Chinese people like to drink tea.",
+          "phrase": "中国人喜欢喝茶。",
+          "phraseRomanized": "Zhōng guó rén xǐ huān hē chá.",
+          "literal": [
+            [
+              "中国人",
+              "Chinese people"
+            ],
+            [
+              "喜欢",
+              "like"
+            ],
+            [
+              "喝",
+              "to drink"
+            ],
+            [
+              "茶。",
+              "tea."
+            ]
+          ]
+        },
+        {
+          "id": "calligraphy",
+          "english": "calligraphy",
+          "word": "书法",
+          "romanized": "shū fǎ",
+          "grammarNote": "**书法** (shūfǎ) = calligraphy. 书 'writing' + 法 'method/art'.\n**学习** (xuéxí) = to study.",
+          "englishPhrase": "He is studying calligraphy.",
+          "phrase": "他在学习书法。",
+          "phraseRomanized": "Tā zài xué xí shū fǎ.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "在",
+              "(is) -ing"
+            ],
+            [
+              "学习",
+              "studying"
+            ],
+            [
+              "书法。",
+              "calligraphy."
+            ]
+          ]
+        },
+        {
+          "id": "great_wall",
+          "english": "the Great Wall",
+          "word": "长城",
+          "romanized": "cháng chéng",
+          "grammarNote": "**长城** (chángchéng) = the Great Wall; lit. 'long wall'.\n**有名** (yǒumíng) = famous.",
+          "englishPhrase": "The Great Wall is very famous.",
+          "phrase": "长城非常有名。",
+          "phraseRomanized": "Cháng chéng fēi cháng yǒu míng.",
+          "literal": [
+            [
+              "长城",
+              "the Great Wall"
+            ],
+            [
+              "非常",
+              "very"
+            ],
+            [
+              "有名。",
+              "famous."
+            ]
+          ]
+        },
+        {
+          "id": "panda",
+          "english": "panda",
+          "word": "熊猫",
+          "romanized": "xióng māo",
+          "grammarNote": "**熊猫** (xióngmāo) = panda; lit. 'bear-cat'.\n**国宝** (guóbǎo) = national treasure.",
+          "englishPhrase": "The panda is China's national treasure.",
+          "phrase": "熊猫是中国的国宝。",
+          "phraseRomanized": "Xióng māo shì zhōng guó de guó bǎo.",
+          "literal": [
+            [
+              "熊猫",
+              "the panda"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "中国的",
+              "China's"
+            ],
+            [
+              "国宝。",
+              "national treasure."
+            ]
+          ]
+        },
+        {
+          "id": "zodiac",
+          "english": "zodiac (animal signs)",
+          "word": "生肖",
+          "romanized": "shēng xiào",
+          "grammarNote": "**生肖** (shēngxiào) = Chinese zodiac; the 12 animal signs by birth year.\n**属** (shǔ) is the verb: 我属龙 = 'I was born in the year of the dragon'.",
+          "englishPhrase": "My zodiac sign is the dragon.",
+          "phrase": "我的生肖是龙。",
+          "phraseRomanized": "Wǒ de shēng xiào shì lóng.",
+          "literal": [
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "生肖",
+              "zodiac sign"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "龙。",
+              "the dragon."
+            ]
+          ]
+        },
+        {
+          "id": "dumplings",
+          "english": "dumplings",
+          "word": "饺子",
+          "romanized": "jiǎo zi",
+          "grammarNote": "**饺子** (jiǎozi) = dumplings, eaten especially at New Year.\n**包饺子** (bāo jiǎozi) = to wrap/make dumplings.",
+          "englishPhrase": "At New Year we make dumplings.",
+          "phrase": "过年我们包饺子。",
+          "phraseRomanized": "Guò nián wǒ men bāo jiǎo zi.",
+          "literal": [
+            [
+              "过年",
+              "at New Year"
+            ],
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "包",
+              "make"
+            ],
+            [
+              "饺子。",
+              "dumplings."
+            ]
+          ]
+        },
+        {
+          "id": "mooncake",
+          "english": "mooncake",
+          "word": "月饼",
+          "romanized": "yuè bǐng",
+          "grammarNote": "**月饼** (yuèbǐng) = mooncake, eaten at Mid-Autumn Festival. 月 'moon' + 饼 'cake'.\n**甜** (tián) = sweet.",
+          "englishPhrase": "This mooncake is sweet.",
+          "phrase": "这个月饼很甜。",
+          "phraseRomanized": "Zhè ge yuè bǐng hěn tián.",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "月饼",
+              "mooncake"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "甜。",
+              "sweet."
+            ]
+          ]
+        },
+        {
+          "id": "chopsticks",
+          "english": "chopsticks",
+          "word": "筷子",
+          "romanized": "kuài zi",
+          "grammarNote": "**筷子** (kuàizi) = chopsticks. Measure word: 一双 (yì shuāng) 'a pair'.\n**会** (huì) = to know how to.",
+          "englishPhrase": "I can use chopsticks.",
+          "phrase": "我会用筷子。",
+          "phraseRomanized": "Wǒ huì yòng kuài zi.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "会",
+              "can"
+            ],
+            [
+              "用",
+              "use"
+            ],
+            [
+              "筷子。",
+              "chopsticks."
+            ]
+          ]
+        },
+        {
+          "id": "confucius",
+          "english": "Confucius",
+          "word": "孔子",
+          "romanized": "kǒng zi",
+          "grammarNote": "**孔子** (Kǒngzǐ) = Confucius, the ancient philosopher and teacher.\n**伟大** (wěidà) = great.",
+          "englishPhrase": "Confucius was a great teacher.",
+          "phrase": "孔子是伟大的老师。",
+          "phraseRomanized": "Kǒng zi shì wěi dà de lǎo shī.",
+          "literal": [
+            [
+              "孔子",
+              "Confucius"
+            ],
+            [
+              "是",
+              "was"
+            ],
+            [
+              "伟大的",
+              "a great"
+            ],
+            [
+              "老师。",
+              "teacher."
+            ]
+          ]
+        },
+        {
+          "id": "peking_opera",
+          "english": "Peking opera",
+          "word": "京剧",
+          "romanized": "jīng jù",
+          "grammarNote": "**京剧** (jīngjù) = Peking/Beijing opera. 京 'capital' + 剧 'drama'.\n**有名** (yǒumíng) = famous.",
+          "englishPhrase": "Peking opera is famous.",
+          "phrase": "京剧很有名。",
+          "phraseRomanized": "Jīng jù hěn yǒu míng.",
+          "literal": [
+            [
+              "京剧",
+              "Peking opera"
+            ],
+            [
+              "很",
+              "very"
+            ],
+            [
+              "有名。",
+              "famous."
+            ]
+          ]
+        },
+        {
+          "id": "kungfu",
+          "english": "kung fu",
+          "word": "功夫",
+          "romanized": "gōng fu",
+          "grammarNote": "**功夫** (gōngfu) = kung fu / martial skill; also 'effort, skill'.\n**练** (liàn) = to practice.",
+          "englishPhrase": "He has practiced kung fu for many years.",
+          "phrase": "他练了很多年功夫。",
+          "phraseRomanized": "Tā liàn le hěn duō nián gōng fu.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "练了",
+              "has practiced"
+            ],
+            [
+              "很多年",
+              "many years"
+            ],
+            [
+              "功夫。",
+              "of kung fu."
+            ]
+          ]
+        },
+        {
+          "id": "taichi",
+          "english": "tai chi",
+          "word": "太极",
+          "romanized": "tài jí",
+          "grammarNote": "**太极** (tàijí) = tai chi, a slow martial/health art; full name 太极拳.\n**打太极** (dǎ tàijí) = to do tai chi.",
+          "englishPhrase": "Old people do tai chi in the park.",
+          "phrase": "老人在公园里打太极。",
+          "phraseRomanized": "Lǎo rén zài gōng yuán lǐ dǎ tài jí.",
+          "literal": [
+            [
+              "老人",
+              "old people"
+            ],
+            [
+              "在公园里",
+              "in the park"
+            ],
+            [
+              "打",
+              "do"
+            ],
+            [
+              "太极。",
+              "tai chi."
+            ]
+          ]
+        },
+        {
+          "id": "silk",
+          "english": "silk",
+          "word": "丝绸",
+          "romanized": "sī chóu",
+          "grammarNote": "**丝绸** (sīchóu) = silk. China was the origin of the Silk Road (丝绸之路).\n**围巾** (wéijīn) = scarf.",
+          "englishPhrase": "This silk scarf is beautiful.",
+          "phrase": "这条丝绸围巾很美。",
+          "phraseRomanized": "Zhè tiáo sī chóu wéi jīn hěn měi.",
+          "literal": [
+            [
+              "这条",
+              "this"
+            ],
+            [
+              "丝绸",
+              "silk"
+            ],
+            [
+              "围巾",
+              "scarf"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "美。",
+              "beautiful."
+            ]
+          ]
+        },
+        {
+          "id": "jade",
+          "english": "jade",
+          "word": "玉",
+          "romanized": "yù",
+          "grammarNote": "**玉** (yù) = jade, prized for beauty and good fortune.\n**手镯** (shǒuzhuó) = bracelet.",
+          "englishPhrase": "She wears a jade bracelet.",
+          "phrase": "她戴着一个玉手镯。",
+          "phraseRomanized": "Tā dài zhe yí gè yù shǒu zhuó.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "戴着",
+              "wears"
+            ],
+            [
+              "一个",
+              "a"
+            ],
+            [
+              "玉",
+              "jade"
+            ],
+            [
+              "手镯。",
+              "bracelet."
+            ]
+          ]
+        },
+        {
+          "id": "lantern",
+          "english": "lantern",
+          "word": "灯笼",
+          "romanized": "dēng lóng",
+          "grammarNote": "**灯笼** (dēnglóng) = lantern; red ones are hung for festivals. 灯 'lamp' + 笼 'cage'.\n**挂** (guà) = to hang.",
+          "englishPhrase": "Red lanterns hang at the doorway.",
+          "phrase": "门口挂着红灯笼。",
+          "phraseRomanized": "Mén kǒu guà zhe hóng dēng lóng.",
+          "literal": [
+            [
+              "门口",
+              "at the doorway"
+            ],
+            [
+              "挂着",
+              "hang"
+            ],
+            [
+              "红",
+              "red"
+            ],
+            [
+              "灯笼。",
+              "lanterns."
+            ]
+          ]
+        },
+        {
+          "id": "fortune",
+          "english": "good fortune (福)",
+          "word": "福",
+          "romanized": "fú",
+          "grammarNote": "**福** (fú) = good fortune/blessing; the character is posted, often upside-down, at New Year.\n**贴** (tiē) = to paste/stick.",
+          "englishPhrase": "People paste the fu character on the door.",
+          "phrase": "人们把福字贴在门上。",
+          "phraseRomanized": "Rén men bǎ fú zì tiē zài mén shàng.",
+          "literal": [
+            [
+              "人们",
+              "people"
+            ],
+            [
+              "把福字",
+              "(take) the fu character"
+            ],
+            [
+              "贴在",
+              "paste on"
+            ],
+            [
+              "门上。",
+              "the door."
+            ]
+          ]
+        },
+        {
+          "id": "mahjong",
+          "english": "mahjong",
+          "word": "麻将",
+          "romanized": "má jiāng",
+          "grammarNote": "**麻将** (májiàng) = mahjong, a four-player tile game.\n**打麻将** (dǎ májiàng) = to play mahjong.",
+          "englishPhrase": "The family plays mahjong together.",
+          "phrase": "家人一起打麻将。",
+          "phraseRomanized": "Jiā rén yì qǐ dǎ má jiāng.",
+          "literal": [
+            [
+              "家人",
+              "the family"
+            ],
+            [
+              "一起",
+              "together"
+            ],
+            [
+              "打",
+              "play"
+            ],
+            [
+              "麻将。",
+              "mahjong."
+            ]
+          ]
+        },
+        {
+          "id": "terracotta",
+          "english": "Terracotta Warriors",
+          "word": "兵马俑",
+          "romanized": "bīng mǎ yǒng",
+          "grammarNote": "**兵马俑** (bīngmǎyǒng) = Terracotta Warriors, buried figures guarding an emperor's tomb.\n**西安** (Xī'ān) = Xi'an, the city where they are.",
+          "englishPhrase": "The Terracotta Warriors are in Xi'an.",
+          "phrase": "兵马俑在西安。",
+          "phraseRomanized": "Bīng mǎ yǒng zài xī ān.",
+          "literal": [
+            [
+              "兵马俑",
+              "the Terracotta Warriors"
+            ],
+            [
+              "在",
+              "are in"
+            ],
+            [
+              "西安。",
+              "Xi'an."
+            ]
+          ]
+        },
+        {
+          "id": "filial_piety",
+          "english": "filial piety",
+          "word": "孝顺",
+          "romanized": "xiào shùn",
+          "grammarNote": "**孝顺** (xiàoshùn) = filial piety — respect and care for one's parents, a core value.\n**重要** (zhòngyào) = important.",
+          "englishPhrase": "Being filial to your parents is important.",
+          "phrase": "孝顺父母很重要。",
+          "phraseRomanized": "Xiào shùn fù mǔ hěn zhòng yào.",
+          "literal": [
+            [
+              "孝顺",
+              "being filial to"
+            ],
+            [
+              "父母",
+              "parents"
+            ],
+            [
+              "很",
+              "(is)"
+            ],
+            [
+              "重要。",
+              "important."
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "id": "core_2000",
       "name": "Core 2000",
       "language": "chinese",

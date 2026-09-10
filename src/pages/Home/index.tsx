@@ -139,6 +139,8 @@ const Home = () => {
     // category (from the file it loaded from) decides which home section it lands in:
     // core decks stay top-level; extension and grammar each get a collapsible section.
     const pillPacks = packs.filter((p) => p.cards.length > 0);
+    // Printable flashcards only cover main + extension decks — grammar decks are excluded.
+    const printablePacks = pillPacks.filter((p) => p.category !== "grammar");
     const mainTopics = groupByTopic(pillPacks.filter((p) => p.category === "main"));
     const extensionTopics = groupByTopic(pillPacks.filter((p) => p.category === "extension"));
     const grammarTopics = groupByTopic(pillPacks.filter((p) => p.category === "grammar"));
@@ -362,7 +364,7 @@ const Home = () => {
                             </div>
                         )}
                         <div className="srs-print-decks">
-                            {pillPacks.map((p) => (
+                            {printablePacks.map((p) => (
                                 <label key={p.id} className="srs-print-deck-label">
                                     <input type="checkbox" checked={printSelectedDecks.has(p.id)} onChange={() => togglePrintDeck(p.id)} />
                                     {p.name}

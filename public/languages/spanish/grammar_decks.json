@@ -4588,6 +4588,4888 @@
           }
         }
       ]
+    },
+    {
+      "id": "grammar_commands",
+      "name": "Commands (Imperative)",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "cmd_tu_affirmative_table",
+          "grammar": true,
+          "english": "Informal commands (tú): use the él/ella form",
+          "word": "habla, come, escribe",
+          "grammarNote": "For an affirmative **tú** command, just use the **él/ella** present-tense form:\n**hablar → habla** (speak!), **comer → come** (eat!), **escribir → escribe** (write!).",
+          "englishPhrase": "Eat the salad!",
+          "phrase": "¡Come la ensalada!",
+          "literal": [
+            [
+              "Come",
+              "eat"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "ensalada",
+              "salad"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Affirmative tú commands",
+            "rows": [
+              [
+                "hablar",
+                "habla"
+              ],
+              [
+                "comer",
+                "come"
+              ],
+              [
+                "escribir",
+                "escribe"
+              ],
+              [
+                "trabajar",
+                "trabaja"
+              ],
+              [
+                "cocinar",
+                "cocina"
+              ]
+            ],
+            "highlight": "cocinar",
+            "note": "Same form as él/ella in the present. Works for regular -ar, -er and -ir verbs."
+          }
+        },
+        {
+          "id": "cmd_tu_affirmative_produce",
+          "grammar": true,
+          "english": "Turn 'to help' into a tú command",
+          "word": "¡ayuda!",
+          "grammarNote": "Drop the infinitive ending and use the él/ella form:\n**ayudar → ayuda** (help!), **caminar → camina** (walk!), **comprar → compra** (buy!).",
+          "englishPhrase": "Help me, please!",
+          "phrase": "¡Ayúdame, por favor!",
+          "literal": [
+            [
+              "Ayúdame",
+              "help-me"
+            ],
+            [
+              "por favor",
+              "please"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Affirmative tú command = él/ella present form",
+            "task": "Give the tú command for 'estudiar' and 'comprar'",
+            "answer": "¡estudia! / ¡compra!",
+            "gloss": "estudiar → estudia, comprar → compra"
+          }
+        },
+        {
+          "id": "cmd_tu_negative_table",
+          "grammar": true,
+          "english": "Negative tú commands flip the vowel",
+          "word": "no hables, no comas",
+          "grammarNote": "For a **negative tú** command, use the subjunctive: take the **yo** form, drop **-o**, and add the *opposite* vowel.\n**-ar → -es**: no hables. **-er/-ir → -as**: no comas, no escribas.",
+          "englishPhrase": "Don't buy the cake.",
+          "phrase": "No compres el pastel.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "compres",
+              "buy"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "pastel",
+              "cake"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Negative tú commands",
+            "rows": [
+              [
+                "hablar",
+                "no hables"
+              ],
+              [
+                "comprar",
+                "no compres"
+              ],
+              [
+                "comer",
+                "no comas"
+              ],
+              [
+                "escribir",
+                "no escribas"
+              ]
+            ],
+            "highlight": "comer",
+            "note": "-ar verbs take -es; -er and -ir verbs take -as. The opposite vowel from the affirmative."
+          }
+        },
+        {
+          "id": "cmd_tu_aff_vs_neg_contrast",
+          "grammar": true,
+          "english": "Eat! vs Don't eat!",
+          "word": "come / no comas",
+          "grammarNote": "Affirmative and negative **tú** commands use different forms:\naffirmative = él/ella form (**come**); negative = subjunctive (**no comas**).",
+          "englishPhrase": "Don't eat that; eat this.",
+          "phrase": "No comas eso; come esto.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "comas",
+              "eat"
+            ],
+            [
+              "eso",
+              "that"
+            ],
+            [
+              "come",
+              "eat"
+            ],
+            [
+              "esto",
+              "this"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Affirmative or negative command?",
+            "a": {
+              "term": "¡come!",
+              "gloss": "affirmative → él/ella form"
+            },
+            "b": {
+              "term": "¡no comas!",
+              "gloss": "negative → subjunctive form"
+            }
+          }
+        },
+        {
+          "id": "cmd_tu_irregular_table",
+          "grammar": true,
+          "english": "Irregular affirmative tú commands",
+          "word": "di, haz, ve, ven, sal, ten",
+          "grammarNote": "Eight common verbs have short irregular **tú** commands. Memorise them:\n**decir → di**, **hacer → haz**, **ir → ve**, **venir → ven**, **salir → sal**, **tener → ten**.",
+          "englishPhrase": "Do the exercise!",
+          "phrase": "¡Haz el ejercicio!",
+          "literal": [
+            [
+              "Haz",
+              "do"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "ejercicio",
+              "exercise"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular tú commands",
+            "rows": [
+              [
+                "decir",
+                "di"
+              ],
+              [
+                "hacer",
+                "haz"
+              ],
+              [
+                "ir",
+                "ve"
+              ],
+              [
+                "venir",
+                "ven"
+              ],
+              [
+                "salir",
+                "sal"
+              ],
+              [
+                "tener",
+                "ten"
+              ]
+            ],
+            "highlight": "hacer",
+            "note": "These irregulars apply only to the affirmative tú command."
+          }
+        },
+        {
+          "id": "cmd_ir_vs_venir_contrast",
+          "grammar": true,
+          "english": "Go! (ve) vs Come! (ven)",
+          "word": "ve / ven",
+          "grammarNote": "Two easy irregulars to confuse:\n**ve** = go! (ir), **ven** = come! (venir). The extra **n** means 'come'.",
+          "englishPhrase": "Come here!",
+          "phrase": "¡Ven aquí!",
+          "literal": [
+            [
+              "Ven",
+              "come"
+            ],
+            [
+              "aquí",
+              "here"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which command?",
+            "a": {
+              "term": "ve al parque",
+              "gloss": "go to the park (ir)"
+            },
+            "b": {
+              "term": "ven aquí",
+              "gloss": "come here (venir)"
+            }
+          }
+        },
+        {
+          "id": "cmd_usted_table",
+          "grammar": true,
+          "english": "Formal commands (usted)",
+          "word": "hable, coma, escriba",
+          "grammarNote": "For a polite **usted** command, use the subjunctive form (yo-stem + opposite vowel):\n**hablar → hable**, **comer → coma**, **escribir → escriba**. Same form for affirmative and negative.",
+          "englishPhrase": "Speak with the customer.",
+          "phrase": "Hable con el cliente.",
+          "literal": [
+            [
+              "Hable",
+              "speak"
+            ],
+            [
+              "con",
+              "with"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "cliente",
+              "customer"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Formal usted commands",
+            "rows": [
+              [
+                "hablar",
+                "hable"
+              ],
+              [
+                "comer",
+                "coma"
+              ],
+              [
+                "escribir",
+                "escriba"
+              ],
+              [
+                "ayudar",
+                "ayude"
+              ]
+            ],
+            "highlight": "ayudar",
+            "note": "-ar → -e, -er/-ir → -a. For 'don't', just add no: no hable."
+          }
+        },
+        {
+          "id": "cmd_tu_vs_usted_contrast",
+          "grammar": true,
+          "english": "Speak! — to a friend vs a stranger",
+          "word": "habla / hable",
+          "grammarNote": "Choose the register:\n**habla** (tú) for a friend; **hable** (usted) for a stranger, elder, or in a formal setting.",
+          "englishPhrase": "Wait here, please.",
+          "phrase": "Espere aquí, por favor.",
+          "literal": [
+            [
+              "Espere",
+              "wait"
+            ],
+            [
+              "aquí",
+              "here"
+            ],
+            [
+              "por favor",
+              "please"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Informal or formal?",
+            "a": {
+              "term": "¡habla!",
+              "gloss": "tú → friend, informal"
+            },
+            "b": {
+              "term": "¡hable!",
+              "gloss": "usted → stranger, formal"
+            }
+          }
+        },
+        {
+          "id": "cmd_nosotros_table",
+          "grammar": true,
+          "english": "Let's ... (nosotros commands)",
+          "word": "comamos, hablemos",
+          "grammarNote": "To say **let's do something**, use the nosotros subjunctive:\n**comer → comamos** (let's eat), **hablar → hablemos** (let's talk), **cocinar → cocinemos** (let's cook).",
+          "englishPhrase": "Let's cook dinner.",
+          "phrase": "Cocinemos la cena.",
+          "literal": [
+            [
+              "Cocinemos",
+              "let's-cook"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cena",
+              "dinner"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Nosotros 'let's' commands",
+            "rows": [
+              [
+                "hablar",
+                "hablemos"
+              ],
+              [
+                "comer",
+                "comamos"
+              ],
+              [
+                "escribir",
+                "escribamos"
+              ],
+              [
+                "cocinar",
+                "cocinemos"
+              ]
+            ],
+            "highlight": "comer",
+            "note": "-ar → -emos, -er/-ir → -amos."
+          }
+        },
+        {
+          "id": "cmd_nosotros_vamos_contrast",
+          "grammar": true,
+          "english": "Two ways to say 'let's eat'",
+          "word": "comamos / vamos a comer",
+          "grammarNote": "Both mean 'let's eat':\n**comamos** (subjunctive) is more formal/written; **vamos a comer** (vamos a + infinitive) is more common in speech.",
+          "englishPhrase": "Let's go to the park.",
+          "phrase": "Vamos al parque.",
+          "literal": [
+            [
+              "Vamos",
+              "let's-go"
+            ],
+            [
+              "al",
+              "to-the"
+            ],
+            [
+              "parque",
+              "park"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Same meaning, different style",
+            "a": {
+              "term": "comamos",
+              "gloss": "let's eat (subjunctive)"
+            },
+            "b": {
+              "term": "vamos a comer",
+              "gloss": "let's eat (vamos a + infinitive)"
+            }
+          }
+        },
+        {
+          "id": "cmd_pronoun_attach_table",
+          "grammar": true,
+          "english": "Attach pronouns to affirmative commands",
+          "word": "ayúdame, dímelo",
+          "grammarNote": "In **affirmative** commands, object/reflexive pronouns attach to the end of the verb (often adding an accent):\n**ayuda + me → ayúdame** (help me), **di + me + lo → dímelo** (tell me it).",
+          "englishPhrase": "Tell me the address.",
+          "phrase": "Dime la dirección.",
+          "literal": [
+            [
+              "Dime",
+              "tell-me"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "dirección",
+              "address"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Pronoun attachment (affirmative)",
+            "rows": [
+              [
+                "ayudar + me",
+                "ayúdame"
+              ],
+              [
+                "decir + me",
+                "dime"
+              ],
+              [
+                "hacer + lo",
+                "hazlo"
+              ],
+              [
+                "dar + me + lo",
+                "dámelo"
+              ]
+            ],
+            "highlight": "hacer + lo",
+            "note": "Pronouns join the end of affirmative commands. An accent keeps the original stress."
+          }
+        },
+        {
+          "id": "cmd_pronoun_placement_cloze",
+          "grammar": true,
+          "english": "Where does the pronoun go in a negative command?",
+          "word": "no me ayudes",
+          "grammarNote": "Placement flips with negation:\naffirmative → attached (**ayúdame**); negative → **before** the verb (**no me ayudes**).",
+          "englishPhrase": "Don't help me.",
+          "phrase": "No me ayudes.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "me",
+              "me"
+            ],
+            [
+              "ayudes",
+              "help"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "don't help me (pronoun before the verb)",
+            "text": "no ___ ayudes",
+            "answer": "me",
+            "options": [
+              "me",
+              "ayúdame"
+            ]
+          }
+        },
+        {
+          "id": "cmd_reflexive_table",
+          "grammar": true,
+          "english": "Reflexive commands",
+          "word": "relájate, quédate",
+          "grammarNote": "Reflexive verbs attach the reflexive pronoun in affirmative commands:\n**relajarse → relájate** (relax!), **quedarse → quédate** (stay!). Negative: **no te relajes**.",
+          "englishPhrase": "Relax, everything is fine.",
+          "phrase": "Relájate, todo está bien.",
+          "literal": [
+            [
+              "Relájate",
+              "relax"
+            ],
+            [
+              "todo",
+              "everything"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "bien",
+              "fine"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Reflexive tú commands",
+            "rows": [
+              [
+                "relajarse",
+                "relájate"
+              ],
+              [
+                "quedarse",
+                "quédate"
+              ],
+              [
+                "sentarse",
+                "siéntate"
+              ]
+            ],
+            "highlight": "relajarse",
+            "note": "Note: the -te attaches on affirmative commands; negative moves it before the verb (no te quedes)."
+          }
+        },
+        {
+          "id": "cmd_usted_negative_produce",
+          "grammar": true,
+          "english": "Make a negative formal command",
+          "word": "no hable",
+          "grammarNote": "The **usted** form is the same for yes and no — just add **no**:\n**hable → no hable**, **coma → no coma**, **salga → no salga**.",
+          "englishPhrase": "Don't leave now, please.",
+          "phrase": "No salga ahora, por favor.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "salga",
+              "leave"
+            ],
+            [
+              "ahora",
+              "now"
+            ],
+            [
+              "por favor",
+              "please"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Negative usted = no + the usted command",
+            "task": "Make 'coma' and 'trabaje' negative (usted)",
+            "answer": "no coma / no trabaje",
+            "gloss": "The formal form doesn't change; just add no."
+          }
+        },
+        {
+          "id": "cmd_irregular_cloze",
+          "grammar": true,
+          "english": "Choose the irregular tú command",
+          "word": "haz",
+          "grammarNote": "**hacer** has the irregular affirmative command **haz** (not 'hace').",
+          "englishPhrase": "Do your work.",
+          "phrase": "Haz tu trabajo.",
+          "literal": [
+            [
+              "Haz",
+              "do"
+            ],
+            [
+              "tu",
+              "your"
+            ],
+            [
+              "trabajo",
+              "work"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "do your work! (irregular tú command of hacer)",
+            "text": "___ tu trabajo",
+            "answer": "haz",
+            "options": [
+              "haz",
+              "hace"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_perfect_tenses",
+      "name": "Perfect Tenses",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "prf_haber_present_table",
+          "grammar": true,
+          "english": "haber (present): the helper for 'have done'",
+          "word": "he, has, ha, hemos, han",
+          "grammarNote": "The present perfect = **haber** (present) + past participle.\nLearn **haber**: he, has, ha, hemos, han. It is only a helper here — 'to have' as in *possession* is **tener**.",
+          "englishPhrase": "I have eaten.",
+          "phrase": "He comido.",
+          "literal": [
+            [
+              "He",
+              "have"
+            ],
+            [
+              "comido",
+              "eaten"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "haber — present tense",
+            "rows": [
+              [
+                "yo",
+                "he"
+              ],
+              [
+                "tú",
+                "has"
+              ],
+              [
+                "él / ella",
+                "ha"
+              ],
+              [
+                "nosotros",
+                "hemos"
+              ],
+              [
+                "ellos / ellas",
+                "han"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "haber is the helper for perfect tenses; do not confuse it with tener (to have/own)."
+          }
+        },
+        {
+          "id": "prf_regular_participles_table",
+          "grammar": true,
+          "english": "Regular past participles: -ado / -ido",
+          "word": "hablado, comido, vivido",
+          "grammarNote": "Form the participle from the infinitive:\n**-ar → -ado** (hablar → hablado), **-er/-ir → -ido** (comer → comido, vivir → vivido).",
+          "englishPhrase": "We have worked a lot.",
+          "phrase": "Hemos trabajado mucho.",
+          "literal": [
+            [
+              "Hemos",
+              "have"
+            ],
+            [
+              "trabajado",
+              "worked"
+            ],
+            [
+              "mucho",
+              "a-lot"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Regular participles",
+            "rows": [
+              [
+                "hablar",
+                "hablado"
+              ],
+              [
+                "trabajar",
+                "trabajado"
+              ],
+              [
+                "comer",
+                "comido"
+              ],
+              [
+                "vivir",
+                "vivido"
+              ]
+            ],
+            "highlight": "comer",
+            "note": "-ar verbs → -ado; -er and -ir verbs → -ido."
+          }
+        },
+        {
+          "id": "prf_present_perfect_produce",
+          "grammar": true,
+          "english": "Build 'I have spoken'",
+          "word": "he hablado",
+          "grammarNote": "Put the helper and participle together:\n**he + hablado = he hablado** (I have spoken). The participle never changes for gender or number after haber.",
+          "englishPhrase": "I have studied today.",
+          "phrase": "He estudiado hoy.",
+          "literal": [
+            [
+              "He",
+              "have"
+            ],
+            [
+              "estudiado",
+              "studied"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Present perfect = haber (present) + participle",
+            "task": "Say 'we have eaten' and 'she has lived'",
+            "answer": "hemos comido / ha vivido",
+            "gloss": "hemos + comido; ha + vivido"
+          }
+        },
+        {
+          "id": "prf_haber_agreement_cloze",
+          "grammar": true,
+          "english": "Match haber to the subject",
+          "word": "ella ha comido",
+          "grammarNote": "Only **haber** changes with the subject; the participle stays fixed:\n**yo he comido**, **ella ha comido**, **ellos han comido**.",
+          "englishPhrase": "She has cooked dinner.",
+          "phrase": "Ella ha cocinado la cena.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "ha",
+              "has"
+            ],
+            [
+              "cocinado",
+              "cooked"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cena",
+              "dinner"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "she has cooked (él/ella form of haber)",
+            "text": "ella ___ cocinado",
+            "answer": "ha",
+            "options": [
+              "ha",
+              "han"
+            ]
+          }
+        },
+        {
+          "id": "prf_irregular_participles_table",
+          "grammar": true,
+          "english": "Irregular past participles",
+          "word": "hecho, dicho, visto, vuelto, escrito, frito",
+          "grammarNote": "Some common verbs have irregular participles — memorise them:\n**hacer → hecho**, **decir → dicho**, **ver → visto**, **volver → vuelto**, **escribir → escrito**, **freír → frito**.",
+          "englishPhrase": "I have made the food.",
+          "phrase": "He hecho la comida.",
+          "literal": [
+            [
+              "He",
+              "have"
+            ],
+            [
+              "hecho",
+              "made"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "comida",
+              "food"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular participles",
+            "rows": [
+              [
+                "hacer",
+                "hecho"
+              ],
+              [
+                "decir",
+                "dicho"
+              ],
+              [
+                "ver",
+                "visto"
+              ],
+              [
+                "volver",
+                "vuelto"
+              ],
+              [
+                "escribir",
+                "escrito"
+              ],
+              [
+                "freír",
+                "frito"
+              ]
+            ],
+            "highlight": "hacer",
+            "note": "These don't follow -ado/-ido. Learn them as fixed forms."
+          }
+        },
+        {
+          "id": "prf_irregular_cloze",
+          "grammar": true,
+          "english": "Pick the correct participle of hacer",
+          "word": "hecho",
+          "grammarNote": "**hacer** → **hecho**, never 'hacido'.",
+          "englishPhrase": "What have you done?",
+          "phrase": "¿Qué has hecho?",
+          "literal": [
+            [
+              "Qué",
+              "what"
+            ],
+            [
+              "has",
+              "have"
+            ],
+            [
+              "hecho",
+              "done"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "what have you done? (participle of hacer)",
+            "text": "¿qué has ___?",
+            "answer": "hecho",
+            "options": [
+              "hecho",
+              "hacido"
+            ]
+          }
+        },
+        {
+          "id": "prf_irregular_produce",
+          "grammar": true,
+          "english": "Say 'I have seen' and 'I have said'",
+          "word": "he visto, he dicho",
+          "grammarNote": "Use the irregular participles:\n**ver → visto** (he visto), **decir → dicho** (he dicho).",
+          "englishPhrase": "I have already seen the museum.",
+          "phrase": "Ya he visto el museo.",
+          "literal": [
+            [
+              "Ya",
+              "already"
+            ],
+            [
+              "he",
+              "have"
+            ],
+            [
+              "visto",
+              "seen"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "museo",
+              "museum"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Irregular participles with haber",
+            "task": "Say 'she has written' and 'they have returned'",
+            "answer": "ha escrito / han vuelto",
+            "gloss": "escribir → escrito, volver → vuelto"
+          }
+        },
+        {
+          "id": "prf_participle_invariable_contrast",
+          "grammar": true,
+          "english": "The participle never agrees after haber",
+          "word": "ella ha comido",
+          "grammarNote": "After **haber**, the participle always ends in **-o** — it does *not* agree with the subject:\n✓ ella ha **comido**, ✗ ella ha ~~comida~~.",
+          "englishPhrase": "The girls have arrived.",
+          "phrase": "Las chicas han llegado.",
+          "literal": [
+            [
+              "Las",
+              "the"
+            ],
+            [
+              "chicas",
+              "girls"
+            ],
+            [
+              "han",
+              "have"
+            ],
+            [
+              "llegado",
+              "arrived"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which is correct?",
+            "a": {
+              "term": "ella ha comido",
+              "gloss": "✓ participle stays -o after haber"
+            },
+            "b": {
+              "term": "ella ha comida",
+              "gloss": "✗ never agrees with the subject"
+            }
+          }
+        },
+        {
+          "id": "prf_pluperfect_table",
+          "grammar": true,
+          "english": "Past perfect: había + participle",
+          "word": "había, habías, había, habíamos, habían",
+          "grammarNote": "The past perfect ('had done') = **haber in the imperfect** + participle:\n**había comido** (I had eaten). Forms: había, habías, había, habíamos, habían.",
+          "englishPhrase": "I had already eaten.",
+          "phrase": "Ya había comido.",
+          "literal": [
+            [
+              "Ya",
+              "already"
+            ],
+            [
+              "había",
+              "had"
+            ],
+            [
+              "comido",
+              "eaten"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "haber — imperfect (for past perfect)",
+            "rows": [
+              [
+                "yo",
+                "había"
+              ],
+              [
+                "tú",
+                "habías"
+              ],
+              [
+                "él / ella",
+                "había"
+              ],
+              [
+                "nosotros",
+                "habíamos"
+              ],
+              [
+                "ellos / ellas",
+                "habían"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "Same participles as the present perfect — only the helper changes to the imperfect."
+          }
+        },
+        {
+          "id": "prf_present_vs_past_contrast",
+          "grammar": true,
+          "english": "have eaten vs had eaten",
+          "word": "he comido / había comido",
+          "grammarNote": "Choose the helper's tense:\n**he comido** = I have eaten (up to now); **había comido** = I had eaten (before another past moment).",
+          "englishPhrase": "When you arrived, I had already eaten.",
+          "phrase": "Cuando llegaste, ya había comido.",
+          "literal": [
+            [
+              "Cuando",
+              "when"
+            ],
+            [
+              "llegaste",
+              "arrived"
+            ],
+            [
+              "ya",
+              "already"
+            ],
+            [
+              "había",
+              "had"
+            ],
+            [
+              "comido",
+              "eaten"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Present perfect or past perfect?",
+            "a": {
+              "term": "he comido",
+              "gloss": "have eaten — connects to now"
+            },
+            "b": {
+              "term": "había comido",
+              "gloss": "had eaten — before another past event"
+            }
+          }
+        },
+        {
+          "id": "prf_pluperfect_cloze",
+          "grammar": true,
+          "english": "Complete the past perfect",
+          "word": "habíamos vivido",
+          "grammarNote": "Past perfect uses the imperfect of haber:\n**nosotros habíamos vivido** (we had lived).",
+          "englishPhrase": "We had lived there before.",
+          "phrase": "Habíamos vivido allí antes.",
+          "literal": [
+            [
+              "Habíamos",
+              "had"
+            ],
+            [
+              "vivido",
+              "lived"
+            ],
+            [
+              "allí",
+              "there"
+            ],
+            [
+              "antes",
+              "before"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "we had lived (nosotros, past perfect)",
+            "text": "___ vivido allí",
+            "answer": "habíamos",
+            "options": [
+              "habíamos",
+              "hemos"
+            ]
+          }
+        },
+        {
+          "id": "prf_reflexive_perfect_table",
+          "grammar": true,
+          "english": "Reflexive verbs in the perfect",
+          "word": "me he relajado",
+          "grammarNote": "With a reflexive verb, the pronoun goes **before haber**:\n**me he relajado** (I have relaxed), **se ha quedado** (he has stayed). Never attach it to the participle.",
+          "englishPhrase": "I have relaxed today.",
+          "phrase": "Me he relajado hoy.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "he",
+              "have"
+            ],
+            [
+              "relajado",
+              "relaxed"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Reflexive present perfect (relajarse)",
+            "rows": [
+              [
+                "yo",
+                "me he relajado"
+              ],
+              [
+                "tú",
+                "te has relajado"
+              ],
+              [
+                "él / ella",
+                "se ha relajado"
+              ],
+              [
+                "nosotros",
+                "nos hemos relajado"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "The reflexive pronoun sits before haber, not attached to the participle."
+          }
+        },
+        {
+          "id": "prf_time_marker_cloze",
+          "grammar": true,
+          "english": "Present perfect with 'hoy'",
+          "word": "hoy he trabajado",
+          "grammarNote": "The present perfect pairs naturally with time frames that include *now*, like **hoy** (today):\n**hoy he trabajado mucho** (today I have worked a lot).",
+          "englishPhrase": "Today I have worked a lot.",
+          "phrase": "Hoy he trabajado mucho.",
+          "literal": [
+            [
+              "Hoy",
+              "today"
+            ],
+            [
+              "he",
+              "have"
+            ],
+            [
+              "trabajado",
+              "worked"
+            ],
+            [
+              "mucho",
+              "a-lot"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "today I have worked (yo, present perfect)",
+            "text": "hoy ___ trabajado",
+            "answer": "he",
+            "options": [
+              "he",
+              "había"
+            ]
+          }
+        },
+        {
+          "id": "prf_recap_produce",
+          "grammar": true,
+          "english": "Recap: build a present perfect sentence",
+          "word": "hemos vuelto",
+          "grammarNote": "haber (present) + participle. Remember the irregulars:\n**volver → vuelto**, so 'we have returned' = **hemos vuelto**.",
+          "englishPhrase": "We have returned home.",
+          "phrase": "Hemos vuelto a casa.",
+          "literal": [
+            [
+              "Hemos",
+              "have"
+            ],
+            [
+              "vuelto",
+              "returned"
+            ],
+            [
+              "a",
+              "to"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Present perfect with an irregular participle",
+            "task": "Say 'they have returned' and 'I have made dinner'",
+            "answer": "han vuelto / he hecho la cena",
+            "gloss": "volver → vuelto, hacer → hecho"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_subjunctive",
+      "name": "Subjunctive: Forms & Wishes",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "sub_formation_table",
+          "grammar": true,
+          "english": "How to build the present subjunctive",
+          "word": "hable, coma, viva",
+          "grammarNote": "Start from the **yo** form, drop the **-o**, and add the *opposite* vowel endings:\n**-ar** verbs take **-e** endings; **-er/-ir** verbs take **-a** endings.",
+          "englishPhrase": "It's important that you speak.",
+          "phrase": "Es importante que hables.",
+          "literal": [
+            [
+              "Es",
+              "is"
+            ],
+            [
+              "importante",
+              "important"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "hables",
+              "speak"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "The 'opposite vowel' rule",
+            "rows": [
+              [
+                "hablar (yo hablo)",
+                "hable"
+              ],
+              [
+                "comer (yo como)",
+                "coma"
+              ],
+              [
+                "vivir (yo vivo)",
+                "viva"
+              ]
+            ],
+            "highlight": "hablar (yo hablo)",
+            "note": "-ar → e endings, -er/-ir → a endings. The yo-stem carries any irregularity."
+          }
+        },
+        {
+          "id": "sub_ar_table",
+          "grammar": true,
+          "english": "Regular -ar subjunctive endings",
+          "word": "hable, hables, hable, hablemos, hablen",
+          "grammarNote": "For **-ar** verbs, the subjunctive endings are **-e / -es / -e / -emos / -en**:\n**hable, hables, hable, hablemos, hablen**.",
+          "englishPhrase": "I hope you work tomorrow.",
+          "phrase": "Espero que trabajes mañana.",
+          "literal": [
+            [
+              "Espero",
+              "hope"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "trabajes",
+              "work"
+            ],
+            [
+              "mañana",
+              "tomorrow"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "hablar — present subjunctive",
+            "rows": [
+              [
+                "yo",
+                "hable"
+              ],
+              [
+                "tú",
+                "hables"
+              ],
+              [
+                "él / ella",
+                "hable"
+              ],
+              [
+                "nosotros",
+                "hablemos"
+              ],
+              [
+                "ellos / ellas",
+                "hablen"
+              ]
+            ],
+            "highlight": "tú",
+            "note": "Same -e endings for all regular -ar verbs: trabajar, cocinar, estudiar, ayudar."
+          }
+        },
+        {
+          "id": "sub_er_ir_table",
+          "grammar": true,
+          "english": "Regular -er / -ir subjunctive endings",
+          "word": "coma, comas, coma, comamos, coman",
+          "grammarNote": "For **-er/-ir** verbs, the endings are **-a / -as / -a / -amos / -an**:\n**comer → coma...**, **vivir → viva...**.",
+          "englishPhrase": "I want you to eat well.",
+          "phrase": "Quiero que comas bien.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "comas",
+              "eat"
+            ],
+            [
+              "bien",
+              "well"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "comer — present subjunctive",
+            "rows": [
+              [
+                "yo",
+                "coma"
+              ],
+              [
+                "tú",
+                "comas"
+              ],
+              [
+                "él / ella",
+                "coma"
+              ],
+              [
+                "nosotros",
+                "comamos"
+              ],
+              [
+                "ellos / ellas",
+                "coman"
+              ]
+            ],
+            "highlight": "tú",
+            "note": "-er and -ir verbs share these -a endings: comer, vivir, escribir, aprender."
+          }
+        },
+        {
+          "id": "sub_regular_produce",
+          "grammar": true,
+          "english": "Form the subjunctive of a regular verb",
+          "word": "trabaje / viva",
+          "grammarNote": "Drop the -o from the yo form and add the opposite vowel:\n**trabajar → trabaje**, **vivir → viva**.",
+          "englishPhrase": "I hope she lives here.",
+          "phrase": "Espero que viva aquí.",
+          "literal": [
+            [
+              "Espero",
+              "hope"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "viva",
+              "lives"
+            ],
+            [
+              "aquí",
+              "here"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Regular present subjunctive",
+            "task": "Give the tú subjunctive of 'estudiar' and 'aprender'",
+            "answer": "estudies / aprendas",
+            "gloss": "-ar → estudies, -er → aprendas"
+          }
+        },
+        {
+          "id": "sub_yo_stem_table",
+          "grammar": true,
+          "english": "Irregular yo-stem carries into the subjunctive",
+          "word": "tenga, haga, diga, salga",
+          "grammarNote": "Verbs with an irregular **yo** form keep that stem in the subjunctive:\n**tengo → tenga**, **hago → haga**, **digo → diga**, **salgo → salga**, **conozco → conozca**.",
+          "englishPhrase": "I hope you have time.",
+          "phrase": "Espero que tengas tiempo.",
+          "literal": [
+            [
+              "Espero",
+              "hope"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "tengas",
+              "have"
+            ],
+            [
+              "tiempo",
+              "time"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Yo-stem irregulars",
+            "rows": [
+              [
+                "tener (tengo)",
+                "tenga"
+              ],
+              [
+                "hacer (hago)",
+                "haga"
+              ],
+              [
+                "decir (digo)",
+                "diga"
+              ],
+              [
+                "salir (salgo)",
+                "salga"
+              ],
+              [
+                "conocer (conozco)",
+                "conozca"
+              ]
+            ],
+            "highlight": "hacer (hago)",
+            "note": "Take the yo form, drop -o, add -a endings. The whole set follows: tenga, tengas, tenga, tengamos, tengan."
+          }
+        },
+        {
+          "id": "sub_yo_stem_cloze",
+          "grammar": true,
+          "english": "Use the yo-stem in the subjunctive",
+          "word": "que hagas",
+          "grammarNote": "**hacer** → yo **hago** → subjunctive **haga/hagas...** (never 'haces' here).",
+          "englishPhrase": "I want you to do the exercise.",
+          "phrase": "Quiero que hagas el ejercicio.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "hagas",
+              "do"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "ejercicio",
+              "exercise"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I want you to do it (tú subjunctive of hacer)",
+            "text": "quiero que ___ el ejercicio",
+            "answer": "hagas",
+            "options": [
+              "hagas",
+              "haces"
+            ]
+          }
+        },
+        {
+          "id": "sub_fully_irregular_table",
+          "grammar": true,
+          "english": "Fully irregular subjunctives",
+          "word": "sea, vaya, esté, dé, sepa",
+          "grammarNote": "A few verbs are simply irregular — memorise them:\n**ser → sea**, **ir → vaya**, **estar → esté**, **dar → dé**, **saber → sepa**, **haber → haya**.",
+          "englishPhrase": "I hope she's happy.",
+          "phrase": "Espero que sea feliz.",
+          "literal": [
+            [
+              "Espero",
+              "hope"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "sea",
+              "is"
+            ],
+            [
+              "feliz",
+              "happy"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular subjunctives",
+            "rows": [
+              [
+                "ser",
+                "sea"
+              ],
+              [
+                "ir",
+                "vaya"
+              ],
+              [
+                "estar",
+                "esté"
+              ],
+              [
+                "dar",
+                "dé"
+              ],
+              [
+                "saber",
+                "sepa"
+              ],
+              [
+                "haber",
+                "haya"
+              ]
+            ],
+            "highlight": "ir",
+            "note": "These don't come from the yo-stem. Learn them as fixed forms."
+          }
+        },
+        {
+          "id": "sub_irregular_cloze",
+          "grammar": true,
+          "english": "Pick the irregular subjunctive of ir",
+          "word": "vaya",
+          "grammarNote": "**ir** → subjunctive **vaya** (not 'va').",
+          "englishPhrase": "I want you to go to the park.",
+          "phrase": "Quiero que vayas al parque.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "vayas",
+              "go"
+            ],
+            [
+              "al",
+              "to-the"
+            ],
+            [
+              "parque",
+              "park"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I want you to go (tú subjunctive of ir)",
+            "text": "quiero que ___ al parque",
+            "answer": "vayas",
+            "options": [
+              "vayas",
+              "vas"
+            ]
+          }
+        },
+        {
+          "id": "sub_trigger_contrast",
+          "grammar": true,
+          "english": "What triggers the subjunctive?",
+          "word": "creo que viene / quiero que venga",
+          "grammarNote": "The subjunctive appears after **que** when one subject wants/hopes/needs another to do something:\nstatement of fact → indicative (**pienso que viene**); wish about someone else → subjunctive (**quiero que venga**).",
+          "englishPhrase": "I want you to come home.",
+          "phrase": "Quiero que vengas a casa.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "vengas",
+              "come"
+            ],
+            [
+              "a",
+              "to"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Indicative or subjunctive?",
+            "a": {
+              "term": "pienso que viene",
+              "gloss": "stating a fact → indicative"
+            },
+            "b": {
+              "term": "quiero que venga",
+              "gloss": "wanting someone to → subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub_wishes_table",
+          "grammar": true,
+          "english": "Wishes: querer / esperar que + subjunctive",
+          "word": "quiero que comas",
+          "grammarNote": "Verbs of wishing take the subjunctive when the subject changes:\n**quiero que comas** (I want you to eat), **espero que trabajes** (I hope you work).",
+          "englishPhrase": "I hope you come tomorrow.",
+          "phrase": "Espero que vengas mañana.",
+          "literal": [
+            [
+              "Espero",
+              "hope"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "vengas",
+              "come"
+            ],
+            [
+              "mañana",
+              "tomorrow"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Wish triggers + que + subjunctive",
+            "rows": [
+              [
+                "quiero que",
+                "comas"
+              ],
+              [
+                "espero que",
+                "trabajes"
+              ],
+              [
+                "quiero que",
+                "vengas"
+              ]
+            ],
+            "highlight": "espero que",
+            "note": "Wanting or hoping that someone else does something forces the subjunctive."
+          }
+        },
+        {
+          "id": "sub_wishes_produce",
+          "grammar": true,
+          "english": "Build 'I want you to eat'",
+          "word": "quiero que comas",
+          "grammarNote": "Wish verb + **que** + subjunctive:\n**quiero + que + comas** = I want you to eat.",
+          "englishPhrase": "I want you to study.",
+          "phrase": "Quiero que estudies.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "estudies",
+              "study"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Wish + que + subjunctive",
+            "task": "Say 'I hope you speak' and 'I want her to come'",
+            "answer": "espero que hables / quiero que venga",
+            "gloss": "esperar/querer que + subjunctive"
+          }
+        },
+        {
+          "id": "sub_same_subject_contrast",
+          "grammar": true,
+          "english": "Same subject → infinitive, not subjunctive",
+          "word": "quiero comer / quiero que comas",
+          "grammarNote": "No 'que' when the subject doesn't change — use the infinitive:\n**quiero comer** (I want to eat, myself) vs **quiero que comas** (I want *you* to eat).",
+          "englishPhrase": "I want to eat now.",
+          "phrase": "Quiero comer ahora.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "comer",
+              "to-eat"
+            ],
+            [
+              "ahora",
+              "now"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "One subject or two?",
+            "a": {
+              "term": "quiero comer",
+              "gloss": "same person → infinitive"
+            },
+            "b": {
+              "term": "quiero que comas",
+              "gloss": "different person → que + subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub_impersonal_table",
+          "grammar": true,
+          "english": "Impersonal expressions + subjunctive",
+          "word": "es importante que estudies",
+          "grammarNote": "Impersonal phrases of importance/necessity take the subjunctive:\n**es importante que...**, **es necesario que...**, **es bueno que...** + subjunctive.",
+          "englishPhrase": "It's necessary that you rest.",
+          "phrase": "Es necesario que descanses.",
+          "literal": [
+            [
+              "Es",
+              "is"
+            ],
+            [
+              "necesario",
+              "necessary"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "descanses",
+              "rest"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Impersonal triggers",
+            "rows": [
+              [
+                "es importante que",
+                "estudies"
+              ],
+              [
+                "es necesario que",
+                "descanses"
+              ],
+              [
+                "es bueno que",
+                "comas"
+              ]
+            ],
+            "highlight": "es necesario que",
+            "note": "These value judgements about someone's action all take the subjunctive."
+          }
+        },
+        {
+          "id": "sub_ojala_cloze",
+          "grammar": true,
+          "english": "Ojalá (hopefully) + subjunctive",
+          "word": "ojalá venga",
+          "grammarNote": "**ojalá** means 'hopefully / let's hope' and is always followed by the subjunctive:\n**ojalá venga** (I hope he comes), **ojalá vengas** (I hope you come).",
+          "englishPhrase": "Hopefully she comes home.",
+          "phrase": "Ojalá venga a casa.",
+          "literal": [
+            [
+              "Ojalá",
+              "hopefully"
+            ],
+            [
+              "venga",
+              "comes"
+            ],
+            [
+              "a",
+              "to"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "hopefully she comes (subjunctive of venir)",
+            "text": "ojalá ___ a la fiesta",
+            "answer": "venga",
+            "options": [
+              "venga",
+              "viene"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_subjunctive_2",
+      "name": "Subjunctive: Emotion, Doubt & Time",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "sub2_emotion_table",
+          "grammar": true,
+          "english": "Emotions trigger the subjunctive",
+          "word": "me gusta que vengas",
+          "grammarNote": "When you react emotionally to what *someone else* does, use the subjunctive after **que**:\n**me gusta que...**, **es triste que...**, **estoy feliz de que...** + subjunctive.",
+          "englishPhrase": "I'm glad that you're here.",
+          "phrase": "Me gusta que estés aquí.",
+          "literal": [
+            [
+              "Me gusta",
+              "I-like"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "estés",
+              "you-are"
+            ],
+            [
+              "aquí",
+              "here"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Emotion triggers + subjunctive",
+            "rows": [
+              [
+                "me gusta que",
+                "vengas"
+              ],
+              [
+                "es triste que",
+                "estés triste"
+              ],
+              [
+                "es bueno que",
+                "descanses"
+              ]
+            ],
+            "highlight": "me gusta que",
+            "note": "Feelings about another person's action take the subjunctive, just like wishes."
+          }
+        },
+        {
+          "id": "sub2_emotion_cloze",
+          "grammar": true,
+          "english": "Complete the emotion sentence",
+          "word": "me gusta que estés",
+          "grammarNote": "**estar** → subjunctive **esté/estés**. After an emotion + que, use it.",
+          "englishPhrase": "I like that you are happy.",
+          "phrase": "Me gusta que estés feliz.",
+          "literal": [
+            [
+              "Me gusta",
+              "I-like"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "estés",
+              "you-are"
+            ],
+            [
+              "feliz",
+              "happy"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I like that you are happy (tú subjunctive of estar)",
+            "text": "me gusta que ___ feliz",
+            "answer": "estés",
+            "options": [
+              "estés",
+              "estás"
+            ]
+          }
+        },
+        {
+          "id": "sub2_emotion_contrast",
+          "grammar": true,
+          "english": "Fact vs emotional reaction",
+          "word": "sé que viene / me gusta que venga",
+          "grammarNote": "Knowing a fact stays indicative; reacting emotionally turns subjunctive:\n**sé que viene** (I know he's coming) vs **me gusta que venga** (I'm glad he's coming).",
+          "englishPhrase": "I'm glad you're coming.",
+          "phrase": "Me gusta que vengas.",
+          "literal": [
+            [
+              "Me gusta",
+              "I-like"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "vengas",
+              "you-come"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Knowing or feeling?",
+            "a": {
+              "term": "sé que viene",
+              "gloss": "stating knowledge → indicative"
+            },
+            "b": {
+              "term": "me gusta que venga",
+              "gloss": "emotional reaction → subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub2_doubt_table",
+          "grammar": true,
+          "english": "Doubt and denial trigger the subjunctive",
+          "word": "no pienso que venga",
+          "grammarNote": "Doubting or denying something takes the subjunctive:\n**no pienso que...** (I don't think that...), **tal vez...** (maybe...) + subjunctive.",
+          "englishPhrase": "I don't think he's coming today.",
+          "phrase": "No pienso que venga hoy.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "pienso",
+              "think"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "venga",
+              "comes"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Doubt / denial triggers",
+            "rows": [
+              [
+                "no pienso que",
+                "venga"
+              ],
+              [
+                "tal vez",
+                "sea"
+              ],
+              [
+                "no pienso que",
+                "trabaje"
+              ]
+            ],
+            "highlight": "no pienso que",
+            "note": "Denying or doubting an action pushes the verb into the subjunctive."
+          }
+        },
+        {
+          "id": "sub2_certainty_contrast",
+          "grammar": true,
+          "english": "I think... vs I don't think...",
+          "word": "pienso que viene / no pienso que venga",
+          "grammarNote": "Affirmed belief = indicative; denied belief = subjunctive:\n**pienso que viene** (I think he's coming) → **no pienso que venga** (I don't think he's coming).",
+          "englishPhrase": "I don't think she works today.",
+          "phrase": "No pienso que trabaje hoy.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "pienso",
+              "think"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "trabaje",
+              "works"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Certainty or doubt?",
+            "a": {
+              "term": "pienso que viene",
+              "gloss": "I think so → indicative"
+            },
+            "b": {
+              "term": "no pienso que venga",
+              "gloss": "I doubt it → subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub2_talvez_cloze",
+          "grammar": true,
+          "english": "Tal vez (maybe) + subjunctive",
+          "word": "tal vez venga",
+          "grammarNote": "**tal vez** (maybe) expresses doubt, so it usually takes the subjunctive:\n**tal vez venga** (maybe he'll come), **tal vez llueva** (maybe it'll rain).",
+          "englishPhrase": "Maybe she'll come later.",
+          "phrase": "Tal vez venga luego.",
+          "literal": [
+            [
+              "Tal vez",
+              "maybe"
+            ],
+            [
+              "venga",
+              "comes"
+            ],
+            [
+              "luego",
+              "later"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "maybe she comes (subjunctive of venir)",
+            "text": "tal vez ___ luego",
+            "answer": "venga",
+            "options": [
+              "venga",
+              "viene"
+            ]
+          }
+        },
+        {
+          "id": "sub2_conjunctions_table",
+          "grammar": true,
+          "english": "Conjunctions that always take subjunctive",
+          "word": "para que, antes de que, sin que",
+          "grammarNote": "Some conjunctions are *always* followed by the subjunctive:\n**para que** (so that), **antes de que** (before), **sin que** (without).",
+          "englishPhrase": "I'll help you so that you learn.",
+          "phrase": "Te ayudo para que aprendas.",
+          "literal": [
+            [
+              "Te",
+              "you"
+            ],
+            [
+              "ayudo",
+              "help"
+            ],
+            [
+              "para que",
+              "so-that"
+            ],
+            [
+              "aprendas",
+              "learn"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Always-subjunctive conjunctions",
+            "rows": [
+              [
+                "para que",
+                "aprendas"
+              ],
+              [
+                "antes de que",
+                "vengas"
+              ],
+              [
+                "sin que",
+                "sepas"
+              ]
+            ],
+            "highlight": "para que",
+            "note": "These connectors introduce something not-yet-real, so they always take the subjunctive."
+          }
+        },
+        {
+          "id": "sub2_paraque_cloze",
+          "grammar": true,
+          "english": "Complete 'so that you learn'",
+          "word": "para que aprendas",
+          "grammarNote": "**para que** always triggers the subjunctive: **aprender → aprendas**.",
+          "englishPhrase": "I explain it so that you understand.",
+          "phrase": "Lo explico para que entiendas.",
+          "literal": [
+            [
+              "Lo",
+              "it"
+            ],
+            [
+              "explico",
+              "explain"
+            ],
+            [
+              "para que",
+              "so-that"
+            ],
+            [
+              "entiendas",
+              "understand"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "so that you understand (tú subjunctive of entender)",
+            "text": "para que ___",
+            "answer": "entiendas",
+            "options": [
+              "entiendas",
+              "entiendes"
+            ]
+          }
+        },
+        {
+          "id": "sub2_para_vs_paraque_contrast",
+          "grammar": true,
+          "english": "para + infinitive vs para que + subjunctive",
+          "word": "para comer / para que comas",
+          "grammarNote": "Same subject → **para** + infinitive; different subject → **para que** + subjunctive:\n**trabajo para comer** (I work to eat) vs **trabajo para que comas** (I work so *you* eat).",
+          "englishPhrase": "I cook so that you eat well.",
+          "phrase": "Cocino para que comas bien.",
+          "literal": [
+            [
+              "Cocino",
+              "I-cook"
+            ],
+            [
+              "para que",
+              "so-that"
+            ],
+            [
+              "comas",
+              "you-eat"
+            ],
+            [
+              "bien",
+              "well"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "One subject or two?",
+            "a": {
+              "term": "para comer",
+              "gloss": "same subject → infinitive"
+            },
+            "b": {
+              "term": "para que comas",
+              "gloss": "different subject → subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub2_cuando_table",
+          "grammar": true,
+          "english": "cuando: future vs habitual",
+          "word": "cuando llegue / cuando llego",
+          "grammarNote": "After **cuando**, the mood depends on time:\nfuture/not-yet-happened → subjunctive (**cuando llegue**); habitual/routine → indicative (**cuando llego**).",
+          "englishPhrase": "When I arrive, I'll call you.",
+          "phrase": "Cuando llegue, te llamo.",
+          "literal": [
+            [
+              "Cuando",
+              "when"
+            ],
+            [
+              "llegue",
+              "I-arrive"
+            ],
+            [
+              "te",
+              "you"
+            ],
+            [
+              "llamo",
+              "call"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "cuando + which mood?",
+            "rows": [
+              [
+                "future action",
+                "cuando llegue"
+              ],
+              [
+                "habitual action",
+                "cuando llego"
+              ]
+            ],
+            "highlight": "future action",
+            "note": "Not-yet-real future → subjunctive; every-day routine → indicative."
+          }
+        },
+        {
+          "id": "sub2_cuando_cloze",
+          "grammar": true,
+          "english": "Future 'when' → subjunctive",
+          "word": "cuando vengas",
+          "grammarNote": "A future 'when' clause uses the subjunctive:\n**cuando vengas** (when you come — hasn't happened yet).",
+          "englishPhrase": "When you come, we'll eat.",
+          "phrase": "Cuando vengas, comemos.",
+          "literal": [
+            [
+              "Cuando",
+              "when"
+            ],
+            [
+              "vengas",
+              "you-come"
+            ],
+            [
+              "comemos",
+              "we-eat"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "when you come (future → subjunctive of venir)",
+            "text": "cuando ___, comemos",
+            "answer": "vengas",
+            "options": [
+              "vengas",
+              "vienes"
+            ]
+          }
+        },
+        {
+          "id": "sub2_cuando_contrast",
+          "grammar": true,
+          "english": "Habitual 'when' vs future 'when'",
+          "word": "cuando llego / cuando llegue",
+          "grammarNote": "Routine stays indicative; a one-off future stays subjunctive:\n**cuando llego a casa, como** (whenever I get home, I eat) vs **cuando llegue, comeré** (when I get there, I'll eat).",
+          "englishPhrase": "When I get home, I always eat.",
+          "phrase": "Cuando llego a casa, siempre como.",
+          "literal": [
+            [
+              "Cuando",
+              "when"
+            ],
+            [
+              "llego",
+              "I-arrive"
+            ],
+            [
+              "a",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ],
+            [
+              "siempre",
+              "always"
+            ],
+            [
+              "como",
+              "I-eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Routine or future?",
+            "a": {
+              "term": "cuando llego",
+              "gloss": "habit → indicative"
+            },
+            "b": {
+              "term": "cuando llegue",
+              "gloss": "future → subjunctive"
+            }
+          }
+        },
+        {
+          "id": "sub2_produce",
+          "grammar": true,
+          "english": "Build a purpose clause",
+          "word": "para que aprendas",
+          "grammarNote": "**para que** + subjunctive expresses purpose toward another person:\n**te ayudo para que aprendas** (I help you so you learn).",
+          "englishPhrase": "I teach so that you learn.",
+          "phrase": "Enseño para que aprendas.",
+          "literal": [
+            [
+              "Enseño",
+              "I-teach"
+            ],
+            [
+              "para que",
+              "so-that"
+            ],
+            [
+              "aprendas",
+              "you-learn"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "para que + subjunctive",
+            "task": "Say 'I cook so that you eat' and 'I explain so that you understand'",
+            "answer": "cocino para que comas / explico para que entiendas",
+            "gloss": "para que + subjunctive (comas, entiendas)"
+          }
+        },
+        {
+          "id": "sub2_recap_cloze",
+          "grammar": true,
+          "english": "Recap: doubt → subjunctive",
+          "word": "no pienso que sea",
+          "grammarNote": "Denying a fact takes the subjunctive: **ser → sea**.\n**no pienso que sea bueno** (I don't think it's good).",
+          "englishPhrase": "I don't think it's good.",
+          "phrase": "No pienso que sea bueno.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "pienso",
+              "think"
+            ],
+            [
+              "que",
+              "that"
+            ],
+            [
+              "sea",
+              "is"
+            ],
+            [
+              "bueno",
+              "good"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I don't think it is good (subjunctive of ser)",
+            "text": "no pienso que ___ bueno",
+            "answer": "sea",
+            "options": [
+              "sea",
+              "es"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_comparisons",
+      "name": "Comparisons",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "cmp_mas_que",
+          "english": "more than",
+          "word": "más que",
+          "grammarNote": "**más ... que** = more ... than. Put the adjective in the middle:\n**más grande que** (bigger than), **más caliente que** (hotter than). **más** already means 'more'.",
+          "englishPhrase": "Coffee is hotter than tea.",
+          "phrase": "El café está más caliente que el té.",
+          "literal": [
+            [
+              "El",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "más",
+              "more"
+            ],
+            [
+              "caliente",
+              "hot"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "té",
+              "tea"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_menos_que",
+          "english": "less than",
+          "word": "menos que",
+          "grammarNote": "**menos ... que** = less ... than:\n**menos grande que** (less big than), **menos caro que** (less expensive than).",
+          "englishPhrase": "The tea is less hot than the coffee.",
+          "phrase": "El té está menos caliente que el café.",
+          "literal": [
+            [
+              "El",
+              "the"
+            ],
+            [
+              "té",
+              "tea"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "menos",
+              "less"
+            ],
+            [
+              "caliente",
+              "hot"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_tan_como",
+          "english": "as ... as",
+          "word": "tan ... como",
+          "grammarNote": "For equality with an adjective, use **tan + adjective + como**:\n**tan grande como** (as big as), **tan feliz como** (as happy as).",
+          "englishPhrase": "She is as happy as me.",
+          "phrase": "Ella está tan feliz como yo.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "tan",
+              "as"
+            ],
+            [
+              "feliz",
+              "happy"
+            ],
+            [
+              "como",
+              "as"
+            ],
+            [
+              "yo",
+              "me"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_tanto_como",
+          "english": "as much as",
+          "word": "tanto como",
+          "grammarNote": "For equality with a verb or quantity, use **tanto como** (as much as):\n**trabaja tanto como yo** (he works as much as me). With nouns it agrees: **tanta agua**, **tantos libros**.",
+          "englishPhrase": "I eat as much as you.",
+          "phrase": "Como tanto como tú.",
+          "literal": [
+            [
+              "Como",
+              "I-eat"
+            ],
+            [
+              "tanto",
+              "as-much"
+            ],
+            [
+              "como",
+              "as"
+            ],
+            [
+              "tú",
+              "you"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_mejor",
+          "english": "better",
+          "word": "mejor",
+          "grammarNote": "**mejor** = better (the irregular comparative of **bueno**). Don't say 'más bueno'.\n**este café es mejor** (this coffee is better).",
+          "englishPhrase": "This restaurant is better.",
+          "phrase": "Este restaurante es mejor.",
+          "literal": [
+            [
+              "Este",
+              "this"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "mejor",
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_peor",
+          "english": "worse",
+          "word": "peor",
+          "grammarNote": "**peor** = worse (the irregular comparative of **malo**). Don't say 'más malo'.\n**la comida está peor hoy** (the food is worse today).",
+          "englishPhrase": "The weather is worse today.",
+          "phrase": "El tiempo está peor hoy.",
+          "literal": [
+            [
+              "El",
+              "the"
+            ],
+            [
+              "tiempo",
+              "weather"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "peor",
+              "worse"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_mayor",
+          "english": "older",
+          "word": "mayor",
+          "grammarNote": "**mayor** = older (for people's age). Use it instead of 'más viejo' for people:\n**mi hermano es mayor** (my brother is older).",
+          "englishPhrase": "She is older than me.",
+          "phrase": "Ella es mayor que yo.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "mayor",
+              "older"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "yo",
+              "me"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_menor",
+          "english": "younger",
+          "word": "menor",
+          "grammarNote": "**menor** = younger (for people's age). Use it instead of 'más joven' for people:\n**mi hermana es menor** (my sister is younger).",
+          "englishPhrase": "He is younger than me.",
+          "phrase": "Él es menor que yo.",
+          "literal": [
+            [
+              "Él",
+              "he"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "menor",
+              "younger"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "yo",
+              "me"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_superlative_el_mas",
+          "english": "the most / the ...-est",
+          "word": "el más ...",
+          "grammarNote": "The superlative = **el/la + más + adjective (+ de)**:\n**el más grande** (the biggest), **la más feliz del equipo** (the happiest on the team).",
+          "englishPhrase": "It's the biggest park in the city.",
+          "phrase": "Es el parque más grande de la ciudad.",
+          "literal": [
+            [
+              "Es",
+              "it-is"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "parque",
+              "park"
+            ],
+            [
+              "más",
+              "most"
+            ],
+            [
+              "grande",
+              "big"
+            ],
+            [
+              "de",
+              "of"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "ciudad",
+              "city"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_el_mejor",
+          "english": "the best",
+          "word": "el mejor",
+          "grammarNote": "**el/la mejor** = the best; **el/la peor** = the worst. Add **de** for the group:\n**el mejor restaurante de la ciudad** (the best restaurant in the city).",
+          "englishPhrase": "It's the best coffee in the neighborhood.",
+          "phrase": "Es el mejor café del barrio.",
+          "literal": [
+            [
+              "Es",
+              "it-is"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "mejor",
+              "best"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "del",
+              "of-the"
+            ],
+            [
+              "barrio",
+              "neighborhood"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_structure_table",
+          "grammar": true,
+          "english": "The comparison structure",
+          "word": "más / menos + adjetivo + que",
+          "grammarNote": "Build a comparison as **más/menos + adjective + que**:\n**más grande que** (bigger than), **menos frío que** (less cold than).",
+          "englishPhrase": "The coffee is bigger than the tea.",
+          "phrase": "El café es más grande que el té.",
+          "literal": [
+            [
+              "El",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "más",
+              "more"
+            ],
+            [
+              "grande",
+              "big"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "té",
+              "tea"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Comparison patterns",
+            "rows": [
+              [
+                "more than",
+                "más ... que"
+              ],
+              [
+                "less than",
+                "menos ... que"
+              ],
+              [
+                "as ... as",
+                "tan ... como"
+              ]
+            ],
+            "highlight": "as ... as",
+            "note": "más/menos take que; tan/tanto take como."
+          }
+        },
+        {
+          "id": "cmp_irregular_contrast",
+          "grammar": true,
+          "english": "better = mejor, not 'más bueno'",
+          "word": "mejor / peor",
+          "grammarNote": "Four adjectives have irregular comparatives — don't use más:\n**bueno → mejor**, **malo → peor**, **viejo → mayor**, **joven → menor**.",
+          "englishPhrase": "This coffee is better than that one.",
+          "phrase": "Este café es mejor que ese.",
+          "literal": [
+            [
+              "Este",
+              "this"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "mejor",
+              "better"
+            ],
+            [
+              "que",
+              "than"
+            ],
+            [
+              "ese",
+              "that-one"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which is correct for 'better'?",
+            "a": {
+              "term": "mejor",
+              "gloss": "✓ irregular comparative of bueno"
+            },
+            "b": {
+              "term": "más bueno",
+              "gloss": "✗ don't use más with bueno"
+            }
+          }
+        },
+        {
+          "id": "cmp_tan_como_cloze",
+          "grammar": true,
+          "english": "Complete 'as ... as'",
+          "word": "tan cansado como",
+          "grammarNote": "Equality with an adjective = **tan + adjective + como**. The pair is tan...como, not tan...que.",
+          "englishPhrase": "I am as tired as you.",
+          "phrase": "Estoy tan cansado como tú.",
+          "literal": [
+            [
+              "Estoy",
+              "I-am"
+            ],
+            [
+              "tan",
+              "as"
+            ],
+            [
+              "cansado",
+              "tired"
+            ],
+            [
+              "como",
+              "as"
+            ],
+            [
+              "tú",
+              "you"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "as tired as you (equality pair)",
+            "text": "tan cansado ___ tú",
+            "answer": "como",
+            "options": [
+              "como",
+              "que"
+            ]
+          }
+        },
+        {
+          "id": "cmp_age_vs_size_contrast",
+          "grammar": true,
+          "english": "mayor (age) vs más grande (size)",
+          "word": "mayor / más grande",
+          "grammarNote": "For **people's age**, use mayor/menor; for physical **size**, use más grande / más pequeño:\n**mi hermano es mayor** (older) vs **esta casa es más grande** (bigger).",
+          "englishPhrase": "She is older, but I'm bigger.",
+          "phrase": "Ella es mayor, pero yo soy más grande.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "mayor",
+              "older"
+            ],
+            [
+              "pero",
+              "but"
+            ],
+            [
+              "yo",
+              "I"
+            ],
+            [
+              "soy",
+              "am"
+            ],
+            [
+              "más",
+              "more"
+            ],
+            [
+              "grande",
+              "big"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Age or size?",
+            "a": {
+              "term": "es mayor",
+              "gloss": "older in age → mayor"
+            },
+            "b": {
+              "term": "es más grande",
+              "gloss": "bigger in size → más grande"
+            }
+          }
+        },
+        {
+          "id": "cmp_superlative_produce",
+          "grammar": true,
+          "english": "Build a superlative",
+          "word": "el más grande de",
+          "grammarNote": "Superlative = **el/la + más + adjective + de + group**:\n**el parque más grande de la ciudad** (the biggest park in the city).",
+          "englishPhrase": "She's the happiest on the team.",
+          "phrase": "Ella es la más feliz del equipo.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "más",
+              "most"
+            ],
+            [
+              "feliz",
+              "happy"
+            ],
+            [
+              "del",
+              "of-the"
+            ],
+            [
+              "equipo",
+              "team"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Superlative with el/la más ... de",
+            "task": "Say 'the biggest park in the city'",
+            "answer": "el parque más grande de la ciudad",
+            "gloss": "el/la más + adjective + de + group"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_reflexives",
+      "name": "Reflexive Verbs",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "rfl_pronouns_table",
+          "grammar": true,
+          "english": "The reflexive pronouns",
+          "word": "me, te, se, nos, se",
+          "grammarNote": "A reflexive verb turns the action back on the subject ('-self'). Each subject has its pronoun:\n**me, te, se, nos, se**. The infinitive ends in **-se** (llamarse, sentirse).",
+          "englishPhrase": "My name is Ana.",
+          "phrase": "Me llamo Ana.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "llamo",
+              "call"
+            ],
+            [
+              "Ana",
+              "Ana"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Reflexive pronouns",
+            "rows": [
+              [
+                "yo",
+                "me"
+              ],
+              [
+                "tú",
+                "te"
+              ],
+              [
+                "él / ella",
+                "se"
+              ],
+              [
+                "nosotros",
+                "nos"
+              ],
+              [
+                "ellos / ellas",
+                "se"
+              ]
+            ],
+            "highlight": "él / ella",
+            "note": "The pronoun matches the subject and normally goes right before the verb."
+          }
+        },
+        {
+          "id": "rfl_llamarse_table",
+          "grammar": true,
+          "english": "Full reflexive conjugation: llamarse",
+          "word": "me llamo, te llamas, se llama",
+          "grammarNote": "Conjugate the verb normally and add the matching pronoun:\n**me llamo, te llamas, se llama, nos llamamos, se llaman** (literally 'I call myself...').",
+          "englishPhrase": "What's your name?",
+          "phrase": "¿Cómo te llamas?",
+          "literal": [
+            [
+              "Cómo",
+              "how"
+            ],
+            [
+              "te",
+              "yourself"
+            ],
+            [
+              "llamas",
+              "call"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "llamarse (to be called)",
+            "rows": [
+              [
+                "yo",
+                "me llamo"
+              ],
+              [
+                "tú",
+                "te llamas"
+              ],
+              [
+                "él / ella",
+                "se llama"
+              ],
+              [
+                "nosotros",
+                "nos llamamos"
+              ],
+              [
+                "ellos / ellas",
+                "se llaman"
+              ]
+            ],
+            "highlight": "tú",
+            "note": "The verb ending changes as usual; the pronoun changes with the subject."
+          }
+        },
+        {
+          "id": "rfl_produce",
+          "grammar": true,
+          "english": "Conjugate a reflexive verb",
+          "word": "me relajo",
+          "grammarNote": "Match the pronoun to the subject, then conjugate:\n**relajarse → me relajo** (I relax), **te relajas** (you relax).",
+          "englishPhrase": "I relax at home.",
+          "phrase": "Me relajo en casa.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "relajo",
+              "relax"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Reflexive pronoun + conjugated verb",
+            "task": "Say 'I stay home' (quedarse) and 'she worries' (preocuparse)",
+            "answer": "me quedo en casa / se preocupa",
+            "gloss": "me quedo, se preocupa"
+          }
+        },
+        {
+          "id": "rfl_pronoun_cloze",
+          "grammar": true,
+          "english": "Match the pronoun to the subject",
+          "word": "nos quedamos",
+          "grammarNote": "For **nosotros**, the reflexive pronoun is **nos**:\n**nos quedamos** (we stay), **nos relajamos** (we relax).",
+          "englishPhrase": "We stay at the hotel.",
+          "phrase": "Nos quedamos en el hotel.",
+          "literal": [
+            [
+              "Nos",
+              "ourselves"
+            ],
+            [
+              "quedamos",
+              "stay"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "hotel",
+              "hotel"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "we stay (nosotros reflexive pronoun)",
+            "text": "___ quedamos en el hotel",
+            "answer": "nos",
+            "options": [
+              "nos",
+              "se"
+            ]
+          }
+        },
+        {
+          "id": "rfl_vs_nonreflexive_contrast",
+          "grammar": true,
+          "english": "Reflexive vs non-reflexive",
+          "word": "lavo el plato / me lavo las manos",
+          "grammarNote": "Without the pronoun, the action falls on something else; with it, on yourself:\n**lavo el plato** (I wash the plate) vs **me lavo las manos** (I wash my hands).",
+          "englishPhrase": "I wash my hands before eating.",
+          "phrase": "Me lavo las manos antes de comer.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "lavo",
+              "wash"
+            ],
+            [
+              "las",
+              "the"
+            ],
+            [
+              "manos",
+              "hands"
+            ],
+            [
+              "antes de",
+              "before"
+            ],
+            [
+              "comer",
+              "eating"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Who receives the action?",
+            "a": {
+              "term": "lavo el plato",
+              "gloss": "the plate → not reflexive"
+            },
+            "b": {
+              "term": "me lavo las manos",
+              "gloss": "myself → reflexive"
+            }
+          }
+        },
+        {
+          "id": "rfl_sentirse_table",
+          "grammar": true,
+          "english": "sentirse (to feel)",
+          "word": "me siento cansado",
+          "grammarNote": "**sentirse** describes how you feel; it's reflexive and stem-changes e→ie:\n**me siento, te sientes, se siente, nos sentimos, se sienten**.",
+          "englishPhrase": "I feel tired today.",
+          "phrase": "Me siento cansado hoy.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "siento",
+              "feel"
+            ],
+            [
+              "cansado",
+              "tired"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "sentirse (to feel)",
+            "rows": [
+              [
+                "yo",
+                "me siento"
+              ],
+              [
+                "tú",
+                "te sientes"
+              ],
+              [
+                "él / ella",
+                "se siente"
+              ],
+              [
+                "nosotros",
+                "nos sentimos"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Follow with an adjective that agrees: me siento cansada (feminine)."
+          }
+        },
+        {
+          "id": "rfl_preocupar_contrast",
+          "grammar": true,
+          "english": "preocupar vs preocuparse",
+          "word": "me preocupa / me preocupo",
+          "grammarNote": "Some verbs shift meaning with the reflexive:\n**me preocupa el trabajo** (work worries me) vs **me preocupo por ti** (I worry about you).",
+          "englishPhrase": "I worry about work.",
+          "phrase": "Me preocupo por el trabajo.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "preocupo",
+              "worry"
+            ],
+            [
+              "por",
+              "about"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "trabajo",
+              "work"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which is reflexive?",
+            "a": {
+              "term": "me preocupa el trabajo",
+              "gloss": "work worries me (not reflexive)"
+            },
+            "b": {
+              "term": "me preocupo",
+              "gloss": "I worry (reflexive)"
+            }
+          }
+        },
+        {
+          "id": "rfl_agreement_cloze",
+          "grammar": true,
+          "english": "Pronoun agrees with the subject",
+          "word": "se preocupa",
+          "grammarNote": "For **él/ella**, the reflexive pronoun is **se**:\n**se preocupa** (he/she worries), **se queda** (he/she stays).",
+          "englishPhrase": "She worries a lot.",
+          "phrase": "Ella se preocupa mucho.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "se",
+              "herself"
+            ],
+            [
+              "preocupa",
+              "worries"
+            ],
+            [
+              "mucho",
+              "a-lot"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "she worries (él/ella reflexive pronoun)",
+            "text": "ella ___ preocupa mucho",
+            "answer": "se",
+            "options": [
+              "se",
+              "me"
+            ]
+          }
+        },
+        {
+          "id": "rfl_placement_table",
+          "grammar": true,
+          "english": "Pronoun placement with an infinitive",
+          "word": "quiero relajarme / me quiero relajar",
+          "grammarNote": "With an infinitive, the reflexive pronoun can go two ways:\nattached to the infinitive (**quiero relajarme**) or before the first verb (**me quiero relajar**). Both are correct.",
+          "englishPhrase": "I want to relax at home.",
+          "phrase": "Quiero relajarme en casa.",
+          "literal": [
+            [
+              "Quiero",
+              "want"
+            ],
+            [
+              "relajarme",
+              "to-relax-myself"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Two correct placements",
+            "rows": [
+              [
+                "attached",
+                "quiero relajarme"
+              ],
+              [
+                "before verb",
+                "me quiero relajar"
+              ]
+            ],
+            "highlight": "attached",
+            "note": "With a conjugated verb + infinitive, either attach to the infinitive or move before the first verb."
+          }
+        },
+        {
+          "id": "rfl_placement_produce",
+          "grammar": true,
+          "english": "Move the pronoun before the verb",
+          "word": "me quiero quedar",
+          "grammarNote": "The two placements are equivalent:\n**quiero quedarme** = **me quiero quedar** (I want to stay).",
+          "englishPhrase": "I want to stay home.",
+          "phrase": "Me quiero quedar en casa.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "quiero",
+              "want"
+            ],
+            [
+              "quedar",
+              "to-stay"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Reflexive pronoun placement with infinitives",
+            "task": "Rewrite 'quiero relajarme' with the pronoun before the verb",
+            "answer": "me quiero relajar",
+            "gloss": "Both mean 'I want to relax'."
+          }
+        },
+        {
+          "id": "rfl_body_article_cloze",
+          "grammar": true,
+          "english": "Body parts take the article, not 'my'",
+          "word": "me lavo las manos",
+          "grammarNote": "With reflexive verbs and body parts, Spanish uses the article (the reflexive already shows it's yours):\n**me lavo las manos** (I wash my hands), not 'mis manos'.",
+          "englishPhrase": "I wash my hands.",
+          "phrase": "Me lavo las manos.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "lavo",
+              "wash"
+            ],
+            [
+              "las",
+              "the"
+            ],
+            [
+              "manos",
+              "hands"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I wash my hands (use the article, not 'mis')",
+            "text": "me lavo ___ manos",
+            "answer": "las",
+            "options": [
+              "las",
+              "mis"
+            ]
+          }
+        },
+        {
+          "id": "rfl_reciprocal_table",
+          "grammar": true,
+          "english": "Reciprocal: 'each other'",
+          "word": "nos reunimos, se encuentran",
+          "grammarNote": "In the plural, a reflexive can mean **each other**:\n**nos reunimos** (we meet up), **se encuentran** (they meet each other).",
+          "englishPhrase": "We meet at the cafe.",
+          "phrase": "Nos reunimos en el café.",
+          "literal": [
+            [
+              "Nos",
+              "each-other"
+            ],
+            [
+              "reunimos",
+              "meet"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "cafe"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Reciprocal (each other)",
+            "rows": [
+              [
+                "nosotros",
+                "nos reunimos"
+              ],
+              [
+                "ellos / ellas",
+                "se reúnen"
+              ],
+              [
+                "ellos / ellas",
+                "se encuentran"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "Plural reflexives often mean 'each other': nos reunimos, se encuentran."
+          }
+        },
+        {
+          "id": "rfl_command_contrast",
+          "grammar": true,
+          "english": "Reflexive in commands",
+          "word": "relájate / no te relajes",
+          "grammarNote": "The reflexive pronoun attaches to affirmative commands but moves before negative ones:\n**relájate** (relax!) vs **no te relajes** (don't relax).",
+          "englishPhrase": "Relax and stay home.",
+          "phrase": "Relájate y quédate en casa.",
+          "literal": [
+            [
+              "Relájate",
+              "relax"
+            ],
+            [
+              "y",
+              "and"
+            ],
+            [
+              "quédate",
+              "stay"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Where does 'te' go?",
+            "a": {
+              "term": "relájate",
+              "gloss": "affirmative → attached"
+            },
+            "b": {
+              "term": "no te relajes",
+              "gloss": "negative → before the verb"
+            }
+          }
+        },
+        {
+          "id": "rfl_recap_produce",
+          "grammar": true,
+          "english": "Recap: build a reflexive sentence",
+          "word": "se queda",
+          "grammarNote": "Reflexive pronoun (matching the subject) + conjugated verb:\n**él se queda en casa** (he stays home).",
+          "englishPhrase": "He stays home today.",
+          "phrase": "Él se queda en casa hoy.",
+          "literal": [
+            [
+              "Él",
+              "he"
+            ],
+            [
+              "se",
+              "himself"
+            ],
+            [
+              "queda",
+              "stays"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Reflexive conjugation recap",
+            "task": "Say 'we relax' and 'they get lost'",
+            "answer": "nos relajamos / se pierden",
+            "gloss": "nos relajamos, se pierden (perderse, e→ie)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_negation",
+      "name": "Negation & Indefinites",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "neg_double_table",
+          "grammar": true,
+          "english": "The double negative is normal",
+          "word": "no como nada",
+          "grammarNote": "Spanish keeps **no** before the verb and adds a second negative after it:\n**no como nada** (I don't eat anything — literally 'I don't eat nothing'). Two negatives are correct here.",
+          "englishPhrase": "I don't want anything.",
+          "phrase": "No quiero nada.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "quiero",
+              "want"
+            ],
+            [
+              "nada",
+              "nothing"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "no + verb + negative word",
+            "rows": [
+              [
+                "nothing",
+                "no ... nada"
+              ],
+              [
+                "nobody",
+                "no ... nadie"
+              ],
+              [
+                "never",
+                "no ... nunca"
+              ]
+            ],
+            "highlight": "nothing",
+            "note": "Unlike English, Spanish requires the double negative when a negative word follows the verb."
+          }
+        },
+        {
+          "id": "neg_algo_nada_contrast",
+          "grammar": true,
+          "english": "algo vs nada",
+          "word": "algo / nada",
+          "grammarNote": "**algo** = something; **nada** = nothing.\n**¿quieres algo?** (do you want something?) → **no, no quiero nada** (no, I don't want anything).",
+          "englishPhrase": "I don't want anything, thanks.",
+          "phrase": "No quiero nada, gracias.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "quiero",
+              "want"
+            ],
+            [
+              "nada",
+              "nothing"
+            ],
+            [
+              "gracias",
+              "thanks"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Something or nothing?",
+            "a": {
+              "term": "algo",
+              "gloss": "something (positive)"
+            },
+            "b": {
+              "term": "nada",
+              "gloss": "nothing (negative)"
+            }
+          }
+        },
+        {
+          "id": "neg_nada_cloze",
+          "grammar": true,
+          "english": "Complete the double negative",
+          "word": "no como nada",
+          "grammarNote": "Keep **no** before the verb and **nada** after: **no como nada** (I don't eat anything).",
+          "englishPhrase": "I don't eat anything today.",
+          "phrase": "No como nada hoy.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "como",
+              "eat"
+            ],
+            [
+              "nada",
+              "nothing"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I don't eat anything (nothing)",
+            "text": "no como ___",
+            "answer": "nada",
+            "options": [
+              "nada",
+              "algo"
+            ]
+          }
+        },
+        {
+          "id": "neg_nadie_alguien_table",
+          "grammar": true,
+          "english": "alguien / nadie (people)",
+          "word": "alguien, nadie",
+          "grammarNote": "For people: **alguien** = somebody, **nadie** = nobody.\n**no veo a nadie** (I don't see anybody) — use the personal **a** before people.",
+          "englishPhrase": "There's nobody in the office.",
+          "phrase": "No hay nadie en la oficina.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "hay",
+              "there-is"
+            ],
+            [
+              "nadie",
+              "nobody"
+            ],
+            [
+              "en",
+              "in"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "oficina",
+              "office"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "People: positive vs negative",
+            "rows": [
+              [
+                "somebody",
+                "alguien"
+              ],
+              [
+                "nobody",
+                "nadie"
+              ]
+            ],
+            "highlight": "nobody",
+            "note": "Both refer to people. Use the personal 'a' when they are the object: no veo a nadie."
+          }
+        },
+        {
+          "id": "neg_alguien_nadie_contrast",
+          "grammar": true,
+          "english": "alguien vs nadie",
+          "word": "alguien / nadie",
+          "grammarNote": "**¿hay alguien?** (is anyone there?) → **no, no hay nadie** (no, there's nobody).",
+          "englishPhrase": "Is somebody in the kitchen?",
+          "phrase": "¿Hay alguien en la cocina?",
+          "literal": [
+            [
+              "Hay",
+              "is-there"
+            ],
+            [
+              "alguien",
+              "somebody"
+            ],
+            [
+              "en",
+              "in"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cocina",
+              "kitchen"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Somebody or nobody?",
+            "a": {
+              "term": "alguien",
+              "gloss": "somebody (positive)"
+            },
+            "b": {
+              "term": "nadie",
+              "gloss": "nobody (negative)"
+            }
+          }
+        },
+        {
+          "id": "neg_make_negative_produce",
+          "grammar": true,
+          "english": "Make a sentence negative",
+          "word": "no veo a nadie",
+          "grammarNote": "Add **no** before the verb and the matching negative word:\n**veo a alguien → no veo a nadie** (I see somebody → I don't see anybody).",
+          "englishPhrase": "I don't see anybody here.",
+          "phrase": "No veo a nadie aquí.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "veo",
+              "see"
+            ],
+            [
+              "a",
+              ""
+            ],
+            [
+              "nadie",
+              "nobody"
+            ],
+            [
+              "aquí",
+              "here"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Turn a positive into a double negative",
+            "task": "Make 'quiero algo' and 'veo a alguien' negative",
+            "answer": "no quiero nada / no veo a nadie",
+            "gloss": "algo → nada, alguien → nadie"
+          }
+        },
+        {
+          "id": "neg_nunca_table",
+          "grammar": true,
+          "english": "nunca (never): two positions",
+          "word": "nunca como / no como nunca",
+          "grammarNote": "**nunca** can go before the verb alone, or after the verb with **no**:\n**nunca como carne** = **no como carne nunca** (I never eat meat). Both are correct.",
+          "englishPhrase": "I never drink coffee.",
+          "phrase": "Nunca bebo café.",
+          "literal": [
+            [
+              "Nunca",
+              "never"
+            ],
+            [
+              "bebo",
+              "drink"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Two ways to say 'never'",
+            "rows": [
+              [
+                "before verb",
+                "nunca como"
+              ],
+              [
+                "after verb",
+                "no como nunca"
+              ]
+            ],
+            "highlight": "before verb",
+            "note": "If the negative word comes before the verb, you drop 'no'."
+          }
+        },
+        {
+          "id": "neg_nunca_cloze",
+          "grammar": true,
+          "english": "Drop 'no' when nunca is first",
+          "word": "nunca bebo",
+          "grammarNote": "When **nunca** goes before the verb, you don't add **no**:\n**nunca bebo café** (I never drink coffee), not 'no nunca bebo'.",
+          "englishPhrase": "I never drink wine.",
+          "phrase": "Nunca bebo vino.",
+          "literal": [
+            [
+              "Nunca",
+              "never"
+            ],
+            [
+              "bebo",
+              "drink"
+            ],
+            [
+              "vino",
+              "wine"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I never drink wine (nunca before the verb)",
+            "text": "___ bebo vino",
+            "answer": "nunca",
+            "options": [
+              "nunca",
+              "no nunca"
+            ]
+          }
+        },
+        {
+          "id": "neg_tambien_tampoco_contrast",
+          "grammar": true,
+          "english": "también vs tampoco",
+          "word": "también / tampoco",
+          "grammarNote": "**también** = also (positive); **tampoco** = neither / not either (negative):\n**yo también** (me too) → **yo tampoco** (me neither).",
+          "englishPhrase": "I don't like it either.",
+          "phrase": "A mí tampoco me gusta.",
+          "literal": [
+            [
+              "A mí",
+              "to-me"
+            ],
+            [
+              "tampoco",
+              "neither"
+            ],
+            [
+              "me gusta",
+              "it-pleases"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Agreeing with a positive or a negative?",
+            "a": {
+              "term": "también",
+              "gloss": "me too (positive)"
+            },
+            "b": {
+              "term": "tampoco",
+              "gloss": "me neither (negative)"
+            }
+          }
+        },
+        {
+          "id": "neg_ninguno_table",
+          "grammar": true,
+          "english": "ningún / ninguno (none)",
+          "word": "ningún, ninguna",
+          "grammarNote": "**ninguno** = none / not any. Before a masculine noun it shortens to **ningún**:\n**ningún problema** (no problem), **ninguna idea** (no idea). Usually singular.",
+          "englishPhrase": "There's no problem.",
+          "phrase": "No hay ningún problema.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "hay",
+              "there-is"
+            ],
+            [
+              "ningún",
+              "no"
+            ],
+            [
+              "problema",
+              "problem"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "ninguno agreement",
+            "rows": [
+              [
+                "before masc. noun",
+                "ningún problema"
+              ],
+              [
+                "feminine noun",
+                "ninguna idea"
+              ]
+            ],
+            "highlight": "before masc. noun",
+            "note": "ninguno → ningún before a masculine noun. It's normally used in the singular."
+          }
+        },
+        {
+          "id": "neg_algun_ningun_contrast",
+          "grammar": true,
+          "english": "algún vs ningún",
+          "word": "algún / ningún",
+          "grammarNote": "**algún** = some/any (positive); **ningún** = no/none (negative):\n**¿hay algún problema?** → **no, no hay ningún problema**.",
+          "englishPhrase": "Is there any problem?",
+          "phrase": "¿Hay algún problema?",
+          "literal": [
+            [
+              "Hay",
+              "is-there"
+            ],
+            [
+              "algún",
+              "any"
+            ],
+            [
+              "problema",
+              "problem"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Some or none?",
+            "a": {
+              "term": "algún",
+              "gloss": "some / any (positive)"
+            },
+            "b": {
+              "term": "ningún",
+              "gloss": "no / none (negative)"
+            }
+          }
+        },
+        {
+          "id": "neg_ninguno_cloze",
+          "grammar": true,
+          "english": "Complete with the negative",
+          "word": "no hay ninguna",
+          "grammarNote": "Before a feminine noun, use **ninguna**: **no hay ninguna mesa** (there isn't any table).",
+          "englishPhrase": "There isn't any table free.",
+          "phrase": "No hay ninguna mesa libre.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "hay",
+              "there-is"
+            ],
+            [
+              "ninguna",
+              "any"
+            ],
+            [
+              "mesa",
+              "table"
+            ],
+            [
+              "libre",
+              "free"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "there isn't any table (feminine noun)",
+            "text": "no hay ___ mesa",
+            "answer": "ninguna",
+            "options": [
+              "ninguna",
+              "ningún"
+            ]
+          }
+        },
+        {
+          "id": "neg_placement_table",
+          "grammar": true,
+          "english": "Where negatives sit",
+          "word": "no ... nada / nada ...",
+          "grammarNote": "A negative word can follow the verb (with **no**) or lead the sentence (without **no**):\n**no viene nadie** = **nadie viene** (nobody comes).",
+          "englishPhrase": "Nobody comes today.",
+          "phrase": "Nadie viene hoy.",
+          "literal": [
+            [
+              "Nadie",
+              "nobody"
+            ],
+            [
+              "viene",
+              "comes"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Two equivalent orders",
+            "rows": [
+              [
+                "after verb (+ no)",
+                "no viene nadie"
+              ],
+              [
+                "before verb (no 'no')",
+                "nadie viene"
+              ]
+            ],
+            "highlight": "before verb (no 'no')",
+            "note": "Negative before the verb → drop 'no'. Negative after the verb → keep 'no'."
+          }
+        },
+        {
+          "id": "neg_produce",
+          "grammar": true,
+          "english": "Rewrite without 'no'",
+          "word": "nadie viene",
+          "grammarNote": "Move the negative in front of the verb and drop **no**:\n**no viene nadie → nadie viene** (nobody comes).",
+          "englishPhrase": "Nobody works today.",
+          "phrase": "Nadie trabaja hoy.",
+          "literal": [
+            [
+              "Nadie",
+              "nobody"
+            ],
+            [
+              "trabaja",
+              "works"
+            ],
+            [
+              "hoy",
+              "today"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Fronting the negative word",
+            "task": "Rewrite 'no viene nadie' and 'no come nada' with the negative first",
+            "answer": "nadie viene / nada come",
+            "gloss": "Front the negative → drop 'no'."
+          }
+        },
+        {
+          "id": "neg_nada_emphasis_contrast",
+          "grammar": true,
+          "english": "nada = 'not at all'",
+          "word": "no me gusta nada",
+          "grammarNote": "**nada** can also intensify a negative to mean 'at all':\n**no me gusta** (I don't like it) → **no me gusta nada** (I don't like it at all).",
+          "englishPhrase": "I don't like it at all.",
+          "phrase": "No me gusta nada.",
+          "literal": [
+            [
+              "No",
+              "not"
+            ],
+            [
+              "me gusta",
+              "it-pleases"
+            ],
+            [
+              "nada",
+              "at-all"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Plain negative or emphatic?",
+            "a": {
+              "term": "no me gusta",
+              "gloss": "I don't like it"
+            },
+            "b": {
+              "term": "no me gusta nada",
+              "gloss": "I don't like it at all"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_gustar_family",
+      "name": "Verbs like Gustar",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "gus_mechanics_table",
+          "grammar": true,
+          "english": "How gustar works (in reverse)",
+          "word": "me gusta el café",
+          "grammarNote": "**gustar** literally means 'to be pleasing'. The thing liked is the subject, and an indirect pronoun says to whom:\n**me gusta el café** = 'coffee is pleasing to me'.",
+          "englishPhrase": "I like coffee.",
+          "phrase": "Me gusta el café.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "The pronoun says who likes it",
+            "rows": [
+              [
+                "me gusta",
+                "I like"
+              ],
+              [
+                "te gusta",
+                "you like"
+              ],
+              [
+                "le gusta",
+                "he/she likes"
+              ],
+              [
+                "nos gusta",
+                "we like"
+              ],
+              [
+                "les gusta",
+                "they like"
+              ]
+            ],
+            "highlight": "le gusta",
+            "note": "me / te / le / nos / les mark who is pleased. The verb agrees with the thing liked, not the person."
+          }
+        },
+        {
+          "id": "gus_gusta_gustan_contrast",
+          "grammar": true,
+          "english": "gusta vs gustan",
+          "word": "me gusta / me gustan",
+          "grammarNote": "The verb agrees with the **thing liked**:\nsingular → **me gusta el café**; plural → **me gustan las galletas**.",
+          "englishPhrase": "I like cookies.",
+          "phrase": "Me gustan las galletas.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gustan",
+              "are-pleasing"
+            ],
+            [
+              "las",
+              "the"
+            ],
+            [
+              "galletas",
+              "cookies"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "One thing or many?",
+            "a": {
+              "term": "me gusta el café",
+              "gloss": "singular thing → gusta"
+            },
+            "b": {
+              "term": "me gustan las galletas",
+              "gloss": "plural things → gustan"
+            }
+          }
+        },
+        {
+          "id": "gus_gustan_cloze",
+          "grammar": true,
+          "english": "Agree with a plural subject",
+          "word": "me gustan las frutas",
+          "grammarNote": "Plural thing liked → plural verb: **me gustan las frutas** (I like fruit / fruits).",
+          "englishPhrase": "I like vegetables.",
+          "phrase": "Me gustan las verduras.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gustan",
+              "are-pleasing"
+            ],
+            [
+              "las",
+              "the"
+            ],
+            [
+              "verduras",
+              "vegetables"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I like vegetables (plural thing → verb agrees)",
+            "text": "me ___ las verduras",
+            "answer": "gustan",
+            "options": [
+              "gustan",
+              "gusta"
+            ]
+          }
+        },
+        {
+          "id": "gus_produce",
+          "grammar": true,
+          "english": "Build 'I like coffee'",
+          "word": "me gusta el café",
+          "grammarNote": "Pattern: **pronoun + gusta/gustan + el/la/los/las + thing**:\n**me gusta el café** (I like coffee).",
+          "englishPhrase": "We like the restaurant.",
+          "phrase": "Nos gusta el restaurante.",
+          "literal": [
+            [
+              "Nos",
+              "to-us"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "gustar pattern with the right pronoun",
+            "task": "Say 'we like the park' and 'they like the beach'",
+            "answer": "nos gusta el parque / les gusta la playa",
+            "gloss": "nos gusta, les gusta (singular things)"
+          }
+        },
+        {
+          "id": "gus_infinitive_table",
+          "grammar": true,
+          "english": "gustar + infinitive (stays singular)",
+          "word": "me gusta leer",
+          "grammarNote": "When you like *doing* something, use **gusta + infinitive** — always singular, even with several actions:\n**me gusta leer** (I like reading), **me gusta cocinar y comer**.",
+          "englishPhrase": "I like reading.",
+          "phrase": "Me gusta leer.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "leer",
+              "to-read"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "gusta + infinitive",
+            "rows": [
+              [
+                "me gusta leer",
+                "I like reading"
+              ],
+              [
+                "me gusta cocinar",
+                "I like cooking"
+              ],
+              [
+                "te gusta viajar",
+                "you like traveling"
+              ]
+            ],
+            "highlight": "me gusta leer",
+            "note": "Always gusta (singular) before an infinitive — never gustan."
+          }
+        },
+        {
+          "id": "gus_infinitive_contrast",
+          "grammar": true,
+          "english": "gusta leer vs gustan las galletas",
+          "word": "me gusta leer / me gustan las galletas",
+          "grammarNote": "Infinitive → singular **gusta**; plural noun → **gustan**:\n**me gusta leer** (I like to read) vs **me gustan las galletas** (I like cookies).",
+          "englishPhrase": "I like to read.",
+          "phrase": "Me gusta leer.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "leer",
+              "to-read"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Action or plural noun?",
+            "a": {
+              "term": "me gusta leer",
+              "gloss": "an action (infinitive) → gusta"
+            },
+            "b": {
+              "term": "me gustan las galletas",
+              "gloss": "plural noun → gustan"
+            }
+          }
+        },
+        {
+          "id": "gus_doler_table",
+          "grammar": true,
+          "english": "doler (to hurt) works like gustar",
+          "word": "me duele la cabeza",
+          "grammarNote": "**doler** follows the same pattern with body parts:\n**me duele la cabeza** (my head hurts), **me duelen los pies** (my feet hurt).",
+          "englishPhrase": "My head hurts.",
+          "phrase": "Me duele la cabeza.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "duele",
+              "hurts"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cabeza",
+              "head"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "doler (to hurt)",
+            "rows": [
+              [
+                "singular part",
+                "me duele la cabeza"
+              ],
+              [
+                "plural parts",
+                "me duelen los pies"
+              ],
+              [
+                "he/she",
+                "le duele el brazo"
+              ]
+            ],
+            "highlight": "plural parts",
+            "note": "Like gustar: the verb agrees with the body part, and the pronoun shows whose it is."
+          }
+        },
+        {
+          "id": "gus_doler_cloze",
+          "grammar": true,
+          "english": "doler with a plural body part",
+          "word": "me duelen los pies",
+          "grammarNote": "Plural body part → **duelen**: **me duelen los pies** (my feet hurt).",
+          "englishPhrase": "My feet hurt.",
+          "phrase": "Me duelen los pies.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "duelen",
+              "hurt"
+            ],
+            [
+              "los",
+              "the"
+            ],
+            [
+              "pies",
+              "feet"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "my feet hurt (plural → verb agrees)",
+            "text": "me ___ los pies",
+            "answer": "duelen",
+            "options": [
+              "duelen",
+              "duele"
+            ]
+          }
+        },
+        {
+          "id": "gus_encantar_table",
+          "grammar": true,
+          "english": "encantar = to love (like a lot)",
+          "word": "me encanta el chocolate",
+          "grammarNote": "**encantar** works exactly like gustar but stronger — 'to love / adore':\n**me encanta el chocolate** (I love chocolate). No 'muy' needed; encantar is already strong.",
+          "englishPhrase": "I love chocolate.",
+          "phrase": "Me encanta el chocolate.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "encanta",
+              "delights"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "chocolate",
+              "chocolate"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "encantar (to love)",
+            "rows": [
+              [
+                "me encanta",
+                "I love (it)"
+              ],
+              [
+                "te encanta",
+                "you love (it)"
+              ],
+              [
+                "me encantan",
+                "I love (them)"
+              ]
+            ],
+            "highlight": "me encantan",
+            "note": "Same mechanics as gustar; singular/plural agreement still applies."
+          }
+        },
+        {
+          "id": "gus_gusta_encanta_contrast",
+          "grammar": true,
+          "english": "me gusta vs me encanta",
+          "word": "me gusta / me encanta",
+          "grammarNote": "Strength of feeling:\n**me gusta** (I like it) < **me encanta** (I love it). Don't say 'me gusta mucho mucho' — use encantar.",
+          "englishPhrase": "I love the beach.",
+          "phrase": "Me encanta la playa.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "encanta",
+              "delights"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "playa",
+              "beach"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Like or love?",
+            "a": {
+              "term": "me gusta",
+              "gloss": "I like it"
+            },
+            "b": {
+              "term": "me encanta",
+              "gloss": "I love it (stronger)"
+            }
+          }
+        },
+        {
+          "id": "gus_molestar_table",
+          "grammar": true,
+          "english": "molestar = to bother",
+          "word": "me molesta el estrés",
+          "grammarNote": "**molestar** (to bother/annoy) uses the gustar pattern:\n**me molesta el estrés** (stress bothers me), **me molesta el trabajo** (work bothers me).",
+          "englishPhrase": "Stress bothers me.",
+          "phrase": "Me molesta el estrés.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "molesta",
+              "bothers"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "estrés",
+              "stress"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "molestar (to bother)",
+            "rows": [
+              [
+                "me molesta",
+                "it bothers me"
+              ],
+              [
+                "te molesta",
+                "it bothers you"
+              ],
+              [
+                "le molesta",
+                "it bothers him/her"
+              ]
+            ],
+            "highlight": "le molesta",
+            "note": "Careful: molestar means 'to bother', not 'to molest'."
+          }
+        },
+        {
+          "id": "gus_molestar_cloze",
+          "grammar": true,
+          "english": "Complete with the right pronoun",
+          "word": "le molesta",
+          "grammarNote": "For 'him/her', use **le**: **le molesta el estrés** (stress bothers him/her).",
+          "englishPhrase": "Stress bothers her.",
+          "phrase": "Le molesta el estrés.",
+          "literal": [
+            [
+              "Le",
+              "to-her"
+            ],
+            [
+              "molesta",
+              "bothers"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "estrés",
+              "stress"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "it bothers her (him/her pronoun)",
+            "text": "___ molesta el ruido",
+            "answer": "le",
+            "options": [
+              "le",
+              "me"
+            ]
+          }
+        },
+        {
+          "id": "gus_interesar_table",
+          "grammar": true,
+          "english": "interesar = to interest",
+          "word": "me interesa la música",
+          "grammarNote": "**interesar** (to be interesting to someone) uses the same structure:\n**me interesa la música** (I'm interested in music), **me interesan las cosas nuevas**.",
+          "englishPhrase": "I'm interested in music.",
+          "phrase": "Me interesa la música.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "interesa",
+              "interests"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "música",
+              "music"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "interesar (to interest)",
+            "rows": [
+              [
+                "me interesa",
+                "I'm interested in (it)"
+              ],
+              [
+                "te interesa",
+                "you're interested in (it)"
+              ],
+              [
+                "me interesan",
+                "I'm interested in (them)"
+              ]
+            ],
+            "highlight": "me interesa",
+            "note": "Related to the known adjective 'interesante'. Same gustar mechanics."
+          }
+        },
+        {
+          "id": "gus_plural_produce",
+          "grammar": true,
+          "english": "Plural agreement with these verbs",
+          "word": "me duelen los pies",
+          "grammarNote": "With any gustar-type verb, a plural subject needs the plural verb:\n**me duelen los pies**, **me gustan las galletas**, **me encantan los perros**.",
+          "englishPhrase": "My hands hurt.",
+          "phrase": "Me duelen las manos.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "duelen",
+              "hurt"
+            ],
+            [
+              "las",
+              "the"
+            ],
+            [
+              "manos",
+              "hands"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Plural subject → plural gustar-type verb",
+            "task": "Say 'I love cookies' and 'my hands hurt'",
+            "answer": "me encantan las galletas / me duelen las manos",
+            "gloss": "encantan, duelen (plural things)"
+          }
+        },
+        {
+          "id": "gus_clarify_contrast",
+          "grammar": true,
+          "english": "Clarify or emphasize with 'a + person'",
+          "word": "a él le gusta / a mí me gusta",
+          "grammarNote": "**le/les** are vague, so add **a + person** to clarify or emphasise:\n**a él le gusta** (HE likes it), **a mí me gusta** (as for me, I like it).",
+          "englishPhrase": "He likes coffee, but I like tea.",
+          "phrase": "A él le gusta el café, pero a mí me gusta el té.",
+          "literal": [
+            [
+              "A él",
+              "to-him"
+            ],
+            [
+              "le",
+              "to-him"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "pero",
+              "but"
+            ],
+            [
+              "a mí",
+              "to-me"
+            ],
+            [
+              "me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "is-pleasing"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "té",
+              "tea"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Why add 'a él' / 'a mí'?",
+            "a": {
+              "term": "le gusta",
+              "gloss": "vague — could be he, she, you"
+            },
+            "b": {
+              "term": "a él le gusta",
+              "gloss": "clarifies / emphasizes who"
+            }
+          }
+        }
+      ]
     }
   ]
 }

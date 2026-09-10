@@ -2,6 +2,2191 @@
   "language": "french",
   "packs": [
     {
+      "id": "sports",
+      "name": "Sports",
+      "cards": [
+        {
+          "id": "score",
+          "english": "score",
+          "word": "le score",
+          "grammarNote": "**le score** Nom masculin emprunté à l'anglais. On dit *le score est de 3 à 1*.\n**quel** Pour demander un nombre, utilisez *Quel est le score ?*",
+          "englishPhrase": "What is the score now?",
+          "phrase": "Quel est le score maintenant ?",
+          "literal": [
+            ["Quel", "What"],
+            ["est", "is"],
+            ["le score", "the score"],
+            ["maintenant ?", "now?"]
+          ]
+        },
+        {
+          "id": "point",
+          "english": "point",
+          "word": "le point",
+          "grammarNote": "**le point** Masculin. *Marquer un point* = to score a point.\n**encore** Placé avant un verbe, *encore* signifie « again/another ».",
+          "englishPhrase": "We scored another point!",
+          "phrase": "Nous avons encore marqué un point !",
+          "literal": [
+            ["Nous avons", "we"],
+            ["encore", "again"],
+            ["marqué", "scored"],
+            ["un point !", "a point!"]
+          ]
+        },
+        {
+          "id": "match",
+          "english": "match / game",
+          "word": "le match",
+          "grammarNote": "**le match** Masculin. Pluriel : *les matchs* ou *les matches*.\n*Jouer un match* = to play a match.",
+          "englishPhrase": "There is a soccer match today.",
+          "phrase": "Il y a un match de football aujourd'hui.",
+          "literal": [
+            ["Il y a", "there is"],
+            ["un match", "a match"],
+            ["de football", "of soccer"],
+            ["aujourd'hui.", "today."]
+          ]
+        },
+        {
+          "id": "tournament",
+          "english": "tournament",
+          "word": "le tournoi",
+          "grammarNote": "**le tournoi** Masculin. *Gagner le tournoi* = to win the tournament.\n**remporter** Verbe plus soutenu que *gagner* pour une victoire de compétition.",
+          "englishPhrase": "He won the tournament.",
+          "phrase": "Il a remporté le tournoi.",
+          "literal": [
+            ["Il", "he"],
+            ["a remporté", "won"],
+            ["le tournoi.", "the tournament."]
+          ]
+        },
+        {
+          "id": "opponent",
+          "english": "opponent",
+          "word": "l'adversaire",
+          "grammarNote": "**l'adversaire** Nom masculin ou féminin. *Notre adversaire est fort/forte*.\n**redoutable** Adjectif courant pour décrire un adversaire difficile à battre.",
+          "englishPhrase": "Our opponent is strong.",
+          "phrase": "Notre adversaire est très fort.",
+          "literal": [
+            ["Notre", "our"],
+            ["adversaire", "opponent"],
+            ["est très", "is very"],
+            ["fort.", "strong."]
+          ]
+        },
+        {
+          "id": "win",
+          "english": "to win",
+          "word": "gagner",
+          "grammarNote": "**gagner** Verbe du 1er groupe. *Nous avons gagné* (passé composé). On gagne *un match*, *un tournoi*, *une médaille*.\n**remporter** est un synonyme plus formel.",
+          "englishPhrase": "We won the game.",
+          "phrase": "Nous avons gagné le match.",
+          "literal": [
+            ["Nous avons", "we"],
+            ["gagné", "won"],
+            ["le match.", "the game."]
+          ]
+        },
+        {
+          "id": "lose",
+          "english": "to lose",
+          "word": "perdre",
+          "grammarNote": "**perdre** Verbe du 3e groupe. *Nous avons perdu* (passé composé).\n**hier** = yesterday; se place généralement en début ou fin de phrase.",
+          "englishPhrase": "We lost yesterday.",
+          "phrase": "Nous avons perdu hier.",
+          "literal": [
+            ["Nous avons", "we"],
+            ["perdu", "lost"],
+            ["hier.", "yesterday."]
+          ]
+        },
+        {
+          "id": "referee",
+          "english": "referee",
+          "word": "l'arbitre",
+          "grammarNote": "**l'arbitre** Nom masculin ou féminin. *Siffler* = to blow the whistle.\n**coup de sifflet** = a whistle blast (the sound or action).",
+          "englishPhrase": "The referee blew the whistle.",
+          "phrase": "L'arbitre a sifflé.",
+          "literal": [
+            ["L'arbitre", "the referee"],
+            ["a sifflé.", "blew the whistle."]
+          ]
+        },
+        {
+          "id": "stadium",
+          "english": "stadium",
+          "word": "le stade",
+          "grammarNote": "**le stade** Masculin. *Dans le stade* = inside the stadium.\n**plein de** = full of (informal); *rempli de* is more formal.",
+          "englishPhrase": "There are many people in the stadium.",
+          "phrase": "Il y a beaucoup de gens dans le stade.",
+          "literal": [
+            ["Il y a", "there are"],
+            ["beaucoup de gens", "many people"],
+            ["dans le stade.", "in the stadium."]
+          ]
+        },
+        {
+          "id": "coach",
+          "english": "coach / trainer",
+          "word": "l'entraîneur",
+          "grammarNote": "**l'entraîneur** (masc.) / **l'entraîneuse** (fém.). Note the circumflex on *entraîner*.\n**exigeant(e)** = demanding, strict — common adjective for a tough coach.",
+          "englishPhrase": "The coach is very strict.",
+          "phrase": "L'entraîneur est très exigeant.",
+          "literal": [
+            ["L'entraîneur", "the coach"],
+            ["est très", "is very"],
+            ["exigeant.", "strict."]
+          ]
+        },
+        {
+          "id": "champion",
+          "english": "champion",
+          "word": "le champion",
+          "grammarNote": "**le champion** / **la championne** — feminine adds *-ne*.\n**champion du monde** = world champion.",
+          "englishPhrase": "She is the world champion.",
+          "phrase": "Elle est championne du monde.",
+          "literal": [
+            ["Elle", "she"],
+            ["est", "is"],
+            ["championne", "champion"],
+            ["du monde.", "of the world."]
+          ]
+        },
+        {
+          "id": "team",
+          "english": "team",
+          "word": "l'équipe",
+          "grammarNote": "**l'équipe** Féminin. *Notre équipe* = our team.\n*Faire partie d'une équipe* = to be on a team.",
+          "englishPhrase": "Our team won.",
+          "phrase": "Notre équipe a gagné.",
+          "literal": [
+            ["Notre équipe", "our team"],
+            ["a gagné.", "won."]
+          ]
+        },
+        {
+          "id": "player",
+          "english": "player",
+          "word": "le joueur",
+          "grammarNote": "**le joueur** / **la joueuse**. *Le meilleur joueur* = the best player.\n**le/la meilleur(e)** = the best (superlative of *bon/bonne*).",
+          "englishPhrase": "He is the best player.",
+          "phrase": "Il est le meilleur joueur.",
+          "literal": [
+            ["Il", "he"],
+            ["est", "is"],
+            ["le meilleur", "the best"],
+            ["joueur.", "player."]
+          ]
+        },
+        {
+          "id": "tie",
+          "english": "tie / draw",
+          "word": "le match nul",
+          "grammarNote": "**le match nul** = a tie/draw. *Faire match nul* = to draw.\n**se terminer** = to end; *Le match s'est terminé sur un match nul*.",
+          "englishPhrase": "The game ended in a tie.",
+          "phrase": "Le match s'est terminé sur un match nul.",
+          "literal": [
+            ["Le match", "the game"],
+            ["s'est terminé", "ended"],
+            ["sur un match nul.", "in a tie."]
+          ]
+        },
+        {
+          "id": "athlete",
+          "english": "athlete",
+          "word": "l'athlète",
+          "grammarNote": "**l'athlète** Masculin ou féminin selon la personne. Notez l'accent grave sur *-è-*.\n**un(e) athlète professionnel(le)** = a professional athlete.",
+          "englishPhrase": "He is an athlete.",
+          "phrase": "Il est athlète.",
+          "literal": [
+            ["Il", "he"],
+            ["est", "is"],
+            ["athlète.", "an athlete."]
+          ]
+        },
+        {
+          "id": "sport",
+          "english": "sport",
+          "word": "le sport",
+          "grammarNote": "**le sport** Masculin. *Faire du sport* = to do sports/exercise.\n**les sports** au pluriel prend -s régulier.",
+          "englishPhrase": "I like sports.",
+          "phrase": "J'aime le sport.",
+          "literal": [
+            ["J'aime", "I like"],
+            ["le sport.", "sports."]
+          ]
+        },
+        {
+          "id": "competition",
+          "english": "competition",
+          "word": "la compétition",
+          "grammarNote": "**la compétition** Féminin. *Une compétition acharnée* = an intense competition.\n**acharné(e)** = fierce, hard-fought — common with sports contests.",
+          "englishPhrase": "This is an intense competition.",
+          "phrase": "C'est une compétition très acharnée.",
+          "literal": [
+            ["C'est", "this is"],
+            ["une compétition", "a competition"],
+            ["très acharnée.", "very intense."]
+          ]
+        },
+        {
+          "id": "score_verb",
+          "english": "to score (a goal / point)",
+          "word": "marquer un but",
+          "grammarNote": "**marquer un but** = to score a goal. *Marquer un point* = to score a point.\n**but** (masc.) = goal; *filet* = net (inside the goal).",
+          "englishPhrase": "He scored a goal.",
+          "phrase": "Il a marqué un but.",
+          "literal": [
+            ["Il", "he"],
+            ["a marqué", "scored"],
+            ["un but.", "a goal."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_2",
+      "name": "Racket & Pickleball",
+      "cards": [
+        {
+          "id": "pickleball",
+          "english": "pickleball",
+          "word": "le pickleball",
+          "grammarNote": "**le pickleball** Emprunt direct à l'anglais ; masculin. Sport encore peu répandu en France mais en plein essor.\n**C'est amusant** = it's fun.",
+          "englishPhrase": "Pickleball is really fun.",
+          "phrase": "Le pickleball est vraiment amusant.",
+          "literal": [
+            ["Le pickleball", "pickleball"],
+            ["est vraiment", "is really"],
+            ["amusant.", "fun."]
+          ]
+        },
+        {
+          "id": "paddle",
+          "english": "paddle",
+          "word": "la raquette",
+          "grammarNote": "**la raquette** Féminin. Le mot s'applique aussi au tennis, au badminton, etc.\n*Acheter une raquette* = to buy a paddle/racket.",
+          "englishPhrase": "I bought a new paddle.",
+          "phrase": "J'ai acheté une nouvelle raquette.",
+          "literal": [
+            ["J'ai acheté", "I bought"],
+            ["une nouvelle", "a new"],
+            ["raquette.", "paddle."]
+          ]
+        },
+        {
+          "id": "court",
+          "english": "court",
+          "word": "le court",
+          "grammarNote": "**le court** (de tennis/pickleball) Masculin, prononcé [kuʁ].\n*Le court est libre* = the court is free/empty.",
+          "englishPhrase": "The court is empty.",
+          "phrase": "Le court est vide.",
+          "literal": [
+            ["Le court", "the court"],
+            ["est vide.", "is empty."]
+          ]
+        },
+        {
+          "id": "serve",
+          "english": "to serve / serve",
+          "word": "le service",
+          "grammarNote": "**le service** (nom) / **servir** (verbe). *C'est ton service* = it's your serve.\n**c'est à toi de** = it's your turn to — useful structure for taking turns.",
+          "englishPhrase": "It's your turn to serve.",
+          "phrase": "C'est à toi de servir.",
+          "literal": [
+            ["C'est à toi", "it's your turn"],
+            ["de servir.", "to serve."]
+          ]
+        },
+        {
+          "id": "rally",
+          "english": "rally",
+          "word": "l'échange",
+          "grammarNote": "**l'échange** Masculin. *Un long échange* = a long rally.\n*Faire un échange* = to have a rally back and forth.",
+          "englishPhrase": "That was a long rally.",
+          "phrase": "C'était un long échange.",
+          "literal": [
+            ["C'était", "that was"],
+            ["un long", "a long"],
+            ["échange.", "rally."]
+          ]
+        },
+        {
+          "id": "ball",
+          "english": "ball",
+          "word": "la balle",
+          "grammarNote": "**la balle** Féminin. Utilisé pour les petites balles (tennis, pickleball). *Le ballon* est pour les grosses balles (football, basket).\n*La balle est dehors* = the ball is out.",
+          "englishPhrase": "The ball is out.",
+          "phrase": "La balle est dehors.",
+          "literal": [
+            ["La balle", "the ball"],
+            ["est dehors.", "is out."]
+          ]
+        },
+        {
+          "id": "net",
+          "english": "net",
+          "word": "le filet",
+          "grammarNote": "**le filet** Masculin. Même mot pour le filet de pêche, le filet de sport, ou un filet mignon.\n*La balle a touché le filet* = the ball hit the net.",
+          "englishPhrase": "The ball hit the net.",
+          "phrase": "La balle a touché le filet.",
+          "literal": [
+            ["La balle", "the ball"],
+            ["a touché", "hit"],
+            ["le filet.", "the net."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_3",
+      "name": "Outdoors & Hiking",
+      "cards": [
+        {
+          "id": "hike",
+          "english": "to hike / hiking",
+          "word": "faire de la randonnée",
+          "grammarNote": "**la randonnée** Féminin. *Faire une randonnée* ou *faire de la randonnée* = to go hiking.\n*Un randonneur / une randonneuse* = hiker.",
+          "englishPhrase": "We go hiking on the weekend.",
+          "phrase": "Nous faisons de la randonnée le week-end.",
+          "literal": [
+            ["Nous faisons", "we do"],
+            ["de la randonnée", "hiking"],
+            ["le week-end.", "on the weekend."]
+          ]
+        },
+        {
+          "id": "trail",
+          "english": "trail / path",
+          "word": "le sentier",
+          "grammarNote": "**le sentier** Masculin. *Un sentier de randonnée* = a hiking trail.\n**étroit(e)** = narrow — contraire de *large*.",
+          "englishPhrase": "This trail is narrow.",
+          "phrase": "Ce sentier est étroit.",
+          "literal": [
+            ["Ce sentier", "this trail"],
+            ["est étroit.", "is narrow."]
+          ]
+        },
+        {
+          "id": "mountain",
+          "english": "mountain",
+          "word": "la montagne",
+          "grammarNote": "**la montagne** Féminin. *Aller à la montagne* = to go to the mountains.\n**élevé(e)** ou **haut(e)** = high/tall for mountains.",
+          "englishPhrase": "That mountain is very high.",
+          "phrase": "Cette montagne est très haute.",
+          "literal": [
+            ["Cette montagne", "that mountain"],
+            ["est très haute.", "is very high."]
+          ]
+        },
+        {
+          "id": "backpack",
+          "english": "backpack",
+          "word": "le sac à dos",
+          "grammarNote": "**le sac à dos** Masculin. *Mon sac à dos est lourd* = my backpack is heavy.\n**lourd(e)** = heavy — contraire de *léger/légère*.",
+          "englishPhrase": "My backpack is heavy.",
+          "phrase": "Mon sac à dos est lourd.",
+          "literal": [
+            ["Mon sac à dos", "my backpack"],
+            ["est lourd.", "is heavy."]
+          ]
+        },
+        {
+          "id": "bicycle",
+          "english": "bicycle / bike",
+          "word": "le vélo",
+          "grammarNote": "**le vélo** Masculin (abréviation de *vélocipède*). Aussi *la bicyclette* dans un registre plus soutenu.\n*Faire du vélo* = to ride a bike.",
+          "englishPhrase": "This is my bicycle.",
+          "phrase": "C'est mon vélo.",
+          "literal": [
+            ["C'est", "this is"],
+            ["mon vélo.", "my bicycle."]
+          ]
+        },
+        {
+          "id": "ride_a_bike",
+          "english": "to ride a bike",
+          "word": "faire du vélo",
+          "grammarNote": "**faire du vélo** Expression idiomatique. *Je fais du vélo tous les jours* = I ride a bike every day.\n**tous les jours** = every day (invariable expression).",
+          "englishPhrase": "I ride a bike every day.",
+          "phrase": "Je fais du vélo tous les jours.",
+          "literal": [
+            ["Je fais", "I ride"],
+            ["du vélo", "a bike"],
+            ["tous les jours.", "every day."]
+          ]
+        },
+        {
+          "id": "helmet",
+          "english": "helmet",
+          "word": "le casque",
+          "grammarNote": "**le casque** Masculin. S'utilise pour le vélo, la moto, et aussi les écouteurs audio.\n**mettre son casque** = to put on one's helmet.",
+          "englishPhrase": "Please put on your helmet.",
+          "phrase": "Mets ton casque, s'il te plaît.",
+          "literal": [
+            ["Mets", "put on"],
+            ["ton casque,", "your helmet,"],
+            ["s'il te plaît.", "please."]
+          ]
+        },
+        {
+          "id": "race",
+          "english": "race",
+          "word": "la course",
+          "grammarNote": "**la course** Féminin. *Gagner la course* = to win the race.\n*La course à pied* = foot race; *la course cycliste* = cycling race.",
+          "englishPhrase": "He won the race.",
+          "phrase": "Il a gagné la course.",
+          "literal": [
+            ["Il", "he"],
+            ["a gagné", "won"],
+            ["la course.", "the race."]
+          ]
+        },
+        {
+          "id": "outdoor",
+          "english": "outdoors / outdoor",
+          "word": "en plein air",
+          "grammarNote": "**en plein air** Expression invariable = outdoors, in the open air.\n*Les activités de plein air* = outdoor activities.",
+          "englishPhrase": "I like outdoor activities.",
+          "phrase": "J'aime les activités de plein air.",
+          "literal": [
+            ["J'aime", "I like"],
+            ["les activités", "the activities"],
+            ["de plein air.", "outdoors."]
+          ]
+        },
+        {
+          "id": "finish_line",
+          "english": "finish line",
+          "word": "la ligne d'arrivée",
+          "grammarNote": "**la ligne d'arrivée** Féminin. La ligne de départ = the start line.\n**franchir** = to cross (a line, a threshold) — plus précis que *traverser* pour ce contexte.",
+          "englishPhrase": "He reached the finish line first.",
+          "phrase": "Il a franchi la ligne d'arrivée en premier.",
+          "literal": [
+            ["Il", "he"],
+            ["a franchi", "crossed"],
+            ["la ligne d'arrivée", "the finish line"],
+            ["en premier.", "first."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports_4",
+      "name": "Training & Fitness",
+      "cards": [
+        {
+          "id": "exercise",
+          "english": "to exercise / exercise",
+          "word": "faire de l'exercice",
+          "grammarNote": "**faire de l'exercice** = to exercise. Aussi *s'entraîner* pour un entraînement sportif structuré.\n**tous les matins** = every morning (invariable).",
+          "englishPhrase": "I exercise every morning.",
+          "phrase": "Je fais de l'exercice tous les matins.",
+          "literal": [
+            ["Je fais", "I do"],
+            ["de l'exercice", "exercise"],
+            ["tous les matins.", "every morning."]
+          ]
+        },
+        {
+          "id": "stretch",
+          "english": "to stretch",
+          "word": "s'étirer",
+          "grammarNote": "**s'étirer** Verbe pronominal du 1er groupe. *Il faut s'étirer avant de faire du sport*.\n*avant de + infinitif* = before doing something.",
+          "englishPhrase": "Stretch before exercising.",
+          "phrase": "Étirez-vous avant de faire du sport.",
+          "literal": [
+            ["Étirez-vous", "stretch"],
+            ["avant de", "before"],
+            ["faire du sport.", "exercising."]
+          ]
+        },
+        {
+          "id": "sweat",
+          "english": "to sweat / sweat",
+          "word": "transpirer",
+          "grammarNote": "**transpirer** Verbe du 1er groupe. *La sueur* (fém.) = sweat (the noun).\n*J'ai beaucoup transpiré* = I sweated a lot (passé composé avec *avoir*).",
+          "englishPhrase": "I sweated a lot.",
+          "phrase": "J'ai beaucoup transpiré.",
+          "literal": [
+            ["J'ai", "I"],
+            ["beaucoup", "a lot"],
+            ["transpiré.", "sweated."]
+          ]
+        },
+        {
+          "id": "training",
+          "english": "training / to train",
+          "word": "l'entraînement",
+          "grammarNote": "**l'entraînement** Masculin. *S'entraîner* = to train (verb).\n**difficile** / **dur(e)** = tough/hard — both adjectives work here.",
+          "englishPhrase": "The training is tough.",
+          "phrase": "L'entraînement est difficile.",
+          "literal": [
+            ["L'entraînement", "the training"],
+            ["est difficile.", "is tough."]
+          ]
+        },
+        {
+          "id": "speed",
+          "english": "speed / fast",
+          "word": "la vitesse",
+          "grammarNote": "**la vitesse** Féminin. *Rapide* = fast (adjective); *vite* = fast (adverb).\n*Sa vitesse est impressionnante* = his speed is impressive.",
+          "englishPhrase": "His speed is fast.",
+          "phrase": "Sa vitesse est impressionnante.",
+          "literal": [
+            ["Sa vitesse", "his speed"],
+            ["est impressionnante.", "is impressive."]
+          ]
+        },
+        {
+          "id": "tired",
+          "english": "tired / to get tired",
+          "word": "fatigué(e)",
+          "grammarNote": "**fatigué(e)** Adjectif; accord avec le sujet. *Je suis fatigué(e)* = I'm tired.\n*Se fatiguer* = to get tired (pronominal verb).",
+          "englishPhrase": "I'm really tired.",
+          "phrase": "Je suis vraiment fatigué.",
+          "literal": [
+            ["Je suis", "I am"],
+            ["vraiment", "really"],
+            ["fatigué.", "tired."]
+          ]
+        },
+        {
+          "id": "injury",
+          "english": "injury / to get injured",
+          "word": "se blesser",
+          "grammarNote": "**se blesser** Verbe pronominal. *La blessure* (fém.) = the injury (noun).\n*pendant le match* = during the game — *pendant* introduit une durée.",
+          "englishPhrase": "He got injured during the game.",
+          "phrase": "Il s'est blessé pendant le match.",
+          "literal": [
+            ["Il", "he"],
+            ["s'est blessé", "got injured"],
+            ["pendant le match.", "during the game."]
+          ]
+        },
+        {
+          "id": "water",
+          "english": "water / to hydrate",
+          "word": "boire de l'eau",
+          "grammarNote": "**boire de l'eau** = to drink water. *L'eau* est féminin en français.\n**n'oublie pas de** = remember to (lit. 'don't forget to') — utile pour des conseils.",
+          "englishPhrase": "Remember to drink lots of water.",
+          "phrase": "N'oublie pas de boire beaucoup d'eau.",
+          "literal": [
+            ["N'oublie pas de", "remember to"],
+            ["boire", "drink"],
+            ["beaucoup d'eau.", "lots of water."]
+          ]
+        },
+        {
+          "id": "warm_up",
+          "english": "to warm up",
+          "word": "s'échauffer",
+          "grammarNote": "**s'échauffer** Verbe pronominal du 1er groupe. *L'échauffement* (masc.) = the warm-up (noun).\n*d'abord* = first — synonymes : *en premier*, *premièrement*.",
+          "englishPhrase": "Let's warm up first.",
+          "phrase": "Échauffons-nous d'abord.",
+          "literal": [
+            ["Échauffons-nous", "let's warm up"],
+            ["d'abord.", "first."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software_development",
+      "name": "Software Development",
+      "cards": [
+        {
+          "id": "code",
+          "english": "the code",
+          "word": "le code",
+          "grammarNote": "**le code** Masculin. *Le code source* = source code.\n**propre** = clean (also means 'own' before a noun: *mon propre code*).",
+          "englishPhrase": "This code is very clean.",
+          "phrase": "Ce code est très propre.",
+          "literal": [
+            ["Ce code", "this code"],
+            ["est très", "is very"],
+            ["propre.", "clean."]
+          ]
+        },
+        {
+          "id": "program",
+          "english": "to program / to code",
+          "word": "programmer",
+          "grammarNote": "**programmer** Verbe du 1er groupe. Aussi *coder* (familier). *J'aime programmer le soir*.\n**le soir** = in the evening/at night (without article for habitual times).",
+          "englishPhrase": "I like to code at night.",
+          "phrase": "J'aime programmer le soir.",
+          "literal": [
+            ["J'aime", "I like"],
+            ["programmer", "to code"],
+            ["le soir.", "at night."]
+          ]
+        },
+        {
+          "id": "software",
+          "english": "the software",
+          "word": "le logiciel",
+          "grammarNote": "**le logiciel** Masculin. Le mot français officiel pour *software*. *Le matériel* = hardware.\n**facile à utiliser** = easy to use.",
+          "englishPhrase": "This software is easy to use.",
+          "phrase": "Ce logiciel est facile à utiliser.",
+          "literal": [
+            ["Ce logiciel", "this software"],
+            ["est facile à", "is easy to"],
+            ["utiliser.", "use."]
+          ]
+        },
+        {
+          "id": "engineer",
+          "english": "the engineer",
+          "word": "l'ingénieur(e)",
+          "grammarNote": "**l'ingénieur** (masc.) / **l'ingénieure** (fém.). *Un(e) ingénieur(e) logiciel* = a software engineer.\n**logiciel** ici est adjectif invariable en usage courant.",
+          "englishPhrase": "She is a software engineer.",
+          "phrase": "Elle est ingénieure logiciel.",
+          "literal": [
+            ["Elle", "she"],
+            ["est", "is"],
+            ["ingénieure", "a"],
+            ["logiciel.", "software engineer."]
+          ]
+        },
+        {
+          "id": "developer",
+          "english": "the developer",
+          "word": "le développeur",
+          "grammarNote": "**le développeur** / **la développeuse**. *Développeur front-end* = front-end developer.\n**front-end** reste en anglais dans le jargon professionnel français.",
+          "englishPhrase": "He is a front-end developer.",
+          "phrase": "Il est développeur front-end.",
+          "literal": [
+            ["Il", "he"],
+            ["est", "is"],
+            ["développeur", "developer"],
+            ["front-end.", "front-end."]
+          ]
+        },
+        {
+          "id": "computer",
+          "english": "the computer",
+          "word": "l'ordinateur",
+          "grammarNote": "**l'ordinateur** Masculin. Terme officiel français (vs. le mot anglais). *Rapide* = fast.\n*Mon ordinateur est rapide* — adjectif après le verbe *être*.",
+          "englishPhrase": "My computer is fast.",
+          "phrase": "Mon ordinateur est rapide.",
+          "literal": [
+            ["Mon ordinateur", "my computer"],
+            ["est rapide.", "is fast."]
+          ]
+        },
+        {
+          "id": "laptop",
+          "english": "the laptop",
+          "word": "l'ordinateur portable",
+          "grammarNote": "**l'ordinateur portable** Masculin. Souvent abrégé en *le portable*. *Apporter son portable* = to bring one's laptop.\n**apporter** = to bring (vers l'interlocuteur); *emporter* = to take away.",
+          "englishPhrase": "I brought my laptop.",
+          "phrase": "J'ai apporté mon ordinateur portable.",
+          "literal": [
+            ["J'ai apporté", "I brought"],
+            ["mon ordinateur portable.", "my laptop."]
+          ]
+        },
+        {
+          "id": "keyboard",
+          "english": "the keyboard",
+          "word": "le clavier",
+          "grammarNote": "**le clavier** Masculin. *Clavier AZERTY* en France (vs. QWERTY en anglais).\n**agréable à utiliser** = nice to use — plus naturel que *bon à utiliser*.",
+          "englishPhrase": "This keyboard is nice to use.",
+          "phrase": "Ce clavier est agréable à utiliser.",
+          "literal": [
+            ["Ce clavier", "this keyboard"],
+            ["est agréable à", "is nice to"],
+            ["utiliser.", "use."]
+          ]
+        },
+        {
+          "id": "screen",
+          "english": "the screen / monitor",
+          "word": "l'écran",
+          "grammarNote": "**l'écran** Masculin. *L'écran est trop lumineux* = the screen is too bright.\n**trop** = too (much) — toujours avant l'adjectif ou l'adverbe.",
+          "englishPhrase": "The screen is too bright.",
+          "phrase": "L'écran est trop lumineux.",
+          "literal": [
+            ["L'écran", "the screen"],
+            ["est trop", "is too"],
+            ["lumineux.", "bright."]
+          ]
+        },
+        {
+          "id": "bug",
+          "english": "the bug",
+          "word": "le bug",
+          "grammarNote": "**le bug** Masculin. Terme anglais pleinement adopté. On dit aussi *le bogue* (officiel) mais *bug* est universel.\n**dans le code** = in the code.",
+          "englishPhrase": "There is a bug in the code.",
+          "phrase": "Il y a un bug dans le code.",
+          "literal": [
+            ["Il y a", "there is"],
+            ["un bug", "a bug"],
+            ["dans le code.", "in the code."]
+          ]
+        },
+        {
+          "id": "debug",
+          "english": "to debug",
+          "word": "déboguer",
+          "grammarNote": "**déboguer** Verbe officiel du 1er groupe. *Je suis en train de déboguer* = I am debugging.\n**être en train de + infinitif** = to be in the process of doing something.",
+          "englishPhrase": "I am debugging the program.",
+          "phrase": "Je suis en train de déboguer le programme.",
+          "literal": [
+            ["Je suis en train de", "I am (currently)"],
+            ["déboguer", "debugging"],
+            ["le programme.", "the program."]
+          ]
+        },
+        {
+          "id": "fix_bug",
+          "english": "to fix a bug",
+          "word": "corriger un bug",
+          "grammarNote": "**corriger** Verbe du 1er groupe. *J'ai corrigé ce bug* = I fixed this bug.\n*Corriger une erreur* = to fix an error — plus général que *résoudre*.",
+          "englishPhrase": "I fixed this bug.",
+          "phrase": "J'ai corrigé ce bug.",
+          "literal": [
+            ["J'ai corrigé", "I fixed"],
+            ["ce bug.", "this bug."]
+          ]
+        },
+        {
+          "id": "deploy",
+          "english": "to deploy",
+          "word": "déployer",
+          "grammarNote": "**déployer** Verbe du 1er groupe (conjugaison en -oyer). *Nous déployons* = we deploy.\n**la nouvelle version** = the new version (version est féminin).",
+          "englishPhrase": "We deploy the new version today.",
+          "phrase": "Nous déployons la nouvelle version aujourd'hui.",
+          "literal": [
+            ["Nous déployons", "we deploy"],
+            ["la nouvelle version", "the new version"],
+            ["aujourd'hui.", "today."]
+          ]
+        },
+        {
+          "id": "server",
+          "english": "the server",
+          "word": "le serveur",
+          "grammarNote": "**le serveur** Masculin. Même mot que 'waiter' — contexte distingue les sens.\n**tomber en panne** = to crash/break down.",
+          "englishPhrase": "The server crashed.",
+          "phrase": "Le serveur est tombé en panne.",
+          "literal": [
+            ["Le serveur", "the server"],
+            ["est tombé en panne.", "crashed."]
+          ]
+        },
+        {
+          "id": "database",
+          "english": "the database",
+          "word": "la base de données",
+          "grammarNote": "**la base de données** Féminin. Souvent abrégé en *BDD* en français ou *DB* en contexte pro.\n**énorme** = very large (invariable en genre pour cet usage).",
+          "englishPhrase": "The database is very large.",
+          "phrase": "La base de données est très grande.",
+          "literal": [
+            ["La base de données", "the database"],
+            ["est très grande.", "is very large."]
+          ]
+        },
+        {
+          "id": "app",
+          "english": "the app / application",
+          "word": "l'application",
+          "grammarNote": "**l'application** Féminin. Abrégé *l'appli* (fam.). *Populaire* = popular.\n**populaire** est invariable en genre.",
+          "englishPhrase": "This app is very popular.",
+          "phrase": "Cette application est très populaire.",
+          "literal": [
+            ["Cette application", "this app"],
+            ["est très populaire.", "is very popular."]
+          ]
+        },
+        {
+          "id": "website",
+          "english": "the website",
+          "word": "le site web",
+          "grammarNote": "**le site web** Masculin. Aussi *le site internet*. *En ligne* = online/live.\n**être en ligne** = to be live/online.",
+          "englishPhrase": "The website is live.",
+          "phrase": "Le site web est en ligne.",
+          "literal": [
+            ["Le site web", "the website"],
+            ["est en ligne.", "is live."]
+          ]
+        },
+        {
+          "id": "function",
+          "english": "the function / feature",
+          "word": "la fonctionnalité",
+          "grammarNote": "**la fonctionnalité** Féminin. *La fonction* = a code function; *la fonctionnalité* = a product feature.\n**pas encore terminé(e)** = not yet finished.",
+          "englishPhrase": "This feature isn't finished yet.",
+          "phrase": "Cette fonctionnalité n'est pas encore terminée.",
+          "literal": [
+            ["Cette fonctionnalité", "this feature"],
+            ["n'est pas encore", "isn't yet"],
+            ["terminée.", "finished."]
+          ]
+        },
+        {
+          "id": "feature",
+          "english": "the feature (product)",
+          "word": "la caractéristique",
+          "grammarNote": "**la caractéristique** Féminin. En jargon tech on dit aussi *la feature* (emprunt). *Utile* = useful (invariable).\n**nouvelle** s'accorde au féminin : *la nouvelle caractéristique*.",
+          "englishPhrase": "The new feature is useful.",
+          "phrase": "La nouvelle fonctionnalité est utile.",
+          "literal": [
+            ["La nouvelle fonctionnalité", "the new feature"],
+            ["est utile.", "is useful."]
+          ]
+        },
+        {
+          "id": "pull_request",
+          "english": "the pull request",
+          "word": "la pull request",
+          "grammarNote": "**la pull request** Terme anglais adopté tel quel dans le milieu tech. Souvent abrégé *PR*.\n**revoir** = to review (code, documents); *examiner* est plus formel.",
+          "englishPhrase": "Please review my pull request.",
+          "phrase": "Merci de revoir ma pull request.",
+          "literal": [
+            ["Merci de", "please"],
+            ["revoir", "review"],
+            ["ma pull request.", "my pull request."]
+          ]
+        },
+        {
+          "id": "meeting",
+          "english": "the meeting",
+          "word": "la réunion",
+          "grammarNote": "**la réunion** Féminin. *Avoir une réunion* = to have a meeting.\n**cet après-midi** = this afternoon (demonstrative adj. before vowel sound).",
+          "englishPhrase": "We have a meeting this afternoon.",
+          "phrase": "Nous avons une réunion cet après-midi.",
+          "literal": [
+            ["Nous avons", "we have"],
+            ["une réunion", "a meeting"],
+            ["cet après-midi.", "this afternoon."]
+          ]
+        },
+        {
+          "id": "standup",
+          "english": "the standup / daily meeting",
+          "word": "le standup",
+          "grammarNote": "**le standup** Anglicisme courant dans les équipes tech. Aussi *la mêlée quotidienne* (scrum) ou *la réunion debout*.\n**tous les matins** = every morning.",
+          "englishPhrase": "There is a standup every morning.",
+          "phrase": "Il y a un standup tous les matins.",
+          "literal": [
+            ["Il y a", "there is"],
+            ["un standup", "a standup"],
+            ["tous les matins.", "every morning."]
+          ]
+        },
+        {
+          "id": "deadline",
+          "english": "the deadline",
+          "word": "la date limite",
+          "grammarNote": "**la date limite** Féminin. Aussi *l'échéance* (plus formel) ou *la deadline* (anglicisme).\n**vendredi** = Friday; les jours de la semaine sont masculins.",
+          "englishPhrase": "The deadline is Friday.",
+          "phrase": "La date limite est vendredi.",
+          "literal": [
+            ["La date limite", "the deadline"],
+            ["est vendredi.", "is Friday."]
+          ]
+        },
+        {
+          "id": "client",
+          "english": "the client / customer",
+          "word": "le client",
+          "grammarNote": "**le client** / **la cliente**. En contexte professionnel, *le client* désigne un client business.\n**satisfait(e)** = satisfied — s'accorde avec le sujet.",
+          "englishPhrase": "The client is satisfied.",
+          "phrase": "Le client est satisfait.",
+          "literal": [
+            ["Le client", "the client"],
+            ["est satisfait.", "is satisfied."]
+          ]
+        },
+        {
+          "id": "work_from_home",
+          "english": "to work from home",
+          "word": "travailler à domicile",
+          "grammarNote": "**travailler à domicile** = to work from home. Aussi *télétravail* (nom) et *télétravailler* (verbe).\n**aujourd'hui** = today.",
+          "englishPhrase": "I work from home today.",
+          "phrase": "Je travaille à domicile aujourd'hui.",
+          "literal": [
+            ["Je travaille", "I work"],
+            ["à domicile", "from home"],
+            ["aujourd'hui.", "today."]
+          ]
+        },
+        {
+          "id": "remote_work",
+          "english": "remote work",
+          "word": "le télétravail",
+          "grammarNote": "**le télétravail** Masculin. Mot entré dans le dictionnaire après 2020.\n*Travailler en télétravail* ou *télétravailler* = to work remotely.",
+          "englishPhrase": "Our team works remotely.",
+          "phrase": "Notre équipe travaille en télétravail.",
+          "literal": [
+            ["Notre équipe", "our team"],
+            ["travaille", "works"],
+            ["en télétravail.", "remotely."]
+          ]
+        },
+        {
+          "id": "terminal",
+          "english": "the terminal",
+          "word": "le terminal",
+          "grammarNote": "**le terminal** Masculin. *Le terminal* ou *la console* = the command-line terminal.\n**ouvrir** = to open (ouvre, ouvrez).",
+          "englishPhrase": "Open the terminal.",
+          "phrase": "Ouvrez le terminal.",
+          "literal": [
+            ["Ouvrez", "open"],
+            ["le terminal.", "the terminal."]
+          ]
+        },
+        {
+          "id": "variable",
+          "english": "the variable",
+          "word": "la variable",
+          "grammarNote": "**la variable** Féminin. *Définir une variable* = to define a variable.\n**non défini(e)** = not defined — *indéfini(e)* est aussi correct.",
+          "englishPhrase": "This variable is not defined.",
+          "phrase": "Cette variable n'est pas définie.",
+          "literal": [
+            ["Cette variable", "this variable"],
+            ["n'est pas définie.", "is not defined."]
+          ]
+        },
+        {
+          "id": "repository",
+          "english": "the repository",
+          "word": "le dépôt",
+          "grammarNote": "**le dépôt** Masculin. Terme officiel pour *repository*. En pratique, *le repo* (anglicisme) est aussi utilisé.\n**dans ce dépôt** = in this repository.",
+          "englishPhrase": "The code is in this repository.",
+          "phrase": "Le code se trouve dans ce dépôt.",
+          "literal": [
+            ["Le code", "the code"],
+            ["se trouve", "is"],
+            ["dans ce dépôt.", "in this repository."]
+          ]
+        },
+        {
+          "id": "branch",
+          "english": "the branch (git)",
+          "word": "la branche",
+          "grammarNote": "**la branche** Féminin. *Créer une nouvelle branche* = to create a new branch.\n**créer** = to create (1er groupe, -er).",
+          "englishPhrase": "I created a new branch.",
+          "phrase": "J'ai créé une nouvelle branche.",
+          "literal": [
+            ["J'ai créé", "I created"],
+            ["une nouvelle", "a new"],
+            ["branche.", "branch."]
+          ]
+        },
+        {
+          "id": "review",
+          "english": "to review / to check",
+          "word": "relire / revoir",
+          "grammarNote": "**relire** = to review code carefully (lit. 're-read'). **revoir** = to review/check over.\n*Veuillez relire ce code* = Please review this code (formal).",
+          "englishPhrase": "Please review this code.",
+          "phrase": "Veuillez relire ce code.",
+          "literal": [
+            ["Veuillez", "please"],
+            ["relire", "review"],
+            ["ce code.", "this code."]
+          ]
+        },
+        {
+          "id": "tests",
+          "english": "the tests",
+          "word": "les tests",
+          "grammarNote": "**les tests** Masculin pluriel. *Faire passer des tests* = to run tests.\n**tous les tests ont réussi** = all tests passed.",
+          "englishPhrase": "All the tests passed.",
+          "phrase": "Tous les tests ont réussi.",
+          "literal": [
+            ["Tous les tests", "all the tests"],
+            ["ont réussi.", "passed."]
+          ]
+        },
+        {
+          "id": "update",
+          "english": "the update",
+          "word": "la mise à jour",
+          "grammarNote": "**la mise à jour** Féminin. Pluriel : *les mises à jour*. Abrégé *MAJ* (familier).\n**importante** = important (s'accorde au féminin).",
+          "englishPhrase": "This is an important update.",
+          "phrase": "C'est une mise à jour importante.",
+          "literal": [
+            ["C'est", "this is"],
+            ["une mise à jour", "an update"],
+            ["importante.", "important."]
+          ]
+        },
+        {
+          "id": "critical_error",
+          "english": "the critical error",
+          "word": "l'erreur critique",
+          "grammarNote": "**l'erreur** Féminin. *Une erreur critique* = a critical error.\n**trouver** = to find (verbe du 3e groupe).",
+          "englishPhrase": "We found a critical error.",
+          "phrase": "Nous avons trouvé une erreur critique.",
+          "literal": [
+            ["Nous avons trouvé", "we found"],
+            ["une erreur critique.", "a critical error."]
+          ]
+        },
+        {
+          "id": "production",
+          "english": "production (environment)",
+          "word": "la production",
+          "grammarNote": "**la production** / **l'environnement de production** Féminin.\n**ne pas tester en production** = don't test in production — règle d'or du développement.",
+          "englishPhrase": "Don't test in production.",
+          "phrase": "Ne testez pas en production.",
+          "literal": [
+            ["Ne testez pas", "don't test"],
+            ["en production.", "in production."]
+          ]
+        },
+        {
+          "id": "team",
+          "english": "the team",
+          "word": "l'équipe",
+          "grammarNote": "**l'équipe** Féminin. *Notre équipe est formidable*.\n**formidable** = great/amazing — faux ami : ne pas confondre avec l'anglais *formidable* (redoutable).",
+          "englishPhrase": "Our team is great.",
+          "phrase": "Notre équipe est formidable.",
+          "literal": [
+            ["Notre équipe", "our team"],
+            ["est formidable.", "is great."]
+          ]
+        },
+        {
+          "id": "project",
+          "english": "the project",
+          "word": "le projet",
+          "grammarNote": "**le projet** Masculin. *Travailler sur un projet* = to work on a project.\n**intéressant(e)** = interesting — s'accorde avec le nom.",
+          "englishPhrase": "This project is interesting.",
+          "phrase": "Ce projet est très intéressant.",
+          "literal": [
+            ["Ce projet", "this project"],
+            ["est très", "is very"],
+            ["intéressant.", "interesting."]
+          ]
+        },
+        {
+          "id": "launch",
+          "english": "to launch / to release",
+          "word": "lancer",
+          "grammarNote": "**lancer** Verbe du 1er groupe. *Lancer un produit* = to launch a product.\n**la semaine prochaine** = next week.",
+          "englishPhrase": "We launch the product next week.",
+          "phrase": "Nous lançons le produit la semaine prochaine.",
+          "literal": [
+            ["Nous lançons", "we launch"],
+            ["le produit", "the product"],
+            ["la semaine prochaine.", "next week."]
+          ]
+        },
+        {
+          "id": "version",
+          "english": "the version",
+          "word": "la version",
+          "grammarNote": "**la version** Féminin. *La dernière version* = the latest version.\n**dernière** = latest/last — avant le nom il prend ce sens; après le nom il signifie 'previous'.",
+          "englishPhrase": "This is the latest version.",
+          "phrase": "C'est la dernière version.",
+          "literal": [
+            ["C'est", "this is"],
+            ["la dernière version.", "the latest version."]
+          ]
+        },
+        {
+          "id": "configure",
+          "english": "to configure / to set up",
+          "word": "configurer",
+          "grammarNote": "**configurer** Verbe du 1er groupe. *La configuration* (fém.) = the configuration.\n**avoir besoin de** = to need (+ infinitif).",
+          "englishPhrase": "I need to configure the server.",
+          "phrase": "J'ai besoin de configurer le serveur.",
+          "literal": [
+            ["J'ai besoin de", "I need to"],
+            ["configurer", "configure"],
+            ["le serveur.", "the server."]
+          ]
+        },
+        {
+          "id": "environment",
+          "english": "the environment (dev/prod)",
+          "word": "l'environnement",
+          "grammarNote": "**l'environnement** Masculin. *L'environnement de développement* vs *de production*.\n**différent(e)** = different — s'accorde avec le nom.",
+          "englishPhrase": "The dev and prod environments are different.",
+          "phrase": "Les environnements de développement et de production sont différents.",
+          "literal": [
+            ["Les environnements de développement", "the dev environments"],
+            ["et de production", "and prod"],
+            ["sont différents.", "are different."]
+          ]
+        },
+        {
+          "id": "run",
+          "english": "to run / to execute",
+          "word": "exécuter",
+          "grammarNote": "**exécuter** Verbe du 1er groupe. *Lancer* est plus courant à l'oral : *lance ce programme*.\n*Exécuter un script* = to run a script.",
+          "englishPhrase": "Run this program.",
+          "phrase": "Exécutez ce programme.",
+          "literal": [
+            ["Exécutez", "run"],
+            ["ce programme.", "this program."]
+          ]
+        },
+        {
+          "id": "log",
+          "english": "the log",
+          "word": "le journal / les logs",
+          "grammarNote": "**le journal** (officiel) / **les logs** (jargon). *Consulter les logs* = to check the logs.\n**vérifier** = to check/verify.",
+          "englishPhrase": "Check the logs.",
+          "phrase": "Vérifiez les logs.",
+          "literal": [
+            ["Vérifiez", "check"],
+            ["les logs.", "the logs."]
+          ]
+        },
+        {
+          "id": "push",
+          "english": "to push / upload code",
+          "word": "pousser le code",
+          "grammarNote": "**pousser le code** / **faire un push** — les deux s'utilisent en contexte git.\n**vers le dépôt** = to the repository.",
+          "englishPhrase": "I pushed the code to the repository.",
+          "phrase": "J'ai poussé le code vers le dépôt.",
+          "literal": [
+            ["J'ai poussé", "I pushed"],
+            ["le code", "the code"],
+            ["vers le dépôt.", "to the repository."]
+          ]
+        },
+        {
+          "id": "integration",
+          "english": "the integration",
+          "word": "l'intégration",
+          "grammarNote": "**l'intégration** Féminin. *Le test d'intégration* = the integration test.\n**échouer** = to fail (verbe du 1er groupe).",
+          "englishPhrase": "The integration test failed.",
+          "phrase": "Le test d'intégration a échoué.",
+          "literal": [
+            ["Le test d'intégration", "the integration test"],
+            ["a échoué.", "failed."]
+          ]
+        },
+        {
+          "id": "comment",
+          "english": "the comment (in code)",
+          "word": "le commentaire",
+          "grammarNote": "**le commentaire** Masculin. *Ajouter des commentaires* = to add comments.\n**quelques** = some/a few — utilisé avec un nom pluriel dénombrable.",
+          "englishPhrase": "Please add some comments.",
+          "phrase": "Veuillez ajouter quelques commentaires.",
+          "literal": [
+            ["Veuillez", "please"],
+            ["ajouter", "add"],
+            ["quelques commentaires.", "some comments."]
+          ]
+        },
+        {
+          "id": "need",
+          "english": "to need",
+          "word": "avoir besoin de",
+          "grammarNote": "**avoir besoin de** = to need. *J'ai besoin de plus de temps*.\n**plus de** = more (before a noun); *davantage de* est plus soutenu.",
+          "englishPhrase": "I need more time.",
+          "phrase": "J'ai besoin de plus de temps.",
+          "literal": [
+            ["J'ai besoin", "I need"],
+            ["de plus de temps.", "more time."]
+          ]
+        },
+        {
+          "id": "finish",
+          "english": "to finish / to complete",
+          "word": "terminer / finir",
+          "grammarNote": "**terminer** et **finir** sont synonymes. *J'ai terminé cette tâche* = I finished this task.\n**la tâche** (fém.) = task — accord au féminin : *terminée*.",
+          "englishPhrase": "I finished this task.",
+          "phrase": "J'ai terminé cette tâche.",
+          "literal": [
+            ["J'ai terminé", "I finished"],
+            ["cette tâche.", "this task."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dungeons_and_dragons",
+      "name": "Dungeons & Dragons",
+      "cards": [
+        {
+          "id": "dungeon",
+          "english": "dungeon",
+          "word": "le donjon",
+          "grammarNote": "**le donjon** Masculin. En français médiéval, le donjon était la tour principale du château ; le sens « souterrain sombre » vient du jeu de rôle.\n**sombre** = dark (adj.).",
+          "englishPhrase": "They entered the dark dungeon.",
+          "phrase": "Ils sont entrés dans le sombre donjon.",
+          "literal": [
+            ["Ils sont entrés", "they entered"],
+            ["dans le sombre", "into the dark"],
+            ["donjon.", "dungeon."]
+          ]
+        },
+        {
+          "id": "dragon",
+          "english": "dragon",
+          "word": "le dragon",
+          "grammarNote": "**le dragon** Masculin. Mot d'origine française qui a été emprunté par l'anglais.\n**un immense dragon** = a huge dragon.",
+          "englishPhrase": "A huge dragon guards the treasure.",
+          "phrase": "Un immense dragon garde le trésor.",
+          "literal": [
+            ["Un immense dragon", "a huge dragon"],
+            ["garde", "guards"],
+            ["le trésor.", "the treasure."]
+          ]
+        },
+        {
+          "id": "quest",
+          "english": "quest / mission",
+          "word": "la quête",
+          "grammarNote": "**la quête** Féminin. Mot d'origine française (de *quérir* = to seek) repris par l'anglais *quest*.\n**accepter** = to accept.",
+          "englishPhrase": "We accepted the quest.",
+          "phrase": "Nous avons accepté la quête.",
+          "literal": [
+            ["Nous avons accepté", "we accepted"],
+            ["la quête.", "the quest."]
+          ]
+        },
+        {
+          "id": "adventure",
+          "english": "adventure",
+          "word": "l'aventure",
+          "grammarNote": "**l'aventure** Féminin. *Partir à l'aventure* = to set off on an adventure.\n**dangereuse** = dangerous (féminin de *dangereux*).",
+          "englishPhrase": "This is a dangerous adventure.",
+          "phrase": "C'est une aventure dangereuse.",
+          "literal": [
+            ["C'est", "this is"],
+            ["une aventure", "an adventure"],
+            ["dangereuse.", "dangerous."]
+          ]
+        },
+        {
+          "id": "campaign",
+          "english": "campaign",
+          "word": "la campagne",
+          "grammarNote": "**la campagne** Féminin. En jeu de rôle, *une campagne* = a multi-session story arc.\n**durer** = to last (+ complément de durée).",
+          "englishPhrase": "This campaign lasted several months.",
+          "phrase": "Cette campagne a duré plusieurs mois.",
+          "literal": [
+            ["Cette campagne", "this campaign"],
+            ["a duré", "lasted"],
+            ["plusieurs mois.", "several months."]
+          ]
+        },
+        {
+          "id": "character",
+          "english": "character",
+          "word": "le personnage",
+          "grammarNote": "**le personnage** Masculin. *Créer un personnage* = to create a character.\n**nouveau/nouvelle** = new (précède le nom ; *nouveau* devant consonne, *nouvel* devant voyelle).",
+          "englishPhrase": "I created a new character.",
+          "phrase": "J'ai créé un nouveau personnage.",
+          "literal": [
+            ["J'ai créé", "I created"],
+            ["un nouveau", "a new"],
+            ["personnage.", "character."]
+          ]
+        },
+        {
+          "id": "wizard",
+          "english": "wizard",
+          "word": "le mage",
+          "grammarNote": "**le mage** Masculin. Aussi *le sorcier* (wizard with sinister connotations) ou *le magicien*.\n**lancer un sort** = to cast a spell.",
+          "englishPhrase": "The wizard cast a fireball.",
+          "phrase": "Le mage a lancé une boule de feu.",
+          "literal": [
+            ["Le mage", "the wizard"],
+            ["a lancé", "cast"],
+            ["une boule de feu.", "a fireball."]
+          ]
+        },
+        {
+          "id": "warrior",
+          "english": "warrior / fighter",
+          "word": "le guerrier",
+          "grammarNote": "**le guerrier** / **la guerrière**. *Le combattant* est un synonyme plus général.\n**lever** = to raise (lève, lèvent — attention à l'accent grave).",
+          "englishPhrase": "The warrior raised his sword.",
+          "phrase": "Le guerrier a levé son épée.",
+          "literal": [
+            ["Le guerrier", "the warrior"],
+            ["a levé", "raised"],
+            ["son épée.", "his sword."]
+          ]
+        },
+        {
+          "id": "rogue",
+          "english": "rogue",
+          "word": "le voleur",
+          "grammarNote": "**le voleur** / **la voleuse**. En jeu de rôle, *le roublard* est le terme officiel du manuel D&D 5e en français.\n**dérober** = to steal (plus soutenu que *voler*).",
+          "englishPhrase": "The rogue stole the key.",
+          "phrase": "Le voleur a dérobé la clé.",
+          "literal": [
+            ["Le voleur", "the rogue"],
+            ["a dérobé", "stole"],
+            ["la clé.", "the key."]
+          ]
+        },
+        {
+          "id": "paladin",
+          "english": "paladin",
+          "word": "le paladin",
+          "grammarNote": "**le paladin** Masculin. Mot d'origine française (de *palatinus*, chevalier de Charlemagne).\n**courageux/courageuse** = brave/courageous.",
+          "englishPhrase": "The paladin is very brave.",
+          "phrase": "Le paladin est très courageux.",
+          "literal": [
+            ["Le paladin", "the paladin"],
+            ["est très courageux.", "is very brave."]
+          ]
+        },
+        {
+          "id": "ranger",
+          "english": "ranger",
+          "word": "le rôdeur",
+          "grammarNote": "**le rôdeur** / **la rôdeuse** — terme officiel D&D 5e en français. *Rôder* = to prowl/roam.\n**être doué(e) pour** = to be skilled at.",
+          "englishPhrase": "The ranger is skilled at archery.",
+          "phrase": "Le rôdeur est doué pour le tir à l'arc.",
+          "literal": [
+            ["Le rôdeur", "the ranger"],
+            ["est doué pour", "is skilled at"],
+            ["le tir à l'arc.", "archery."]
+          ]
+        },
+        {
+          "id": "dungeon_master",
+          "english": "dungeon master",
+          "word": "le maître du jeu",
+          "grammarNote": "**le maître du jeu** (MJ) — traduction officielle de Dungeon Master en français. Aussi *le meneur de jeu*.\n**décrire** = to describe.",
+          "englishPhrase": "The dungeon master described the scene.",
+          "phrase": "Le maître du jeu a décrit la scène.",
+          "literal": [
+            ["Le maître du jeu", "the DM"],
+            ["a décrit", "described"],
+            ["la scène.", "the scene."]
+          ]
+        },
+        {
+          "id": "spell",
+          "english": "spell",
+          "word": "le sort",
+          "grammarNote": "**le sort** Masculin. *Lancer un sort* = to cast a spell. *Jeter un sort* = to cast/put a spell on someone.\n**puissant(e)** = powerful.",
+          "englishPhrase": "This spell is powerful.",
+          "phrase": "Ce sort est très puissant.",
+          "literal": [
+            ["Ce sort", "this spell"],
+            ["est très puissant.", "is very powerful."]
+          ]
+        },
+        {
+          "id": "incantation",
+          "english": "conjuration / incantation",
+          "word": "l'incantation",
+          "grammarNote": "**l'incantation** Féminin. *Prononcer une incantation* = to recite an incantation.\n**prononcer** = to pronounce/recite (synonyme soutenu de *dire*).",
+          "englishPhrase": "She recited an incantation.",
+          "phrase": "Elle a prononcé une incantation.",
+          "literal": [
+            ["Elle", "she"],
+            ["a prononcé", "recited"],
+            ["une incantation.", "an incantation."]
+          ]
+        },
+        {
+          "id": "magic",
+          "english": "magic",
+          "word": "la magie",
+          "grammarNote": "**la magie** Féminin. *Magique* = magical (adj.). *La forêt est pleine de magie*.\n**plein(e) de** = full of (informal); *rempli(e) de* is more formal.",
+          "englishPhrase": "The forest is full of magic.",
+          "phrase": "La forêt est pleine de magie.",
+          "literal": [
+            ["La forêt", "the forest"],
+            ["est pleine de", "is full of"],
+            ["magie.", "magic."]
+          ]
+        },
+        {
+          "id": "potion",
+          "english": "potion",
+          "word": "la potion",
+          "grammarNote": "**la potion** Féminin. Mot d'origine française. *Boire une potion* = to drink a potion.\n**avaler** = to swallow/drink down (plus expressif que *boire*).",
+          "englishPhrase": "Drink this potion.",
+          "phrase": "Bois cette potion.",
+          "literal": [
+            ["Bois", "drink"],
+            ["cette potion.", "this potion."]
+          ]
+        },
+        {
+          "id": "sword",
+          "english": "sword",
+          "word": "l'épée",
+          "grammarNote": "**l'épée** Féminin. *Tranchant(e)* = sharp. *L'épée d'escrime* = fencing sword.\n*Son épée est tranchante* — accord de l'adjectif au féminin.",
+          "englishPhrase": "His sword is sharp.",
+          "phrase": "Son épée est tranchante.",
+          "literal": [
+            ["Son épée", "his sword"],
+            ["est tranchante.", "is sharp."]
+          ]
+        },
+        {
+          "id": "shield",
+          "english": "shield",
+          "word": "le bouclier",
+          "grammarNote": "**le bouclier** Masculin. *Bloquer avec un bouclier* = to block with a shield.\n**bloquer** = to block (1er groupe).",
+          "englishPhrase": "Block the attack with your shield.",
+          "phrase": "Bloquez l'attaque avec votre bouclier.",
+          "literal": [
+            ["Bloquez", "block"],
+            ["l'attaque", "the attack"],
+            ["avec votre bouclier.", "with your shield."]
+          ]
+        },
+        {
+          "id": "armor",
+          "english": "armor",
+          "word": "l'armure",
+          "grammarNote": "**l'armure** Féminin. *Revêtir son armure* = to put on one's armor (soutenu). *Mettre son armure* = common.\n**mettre** = to put on (clothing/gear).",
+          "englishPhrase": "He put on his armor.",
+          "phrase": "Il a mis son armure.",
+          "literal": [
+            ["Il", "he"],
+            ["a mis", "put on"],
+            ["son armure.", "his armor."]
+          ]
+        },
+        {
+          "id": "dice",
+          "english": "dice",
+          "word": "les dés",
+          "grammarNote": "**le dé** (sing.) / **les dés** (plur.). *Un dé à six faces* = a six-sided die.\n**sur la table** = on the table.",
+          "englishPhrase": "There are some dice on the table.",
+          "phrase": "Il y a des dés sur la table.",
+          "literal": [
+            ["Il y a", "there are"],
+            ["des dés", "some dice"],
+            ["sur la table.", "on the table."]
+          ]
+        },
+        {
+          "id": "roll_dice",
+          "english": "to roll the dice",
+          "word": "lancer les dés",
+          "grammarNote": "**lancer les dés** = to roll the dice. *Jeter les dés* est aussi utilisé.\n**c'est à toi de** = it's your turn to.",
+          "englishPhrase": "It's your turn to roll the dice.",
+          "phrase": "C'est à toi de lancer les dés.",
+          "literal": [
+            ["C'est à toi de", "it's your turn to"],
+            ["lancer les dés.", "roll the dice."]
+          ]
+        },
+        {
+          "id": "critical_hit",
+          "english": "critical hit",
+          "word": "le coup critique",
+          "grammarNote": "**le coup critique** Masculin. Aussi *le critique* (abrégé par les joueurs).\n**C'était un…** = that was a… (imparfait de narration).",
+          "englishPhrase": "That was a critical hit!",
+          "phrase": "C'était un coup critique !",
+          "literal": [
+            ["C'était", "that was"],
+            ["un coup critique !", "a critical hit!"]
+          ]
+        },
+        {
+          "id": "level_up",
+          "english": "to level up",
+          "word": "monter de niveau",
+          "grammarNote": "**monter de niveau** = to level up. *Gagner un niveau* est aussi utilisé.\n**le niveau** (masc.) = level.",
+          "englishPhrase": "My character leveled up.",
+          "phrase": "Mon personnage a monté de niveau.",
+          "literal": [
+            ["Mon personnage", "my character"],
+            ["a monté de niveau.", "leveled up."]
+          ]
+        },
+        {
+          "id": "experience_points",
+          "english": "experience points",
+          "word": "les points d'expérience",
+          "grammarNote": "**les points d'expérience** (XP). Masculin pluriel. *Gagner des points d'expérience* = to gain XP.\n**beaucoup de** = a lot of (devant nom pluriel ou singulier).",
+          "englishPhrase": "You gained a lot of experience points.",
+          "phrase": "Tu as gagné beaucoup de points d'expérience.",
+          "literal": [
+            ["Tu as gagné", "you gained"],
+            ["beaucoup de", "a lot of"],
+            ["points d'expérience.", "experience points."]
+          ]
+        },
+        {
+          "id": "monster",
+          "english": "monster",
+          "word": "le monstre",
+          "grammarNote": "**le monstre** Masculin. *Un monstre est apparu* = a monster appeared.\n**apparaître** = to appear (verbe irrégulier ; passé composé avec *avoir*).",
+          "englishPhrase": "A monster appeared.",
+          "phrase": "Un monstre est apparu.",
+          "literal": [
+            ["Un monstre", "a monster"],
+            ["est apparu.", "appeared."]
+          ]
+        },
+        {
+          "id": "goblin",
+          "english": "goblin",
+          "word": "le gobelin",
+          "grammarNote": "**le gobelin** Masculin. Terme officiel D&D 5e FR. Le mot est d'origine française (du normand *gobelin*).\n**bloquer la route** = to block the road.",
+          "englishPhrase": "Three goblins blocked the road.",
+          "phrase": "Trois gobelins ont bloqué la route.",
+          "literal": [
+            ["Trois gobelins", "three goblins"],
+            ["ont bloqué", "blocked"],
+            ["la route.", "the road."]
+          ]
+        },
+        {
+          "id": "treasure",
+          "english": "treasure",
+          "word": "le trésor",
+          "grammarNote": "**le trésor** Masculin. Mot d'origine française (*trésor* → anglais *treasure*).\n**trouver** = to find (3e groupe).",
+          "englishPhrase": "We found the treasure.",
+          "phrase": "Nous avons trouvé le trésor.",
+          "literal": [
+            ["Nous avons trouvé", "we found"],
+            ["le trésor.", "the treasure."]
+          ]
+        },
+        {
+          "id": "map",
+          "english": "map",
+          "word": "la carte",
+          "grammarNote": "**la carte** Féminin. En français, *la carte* = map ou playing card. *La carte géographique* = a geographic map.\n**regarder** = to look at.",
+          "englishPhrase": "Look at this map.",
+          "phrase": "Regardez cette carte.",
+          "literal": [
+            ["Regardez", "look at"],
+            ["cette carte.", "this map."]
+          ]
+        },
+        {
+          "id": "tavern",
+          "english": "tavern",
+          "word": "la taverne",
+          "grammarNote": "**la taverne** Féminin. Mot d'origine française. Aussi *l'auberge* = the inn.\n**se reposer** = to rest (verbe pronominal).",
+          "englishPhrase": "We rest at the tavern.",
+          "phrase": "Nous nous reposons à la taverne.",
+          "literal": [
+            ["Nous nous reposons", "we rest"],
+            ["à la taverne.", "at the tavern."]
+          ]
+        },
+        {
+          "id": "party",
+          "english": "adventuring party",
+          "word": "le groupe d'aventuriers",
+          "grammarNote": "**le groupe d'aventuriers** Masculin. Aussi *la compagnie* (plus épique). *Notre groupe compte quatre membres*.\n**compter** = to count/have (members).",
+          "englishPhrase": "Our party has four people.",
+          "phrase": "Notre groupe d'aventuriers compte quatre personnes.",
+          "literal": [
+            ["Notre groupe d'aventuriers", "our party"],
+            ["compte", "has"],
+            ["quatre personnes.", "four people."]
+          ]
+        },
+        {
+          "id": "enchanted",
+          "english": "enchanted",
+          "word": "enchanté(e)",
+          "grammarNote": "**enchanté(e)** Adjectif. *Cette épée est enchantée* = this sword is enchanted.\n**Enchanté !** signifie aussi 'Pleased to meet you!' en français quotidien.",
+          "englishPhrase": "This sword is enchanted.",
+          "phrase": "Cette épée est enchantée.",
+          "literal": [
+            ["Cette épée", "this sword"],
+            ["est enchantée.", "is enchanted."]
+          ]
+        },
+        {
+          "id": "attack",
+          "english": "to attack",
+          "word": "attaquer",
+          "grammarNote": "**attaquer** Verbe du 1er groupe. *L'attaque* (fém.) = the attack (noun).\n**vite !** = quick! (adverbe).",
+          "englishPhrase": "Attack that dragon!",
+          "phrase": "Attaquez ce dragon !",
+          "literal": [
+            ["Attaquez", "attack"],
+            ["ce dragon !", "that dragon!"]
+          ]
+        },
+        {
+          "id": "flee",
+          "english": "to flee / run away",
+          "word": "fuir",
+          "grammarNote": "**fuir** Verbe du 3e groupe (irrégulier). *Ils ont décidé de fuir* = they decided to flee.\n**décider de + infinitif** = to decide to do something.",
+          "englishPhrase": "They decided to flee.",
+          "phrase": "Ils ont décidé de fuir.",
+          "literal": [
+            ["Ils ont décidé", "they decided"],
+            ["de fuir.", "to flee."]
+          ]
+        },
+        {
+          "id": "heal",
+          "english": "to heal / cure",
+          "word": "soigner",
+          "grammarNote": "**soigner** Verbe du 1er groupe. *Le clerc a soigné le guerrier*. Also *guérir* = to cure (3e groupe).\n**le clerc** = the cleric.",
+          "englishPhrase": "The cleric healed the warrior.",
+          "phrase": "Le clerc a soigné le guerrier.",
+          "literal": [
+            ["Le clerc", "the cleric"],
+            ["a soigné", "healed"],
+            ["le guerrier.", "the warrior."]
+          ]
+        },
+        {
+          "id": "defend",
+          "english": "to defend",
+          "word": "défendre",
+          "grammarNote": "**défendre** Verbe du 3e groupe. *La défense* (fém.) = defense (noun).\n**devoir** + infinitif = must/have to.",
+          "englishPhrase": "We must defend the castle.",
+          "phrase": "Nous devons défendre le château.",
+          "literal": [
+            ["Nous devons", "we must"],
+            ["défendre", "defend"],
+            ["le château.", "the castle."]
+          ]
+        },
+        {
+          "id": "explore",
+          "english": "to explore",
+          "word": "explorer",
+          "grammarNote": "**explorer** Verbe du 1er groupe. *Explorons cette grotte* = let's explore this cave.\n**allons + infinitif** ou impératif 1e personne du pluriel = let's…",
+          "englishPhrase": "Let's explore this cave.",
+          "phrase": "Explorons cette grotte.",
+          "literal": [
+            ["Explorons", "let's explore"],
+            ["cette grotte.", "this cave."]
+          ]
+        },
+        {
+          "id": "hit_points",
+          "english": "hit points / health points",
+          "word": "les points de vie",
+          "grammarNote": "**les points de vie** (PV). Masculin pluriel. Abrégé *PV* en français (= *Points de Vie*).\n**bas/basse** = low (adj.); *Ses PV sont bas*.",
+          "englishPhrase": "His hit points are low.",
+          "phrase": "Ses points de vie sont bas.",
+          "literal": [
+            ["Ses points de vie", "his hit points"],
+            ["sont bas.", "are low."]
+          ]
+        },
+        {
+          "id": "turn",
+          "english": "turn (in combat)",
+          "word": "le tour",
+          "grammarNote": "**le tour** Masculin. *C'est mon tour* = it's my turn.\n**maintenant** = now.",
+          "englishPhrase": "Now it's my turn.",
+          "phrase": "Maintenant c'est mon tour.",
+          "literal": [
+            ["Maintenant", "now"],
+            ["c'est", "it's"],
+            ["mon tour.", "my turn."]
+          ]
+        },
+        {
+          "id": "victory",
+          "english": "victory",
+          "word": "la victoire",
+          "grammarNote": "**la victoire** Féminin. Mot d'origine française. *Remporter la victoire* = to achieve victory.\n**finalement** = in the end/finally.",
+          "englishPhrase": "In the end we achieved victory.",
+          "phrase": "Finalement, nous avons remporté la victoire.",
+          "literal": [
+            ["Finalement,", "in the end,"],
+            ["nous avons remporté", "we achieved"],
+            ["la victoire.", "victory."]
+          ]
+        },
+        {
+          "id": "enemy",
+          "english": "enemy",
+          "word": "l'ennemi",
+          "grammarNote": "**l'ennemi** Masculin. *L'ennemie* (fém.) est rare mais correct.\n**de plus en plus** = more and more (equivalent of Chinese 越来越).",
+          "englishPhrase": "The enemy is getting closer.",
+          "phrase": "L'ennemi se rapproche de plus en plus.",
+          "literal": [
+            ["L'ennemi", "the enemy"],
+            ["se rapproche", "is getting closer"],
+            ["de plus en plus.", "more and more."]
+          ]
+        },
+        {
+          "id": "trap",
+          "english": "trap",
+          "word": "le piège",
+          "grammarNote": "**le piège** Masculin. *Tendre un piège* = to set a trap. *Tomber dans un piège* = to fall into a trap.\n**attention à** = watch out for.",
+          "englishPhrase": "Watch out for that trap!",
+          "phrase": "Attention à ce piège !",
+          "literal": [
+            ["Attention à", "watch out for"],
+            ["ce piège !", "that trap!"]
+          ]
+        },
+        {
+          "id": "loot",
+          "english": "loot",
+          "word": "le butin",
+          "grammarNote": "**le butin** Masculin. Mot d'origine française (d'où l'anglais *booty*). *Partager le butin* = to share the loot.\n**partager** = to share (1er groupe).",
+          "englishPhrase": "We split the loot.",
+          "phrase": "Nous avons partagé le butin.",
+          "literal": [
+            ["Nous avons partagé", "we split"],
+            ["le butin.", "the loot."]
+          ]
+        },
+        {
+          "id": "innkeeper",
+          "english": "innkeeper",
+          "word": "l'aubergiste",
+          "grammarNote": "**l'aubergiste** Masculin ou féminin. Gérant(e) d'une auberge ou d'une taverne.\n**donner des nouvelles** = to give some news/information.",
+          "englishPhrase": "The innkeeper gave us some news.",
+          "phrase": "L'aubergiste nous a donné quelques nouvelles.",
+          "literal": [
+            ["L'aubergiste", "the innkeeper"],
+            ["nous a donné", "gave us"],
+            ["quelques nouvelles.", "some news."]
+          ]
+        },
+        {
+          "id": "bow",
+          "english": "bow (weapon)",
+          "word": "l'arc",
+          "grammarNote": "**l'arc** Masculin. *Une flèche* (fém.) = an arrow. *Le tir à l'arc* = archery.\n**toucher la cible** = to hit the target.",
+          "englishPhrase": "She hit the target with her bow.",
+          "phrase": "Elle a touché la cible avec son arc.",
+          "literal": [
+            ["Elle", "she"],
+            ["a touché", "hit"],
+            ["la cible", "the target"],
+            ["avec son arc.", "with her bow."]
+          ]
+        },
+        {
+          "id": "session",
+          "english": "game session",
+          "word": "la session de jeu",
+          "grammarNote": "**la session de jeu** Féminin. Aussi *une partie* = a game session.\n**ce soir** = tonight.",
+          "englishPhrase": "There's a game session tonight.",
+          "phrase": "Il y a une session de jeu ce soir.",
+          "literal": [
+            ["Il y a", "there is"],
+            ["une session de jeu", "a game session"],
+            ["ce soir.", "tonight."]
+          ]
+        },
+        {
+          "id": "rule",
+          "english": "rule",
+          "word": "la règle",
+          "grammarNote": "**la règle** Féminin. *Les règles du jeu* = the rules of the game.\n**respecter** = to follow/respect (the rules).",
+          "englishPhrase": "Please follow the rules.",
+          "phrase": "Veuillez respecter les règles.",
+          "literal": [
+            ["Veuillez", "please"],
+            ["respecter", "follow"],
+            ["les règles.", "the rules."]
+          ]
+        },
+        {
+          "id": "initiative",
+          "english": "initiative",
+          "word": "l'initiative",
+          "grammarNote": "**l'initiative** Féminin. *L'ordre d'initiative* = the initiative order.\n**déterminer** = to determine.",
+          "englishPhrase": "Let's determine the initiative order.",
+          "phrase": "Déterminons l'ordre d'initiative.",
+          "literal": [
+            ["Déterminons", "let's determine"],
+            ["l'ordre d'initiative.", "the initiative order."]
+          ]
+        },
+        {
+          "id": "twenty_sided",
+          "english": "twenty-sided die (d20)",
+          "word": "le dé à vingt faces",
+          "grammarNote": "**le dé à vingt faces** Masculin. Abrégé *d20* dans tous les jeux de rôle.\n**jet** (masc.) = a roll/check: *faire un jet* = to make a roll.",
+          "englishPhrase": "Use the d20 for the check.",
+          "phrase": "Utilisez le d20 pour le jet.",
+          "literal": [
+            ["Utilisez", "use"],
+            ["le d20", "the d20"],
+            ["pour le jet.", "for the check."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "french_culture",
+      "name": "French Culture",
+      "cards": [
+        {
+          "id": "bastille_day",
+          "english": "Bastille Day / July 14th",
+          "word": "le 14 juillet",
+          "grammarNote": "**le 14 juillet** = Bastille Day, the French national holiday. *La Fête nationale* = the official name.\n**feux d'artifice** = fireworks — always plural.",
+          "englishPhrase": "On July 14th there are fireworks everywhere.",
+          "phrase": "Le 14 juillet, il y a des feux d'artifice partout.",
+          "literal": [
+            ["Le 14 juillet,", "on July 14th,"],
+            ["il y a", "there are"],
+            ["des feux d'artifice", "fireworks"],
+            ["partout.", "everywhere."]
+          ]
+        },
+        {
+          "id": "christmas",
+          "english": "Christmas",
+          "word": "Noël",
+          "grammarNote": "**Noël** Masculin sans article en général : *Joyeux Noël !* = Merry Christmas!\n*Les fêtes de Noël* = the Christmas holidays.",
+          "englishPhrase": "We celebrate Christmas with the family.",
+          "phrase": "Nous fêtons Noël en famille.",
+          "literal": [
+            ["Nous fêtons", "we celebrate"],
+            ["Noël", "Christmas"],
+            ["en famille.", "with the family."]
+          ]
+        },
+        {
+          "id": "baguette",
+          "english": "baguette",
+          "word": "la baguette",
+          "grammarNote": "**la baguette** Féminin. Le pain français emblématique. *Une baguette tradition* est une variété artisanale protégée.\n*Aller chercher la baguette* = to go pick up the baguette — un rituel quotidien.",
+          "englishPhrase": "I buy a baguette every morning.",
+          "phrase": "J'achète une baguette tous les matins.",
+          "literal": [
+            ["J'achète", "I buy"],
+            ["une baguette", "a baguette"],
+            ["tous les matins.", "every morning."]
+          ]
+        },
+        {
+          "id": "boulangerie",
+          "english": "bakery (French bread shop)",
+          "word": "la boulangerie",
+          "grammarNote": "**la boulangerie** Féminin. *Le boulanger / la boulangère* = the baker.\n*Aller à la boulangerie* = to go to the bakery — une habitude culturelle forte.",
+          "englishPhrase": "The bakery opens at seven in the morning.",
+          "phrase": "La boulangerie ouvre à sept heures du matin.",
+          "literal": [
+            ["La boulangerie", "the bakery"],
+            ["ouvre", "opens"],
+            ["à sept heures du matin.", "at seven in the morning."]
+          ]
+        },
+        {
+          "id": "cafe",
+          "english": "café",
+          "word": "le café",
+          "grammarNote": "**le café** Masculin. Désigne à la fois la boisson et l'établissement. *Prendre un café en terrasse* = to have a coffee on the terrace — culture incontournable.\n**en terrasse** = on the patio/terrace (outside seating).",
+          "englishPhrase": "We drink coffee on the café terrace.",
+          "phrase": "Nous buvons un café en terrasse.",
+          "literal": [
+            ["Nous buvons", "we drink"],
+            ["un café", "a coffee"],
+            ["en terrasse.", "on the terrace."]
+          ]
+        },
+        {
+          "id": "la_bise",
+          "english": "la bise (cheek kiss greeting)",
+          "word": "la bise",
+          "grammarNote": "**la bise** Féminin. Baiser sur la joue pour se saluer. Le nombre varie selon la région (2 à 4).\n**faire la bise** = to exchange cheek kisses — geste de salutation courant entre amis.",
+          "englishPhrase": "We greet each other with a kiss on the cheek.",
+          "phrase": "Nous nous faisons la bise pour nous dire bonjour.",
+          "literal": [
+            ["Nous nous faisons", "we exchange"],
+            ["la bise", "cheek kisses"],
+            ["pour nous dire bonjour.", "to say hello."]
+          ]
+        },
+        {
+          "id": "wine",
+          "english": "wine",
+          "word": "le vin",
+          "grammarNote": "**le vin** Masculin. *Le vin rouge / blanc / rosé*. La France est l'un des plus grands producteurs mondiaux.\n**accompagner** = to accompany/pair with (food).",
+          "englishPhrase": "Wine accompanies every meal in France.",
+          "phrase": "Le vin accompagne chaque repas en France.",
+          "literal": [
+            ["Le vin", "wine"],
+            ["accompagne", "accompanies"],
+            ["chaque repas", "every meal"],
+            ["en France.", "in France."]
+          ]
+        },
+        {
+          "id": "cheese",
+          "english": "cheese",
+          "word": "le fromage",
+          "grammarNote": "**le fromage** Masculin. *Le plateau de fromages* = the cheese board. La France compte plus de 1 000 variétés.\n*Après le plat, avant le dessert* = cheese comes after the main course in France.",
+          "englishPhrase": "France has hundreds of different cheeses.",
+          "phrase": "La France a des centaines de fromages différents.",
+          "literal": [
+            ["La France", "France"],
+            ["a", "has"],
+            ["des centaines de", "hundreds of"],
+            ["fromages différents.", "different cheeses."]
+          ]
+        },
+        {
+          "id": "croissant",
+          "english": "croissant",
+          "word": "le croissant",
+          "grammarNote": "**le croissant** Masculin. Viennoiserie emblématique d'origine autrichienne, adoptée par la France.\n*Croissant au beurre* = butter croissant (la version artisanale).",
+          "englishPhrase": "A buttery croissant is delicious.",
+          "phrase": "Un croissant au beurre, c'est délicieux.",
+          "literal": [
+            ["Un croissant au beurre,", "a buttery croissant,"],
+            ["c'est délicieux.", "it's delicious."]
+          ]
+        },
+        {
+          "id": "eiffel_tower",
+          "english": "the Eiffel Tower",
+          "word": "la tour Eiffel",
+          "grammarNote": "**la tour Eiffel** Féminin. *Célèbre* = famous. Construite en 1889 pour l'Exposition universelle.\n**visiter** = to visit (a place).",
+          "englishPhrase": "The Eiffel Tower is very famous.",
+          "phrase": "La tour Eiffel est très célèbre.",
+          "literal": [
+            ["La tour Eiffel", "the Eiffel Tower"],
+            ["est très célèbre.", "is very famous."]
+          ]
+        },
+        {
+          "id": "bonjour",
+          "english": "hello / good day",
+          "word": "Bonjour",
+          "grammarNote": "**Bonjour** = hello/good morning/good afternoon. En France, dire *bonjour* en entrant dans un magasin est une règle sociale fondamentale.\n**Bonsoir** = good evening.",
+          "englishPhrase": "You always say bonjour when entering a shop.",
+          "phrase": "On dit toujours bonjour en entrant dans un magasin.",
+          "literal": [
+            ["On dit toujours", "one always says"],
+            ["bonjour", "bonjour"],
+            ["en entrant dans", "when entering"],
+            ["un magasin.", "a shop."]
+          ]
+        },
+        {
+          "id": "apero",
+          "english": "apéro (pre-dinner drinks)",
+          "word": "l'apéro",
+          "grammarNote": "**l'apéro** Masculin. Abréviation d'*apéritif*. Moment convivial avant le repas, souvent avec des amuse-gueules.\n**prendre l'apéro** = to have pre-dinner drinks.",
+          "englishPhrase": "We have apéro before dinner.",
+          "phrase": "Nous prenons l'apéro avant de dîner.",
+          "literal": [
+            ["Nous prenons", "we have"],
+            ["l'apéro", "the apéro"],
+            ["avant de dîner.", "before dinner."]
+          ]
+        },
+        {
+          "id": "french_regions",
+          "english": "the regions (of France)",
+          "word": "les régions",
+          "grammarNote": "**les régions** Féminin pluriel. La France métropolitaine est divisée en 13 régions depuis 2016.\n**la Bretagne, la Provence, l'Alsace** — each region has its own culture.",
+          "englishPhrase": "Each region of France has its own culture.",
+          "phrase": "Chaque région de France a sa propre culture.",
+          "literal": [
+            ["Chaque région", "each region"],
+            ["de France", "of France"],
+            ["a sa propre culture.", "has its own culture."]
+          ]
+        },
+        {
+          "id": "louvre",
+          "english": "the Louvre",
+          "word": "le Louvre",
+          "grammarNote": "**le Louvre** Masculin. Le plus grand musée du monde, situé à Paris. *La Joconde* = the Mona Lisa.\n**le plus grand** = the largest (superlative).",
+          "englishPhrase": "The Louvre is the largest museum in the world.",
+          "phrase": "Le Louvre est le plus grand musée du monde.",
+          "literal": [
+            ["Le Louvre", "the Louvre"],
+            ["est le plus grand", "is the largest"],
+            ["musée du monde.", "museum in the world."]
+          ]
+        },
+        {
+          "id": "boules",
+          "english": "pétanque / boules",
+          "word": "la pétanque",
+          "grammarNote": "**la pétanque** Féminin. Jeu de boules très populaire surtout dans le sud de la France. *Jouer à la pétanque* = to play pétanque.\n**les boules** = the metal balls used.",
+          "englishPhrase": "They play pétanque in the village square.",
+          "phrase": "Ils jouent à la pétanque sur la place du village.",
+          "literal": [
+            ["Ils jouent", "they play"],
+            ["à la pétanque", "pétanque"],
+            ["sur la place du village.", "in the village square."]
+          ]
+        },
+        {
+          "id": "francophonie",
+          "english": "Francophonie (French-speaking world)",
+          "word": "la Francophonie",
+          "grammarNote": "**la Francophonie** Féminin avec majuscule quand on désigne l'Organisation internationale. Le français est parlé sur 5 continents.\n**plus de** = more than (avant un nombre).",
+          "englishPhrase": "French is spoken in more than 50 countries.",
+          "phrase": "Le français est parlé dans plus de 50 pays.",
+          "literal": [
+            ["Le français", "French"],
+            ["est parlé", "is spoken"],
+            ["dans plus de", "in more than"],
+            ["50 pays.", "50 countries."]
+          ]
+        },
+        {
+          "id": "nouvelle_annee",
+          "english": "New Year's (Day / Eve)",
+          "word": "le Nouvel An",
+          "grammarNote": "**le Nouvel An** Masculin. *Nouvel* (not *nouveau*) before a vowel sound. *La Saint-Sylvestre* = New Year's Eve.\n**Bonne année !** = Happy New Year!",
+          "englishPhrase": "Happy New Year! We celebrate on December 31st.",
+          "phrase": "Bonne année ! On fête le Nouvel An le 31 décembre.",
+          "literal": [
+            ["Bonne année !", "Happy New Year!"],
+            ["On fête", "we celebrate"],
+            ["le Nouvel An", "New Year's"],
+            ["le 31 décembre.", "on December 31st."]
+          ]
+        },
+        {
+          "id": "greve",
+          "english": "strike (labor)",
+          "word": "la grève",
+          "grammarNote": "**la grève** Féminin. Les grèves sont fréquentes en France et font partie de la culture sociale.\n**faire grève** = to go on strike.",
+          "englishPhrase": "The workers are on strike today.",
+          "phrase": "Les travailleurs font grève aujourd'hui.",
+          "literal": [
+            ["Les travailleurs", "the workers"],
+            ["font grève", "are on strike"],
+            ["aujourd'hui.", "today."]
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "english": "Tour de France",
+          "word": "le Tour de France",
+          "grammarNote": "**le Tour de France** Masculin. La plus célèbre course cycliste du monde, créée en 1903.\n**avoir lieu** = to take place.",
+          "englishPhrase": "The Tour de France takes place every summer.",
+          "phrase": "Le Tour de France a lieu chaque été.",
+          "literal": [
+            ["Le Tour de France", "the Tour de France"],
+            ["a lieu", "takes place"],
+            ["chaque été.", "every summer."]
+          ]
+        },
+        {
+          "id": "dejeuner",
+          "english": "lunch (the main meal)",
+          "word": "le déjeuner",
+          "grammarNote": "**le déjeuner** Masculin. En France, le déjeuner est souvent le repas principal, avec entrée, plat et dessert.\n**prendre le temps de** = to take the time to — valeur culturelle française.",
+          "englishPhrase": "In France, people take time for lunch.",
+          "phrase": "En France, on prend le temps de déjeuner.",
+          "literal": [
+            ["En France,", "in France,"],
+            ["on prend le temps", "people take the time"],
+            ["de déjeuner.", "for lunch."]
+          ]
+        },
+        {
+          "id": "musee",
+          "english": "museum",
+          "word": "le musée",
+          "grammarNote": "**le musée** Masculin. La France possède de nombreux musées nationaux gratuits le premier dimanche du mois.\n**gratuit(e)** = free of charge.",
+          "englishPhrase": "Some museums are free on Sundays.",
+          "phrase": "Certains musées sont gratuits le dimanche.",
+          "literal": [
+            ["Certains musées", "some museums"],
+            ["sont gratuits", "are free"],
+            ["le dimanche.", "on Sundays."]
+          ]
+        },
+        {
+          "id": "marche",
+          "english": "market (outdoor / farmers' market)",
+          "word": "le marché",
+          "grammarNote": "**le marché** Masculin. *Le marché en plein air* = outdoor market. Les marchés hebdomadaires sont au cœur de la vie locale.\n**faire le marché** = to do the shopping at the market.",
+          "englishPhrase": "We do the shopping at the market on Saturday.",
+          "phrase": "Nous faisons le marché le samedi.",
+          "literal": [
+            ["Nous faisons", "we do"],
+            ["le marché", "the market shopping"],
+            ["le samedi.", "on Saturdays."]
+          ]
+        },
+        {
+          "id": "conge",
+          "english": "vacation / paid leave",
+          "word": "les congés",
+          "grammarNote": "**les congés** Masculin pluriel. *Les congés payés* = paid leave — acquis sociaux introduits en 1936.\n*Prendre ses congés* = to take one's vacation days.",
+          "englishPhrase": "French workers have five weeks of paid vacation.",
+          "phrase": "Les travailleurs français ont cinq semaines de congés payés.",
+          "literal": [
+            ["Les travailleurs français", "French workers"],
+            ["ont cinq semaines", "have five weeks"],
+            ["de congés payés.", "of paid vacation."]
+          ]
+        },
+        {
+          "id": "chanson",
+          "english": "French song / chanson",
+          "word": "la chanson",
+          "grammarNote": "**la chanson** Féminin. *La chanson française* est un genre musical célèbre mondialement (Édith Piaf, Jacques Brel).\n**écouter** = to listen to.",
+          "englishPhrase": "She loves listening to French songs.",
+          "phrase": "Elle adore écouter des chansons françaises.",
+          "literal": [
+            ["Elle adore", "she loves"],
+            ["écouter", "listening to"],
+            ["des chansons françaises.", "French songs."]
+          ]
+        },
+        {
+          "id": "liberty_equality_fraternity",
+          "english": "liberty, equality, fraternity",
+          "word": "Liberté, Égalité, Fraternité",
+          "grammarNote": "**Liberté, Égalité, Fraternité** = the French Republic's motto. Tous féminins.\n*La devise de la République* = the motto of the Republic.",
+          "englishPhrase": "Liberty, Equality, Fraternity is the French motto.",
+          "phrase": "Liberté, Égalité, Fraternité est la devise de la France.",
+          "literal": [
+            ["Liberté, Égalité, Fraternité", "Liberty, Equality, Fraternity"],
+            ["est la devise", "is the motto"],
+            ["de la France.", "of France."]
+          ]
+        },
+        {
+          "id": "provence",
+          "english": "Provence",
+          "word": "la Provence",
+          "grammarNote": "**la Provence** Féminin. Région du sud-est connue pour la lavande, le soleil et la cuisine méditerranéenne.\n**connu(e) pour** = known for.",
+          "englishPhrase": "Provence is known for its lavender fields.",
+          "phrase": "La Provence est connue pour ses champs de lavande.",
+          "literal": [
+            ["La Provence", "Provence"],
+            ["est connue pour", "is known for"],
+            ["ses champs de lavande.", "its lavender fields."]
+          ]
+        },
+        {
+          "id": "paris",
+          "english": "Paris",
+          "word": "Paris",
+          "grammarNote": "**Paris** Nom propre masculin. *La Ville Lumière* = the City of Light.\n*À Paris* = in/to Paris (pas d'article avec *à* devant une ville).",
+          "englishPhrase": "Paris is called the City of Light.",
+          "phrase": "Paris est surnommée la Ville Lumière.",
+          "literal": [
+            ["Paris", "Paris"],
+            ["est surnommée", "is nicknamed"],
+            ["la Ville Lumière.", "the City of Light."]
+          ]
+        },
+        {
+          "id": "savoir_vivre",
+          "english": "savoir-vivre / good manners",
+          "word": "le savoir-vivre",
+          "grammarNote": "**le savoir-vivre** Masculin. Art de vivre avec élégance et courtoisie — valeur culturelle fondamentale.\n**avoir du savoir-vivre** = to have good manners.",
+          "englishPhrase": "The French are known for their savoir-vivre.",
+          "phrase": "Les Français sont connus pour leur savoir-vivre.",
+          "literal": [
+            ["Les Français", "the French"],
+            ["sont connus pour", "are known for"],
+            ["leur savoir-vivre.", "their savoir-vivre."]
+          ]
+        }
+      ]
+    },
+    {
       "id": "cross_section",
       "name": "Cross-Section Lessons",
       "language": "french",
