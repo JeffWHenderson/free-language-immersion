@@ -27,5 +27,6 @@ export enum AvailableLanguages { // I HATE ENUMS but whatever, I guess they work
     french = "french",
     japanese = "japanese",
     korean = "korean",
-    spanish = "spanish"
+    spanish = "spanish",
+    german = "german"
 }

@@ -16,6 +16,7 @@ const prefetchStories = () => { void import('../StoryList'); };
 const prefetchPictures = () => { void import('../PictureList'); };
 const prefetchGrammar = () => { void import('../AllGrammarList'); };
 const prefetchBookmarks = () => { void import('../Bookmarks'); };
+const prefetchMatch = () => { void import('../MatchGame'); };
 
 /** A topic groups a section's split parts (or a single unsplit pack) into one home row. */
 interface TopicGroup {
@@ -57,8 +58,7 @@ const Home = () => {
     const [printRomanized, setPrintRomanized] = useState(true);
     const [showAi, setShowAi] = useState(false);
     const [aiMode, setAiMode] = useState<PracticeMode>('conversation');
-    const [aiLearnedOnly, setAiLearnedOnly] = useState(false);
-    const [aiIncludeExtension, setAiIncludeExtension] = useState(false);
+    const [aiVocabScope, setAiVocabScope] = useState<'all' | 'used'>('all');
     const [aiStayInVocab, setAiStayInVocab] = useState(true);
     const [aiSpeakSlowly, setAiSpeakSlowly] = useState(true);
     const [aiCorrect, setAiCorrect] = useState(true);
@@ -131,7 +131,7 @@ const Home = () => {
             .filter((p) => printSelectedDecks.has(p.id))
             .flatMap((p) => {
                 const state = loadDeckState(language!, p.id);
-                return p.cards.filter((c) => !isCardHidden(c, state)).flatMap((c) => {
+                return p.cards.filter((c) => !c.grammar && !isCardHidden(c, state)).flatMap((c) => {
                     if (printMode === 'words') {
                         return [{ id: c.id, english: c.english, word: c.word, romanized: c.romanized }];
                     }
@@ -199,17 +199,18 @@ const Home = () => {
         });
 
     // Vocabulary the AI tutor should know about: visible, real words (not embedded
-    // grammar cards) from the selected study decks. Main-course decks only by default;
-    // extension decks are opt-in. "Learned only" narrows it to cards that have
-    // graduated to the review state. Grammar decks (drills over known words) never
-    // contribute new vocabulary.
+    // grammar cards; grammar decks are drills over known words and never add vocabulary).
+    // Two scopes: "all" hands over the entire main course so the tutor can range freely;
+    // "used" narrows to words the learner has actually studied (graduated to the review
+    // state) across both main and extension decks.
     const knownVocab: VocabItem[] = deckEntries
-        .filter(({ pack }) => studyPacks.has(pack.id)
-            && (pack.category === "main" || (aiIncludeExtension && pack.category === "extension")))
+        .filter(({ pack }) => aiVocabScope === 'all'
+            ? pack.category === "main"
+            : pack.category === "main" || pack.category === "extension")
         .flatMap(({ pack, state }) =>
             pack.cards
                 .filter((c) => !c.grammar && c.word && !isCardHidden(c, state))
-                .filter((c) => !aiLearnedOnly || getCardState(state, c.id).state === 'review')
+                .filter((c) => aiVocabScope === 'all' || getCardState(state, c.id).state === 'review')
                 .map((c) => ({ word: c.word, english: c.english, romanized: c.romanized }))
         );
     const knownHasRomanized = knownVocab.some((v) => !!v.romanized);
@@ -363,11 +364,14 @@ const Home = () => {
                         <span className={`srs-section-chevron${experimentalOpen ? ' open' : ''}`}>›</span>
                         Experimental Features
                         <span className="srs-section-meta">
-                            {2 + (hasStories ? 1 : 0) + (hasPictures ? 1 : 0) + (hasGrammar ? 1 : 0)}
+                            {3 + (hasStories ? 1 : 0) + (hasPictures ? 1 : 0) + (hasGrammar ? 1 : 0)}
                         </span>
                     </button>
                     {experimentalOpen && (
                         <div className="srs-pill-cloud">
+                            <button className="srs-pill" onClick={() => navigate(`/${language}/match`)} onMouseEnter={prefetchMatch}>
+                                Word Match Game
+                            </button>
                             <button className={`srs-pill${showAi ? ' active' : ''}`} onClick={() => setShowAi((a) => !a)}>
                                 AI Conversation Partner
                             </button>
@@ -397,24 +401,18 @@ const Home = () => {
                     <div className="srs-print-panel">
                         <p className="srs-ai-blurb">
                             Copy this prompt into ChatGPT, Claude, or any AI chatbot to practice with a
-                            tutor that only uses the words you've studied.
+                            tutor that sticks to your vocabulary.
                         </p>
                         <div className="srs-print-mode">
                             <button className={`srs-print-mode-btn${aiMode === 'conversation' ? ' active' : ''}`} onClick={() => setAiMode('conversation')}>Conversation</button>
                             <button className={`srs-print-mode-btn${aiMode === 'roleplay' ? ' active' : ''}`} onClick={() => setAiMode('roleplay')}>Role-play</button>
                             <button className={`srs-print-mode-btn${aiMode === 'grammar' ? ' active' : ''}`} onClick={() => setAiMode('grammar')}>Grammar drill</button>
                         </div>
+                        <div className="srs-print-mode">
+                            <button className={`srs-print-mode-btn${aiVocabScope === 'all' ? ' active' : ''}`} onClick={() => setAiVocabScope('all')}>All main-course words</button>
+                            <button className={`srs-print-mode-btn${aiVocabScope === 'used' ? ' active' : ''}`} onClick={() => setAiVocabScope('used')}>Words I've used so far</button>
+                        </div>
                         <div className="srs-ai-options">
-                            <label className="srs-print-deck-label">
-                                <input type="checkbox" checked={aiLearnedOnly} onChange={() => setAiLearnedOnly((v) => !v)} />
-                                Only words I've learned
-                            </label>
-                            {extensionSelected > 0 && (
-                                <label className="srs-print-deck-label">
-                                    <input type="checkbox" checked={aiIncludeExtension} onChange={() => setAiIncludeExtension((v) => !v)} />
-                                    Include extension-deck words
-                                </label>
-                            )}
                             <label className="srs-print-deck-label">
                                 <input type="checkbox" checked={aiStayInVocab} onChange={() => setAiStayInVocab((v) => !v)} />
                                 Stay within my vocabulary
@@ -437,7 +435,7 @@ const Home = () => {
                         <textarea className="srs-ai-prompt" readOnly value={aiPrompt} rows={10} />
                         <button className="srs-btn-primary" disabled={knownVocab.length === 0} onClick={copyAiPrompt}>
                             {knownVocab.length === 0
-                                ? 'Select a deck to study first'
+                                ? 'Study some words first'
                                 : aiCopied ? 'Copied!' : `Copy prompt (${knownVocab.length} words)`}
                         </button>
                     </div>

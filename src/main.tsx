@@ -23,6 +23,7 @@ const Bookmarks = lazy(() => import('./pages/Bookmarks'));
 const UnifiedReview = lazy(() => import('./pages/UnifiedReview'));
 const GlobalDeck = lazy(() => import('./pages/GlobalDeck'));
 const AllGrammarList = lazy(() => import('./pages/AllGrammarList'));
+const MatchGame = lazy(() => import('./pages/MatchGame'));
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(registration => {
@@ -54,6 +55,7 @@ createRoot(document.getElementById('root')!).render(
                 <Route path="/deck"><GlobalDeck /></Route>
                 <Route path="/:language/deck"><UnifiedReview /></Route>
                 <Route path="/:language/grammar"><AllGrammarList /></Route>
+                <Route path="/:language/match"><MatchGame /></Route>
                 <Route path="/:language/:deckId"><Review /></Route>
                 <Route path="/:language/"><Home /></Route>
                 <Route path="/:language"><LanguageLearningApp /></Route>

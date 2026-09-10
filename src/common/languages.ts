@@ -17,6 +17,7 @@ export const STANDARD_LANGUAGES: LanguageMeta[] = [
     { id: "japanese", label: "Japanese" },
     { id: "french", label: "French" },
     { id: "korean", label: "Korean" },
+    { id: "german", label: "German" },
     { id: "arabic", label: "Arabic" },
     { id: "interview", label: "Interview" },
 ];

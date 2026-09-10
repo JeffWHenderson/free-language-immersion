@@ -23,6 +23,9 @@ export function getVoiceForLanguage(voices: SpeechSynthesisVoice[], lang: string
         case "korean":
             return voices.find(v => v.name.toLowerCase().startsWith("google"))
                 ?? voices.find(v => v.name.toLowerCase() === "yuna");
+        case "german":
+            return voices.find(v => v.name.toLowerCase() === "anna")
+                ?? voices.find(v => v.lang.startsWith("de-"));
         default:
             return voices.find(v => v.lang.startsWith("en-"));
     }

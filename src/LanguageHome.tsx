@@ -38,6 +38,9 @@ const LanguageAppHome = () => {
                 <button className="lang-course-btn" onClick={() => navigate('/korean')} onMouseEnter={() => prefetchLanguage('korean')}>
                     Korean Course →
                 </button>
+                <button className="lang-course-btn" onClick={() => navigate('/german')} onMouseEnter={() => prefetchLanguage('german')}>
+                    German Course →
+                </button>
                 <button className="lang-cross-btn" onClick={() => navigate('/interview/')} onMouseEnter={() => prefetchLanguage('interview')}>
                     SWE interview prep (prototype)
                 </button>
