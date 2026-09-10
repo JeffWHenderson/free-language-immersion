@@ -1,0 +1,4631 @@
+{
+  "language": "chinese",
+  "packs": [
+    {
+      "id": "grammar_essentials",
+      "name": "Grammar Essentials",
+      "language": "chinese",
+      "cards": [
+        {
+          "id": "g_word_order_svo",
+          "grammar": true,
+          "english": "I eat rice. (subject–verb–object)",
+          "word": "我吃饭。",
+          "romanized": "Wǒ chī fàn.",
+          "grammarNote": "Basic sentences follow **Subject + Verb + Object**, just like English:\n**我**(I) + **吃**(eat) + **饭**(rice) = **我吃饭**. Verbs never change for person or tense.",
+          "englishPhrase": "I eat rice, he drinks tea.",
+          "phrase": "我吃饭，他喝茶。",
+          "phraseRomanized": "Wǒ chī fàn, tā hē chá.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "饭，",
+              "rice,"
+            ],
+            [
+              "他",
+              "he"
+            ],
+            [
+              "喝",
+              "drinks"
+            ],
+            [
+              "茶",
+              "tea"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Word order: Subject + Verb + Object",
+            "rows": [
+              [
+                "Subject",
+                "我 wǒ — I"
+              ],
+              [
+                "Verb",
+                "吃 chī — eat"
+              ],
+              [
+                "Object",
+                "饭 fàn — rice"
+              ]
+            ],
+            "note": "我吃饭 = I eat rice. Verbs never change for person or tense."
+          }
+        },
+        {
+          "id": "g_shi_a_is_b",
+          "grammar": true,
+          "english": "I am a student. (是 links two nouns)",
+          "word": "我是学生。",
+          "romanized": "Wǒ shì xuéshēng.",
+          "grammarNote": "**是**(shì) links two nouns: A **是** B = 'A is B'.\n**我是学生**(I'm a student), **他是医生**(he's a doctor).\nDon't put **是** before an adjective — use **很** instead.",
+          "englishPhrase": "I'm a student, and you?",
+          "phrase": "我是学生，你呢？",
+          "phraseRomanized": "Wǒ shì xuéshēng, nǐ ne?",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "是",
+              "am"
+            ],
+            [
+              "学生，",
+              "student,"
+            ],
+            [
+              "你呢？",
+              "and you?"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "A 是 shì B = A is B (links two nouns)",
+            "rows": [
+              [
+                "I'm a student",
+                "我是学生 wǒ shì xuéshēng"
+              ],
+              [
+                "he's a doctor",
+                "他是医生 tā shì yīshēng"
+              ],
+              [
+                "I'm NOT a teacher",
+                "我不是老师 wǒ bú shì lǎoshī"
+              ]
+            ],
+            "note": "Negate with 不是. Never put 是 before an adjective — use 很."
+          }
+        },
+        {
+          "id": "g_hen_adjective",
+          "grammar": true,
+          "english": "I am happy. (adjective takes 很, not 是)",
+          "word": "我很高兴。",
+          "romanized": "Wǒ hěn gāoxìng.",
+          "grammarNote": "Adjectives act like verbs — **don't** add **是** before them. Use **很**(hěn):\n**我很高兴**(I'm happy), **我很累**(I'm tired). Here **很** just links; it only means 'very' when stressed.",
+          "englishPhrase": "I'm very happy!",
+          "phrase": "我很高兴！",
+          "phraseRomanized": "Wǒ hěn gāoxìng!",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "高兴！",
+              "happy!"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "'I am happy' — 是 or 很?",
+            "a": {
+              "term": "我很高兴 wǒ hěn gāoxìng",
+              "gloss": "✓ an adjective takes 很, not 是"
+            },
+            "b": {
+              "term": "我是高兴",
+              "gloss": "✗ never 是 before an adjective"
+            }
+          }
+        },
+        {
+          "id": "g_ma_question",
+          "grammar": true,
+          "english": "Are you well? (吗 makes a yes/no question)",
+          "word": "你好吗？",
+          "romanized": "Nǐ hǎo ma?",
+          "grammarNote": "Add **吗**(ma) to the end of a statement to make a yes/no question:\n**你好** → **你好吗？**(are you well?), **你是学生吗？**(are you a student?). Word order doesn't change.",
+          "englishPhrase": "Are you a student?",
+          "phrase": "你是学生吗？",
+          "phraseRomanized": "Nǐ shì xuéshēng ma?",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "是",
+              "are"
+            ],
+            [
+              "学生",
+              "student"
+            ],
+            [
+              "吗？",
+              "[?]"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "make it a yes/no question (你好 = you are well)",
+            "text": "你好 ___？",
+            "answer": "吗 ma",
+            "options": [
+              "吗 ma",
+              "呢 ne",
+              "了 le"
+            ]
+          }
+        },
+        {
+          "id": "g_question_word_in_place",
+          "grammar": true,
+          "english": "What do you want? (question word stays put)",
+          "word": "你想要什么？",
+          "romanized": "Nǐ xiǎng yào shénme?",
+          "grammarNote": "Question words sit **where the answer goes** — they don't move to the front:\n**你想要什么？**(you want what?), **他是谁？**(he is who?). The answer just replaces the question word.",
+          "englishPhrase": "What do you want to eat?",
+          "phrase": "你想吃什么？",
+          "phraseRomanized": "Nǐ xiǎng chī shénme?",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "想",
+              "want to"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "什么？",
+              "what?"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Question words stay where the answer goes — they don't move to the front",
+            "task": "ask: you want what? (= what do you want?)",
+            "answer": "你想要什么？nǐ xiǎng yào shénme?",
+            "gloss": "什么 sits in the object slot; the answer just replaces it. 他是谁？= who is he?"
+          }
+        },
+        {
+          "id": "g_measure_word",
+          "grammar": true,
+          "english": "an apple (number + measure word + noun)",
+          "word": "一个苹果",
+          "romanized": "yí gè píngguǒ",
+          "grammarNote": "Count nouns with a **measure word** between the number and the noun:\n**一个苹果**(one apple), **两个鸡蛋**(two eggs). **个**(gè) is the general measure word; drinks use **杯**: **一杯茶**(a cup of tea).",
+          "englishPhrase": "I want two apples.",
+          "phrase": "我要两个苹果。",
+          "phraseRomanized": "Wǒ yào liǎng gè píngguǒ.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "要",
+              "want"
+            ],
+            [
+              "两个",
+              "two"
+            ],
+            [
+              "苹果",
+              "apples"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Number + measure word + noun",
+            "rows": [
+              [
+                "one apple",
+                "一个苹果 yí gè píngguǒ"
+              ],
+              [
+                "two eggs",
+                "两个鸡蛋 liǎng gè jīdàn"
+              ],
+              [
+                "three books",
+                "三本书 sān běn shū"
+              ]
+            ],
+            "note": "个 gè is the default measure word; some nouns take their own (本 běn for books)."
+          }
+        },
+        {
+          "id": "g_yao_order",
+          "grammar": true,
+          "english": "I'll have a coffee. (要 to order)",
+          "word": "我要一杯咖啡。",
+          "romanized": "Wǒ yào yì bēi kāfēi.",
+          "grammarNote": "**要**(yào) = want / would like — the everyday verb for ordering:\n**我要一杯咖啡**(I'll have a coffee). **杯**(bēi) is the measure word for cups and glasses.",
+          "englishPhrase": "I'll have a cup of tea, thanks.",
+          "phrase": "我要一杯茶，谢谢。",
+          "phraseRomanized": "Wǒ yào yì bēi chá, xièxie.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "要",
+              "want"
+            ],
+            [
+              "一杯",
+              "a cup of"
+            ],
+            [
+              "茶，",
+              "tea,"
+            ],
+            [
+              "谢谢",
+              "thanks"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "要 yào = 'I'll have' — the everyday verb for ordering",
+            "task": "order: one coffee",
+            "answer": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
+            "gloss": "杯 bēi is the measure word for cups and glasses."
+          }
+        },
+        {
+          "id": "g_xiang_verb",
+          "grammar": true,
+          "english": "I want to eat. (想 + verb)",
+          "word": "我想吃。",
+          "romanized": "Wǒ xiǎng chī.",
+          "grammarNote": "**想**(xiǎng) + verb = want to do something:\n**我想吃**(I want to eat), **我想喝茶**(I want to drink tea). Softer than **要**, which is more 'I'll have / I want'.",
+          "englishPhrase": "I want to drink coffee.",
+          "phrase": "我想喝咖啡。",
+          "phraseRomanized": "Wǒ xiǎng hē kāfēi.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "想",
+              "want to"
+            ],
+            [
+              "喝",
+              "drink"
+            ],
+            [
+              "咖啡",
+              "coffee"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "想 xiǎng vs 要 yào",
+            "a": {
+              "term": "我想吃 wǒ xiǎng chī",
+              "gloss": "想 + verb = want TO DO (a wish, softer)"
+            },
+            "b": {
+              "term": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
+              "gloss": "要 + noun = want / I'll have (ordering)"
+            }
+          }
+        },
+        {
+          "id": "g_hao_chi_pattern",
+          "grammar": true,
+          "english": "delicious (好 'good' + 吃 'eat')",
+          "word": "好吃",
+          "romanized": "hǎochī",
+          "grammarNote": "**好**(hǎo, good) + a verb = pleasant to do:\n**好吃**(good to eat = delicious, for food), **好喝**(good to drink — for tea/coffee), **好看**(good-looking).",
+          "englishPhrase": "This dish is delicious!",
+          "phrase": "这个菜很好吃！",
+          "phraseRomanized": "Zhège cài hěn hǎochī!",
+          "literal": [
+            [
+              "这个",
+              "this"
+            ],
+            [
+              "菜",
+              "dish"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "好吃！",
+              "delicious!"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "好 hǎo (good) + verb = pleasant to…",
+            "rows": [
+              [
+                "delicious",
+                "好吃 hǎochī — good to eat"
+              ],
+              [
+                "tasty (drinks)",
+                "好喝 hǎohē — good to drink"
+              ],
+              [
+                "good-looking",
+                "好看 hǎokàn — good to look at"
+              ]
+            ],
+            "note": "A productive pattern: 好 + a verb."
+          }
+        },
+        {
+          "id": "g_zai_location",
+          "grammar": true,
+          "english": "I am at home. (在 for location)",
+          "word": "我在家。",
+          "romanized": "Wǒ zài jiā.",
+          "grammarNote": "**在**(zài) = to be at / located at:\n**我在家**(I'm at home), **他在学校**(he's at school). Structure: Subject + **在** + place.",
+          "englishPhrase": "I'm at the office now.",
+          "phrase": "我现在在办公室。",
+          "phraseRomanized": "Wǒ xiànzài zài bàngōngshì.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "现在",
+              "now"
+            ],
+            [
+              "在",
+              "at"
+            ],
+            [
+              "办公室",
+              "office"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Location: Subject + 在 zài + place",
+            "rows": [
+              [
+                "I'm at home",
+                "我在家 wǒ zài jiā"
+              ],
+              [
+                "he's at school",
+                "他在学校 tā zài xuéxiào"
+              ],
+              [
+                "where are you?",
+                "你在哪儿？nǐ zài nǎr?"
+              ]
+            ],
+            "note": "在 = to be at / located at. 哪儿 nǎr = where."
+          }
+        },
+        {
+          "id": "g_zai_place_verb",
+          "grammar": true,
+          "english": "I eat at the restaurant. (在 + place before the verb)",
+          "word": "我在餐厅吃饭。",
+          "romanized": "Wǒ zài cāntīng chī fàn.",
+          "grammarNote": "To say where an action happens, put **在 + place before the verb**:\n**我在餐厅吃饭**(I at-restaurant eat) — not after the verb like English.",
+          "englishPhrase": "I study at the library.",
+          "phrase": "我在图书馆学习。",
+          "phraseRomanized": "Wǒ zài túshūguǎn xuéxí.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "在",
+              "at"
+            ],
+            [
+              "图书馆",
+              "library"
+            ],
+            [
+              "学习",
+              "study"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Where does 在+place go? (I eat at the restaurant)",
+            "a": {
+              "term": "我在餐厅吃饭 wǒ zài cāntīng chī fàn",
+              "gloss": "✓ 在+place goes BEFORE the verb"
+            },
+            "b": {
+              "term": "我吃饭在餐厅",
+              "gloss": "✗ not after the verb like English"
+            }
+          }
+        },
+        {
+          "id": "g_qu_place",
+          "grammar": true,
+          "english": "I go to the park. (去 needs no 'to')",
+          "word": "我去公园。",
+          "romanized": "Wǒ qù gōngyuán.",
+          "grammarNote": "**去**(qù, to go) attaches straight to a place — there's no word for 'to':\n**我去公园**(I go park), **我去学校**(I go to school). Put a time word before **去** to say when.",
+          "englishPhrase": "In the morning I go to the park.",
+          "phrase": "我早上去公园。",
+          "phraseRomanized": "Wǒ zǎoshang qù gōngyuán.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "早上",
+              "in the morning"
+            ],
+            [
+              "去",
+              "go"
+            ],
+            [
+              "公园",
+              "park"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "去 qù (to go) attaches straight to a place — there's no word for 'to'",
+            "task": "say: I go to the park",
+            "answer": "我去公园 wǒ qù gōngyuán",
+            "gloss": "我去学校 = I go to school. A time word goes before 去."
+          }
+        },
+        {
+          "id": "g_zai_li_shang",
+          "grammar": true,
+          "english": "in the room (在 … 里 wraps the place)",
+          "word": "在房间里",
+          "romanized": "zài fángjiān lǐ",
+          "grammarNote": "Position words wrap the noun: **在 + place + 里/上/下**:\n**在房间里**(in the room), **在桌子上**(on the table), **在床下**(under the bed).",
+          "englishPhrase": "The cat is in the room.",
+          "phrase": "猫在房间里。",
+          "phraseRomanized": "Māo zài fángjiān lǐ.",
+          "literal": [
+            [
+              "猫",
+              "cat"
+            ],
+            [
+              "在",
+              "(is) in"
+            ],
+            [
+              "房间",
+              "room"
+            ],
+            [
+              "里",
+              "inside"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "在 + place + 里/上/下 (position words)",
+            "rows": [
+              [
+                "in the room",
+                "在房间里 zài fángjiān lǐ"
+              ],
+              [
+                "on the table",
+                "在桌子上 zài zhuōzi shàng"
+              ],
+              [
+                "under the bed",
+                "在床下 zài chuáng xià"
+              ]
+            ],
+            "note": "里 inside · 上 on top · 下 under — the position word follows the noun."
+          }
+        },
+        {
+          "id": "g_shi_job",
+          "grammar": true,
+          "english": "I am a doctor. (是 + profession)",
+          "word": "我是医生。",
+          "romanized": "Wǒ shì yīshēng.",
+          "grammarNote": "State your job with **是**(shì): Subject + **是** + job.\n**我是医生**(I'm a doctor), **她是学生**(she's a student). To ask: **你是做什么的？**(what do you do?).",
+          "englishPhrase": "She is an engineer.",
+          "phrase": "她是工程师。",
+          "phraseRomanized": "Tā shì gōngchéngshī.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "工程师",
+              "engineer"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "State your job with 是: Subject + 是 + job",
+            "task": "say: I am a doctor",
+            "answer": "我是医生 wǒ shì yīshēng",
+            "gloss": "Ask 你是做什么的？nǐ shì zuò shénme de? = what do you do?"
+          }
+        },
+        {
+          "id": "g_xihuan_verb",
+          "grammar": true,
+          "english": "I like reading. (喜欢 + verb)",
+          "word": "我喜欢阅读。",
+          "romanized": "Wǒ xǐhuān yuèdú.",
+          "grammarNote": "**喜欢**(xǐhuān, to like) can be followed straight by a verb = 'like doing':\n**我喜欢阅读**(I like reading), **我喜欢跑步**(I like running). No 'to' or '-ing' change needed.",
+          "englishPhrase": "I like listening to music.",
+          "phrase": "我喜欢听音乐。",
+          "phraseRomanized": "Wǒ xǐhuān tīng yīnyuè.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喜欢",
+              "like"
+            ],
+            [
+              "听",
+              "listening to"
+            ],
+            [
+              "音乐",
+              "music"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "喜欢 xǐhuān (to like) + verb = like doing",
+            "task": "say: I like reading",
+            "answer": "我喜欢阅读 wǒ xǐhuān yuèdú",
+            "gloss": "No 'to' or '-ing' — just 喜欢 + verb. 我喜欢跑步 = I like running."
+          }
+        },
+        {
+          "id": "g_zai_progressive",
+          "grammar": true,
+          "english": "I am working. (在 + verb = happening now)",
+          "word": "我在工作。",
+          "romanized": "Wǒ zài gōngzuò.",
+          "grammarNote": "Put **在**(zài) before a verb to show it's happening right now:\n**我在工作**(I'm working), **他在唱歌**(he's singing). It's the '-ing' of Chinese.",
+          "englishPhrase": "She is working now.",
+          "phrase": "她现在在工作。",
+          "phraseRomanized": "Tā xiànzài zài gōngzuò.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "现在",
+              "now"
+            ],
+            [
+              "在",
+              "(is) -ing"
+            ],
+            [
+              "工作",
+              "working"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I'm working (it's happening right now)",
+            "text": "我 ___ 工作",
+            "answer": "在 zài",
+            "options": [
+              "在 zài",
+              "了 le",
+              "会 huì"
+            ]
+          }
+        },
+        {
+          "id": "g_hui_skill",
+          "grammar": true,
+          "english": "I can swim. (会 = a learned skill)",
+          "word": "我会游泳。",
+          "romanized": "Wǒ huì yóuyǒng.",
+          "grammarNote": "**会**(huì) = can, for skills you've learned:\n**我会游泳**(I can swim), **我会说中文**(I can speak Chinese). Compare **能**(néng) = able / allowed in a situation.",
+          "englishPhrase": "I can swim, can you?",
+          "phrase": "我会游泳，你会吗？",
+          "phraseRomanized": "Wǒ huì yóuyǒng, nǐ huì ma?",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "会",
+              "can"
+            ],
+            [
+              "游泳，",
+              "swim,"
+            ],
+            [
+              "你会吗？",
+              "can you?"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "会 huì = can, for a skill you've learned",
+            "task": "say: I can swim",
+            "answer": "我会游泳 wǒ huì yóuyǒng",
+            "gloss": "会 = learned skills. 我会说中文 = I can speak Chinese."
+          }
+        },
+        {
+          "id": "g_hen_feeling",
+          "grammar": true,
+          "english": "I am happy. (很 + adjective, no 是)",
+          "word": "我很快乐。",
+          "romanized": "Wǒ hěn kuàilè.",
+          "grammarNote": "Describe a mood with **很**(hěn) + adjective — **no 是**:\n**我很快乐**(I'm happy), **我很累**(I'm tired). **很** links subject to adjective; it only means 'very' when stressed.",
+          "englishPhrase": "I'm very happy today.",
+          "phrase": "我今天很快乐。",
+          "phraseRomanized": "Wǒ jīntiān hěn kuàilè.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "今天",
+              "today"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "快乐",
+              "happy"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I'm happy (mood → 很 + adjective, no 是)",
+            "text": "我 ___ 快乐",
+            "answer": "很 hěn",
+            "options": [
+              "很 hěn",
+              "是 shì",
+              "太 tài"
+            ]
+          }
+        },
+        {
+          "id": "g_juede_feel",
+          "grammar": true,
+          "english": "I feel tired. (觉得 = feel / think that)",
+          "word": "我觉得很累。",
+          "romanized": "Wǒ juéde hěn lèi.",
+          "grammarNote": "**觉得**(juéde) = to feel / think that — introduces a feeling or opinion:\n**我觉得很累**(I feel tired), **我觉得这个很好**(I think this is good). Follow it with an adjective (+很) or a full clause.",
+          "englishPhrase": "I feel happy.",
+          "phrase": "我觉得很快乐。",
+          "phraseRomanized": "Wǒ juéde hěn kuàilè.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "觉得",
+              "feel"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "快乐",
+              "happy"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "觉得 juéde = to feel / think that — introduces an opinion",
+            "task": "say: I feel tired",
+            "answer": "我觉得很累 wǒ juéde hěn lèi",
+            "gloss": "Follow it with a full comment: 我觉得这个很好 = I think this is good."
+          }
+        },
+        {
+          "id": "g_youdianr",
+          "grammar": true,
+          "english": "I'm a little nervous. (有点儿 + adjective)",
+          "word": "我有点儿紧张。",
+          "romanized": "Wǒ yǒudiǎnr jǐnzhāng.",
+          "grammarNote": "**有点儿**(yǒudiǎnr) + adjective = 'a little / somewhat', usually for something undesirable:\n**有点儿紧张**(a bit nervous), **有点儿累**(a little tired). It goes before the adjective.",
+          "englishPhrase": "I'm a little tired.",
+          "phrase": "我有点儿累。",
+          "phraseRomanized": "Wǒ yǒudiǎnr lèi.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "有点儿",
+              "a little"
+            ],
+            [
+              "累",
+              "tired"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I'm a little nervous (有点儿 + adjective, usually negative)",
+            "text": "我 ___ 紧张",
+            "answer": "有点儿 yǒudiǎnr",
+            "options": [
+              "有点儿 yǒudiǎnr",
+              "很 hěn",
+              "太 tài"
+            ]
+          }
+        },
+        {
+          "id": "g_tai_le",
+          "grammar": true,
+          "english": "I'm too tired! (太 … 了)",
+          "word": "我太累了！",
+          "romanized": "Wǒ tài lèi le!",
+          "grammarNote": "**太**(tài) … **了**(le) wraps an adjective = 'too / so':\n**太累了**(too tired), **太好了**(great! — lit. too good). A strong feeling, often exclaimed.",
+          "englishPhrase": "That's great!",
+          "phrase": "太好了！",
+          "phraseRomanized": "Tài hǎo le!",
+          "literal": [
+            [
+              "太",
+              "too"
+            ],
+            [
+              "好",
+              "good"
+            ],
+            [
+              "了！",
+              "[!]"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I'm SO tired! ('too …' → 太 … 了)",
+            "text": "我 ___ 累了",
+            "answer": "太 tài",
+            "options": [
+              "太 tài",
+              "很 hěn",
+              "有点儿 yǒudiǎnr"
+            ]
+          }
+        },
+        {
+          "id": "g_de_possessive_body",
+          "grammar": true,
+          "english": "my hand (的 shows possession)",
+          "word": "我的手",
+          "romanized": "wǒ de shǒu",
+          "grammarNote": "**的**(de) links a possessor to a thing, like 's / my:\n**我的手**(my hand), **他的眼睛**(his eyes). For close relationships you can drop **的**: **我妈**(my mom).",
+          "englishPhrase": "This is my hand.",
+          "phrase": "这是我的手。",
+          "phraseRomanized": "Zhè shì wǒ de shǒu.",
+          "literal": [
+            [
+              "这",
+              "this"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "我的",
+              "my"
+            ],
+            [
+              "手",
+              "hand"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "的 de links owner to thing (like 's / my)",
+            "task": "say: my hand",
+            "answer": "我的手 wǒ de shǒu",
+            "gloss": "他的眼睛 = his eyes. Close relations can drop 的: 我妈 = my mom."
+          }
+        },
+        {
+          "id": "g_teng_hurt",
+          "grammar": true,
+          "english": "My head hurts. (body part + 疼)",
+          "word": "我头疼。",
+          "romanized": "Wǒ tóu téng.",
+          "grammarNote": "To say a body part hurts, name it then add **疼**(téng, to ache):\n**我头疼**(my head hurts, lit. 'I head ache'), **我牙疼**(toothache). This topic-then-comment order is very common.",
+          "englishPhrase": "I have a headache today.",
+          "phrase": "我今天头疼。",
+          "phraseRomanized": "Wǒ jīntiān tóu téng.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "今天",
+              "today"
+            ],
+            [
+              "头",
+              "head"
+            ],
+            [
+              "疼",
+              "hurts"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Say what hurts: (I) + body part + 疼 téng (to ache)",
+            "task": "say: my head hurts",
+            "answer": "我头疼 wǒ tóu téng",
+            "gloss": "Literally 'I head ache' — topic then comment. 我牙疼 = toothache."
+          }
+        },
+        {
+          "id": "g_adj_de_noun",
+          "grammar": true,
+          "english": "soft skin (adjective + 的 + noun)",
+          "word": "软的皮肤",
+          "romanized": "ruǎn de pífū",
+          "grammarNote": "A two-syllable adjective takes **的** before the noun it describes:\n**软的皮肤**(soft skin), **健康的身体**(healthy body). Single-syllable adjectives often skip **的**: **大手**(big hand).",
+          "englishPhrase": "Healthy skin is soft.",
+          "phrase": "健康的皮肤很软。",
+          "phraseRomanized": "Jiànkāng de pífū hěn ruǎn.",
+          "literal": [
+            [
+              "健康的",
+              "healthy"
+            ],
+            [
+              "皮肤",
+              "skin"
+            ],
+            [
+              "很",
+              "(is very)"
+            ],
+            [
+              "软",
+              "soft"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Longer adjective + 的 de + noun",
+            "rows": [
+              [
+                "soft skin",
+                "软的皮肤 ruǎn de pífū"
+              ],
+              [
+                "healthy body",
+                "健康的身体 jiànkāng de shēntǐ"
+              ],
+              [
+                "a red apple",
+                "红的苹果 hóng de píngguǒ"
+              ]
+            ],
+            "note": "Single-syllable adjectives often skip 的 (好人 = a good person)."
+          }
+        },
+        {
+          "id": "g_zhi_measure_body",
+          "grammar": true,
+          "english": "two hands (只 counts hands, eyes, ears)",
+          "word": "两只手",
+          "romanized": "liǎng zhī shǒu",
+          "grammarNote": "Paired body parts often take the measure word **只**(zhī):\n**两只手**(two hands), **两只眼睛**(two eyes), **一只耳朵**(one ear). Use **两**(liǎng), not 二, before a measure word.",
+          "englishPhrase": "A person has two hands.",
+          "phrase": "人有两只手。",
+          "phraseRomanized": "Rén yǒu liǎng zhī shǒu.",
+          "literal": [
+            [
+              "人",
+              "a person"
+            ],
+            [
+              "有",
+              "has"
+            ],
+            [
+              "两只",
+              "two"
+            ],
+            [
+              "手",
+              "hands"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "two hands (只 counts hands, eyes, ears)",
+            "text": "两 ___ 手",
+            "answer": "只 zhī",
+            "options": [
+              "只 zhī",
+              "个 gè",
+              "本 běn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_numbers",
+      "name": "Numbers & Counting",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "zero",
+          "english": "0",
+          "word": "零",
+          "romanized": "líng"
+        },
+        {
+          "id": "seven",
+          "english": "What is 7?",
+          "word": "七",
+          "romanized": "qī"
+        },
+        {
+          "id": "ten",
+          "english": "What is 10?",
+          "word": "十",
+          "romanized": "shí"
+        },
+        {
+          "id": "eleven",
+          "english": "How do you say 11?",
+          "word": "十一",
+          "romanized": "shíyī",
+          "grammarNote": "Chinese numbers are logical: 11 = ten-one (十一), 12 = ten-two (十二), 20 = two-ten (二十)."
+        },
+        {
+          "id": "twenty_one",
+          "english": "How do you say 21?",
+          "word": "二十一",
+          "romanized": "èrshíyī"
+        },
+        {
+          "id": "liang_vs_er",
+          "english": "two people (use 两 or 二?)",
+          "word": "两个人",
+          "romanized": "liǎng gè rén",
+          "grammarNote": "Use 两 (liǎng) before measure words when counting things. 二 is for math and larger numbers."
+        },
+        {
+          "id": "two_books",
+          "english": "two books",
+          "word": "两本书",
+          "romanized": "liǎng běn shū"
+        },
+        {
+          "id": "two_cups",
+          "english": "two cups of water",
+          "word": "两杯水",
+          "romanized": "liǎng bēi shuǐ"
+        },
+        {
+          "id": "two_oclock",
+          "english": "2:00 (two o'clock)",
+          "word": "两点",
+          "romanized": "liǎng diǎn",
+          "grammarNote": "Use 点 (diǎn) for o'clock. Always use 两 for 2:00, not 二点."
+        },
+        {
+          "id": "three_thirty",
+          "english": "3:30",
+          "word": "三点半",
+          "romanized": "sān diǎn bàn"
+        },
+        {
+          "id": "five_yuan",
+          "english": "5 yuan (spoken)",
+          "word": "五块钱",
+          "romanized": "wǔ kuài qián",
+          "grammarNote": "块 (kuài) is the spoken unit of currency. 元 (yuán) is the formal/written unit."
+        },
+        {
+          "id": "i_want_two",
+          "english": "I want two coffees.",
+          "word": "我要两杯咖啡。",
+          "romanized": "Wǒ yào liǎng bēi kāfēi."
+        }
+      ],
+      "reading": "numbers"
+    },
+    {
+      "id": "grammar_question_words",
+      "name": "Question Words — 什么, 谁, 哪里...",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "qw_what_eating",
+          "english": "What are you eating?",
+          "word": "你吃什么？",
+          "romanized": "Nǐ chī shénme?",
+          "grammarNote": "Question words stay in the position of the unknown information — they don't move to the front. 你吃什么 has the same word order as 你吃饭 (you eat rice)."
+        },
+        {
+          "id": "qw_who_is_that",
+          "english": "Who is that person?",
+          "word": "那个人是谁？",
+          "romanized": "Nàge rén shì shéi?"
+        },
+        {
+          "id": "qw_where_live",
+          "english": "Where do you live?",
+          "word": "你住在哪里？",
+          "romanized": "Nǐ zhù zài nǎlǐ?"
+        },
+        {
+          "id": "qw_when_coming",
+          "english": "When are you coming?",
+          "word": "你什么时候来？",
+          "romanized": "Nǐ shénme shíhou lái?"
+        },
+        {
+          "id": "qw_how_get_there",
+          "english": "How are you getting there?",
+          "word": "你怎么去？",
+          "romanized": "Nǐ zěnme qù?"
+        },
+        {
+          "id": "qw_why_not_going",
+          "english": "Why aren't you going?",
+          "word": "你为什么不去？",
+          "romanized": "Nǐ wèishénme bù qù?"
+        },
+        {
+          "id": "qw_how_much",
+          "english": "How much does this cost?",
+          "word": "这个多少钱？",
+          "romanized": "Zhège duōshao qián?",
+          "grammarNote": "多少 (duōshao) asks about quantities. 多少钱 literally means 'how much money.' No measure word is needed between 多少 and 钱."
+        },
+        {
+          "id": "qw_which_one",
+          "english": "Which one do you want?",
+          "word": "你要哪个？",
+          "romanized": "Nǐ yào nǎge?"
+        },
+        {
+          "id": "qw_what_is_this",
+          "english": "What is this?",
+          "word": "这是什么？",
+          "romanized": "Zhè shì shénme?"
+        },
+        {
+          "id": "qw_where_bathroom",
+          "english": "Where is the bathroom?",
+          "word": "洗手间在哪里？",
+          "romanized": "Xǐshǒujiān zài nǎlǐ?"
+        },
+        {
+          "id": "qw_who_is_she",
+          "english": "Who is she?",
+          "word": "她是谁？",
+          "romanized": "Tā shì shéi?"
+        },
+        {
+          "id": "qw_why_late",
+          "english": "Why are you late?",
+          "word": "你为什么迟到了？",
+          "romanized": "Nǐ wèishénme chídào le?"
+        }
+      ],
+      "reading": "question_words"
+    },
+    {
+      "id": "grammar_time_words",
+      "name": "Time Words & When",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "today",
+          "english": "today",
+          "word": "今天",
+          "romanized": "jīntiān"
+        },
+        {
+          "id": "tomorrow",
+          "english": "tomorrow",
+          "word": "明天",
+          "romanized": "míngtiān"
+        },
+        {
+          "id": "yesterday",
+          "english": "yesterday",
+          "word": "昨天",
+          "romanized": "zuótiān"
+        },
+        {
+          "id": "morning",
+          "english": "morning",
+          "word": "早上",
+          "romanized": "zǎoshang"
+        },
+        {
+          "id": "evening",
+          "english": "evening / night",
+          "word": "晚上",
+          "romanized": "wǎnshang"
+        },
+        {
+          "id": "time_position",
+          "english": "Where do time words go in a sentence?",
+          "word": "Before the verb — right after the subject (or at the start).",
+          "grammarNote": "我今天去 ✓ / 今天我去 ✓ — but never 我去今天 ✗"
+        },
+        {
+          "id": "i_was_tired_yesterday",
+          "english": "I was very tired yesterday.",
+          "word": "我昨天很累。",
+          "romanized": "Wǒ zuótiān hěn lèi."
+        },
+        {
+          "id": "wednesday",
+          "english": "Wednesday",
+          "word": "星期三",
+          "romanized": "xīngqīsān",
+          "grammarNote": "Days of the week: 星期一 (Mon) through 星期日/天 (Sun). 星期几？= What day?"
+        },
+        {
+          "id": "every_day",
+          "english": "every day",
+          "word": "每天",
+          "romanized": "měitiān"
+        },
+        {
+          "id": "she_drinks_coffee_every_morning",
+          "english": "She drinks coffee every morning.",
+          "word": "她每天早上喝咖啡。",
+          "romanized": "Tā měitiān zǎoshang hē kāfēi."
+        }
+      ],
+      "reading": "time_words"
+    },
+    {
+      "id": "grammar_word_patterns",
+      "name": "Word Patterns — Spotting How Chinese Works",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "hua_modernize",
+          "english": "现代 (xiàndài) + 化 = ___",
+          "word": "现代化 (xiàndàihuà)",
+          "romanized": "xiàndàihuà",
+          "grammarNote": "化 (huà) turns a noun or adjective into a verb meaning 'to become X' or 'to make X' — like English -ize or -ify."
+        },
+        {
+          "id": "hua_pattern",
+          "english": "What does adding 化 (huà) to a word do?",
+          "word": "It creates a verb meaning 'to become X' or 'to make X' — like -ize or -ify in English.",
+          "romanized": "huà",
+          "grammarNote": "Examples: 自动化 (zìdònghuà) automate, 美化 (měihuà) beautify, 简单化 (jiǎndānhuà) simplify."
+        },
+        {
+          "id": "zhe_author",
+          "english": "作者 (zuòzhě) means ___",
+          "word": "author",
+          "romanized": "zuòzhě",
+          "grammarNote": "者 (zhě) attaches to a verb to mean 'person who does X'. 作 (zuò) = create/write, so 作者 = the one who writes."
+        },
+        {
+          "id": "zhe_journalist",
+          "english": "记者 (jìzhě) means ___",
+          "word": "journalist / reporter",
+          "romanized": "jìzhě",
+          "grammarNote": "记 (jì) = to record or note down. 记者 = the one who records — a reporter."
+        },
+        {
+          "id": "zhe_pattern",
+          "english": "What does 者 (zhě) do when added to a verb?",
+          "word": "It creates a noun meaning 'person who does X' — like English -er or -ist.",
+          "romanized": "zhě",
+          "grammarNote": "Examples: 学者 (xuézhě) scholar, 读者 (dúzhě) reader, 工作者 (gōngzuòzhě) worker."
+        },
+        {
+          "id": "xing_possibility",
+          "english": "可能性 (kěnéngxìng) means ___",
+          "word": "possibility",
+          "romanized": "kěnéngxìng",
+          "grammarNote": "性 (xìng) turns an adjective into an abstract noun of quality — like English -ity or -ness. 可能 (kěnéng) = possible → 可能性 = possibility."
+        },
+        {
+          "id": "xing_pattern",
+          "english": "What does adding 性 (xìng) to a word do?",
+          "word": "It creates an abstract noun for the quality or nature of something — like -ity or -ness in English.",
+          "romanized": "xìng",
+          "grammarNote": "Examples: 重要性 (zhòngyàoxìng) importance, 安全性 (ānquánxìng) safety, 灵活性 (línghuóxìng) flexibility."
+        },
+        {
+          "id": "bu_impossible",
+          "english": "不可能 (bù kěnéng) means ___",
+          "word": "impossible",
+          "romanized": "bù kěnéng",
+          "grammarNote": "不 is the everyday negation prefix — it directly contradicts the base word. 可能 (possible) → 不可能 (impossible)."
+        },
+        {
+          "id": "negative_prefixes",
+          "english": "What is the difference between 不, 非, and 无 as negative prefixes?",
+          "word": "不 (bù) = not / un- (everyday); 非 (fēi) = non- (formal, category); 无 (wú) = without / -less (formal/literary)",
+          "romanized": "bù / fēi / wú",
+          "grammarNote": "Examples — 不方便 (inconvenient), 非法 (illegal), 无条件 (unconditional). 不 is by far the most common in speech."
+        },
+        {
+          "id": "wuliao",
+          "english": "无聊 (wúliáo) means ___",
+          "word": "boring / pointless",
+          "romanized": "wúliáo",
+          "grammarNote": "无 (wú) = without; 聊 (liáo) = chat. Literally 'nothing to chat about' — so: boring, pointless, having nothing to do."
+        },
+        {
+          "id": "reduplication_verb",
+          "english": "What does reduplication do to a verb in Chinese? (e.g. 讨论讨论)",
+          "word": "It makes the action feel casual, brief, or low-pressure — 'do it a little.'",
+          "romanized": "tǎolùn tǎolùn",
+          "grammarNote": "ABAB pattern: 学习学习 (xuéxí xuéxí) = study a bit; 讨论讨论 (tǎolùn tǎolùn) = have a quick discussion. It softens the request."
+        },
+        {
+          "id": "reduplication_adjective",
+          "english": "What does 红红的 (hónghóng de) mean, and why repeat 红?",
+          "word": "Vividly red / reddish — reduplication of adjectives adds a warm, vivid, or softened feeling.",
+          "romanized": "hónghóng de",
+          "grammarNote": "AA reduplication: 慢慢地 (màn màn de) = slowly and leisurely. The repetition makes the quality feel more alive and gentle compared to the plain adjective."
+        }
+      ],
+      "reading": "word_patterns"
+    },
+    {
+      "id": "grammar_le_particle",
+      "name": "了 — Completed Action & Change of State",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "le_completed_intro",
+          "english": "I ate. (completed action)",
+          "word": "我吃了。",
+          "romanized": "Wǒ chī le.",
+          "grammarNote": "了 after a verb marks completion. Place it directly after the verb to show the action finished."
+        },
+        {
+          "id": "le_he_came",
+          "english": "He came. / He arrived.",
+          "word": "他来了。",
+          "romanized": "Tā lái le."
+        },
+        {
+          "id": "le_bought_book",
+          "english": "I bought a book.",
+          "word": "我买了一本书。",
+          "romanized": "Wǒ mǎi le yī běn shū."
+        },
+        {
+          "id": "le_drank_water",
+          "english": "She drank a glass of water.",
+          "word": "她喝了一杯水。",
+          "romanized": "Tā hē le yī bēi shuǐ."
+        },
+        {
+          "id": "le_raining_now",
+          "english": "It's raining now. (change of state)",
+          "word": "下雨了。",
+          "romanized": "Xià yǔ le.",
+          "grammarNote": "了 at the end of a sentence signals a new state or change. Something has shifted — it wasn't raining before, but it is now."
+        },
+        {
+          "id": "le_understand_now",
+          "english": "I understand now. / I get it.",
+          "word": "我明白了。",
+          "romanized": "Wǒ míngbai le."
+        },
+        {
+          "id": "le_too_late",
+          "english": "It's too late now.",
+          "word": "太晚了。",
+          "romanized": "Tài wǎn le."
+        },
+        {
+          "id": "le_hungry_now",
+          "english": "I'm hungry now. (I've gotten hungry.)",
+          "word": "我饿了。",
+          "romanized": "Wǒ è le."
+        },
+        {
+          "id": "le_negation_intro",
+          "english": "I didn't eat. / I haven't eaten.",
+          "word": "我没吃。",
+          "romanized": "Wǒ méi chī.",
+          "grammarNote": "Negate completed actions with 没 (méi) or 没有 (méiyǒu) before the verb. Never use 不 with 了 for completed actions. Drop 了 in the negative."
+        },
+        {
+          "id": "le_didnt_come",
+          "english": "He didn't come.",
+          "word": "他没来。",
+          "romanized": "Tā méi lái."
+        },
+        {
+          "id": "le_didnt_buy",
+          "english": "I didn't buy it.",
+          "word": "我没买。",
+          "romanized": "Wǒ méi mǎi."
+        },
+        {
+          "id": "le_store_closed",
+          "english": "The store is closed now. (it just closed)",
+          "word": "商店关门了。",
+          "romanized": "Shāngdiàn guānmén le."
+        }
+      ],
+      "reading": "le_particle"
+    },
+    {
+      "id": "grammar_ma_questions",
+      "name": "吗 — Yes/No Questions",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "ma",
+          "english": "question particle (yes)",
+          "word": "吗",
+          "romanized": "ma",
+          "grammarNote": "Add 吗 to the end of any statement to turn it into a yes/no question."
+        },
+        {
+          "id": "dui",
+          "english": "yes",
+          "word": "对",
+          "romanized": "duì"
+        },
+        {
+          "id": "bu_shi",
+          "english": "no",
+          "word": "不是",
+          "romanized": "bú shì"
+        },
+        {
+          "id": "are_you_ok",
+          "english": "Are you okay?",
+          "word": "你好吗？",
+          "romanized": "Nǐ hǎo ma?"
+        },
+        {
+          "id": "are_you_hungry",
+          "english": "Are you hungry?",
+          "word": "你饿吗？",
+          "romanized": "Nǐ è ma?"
+        },
+        {
+          "id": "do_you_understand",
+          "english": "Do you understand?",
+          "word": "你明白吗？",
+          "romanized": "Nǐ míngbai ma?"
+        },
+        {
+          "id": "is_it_good",
+          "english": "Is it delicious?",
+          "word": "好吃吗？",
+          "romanized": "Hǎo chī ma?"
+        },
+        {
+          "id": "are_you_going",
+          "english": "Are you going?",
+          "word": "你去吗？",
+          "romanized": "Nǐ qù ma?"
+        },
+        {
+          "id": "do_you_like",
+          "english": "Do you like it?",
+          "word": "你喜欢吗？",
+          "romanized": "Nǐ xǐhuān ma?"
+        },
+        {
+          "id": "is_expensive",
+          "english": "Is it expensive?",
+          "word": "贵吗？",
+          "romanized": "Guì ma?"
+        },
+        {
+          "id": "are_you_tired",
+          "english": "Are you tired?",
+          "word": "你累吗？",
+          "romanized": "Nǐ lèi ma?"
+        },
+        {
+          "id": "is_he_coming",
+          "english": "Is he coming?",
+          "word": "他来吗？",
+          "romanized": "Tā lái ma?"
+        },
+        {
+          "id": "not_bad",
+          "english": "not bad",
+          "word": "不错",
+          "romanized": "bú cuò",
+          "grammarNote": "不错 literally means 'not wrong' — used to mean 'pretty good.'"
+        },
+        {
+          "id": "bu_yong",
+          "english": "no need",
+          "word": "不用了",
+          "romanized": "bú yòng le",
+          "grammarNote": "A polite way to decline or say 'no thanks.'"
+        },
+        {
+          "id": "have_you_eaten",
+          "english": "Have you eaten?",
+          "word": "你吃了吗？",
+          "romanized": "Nǐ chī le ma?",
+          "grammarNote": "A common greeting in Chinese, like asking 'how are you?'"
+        },
+        {
+          "id": "ma_2",
+          "english": "question particle (yes/no)",
+          "word": "吗",
+          "romanized": "ma",
+          "grammarNote": "Add 吗 to the end of any statement to turn it into a yes/no question. Word order stays the same."
+        },
+        {
+          "id": "ni_zai_jia_ma",
+          "english": "Are you at home?",
+          "word": "你在家吗？",
+          "romanized": "Nǐ zài jiā ma?"
+        },
+        {
+          "id": "ta_qu_xuexiao",
+          "english": "Is she going to school?",
+          "word": "她去学校吗？",
+          "romanized": "Tā qù xuéxiào ma?"
+        },
+        {
+          "id": "zheli_an_quan",
+          "english": "Is this area safe?",
+          "word": "这里安全吗？",
+          "romanized": "Zhèlǐ ānquán ma?"
+        },
+        {
+          "id": "yuan_ma",
+          "english": "Is it far?",
+          "word": "远吗？",
+          "romanized": "Yuǎn ma?"
+        },
+        {
+          "id": "hao_zhao_ma",
+          "english": "Is it easy to find?",
+          "word": "好找吗？",
+          "romanized": "Hǎo zhǎo ma?"
+        },
+        {
+          "id": "ni_qu_guo_ma",
+          "english": "Have you been there before?",
+          "word": "你去过吗？",
+          "romanized": "Nǐ qù guò ma?"
+        },
+        {
+          "id": "kai_men_ma",
+          "english": "Is it open?",
+          "word": "开门了吗？",
+          "romanized": "Kāi mén le ma?"
+        },
+        {
+          "id": "ni_renshi",
+          "english": "Do you know this place?",
+          "word": "你认识这个地方吗？",
+          "romanized": "Nǐ rènshi zhège dìfāng ma?"
+        },
+        {
+          "id": "hao_ma",
+          "english": "Is that okay?",
+          "word": "好吗？",
+          "romanized": "Hǎo ma?"
+        },
+        {
+          "id": "ni_kaixin_ma",
+          "english": "Are you happy?",
+          "word": "你开心吗？",
+          "romanized": "Nǐ kāixīn ma?"
+        },
+        {
+          "id": "ni_hao_ma",
+          "english": "How are you?",
+          "word": "你好吗？",
+          "romanized": "Nǐ hǎo ma?"
+        },
+        {
+          "id": "ta_shengqi_ma",
+          "english": "Is she angry?",
+          "word": "她生气吗？",
+          "romanized": "Tā shēngqì ma?"
+        },
+        {
+          "id": "ni_danxin_ma",
+          "english": "Are you worried?",
+          "word": "你担心吗？",
+          "romanized": "Nǐ dānxīn ma?"
+        },
+        {
+          "id": "ta_mei_shi_ma",
+          "english": "Is she okay?",
+          "word": "她没事吗？",
+          "romanized": "Tā méi shì ma?"
+        },
+        {
+          "id": "mei_guanxi",
+          "english": "It's okay / No worries.",
+          "word": "没关系。",
+          "romanized": "Méi guānxi.",
+          "grammarNote": "没 here is short for 没有. 没关系 = it doesn't matter / no problem."
+        },
+        {
+          "id": "ni_zhidao_ma",
+          "english": "Do you know?",
+          "word": "你知道吗？",
+          "romanized": "Nǐ zhīdào ma?"
+        },
+        {
+          "id": "ni_haishi_ma",
+          "english": "Are you still okay?",
+          "word": "你还好吗？",
+          "romanized": "Nǐ hái hǎo ma?"
+        }
+      ],
+      "reading": "ma_questions"
+    },
+    {
+      "id": "grammar_hen_adjective",
+      "name": "很 + Adjective",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "hen",
+          "english": "very",
+          "word": "很",
+          "romanized": "hěn",
+          "grammarNote": "很 (hěn) is placed before adjectives and usually required — '我好' sounds incomplete; '我很好' sounds natural."
+        },
+        {
+          "id": "hen_hao",
+          "english": "very good / doing well",
+          "word": "很好",
+          "romanized": "hěn hǎo"
+        },
+        {
+          "id": "hen_mang",
+          "english": "very busy",
+          "word": "很忙",
+          "romanized": "hěn máng"
+        },
+        {
+          "id": "hen_lei",
+          "english": "very tired",
+          "word": "很累",
+          "romanized": "hěn lèi"
+        },
+        {
+          "id": "wo_hen_hao",
+          "english": "I'm doing well.",
+          "word": "我很好。",
+          "romanized": "Wǒ hěn hǎo."
+        },
+        {
+          "id": "ni_hao_ma",
+          "english": "How are you?",
+          "word": "你好吗？",
+          "romanized": "Nǐ hǎo ma?"
+        },
+        {
+          "id": "wo_hen_mang",
+          "english": "I'm very busy today.",
+          "word": "我今天很忙。",
+          "romanized": "Wǒ jīntiān hěn máng."
+        },
+        {
+          "id": "ta_hen_lei",
+          "english": "He is very tired.",
+          "word": "他很累。",
+          "romanized": "Tā hěn lèi."
+        },
+        {
+          "id": "hen_gaoxing",
+          "english": "very happy",
+          "word": "很高兴",
+          "romanized": "hěn gāoxìng"
+        },
+        {
+          "id": "hen_gaoxing_renshi",
+          "english": "Nice to meet you!",
+          "word": "很高兴认识你！",
+          "romanized": "Hěn gāoxìng rènshi nǐ!"
+        },
+        {
+          "id": "bu_hen_hao",
+          "english": "not very good",
+          "word": "不很好",
+          "romanized": "bù hěn hǎo",
+          "grammarNote": "Negate 很 + adjective with 不: 不很好 (not very good). You can also say 不好 (not good)."
+        },
+        {
+          "id": "hen_gui",
+          "english": "very expensive",
+          "word": "很贵",
+          "romanized": "hěn guì"
+        },
+        {
+          "id": "hen_pian_yi",
+          "english": "very cheap",
+          "word": "很便宜",
+          "romanized": "hěn piányí"
+        },
+        {
+          "id": "haochi",
+          "english": "delicious",
+          "word": "好吃",
+          "romanized": "hǎo chī"
+        },
+        {
+          "id": "hen_haochi",
+          "english": "very delicious",
+          "word": "很好吃",
+          "romanized": "hěn hǎo chī"
+        },
+        {
+          "id": "hen_tian",
+          "english": "very sweet",
+          "word": "很甜",
+          "romanized": "hěn tián"
+        },
+        {
+          "id": "hen_la",
+          "english": "very spicy",
+          "word": "很辣",
+          "romanized": "hěn là"
+        },
+        {
+          "id": "hen_xian",
+          "english": "very salty",
+          "word": "很咸",
+          "romanized": "hěn xián"
+        },
+        {
+          "id": "hen_suan",
+          "english": "very sour",
+          "word": "很酸",
+          "romanized": "hěn suān"
+        },
+        {
+          "id": "hen_re",
+          "english": "very hot (temperature)",
+          "word": "很热",
+          "romanized": "hěn rè"
+        },
+        {
+          "id": "zhe_hen_haochi",
+          "english": "This is very delicious.",
+          "word": "这很好吃。",
+          "romanized": "Zhè hěn hǎo chī."
+        },
+        {
+          "id": "tai_la_le",
+          "english": "too spicy",
+          "word": "太辣了",
+          "romanized": "tài là le",
+          "grammarNote": "太...了 = too... (excessive). 太辣了 = too spicy. The 了 completes the expression."
+        },
+        {
+          "id": "ni_juede",
+          "english": "What do you think? Is it good?",
+          "word": "你觉得好吃吗？",
+          "romanized": "Nǐ juéde hǎo chī ma?"
+        },
+        {
+          "id": "bu_tai_la",
+          "english": "not too spicy",
+          "word": "不太辣",
+          "romanized": "bù tài là"
+        },
+        {
+          "id": "im_happy",
+          "english": "I am happy.",
+          "word": "我很高兴。",
+          "romanized": "Wǒ hěn gāoxìng."
+        },
+        {
+          "id": "im_tired",
+          "english": "I am tired.",
+          "word": "我很累。",
+          "romanized": "Wǒ hěn lèi."
+        },
+        {
+          "id": "hes_busy",
+          "english": "He is busy.",
+          "word": "他很忙。",
+          "romanized": "Tā hěn máng."
+        },
+        {
+          "id": "shes_pretty",
+          "english": "She is beautiful.",
+          "word": "她很漂亮。",
+          "romanized": "Tā hěn piàoliang."
+        },
+        {
+          "id": "food_good",
+          "english": "The food is delicious.",
+          "word": "食物很好吃。",
+          "romanized": "Shíwù hěn hǎo chī."
+        },
+        {
+          "id": "expensive",
+          "english": "It's expensive.",
+          "word": "很贵。",
+          "romanized": "Hěn guì."
+        },
+        {
+          "id": "not_expensive",
+          "english": "It's not expensive.",
+          "word": "不贵。",
+          "romanized": "Bú guì.",
+          "grammarNote": "In negative sentences, 不 replaces 很. Don't say 不很贵."
+        },
+        {
+          "id": "very_happy",
+          "english": "I am very happy today.",
+          "word": "我今天非常高兴。",
+          "romanized": "Wǒ jīntiān fēicháng gāoxìng.",
+          "grammarNote": "非常 (fēicháng) = extremely. Stronger than 很."
+        },
+        {
+          "id": "are_you_busy",
+          "english": "Are you busy?",
+          "word": "你忙吗？",
+          "romanized": "Nǐ máng ma?",
+          "grammarNote": "No 很 in questions — just adjective + 吗."
+        },
+        {
+          "id": "interesting",
+          "english": "This is interesting.",
+          "word": "这很有趣。",
+          "romanized": "Zhè hěn yǒuqù."
+        },
+        {
+          "id": "not_sad",
+          "english": "She is not sad.",
+          "word": "她不难过。",
+          "romanized": "Tā bù nánguò."
+        },
+        {
+          "id": "not_tired",
+          "english": "I am not tired.",
+          "word": "我不累。",
+          "romanized": "Wǒ bú lèi."
+        },
+        {
+          "id": "good_movie",
+          "english": "The movie is good.",
+          "word": "电影很好看。",
+          "romanized": "Diànyǐng hěn hǎokàn."
+        },
+        {
+          "id": "nice_weather",
+          "english": "The weather is great.",
+          "word": "天气很好。",
+          "romanized": "Tiānqì hěn hǎo."
+        },
+        {
+          "id": "a_little",
+          "english": "I'm a little nervous.",
+          "word": "我有点紧张。",
+          "romanized": "Wǒ yǒudiǎn jǐnzhāng.",
+          "grammarNote": "有点 (yǒudiǎn) = a little / somewhat, used for slightly negative feelings."
+        }
+      ],
+      "reading": "hen_adjective"
+    },
+    {
+      "id": "grammar_shi_sentences",
+      "name": "是 — To Be",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "shi",
+          "english": "to be (identity)",
+          "word": "是",
+          "romanized": "shì",
+          "grammarNote": "是 is used for identity and classification — not for adjectives or location."
+        },
+        {
+          "id": "bu_shi",
+          "english": "is not",
+          "word": "不是",
+          "romanized": "bú shì"
+        },
+        {
+          "id": "shi_ma",
+          "english": "Is it...?",
+          "word": "...是吗？",
+          "romanized": "...shì ma?"
+        },
+        {
+          "id": "i_am",
+          "english": "I am...",
+          "word": "我是...",
+          "romanized": "Wǒ shì..."
+        },
+        {
+          "id": "you_are",
+          "english": "You are...",
+          "word": "你是...",
+          "romanized": "Nǐ shì..."
+        },
+        {
+          "id": "he_she_is",
+          "english": "He",
+          "word": "他...",
+          "romanized": "Tā shì..."
+        },
+        {
+          "id": "im_student",
+          "english": "I am a student.",
+          "word": "我是学生。",
+          "romanized": "Wǒ shì xuésheng."
+        },
+        {
+          "id": "im_jeff",
+          "english": "I am Jeff.",
+          "word": "我是杰夫。",
+          "romanized": "Wǒ shì Jiéfū."
+        },
+        {
+          "id": "are_you_teacher",
+          "english": "Are you a teacher?",
+          "word": "你是老师吗？",
+          "romanized": "Nǐ shì lǎoshī ma?"
+        },
+        {
+          "id": "hes_doctor",
+          "english": "He is a doctor.",
+          "word": "他是医生。",
+          "romanized": "Tā shì yīshēng."
+        },
+        {
+          "id": "shes_friend",
+          "english": "She is my friend.",
+          "word": "她是我的朋友。",
+          "romanized": "Tā shì wǒ de péngyou."
+        },
+        {
+          "id": "not_student",
+          "english": "I am not a student.",
+          "word": "我不是学生。",
+          "romanized": "Wǒ bú shì xuésheng.",
+          "grammarNote": "Negate 是 with 不是, never with 没有."
+        },
+        {
+          "id": "this_is",
+          "english": "What is this?",
+          "word": "这是什么？",
+          "romanized": "Zhè shì shénme?"
+        },
+        {
+          "id": "this_coffee",
+          "english": "This is coffee.",
+          "word": "这是咖啡。",
+          "romanized": "Zhè shì kāfēi."
+        },
+        {
+          "id": "were_friends",
+          "english": "We are friends.",
+          "word": "我们是朋友。",
+          "romanized": "Wǒmen shì péngyou."
+        },
+        {
+          "id": "is_hospital",
+          "english": "Is this a hospital?",
+          "word": "这是医院吗？",
+          "romanized": "Zhè shì yīyuàn ma?"
+        },
+        {
+          "id": "not_my_book",
+          "english": "This is not my book.",
+          "word": "这不是我的书。",
+          "romanized": "Zhè bú shì wǒ de shū."
+        },
+        {
+          "id": "shi_2",
+          "english": "to be (identity/classification)",
+          "word": "是",
+          "romanized": "shì",
+          "grammarNote": "是 is used for identity and classification. It is NOT used with adjectives — use 很 instead."
+        },
+        {
+          "id": "zhe_shi",
+          "english": "this is",
+          "word": "这是",
+          "romanized": "zhè shì"
+        },
+        {
+          "id": "na_shi",
+          "english": "that is",
+          "word": "那是",
+          "romanized": "nà shì"
+        },
+        {
+          "id": "zhe_shi_mifan",
+          "english": "This is rice.",
+          "word": "这是米饭。",
+          "romanized": "Zhè shì mǐfàn."
+        },
+        {
+          "id": "na_shi_kafei",
+          "english": "That is coffee.",
+          "word": "那是咖啡。",
+          "romanized": "Nà shì kāfēi."
+        },
+        {
+          "id": "zhe_bu_shi_jirou",
+          "english": "This is not chicken.",
+          "word": "这不是鸡肉。",
+          "romanized": "Zhè bú shì jīròu."
+        },
+        {
+          "id": "zhe_shi_shenme_cai",
+          "english": "What dish is this?",
+          "word": "这是什么菜？",
+          "romanized": "Zhè shì shénme cài?"
+        },
+        {
+          "id": "zhe_hen_haochi",
+          "english": "This is delicious.",
+          "word": "这很好吃。",
+          "romanized": "Zhè hěn hǎo chī.",
+          "grammarNote": "Adjectives don't use 是 — use 很 directly. 这很好吃 (This is delicious), NOT 这是好吃."
+        },
+        {
+          "id": "na_shi_cha_ma",
+          "english": "Is that tea?",
+          "word": "那是茶吗？",
+          "romanized": "Nà shì chá ma?"
+        },
+        {
+          "id": "zhe_shi_wode",
+          "english": "This is mine.",
+          "word": "这是我的。",
+          "romanized": "Zhè shì wǒ de."
+        },
+        {
+          "id": "wo_shi_yisheng",
+          "english": "I am a doctor.",
+          "word": "我是医生。",
+          "romanized": "Wǒ shì yīshēng."
+        },
+        {
+          "id": "ta_shi_laoshi",
+          "english": "He is a teacher.",
+          "word": "他是老师。",
+          "romanized": "Tā shì lǎoshī."
+        },
+        {
+          "id": "ta_shi_hushi",
+          "english": "She is a nurse.",
+          "word": "她是护士。",
+          "romanized": "Tā shì hùshi."
+        },
+        {
+          "id": "ta_shi_lvshi",
+          "english": "She is a lawyer.",
+          "word": "她是律师。",
+          "romanized": "Tā shì lǜshī."
+        },
+        {
+          "id": "ni_shi_shenme",
+          "english": "What do you do for work?",
+          "word": "你是做什么的？",
+          "romanized": "Nǐ shì zuò shénme de?"
+        },
+        {
+          "id": "bu_shi_2",
+          "english": "I am not a doctor.",
+          "word": "我不是医生。",
+          "romanized": "Wǒ bú shì yīshēng.",
+          "grammarNote": "Negate 是 with 不是. Never use 没是."
+        },
+        {
+          "id": "ni_shi_xuesheng_ma",
+          "english": "Are you a student?",
+          "word": "你是学生吗？",
+          "romanized": "Nǐ shì xuésheng ma?"
+        },
+        {
+          "id": "women_shi_tongshi",
+          "english": "We are colleagues.",
+          "word": "我们是同事。",
+          "romanized": "Wǒmen shì tóngshì."
+        },
+        {
+          "id": "ni_shi_shei",
+          "english": "Who are you?",
+          "word": "你是谁？",
+          "romanized": "Nǐ shì shéi?"
+        }
+      ],
+      "reading": "shi_sentences"
+    },
+    {
+      "id": "grammar_you_meiyou",
+      "name": "有 & 没有 — Have / Don't Have",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "you",
+          "english": "to have / there is",
+          "word": "有",
+          "romanized": "yǒu",
+          "grammarNote": "有 (yǒu) means both 'to have' and 'there is/are'. Context makes it clear which."
+        },
+        {
+          "id": "meiyou",
+          "english": "to not have / there is no",
+          "word": "没有",
+          "romanized": "méiyǒu",
+          "grammarNote": "没有 negates 有. Never use 不有 — only 没有 is correct."
+        },
+        {
+          "id": "wo_you",
+          "english": "I have...",
+          "word": "我有...",
+          "romanized": "Wǒ yǒu..."
+        },
+        {
+          "id": "ni_you_ma",
+          "english": "Do you have...?",
+          "word": "你有...吗？",
+          "romanized": "Nǐ yǒu...ma?"
+        },
+        {
+          "id": "wo_meiyou",
+          "english": "I don't have...",
+          "word": "我没有...",
+          "romanized": "Wǒ méiyǒu..."
+        },
+        {
+          "id": "you_shijian",
+          "english": "Do you have time?",
+          "word": "你有时间吗？",
+          "romanized": "Nǐ yǒu shíjiān ma?"
+        },
+        {
+          "id": "wo_meiyou_shijian",
+          "english": "I don't have time.",
+          "word": "我没有时间。",
+          "romanized": "Wǒ méiyǒu shíjiān."
+        },
+        {
+          "id": "you_wenti",
+          "english": "Is there a problem?",
+          "word": "有问题吗？",
+          "romanized": "Yǒu wèntí ma?"
+        },
+        {
+          "id": "meiyou_wenti",
+          "english": "No problem.",
+          "word": "没有问题。",
+          "romanized": "Méiyǒu wèntí."
+        },
+        {
+          "id": "ni_you_pengyou",
+          "english": "Do you have friends here?",
+          "word": "你在这里有朋友吗？",
+          "romanized": "Nǐ zài zhèlǐ yǒu péngyou ma?"
+        },
+        {
+          "id": "wo_you_yige",
+          "english": "I have one.",
+          "word": "我有一个。",
+          "romanized": "Wǒ yǒu yī gè."
+        },
+        {
+          "id": "you_mei_you",
+          "english": "Do you have it or not? (informal)",
+          "word": "有没有？",
+          "romanized": "Yǒu méiyǒu?",
+          "grammarNote": "有没有 is a common question pattern: verb + 没 + verb = do you or don't you?"
+        },
+        {
+          "id": "you_2",
+          "english": "there is / to have",
+          "word": "有",
+          "romanized": "yǒu",
+          "grammarNote": "有 means 'to have' and 'there is/are'. Use it to ask whether a place has something."
+        },
+        {
+          "id": "meiyou_2",
+          "english": "there is no / don't have",
+          "word": "没有",
+          "romanized": "méiyǒu"
+        },
+        {
+          "id": "you_cesuo",
+          "english": "Is there a bathroom?",
+          "word": "这里有厕所吗？",
+          "romanized": "Zhèlǐ yǒu cèsuǒ ma?"
+        },
+        {
+          "id": "you_yiyuan",
+          "english": "Is there a hospital nearby?",
+          "word": "附近有医院吗？",
+          "romanized": "Fùjìn yǒu yīyuàn ma?"
+        },
+        {
+          "id": "meiyou_fandian",
+          "english": "There is no restaurant here.",
+          "word": "这里没有饭店。",
+          "romanized": "Zhèlǐ méiyǒu fàndiàn."
+        },
+        {
+          "id": "you_difang",
+          "english": "Is there a good place to eat nearby?",
+          "word": "附近有好吃的地方吗？",
+          "romanized": "Fùjìn yǒu hǎo chī de dìfāng ma?"
+        },
+        {
+          "id": "you_gongjiao",
+          "english": "Is there a bus here?",
+          "word": "这里有公交车吗？",
+          "romanized": "Zhèlǐ yǒu gōngjiāochē ma?"
+        },
+        {
+          "id": "you_duoshao",
+          "english": "How many are there?",
+          "word": "有多少？",
+          "romanized": "Yǒu duōshǎo?"
+        },
+        {
+          "id": "meiyou_weishengjian",
+          "english": "There's no bathroom.",
+          "word": "没有卫生间。",
+          "romanized": "Méiyǒu wèishēngjiān."
+        },
+        {
+          "id": "you_wifi",
+          "english": "Is there Wi-Fi?",
+          "word": "有Wi-Fi吗？",
+          "romanized": "Yǒu WiFi ma?"
+        },
+        {
+          "id": "you_mei_you_ditie",
+          "english": "Is there a subway here?",
+          "word": "这里有没有地铁？",
+          "romanized": "Zhèlǐ yǒu méiyǒu dìtiě?",
+          "grammarNote": "有没有 is a spoken question pattern: 'is there or isn't there?'"
+        },
+        {
+          "id": "you_3",
+          "english": "to have",
+          "word": "有",
+          "romanized": "yǒu"
+        },
+        {
+          "id": "meiyou_3",
+          "english": "to not have",
+          "word": "没有",
+          "romanized": "méiyǒu"
+        },
+        {
+          "id": "have_med",
+          "english": "Do you have medicine?",
+          "word": "你有药吗？",
+          "romanized": "Nǐ yǒu yào ma?"
+        },
+        {
+          "id": "no_med",
+          "english": "I don't have medicine.",
+          "word": "我没有药。",
+          "romanized": "Wǒ méiyǒu yào."
+        },
+        {
+          "id": "hospital_near",
+          "english": "There is a hospital nearby.",
+          "word": "附近有医院。",
+          "romanized": "Fùjìn yǒu yīyuàn."
+        },
+        {
+          "id": "pharmacy",
+          "english": "Is there a pharmacy here?",
+          "word": "这里有药店吗？",
+          "romanized": "Zhèlǐ yǒu yàodiàn ma?"
+        },
+        {
+          "id": "appointment",
+          "english": "I have an appointment.",
+          "word": "我有预约。",
+          "romanized": "Wǒ yǒu yùyuē."
+        },
+        {
+          "id": "no_insurance",
+          "english": "I don't have insurance.",
+          "word": "我没有保险。",
+          "romanized": "Wǒ méiyǒu bǎoxiǎn."
+        },
+        {
+          "id": "allergy",
+          "english": "Do you have allergies?",
+          "word": "你有过敏吗？",
+          "romanized": "Nǐ yǒu guòmǐn ma?"
+        },
+        {
+          "id": "no_doctor",
+          "english": "There is no doctor here.",
+          "word": "这里没有医生。",
+          "romanized": "Zhèlǐ méiyǒu yīshēng."
+        },
+        {
+          "id": "have_cold",
+          "english": "I have a cold.",
+          "word": "我感冒了。",
+          "romanized": "Wǒ gǎnmào le."
+        },
+        {
+          "id": "pain_here",
+          "english": "I have pain here.",
+          "word": "这里疼。",
+          "romanized": "Zhèlǐ téng."
+        },
+        {
+          "id": "how_long",
+          "english": "How long have you had this?",
+          "word": "你有多久了？",
+          "romanized": "Nǐ yǒu duō jiǔ le?"
+        },
+        {
+          "id": "feel_bad",
+          "english": "I don't feel well.",
+          "word": "我感觉不好。",
+          "romanized": "Wǒ gǎnjué bù hǎo."
+        }
+      ],
+      "reading": "you_meiyou"
+    },
+    {
+      "id": "grammar_measure_words",
+      "name": "Measure Words (量词)",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "ge",
+          "english": "general measure word",
+          "word": "个",
+          "romanized": "gè",
+          "grammarNote": "个 is the default measure word used for people and most objects."
+        },
+        {
+          "id": "bei",
+          "english": "cup",
+          "word": "杯",
+          "romanized": "bēi"
+        },
+        {
+          "id": "wan",
+          "english": "bowl (measure)",
+          "word": "碗",
+          "romanized": "wǎn"
+        },
+        {
+          "id": "ping",
+          "english": "bottle (measure)",
+          "word": "瓶",
+          "romanized": "píng"
+        },
+        {
+          "id": "pan",
+          "english": "plate",
+          "word": "盘",
+          "romanized": "pán"
+        },
+        {
+          "id": "pian",
+          "english": "slice",
+          "word": "片",
+          "romanized": "piàn"
+        },
+        {
+          "id": "one_tea",
+          "english": "one cup of tea",
+          "word": "一杯茶",
+          "romanized": "yī bēi chá"
+        },
+        {
+          "id": "one_rice",
+          "english": "one bowl of rice",
+          "word": "一碗米饭",
+          "romanized": "yī wǎn mǐfàn"
+        },
+        {
+          "id": "one_water",
+          "english": "one bottle of water",
+          "word": "一瓶水",
+          "romanized": "yī píng shuǐ"
+        },
+        {
+          "id": "two_eggs",
+          "english": "two eggs",
+          "word": "两个鸡蛋",
+          "romanized": "liǎng gè jīdàn",
+          "grammarNote": "Use 两 (liǎng) instead of 二 (èr) with measure words."
+        },
+        {
+          "id": "plate_dumplings",
+          "english": "a plate of dumplings",
+          "word": "一盘饺子",
+          "romanized": "yī pán jiǎozi"
+        },
+        {
+          "id": "bread_slice",
+          "english": "a piece of bread",
+          "word": "一片面包",
+          "romanized": "yī piàn miànbāo"
+        },
+        {
+          "id": "glass_milk",
+          "english": "a glass of milk",
+          "word": "一杯牛奶",
+          "romanized": "yī bēi niúnǎi"
+        },
+        {
+          "id": "want_coffee",
+          "english": "I want one coffee.",
+          "word": "我要一杯咖啡。",
+          "romanized": "Wǒ yào yī bēi kāfēi."
+        },
+        {
+          "id": "two_bowls",
+          "english": "Two bowls of rice.",
+          "word": "两碗米饭。",
+          "romanized": "Liǎng wǎn mǐfàn."
+        },
+        {
+          "id": "how_many",
+          "english": "How many people?",
+          "word": "几个人？",
+          "romanized": "Jǐ gè rén?"
+        },
+        {
+          "id": "this_bowl",
+          "english": "this bowl of noodles",
+          "word": "这碗面条",
+          "romanized": "zhè wǎn miàntiáo"
+        }
+      ],
+      "reading": "measure_words"
+    },
+    {
+      "id": "grammar_resultative_complements",
+      "name": "Resultative Complements — 吃完, 做好",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "rc_chi_wan",
+          "english": "finish eating / eat it all up",
+          "word": "吃完",
+          "romanized": "chī wán",
+          "grammarNote": "Resultative complements attach directly to the verb. 完 (wán) = finished/completed. 吃完 = eat to completion. The compound acts as a single verb."
+        },
+        {
+          "id": "rc_zuo_hao",
+          "english": "finish making / get it ready",
+          "word": "做好",
+          "romanized": "zuò hǎo"
+        },
+        {
+          "id": "rc_he_guang",
+          "english": "drink it all up (until empty)",
+          "word": "喝光",
+          "romanized": "hē guāng"
+        },
+        {
+          "id": "rc_mai_dao",
+          "english": "successfully buy / manage to buy",
+          "word": "买到",
+          "romanized": "mǎi dào"
+        },
+        {
+          "id": "rc_zhao_dao",
+          "english": "find successfully / locate",
+          "word": "找到",
+          "romanized": "zhǎo dào"
+        },
+        {
+          "id": "rc_qie_hao",
+          "english": "cut properly / finish cutting",
+          "word": "切好",
+          "romanized": "qiē hǎo"
+        },
+        {
+          "id": "rc_finished_eating",
+          "english": "I've finished eating.",
+          "word": "我吃完了。",
+          "romanized": "Wǒ chī wán le."
+        },
+        {
+          "id": "rc_food_ready",
+          "english": "The food is ready!",
+          "word": "饭做好了！",
+          "romanized": "Fàn zuò hǎo le!"
+        },
+        {
+          "id": "rc_drank_all_soup",
+          "english": "He drank up all the soup.",
+          "word": "他把汤喝光了。",
+          "romanized": "Tā bǎ tāng hē guāng le."
+        },
+        {
+          "id": "rc_negation",
+          "english": "I didn't finish eating.",
+          "word": "我没吃完。",
+          "romanized": "Wǒ méi chī wán.",
+          "grammarNote": "Negate resultative complements with 没 before the compound. Drop 了. 不 is not used for completed action negation."
+        },
+        {
+          "id": "rc_potential_can",
+          "english": "Can you finish eating it? (potential form)",
+          "word": "你吃得完吗？",
+          "romanized": "Nǐ chī de wán ma?",
+          "grammarNote": "Insert 得 (de) between verb and result to make the potential form: V得result = can do it. V不result = can't do it."
+        },
+        {
+          "id": "rc_potential_cannot",
+          "english": "I can't finish it. / It's too much for me.",
+          "word": "我吃不完。",
+          "romanized": "Wǒ chī bu wán."
+        }
+      ],
+      "reading": "resultative_complements"
+    },
+    {
+      "id": "grammar_bi_comparison",
+      "name": "比 — Comparisons",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "bi_intro",
+          "english": "This is tastier than that.",
+          "word": "这个比那个好吃。",
+          "romanized": "Zhège bǐ nàge hǎochī.",
+          "grammarNote": "Pattern: A 比 B + adjective. A is more [adj] than B. Do not add 更 (gèng) — the comparison meaning comes from 比 itself."
+        },
+        {
+          "id": "bi_spicy",
+          "english": "This dish is spicier than that one.",
+          "word": "这道菜比那道菜辣。",
+          "romanized": "Zhè dào cài bǐ nà dào cài là."
+        },
+        {
+          "id": "bi_sweet",
+          "english": "Apples are sweeter than oranges.",
+          "word": "苹果比橙子甜。",
+          "romanized": "Píngguǒ bǐ chéngzi tián."
+        },
+        {
+          "id": "bi_expensive",
+          "english": "This restaurant is more expensive than that one.",
+          "word": "这家餐厅比那家贵。",
+          "romanized": "Zhè jiā cāntīng bǐ nà jiā guì."
+        },
+        {
+          "id": "bi_fresh",
+          "english": "The market fish is fresher than the supermarket's.",
+          "word": "市场的鱼比超市的新鲜。",
+          "romanized": "Shìchǎng de yú bǐ chāoshì de xīnxiān."
+        },
+        {
+          "id": "bi_meiyou_intro",
+          "english": "This is not as expensive as that.",
+          "word": "这个没有那个贵。",
+          "romanized": "Zhège méiyǒu nàge guì.",
+          "grammarNote": "Negative comparison: A 没有 B + adjective = A is not as [adj] as B. 没有 replaces 比 for this meaning."
+        },
+        {
+          "id": "bi_meiyou_spicy",
+          "english": "This dish is not as spicy as that one.",
+          "word": "这道菜没有那道菜辣。",
+          "romanized": "Zhè dào cài méiyǒu nà dào cài là."
+        },
+        {
+          "id": "bi_meiyou_fresh",
+          "english": "The supermarket vegetables are not as fresh as the market's.",
+          "word": "超市的蔬菜没有市场的新鲜。",
+          "romanized": "Chāoshì de shūcài méiyǒu shìchǎng de xīnxiān."
+        },
+        {
+          "id": "bi_yidian",
+          "english": "This is a little sweeter than that.",
+          "word": "这个比那个甜一点。",
+          "romanized": "Zhège bǐ nàge tián yīdiǎn.",
+          "grammarNote": "Add 一点 after the adjective to say 'a little more.' Add 多了 or 得多 to say 'much more.'"
+        },
+        {
+          "id": "bi_much_cheaper",
+          "english": "This place is much cheaper than that one.",
+          "word": "这家比那家便宜多了。",
+          "romanized": "Zhè jiā bǐ nà jiā piányí duō le."
+        },
+        {
+          "id": "bi_flavor_better",
+          "english": "The flavor here is much better than there.",
+          "word": "这里的味道比那里的好得多。",
+          "romanized": "Zhèlǐ de wèidào bǐ nàlǐ de hǎo de duō."
+        },
+        {
+          "id": "bi_cheap_comparison",
+          "english": "Is this cheaper than that?",
+          "word": "这个比那个便宜吗？",
+          "romanized": "Zhège bǐ nàge piányí ma?"
+        }
+      ],
+      "reading": "bi_comparison"
+    },
+    {
+      "id": "grammar_yao_xiang",
+      "name": "要 & 想 — Want / Would Like",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "yao",
+          "english": "want",
+          "word": "要",
+          "romanized": "yào",
+          "grammarNote": "要 is more direct. Use it to order food or state a firm intention."
+        },
+        {
+          "id": "xiang",
+          "english": "want to",
+          "word": "想",
+          "romanized": "xiǎng",
+          "grammarNote": "想 is softer, more tentative — like 'I'd like to' or 'I'm thinking of.'"
+        },
+        {
+          "id": "xiang_yao",
+          "english": "want (combined)",
+          "word": "想要",
+          "romanized": "xiǎng yào"
+        },
+        {
+          "id": "i_want_water",
+          "english": "I want water.",
+          "word": "我要水。",
+          "romanized": "Wǒ yào shuǐ."
+        },
+        {
+          "id": "i_want_eat",
+          "english": "I want to eat.",
+          "word": "我想吃。",
+          "romanized": "Wǒ xiǎng chī."
+        },
+        {
+          "id": "id_like_coffee",
+          "english": "I'd like a coffee.",
+          "word": "我想要一杯咖啡。",
+          "romanized": "Wǒ xiǎng yào yī bēi kāfēi."
+        },
+        {
+          "id": "what_eat",
+          "english": "What do you want to eat?",
+          "word": "你想吃什么？",
+          "romanized": "Nǐ xiǎng chī shénme?"
+        },
+        {
+          "id": "rice_not_noodles",
+          "english": "I want rice, not noodles.",
+          "word": "我要米饭，不要面条。",
+          "romanized": "Wǒ yào mǐfàn, bú yào miàntiáo."
+        },
+        {
+          "id": "want_try",
+          "english": "Do you want to try?",
+          "word": "你想试试吗？",
+          "romanized": "Nǐ xiǎng shì shì ma?"
+        },
+        {
+          "id": "dont_want",
+          "english": "I don't want it.",
+          "word": "我不要。",
+          "romanized": "Wǒ bú yào.",
+          "grammarNote": "不要 is a firm refusal."
+        },
+        {
+          "id": "dont_want_eat",
+          "english": "I don't want to eat.",
+          "word": "我不想吃。",
+          "romanized": "Wǒ bù xiǎng chī."
+        },
+        {
+          "id": "he_wants_cook",
+          "english": "He wants to cook.",
+          "word": "他想做饭。",
+          "romanized": "Tā xiǎng zuò fàn."
+        },
+        {
+          "id": "want_tea",
+          "english": "I'd like to drink tea.",
+          "word": "我想喝茶。",
+          "romanized": "Wǒ xiǎng hē chá."
+        },
+        {
+          "id": "ill_have_fish",
+          "english": "I'll have the fish.",
+          "word": "我要鱼。",
+          "romanized": "Wǒ yào yú."
+        },
+        {
+          "id": "what_drink",
+          "english": "What would you like to drink?",
+          "word": "你想喝什么？",
+          "romanized": "Nǐ xiǎng hē shénme?"
+        },
+        {
+          "id": "we_want_two",
+          "english": "We want two dishes.",
+          "word": "我们要两个菜。",
+          "romanized": "Wǒmen yào liǎng gè cài."
+        },
+        {
+          "id": "yao_2",
+          "english": "want to / will (strong intention)",
+          "word": "要",
+          "romanized": "yào",
+          "grammarNote": "要 (yào) expresses a firm desire or plan. Stronger than 想 — closer to 'I'm going to' or 'I need to'."
+        },
+        {
+          "id": "xiang_2",
+          "english": "would like to / thinking of",
+          "word": "想",
+          "romanized": "xiǎng",
+          "grammarNote": "想 (xiǎng) is softer than 要 — a wish or intention without being definite."
+        },
+        {
+          "id": "wo_xiang_zuo_laoshi",
+          "english": "I want to be a teacher.",
+          "word": "我想做老师。",
+          "romanized": "Wǒ xiǎng zuò lǎoshī."
+        },
+        {
+          "id": "wo_yao_xue",
+          "english": "I want to study medicine.",
+          "word": "我要学医学。",
+          "romanized": "Wǒ yào xué yīxué."
+        },
+        {
+          "id": "ni_xiang_zuo_shenme",
+          "english": "What do you want to do?",
+          "word": "你想做什么？",
+          "romanized": "Nǐ xiǎng zuò shénme?"
+        },
+        {
+          "id": "ta_xiang_huajia",
+          "english": "She wants to be an artist.",
+          "word": "她想成为画家。",
+          "romanized": "Tā xiǎng chéngwéi huàjiā."
+        },
+        {
+          "id": "wo_xiang_chang_ge",
+          "english": "I want to sing.",
+          "word": "我想唱歌。",
+          "romanized": "Wǒ xiǎng chàng gē."
+        },
+        {
+          "id": "wo_bu_xiang_jiaban",
+          "english": "I don't want to work overtime.",
+          "word": "我不想加班。",
+          "romanized": "Wǒ bù xiǎng jiābān."
+        },
+        {
+          "id": "ta_yao_zhao_gongzuo",
+          "english": "He needs to find a job.",
+          "word": "他要找工作。",
+          "romanized": "Tā yào zhǎo gōngzuò."
+        },
+        {
+          "id": "ni_xiang_qu_na",
+          "english": "Where do you want to go?",
+          "word": "你想去哪里？",
+          "romanized": "Nǐ xiǎng qù nǎlǐ?"
+        },
+        {
+          "id": "wo_yao_xiu_xi",
+          "english": "I need to rest.",
+          "word": "我要休息。",
+          "romanized": "Wǒ yào xiūxi."
+        }
+      ],
+      "reading": "yao_xiang"
+    },
+    {
+      "id": "grammar_direction_complements",
+      "name": "Direction Complements — 上来, 出去, 回来",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "dc_jinlai",
+          "english": "Please come in!",
+          "word": "请进来！",
+          "romanized": "Qǐng jìn lái!",
+          "grammarNote": "Direction complements = direction word (进/出/上/下/回/过) + 来 or 去. 来 = toward the speaker. 去 = away from the speaker. 进来 = come in (moving inward toward speaker)."
+        },
+        {
+          "id": "dc_chuqu",
+          "english": "He went out.",
+          "word": "他出去了。",
+          "romanized": "Tā chū qù le."
+        },
+        {
+          "id": "dc_huilai",
+          "english": "When are you coming back?",
+          "word": "你什么时候回来？",
+          "romanized": "Nǐ shénme shíhou huí lái?"
+        },
+        {
+          "id": "dc_guolai",
+          "english": "Come over here quickly!",
+          "word": "快过来！",
+          "romanized": "Kuài guò lái!"
+        },
+        {
+          "id": "dc_shanglai",
+          "english": "come up (toward speaker)",
+          "word": "上来",
+          "romanized": "shàng lái"
+        },
+        {
+          "id": "dc_shangqu",
+          "english": "go up (away from speaker)",
+          "word": "上去",
+          "romanized": "shàng qù",
+          "grammarNote": "Same direction word, different 来/去 based on whether movement is toward or away from the speaker. Context makes it clear which to use."
+        },
+        {
+          "id": "dc_xialai",
+          "english": "come down (toward speaker)",
+          "word": "下来",
+          "romanized": "xià lái"
+        },
+        {
+          "id": "dc_xiaqu",
+          "english": "go down (away from speaker)",
+          "word": "下去",
+          "romanized": "xià qù"
+        },
+        {
+          "id": "dc_climb_up",
+          "english": "He climbed up (away from me).",
+          "word": "他爬上去了。",
+          "romanized": "Tā pá shàng qù le."
+        },
+        {
+          "id": "dc_food_served",
+          "english": "The food has been brought up / is being served.",
+          "word": "菜端上来了。",
+          "romanized": "Cài duān shàng lái le."
+        },
+        {
+          "id": "dc_huiqu",
+          "english": "go back (return away from speaker)",
+          "word": "回去",
+          "romanized": "huí qù"
+        },
+        {
+          "id": "dc_ran_out",
+          "english": "She ran out of the hotel.",
+          "word": "她从酒店跑出去了。",
+          "romanized": "Tā cóng jiǔdiàn pǎo chū qù le."
+        }
+      ],
+      "reading": "direction_complements"
+    },
+    {
+      "id": "grammar_location_patterns",
+      "name": "Location Word Patterns — 店馆场院站",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "patterns_intro",
+          "english": "location name patterns",
+          "word": "地点规律",
+          "romanized": "dìdiǎn guīlǜ",
+          "grammarNote": "Chinese location names are built from recognizable suffixes. Learn the suffix and you can guess what a new place is — 咖啡店 (coffee shop), 图书馆 (library), 机场 (airport). These suffixes carry consistent meaning across hundreds of place names."
+        },
+        {
+          "id": "dian_suffix",
+          "english": "店 — shop / store",
+          "word": "店 (diàn)",
+          "romanized": "diàn",
+          "grammarNote": "店 = shop or store. Attaches to a product or service: 咖啡店 (coffee shop), 书店 (bookstore), 药店 (pharmacy), 花店 (flower shop), 面包店 (bakery). If you see 店, it sells something."
+        },
+        {
+          "id": "kafeidian",
+          "english": "coffee shop",
+          "word": "咖啡店",
+          "romanized": "kāfēi diàn",
+          "grammarNote": "咖啡 (coffee) + 店 (shop) = coffee shop. The product always comes first, then 店."
+        },
+        {
+          "id": "shudian",
+          "english": "bookstore",
+          "word": "书店",
+          "romanized": "shū diàn",
+          "grammarNote": "书 (book) + 店 = bookstore. Same pattern: 玩具店 (toy store), 服装店 (clothing store)."
+        },
+        {
+          "id": "yaodian",
+          "english": "pharmacy",
+          "word": "药店",
+          "romanized": "yào diàn"
+        },
+        {
+          "id": "guan_suffix",
+          "english": "馆 — hall / public establishment",
+          "word": "馆 (guǎn)",
+          "romanized": "guǎn",
+          "grammarNote": "馆 = a public hall or cultural/service establishment. 图书馆 (library), 博物馆 (museum), 饭馆 (restaurant), 体育馆 (gym/stadium). 馆 implies a more formal, often public or cultural space than 店."
+        },
+        {
+          "id": "tushuguan",
+          "english": "library",
+          "word": "图书馆",
+          "romanized": "túshū guǎn",
+          "grammarNote": "图书 (books/documents) + 馆 = library. 图书 is a formal word for books — more so than just 书."
+        },
+        {
+          "id": "bowuguan",
+          "english": "museum",
+          "word": "博物馆",
+          "romanized": "bówù guǎn",
+          "grammarNote": "博物 (broad knowledge of things) + 馆 = museum. 博 = broad/erudite, 物 = things/objects."
+        },
+        {
+          "id": "fanguan",
+          "english": "restaurant (informal)",
+          "word": "饭馆",
+          "romanized": "fàn guǎn",
+          "grammarNote": "饭 (cooked rice / food) + 馆 = restaurant. 饭馆 is informal; 餐厅 (cāntīng) is more formal. Both are common."
+        },
+        {
+          "id": "chang_suffix",
+          "english": "场 — field / ground / area",
+          "word": "场 (chǎng)",
+          "romanized": "chǎng",
+          "grammarNote": "场 = open ground or large functional area. 机场 (airport), 广场 (plaza), 停车场 (parking lot), 操场 (sports field/playground). 场 suggests an outdoor or large-scale space."
+        },
+        {
+          "id": "jichang",
+          "english": "airport",
+          "word": "机场",
+          "romanized": "jī chǎng",
+          "grammarNote": "机 (machine / plane, short for 飞机) + 场 (field) = airport. 飞机 = airplane; 机场 = airplane field."
+        },
+        {
+          "id": "guangchang",
+          "english": "plaza / public square",
+          "word": "广场",
+          "romanized": "guǎng chǎng",
+          "grammarNote": "广 (broad/wide) + 场 = broad open space = plaza or square."
+        },
+        {
+          "id": "yuan_suffix",
+          "english": "院 — courtyard / institution",
+          "word": "院 (yuàn)",
+          "romanized": "yuàn",
+          "grammarNote": "院 = institution, often formal or official. 医院 (hospital), 电影院 (cinema), 法院 (court), 学院 (college/academy). 院 carries a sense of an enclosed, organized institution."
+        },
+        {
+          "id": "yiyuan",
+          "english": "hospital",
+          "word": "医院",
+          "romanized": "yī yuàn",
+          "grammarNote": "医 (medicine / healing) + 院 (institution) = hospital. 医生 (doctor) shares the same 医 character."
+        },
+        {
+          "id": "dianyingyuan",
+          "english": "cinema / movie theater",
+          "word": "电影院",
+          "romanized": "diànyǐng yuàn",
+          "grammarNote": "电影 (movie) + 院 (hall/institution) = cinema. 电影 = electric shadow (a poetic original term for film)."
+        },
+        {
+          "id": "zhan_suffix",
+          "english": "站 — station / stop",
+          "word": "站 (zhàn)",
+          "romanized": "zhàn",
+          "grammarNote": "站 = a stopping/transit point. 火车站 (train station), 公交站 (bus stop), 地铁站 (subway station), 加油站 (gas station). If you need to catch transportation, look for 站."
+        },
+        {
+          "id": "huochezhan",
+          "english": "train station",
+          "word": "火车站",
+          "romanized": "huǒchē zhàn",
+          "grammarNote": "火车 (train, lit: fire vehicle) + 站 (station) = train station. 火 = fire, 车 = vehicle."
+        },
+        {
+          "id": "ditiezhan",
+          "english": "subway station",
+          "word": "地铁站",
+          "romanized": "dìtiě zhàn",
+          "grammarNote": "地铁 (subway, lit: underground iron) + 站 = subway station. 地 = ground/earth, 铁 = iron/metal."
+        },
+        {
+          "id": "pattern_quiz",
+          "english": "What kind of place is a 大学图书馆?",
+          "word": "university library",
+          "romanized": "dàxué túshū guǎn",
+          "grammarNote": "大学 (university) + 图书 (books) + 馆 (hall) = university library. Once you know these suffixes, you can decode unfamiliar place names by recognizing the suffix."
+        }
+      ],
+      "reading": "location_patterns"
+    },
+    {
+      "id": "grammar_cong_dao",
+      "name": "从...到... — From...To...",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "cd_intro_place",
+          "english": "How do I get from here to the subway station?",
+          "word": "从这里到地铁站怎么走？",
+          "romanized": "Cóng zhèlǐ dào dìtiě zhàn zěnme zǒu?",
+          "grammarNote": "从...到... = from...to... for both place and time. The whole phrase comes before the main verb. 从 marks the starting point; 到 marks the destination."
+        },
+        {
+          "id": "cd_beijing_shanghai",
+          "english": "From Beijing to Shanghai",
+          "word": "从北京到上海",
+          "romanized": "cóng Běijīng dào Shànghǎi"
+        },
+        {
+          "id": "cd_how_long",
+          "english": "How long does it take from Beijing to Shanghai?",
+          "word": "从北京到上海要多长时间？",
+          "romanized": "Cóng Běijīng dào Shànghǎi yào duō cháng shíjiān?"
+        },
+        {
+          "id": "cd_hotel_airport",
+          "english": "It's not far from the hotel to the airport.",
+          "word": "从酒店到机场不远。",
+          "romanized": "Cóng jiǔdiàn dào jīchǎng bù yuǎn."
+        },
+        {
+          "id": "cd_park_library",
+          "english": "It takes ten minutes to walk from the park to the library.",
+          "word": "从公园到图书馆走路要十分钟。",
+          "romanized": "Cóng gōngyuán dào túshūguǎn zǒulù yào shí fēnzhōng."
+        },
+        {
+          "id": "cd_morning_evening",
+          "english": "From morning to evening",
+          "word": "从早上到晚上",
+          "romanized": "cóng zǎoshang dào wǎnshang",
+          "grammarNote": "从...到... also expresses time spans. 从早上到晚上 = from morning to evening."
+        },
+        {
+          "id": "cd_monday_saturday",
+          "english": "He works from Monday to Saturday.",
+          "word": "他从星期一工作到星期六。",
+          "romanized": "Tā cóng xīngqīyī gōngzuò dào xīngqīliù."
+        },
+        {
+          "id": "cd_arrived",
+          "english": "We've arrived! / Here we are!",
+          "word": "到了！",
+          "romanized": "Dào le!",
+          "grammarNote": "到 alone as a verb means to arrive. 到了 = arrived (with change-of-state 了). Very common when arriving at a destination."
+        },
+        {
+          "id": "cd_have_you_arrived",
+          "english": "Have you arrived?",
+          "word": "你到了吗？",
+          "romanized": "Nǐ dào le ma?"
+        },
+        {
+          "id": "cd_walked_to_station",
+          "english": "I walked to the station.",
+          "word": "我走到车站了。",
+          "romanized": "Wǒ zǒu dào chēzhàn le."
+        },
+        {
+          "id": "cd_home_to_office",
+          "english": "How far is it from home to the office?",
+          "word": "从家到办公室有多远？",
+          "romanized": "Cóng jiā dào bàngōngshì yǒu duō yuǎn?"
+        },
+        {
+          "id": "cd_shop_open_hours",
+          "english": "The shop is open from nine to nine.",
+          "word": "商店从九点开到九点。",
+          "romanized": "Shāngdiàn cóng jiǔ diǎn kāi dào jiǔ diǎn."
+        }
+      ],
+      "reading": "cong_dao"
+    },
+    {
+      "id": "grammar_qu_lai",
+      "name": "去 & 来 — Go & Come",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "qu",
+          "english": "to go (away from speaker)",
+          "word": "去",
+          "romanized": "qù",
+          "grammarNote": "去 = movement away from the speaker's current position."
+        },
+        {
+          "id": "lai",
+          "english": "to come (toward speaker)",
+          "word": "来",
+          "romanized": "lái",
+          "grammarNote": "来 = movement toward the speaker."
+        },
+        {
+          "id": "going_school",
+          "english": "I am going to school.",
+          "word": "我去学校。",
+          "romanized": "Wǒ qù xuéxiào."
+        },
+        {
+          "id": "come_here",
+          "english": "Come here.",
+          "word": "过来。",
+          "romanized": "Guòlái."
+        },
+        {
+          "id": "where_going",
+          "english": "Where are you going?",
+          "word": "你去哪里？",
+          "romanized": "Nǐ qù nǎlǐ?"
+        },
+        {
+          "id": "going_market",
+          "english": "I'm going to the market.",
+          "word": "我去市场。",
+          "romanized": "Wǒ qù shìchǎng."
+        },
+        {
+          "id": "hes_coming",
+          "english": "He is coming.",
+          "word": "他来了。",
+          "romanized": "Tā lái le.",
+          "grammarNote": "了 marks that the action has begun or just happened."
+        },
+        {
+          "id": "are_you_coming",
+          "english": "Are you coming?",
+          "word": "你来吗？",
+          "romanized": "Nǐ lái ma?"
+        },
+        {
+          "id": "not_going",
+          "english": "I'm not going.",
+          "word": "我不去。",
+          "romanized": "Wǒ bú qù."
+        },
+        {
+          "id": "come_in",
+          "english": "Please come in.",
+          "word": "请进来。",
+          "romanized": "Qǐng jìnlái."
+        },
+        {
+          "id": "went_hosp",
+          "english": "She went to the hospital.",
+          "word": "她去医院了。",
+          "romanized": "Tā qù yīyuàn le."
+        },
+        {
+          "id": "going_rest",
+          "english": "We're going to the restaurant.",
+          "word": "我们去餐厅。",
+          "romanized": "Wǒmen qù cāntīng."
+        },
+        {
+          "id": "from_beijing",
+          "english": "He came from Beijing.",
+          "word": "他从北京来。",
+          "romanized": "Tā cóng Běijīng lái."
+        },
+        {
+          "id": "go_tomorrow",
+          "english": "I'll go tomorrow.",
+          "word": "我明天去。",
+          "romanized": "Wǒ míngtiān qù."
+        },
+        {
+          "id": "lets_go",
+          "english": "Let's go!",
+          "word": "我们走吧！",
+          "romanized": "Wǒmen zǒu ba!"
+        }
+      ],
+      "reading": "qu_lai"
+    },
+    {
+      "id": "grammar_zai",
+      "name": "在 — Location",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "zai",
+          "english": "at",
+          "word": "在",
+          "romanized": "zài",
+          "grammarNote": "在 is used to express where someone or something is."
+        },
+        {
+          "id": "zai_nar",
+          "english": "Where is...?",
+          "word": "...在哪里？",
+          "romanized": "...zài nǎlǐ?"
+        },
+        {
+          "id": "im_home",
+          "english": "I am at home.",
+          "word": "我在家。",
+          "romanized": "Wǒ zài jiā."
+        },
+        {
+          "id": "at_school",
+          "english": "He is at school.",
+          "word": "他在学校。",
+          "romanized": "Tā zài xuéxiào."
+        },
+        {
+          "id": "where_are_you",
+          "english": "Where are you?",
+          "word": "你在哪里？",
+          "romanized": "Nǐ zài nǎlǐ?"
+        },
+        {
+          "id": "at_work",
+          "english": "I am at work.",
+          "word": "我在工作。",
+          "romanized": "Wǒ zài gōngzuò.",
+          "grammarNote": "在 + verb = currently doing something (progressive action)."
+        },
+        {
+          "id": "hosp_here",
+          "english": "The hospital is here.",
+          "word": "医院在这里。",
+          "romanized": "Yīyuàn zài zhèlǐ."
+        },
+        {
+          "id": "in_beijing",
+          "english": "He is in Beijing.",
+          "word": "他在北京。",
+          "romanized": "Tā zài Běijīng."
+        },
+        {
+          "id": "rest_there",
+          "english": "The restaurant is there.",
+          "word": "餐厅在那里。",
+          "romanized": "Cāntīng zài nàlǐ."
+        },
+        {
+          "id": "in_office",
+          "english": "I am in the office.",
+          "word": "我在办公室。",
+          "romanized": "Wǒ zài bàngōngshì."
+        },
+        {
+          "id": "at_market",
+          "english": "Are you at the market?",
+          "word": "你在市场吗？",
+          "romanized": "Nǐ zài shìchǎng ma?"
+        },
+        {
+          "id": "not_home",
+          "english": "She is not at home.",
+          "word": "她不在家。",
+          "romanized": "Tā bú zài jiā."
+        },
+        {
+          "id": "where_bank",
+          "english": "Where is the bank?",
+          "word": "银行在哪里？",
+          "romanized": "Yínháng zài nǎlǐ?"
+        },
+        {
+          "id": "eating_now",
+          "english": "I am eating right now.",
+          "word": "我在吃饭。",
+          "romanized": "Wǒ zài chī fàn.",
+          "grammarNote": "在 before a verb shows the action is happening right now."
+        },
+        {
+          "id": "on_left",
+          "english": "The store is on the left.",
+          "word": "商店在左边。",
+          "romanized": "Shāngdiàn zài zuǒbiān."
+        },
+        {
+          "id": "at_home_now",
+          "english": "Are you home now?",
+          "word": "你现在在家吗？",
+          "romanized": "Nǐ xiànzài zài jiā ma?"
+        }
+      ],
+      "reading": "zai"
+    },
+    {
+      "id": "grammar_frequency_expressions",
+      "name": "Frequency Expressions — 常常, 有时候, 从来不",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "freq_always",
+          "english": "always",
+          "word": "总是",
+          "romanized": "zǒngshì",
+          "grammarNote": "Frequency adverbs go before the verb in Chinese, usually after the subject. They cannot go after the verb the way some English adverbs can."
+        },
+        {
+          "id": "freq_often",
+          "english": "often / frequently",
+          "word": "常常 / 经常",
+          "romanized": "chángcháng / jīngcháng"
+        },
+        {
+          "id": "freq_sometimes",
+          "english": "sometimes",
+          "word": "有时候",
+          "romanized": "yǒu shíhou"
+        },
+        {
+          "id": "freq_occasionally",
+          "english": "occasionally / once in a while",
+          "word": "偶尔",
+          "romanized": "ǒu'ěr"
+        },
+        {
+          "id": "freq_never",
+          "english": "never (habitual)",
+          "word": "从来不",
+          "romanized": "cónglái bù",
+          "grammarNote": "从来不 = have never / never do (habitual). 从来没有 = have never done (completed). Both go before the verb."
+        },
+        {
+          "id": "freq_every_day",
+          "english": "I practice Chinese every day.",
+          "word": "我每天练习中文。",
+          "romanized": "Wǒ měitiān liànxí zhōngwén."
+        },
+        {
+          "id": "freq_often_overtime",
+          "english": "She often works overtime.",
+          "word": "她经常加班。",
+          "romanized": "Tā jīngcháng jiābān."
+        },
+        {
+          "id": "freq_sometimes_paint",
+          "english": "I sometimes paint.",
+          "word": "我有时候画画。",
+          "romanized": "Wǒ yǒu shíhou huàhuà."
+        },
+        {
+          "id": "freq_occasionally_run",
+          "english": "He occasionally goes running.",
+          "word": "他偶尔去跑步。",
+          "romanized": "Tā ǒu'ěr qù pǎobù."
+        },
+        {
+          "id": "freq_never_late",
+          "english": "I never arrive late.",
+          "word": "我从来不迟到。",
+          "romanized": "Wǒ cónglái bù chídào."
+        },
+        {
+          "id": "freq_three_times",
+          "english": "I exercise three times a week.",
+          "word": "我每周运动三次。",
+          "romanized": "Wǒ měi zhōu yùndòng sān cì.",
+          "grammarNote": "Use 次 (cì) after a number to count how many times. Place the frequency phrase (number + 次) after the verb."
+        },
+        {
+          "id": "freq_quick_look",
+          "english": "Could you take a quick look for me?",
+          "word": "你能帮我看一下吗？",
+          "romanized": "Nǐ néng bāng wǒ kàn yīxià ma?",
+          "grammarNote": "V + 一下 (yīxià) = do briefly / casually, or softens a request. 一下 makes the action sound lighter and less demanding."
+        }
+      ],
+      "reading": "frequency_expressions"
+    },
+    {
+      "id": "grammar_job_patterns",
+      "name": "Job Title Patterns — 师员家生人",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "patterns_intro",
+          "english": "job title patterns",
+          "word": "职业规律",
+          "romanized": "zhíyè guīlǜ",
+          "grammarNote": "Chinese job titles are built from a small set of suffixes that signal what kind of role a person has. 老师, 工程师, 厨师 all end in 师. Once you recognize these suffixes, you can guess what an unfamiliar job title means."
+        },
+        {
+          "id": "shi_suffix",
+          "english": "师 — skilled practitioner / master",
+          "word": "师 (shī)",
+          "romanized": "shī",
+          "grammarNote": "师 = a skilled, often trained professional. Implies mastery of a craft or discipline. 老师 (teacher), 工程师 (engineer), 厨师 (chef), 律师 (lawyer), 医师 (physician), 设计师 (designer). If the job requires serious skill or training, it often takes 师."
+        },
+        {
+          "id": "laoshi",
+          "english": "teacher",
+          "word": "老师",
+          "romanized": "lǎoshī",
+          "grammarNote": "老 (old/respected) + 师 (master) = teacher. 老 here is a respectful prefix, not about age. 老师 is also used as a direct address: 'Hello, teacher' = 老师好."
+        },
+        {
+          "id": "gongchengshi",
+          "english": "engineer",
+          "word": "工程师",
+          "romanized": "gōngchéng shī",
+          "grammarNote": "工程 (engineering/project) + 师 (skilled professional) = engineer. 工 = work, 程 = process/procedure."
+        },
+        {
+          "id": "chushi",
+          "english": "chef",
+          "word": "厨师",
+          "romanized": "chú shī",
+          "grammarNote": "厨 (kitchen) + 师 (skilled practitioner) = chef. 厨房 = kitchen (kitchen + room). 厨师 is specifically a professional cook."
+        },
+        {
+          "id": "lvshi",
+          "english": "lawyer",
+          "word": "律师",
+          "romanized": "lǜ shī",
+          "grammarNote": "律 (law / rule) + 师 = lawyer. 律法 = law/legal code."
+        },
+        {
+          "id": "yuan_suffix",
+          "english": "员 — staff member / person in a role",
+          "word": "员 (yuán)",
+          "romanized": "yuán",
+          "grammarNote": "员 = a person who fills a defined functional role, often in a service or organizational context. 服务员 (waiter/service staff), 演员 (actor), 售货员 (sales clerk), 运动员 (athlete), 营业员 (clerk). 员 implies a role within a system, not necessarily a specialized craft."
+        },
+        {
+          "id": "fuwuyuan",
+          "english": "waiter / service staff",
+          "word": "服务员",
+          "romanized": "fúwù yuán",
+          "grammarNote": "服务 (service) + 员 (person in role) = service person / waiter. 服务员！ is how you call a waiter in a restaurant — completely normal and not rude."
+        },
+        {
+          "id": "yanyuan",
+          "english": "actor / performer",
+          "word": "演员",
+          "romanized": "yǎn yuán",
+          "grammarNote": "演 (to perform/act) + 员 = actor/performer. 演 also appears in 演讲 (speech/lecture) and 演出 (performance/show)."
+        },
+        {
+          "id": "yundongyuan",
+          "english": "athlete",
+          "word": "运动员",
+          "romanized": "yùndòng yuán",
+          "grammarNote": "运动 (sports / exercise) + 员 = athlete. 运动 also means 'to exercise': 我喜欢运动 = I like sports."
+        },
+        {
+          "id": "jia_suffix",
+          "english": "家 — expert / master in a field",
+          "word": "家 (jiā)",
+          "romanized": "jiā",
+          "grammarNote": "家 = an authority or creative master in a field. Often used for intellectual, artistic, or scholarly domains. 音乐家 (musician), 艺术家 (artist), 科学家 (scientist), 作家 (writer), 画家 (painter). 家 implies depth of expertise, not just a job role."
+        },
+        {
+          "id": "yinyuejia",
+          "english": "musician",
+          "word": "音乐家",
+          "romanized": "yīnyuè jiā",
+          "grammarNote": "音乐 (music) + 家 (master/expert) = musician (in the serious, artistic sense). 音 = sound, 乐 = music/joy."
+        },
+        {
+          "id": "yishujia",
+          "english": "artist",
+          "word": "艺术家",
+          "romanized": "yìshù jiā",
+          "grammarNote": "艺术 (art) + 家 = artist. 艺 = skill/art, 术 = technique/method."
+        },
+        {
+          "id": "zuojia",
+          "english": "writer / author",
+          "word": "作家",
+          "romanized": "zuò jiā",
+          "grammarNote": "作 (to write/make/do) + 家 = writer/author. 作家 specifically refers to literary or creative writers, not journalists (记者) or copywriters."
+        },
+        {
+          "id": "sheng_suffix",
+          "english": "生 — person in a learning or medical role",
+          "word": "生 (shēng)",
+          "romanized": "shēng",
+          "grammarNote": "生 = a person who is learning or practicing (especially medicine or study). 学生 (student), 医生 (doctor), 研究生 (graduate student), 实习生 (intern). 生 implies someone developing or applying knowledge — either as a learner or a practitioner."
+        },
+        {
+          "id": "yisheng",
+          "english": "doctor / physician",
+          "word": "医生",
+          "romanized": "yī shēng",
+          "grammarNote": "医 (medicine/healing) + 生 (practitioner) = doctor. 医院 (hospital) shares the same 医. 大夫 (dàifu) is an alternative informal word for doctor."
+        },
+        {
+          "id": "xuesheng",
+          "english": "student",
+          "word": "学生",
+          "romanized": "xué shēng",
+          "grammarNote": "学 (to learn/study) + 生 (person) = student. 学习 = to study (学 + 习 = learn + practice)."
+        },
+        {
+          "id": "ren_suffix",
+          "english": "人 — person (nationality / identity / type)",
+          "word": "人 (rén)",
+          "romanized": "rén",
+          "grammarNote": "人 = person. Used to form nationalities and broad categories: 中国人 (Chinese person), 美国人 (American), 商人 (businessman), 工人 (worker), 本地人 (local person). 人 is the most general people-suffix — less about skill, more about identity or category."
+        },
+        {
+          "id": "shangren",
+          "english": "businessman / merchant",
+          "word": "商人",
+          "romanized": "shāng rén",
+          "grammarNote": "商 (commerce/trade) + 人 = businessman. 商业 = business/commerce, 商店 = store/shop (商 + 店!)."
+        },
+        {
+          "id": "suffix_comparison",
+          "english": "What's the difference: 音乐师, 音乐员, 音乐家?",
+          "word": "师 = trained professional, 员 = role-filler, 家 = creative master",
+          "grammarNote": "音乐师 = music teacher/instructor (trained skill). 音乐员 = a musician in an ensemble/band (role). 音乐家 = a musician of high artistic standing (master). The suffix shifts the nuance: skill → role → mastery."
+        }
+      ],
+      "reading": "job_patterns"
+    },
+    {
+      "id": "grammar_hui_neng",
+      "name": "会、能、可以 — Can",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "hui",
+          "english": "can (learned skill)",
+          "word": "会",
+          "romanized": "huì",
+          "grammarNote": "会 = a skill you have learned, like speaking a language or driving."
+        },
+        {
+          "id": "neng",
+          "english": "can (circumstantial)",
+          "word": "能",
+          "romanized": "néng",
+          "grammarNote": "能 = physically able to, or circumstances allow it."
+        },
+        {
+          "id": "keyi",
+          "english": "can",
+          "word": "可以",
+          "romanized": "kěyǐ",
+          "grammarNote": "可以 = it is allowed / permissible."
+        },
+        {
+          "id": "speak_chinese",
+          "english": "I can speak Chinese.",
+          "word": "我会说中文。",
+          "romanized": "Wǒ huì shuō zhōngwén."
+        },
+        {
+          "id": "can_drive",
+          "english": "Can you drive?",
+          "word": "你会开车吗？",
+          "romanized": "Nǐ huì kāi chē ma?"
+        },
+        {
+          "id": "cant_come",
+          "english": "I can't come today.",
+          "word": "我今天不能来。",
+          "romanized": "Wǒ jīntiān bù néng lái.",
+          "grammarNote": "能 is used because circumstances (schedule) prevent it."
+        },
+        {
+          "id": "sit_here",
+          "english": "Can I sit here?",
+          "word": "我可以坐这里吗？",
+          "romanized": "Wǒ kěyǐ zuò zhèlǐ ma?",
+          "grammarNote": "可以 = asking for permission."
+        },
+        {
+          "id": "can_cook",
+          "english": "He can cook.",
+          "word": "他会做饭。",
+          "romanized": "Tā huì zuò fàn."
+        },
+        {
+          "id": "cant_swim",
+          "english": "I can't swim.",
+          "word": "我不会游泳。",
+          "romanized": "Wǒ bú huì yóuyǒng."
+        },
+        {
+          "id": "you_can_go",
+          "english": "You can go now.",
+          "word": "你可以走了。",
+          "romanized": "Nǐ kěyǐ zǒu le."
+        },
+        {
+          "id": "can_we_start",
+          "english": "Can we start?",
+          "word": "我们可以开始吗？",
+          "romanized": "Wǒmen kěyǐ kāishǐ ma?"
+        },
+        {
+          "id": "can_help",
+          "english": "I am able to help.",
+          "word": "我能帮忙。",
+          "romanized": "Wǒ néng bāngmáng."
+        },
+        {
+          "id": "three_langs",
+          "english": "She can speak three languages.",
+          "word": "她会说三种语言。",
+          "romanized": "Tā huì shuō sān zhǒng yǔyán."
+        },
+        {
+          "id": "too_busy",
+          "english": "I can't go — I'm busy.",
+          "word": "我不能去，我很忙。",
+          "romanized": "Wǒ bù néng qù, wǒ hěn máng."
+        },
+        {
+          "id": "ask_question",
+          "english": "Can I ask a question?",
+          "word": "我可以问一个问题吗？",
+          "romanized": "Wǒ kěyǐ wèn yí gè wèntí ma?"
+        },
+        {
+          "id": "cant_today",
+          "english": "I can't today.",
+          "word": "我今天不行。",
+          "romanized": "Wǒ jīntiān bù xíng.",
+          "grammarNote": "不行 (bù xíng) = won't work / can't — a common informal way to say no."
+        },
+        {
+          "id": "neng_2",
+          "english": "can (physically able)",
+          "word": "能",
+          "romanized": "néng",
+          "grammarNote": "能 (néng) = physically able to, or permitted by circumstances. Used when a condition makes it possible."
+        },
+        {
+          "id": "keyi_2",
+          "english": "may / can (permission)",
+          "word": "可以",
+          "romanized": "kěyǐ",
+          "grammarNote": "可以 (kěyǐ) = permitted to / allowed to. Used to seek or grant permission."
+        },
+        {
+          "id": "wo_neng_zou",
+          "english": "Can I walk (am I able to)?",
+          "word": "我能走了吗？",
+          "romanized": "Wǒ néng zǒu le ma?"
+        },
+        {
+          "id": "keyi_xiuxi",
+          "english": "Can I rest?",
+          "word": "我可以休息吗？",
+          "romanized": "Wǒ kěyǐ xiūxi ma?"
+        },
+        {
+          "id": "wo_bu_neng_dong",
+          "english": "I can't move.",
+          "word": "我不能动。",
+          "romanized": "Wǒ bù néng dòng."
+        },
+        {
+          "id": "ni_keyi_xiuxi",
+          "english": "You can rest now.",
+          "word": "你可以休息了。",
+          "romanized": "Nǐ kěyǐ xiūxi le."
+        },
+        {
+          "id": "bu_neng_chi",
+          "english": "I can't eat this.",
+          "word": "我不能吃这个。",
+          "romanized": "Wǒ bù néng chī zhège."
+        },
+        {
+          "id": "keyi_he_shui",
+          "english": "Can I drink water?",
+          "word": "我可以喝水吗？",
+          "romanized": "Wǒ kěyǐ hē shuǐ ma?"
+        },
+        {
+          "id": "man_man_zou",
+          "english": "Walk slowly.",
+          "word": "慢慢走。",
+          "romanized": "Màn màn zǒu."
+        },
+        {
+          "id": "neng_hao_ma",
+          "english": "Will you get better?",
+          "word": "能好吗？",
+          "romanized": "Néng hǎo ma?"
+        }
+      ],
+      "reading": "hui_neng"
+    },
+    {
+      "id": "grammar_xihuan",
+      "name": "喜欢 — To Like",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "xihuan",
+          "english": "to like",
+          "word": "喜欢",
+          "romanized": "xǐhuān",
+          "grammarNote": "喜欢 can be followed by a noun or a verb."
+        },
+        {
+          "id": "i_like",
+          "english": "I like...",
+          "word": "我喜欢...",
+          "romanized": "Wǒ xǐhuān..."
+        },
+        {
+          "id": "like_music",
+          "english": "I like music.",
+          "word": "我喜欢音乐。",
+          "romanized": "Wǒ xǐhuān yīnyuè."
+        },
+        {
+          "id": "like_reading",
+          "english": "I like reading.",
+          "word": "我喜欢看书。",
+          "romanized": "Wǒ xǐhuān kàn shū."
+        },
+        {
+          "id": "like_chinese_food",
+          "english": "Do you like Chinese food?",
+          "word": "你喜欢中国菜吗？",
+          "romanized": "Nǐ xǐhuān zhōngguó cài ma?"
+        },
+        {
+          "id": "dont_like",
+          "english": "I don't like it.",
+          "word": "我不喜欢。",
+          "romanized": "Wǒ bù xǐhuān."
+        },
+        {
+          "id": "what_like",
+          "english": "What do you like to do?",
+          "word": "你喜欢做什么？",
+          "romanized": "Nǐ xǐhuān zuò shénme?"
+        },
+        {
+          "id": "like_job",
+          "english": "I like my job.",
+          "word": "我喜欢我的工作。",
+          "romanized": "Wǒ xǐhuān wǒ de gōngzuò."
+        },
+        {
+          "id": "she_exercise",
+          "english": "She likes to exercise.",
+          "word": "她喜欢运动。",
+          "romanized": "Tā xǐhuān yùndòng."
+        },
+        {
+          "id": "really_like",
+          "english": "I really like it.",
+          "word": "我很喜欢。",
+          "romanized": "Wǒ hěn xǐhuān."
+        },
+        {
+          "id": "like_both",
+          "english": "I like both.",
+          "word": "我都喜欢。",
+          "romanized": "Wǒ dōu xǐhuān.",
+          "grammarNote": "都 (dōu) = both / all."
+        },
+        {
+          "id": "like_swim",
+          "english": "I like swimming.",
+          "word": "我喜欢游泳。",
+          "romanized": "Wǒ xǐhuān yóuyǒng."
+        },
+        {
+          "id": "like_this",
+          "english": "Do you like this?",
+          "word": "你喜欢这个吗？",
+          "romanized": "Nǐ xǐhuān zhège ma?"
+        },
+        {
+          "id": "dont_like_overtime",
+          "english": "He doesn't like working overtime.",
+          "word": "他不喜欢加班。",
+          "romanized": "Tā bù xǐhuān jiābān."
+        },
+        {
+          "id": "like_more",
+          "english": "I like it more and more.",
+          "word": "我越来越喜欢。",
+          "romanized": "Wǒ yuè lái yuè xǐhuān.",
+          "grammarNote": "越来越 = more and more."
+        },
+        {
+          "id": "ni_xihuan_ma",
+          "english": "Do you like it?",
+          "word": "你喜欢吗？",
+          "romanized": "Nǐ xǐhuān ma?"
+        },
+        {
+          "id": "wo_xihuan_kaixin",
+          "english": "I like being happy.",
+          "word": "我喜欢开心的感觉。",
+          "romanized": "Wǒ xǐhuān kāixīn de gǎnjué."
+        },
+        {
+          "id": "bu_xihuan",
+          "english": "I don't like",
+          "word": "我不喜欢",
+          "romanized": "Wǒ bù xǐhuān"
+        },
+        {
+          "id": "xihuan_pengyou",
+          "english": "I like spending time with friends.",
+          "word": "我喜欢和朋友在一起。",
+          "romanized": "Wǒ xǐhuān hé péngyou zài yīqǐ."
+        },
+        {
+          "id": "ta_xihuan_yinyue",
+          "english": "She likes music.",
+          "word": "她喜欢音乐。",
+          "romanized": "Tā xǐhuān yīnyuè."
+        },
+        {
+          "id": "ni_xihuan_shenme",
+          "english": "What do you like?",
+          "word": "你喜欢什么？",
+          "romanized": "Nǐ xǐhuān shénme?"
+        },
+        {
+          "id": "xihuan_anjing",
+          "english": "I like calm / quiet.",
+          "word": "我喜欢安静。",
+          "romanized": "Wǒ xǐhuān ānjìng."
+        },
+        {
+          "id": "xihuan_xiao",
+          "english": "I like laughing.",
+          "word": "我喜欢笑。",
+          "romanized": "Wǒ xǐhuān xiào."
+        },
+        {
+          "id": "xihuan_he_pengyou",
+          "english": "I like chatting with friends.",
+          "word": "我喜欢和朋友聊天。",
+          "romanized": "Wǒ xǐhuān hé péngyou liáotiān."
+        }
+      ],
+      "reading": "xihuan"
+    },
+    {
+      "id": "grammar_zhengzai_progressive",
+      "name": "正在 — Progressive Aspect",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "zz_working",
+          "english": "I am working right now.",
+          "word": "我正在工作。",
+          "romanized": "Wǒ zhèngzài gōngzuò.",
+          "grammarNote": "正在 + verb = currently doing (right now). 正 adds emphasis on the 'right now' aspect. 正在 can also appear as just 在 for a lighter form."
+        },
+        {
+          "id": "zz_working_ne",
+          "english": "I'm working right now. (with 呢 for emphasis)",
+          "word": "我正在工作呢。",
+          "romanized": "Wǒ zhèngzài gōngzuò ne."
+        },
+        {
+          "id": "zz_in_meeting",
+          "english": "He is in a meeting.",
+          "word": "他在开会。",
+          "romanized": "Tā zài kāihuì.",
+          "grammarNote": "在 alone (without 正) is also a valid progressive marker. 在 + verb = currently doing. Slightly less emphatic than 正在."
+        },
+        {
+          "id": "zz_sleeping_ne",
+          "english": "He's sleeping. (implied: don't disturb)",
+          "word": "他睡觉呢。",
+          "romanized": "Tā shuìjiào ne.",
+          "grammarNote": "呢 alone at the end of a sentence can signal an ongoing action, often implying the situation is still going on or asking the listener not to interrupt."
+        },
+        {
+          "id": "zz_studying",
+          "english": "She's studying right now.",
+          "word": "她正在学习呢。",
+          "romanized": "Tā zhèngzài xuéxí ne."
+        },
+        {
+          "id": "zz_practicing",
+          "english": "They are practicing singing.",
+          "word": "他们在练习唱歌。",
+          "romanized": "Tāmen zài liànxí chànggē."
+        },
+        {
+          "id": "zz_writing",
+          "english": "I'm writing right now.",
+          "word": "我正在写作。",
+          "romanized": "Wǒ zhèngzài xiězuò."
+        },
+        {
+          "id": "zz_painting",
+          "english": "She's painting.",
+          "word": "她在画画呢。",
+          "romanized": "Tā zài huàhuà ne."
+        },
+        {
+          "id": "zz_neg_working",
+          "english": "He's not working right now.",
+          "word": "他没有在工作。",
+          "romanized": "Tā méiyǒu zài gōngzuò.",
+          "grammarNote": "Negation: 没有在 or 没在 before the verb. Never use 不在 for this meaning — 不在 means 'not at a place.'"
+        },
+        {
+          "id": "zz_neg_sleeping",
+          "english": "I'm not sleeping.",
+          "word": "我没在睡觉。",
+          "romanized": "Wǒ méi zài shuìjiào."
+        },
+        {
+          "id": "zz_neg_meeting",
+          "english": "They aren't in a meeting.",
+          "word": "他们没有在开会。",
+          "romanized": "Tāmen méiyǒu zài kāihuì."
+        },
+        {
+          "id": "zz_exercising",
+          "english": "She is exercising right now.",
+          "word": "她正在运动。",
+          "romanized": "Tā zhèngzài yùndòng."
+        }
+      ],
+      "reading": "zhengzai_progressive"
+    },
+    {
+      "id": "grammar_bu_negation",
+      "name": "不 & 没 — Negation",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "bu",
+          "english": "not (verbs & adjectives)",
+          "word": "不",
+          "romanized": "bù",
+          "grammarNote": "不 negates verbs and adjectives. Tone changes to bú before a 4th-tone syllable."
+        },
+        {
+          "id": "mei",
+          "english": "not (for 有 & completed actions)",
+          "word": "没",
+          "romanized": "méi",
+          "grammarNote": "Use 没/没有 to negate 有 or to say something did not happen."
+        },
+        {
+          "id": "not_going",
+          "english": "I am not going.",
+          "word": "我不去。",
+          "romanized": "Wǒ bú qù."
+        },
+        {
+          "id": "dont_like",
+          "english": "I don't like it.",
+          "word": "我不喜欢。",
+          "romanized": "Wǒ bù xǐhuān."
+        },
+        {
+          "id": "not_happy",
+          "english": "I am not happy.",
+          "word": "我不高兴。",
+          "romanized": "Wǒ bù gāoxìng."
+        },
+        {
+          "id": "no_money",
+          "english": "I don't have money.",
+          "word": "我没有钱。",
+          "romanized": "Wǒ méiyǒu qián.",
+          "grammarNote": "Always use 没有 to negate 有."
+        },
+        {
+          "id": "didnt_eat",
+          "english": "He didn't eat.",
+          "word": "他没吃。",
+          "romanized": "Tā méi chī.",
+          "grammarNote": "没 negates a past action — something that didn't happen."
+        },
+        {
+          "id": "dont_understand",
+          "english": "I don't understand.",
+          "word": "我不明白。",
+          "romanized": "Wǒ bù míngbai."
+        },
+        {
+          "id": "not_good",
+          "english": "This is not good.",
+          "word": "这不好。",
+          "romanized": "Zhè bù hǎo."
+        },
+        {
+          "id": "never_been",
+          "english": "I haven't been there.",
+          "word": "我没去过。",
+          "romanized": "Wǒ méi qùguò.",
+          "grammarNote": "过 marks experience; 没 negates it."
+        },
+        {
+          "id": "no_english",
+          "english": "She doesn't speak English.",
+          "word": "她不说英语。",
+          "romanized": "Tā bù shuō yīngyǔ."
+        },
+        {
+          "id": "didnt_see",
+          "english": "I didn't see it.",
+          "word": "我没看见。",
+          "romanized": "Wǒ méi kànjiàn."
+        },
+        {
+          "id": "not_bad",
+          "english": "Not bad!",
+          "word": "不错！",
+          "romanized": "Bú cuò!",
+          "grammarNote": "不错 literally 'not wrong' — means pretty good."
+        },
+        {
+          "id": "dont_go",
+          "english": "Don't go!",
+          "word": "不要走！",
+          "romanized": "Bú yào zǒu!"
+        },
+        {
+          "id": "not_tired",
+          "english": "I'm not tired.",
+          "word": "我不累。",
+          "romanized": "Wǒ bú lèi."
+        },
+        {
+          "id": "bu_vs_mei",
+          "english": "I didn't go. (past)",
+          "word": "我没去。",
+          "romanized": "Wǒ méi qù.",
+          "grammarNote": "没 = didn't (past). 不 = won't / don't (present/future intention)."
+        },
+        {
+          "id": "bu_2",
+          "english": "not (general negation)",
+          "word": "不",
+          "romanized": "bù",
+          "grammarNote": "不 (bù) negates most verbs and adjectives. Changes to bú before 4th-tone syllables."
+        },
+        {
+          "id": "mei_2",
+          "english": "not (negating 有 or past actions)",
+          "word": "没",
+          "romanized": "méi",
+          "grammarNote": "没 is short for 没有. Use it to negate 有 or to say an action hasn't happened yet."
+        },
+        {
+          "id": "bu_shufu",
+          "english": "not feeling well / uncomfortable",
+          "word": "不舒服",
+          "romanized": "bù shūfú"
+        },
+        {
+          "id": "wo_bu_shufu",
+          "english": "I'm not feeling well.",
+          "word": "我不舒服。",
+          "romanized": "Wǒ bù shūfú."
+        },
+        {
+          "id": "bu_teng",
+          "english": "doesn't hurt",
+          "word": "不疼",
+          "romanized": "bù téng"
+        },
+        {
+          "id": "bu_hao",
+          "english": "not good / not well",
+          "word": "不好",
+          "romanized": "bù hǎo"
+        },
+        {
+          "id": "mei_shui_jiao",
+          "english": "I didn't sleep.",
+          "word": "我没睡觉。",
+          "romanized": "Wǒ méi shuìjiào."
+        },
+        {
+          "id": "bu_neng",
+          "english": "cannot",
+          "word": "不能",
+          "romanized": "bù néng"
+        },
+        {
+          "id": "bu_tai_hao",
+          "english": "not very good / not great",
+          "word": "不太好",
+          "romanized": "bù tài hǎo"
+        },
+        {
+          "id": "wo_mei_chi_fan",
+          "english": "I haven't eaten.",
+          "word": "我没吃饭。",
+          "romanized": "Wǒ méi chī fàn."
+        },
+        {
+          "id": "mei_wenti",
+          "english": "no problem",
+          "word": "没问题",
+          "romanized": "méi wèntí"
+        },
+        {
+          "id": "bu_yao_jin",
+          "english": "It doesn't matter / Don't worry.",
+          "word": "不要紧。",
+          "romanized": "Bú yào jǐn."
+        }
+      ],
+      "reading": "bu_negation"
+    },
+    {
+      "id": "grammar_yinwei_suoyi",
+      "name": "因为...所以... — Because...So...",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "ys_intro",
+          "english": "Because I'm very tired, I'm irritable.",
+          "word": "因为很累，所以我很烦躁。",
+          "romanized": "Yīnwèi hěn lèi, suǒyǐ wǒ hěn fánzào.",
+          "grammarNote": "In Chinese, 因为 and 所以 are usually used together: because...therefore... This differs from English, where you pick one (because OR so, not both)."
+        },
+        {
+          "id": "ys_he_was_late",
+          "english": "Because he was late, everyone was angry.",
+          "word": "因为他迟到了，所以大家都很生气。",
+          "romanized": "Yīnwèi tā chídào le, suǒyǐ dàjiā dōu hěn shēngqì."
+        },
+        {
+          "id": "ys_nice_weather",
+          "english": "Because the weather is nice, I'm happy.",
+          "word": "因为天气很好，所以我很开心。",
+          "romanized": "Yīnwèi tiānqì hěn hǎo, suǒyǐ wǒ hěn kāixīn."
+        },
+        {
+          "id": "ys_stressed_anxious",
+          "english": "Because there's too much work, I'm anxious.",
+          "word": "因为工作太多，所以我很焦虑。",
+          "romanized": "Yīnwèi gōngzuò tài duō, suǒyǐ wǒ hěn jiāolǜ."
+        },
+        {
+          "id": "ys_yinwei_alone",
+          "english": "Because it rained, we cancelled our plans.",
+          "word": "因为下雨，我们取消了计划。",
+          "romanized": "Yīnwèi xià yǔ, wǒmen qǔxiāo le jìhuà.",
+          "grammarNote": "因为 can appear alone (without 所以) when giving a reason, especially answering a 为什么 question."
+        },
+        {
+          "id": "ys_sad_cried",
+          "english": "Because she was very sad, she cried.",
+          "word": "因为她很难过，她哭了。",
+          "romanized": "Yīnwèi tā hěn nánguò, tā kū le."
+        },
+        {
+          "id": "ys_suoyi_alone",
+          "english": "He was late, so I was angry.",
+          "word": "他迟到了，所以我很生气。",
+          "romanized": "Tā chídào le, suǒyǐ wǒ hěn shēngqì.",
+          "grammarNote": "所以 can appear alone when the cause is already known or has been stated. It introduces the result/consequence."
+        },
+        {
+          "id": "ys_bad_sleep",
+          "english": "I didn't sleep well, so I'm very tired today.",
+          "word": "我没睡好，所以今天很累。",
+          "romanized": "Wǒ méi shuì hǎo, suǒyǐ jīntiān hěn lèi."
+        },
+        {
+          "id": "ys_upset_cried",
+          "english": "She was very upset, so she cried.",
+          "word": "她很难过，所以哭了。",
+          "romanized": "Tā hěn nánguò, suǒyǐ kū le."
+        },
+        {
+          "id": "ys_excited",
+          "english": "Because the news was good, everyone was excited.",
+          "word": "因为消息很好，所以大家都很兴奋。",
+          "romanized": "Yīnwèi xiāoxi hěn hǎo, suǒyǐ dàjiā dōu hěn xīngfèn."
+        },
+        {
+          "id": "ys_worried",
+          "english": "Because I haven't heard from him, I'm worried.",
+          "word": "因为没有他的消息，所以我很担心。",
+          "romanized": "Yīnwèi méiyǒu tā de xiāoxi, suǒyǐ wǒ hěn dānxīn."
+        },
+        {
+          "id": "ys_relieved",
+          "english": "Because it went well, I feel relieved.",
+          "word": "因为进行顺利，所以我感到宽慰。",
+          "romanized": "Yīnwèi jìnxíng shùnlì, suǒyǐ wǒ gǎndào kuānwèi."
+        }
+      ],
+      "reading": "yinwei_suoyi"
+    },
+    {
+      "id": "grammar_suiran_danshi",
+      "name": "虽然...但是... — Although...But...",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "sd_intro",
+          "english": "Although it's difficult, I'm happy.",
+          "word": "虽然很难，但是我很开心。",
+          "romanized": "Suīrán hěn nán, dànshì wǒ hěn kāixīn.",
+          "grammarNote": "虽然...但是... = although...but... Both halves are typically used together in Chinese, unlike English where you choose one. This is a concession pattern."
+        },
+        {
+          "id": "sd_tired_satisfied",
+          "english": "Although tired, I feel very satisfied.",
+          "word": "虽然累，但是很满足。",
+          "romanized": "Suīrán lèi, dànshì hěn mǎnzú."
+        },
+        {
+          "id": "sd_busy_helps",
+          "english": "Although he's very busy, he always helps others.",
+          "word": "虽然他很忙，但是他总是帮助别人。",
+          "romanized": "Suīrán tā hěn máng, dànshì tā zǒngshì bāngzhù biérén."
+        },
+        {
+          "id": "sd_bad_weather",
+          "english": "Although the weather was bad, we still went out.",
+          "word": "虽然天气不好，但是我们还是出去了。",
+          "romanized": "Suīrán tiānqì bù hǎo, dànshì wǒmen háishi chūqù le."
+        },
+        {
+          "id": "sd_sad_understand",
+          "english": "Although I'm very sad, I understand.",
+          "word": "虽然很伤心，但是我理解。",
+          "romanized": "Suīrán hěn shāngxīn, dànshì wǒ lǐjiě."
+        },
+        {
+          "id": "sd_pressure_didnt_quit",
+          "english": "Although the pressure was great, he didn't give up.",
+          "word": "虽然压力很大，但是他没有放弃。",
+          "romanized": "Suīrán yālì hěn dà, dànshì tā méiyǒu fàngqì."
+        },
+        {
+          "id": "sd_buguo_intro",
+          "english": "I really want to go, but I'm a bit tired.",
+          "word": "我很想去，不过有点累。",
+          "romanized": "Wǒ hěn xiǎng qù, búguò yǒudiǎn lèi.",
+          "grammarNote": "不过 (búguò) = however / but — softer and more conversational than 但是. Common in casual speech."
+        },
+        {
+          "id": "sd_keshi_intro",
+          "english": "She said she was happy, but she looked upset.",
+          "word": "她说很开心，可是看起来很难过。",
+          "romanized": "Tā shuō hěn kāixīn, kěshì kàn qǐlái hěn nánguò.",
+          "grammarNote": "可是 (kěshì) = but — slightly softer than 但是. Both 可是 and 不过 are common alternatives in everyday speech."
+        },
+        {
+          "id": "sd_nervous_did_well",
+          "english": "Although I was nervous, I did well.",
+          "word": "虽然很紧张，但是我表现得很好。",
+          "romanized": "Suīrán hěn jǐnzhāng, dànshì wǒ biǎoxiàn de hěn hǎo."
+        },
+        {
+          "id": "sd_angry_stayed_calm",
+          "english": "Although I was angry, I stayed calm.",
+          "word": "虽然很生气，但是我保持了平静。",
+          "romanized": "Suīrán hěn shēngqì, dànshì wǒ bǎochí le píngjìng."
+        },
+        {
+          "id": "sd_stressed_happy",
+          "english": "Although I'm stressed, I'm still happy.",
+          "word": "虽然有压力，但是我还是很开心。",
+          "romanized": "Suīrán yǒu yālì, dànshì wǒ háishi hěn kāixīn."
+        },
+        {
+          "id": "sd_cried_fine_now",
+          "english": "Although she cried, she's fine now.",
+          "word": "虽然她哭了，但是现在没事了。",
+          "romanized": "Suīrán tā kū le, dànshì xiànzài méishì le."
+        }
+      ],
+      "reading": "suiran_danshi"
+    },
+    {
+      "id": "grammar_de_complement",
+      "name": "得 — Degree Complement",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "de_sleep_well",
+          "english": "sleep well",
+          "word": "睡得好",
+          "romanized": "shuì de hǎo",
+          "grammarNote": "Degree complement structure: Verb + 得 + description. 得 (de) links the verb to a phrase describing how the action was done. It's like saying 'to the degree that...'"
+        },
+        {
+          "id": "de_walk_slowly",
+          "english": "walk very slowly",
+          "word": "走得很慢",
+          "romanized": "zǒu de hěn màn"
+        },
+        {
+          "id": "de_speak_fluently",
+          "english": "speak very fluently",
+          "word": "说得很流利",
+          "romanized": "shuō de hěn liúlì"
+        },
+        {
+          "id": "de_recover_fast",
+          "english": "recover very quickly",
+          "word": "恢复得很快",
+          "romanized": "huīfù de hěn kuài"
+        },
+        {
+          "id": "de_breathe_smoothly",
+          "english": "breathe very smoothly",
+          "word": "呼吸得很顺畅",
+          "romanized": "hūxī de hěn shùnchàng"
+        },
+        {
+          "id": "de_how_did_you_sleep",
+          "english": "How did you sleep?",
+          "word": "你睡得怎么样？",
+          "romanized": "Nǐ shuì de zěnmeyàng?",
+          "grammarNote": "To ask how well an action was done: V + 得 + 怎么样?"
+        },
+        {
+          "id": "de_slept_badly",
+          "english": "I slept badly last night.",
+          "word": "昨晚睡得不好。",
+          "romanized": "Zuówǎn shuì de bù hǎo.",
+          "grammarNote": "Negation: V + 得 + 不 + description. Insert 不 before the descriptive adjective."
+        },
+        {
+          "id": "de_doesnt_walk_fast",
+          "english": "He doesn't walk fast.",
+          "word": "他走得不快。",
+          "romanized": "Tā zǒu de bù kuài."
+        },
+        {
+          "id": "de_doesnt_eat_much",
+          "english": "She doesn't eat much.",
+          "word": "她吃得不多。",
+          "romanized": "Tā chī de bù duō."
+        },
+        {
+          "id": "de_how_is_recovery",
+          "english": "How is his recovery going?",
+          "word": "他恢复得怎么样？",
+          "romanized": "Tā huīfù de zěnmeyàng?"
+        },
+        {
+          "id": "de_speak_chinese_well",
+          "english": "You speak Chinese very well!",
+          "word": "你中文说得很好！",
+          "romanized": "Nǐ zhōngwén shuō de hěn hǎo!"
+        },
+        {
+          "id": "de_running_too_fast",
+          "english": "You're running too fast.",
+          "word": "你跑得太快了。",
+          "romanized": "Nǐ pǎo de tài kuài le."
+        }
+      ],
+      "reading": "de_complement"
+    },
+    {
+      "id": "grammar_teng",
+      "name": "疼 — To Hurt",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "teng",
+          "english": "to hurt",
+          "word": "疼",
+          "romanized": "téng"
+        },
+        {
+          "id": "bu_shufu",
+          "english": "uncomfortable",
+          "word": "不舒服",
+          "romanized": "bù shūfú"
+        },
+        {
+          "id": "nar_teng",
+          "english": "Where does it hurt?",
+          "word": "哪里疼？",
+          "romanized": "Nǎlǐ téng?"
+        },
+        {
+          "id": "head_hurts",
+          "english": "My head hurts.",
+          "word": "我头疼。",
+          "romanized": "Wǒ tóu téng.",
+          "grammarNote": "In Chinese, body part + 疼 — no 'my' required."
+        },
+        {
+          "id": "stomach",
+          "english": "My stomach hurts.",
+          "word": "我肚子疼。",
+          "romanized": "Wǒ dùzi téng."
+        },
+        {
+          "id": "throat",
+          "english": "My throat hurts.",
+          "word": "我喉咙疼。",
+          "romanized": "Wǒ hóulóng téng."
+        },
+        {
+          "id": "back",
+          "english": "My back hurts.",
+          "word": "我后背疼。",
+          "romanized": "Wǒ hòubèi téng."
+        },
+        {
+          "id": "feet",
+          "english": "My feet hurt.",
+          "word": "我脚疼。",
+          "romanized": "Wǒ jiǎo téng."
+        },
+        {
+          "id": "eyes",
+          "english": "My eyes hurt.",
+          "word": "我眼睛疼。",
+          "romanized": "Wǒ yǎnjīng téng."
+        },
+        {
+          "id": "leg",
+          "english": "My leg hurts.",
+          "word": "我腿疼。",
+          "romanized": "Wǒ tuǐ téng."
+        },
+        {
+          "id": "arm",
+          "english": "My arm hurts.",
+          "word": "我胳膊疼。",
+          "romanized": "Wǒ gēbo téng."
+        },
+        {
+          "id": "feel_unwell",
+          "english": "I feel unwell.",
+          "word": "我不舒服。",
+          "romanized": "Wǒ bù shūfú."
+        },
+        {
+          "id": "a_little",
+          "english": "I feel a little unwell.",
+          "word": "我有点不舒服。",
+          "romanized": "Wǒ yǒudiǎn bù shūfú."
+        },
+        {
+          "id": "are_you_ok",
+          "english": "Are you feeling okay?",
+          "word": "你舒服吗？",
+          "romanized": "Nǐ shūfú ma?"
+        },
+        {
+          "id": "very_painful",
+          "english": "Very painful.",
+          "word": "很疼。",
+          "romanized": "Hěn téng."
+        },
+        {
+          "id": "not_painful",
+          "english": "Not painful.",
+          "word": "不疼。",
+          "romanized": "Bù téng."
+        },
+        {
+          "id": "have_fever",
+          "english": "I have a fever.",
+          "word": "我发烧了。",
+          "romanized": "Wǒ fāshāo le.",
+          "grammarNote": "了 indicates the fever has come on."
+        }
+      ],
+      "reading": "teng"
+    },
+    {
+      "id": "grammar_yue_lai_yue",
+      "name": "越来越 — More and More",
+      "language": "chinese",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "ylj_better",
+          "english": "getting better and better",
+          "word": "越来越好",
+          "romanized": "yuè lái yuè hǎo",
+          "grammarNote": "越来越 + adjective/verb = more and more / increasingly. It expresses a continuing change in one direction."
+        },
+        {
+          "id": "ylj_more_painful",
+          "english": "hurting more and more",
+          "word": "越来越疼",
+          "romanized": "yuè lái yuè téng"
+        },
+        {
+          "id": "ylj_more_tired",
+          "english": "getting more and more tired",
+          "word": "越来越累",
+          "romanized": "yuè lái yuè lèi"
+        },
+        {
+          "id": "ylj_healthier",
+          "english": "getting healthier and healthier",
+          "word": "越来越健康",
+          "romanized": "yuè lái yuè jiànkāng"
+        },
+        {
+          "id": "ylj_health_improving",
+          "english": "My health is getting better and better.",
+          "word": "我的身体越来越好了。",
+          "romanized": "Wǒ de shēntǐ yuè lái yuè hǎo le."
+        },
+        {
+          "id": "ylj_legs_hurting",
+          "english": "My legs are hurting more and more.",
+          "word": "我的腿越来越疼。",
+          "romanized": "Wǒ de tuǐ yuè lái yuè téng."
+        },
+        {
+          "id": "ylj_tired_from_walking",
+          "english": "After walking so far, I'm getting more and more tired.",
+          "word": "走了这么远，我越来越累。",
+          "romanized": "Zǒu le zhème yuǎn, wǒ yuè lái yuè lèi."
+        },
+        {
+          "id": "ylj_paired_eat",
+          "english": "The more I eat, the more I want to eat.",
+          "word": "越吃越想吃。",
+          "romanized": "Yuè chī yuè xiǎng chī.",
+          "grammarNote": "越...越... links two actions that escalate together. The first 越 sets the condition; the second 越 gives the consequence."
+        },
+        {
+          "id": "ylj_paired_walk",
+          "english": "The more I walk, the more tired I get.",
+          "word": "越走越累。",
+          "romanized": "Yuè zǒu yuè lèi."
+        },
+        {
+          "id": "ylj_paired_rest",
+          "english": "The more rest you get, the better.",
+          "word": "越休息越好。",
+          "romanized": "Yuè xiūxi yuè hǎo."
+        },
+        {
+          "id": "ylj_illness_serious",
+          "english": "His illness is getting more and more serious.",
+          "word": "他的病越来越重。",
+          "romanized": "Tā de bìng yuè lái yuè zhòng."
+        },
+        {
+          "id": "ylj_more_worried",
+          "english": "The doctor is getting more and more worried.",
+          "word": "医生越来越担心。",
+          "romanized": "Yīshēng yuè lái yuè dānxīn."
+        }
+      ],
+      "reading": "yue_lai_yue"
+    }
+  ]
+}

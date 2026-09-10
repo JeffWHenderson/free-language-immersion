@@ -14,6 +14,7 @@ import {
     SRSDeckState,
 } from "../useStorage";
 import { useSpeech } from "../../hooks/useSpeech";
+import { useDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
 import Settings from "../components/Settings";
@@ -64,6 +65,7 @@ function buildSession(cards: Card[], deckState: SRSDeckState, shuffle: boolean):
 const Review = () => {
     const { language, deckId } = useParams<{ language: string; deckId: string }>();
     const [, navigate] = useLocation();
+    const { packs } = useDecks(language);
 
     const [deck, setDeck] = useState<DeckData | null>(null);
     const [deckState, setDeckState] = useState<SRSDeckState>({});
@@ -93,19 +95,17 @@ const Review = () => {
 
     useEffect(() => {
         if (!language || !deckId) return;
-        fetch(`/languages/${language}/${deckId}/index.json`)
-            .then((r) => r.json())
-            .then((data: DeckData) => {
-                setDeck(data);
-                setFastModeCards(data.cards);
-                const state = loadDeckState(language, deckId);
-                setDeckState(state);
-                const s = buildSession(data.cards, state, false);
-                setSession(s);
-                setTotalCards(s.length);
-            })
-            .catch((e) => console.error(e));
-    }, [language, deckId]);
+        const pack = packs.find((p) => p.id === deckId);
+        if (!pack) return;
+        const data: DeckData = { id: pack.id, name: pack.name, language, cards: pack.cards };
+        setDeck(data);
+        setFastModeCards(data.cards);
+        const state = loadDeckState(language, deckId);
+        setDeckState(state);
+        const s = buildSession(data.cards, state, false);
+        setSession(s);
+        setTotalCards(s.length);
+    }, [language, deckId, packs]);
 
     const speakTargetSide = (card: SessionCard) => {
         if (!readBack) return;

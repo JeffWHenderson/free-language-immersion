@@ -6,6 +6,7 @@ import {
     loadStoryBookmarks, saveStoryBookmarks, type StorySentenceBookmark,
 } from "../useStorage";
 import { useSpeech } from "../../hooks/useSpeech";
+import { useDecks } from "../../hooks/useDecks";
 import { useLanguageApp } from "../../LanguageAppContext";
 import FlipCard from "../components/FlipCard";
 import Settings from "../components/Settings";
@@ -25,31 +26,16 @@ interface Card {
     literal?: LiteralData;
 }
 
-interface DeckMeta {
-    id: string;
-    name: string;
-    language: string;
-    cards: Card[];
-}
-
 interface BookmarkedCard {
     card: Card;
     deckId: string;
     deckName: string;
 }
 
-const AVAILABLE_DECKS = [
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-];
-
 const Bookmarks = () => {
     const { language } = useParams<{ language: string }>();
     const [, navigate] = useLocation();
+    const { packs, loading: decksLoading } = useDecks(language);
     const { readBack, displayMode, showRomanized } = useLanguageApp();
     const { buildUtt } = useSpeech(language);
     const ttsGenRef = useRef(0);
@@ -64,32 +50,24 @@ const Bookmarks = () => {
     const [sentenceBookmarks, setSentenceBookmarks] = useState<StorySentenceBookmark[]>([]);
 
     useEffect(() => {
-        if (!language) return;
+        if (!language || decksLoading) return;
         setSentenceBookmarks(loadStoryBookmarks(language));
-        Promise.all(
-            AVAILABLE_DECKS.map(deckId =>
-                fetch(`/languages/${language}/${deckId}/index.json`)
-                    .then(r => r.json() as Promise<DeckMeta>)
-                    .catch(() => null)
-            )
-        ).then(results => {
-            const decks = results.filter(Boolean) as DeckMeta[];
-            const states: Record<string, SRSDeckState> = {};
-            const bookmarked: BookmarkedCard[] = [];
-            for (const deck of decks) {
-                const state = loadDeckState(language, deck.id);
-                states[deck.id] = state;
-                for (const card of deck.cards) {
-                    if (!isCardHidden(card, state) && state[card.id]?.bookmarked) {
-                        bookmarked.push({ card, deckId: deck.id, deckName: deck.name });
-                    }
+        const states: Record<string, SRSDeckState> = {};
+        const bookmarked: BookmarkedCard[] = [];
+        for (const deck of packs) {
+            if (deck.cards.length === 0) continue;
+            const state = loadDeckState(language, deck.id);
+            states[deck.id] = state;
+            for (const card of deck.cards) {
+                if (!isCardHidden(card, state) && state[card.id]?.bookmarked) {
+                    bookmarked.push({ card, deckId: deck.id, deckName: deck.name });
                 }
             }
-            setDeckStates(states);
-            setCards(bookmarked);
-            setLoading(false);
-        });
-    }, [language]);
+        }
+        setDeckStates(states);
+        setCards(bookmarked);
+        setLoading(false);
+    }, [language, packs, decksLoading]);
 
     useEffect(() => {
         if (!loading && cards.length === 0 && sentenceBookmarks.length > 0) {

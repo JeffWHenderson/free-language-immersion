@@ -10,17 +10,6 @@ import "../srs.css";
 
 const packSelectionKey = (language: string) => `pack_selection_${language}`;
 
-// The core decks every course shares — these stay at the top level of the home
-// screen. Everything else collapses into "Extension Decks".
-const MAIN_TOPIC_KEYS = new Set([
-    "everyday_phrases",
-    "food_and_drink",
-    "common_places",
-    "jobs_and_hobbies",
-    "moods_and_emotion",
-    "human_body",
-]);
-
 const prefetchUnifiedReview = () => { void import('../UnifiedReview'); };
 const prefetchStories = () => { void import('../StoryList'); };
 const prefetchPictures = () => { void import('../PictureList'); };
@@ -58,6 +47,7 @@ const Home = () => {
     const [studyPacks, setStudyPacks] = useState<Set<string>>(new Set());
     const [drawerParts, setDrawerParts] = useState<Pack[] | null>(null);
     const [extensionOpen, setExtensionOpen] = useState(false);
+    const [grammarOpen, setGrammarOpen] = useState(false);
     const [experimentalOpen, setExperimentalOpen] = useState(false);
     const [showPrint, setShowPrint] = useState(false);
     const [printSelectedDecks, setPrintSelectedDecks] = useState<Set<string>>(new Set());
@@ -86,11 +76,7 @@ const Home = () => {
         // packs are opt-in; split topics start with Part 1 only (the starter).
         setStudyPacks(new Set(
             cardPacks
-                .filter((p) =>
-                    p.kind !== "grammar" &&
-                    (p.part ?? 1) === 1 &&
-                    MAIN_TOPIC_KEYS.has(p.parent ?? p.id)
-                )
+                .filter((p) => p.category === "main" && (p.part ?? 1) === 1)
                 .map((p) => p.id)
         ));
         setPrintSelectedDecks(new Set(cardPacks.map((p) => p.id)));
@@ -149,22 +135,15 @@ const Home = () => {
 
     if (loading) return <PageSkeleton />;
 
-    // Only packs with cards appear as pills (cross_section has 0 cards)
+    // Only packs with cards appear as pills (cross_section has 0 cards). Each pack's
+    // category (from the file it loaded from) decides which home section it lands in:
+    // core decks stay top-level; extension and grammar each get a collapsible section.
     const pillPacks = packs.filter((p) => p.cards.length > 0);
-    const vocabPacks = pillPacks.filter((p) => p.kind !== "grammar");
-    const grammarPacks = pillPacks.filter((p) => p.kind === "grammar");
-
-    const vocabTopics = groupByTopic(vocabPacks);
-    const grammarTopics = groupByTopic(grammarPacks);
-
-    // Core decks stay top-level; extra topic packs + the per-concept grammar pills
-    // fold into the collapsible "Extension Decks" section.
-    const mainTopics = vocabTopics.filter((g) => MAIN_TOPIC_KEYS.has(g.key));
-    const extensionTopics = [
-        ...vocabTopics.filter((g) => !MAIN_TOPIC_KEYS.has(g.key)),
-        ...grammarTopics,
-    ];
+    const mainTopics = groupByTopic(pillPacks.filter((p) => p.category === "main"));
+    const extensionTopics = groupByTopic(pillPacks.filter((p) => p.category === "extension"));
+    const grammarTopics = groupByTopic(pillPacks.filter((p) => p.category === "grammar"));
     const extensionSelected = extensionTopics.filter((g) => g.parts.some((p) => studyPacks.has(p.id))).length;
+    const grammarSelected = grammarTopics.filter((g) => g.parts.some((p) => studyPacks.has(p.id))).length;
 
     const deckEntries = pillPacks.map((pack) => {
         const state = loadDeckState(language!, pack.id);
@@ -208,7 +187,7 @@ const Home = () => {
         });
 
     const renderTopicRow = (group: TopicGroup) => {
-        const isGrammar = group.parts[0].kind === "grammar";
+        const isGrammar = group.parts[0].category === "grammar";
         const multi = group.parts.length > 1;
         let included = 0;
         let total = 0;
@@ -255,7 +234,7 @@ const Home = () => {
 
     // Extension decks render as compact toggle pills (tap = include/exclude from study).
     const renderExtensionPill = (group: TopicGroup) => {
-        const isGrammar = group.parts[0].kind === "grammar";
+        const isGrammar = group.parts[0].category === "grammar";
         const active = group.parts.some((p) => studyPacks.has(p.id));
         return (
             <button
@@ -301,6 +280,29 @@ const Home = () => {
                         {extensionOpen && (
                             <div className="srs-pill-cloud">
                                 {extensionTopics.map(renderExtensionPill)}
+                            </div>
+                        )}
+                    </div>
+                )}
+
+                {grammarTopics.length > 0 && (
+                    <div className="srs-extensions">
+                        <button
+                            className="srs-topic-section-header srs-extensions-header"
+                            onClick={() => setGrammarOpen((o) => !o)}
+                            aria-expanded={grammarOpen}
+                        >
+                            <span className={`srs-section-chevron${grammarOpen ? ' open' : ''}`}>›</span>
+                            Grammar Decks
+                            <span className="srs-section-meta">
+                                {grammarSelected > 0
+                                    ? `${grammarSelected} of ${grammarTopics.length} selected`
+                                    : `${grammarTopics.length}`}
+                            </span>
+                        </button>
+                        {grammarOpen && (
+                            <div className="srs-pill-cloud">
+                                {grammarTopics.map(renderExtensionPill)}
                             </div>
                         )}
                     </div>

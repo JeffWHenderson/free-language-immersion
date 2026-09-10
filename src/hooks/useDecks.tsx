@@ -33,6 +33,8 @@ export interface Pack {
     part?: number;
     /** "grammar" packs are canonical grammar concepts surfaced as their own pills. */
     kind?: "grammar";
+    /** Which home group the pack belongs to; assigned from the file it loads from. */
+    category?: "main" | "extension" | "grammar";
     /** Grammar concept id whose HTML explanation is available as optional reading. */
     reading?: string;
     stories?: string[];
@@ -43,6 +45,26 @@ export interface Pack {
 
 const cache: Record<string, Pack[]> = {};
 const inflight: Record<string, Promise<Pack[]>> = {};
+
+// The three per-language deck files, in home-display order. Each pack is tagged with
+// the category of the file it came from — that tag is the single source of truth for grouping.
+const SOURCES: [Pack["category"], string][] = [
+    ["main", "main_course.json"],
+    ["extension", "extension_decks.json"],
+    ["grammar", "grammar_decks.json"],
+];
+
+function loadDecks(language: string): Promise<Pack[]> {
+    return Promise.all(
+        SOURCES.map(([category, file]) =>
+            fetch(`/languages/${language}/${file}`)
+                .then((r) => r.json())
+                .then((data: { packs: Pack[] }) =>
+                    data.packs.map((p) => ({ ...p, category }))
+                )
+        )
+    ).then((groups) => groups.flat());
+}
 
 export function useDecks(language: string | undefined): { packs: Pack[]; loading: boolean } {
     const [packs, setPacks] = useState<Pack[]>(() =>
@@ -59,12 +81,11 @@ export function useDecks(language: string | undefined): { packs: Pack[]; loading
             setLoading(false);
             return;
         }
-        const req = inflight[language] ?? fetch(`/languages/${language}/decks.json`)
-            .then((r) => r.json())
-            .then((data: { packs: Pack[] }) => {
-                cache[language] = data.packs;
+        const req = inflight[language] ?? loadDecks(language)
+            .then((packs) => {
+                cache[language] = packs;
                 delete inflight[language];
-                return data.packs;
+                return packs;
             });
         inflight[language] = req;
         req.then((result) => {

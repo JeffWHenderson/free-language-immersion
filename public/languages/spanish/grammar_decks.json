@@ -1,0 +1,3296 @@
+{
+  "language": "spanish",
+  "packs": [
+    {
+      "id": "grammar_essentials",
+      "name": "Grammar Essentials",
+      "language": "spanish",
+      "cards": [
+        {
+          "id": "g_noun_gender_article",
+          "grammar": true,
+          "english": "the milk (feminine noun → la)",
+          "word": "la leche",
+          "grammarNote": "Every Spanish noun is masculine or feminine, and the article agrees:\n**el** (masc.) · **la** (fem.) → **el pan** (bread), **la leche** (milk). Most **-o** words are masculine, most **-a** feminine — but learn each noun with its article.",
+          "englishPhrase": "The bread is here, the milk is there.",
+          "phrase": "El pan está aquí, la leche está allí.",
+          "literal": [
+            [
+              "El",
+              "the"
+            ],
+            [
+              "pan",
+              "bread"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "leche",
+              "milk"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Definite articles agree with gender & number",
+            "rows": [
+              [
+                "masc. sing.",
+                "el (el pan)"
+              ],
+              [
+                "fem. sing.",
+                "la (la leche)"
+              ],
+              [
+                "masc. pl.",
+                "los (los libros)"
+              ],
+              [
+                "fem. pl.",
+                "las (las casas)"
+              ]
+            ],
+            "note": "Most -o words are masculine, most -a feminine — learn each noun with its article."
+          }
+        },
+        {
+          "id": "g_pronoun_drop",
+          "grammar": true,
+          "english": "I'm a student. (pronoun optional)",
+          "word": "(Yo) soy estudiante.",
+          "grammarNote": "Spanish usually **drops the subject pronoun** — the verb ending already shows who the subject is.\n**Soy estudiante** = **Yo soy estudiante**. Add **yo/tú/él** only for emphasis or contrast.",
+          "englishPhrase": "I'm a student, and you?",
+          "phrase": "Soy estudiante, ¿y tú?",
+          "literal": [
+            [
+              "Soy",
+              "am"
+            ],
+            [
+              "estudiante",
+              "student"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "ser — the subject pronoun is optional",
+            "rows": [
+              [
+                "(yo) soy",
+                "I am"
+              ],
+              [
+                "(tú) eres",
+                "you are"
+              ],
+              [
+                "(él/ella) es",
+                "he/she is"
+              ],
+              [
+                "(nosotros) somos",
+                "we are"
+              ],
+              [
+                "(ellos) son",
+                "they are"
+              ]
+            ],
+            "note": "The ending already shows who — add yo/tú/él only for emphasis."
+          }
+        },
+        {
+          "id": "g_adjective_agreement",
+          "grammar": true,
+          "english": "She is nervous. (adjective agrees → nerviosa)",
+          "word": "está nerviosa",
+          "grammarNote": "Adjectives agree in gender and number with who they describe:\n**él está nervioso** / **ella está nerviosa** / **ellos están nerviosos**. Change the ending **-o** (masc.) ↔ **-a** (fem.), add **-s** for plural.",
+          "englishPhrase": "The girls are tired.",
+          "phrase": "Las chicas están cansadas.",
+          "literal": [
+            [
+              "Las",
+              "the"
+            ],
+            [
+              "chicas",
+              "girls"
+            ],
+            [
+              "están",
+              "are"
+            ],
+            [
+              "cansadas",
+              "tired"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Adjectives match the noun they modify",
+            "task": "he is nervous, she is nervous",
+            "answer": "él está nervioso, ella está nerviosa",
+            "gloss": "-o → masculine, -a → feminine (add -s for plural)"
+          }
+        },
+        {
+          "id": "g_ser_profession",
+          "grammar": true,
+          "english": "I am a doctor. (no article before jobs)",
+          "word": "soy médico",
+          "grammarNote": "State a profession with **ser** and **no article**:\n**soy médico** (I'm a doctor), **es profesora** (she's a teacher). Add an article only with a description: **es un buen médico** (he's a good doctor).",
+          "englishPhrase": "She is an engineer.",
+          "phrase": "Ella es ingeniera.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "es",
+              "is"
+            ],
+            [
+              "ingeniera",
+              "engineer"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Profession — article or not?",
+            "a": {
+              "term": "es médico",
+              "gloss": "just the job → no article (ser)"
+            },
+            "b": {
+              "term": "es un buen médico",
+              "gloss": "job + description → add un/una"
+            }
+          }
+        },
+        {
+          "id": "g_estar_location",
+          "grammar": true,
+          "english": "The bank is nearby. (estar for location)",
+          "word": "el banco está cerca",
+          "grammarNote": "Location always uses **estar**, even for permanent buildings:\n**el banco está cerca** (the bank is nearby), **¿dónde está el baño?** (where's the bathroom?). Never **es** for location.",
+          "englishPhrase": "Where is the museum?",
+          "phrase": "¿Dónde está el museo?",
+          "literal": [
+            [
+              "Dónde",
+              "where"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "museo",
+              "museum"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "the bank is nearby (location → estar)",
+            "text": "el banco ___ cerca",
+            "answer": "está",
+            "options": [
+              "es",
+              "está"
+            ]
+          }
+        },
+        {
+          "id": "g_estar_food",
+          "grammar": true,
+          "english": "The food is delicious. (estar for taste)",
+          "word": "la comida está deliciosa",
+          "grammarNote": "Use **estar** (not **ser**) for how food tastes right now — a temporary state:\n**la comida está deliciosa** (the food is delicious), **el café está frío** (the coffee is cold). **ser** would sound like a permanent trait.",
+          "englishPhrase": "This soup is very good!",
+          "phrase": "¡Esta sopa está muy buena!",
+          "literal": [
+            [
+              "Esta",
+              "this"
+            ],
+            [
+              "sopa",
+              "soup"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "muy",
+              "very"
+            ],
+            [
+              "buena",
+              "good"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "la sopa… ¿está or es buena?",
+            "a": {
+              "term": "está buena",
+              "gloss": "tastes good right now → estar"
+            },
+            "b": {
+              "term": "es buena",
+              "gloss": "a good soup in general → ser"
+            }
+          }
+        },
+        {
+          "id": "g_estar_emotion",
+          "grammar": true,
+          "format": "contrast",
+          "contrast": {
+            "prompt": "feliz — ser or estar?",
+            "a": {
+              "term": "estoy feliz",
+              "gloss": "I feel happy right now — a mood (estar)"
+            },
+            "b": {
+              "term": "soy feliz",
+              "gloss": "I'm a happy person — a trait (ser)"
+            }
+          },
+          "english": "I am happy. (estar for feelings)",
+          "word": "estoy feliz",
+          "grammarNote": "Feelings and moods use **estar** — they're temporary states:\n**estoy feliz** (I'm happy), **estoy triste** (I'm sad). **ser feliz** exists too, but describes being a happy person in general.",
+          "englishPhrase": "Are you okay? — I'm fine.",
+          "phrase": "¿Estás bien? — Estoy bien.",
+          "literal": [
+            [
+              "Estás",
+              "you-are"
+            ],
+            [
+              "bien",
+              "well"
+            ],
+            [
+              "Estoy",
+              "I-am"
+            ],
+            [
+              "bien",
+              "well"
+            ]
+          ]
+        },
+        {
+          "id": "g_hay_places",
+          "grammar": true,
+          "english": "There's a bank / The bank is here (hay vs estar)",
+          "word": "hay un banco / el banco está aquí",
+          "grammarNote": "**hay** introduces something that exists (indefinite): **hay un banco cerca**. **estar** locates something already known (definite): **el banco está en la esquina**.\nRule of thumb: **hay** + un/una/números; **estar** + el/la/mi/este.",
+          "englishPhrase": "There's a pharmacy nearby, and the pharmacy is on the corner.",
+          "phrase": "Hay una farmacia cerca, y la farmacia está en la esquina.",
+          "literal": [
+            [
+              "Hay",
+              "there-is"
+            ],
+            [
+              "una",
+              "a"
+            ],
+            [
+              "farmacia",
+              "pharmacy"
+            ],
+            [
+              "cerca",
+              "nearby"
+            ],
+            [
+              "y",
+              "and"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "farmacia",
+              "pharmacy"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "en",
+              "on"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "esquina",
+              "corner"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "hay vs está — ‘there is’ or ‘is (located)’?",
+            "a": {
+              "term": "hay un banco",
+              "gloss": "a bank exists / introduces it → hay"
+            },
+            "b": {
+              "term": "el banco está aquí",
+              "gloss": "the known bank is located here → estar"
+            }
+          }
+        },
+        {
+          "id": "g_hay",
+          "grammar": true,
+          "english": "There is bread. (hay = there is/are)",
+          "word": "hay pan",
+          "grammarNote": "**hay** = there is / there are — one word for both singular and plural:\n**hay pan** (there's bread), **hay dos manzanas** (there are two apples). It never changes form.",
+          "englishPhrase": "Is there water?",
+          "phrase": "¿Hay agua?",
+          "literal": [
+            [
+              "Hay",
+              "there-is"
+            ],
+            [
+              "agua",
+              "water"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "hay — there is / there are (invariable)",
+            "rows": [
+              [
+                "singular",
+                "hay un baño"
+              ],
+              [
+                "plural",
+                "hay dos baños"
+              ],
+              [
+                "question",
+                "¿hay…?"
+              ],
+              [
+                "negative",
+                "no hay"
+              ]
+            ],
+            "note": "One form for all — hay never changes."
+          }
+        },
+        {
+          "id": "g_tu_vs_usted",
+          "grammar": true,
+          "english": "you (formal — to a stranger or elder)",
+          "word": "usted",
+          "grammarNote": "Two words for 'you': **tú** (informal — friends, kids) · **usted** (formal — strangers, elders, bosses).\n**usted** takes the **él/ella** verb form: **usted tiene**, not *usted tienes*.",
+          "englishPhrase": "How are you? (formal)",
+          "phrase": "¿Cómo está usted?",
+          "literal": [
+            [
+              "Cómo",
+              "how"
+            ],
+            [
+              "está",
+              "are"
+            ],
+            [
+              "usted",
+              "you"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "tú vs usted (‘you’)",
+            "a": {
+              "term": "tú tienes",
+              "gloss": "informal — friends, kids (tú form)"
+            },
+            "b": {
+              "term": "usted tiene",
+              "gloss": "formal — strangers, elders (él/ella form)"
+            }
+          }
+        },
+        {
+          "id": "g_tener_states",
+          "grammar": true,
+          "english": "I'm cold. (lit. I have cold)",
+          "word": "tengo frío",
+          "grammarNote": "Spanish **has** a feeling where English **is** one — use **tener**, not ser/estar:\n**tengo hambre** (hungry) · **tengo sed** (thirsty) · **tengo frío/calor** (cold/hot) · **tengo miedo** (afraid) · **tengo 20 años** (I'm 20).",
+          "englishPhrase": "I'm cold and hungry.",
+          "phrase": "Tengo frío y hambre.",
+          "literal": [
+            [
+              "Tengo",
+              "have"
+            ],
+            [
+              "frío",
+              "cold"
+            ],
+            [
+              "y",
+              "and"
+            ],
+            [
+              "hambre",
+              "hunger"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Physical states use tener (‘to have’)",
+            "rows": [
+              [
+                "tengo hambre",
+                "I'm hungry"
+              ],
+              [
+                "tengo sed",
+                "I'm thirsty"
+              ],
+              [
+                "tengo frío",
+                "I'm cold"
+              ],
+              [
+                "tengo calor",
+                "I'm hot"
+              ],
+              [
+                "tengo 20 años",
+                "I'm 20"
+              ]
+            ],
+            "note": "Spanish ‘has’ the state where English ‘is’ it — not ser/estar."
+          }
+        },
+        {
+          "id": "g_tener_feelings",
+          "grammar": true,
+          "english": "I am afraid. (tener miedo — 'have fear')",
+          "word": "tengo miedo",
+          "grammarNote": "Some feelings use **tener** (to have), not **estar**:\n**tengo miedo** (I'm afraid), **tengo celos** (I'm jealous), **tengo sueño** (I'm sleepy). Literally 'I have fear/jealousy/sleepiness'.",
+          "englishPhrase": "I'm a little afraid.",
+          "phrase": "Tengo un poco de miedo.",
+          "literal": [
+            [
+              "Tengo",
+              "I-have"
+            ],
+            [
+              "un",
+              "a"
+            ],
+            [
+              "poco",
+              "little"
+            ],
+            [
+              "de",
+              "of"
+            ],
+            [
+              "miedo",
+              "fear"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "More tener idioms (not estar)",
+            "rows": [
+              [
+                "tengo miedo",
+                "I'm afraid"
+              ],
+              [
+                "tengo sueño",
+                "I'm sleepy"
+              ],
+              [
+                "tengo prisa",
+                "I'm in a hurry"
+              ],
+              [
+                "tengo ganas de",
+                "I feel like…"
+              ],
+              [
+                "tengo razón",
+                "I'm right"
+              ]
+            ],
+            "note": "Literally ‘I have fear / sleep / hurry…’."
+          }
+        },
+        {
+          "id": "g_tener_body_adj",
+          "grammar": true,
+          "english": "I have cold hands. (tener + article + agreement)",
+          "word": "tengo las manos frías",
+          "grammarNote": "Describe your body with **tener** + article + adjective (which agrees):\n**tengo las manos frías** (my hands are cold, lit. 'I have the hands cold'), **tiene los ojos azules** (she has blue eyes).",
+          "englishPhrase": "She has blue eyes.",
+          "phrase": "Ella tiene los ojos azules.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "tiene",
+              "has"
+            ],
+            [
+              "los",
+              "the"
+            ],
+            [
+              "ojos",
+              "eyes"
+            ],
+            [
+              "azules",
+              "blue"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "my hands are cold (las manos = fem. pl.)",
+            "text": "tengo las manos ___",
+            "answer": "frías",
+            "options": [
+              "frío",
+              "frías",
+              "fríos"
+            ]
+          }
+        },
+        {
+          "id": "g_me_gusta",
+          "grammar": true,
+          "english": "I like coffee. (gustar works in reverse)",
+          "word": "me gusta el café",
+          "grammarNote": "**gustar** literally means 'to please' — the thing liked is the subject:\n**me gusta el café** = 'coffee pleases me'. Use **gusta** for one thing, **gustan** for plural: **me gustan las manzanas**.",
+          "englishPhrase": "I like tea, and you?",
+          "phrase": "Me gusta el té, ¿y a ti?",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "pleases"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "té",
+              "tea"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "gustar — ‘to please’ (works backwards)",
+            "rows": [
+              [
+                "me gusta",
+                "I like"
+              ],
+              [
+                "te gusta",
+                "you like"
+              ],
+              [
+                "le gusta",
+                "he/she likes"
+              ],
+              [
+                "nos gusta",
+                "we like"
+              ],
+              [
+                "les gusta",
+                "they like"
+              ]
+            ],
+            "note": "One thing → gusta; plural things → gustan (me gustan las uvas)."
+          }
+        },
+        {
+          "id": "g_me_gusta_infinitive",
+          "grammar": true,
+          "english": "I like reading. (me gusta + infinitive)",
+          "word": "me gusta leer",
+          "grammarNote": "To say you like doing something, use **me gusta** + the infinitive:\n**me gusta leer** (I like reading), **me gusta correr** (I like running). Stays singular **gusta** before a verb.",
+          "englishPhrase": "I like listening to music.",
+          "phrase": "Me gusta escuchar música.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "gusta",
+              "pleases"
+            ],
+            [
+              "escuchar",
+              "to-listen"
+            ],
+            [
+              "música",
+              "music"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I like reading (a verb → stays singular)",
+            "text": "me ___ leer",
+            "answer": "gusta",
+            "options": [
+              "gusta",
+              "gustan"
+            ]
+          }
+        },
+        {
+          "id": "g_me_duele",
+          "grammar": true,
+          "english": "My head hurts. (me duele — like gustar)",
+          "word": "me duele la cabeza",
+          "grammarNote": "**doler** (to hurt) works like **gustar** — the body part is the subject:\n**me duele la cabeza** (my head hurts), **me duelen los pies** (my feet hurt — plural **duelen**). Uses the article, not 'my'.",
+          "englishPhrase": "My stomach hurts.",
+          "phrase": "Me duele el estómago.",
+          "literal": [
+            [
+              "Me",
+              "to-me"
+            ],
+            [
+              "duele",
+              "hurts"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "estómago",
+              "stomach"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "doler — works like gustar",
+            "rows": [
+              [
+                "me duele la cabeza",
+                "my head hurts"
+              ],
+              [
+                "me duelen los pies",
+                "my feet hurt (pl.)"
+              ],
+              [
+                "le duele",
+                "his/her … hurts"
+              ]
+            ],
+            "note": "Body part is the subject → duele / duelen; use the article, not ‘my’."
+          }
+        },
+        {
+          "id": "g_reflexive_name",
+          "grammar": true,
+          "english": "What's your name? (lit. how do you call yourself)",
+          "word": "¿Cómo te llamas?",
+          "grammarNote": "Names use the reflexive verb **llamarse** ('to call oneself'):\n**me llamo** (I call myself) · **te llamas** (you call yourself) · **se llama** (he/she calls him/herself).",
+          "englishPhrase": "What's your name? — My name is Ana.",
+          "phrase": "¿Cómo te llamas? — Me llamo Ana.",
+          "literal": [
+            [
+              "Cómo",
+              "how"
+            ],
+            [
+              "te",
+              "yourself"
+            ],
+            [
+              "llamas",
+              "call"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "llamarse — ‘to call oneself’ (names)",
+            "rows": [
+              [
+                "me llamo",
+                "I'm called"
+              ],
+              [
+                "te llamas",
+                "you're called"
+              ],
+              [
+                "se llama",
+                "he/she is called"
+              ],
+              [
+                "nos llamamos",
+                "we're called"
+              ]
+            ],
+            "note": "¿Cómo te llamas? = What's your name?"
+          }
+        },
+        {
+          "id": "g_body_definite_article",
+          "grammar": true,
+          "english": "I wash my hands. (use 'las', not 'mis')",
+          "word": "me lavo las manos",
+          "grammarNote": "With body parts, Spanish uses the **definite article** (el/la/los/las), not a possessive — the reflexive pronoun already shows whose:\n**me lavo las manos** (I wash my hands), **le duele la cabeza** (his head hurts). Not *mis manos*.",
+          "englishPhrase": "I brush my teeth.",
+          "phrase": "Me cepillo los dientes.",
+          "literal": [
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "cepillo",
+              "brush"
+            ],
+            [
+              "los",
+              "the"
+            ],
+            [
+              "dientes",
+              "teeth"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "‘I wash my hands’ — las or mis?",
+            "a": {
+              "term": "me lavo las manos",
+              "gloss": "✓ reflexive already shows it's yours → article"
+            },
+            "b": {
+              "term": "me lavo mis manos",
+              "gloss": "✗ don't add the possessive"
+            }
+          }
+        },
+        {
+          "id": "g_me_siento",
+          "grammar": true,
+          "english": "I feel tired. (me siento — reflexive)",
+          "word": "me siento cansado",
+          "grammarNote": "**sentirse** (to feel) is reflexive — the pronoun matches the subject:\n**me siento** (I feel), **te sientes** (you feel), **se siente** (he/she feels). In **me siento cansado/cansada** the adjective still agrees.",
+          "englishPhrase": "How do you feel? — I feel great.",
+          "phrase": "¿Cómo te sientes? — Me siento genial.",
+          "literal": [
+            [
+              "Cómo",
+              "how"
+            ],
+            [
+              "te",
+              "yourself"
+            ],
+            [
+              "sientes",
+              "feel"
+            ],
+            [
+              "Me",
+              "myself"
+            ],
+            [
+              "siento",
+              "feel"
+            ],
+            [
+              "genial",
+              "great"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "sentirse — ‘to feel’ (reflexive, e→ie)",
+            "rows": [
+              [
+                "me siento",
+                "I feel"
+              ],
+              [
+                "te sientes",
+                "you feel"
+              ],
+              [
+                "se siente",
+                "he/she feels"
+              ],
+              [
+                "nos sentimos",
+                "we feel"
+              ]
+            ],
+            "note": "Adjective still agrees: me siento cansado / cansada."
+          }
+        },
+        {
+          "id": "g_contraction_al_del",
+          "grammar": true,
+          "english": "to the / of the (a+el→al, de+el→del)",
+          "word": "al / del",
+          "grammarNote": "Two mandatory contractions before masculine **el**:\n**a + el → al** (Voy **al** parque), **de + el → del** (la puerta **del** hotel). They don't contract with **la/los/las**.",
+          "englishPhrase": "I'm going to the market from the office.",
+          "phrase": "Voy al mercado desde la oficina.",
+          "literal": [
+            [
+              "Voy",
+              "I-go"
+            ],
+            [
+              "al",
+              "to-the"
+            ],
+            [
+              "mercado",
+              "market"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "el contracts: a + el → al, de + el → del",
+            "task": "I'm going to the park; the hotel door",
+            "answer": "voy al parque; la puerta del hotel",
+            "gloss": "Only masculine singular el contracts — never la/los/las."
+          }
+        },
+        {
+          "id": "g_ir_a_place",
+          "grammar": true,
+          "english": "I'm going to the park. (ir a + place)",
+          "word": "voy al parque",
+          "grammarNote": "**ir a** + place = to go to a place; remember **a + el → al**:\n**voy al parque** (I go to the park), **vamos a la playa** (we go to the beach). Also **ir a** + infinitive = near future: **voy a comer**.",
+          "englishPhrase": "We're going to the beach today.",
+          "phrase": "Hoy vamos a la playa.",
+          "literal": [
+            [
+              "Hoy",
+              "today"
+            ],
+            [
+              "vamos",
+              "we-go"
+            ],
+            [
+              "a",
+              "to"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "playa",
+              "beach"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "ir a — two jobs",
+            "a": {
+              "term": "voy al parque",
+              "gloss": "a + place → go somewhere (a+el→al)"
+            },
+            "b": {
+              "term": "voy a comer",
+              "gloss": "a + verb → going to (near future)"
+            }
+          }
+        },
+        {
+          "id": "g_estar_gerund",
+          "grammar": true,
+          "english": "I am swimming. (estar + gerund)",
+          "word": "estoy nadando",
+          "grammarNote": "The present progressive = **estar** + gerund (**-ando** / **-iendo**):\n**estoy nadando** (I'm swimming), **estoy comiendo** (I'm eating). Only for actions happening right now.",
+          "englishPhrase": "She is reading now.",
+          "phrase": "Ella está leyendo ahora.",
+          "literal": [
+            [
+              "Ella",
+              "she"
+            ],
+            [
+              "está",
+              "is"
+            ],
+            [
+              "leyendo",
+              "reading"
+            ],
+            [
+              "ahora",
+              "now"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Present progressive: estar + gerund",
+            "rows": [
+              [
+                "-ar → -ando",
+                "hablar → hablando"
+              ],
+              [
+                "-er → -iendo",
+                "comer → comiendo"
+              ],
+              [
+                "-ir → -iendo",
+                "vivir → viviendo"
+              ]
+            ],
+            "note": "estoy nadando = I'm swimming (right now)."
+          }
+        },
+        {
+          "id": "g_stem_change_querer",
+          "grammar": true,
+          "format": "table",
+          "table": {
+            "title": "querer — to want (e→ie)",
+            "rows": [
+              [
+                "yo",
+                "quiero"
+              ],
+              [
+                "tú",
+                "quieres"
+              ],
+              [
+                "él / ella / usted",
+                "quiere"
+              ],
+              [
+                "nosotros",
+                "queremos"
+              ],
+              [
+                "ellos / ellas",
+                "quieren"
+              ]
+            ],
+            "highlight": "nosotros",
+            "note": "Stem e→ie in the stressed forms; nosotros keeps the e."
+          },
+          "english": "you want (informal)",
+          "word": "quieres",
+          "grammarNote": "**querer** is a stem-changing verb: e→ie in the stressed forms.\n**quiero · quieres · quiere · queremos · quieren** — note **nosotros queremos** keeps the **e** (unstressed).",
+          "englishPhrase": "Do you want a coffee?",
+          "phrase": "¿Quieres un café?",
+          "literal": [
+            [
+              "Quieres",
+              "want"
+            ],
+            [
+              "un",
+              "a"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ]
+        },
+        {
+          "id": "g_la_mano_gender",
+          "grammar": true,
+          "english": "the hand (la mano — feminine, exception)",
+          "word": "la mano",
+          "grammarNote": "**la mano** is feminine even though it ends in **-o** — a classic exception:\n**la mano derecha** (the right hand). Other tricky ones: **el día** (masc., ends -a), **el problema** (masc.).",
+          "englishPhrase": "Give me your right hand.",
+          "phrase": "Dame la mano derecha.",
+          "literal": [
+            [
+              "Dame",
+              "give-me"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "mano",
+              "hand"
+            ],
+            [
+              "derecha",
+              "right"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Gender exceptions",
+            "rows": [
+              [
+                "la mano",
+                "hand — fem., ends -o"
+              ],
+              [
+                "el día",
+                "day — masc., ends -a"
+              ],
+              [
+                "el problema",
+                "problem — masc."
+              ],
+              [
+                "el mapa",
+                "map — masc."
+              ]
+            ],
+            "note": "These break the -o/-a rule; memorize them."
+          }
+        },
+        {
+          "id": "g_trabajar_de",
+          "grammar": true,
+          "english": "I work as a nurse. (trabajar de/como)",
+          "word": "trabajo de enfermero",
+          "grammarNote": "**trabajar de** or **trabajar como** = to work as (a job):\n**trabajo de enfermero** (I work as a nurse), **trabajo en un hospital** (I work in a hospital — **en** for the place).",
+          "englishPhrase": "I work as a cook in a restaurant.",
+          "phrase": "Trabajo de cocinero en un restaurante.",
+          "literal": [
+            [
+              "Trabajo",
+              "I-work"
+            ],
+            [
+              "de",
+              "as"
+            ],
+            [
+              "cocinero",
+              "cook"
+            ],
+            [
+              "en",
+              "in"
+            ],
+            [
+              "un",
+              "a"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Talking about your job",
+            "rows": [
+              [
+                "trabajar de",
+                "trabajo de enfermero"
+              ],
+              [
+                "trabajar como",
+                "trabajo como enfermero"
+              ],
+              [
+                "trabajar en",
+                "trabajo en un hospital"
+              ]
+            ],
+            "note": "de / como = work AS; en = work IN / at a place."
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_past_tense",
+      "name": "Past Tense",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "pt_pret_ar",
+          "grammar": true,
+          "english": "I worked yesterday. (preterite, -ar)",
+          "word": "ayer trabajé",
+          "grammarNote": "The **preterite** is the narrative past — a single, completed action seen as finished. Regular **-ar** verbs take the endings **-é, -aste, -ó, -amos, -aron**. Only **yo** and **él/ella** carry a written accent.",
+          "englishPhrase": "Yesterday I worked at the office.",
+          "phrase": "Ayer trabajé en la oficina.",
+          "literal": [
+            [
+              "Ayer",
+              "yesterday"
+            ],
+            [
+              "trabajé",
+              "I worked"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "oficina",
+              "office"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Preterite: -ar verbs (trabajar)",
+            "rows": [
+              [
+                "yo",
+                "trabajé"
+              ],
+              [
+                "tú",
+                "trabajaste"
+              ],
+              [
+                "él / ella",
+                "trabajó"
+              ],
+              [
+                "nosotros",
+                "trabajamos"
+              ],
+              [
+                "ellos",
+                "trabajaron"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Accents only on trabajé and trabajó."
+          }
+        },
+        {
+          "id": "pt_pret_erir",
+          "grammar": true,
+          "english": "I ate at the restaurant. (preterite, -er/-ir)",
+          "word": "comí en el restaurante",
+          "grammarNote": "**-er** and **-ir** verbs share the *same* preterite endings: **-í, -iste, -ió, -imos, -ieron**. So comer and vivir conjugate identically.",
+          "englishPhrase": "Last night I ate at the restaurant.",
+          "phrase": "Anoche comí en el restaurante.",
+          "literal": [
+            [
+              "Anoche",
+              "last night"
+            ],
+            [
+              "comí",
+              "I ate"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Preterite: -er / -ir (comer, vivir)",
+            "rows": [
+              [
+                "yo",
+                "comí / viví"
+              ],
+              [
+                "tú",
+                "comiste / viviste"
+              ],
+              [
+                "él / ella",
+                "comió / vivió"
+              ],
+              [
+                "nosotros",
+                "comimos / vivimos"
+              ],
+              [
+                "ellos",
+                "comieron / vivieron"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "-er and -ir are identical in the preterite."
+          }
+        },
+        {
+          "id": "pt_pret_cloze",
+          "grammar": true,
+          "english": "Yesterday she cooked dinner. (él/ella preterite)",
+          "word": "ayer ella cocinó la cena",
+          "grammarNote": "For a finished, one-time action use the preterite. The **él/ella** form of an -ar verb ends in **-ó** (cocinó), never the present **-a** (cocina).",
+          "englishPhrase": "Yesterday she cooked dinner.",
+          "phrase": "Ayer ella cocinó la cena.",
+          "literal": [
+            [
+              "Ayer",
+              "yesterday"
+            ],
+            [
+              "ella",
+              "she"
+            ],
+            [
+              "cocinó",
+              "cooked"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cena",
+              "dinner"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "she cooked dinner (finished action → preterite)",
+            "text": "ayer ella ___ la cena",
+            "answer": "cocinó",
+            "options": [
+              "cocina",
+              "cocinó"
+            ]
+          }
+        },
+        {
+          "id": "pt_pret_fui",
+          "grammar": true,
+          "english": "I went to the park. (ir → fui)",
+          "word": "fui al parque",
+          "grammarNote": "**ser** and **ir** have the *same* irregular preterite: **fui, fuiste, fue, fuimos, fueron** — context tells them apart. **Fui al parque** = I went; **fui médico** = I was a doctor.",
+          "englishPhrase": "Yesterday I went to the park.",
+          "phrase": "Ayer fui al parque.",
+          "literal": [
+            [
+              "Ayer",
+              "yesterday"
+            ],
+            [
+              "fui",
+              "I went"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "parque",
+              "park"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Preterite: ser AND ir (identical)",
+            "rows": [
+              [
+                "yo",
+                "fui"
+              ],
+              [
+                "tú",
+                "fuiste"
+              ],
+              [
+                "él / ella",
+                "fue"
+              ],
+              [
+                "nosotros",
+                "fuimos"
+              ],
+              [
+                "ellos",
+                "fueron"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "No accents. Context decides 'went' vs 'was'."
+          }
+        },
+        {
+          "id": "pt_pret_ustem",
+          "grammar": true,
+          "english": "I was at home last night. (estar → estuve)",
+          "word": "anoche estuve en casa",
+          "grammarNote": "A group of irregulars takes a new stem + the endings **-e, -iste, -o, -imos, -ieron** (no accents): **estar→estuv-, tener→tuv-, poder→pud-**. So: estuve, tuve, pude.",
+          "englishPhrase": "Last night I was at home.",
+          "phrase": "Anoche estuve en casa.",
+          "literal": [
+            [
+              "Anoche",
+              "last night"
+            ],
+            [
+              "estuve",
+              "I was"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular preterite (new stem, -e/-o)",
+            "rows": [
+              [
+                "estar",
+                "estuve, estuvo"
+              ],
+              [
+                "tener",
+                "tuve, tuvo"
+              ],
+              [
+                "poder",
+                "pude, pudo"
+              ]
+            ],
+            "note": "Endings: -e, -iste, -o, -imos, -ieron. No accent on yo/él."
+          }
+        },
+        {
+          "id": "pt_pret_hice",
+          "grammar": true,
+          "english": "I made dinner yesterday. (hacer → hice)",
+          "word": "ayer hice la cena",
+          "grammarNote": "More irregular stems, same **-e/-o** endings: **hacer→hic-** (but **hizo** with z), **decir→dij-** (dijeron, no i), **venir→vin-**.",
+          "englishPhrase": "Yesterday I made dinner.",
+          "phrase": "Ayer hice la cena.",
+          "literal": [
+            [
+              "Ayer",
+              "yesterday"
+            ],
+            [
+              "hice",
+              "I made"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "cena",
+              "dinner"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular preterite (hacer, decir, venir)",
+            "rows": [
+              [
+                "hacer",
+                "hice, hizo"
+              ],
+              [
+                "decir",
+                "dije, dijo"
+              ],
+              [
+                "venir",
+                "vine, vino"
+              ]
+            ],
+            "highlight": "hacer",
+            "note": "hizo spelled with z; dijeron drops the i."
+          }
+        },
+        {
+          "id": "pt_pret_produce",
+          "grammar": true,
+          "english": "Say the preterite 'yo' form. (I ate / drank / lived)",
+          "word": "comí, bebí, viví",
+          "grammarNote": "The **yo** preterite of regular -er/-ir verbs ends in a stressed **-í**: comer→comí, beber→bebí, vivir→viví.",
+          "englishPhrase": "I ate, I drank, I lived.",
+          "phrase": "Comí, bebí, viví.",
+          "literal": [
+            [
+              "Comí",
+              "I ate"
+            ],
+            [
+              "bebí",
+              "I drank"
+            ],
+            [
+              "viví",
+              "I lived"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Preterite = one finished action in the past",
+            "task": "I ate, I drank, I lived",
+            "answer": "comí, bebí, viví",
+            "gloss": "regular -er/-ir yo form → stressed -í"
+          }
+        },
+        {
+          "id": "pt_imp_ar",
+          "grammar": true,
+          "english": "As a child I used to swim. (imperfect, -ar)",
+          "word": "de niño nadaba",
+          "grammarNote": "The **imperfect** is the 'used to / was ‑ing' past — habits and background, no clear end. Regular **-ar** verbs take **-aba, -abas, -aba, -ábamos, -aban**.",
+          "englishPhrase": "As a child I used to swim at the beach.",
+          "phrase": "De niño nadaba en la playa.",
+          "literal": [
+            [
+              "De niño",
+              "as a child"
+            ],
+            [
+              "nadaba",
+              "I used to swim"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "playa",
+              "beach"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Imperfect: -ar verbs (nadar)",
+            "rows": [
+              [
+                "yo",
+                "nadaba"
+              ],
+              [
+                "tú",
+                "nadabas"
+              ],
+              [
+                "él / ella",
+                "nadaba"
+              ],
+              [
+                "nosotros",
+                "nadábamos"
+              ],
+              [
+                "ellos",
+                "nadaban"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "yo and él/ella are identical: nadaba."
+          }
+        },
+        {
+          "id": "pt_imp_erir",
+          "grammar": true,
+          "english": "As a child I used to eat a lot of bread. (imperfect, -er/-ir)",
+          "word": "de niño comía mucho pan",
+          "grammarNote": "**-er** and **-ir** verbs share the imperfect endings **-ía, -ías, -ía, -íamos, -ían** — every form carries an accent on the **í**.",
+          "englishPhrase": "As a child I used to eat a lot of bread.",
+          "phrase": "De niño comía mucho pan.",
+          "literal": [
+            [
+              "De niño",
+              "as a child"
+            ],
+            [
+              "comía",
+              "I used to eat"
+            ],
+            [
+              "mucho",
+              "a lot of"
+            ],
+            [
+              "pan",
+              "bread"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Imperfect: -er / -ir (comer, vivir)",
+            "rows": [
+              [
+                "yo",
+                "comía / vivía"
+              ],
+              [
+                "tú",
+                "comías / vivías"
+              ],
+              [
+                "él / ella",
+                "comía / vivía"
+              ],
+              [
+                "nosotros",
+                "comíamos / vivíamos"
+              ],
+              [
+                "ellos",
+                "comían / vivían"
+              ]
+            ],
+            "note": "Accent on every í. -er and -ir identical."
+          }
+        },
+        {
+          "id": "pt_imp_irreg",
+          "grammar": true,
+          "english": "As a child I was happy. (ser → era)",
+          "word": "de niño era feliz",
+          "grammarNote": "The imperfect has only **three** irregular verbs: **ser→era, ir→iba, ver→veía**. Learn these; everything else is regular.",
+          "englishPhrase": "As a child I was happy.",
+          "phrase": "De niño era feliz.",
+          "literal": [
+            [
+              "De niño",
+              "as a child"
+            ],
+            [
+              "era",
+              "I was"
+            ],
+            [
+              "feliz",
+              "happy"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "The 3 irregular imperfects",
+            "rows": [
+              [
+                "ser",
+                "era, eras, era…"
+              ],
+              [
+                "ir",
+                "iba, ibas, iba…"
+              ],
+              [
+                "ver",
+                "veía, veías, veía…"
+              ]
+            ],
+            "note": "The ONLY irregular imperfect verbs."
+          }
+        },
+        {
+          "id": "pt_imp_cloze",
+          "grammar": true,
+          "english": "She always cooked at home. (habit → imperfect)",
+          "word": "siempre cocinaba en casa",
+          "grammarNote": "Words like **siempre** (always) and **nunca** (never) signal a repeated habit → use the **imperfect** (cocinaba), not the preterite (cocinó).",
+          "englishPhrase": "She always cooked at home.",
+          "phrase": "Siempre cocinaba en casa.",
+          "literal": [
+            [
+              "Siempre",
+              "always"
+            ],
+            [
+              "cocinaba",
+              "she cooked"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "she always cooked (repeated habit → imperfect)",
+            "text": "siempre ___ en casa",
+            "answer": "cocinaba",
+            "options": [
+              "cocinó",
+              "cocinaba"
+            ]
+          }
+        },
+        {
+          "id": "pt_imp_produce",
+          "grammar": true,
+          "english": "Say the imperfect. (I used to work / she used to study)",
+          "word": "trabajaba, estudiaba",
+          "grammarNote": "Imperfect = 'used to' or 'would' (habitual). -ar yo/él ends in **-aba**: trabajaba, estudiaba.",
+          "englishPhrase": "I used to work, she used to study.",
+          "phrase": "Trabajaba, estudiaba.",
+          "literal": [
+            [
+              "Trabajaba",
+              "I used to work"
+            ],
+            [
+              "estudiaba",
+              "she used to study"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Imperfect = used to / would (a past habit)",
+            "task": "I used to work, she used to study",
+            "answer": "trabajaba, estudiaba",
+            "gloss": "-ar habitual past → -aba (yo and él/ella match)"
+          }
+        },
+        {
+          "id": "pt_contrast",
+          "grammar": true,
+          "english": "I ate out — once vs. every day.",
+          "word": "comí / comía en el restaurante",
+          "grammarNote": "Same verb, two pasts: **preterite** = one finished event; **imperfect** = a repeated habit or ongoing background. **Comí** (I ate, that once) vs **comía** (I used to eat).",
+          "englishPhrase": "Yesterday I ate out; as a child I ate at home.",
+          "phrase": "Ayer comí en el restaurante; de niño comía en casa.",
+          "literal": [
+            [
+              "comí",
+              "I ate (once)"
+            ],
+            [
+              "comía",
+              "I used to eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "One event or a habit?",
+            "a": {
+              "term": "ayer comí",
+              "gloss": "once, finished → preterite"
+            },
+            "b": {
+              "term": "de niño comía",
+              "gloss": "repeated habit → imperfect"
+            }
+          }
+        },
+        {
+          "id": "pt_timewords",
+          "grammar": true,
+          "english": "Time words pick the tense.",
+          "word": "ayer trabajé / de niño trabajaba",
+          "grammarNote": "The time expression usually decides the tense. **ayer, anoche, la semana pasada** → a finished point → **preterite**. **siempre, de niño** → a habit → **imperfect**.",
+          "englishPhrase": "Yesterday I worked; as a child I worked here.",
+          "phrase": "Ayer trabajé; de niño trabajaba.",
+          "literal": [
+            [
+              "Ayer",
+              "yesterday"
+            ],
+            [
+              "trabajé",
+              "I worked (once)"
+            ],
+            [
+              "de niño",
+              "as a child"
+            ],
+            [
+              "trabajaba",
+              "I used to work"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Which past does the time word want?",
+            "rows": [
+              [
+                "ayer / anoche",
+                "preterite"
+              ],
+              [
+                "la semana pasada",
+                "preterite"
+              ],
+              [
+                "siempre / nunca",
+                "imperfect"
+              ],
+              [
+                "de niño",
+                "imperfect"
+              ]
+            ],
+            "note": "A fixed point → preterite; a habit → imperfect."
+          }
+        },
+        {
+          "id": "pt_interrupt",
+          "grammar": true,
+          "english": "I was cooking when she arrived. (background + event)",
+          "word": "cocinaba cuando llegó",
+          "grammarNote": "For an interrupted scene, the ongoing background is **imperfect** (cocinaba) and the event that cuts in is **preterite** (llegó). English 'was ‑ing' → imperfect.",
+          "englishPhrase": "I was cooking when she arrived.",
+          "phrase": "Cocinaba cuando llegó.",
+          "literal": [
+            [
+              "Cocinaba",
+              "I was cooking"
+            ],
+            [
+              "cuando",
+              "when"
+            ],
+            [
+              "llegó",
+              "she arrived"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I was cooking (ongoing) when she arrived",
+            "text": "___ cuando llegó",
+            "answer": "cocinaba",
+            "options": [
+              "cociné",
+              "cocinaba"
+            ]
+          }
+        },
+        {
+          "id": "pt_sequence",
+          "grammar": true,
+          "english": "I arrived, cooked, and ate. (a chain of events)",
+          "word": "llegué, cociné y comí",
+          "grammarNote": "A sequence of completed actions, each moving the story forward, is all **preterite**: llegué, cociné, comí. (Note llegar → **llegué** keeps the hard g with -ué.)",
+          "englishPhrase": "I arrived, I cooked, and I ate.",
+          "phrase": "Llegué, cociné y comí.",
+          "literal": [
+            [
+              "Llegué",
+              "I arrived"
+            ],
+            [
+              "cociné",
+              "I cooked"
+            ],
+            [
+              "y",
+              "and"
+            ],
+            [
+              "comí",
+              "I ate"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "A chain of finished actions → all preterite",
+            "task": "I arrived, I cooked, and I ate",
+            "answer": "llegué, cociné y comí",
+            "gloss": "each completed step moves the story → preterite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_future_conditional",
+      "name": "Future & Conditional",
+      "language": "spanish",
+      "kind": "grammar",
+      "cards": [
+        {
+          "id": "future_ir_a",
+          "grammar": true,
+          "english": "Tomorrow I'm going to study at home. (near/planned future: ir a + infinitive)",
+          "word": "mañana voy a estudiar en casa",
+          "grammarNote": "The **near future** is **ir a + infinitive**: conjugate *ir* (voy, vas, va, vamos, van) and add **a** plus an unchanged infinitive. It's the most common way to talk about plans in speech.",
+          "englishPhrase": "Tomorrow I'm going to study at home.",
+          "phrase": "Mañana voy a estudiar en casa.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "voy a",
+              "I'm going to"
+            ],
+            [
+              "estudiar",
+              "study"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "ir a + infinitive (near future)",
+            "rows": [
+              [
+                "yo",
+                "voy a estudiar"
+              ],
+              [
+                "tú",
+                "vas a estudiar"
+              ],
+              [
+                "él / ella",
+                "va a estudiar"
+              ],
+              [
+                "nosotros",
+                "vamos a estudiar"
+              ],
+              [
+                "ellos",
+                "van a estudiar"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Only ir changes; the infinitive stays the same."
+          }
+        },
+        {
+          "id": "future_regular",
+          "grammar": true,
+          "english": "Tomorrow I will speak with María. (simple future)",
+          "word": "mañana hablaré con María",
+          "grammarNote": "The **simple future** adds one set of endings to the *whole infinitive* — same for -ar, -er, -ir: **-é, -ás, -á, -emos, -án**. hablar → hablaré, comer → comeré, vivir → viviré.",
+          "englishPhrase": "Tomorrow I will speak with María.",
+          "phrase": "Mañana hablaré con María.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "hablaré",
+              "I will speak"
+            ],
+            [
+              "con",
+              "with"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Simple future (endings on the infinitive)",
+            "rows": [
+              [
+                "yo",
+                "hablaré"
+              ],
+              [
+                "tú",
+                "hablarás"
+              ],
+              [
+                "él / ella",
+                "hablará"
+              ],
+              [
+                "nosotros",
+                "hablaremos"
+              ],
+              [
+                "ellos",
+                "hablarán"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Same endings for -ar/-er/-ir. Accent on every form except nosotros."
+          }
+        },
+        {
+          "id": "future_erir_cloze",
+          "grammar": true,
+          "english": "Tomorrow I will eat at the restaurant. (future -er)",
+          "word": "mañana comeré en el restaurante",
+          "grammarNote": "Future endings attach to the **full infinitive**, so -er/-ir verbs work the same way: comer → **comeré**, vivir → **viviré**.",
+          "englishPhrase": "Tomorrow I will eat at the restaurant.",
+          "phrase": "Mañana comeré en el restaurante.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "comeré",
+              "I will eat"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I will eat (future)",
+            "text": "mañana ___ en el restaurante",
+            "answer": "comeré",
+            "options": [
+              "como",
+              "comeré"
+            ]
+          }
+        },
+        {
+          "id": "future_irregular",
+          "grammar": true,
+          "english": "Tomorrow I will have to work. (irregular future stems)",
+          "word": "mañana tendré que trabajar",
+          "grammarNote": "Some verbs use an **irregular future stem** but take the **normal endings**: tener→**tendr-**, poder→**podr-**, salir→**saldr-**, hacer→**har-**, decir→**dir-**. So tener → tendré, tendrás, tendrá...",
+          "englishPhrase": "Tomorrow I will have to work.",
+          "phrase": "Mañana tendré que trabajar.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "tendré",
+              "I will have"
+            ],
+            [
+              "que",
+              "to"
+            ],
+            [
+              "trabajar",
+              "work"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular future stems (+ normal endings)",
+            "rows": [
+              [
+                "tener",
+                "tendré"
+              ],
+              [
+                "poder",
+                "podré"
+              ],
+              [
+                "salir",
+                "saldré"
+              ],
+              [
+                "hacer",
+                "haré"
+              ],
+              [
+                "decir",
+                "diré"
+              ]
+            ],
+            "highlight": "tener",
+            "note": "Stem changes, but the endings (-é, -ás, -á...) are the same."
+          }
+        },
+        {
+          "id": "future_vs_ir_a",
+          "grammar": true,
+          "english": "going to eat vs. will eat",
+          "word": "voy a comer / comeré",
+          "grammarNote": "**ir a + infinitive** = a near, planned future (very common in speech). The **simple future** (-é) feels a bit more distant or formal. Both are correct.",
+          "englishPhrase": "I'm going to eat now; tomorrow I will eat at home.",
+          "phrase": "Voy a comer ahora; mañana comeré en casa.",
+          "literal": [
+            [
+              "voy a comer",
+              "I'm going to eat"
+            ],
+            [
+              "comeré",
+              "I will eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Near plan or general 'will'?",
+            "a": {
+              "term": "voy a comer",
+              "gloss": "near, planned → ir a + inf"
+            },
+            "b": {
+              "term": "comeré",
+              "gloss": "general 'will' → simple future"
+            }
+          }
+        },
+        {
+          "id": "future_produce",
+          "grammar": true,
+          "english": "Say the future 'yo' form. (I will eat / drink / live)",
+          "word": "comeré, beberé, viviré",
+          "grammarNote": "The **yo** future ends in a stressed **-é** on the full infinitive: comer→comeré, beber→beberé, vivir→viviré.",
+          "englishPhrase": "I will eat, I will drink, I will live.",
+          "phrase": "Comeré, beberé, viviré.",
+          "literal": [
+            [
+              "Comeré",
+              "I will eat"
+            ],
+            [
+              "beberé",
+              "I will drink"
+            ],
+            [
+              "viviré",
+              "I will live"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Simple future = 'will' (endings on the infinitive)",
+            "task": "I will eat, I will drink, I will live",
+            "answer": "comeré, beberé, viviré",
+            "gloss": "regular yo future → stressed -é"
+          }
+        },
+        {
+          "id": "future_probability",
+          "grammar": true,
+          "english": "He's probably at home. (future of probability / a guess about the present)",
+          "word": "estará en casa",
+          "grammarNote": "The **future** can express **probability about the present** — a guess, not a plan. *Está en casa* = I know he's home; *estará en casa* = he's **probably** home. Often answers ¿Dónde estará? (Where can he be?).",
+          "englishPhrase": "He is at home (I know); he's probably at home (a guess).",
+          "phrase": "Está en casa; estará en casa.",
+          "literal": [
+            [
+              "está",
+              "he is"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "casa",
+              "home"
+            ],
+            [
+              "estará",
+              "he probably is"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Fact you know or a guess?",
+            "a": {
+              "term": "está en casa",
+              "gloss": "fact → I know he's home"
+            },
+            "b": {
+              "term": "estará en casa",
+              "gloss": "guess → he's probably home"
+            }
+          }
+        },
+        {
+          "id": "future_cloze_ir",
+          "grammar": true,
+          "english": "Tomorrow I will go to the park. (future of ir)",
+          "word": "mañana iré al parque",
+          "grammarNote": "*ir* is **regular** in the future: it takes the normal endings on the infinitive → **iré, irás, irá, iremos, irán**.",
+          "englishPhrase": "Tomorrow I will go to the park.",
+          "phrase": "Mañana yo iré al parque.",
+          "literal": [
+            [
+              "Mañana",
+              "tomorrow"
+            ],
+            [
+              "yo",
+              "I"
+            ],
+            [
+              "iré",
+              "will go"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "parque",
+              "park"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I will go (future)",
+            "text": "mañana yo ___ al parque",
+            "answer": "iré",
+            "options": [
+              "voy",
+              "iré"
+            ]
+          }
+        },
+        {
+          "id": "cond_regular",
+          "grammar": true,
+          "english": "I would speak with her. (conditional)",
+          "word": "yo hablaría con María",
+          "grammarNote": "The **conditional** ('would') adds one set of endings to the *whole infinitive* — same for -ar/-er/-ir: **-ía, -ías, -ía, -íamos, -ían**. hablar → hablaría.",
+          "englishPhrase": "I would speak with María.",
+          "phrase": "Yo hablaría con María.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "hablaría",
+              "would speak"
+            ],
+            [
+              "con",
+              "with"
+            ],
+            [
+              "María",
+              "María"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Conditional (endings on the infinitive)",
+            "rows": [
+              [
+                "yo",
+                "hablaría"
+              ],
+              [
+                "tú",
+                "hablarías"
+              ],
+              [
+                "él / ella",
+                "hablaría"
+              ],
+              [
+                "nosotros",
+                "hablaríamos"
+              ],
+              [
+                "ellos",
+                "hablarían"
+              ]
+            ],
+            "highlight": "yo",
+            "note": "Accent on every í. yo and él/ella match."
+          }
+        },
+        {
+          "id": "cond_erir_cloze",
+          "grammar": true,
+          "english": "I would eat at the restaurant. (conditional -er)",
+          "word": "yo comería en el restaurante",
+          "grammarNote": "Conditional endings attach to the **full infinitive**, so -er/-ir behave the same: comer → **comería**, vivir → **viviría**.",
+          "englishPhrase": "I would eat at the restaurant.",
+          "phrase": "Yo comería en el restaurante.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "comería",
+              "would eat"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "restaurante",
+              "restaurant"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I would eat (conditional)",
+            "text": "yo ___ en el restaurante",
+            "answer": "comería",
+            "options": [
+              "como",
+              "comería"
+            ]
+          }
+        },
+        {
+          "id": "cond_irregular",
+          "grammar": true,
+          "english": "I would have to work more. (irregular conditional)",
+          "word": "yo tendría que trabajar",
+          "grammarNote": "Some verbs use an **irregular stem** — the *same* stem as the future — then add **-ía**. tener → **tendría**, hacer → **haría**, poder → **podría**, salir → **saldría**, decir → **diría**.",
+          "englishPhrase": "I would have to work more.",
+          "phrase": "Yo tendría que trabajar más.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "tendría",
+              "would have"
+            ],
+            [
+              "que",
+              "to"
+            ],
+            [
+              "trabajar",
+              "work"
+            ],
+            [
+              "más",
+              "more"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Irregular conditional stems (same as future) + -ía",
+            "rows": [
+              [
+                "tener",
+                "tendría"
+              ],
+              [
+                "hacer",
+                "haría"
+              ],
+              [
+                "poder",
+                "podría"
+              ],
+              [
+                "salir",
+                "saldría"
+              ],
+              [
+                "decir",
+                "diría"
+              ]
+            ],
+            "highlight": "tener",
+            "note": "Learn the stem once; future and conditional share it."
+          }
+        },
+        {
+          "id": "cond_politeness",
+          "grammar": true,
+          "english": "I want a coffee vs. I would like a coffee",
+          "word": "quiero / me gustaría",
+          "grammarNote": "The **conditional softens** requests to sound polite. Blunt: **quiero** (I want). Polite: **me gustaría** (I would like), **¿podrías...?** (could you...?).",
+          "englishPhrase": "I want a coffee → I would like a coffee, please.",
+          "phrase": "Quiero un café → Me gustaría un café.",
+          "literal": [
+            [
+              "Quiero",
+              "I want"
+            ],
+            [
+              "me gustaría",
+              "I would like"
+            ],
+            [
+              "un",
+              "a"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Blunt or polite?",
+            "a": {
+              "term": "quiero un café",
+              "gloss": "want → direct/blunt"
+            },
+            "b": {
+              "term": "me gustaría un café",
+              "gloss": "would like → polite (conditional)"
+            }
+          }
+        },
+        {
+          "id": "cond_hypothetical",
+          "grammar": true,
+          "english": "Say the wish: I would live at the beach; I would travel a lot.",
+          "word": "viviría en la playa; viajaría mucho",
+          "grammarNote": "The **conditional** expresses hypotheticals and wishes ('would'). vivir → **viviría**, viajar → **viajaría** — regular -ía on the full infinitive.",
+          "englishPhrase": "I would live at the beach; I would travel a lot.",
+          "phrase": "Viviría en la playa; viajaría mucho.",
+          "literal": [
+            [
+              "Viviría",
+              "I would live"
+            ],
+            [
+              "en",
+              "at"
+            ],
+            [
+              "la",
+              "the"
+            ],
+            [
+              "playa",
+              "beach"
+            ],
+            [
+              "viajaría",
+              "I would travel"
+            ],
+            [
+              "mucho",
+              "a lot"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Conditional = 'would' for wishes/hypotheticals",
+            "task": "I would live at the beach; I would travel a lot",
+            "answer": "viviría en la playa; viajaría mucho",
+            "gloss": "regular yo conditional → -ía"
+          }
+        },
+        {
+          "id": "cond_produce",
+          "grammar": true,
+          "english": "Say the conditional 'yo' form. (I would eat / drink / live)",
+          "word": "comería, bebería, viviría",
+          "grammarNote": "The **yo** conditional ends in **-ía** on the full infinitive: comer→comería, beber→bebería, vivir→viviría.",
+          "englishPhrase": "I would eat, I would drink, I would live.",
+          "phrase": "Comería, bebería, viviría.",
+          "literal": [
+            [
+              "Comería",
+              "I would eat"
+            ],
+            [
+              "bebería",
+              "I would drink"
+            ],
+            [
+              "viviría",
+              "I would live"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Conditional = 'would' (endings on the infinitive)",
+            "task": "I would eat, I would drink, I would live",
+            "answer": "comería, bebería, viviría",
+            "gloss": "regular yo conditional → -ía"
+          }
+        },
+        {
+          "id": "cond_vs_future",
+          "grammar": true,
+          "english": "I will eat vs. I would eat",
+          "word": "comeré / comería",
+          "grammarNote": "Future and conditional share the same stem; only the endings differ. Future **-é** = 'will' (comeré). Conditional **-ía** = 'would' (comería).",
+          "englishPhrase": "Tomorrow I will eat; I would eat more, but I can't.",
+          "phrase": "Mañana comeré; comería más, pero no puedo.",
+          "literal": [
+            [
+              "comeré",
+              "I will eat"
+            ],
+            [
+              "comería",
+              "I would eat"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "'Will' or 'would'?",
+            "a": {
+              "term": "comeré",
+              "gloss": "future → will (-é)"
+            },
+            "b": {
+              "term": "comería",
+              "gloss": "conditional → would (-ía)"
+            }
+          }
+        },
+        {
+          "id": "cond_cloze",
+          "grammar": true,
+          "english": "I would go to the park, but I can't. (conditional of ir)",
+          "word": "yo iría al parque",
+          "grammarNote": "**ir** is regular in the conditional: add **-ía** to the infinitive → **iría** (I would go). Don't confuse it with the future **iré** (I will go).",
+          "englishPhrase": "I would go to the park, but I can't.",
+          "phrase": "Yo iría al parque, pero no puedo.",
+          "literal": [
+            [
+              "Yo",
+              "I"
+            ],
+            [
+              "iría",
+              "would go"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "parque",
+              "park"
+            ],
+            [
+              "pero",
+              "but"
+            ],
+            [
+              "no puedo",
+              "I can't"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I would go (conditional)",
+            "text": "yo ___ al parque, pero no puedo",
+            "answer": "iría",
+            "options": [
+              "iré",
+              "iría"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "grammar_object_pronouns",
+      "name": "Object Pronouns",
+      "kind": "grammar",
+      "language": "spanish",
+      "cards": [
+        {
+          "id": "do_table",
+          "grammar": true,
+          "english": "Direct object pronouns — the full set (me / te / lo·la / nos / los·las)",
+          "word": "me, te, lo/la, nos, los/las",
+          "grammarNote": "A **direct object** receives the action of the verb. Replace it with a **direct object pronoun** that matches the person (and gender/number for third person). The pronoun goes **before** the conjugated verb.\n\n**¿El café? Lo quiero.** → *lo* replaces *el café*.",
+          "englishPhrase": "The coffee? I want it.",
+          "phrase": "¿El café? Lo quiero.",
+          "literal": [
+            [
+              "¿El café?",
+              "The coffee?"
+            ],
+            [
+              "Lo",
+              "it (masc.)"
+            ],
+            [
+              "quiero",
+              "I want"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Direct object pronouns",
+            "rows": [
+              [
+                "me",
+                "me"
+              ],
+              [
+                "te",
+                "you (tú)"
+              ],
+              [
+                "lo / la",
+                "him / her / it"
+              ],
+              [
+                "nos",
+                "us"
+              ],
+              [
+                "los / las",
+                "them"
+              ]
+            ],
+            "highlight": "lo / la",
+            "note": "lo/la and los/las must match the gender and number of the noun they replace."
+          }
+        },
+        {
+          "id": "do_replace_noun",
+          "grammar": true,
+          "english": "lo/la replaces a noun to avoid repetition (it — the bread / the salad)",
+          "word": "Lo compro. / La compro.",
+          "grammarNote": "To avoid repeating a noun, replace it with **lo** (masculine) or **la** (feminine). The pronoun goes **before** the conjugated verb.\n\n*Compro el pan.* → **Lo** compro. | *Compro la ensalada.* → **La** compro.",
+          "englishPhrase": "I buy the bread. → I buy it.",
+          "phrase": "Compro el pan. → Lo compro.",
+          "literal": [
+            [
+              "Compro",
+              "I buy"
+            ],
+            [
+              "el pan",
+              "the bread"
+            ],
+            [
+              "Lo",
+              "it (masc.)"
+            ],
+            [
+              "compro",
+              "I buy"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "it (the bread — masculine)",
+            "text": "Compro el pan. → ___ compro.",
+            "answer": "Lo",
+            "options": [
+              "Lo",
+              "La"
+            ]
+          }
+        },
+        {
+          "id": "do_agreement",
+          "grammar": true,
+          "english": "lo/la/los/las must match the gender AND number of the noun replaced",
+          "word": "lo, la, los, las",
+          "grammarNote": "**lo** = masc. singular (el pan, el queso…)\n**la** = fem. singular (la ensalada, la leche…)\n**los** = masc. plural (los huevos, los platos…)\n**las** = fem. plural (las galletas, las manzanas…)\n\nAlways match the replaced noun, not the English 'it/them'.",
+          "englishPhrase": "The bread — I want it. The salad — I want it. The cookies — I want them.",
+          "phrase": "El pan — lo quiero. La ensalada — la quiero. Las galletas — las quiero.",
+          "literal": [
+            [
+              "El pan",
+              "the bread"
+            ],
+            [
+              "lo",
+              "it (masc. sg.)"
+            ],
+            [
+              "La ensalada",
+              "the salad"
+            ],
+            [
+              "la",
+              "it (fem. sg.)"
+            ],
+            [
+              "Las galletas",
+              "the cookies"
+            ],
+            [
+              "las",
+              "them (fem. pl.)"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Direct object pronoun gender/number agreement",
+            "task": "Give the correct pronoun for: the bread (masc. sg.), the salad (fem. sg.), the cookies (fem. pl.)",
+            "answer": "lo, la, las",
+            "gloss": "lo → masc. sg. | la → fem. sg. | las → fem. pl."
+          }
+        },
+        {
+          "id": "do_placement",
+          "grammar": true,
+          "english": "Pronoun placement: before a conjugated verb OR attached to an infinitive (both correct)",
+          "word": "lo quiero comprar / quiero comprarlo",
+          "grammarNote": "With **conjugated verb + infinitive**, the direct object pronoun has two equally correct positions:\n1. **Before the conjugated verb**: *Lo quiero comprar.*\n2. **Attached to the infinitive**: *Quiero comprarlo.*\n\nBoth mean the same thing.",
+          "englishPhrase": "I want to buy it.",
+          "phrase": "Lo quiero comprar. / Quiero comprarlo.",
+          "literal": [
+            [
+              "Lo",
+              "it"
+            ],
+            [
+              "quiero",
+              "I want"
+            ],
+            [
+              "comprar",
+              "to buy"
+            ],
+            [
+              "Quiero",
+              "I want"
+            ],
+            [
+              "comprarlo",
+              "to buy it"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Both are correct — where does 'lo' go?",
+            "a": {
+              "term": "Lo quiero comprar.",
+              "gloss": "pronoun before the conjugated verb (quiero)"
+            },
+            "b": {
+              "term": "Quiero comprarlo.",
+              "gloss": "pronoun attached to the infinitive"
+            }
+          }
+        },
+        {
+          "id": "do_gerund",
+          "grammar": true,
+          "english": "With estar + gerund, pronoun attaches to the gerund (with accent) OR goes before estar",
+          "word": "Lo estoy mirando. / Estoy mirándolo.",
+          "grammarNote": "With **estar + gerund**, the direct object pronoun has two positions:\n1. **Before estar**: *Lo estoy mirando.*\n2. **Attached to the gerund** (written accent required): *Estoy **mirándolo**.*\n\nWhen you attach the pronoun, add an accent to keep the original stress on the gerund.",
+          "englishPhrase": "I am watching it.",
+          "phrase": "Lo estoy mirando. / Estoy mirándolo.",
+          "literal": [
+            [
+              "Lo",
+              "it"
+            ],
+            [
+              "estoy",
+              "I am"
+            ],
+            [
+              "mirando",
+              "watching"
+            ],
+            [
+              "Estoy",
+              "I am"
+            ],
+            [
+              "mirándolo",
+              "watching it"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "I am watching it — attach the pronoun to the gerund",
+            "text": "Estoy ___ (watching it)",
+            "answer": "mirándolo",
+            "options": [
+              "mirándolo",
+              "mirandolo"
+            ]
+          }
+        },
+        {
+          "id": "io_table",
+          "grammar": true,
+          "english": "Indirect object pronouns: to/for whom",
+          "word": "me / te / le / nos / les",
+          "grammarNote": "The **indirect object pronoun** marks the recipient — 'to/for whom'. It goes **before** the conjugated verb. **me** = to me, **te** = to you, **le** = to him/her/usted, **nos** = to us, **les** = to them.",
+          "englishPhrase": "I give the menu to him (the waiter).",
+          "phrase": "Le doy el menú al camarero.",
+          "literal": [
+            [
+              "Le",
+              "to him"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "menú",
+              "menu"
+            ],
+            [
+              "al",
+              "to the"
+            ],
+            [
+              "camarero",
+              "waiter"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Indirect Object Pronouns",
+            "rows": [
+              [
+                "me",
+                "to me"
+              ],
+              [
+                "te",
+                "to you (tú)"
+              ],
+              [
+                "le",
+                "to him / her / usted"
+              ],
+              [
+                "nos",
+                "to us"
+              ],
+              [
+                "les",
+                "to them"
+              ]
+            ],
+            "highlight": "le",
+            "note": "Pronoun goes before the conjugated verb."
+          }
+        },
+        {
+          "id": "io_dar_decir",
+          "grammar": true,
+          "english": "le = to him/her with dar and decir",
+          "word": "le doy, le digo",
+          "grammarNote": "Use **le** when the recipient is 'him', 'her', or 'usted'. It always goes **before** the verb: **le** doy, **le** digo, **le** escribo.",
+          "englishPhrase": "I give the cake to María.",
+          "phrase": "Le doy el pastel a María.",
+          "literal": [
+            [
+              "Le",
+              "to her"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "pastel",
+              "cake"
+            ],
+            [
+              "a María",
+              "to María"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "to her (María) — I give the cake",
+            "text": "___ doy el pastel a María.",
+            "answer": "le",
+            "options": [
+              "le",
+              "lo"
+            ]
+          }
+        },
+        {
+          "id": "io_redundant_a",
+          "grammar": true,
+          "english": "le + a [person] together = natural Spanish",
+          "word": "Le doy el café a María.",
+          "grammarNote": "In Spanish, **le** and **a + person** are used **together**. The pronoun (le/les) is required even when you also name the person with 'a'. This is normal, not redundant.",
+          "englishPhrase": "I give the coffee to María.",
+          "phrase": "Le doy el café a María.",
+          "literal": [
+            [
+              "Le",
+              "to her"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ],
+            [
+              "a María",
+              "to María"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "IO pronoun + 'a + person' together",
+            "task": "Say 'I give the coffee to María' — use both le and a María.",
+            "answer": "Le doy el café a María.",
+            "gloss": "le + a María together is normal in Spanish — the pronoun is never dropped"
+          }
+        },
+        {
+          "id": "io_gustar",
+          "grammar": true,
+          "english": "gustar in reverse: IO pronoun marks who likes it",
+          "word": "me gusta / te gusta / le gusta",
+          "grammarNote": "With **gustar**, the thing liked is the **subject** (gusta = singular, gustan = plural). The IO pronoun marks **who** likes it. So: 'I like coffee' = **me gusta** el café (literally: coffee pleases me).",
+          "englishPhrase": "She likes the coffee.",
+          "phrase": "A ella le gusta el café.",
+          "literal": [
+            [
+              "A ella",
+              "to her / she"
+            ],
+            [
+              "le",
+              "to her"
+            ],
+            [
+              "gusta",
+              "is pleasing"
+            ],
+            [
+              "el",
+              "the"
+            ],
+            [
+              "café",
+              "coffee"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "gustar — reverse verb",
+            "rows": [
+              [
+                "(a mí) me",
+                "gusta / gustan"
+              ],
+              [
+                "(a ti) te",
+                "gusta / gustan"
+              ],
+              [
+                "(a él/ella) le",
+                "gusta / gustan"
+              ],
+              [
+                "(a nosotros) nos",
+                "gusta / gustan"
+              ],
+              [
+                "(a ellos) les",
+                "gusta / gustan"
+              ]
+            ],
+            "note": "gusta = one thing liked; gustan = multiple things liked."
+          }
+        },
+        {
+          "id": "io_doler",
+          "grammar": true,
+          "english": "doler (to hurt) follows the same pattern as gustar",
+          "word": "me duele / me duelen",
+          "grammarNote": "**doler** works like gustar — the IO pronoun marks who feels the pain, and the verb agrees with the body part. **me duele** (one part) vs. **me duelen** (plural: los pies, las manos).",
+          "englishPhrase": "My head hurts. (My feet hurt.)",
+          "phrase": "Me duele la cabeza. (Me duelen los pies.)",
+          "literal": [
+            [
+              "Me",
+              "to me"
+            ],
+            [
+              "duele",
+              "hurts"
+            ],
+            [
+              "la cabeza",
+              "the head"
+            ],
+            [
+              "Me duelen",
+              "hurt me (plural)"
+            ],
+            [
+              "los pies",
+              "the feet"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "hurts — my head (singular body part)",
+            "text": "Me ___ la cabeza.",
+            "answer": "duele",
+            "options": [
+              "duele",
+              "duelen"
+            ]
+          }
+        },
+        {
+          "id": "io_lo_vs_le",
+          "grammar": true,
+          "english": "lo (direct) vs. le (indirect): sees him vs. gives to him",
+          "word": "lo veo / le doy el café",
+          "grammarNote": "**lo** = direct object — the person/thing directly receiving the action (who/what is seen, bought, etc.). **le** = indirect object — the recipient of something ('to/for whom'). When you give, say, or write *something* **to** someone, that 'someone' gets **le**.",
+          "englishPhrase": "I see him; I give him the coffee.",
+          "phrase": "Lo veo; le doy el café.",
+          "literal": [
+            [
+              "Lo",
+              "him (direct)"
+            ],
+            [
+              "veo",
+              "I see"
+            ],
+            [
+              "le",
+              "to him (indirect)"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "el café",
+              "the coffee"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Which pronoun: sees him (direct) or gives to him (indirect)?",
+            "a": {
+              "term": "lo veo",
+              "gloss": "I see him → direct object (lo)"
+            },
+            "b": {
+              "term": "le doy el café",
+              "gloss": "I give him the coffee → indirect object / recipient (le)"
+            }
+          }
+        },
+        {
+          "id": "dbl_order",
+          "grammar": true,
+          "english": "Double object pronouns: indirect always comes first",
+          "word": "me lo / te la / nos los",
+          "grammarNote": "When a sentence has TWO object pronouns, the **indirect pronoun comes first**, then the direct: **indirect + direct**.",
+          "englishPhrase": "The coffee? The waiter gives it to me.",
+          "phrase": "¿El café? Me lo da el camarero.",
+          "literal": [
+            [
+              "¿El café?",
+              "The coffee?"
+            ],
+            [
+              "Me",
+              "to me (indirect)"
+            ],
+            [
+              "lo",
+              "it (direct)"
+            ],
+            [
+              "da",
+              "gives"
+            ],
+            [
+              "el camarero",
+              "the waiter"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Two pronouns: indirect + direct",
+            "rows": [
+              [
+                "me + lo",
+                "me lo da"
+              ],
+              [
+                "te + la",
+                "te la doy"
+              ],
+              [
+                "nos + los",
+                "nos los da"
+              ]
+            ],
+            "note": "Order is always: indirect first, then direct."
+          }
+        },
+        {
+          "id": "dbl_se_lo",
+          "grammar": true,
+          "english": "le/les + lo/la → se lo / se la (never le lo)",
+          "word": "se lo / se la",
+          "grammarNote": "When **le** or **les** appears before **lo / la / los / las**, the **le/les becomes se**. **Le lo** is never allowed → always **se lo**.",
+          "englishPhrase": "The menu? I give it to María.",
+          "phrase": "¿El menú? Se lo doy a María.",
+          "literal": [
+            [
+              "¿El menú?",
+              "The menu?"
+            ],
+            [
+              "Se",
+              "to her (indirect, le → se)"
+            ],
+            [
+              "lo",
+              "it (direct)"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "a María",
+              "to María"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "to her (María) + it",
+            "text": "El menú, a María → ___ lo doy.",
+            "answer": "se",
+            "options": [
+              "le",
+              "se"
+            ]
+          }
+        },
+        {
+          "id": "dbl_se_produce",
+          "grammar": true,
+          "english": "Produce the se lo transformation",
+          "word": "se lo doy / se lo dice",
+          "grammarNote": "**le** or **les** + **lo/la** → **se lo / se la**. The indirect object can be clarified with 'a + name': **se lo doy a María**.",
+          "englishPhrase": "I give it (the coffee) to María. He tells it to her.",
+          "phrase": "Se lo doy a María. Él se lo dice.",
+          "literal": [
+            [
+              "Se",
+              "to her (le → se)"
+            ],
+            [
+              "lo",
+              "it (the coffee, direct)"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "a María",
+              "to María"
+            ],
+            [
+              "Él",
+              "He"
+            ],
+            [
+              "se",
+              "to her"
+            ],
+            [
+              "lo",
+              "it"
+            ],
+            [
+              "dice",
+              "tells"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "le/les → se before lo/la",
+            "task": "Give it (the coffee) to María; tell it to her.",
+            "answer": "Se lo doy a María. Él se lo dice.",
+            "gloss": "le + lo is never allowed → se lo; indirect always first"
+          }
+        },
+        {
+          "id": "dbl_attach_inf",
+          "grammar": true,
+          "english": "Double pronouns: before conjugated verb OR attached to infinitive",
+          "word": "te lo quiero dar / quiero dártelo",
+          "grammarNote": "With an infinitive, both pronouns can go **before the conjugated verb** (separate) or **attached together to the infinitive** (add written accent).",
+          "englishPhrase": "I want to give it to you.",
+          "phrase": "Te lo quiero dar. / Quiero dártelo.",
+          "literal": [
+            [
+              "Te",
+              "to you (indirect)"
+            ],
+            [
+              "lo",
+              "it (direct)"
+            ],
+            [
+              "quiero",
+              "I want"
+            ],
+            [
+              "dar",
+              "to give"
+            ],
+            [
+              "dártelo",
+              "to-give-it-to-you (attached)"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Where do the double pronouns go with an infinitive?",
+            "a": {
+              "term": "te lo quiero dar",
+              "gloss": "before conjugated verb"
+            },
+            "b": {
+              "term": "quiero dártelo",
+              "gloss": "both attached to infinitive"
+            }
+          }
+        },
+        {
+          "id": "dbl_full_produce",
+          "grammar": true,
+          "english": "Full production: order + se lo rule together",
+          "word": "te lo compro / se la doy",
+          "grammarNote": "Combine both rules: **indirect first + direct second**, and **le → se** before lo/la. El pastel (masc.) → **lo**; la cuenta (fem.) → **la**.",
+          "englishPhrase": "I buy it (the cake) for you. I give it (the bill) to the waiter.",
+          "phrase": "Te lo compro. Se la doy al camarero.",
+          "literal": [
+            [
+              "Te",
+              "to you (indirect)"
+            ],
+            [
+              "lo",
+              "it (el pastel, direct)"
+            ],
+            [
+              "compro",
+              "I buy"
+            ],
+            [
+              "Se",
+              "to him (le → se)"
+            ],
+            [
+              "la",
+              "it (la cuenta, direct)"
+            ],
+            [
+              "doy",
+              "I give"
+            ],
+            [
+              "al camarero",
+              "to the waiter"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "Double pronouns: order + se rule",
+            "task": "I buy it (the cake) for you; I give it (the bill) to the waiter.",
+            "answer": "Te lo compro. Se la doy al camarero.",
+            "gloss": "el pastel → lo (masc.); la cuenta → la (fem.); le + la → se la"
+          }
+        }
+      ]
+    }
+  ]
+}

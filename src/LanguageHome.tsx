@@ -3,7 +3,9 @@ import "./main-styles.css";
 
 function prefetchLanguage(language: string) {
     void import('./pages/Home');
-    void fetch(`/languages/${language}/decks.json`);
+    for (const file of ['main_course.json', 'extension_decks.json', 'grammar_decks.json']) {
+        void fetch(`/languages/${language}/${file}`);
+    }
 }
 
 const prefetchESZH = () => { void import('./pages/ESZHReview'); };
