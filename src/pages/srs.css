@@ -505,6 +505,26 @@ button.srs-count:hover {
     padding: 40px 0;
 }
 
+/* ── Global (cross-language) deck picker ── */
+.global-lang-group {
+    margin-bottom: 18px;
+}
+
+.global-lang-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #888;
+    margin: 0 0 8px;
+}
+
+.global-pack-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
 /* ── Bookmarks button ── */
 .srs-btn-bookmarks {
     padding: 8px 16px;

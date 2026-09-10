@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
-import { useParams, useLocation } from "wouter";
-import LiteralGloss, { type LiteralData } from "../components/LiteralGloss";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { useLocation } from "wouter";
+import LiteralGloss from "../components/LiteralGloss";
 import GrammarNote from "../components/GrammarNote";
-import { applyRating, CardState, isDue, isNew, previewIntervals, Rating } from "../fsrs";
+import { applyRating, CardState, isNew, previewIntervals, Rating } from "../fsrs";
 import { useLanguageApp } from "../../LanguageAppContext";
 import {
-    loadMultiDeckState,
+    loadDeckState,
     saveDeckState,
     getCardState,
     updateCardState,
@@ -13,117 +13,58 @@ import {
     toggleBookmark,
     SRSDeckState,
 } from "../useStorage";
-import { useSpeech } from "../../hooks/useSpeech";
-import { useDecks } from "../../hooks/useDecks";
+import { getVoiceForLanguage, useVoices } from "../../hooks/useLanguage";
+import { useAllDecks } from "../../hooks/useDecks";
 import { shuffled } from "../../utils";
 import FlipCard from "../components/FlipCard";
-import type { GrammarFormat, ClozeData, TableData, ContrastData, ProduceData } from "../components/GrammarFace";
+import { type CombinedCard, type CombinedSessionCard, buildSession, orderFastCards } from "../deckSession";
 import Settings from "../components/Settings";
+import { STANDARD_LANGUAGES, languageLabel } from "../../common/languages";
 import "../srs.css";
 import "../Review/Review.css";
 
-const PACK_SELECTION_KEY = (language: string) => `pack_selection_${language}`;
+const GLOBAL_SELECTION_KEY = "global_deck_selection";
+const LANGUAGE_IDS = STANDARD_LANGUAGES.map((l) => l.id);
 
-interface Card {
-    id: string;
-    hidden?: boolean;
-    grammar?: boolean;
-    format?: GrammarFormat;
-    cloze?: ClozeData;
-    table?: TableData;
-    contrast?: ContrastData;
-    produce?: ProduceData;
-    english: string;
-    word: string;
-    romanized?: string;
-    code?: string;
-    codeLang?: string;
-    grammarNote?: string;
-    englishPhrase?: string;
-    phrase?: string;
-    phraseRomanized?: string;
-    literal?: LiteralData;
+interface Selection {
+    language: string;
+    packId: string;
 }
-
-interface CombinedCard extends Card {
-    deckId: string;
-    deckName: string;
-}
-
-type CombinedSessionCard = CombinedCard & { cardState: CardState };
 
 interface HideTarget {
     cardId: string;
     deckId: string;
+    language: string;
 }
 
-interface CategorizedCards {
-    due: CombinedSessionCard[];    // review cards past their due date
-    learn: CombinedSessionCard[];  // learning cards, least mastered first
-    newCards: CombinedSessionCard[];
-    later: CombinedSessionCard[];  // review cards not yet due ("mastered")
-}
+const deckKeyOf = (language: string, packId: string) => `${language}:${packId}`;
 
-// Split every selected card into priority buckets, ordered across ALL decks
-// (not sequentially per deck). Due cards sort by how overdue they are; learning
-// cards sort by stability ascending so the least-mastered surface first.
-function categorize(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>
-): CategorizedCards {
-    const due: CombinedSessionCard[] = [];
-    const learn: CombinedSessionCard[] = [];
-    const newCards: CombinedSessionCard[] = [];
-    const later: CombinedSessionCard[] = [];
-
-    for (const card of cards) {
-        const deckState = deckStates.get(card.deckId) ?? {};
-        if (isCardHidden(card, deckState)) continue;
-        const state = getCardState(deckState, card.id);
-        const sessionCard: CombinedSessionCard = { ...card, cardState: state };
-        if (isNew(state)) newCards.push(sessionCard);
-        else if (state.state === "learning") learn.push(sessionCard);
-        else if (isDue(state)) due.push(sessionCard);
-        else later.push(sessionCard);
+function loadSelection(): Selection[] {
+    try {
+        const raw = localStorage.getItem(GLOBAL_SELECTION_KEY);
+        return raw ? (JSON.parse(raw) as Selection[]) : [];
+    } catch {
+        return [];
     }
-
-    due.sort((a, b) => a.cardState.dueDate.localeCompare(b.cardState.dueDate));
-    learn.sort((a, b) => a.cardState.stability - b.cardState.stability);
-    return { due, learn, newCards, later };
 }
 
-// SRS session: only cards that are actually due to study today —
-// due → learning (least mastered) → new. Mastered-but-not-due cards wait.
-function buildSession(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>,
-    shuffle: boolean
-): CombinedSessionCard[] {
-    const { due, learn, newCards } = categorize(cards, deckStates);
-    return [due, learn, newCards].flatMap(g => shuffle ? shuffled(g) : g);
+function saveSelection(sel: Selection[]) {
+    localStorage.setItem(GLOBAL_SELECTION_KEY, JSON.stringify(sel));
 }
 
-// Fast mode plays every visible card, but ordered by the same priority so the
-// most important cards come first: due → learning (least mastered) → new →
-// already-mastered. New and mastered cards get pushed to the bottom.
-function orderFastCards(
-    cards: CombinedCard[],
-    deckStates: Map<string, SRSDeckState>
-): CombinedCard[] {
-    const { due, learn, newCards, later } = categorize(cards, deckStates);
-    return [...due, ...learn, ...newCards, ...later];
-}
-
-const UnifiedReview = () => {
-    const { language } = useParams<{ language: string }>();
+const GlobalDeck = () => {
     const [, navigate] = useLocation();
-    const { packs, loading: packsLoading } = useDecks(language);
+    const { packsByLang, loading: packsLoading } = useAllDecks(LANGUAGE_IDS);
+    const voices = useVoices();
+
+    const [selection, setSelection] = useState<Selection[]>(() => loadSelection());
+    const [editing, setEditing] = useState<boolean>(() => loadSelection().length === 0);
 
     const [allCards, setAllCards] = useState<CombinedCard[]>([]);
     const [deckStates, setDeckStates] = useState<Map<string, SRSDeckState>>(new Map());
     const [session, setSession] = useState<CombinedSessionCard[]>([]);
     const [isFlipped, setIsFlipped] = useState(false);
-    const { readFront, readBack, fastMode, displayMode, autoplay, setAutoplay, showRomanized } = useLanguageApp();
+    const { readFront, readBack, volume, fastMode, displayMode, autoplay, setAutoplay, showRomanized } = useLanguageApp();
     const [done, setDone] = useState(false);
     const [totalCards, setTotalCards] = useState(0);
     const [reviewed, setReviewed] = useState(0);
@@ -138,58 +79,76 @@ const UnifiedReview = () => {
     const [isFastShuffled, setIsFastShuffled] = useState(false);
     const [hideTarget, setHideTarget] = useState<HideTarget | null>(null);
 
-    const { buildUtt } = useSpeech(language);
     const ttsGenRef = useRef(0);
+
+    // Per-card TTS: pick the voice from the card's own language for the target
+    // side, English for the prompt side. (Mirrors ESZHReview's per-language utts.)
+    const buildUtt = useCallback((text: string, isTarget: boolean, cardLang: string): SpeechSynthesisUtterance => {
+        const utt = new SpeechSynthesisUtterance(text.replace(/\(.*?\)/g, ""));
+        utt.voice = getVoiceForLanguage(voices, isTarget ? cardLang : "english") ?? null;
+        utt.rate = 0.9;
+        utt.volume = volume;
+        return utt;
+    }, [voices, volume]);
 
     const cancelTts = () => {
         ttsGenRef.current += 1;
         window.speechSynthesis.cancel();
     };
 
+    // Build the combined cross-language session from the saved selection.
     useEffect(() => {
-        if (!language || packsLoading) return;
-
-        const raw = localStorage.getItem(PACK_SELECTION_KEY(language));
-        const selectedIds: string[] = raw ? (JSON.parse(raw) as string[]) : [];
-        if (selectedIds.length === 0) {
+        if (packsLoading) return;
+        if (selection.length === 0) {
+            setAllCards([]);
+            setSession([]);
             setLoaded(true);
             return;
         }
-
-        const selectedPacks = packs.filter((p) => selectedIds.includes(p.id));
-        const combined: CombinedCard[] = selectedPacks.flatMap((p) =>
-            p.cards.map((c) => ({ ...c, deckId: p.id, deckName: p.name }))
-        );
-        const states = loadMultiDeckState(language, selectedPacks.map((p) => p.id));
+        const combined: CombinedCard[] = [];
+        const states = new Map<string, SRSDeckState>();
+        for (const { language, packId } of selection) {
+            const pack = (packsByLang[language] ?? []).find((p) => p.id === packId);
+            if (!pack) continue;
+            const deckKey = deckKeyOf(language, packId);
+            states.set(deckKey, loadDeckState(language, packId));
+            for (const c of pack.cards) {
+                combined.push({ ...c, deckId: packId, deckKey, deckName: pack.name, language });
+            }
+        }
         setAllCards(combined);
-        setFastModeCards(orderFastCards(combined, states));
         setDeckStates(states);
+        setFastModeCards(orderFastCards(combined, states));
         const s = buildSession(combined, states, false);
         setSession(s);
         setTotalCards(s.length);
+        setReviewed(0);
+        setDone(false);
+        setIsFlipped(false);
         setLoaded(true);
-    }, [language, packs, packsLoading]);
+    }, [selection, packsByLang, packsLoading]);
 
     const getCardDeckState = (card: CombinedCard): SRSDeckState =>
-        deckStates.get(card.deckId) ?? {};
+        deckStates.get(card.deckKey) ?? {};
 
     const speakTargetSide = (card: CombinedSessionCard) => {
         if (!readBack) return;
+        const lang = card.language!;
         const gen = ++ttsGenRef.current;
         window.speechSynthesis.cancel();
         setTimeout(() => {
             if (ttsGenRef.current !== gen) return;
             if (displayMode === 'phrase') {
-                if (card.phrase) window.speechSynthesis.speak(buildUtt(card.phrase, true));
+                if (card.phrase) window.speechSynthesis.speak(buildUtt(card.phrase, true, lang));
                 return;
             }
-            const wordUtt = buildUtt(card.word, true);
+            const wordUtt = buildUtt(card.word, true, lang);
             if (displayMode !== 'word' && card.phrase) {
                 wordUtt.onend = () => {
                     if (ttsGenRef.current !== gen) return;
                     setTimeout(() => {
                         if (ttsGenRef.current !== gen) return;
-                        window.speechSynthesis.speak(buildUtt(card.phrase!, true));
+                        window.speechSynthesis.speak(buildUtt(card.phrase!, true, lang));
                     }, 650);
                 };
             }
@@ -209,7 +168,7 @@ const UnifiedReview = () => {
             const text = displayMode === 'phrase' && card.englishPhrase ? card.englishPhrase : card.english;
             setTimeout(() => {
                 if (ttsGenRef.current !== gen) return;
-                window.speechSynthesis.speak(buildUtt(text, false));
+                window.speechSynthesis.speak(buildUtt(text, false, card.language!));
             }, 200);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -222,11 +181,12 @@ const UnifiedReview = () => {
         if (visibleCards.length === 0) return;
         const total = visibleCards.length;
         const card = visibleCards[fastModeIndex % total];
+        const lang = card.language!;
 
-        const targetWord = readBack && displayMode !== 'phrase' ? [buildUtt(card.word, true)] : [];
-        const enWord = readFront && displayMode !== 'phrase' ? [buildUtt(card.english, false)] : [];
-        const targetPhrase = readBack && displayMode !== 'word' && card.phrase ? [buildUtt(card.phrase, true)] : [];
-        const enPhrase = readFront && displayMode !== 'word' && card.englishPhrase ? [buildUtt(card.englishPhrase, false)] : [];
+        const targetWord = readBack && displayMode !== 'phrase' ? [buildUtt(card.word, true, lang)] : [];
+        const enWord = readFront && displayMode !== 'phrase' ? [buildUtt(card.english, false, lang)] : [];
+        const targetPhrase = readBack && displayMode !== 'word' && card.phrase ? [buildUtt(card.phrase, true, lang)] : [];
+        const enPhrase = readFront && displayMode !== 'word' && card.englishPhrase ? [buildUtt(card.englishPhrase, false, lang)] : [];
         const utterances = ttsEnFirst
             ? [...enWord, ...targetWord, ...enPhrase, ...targetPhrase]
             : [...targetWord, ...enWord, ...targetPhrase, ...enPhrase];
@@ -283,6 +243,7 @@ const UnifiedReview = () => {
     const keyHandlerRef = useRef<(e: KeyboardEvent) => void>(() => {});
 
     keyHandlerRef.current = (e: KeyboardEvent) => {
+        if (editing) return;
         const tag = (e.target as HTMLElement).tagName;
         if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'BUTTON') return;
 
@@ -332,14 +293,14 @@ const UnifiedReview = () => {
                 const text = displayMode === 'phrase' && currentCard.englishPhrase ? currentCard.englishPhrase : currentCard.english;
                 setTimeout(() => {
                     if (ttsGenRef.current !== gen) return;
-                    window.speechSynthesis.speak(buildUtt(text, false));
+                    window.speechSynthesis.speak(buildUtt(text, false, currentCard.language!));
                 }, 200);
             }
         } else speakTargetSide(currentCard);
     };
 
     const rate = (rating: Rating) => {
-        if (!currentCard || !language) return;
+        if (!currentCard) return;
         const deckState = getCardDeckState(currentCard);
         const ratedState = applyRating(currentCard.cardState, rating);
         const newState: CardState = { ...ratedState, bookmarked: deckState[currentCard.id]?.bookmarked };
@@ -356,20 +317,19 @@ const UnifiedReview = () => {
         }
 
         const updatedDeckState = updateCardState(deckState, currentCard.id, newState);
-        setDeckStates(m => new Map(m).set(currentCard.deckId, updatedDeckState));
-        saveDeckState(language, currentCard.deckId, updatedDeckState);
+        setDeckStates(m => new Map(m).set(currentCard.deckKey, updatedDeckState));
+        saveDeckState(currentCard.language!, currentCard.deckId, updatedDeckState);
         setSession(next);
         setIsFlipped(false);
         setNoteOpen(true);
         if (next.length === 0) setDone(true);
     };
 
-    const handleBookmark = (cardId: string, deckId: string) => {
-        if (!language) return;
-        const deckState = deckStates.get(deckId) ?? {};
-        const newState = toggleBookmark(deckState, cardId);
-        setDeckStates(m => new Map(m).set(deckId, newState));
-        saveDeckState(language, deckId, newState);
+    const handleBookmark = (card: CombinedCard) => {
+        const deckState = getCardDeckState(card);
+        const newState = toggleBookmark(deckState, card.id);
+        setDeckStates(m => new Map(m).set(card.deckKey, newState));
+        saveDeckState(card.language!, card.deckId, newState);
     };
 
     const handlePlay = () => {
@@ -377,34 +337,33 @@ const UnifiedReview = () => {
         if (!card) return;
         cancelTts();
         const gen = ++ttsGenRef.current;
-        const speakTarget = () => {
-            if (displayMode === 'phrase') {
-                if (card.phrase) setTimeout(() => { if (ttsGenRef.current === gen) window.speechSynthesis.speak(buildUtt(card.phrase!, true)); }, 100);
-                return;
-            }
-            setTimeout(() => {
-                if (ttsGenRef.current !== gen) return;
-                const wordUtt = buildUtt(card.word, true);
-                if (displayMode !== 'word' && card.phrase) {
-                    wordUtt.onend = () => {
+        const lang = card.language!;
+        if (displayMode === 'phrase') {
+            if (card.phrase) setTimeout(() => { if (ttsGenRef.current === gen) window.speechSynthesis.speak(buildUtt(card.phrase!, true, lang)); }, 100);
+            return;
+        }
+        setTimeout(() => {
+            if (ttsGenRef.current !== gen) return;
+            const wordUtt = buildUtt(card.word, true, lang);
+            if (displayMode !== 'word' && card.phrase) {
+                wordUtt.onend = () => {
+                    if (ttsGenRef.current !== gen) return;
+                    setTimeout(() => {
                         if (ttsGenRef.current !== gen) return;
-                        setTimeout(() => {
-                            if (ttsGenRef.current !== gen) return;
-                            window.speechSynthesis.speak(buildUtt(card.phrase!, true));
-                        }, 650);
-                    };
-                }
-                window.speechSynthesis.speak(wordUtt);
-            }, 100);
-        };
-        speakTarget();
+                        window.speechSynthesis.speak(buildUtt(card.phrase!, true, lang));
+                    }, 650);
+                };
+            }
+            window.speechSynthesis.speak(wordUtt);
+        }, 100);
     };
 
     const handleFastPlay = (card: CombinedCard) => {
         cancelTts();
         const gen = ++ttsGenRef.current;
-        const targetWord = displayMode !== 'phrase' ? [buildUtt(card.word, true)] : [];
-        const targetPhrase = displayMode !== 'word' && card.phrase ? [buildUtt(card.phrase, true)] : [];
+        const lang = card.language!;
+        const targetWord = displayMode !== 'phrase' ? [buildUtt(card.word, true, lang)] : [];
+        const targetPhrase = displayMode !== 'word' && card.phrase ? [buildUtt(card.phrase, true, lang)] : [];
         const utterances = [...targetWord, ...targetPhrase];
         if (utterances.length === 0) return;
         const speakChain = (utts: SpeechSynthesisUtterance[]) => {
@@ -417,21 +376,22 @@ const UnifiedReview = () => {
     };
 
     const confirmHide = () => {
-        if (!hideTarget || !language) return;
-        const { cardId, deckId } = hideTarget;
-        const deckState = deckStates.get(deckId) ?? {};
+        if (!hideTarget) return;
+        const { cardId, deckId, language } = hideTarget;
+        const deckKey = deckKeyOf(language, deckId);
+        const deckState = deckStates.get(deckKey) ?? {};
         const currentState = getCardState(deckState, cardId);
         const newCardState: CardState = { ...currentState, hidden: true };
         const newDeckState = updateCardState(deckState, cardId, newCardState);
-        const newDeckStates = new Map(deckStates).set(deckId, newDeckState);
+        const newDeckStates = new Map(deckStates).set(deckKey, newDeckState);
         setDeckStates(newDeckStates);
         saveDeckState(language, deckId, newDeckState);
-        setSession(s => s.filter(c => !(c.id === cardId && c.deckId === deckId)));
+        setSession(s => s.filter(c => !(c.id === cardId && c.deckKey === deckKey)));
         if (fastMode) {
-            const newVisible = fastModeCards.filter(c => !isCardHidden(c, newDeckStates.get(c.deckId) ?? {}));
+            const newVisible = fastModeCards.filter(c => !isCardHidden(c, newDeckStates.get(c.deckKey) ?? {}));
             if (newVisible.length > 0) setFastModeIndex(i => Math.min(i, newVisible.length - 1));
         }
-        const hidingCurrent = currentCard?.id === cardId && currentCard?.deckId === deckId;
+        const hidingCurrent = currentCard?.id === cardId && currentCard?.deckKey === deckKey;
         setHideTarget(null);
         if (hidingCurrent) { setIsFlipped(false); setNoteOpen(true); }
     };
@@ -451,41 +411,104 @@ const UnifiedReview = () => {
 
     const remaining = session.length;
 
-    if (!loaded) return <div className="srs-container"><p>Loading...</p></div>;
+    // ── Deck picker ───────────────────────────────────────────────────────────
+    const isSelected = (language: string, packId: string) =>
+        selection.some((s) => s.language === language && s.packId === packId);
+
+    const togglePack = (language: string, packId: string) => {
+        setSelection((prev) => {
+            const next = isSelected(language, packId)
+                ? prev.filter((s) => !(s.language === language && s.packId === packId))
+                : [...prev, { language, packId }];
+            saveSelection(next);
+            return next;
+        });
+    };
+
+    if (!loaded && !editing) return <div className="srs-container"><p>Loading...</p></div>;
+
+    if (editing) {
+        return (
+            <div className="srs-container">
+                <div className="srs-header">
+                    <button className="srs-back-link" onClick={() => navigate('/')}>← Home</button>
+                    <span className="srs-deck-name">Combined Deck</span>
+                    <span style={{ width: 60 }} />
+                </div>
+                <p className="srs-empty" style={{ marginBottom: 8 }}>
+                    Pick packs from any languages to study together in one deck.
+                </p>
+                {packsLoading && <p className="srs-empty">Loading decks…</p>}
+                {STANDARD_LANGUAGES.map(({ id, label }) => {
+                    const packs = packsByLang[id] ?? [];
+                    if (packs.length === 0) return null;
+                    return (
+                        <div key={id} className="global-lang-group">
+                            <h3 className="global-lang-title">{label}</h3>
+                            <div className="global-pack-list">
+                                {packs.map((p) => (
+                                    <button
+                                        key={p.id}
+                                        className={`eszh-toggle ${isSelected(id, p.id) ? "active" : ""}`}
+                                        onClick={() => togglePack(id, p.id)}
+                                    >
+                                        {isSelected(id, p.id) ? "✓ " : ""}{p.name}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    );
+                })}
+                <div className="srs-done-actions" style={{ position: 'sticky', bottom: 12, marginTop: 16 }}>
+                    <button
+                        className="srs-btn-primary"
+                        disabled={selection.length === 0}
+                        onClick={() => { setEditing(false); setIsFlipped(false); setNoteOpen(true); }}
+                    >
+                        Study {selection.length > 0 ? `(${selection.length} pack${selection.length !== 1 ? "s" : ""})` : ""}
+                    </button>
+                </div>
+            </div>
+        );
+    }
 
     if (allCards.length === 0) {
         return (
             <div className="srs-container">
                 <div className="srs-header">
-                    <button className="srs-back-link" onClick={() => navigate(`/${language}/`)}>← Decks</button>
-                    <span className="srs-deck-name">Study Session</span>
-                    <Settings language={language} />
+                    <button className="srs-back-link" onClick={() => navigate('/')}>← Home</button>
+                    <span className="srs-deck-name">Combined Deck</span>
+                    <button className="srs-back-link" onClick={() => setEditing(true)}>✎ Decks</button>
                 </div>
-                <p className="srs-empty">No packs selected. Go back and toggle some packs on.</p>
+                <p className="srs-empty">No packs selected. Tap “✎ Decks” to choose some.</p>
             </div>
         );
     }
-
-    const isInterview = language === "interview";
-    const langLabel = isInterview
-        ? "Answer"
-        : language
-        ? language.charAt(0).toUpperCase() + language.slice(1)
-        : "Target";
-    const noteLabel = isInterview ? "Explanation" : undefined;
 
     // ── Fast mode view ────────────────────────────────────────────────────────
     if (fastMode) {
         const visibleCards = fastModeCards.filter(c => !isCardHidden(c, getCardDeckState(c)));
         const total = visibleCards.length;
+        const header = (
+            <div className="srs-header">
+                <button className="srs-back-link" onClick={() => setEditing(true)}>✎ Decks</button>
+                <span className="srs-deck-name">Combined Deck</span>
+                <Settings onShuffle={() => {
+                    if (isFastShuffled) {
+                        setFastModeCards(orderFastCards(allCards, deckStates));
+                        setIsFastShuffled(false);
+                    } else {
+                        setFastModeCards(c => shuffled(c));
+                        setIsFastShuffled(true);
+                    }
+                    setFastModeIndex(0);
+                }} isShuffled={isFastShuffled} />
+            </div>
+        );
         if (total === 0) {
             return (
                 <div className="srs-container">
-                    <div className="srs-header">
-                        <button className="srs-back-link" onClick={() => navigate(`/${language}/`)}>← Decks</button>
-                        <span className="srs-deck-name">Study Session</span>
-                        <Settings language={language} />
-                    </div>
+                    {header}
                     <p className="srs-empty">No visible cards. Unhide cards in Browse to study them.</p>
                 </div>
             );
@@ -496,23 +519,10 @@ const UnifiedReview = () => {
         const isBookmarked = !!cardDeckState[card.id]?.bookmarked;
         return (
             <div className="srs-container">
-                <div className="srs-header">
-                    <button className="srs-back-link" onClick={() => navigate(`/${language}/`)}>← Decks</button>
-                    <span className="srs-deck-name">Study Session</span>
-                    <Settings language={language} onShuffle={() => {
-                        if (isFastShuffled) {
-                            setFastModeCards(orderFastCards(allCards, deckStates));
-                            setIsFastShuffled(false);
-                        } else {
-                            setFastModeCards(c => shuffled(c));
-                            setIsFastShuffled(true);
-                        }
-                        setFastModeIndex(0);
-                    }} isShuffled={isFastShuffled} />
-                </div>
+                {header}
                 <div className="eszh-controls">
                     <button className={`eszh-toggle ${!ttsEnFirst ? "active" : ""}`} onClick={() => setTtsEnFirst(false)}>
-                        {langLabel} first
+                        Target first
                     </button>
                     <button className={`eszh-toggle ${ttsEnFirst ? "active" : ""}`} onClick={() => setTtsEnFirst(true)}>
                         EN first
@@ -523,6 +533,7 @@ const UnifiedReview = () => {
                 </div>
                 <div className="srs-card-wrap">
                     <div className="srs-card srs-card-fast">
+                        <span className="global-card-lang-badge">{languageLabel(card.language!)}</span>
                         {displayMode !== 'phrase' && (
                             <div className="srs-card-back-word-group">
                                 {card.code ? (
@@ -548,20 +559,20 @@ const UnifiedReview = () => {
                         )}
                         <button
                             className={`srs-card-bookmark ${isBookmarked ? "bookmarked" : ""}`}
-                            onClick={e => { e.stopPropagation(); handleBookmark(card.id, card.deckId); }}
+                            onClick={e => { e.stopPropagation(); handleBookmark(card); }}
                             title={isBookmarked ? "Remove bookmark" : "Bookmark"}
                         >
                             {isBookmarked ? "🔖" : "🏷"}
                         </button>
                         <div className="srs-card-actions">
                             <button className="srs-card-action-btn" onClick={e => { e.stopPropagation(); handleFastPlay(card); }} title="Play audio">▶</button>
-                            <button className="srs-card-action-btn hide-btn" onClick={e => { e.stopPropagation(); setHideTarget({ cardId: card.id, deckId: card.deckId }); }} title="Hide card">✕</button>
+                            <button className="srs-card-action-btn hide-btn" onClick={e => { e.stopPropagation(); setHideTarget({ cardId: card.id, deckId: card.deckId, language: card.language! }); }} title="Hide card">✕</button>
                         </div>
                     </div>
                     {(card.literal || card.grammarNote) && (
                         <div className="srs-grammar-note-wrap">
                             <button className="srs-grammar-note-toggle" onClick={() => setNoteOpen(o => !o)}>
-                                {noteLabel ?? "Grammar note"} {noteOpen ? "▴" : "▾"}
+                                Grammar note {noteOpen ? "▴" : "▾"}
                             </button>
                             {noteOpen && (
                                 <div className="srs-grammar-note-body">
@@ -602,7 +613,8 @@ const UnifiedReview = () => {
                     <p>You reviewed {reviewed} card{reviewed !== 1 ? "s" : ""}.</p>
                     <p>Come back tomorrow to review cards that are due.</p>
                     <div className="srs-done-actions">
-                        <button className="srs-btn-primary" onClick={() => navigate(`/${language}/`)}>Back to Decks</button>
+                        <button className="srs-btn-primary" onClick={() => setEditing(true)}>Choose Decks</button>
+                        <button className="srs-btn-secondary" onClick={() => navigate('/')}>Home</button>
                     </div>
                 </div>
             </div>
@@ -614,8 +626,8 @@ const UnifiedReview = () => {
     return (
         <div className="srs-container">
             <div className="srs-header">
-                <button className="srs-back-link" onClick={() => navigate(`/${language}/`)}>← Decks</button>
-                <span className="srs-deck-name">Study Session</span>
+                <button className="srs-back-link" onClick={() => setEditing(true)}>✎ Decks</button>
+                <span className="srs-deck-name">Combined Deck</span>
                 <Settings onShuffle={() => {
                     if (isSrsShuffled) {
                         setSession(buildSession(allCards, deckStates, false));
@@ -634,13 +646,13 @@ const UnifiedReview = () => {
                     className={`eszh-toggle ${!reversed ? "active" : ""}`}
                     onClick={() => { setReversed(false); setIsFlipped(false); setNoteOpen(true); }}
                 >
-                    EN → {langLabel}
+                    EN → Target
                 </button>
                 <button
                     className={`eszh-toggle ${reversed ? "active" : ""}`}
                     onClick={() => { setReversed(true); setIsFlipped(false); setNoteOpen(true); }}
                 >
-                    {langLabel} → EN
+                    Target → EN
                 </button>
                 <button
                     className="eszh-toggle"
@@ -697,16 +709,18 @@ const UnifiedReview = () => {
                 onNoteToggle={() => setNoteOpen(o => !o)}
                 reversed={reversed}
                 onPlay={handlePlay}
-                onHide={() => setHideTarget({ cardId: currentCard.id, deckId: currentCard.deckId })}
-                noteLabel={noteLabel}
+                onHide={() => setHideTarget({ cardId: currentCard.id, deckId: currentCard.deckId, language: currentCard.language! })}
                 cardCorner={
-                    <button
-                        className={`srs-card-bookmark ${currentIsBookmarked ? "bookmarked" : ""}`}
-                        onClick={e => { e.stopPropagation(); handleBookmark(currentCard.id, currentCard.deckId); }}
-                        title={currentIsBookmarked ? "Remove bookmark" : "Bookmark"}
-                    >
-                        {currentIsBookmarked ? "🔖" : "🏷"}
-                    </button>
+                    <>
+                        <span className="global-card-lang-badge">{languageLabel(currentCard.language!)}</span>
+                        <button
+                            className={`srs-card-bookmark ${currentIsBookmarked ? "bookmarked" : ""}`}
+                            onClick={e => { e.stopPropagation(); handleBookmark(currentCard); }}
+                            title={currentIsBookmarked ? "Remove bookmark" : "Bookmark"}
+                        >
+                            {currentIsBookmarked ? "🔖" : "🏷"}
+                        </button>
+                    </>
                 }
             />
 
@@ -746,4 +760,4 @@ const UnifiedReview = () => {
     );
 };
 
-export default UnifiedReview;
+export default GlobalDeck;

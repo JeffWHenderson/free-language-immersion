@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function getVoiceForLanguage(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | undefined {
+export function getVoiceForLanguage(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | undefined {
     switch (lang) {
         case "english":
             return voices.find(v => v.name.toLowerCase() === "samantha")
@@ -28,13 +28,8 @@ function getVoiceForLanguage(voices: SpeechSynthesisVoice[], lang: string): Spee
     }
 }
 
-const useLanguage = ({
-    targetLanguage,
-    baseLanguage = "english",
-}: {
-    targetLanguage: string;
-    baseLanguage?: string;
-}): { targetVoice: SpeechSynthesisVoice | undefined; baseVoice: SpeechSynthesisVoice | undefined } => {
+/** Live list of available speech-synthesis voices, kept in sync with `voiceschanged`. */
+export function useVoices(): SpeechSynthesisVoice[] {
     const [voices, setVoices] = useState<SpeechSynthesisVoice[]>(() => speechSynthesis.getVoices());
 
     useEffect(() => {
@@ -42,6 +37,18 @@ const useLanguage = ({
         window.speechSynthesis.addEventListener("voiceschanged", load);
         return () => window.speechSynthesis.removeEventListener("voiceschanged", load);
     }, []);
+
+    return voices;
+}
+
+const useLanguage = ({
+    targetLanguage,
+    baseLanguage = "english",
+}: {
+    targetLanguage: string;
+    baseLanguage?: string;
+}): { targetVoice: SpeechSynthesisVoice | undefined; baseVoice: SpeechSynthesisVoice | undefined } => {
+    const voices = useVoices();
 
     return {
         targetVoice: getVoiceForLanguage(voices, targetLanguage),

@@ -9,6 +9,7 @@ function prefetchLanguage(language: string) {
 }
 
 const prefetchESZH = () => { void import('./pages/ESZHReview'); };
+const prefetchGlobalDeck = () => { void import('./pages/GlobalDeck'); };
 
 const LanguageAppHome = () => {
     const [, navigate] = useLocation()
@@ -73,8 +74,14 @@ const LanguageAppHome = () => {
                 </ul>
             </div>
             <div >
+                <button className="lang-cross-btn" onClick={() => navigate('/deck')} onMouseEnter={prefetchGlobalDeck}>
+                    combined deck (all languages)
+                </button>
                 <button className="lang-cross-btn" onClick={() => navigate('/es-zh')} onMouseEnter={prefetchESZH}>
                     es → zh test
+                </button>
+                <button className="lang-cross-btn" onClick={() => navigate('/interview/')} onMouseEnter={() => prefetchLanguage('interview')}>
+                    SWE interview prep (prototype)
                 </button>
             </div>
         </div>

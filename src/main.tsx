@@ -21,6 +21,7 @@ const GrammarReview = lazy(() => import('./pages/GrammarReview'));
 const ESZHReview = lazy(() => import('./pages/ESZHReview'));
 const Bookmarks = lazy(() => import('./pages/Bookmarks'));
 const UnifiedReview = lazy(() => import('./pages/UnifiedReview'));
+const GlobalDeck = lazy(() => import('./pages/GlobalDeck'));
 const AllGrammarList = lazy(() => import('./pages/AllGrammarList'));
 
 if ('serviceWorker' in navigator) {
@@ -50,6 +51,7 @@ createRoot(document.getElementById('root')!).render(
                 <Route path="/:language/pictures"><PictureList /></Route>
                 <Route path="/:language/bookmarks"><Bookmarks /></Route>
                 <Route path="/es-zh"><ESZHReview /></Route>
+                <Route path="/deck"><GlobalDeck /></Route>
                 <Route path="/:language/deck"><UnifiedReview /></Route>
                 <Route path="/:language/grammar"><AllGrammarList /></Route>
                 <Route path="/:language/:deckId"><Review /></Route>

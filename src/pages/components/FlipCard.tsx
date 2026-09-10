@@ -9,9 +9,13 @@ interface FlipCardProps {
     english: string;
     word: string;
     romanized?: string;
+    code?: string;
+    codeLang?: string;
     phrase?: string;
     phraseRomanized?: string;
     englishPhrase?: string;
+    /** Romanized-style hint shown under the prompt word (front, non-reversed). */
+    promptRomanized?: string;
     literal?: LiteralData;
     grammarNote?: string;
     grammar?: boolean;
@@ -25,11 +29,13 @@ interface FlipCardProps {
     cardCorner?: ReactNode;
     onPlay?: () => void;
     onHide?: () => void;
+    /** Label for the expandable note toggle (defaults to "Grammar note"). */
+    noteLabel?: string;
 }
 
 const FlipCard = ({
-    english, word, romanized, phrase, phraseRomanized, englishPhrase, literal, grammarNote, grammar, grammarFormat,
-    isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra, cardCorner, onPlay, onHide,
+    english, word, romanized, code, codeLang, phrase, phraseRomanized, englishPhrase, promptRomanized, literal, grammarNote, grammar, grammarFormat,
+    isFlipped, onFlip, noteOpen, onNoteToggle, reversed, backExtra, cardCorner, onPlay, onHide, noteLabel = "Grammar note",
 }: FlipCardProps) => {
     const { displayMode, showLiteral, showRomanized } = useLanguageApp();
     const hasFormat = !!grammarFormat?.format;
@@ -62,6 +68,7 @@ const FlipCard = ({
                     ) : (
                         <>
                             {displayMode !== 'phrase' && <div className="srs-card-text">{english}</div>}
+                            {displayMode !== 'phrase' && showRomanized && promptRomanized && <div className="srs-romanized">{promptRomanized}</div>}
                             {displayMode !== 'word' && (
                                 showLiteral && literalText
                                     ? <div className="eszh-phrase">{literalText}</div>
@@ -95,8 +102,17 @@ const FlipCard = ({
                         <>
                             {displayMode !== 'phrase' && (
                                 <div className="srs-card-back-word-group">
-                                    {showRomanized && romanized && <div className="srs-romanized">{romanized}</div>}
-                                    <div className="srs-card-text">{word}</div>
+                                    {code ? (
+                                        <>
+                                            {codeLang && <div className="srs-card-code-lang">{codeLang}</div>}
+                                            <pre className="srs-card-code"><code>{code}</code></pre>
+                                        </>
+                                    ) : (
+                                        <>
+                                            {showRomanized && romanized && <div className="srs-romanized">{romanized}</div>}
+                                            <div className="srs-card-text">{word}</div>
+                                        </>
+                                    )}
                                     <div className="srs-card-back-english">{english}</div>
                                 </div>
                             )}
@@ -115,7 +131,7 @@ const FlipCard = ({
             {isFlipped && (literal || grammarNote) && (
                 <div className="srs-grammar-note-wrap" onClick={e => e.stopPropagation()}>
                     <button className="srs-grammar-note-toggle" onClick={onNoteToggle}>
-                        Grammar note {noteOpen ? "▴" : "▾"}
+                        {noteLabel} {noteOpen ? "▴" : "▾"}
                     </button>
                     {noteOpen && (
                         <div className="srs-grammar-note-body">

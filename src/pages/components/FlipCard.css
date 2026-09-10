@@ -190,6 +190,27 @@
 }
 
 /* ── Card corner bookmark ── */
+.global-card-lang-badge {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(128, 128, 128, 0.85);
+    background: rgba(128, 128, 128, 0.12);
+    border-radius: 10px;
+    padding: 2px 8px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+[data-theme="dark"] .global-card-lang-badge {
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.08);
+}
+
 .srs-card-bookmark {
     position: absolute;
     bottom: 10px;
@@ -253,6 +274,40 @@
     font-size: 0.88rem;
     color: var(--text-color, #111);
     opacity: 0.45;
+}
+
+/* ── Code snippet cards ── */
+.srs-card-code-lang {
+    align-self: flex-start;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.5;
+    margin-bottom: 6px;
+}
+
+.srs-card-code {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    text-align: left;
+    background: rgba(40, 44, 52, 0.96);
+    color: #e6e6e6;
+    border-radius: 10px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    white-space: pre;
+    overflow-x: auto;
+    tab-size: 4;
+}
+
+.srs-card-code code {
+    font-family: inherit;
+    white-space: inherit;
 }
 
 /* ── Phrase lines ── */

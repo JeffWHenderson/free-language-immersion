@@ -13,6 +13,10 @@ export interface DeckCard {
     english: string;
     word: string;
     romanized?: string;
+    /** Code snippet shown as the answer (monospace, whitespace preserved). */
+    code?: string;
+    /** Optional language label shown above the code snippet (e.g. "Java"). */
+    codeLang?: string;
     grammarNote?: string;
     phrase?: string;
     phraseRomanized?: string;
@@ -95,4 +99,47 @@ export function useDecks(language: string | undefined): { packs: Pack[]; loading
     }, [language]);
 
     return { packs, loading };
+}
+
+/**
+ * Fetch packs for several languages at once (cross-language global deck). Reuses
+ * the same per-language cache as {@link useDecks} and the same split-file loader.
+ * Returns a map keyed by language.
+ */
+export function useAllDecks(languages: string[]): { packsByLang: Record<string, Pack[]>; loading: boolean } {
+    const key = languages.join(",");
+    const [packsByLang, setPacksByLang] = useState<Record<string, Pack[]>>(() => {
+        const seed: Record<string, Pack[]> = {};
+        for (const l of languages) if (cache[l]) seed[l] = cache[l];
+        return seed;
+    });
+    const [loading, setLoading] = useState<boolean>(() => languages.some((l) => !cache[l]));
+
+    useEffect(() => {
+        let cancelled = false;
+        setLoading(true);
+        Promise.all(
+            languages.map((language) => {
+                if (cache[language]) return Promise.resolve([language, cache[language]] as const);
+                const req = inflight[language] ?? loadDecks(language)
+                    .then((packs) => {
+                        cache[language] = packs;
+                        delete inflight[language];
+                        return packs;
+                    });
+                inflight[language] = req;
+                return req
+                    .then((packs) => [language, packs] as const)
+                    .catch(() => [language, [] as Pack[]] as const);
+            })
+        ).then((entries) => {
+            if (cancelled) return;
+            setPacksByLang(Object.fromEntries(entries));
+            setLoading(false);
+        });
+        return () => { cancelled = true; };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [key]);
+
+    return { packsByLang, loading };
 }
