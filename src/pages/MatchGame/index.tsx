@@ -30,7 +30,6 @@ const MIN_STUDIED = BOARD_PAIRS + 1;
 // How long the matched chips take to fade out (keep in sync with the .matched
 // transition in match.css) and how long the cleared board rests before the next
 // set deals in. The rest gives the remaining chips room to reshuffle position.
-const MATCH_FADE_MS = 400;
 const BOARD_REDEAL_MS = 560;
 const WRONG_FLASH_MS = 550;
 
@@ -77,7 +76,7 @@ const MatchGame = () => {
 
     // Build the word pool from the user's studied vocabulary; fall back to every
     // available (non-grammar, visible) card if too few words have been studied.
-    const { items: pool, fellBack } = useMemo(() => {
+    const { items: pool } = useMemo(() => {
         if (!language || packsLoading) return { items: [] as PoolItem[], fellBack: false };
         const studied: PoolItem[] = [];
         const all: PoolItem[] = [];
@@ -257,10 +256,6 @@ const MatchGame = () => {
                     <p className="srs-empty">No vocabulary yet. Study some cards and they'll show up here.</p>
                 ) : (
                     <>
-                        <p className="match-hint">
-                            Tap an English word, then its match on the {language} side.
-                            {fellBack && " (Studied words are running low, so all your cards are in play.)"}
-                        </p>
                         <div className="match-board">
                             <div className="match-col">
                                 {leftCells.map((cell, i) => (

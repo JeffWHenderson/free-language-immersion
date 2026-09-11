@@ -44,7 +44,6 @@ const Bookmarks = () => {
     const [cards, setCards] = useState<BookmarkedCard[]>([]);
     const [deckStates, setDeckStates] = useState<Record<string, SRSDeckState>>({});
     const [idx, setIdx] = useState(0);
-    const [isFlipped, setIsFlipped] = useState(false);
     const [noteOpen, setNoteOpen] = useState(true);
     const [loading, setLoading] = useState(true);
     const [sentenceBookmarks, setSentenceBookmarks] = useState<StorySentenceBookmark[]>([]);
@@ -87,10 +86,7 @@ const Bookmarks = () => {
         window.speechSynthesis.cancel();
     };
 
-    const handleFlip = () => {
-        setIsFlipped(true);
-        setNoteOpen(true);
-        const current = cards[idx];
+    const playCard = (current: BookmarkedCard | undefined) => {
         if (!current || !readBack) return;
         const gen = ++ttsGenRef.current;
         window.speechSynthesis.cancel();
@@ -114,10 +110,17 @@ const Bookmarks = () => {
         }, 200);
     };
 
+    // Auto-read the current card back when it changes (no flip step in bookmarks).
+    useEffect(() => {
+        if (tab !== "cards") return;
+        playCard(cards[idx]);
+        return () => cancelTts();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [tab, idx, cards]);
+
     const handleNext = () => {
         cancelTts();
         setIdx(i => i + 1);
-        setIsFlipped(false);
         setNoteOpen(true);
     };
 
@@ -131,7 +134,6 @@ const Bookmarks = () => {
         const newCards = cards.filter((_, i) => i !== idx);
         setCards(newCards);
         setIdx(Math.max(0, Math.min(idx, newCards.length - 1)));
-        setIsFlipped(false);
         setNoteOpen(true);
     };
 
@@ -157,7 +159,7 @@ const Bookmarks = () => {
                     <h2>All done!</h2>
                     <p>You went through all {cards.length} bookmarked card{cards.length !== 1 ? 's' : ''}.</p>
                     <div className="srs-done-actions">
-                        <button className="srs-btn-primary" onClick={() => { setIdx(0); setIsFlipped(false); }}>
+                        <button className="srs-btn-primary" onClick={() => setIdx(0)}>
                             Review again
                         </button>
                         <button className="srs-btn-secondary" onClick={() => navigate(`/${language}/`)}>
@@ -180,7 +182,7 @@ const Bookmarks = () => {
             <div className="srs-bookmarks-tabs">
                 <button
                     className={`srs-bookmarks-tab ${tab === "cards" ? "active" : ""}`}
-                    onClick={() => { cancelTts(); setTab("cards"); setIdx(0); setIsFlipped(false); }}
+                    onClick={() => { cancelTts(); setTab("cards"); setIdx(0); }}
                 >
                     Cards {cards.length > 0 && `(${cards.length})`}
                 </button>
@@ -242,28 +244,23 @@ const Bookmarks = () => {
                             englishPhrase={current.card.englishPhrase}
                             literal={current.card.literal}
                             grammarNote={current.card.grammarNote}
-                            isFlipped={isFlipped}
-                            onFlip={handleFlip}
+                            isFlipped={true}
+                            onFlip={() => {}}
                             noteOpen={noteOpen}
                             onNoteToggle={() => setNoteOpen(o => !o)}
+                            onPlay={() => playCard(current)}
                         />
 
-                        {isFlipped ? (
-                            <div className="srs-flip-hint">
-                                <div className="srs-bookmarks-actions">
-                                    <button className="srs-btn-unbookmark" onClick={handleUnbookmark}>
-                                        Remove 🔖
-                                    </button>
-                                    <button className="srs-btn-primary" onClick={handleNext}>
-                                        {idx + 1 < cards.length ? 'Next →' : 'Finish'}
-                                    </button>
-                                </div>
+                        <div className="srs-flip-hint">
+                            <div className="srs-bookmarks-actions">
+                                <button className="srs-btn-unbookmark" onClick={handleUnbookmark}>
+                                    Remove 🔖
+                                </button>
+                                <button className="srs-btn-primary" onClick={handleNext}>
+                                    {idx + 1 < cards.length ? 'Next →' : 'Finish'}
+                                </button>
                             </div>
-                        ) : (
-                            <div className="srs-flip-hint">
-                                <button className="srs-show-answer" onClick={handleFlip}>Show Answer</button>
-                            </div>
-                        )}
+                        </div>
                     </>
                 );
             })()}

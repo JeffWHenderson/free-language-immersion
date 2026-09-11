@@ -140,3 +140,46 @@
     opacity: 0.25;
     cursor: default;
 }
+
+/* ── Top bar: back + lesson navigation ── */
+.picture-lesson-topbar {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.picture-lesson-topbar .srs-page-back {
+    margin-bottom: 0;
+}
+
+.picture-lesson-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.picture-lesson-nav-btn {
+    padding: 6px 14px;
+    background: none;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-color, #111);
+    white-space: nowrap;
+    transition: background 0.15s, opacity 0.15s;
+}
+
+.picture-lesson-nav-btn:hover:not(:disabled) {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.picture-lesson-nav-btn:disabled {
+    opacity: 0.25;
+    cursor: default;
+}

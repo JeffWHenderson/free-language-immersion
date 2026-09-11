@@ -26,6 +26,7 @@ const StoryList = () => {
     const [loading, setLoading] = useState(true);
     const [deckFilter, setDeckFilter] = useState(searchParams.get("deck") ?? "all");
     const [diffFilter, setDiffFilter] = useState("all");
+    const [filtersOpen, setFiltersOpen] = useState(false);
 
     useEffect(() => {
         if (!language || packs.length === 0) return;
@@ -69,9 +70,11 @@ const StoryList = () => {
 
     const presentDifficulties = Array.from(new Set(stories.map((s) => s.difficulty)));
 
+    const activeFilterCount = (deckFilter !== "all" ? 1 : 0) + (diffFilter !== "all" ? 1 : 0);
+
     return (
         <div className="srs-container">
-            <button className="srs-page-back" onClick={() => window.history.back()}>← Back</button>
+            <button className="srs-page-back" onClick={() => navigate(`/${language}/`)}>← Back</button>
             <div className="srs-home-header">
                 <div className="srs-header-row">
                     <h2>Stories</h2>
@@ -83,6 +86,21 @@ const StoryList = () => {
                 </div>
             </div>
 
+            <div className="srs-story-filters-bar">
+                <button
+                    className="srs-filters-toggle"
+                    onClick={() => setFiltersOpen((o) => !o)}
+                    aria-expanded={filtersOpen}
+                >
+                    Filters
+                    {activeFilterCount > 0 && (
+                        <span className="srs-filters-count">{activeFilterCount}</span>
+                    )}
+                    <span className="srs-filters-chevron">{filtersOpen ? "▴" : "▾"}</span>
+                </button>
+            </div>
+
+            {filtersOpen && (
             <div className="srs-story-filters">
                 <div className="srs-filter-group">
                     <span className="srs-filter-label">Topic</span>
@@ -126,6 +144,7 @@ const StoryList = () => {
                     </div>
                 </div>
             </div>
+            )}
 
             {loading && <p>Loading stories...</p>}
 

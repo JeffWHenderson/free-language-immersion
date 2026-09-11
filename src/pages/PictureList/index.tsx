@@ -20,7 +20,7 @@ const PictureList = () => {
 
     const [pictures, setPictures] = useState<PictureMeta[]>([]);
     const [loading, setLoading] = useState(true);
-    const [deckFilter, setDeckFilter] = useState(searchParams.get("deck") ?? "all");
+    const [deckFilter] = useState(searchParams.get("deck") ?? "all");
 
     useEffect(() => {
         if (!language || packs.length === 0) return;
@@ -52,38 +52,11 @@ const PictureList = () => {
         deckFilter === "all" || p.deckId === deckFilter
     );
 
-    const uniqueDecks = Array.from(new Set(pictures.map((p) => p.deckId))).map(
-        (id) => ({ id, name: pictures.find((p) => p.deckId === id)!.deckName })
-    );
-
     return (
         <div className="srs-container">
-            <button className="srs-page-back" onClick={() => window.history.back()}>← Back</button>
+            <button className="srs-page-back" onClick={() => navigate(`/${language}/`)}>← Back</button>
             <div className="srs-home-header">
                 <h2>Picture Lessons</h2>
-            </div>
-
-            <div className="srs-story-filters">
-                <div className="srs-filter-group">
-                    <span className="srs-filter-label">Topic</span>
-                    <div className="srs-filter-pills">
-                        <button
-                            className={`srs-filter-pill ${deckFilter === "all" ? "active" : ""}`}
-                            onClick={() => setDeckFilter("all")}
-                        >
-                            All
-                        </button>
-                        {uniqueDecks.map((d) => (
-                            <button
-                                key={d.id}
-                                className={`srs-filter-pill ${deckFilter === d.id ? "active" : ""}`}
-                                onClick={() => setDeckFilter(d.id)}
-                            >
-                                {d.name}
-                            </button>
-                        ))}
-                    </div>
-                </div>
             </div>
 
             {loading && <p>Loading...</p>}

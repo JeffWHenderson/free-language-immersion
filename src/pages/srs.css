@@ -430,6 +430,51 @@ button.srs-count:hover {
 }
 
 /* ── Story / picture filters (shared) ── */
+.srs-story-filters-bar {
+    display: flex;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto 12px;
+}
+
+.srs-filters-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.srs-filters-toggle:hover {
+    border-color: #2980b9;
+    color: #2980b9;
+}
+
+.srs-filters-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9px;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 0.72rem;
+}
+
+.srs-filters-chevron {
+    font-size: 0.7rem;
+    color: #888;
+}
+
 .srs-story-filters {
     display: flex;
     flex-direction: column;

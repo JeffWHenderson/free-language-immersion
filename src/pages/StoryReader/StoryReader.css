@@ -96,6 +96,40 @@
     line-height: 1.5;
 }
 
+/* Prev/Next story nav */
+.srs-story-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.srs-story-nav-btn {
+    flex: 1;
+    padding: 12px 16px;
+    background-color: var(--card-color, #fff);
+    color: var(--text-color, #111);
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.srs-story-nav-btn:first-child { text-align: left; }
+.srs-story-nav-btn:last-child { text-align: right; }
+
+.srs-story-nav-btn:hover:not(:disabled) {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.srs-story-nav-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
 /* Player bar */
 .srs-story-player {
     position: fixed;

@@ -373,20 +373,14 @@ const Home = () => {
                     </button>
                     {experimentalOpen && (
                         <div className="srs-pill-cloud">
-                            <button className="srs-pill" onClick={() => navigate(`/${language}/match`)} onMouseEnter={prefetchMatch}>
-                                Word Match Game
-                            </button>
-                            <button className={`srs-pill${showAi ? ' active' : ''}`} onClick={() => setShowAi((a) => !a)}>
-                                AI Conversation Partner
-                            </button>
-                            {hasStories && (
-                                <button className="srs-pill" onClick={() => navigate(`/${language}/stories`)} onMouseEnter={prefetchStories}>
-                                    Stories
-                                </button>
-                            )}
                             {hasPictures && (
                                 <button className="srs-pill" onClick={() => navigate(`/${language}/pictures`)} onMouseEnter={prefetchPictures}>
                                     Picture Lessons
+                                </button>
+                            )}
+                            {hasStories && (
+                                <button className="srs-pill" onClick={() => navigate(`/${language}/stories`)} onMouseEnter={prefetchStories}>
+                                    Stories
                                 </button>
                             )}
                             {hasGrammar && (
@@ -394,6 +388,12 @@ const Home = () => {
                                     Grammar Lessons
                                 </button>
                             )}
+                            <button className="srs-pill" onClick={() => navigate(`/${language}/match`)} onMouseEnter={prefetchMatch}>
+                                Word Match Game
+                            </button>
+                            <button className={`srs-pill${showAi ? ' active' : ''}`} onClick={() => setShowAi((a) => !a)}>
+                                AI Conversation Prompts
+                            </button>
                             <button className={`srs-pill${showPrint ? ' active' : ''}`} onClick={() => setShowPrint((p) => !p)}>
                                 Print Flashcards
                             </button>

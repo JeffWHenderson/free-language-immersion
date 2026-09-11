@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef } from "react";
-import { useParams } from "wouter";
+import { useParams, useLocation } from "wouter";
 import { useLanguageApp } from "../../LanguageAppContext";
 import useLanguage from "../../hooks/useLanguage";
+import { useSequence } from "../../hooks/useSequence";
 import Settings from "../components/Settings";
 import GrammarNote from "../components/GrammarNote";
 import LiteralGloss, { type LiteralData } from "../components/LiteralGloss";
@@ -28,7 +29,8 @@ interface StoryData {
 
 const StoryReader = () => {
     const { language, deckId, storyId } = useParams<{ language: string; deckId: string; storyId: string }>();
-
+    const [, navigate] = useLocation();
+    const { prev, next } = useSequence(language, "stories", deckId, storyId);
 
     const [story, setStory] = useState<StoryData | null>(null);
     const [playingIndex, setPlayingIndex] = useState(-1);
@@ -51,12 +53,25 @@ const StoryReader = () => {
 
     useEffect(() => {
         if (!language || !deckId || !storyId) return;
+        window.speechSynthesis.cancel();
+        playingRef.current = false;
+        setIsPlaying(false);
+        setPlayingIndex(-1);
+        setOpenNoteIndex(null);
+        setStory(null);
+        window.scrollTo({ top: 0 });
         setSentenceBookmarks(loadStoryBookmarks(language));
         fetch(`/languages/${language}/stories/${storyId}.json`)
             .then(r => r.json())
             .then(data => setStory(data))
             .catch(console.error);
     }, [language, deckId, storyId]);
+
+    const goToStory = (item: { deckId: string; id: string } | null) => {
+        if (!item) return;
+        window.speechSynthesis.cancel();
+        navigate(`/${language}/${item.deckId}/story/${item.id}`);
+    };
 
     const handleBookmarkSentence = (e: MouseEvent, sIdx: number) => {
         e.stopPropagation();
@@ -121,7 +136,7 @@ const StoryReader = () => {
 
     const handleBack = () => {
         window.speechSynthesis.cancel();
-        window.history.back();
+        navigate(`/${language}/stories`);
     };
 
     if (!story) return <div className="srs-container"><p>Loading...</p></div>;
@@ -180,6 +195,24 @@ const StoryReader = () => {
                         )}
                     </div>
                 ))}
+
+                {/* Prev/Next story */}
+                <div className="srs-story-nav">
+                    <button
+                        className="srs-story-nav-btn"
+                        onClick={() => goToStory(prev)}
+                        disabled={!prev}
+                    >
+                        {prev ? `← ${prev.deckId === deckId ? "Previous" : prev.deckName}` : ""}
+                    </button>
+                    <button
+                        className="srs-story-nav-btn"
+                        onClick={() => goToStory(next)}
+                        disabled={!next}
+                    >
+                        {next ? `${next.deckId === deckId ? "Next" : next.deckName} →` : ""}
+                    </button>
+                </div>
             </div>
 
             {/* Player bar */}

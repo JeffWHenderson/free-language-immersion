@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { useParams } from "wouter";
+import { useParams, useLocation } from "wouter";
 import useLanguage from "../../hooks/useLanguage";
 import { useLanguageApp } from "../../LanguageAppContext";
+import { useSequence, type SeqItem } from "../../hooks/useSequence";
 import "./picture-lesson.css";
 
 interface Dot {
@@ -19,7 +20,9 @@ interface LessonData {
 }
 
 const PictureLesson = () => {
-    const { language, section } = useParams();
+    const { language, deckId, section } = useParams();
+    const [, navigate] = useLocation();
+    const { prev, next } = useSequence(language, "pictureLessons", deckId, section);
 
     const { targetVoice } = useLanguage({ targetLanguage: language as string });
     const { volume } = useLanguageApp();
@@ -27,11 +30,20 @@ const PictureLesson = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
+        window.speechSynthesis.cancel();
+        setActiveIndex(0);
+        setLesson(null);
         fetch(`/languages/${language}/picture_lessons/${section}.json`)
             .then(r => r.json())
             .then((data: LessonData) => setLesson(data))
             .catch(err => console.error(err));
     }, [language, section]);
+
+    const goToLesson = (item: SeqItem | null) => {
+        if (!item) return;
+        window.speechSynthesis.cancel();
+        navigate(`/${language}/picture-review/${item.deckId}/${item.id}`);
+    };
 
     const total = lesson?.dots.length ?? 0;
     const current = lesson?.dots[activeIndex];
@@ -67,7 +79,25 @@ const PictureLesson = () => {
 
     return (
         <div className="picture-lesson-page">
-            <button className="srs-page-back" onClick={() => window.history.back()}>← Back</button>
+            <div className="picture-lesson-topbar">
+                <button className="srs-page-back" onClick={() => { window.speechSynthesis.cancel(); navigate(`/${language}/pictures`); }}>← Back</button>
+                <div className="picture-lesson-nav">
+                    <button
+                        className="picture-lesson-nav-btn"
+                        onClick={() => goToLesson(prev)}
+                        disabled={!prev}
+                    >
+                        ← Prev lesson
+                    </button>
+                    <button
+                        className="picture-lesson-nav-btn"
+                        onClick={() => goToLesson(next)}
+                        disabled={!next}
+                    >
+                        Next lesson →
+                    </button>
+                </div>
+            </div>
 
             <div className="picture-frame">
                 <img
