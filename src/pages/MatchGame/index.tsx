@@ -27,7 +27,11 @@ const BOARD_PAIRS = 5;
 // Below this many studied words we widen the pool to every available card so the
 // board can always be filled (per the "fall back to all cards" choice).
 const MIN_STUDIED = BOARD_PAIRS + 1;
-const MATCH_FADE_MS = 320;
+// How long the matched chips take to fade out (keep in sync with the .matched
+// transition in match.css) and how long the cleared board rests before the next
+// set deals in. The rest gives the remaining chips room to reshuffle position.
+const MATCH_FADE_MS = 400;
+const BOARD_REDEAL_MS = 560;
 const WRONG_FLASH_MS = 550;
 
 function dedupe(items: PoolItem[]): PoolItem[] {
@@ -115,15 +119,9 @@ const MatchGame = () => {
         return it;
     };
 
-    // (Re)deal the board whenever the pool changes.
-    useEffect(() => {
-        if (pool.length === 0) {
-            setLeftCells([]);
-            setRightCells([]);
-            return;
-        }
-        orderRef.current = shuffled(pool);
-        cursorRef.current = 0;
+    // Deal a fresh set of pairs onto the board, shuffling each column
+    // independently so the English and target sides don't line up.
+    const dealBoard = () => {
         const onBoard = new Set<string>();
         const count = Math.min(BOARD_PAIRS, pool.length);
         const items = Array.from({ length: count }, () => {
@@ -134,8 +132,21 @@ const MatchGame = () => {
         setLeftCells(shuffled(items).map((item) => ({ item, status: "idle" as const })));
         setRightCells(shuffled(items).map((item) => ({ item, status: "idle" as const })));
         setSel({ left: null, right: null });
-        setScore({ correct: 0, misses: 0 });
         lockedRef.current = false;
+    };
+
+    // (Re)deal the board whenever the pool changes.
+    useEffect(() => {
+        if (pool.length === 0) {
+            setLeftCells([]);
+            setRightCells([]);
+            return;
+        }
+        orderRef.current = shuffled(pool);
+        cursorRef.current = 0;
+        setScore({ correct: 0, misses: 0 });
+        dealBoard();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pool]);
 
     const evaluate = (i: number, j: number) => {
@@ -145,18 +156,16 @@ const MatchGame = () => {
         if (isMatch) {
             setScore((s) => ({ ...s, correct: s.correct + 1 }));
             speakTarget(rightCells[j].item.word);
+            // Fade the matched pair out and leave the slots empty — the remaining
+            // chips keep their spots until the board is fully cleared, then a fresh
+            // (reshuffled) set deals in. This mirrors Duolingo's pacing.
             setLeftCells((cs) => cs.map((c, idx) => (idx === i ? { ...c, status: "matched" } : c)));
             setRightCells((cs) => cs.map((c, idx) => (idx === j ? { ...c, status: "matched" } : c)));
-            lockedRef.current = true;
-            // Board items never change identity between renders, so this snapshot of
-            // the other five keys is a safe exclude set for the fresh draw.
-            const exclude = new Set(leftCells.filter((_, idx) => idx !== i).map((c) => c.item.key));
-            setTimeout(() => {
-                const fresh = drawNext(exclude);
-                setLeftCells((cs) => cs.map((c, idx) => (idx === i ? { item: fresh, status: "idle" } : c)));
-                setRightCells((cs) => cs.map((c, idx) => (idx === j ? { item: fresh, status: "idle" } : c)));
-                lockedRef.current = false;
-            }, MATCH_FADE_MS);
+            const remaining = leftCells.filter((c, idx) => idx !== i && c.status !== "matched").length;
+            if (remaining === 0) {
+                lockedRef.current = true;
+                setTimeout(dealBoard, BOARD_REDEAL_MS);
+            }
         } else {
             setScore((s) => ({ ...s, misses: s.misses + 1 }));
             lockedRef.current = true;
