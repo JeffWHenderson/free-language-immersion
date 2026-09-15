@@ -1,0 +1,428 @@
+# Spanish — Known Vocabulary (main course)
+
+The ONLY vocabulary a learner is guaranteed to know. Example/reinforcement sentences in grammar decks must draw nouns, adjectives, and non-target verbs from this pool.
+
+Total unique words: 393
+
+**Always allowed (in addition to the list below):** `español` (the language itself), grammatical contractions `al` (a+el) and `del` (de+el), the time adverbs `ayer` (yesterday) and `anoche` (last night) — needed to cue past tense — and the target verbs/structures the deck itself teaches. Everything else in example sentences must come from the list below.
+
+## everyday_phrases (99)
+
+- hola — Hello
+- por favor — Please
+- gracias — Thank you
+- de nada — You're welcome
+- buenos días — Good morning
+- buenas noches — Good night
+- ¿cómo estás? — How are you?
+- mucho gusto — Nice to meet you
+- adiós — Goodbye
+- perdón — Excuse me
+- lo siento — I'm sorry
+- quiero — I want
+- necesito — I need
+- me llamo — My name is
+- yo — I
+- tú — You
+- él — He
+- ella — She
+- nosotros — We
+- ellos — They
+- mi — My
+- este — This
+- ese — That
+- muy — Very
+- tengo hambre — Hungry
+- tengo sed — Thirsty
+- quién — Who
+- qué — What
+- cuándo — When
+- dónde — Where
+- por qué — Why
+- cómo — How
+- ser — To be (permanent)
+- estar — To be (state)
+- tener — To have
+- hacer — To do
+- ir — To go
+- venir — To come
+- comer — To eat
+- poder — To be able to
+- decir — To say
+- ver — To see
+- dar — To give
+- saber — To know (facts)
+- conocer — To know (people)
+- hablar — To speak
+- entender — To understand
+- pensar — To think
+- gustar — To like
+- buscar — To look for
+- esperar — To wait
+- salir — To leave
+- volver — To return
+- llegar — To arrive
+- mirar — To look at
+- pero — But
+- y — And
+- o — Or
+- porque — Because
+- con — With
+- sin — Without
+- para — For
+- en — In
+- de — From
+- hoy — Today
+- mañana — Tomorrow
+- ahora — Now
+- luego — Later
+- también — Also
+- tal vez — Maybe
+- siempre — Always
+- nunca — Never
+- más — More
+- mucho — A lot
+- un poco — A little
+- persona — Person
+- lugar — Place
+- cosa — Thing
+- aquí — Here
+- allí — There
+- agua — Water
+- comida — Food
+- casa — House
+- tienda — Store
+- efectivo — Cash
+- ayuda — Help
+- baño — Bathroom
+- bueno — Good
+- malo — Bad
+- grande — Big
+- pequeño — Small
+- listo — Ready
+- cansado — Tired
+- ¿Puedes ayudarme? — Can you help me?
+- ¿Cuánto cuesta? — How much does it cost?
+- la cuenta — The bill
+- el menú — The menu
+- la mesa — The table
+- no sé — I don't know
+
+## food_and_drink (70)
+
+- el agua — water
+- pan — bread
+- arroz — rice
+- leche — milk
+- huevo — egg
+- queso — cheese
+- pollo — chicken
+- carne — meat
+- pescado — fish
+- fruta — fruit
+- manzana — apple
+- café — coffee
+- té — tea
+- vino — wine
+- cerveza — beer
+- azúcar — sugar
+- sal — salt
+- comer — eat
+- beber — drink
+- hambre — hungry
+- sed — thirsty
+- desayuno — breakfast
+- almuerzo — lunch
+- cena — dinner
+- cerdo — pork
+- plátano — banana
+- naranja — orange
+- verdura — vegetable
+- papa — potato
+- tomate — tomato
+- cebolla — onion
+- ensalada — salad
+- sopa — soup
+- sándwich — sandwich
+- jugo — juice
+- cocinar — cook
+- comida — meal
+- menú — menu
+- restaurante — restaurant
+- camarero — waiter
+- mesa — table
+- plato — plate
+- vaso — glass
+- botella — bottle
+- pastel — cake
+- galleta — cookie
+- chocolate — chocolate
+- mantequilla — butter
+- aceite — oil
+- pimienta — pepper
+- cocina — kitchen
+- horno — oven
+- estufa — stove
+- cuchillo — knife
+- tenedor — fork
+- cuchara — spoon
+- hornear — bake
+- freír — fry
+- mezclar — mix
+- verter — pour
+- servir — serve
+- fresco — fresh
+- cocido — cooked
+- caliente — hot
+- frío — cold
+- dulce — sweet
+- picante — spicy
+- delicioso — delicious
+- saludable — healthy
+- vegetariano — vegetarian
+
+## common_places (71)
+
+- La casa — Home
+- El apartamento — Apartment
+- La escuela — School
+- La universidad — University
+- La oficina — Office
+- El hospital — Hospital
+- La tienda de abarrotes — Grocery store
+- El banco — Bank
+- La biblioteca — Library
+- El restaurante — Restaurant
+- El café — Cafe
+- El hotel — Hotel
+- El aeropuerto — Airport
+- La estación — Station
+- La parada de autobús — Bus stop
+- El parque — Park
+- la farmacia — pharmacy
+- La calle — Street
+- El puente — Bridge
+- La esquina — Corner
+- El centro (de la ciudad) — City centre
+- El barrio — Neighbourhood
+- La playa — Beach
+- La montaña — Mountain
+- El museo — Museum
+- El cine — Movie theater
+- El mapa — Map
+- La dirección — Direction
+- En — At
+- Sobre — On
+- Debajo de — Under
+- Al lado de — Next to
+- Entre — Between
+- En frente de — In front of
+- Detrás de — Behind
+- Cerca de — Near
+- Lejos de — Far
+- Aquí — Here
+- Allí — There
+- Izquierda — Left
+- Derecha — Right
+- Derecho — Straight (ahead)
+- Norte — North
+- Sur — South
+- Este — East
+- Oeste — West
+- Cerca — Nearby
+- Ir — To go
+- Venir — To come
+- Viajar — To travel
+- Caminar — To walk
+- Manejar — To drive
+- Girar — To turn
+- Cruzar — To cross
+- Seguir — To follow
+- Entrar — To enter
+- Salir — To leave
+- Llegar — To arrive
+- Visitar — To visit
+- Vivir — To live
+- Quedarse — To stay
+- Esperar — To wait
+- Encontrarse — To meet
+- Perderse — To get lost
+- Encontrar — To find
+- Buscar — To look for
+- Parar — To stop
+- Estacionar — To park
+- Concurrido — Busy
+- Tranquilo — Quiet
+- Perdido — Lost
+
+## jobs_and_hobbies (66)
+
+- Médico — Doctor
+- Enfermero — Nurse
+- Ingeniero — Engineer
+- Programador — Programmer
+- Cocinero — Cook
+- Camarero (Camarera) — Waiter (Waitress)
+- Gerente — Manager
+- Estudiante — Student
+- Arquitecto — Architect
+- Abogado — Lawyer
+- Salario — Salary
+- Horario — Schedule
+- Vacaciones — Vacation
+- Descanso — Break
+- Oficina — Office
+- Compañero de trabajo — Colleague
+- Cliente — Customer
+- Equipo — Team
+- Proyecto — Project
+- Reunión — Meeting
+- Tiempo libre — Free time
+- Trabajar (en) — To work (in)
+- Leer — Reading
+- Escribir — Writing
+- Pintar — Painting
+- Dibujar — Drawing
+- Música — Music
+- Cantar — Singing
+- Tocar un instrumento (ej., Guitarra) — Playing an instrument (e.g., Guitar)
+- Bailar — Dancing
+- Cocinar — Cooking
+- Senderismo — Hiking
+- Correr — Running
+- Nadar — Swimming
+- Andar en bicicleta — Biking
+- Viajar — Traveling
+- Jugar videojuegos — Gaming (Video games)
+- Ver películas — Watching TV
+- Escuchar música — Listening to music
+- Ejercicio — Exercise
+- Al aire libre — Outdoors
+- Creativo — Creative
+- Interesante — Interesting
+- Aburrido — Boring
+- Ganar (un salario) — To earn (a salary)
+- Jubilarse — To retire
+- Tener un trabajo — To have a job
+- Estar desempleado — To be unemployed
+- Estudiar — To study
+- Aprender — To learn
+- Practicar — To practice
+- Enseñar — To teach
+- Construir — To build
+- Arreglar — To fix
+- Hacer — To make
+- Diseñar — To design
+- Vender — To sell
+- Comprar — To buy
+- Ayudar — To help
+- Dirigir — To manage
+- Reunirse — To meet
+- Empezar — To start
+- Terminar — To finish
+- Gustar — To like
+- Relajarse — To relax
+- Estresante — Stressful
+
+## moods_and_emotion (48)
+
+- feliz — happy
+- triste — sad
+- amor — love
+- enojo — anger
+- miedo — fear
+- esperanza — hope
+- estrés — stress
+- estado de ánimo — mood
+- sentimiento — feeling
+- emoción — emotion
+- calma — calm
+- preocupación — worry
+- sorpresa — surprise
+- odio — hate
+- dolor — pain
+- energía — energy
+- sentir — feel (to feel)
+- amar — love (to love)
+- odiar — hate (to hate)
+- gustar — like (to like)
+- disfrutar — enjoy
+- tener miedo — fear
+- esperar — hope (to hope)
+- preocuparse — worry (to worry)
+- paz — peace
+- los celos — jealousy / envy
+- molestar — annoy
+- enojar — anger (to anger)
+- sonreír — smile
+- reír — laugh
+- llorar — cry
+- gritar — scream
+- relajarse — relax
+- enojado — angry
+- asustado — afraid
+- ansioso — anxious
+- nervioso — nervous
+- emocionado — excited
+- alegre — joyful
+- orgulloso — proud
+- contento — content
+- tranquilo — calm
+- estresado — stressed
+- abrumado — overwhelmed
+- energético — energetic
+- cansado — tired
+- agotado — exhausted
+- curioso — curious
+
+## human_body (48)
+
+- la cabeza — head
+- el pelo — hair
+- la cara — face
+- el ojo — eye
+- la oreja (outer) — ear
+- la nariz — nose
+- la boca — mouth
+- el labio — lip
+- el diente (los dientes) — tooth (teeth)
+- la lengua — tongue
+- el cuello — neck
+- el brazo — arm
+- la mano — hand
+- el dedo (de la mano) — finger
+- el pecho — chest
+- la espalda — back
+- el hombro — shoulder
+- el codo — elbow
+- la rodilla — knee
+- la pierna — leg
+- el pie (los pies) — foot (feet)
+- el dedo (del pie) — toe
+- el estómago — stomach
+- el cuerpo — body
+- el corazón — heart
+- el músculo — muscle
+- la piel — skin
+- la sangre — blood
+- el cerebro — brain
+- el seno — breast
+- ver — see
+- oír — hear
+- oler — smell
+- saborear — taste
+- tocar — touch
+- respirar — breathe
+- doblar — bend
+- estirar — stretch
+- sudar — sweat
+- sentir — feel
+- pensar — think
+- mover — move
+- suave — soft
+- dolorido — sore
+- izquierdo — left
+- derecho — right
+- superior — upper
+- inferior — lower
+

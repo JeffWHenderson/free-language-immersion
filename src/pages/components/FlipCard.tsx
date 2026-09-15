@@ -57,7 +57,7 @@ const FlipCard = ({
                         </div>
                     )}
                     {hasFormat ? (
-                        <GrammarFront data={grammarFormat!} />
+                        <GrammarFront data={grammarFormat!} english={english} />
                     ) : reversed ? (
                         <>
                             {displayMode !== 'phrase' && <div className="srs-card-text">{word}</div>}

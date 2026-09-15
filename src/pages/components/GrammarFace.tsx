@@ -11,7 +11,8 @@ export interface ClozeData {
 }
 
 export interface TableData {
-    title: string;              // paradigm heading, e.g. "querer — to want (e→ie)"
+    title: string;              // paradigm heading (back), e.g. "querer — to want (e→ie)"
+    hint?: string;              // small hint under the question, e.g. "stem-changing verb (o→ue)"
     rows: [string, string][];   // [label, form] pairs
     highlight?: string;         // label of a row to accent (e.g. an exception)
     note?: string;              // short footnote
@@ -56,7 +57,7 @@ function ClozeSentence({ text, fill }: { text: string; fill?: string }) {
     );
 }
 
-export function GrammarFront({ data }: { data: GrammarFormatData }) {
+export function GrammarFront({ data, english }: { data: GrammarFormatData; english?: string }) {
     if (data.format === "cloze" && data.cloze) {
         const c = data.cloze;
         return (
@@ -74,8 +75,8 @@ export function GrammarFront({ data }: { data: GrammarFormatData }) {
     if (data.format === "table" && data.table) {
         return (
             <div className="g-face g-table-front">
-                <div className="g-prompt">{data.table.title}</div>
-                <div className="g-hint">recall the forms</div>
+                <div className="g-prompt">{english ?? data.table.title}</div>
+                <div className="g-hint">{data.table.hint ?? "recall the forms"}</div>
             </div>
         );
     }
