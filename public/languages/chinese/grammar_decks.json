@@ -5,17 +5,18 @@
       "id": "grammar_essentials",
       "name": "Grammar Essentials",
       "language": "chinese",
+      "kind": "grammar",
       "cards": [
         {
-          "id": "g_word_order_svo",
+          "id": "ess_svo_table",
           "grammar": true,
-          "english": "I eat rice. (subject–verb–object)",
+          "english": "How does basic Chinese word order work? (subject–verb–object)",
           "word": "我吃饭。",
           "romanized": "Wǒ chī fàn.",
           "grammarNote": "Basic sentences follow **Subject + Verb + Object**, just like English:\n**我**(I) + **吃**(eat) + **饭**(rice) = **我吃饭**. Verbs never change for person or tense.",
-          "englishPhrase": "I eat rice, he drinks tea.",
           "phrase": "我吃饭，他喝茶。",
           "phraseRomanized": "Wǒ chī fàn, tā hē chá.",
+          "englishPhrase": "I eat rice, he drinks tea.",
           "literal": [
             [
               "我",
@@ -63,15 +64,120 @@
           }
         },
         {
-          "id": "g_shi_a_is_b",
+          "id": "ess_trad_chi_fan",
+          "english": "I eat rice.",
+          "word": "我吃饭。",
+          "romanized": "Wǒ chī fàn.",
+          "phrase": "我吃饭，你吃什么？",
+          "phraseRomanized": "Wǒ chī fàn, nǐ chī shénme?",
+          "englishPhrase": "I eat rice. What do you eat?",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "饭，",
+              "rice,"
+            ],
+            [
+              "你",
+              "you"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "什么？",
+              "what?"
+            ]
+          ]
+        },
+        {
+          "id": "ess_trad_he_cha",
+          "english": "He drinks tea.",
+          "word": "他喝茶。",
+          "romanized": "Tā hē chá.",
+          "phrase": "他喝茶，我喝咖啡。",
+          "phraseRomanized": "Tā hē chá, wǒ hē kāfēi.",
+          "englishPhrase": "He drinks tea, I drink coffee.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "喝",
+              "drinks"
+            ],
+            [
+              "茶，",
+              "tea,"
+            ],
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喝",
+              "drink"
+            ],
+            [
+              "咖啡",
+              "coffee"
+            ]
+          ]
+        },
+        {
+          "id": "ess_trad_qu_xuexiao",
+          "english": "I go to school.",
+          "word": "我去学校。",
+          "romanized": "Wǒ qù xuéxiào.",
+          "phrase": "我去学校，他去图书馆。",
+          "phraseRomanized": "Wǒ qù xuéxiào, tā qù túshūguǎn.",
+          "englishPhrase": "I go to school, he goes to the library.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "去",
+              "go to"
+            ],
+            [
+              "学校，",
+              "school,"
+            ],
+            [
+              "他",
+              "he"
+            ],
+            [
+              "去",
+              "goes to"
+            ],
+            [
+              "图书馆",
+              "library"
+            ]
+          ]
+        },
+        {
+          "id": "ess_shi_table",
           "grammar": true,
-          "english": "I am a student. (是 links two nouns)",
+          "english": "How do you say 'I am a student'? (是 links two nouns)",
           "word": "我是学生。",
           "romanized": "Wǒ shì xuéshēng.",
-          "grammarNote": "**是**(shì) links two nouns: A **是** B = 'A is B'.\n**我是学生**(I'm a student), **他是医生**(he's a doctor).\nDon't put **是** before an adjective — use **很** instead.",
-          "englishPhrase": "I'm a student, and you?",
+          "grammarNote": "**是**(shì) links two nouns: A **是** B = 'A is B'.\n**我是学生**(I'm a student), **他是医生**(he's a doctor).\nNegate with **不是**. Never put **是** before an adjective — use **很** instead.",
           "phrase": "我是学生，你呢？",
           "phraseRomanized": "Wǒ shì xuéshēng, nǐ ne?",
+          "englishPhrase": "I'm a student. And you?",
           "literal": [
             [
               "我",
@@ -103,23 +209,89 @@
                 "他是医生 tā shì yīshēng"
               ],
               [
-                "I'm NOT a teacher",
-                "我不是老师 wǒ bú shì lǎoshī"
+                "NOT a doctor",
+                "我不是医生 wǒ bú shì yīshēng"
               ]
             ],
             "note": "Negate with 不是. Never put 是 before an adjective — use 很."
           }
         },
         {
-          "id": "g_hen_adjective",
+          "id": "ess_trad_wo_shi_xuesheng",
+          "english": "I am a student.",
+          "word": "我是学生。",
+          "romanized": "Wǒ shì xuéshēng.",
+          "phrase": "我是学生，他是医生。",
+          "phraseRomanized": "Wǒ shì xuéshēng, tā shì yīshēng.",
+          "englishPhrase": "I'm a student, he's a doctor.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "是",
+              "am"
+            ],
+            [
+              "学生，",
+              "student,"
+            ],
+            [
+              "他",
+              "he"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "医生",
+              "doctor"
+            ]
+          ]
+        },
+        {
+          "id": "ess_trad_ta_shi_gongchengshi",
+          "english": "She is an engineer.",
+          "word": "她是工程师。",
+          "romanized": "Tā shì gōngchéngshī.",
+          "phrase": "她是工程师，不是医生。",
+          "phraseRomanized": "Tā shì gōngchéngshī, bú shì yīshēng.",
+          "englishPhrase": "She's an engineer, not a doctor.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "工程师，",
+              "engineer,"
+            ],
+            [
+              "不是",
+              "not"
+            ],
+            [
+              "医生",
+              "doctor"
+            ]
+          ]
+        },
+        {
+          "id": "ess_hen_contrast",
           "grammar": true,
-          "english": "I am happy. (adjective takes 很, not 是)",
+          "english": "How do you say 'I am happy'? (很 + adjective, never 是 + adjective)",
           "word": "我很高兴。",
           "romanized": "Wǒ hěn gāoxìng.",
-          "grammarNote": "Adjectives act like verbs — **don't** add **是** before them. Use **很**(hěn):\n**我很高兴**(I'm happy), **我很累**(I'm tired). Here **很** just links; it only means 'very' when stressed.",
-          "englishPhrase": "I'm very happy!",
-          "phrase": "我很高兴！",
-          "phraseRomanized": "Wǒ hěn gāoxìng!",
+          "grammarNote": "Adjectives act like verbs — **don't** add **是** before them. Use **很**(hěn):\n**我很高兴**(I'm happy), **我很累**(I'm tired). **很** just links subject to adjective; it only means 'very' when stressed.",
+          "phrase": "我很高兴认识你！",
+          "phraseRomanized": "Wǒ hěn gāoxìng rènshi nǐ!",
+          "englishPhrase": "I'm very pleased to meet you!",
           "literal": [
             [
               "我",
@@ -130,33 +302,99 @@
               "(very)"
             ],
             [
-              "高兴！",
-              "happy!"
+              "高兴",
+              "happy"
+            ],
+            [
+              "认识你！",
+              "to meet you!"
             ]
           ],
           "format": "contrast",
           "contrast": {
-            "prompt": "'I am happy' — 是 or 很?",
+            "prompt": "I am happy — 是 or 很?",
             "a": {
               "term": "我很高兴 wǒ hěn gāoxìng",
-              "gloss": "✓ an adjective takes 很, not 是"
+              "gloss": "Correct — adjective takes 很, not 是"
             },
             "b": {
               "term": "我是高兴",
-              "gloss": "✗ never 是 before an adjective"
+              "gloss": "Wrong — never use 是 before an adjective"
             }
           }
         },
         {
-          "id": "g_ma_question",
+          "id": "ess_trad_hen_hao",
+          "english": "I am well / good.",
+          "word": "我很好。",
+          "romanized": "Wǒ hěn hǎo.",
+          "phrase": "我很好，谢谢！",
+          "phraseRomanized": "Wǒ hěn hǎo, xièxie!",
+          "englishPhrase": "I'm well, thanks!",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "好，",
+              "good,"
+            ],
+            [
+              "谢谢！",
+              "thanks!"
+            ]
+          ]
+        },
+        {
+          "id": "ess_trad_hen_lei",
+          "english": "He is tired.",
+          "word": "他很累。",
+          "romanized": "Tā hěn lèi.",
+          "phrase": "他很累，我很好。",
+          "phraseRomanized": "Tā hěn lèi, wǒ hěn hǎo.",
+          "englishPhrase": "He is tired, I am fine.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "很",
+              "(very)"
+            ],
+            [
+              "累，",
+              "tired,"
+            ],
+            [
+              "我",
+              "I"
+            ],
+            [
+              "很",
+              "am"
+            ],
+            [
+              "好",
+              "fine"
+            ]
+          ]
+        },
+        {
+          "id": "ess_ma_cloze",
           "grammar": true,
-          "english": "Are you well? (吗 makes a yes/no question)",
+          "english": "How do you turn a statement into a yes/no question? (add 吗)",
           "word": "你好吗？",
           "romanized": "Nǐ hǎo ma?",
-          "grammarNote": "Add **吗**(ma) to the end of a statement to make a yes/no question:\n**你好** → **你好吗？**(are you well?), **你是学生吗？**(are you a student?). Word order doesn't change.",
-          "englishPhrase": "Are you a student?",
+          "grammarNote": "Add **吗**(ma) to the end of a statement to make a yes/no question:\n**你好** → **你好吗？**(are you well?), **你是学生吗？**(are you a student?). Word order does not change.",
           "phrase": "你是学生吗？",
           "phraseRomanized": "Nǐ shì xuéshēng ma?",
+          "englishPhrase": "Are you a student?",
           "literal": [
             [
               "你",
@@ -177,7 +415,7 @@
           ],
           "format": "cloze",
           "cloze": {
-            "prompt": "make it a yes/no question (你好 = you are well)",
+            "prompt": "Turn it into a yes/no question: 你好 (you are well)",
             "text": "你好 ___？",
             "answer": "吗 ma",
             "options": [
@@ -188,244 +426,239 @@
           }
         },
         {
-          "id": "g_question_word_in_place",
-          "grammar": true,
-          "english": "What do you want? (question word stays put)",
-          "word": "你想要什么？",
-          "romanized": "Nǐ xiǎng yào shénme?",
-          "grammarNote": "Question words sit **where the answer goes** — they don't move to the front:\n**你想要什么？**(you want what?), **他是谁？**(he is who?). The answer just replaces the question word.",
-          "englishPhrase": "What do you want to eat?",
-          "phrase": "你想吃什么？",
-          "phraseRomanized": "Nǐ xiǎng chī shénme?",
+          "id": "ess_trad_ni_hao_ma",
+          "english": "Are you well?",
+          "word": "你好吗？",
+          "romanized": "Nǐ hǎo ma?",
+          "phrase": "你好吗？我很好，谢谢！",
+          "phraseRomanized": "Nǐ hǎo ma? Wǒ hěn hǎo, xièxie!",
+          "englishPhrase": "Are you well? I'm fine, thanks!",
           "literal": [
             [
-              "你",
-              "you"
+              "你好吗？",
+              "Are you well?"
             ],
-            [
-              "想",
-              "want to"
-            ],
-            [
-              "吃",
-              "eat"
-            ],
-            [
-              "什么？",
-              "what?"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "Question words stay where the answer goes — they don't move to the front",
-            "task": "ask: you want what? (= what do you want?)",
-            "answer": "你想要什么？nǐ xiǎng yào shénme?",
-            "gloss": "什么 sits in the object slot; the answer just replaces it. 他是谁？= who is he?"
-          }
-        },
-        {
-          "id": "g_measure_word",
-          "grammar": true,
-          "english": "an apple (number + measure word + noun)",
-          "word": "一个苹果",
-          "romanized": "yí gè píngguǒ",
-          "grammarNote": "Count nouns with a **measure word** between the number and the noun:\n**一个苹果**(one apple), **两个鸡蛋**(two eggs). **个**(gè) is the general measure word; drinks use **杯**: **一杯茶**(a cup of tea).",
-          "englishPhrase": "I want two apples.",
-          "phrase": "我要两个苹果。",
-          "phraseRomanized": "Wǒ yào liǎng gè píngguǒ.",
-          "literal": [
             [
               "我",
               "I"
             ],
             [
-              "要",
-              "want"
+              "很好，",
+              "am fine,"
             ],
             [
-              "两个",
-              "two"
-            ],
-            [
-              "苹果",
-              "apples"
+              "谢谢！",
+              "thanks!"
             ]
-          ],
-          "format": "table",
-          "table": {
-            "title": "Number + measure word + noun",
-            "rows": [
-              [
-                "one apple",
-                "一个苹果 yí gè píngguǒ"
-              ],
-              [
-                "two eggs",
-                "两个鸡蛋 liǎng gè jīdàn"
-              ],
-              [
-                "three books",
-                "三本书 sān běn shū"
-              ]
-            ],
-            "note": "个 gè is the default measure word; some nouns take their own (本 běn for books)."
-          }
+          ]
         },
         {
-          "id": "g_yao_order",
-          "grammar": true,
-          "english": "I'll have a coffee. (要 to order)",
-          "word": "我要一杯咖啡。",
-          "romanized": "Wǒ yào yì bēi kāfēi.",
-          "grammarNote": "**要**(yào) = want / would like — the everyday verb for ordering:\n**我要一杯咖啡**(I'll have a coffee). **杯**(bēi) is the measure word for cups and glasses.",
-          "englishPhrase": "I'll have a cup of tea, thanks.",
-          "phrase": "我要一杯茶，谢谢。",
-          "phraseRomanized": "Wǒ yào yì bēi chá, xièxie.",
+          "id": "ess_trad_ni_shi_yisheng_ma",
+          "english": "Are you a doctor?",
+          "word": "你是医生吗？",
+          "romanized": "Nǐ shì yīshēng ma?",
+          "phrase": "你是医生吗？不，我是学生。",
+          "phraseRomanized": "Nǐ shì yīshēng ma? Bù, wǒ shì xuéshēng.",
+          "englishPhrase": "Are you a doctor? No, I'm a student.",
           "literal": [
+            [
+              "你是医生吗？",
+              "Are you a doctor?"
+            ],
+            [
+              "不，",
+              "No,"
+            ],
             [
               "我",
               "I"
             ],
             [
-              "要",
-              "want"
+              "是",
+              "am"
             ],
             [
-              "一杯",
-              "a cup of"
-            ],
-            [
-              "茶，",
-              "tea,"
-            ],
-            [
-              "谢谢",
-              "thanks"
+              "学生",
+              "student"
             ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "要 yào = 'I'll have' — the everyday verb for ordering",
-            "task": "order: one coffee",
-            "answer": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
-            "gloss": "杯 bēi is the measure word for cups and glasses."
-          }
+          ]
         },
         {
-          "id": "g_xiang_verb",
+          "id": "ess_de_produce",
           "grammar": true,
-          "english": "I want to eat. (想 + verb)",
-          "word": "我想吃。",
-          "romanized": "Wǒ xiǎng chī.",
-          "grammarNote": "**想**(xiǎng) + verb = want to do something:\n**我想吃**(I want to eat), **我想喝茶**(I want to drink tea). Softer than **要**, which is more 'I'll have / I want'.",
-          "englishPhrase": "I want to drink coffee.",
-          "phrase": "我想喝咖啡。",
-          "phraseRomanized": "Wǒ xiǎng hē kāfēi.",
+          "english": "How do you say 'my coffee'? (的 shows possession)",
+          "word": "我的咖啡",
+          "romanized": "wǒ de kāfēi",
+          "grammarNote": "**的**(de) links a possessor to a thing, like 's or 'my':\n**我的咖啡**(my coffee), **他的苹果**(his apple). For close relationships you can drop **的**: **我妈**(my mom).",
+          "phrase": "这是我的咖啡。",
+          "phraseRomanized": "Zhè shì wǒ de kāfēi.",
+          "englishPhrase": "This is my coffee.",
           "literal": [
             [
-              "我",
-              "I"
+              "这",
+              "this"
             ],
             [
-              "想",
-              "want to"
+              "是",
+              "is"
             ],
             [
-              "喝",
-              "drink"
+              "我的",
+              "my"
             ],
             [
               "咖啡",
               "coffee"
             ]
           ],
-          "format": "contrast",
-          "contrast": {
-            "prompt": "想 xiǎng vs 要 yào",
-            "a": {
-              "term": "我想吃 wǒ xiǎng chī",
-              "gloss": "想 + verb = want TO DO (a wish, softer)"
-            },
-            "b": {
-              "term": "我要一杯咖啡 wǒ yào yì bēi kāfēi",
-              "gloss": "要 + noun = want / I'll have (ordering)"
-            }
+          "format": "produce",
+          "produce": {
+            "concept": "的 de links owner to thing (like 's / my)",
+            "task": "say: my coffee",
+            "answer": "我的咖啡 wǒ de kāfēi",
+            "gloss": "他的苹果 = his apple. Close relations can drop 的: 我妈 = my mom."
           }
         },
         {
-          "id": "g_hao_chi_pattern",
-          "grammar": true,
-          "english": "delicious (好 'good' + 吃 'eat')",
-          "word": "好吃",
-          "romanized": "hǎochī",
-          "grammarNote": "**好**(hǎo, good) + a verb = pleasant to do:\n**好吃**(good to eat = delicious, for food), **好喝**(good to drink — for tea/coffee), **好看**(good-looking).",
-          "englishPhrase": "This dish is delicious!",
-          "phrase": "这个菜很好吃！",
-          "phraseRomanized": "Zhège cài hěn hǎochī!",
+          "id": "ess_trad_wode_kafei",
+          "english": "my coffee",
+          "word": "我的咖啡",
+          "romanized": "wǒ de kāfēi",
+          "phrase": "这是我的咖啡，那是他的茶。",
+          "phraseRomanized": "Zhè shì wǒ de kāfēi, nà shì tā de chá.",
+          "englishPhrase": "This is my coffee, that is his tea.",
           "literal": [
             [
-              "这个",
+              "这",
               "this"
             ],
             [
-              "菜",
-              "dish"
+              "是",
+              "is"
             ],
             [
-              "很",
-              "(very)"
+              "我的",
+              "my"
             ],
             [
-              "好吃！",
-              "delicious!"
+              "咖啡，",
+              "coffee,"
+            ],
+            [
+              "那",
+              "that"
+            ],
+            [
+              "是",
+              "is"
+            ],
+            [
+              "他的",
+              "his"
+            ],
+            [
+              "茶",
+              "tea"
+            ]
+          ]
+        },
+        {
+          "id": "ess_you_table",
+          "grammar": true,
+          "english": "How do you say 'I have an apple'? (有 = to have)",
+          "word": "我有苹果。",
+          "romanized": "Wǒ yǒu píngguǒ.",
+          "grammarNote": "**有**(yǒu) = to have / there is:\n**我有苹果**(I have an apple), **你有咖啡吗？**(do you have coffee?). Negate with **没有**(méiyǒu), never **不有**.",
+          "phrase": "你有苹果吗？",
+          "phraseRomanized": "Nǐ yǒu píngguǒ ma?",
+          "englishPhrase": "Do you have an apple?",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "有",
+              "have"
+            ],
+            [
+              "苹果",
+              "apple"
+            ],
+            [
+              "吗？",
+              "[?]"
             ]
           ],
           "format": "table",
           "table": {
-            "title": "好 hǎo (good) + verb = pleasant to…",
+            "title": "有 yǒu = to have",
             "rows": [
               [
-                "delicious",
-                "好吃 hǎochī — good to eat"
+                "I have an apple",
+                "我有苹果 wǒ yǒu píngguǒ"
               ],
               [
-                "tasty (drinks)",
-                "好喝 hǎohē — good to drink"
+                "do you have coffee?",
+                "你有咖啡吗？nǐ yǒu kāfēi ma?"
               ],
               [
-                "good-looking",
-                "好看 hǎokàn — good to look at"
+                "I don't have (it)",
+                "我没有 wǒ méiyǒu"
               ]
             ],
-            "note": "A productive pattern: 好 + a verb."
+            "note": "Negate with 没有 méiyǒu — never 不有."
           }
         },
         {
-          "id": "g_zai_location",
-          "grammar": true,
-          "english": "I am at home. (在 for location)",
-          "word": "我在家。",
-          "romanized": "Wǒ zài jiā.",
-          "grammarNote": "**在**(zài) = to be at / located at:\n**我在家**(I'm at home), **他在学校**(he's at school). Structure: Subject + **在** + place.",
-          "englishPhrase": "I'm at the office now.",
-          "phrase": "我现在在办公室。",
-          "phraseRomanized": "Wǒ xiànzài zài bàngōngshì.",
+          "id": "ess_trad_you_pinguo",
+          "english": "I have an apple.",
+          "word": "我有苹果。",
+          "romanized": "Wǒ yǒu píngguǒ.",
+          "phrase": "我有苹果，你有吗？",
+          "phraseRomanized": "Wǒ yǒu píngguǒ, nǐ yǒu ma?",
+          "englishPhrase": "I have an apple, do you?",
           "literal": [
             [
               "我",
               "I"
             ],
             [
-              "现在",
-              "now"
+              "有",
+              "have"
+            ],
+            [
+              "苹果，",
+              "apple,"
+            ],
+            [
+              "你有吗？",
+              "do you?"
+            ]
+          ]
+        },
+        {
+          "id": "ess_zai_table",
+          "grammar": true,
+          "english": "How do you say 'I am at home'? (在 = at / located at)",
+          "word": "我在家。",
+          "romanized": "Wǒ zài jiā.",
+          "grammarNote": "**在**(zài) = to be at / located at:\n**我在家**(I'm at home), **他在学校**(he's at school). Structure: Subject + **在** + place.",
+          "phrase": "你在哪里？",
+          "phraseRomanized": "Nǐ zài nǎlǐ?",
+          "englishPhrase": "Where are you?",
+          "literal": [
+            [
+              "你",
+              "you"
             ],
             [
               "在",
               "at"
             ],
             [
-              "办公室",
-              "office"
+              "哪里？",
+              "where?"
             ]
           ],
           "format": "table",
@@ -442,22 +675,20 @@
               ],
               [
                 "where are you?",
-                "你在哪儿？nǐ zài nǎr?"
+                "你在哪里？nǐ zài nǎlǐ?"
               ]
             ],
-            "note": "在 = to be at / located at. 哪儿 nǎr = where."
+            "note": "在 = to be at / located at. 哪里 nǎlǐ = where."
           }
         },
         {
-          "id": "g_zai_place_verb",
-          "grammar": true,
-          "english": "I eat at the restaurant. (在 + place before the verb)",
-          "word": "我在餐厅吃饭。",
-          "romanized": "Wǒ zài cāntīng chī fàn.",
-          "grammarNote": "To say where an action happens, put **在 + place before the verb**:\n**我在餐厅吃饭**(I at-restaurant eat) — not after the verb like English.",
-          "englishPhrase": "I study at the library.",
-          "phrase": "我在图书馆学习。",
-          "phraseRomanized": "Wǒ zài túshūguǎn xuéxí.",
+          "id": "ess_trad_zai_jia",
+          "english": "I am at home.",
+          "word": "我在家。",
+          "romanized": "Wǒ zài jiā.",
+          "phrase": "我在家，他在学校。",
+          "phraseRomanized": "Wǒ zài jiā, tā zài xuéxiào.",
+          "englishPhrase": "I'm at home, he's at school.",
           "literal": [
             [
               "我",
@@ -465,565 +696,52 @@
             ],
             [
               "在",
-              "at"
+              "am at"
             ],
             [
-              "图书馆",
-              "library"
+              "家，",
+              "home,"
             ],
             [
-              "学习",
-              "study"
-            ]
-          ],
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Where does 在+place go? (I eat at the restaurant)",
-            "a": {
-              "term": "我在餐厅吃饭 wǒ zài cāntīng chī fàn",
-              "gloss": "✓ 在+place goes BEFORE the verb"
-            },
-            "b": {
-              "term": "我吃饭在餐厅",
-              "gloss": "✗ not after the verb like English"
-            }
-          }
-        },
-        {
-          "id": "g_qu_place",
-          "grammar": true,
-          "english": "I go to the park. (去 needs no 'to')",
-          "word": "我去公园。",
-          "romanized": "Wǒ qù gōngyuán.",
-          "grammarNote": "**去**(qù, to go) attaches straight to a place — there's no word for 'to':\n**我去公园**(I go park), **我去学校**(I go to school). Put a time word before **去** to say when.",
-          "englishPhrase": "In the morning I go to the park.",
-          "phrase": "我早上去公园。",
-          "phraseRomanized": "Wǒ zǎoshang qù gōngyuán.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "早上",
-              "in the morning"
-            ],
-            [
-              "去",
-              "go"
-            ],
-            [
-              "公园",
-              "park"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "去 qù (to go) attaches straight to a place — there's no word for 'to'",
-            "task": "say: I go to the park",
-            "answer": "我去公园 wǒ qù gōngyuán",
-            "gloss": "我去学校 = I go to school. A time word goes before 去."
-          }
-        },
-        {
-          "id": "g_zai_li_shang",
-          "grammar": true,
-          "english": "in the room (在 … 里 wraps the place)",
-          "word": "在房间里",
-          "romanized": "zài fángjiān lǐ",
-          "grammarNote": "Position words wrap the noun: **在 + place + 里/上/下**:\n**在房间里**(in the room), **在桌子上**(on the table), **在床下**(under the bed).",
-          "englishPhrase": "The cat is in the room.",
-          "phrase": "猫在房间里。",
-          "phraseRomanized": "Māo zài fángjiān lǐ.",
-          "literal": [
-            [
-              "猫",
-              "cat"
+              "他",
+              "he"
             ],
             [
               "在",
-              "(is) in"
+              "is at"
             ],
             [
-              "房间",
-              "room"
-            ],
-            [
-              "里",
-              "inside"
+              "学校",
+              "school"
             ]
-          ],
-          "format": "table",
-          "table": {
-            "title": "在 + place + 里/上/下 (position words)",
-            "rows": [
-              [
-                "in the room",
-                "在房间里 zài fángjiān lǐ"
-              ],
-              [
-                "on the table",
-                "在桌子上 zài zhuōzi shàng"
-              ],
-              [
-                "under the bed",
-                "在床下 zài chuáng xià"
-              ]
-            ],
-            "note": "里 inside · 上 on top · 下 under — the position word follows the noun."
-          }
+          ]
         },
         {
-          "id": "g_shi_job",
-          "grammar": true,
-          "english": "I am a doctor. (是 + profession)",
-          "word": "我是医生。",
-          "romanized": "Wǒ shì yīshēng.",
-          "grammarNote": "State your job with **是**(shì): Subject + **是** + job.\n**我是医生**(I'm a doctor), **她是学生**(she's a student). To ask: **你是做什么的？**(what do you do?).",
-          "englishPhrase": "She is an engineer.",
-          "phrase": "她是工程师。",
-          "phraseRomanized": "Tā shì gōngchéngshī.",
+          "id": "ess_trad_zai_xuexiao",
+          "english": "He is at school.",
+          "word": "他在学校。",
+          "romanized": "Tā zài xuéxiào.",
+          "phrase": "他在学校，你在哪里？",
+          "phraseRomanized": "Tā zài xuéxiào, nǐ zài nǎlǐ?",
+          "englishPhrase": "He's at school. Where are you?",
           "literal": [
             [
-              "她",
-              "she"
-            ],
-            [
-              "是",
-              "is"
-            ],
-            [
-              "工程师",
-              "engineer"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "State your job with 是: Subject + 是 + job",
-            "task": "say: I am a doctor",
-            "answer": "我是医生 wǒ shì yīshēng",
-            "gloss": "Ask 你是做什么的？nǐ shì zuò shénme de? = what do you do?"
-          }
-        },
-        {
-          "id": "g_xihuan_verb",
-          "grammar": true,
-          "english": "I like reading. (喜欢 + verb)",
-          "word": "我喜欢阅读。",
-          "romanized": "Wǒ xǐhuān yuèdú.",
-          "grammarNote": "**喜欢**(xǐhuān, to like) can be followed straight by a verb = 'like doing':\n**我喜欢阅读**(I like reading), **我喜欢跑步**(I like running). No 'to' or '-ing' change needed.",
-          "englishPhrase": "I like listening to music.",
-          "phrase": "我喜欢听音乐。",
-          "phraseRomanized": "Wǒ xǐhuān tīng yīnyuè.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "喜欢",
-              "like"
-            ],
-            [
-              "听",
-              "listening to"
-            ],
-            [
-              "音乐",
-              "music"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "喜欢 xǐhuān (to like) + verb = like doing",
-            "task": "say: I like reading",
-            "answer": "我喜欢阅读 wǒ xǐhuān yuèdú",
-            "gloss": "No 'to' or '-ing' — just 喜欢 + verb. 我喜欢跑步 = I like running."
-          }
-        },
-        {
-          "id": "g_zai_progressive",
-          "grammar": true,
-          "english": "I am working. (在 + verb = happening now)",
-          "word": "我在工作。",
-          "romanized": "Wǒ zài gōngzuò.",
-          "grammarNote": "Put **在**(zài) before a verb to show it's happening right now:\n**我在工作**(I'm working), **他在唱歌**(he's singing). It's the '-ing' of Chinese.",
-          "englishPhrase": "She is working now.",
-          "phrase": "她现在在工作。",
-          "phraseRomanized": "Tā xiànzài zài gōngzuò.",
-          "literal": [
-            [
-              "她",
-              "she"
-            ],
-            [
-              "现在",
-              "now"
+              "他",
+              "he"
             ],
             [
               "在",
-              "(is) -ing"
+              "is at"
             ],
             [
-              "工作",
-              "working"
+              "学校，",
+              "school,"
+            ],
+            [
+              "你在哪里？",
+              "where are you?"
             ]
-          ],
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I'm working (it's happening right now)",
-            "text": "我 ___ 工作",
-            "answer": "在 zài",
-            "options": [
-              "在 zài",
-              "了 le",
-              "会 huì"
-            ]
-          }
-        },
-        {
-          "id": "g_hui_skill",
-          "grammar": true,
-          "english": "I can swim. (会 = a learned skill)",
-          "word": "我会游泳。",
-          "romanized": "Wǒ huì yóuyǒng.",
-          "grammarNote": "**会**(huì) = can, for skills you've learned:\n**我会游泳**(I can swim), **我会说中文**(I can speak Chinese). Compare **能**(néng) = able / allowed in a situation.",
-          "englishPhrase": "I can swim, can you?",
-          "phrase": "我会游泳，你会吗？",
-          "phraseRomanized": "Wǒ huì yóuyǒng, nǐ huì ma?",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "会",
-              "can"
-            ],
-            [
-              "游泳，",
-              "swim,"
-            ],
-            [
-              "你会吗？",
-              "can you?"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "会 huì = can, for a skill you've learned",
-            "task": "say: I can swim",
-            "answer": "我会游泳 wǒ huì yóuyǒng",
-            "gloss": "会 = learned skills. 我会说中文 = I can speak Chinese."
-          }
-        },
-        {
-          "id": "g_hen_feeling",
-          "grammar": true,
-          "english": "I am happy. (很 + adjective, no 是)",
-          "word": "我很快乐。",
-          "romanized": "Wǒ hěn kuàilè.",
-          "grammarNote": "Describe a mood with **很**(hěn) + adjective — **no 是**:\n**我很快乐**(I'm happy), **我很累**(I'm tired). **很** links subject to adjective; it only means 'very' when stressed.",
-          "englishPhrase": "I'm very happy today.",
-          "phrase": "我今天很快乐。",
-          "phraseRomanized": "Wǒ jīntiān hěn kuàilè.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "今天",
-              "today"
-            ],
-            [
-              "很",
-              "(very)"
-            ],
-            [
-              "快乐",
-              "happy"
-            ]
-          ],
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I'm happy (mood → 很 + adjective, no 是)",
-            "text": "我 ___ 快乐",
-            "answer": "很 hěn",
-            "options": [
-              "很 hěn",
-              "是 shì",
-              "太 tài"
-            ]
-          }
-        },
-        {
-          "id": "g_juede_feel",
-          "grammar": true,
-          "english": "I feel tired. (觉得 = feel / think that)",
-          "word": "我觉得很累。",
-          "romanized": "Wǒ juéde hěn lèi.",
-          "grammarNote": "**觉得**(juéde) = to feel / think that — introduces a feeling or opinion:\n**我觉得很累**(I feel tired), **我觉得这个很好**(I think this is good). Follow it with an adjective (+很) or a full clause.",
-          "englishPhrase": "I feel happy.",
-          "phrase": "我觉得很快乐。",
-          "phraseRomanized": "Wǒ juéde hěn kuàilè.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "觉得",
-              "feel"
-            ],
-            [
-              "很",
-              "(very)"
-            ],
-            [
-              "快乐",
-              "happy"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "觉得 juéde = to feel / think that — introduces an opinion",
-            "task": "say: I feel tired",
-            "answer": "我觉得很累 wǒ juéde hěn lèi",
-            "gloss": "Follow it with a full comment: 我觉得这个很好 = I think this is good."
-          }
-        },
-        {
-          "id": "g_youdianr",
-          "grammar": true,
-          "english": "I'm a little nervous. (有点儿 + adjective)",
-          "word": "我有点儿紧张。",
-          "romanized": "Wǒ yǒudiǎnr jǐnzhāng.",
-          "grammarNote": "**有点儿**(yǒudiǎnr) + adjective = 'a little / somewhat', usually for something undesirable:\n**有点儿紧张**(a bit nervous), **有点儿累**(a little tired). It goes before the adjective.",
-          "englishPhrase": "I'm a little tired.",
-          "phrase": "我有点儿累。",
-          "phraseRomanized": "Wǒ yǒudiǎnr lèi.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "有点儿",
-              "a little"
-            ],
-            [
-              "累",
-              "tired"
-            ]
-          ],
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I'm a little nervous (有点儿 + adjective, usually negative)",
-            "text": "我 ___ 紧张",
-            "answer": "有点儿 yǒudiǎnr",
-            "options": [
-              "有点儿 yǒudiǎnr",
-              "很 hěn",
-              "太 tài"
-            ]
-          }
-        },
-        {
-          "id": "g_tai_le",
-          "grammar": true,
-          "english": "I'm too tired! (太 … 了)",
-          "word": "我太累了！",
-          "romanized": "Wǒ tài lèi le!",
-          "grammarNote": "**太**(tài) … **了**(le) wraps an adjective = 'too / so':\n**太累了**(too tired), **太好了**(great! — lit. too good). A strong feeling, often exclaimed.",
-          "englishPhrase": "That's great!",
-          "phrase": "太好了！",
-          "phraseRomanized": "Tài hǎo le!",
-          "literal": [
-            [
-              "太",
-              "too"
-            ],
-            [
-              "好",
-              "good"
-            ],
-            [
-              "了！",
-              "[!]"
-            ]
-          ],
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I'm SO tired! ('too …' → 太 … 了)",
-            "text": "我 ___ 累了",
-            "answer": "太 tài",
-            "options": [
-              "太 tài",
-              "很 hěn",
-              "有点儿 yǒudiǎnr"
-            ]
-          }
-        },
-        {
-          "id": "g_de_possessive_body",
-          "grammar": true,
-          "english": "my hand (的 shows possession)",
-          "word": "我的手",
-          "romanized": "wǒ de shǒu",
-          "grammarNote": "**的**(de) links a possessor to a thing, like 's / my:\n**我的手**(my hand), **他的眼睛**(his eyes). For close relationships you can drop **的**: **我妈**(my mom).",
-          "englishPhrase": "This is my hand.",
-          "phrase": "这是我的手。",
-          "phraseRomanized": "Zhè shì wǒ de shǒu.",
-          "literal": [
-            [
-              "这",
-              "this"
-            ],
-            [
-              "是",
-              "is"
-            ],
-            [
-              "我的",
-              "my"
-            ],
-            [
-              "手",
-              "hand"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "的 de links owner to thing (like 's / my)",
-            "task": "say: my hand",
-            "answer": "我的手 wǒ de shǒu",
-            "gloss": "他的眼睛 = his eyes. Close relations can drop 的: 我妈 = my mom."
-          }
-        },
-        {
-          "id": "g_teng_hurt",
-          "grammar": true,
-          "english": "My head hurts. (body part + 疼)",
-          "word": "我头疼。",
-          "romanized": "Wǒ tóu téng.",
-          "grammarNote": "To say a body part hurts, name it then add **疼**(téng, to ache):\n**我头疼**(my head hurts, lit. 'I head ache'), **我牙疼**(toothache). This topic-then-comment order is very common.",
-          "englishPhrase": "I have a headache today.",
-          "phrase": "我今天头疼。",
-          "phraseRomanized": "Wǒ jīntiān tóu téng.",
-          "literal": [
-            [
-              "我",
-              "I"
-            ],
-            [
-              "今天",
-              "today"
-            ],
-            [
-              "头",
-              "head"
-            ],
-            [
-              "疼",
-              "hurts"
-            ]
-          ],
-          "format": "produce",
-          "produce": {
-            "concept": "Say what hurts: (I) + body part + 疼 téng (to ache)",
-            "task": "say: my head hurts",
-            "answer": "我头疼 wǒ tóu téng",
-            "gloss": "Literally 'I head ache' — topic then comment. 我牙疼 = toothache."
-          }
-        },
-        {
-          "id": "g_adj_de_noun",
-          "grammar": true,
-          "english": "soft skin (adjective + 的 + noun)",
-          "word": "软的皮肤",
-          "romanized": "ruǎn de pífū",
-          "grammarNote": "A two-syllable adjective takes **的** before the noun it describes:\n**软的皮肤**(soft skin), **健康的身体**(healthy body). Single-syllable adjectives often skip **的**: **大手**(big hand).",
-          "englishPhrase": "Healthy skin is soft.",
-          "phrase": "健康的皮肤很软。",
-          "phraseRomanized": "Jiànkāng de pífū hěn ruǎn.",
-          "literal": [
-            [
-              "健康的",
-              "healthy"
-            ],
-            [
-              "皮肤",
-              "skin"
-            ],
-            [
-              "很",
-              "(is very)"
-            ],
-            [
-              "软",
-              "soft"
-            ]
-          ],
-          "format": "table",
-          "table": {
-            "title": "Longer adjective + 的 de + noun",
-            "rows": [
-              [
-                "soft skin",
-                "软的皮肤 ruǎn de pífū"
-              ],
-              [
-                "healthy body",
-                "健康的身体 jiànkāng de shēntǐ"
-              ],
-              [
-                "a red apple",
-                "红的苹果 hóng de píngguǒ"
-              ]
-            ],
-            "note": "Single-syllable adjectives often skip 的 (好人 = a good person)."
-          }
-        },
-        {
-          "id": "g_zhi_measure_body",
-          "grammar": true,
-          "english": "two hands (只 counts hands, eyes, ears)",
-          "word": "两只手",
-          "romanized": "liǎng zhī shǒu",
-          "grammarNote": "Paired body parts often take the measure word **只**(zhī):\n**两只手**(two hands), **两只眼睛**(two eyes), **一只耳朵**(one ear). Use **两**(liǎng), not 二, before a measure word.",
-          "englishPhrase": "A person has two hands.",
-          "phrase": "人有两只手。",
-          "phraseRomanized": "Rén yǒu liǎng zhī shǒu.",
-          "literal": [
-            [
-              "人",
-              "a person"
-            ],
-            [
-              "有",
-              "has"
-            ],
-            [
-              "两只",
-              "two"
-            ],
-            [
-              "手",
-              "hands"
-            ]
-          ],
-          "format": "cloze",
-          "cloze": {
-            "prompt": "two hands (只 counts hands, eyes, ears)",
-            "text": "两 ___ 手",
-            "answer": "只 zhī",
-            "options": [
-              "只 zhī",
-              "个 gè",
-              "本 běn"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -1034,192 +752,196 @@
       "kind": "grammar",
       "cards": [
         {
-          "id": "le_intro",
+          "id": "asp_le_complete",
           "grammar": true,
-          "english": "了 = completed action",
+          "english": "How do you mark a completed action with 了?",
           "word": "吃了",
           "romanized": "chī le",
-          "grammarNote": "**动词 + 了** marks a completed action. It does NOT mean past tense — it means the action is finished.",
-          "format": "produce",
-          "produce": {
-            "concept": "了 after a verb = the action is completed.",
-            "task": "say 'I ate' from 吃 (eat)",
-            "answer": "我吃了。",
-            "gloss": "吃 (eat) + 了 = 吃了 (ate / have eaten)"
-          }
-        },
-        {
-          "id": "le_vs_habit",
-          "grammar": true,
-          "english": "completed vs habit",
-          "word": "了",
-          "romanized": "le",
-          "grammarNote": "Add **了** for a finished action; leave it off for habits or general facts.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "One time, completed — or a general habit?",
-            "a": {
-              "term": "我喝了茶。",
-              "gloss": "Wǒ hē le chá — I drank the tea (completed)"
-            },
-            "b": {
-              "term": "我喝茶。",
-              "gloss": "Wǒ hē chá — I drink tea (habit, general)"
-            }
-          }
-        },
-        {
-          "id": "le_question",
-          "grammar": true,
-          "english": "asking about completion",
-          "word": "吃了吗",
-          "romanized": "chī le ma",
-          "grammarNote": "Ask about a completed action with **Verb + 了 + 吗**. Answer 吃了 (yes) or 没吃 (no).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "Have you eaten? (yes/no question about a completed action)",
-            "text": "你吃___吗？",
-            "answer": "了",
-            "options": [
-              "了",
-              "过"
+          "grammarNote": "Place **了** directly after the verb to mark a completed action. It signals the action is done — not simply past tense.\n\n**Verb + 了** = the action is finished.",
+          "phrase": "我吃了饭。",
+          "phraseRomanized": "Wǒ chī le fàn.",
+          "englishPhrase": "I ate (finished eating).",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃了",
+              "ate/finished eating"
+            ],
+            [
+              "饭",
+              "rice/a meal"
             ]
-          },
-          "phrase": "你吃了吗？",
-          "phraseRomanized": "Nǐ chī le ma?",
-          "englishPhrase": "Have you eaten?"
-        },
-        {
-          "id": "le_neg",
-          "grammar": true,
-          "english": "negating a completed action",
-          "word": "没吃",
-          "romanized": "méi chī",
-          "grammarNote": "Negate a completed action with **没**, and **drop 了**: 我没吃 (never 没吃了).",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "How do you say the action did NOT happen?",
-            "a": {
-              "term": "我吃了。",
-              "gloss": "Wǒ chī le — I ate (completed)"
-            },
-            "b": {
-              "term": "我没吃。",
-              "gloss": "Wǒ méi chī — I didn't eat (drop 了, use 没)"
-            }
-          }
-        },
-        {
-          "id": "le_change_intro",
-          "grammar": true,
-          "english": "了 = change of state",
-          "word": "饿了",
-          "romanized": "è le",
-          "grammarNote": "**了** at the end of a sentence marks a **change of state** — a new situation that wasn't true before.",
+          ],
           "format": "table",
           "table": {
-            "title": "了 at the end = a new situation",
+            "title": "了 after the verb = completed action",
             "rows": [
               [
-                "Before",
-                "我不饿 wǒ bù è — I'm not hungry"
+                "Pattern",
+                "Verb + 了 (+ object)"
               ],
               [
-                "Now",
-                "我饿了 wǒ è le — I'm hungry now"
+                "Positive",
+                "吃了 chi le — ate / have eaten"
+              ],
+              [
+                "Negative",
+                "没吃 mei chi — did not eat (drop 了)"
               ]
             ],
-            "highlight": "Now",
-            "note": "Sentence-final 了 signals a change: something is different now."
-          },
-          "phrase": "我饿了。",
-          "phraseRomanized": "Wǒ è le.",
-          "englishPhrase": "I'm hungry now."
-        },
-        {
-          "id": "le_change_produce",
-          "grammar": true,
-          "english": "became / now is",
-          "word": "累了",
-          "romanized": "lèi le",
-          "grammarNote": "**Adjective + 了** = became / now is: 累了 (got tired), 好了 (all better / ready).",
-          "format": "produce",
-          "produce": {
-            "concept": "Sentence-final 了 = a change just happened.",
-            "task": "say 'I'm tired now' with 累 (tired)",
-            "answer": "我累了。",
-            "gloss": "Wǒ lèi le — I'm tired now (wasn't before)."
+            "highlight": "Negative",
+            "note": "Under 没, the 了 disappears: 没吃 (never 没吃了)."
           }
         },
         {
-          "id": "le_two_types",
+          "id": "asp_le_trad_drink",
+          "english": "I drank the tea (completed)",
+          "word": "喝了茶",
+          "romanized": "hē le chá",
+          "phrase": "我喝了茶。",
+          "phraseRomanized": "Wǒ hē le chá.",
+          "englishPhrase": "I drank the tea.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "喝了",
+              "drank"
+            ],
+            [
+              "茶",
+              "tea"
+            ]
+          ]
+        },
+        {
+          "id": "asp_le_trad_neg",
+          "english": "I didn't eat (negate a completed action)",
+          "word": "没吃",
+          "romanized": "méi chī",
+          "phrase": "我没吃早餐。",
+          "phraseRomanized": "Wǒ méi chī zǎocān.",
+          "englishPhrase": "I didn't eat breakfast.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "没吃",
+              "did not eat"
+            ],
+            [
+              "早餐",
+              "breakfast"
+            ]
+          ]
+        },
+        {
+          "id": "asp_le_change",
           "grammar": true,
-          "english": "the two jobs of 了",
+          "english": "How does sentence-final 了 differ from verb-final 了?",
           "word": "了",
           "romanized": "le",
-          "grammarNote": "了 after the **verb** = completion. 了 at the **end** = a new situation. Same character, two jobs.",
+          "grammarNote": "**了** has two jobs:\n- **Verb + 了** = completed action (我吃了饭)\n- **Sentence-final 了** = a new situation / change of state (我饿了 — I'm hungry now)\n\nSame character, two different signals.",
+          "phrase": "我饿了。",
+          "phraseRomanized": "Wǒ è le.",
+          "englishPhrase": "I'm hungry now.",
           "format": "contrast",
           "contrast": {
-            "prompt": "Two jobs of 了 — which is which?",
+            "prompt": "Completed action, or a change of state?",
             "a": {
               "term": "我吃了饭。",
-              "gloss": "Wǒ chī le fàn — verb+了 = completed action"
+              "gloss": "Wǒ chī le fàn — verb+了 = finished eating"
             },
             "b": {
               "term": "我饿了。",
-              "gloss": "Wǒ è le — sentence-final 了 = change of state"
+              "gloss": "Wǒ è le — sentence-final 了 = became hungry"
             }
           }
         },
         {
-          "id": "le_kuai",
-          "grammar": true,
-          "english": "about to happen",
-          "word": "快…了",
-          "romanized": "kuài … le",
-          "grammarNote": "**快 … 了** = about to happen very soon: 饭快好了 (almost ready).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "The meal is almost ready (about to happen)",
-            "text": "饭快好___",
-            "answer": "了",
-            "options": [
-              "了",
-              "过"
+          "id": "asp_le_trad_tired",
+          "english": "I'm tired now (change of state)",
+          "word": "累了",
+          "romanized": "lèi le",
+          "phrase": "我累了。",
+          "phraseRomanized": "Wǒ lèi le.",
+          "englishPhrase": "I'm tired now.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "累了",
+              "am tired now (just became tired)"
             ]
-          },
-          "phrase": "饭快好了。",
-          "phraseRomanized": "Fàn kuài hǎo le.",
-          "englishPhrase": "The meal is almost ready."
+          ]
         },
         {
-          "id": "guo_intro",
+          "id": "asp_guo_intro",
           "grammar": true,
-          "english": "过 = have done before",
-          "word": "吃过",
-          "romanized": "chī guo",
-          "grammarNote": "**动词 + 过** marks an **experience** — you've done it at least once. 过 is toneless here (guo).",
-          "format": "produce",
-          "produce": {
-            "concept": "Verb + 过 = have done it before (at least once in life).",
-            "task": "say 'I've eaten hotpot' with 吃 (eat) 火锅 (hotpot)",
-            "answer": "我吃过火锅。",
-            "gloss": "Wǒ chī guo huǒguō — I've had hotpot before."
+          "english": "Which particle marks a past experience — something you've done at least once?",
+          "word": "过",
+          "romanized": "guo",
+          "grammarNote": "**Verb + 过** marks a life experience — you've done it at least once. 过 is toneless.\n\n**Negative**: 没…过 (keep 过!): 没去过 = have never been.",
+          "phrase": "我吃过火锅。",
+          "phraseRomanized": "Wǒ chī guo huǒguō.",
+          "englishPhrase": "I've eaten hot pot (before).",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃过",
+              "have eaten (experience)"
+            ],
+            [
+              "火锅",
+              "hot pot"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "过 — experience aspect",
+            "rows": [
+              [
+                "Have done",
+                "去过 qu guo — have been (there)"
+              ],
+              [
+                "Never done",
+                "没去过 mei qu guo — never been"
+              ],
+              [
+                "Ever…?",
+                "去过吗 qu guo ma — have you ever been?"
+              ]
+            ],
+            "highlight": "Never done",
+            "note": "Under 没, 过 stays — unlike 了 which disappears."
           }
         },
         {
-          "id": "guo_vs_le",
+          "id": "asp_guo_vs_le",
           "grammar": true,
-          "english": "过 vs 了",
-          "word": "过",
-          "romanized": "guo",
-          "grammarNote": "**了** = a specific completed action. **过** = you've done it before at some point.",
+          "english": "了 vs 过 — what is the key difference?",
+          "word": "了 vs 过",
+          "romanized": "le vs guo",
+          "grammarNote": "**了** = a specific completed event (often with a time anchor).\n**过** = a life experience — you've done it at some point, at least once.\n\nIn the negative: 没吃 (drop 了) vs 没吃过 (keep 过).",
           "format": "contrast",
           "contrast": {
-            "prompt": "A finished event, or a life experience?",
+            "prompt": "A specific completed event, or a life experience?",
             "a": {
               "term": "我吃了。",
-              "gloss": "Wǒ chī le — I ate (just now, completed)"
+              "gloss": "Wǒ chī le — I ate (specific, just now, completed)"
             },
             "b": {
               "term": "我吃过。",
@@ -1228,213 +950,127 @@
           }
         },
         {
-          "id": "guo_question",
-          "grammar": true,
-          "english": "ever…?",
-          "word": "去过…吗",
-          "romanized": "qù guo … ma",
-          "grammarNote": "Ask about experience with **Verb + 过 … 吗？**",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "Have you ever been to the beach?",
-            "text": "你去___海滩吗？",
-            "answer": "过",
-            "options": [
-              "过",
-              "了"
+          "id": "asp_guo_trad_museum",
+          "english": "I've been to the museum (experience)",
+          "word": "去过博物馆",
+          "romanized": "qù guo bówùguǎn",
+          "phrase": "我去过博物馆。",
+          "phraseRomanized": "Wǒ qù guo bówùguǎn.",
+          "englishPhrase": "I've been to the museum.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "去过",
+              "have been to (experience)"
+            ],
+            [
+              "博物馆",
+              "museum"
             ]
-          },
-          "phrase": "你去过海滩吗？",
-          "phraseRomanized": "Nǐ qù guo hǎitān ma?",
-          "englishPhrase": "Have you ever been to the beach?"
+          ]
         },
         {
-          "id": "guo_neg",
-          "grammar": true,
-          "english": "never done it",
-          "word": "没…过",
-          "romanized": "méi … guo",
-          "grammarNote": "Negate experience with **没 … 过** (keep 过!): 没去过 = have never gone.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Say you've NEVER done it",
-            "a": {
-              "term": "我去过。",
-              "gloss": "Wǒ qù guo — I've been (there)"
-            },
-            "b": {
-              "term": "我没去过。",
-              "gloss": "Wǒ méi qù guo — I've never been"
-            }
-          }
+          "id": "asp_guo_trad_neg",
+          "english": "I've never been to the beach",
+          "word": "没去过海滩",
+          "romanized": "méi qù guo hǎitān",
+          "phrase": "我没去过海滩。",
+          "phraseRomanized": "Wǒ méi qù guo hǎitān.",
+          "englishPhrase": "I've never been to the beach.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "没去过",
+              "have never been to"
+            ],
+            [
+              "海滩",
+              "beach"
+            ]
+          ]
         },
         {
-          "id": "guo_le_neg_diff",
+          "id": "asp_zai_prog",
           "grammar": true,
-          "english": "了 vs 过 in the negative",
-          "word": "没…过",
-          "romanized": "méi … guo",
-          "grammarNote": "了 disappears under 没; 过 does not.",
+          "english": "How do you say an action is happening right now using 在?",
+          "word": "在 / 正在",
+          "romanized": "zài / zhèngzài",
+          "grammarNote": "**在 + Verb** = an action in progress right now.\n**正在 + Verb** = emphasis on *this very moment*.\n\nNegate with **没(在)**: 没在工作 = not working now.",
+          "phrase": "他正在工作。",
+          "phraseRomanized": "Tā zhèngzài gōngzuò.",
+          "englishPhrase": "He is working right now.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "正在工作",
+              "is working right now"
+            ]
+          ],
           "format": "table",
           "table": {
-            "title": "过 vs 了 in the negative",
+            "title": "在 / 正在 — ongoing action",
             "rows": [
               [
-                "了 → 没 (drop 了)",
-                "没吃 méi chī — didn't eat"
+                "Ongoing",
+                "在吃 zai chi — is eating"
               ],
               [
-                "过 → 没…过 (keep 过)",
-                "没吃过 méi chī guo — never eaten"
+                "Emphatic now",
+                "正在吃 zhengzai chi — eating right this moment"
+              ],
+              [
+                "Negative",
+                "没在吃 mei zai chi — not eating now"
               ]
             ],
-            "highlight": "过 → 没…过 (keep 过)",
-            "note": "了 disappears under 没; 过 stays."
+            "highlight": "Emphatic now",
+            "note": "正在 adds extra stress on the immediacy; 在 alone is already present-progressive."
           }
         },
         {
-          "id": "guo_summary",
-          "grammar": true,
-          "english": "过 at a glance",
-          "word": "过",
-          "romanized": "guo",
-          "grammarNote": "过 = at least once in your life; keep 过 even in the negative.",
-          "format": "table",
-          "table": {
-            "title": "过 — experience aspect",
-            "rows": [
-              [
-                "Have done",
-                "去过 qù guo — have been"
-              ],
-              [
-                "Never done",
-                "没去过 méi qù guo — never been"
-              ],
-              [
-                "Ever…?",
-                "去过吗 qù guo ma — have you ever been?"
-              ]
-            ],
-            "highlight": "Ever…?",
-            "note": "过 = at least once in your life; keep 过 even in the negative."
-          }
-        },
-        {
-          "id": "prog_intro",
-          "grammar": true,
-          "english": "在 + verb = happening now",
-          "word": "在吃",
-          "romanized": "zài chī",
-          "grammarNote": "**在 + 动词** = ongoing action. (Essentials: 我在工作 = I'm working.)",
-          "format": "produce",
-          "produce": {
-            "concept": "在 + verb = an action happening right now.",
-            "task": "say 'I am eating' with 吃 (eat)",
-            "answer": "我在吃饭。",
-            "gloss": "Wǒ zài chī fàn — I'm eating (right now)."
-          }
-        },
-        {
-          "id": "prog_structure",
-          "grammar": true,
-          "english": "structure of 在 + verb",
-          "word": "在",
-          "romanized": "zài",
-          "grammarNote": "Put **在** before the verb to show the action is unfolding right now.",
-          "format": "table",
-          "table": {
-            "title": "Ongoing action: Subject + 在 + Verb",
-            "rows": [
-              [
-                "Subject",
-                "他 tā — he"
-              ],
-              [
-                "在",
-                "在 zài — (in the middle of)"
-              ],
-              [
-                "Verb",
-                "吃饭 chī fàn — eating"
-              ]
-            ],
-            "highlight": "在",
-            "note": "他在吃饭 = He is eating right now."
-          },
+          "id": "asp_zai_trad_eating",
+          "english": "He is eating (right now)",
+          "word": "在吃饭",
+          "romanized": "zài chī fàn",
           "phrase": "他在吃饭。",
           "phraseRomanized": "Tā zài chī fàn.",
-          "englishPhrase": "He is eating."
-        },
-        {
-          "id": "prog_zai_two_uses",
-          "grammar": true,
-          "english": "在 = place vs 在 = action",
-          "word": "在",
-          "romanized": "zài",
-          "grammarNote": "**在 + place** = location. **在 + verb** = an action in progress. (在家吃饭 = eating at home.)",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "在 = location, or 在 = ongoing action?",
-            "a": {
-              "term": "我在家。",
-              "gloss": "Wǒ zài jiā — I'm at home (在 + place)"
-            },
-            "b": {
-              "term": "我在吃饭。",
-              "gloss": "Wǒ zài chī fàn — I'm eating (在 + verb)"
-            }
-          }
-        },
-        {
-          "id": "prog_zhengzai",
-          "grammar": true,
-          "english": "正在 = right this moment",
-          "word": "正在工作",
-          "romanized": "zhèngzài gōngzuò",
-          "grammarNote": "**正在** = 在 with extra emphasis on this very moment.",
-          "format": "produce",
-          "produce": {
-            "concept": "正在 + verb stresses 'right at this moment'.",
-            "task": "say 'He is working right now' with 工作 (work)",
-            "answer": "他正在工作。",
-            "gloss": "Tā zhèngzài gōngzuò — he's working right now."
-          }
-        },
-        {
-          "id": "prog_neg",
-          "grammar": true,
-          "english": "negating an ongoing action",
-          "word": "没在",
-          "romanized": "méi zài",
-          "grammarNote": "Negate an ongoing action with **没(在)**: 没在工作 = not working (now).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I'm not working right now; I'm resting",
-            "text": "我___在工作，我在休息",
-            "answer": "没",
-            "options": [
-              "没",
-              "不"
+          "englishPhrase": "He is eating.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "在吃饭",
+              "is eating"
             ]
-          },
-          "phrase": "我没在工作，我在休息。",
-          "phraseRomanized": "Wǒ méi zài gōngzuò, wǒ zài xiūxi.",
-          "englishPhrase": "I'm not working right now; I'm resting."
+          ]
         },
         {
-          "id": "prog_zai_vs_zhe",
+          "id": "asp_zhe_state",
           "grammar": true,
-          "english": "在 (action) vs 着 (state)",
+          "english": "How does 着 differ from 在 — what does it mark?",
           "word": "着",
           "romanized": "zhe",
-          "grammarNote": "**在** = an action unfolding. **着** = a state that continues. 在 focuses on 'doing', 着 on 'staying in a state'.",
+          "grammarNote": "**Verb + 着** marks a continuing state — the result or manner of an action persists.\n- **在** = active action unfolding (I am eating)\n- **着** = a state that continues (the door is open; she smiles while speaking)\n\n着 is also used as a linking particle: 笑着说 = said it smilingly.",
+          "phrase": "他等着你。",
+          "phraseRomanized": "Tā děng zhe nǐ.",
+          "englishPhrase": "He is waiting for you (continuing state).",
           "format": "contrast",
           "contrast": {
-            "prompt": "An action in progress, or a continuing state?",
+            "prompt": "Active ongoing action, or a continuing state?",
             "a": {
               "term": "他在看。",
-              "gloss": "Tā zài kàn — he is looking (action happening)"
+              "gloss": "Tā zài kàn — he is looking (action happening now)"
             },
             "b": {
               "term": "他看着。",
@@ -1443,48 +1079,38 @@
           }
         },
         {
-          "id": "prog_zhe",
-          "grammar": true,
-          "english": "verb + 着 = continues",
-          "word": "等着",
-          "romanized": "děng zhe",
-          "grammarNote": "**动词 + 着** shows the state continues: 等着 = waiting (and still waiting).",
-          "format": "produce",
-          "produce": {
-            "concept": "Verb + 着 = the action/state continues.",
-            "task": "say 'I'm waiting for you' with 等 (wait)",
-            "answer": "我等着你。",
-            "gloss": "Wǒ děng zhe nǐ — I'm waiting for you."
-          }
-        },
-        {
-          "id": "prog_zhe_cloze",
-          "grammar": true,
-          "english": "着 links a continuing manner",
-          "word": "着",
-          "romanized": "zhe",
-          "grammarNote": "笑着说 = said (it) smilingly — 着 links a continuing manner to the main verb.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "He said it with a smile (smiling)",
-            "text": "他笑___说",
-            "answer": "着",
-            "options": [
-              "着",
-              "了"
+          "id": "asp_zhe_trad_wait",
+          "english": "I'm waiting for you (continuing state)",
+          "word": "等着你",
+          "romanized": "děng zhe nǐ",
+          "phrase": "我等着你。",
+          "phraseRomanized": "Wǒ děng zhe nǐ.",
+          "englishPhrase": "I'm waiting for you.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "等着",
+              "am waiting (ongoing)"
+            ],
+            [
+              "你",
+              "you"
             ]
-          },
-          "phrase": "他笑着说。",
-          "phraseRomanized": "Tā xiào zhe shuō.",
-          "englishPhrase": "He said it with a smile."
+          ]
         },
         {
-          "id": "aspect_four_way",
+          "id": "asp_four_way",
           "grammar": true,
-          "english": "了 · 过 · 在 · 着 side by side",
-          "word": "了 / 过 / 在 / 着",
-          "romanized": "le / guo / zài / zhe",
-          "grammarNote": "Four aspect markers, four jobs: **了** done, **过** done before at least once, **在** doing right now, **着** staying in a state.",
+          "english": "What are the four aspect particles and their jobs?",
+          "word": "了 · 过 · 在 · 着",
+          "romanized": "le · guo · zài · zhe",
+          "grammarNote": "Chinese has four aspect particles, each marking a different relationship between an action and time:\n\n**了** = done (completion or change of state)\n**过** = done before (life experience)\n**在/正在** = doing now (progressive)\n**着** = staying in a state (continuing state)",
+          "phrase": "我吃过饺子，也在学做饭。",
+          "phraseRomanized": "Wǒ chī guo jiǎozi, yě zài xué zuòfàn.",
+          "englishPhrase": "I've eaten dumplings, and I'm also learning to cook.",
           "format": "table",
           "table": {
             "title": "The four aspect markers",
@@ -1498,7 +1124,7 @@
                 "吃过 — have eaten before"
               ],
               [
-                "在 in progress",
+                "在 progressive",
                 "在吃 — is eating now"
               ],
               [
@@ -1506,9 +1132,32 @@
                 "看着 — keeps watching"
               ]
             ],
-            "highlight": "在 in progress",
-            "note": "了 = finished; 过 = ever done; 在 = happening now; 着 = ongoing state."
+            "highlight": "过 experience",
+            "note": "了 = done; 过 = ever done; 在 = happening now; 着 = ongoing state."
           }
+        },
+        {
+          "id": "asp_trad_smile_speak",
+          "english": "He said it with a smile (着 linking manner)",
+          "word": "笑着说",
+          "romanized": "xiào zhe shuō",
+          "phrase": "他笑着说。",
+          "phraseRomanized": "Tā xiào zhe shuō.",
+          "englishPhrase": "He said it with a smile.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "笑着",
+              "smilingly (smiling as a state)"
+            ],
+            [
+              "说",
+              "said"
+            ]
+          ]
         }
       ]
     },
@@ -1521,31 +1170,55 @@
         {
           "id": "neg_bu_intro",
           "grammar": true,
-          "english": "不 = not (general)",
+          "english": "How do you say 'I don't eat meat' — what word goes before 吃?",
           "word": "不吃",
           "romanized": "bù chī",
-          "grammarNote": "**不 + verb/adjective** = general 'not': habits, preferences, the future. (不好 = not good.)",
+          "grammarNote": "**不 + verb** = general 'not': habits, preferences, and future intentions.\n不 can also negate adjectives: 不好 = not good.\nUse 不 for anything that is NOT a completed past action.",
+          "phrase": "我不吃肉。",
+          "phraseRomanized": "Wǒ bù chī ròu.",
+          "englishPhrase": "I don't eat meat.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "不",
+              "not"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "肉",
+              "meat"
+            ]
+          ],
           "format": "produce",
           "produce": {
-            "concept": "不 = not — for habits, the present, the future, and adjectives.",
-            "task": "say 'I don't eat meat' with 吃 (eat) 肉 (meat)",
-            "answer": "我不吃肉。",
-            "gloss": "Wǒ bù chī ròu — I don't eat meat."
+            "concept": "不 + verb = general negation (habits, future, preferences)",
+            "task": "say 'I don't drink tea' using 喝 (drink) and 茶 (tea)",
+            "answer": "我不喝茶。",
+            "gloss": "Wǒ bù hē chá — I don't drink tea."
           }
         },
         {
           "id": "neg_bu_uses",
           "grammar": true,
-          "english": "when to use 不",
+          "english": "When do you use 不 — what three situations does it cover?",
           "word": "不",
           "romanized": "bù",
-          "grammarNote": "不 negates habits, states, adjectives, and future intentions.",
+          "grammarNote": "不 covers three main uses: habits/preferences, adjectives, and future/will.\nIt does NOT negate completed past actions — that is 没.",
+          "phrase": "我不喝茶。",
+          "phraseRomanized": "Wǒ bù hē chá.",
+          "englishPhrase": "I don't drink tea.",
           "format": "table",
           "table": {
-            "title": "不 — when to use it",
+            "title": "不 — three uses",
             "rows": [
               [
-                "Habit",
+                "Habit / preference",
                 "我不喝茶 — I don't drink tea"
               ],
               [
@@ -1553,302 +1226,361 @@
                 "不好 — not good"
               ],
               [
-                "Future/will",
+                "Future / will not",
                 "我不去 — I won't go"
               ]
             ],
-            "highlight": "Habit",
-            "note": "不 negates habits, states, adjectives, and future intentions."
+            "highlight": "Adjective",
+            "note": "不 does NOT negate completed actions — use 没 for those."
           }
+        },
+        {
+          "id": "neg_trad_bu1",
+          "english": "I don't like fish",
+          "word": "不喜欢鱼",
+          "romanized": "bù xǐhuān yú",
+          "phrase": "我不喜欢鱼。",
+          "phraseRomanized": "Wǒ bù xǐhuān yú.",
+          "englishPhrase": "I don't like fish.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "不喜欢",
+              "don't like"
+            ],
+            [
+              "鱼",
+              "fish"
+            ]
+          ]
+        },
+        {
+          "id": "neg_trad_bu2",
+          "english": "she won't come",
+          "word": "不来",
+          "romanized": "bù lái",
+          "phrase": "她不来。",
+          "phraseRomanized": "Tā bù lái.",
+          "englishPhrase": "She won't come.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "不来",
+              "won't come"
+            ]
+          ]
         },
         {
           "id": "neg_bu_adj",
           "grammar": true,
-          "english": "negating adjectives",
+          "english": "This food is not good — how do you negate 好 (good): 不好 or 没好?",
           "word": "不好",
           "romanized": "bù hǎo",
-          "grammarNote": "Adjectives are negated with **不**: 不好 = not good.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "This restaurant is not good",
-            "text": "这个餐厅___好",
-            "answer": "不",
-            "options": [
-              "不",
-              "没"
-            ]
-          },
-          "phrase": "这个餐厅不好。",
-          "phraseRomanized": "Zhège cāntīng bù hǎo.",
-          "englishPhrase": "This restaurant is not good."
+          "grammarNote": "Adjectives are negated with **不**, not 没.\n不好 = not good · 不大 = not big · 不冷 = not cold.\n没 is only for completed actions and 有.",
+          "phrase": "这个食物不好吃。",
+          "phraseRomanized": "Zhège shíwù bù hǎo chī.",
+          "englishPhrase": "This food doesn't taste good.",
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Negate 好 (good) — 不好 or 没好?",
+            "a": {
+              "term": "不好",
+              "gloss": "bù hǎo — not good (adjective → use 不)"
+            },
+            "b": {
+              "term": "没好 ✗",
+              "gloss": "méi hǎo — WRONG for adjectives"
+            }
+          }
         },
         {
-          "id": "neg_bu_future",
-          "grammar": true,
-          "english": "won't / not going to",
-          "word": "不去",
-          "romanized": "bù qù",
-          "grammarNote": "不去 = won't go (a decision about now or the future).",
-          "format": "produce",
-          "produce": {
-            "concept": "不 also negates what you won't / don't want to do.",
-            "task": "say 'I won't go' with 去 (go)",
-            "answer": "我不去。",
-            "gloss": "Wǒ bù qù — I'm not going / I won't go."
-          }
+          "id": "neg_trad_bu3",
+          "english": "the soup is not hot",
+          "word": "汤不热",
+          "romanized": "tāng bù rè",
+          "phrase": "汤不热。",
+          "phraseRomanized": "Tāng bù rè.",
+          "englishPhrase": "The soup is not hot.",
+          "literal": [
+            [
+              "汤",
+              "soup"
+            ],
+            [
+              "不",
+              "not"
+            ],
+            [
+              "热",
+              "hot"
+            ]
+          ]
         },
         {
           "id": "neg_mei_intro",
           "grammar": true,
-          "english": "没(有) = didn't / don't have",
+          "english": "How do you say 'I didn't eat' — what word goes before 吃?",
           "word": "没吃",
           "romanized": "méi chī",
-          "grammarNote": "**没** negates a finished action or existence/有.",
-          "format": "table",
-          "table": {
-            "title": "没(有) — for completed actions & 'have'",
-            "rows": [
-              [
-                "Didn't (completed)",
-                "没吃 méi chī — didn't eat"
-              ],
-              [
-                "Don't have",
-                "没有工作 méiyǒu gōngzuò — has no job"
-              ]
+          "grammarNote": "**没 + verb** = a completed action that didn't happen (didn't / haven't).\n没 also negates 有 (have) → 没有 = don't have.\nNote: 了 is dropped after 没 — say 没吃, not ~~没吃了~~.",
+          "phrase": "我没吃早餐。",
+          "phraseRomanized": "Wǒ méi chī zǎocān.",
+          "englishPhrase": "I didn't eat breakfast.",
+          "literal": [
+            [
+              "我",
+              "I"
             ],
-            "highlight": "Didn't (completed)",
-            "note": "没 negates a finished action or 有 (have)."
+            [
+              "没",
+              "didn't"
+            ],
+            [
+              "吃",
+              "eat"
+            ],
+            [
+              "早餐",
+              "breakfast"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "没 + verb = a completed action that didn't happen",
+            "task": "say 'I didn't drink water' using 喝 (drink) and 水 (water)",
+            "answer": "我没喝水。",
+            "gloss": "Wǒ méi hē shuǐ — I didn't drink water."
           }
+        },
+        {
+          "id": "neg_trad_mei1",
+          "english": "he didn't go",
+          "word": "没去",
+          "romanized": "méi qù",
+          "phrase": "他没去学校。",
+          "phraseRomanized": "Tā méi qù xuéxiào.",
+          "englishPhrase": "He didn't go to school.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "没去",
+              "didn't go"
+            ],
+            [
+              "学校",
+              "school"
+            ]
+          ]
         },
         {
           "id": "neg_core",
           "grammar": true,
-          "english": "不 vs 没 — the core split",
+          "english": "不 or 没 — which do you use for a habit, which for a completed action?",
           "word": "不 / 没",
           "romanized": "bù / méi",
-          "grammarNote": "**不** = general/future 'not'. **没** = a specific action didn't happen.",
+          "grammarNote": "**不** = general 'not': habits, adjectives, future.\n**没** = a specific past event that did NOT happen.\nThe same verb changes meaning completely: 不吃 (won't eat / never eats) vs 没吃 (didn't eat this time).",
+          "phrase": "我不吃肉，但今天没吃饭。",
+          "phraseRomanized": "Wǒ bù chī ròu, dàn jīntiān méi chī fàn.",
+          "englishPhrase": "I don't eat meat, but I didn't have a meal today.",
           "format": "contrast",
           "contrast": {
-            "prompt": "不 or 没 — habit vs completed?",
+            "prompt": "我不吃 vs 我没吃 — which is habit, which is past?",
             "a": {
               "term": "我不吃。",
-              "gloss": "Wǒ bù chī — I don't eat (it) / won't"
+              "gloss": "Wǒ bù chī — I don't eat (it) / habit or preference"
             },
             "b": {
               "term": "我没吃。",
-              "gloss": "Wǒ méi chī — I didn't eat / haven't eaten"
+              "gloss": "Wǒ méi chī — I didn't eat / hasn't happened yet"
             }
           }
         },
         {
-          "id": "neg_mei_completed",
-          "grammar": true,
-          "english": "completed didn't happen",
-          "word": "没吃",
-          "romanized": "méi chī",
-          "grammarNote": "A completed action that didn't happen uses **没**, not 不.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I haven't eaten yet",
-            "text": "我___吃饭",
-            "answer": "没",
-            "options": [
-              "没",
-              "不"
+          "id": "neg_trad_mei2",
+          "english": "they didn't buy food",
+          "word": "没买食物",
+          "romanized": "méi mǎi shíwù",
+          "phrase": "他们没买食物。",
+          "phraseRomanized": "Tāmen méi mǎi shíwù.",
+          "englishPhrase": "They didn't buy food.",
+          "literal": [
+            [
+              "他们",
+              "they"
+            ],
+            [
+              "没买",
+              "didn't buy"
+            ],
+            [
+              "食物",
+              "food"
             ]
-          },
-          "phrase": "我没吃饭。",
-          "phraseRomanized": "Wǒ méi chī fàn.",
-          "englishPhrase": "I haven't eaten."
+          ]
+        },
+        {
+          "id": "neg_trad_mei3",
+          "english": "I didn't go to the restaurant",
+          "word": "没去餐厅",
+          "romanized": "méi qù cāntīng",
+          "phrase": "我没去餐厅。",
+          "phraseRomanized": "Wǒ méi qù cāntīng.",
+          "englishPhrase": "I didn't go to the restaurant.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "没去",
+              "didn't go"
+            ],
+            [
+              "餐厅",
+              "restaurant"
+            ]
+          ]
         },
         {
           "id": "neg_have",
           "grammar": true,
-          "english": "有 → 没有",
+          "english": "How do you say 'I don't have water' — 不有水 or 没有水?",
           "word": "没有",
           "romanized": "méiyǒu",
-          "grammarNote": "**有** is always negated by **没(有)** — never 不有.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "'have' vs 'don't have'",
-            "a": {
-              "term": "有工作",
-              "gloss": "yǒu gōngzuò — has a job"
-            },
-            "b": {
-              "term": "没有工作",
-              "gloss": "méiyǒu gōngzuò — doesn't have a job"
-            }
-          }
-        },
-        {
-          "id": "neg_you",
-          "grammar": true,
-          "english": "doesn't have",
-          "word": "没有",
-          "romanized": "méiyǒu",
-          "grammarNote": "没有 = don't/doesn't have. 不有 is wrong.",
+          "grammarNote": "**有** is ALWAYS negated by **没(有)** — never 不有.\n没有 = don't have / doesn't have / there is no.\n有 + existence: 没有水 = there's no water; 他没有工作 = he has no job.",
+          "phrase": "我没有水。",
+          "phraseRomanized": "Wǒ méiyǒu shuǐ.",
+          "englishPhrase": "I don't have water.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "没有",
+              "don't have"
+            ],
+            [
+              "水",
+              "water"
+            ]
+          ],
           "format": "cloze",
           "cloze": {
-            "prompt": "He doesn't have a job",
+            "prompt": "He doesn't have a job — 不有 or 没有?",
             "text": "他___有工作",
             "answer": "没",
             "options": [
               "没",
               "不"
             ]
-          },
-          "phrase": "他没有工作。",
+          }
+        },
+        {
+          "id": "neg_trad_you1",
+          "english": "she doesn't have a job",
+          "word": "没有工作",
+          "romanized": "méiyǒu gōngzuò",
+          "phrase": "她没有工作。",
           "phraseRomanized": "Tā méiyǒu gōngzuò.",
-          "englishPhrase": "He doesn't have a job."
-        },
-        {
-          "id": "neg_which",
-          "grammar": true,
-          "english": "不 or 没?",
-          "word": "不 / 没",
-          "romanized": "bù / méi",
-          "grammarNote": "Only 有 forces 没; adjectives and habits take 不.",
-          "format": "table",
-          "table": {
-            "title": "不 or 没?",
-            "rows": [
-              [
-                "Habit / future / adjective",
-                "不 bù"
-              ],
-              [
-                "Completed action",
-                "没 méi"
-              ],
-              [
-                "有 (have)",
-                "没(有) méi(yǒu)"
-              ]
+          "englishPhrase": "She doesn't have a job.",
+          "literal": [
+            [
+              "她",
+              "she"
             ],
-            "highlight": "有 (have)",
-            "note": "Pick by meaning: general 不, completed/有 没."
-          }
-        },
-        {
-          "id": "neg_mei_produce",
-          "grammar": true,
-          "english": "didn't do it",
-          "word": "没买",
-          "romanized": "méi mǎi",
-          "grammarNote": "没买 = didn't buy. (Positive completed = 买了; the negative drops 了.)",
-          "format": "produce",
-          "produce": {
-            "concept": "A finished action that didn't happen: 没 + verb.",
-            "task": "say 'I didn't buy it' with 买 (buy)",
-            "answer": "我没买。",
-            "gloss": "Wǒ méi mǎi — I didn't buy (it)."
-          }
-        },
-        {
-          "id": "neg_feeling",
-          "grammar": true,
-          "english": "feelings take 不",
-          "word": "不喜欢",
-          "romanized": "bù xǐhuān",
-          "grammarNote": "Feelings and states like 喜欢 take **不**; a completed action takes **没**.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Preference vs completed",
-            "a": {
-              "term": "我不喜欢。",
-              "gloss": "Wǒ bù xǐhuān — I don't like (it)"
-            },
-            "b": {
-              "term": "我没去。",
-              "gloss": "Wǒ méi qù — I didn't go"
-            }
-          }
-        },
-        {
-          "id": "neg_bie_intro",
-          "grammar": true,
-          "english": "别 = Don't! (command)",
-          "word": "别哭",
-          "romanized": "bié kū",
-          "grammarNote": "**别 + verb** = a negative command: 别哭 (don't cry), 别去 (don't go).",
-          "format": "produce",
-          "produce": {
-            "concept": "别 + verb = Don't! (telling someone not to do something).",
-            "task": "tell someone 'Don't cry' with 哭 (cry)",
-            "answer": "别哭。",
-            "gloss": "Bié kū — Don't cry."
-          }
-        },
-        {
-          "id": "neg_bie_cloze",
-          "grammar": true,
-          "english": "telling someone not to",
-          "word": "别",
-          "romanized": "bié",
-          "grammarNote": "别 tells someone NOT to do something. 别担心 = don't worry.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "Don't worry",
-            "text": "___担心",
-            "answer": "别",
-            "options": [
-              "别",
-              "没"
+            [
+              "没有",
+              "doesn't have"
+            ],
+            [
+              "工作",
+              "a job"
             ]
-          },
-          "phrase": "别担心。",
-          "phraseRomanized": "Bié dānxīn.",
-          "englishPhrase": "Don't worry."
+          ]
         },
         {
-          "id": "neg_bu_bie",
+          "id": "neg_haimei",
           "grammar": true,
-          "english": "statement vs command",
-          "word": "不 / 别",
-          "romanized": "bù / bié",
-          "grammarNote": "**不** states a fact about yourself; **别** tells someone else not to do it.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "'I don't…' vs 'Don't you…!'",
-            "a": {
-              "term": "我不去。",
-              "gloss": "Wǒ bù qù — I'm not going (statement)"
-            },
-            "b": {
-              "term": "别去！",
-              "gloss": "Bié qù! — Don't go! (command)"
-            }
-          }
-        },
-        {
-          "id": "neg_summary",
-          "grammar": true,
-          "english": "the three negators",
-          "word": "不 / 没 / 别",
-          "romanized": "bù / méi / bié",
-          "grammarNote": "Pick by meaning: general 不, completed/有 没, command 别.",
-          "format": "table",
-          "table": {
-            "title": "The three negators",
-            "rows": [
-              [
-                "不",
-                "habits, adjectives, future — 不吃, 不好"
-              ],
-              [
-                "没(有)",
-                "completed actions & 'have' — 没吃, 没有"
-              ],
-              [
-                "别",
-                "negative command — 别去!"
-              ]
+          "english": "How do you say 'I haven't eaten yet' — what two-word pattern means 'not yet'?",
+          "word": "还没",
+          "romanized": "hái méi",
+          "grammarNote": "**还没 + verb** = haven't done it yet (action not yet completed).\n还 (hái) = still / yet; 没 = didn't.\n还没 + verb: 还没吃 (haven't eaten yet) · 还没去 (haven't gone yet).",
+          "phrase": "我还没吃饭。",
+          "phraseRomanized": "Wǒ hái méi chī fàn.",
+          "englishPhrase": "I haven't eaten yet.",
+          "literal": [
+            [
+              "我",
+              "I"
             ],
-            "highlight": "没(有)",
-            "note": "Pick by meaning: general 不, completed/有 没, command 别."
+            [
+              "还没",
+              "haven't yet"
+            ],
+            [
+              "吃饭",
+              "eaten / eaten a meal"
+            ]
+          ],
+          "format": "produce",
+          "produce": {
+            "concept": "还没 + verb = haven't done it yet",
+            "task": "say 'I haven't gone to school yet' using 去 (go) and 学校 (school)",
+            "answer": "我还没去学校。",
+            "gloss": "Wǒ hái méi qù xuéxiào — I haven't gone to school yet."
           }
+        },
+        {
+          "id": "neg_trad_haimei1",
+          "english": "he hasn't come yet",
+          "word": "还没来",
+          "romanized": "hái méi lái",
+          "phrase": "他还没来。",
+          "phraseRomanized": "Tā hái méi lái.",
+          "englishPhrase": "He hasn't come yet.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "还没来",
+              "hasn't come yet"
+            ]
+          ]
+        },
+        {
+          "id": "neg_trad_haimei2",
+          "english": "we haven't started yet",
+          "word": "还没开始",
+          "romanized": "hái méi kāishǐ",
+          "phrase": "我们还没开始。",
+          "phraseRomanized": "Wǒmen hái méi kāishǐ.",
+          "englishPhrase": "We haven't started yet.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "还没",
+              "haven't yet"
+            ],
+            [
+              "开始",
+              "started"
+            ]
+          ]
         }
       ]
     },
@@ -1861,20 +1593,21 @@
         {
           "id": "mw_intro",
           "grammar": true,
-          "english": "number + measure word + noun",
+          "english": "What goes between a number and a noun in Chinese?",
           "word": "两个苹果",
           "romanized": "liǎng gè píngguǒ",
-          "grammarNote": "Chinese needs a **measure word** between a number (or 这/那) and a noun. You can't say 两苹果 — you need **两个苹果**.",
+          "grammarNote": "Chinese always needs a **measure word** (量词) between a number (or 这/那) and a noun. You cannot say 两苹果 — you must say **两个苹果**.\n\nPattern: **Number + Measure Word + Noun**",
           "format": "table",
           "table": {
-            "title": "Number + measure word + noun",
+            "title": "Number + Measure Word + Noun",
+            "hint": "the measure word sits in the middle",
             "rows": [
               [
                 "Number",
                 "两 liǎng — two"
               ],
               [
-                "Measure word",
+                "Measure Word",
                 "个 gè — (general)"
               ],
               [
@@ -1882,35 +1615,66 @@
                 "苹果 píngguǒ — apple"
               ]
             ],
-            "highlight": "Measure word",
-            "note": "The measure word sits between the number and the noun: 两个苹果."
+            "highlight": "Measure Word",
+            "note": "Skipping the measure word is always wrong: 两苹果 is ungrammatical; 两个苹果 is correct."
           },
           "phrase": "我要两个苹果。",
           "phraseRomanized": "Wǒ yào liǎng gè píngguǒ.",
           "englishPhrase": "I want two apples."
         },
         {
-          "id": "mw_ge_default",
-          "grammar": true,
-          "english": "个 = the all-purpose measure word",
-          "word": "个",
-          "romanized": "gè",
-          "grammarNote": "**个** is the general measure word — use it when you don't know a more specific one. Works for people and most objects.",
-          "format": "produce",
-          "produce": {
-            "concept": "个 is the default measure word for people and things.",
-            "task": "say 'three people' with 人 (person)",
-            "answer": "三个人",
-            "gloss": "sān gè rén — three people (number + 个 + noun)"
-          }
+          "id": "mw_trad_yige_ren",
+          "english": "one person",
+          "word": "一个人",
+          "romanized": "yī gè rén",
+          "phrase": "这里有一个人。",
+          "phraseRomanized": "Zhèlǐ yǒu yī gè rén.",
+          "englishPhrase": "There is one person here.",
+          "literal": [
+            [
+              "这里",
+              "here"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "一个人",
+              "one person"
+            ]
+          ]
+        },
+        {
+          "id": "mw_trad_liangge_xuesheng",
+          "english": "two students",
+          "word": "两个学生",
+          "romanized": "liǎng gè xuésheng",
+          "phrase": "那里有两个学生。",
+          "phraseRomanized": "Nàlǐ yǒu liǎng gè xuésheng.",
+          "englishPhrase": "There are two students there.",
+          "literal": [
+            [
+              "那里",
+              "there"
+            ],
+            [
+              "有",
+              "there are"
+            ],
+            [
+              "两个学生",
+              "two students"
+            ]
+          ]
         },
         {
           "id": "mw_bei_drinks",
           "grammar": true,
-          "english": "杯 for cups/glasses of drink",
+          "english": "Which measure word counts cups or glasses of a drink?",
           "word": "杯",
           "romanized": "bēi",
-          "grammarNote": "**杯** counts drinks served in a cup or glass: 一杯咖啡, 两杯茶.",
+          "grammarNote": "**杯 (bēi)** counts drinks served in a cup or glass.\n\nExamples: 一杯咖啡 (a cup of coffee), 两杯茶 (two cups of tea), 三杯水 (three glasses of water).",
           "format": "cloze",
           "cloze": {
             "prompt": "two cups of coffee",
@@ -1921,32 +1685,63 @@
               "个"
             ]
           },
-          "phrase": "两杯咖啡。",
-          "phraseRomanized": "Liǎng bēi kāfēi.",
-          "englishPhrase": "Two cups of coffee."
+          "phrase": "我想要两杯茶。",
+          "phraseRomanized": "Wǒ xiǎng yào liǎng bēi chá.",
+          "englishPhrase": "I would like two cups of tea."
         },
         {
-          "id": "mw_zhi_animals",
-          "grammar": true,
-          "english": "只 for animals & paired body parts",
-          "word": "只",
-          "romanized": "zhī",
-          "grammarNote": "**只** counts many animals and paired body parts like hands, eyes and ears: 两只手, 一只眼睛.",
-          "format": "produce",
-          "produce": {
-            "concept": "只 counts animals and paired body parts (hands, eyes, ears).",
-            "task": "say 'two eyes' with 眼睛 (eye)",
-            "answer": "两只眼睛",
-            "gloss": "liǎng zhī yǎnjing — two eyes"
-          }
+          "id": "mw_trad_yibei_kafei",
+          "english": "a cup of coffee",
+          "word": "一杯咖啡",
+          "romanized": "yī bēi kāfēi",
+          "phrase": "请给我一杯咖啡。",
+          "phraseRomanized": "Qǐng gěi wǒ yī bēi kāfēi.",
+          "englishPhrase": "Please give me a cup of coffee.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "给我",
+              "give me"
+            ],
+            [
+              "一杯咖啡",
+              "a cup of coffee"
+            ]
+          ]
+        },
+        {
+          "id": "mw_trad_san_bei_shui",
+          "english": "three glasses of water",
+          "word": "三杯水",
+          "romanized": "sān bēi shuǐ",
+          "phrase": "我们要三杯水。",
+          "phraseRomanized": "Wǒmen yào sān bēi shuǐ.",
+          "englishPhrase": "We want three glasses of water.",
+          "literal": [
+            [
+              "我们",
+              "we"
+            ],
+            [
+              "要",
+              "want"
+            ],
+            [
+              "三杯水",
+              "three glasses of water"
+            ]
+          ]
         },
         {
           "id": "mw_zhang_flat",
           "grammar": true,
-          "english": "张 for flat things",
+          "english": "Which measure word counts flat things like maps and tables?",
           "word": "张",
           "romanized": "zhāng",
-          "grammarNote": "**张** counts flat things with a surface: maps, tables, paper, tickets: 一张地图, 一张桌子.",
+          "grammarNote": "**张 (zhāng)** counts flat things with a surface: maps, tables, paper, etc.\n\nExamples: 一张地图 (a map), 一张桌子 (a table).",
           "format": "cloze",
           "cloze": {
             "prompt": "a map",
@@ -1957,44 +1752,89 @@
               "个"
             ]
           },
-          "phrase": "一张地图。",
-          "phraseRomanized": "Yì zhāng dìtú.",
-          "englishPhrase": "A map."
+          "phrase": "这是一张地图。",
+          "phraseRomanized": "Zhè shì yī zhāng dìtú.",
+          "englishPhrase": "This is a map."
         },
         {
-          "id": "mw_ben_books",
+          "id": "mw_trad_yi_zhang_zhuozi",
+          "english": "a table",
+          "word": "一张桌子",
+          "romanized": "yī zhāng zhuōzi",
+          "phrase": "餐厅里有一张桌子。",
+          "phraseRomanized": "Cāntīng lǐ yǒu yī zhāng zhuōzi.",
+          "englishPhrase": "There is a table in the restaurant.",
+          "literal": [
+            [
+              "餐厅里",
+              "in the restaurant"
+            ],
+            [
+              "有",
+              "there is"
+            ],
+            [
+              "一张桌子",
+              "a table"
+            ]
+          ]
+        },
+        {
+          "id": "mw_ben_volumes",
           "grammar": true,
-          "english": "本 for books & bound volumes",
+          "english": "Which measure word counts bound volumes like menus and notebooks?",
           "word": "本",
           "romanized": "běn",
-          "grammarNote": "**本** counts bound volumes — books, notebooks, menus: 三本书, 一本菜单.",
+          "grammarNote": "**本 (běn)** counts bound volumes — menus, notebooks, anything book-like.\n\nExamples: 一本菜单 (a menu), 两本菜单 (two menus).",
           "format": "table",
           "table": {
             "title": "本 — bound volumes",
             "rows": [
               [
-                "one book",
-                "一本书 yì běn shū"
-              ],
-              [
-                "three books",
-                "三本书 sān běn shū"
-              ],
-              [
                 "a menu",
-                "一本菜单 yì běn càidān"
+                "一本菜单 yī běn càidān"
+              ],
+              [
+                "two menus",
+                "两本菜单 liǎng běn càidān"
+              ],
+              [
+                "this menu",
+                "这本菜单 zhè běn càidān"
               ]
             ],
-            "note": "本 counts anything bound like a book."
-          }
+            "note": "本 counts anything bound or book-like."
+          },
+          "phrase": "请给我一本菜单。",
+          "phraseRomanized": "Qǐng gěi wǒ yī běn càidān.",
+          "englishPhrase": "Please give me a menu."
+        },
+        {
+          "id": "mw_trad_zhe_ben_caidan",
+          "english": "this menu",
+          "word": "这本菜单",
+          "romanized": "zhè běn càidān",
+          "phrase": "这本菜单很好。",
+          "phraseRomanized": "Zhè běn càidān hěn hǎo.",
+          "englishPhrase": "This menu is great.",
+          "literal": [
+            [
+              "这本菜单",
+              "this menu"
+            ],
+            [
+              "很好",
+              "very good"
+            ]
+          ]
         },
         {
           "id": "mw_wei_polite",
           "grammar": true,
-          "english": "位 = polite measure for people",
+          "english": "位 vs 个 — which is the polite measure for a person?",
           "word": "位",
           "romanized": "wèi",
-          "grammarNote": "**位** is a polite measure word for people you respect — guests, customers, professionals: 一位医生, 三位顾客.",
+          "grammarNote": "**位 (wèi)** is a polite measure word for people you respect — guests, doctors, customers.\n**个** is the neutral everyday measure word.\n\nUse 位 when showing respect; use 个 for general counting.",
           "format": "contrast",
           "contrast": {
             "prompt": "Polite or neutral measure word for a person?",
@@ -2004,187 +1844,132 @@
             },
             "b": {
               "term": "一个人",
-              "gloss": "yí gè rén — a person (neutral)"
+              "gloss": "yī gè rén — a person (neutral)"
             }
-          }
-        },
-        {
-          "id": "mw_tiao_long",
-          "grammar": true,
-          "english": "条 for long, thin things",
-          "word": "条",
-          "romanized": "tiáo",
-          "grammarNote": "**条** counts long, thin, winding things: fish, streets, legs: 一条鱼, 一条街道.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "a fish",
-            "text": "一___鱼",
-            "answer": "条",
-            "options": [
-              "条",
-              "个"
-            ]
           },
-          "phrase": "一条鱼。",
-          "phraseRomanized": "Yì tiáo yú.",
-          "englishPhrase": "A fish."
+          "phrase": "有一位医生在医院。",
+          "phraseRomanized": "Yǒu yī wèi yīshēng zài yīyuàn.",
+          "englishPhrase": "There is a doctor at the hospital."
         },
         {
-          "id": "mw_kuai_piece",
-          "grammar": true,
-          "english": "块 for chunks & money",
-          "word": "块",
-          "romanized": "kuài",
-          "grammarNote": "**块** counts pieces or chunks (cake, chocolate) and is the everyday word for money: 一块蛋糕, 十块钱.",
-          "format": "produce",
-          "produce": {
-            "concept": "块 counts chunks/pieces, and is the spoken measure for money.",
-            "task": "say 'a piece of cake' with 蛋糕 (cake)",
-            "answer": "一块蛋糕",
-            "gloss": "yí kuài dàngāo — a piece of cake"
-          }
-        },
-        {
-          "id": "mw_jia_business",
-          "grammar": true,
-          "english": "家 for businesses & shops",
-          "word": "家",
-          "romanized": "jiā",
-          "grammarNote": "**家** counts businesses and establishments: restaurants, stores, hotels: 一家餐厅, 两家商店.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "a restaurant",
-            "text": "一___餐厅",
-            "answer": "家",
-            "options": [
-              "家",
-              "个"
-            ]
-          },
-          "phrase": "一家餐厅。",
-          "phraseRomanized": "Yì jiā cāntīng.",
-          "englishPhrase": "A restaurant."
-        },
-        {
-          "id": "mw_demonstrative",
-          "grammar": true,
-          "english": "这/那/哪 also take a measure word",
-          "word": "这个",
-          "romanized": "zhège",
-          "grammarNote": "**这/那/哪** need a measure word too: 这个人, 那本书, 哪个. That's why 'this' is usually 这**个**.",
-          "format": "table",
-          "table": {
-            "title": "Demonstrative + measure word + noun",
-            "rows": [
-              [
-                "this",
-                "这个人 zhège rén — this person"
-              ],
-              [
-                "that",
-                "那本书 nà běn shū — that book"
-              ],
-              [
-                "which",
-                "哪个 nǎge — which one?"
-              ]
+          "id": "mw_trad_yi_wei_yisheng",
+          "english": "a doctor (polite)",
+          "word": "一位医生",
+          "romanized": "yī wèi yīshēng",
+          "phrase": "我找一位医生。",
+          "phraseRomanized": "Wǒ zhǎo yī wèi yīshēng.",
+          "englishPhrase": "I am looking for a doctor.",
+          "literal": [
+            [
+              "我",
+              "I"
             ],
-            "highlight": "which",
-            "note": "这/那/哪 behave like a number — they still need a measure word."
-          }
-        },
-        {
-          "id": "mw_ji_howmany",
-          "grammar": true,
-          "english": "几 (how many) + measure word",
-          "word": "几个",
-          "romanized": "jǐ gè",
-          "grammarNote": "**几** (how many, for small numbers) also takes a measure word: 几个人？ 几本书？",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "how many people?",
-            "text": "几___人？",
-            "answer": "个",
-            "options": [
-              "个",
-              "很"
+            [
+              "找",
+              "look for"
+            ],
+            [
+              "一位医生",
+              "a doctor (polite)"
             ]
-          },
-          "phrase": "几个人？",
-          "phraseRomanized": "Jǐ gè rén?",
-          "englishPhrase": "How many people?"
+          ]
         },
         {
-          "id": "mw_liang_er",
+          "id": "mw_liang_vs_er",
           "grammar": true,
-          "english": "两 vs 二 before a measure word",
+          "english": "两 or 二 — which 'two' goes before a measure word?",
           "word": "两",
           "romanized": "liǎng",
-          "grammarNote": "Use **两** (not 二) for 'two' before a measure word: 两个, 两杯. 二 is for counting and in bigger numbers (十二).",
+          "grammarNote": "Use **两 (liǎng)** for 'two' before a measure word: 两个, 两杯, 两张.\n\n**二 (èr)** is used when counting aloud (一, 二, 三…) or in larger numbers (十二 = twelve). It does NOT go before measure words.",
           "format": "contrast",
           "contrast": {
             "prompt": "Which 'two' goes before a measure word?",
             "a": {
-              "term": "两个",
-              "gloss": "liǎng gè — two (of something) ✓"
+              "term": "两个人",
+              "gloss": "liǎng gè rén — two people (before measure word) ✓"
             },
             "b": {
-              "term": "二",
-              "gloss": "èr — the digit two / in 十二 (twelve)"
+              "term": "二个人",
+              "gloss": "èr gè rén — incorrect; 二 is for counting, not measure words ✗"
             }
-          }
+          },
+          "phrase": "我们有两个顾客。",
+          "phraseRomanized": "Wǒmen yǒu liǎng gè gùkè.",
+          "englishPhrase": "We have two customers."
         },
         {
-          "id": "mw_duoshao",
-          "grammar": true,
-          "english": "多少 vs 几",
-          "word": "多少",
-          "romanized": "duōshǎo",
-          "grammarNote": "**多少** asks 'how much/many' for any amount and needs no measure word: 多少钱？ **几** is for small counts and takes a measure word.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Big/unknown amount, or a small count?",
-            "a": {
-              "term": "多少钱？",
-              "gloss": "duōshǎo qián — how much money? (no measure word)"
-            },
-            "b": {
-              "term": "几个人？",
-              "gloss": "jǐ gè rén — how many people? (+ measure word)"
-            }
-          }
+          "id": "mw_trad_liang_bei_cha",
+          "english": "two cups of tea",
+          "word": "两杯茶",
+          "romanized": "liǎng bēi chá",
+          "phrase": "他们要两杯茶。",
+          "phraseRomanized": "Tāmen yào liǎng bēi chá.",
+          "englishPhrase": "They want two cups of tea.",
+          "literal": [
+            [
+              "他们",
+              "they"
+            ],
+            [
+              "要",
+              "want"
+            ],
+            [
+              "两杯茶",
+              "two cups of tea"
+            ]
+          ]
         },
         {
-          "id": "mw_summary",
+          "id": "mw_demo_zhe_na",
           "grammar": true,
-          "english": "common measure words at a glance",
-          "word": "个 / 杯 / 只 / 张",
-          "romanized": "gè / bēi / zhī / zhāng",
-          "grammarNote": "Pick the measure word that fits the noun; **个** is the safe default when unsure.",
+          "english": "这/那 also need a measure word — what is the pattern?",
+          "word": "这个",
+          "romanized": "zhège",
+          "grammarNote": "**这 (this)** and **那 (that)** behave like numbers — they also need a measure word before the noun.\n\n这 + measure + noun: 这个人, 这本菜单, 这张地图\n那 + measure + noun: 那个学生, 那张桌子",
           "format": "table",
           "table": {
-            "title": "Common measure words",
+            "title": "这/那 + measure word + noun",
+            "hint": "demonstratives need a measure word too",
             "rows": [
               [
-                "个 gè",
-                "general — 一个人"
+                "this person",
+                "这个人 zhège rén"
               ],
               [
-                "杯 bēi",
-                "drinks — 一杯茶"
+                "that table",
+                "那张桌子 nà zhāng zhuōzi"
               ],
               [
-                "只 zhī",
-                "animals / hands — 两只手"
-              ],
-              [
-                "张 zhāng",
-                "flat things — 一张地图"
+                "this menu",
+                "这本菜单 zhè běn càidān"
               ]
             ],
-            "highlight": "个 gè",
-            "note": "When you don't know the right measure word, 个 usually works."
-          }
+            "highlight": "this person",
+            "note": "这/那 cannot directly precede a noun — a measure word is always required."
+          },
+          "phrase": "那个学生在图书馆。",
+          "phraseRomanized": "Nà gè xuésheng zài túshūguǎn.",
+          "englishPhrase": "That student is at the library."
+        },
+        {
+          "id": "mw_trad_na_ge_xuesheng",
+          "english": "that student",
+          "word": "那个学生",
+          "romanized": "nà gè xuésheng",
+          "phrase": "那个学生很好。",
+          "phraseRomanized": "Nà gè xuésheng hěn hǎo.",
+          "englishPhrase": "That student is great.",
+          "literal": [
+            [
+              "那个学生",
+              "that student"
+            ],
+            [
+              "很好",
+              "very good"
+            ]
+          ]
         }
       ]
     },
@@ -2195,306 +1980,443 @@
       "kind": "grammar",
       "cards": [
         {
-          "id": "cmp_bi_intro",
+          "id": "cmp_bi_table",
           "grammar": true,
-          "english": "A 比 B + adjective",
+          "english": "How do you say 'A is more (adj) than B' using 比?",
           "word": "比",
           "romanized": "bǐ",
-          "grammarNote": "**A 比 B + adjective** = A is more (adj) than B. No 很 and no 是 — just the plain adjective after B.",
+          "grammarNote": "**A 比 B + adjective** = A is more (adj) than B.\n\nNo 很, no 是 — just the plain adjective after B.\n\n**我比你大** = I am older than you.",
           "format": "table",
           "table": {
             "title": "A 比 B + adjective",
+            "hint": "put the adjective directly after B — no 很",
             "rows": [
               [
-                "A",
-                "我 wǒ — I"
+                "subject A",
+                "我 — I"
               ],
               [
                 "比 B",
-                "比你 bǐ nǐ — than you"
+                "比你 — than you"
               ],
               [
                 "adjective",
-                "大 dà — bigger / older"
+                "大 — bigger / older"
               ]
             ],
             "highlight": "比 B",
-            "note": "我比你大 = I'm bigger / older than you."
+            "note": "我比你大 = I am older/bigger than you. Never add 很 between B and the adjective."
           },
           "phrase": "我比你大。",
           "phraseRomanized": "Wǒ bǐ nǐ dà.",
-          "englishPhrase": "I'm older than you."
+          "englishPhrase": "I am older than you.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "比你",
+              "than you"
+            ],
+            [
+              "大",
+              "older/bigger"
+            ]
+          ]
         },
         {
-          "id": "cmp_bi_produce",
-          "grammar": true,
-          "english": "make a 比 comparison",
-          "word": "比",
-          "romanized": "bǐ",
-          "grammarNote": "Order is always **A 比 B + adjective**.",
-          "format": "produce",
-          "produce": {
-            "concept": "A 比 B + adjective states A outranks B on that quality.",
-            "task": "say 'coffee is hotter than tea' with 咖啡, 茶, 热 (hot)",
-            "answer": "咖啡比茶热。",
-            "gloss": "Kāfēi bǐ chá rè — coffee is hotter than tea."
-          }
+          "id": "cmp_trad_bi_hot",
+          "english": "Coffee is hotter than tea.",
+          "word": "咖啡比茶热。",
+          "romanized": "Kāfēi bǐ chá rè.",
+          "phrase": "咖啡比茶热。",
+          "phraseRomanized": "Kāfēi bǐ chá rè.",
+          "englishPhrase": "Coffee is hotter than tea.",
+          "literal": [
+            [
+              "咖啡",
+              "coffee"
+            ],
+            [
+              "比",
+              "than"
+            ],
+            [
+              "茶",
+              "tea"
+            ],
+            [
+              "热",
+              "hot"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_trad_bi_big",
+          "english": "The library is bigger than the restaurant.",
+          "word": "图书馆比餐厅大。",
+          "romanized": "Túshūguǎn bǐ cāntīng dà.",
+          "phrase": "图书馆比餐厅大。",
+          "phraseRomanized": "Túshūguǎn bǐ cāntīng dà.",
+          "englishPhrase": "The library is bigger than the restaurant.",
+          "literal": [
+            [
+              "图书馆",
+              "library"
+            ],
+            [
+              "比",
+              "than"
+            ],
+            [
+              "餐厅",
+              "restaurant"
+            ],
+            [
+              "大",
+              "big"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_trad_bi_good",
+          "english": "This apple is better than that one.",
+          "word": "这个苹果比那个好。",
+          "romanized": "Zhège píngguǒ bǐ nàge hǎo.",
+          "phrase": "这个苹果比那个好。",
+          "phraseRomanized": "Zhège píngguǒ bǐ nàge hǎo.",
+          "englishPhrase": "This apple is better than that one.",
+          "literal": [
+            [
+              "这个苹果",
+              "this apple"
+            ],
+            [
+              "比",
+              "than"
+            ],
+            [
+              "那个",
+              "that one"
+            ],
+            [
+              "好",
+              "good/better"
+            ]
+          ]
         },
         {
           "id": "cmp_bi_no_hen",
           "grammar": true,
-          "english": "no 很 with 比",
-          "word": "比",
+          "english": "Which sentence uses 比 correctly — with or without 很?",
+          "word": "比 (no 很)",
           "romanized": "bǐ",
-          "grammarNote": "A common mistake: don't put **很** in a 比 sentence. 很 means 'very' and clashes with the comparison.",
+          "grammarNote": "A common learner error: **never put 很 in a 比 sentence**.\n\n很 means 'very' and clashes with the comparison.\n\n我比你大 ✓ — 我比你**很**大 ✗",
           "format": "contrast",
           "contrast": {
             "prompt": "Which 比 sentence is correct?",
             "a": {
               "term": "我比你大。",
-              "gloss": "Wǒ bǐ nǐ dà — I'm older than you ✓"
+              "gloss": "Wǒ bǐ nǐ dà — I am older than you ✓"
             },
             "b": {
               "term": "我比你很大。",
               "gloss": "no 很 allowed in a 比 sentence ✗"
             }
-          }
+          },
+          "phrase": "我比你大。",
+          "phraseRomanized": "Wǒ bǐ nǐ dà.",
+          "englishPhrase": "I am older than you."
         },
         {
-          "id": "cmp_bi_degree",
-          "grammar": true,
-          "english": "by how much? 一点 / 得多",
-          "word": "比…得多",
-          "romanized": "bǐ … de duō",
-          "grammarNote": "Add the amount after the adjective: **一点** (a little), **得多** (much more). Say it at the end, not before the adjective.",
-          "format": "table",
-          "table": {
-            "title": "Adding degree to a 比 comparison",
-            "rows": [
-              [
-                "plain",
-                "我比你大 — I'm older"
-              ],
-              [
-                "a little",
-                "我比你大一点 — a little older"
-              ],
-              [
-                "much",
-                "我比你大得多 — much older"
-              ]
+          "id": "cmp_trad_bi_spicy",
+          "english": "Hot pot is spicier than soup.",
+          "word": "火锅比汤辣。",
+          "romanized": "Huǒguō bǐ tāng là.",
+          "phrase": "火锅比汤辣。",
+          "phraseRomanized": "Huǒguō bǐ tāng là.",
+          "englishPhrase": "Hot pot is spicier than soup.",
+          "literal": [
+            [
+              "火锅",
+              "hot pot"
             ],
-            "highlight": "much",
-            "note": "The amount goes after the adjective: 大一点, 大得多."
-          }
+            [
+              "比",
+              "than"
+            ],
+            [
+              "汤",
+              "soup"
+            ],
+            [
+              "辣",
+              "spicy"
+            ]
+          ]
         },
         {
-          "id": "cmp_meiyou",
+          "id": "cmp_meiyou_contrast",
           "grammar": true,
-          "english": "A 没有 B = not as … as",
+          "english": "How do you say 'A is not as (adj) as B' — what replaces 比?",
           "word": "没有",
           "romanized": "méiyǒu",
-          "grammarNote": "**A 没有 B + adjective** = A is not as (adj) as B. It's the natural opposite of 比.",
+          "grammarNote": "**A 没有 B + adjective** = A is not as (adj) as B.\n\n没有 is the natural opposite of 比.\n\n我没有你大 = I am not as old as you (= you are older than me).",
           "format": "contrast",
           "contrast": {
-            "prompt": "Two ways to say the same ranking",
+            "prompt": "比 vs 没有 — same ranking, two directions",
             "a": {
-              "term": "我没有你大。",
-              "gloss": "Wǒ méiyǒu nǐ dà — I'm not as old as you"
+              "term": "你比我大。",
+              "gloss": "Nǐ bǐ wǒ dà — you are older than me"
             },
             "b": {
-              "term": "你比我大。",
-              "gloss": "Nǐ bǐ wǒ dà — you're older than me"
+              "term": "我没有你大。",
+              "gloss": "Wǒ méiyǒu nǐ dà — I am not as old as you"
             }
-          }
-        },
-        {
-          "id": "cmp_meiyou_cloze",
-          "grammar": true,
-          "english": "not as big as",
-          "word": "没有",
-          "romanized": "méiyǒu",
-          "grammarNote": "Use **没有** (not 不比) for 'not as … as'.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "this restaurant isn't as big as that one",
-            "text": "这家餐厅___那家大",
-            "answer": "没有",
-            "options": [
-              "没有",
-              "比"
-            ]
           },
-          "phrase": "这家餐厅没有那家大。",
-          "phraseRomanized": "Zhè jiā cāntīng méiyǒu nà jiā dà.",
-          "englishPhrase": "This restaurant isn't as big as that one."
+          "phrase": "我没有你大。",
+          "phraseRomanized": "Wǒ méiyǒu nǐ dà.",
+          "englishPhrase": "I am not as old as you."
         },
         {
-          "id": "cmp_yiyang",
+          "id": "cmp_trad_meiyou_cold",
+          "english": "Tea is not as hot as coffee.",
+          "word": "茶没有咖啡热。",
+          "romanized": "Chá méiyǒu kāfēi rè.",
+          "phrase": "茶没有咖啡热。",
+          "phraseRomanized": "Chá méiyǒu kāfēi rè.",
+          "englishPhrase": "Tea is not as hot as coffee.",
+          "literal": [
+            [
+              "茶",
+              "tea"
+            ],
+            [
+              "没有",
+              "not as"
+            ],
+            [
+              "咖啡",
+              "coffee"
+            ],
+            [
+              "热",
+              "hot"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_trad_meiyou_big",
+          "english": "The restaurant is not as big as the library.",
+          "word": "餐厅没有图书馆大。",
+          "romanized": "Cāntīng méiyǒu túshūguǎn dà.",
+          "phrase": "餐厅没有图书馆大。",
+          "phraseRomanized": "Cāntīng méiyǒu túshūguǎn dà.",
+          "englishPhrase": "The restaurant is not as big as the library.",
+          "literal": [
+            [
+              "餐厅",
+              "restaurant"
+            ],
+            [
+              "没有",
+              "not as"
+            ],
+            [
+              "图书馆",
+              "library"
+            ],
+            [
+              "大",
+              "big"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_yiyang_table",
           "grammar": true,
-          "english": "A 跟 B 一样 = the same as",
+          "english": "How do you say 'A is the same as B' or 'equally (adj)'?",
           "word": "一样",
           "romanized": "yíyàng",
-          "grammarNote": "**A 跟 B 一样** = A is the same as B. Add an adjective for 'equally (adj)': 一样大 = equally big.",
+          "grammarNote": "**A 跟 B 一样** = A is the same as B.\n\nAdd an adjective for 'equally (adj)': **一样大** = equally big.\n\n跟 and 和 are both allowed here.\n\n不一样 = not the same.",
           "format": "table",
           "table": {
-            "title": "A 跟 B 一样 (+ adjective)",
+            "title": "A 跟/和 B 一样 (+ adjective)",
+            "hint": "跟 and 和 both mean 'as' here",
             "rows": [
               [
                 "the same",
-                "我跟你一样 — I'm the same as you"
+                "我跟你一样 — I am the same as you"
               ],
               [
                 "equally big",
-                "一样大 — equally big / old"
+                "我跟你一样大 — equally big/old"
               ],
               [
-                "different",
+                "not the same",
                 "不一样 — not the same"
               ]
             ],
             "highlight": "equally big",
-            "note": "跟 here means 'as / with'; 和 works too."
-          }
-        },
-        {
-          "id": "cmp_yiyang_produce",
-          "grammar": true,
-          "english": "equally (adjective)",
-          "word": "一样",
-          "romanized": "yíyàng",
-          "grammarNote": "Structure: **A 跟 B 一样 + adjective**.",
-          "format": "produce",
-          "produce": {
-            "concept": "跟 … 一样 + adjective = equal on that quality.",
-            "task": "say 'I'm the same age/size as him' with 他 and 大",
-            "answer": "我跟他一样大。",
-            "gloss": "Wǒ gēn tā yíyàng dà — I'm the same age as him."
-          }
-        },
-        {
-          "id": "cmp_geng",
-          "grammar": true,
-          "english": "更 = even more",
-          "word": "更",
-          "romanized": "gèng",
-          "grammarNote": "**更 + adjective** = even more (adj), compared with an implied standard: 这个更好 = this one is even better.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "this one is even better",
-            "text": "这个___好",
-            "answer": "更",
-            "options": [
-              "更",
-              "很"
-            ]
+            "note": "The adjective comes after 一样. 跟 = 和 in this pattern."
           },
-          "phrase": "这个更好。",
-          "phraseRomanized": "Zhège gèng hǎo.",
-          "englishPhrase": "This one is even better."
-        },
-        {
-          "id": "cmp_geng_contrast",
-          "grammar": true,
-          "english": "很 vs 更",
-          "word": "更",
-          "romanized": "gèng",
-          "grammarNote": "**很** just says 'very' (no comparison). **更** says 'even more' than something else.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Plain 'very', or 'even more'?",
-            "a": {
-              "term": "很好",
-              "gloss": "hěn hǎo — very good"
-            },
-            "b": {
-              "term": "更好",
-              "gloss": "gèng hǎo — even better"
-            }
-          }
-        },
-        {
-          "id": "cmp_zui",
-          "grammar": true,
-          "english": "最 = the most / -est",
-          "word": "最",
-          "romanized": "zuì",
-          "grammarNote": "**最 + adjective** = the most (adj), the superlative: 最好 = best, 最大 = biggest.",
-          "format": "produce",
-          "produce": {
-            "concept": "最 + adjective = the most (superlative).",
-            "task": "say 'this one is the best' with 这个 and 好",
-            "answer": "这个最好。",
-            "gloss": "Zhège zuì hǎo — this one is the best."
-          }
-        },
-        {
-          "id": "cmp_zui_cloze",
-          "grammar": true,
-          "english": "the spiciest",
-          "word": "最",
-          "romanized": "zuì",
-          "grammarNote": "Use **最** for '-est / most'.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "which one is the spiciest?",
-            "text": "哪个___辣？",
-            "answer": "最",
-            "options": [
-              "最",
-              "更"
+          "phrase": "我跟他一样大。",
+          "phraseRomanized": "Wǒ gēn tā yíyàng dà.",
+          "englishPhrase": "I am the same age as him.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "跟他",
+              "as him"
+            ],
+            [
+              "一样大",
+              "equally big/old"
             ]
-          },
-          "phrase": "哪个最辣？",
-          "phraseRomanized": "Nǎge zuì là?",
-          "englishPhrase": "Which one is the spiciest?"
+          ]
         },
         {
-          "id": "cmp_zui_favorite",
-          "grammar": true,
-          "english": "最喜欢 = like the most",
-          "word": "最喜欢",
-          "romanized": "zuì xǐhuān",
-          "grammarNote": "**最** works with verbs of feeling too: 最喜欢 = like best.",
-          "format": "produce",
-          "produce": {
-            "concept": "最 + 喜欢 = like the most / favorite.",
-            "task": "say 'I like this one best' with 我, 喜欢, 这个",
-            "answer": "我最喜欢这个。",
-            "gloss": "Wǒ zuì xǐhuān zhège — I like this one best."
-          }
+          "id": "cmp_trad_yiyang_good",
+          "english": "This apple is just as good as that one.",
+          "word": "这个苹果跟那个一样好。",
+          "romanized": "Zhège píngguǒ gēn nàge yíyàng hǎo.",
+          "phrase": "这个苹果跟那个一样好。",
+          "phraseRomanized": "Zhège píngguǒ gēn nàge yíyàng hǎo.",
+          "englishPhrase": "This apple is just as good as that one.",
+          "literal": [
+            [
+              "这个苹果",
+              "this apple"
+            ],
+            [
+              "跟那个",
+              "as that one"
+            ],
+            [
+              "一样好",
+              "equally good"
+            ]
+          ]
         },
         {
-          "id": "cmp_summary",
+          "id": "cmp_trad_yiyang_busy",
+          "english": "The hospital is just as busy as the school.",
+          "word": "医院跟学校一样繁忙。",
+          "romanized": "Yīyuàn gēn xuéxiào yíyàng fánmáng.",
+          "phrase": "医院跟学校一样繁忙。",
+          "phraseRomanized": "Yīyuàn gēn xuéxiào yíyàng fánmáng.",
+          "englishPhrase": "The hospital is just as busy as the school.",
+          "literal": [
+            [
+              "医院",
+              "hospital"
+            ],
+            [
+              "跟学校",
+              "as the school"
+            ],
+            [
+              "一样繁忙",
+              "equally busy"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_geng_zui_table",
           "grammar": true,
-          "english": "comparisons at a glance",
-          "word": "比 / 没有 / 一样 / 最",
-          "romanized": "bǐ / méiyǒu / yíyàng / zuì",
-          "grammarNote": "Four building blocks: more (比), less (没有), equal (一样), most (最).",
+          "english": "How do you say 'even more (adj)' with 更 and 'the most (adj)' with 最?",
+          "word": "更 / 最",
+          "romanized": "gèng / zuì",
+          "grammarNote": "**更 + adjective** = even more (adj), compared to an implied standard.\n\n**最 + adjective** = the most (adj) — the superlative.\n\n**最** also works with feeling verbs: **最喜欢** = like the most.",
           "format": "table",
           "table": {
-            "title": "Comparison patterns",
+            "title": "更 (even more) vs 最 (the most)",
+            "hint": "更 compares to a standard; 最 is superlative",
             "rows": [
               [
-                "more than",
-                "A 比 B 大 — A is bigger"
+                "very (no comparison)",
+                "很好 — very good"
               ],
               [
-                "not as … as",
-                "A 没有 B 大 — A is not as big"
-              ],
-              [
-                "the same as",
-                "A 跟 B 一样大 — equally big"
+                "even more",
+                "更好 — even better"
               ],
               [
                 "the most",
-                "最大 — the biggest"
+                "最好 — the best"
               ]
             ],
-            "highlight": "more than",
-            "note": "比 and 没有 are opposites; 一样 means equal; 最 is the superlative."
-          }
+            "highlight": "the most",
+            "note": "这个更好 = this one is even better. 这个最好 = this one is the best."
+          },
+          "phrase": "这个最好。",
+          "phraseRomanized": "Zhège zuì hǎo.",
+          "englishPhrase": "This one is the best."
+        },
+        {
+          "id": "cmp_trad_geng",
+          "english": "This one is even better.",
+          "word": "这个更好。",
+          "romanized": "Zhège gèng hǎo.",
+          "phrase": "这个更好。",
+          "phraseRomanized": "Zhège gèng hǎo.",
+          "englishPhrase": "This one is even better.",
+          "literal": [
+            [
+              "这个",
+              "this one"
+            ],
+            [
+              "更好",
+              "even better"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_trad_zui_spicy",
+          "english": "Which one is the spiciest?",
+          "word": "哪个最辣？",
+          "romanized": "Nǎge zuì là?",
+          "phrase": "哪个最辣？",
+          "phraseRomanized": "Nǎge zuì là?",
+          "englishPhrase": "Which one is the spiciest?",
+          "literal": [
+            [
+              "哪个",
+              "which one"
+            ],
+            [
+              "最辣",
+              "spiciest"
+            ]
+          ]
+        },
+        {
+          "id": "cmp_trad_zui_like",
+          "english": "I like this one the most.",
+          "word": "我最喜欢这个。",
+          "romanized": "Wǒ zuì xǐhuān zhège.",
+          "phrase": "我最喜欢这个。",
+          "phraseRomanized": "Wǒ zuì xǐhuān zhège.",
+          "englishPhrase": "I like this one the most.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "最喜欢",
+              "like the most"
+            ],
+            [
+              "这个",
+              "this one"
+            ]
+          ]
         }
       ]
     },
@@ -2505,249 +2427,29 @@
       "kind": "grammar",
       "cards": [
         {
-          "id": "comp_intro",
+          "id": "cpl_degree_table",
           "grammar": true,
-          "english": "verb + complement = action + outcome",
-          "word": "吃完",
-          "romanized": "chī wán",
-          "grammarNote": "A **complement** attaches to a verb to say how it turned out. **吃完** = eat + finished = eat up.",
-          "format": "table",
-          "table": {
-            "title": "Verb + result complement",
-            "rows": [
-              [
-                "verb",
-                "吃 chī — eat"
-              ],
-              [
-                "complement",
-                "完 wán — finished"
-              ],
-              [
-                "= 吃完",
-                "chī wán — finish eating"
-              ]
-            ],
-            "highlight": "= 吃完",
-            "note": "The complement tells the outcome of the action."
-          }
-        },
-        {
-          "id": "comp_wan",
-          "grammar": true,
-          "english": "V + 完 = finish V-ing",
-          "word": "完",
-          "romanized": "wán",
-          "grammarNote": "**完** after a verb = finished doing it: 吃完 (finish eating), 做完 (finish doing), 看完 (finish reading/watching).",
-          "format": "produce",
-          "produce": {
-            "concept": "Verb + 完 = complete the action.",
-            "task": "say 'I finished eating' with 吃 (eat) and 饭 (rice/meal)",
-            "answer": "我吃完饭了。",
-            "gloss": "Wǒ chī wán fàn le — I finished my meal (了 confirms it's done)."
-          }
-        },
-        {
-          "id": "comp_dao",
-          "grammar": true,
-          "english": "V + 到 = achieve the result",
-          "word": "到",
-          "romanized": "dào",
-          "grammarNote": "**到** after a verb marks reaching a result: 找到 (find), 看到 (manage to see), 买到 (succeed in buying).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I found it (searching reached its result)",
-            "text": "我找___了",
-            "answer": "到",
-            "options": [
-              "到",
-              "完"
-            ]
-          },
-          "phrase": "我找到了。",
-          "phraseRomanized": "Wǒ zhǎodào le.",
-          "englishPhrase": "I found it."
-        },
-        {
-          "id": "comp_jian",
-          "grammar": true,
-          "english": "看 (look) vs 看见 (see)",
-          "word": "看见",
-          "romanized": "kànjiàn",
-          "grammarNote": "**见** is a result complement for perception: 看 = look (the action), 看见 = see (the result). Same with 听 / 听见.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "The action, or the result achieved?",
-            "a": {
-              "term": "看 kàn",
-              "gloss": "look (the action itself)"
-            },
-            "b": {
-              "term": "看见 kànjiàn",
-              "gloss": "see (looking succeeded)"
-            }
-          }
-        },
-        {
-          "id": "comp_potential_intro",
-          "grammar": true,
-          "english": "得 / 不 = can / can't reach the result",
-          "word": "看得见",
-          "romanized": "kàn de jiàn",
-          "grammarNote": "Insert **得** (can) or **不** (cannot) between the verb and its complement: 看得见 (can see), 看不见 (can't see).",
-          "format": "table",
-          "table": {
-            "title": "Potential complement: 得 (can) / 不 (cannot)",
-            "rows": [
-              [
-                "can see",
-                "看得见 kàn de jiàn"
-              ],
-              [
-                "can't see",
-                "看不见 kàn bu jiàn"
-              ],
-              [
-                "can finish",
-                "吃得完 chī de wán"
-              ]
-            ],
-            "highlight": "can't see",
-            "note": "得 = able to reach the result; 不 = not able to."
-          }
-        },
-        {
-          "id": "comp_potential_cloze",
-          "grammar": true,
-          "english": "can't finish it",
-          "word": "吃不完",
-          "romanized": "chī bu wán",
-          "grammarNote": "Use **不** between verb and complement for 'cannot': 吃不完 = can't finish (too much to eat).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "there's too much — I can't finish eating it",
-            "text": "我吃___完",
-            "answer": "不",
-            "options": [
-              "不",
-              "没"
-            ]
-          },
-          "phrase": "我吃不完。",
-          "phraseRomanized": "Wǒ chī bu wán.",
-          "englishPhrase": "I can't finish it."
-        },
-        {
-          "id": "comp_dir_intro",
-          "grammar": true,
-          "english": "来 / 去 show direction",
-          "word": "来 / 去",
-          "romanized": "lái / qù",
-          "grammarNote": "**来** = motion toward the speaker; **去** = motion away. Add them to a verb to show direction: 进来, 进去.",
-          "format": "table",
-          "table": {
-            "title": "Directional complements 来 / 去",
-            "rows": [
-              [
-                "来 lái",
-                "toward the speaker — 进来 come in"
-              ],
-              [
-                "去 qù",
-                "away from speaker — 进去 go in"
-              ]
-            ],
-            "highlight": "来 lái",
-            "note": "来 pulls toward 'me'; 去 pushes away from 'me'."
-          }
-        },
-        {
-          "id": "comp_dir_lai_qu",
-          "grammar": true,
-          "english": "进来 vs 进去",
-          "word": "进来",
-          "romanized": "jìn lái",
-          "grammarNote": "Same verb 进 (enter), opposite viewpoint: 进来 if it's toward you, 进去 if it's away from you.",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Coming toward me, or going away from me?",
-            "a": {
-              "term": "进来 jìn lái",
-              "gloss": "come in (toward the speaker)"
-            },
-            "b": {
-              "term": "进去 jìn qù",
-              "gloss": "go in (away from the speaker)"
-            }
-          }
-        },
-        {
-          "id": "comp_dir_chuqu",
-          "grammar": true,
-          "english": "went out",
-          "word": "出去",
-          "romanized": "chū qù",
-          "grammarNote": "**出去** = go out (away from the speaker). 出来 = come out (toward the speaker).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "he went out (away from here)",
-            "text": "他出___了",
-            "answer": "去",
-            "options": [
-              "去",
-              "来"
-            ]
-          },
-          "phrase": "他出去了。",
-          "phraseRomanized": "Tā chūqù le.",
-          "englishPhrase": "He went out."
-        },
-        {
-          "id": "comp_dir_compound",
-          "grammar": true,
-          "english": "motion verb + direction",
-          "word": "跑出去",
-          "romanized": "pǎo chūqù",
-          "grammarNote": "Stack a manner-of-motion verb before the direction: 跑出去 (run out), 走进来 (walk in).",
-          "format": "produce",
-          "produce": {
-            "concept": "manner verb + directional complement = how + which way.",
-            "task": "say 'he ran out' with 跑 (run) and 出去",
-            "answer": "他跑出去了。",
-            "gloss": "Tā pǎo chūqù le — he ran out (跑 + 出去)."
-          }
-        },
-        {
-          "id": "comp_dir_shanglai",
-          "grammar": true,
-          "english": "please come up",
-          "word": "上来",
-          "romanized": "shàng lái",
-          "grammarNote": "**上来** = come up (toward the speaker); 上去 = go up (away).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "please come up (toward me)",
-            "text": "请上___",
-            "answer": "来",
-            "options": [
-              "来",
-              "去"
-            ]
-          },
-          "phrase": "请上来。",
-          "phraseRomanized": "Qǐng shàng lái.",
-          "englishPhrase": "Please come up."
-        },
-        {
-          "id": "comp_de_intro",
-          "grammar": true,
-          "english": "V + 得 + adjective = how well",
+          "english": "How do you say 'he speaks very well' using 得?",
           "word": "说得很好",
           "romanized": "shuō de hěn hǎo",
-          "grammarNote": "**Verb + 得 + adjective** describes how well the action is done: 说得很好 = speaks very well.",
+          "grammarNote": "**Verb + 得 + adjective** = degree/manner complement — it rates how well the action is performed.\n\n说得很好 = speaks very well\n吃得很多 = eats a lot\n\nThe linker **得** (de) connects the verb to its rating.",
+          "phrase": "他说得很好。",
+          "phraseRomanized": "Tā shuō de hěn hǎo.",
+          "englishPhrase": "He speaks very well.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "说得很好",
+              "speaks very well"
+            ]
+          ],
           "format": "table",
           "table": {
             "title": "Degree complement: Verb + 得 + adjective",
+            "hint": "得 links the verb to a comment on how it is performed",
             "rows": [
               [
                 "verb",
@@ -2763,91 +2465,413 @@
               ]
             ],
             "highlight": "= 说得很好",
-            "note": "得 links the verb to a comment on how it's performed."
+            "note": "If the verb takes an object, repeat the verb before 得: 他喝茶喝得很多 (he drinks a lot of tea)."
           }
         },
         {
-          "id": "comp_de_produce",
-          "grammar": true,
-          "english": "describe how well",
-          "word": "得",
-          "romanized": "de",
-          "grammarNote": "Structure: **Verb + 得 + 很 + adjective**.",
-          "format": "produce",
-          "produce": {
-            "concept": "Verb + 得 + adjective rates the performance of the action.",
-            "task": "say 'she eats a lot' with 吃 (eat) and 多 (much)",
-            "answer": "她吃得很多。",
-            "gloss": "Tā chī de hěn duō — she eats a lot."
-          }
-        },
-        {
-          "id": "comp_de_cloze",
-          "grammar": true,
+          "id": "cpl_degree_trad_1",
           "english": "speaks very well",
+          "word": "说得很好",
+          "romanized": "shuō de hěn hǎo",
+          "phrase": "她说得很好。",
+          "phraseRomanized": "Tā shuō de hěn hǎo.",
+          "englishPhrase": "She speaks very well.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "说得很好",
+              "speaks very well"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_degree_trad_2",
+          "english": "eats a lot",
+          "word": "吃得很多",
+          "romanized": "chī de hěn duō",
+          "phrase": "他吃得很多。",
+          "phraseRomanized": "Tā chī de hěn duō.",
+          "englishPhrase": "He eats a lot.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "吃得很多",
+              "eats a lot"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_degree_trad_3",
+          "english": "he drinks tea a lot (verb-object doubling)",
+          "word": "他喝茶喝得很多",
+          "romanized": "tā hē chá hē de hěn duō",
+          "phrase": "他喝茶喝得很多。",
+          "phraseRomanized": "Tā hē chá hē de hěn duō.",
+          "englishPhrase": "He drinks a lot of tea.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "喝茶",
+              "drinks tea"
+            ],
+            [
+              "喝得很多",
+              "drinks a lot"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_resultative_table",
+          "grammar": true,
+          "english": "How do you attach a result complement — like 'finish eating' or 'understand by listening'?",
+          "word": "吃完 / 听懂",
+          "romanized": "chī wán / tīng dǒng",
+          "grammarNote": "**Verb + result complement** = the action reached its outcome.\n\n**完** (wán) = finished: 吃完 (finish eating), 做完 (finish doing), 看完 (finish reading)\n**懂** (dǒng) = understood: 听懂 (understand by listening), 看懂 (understand by reading)\n\nAdd **了** at the end to confirm the result happened.",
+          "phrase": "我吃完饭了。",
+          "phraseRomanized": "Wǒ chī wán fàn le.",
+          "englishPhrase": "I finished my meal.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃完",
+              "finished eating"
+            ],
+            [
+              "饭",
+              "meal/rice"
+            ],
+            [
+              "了",
+              "(completion)"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Resultative complements",
+            "hint": "verb + complement = action reached its outcome",
+            "rows": [
+              [
+                "吃完 chī wán",
+                "finish eating"
+              ],
+              [
+                "做完 zuò wán",
+                "finish doing"
+              ],
+              [
+                "看完 kàn wán",
+                "finish reading"
+              ],
+              [
+                "听懂 tīng dǒng",
+                "understand by listening"
+              ],
+              [
+                "看懂 kàn dǒng",
+                "understand by reading"
+              ]
+            ],
+            "highlight": "听懂 tīng dǒng",
+            "note": "Add 了 to confirm the result was achieved: 我听懂了 (I understood it)."
+          }
+        },
+        {
+          "id": "cpl_result_trad_1",
+          "english": "finished eating",
+          "word": "吃完了",
+          "romanized": "chī wán le",
+          "phrase": "我吃完了。",
+          "phraseRomanized": "Wǒ chī wán le.",
+          "englishPhrase": "I finished eating.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃完了",
+              "finished eating"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_result_trad_2",
+          "english": "understood by listening",
+          "word": "听懂了",
+          "romanized": "tīng dǒng le",
+          "phrase": "你听懂了吗？",
+          "phraseRomanized": "Nǐ tīng dǒng le ma?",
+          "englishPhrase": "Did you understand (by listening)?",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "听懂了",
+              "understood"
+            ],
+            [
+              "吗",
+              "(question)"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_result_trad_3",
+          "english": "finished reading / watching",
+          "word": "看完了",
+          "romanized": "kàn wán le",
+          "phrase": "我看完了。",
+          "phraseRomanized": "Wǒ kàn wán le.",
+          "englishPhrase": "I finished reading / watching.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "看完了",
+              "finished reading/watching"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_potential_table",
+          "grammar": true,
+          "english": "How do you say you CAN or CAN'T reach a result — using 得 or 不 between verb and complement?",
+          "word": "吃得完 / 吃不完",
+          "romanized": "chī de wán / chī bu wán",
+          "grammarNote": "**Potential complement**: insert **得** (can) or **不** (cannot) between the verb and its result complement.\n\n吃得完 = can finish eating\n吃不完 = can't finish eating\n\n听得懂 = can understand (by listening)\n听不懂 = can't understand (by listening)",
+          "phrase": "食物很多，我吃不完。",
+          "phraseRomanized": "Shíwù hěn duō, wǒ chī bu wán.",
+          "englishPhrase": "There is a lot of food; I can't finish it.",
+          "literal": [
+            [
+              "食物很多",
+              "there is a lot of food"
+            ],
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃不完",
+              "can't finish eating"
+            ]
+          ],
+          "format": "table",
+          "table": {
+            "title": "Potential complement: 得 (can) / 不 (cannot)",
+            "hint": "insert 得 or 不 between verb and result complement",
+            "rows": [
+              [
+                "吃得完 chī de wán",
+                "can finish eating"
+              ],
+              [
+                "吃不完 chī bu wán",
+                "can't finish eating"
+              ],
+              [
+                "听得懂 tīng de dǒng",
+                "can understand (by listening)"
+              ],
+              [
+                "听不懂 tīng bu dǒng",
+                "can't understand (by listening)"
+              ]
+            ],
+            "highlight": "吃不完 chī bu wán",
+            "note": "得 and 不 slot into the same position — between verb and complement."
+          }
+        },
+        {
+          "id": "cpl_potential_trad_1",
+          "english": "can't finish eating",
+          "word": "吃不完",
+          "romanized": "chī bu wán",
+          "phrase": "我吃不完。",
+          "phraseRomanized": "Wǒ chī bu wán.",
+          "englishPhrase": "I can't finish it.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃不完",
+              "can't finish eating"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_potential_trad_2",
+          "english": "can understand (by listening)",
+          "word": "听得懂",
+          "romanized": "tīng de dǒng",
+          "phrase": "你听得懂吗？",
+          "phraseRomanized": "Nǐ tīng de dǒng ma?",
+          "englishPhrase": "Can you understand (by listening)?",
+          "literal": [
+            [
+              "你",
+              "you"
+            ],
+            [
+              "听得懂",
+              "can understand"
+            ],
+            [
+              "吗",
+              "(question)"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_result_vs_potential",
+          "grammar": true,
+          "english": "What is the difference between 吃完了 (resultative) and 吃不完 (potential)?",
+          "word": "吃完了 vs 吃不完",
+          "romanized": "chī wán le vs chī bu wán",
+          "grammarNote": "**Resultative** (吃完了): the outcome **already happened** — 了 confirms completion.\n\n**Potential** (吃不完): ability/impossibility to reach the outcome — no 了, insert 得/不 inside the verb–complement cluster.",
+          "phrase": "我吃完了，但是你吃不完。",
+          "phraseRomanized": "Wǒ chī wán le, dànshì nǐ chī bu wán.",
+          "englishPhrase": "I finished eating, but you can't finish.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃完了",
+              "finished eating"
+            ],
+            [
+              "但是",
+              "but"
+            ],
+            [
+              "你",
+              "you"
+            ],
+            [
+              "吃不完",
+              "can't finish"
+            ]
+          ],
+          "format": "contrast",
+          "contrast": {
+            "prompt": "Did it already happen, or is it about ability?",
+            "a": {
+              "term": "吃完了 chī wán le",
+              "gloss": "finished eating — result already achieved (了)"
+            },
+            "b": {
+              "term": "吃不完 chī bu wán",
+              "gloss": "can't finish eating — potential (不 = unable to)"
+            }
+          }
+        },
+        {
+          "id": "cpl_potential_trad_3",
+          "english": "can't understand (by listening)",
+          "word": "听不懂",
+          "romanized": "tīng bu dǒng",
+          "phrase": "我听不懂。",
+          "phraseRomanized": "Wǒ tīng bu dǒng.",
+          "englishPhrase": "I can't understand (by listening).",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "听不懂",
+              "can't understand"
+            ]
+          ]
+        },
+        {
+          "id": "cpl_degree_cloze",
+          "grammar": true,
+          "english": "How do you say 'she does it very well' — which linker goes between 做 and 很好?",
           "word": "得",
           "romanized": "de",
-          "grammarNote": "The linker between verb and its rating is **得**.",
+          "grammarNote": "The linker for a degree/manner complement is always **得** (de).\n\n她做**得**很好 = she does it very well.",
+          "phrase": "她做得很好。",
+          "phraseRomanized": "Tā zuò de hěn hǎo.",
+          "englishPhrase": "She does it very well.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "做得很好",
+              "does it very well"
+            ]
+          ],
           "format": "cloze",
           "cloze": {
-            "prompt": "he speaks very well",
-            "text": "他说___很好",
+            "prompt": "she does it very well — fill in the linker",
+            "text": "她做___很好",
             "answer": "得",
             "options": [
               "得",
               "了"
             ]
-          },
-          "phrase": "他说得很好。",
-          "phraseRomanized": "Tā shuō de hěn hǎo.",
-          "englishPhrase": "He speaks very well."
-        },
-        {
-          "id": "comp_de_vs_de",
-          "grammar": true,
-          "english": "得 (how) vs 的 (whose)",
-          "word": "得 / 的",
-          "romanized": "de / de",
-          "grammarNote": "Both sound like 'de'. **得** rates an action (说得很好). **的** shows possession or links an adjective to a noun (我的书).",
-          "format": "contrast",
-          "contrast": {
-            "prompt": "Rating an action, or marking possession?",
-            "a": {
-              "term": "说得很好",
-              "gloss": "shuō de hěn hǎo — speaks well (得 = how)"
-            },
-            "b": {
-              "term": "我的书",
-              "gloss": "wǒ de shū — my book (的 = whose)"
-            }
           }
         },
         {
-          "id": "comp_summary",
+          "id": "cpl_potential_cloze",
           "grammar": true,
-          "english": "three kinds of complement",
-          "word": "结果 / 方向 / 得",
-          "romanized": "jiéguǒ / fāngxiàng / de",
-          "grammarNote": "Complements attach to a verb to add an outcome, a direction, or a rating.",
-          "format": "table",
-          "table": {
-            "title": "Complements at a glance",
-            "rows": [
-              [
-                "result",
-                "吃完 — finish eating"
-              ],
-              [
-                "direction",
-                "出去 — go out"
-              ],
-              [
-                "degree (得)",
-                "说得很好 — speaks well"
-              ]
+          "english": "How do you say 'I can finish eating' — what goes between 吃 and 完?",
+          "word": "吃得完",
+          "romanized": "chī de wán",
+          "grammarNote": "For potential complement **can**, insert **得** between verb and complement: 吃**得**完.\n\nFor **can't**, use **不**: 吃**不**完.",
+          "phrase": "这个不多，我吃得完。",
+          "phraseRomanized": "Zhège bù duō, wǒ chī de wán.",
+          "englishPhrase": "This isn't much; I can finish it.",
+          "literal": [
+            [
+              "这个",
+              "this"
             ],
-            "highlight": "degree (得)",
-            "note": "Result = outcome; direction = which way; 得 = how well."
+            [
+              "不多",
+              "not a lot"
+            ],
+            [
+              "我",
+              "I"
+            ],
+            [
+              "吃得完",
+              "can finish eating"
+            ]
+          ],
+          "format": "cloze",
+          "cloze": {
+            "prompt": "this isn't much — I can finish eating it",
+            "text": "我吃___完",
+            "answer": "得",
+            "options": [
+              "得",
+              "不"
+            ]
           }
         }
       ]
@@ -2859,339 +2883,430 @@
       "kind": "grammar",
       "cards": [
         {
-          "id": "ba_intro",
+          "id": "bb_g1",
           "grammar": true,
-          "english": "把 moves the object before the verb",
+          "english": "How do you say 'I ate the apple' using the 把 disposal construction?",
           "word": "把",
           "romanized": "bǎ",
-          "grammarNote": "**把** pulls the object in front of the verb to spotlight what happens TO it: **Subject + 把 + object + verb + result**.",
+          "grammarNote": "**把** pulls the object in front of the verb to show what happens TO it.\n\nStructure: **Subject + 把 + Object + Verb + 了/complement**\n\nThe object must be specific and known; the verb must carry 了 or a result complement.",
           "format": "table",
           "table": {
-            "title": "把 sentence structure",
+            "title": "把 disposal construction",
+            "hint": "object moves before the verb",
             "rows": [
               [
                 "Subject",
-                "我 wǒ — I"
+                "我 — I"
               ],
               [
-                "把 + object",
-                "把苹果 bǎ píngguǒ — the apple"
+                "把 + Object",
+                "把苹果 — the apple"
               ],
               [
-                "verb + result",
-                "吃了 chī le — ate (it up)"
+                "Verb + 了",
+                "吃了 — ate (it up)"
               ]
             ],
-            "highlight": "把 + object",
-            "note": "我把苹果吃了 = I ate the apple (up)."
+            "highlight": "把 + Object",
+            "note": "我把苹果吃了 = I ate the apple (up). The object is 'disposed of' by the action."
           },
           "phrase": "我把苹果吃了。",
           "phraseRomanized": "Wǒ bǎ píngguǒ chī le.",
-          "englishPhrase": "I ate the apple."
+          "englishPhrase": "I ate the apple.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "把苹果",
+              "the apple (object)"
+            ],
+            [
+              "吃了",
+              "ate (completed)"
+            ]
+          ]
         },
         {
-          "id": "ba_why",
+          "id": "bb_t1",
+          "english": "I drank the coffee.",
+          "word": "我把咖啡喝了。",
+          "romanized": "Wǒ bǎ kāfēi hē le.",
+          "phrase": "我把咖啡喝了。",
+          "phraseRomanized": "Wǒ bǎ kāfēi hē le.",
+          "englishPhrase": "I drank the coffee.",
+          "literal": [
+            [
+              "我",
+              "I"
+            ],
+            [
+              "把咖啡",
+              "the coffee"
+            ],
+            [
+              "喝了",
+              "drank (completed)"
+            ]
+          ]
+        },
+        {
+          "id": "bb_t2",
+          "english": "She gave me the tea.",
+          "word": "她把茶给我了。",
+          "romanized": "Tā bǎ chá gěi wǒ le.",
+          "phrase": "她把茶给我了。",
+          "phraseRomanized": "Tā bǎ chá gěi wǒ le.",
+          "englishPhrase": "She gave me the tea.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "把茶",
+              "the tea"
+            ],
+            [
+              "给我了",
+              "gave to me"
+            ]
+          ]
+        },
+        {
+          "id": "bb_t3",
+          "english": "Please give me the menu.",
+          "word": "请把菜单给我。",
+          "romanized": "Qǐng bǎ càidān gěi wǒ.",
+          "phrase": "请把菜单给我。",
+          "phraseRomanized": "Qǐng bǎ càidān gěi wǒ.",
+          "englishPhrase": "Please give me the menu.",
+          "literal": [
+            [
+              "请",
+              "please"
+            ],
+            [
+              "把菜单",
+              "the menu"
+            ],
+            [
+              "给我",
+              "give me"
+            ]
+          ]
+        },
+        {
+          "id": "bb_g2",
           "grammar": true,
-          "english": "plain order vs 把 order",
+          "english": "What is the difference between 我吃了苹果 and 我把苹果吃了?",
           "word": "把",
           "romanized": "bǎ",
-          "grammarNote": "Use **把** when you want to stress what was done to a specific object — how it was dealt with, disposed of, or changed.",
+          "grammarNote": "Use **把** when you want to emphasize what was done TO a specific object — how it was handled, consumed, or changed.\n\nWithout 把, the sentence is a neutral statement of fact.",
           "format": "contrast",
           "contrast": {
-            "prompt": "Neutral statement, or focus on the object's fate?",
+            "prompt": "Neutral statement, or focus on what happened to the object?",
             "a": {
               "term": "我吃了苹果。",
-              "gloss": "Wǒ chī le píngguǒ — I ate an apple (neutral)"
+              "gloss": "Wǒ chī le píngguǒ — I ate an apple (neutral fact)"
             },
             "b": {
               "term": "我把苹果吃了。",
-              "gloss": "Wǒ bǎ píngguǒ chī le — I ate the apple up (what happened to it)"
+              "gloss": "Wǒ bǎ píngguǒ chī le — I ate the apple up (focus: disposal)"
             }
-          }
+          },
+          "phrase": "我把苹果吃了。",
+          "phraseRomanized": "Wǒ bǎ píngguǒ chī le.",
+          "englishPhrase": "I ate the apple up."
         },
         {
-          "id": "ba_needs_result",
+          "id": "bb_t4",
+          "english": "He ate the rice.",
+          "word": "他把米饭吃了。",
+          "romanized": "Tā bǎ mǐfàn chī le.",
+          "phrase": "他把米饭吃了。",
+          "phraseRomanized": "Tā bǎ mǐfàn chī le.",
+          "englishPhrase": "He ate the rice.",
+          "literal": [
+            [
+              "他",
+              "he"
+            ],
+            [
+              "把米饭",
+              "the rice"
+            ],
+            [
+              "吃了",
+              "ate (completed)"
+            ]
+          ]
+        },
+        {
+          "id": "bb_g3",
           "grammar": true,
-          "english": "把 needs more than a bare verb",
+          "english": "Why is 把苹果吃 wrong? What must come after the verb?",
           "word": "把…吃完",
           "romanized": "bǎ … chī wán",
-          "grammarNote": "A **把** verb can't stand alone — add 了 or a complement to show the result: 把饭吃完 (finish the rice), not just 把饭吃.",
+          "grammarNote": "A **把** verb cannot stand bare — it must carry **了** or a result complement to show a clear outcome.\n\n**Complete the action** with 了 (completion) or a complement like 完 (finish) or 好 (done properly).",
           "format": "table",
           "table": {
-            "title": "把 verbs take an extra element",
+            "title": "把 verb must show a result",
             "rows": [
               [
-                "bare verb (no)",
-                "把苹果吃 — incomplete"
+                "bare verb (wrong)",
+                "把苹果吃 — incomplete, no result shown"
               ],
               [
-                "+ 了 (yes)",
+                "verb + 了 (correct)",
                 "把苹果吃了 — ate it up"
               ],
               [
-                "+ complement (yes)",
-                "把饭吃完 — finish the rice"
+                "verb + 完 (correct)",
+                "把米饭吃完 — finish eating the rice"
               ]
             ],
-            "highlight": "+ 了 (yes)",
-            "note": "The verb needs 了 or a complement so there's a clear outcome."
-          }
-        },
-        {
-          "id": "ba_give",
-          "grammar": true,
-          "english": "把 for handing something over",
-          "word": "把",
-          "romanized": "bǎ",
-          "grammarNote": "**把 + object + 给 + person** is the natural way to ask someone to pass you something.",
-          "format": "produce",
-          "produce": {
-            "concept": "把 + object + 给我 = hand the object to me.",
-            "task": "say 'please give me the menu' with 菜单 (menu) and 给我",
-            "answer": "请把菜单给我。",
-            "gloss": "Qǐng bǎ càidān gěi wǒ — please give me the menu."
-          }
-        },
-        {
-          "id": "ba_cloze",
-          "grammar": true,
-          "english": "I drank the coffee",
-          "word": "把",
-          "romanized": "bǎ",
-          "grammarNote": "The doer + **把** + object + verb + 了.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "I drank the coffee (up)",
-            "text": "我___咖啡喝了",
-            "answer": "把",
-            "options": [
-              "把",
-              "被"
-            ]
+            "highlight": "bare verb (wrong)",
+            "note": "The verb after 把 always needs 了 or a complement. This is the most common learner error."
           },
-          "phrase": "我把咖啡喝了。",
-          "phraseRomanized": "Wǒ bǎ kāfēi hē le.",
-          "englishPhrase": "I drank the coffee."
+          "phrase": "把米饭吃完。",
+          "phraseRomanized": "Bǎ mǐfàn chī wán.",
+          "englishPhrase": "Finish eating the rice."
         },
         {
-          "id": "ba_finish",
-          "grammar": true,
-          "english": "把 + complement",
-          "word": "把…吃完",
-          "romanized": "bǎ … chī wán",
-          "grammarNote": "把 pairs naturally with a result complement like 完.",
-          "format": "produce",
-          "produce": {
-            "concept": "把 + object + verb + complement.",
-            "task": "say 'finish the rice' with 饭 (rice) and 吃完 (finish eating)",
-            "answer": "把饭吃完。",
-            "gloss": "Bǎ fàn chī wán — finish (eating) the rice."
-          }
-        },
-        {
-          "id": "ba_salt",
-          "grammar": true,
-          "english": "pass me the salt",
-          "word": "把",
-          "romanized": "bǎ",
-          "grammarNote": "Same handing-over pattern: 请 + 把 + object + 给我.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "please pass me the salt",
-            "text": "请___盐给我",
-            "answer": "把",
-            "options": [
-              "把",
-              "在"
-            ]
-          },
-          "phrase": "请把盐给我。",
-          "phraseRomanized": "Qǐng bǎ yán gěi wǒ.",
-          "englishPhrase": "Please pass me the salt."
-        },
-        {
-          "id": "ba_summary",
-          "grammar": true,
-          "english": "把 recap",
-          "word": "把",
-          "romanized": "bǎ",
-          "grammarNote": "把 = you act ON an object and something happens to it.",
-          "format": "table",
-          "table": {
-            "title": "把 — disposal construction",
-            "rows": [
-              [
-                "structure",
-                "Subj + 把 + Obj + Verb + 了/complement"
-              ],
-              [
-                "example",
-                "我把苹果吃了 — I ate the apple"
-              ],
-              [
-                "focus",
-                "what happened to the object"
-              ]
+          "id": "bb_t5",
+          "english": "Finish the cake.",
+          "word": "把蛋糕吃完。",
+          "romanized": "Bǎ dàngāo chī wán.",
+          "phrase": "把蛋糕吃完。",
+          "phraseRomanized": "Bǎ dàngāo chī wán.",
+          "englishPhrase": "Finish the cake.",
+          "literal": [
+            [
+              "把蛋糕",
+              "the cake"
             ],
-            "highlight": "structure",
-            "note": "The object is known/specific; the verb must show a result."
-          }
+            [
+              "吃完",
+              "finish eating"
+            ]
+          ]
         },
         {
-          "id": "bei_intro",
+          "id": "bb_g4",
           "grammar": true,
-          "english": "被 = passive (done to the subject)",
+          "english": "How do you say 'the apple was eaten' using the 被 passive construction?",
           "word": "被",
           "romanized": "bèi",
-          "grammarNote": "**被** makes a passive: the subject receives the action. **Subject + 被 (+ doer) + verb + result**.",
+          "grammarNote": "**被** marks the passive: the subject receives the action.\n\nStructure: **Subject (receiver) + 被 (+ agent) + Verb + 了/complement**\n\nThe doer (agent) after 被 is optional — drop it when unknown or unimportant.",
           "format": "table",
           "table": {
-            "title": "被 sentence structure",
+            "title": "被 passive construction",
+            "hint": "subject receives the action",
             "rows": [
               [
                 "Subject (receiver)",
-                "苹果 píngguǒ — the apple"
+                "苹果 — the apple"
               ],
               [
-                "被 (+ doer)",
-                "被 bèi — by"
+                "被 (+ agent)",
+                "被他 — by him (optional)"
               ],
               [
-                "verb + result",
-                "吃了 chī le — was eaten"
+                "Verb + 了",
+                "吃了 — was eaten"
               ]
             ],
-            "highlight": "被 (+ doer)",
-            "note": "苹果被吃了 = the apple was eaten."
+            "highlight": "被 (+ agent)",
+            "note": "苹果被他吃了 = the apple was eaten by him. Drop 他 → 苹果被吃了 = the apple was eaten."
           },
-          "phrase": "苹果被吃了。",
-          "phraseRomanized": "Píngguǒ bèi chī le.",
-          "englishPhrase": "The apple was eaten."
+          "phrase": "苹果被他吃了。",
+          "phraseRomanized": "Píngguǒ bèi tā chī le.",
+          "englishPhrase": "The apple was eaten by him.",
+          "literal": [
+            [
+              "苹果",
+              "the apple"
+            ],
+            [
+              "被他",
+              "by him"
+            ],
+            [
+              "吃了",
+              "was eaten"
+            ]
+          ]
         },
         {
-          "id": "bei_agent",
-          "grammar": true,
-          "english": "被 + doer + verb",
-          "word": "被",
-          "romanized": "bèi",
-          "grammarNote": "Name the doer right after **被**: 被他吃了 = eaten by him.",
-          "format": "produce",
-          "produce": {
-            "concept": "Subject + 被 + doer + verb + 了.",
-            "task": "say 'the coffee was drunk by him' with 咖啡, 他, 喝了",
-            "answer": "咖啡被他喝了。",
-            "gloss": "Kāfēi bèi tā hē le — the coffee was drunk by him."
-          }
+          "id": "bb_t6",
+          "english": "The coffee was drunk by her.",
+          "word": "咖啡被她喝了。",
+          "romanized": "Kāfēi bèi tā hē le.",
+          "phrase": "咖啡被她喝了。",
+          "phraseRomanized": "Kāfēi bèi tā hē le.",
+          "englishPhrase": "The coffee was drunk by her.",
+          "literal": [
+            [
+              "咖啡",
+              "the coffee"
+            ],
+            [
+              "被她",
+              "by her"
+            ],
+            [
+              "喝了",
+              "was drunk"
+            ]
+          ]
         },
         {
-          "id": "bei_no_agent",
+          "id": "bb_t7",
+          "english": "The cake was eaten up.",
+          "word": "蛋糕被吃完了。",
+          "romanized": "Dàngāo bèi chī wán le.",
+          "phrase": "蛋糕被吃完了。",
+          "phraseRomanized": "Dàngāo bèi chī wán le.",
+          "englishPhrase": "The cake was eaten up.",
+          "literal": [
+            [
+              "蛋糕",
+              "the cake"
+            ],
+            [
+              "被",
+              "was (passive)"
+            ],
+            [
+              "吃完了",
+              "finished eating"
+            ]
+          ]
+        },
+        {
+          "id": "bb_g5",
           "grammar": true,
-          "english": "the doer is optional",
+          "english": "Can you drop the doer after 被? What is the difference between 苹果被吃了 and 苹果被他吃了?",
           "word": "被",
           "romanized": "bèi",
-          "grammarNote": "You can drop the doer after **被** when it's unknown or unimportant: 苹果被吃了.",
+          "grammarNote": "Yes — the agent after **被** is optional. Omit it when the doer is unknown, obvious, or unimportant.",
           "format": "contrast",
           "contrast": {
-            "prompt": "Doer left out, or named?",
+            "prompt": "Agent omitted, or named?",
             "a": {
               "term": "苹果被吃了。",
               "gloss": "Píngguǒ bèi chī le — the apple was eaten (by someone)"
             },
             "b": {
               "term": "苹果被他吃了。",
-              "gloss": "Píngguǒ bèi tā chī le — the apple was eaten by him"
+              "gloss": "Píngguǒ bèi tā chī le — the apple was eaten by him (named)"
             }
-          }
-        },
-        {
-          "id": "bei_cloze",
-          "grammar": true,
-          "english": "the cake was eaten",
-          "word": "被",
-          "romanized": "bèi",
-          "grammarNote": "Receiver + **被** + verb + complement.",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "the cake was eaten (up)",
-            "text": "蛋糕___吃完了",
-            "answer": "被",
-            "options": [
-              "被",
-              "把"
-            ]
           },
-          "phrase": "蛋糕被吃完了。",
-          "phraseRomanized": "Dàngāo bèi chī wán le.",
-          "englishPhrase": "The cake was eaten up."
+          "phrase": "苹果被吃了。",
+          "phraseRomanized": "Píngguǒ bèi chī le.",
+          "englishPhrase": "The apple was eaten."
         },
         {
-          "id": "bei_money",
-          "grammar": true,
-          "english": "my money was found",
-          "word": "被",
-          "romanized": "bèi",
-          "grammarNote": "被 works with a result complement like 找到 (find).",
-          "format": "cloze",
-          "cloze": {
-            "prompt": "my money was found",
-            "text": "我的钱___找到了",
-            "answer": "被",
-            "options": [
+          "id": "bb_t8",
+          "english": "My egg was eaten.",
+          "word": "我的鸡蛋被吃了。",
+          "romanized": "Wǒ de jīdàn bèi chī le.",
+          "phrase": "我的鸡蛋被吃了。",
+          "phraseRomanized": "Wǒ de jīdàn bèi chī le.",
+          "englishPhrase": "My egg was eaten.",
+          "literal": [
+            [
+              "我的鸡蛋",
+              "my egg"
+            ],
+            [
               "被",
-              "把"
+              "was (passive)"
+            ],
+            [
+              "吃了",
+              "eaten"
             ]
-          },
-          "phrase": "我的钱被找到了。",
-          "phraseRomanized": "Wǒ de qián bèi zhǎodào le.",
-          "englishPhrase": "My money was found."
+          ]
         },
         {
-          "id": "ba_bei_contrast",
+          "id": "bb_g6",
           "grammar": true,
-          "english": "把 vs 被 — two viewpoints",
+          "english": "What is the difference between 他把苹果吃了 (把) and 苹果被他吃了 (被)?",
           "word": "把 / 被",
           "romanized": "bǎ / bèi",
-          "grammarNote": "Same event, opposite starting point: **把** starts from the doer; **被** starts from the receiver.",
+          "grammarNote": "Same event, two viewpoints.\n\n**把** starts from the doer — the subject acts ON the object.\n**被** starts from the receiver — the subject has the action done TO it.\n\nBoth still need verb + 了 or a complement.",
           "format": "contrast",
           "contrast": {
-            "prompt": "Doer's view or receiver's view?",
+            "prompt": "Doer's view (把) or receiver's view (被)?",
             "a": {
               "term": "他把苹果吃了。",
-              "gloss": "Tā bǎ píngguǒ chī le — he ate the apple (doer first)"
+              "gloss": "Tā bǎ píngguǒ chī le — he ate the apple (doer first, 把)"
             },
             "b": {
               "term": "苹果被他吃了。",
-              "gloss": "Píngguǒ bèi tā chī le — the apple was eaten by him (receiver first)"
+              "gloss": "Píngguǒ bèi tā chī le — the apple was eaten by him (receiver first, 被)"
             }
-          }
+          },
+          "phrase": "他把苹果吃了。",
+          "phraseRomanized": "Tā bǎ píngguǒ chī le.",
+          "englishPhrase": "He ate the apple."
         },
         {
-          "id": "ba_bei_summary",
+          "id": "bb_t9",
+          "english": "She drank the tea.",
+          "word": "她把茶喝了。",
+          "romanized": "Tā bǎ chá hē le.",
+          "phrase": "她把茶喝了。",
+          "phraseRomanized": "Tā bǎ chá hē le.",
+          "englishPhrase": "She drank the tea.",
+          "literal": [
+            [
+              "她",
+              "she"
+            ],
+            [
+              "把茶",
+              "the tea"
+            ],
+            [
+              "喝了",
+              "drank (completed)"
+            ]
+          ]
+        },
+        {
+          "id": "bb_g7",
           "grammar": true,
-          "english": "把 and 被 at a glance",
+          "english": "What are the key rules for both 把 and 被?",
           "word": "把 / 被",
           "romanized": "bǎ / bèi",
-          "grammarNote": "Both restructure the sentence around an object, and both need the verb to carry 了 or a complement.",
+          "grammarNote": "Both 把 and 被 restructure the sentence around a specific object, and **both require the verb to carry 了 or a result complement** — a bare verb is never enough.",
           "format": "table",
           "table": {
-            "title": "把 vs 被",
+            "title": "把 vs 被 — at a glance",
             "rows": [
               [
-                "把 (disposal)",
-                "我把苹果吃了 — I ate the apple"
+                "把 structure",
+                "Subject + 把 + Object + Verb + 了/complement"
               ],
               [
-                "被 (passive)",
-                "苹果被吃了 — the apple was eaten"
+                "被 structure",
+                "Receiver + 被 (+ agent) + Verb + 了/complement"
               ],
               [
                 "both need",
-                "verb + 了 / complement"
+                "verb + 了 or a complement — not a bare verb"
               ]
             ],
-            "highlight": "被 (passive)",
-            "note": "把 = doer acts on object; 被 = object is acted upon."
-          }
+            "highlight": "both need",
+            "note": "把 = doer acts on object; 被 = object is acted upon. Same event, opposite starting point."
+          },
+          "phrase": "我把咖啡喝了。/ 咖啡被我喝了。",
+          "phraseRomanized": "Wǒ bǎ kāfēi hē le. / Kāfēi bèi wǒ hē le.",
+          "englishPhrase": "I drank the coffee. / The coffee was drunk by me."
         }
       ]
     }
