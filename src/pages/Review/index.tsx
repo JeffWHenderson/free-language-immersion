@@ -284,7 +284,7 @@ const Review = () => {
 
     const rate = (rating: Rating) => {
         if (!deck || !currentCard || !language || !deckId) return;
-        const ratedState = applyRating(currentCard.cardState, rating);
+        const ratedState = applyRating(currentCard.cardState, rating, `${deckId}:${currentCard.id}`);
         // Preserve bookmarked flag — currentCard.cardState is from session build time
         // and may not reflect a bookmark toggled mid-session
         const newState: CardState = { ...ratedState, bookmarked: deckState[currentCard.id]?.bookmarked };
@@ -622,7 +622,7 @@ const Review = () => {
             {isFlipped ? (
                 <div className="srs-rating-row">
                     {(() => {
-                        const preview = previewIntervals(currentCard.cardState);
+                        const preview = previewIntervals(currentCard.cardState, `${deckId}:${currentCard.id}`);
                         return (
                             <>
                                 <button className="srs-rating again" onClick={() => rate(1)}>

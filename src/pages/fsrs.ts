@@ -100,6 +100,56 @@ function nextInterval(s: number): number {
     return Math.max(1, Math.round(days));
 }
 
+// ── Interval shaping: cap + fuzz ──────────────────────────────────────────────
+
+/**
+ * Hard ceiling on a scheduled interval, in days. Stability keeps growing past
+ * this, so raising the cap later restores the longer schedule rather than
+ * having to relearn anything.
+ */
+export const MAX_INTERVAL = 365;
+
+// Fuzz widens as intervals grow (FSRS's own ranges). Without it, every card
+// introduced on the same day comes back on the same day forever, so one big
+// batch avalanches together review after review.
+const FUZZ_RANGES = [
+    { start: 2.5, end: 7.0, factor: 0.15 },
+    { start: 7.0, end: 20.0, factor: 0.10 },
+    { start: 20.0, end: Infinity, factor: 0.05 },
+];
+
+/**
+ * A stable 0–1 offset for one card. Fuzz must not use Math.random(): applyRating
+ * is pure and previewIntervals calls it to label the rating buttons, so a random
+ * offset would show the user an interval the rating then doesn't give. Seeding
+ * from the card's identity plus its current numbers keeps the preview exact
+ * while still scattering cards that are otherwise in identical states.
+ */
+function fuzzSeed(state: CardState, rating: Rating, seedKey: string): number {
+    const str = `${seedKey}|${state.stability}|${state.difficulty}|${state.reps}|${state.lapses}|${state.lastReview}|${rating}`;
+    let h = 2166136261;
+    for (let i = 0; i < str.length; i++) {
+        h ^= str.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+    }
+    return ((h >>> 0) % 100_000) / 100_000;
+}
+
+/** Clamp an interval to MAX_INTERVAL and scatter it within its fuzz window. */
+function fuzzedInterval(interval: number, seed: number): number {
+    const i = Math.min(interval, MAX_INTERVAL);
+    if (i < 2.5) return Math.max(1, Math.round(i));
+
+    let delta = 1;
+    for (const range of FUZZ_RANGES) {
+        delta += range.factor * Math.max(Math.min(i, range.end) - range.start, 0);
+    }
+    const lo = Math.max(2, Math.round(i - delta));
+    const hi = Math.min(Math.round(i + delta), MAX_INTERVAL);
+    if (hi <= lo) return lo;
+    return lo + Math.floor(seed * (hi - lo + 1));
+}
+
 function recallStability(d: number, s: number, r: number, rating: Rating): number {
     const hardPenalty = rating === 2 ? W[15] : 1;
     const easyBonus = rating === 4 ? W[16] : 1;
@@ -117,8 +167,12 @@ function updateDifficulty(d: number, rating: Rating): number {
 
 // ── Public API ────────────────────────────────────────────────────────────────
 
-/** Returns the new card state after a rating. Does NOT handle level promotion. */
-export function applyRating(state: CardState, rating: Rating): CardState {
+/**
+ * Returns the new card state after a rating. Does NOT handle level promotion.
+ * `seedKey` identifies the card (any stable string) so its interval fuzz differs
+ * from other cards in the same state; pass the same key to previewIntervals.
+ */
+export function applyRating(state: CardState, rating: Rating, seedKey = ""): CardState {
     const today = todayISO();
     const { lapses } = state;
 
@@ -132,7 +186,7 @@ export function applyRating(state: CardState, rating: Rating): CardState {
             return { ...state, stability: s, difficulty: d, lapses: lapses + 1,
                      reps: 0, dueDate: today, lastReview: today, state: "learning" };
         }
-        const interval = nextInterval(s);
+        const interval = fuzzedInterval(nextInterval(s), fuzzSeed(state, rating, seedKey));
         return { ...state, stability: s, difficulty: d, reps: state.reps + 1,
                  dueDate: addDays(interval), lastReview: today, state: "review" };
     }
@@ -149,16 +203,16 @@ export function applyRating(state: CardState, rating: Rating): CardState {
     }
 
     const s = recallStability(state.difficulty, state.stability, R, rating);
-    const interval = nextInterval(s);
+    const interval = fuzzedInterval(nextInterval(s), fuzzSeed(state, rating, seedKey));
     return { ...state, stability: s, difficulty: d, reps: state.reps + 1,
              dueDate: addDays(interval), lastReview: today, state: "review" };
 }
 
 /** Preview the resulting interval for each rating without mutating state. */
-export function previewIntervals(state: CardState): Record<Rating, string> {
+export function previewIntervals(state: CardState, seedKey = ""): Record<Rating, string> {
     const fmt = (days: number) => days <= 0 ? "today" : days === 1 ? "1d" : `${days}d`;
     const intervalFor = (r: Rating): number => {
-        const next = applyRating(state, r);
+        const next = applyRating(state, r, seedKey);
         if (next.state === "learning") return 0;
         const today = new Date(todayISO() + "T00:00:00");
         const due = new Date(next.dueDate + "T00:00:00");

@@ -280,7 +280,7 @@ const ESZHReview = () => {
 
     const rate = (rating: Rating) => {
         if (!currentCard) return;
-        const newState = applyRating(currentCard.cardState, rating);
+        const newState = applyRating(currentCard.cardState, rating, currentCard.id);
         setReviewed(r => r + 1);
 
         const next = [...session];
@@ -424,7 +424,7 @@ const ESZHReview = () => {
     }
 
     const remaining = session.length;
-    const preview = previewIntervals(currentCard.cardState);
+    const preview = previewIntervals(currentCard.cardState, currentCard.id);
 
     return (
         <div className="srs-container">

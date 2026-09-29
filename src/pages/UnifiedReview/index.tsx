@@ -262,7 +262,7 @@ const UnifiedReview = () => {
     const rate = (rating: Rating) => {
         if (!currentCard || !language) return;
         const deckState = getCardDeckState(currentCard);
-        const ratedState = applyRating(currentCard.cardState, rating);
+        const ratedState = applyRating(currentCard.cardState, rating, `${currentCard.deckKey}:${currentCard.id}`);
         const newState: CardState = { ...ratedState, bookmarked: deckState[currentCard.id]?.bookmarked };
         setReviewed(r => r + 1);
 
@@ -661,7 +661,7 @@ const UnifiedReview = () => {
             {isFlipped ? (
                 <div className="srs-rating-row">
                     {(() => {
-                        const preview = previewIntervals(currentCard.cardState);
+                        const preview = previewIntervals(currentCard.cardState, `${currentCard.deckKey}:${currentCard.id}`);
                         return (
                             <>
                                 <button className="srs-rating again" onClick={() => rate(1)}>
