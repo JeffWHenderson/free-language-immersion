@@ -1041,6 +1041,113 @@ button.srs-count:hover {
     color: #fff;
 }
 
+/* Deck pills (extension + grammar) carry two tap targets: the label toggles study
+   inclusion, the chevron opens the pack drawer. The wrapper owns the border and
+   fill so the pair still reads as one pill; the inner buttons stay transparent.
+   Inner rules are scoped to .srs-deck-pill so they outrank the global
+   `button:hover { border-color }` in index.css. */
+.srs-deck-pill {
+    display: inline-flex;
+    align-items: stretch;
+    border-radius: 999px;
+    border: 1.5px solid rgba(128, 128, 128, 0.3);
+    background: transparent;
+    overflow: hidden;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.srs-deck-pill:hover {
+    border-color: rgba(128, 128, 128, 0.55);
+}
+
+.srs-deck-pill .srs-deck-pill-label,
+.srs-deck-pill .srs-deck-pill-browse {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: var(--text-color, #111);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, opacity 0.15s;
+}
+
+.srs-deck-pill .srs-deck-pill-label {
+    padding: 7px 10px 7px 14px;
+}
+
+.srs-deck-pill .srs-deck-pill-browse {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    font-size: 1.05rem;
+    line-height: 1;
+    opacity: 0.4;
+    border-left: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+.srs-deck-pill .srs-deck-pill-label:hover,
+.srs-deck-pill .srs-deck-pill-browse:hover {
+    background: rgba(128, 128, 128, 0.12);
+}
+
+.srs-deck-pill .srs-deck-pill-browse:hover {
+    opacity: 0.85;
+}
+
+.srs-deck-pill.active {
+    background: #2980b9;
+    border-color: #2980b9;
+}
+
+.srs-deck-pill.active .srs-deck-pill-label,
+.srs-deck-pill.active .srs-deck-pill-browse {
+    color: #fff;
+}
+
+.srs-deck-pill.active .srs-deck-pill-browse {
+    opacity: 0.7;
+    border-left-color: rgba(255, 255, 255, 0.3);
+}
+
+.srs-deck-pill.active .srs-deck-pill-label:hover,
+.srs-deck-pill.active .srs-deck-pill-browse:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+/* Grammar deck pills — violet accent (matches grammar cards) */
+.srs-deck-pill.grammar {
+    border-color: rgba(142, 68, 173, 0.4);
+}
+
+.srs-deck-pill.grammar .srs-deck-pill-label,
+.srs-deck-pill.grammar .srs-deck-pill-browse {
+    color: #8e44ad;
+}
+
+.srs-deck-pill.grammar .srs-deck-pill-browse {
+    border-left-color: rgba(142, 68, 173, 0.25);
+}
+
+.srs-deck-pill.grammar:hover {
+    border-color: rgba(142, 68, 173, 0.7);
+}
+
+.srs-deck-pill.grammar.active {
+    background: #8e44ad;
+    border-color: #8e44ad;
+}
+
+.srs-deck-pill.grammar.active .srs-deck-pill-label,
+.srs-deck-pill.grammar.active .srs-deck-pill-browse {
+    color: #fff;
+}
+
+.srs-deck-pill.grammar.active .srs-deck-pill-browse {
+    border-left-color: rgba(255, 255, 255, 0.3);
+}
+
 /* ── Utility row (Stories / Grammar / Pictures / Print) ── */
 .srs-util-row {
     display: flex;

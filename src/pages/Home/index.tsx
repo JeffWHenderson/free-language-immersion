@@ -283,19 +283,34 @@ const Home = () => {
         );
     };
 
-    // Extension decks render as compact toggle pills (tap = include/exclude from study).
-    const renderExtensionPill = (group: TopicGroup) => {
+    // Extension and grammar decks render as compact pills with two tap targets:
+    // the label toggles study inclusion, the chevron opens the drawer to browse
+    // the deck's cards, stories and explanation (same drawer the main rows use).
+    const renderDeckPill = (group: TopicGroup) => {
         const isGrammar = group.parts[0].category === "grammar";
         const active = group.parts.some((p) => studyPacks.has(p.id));
         return (
-            <button
+            <div
                 key={group.key}
-                className={`srs-pill${isGrammar ? ' grammar' : ''}${active ? ' active' : ''}`}
-                onClick={() => toggleTopic(group)}
-                aria-pressed={active}
+                className={`srs-deck-pill${isGrammar ? ' grammar' : ''}${active ? ' active' : ''}`}
             >
-                {group.name}
-            </button>
+                <button
+                    className="srs-deck-pill-label"
+                    onClick={() => toggleTopic(group)}
+                    aria-pressed={active}
+                    title={active ? `Remove ${group.name} from study` : `Add ${group.name} to study`}
+                >
+                    {group.name}
+                </button>
+                <button
+                    className="srs-deck-pill-browse"
+                    onClick={() => setDrawerParts(group.parts)}
+                    aria-label={`Details for ${group.name}`}
+                    title={`Browse ${group.name}`}
+                >
+                    ›
+                </button>
+            </div>
         );
     };
 
@@ -330,7 +345,7 @@ const Home = () => {
                         </button>
                         {grammarOpen && (
                             <div className="srs-pill-cloud">
-                                {grammarTopics.map(renderExtensionPill)}
+                                {grammarTopics.map(renderDeckPill)}
                             </div>
                         )}
                     </div>
@@ -353,7 +368,7 @@ const Home = () => {
                         </button>
                         {extensionOpen && (
                             <div className="srs-pill-cloud">
-                                {extensionTopics.map(renderExtensionPill)}
+                                {extensionTopics.map(renderDeckPill)}
                             </div>
                         )}
                     </div>
